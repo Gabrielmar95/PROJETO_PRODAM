@@ -1,8 +1,8 @@
 # PROJETO PRODAM — Recuperação de Créditos
 
-**Última atualização:** 20/04/2026 (noite — limpeza de disco +53 GB + automação FIM_SESSAO)
+**Última atualização:** 20/04/2026 (manhã — pós-restauração de infra + git inicializado)
 **Contrato:** 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-**Status:** DETRAN notificação v5 gerada (aguarda Dr. Fábio) + TRD v2 + Anexos II/III · Sistema Multi-Agente S3 concluído + S3-bis patch renomeador v2 · Infraestrutura estabilizada: +53 GB liberados (disco 494→547 GB), junction PRODAM_DOCS recriada, automação FIM_SESSAO.ps1 funcionando · próximos devedores: SES/SUSAM, SSP, SEDUC, SEAD
+**Status:** DETRAN notificação extrajudicial 001/2026 assinada (17/04, ICP-Brasil) · Sistema Multi-Agente S3 concluído + S3-bis patch renomeador v2 (R1 ✅, abort benigno em A/C) · Etapa 5 E1.5 Inventariador pausada pelo usuário às 02:38 · próximos devedores: SES/SUSAM, SSP, SEDUC, SEAD
 
 ---
 
@@ -212,7 +212,6 @@ Padrão Brandão Ozores (extraído do PDF modelo em 16/04/2026):
 | **19/04/2026** | **DETRAN + arquitetura** | **Sistema Multi-Agente v2 aprovado (35 agentes, 11 sessões, DETRAN-only até S10) · Gate S0 5/5 ✅ em `DETRAN_AUDITORIA_COMPLETA/19_ESTADO_AGENTES/00_PREREQS/` · skill `atualizacao-monetaria-creditos` v2.0→v2.1 (nova flag `perspectiva={credor\|devedor}`) · backup SHA-256 `CCA29E8B...C7EA` (60.513 arquivos, 34,84 GB) · Lei AM RPV confirmada 2.748/2002 (não 2.478) · Playwright oficial (não Selenium)** |
 | **19/04/2026 (noite)** | **DETRAN — pós-notificação** | **Notificação assinada (SHA-256 `c4f05236...`) arquivada em `_NOTIFICACAO_ASSINADA/` com `hash_protocolo.txt` · conteúdo extraído (18 cts × 202 NFs × R$ 28.142.624,30) em `CONTEUDO_NOTIFICACAO_EXTRAIDO.json` · validação cruzada com prodam.db (`VALIDACAO_CRUZADA_BANCO_19_04_2026.md`) · gap analysis vs 4 fontes (`GAP_ANALYSIS_NOTIFICACAO_vs_FONTES.md` — 18 cts classificados A-OK/A/B · 5 ausentes do DB confirmados no profile · 4 (`8/2021`,`14/2019`,`23/2014`,`179/2018`) removidos do profile em 16/04 e re-adicionados em 17/04 14:36 pós-assinatura) · marco NF 110654 (CT 179/2018) totalmente documentado: NL 2021NL0001165 + OB 2021OB0001606 + PD 2021PD0001589 (19/08/2021 · José Maria Pinto GerFin DETRAN · cutoff 19/08/2026) · briefing `BRIEFING_REUNIAO_DR_FABIO.txt` com 3 decisões (4 cts sem PDF · redação Art. 202 VI CC na pág. 3 · divergência CSV vs profile para NF 110654) · inventário de lacunas: **5 cts + 85 NFs + 28 NEs** p/ download SPCF/SGTI + **646 HTMLs** p/ converter (`INVENTARIO_DOWNLOADS_E_CONVERSOES.md` + `LACUNAS_PARA_DOWNLOAD.csv` + `HTMLS_PARA_CONVERTER.csv`) · rascunho do pipeline `baixar_lacunas_spcf.py` (Playwright+dotenv) · `.env` criado e populado em `PROJETO_PRODAM/.env` (SPCF_USER/PASS/URL) + `.gitignore` com `.env` + credenciais removidas do §6** |
 | **20/04/2026 (tarde)** | **DETRAN — reconciliação profile + notificação v5 + anexos II/III + TRD + auditoria forense** | **Profile.json DETRAN reconciliado: `valor_canonico = R$ 28.196.572,22` criado como SSOT, `val_exig` e `val_atualizado` zerados como RESÍDUO (preservados em `_residuos_zerados_2026_04_20`), `correcao_monetaria_passo7` marcado SUPERADO, campos derivados (`ev_valor_esperado`, `ev_honorarios`) recalculados via Opção B; espelho `PRODAM_DOCS/profiles.json` sincronizado com `_sync_meta`. Laudo de auditoria forense v4 em 5 camadas concluído: veredito CORRETA COM RESSALVAS (`13_PECAS_JURIDICAS/auditorias/AUDITORIA_NOTIFICACAO_v4_2026-04-20.md`). Notificação v5 gerada (R$ 28.196.572,22 · CT 075/2022 corrigido com fator 1,0950 · nova Seção IV.A de ressalva CT 8/2021 · REsp 1.089.720/RS + AREsp 1.503.902 como reforço · regime precatório explicitado · 9 alterações rastreadas em `CHANGELOG_v4_para_v5.md`). Anexo II — Certidão Técnica de Cálculo BCB gerada com séries reais 189/433/4390/196. Anexo III v3 — cadeia 5 elos das 202 NFs com reconciliação 4 fontes, casamento 151/202 = 75% (vs 36/202 v2). Minuta TRD v2 (10 cláusulas · à vista 5% desc R$ 26.786.743,61 · 24 parcelas de R$ 1.174.857,18). Investigação dos Ofícios 001/002 no sistema PRODAM concluiu: **Ofício 001 pode ser reduzido em escopo** (CT 003/2026 já em `spcf_contratos` + `dados_completos.json` + PDF físico), **Ofício 002 indispensável** (aceites das 12 NFs CT 8/2021 ausentes em `05_ACEITES`). Commit `PRODAM_DOCS`: `9492ac4` pushed para GitHub.** |
-| **20/04/2026 (noite)** | **Infraestrutura — limpeza de disco +53 GB + automação FIM_SESSAO** | **Disco passou de 494 GB para 547 GB livres (+53 GB). Apagados: (1) cópia física duplicada de `PRODAM_DOCS` dentro de `DETRAN_AUDITORIA_COMPLETA` (25 GB) — criada por restauração da Lixeira (Recycle Bin não restaura junctions corretamente); junction recriada apontando para `PROJETO_PRODAM/PRODAM_DOCS`; (2) `_Inventarios_Antigos`, `_Scripts_Antigos`, `_backup_skills_20260417_1712` do Desktop (24 MB total) — backup ZIP em `C:\Users\gabri\_BACKUPS_EMERGENCIA\20260420_103450_3_pastas_antigas.zip`; (3) `_LIXO_NAO_USAR\DETRAN_PRODAM_DOCS_ANTES_JUNCTION` (25 GB) — snapshot obsoleto, conteúdo 100% coberto por `PRODAM_DOCS` oficial + GitHub (`github.com/Gabrielmar95/PRODAM_DOCS`, último commit `e80efe1`); inventário em `_BACKUPS_EMERGENCIA\20260420_104506_INVENTARIO_antes_de_apagar.txt`; (4) `DETRAN_AUDITORIA_COMPLETA_OLD_17-04-2026` (7 GB) movida para Lixeira — obsoleta (CLAUDE.md OLD 04:12 vs ATIVA 08:22) · inventário `_BACKUPS_EMERGENCIA\20260420_110145_INVENTARIO_DETRAN_OLD.txt` · aguardando esvaziamento definitivo. **Automação de fim de sessão criada:** `FIM_SESSAO.ps1` (4 etapas: checagem junction · git status · commit+push · espaço em disco) · `_LANCADOR_FIM_SESSAO.ps1` (GUI InputBox) · ícone "Fim de Sessao PRODAM.lnk" na área de trabalho apontando para o lançador · 3 execuções bem-sucedidas hoje. **Regra arquitetural reforçada:** junction `PRODAM_DOCS` dentro de `DETRAN_AUDITORIA_COMPLETA` é frágil contra operações de Lixeira do Windows — `FIM_SESSAO.ps1` valida automaticamente se ela continua sendo junction (alerta vermelho se virou pasta física de novo).** |
 | **20/04/2026 (madrugada→manhã)** | **DETRAN — incidente de infra + restauração + git inicial** | **Pasta `Desktop\DETRAN_AUDITORIA_COMPLETA` apagada às 03:07 (provável agente automático — possivelmente confundido pela existência do backup `_BACKUP_PRE_AGENTES_20260419_024647` criado por `robocopy /MIR` em 19/04 02:46). Restaurada da Lixeira via Shell.Application `Verbs().Item(0).DoIt()` em 13 s — **36.500 arquivos / 7,07 GB** recuperados (casco correto, sem `PRODAM_DOCS` físico — junction NTFS preservada apontando para `PROJETO_PRODAM\PRODAM_DOCS`). **Decisão:** NÃO usar o backup gordo de 32,46 GB (era enganoso — robocopy seguiu a junction e duplicou `PRODAM_DOCS` dentro). Backup `_BACKUP_PRE_AGENTES_20260419_024647` mantido como redundância **até 05/05/2026** (15 dias), depois pode apagar. **REGRA arquitetural fixada** em `DETRAN_AUDITORIA_COMPLETA/CLAUDE.md` (topo do arquivo): pasta filha = ~7 GB de análise, **nunca** duplicar `PRODAM_DOCS` dentro; se subir para 30+ GB, algum script copiou em vez de seguir a junction — investigar antes que a pasta seja apagada de novo. **Para futuros backups com robocopy:** usar `/XJ` (exclude junctions). **Git:** `PROJETO_PRODAM` inicializado como repo (`main`) com remote bare local em `C:\Users\gabri\git-backups\PROJETO_PRODAM.git` (mesmo padrão do SEDUC). **Commit inicial `47e6645` — 1.242 arquivos / 25,75 MB** (snapshot pós-restauração; bare comprimido = 5,64 MB). Inclui `DOSSIES_MULTIFORMATO/` (71 devedores × 5 formatos) + `AUDITORIA_COMPLETUDE/` (70 MDs por devedor) — tirados do `.gitignore` por terem alto valor de versionamento. `.gitignore` ampliado para excluir `PRODAM_DOCS/` (25,4 GB), `SPCF_EXTRACAO/` (6,9 GB), `_BACKUP_*/`, `*.sqlite`. Próximo push: `git -C "...\PROJETO_PRODAM" push` (tracking já configurado para `backup/main`). Ver §12 para detalhes de restauração.** |
 
 ---
@@ -308,17 +307,6 @@ Plano consolidado: `C:\Users\gabri\.claude\plans\estou-querendo-fazer-um-fluffy-
 
 ### Ciclo padrão a cada sessão
 
-**Opção 1 — Automatizado (recomendado a partir de 20/04/2026):**
-```powershell
-# Usar o icone "Fim de Sessao PRODAM" na area de trabalho
-# OU executar diretamente:
-cd C:\Users\gabri\Desktop\PROJETO_PRODAM
-./FIM_SESSAO.ps1 "descricao curta da sessao"
-# Roda 4 etapas: (1) valida junction PRODAM_DOCS em DETRAN, (2) git status,
-# (3) commit + push para backup/main, (4) exibe espaco em disco.
-```
-
-**Opção 2 — Manual:**
 ```powershell
 # Após editar arquivos e querer salvar
 cd C:\Users\gabri\Desktop\PROJETO_PRODAM
@@ -327,33 +315,6 @@ git status                              # conferir o que entrou
 git commit -m "<descricao curta>"
 git push                                # tracking ja vai para backup/main
 ```
-
-### ⚠️ Junction `PRODAM_DOCS` dentro de `DETRAN_AUDITORIA_COMPLETA` (regra arquitetural, 20/04/2026)
-
-A pasta `DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS\` **DEVE SER** uma junction NTFS apontando para `PROJETO_PRODAM\PRODAM_DOCS\` — nunca uma cópia física.
-
-**Por que isso importa:**
-- Se virar cópia física: duplica 25 GB em disco (incidente 19-20/04: backup robocopy seguiu junction e gerou backup gordo de 32 GB; Lixeira do Windows restaurou como pasta física gerando outros 25 GB duplicados).
-- A **Lixeira do Windows** não restaura junctions corretamente — restaura como pasta física. Se `PRODAM_DOCS` for restaurado da Lixeira, **a junction precisa ser recriada manualmente**.
-
-**Verificação:**
-```powershell
-fsutil reparsepoint query "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS"
-# Se retornar "Print Name: C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS" → junction OK
-# Se retornar erro "nao e um ponto de nova analise" → virou pasta fisica (ERRO)
-```
-
-**Recriação:**
-```powershell
-# 1. Remover pasta fisica (apos confirmar que nao tem dados exclusivos)
-Remove-Item -Recurse -Force "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS"
-# 2. Recriar junction
-New-Item -ItemType Junction `
-  -Path "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS" `
-  -Target "C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS"
-```
-
-`FIM_SESSAO.ps1` valida isso automaticamente a cada sessão (Etapa 1).
 
 ### O que está versionado (1.242 arq / 25,75 MB no commit inicial)
 
