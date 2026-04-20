@@ -211,7 +211,7 @@ Padrão Brandão Ozores (extraído do PDF modelo em 16/04/2026):
 | **17/04/2026** | **DETRAN** | **Organização Fases A/B/C/D · memorial v202 · 4 PDFs SPCF · marco NF 110654 · 2 ofícios · concluído** |
 | **19/04/2026** | **DETRAN + arquitetura** | **Sistema Multi-Agente v2 aprovado (35 agentes, 11 sessões, DETRAN-only até S10) · Gate S0 5/5 ✅ em `DETRAN_AUDITORIA_COMPLETA/19_ESTADO_AGENTES/00_PREREQS/` · skill `atualizacao-monetaria-creditos` v2.0→v2.1 (nova flag `perspectiva={credor\|devedor}`) · backup SHA-256 `CCA29E8B...C7EA` (60.513 arquivos, 34,84 GB) · Lei AM RPV confirmada 2.748/2002 (não 2.478) · Playwright oficial (não Selenium)** |
 | **19/04/2026 (noite)** | **DETRAN — pós-notificação** | **Notificação assinada (SHA-256 `c4f05236...`) arquivada em `_NOTIFICACAO_ASSINADA/` com `hash_protocolo.txt` · conteúdo extraído (18 cts × 202 NFs × R$ 28.142.624,30) em `CONTEUDO_NOTIFICACAO_EXTRAIDO.json` · validação cruzada com prodam.db (`VALIDACAO_CRUZADA_BANCO_19_04_2026.md`) · gap analysis vs 4 fontes (`GAP_ANALYSIS_NOTIFICACAO_vs_FONTES.md` — 18 cts classificados A-OK/A/B · 5 ausentes do DB confirmados no profile · 4 (`8/2021`,`14/2019`,`23/2014`,`179/2018`) removidos do profile em 16/04 e re-adicionados em 17/04 14:36 pós-assinatura) · marco NF 110654 (CT 179/2018) totalmente documentado: NL 2021NL0001165 + OB 2021OB0001606 + PD 2021PD0001589 (19/08/2021 · José Maria Pinto GerFin DETRAN · cutoff 19/08/2026) · briefing `BRIEFING_REUNIAO_DR_FABIO.txt` com 3 decisões (4 cts sem PDF · redação Art. 202 VI CC na pág. 3 · divergência CSV vs profile para NF 110654) · inventário de lacunas: **5 cts + 85 NFs + 28 NEs** p/ download SPCF/SGTI + **646 HTMLs** p/ converter (`INVENTARIO_DOWNLOADS_E_CONVERSOES.md` + `LACUNAS_PARA_DOWNLOAD.csv` + `HTMLS_PARA_CONVERTER.csv`) · rascunho do pipeline `baixar_lacunas_spcf.py` (Playwright+dotenv) · `.env` criado e populado em `PROJETO_PRODAM/.env` (SPCF_USER/PASS/URL) + `.gitignore` com `.env` + credenciais removidas do §6** |
-| **20/04/2026 (madrugada→manhã)** | **DETRAN — incidente de infra + restauração + git inicial** | **Pasta `Desktop\DETRAN_AUDITORIA_COMPLETA` apagada às 03:07 (provável agente automático — possivelmente confundido pela existência do backup `_BACKUP_PRE_AGENTES_20260419_024647` criado por `robocopy /MIR` em 19/04 02:46). Restaurada da Lixeira via Shell.Application `Verbs().Item(0).DoIt()` em 13 s — **36.500 arquivos / 7,07 GB** recuperados (casco correto, sem `PRODAM_DOCS` físico — junction NTFS preservada apontando para `PROJETO_PRODAM\PRODAM_DOCS`). **Decisão:** NÃO usar o backup gordo de 32,46 GB (era enganoso — robocopy seguiu a junction e duplicou `PRODAM_DOCS` dentro). Backup `_BACKUP_PRE_AGENTES_20260419_024647` mantido como redundância **até 05/05/2026** (15 dias), depois pode apagar. **REGRA arquitetural fixada** em `DETRAN_AUDITORIA_COMPLETA/CLAUDE.md` (topo do arquivo): pasta filha = ~7 GB de análise, **nunca** duplicar `PRODAM_DOCS` dentro; se subir para 30+ GB, algum script copiou em vez de seguir a junction — investigar antes que a pasta seja apagada de novo. **Para futuros backups com robocopy:** usar `/XJ` (exclude junctions). **Git:** `PROJETO_PRODAM` inicializado como repo (`main`) com remote bare local em `C:\Users\gabri\git-backups\PROJETO_PRODAM.git` (mesmo padrão do SEDUC); commit inicial = snapshot pós-restauração; `.gitignore` ampliado para excluir `PRODAM_DOCS/` (25,4 GB) e `SPCF_EXTRACAO/` (6,9 GB) e `_BACKUP_*/`.** |
+| **20/04/2026 (madrugada→manhã)** | **DETRAN — incidente de infra + restauração + git inicial** | **Pasta `Desktop\DETRAN_AUDITORIA_COMPLETA` apagada às 03:07 (provável agente automático — possivelmente confundido pela existência do backup `_BACKUP_PRE_AGENTES_20260419_024647` criado por `robocopy /MIR` em 19/04 02:46). Restaurada da Lixeira via Shell.Application `Verbs().Item(0).DoIt()` em 13 s — **36.500 arquivos / 7,07 GB** recuperados (casco correto, sem `PRODAM_DOCS` físico — junction NTFS preservada apontando para `PROJETO_PRODAM\PRODAM_DOCS`). **Decisão:** NÃO usar o backup gordo de 32,46 GB (era enganoso — robocopy seguiu a junction e duplicou `PRODAM_DOCS` dentro). Backup `_BACKUP_PRE_AGENTES_20260419_024647` mantido como redundância **até 05/05/2026** (15 dias), depois pode apagar. **REGRA arquitetural fixada** em `DETRAN_AUDITORIA_COMPLETA/CLAUDE.md` (topo do arquivo): pasta filha = ~7 GB de análise, **nunca** duplicar `PRODAM_DOCS` dentro; se subir para 30+ GB, algum script copiou em vez de seguir a junction — investigar antes que a pasta seja apagada de novo. **Para futuros backups com robocopy:** usar `/XJ` (exclude junctions). **Git:** `PROJETO_PRODAM` inicializado como repo (`main`) com remote bare local em `C:\Users\gabri\git-backups\PROJETO_PRODAM.git` (mesmo padrão do SEDUC). **Commit inicial `47e6645` — 1.242 arquivos / 25,75 MB** (snapshot pós-restauração; bare comprimido = 5,64 MB). Inclui `DOSSIES_MULTIFORMATO/` (71 devedores × 5 formatos) + `AUDITORIA_COMPLETUDE/` (70 MDs por devedor) — tirados do `.gitignore` por terem alto valor de versionamento. `.gitignore` ampliado para excluir `PRODAM_DOCS/` (25,4 GB), `SPCF_EXTRACAO/` (6,9 GB), `_BACKUP_*/`, `*.sqlite`. Próximo push: `git -C "...\PROJETO_PRODAM" push` (tracking já configurado para `backup/main`). Ver §12 para detalhes de restauração.** |
 
 ---
 
@@ -296,6 +296,66 @@ Plano consolidado: `C:\Users\gabri\.claude\plans\estou-querendo-fazer-um-fluffy-
 - CLAUDE.md §3 Etapa 5 menciona Selenium; Playwright é a ferramenta preferida agora.
 
 **Regra permanente do Gate:** o Maestro (E6.1) recusa executar qualquer esquadrão se algum arquivo do `00_PREREQS/` estiver ausente ou com hash inválido.
+
+---
+
+## 12. VERSIONAMENTO E BACKUP (git, desde 20/04/2026)
+
+**Working repo:** `C:\Users\gabri\Desktop\PROJETO_PRODAM\.git` · branch `main` · tracking `backup/main`
+**Bare backup:** `C:\Users\gabri\git-backups\PROJETO_PRODAM.git` (mesmo padrão do `SEDUC_AUDITORIA_COMPLETA.git` ao lado)
+
+### Ciclo padrão a cada sessão
+
+```powershell
+# Após editar arquivos e querer salvar
+cd C:\Users\gabri\Desktop\PROJETO_PRODAM
+git add -A
+git status                              # conferir o que entrou
+git commit -m "<descricao curta>"
+git push                                # tracking ja vai para backup/main
+```
+
+### O que está versionado (1.242 arq / 25,75 MB no commit inicial)
+
+- Todos os scripts Python (`scripts/`, `tests/`, raiz)
+- `CLAUDE.md`, `LEIAME.md`, `requirements.txt`
+- `DETRAN_AUDITORIA/`, `DETRAN_CONSOLIDADO_JSON/`, `DETRAN_CONTRATOS_JSON/`
+- `DOSSIES_MULTIFORMATO/` (71 devedores × html+json+md+xlsx + 4 csvs)
+- `AUDITORIA_COMPLETUDE/` (70 MDs de auditoria por devedor)
+- `dados/`, `relatorios/`
+- `.claude/`, `.github/`
+
+### O que NÃO está versionado (precisa restaurar manualmente após clone)
+
+| Item | Tamanho | Como recuperar |
+|---|---:|---|
+| `PRODAM_DOCS/` (fonte bruta) | 25,4 GB | Pen drive · OneDrive · `_BACKUP_PRE_AGENTES_20260419_024647/` (até 05/05/2026) |
+| `SPCF_EXTRACAO/` (cache) | 6,9 GB | Re-executar `baixar_lacunas_spcf.py` (precisa VPN + `.env`) |
+| `prodam.db` | 91 MB | `python scripts/atualizar_db.py` (regenera de PRODAM_DOCS) |
+| `.env` (credenciais SPCF) | <1 KB | Recriar manual: `SPCF_USER=02542720290` + `SPCF_PASS=GMS2026` + `SPCF_URL=https://spcf.prodam.am.gov.br/` |
+| Junction `DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS` | 0 (link) | `New-Item -ItemType Junction -Path "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS" -Target "C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS"` |
+
+### Restauração em caso de desastre
+
+```powershell
+# Cenario 1: perdi PROJETO_PRODAM inteira
+cd C:\Users\gabri\Desktop
+git clone "C:\Users\gabri\git-backups\PROJETO_PRODAM.git" PROJETO_PRODAM
+# (depois recriar PRODAM_DOCS, .env, prodam.db, junction — tabela acima)
+
+# Cenario 2: perdi o bare backup (mas working copy intacta)
+git init --bare "C:\Users\gabri\git-backups\PROJETO_PRODAM.git"
+git -C "C:\Users\gabri\Desktop\PROJETO_PRODAM" push backup main
+
+# Cenario 3: inspecionar snapshot historico em outro local
+git clone "C:\Users\gabri\git-backups\PROJETO_PRODAM.git" C:\Temp\snapshot_inspecao
+```
+
+### Cuidados ao versionar
+
+- **Nunca** adicionar `PRODAM_DOCS/`, `SPCF_EXTRACAO/`, `_BACKUP_*/`, `.env`, `prodam.db` ao staging — `.gitignore` protege, mas `git add -f` ignora o `.gitignore`. Não usar `-f`.
+- Antes de commits grandes, conferir tamanho: `git status --short | wc -l` e listar top maiores.
+- Para futuros backups com `robocopy` da pasta DETRAN, usar `/XJ` (exclude junctions) — senão o robocopy segue o link e duplica `PRODAM_DOCS` (gera o "backup gordo" de 32 GB que originou o incidente de 19-20/04).
 
 ---
 
