@@ -1,0 +1,22 @@
+{
+  "filename": "RECIBO__2addfdeebb.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\05_ACEITES\\RECIBO__2addfdeebb.pdf",
+  "categoria": "05_ACEITES",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499150,
+  "texto_length": 822,
+  "texto_preview": "R  E  C  I  B  O\nR$ 66.585,00\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n66.585,00 (SESSENTA E SEIS MIL, QUINHENTOS E OITENTA E CINCO REAIS), referente ao(s) serviços(s) de\nprocessamento de dados contratado(s), conforme a(s) nota(s) fiscal(is) de serviços abaixo discriminada(s), pelo\nqual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n25/2014\nSuporte técnico em sistemas de informação\n25011\n39.951,00\n1.997,55\n0,00\n0,00\n37.953,45\njan/2021\n25/2014\nAssessoria Técnica em Informática\n25020\n26.634,00\n1.331,70\n399,51\n0,00\n24.902,79\njan/2021\n66.585,00\n3.329,25\n399,51\n0,00\n62.856,24\nManaus, 27 de Outubro de 2021\nJosé Maria Pin",
+  "texto_completo": "R  E  C  I  B  O\nR$ 66.585,00\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n66.585,00 (SESSENTA E SEIS MIL, QUINHENTOS E OITENTA E CINCO REAIS), referente ao(s) serviços(s) de\nprocessamento de dados contratado(s), conforme a(s) nota(s) fiscal(is) de serviços abaixo discriminada(s), pelo\nqual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n25/2014\nSuporte técnico em sistemas de informação\n25011\n39.951,00\n1.997,55\n0,00\n0,00\n37.953,45\njan/2021\n25/2014\nAssessoria Técnica em Informática\n25020\n26.634,00\n1.331,70\n399,51\n0,00\n24.902,79\njan/2021\n66.585,00\n3.329,25\n399,51\n0,00\n62.856,24\nManaus, 27 de Outubro de 2021\nJosé Maria Pinto\nGerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "valores_brl": [
+      "66.585,00"
+    ],
+    "tipo_doc": "ACEITE_TECNICO"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "filename": "3º TA ao Contrato 006.2021 - Prazo.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\3º TA ao Contrato 006.2021 - Prazo.pdf",
+  "filename_parsed": {
+    "filename": "3º TA ao Contrato 006.2021 - Prazo.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 6,
+    "contrato_ano": 2021,
+    "contrato_ref": "006/2021",
+    "ta_numero": 3,
+    "modalidades": [
+      "PRORROGACAO_PRAZO"
+    ]
+  },
+  "pdf_meta": {
+    "num_paginas": 10,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 2010701
+  },
+  "texto_length": 30958,
+  "texto_preview": "\n\n\nGOVERNO DO ESTADO DO AMAZONAS\nADMINISTRAÇÃO FINANCEIRA INTEGRADA\nNota de Empenho\nUnidade Gestora\nGestão\nCredor\nNúmero Documento\nProcesso\nLicitação\nData Emissão\nNE Original\nModalidade\nEvento\nReferência\nValor\n011210 - DEPARTAMENTO ESTADUAL DE TRÂNSITO\n00002 - AUTARQUIA\n2024NE0000396\n04407920000180 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA\n400091 - Empenho de Despesa\n011210.004530/2024\nArt.24; XVI;  Lei 8.666/93\n 163.450,95\n21/03/2024\n5 - Dispensa de Licitação\n3 - Global\nNatureza Despesa\nFonte",
+  "clausulas_detectadas": {
+    "valor_contrato": [
+      "R$ 1.961.411,40"
+    ],
+    "vigencia": [
+      [
+        "02/03/2021",
+        "04/03/2024"
+      ],
+      [
+        "01/04/2024",
+        "01/04/2025"
+      ]
+    ],
+    "cnpj_contratada": [
+      "26.081.403/0001-04",
+      "28.593.387/0001-56"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

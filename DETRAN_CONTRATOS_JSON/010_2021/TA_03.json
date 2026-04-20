@@ -1,0 +1,32 @@
+{
+  "filename": "3º TA Contrato 010.2021 - Prazo.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\3º TA Contrato 010.2021 - Prazo.pdf",
+  "filename_parsed": {
+    "filename": "3º TA Contrato 010.2021 - Prazo.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 10,
+    "contrato_ano": 2021,
+    "contrato_ref": "010/2021",
+    "ta_numero": 3,
+    "modalidades": [
+      "PRORROGACAO_PRAZO"
+    ]
+  },
+  "pdf_meta": {
+    "num_paginas": 9,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 2118680
+  },
+  "texto_length": 12101,
+  "texto_preview": "\n\n\n\nGOVERNO DO ESTADO DO AMAZONAS\nADMINISTRAÇÃO FINANCEIRA INTEGRADA\nNota de Empenho\nUnidade Gestora\nGestão\nCredor\nNúmero Documento\nProcesso\nLicitação\nData Emissão\nNE Original\nModalidade\nEvento\nReferência\nValor\n011210 - DEPARTAMENTO ESTADUAL DE TRÂNSITO\n00002 - AUTARQUIA\n2024NE0001223\n04407920000180 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA\n400092 - Reforco do Empenho\n2024NE0001151\n011210.011435/2024\nArt.24; XVI;  Lei 8.666/93\n 1.820.097,40\n05/07/2024\n5 - Dispensa de Licitação\n2 - Estimativo\nN",
+  "clausulas_detectadas": {
+    "vigencia": [
+      [
+        "19/05/2022",
+        "17/06/2024"
+      ]
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

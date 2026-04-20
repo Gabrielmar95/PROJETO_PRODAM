@@ -1,0 +1,66 @@
+{
+  "filename": "07_spcf_cruzamento.csv",
+  "tipo_doc": "CSV_SPCF",
+  "categoria": "07_SCRAPING_SPCF",
+  "total_linhas": 8,
+  "campos": [
+    "﻿campo",
+    "valor"
+  ],
+  "amostra_5_linhas": [
+    {
+      "﻿campo": "cliente",
+      "valor": "DETRAN"
+    },
+    {
+      "﻿campo": "total_a_receber",
+      "valor": "9810879.48"
+    },
+    {
+      "﻿campo": "a_receber_2024",
+      "valor": "26258.87"
+    },
+    {
+      "﻿campo": "a_receber_2023",
+      "valor": "0"
+    },
+    {
+      "﻿campo": "a_receber_2022",
+      "valor": "6999575.98"
+    }
+  ],
+  "dados_completos": [
+    {
+      "﻿campo": "cliente",
+      "valor": "DETRAN"
+    },
+    {
+      "﻿campo": "total_a_receber",
+      "valor": "9810879.48"
+    },
+    {
+      "﻿campo": "a_receber_2024",
+      "valor": "26258.87"
+    },
+    {
+      "﻿campo": "a_receber_2023",
+      "valor": "0"
+    },
+    {
+      "﻿campo": "a_receber_2022",
+      "valor": "6999575.98"
+    },
+    {
+      "﻿campo": "a_receber_2021",
+      "valor": "2782119.03"
+    },
+    {
+      "﻿campo": "a_receber_2020",
+      "valor": "0"
+    },
+    {
+      "﻿campo": "a_receber_2019",
+      "valor": "2925.6"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "data": "2026-04-14",
+  "total_pdfs": 67,
+  "total_contratos_unicos": 12,
+  "contratos": {
+    "004/2016": {
+      "tem_principal": true,
+      "num_aditivos": 6,
+      "indices_filename": [],
+      "indices_ocr": [
+        "IGPM"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 2,
+          "indice": null,
+          "pct": 1.89,
+          "fonte": "ocr_texto",
+          "arquivo": "2° TA ao contrato 004.2016-prorrogação de prazo.pdf"
+        },
+        {
+          "ta": 3,
+          "indice": "IGPM",
+          "pct": 8.65,
+          "fonte": "ocr_texto",
+          "arquivo": "3º TA Contrato 004.2016 Prazo Of 3216.19.pdf"
+        }
+      ],
+      "total_documentos": 7
+    },
+    "006/2021": {
+      "tem_principal": true,
+      "num_aditivos": 5,
+      "indices_filename": [
+        "IGPM"
+      ],
+      "indices_ocr": [
+        "IGPM",
+        "IPCA"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 2,
+          "indice": "IGPM",
+          "pct": 5.45,
+          "fonte": "ocr_texto",
+          "arquivo": "2º TA ao Contrato 006.2021 - Prazo.pdf"
+        },
+        {
+          "ta": 2,
+          "indice": "IGPM",
+          "pct": 5.45,
+          "fonte": "ocr_texto",
+          "arquivo": "2º TA ao Contrato 006.2021 - Prazo.pdf"
+        },
+        {
+          "ta": 4,
+          "indice": "IGPM",
+          "pct": 6.54,
+          "fonte": "filename",
+          "arquivo": "4º TA ao Contrato 006.2021 - Prazo e reajuste 6,54% IGPM.pdf"
+        }
+      ],
+      "total_documentos": 6
+    },
+    "010/2021": {
+      "tem_principal": true,
+      "num_aditivos": 4,
+      "indices_filename": [],
+      "indices_ocr": [
+        "IGPM",
+        "IPCA"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 4,
+          "indice": "IGPM",
+          "pct": 25.0,
+          "fonte": "ocr_texto",
+          "arquivo": "4º TA Contrato 010.2021 - Prazo.pdf"
+        },
+        {
+          "ta": 4,
+          "indice": "IGPM",
+          "pct": 25.0,
+          "fonte": "ocr_texto",
+          "arquivo": "4º TA Contrato 010.2021 - Prazo.pdf"
+        }
+      ],
+      "total_documentos": 5
+    },
+    "012/2021": {
+      "tem_principal": true,
+      "num_aditivos": 5,
+      "indices_filename": [
+        "IPCA"
+      ],
+      "indices_ocr": [
+        "IGPM",
+        "IPCA"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 5,
+          "indice": "IPCA",
+          "pct": 5.06,
+          "fonte": "filename",
+          "arquivo": "5º TA do Contrato 012.2021 - Prazo e reajuste 5,06% IPCA.pdf"
+        },
+        {
+          "ta": 5,
+          "indice": "IGPM",
+          "pct": 25.0,
+          "fonte": "ocr_texto",
+          "arquivo": "5º TA do Contrato 012.2021 - Prazo e reajuste 5,06% IPCA.pdf"
+        },
+        {
+          "ta": 5,
+          "indice": "IGPM",
+          "pct": 5.06,
+          "fonte": "ocr_texto",
+          "arquivo": "5º TA do Contrato 012.2021 - Prazo e reajuste 5,06% IPCA.pdf"
+        },
+        {
+          "ta": 5,
+          "indice": "IGPM",
+          "pct": 5.06,
+          "fonte": "ocr_texto",
+          "arquivo": "5º TA do Contrato 012.2021 - Prazo e reajuste 5,06% IPCA.pdf"
+        },
+        {
+          "ta": 5,
+          "indice": "IGPM",
+          "pct": 8.5,
+          "fonte": "ocr_texto",
+          "arquivo": "5º TA do Contrato 012.2021 - Prazo e reajuste 5,06% IPCA.pdf"
+        }
+      ],
+      "total_documentos": 6
+    },
+    "017/2015": {
+      "tem_principal": true,
+      "num_aditivos": 6,
+      "indices_filename": [],
+      "indices_ocr": [
+        "IGPM"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 1,
+          "indice": "IGPM",
+          "pct": 11.09,
+          "fonte": "ocr_texto",
+          "arquivo": "1º TA Contrato 017.2015.pdf"
+        },
+        {
+          "ta": 1,
+          "indice": "IGPM",
+          "pct": 11.09,
+          "fonte": "ocr_texto",
+          "arquivo": "1º TA Contrato 017.2015.pdf"
+        },
+        {
+          "ta": 1,
+          "indice": "IGPM",
+          "pct": 11.09,
+          "fonte": "ocr_texto",
+          "arquivo": "1º TA Contrato 017.2015.pdf"
+        },
+        {
+          "ta": 1,
+          "indice": "IGPM",
+          "pct": 11.09,
+          "fonte": "ocr_texto",
+          "arquivo": "1º TA Contrato 017.2015.pdf"
+        }
+      ],
+      "total_documentos": 7
+    },
+    "022/2014": {
+      "tem_principal": true,
+      "num_aditivos": 7,
+      "indices_filename": [],
+      "indices_ocr": [
+        "IGPM"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 1,
+          "indice": null,
+          "pct": 25.0,
+          "fonte": "ocr_texto",
+          "arquivo": "1ºTA CONTRATO 22.2014-SUPLEMENTAÇÃO 25%.pdf"
+        },
+        {
+          "ta": 1,
+          "indice": null,
+          "pct": 25.0,
+          "fonte": "ocr_texto",
+          "arquivo": "1ºTA CONTRATO 22.2014-SUPLEMENTAÇÃO 25%.pdf"
+        },
+        {
+          "ta": 1,
+          "indice": null,
+          "pct": 25.0,
+          "fonte": "ocr_texto",
+          "arquivo": "1ºTA CONTRATO 22.2014-SUPLEMENTAÇÃO 25%.pdf"
+        },
+        {
+          "ta": 3,
+          "indice": "IGPM",
+          "pct": 11.5,
+          "fonte": "ocr_texto",
+          "arquivo": "3º TA CT 022.14 - Prazo.pdf"
+        },
+        {
+          "ta": 3,
+          "indice": "IGPM",
+          "pct": 11.5,
+          "fonte": "ocr_texto",
+          "arquivo": "3º TA CT 022.14 - Prazo.pdf"
+        }
+      ],
+      "total_documentos": 9
+    },
+    "025/2014": {
+      "tem_principal": true,
+      "num_aditivos": 7,
+      "indices_filename": [],
+      "indices_ocr": [
+        "IGPM"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 3,
+          "indice": "IGPM",
+          "pct": 11.5,
+          "fonte": "ocr_texto",
+          "arquivo": "3º TA ao Contrato 25.2014.pdf"
+        }
+      ],
+      "total_documentos": 8
+    },
+    "027/2014": {
+      "tem_principal": true,
+      "num_aditivos": 6,
+      "indices_filename": [],
+      "indices_ocr": [
+        "IGPM"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 4,
+          "indice": null,
+          "pct": 59362.0,
+          "fonte": "ocr_texto",
+          "arquivo": "4º TA Contrato 27.2014.pdf"
+        }
+      ],
+      "total_documentos": 7
+    },
+    "060/2022": {
+      "tem_principal": true,
+      "num_aditivos": 0,
+      "indices_filename": [],
+      "indices_ocr": [],
+      "reajustes_aplicados": [],
+      "total_documentos": 1
+    },
+    "071/2022": {
+      "tem_principal": true,
+      "num_aditivos": 0,
+      "indices_filename": [],
+      "indices_ocr": [],
+      "reajustes_aplicados": [],
+      "total_documentos": 1
+    },
+    "075/2022": {
+      "tem_principal": true,
+      "num_aditivos": 5,
+      "indices_filename": [
+        "IPCA"
+      ],
+      "indices_ocr": [
+        "IPCA"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 2,
+          "indice": "IPCA",
+          "pct": 3.69,
+          "fonte": "filename",
+          "arquivo": "2º TA Contrato 075.2022 - Prazo e reajuste 3,69% IPCA.pdf"
+        },
+        {
+          "ta": 3,
+          "indice": "IPCA",
+          "pct": 5.32,
+          "fonte": "filename",
+          "arquivo": "3º TA Contrato 075.2022 - Prazo e reajuste 5,32% IPCA.pdf"
+        }
+      ],
+      "total_documentos": 6
+    },
+    "083/2022": {
+      "tem_principal": true,
+      "num_aditivos": 2,
+      "indices_filename": [
+        "IPCA"
+      ],
+      "indices_ocr": [
+        "IPCA"
+      ],
+      "reajustes_aplicados": [
+        {
+          "ta": 2,
+          "indice": "IPCA",
+          "pct": 4.24,
+          "fonte": "filename",
+          "arquivo": "2º TA Contrato 083.2022 - Prazo e reajuste 4,24% IPCA.pdf"
+        }
+      ],
+      "total_documentos": 4
+    }
+  }
+}

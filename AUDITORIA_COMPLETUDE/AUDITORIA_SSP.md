@@ -1,0 +1,56 @@
+# Auditoria de Completude — SSP
+**Secretaria de Segurança Pública** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+
+## Score de Completude: **54.5%**
+
+## Checklist de Documentos
+
+| Item | Status | Descrição |
+|------|--------|-----------|
+| `contrato` | ❌ FALTANDO | Pelo menos 1 contrato PDF ou ID |
+| `empenhos` | ✅ OK | NEs vinculadas ao contrato |
+| `nls` | ❌ FALTANDO | Notas de Liquidação |
+| `nfs` | ✅ OK | Notas Fiscais / RPS |
+| `aceites` | ❌ FALTANDO | Aceites técnicos / recibos |
+| `cobrancas` | ✅ OK | Registros de cobrança SPCF |
+| `oficios` | ❌ FALTANDO | Ofícios de cobrança |
+| `reconhecimento` | ✅ OK | Atos de reconhecimento tácito/expresso |
+| `cnd` | ❌ FALTANDO | CNDs / Certidões |
+| `dossie_folder` | ✅ OK | Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS |
+| `consolidado_folder` | ✅ OK | Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS |
+
+
+## Contagens (todas as fontes)
+
+| Fonte | Qtd | Valor |
+|-------|-----|-------|
+| Contratos SPCF | 0 | — |
+| Contratos no DB | 0 | — |
+| Empenhos no DB | 218 | R$ 136.963.244,94 |
+| Faturas no DB | 82 | R$ 6.290.728,66 |
+| Cobranças SPCF | 79 | — |
+
+## Paths no Projeto
+
+| Recurso | Caminho |
+|---------|---------|
+| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SSP_DOSSIE |
+| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SSP_CONSOLIDADO |
+| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\SSP |
+
+## Documentos Faltantes (5)
+
+- ❌ contrato: Pelo menos 1 contrato PDF ou ID
+- ❌ nls: Notas de Liquidação
+- ❌ aceites: Aceites técnicos / recibos
+- ❌ oficios: Ofícios de cobrança
+- ❌ cnd: CNDs / Certidões
+
+## Divergências (1)
+
+### Tipo: `valor_exig_vs_db_faturas`
+- **profile:** 4553230.799761455
+- **db_faturas:** 6290728.66
+- **delta:** 1737497.860238545
+- **pct:** 38.2%
+

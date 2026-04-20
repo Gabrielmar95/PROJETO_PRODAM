@@ -1,0 +1,200 @@
+{
+  "sigla": "BANCO BMG",
+  "profile": {
+    "nome_completo": "Banco BMG",
+    "sigla": "BANCO BMG",
+    "natureza": "EMPRESA_PRIVADA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": "39242.0",
+    "val_orig": "39242.0",
+    "val_atualizado": "39242.0",
+    "faturas_total": 0,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 0,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "2%",
+    "n_contratos": 0,
+    "regime_execucao": "protesto_serasa_sisbajud",
+    "titulo_executivo": false,
+    "status": "Valores extraídos (SPCF)",
+    "setor": "Banco",
+    "docs_financeiro": 10,
+    "prioridade_sugerida": "MÉDIA",
+    "observacoes": "Valor original R$ 39,242.00 — fonte: relatorio_devedores.xls. Análise massiva pendente para atualização monetária.",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "F",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "61.186.680/0001-74",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "PRIVADA",
+    "score_composto": 0.2167,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.15,
+    "ev_valor_esperado": "5886.3",
+    "ev_honorarios": "1177.26",
+    "esforco_estimado": 7,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 38,
+    "investigacao_documental": "Baixa prioridade — protesto em massa",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2029-10-01",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "BANCO BMG",
+    "spcf_total_receber": "69731.51",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 0,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "val_servicos_spcf_mar2026": "69731.50",
+    "val_liquido_spcf_mar2026": "69731.50",
+    "num_faturas_spcf_mar2026": 16,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 77.7,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "NORMAL",
+    "d_plus_prescricao": 1271,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [
+    {
+      "id": "163140",
+      "nf": "58131",
+      "contrato": "8/2023",
+      "valor_bruto": 7408.0,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 24
+    },
+    {
+      "id": "163955",
+      "nf": "58902",
+      "contrato": "8/2023",
+      "valor_bruto": 7198.0,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 24
+    },
+    {
+      "id": "164837",
+      "nf": "59787",
+      "contrato": "8/2023",
+      "valor_bruto": 7076.0,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 24
+    },
+    {
+      "id": "165491",
+      "nf": "60397",
+      "contrato": "8/2023",
+      "valor_bruto": 6930.0,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 24
+    },
+    {
+      "id": "166396",
+      "nf": "697",
+      "contrato": "8/2023",
+      "valor_bruto": 6834.0,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 24
+    },
+    {
+      "id": "163156",
+      "nf": "58141",
+      "contrato": "66/2024",
+      "valor_bruto": 2764.0,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "163827",
+      "nf": "58794",
+      "contrato": "66/2024",
+      "valor_bruto": 2690.0,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "164838",
+      "nf": "59786",
+      "contrato": "66/2024",
+      "valor_bruto": 2628.0,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "165563",
+      "nf": "60396",
+      "contrato": "66/2024",
+      "valor_bruto": 2548.0,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "166398",
+      "nf": "694",
+      "contrato": "66/2024",
+      "valor_bruto": 2498.0,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    }
+  ],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 10,
+      "valor_total": 48574.0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

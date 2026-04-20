@@ -1,0 +1,22 @@
+{
+  "filename": "RECIBO__0a1459a956.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\05_ACEITES\\RECIBO__0a1459a956.pdf",
+  "categoria": "05_ACEITES",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499437,
+  "texto_length": 1153,
+  "texto_preview": "R  E  C  I  B  O\nR$ 44.077,46\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n44.077,46 (QUARENTA E QUATRO MIL E SETENTA E SETE REAIS E QUARENTA E SEIS CENTAVOS),\nreferente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s) fiscal(is) de serviços\nabaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n27/2014\nFornecimento de Espaço em Rack\n25024\n745,00\n37,25\n0,00\n0,00\n707,75\nfev/2021\n27/2014\nFornecimento de circuito de transmissão de dados\n25030\n19.372,79\n968,64\n0,00\n0,00\n18.404,15\nfev/2021\n27/2014\nAcesso Gerenciado à Rede Mundial\n25033\n15.808,00\n790,40\n0,00\n0,00\n15.0",
+  "texto_completo": "R  E  C  I  B  O\nR$ 44.077,46\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n44.077,46 (QUARENTA E QUATRO MIL E SETENTA E SETE REAIS E QUARENTA E SEIS CENTAVOS),\nreferente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s) fiscal(is) de serviços\nabaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n27/2014\nFornecimento de Espaço em Rack\n25024\n745,00\n37,25\n0,00\n0,00\n707,75\nfev/2021\n27/2014\nFornecimento de circuito de transmissão de dados\n25030\n19.372,79\n968,64\n0,00\n0,00\n18.404,15\nfev/2021\n27/2014\nAcesso Gerenciado à Rede Mundial\n25033\n15.808,00\n790,40\n0,00\n0,00\n15.017,60\nfev/2021\n27/2014\nServiços de Firewall\n25038\n2.550,68\n127,53\n0,00\n0,00\n2.423,15\nfev/2021\n27/2014\nServiços de Firewall\n25039\n4.066,91\n203,35\n0,00\n0,00\n3.863,56\nfev/2021\n27/2014\nAcesso à MetroMao\n25040\n1.534,08\n76,70\n0,00\n0,00\n1.457,38\nfev/2021\n44.077,46\n2.203,87\n0,00\n0,00\n41.873,59\nManaus, 27 de Outubro de 2021\nJosé Maria Pinto\nGerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "valores_brl": [
+      "44.077,46"
+    ],
+    "tipo_doc": "ACEITE_TECNICO"
+  }
+}

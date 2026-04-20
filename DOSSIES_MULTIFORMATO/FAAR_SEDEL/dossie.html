@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê FAAR/SEDEL — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — FAAR/SEDEL</h1>
+<p><b>Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico</b> | GOV_INDIRETA | CNPJ: 35.933.557/0001-60 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 734.498,94</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 1.472.879,25</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">113</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">108</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">94</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">30%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2022NE0000363</td><td>26/2021</td><td>29/08/2022</td><td>R$ 164.431,28</td><td>Ativo</td></tr>
+<tr><td>2020NE00054</td><td>2/2020</td><td>17/06/2020</td><td>R$ 53.901,60</td><td>Ativo</td></tr>
+<tr><td>2023NE0000031</td><td>26/2021</td><td>25/01/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
+<tr><td>2023NE0000011</td><td></td><td>24/01/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
+<tr><td>2023NE00031</td><td>26/2021</td><td>15/02/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
+<tr><td>2023NE0000005</td><td>26/2021</td><td>02/01/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
+<tr><td>2021NE00434</td><td>26/2021</td><td>21/10/2021</td><td>R$ 43.555,02</td><td>Ativo</td></tr>
+<tr><td>2021NE0000434</td><td></td><td>21/10/2021</td><td>R$ 43.555,02</td><td>Ativo</td></tr>
+<tr><td>2022NE0000388</td><td>26/2021</td><td>21/09/2022</td><td>R$ 41.107,82</td><td>Ativo</td></tr>
+<tr><td>2021NE0000002</td><td>2/2020</td><td>04/01/2021</td><td>R$ 35.934,40</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>139491</td><td>35978</td><td>26/2021</td><td>03/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>140720</td><td>140720</td><td>26/2021</td><td>04/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>140908</td><td>140908</td><td>26/2021</td><td>05/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>142077</td><td>142077</td><td>26/2021</td><td>06/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>142389</td><td>142389</td><td>26/2021</td><td>07/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>143187</td><td>143187</td><td>26/2021</td><td>08/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>143947</td><td>143947</td><td>26/2021</td><td>09/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>144721</td><td>144721</td><td>26/2021</td><td>10/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>145873</td><td>145873</td><td>26/2021</td><td>11/2023</td><td>R$ 11.188,20</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>146171</td><td>146171</td><td>26/2021</td><td>12/2023</td><td>R$ 11.188,20</td><td>Emitida</td><td>FORTE</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Documentação fraca</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2020", "2021", "2022", "2023"],datasets:[
+    {label:'Qtd',data:[5, 29, 32, 28],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[85775.34000000001, 361422.6999999999, 490809.73999999993, 334720.07999999996],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

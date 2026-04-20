@@ -1,0 +1,35 @@
+{
+  "filename": "7º TERMO ADITIVO CT 022.2014  para assinatura.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\7º TERMO ADITIVO CT 022.2014  para assinatura.pdf",
+  "filename_parsed": {
+    "filename": "7º TERMO ADITIVO CT 022.2014  para assinatura.pdf",
+    "tipo": "CONTRATO_PRINCIPAL",
+    "contrato_num": 22,
+    "contrato_ano": 2014,
+    "contrato_ref": "022/2014"
+  },
+  "pdf_meta": {
+    "num_paginas": 2,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 143665
+  },
+  "texto_length": 10202,
+  "texto_preview": " \nAv. Mário Ypiranga, nº 2884 \nParque Dez de Novembro. \nManaus/AM-CEP 69.050-030 \nFone: (92) 3643-0056 \n \n \nSÉTIMO TERMO ADITIVO AO CONTRATO Nº. 02\n \n \nAos 25 (vinte e cinco) dias do mês de \nda CONTRATANTE, situada na Rua Mário Ypiranga, n.º 2.884, bairro: Parque 10 de Novembro, presentes o \nESTADO DO AMAZONAS, por intermédio d\nDETRAN/AM, Membro da Administração Indireta do Estado, com CNPJ n.º 04.224.028/0001\ndesignado simplesmente CONTRATANTE\nDE SÁ BARBOSA, brasileiro, casado, Delegado de Polí",
+  "clausulas_detectadas": {
+    "valor_contrato": [
+      "R$ 2.875.502,28"
+    ],
+    "vigencia": [
+      [
+        "25/05/2019",
+        "25/11/2020"
+      ]
+    ],
+    "cnpj_contratada": [
+      "04.407.920/0001-80",
+      "04.224.028/0001-63"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

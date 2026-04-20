@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê AMAZONPREV — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — AMAZONPREV</h1>
+<p><b>Instituto de Previdência do Amazonas</b> | GOV_INDIRETA | CNPJ: 04.986.163/0001-46 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi média">MÉDIA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 736.219,79</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 1.142.951,74</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">21</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">2</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">174</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">47%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2020NE00159</td><td>1/2020</td><td>18/02/2020</td><td>R$ 3.564.202,51</td><td>Ativo</td></tr>
+<tr><td>2021NE0000025</td><td>10/2019</td><td>04/01/2021</td><td>R$ 1.526.090,72</td><td>Ativo</td></tr>
+<tr><td>2020NE00025</td><td>10/2019</td><td>02/01/2020</td><td>R$ 1.526.090,72</td><td>Ativo</td></tr>
+<tr><td>2019NE00009</td><td>14/2014</td><td>02/01/2019</td><td>R$ 1.002.036,08</td><td>Ativo</td></tr>
+<tr><td>2015NE00053</td><td>14/2014</td><td>14/01/2015</td><td>R$ 985.383,12</td><td>Ativo</td></tr>
+<tr><td>2015NE00065</td><td>14/2014</td><td>14/01/2015</td><td>R$ 985.383,12</td><td>Ativo</td></tr>
+<tr><td>2015NE00018</td><td>14/2014</td><td>05/01/2015</td><td>R$ 985.383,12</td><td>Ativo</td></tr>
+<tr><td>2016NE00066</td><td>14/2014</td><td>04/01/2016</td><td>R$ 985.383,12</td><td>Ativo</td></tr>
+<tr><td>2018NE00033</td><td>14/2014</td><td>02/01/2018</td><td>R$ 985.383,12</td><td>Ativo</td></tr>
+<tr><td>2017NE00064</td><td>14/2014</td><td>02/01/2017</td><td>R$ 985.383,12</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>138008</td><td>34566</td><td>10/2019</td><td>12/2022</td><td>R$ 249.276,10</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>156751</td><td>51892</td><td>1/2023</td><td>01/2025</td><td>R$ 16.252,80</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>164681</td><td>59668</td><td>12/2020</td><td>11/2025</td><td>R$ 10.691,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>161490</td><td>56591</td><td>3/2024</td><td>07/2025</td><td>R$ 983,99</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>155708</td><td>50931</td><td>13/2020</td><td>01/2024</td><td>R$ 729,09</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Documentação fraca</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[7, 9, 10, 20, 16, 11, 15, 14, 5, 9, 30, 25, 3],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[1473593.66, 3641812.15, 1922740.34, 5001298.99, 4428500.14, 2522942.49, 7044327.5, 5336141.92, 636657.09, 889315.53, 895029.2999999996, 853488.57, 248520.13999999998],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

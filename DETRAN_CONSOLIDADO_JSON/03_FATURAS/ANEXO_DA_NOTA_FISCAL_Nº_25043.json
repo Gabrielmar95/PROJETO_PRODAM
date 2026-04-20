@@ -1,0 +1,24 @@
+{
+  "filename": "ANEXO DA NOTA FISCAL Nº 25043.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\ANEXO DA NOTA FISCAL Nº 25043.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 188980,
+  "texto_length": 1304,
+  "texto_preview": "1\n128168\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25266\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25043\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. de Controle Veículos Multas e\nTalonários\nCVMT -PERIODO:20/02/2021 A 19/03/2021\nMIL\n79,925\nPor milheiro de serviços RENAVAM incluídos no período\n1.064,60\n13,32\nMIL\n15,762\nPor milheiro de Vistorias incluídas no período\n209,95\n13,32\nUN\n4.971,00\nPo",
+  "texto_completo": "1\n128168\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25266\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25043\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. de Controle Veículos Multas e\nTalonários\nCVMT -PERIODO:20/02/2021 A 19/03/2021\nMIL\n79,925\nPor milheiro de serviços RENAVAM incluídos no período\n1.064,60\n13,32\nMIL\n15,762\nPor milheiro de Vistorias incluídas no período\n209,95\n13,32\nUN\n4.971,00\nPor unidade de Veículo incluído no período\n15.410,10\n3,10\nUN\n415,00\nPor unidade de Ocorrências com Veículos\n713,80\n1,72\nUN\n3,00\nPor unidade de Certidão Negativa de Multas Emitida\n5,16\n1,72\nUN\n32.658,00\nPor unidade de CRVL (DUAL) emitido\n22.860,60\n0,70\nUN\n13.117,00\nPor unidade de CRV (DUT) emitido\n13.117,00\n1,00\nMIL\n46.824,354\nPor milheiro de registro armazenado Veículos, Serviços RENAVAM/CRV/CRLV/Vistorias,\nProprietários\n374.594,83\n8,00\n427.976,04\n427.976,04\n427.976,04\nTOTAL DA PÁGINA\nTOTAL ACUMULADO\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "27/10/2021",
+      "20/02/2021",
+      "19/03/2021"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

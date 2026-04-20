@@ -1,0 +1,942 @@
+{
+  "sigla": "PMAM",
+  "profile": {
+    "nome_completo": "Polícia Militar do Amazonas",
+    "sigla": "PMAM",
+    "natureza": "Órgão de Segurança",
+    "categoria": "GOV_DIRETA",
+    "val_exig": "27020.90058524942",
+    "val_orig": "24351.49",
+    "val_atualizado": "38951.91005342395",
+    "faturas_total": 13,
+    "faturas_prescritas": 5,
+    "faturas_exigiveis": 8,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Análise pendente",
+    "observacoes": "Documentação fraca",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "63.656.292/0001-35",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "GOV",
+    "score_composto": 0.2863,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.2,
+    "ev_valor_esperado": "5404.18",
+    "ev_honorarios": "1080.84",
+    "esforco_estimado": 7,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 40,
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "PMAM",
+    "fonte_spcf": null,
+    "data_spcf": null,
+    "spcf_nota": "Nao encontrado no SPCF Mar/2026",
+    "val_servicos_spcf_mar2026": "24351.49",
+    "val_liquido_spcf_mar2026": "17759.11",
+    "num_faturas_spcf_mar2026": 13,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 27.07,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE02259",
+      "contrato": "",
+      "valor": 8021.6,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇAO DO SALDO DA NOTA DE EMPENHO, POR OCASIAO DO ENECERRAMENTO DO EXERCICIO."
+    },
+    {
+      "numero": "2019NE00432",
+      "contrato": "14/2017",
+      "valor": 9450.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2019",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2022NE0001303",
+      "contrato": "1/2018",
+      "valor": 13712.2,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2022",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento."
+    },
+    {
+      "numero": "2023NE0001037",
+      "contrato": "1/2023",
+      "valor": 16219.6,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2023 a 02/01/2024. PARECER JURÍDICO Nº 5089/2022/AJAI/PMAM."
+    },
+    {
+      "numero": "2023NE01037",
+      "contrato": "1/2023",
+      "valor": 16219.6,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2017NE00543",
+      "contrato": "14/2017",
+      "valor": 28350.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/05/2017",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2016NE00813",
+      "contrato": "",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2016",
+      "descricao": "REFORÇO DA NE 0043/2016 25905 - SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE DE APLICAÇÃO."
+    },
+    {
+      "numero": "2022NE0002581",
+      "contrato": "1/2018",
+      "valor": 6856.1,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2022",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento."
+    },
+    {
+      "numero": "2021NE0000374",
+      "contrato": "1/2018",
+      "valor": 6134.97,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2021",
+      "descricao": "CONTROLE DE PESSOAL DA PMAM."
+    },
+    {
+      "numero": "2015NE00581",
+      "contrato": "14/2012",
+      "valor": 35579.9,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2015",
+      "descricao": "Prestação de Serviço de Processamento de Dados. Especificação: Contratação de empresa especializada em Fornecimento de Circuito de Transmissão de Dados, compreendendo 02 (dois) links dedicados de 3 Mbps entre a PMAM e a PRODAM; TERCEIRO TERMO ADITIVO AO CONTRATO Nº 014/2012-PMAM"
+    },
+    {
+      "numero": "2015NE00582",
+      "contrato": "2/2012",
+      "valor": 13845.87,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2015",
+      "descricao": "REFORÇO DA NE 00223- SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE DE APLICAÇÃO."
+    },
+    {
+      "numero": "2023NE00297",
+      "contrato": "1/2023",
+      "valor": 16219.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE0000297",
+      "contrato": "1/2023",
+      "valor": 16219.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2023",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2023 a 02/01/2024."
+    },
+    {
+      "numero": "2021NE0000052",
+      "contrato": "1/2023",
+      "valor": 37800.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2021",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 021, FINS AJUSTE DE DATA DA EMISSÃO"
+    },
+    {
+      "numero": "2021NE0000055",
+      "contrato": "",
+      "valor": 25160.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2021",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 035, FINS AJUSTE DE DATA DA EMISSÃO"
+    },
+    {
+      "numero": "2019NE00431",
+      "contrato": "",
+      "valor": 9450.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2019",
+      "descricao": "ANULAÇÃO TOTAL PARA CORREÇÃO NA DATA DE GERAÇÃO DO EMPENHO."
+    },
+    {
+      "numero": "2019NE00430",
+      "contrato": "14/2017",
+      "valor": 9450.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2019",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2015NE00223",
+      "contrato": "2/2012",
+      "valor": 13845.87,
+      "situacao": "Ativo",
+      "data_emissao": "26/03/2015",
+      "descricao": "Cobertura trimestral 3º TA - 2015"
+    },
+    {
+      "numero": "2021NE0000035",
+      "contrato": "1/2018",
+      "valor": 25160.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2021",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2021 a 02/01/2022."
+    },
+    {
+      "numero": "2021NE0000339",
+      "contrato": "14/2017",
+      "valor": 28350.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2021",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2021NE0000021",
+      "contrato": "14/2017",
+      "valor": 37800.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/01/2021",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2022NE0003756",
+      "contrato": "1/2018",
+      "valor": 6856.1,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2022",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento."
+    },
+    {
+      "numero": "2015NE00976",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2015",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 00728, CONFORME SOLICITAÇÃO DO OFÍCIO Nº 0443/2015-CEAG. - ACERCA DO ENCERRAMENTO DO EXERCÍCIO CORRENTE."
+    },
+    {
+      "numero": "2014NE02512",
+      "contrato": "14/2012",
+      "valor": 115399.25,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2014",
+      "descricao": "Contrato No. 14/2012 - Link 3 Mpbs, Internet 4,4 Mpbs, Firewall"
+    },
+    {
+      "numero": "2015NE00618",
+      "contrato": "",
+      "valor": 1842.2,
+      "situacao": "Ativo",
+      "data_emissao": "18/06/2015",
+      "descricao": "PROCESSO INDENIZATÓRIO PARA PAGAMENTO DE DESPESAS REFERENTE A PROCESSAMENTO DE FOLHA ESPECIAL TIPO 61 E 62."
+    },
+    {
+      "numero": "2015NE01104",
+      "contrato": "",
+      "valor": 1842.2,
+      "situacao": "Ativo",
+      "data_emissao": "17/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01132",
+      "contrato": "",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "17/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01135",
+      "contrato": "",
+      "valor": 20754.94,
+      "situacao": "Ativo",
+      "data_emissao": "17/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2016NE00770",
+      "contrato": "2/2012",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2016",
+      "descricao": "REFORÇO DA NE 0043/2016 SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE DE APLICAÇÃO, Descrição: contratação de empresa especializada em prestação de serviços de desenvolvimento de software aplicativo para controle de pessoal MARCA: null Serviço de Sistema de Cadastro de Pessoal da Polícia Militar - CPPM. 4º TERMO ADITIVO AO CONTRATO Nº 002/2012-PMAM"
+    },
+    {
+      "numero": "2022NE0000200",
+      "contrato": "1/2018",
+      "valor": 27424.4,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2022",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2022 a 02/01/2023."
+    },
+    {
+      "numero": "2019NE01976",
+      "contrato": "",
+      "valor": 18870.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NE 1767 FINS AJUSTE Nº CONTRATO"
+    },
+    {
+      "numero": "2019NE01977",
+      "contrato": "1/2018",
+      "valor": 18870.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA DE CONTROLE DE PESSOAL - CPPM, FISN ATENDER AS NECESSIDADES DA PMAM."
+    },
+    {
+      "numero": "2023NE0001202",
+      "contrato": "1/2023",
+      "valor": 8109.8,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2023",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2023 a 02/01/2024. PARECER JURÍDICO Nº 5089/2022/AJAI/PMAM."
+    },
+    {
+      "numero": "2016NE00553",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00142 do 3º Aditivo ao Contrato nº 014/2012-PMAM - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. - Contratação de Serviços de Telecomunicações para atender a PMAM, referente ao mês JULHO de 2015."
+    },
+    {
+      "numero": "2016NE00534",
+      "contrato": "14/2012",
+      "valor": 2964.99,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00143 do 3º Aditivo ao Contrato nº 014/2012-PMAM - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. - Contratação de Serviços de Telecomunicações para atender a PMAM, referentes ao mês AGOSTO de 2015"
+    },
+    {
+      "numero": "2016NE00533",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00142 do 3º Aditivo ao Contrato nº 014/2012-PMAM - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. - Contratação de Serviços de Telecomunicações para atender a PMAM, referente ao mês JULHO de 2015."
+    },
+    {
+      "numero": "2016NE00552",
+      "contrato": "",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NE 00533 PARA CORREÇÃO NA DESCRIÇÃO DA NE."
+    },
+    {
+      "numero": "2016NE00535",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00144 do 3º Aditivo ao Contrato nº 014/2012-PMAM - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. - Contratação de Serviços de Telecomunicações para atender a PMAM; referentes ao mês SETEMBRO de 2015."
+    },
+    {
+      "numero": "2016NE00841",
+      "contrato": "",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2016",
+      "descricao": "REFORÇO DA NE 0043/2016 25905 - SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE DE APLICAÇÃO."
+    },
+    {
+      "numero": "2015NE00732",
+      "contrato": "14/2012",
+      "valor": 53369.85,
+      "situacao": "Ativo",
+      "data_emissao": "13/08/2015",
+      "descricao": "cobertura do 4º TA - MESES AGOSTO A OUT/2015"
+    },
+    {
+      "numero": "2015NE00734",
+      "contrato": "2/2012",
+      "valor": 13845.87,
+      "situacao": "Ativo",
+      "data_emissao": "13/08/2015",
+      "descricao": "Serviço de processamento do sistema de controle de pessoal. 3° Termo Aditivo ao Contrato n° 002/12 Período de vigência: Início: 02/01/2015 Término: 02/01/2016 Contrato atende Decreto n° 35.616/2015"
+    },
+    {
+      "numero": "2023NE0001238",
+      "contrato": "1/2023",
+      "valor": 8109.8,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2023",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2023 a 02/01/2024. PARECER JURÍDICO Nº 5089/2022/AJAI/PMAM."
+    },
+    {
+      "numero": "2021NE0000215",
+      "contrato": "14/2017",
+      "valor": 9450.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2021",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2021NE0000214",
+      "contrato": "1/2018",
+      "valor": 25160.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2021",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2021 a 02/01/2022."
+    },
+    {
+      "numero": "2021NE0000678",
+      "contrato": "1/2018",
+      "valor": 25160.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2021",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento."
+    },
+    {
+      "numero": "2021NE0000683",
+      "contrato": "14/2017",
+      "valor": 37800.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2021",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2015NE00027",
+      "contrato": "14/2012",
+      "valor": 69239.55,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Prestação de Serviço de Processamento de Dados. Especificação: Contratação de empresa especializada em Fornecimento de Circuito de Transmissão de Dados, compreendendo 02 (dois) links dedicados de 3 Mbps entre a PMAM e a PRODAM;"
+    },
+    {
+      "numero": "2018NE00929",
+      "contrato": "",
+      "valor": 66150.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "Anulação total da NE 927, para correção na modalidade da NE"
+    },
+    {
+      "numero": "2018NE00930",
+      "contrato": "14/2017",
+      "valor": 66150.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2018NE00927",
+      "contrato": "14/2017",
+      "valor": 66150.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2015NE00551",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2015",
+      "descricao": "COBERTURA MAIO 2015 - 3º TA"
+    },
+    {
+      "numero": "2021NE0000063",
+      "contrato": "14/2017",
+      "valor": 37800.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2021NE0000081",
+      "contrato": "1/2018",
+      "valor": 25160.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2021 a 02/01/2022."
+    },
+    {
+      "numero": "2016NE00043",
+      "contrato": "2/2012",
+      "valor": 27691.74,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Contratação de Empresa Especializada para a prestação de Serviços de Cadastro de pessoas da PMAM - Disp. Lic. DOE 32.223 de 28/12/11."
+    },
+    {
+      "numero": "2016NE00042",
+      "contrato": "14/2012",
+      "valor": 106739.7,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet com 6,9 MBPS e serviço de firewall - DOE 32.371, Portaria 065/AJ Geral-2012 - DOE 32.390 30/08/12."
+    },
+    {
+      "numero": "2015NE00721",
+      "contrato": "14/2012",
+      "valor": 35579.9,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico. MARCA: null TERCEIRO TERMO ADITIVO AO CONTRATO Nº 014/2012-PMAM."
+    },
+    {
+      "numero": "2015NE00720",
+      "contrato": "14/2012",
+      "valor": 35579.9,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NE 0581 PARA CORREÇÃO NA MODALIDADE E EVENTO."
+    },
+    {
+      "numero": "2015NE00728",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "Prestação de Serviço de Processamento de Dados. Especificação: Contratação de empresa especializada em Fornecimento de Circuito de Transmissão de Dados, compreendendo 02 (dois) links dedicados de 3 Mbps entre a PMAM e a PRODAM; Especificação: Conforme descrição supracitadas. 4º (QUARTO) TERMO ADITIVO AO CONTRATO Nº 014/2012-PMAM"
+    },
+    {
+      "numero": "2015NE00649",
+      "contrato": "2/2012",
+      "valor": 13247.07,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2015",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE DE APLICAÇÃO, Descrição: SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE DE APLICAÇÃO, Descrição: contratação de empresa especializada em prestação de serviços de desenvolvimento de software aplicativo para controle de pessoal MARCA: null Prestação de serviço de Processamento de Dados Especificação: Serviço de Sistema de Cadastro de Pessoal da Polícia Militar - CPPM. 3º TERMO ADITIVO AO CONTRATO Nº 002/2012-PMAM"
+    },
+    {
+      "numero": "2015NE00648",
+      "contrato": "2/2012",
+      "valor": 13247.07,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 223 PARA CORREÇÃO DA REFERÊNCIA LEGAL E EMISSÃO DO NOVO EMPENHO."
+    },
+    {
+      "numero": "2017NE00195",
+      "contrato": "",
+      "valor": 18461.16,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2017",
+      "descricao": "Reforço NE00016 - Contratação de Empresa Especializada para prestação de serviço de Cadastro de pessoas da PMAM - Disp. Lic. DOE 32.223 de 28/12/2011"
+    },
+    {
+      "numero": "2022NE0000023",
+      "contrato": "1/2018",
+      "valor": 27424.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2022 a 02/01/2023."
+    },
+    {
+      "numero": "2016NE00444",
+      "contrato": "2/2012",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00140,referente ao mês de Dezembro de 2015 - Contratação de empresa especializada em desenvolvimento de software ,NFS-e nº 17063 de 22/12/2015 (R$ 4.615,29)."
+    },
+    {
+      "numero": "2016NE00442",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00138 referente ao mês de Dezembro de 2015 - Contratação de sv de telecomunicações da PRODAM NFS-e nº 16880 de 02/12/2015 (R$ 5.295,25), nº 16881 de 02/12/2015 (R$ 8.370,46) e nº 16882 de 02/12/2015 (R$ 4.124,24) ."
+    },
+    {
+      "numero": "2016NE00441",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00137, mês de Novembro de 2015 -Contratação de serv. de telecomunicações da PRODAM - NFS-e nº 16533 de 10/11/2015 R$ 8.370,46), nº 16534 de 10/11/2015 (R$ 4.124,24) e nº 16535 de 10/11/2015 (R$ 5.295,25)"
+    },
+    {
+      "numero": "2016NE00443",
+      "contrato": "2/2012",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "Reconhecimento de dívida 2016RD00139 referente ao mês de Novembro de 2015 - Contratação de empresa especializada em desenvolvimento de software-NFS-e nº 16643 de 23/11/2015 (R$ 4.615,29)."
+    },
+    {
+      "numero": "2023NE0000002",
+      "contrato": "1/2023",
+      "valor": 32439.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2023 a 02/01/2024."
+    },
+    {
+      "numero": "2020NE00003",
+      "contrato": "1/2018",
+      "valor": 75480.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada para implantação do sistema de Recursos Humanos e Folha de pagamento. Vigência: 12 (doze) meses, a contar de 02/01/2020 a 02/01/2021"
+    },
+    {
+      "numero": "2020NE00002",
+      "contrato": "14/2017",
+      "valor": 47250.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2019NE00001",
+      "contrato": "1/2018",
+      "valor": 18870.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA DE CONTROLE DE PESSOAL - CPPM, FISN ATENDER AS NECESSIDADES DA PMAM."
+    },
+    {
+      "numero": "2019NE00006",
+      "contrato": "14/2017",
+      "valor": 28350.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2018NE00059",
+      "contrato": "",
+      "valor": 47250.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE PARA CORREÇÃO DA DESCRIÇÃO"
+    },
+    {
+      "numero": "2018NE00053",
+      "contrato": "14/2017",
+      "valor": 47250.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2018NE00065",
+      "contrato": "14/2017",
+      "valor": 47250.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2018NE00069",
+      "contrato": "1/2018",
+      "valor": 75480.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA (PRODAM) NA PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA DE CONTROLE DE PESSOAL (CPPM), FINS ATENDER AS NECESSIDADES DA PMAM"
+    },
+    {
+      "numero": "2017NE00016",
+      "contrato": "2/2012",
+      "valor": 18461.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de Empresa Especializada para prestação de serviço de Cadastro de pessoas da PMAM - Disp. Lic. DOE 32.223 de 28/12/2011."
+    },
+    {
+      "numero": "2014NE00050",
+      "contrato": "14/2012",
+      "valor": 152069.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 14/2012 - Link 3 Mpbs, Internet 4,4 Mpbs, Firewall"
+    },
+    {
+      "numero": "2014NE00035",
+      "contrato": "2/2012",
+      "valor": 53430.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 2/2012 - CPPM - Cadastro de Pessoal da Polícia Militar"
+    },
+    {
+      "numero": "2017NE02102",
+      "contrato": "2/2012",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Contratação de Empresa Especializada para prestação de serviço de Cadastro de pessoas da PMAM - Disp. Lic. DOE 32.223 de 28/12/2011."
+    },
+    {
+      "numero": "2017NE02101",
+      "contrato": "",
+      "valor": 9450.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2017NE01737",
+      "contrato": "2/2012",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação de Empresa Especializada para prestação de serviço de Cadastro de pessoas da PMAM - Disp. Lic. DOE 32.223 de 28/12/2011."
+    },
+    {
+      "numero": "2017NE01732",
+      "contrato": "14/2012",
+      "valor": 9450.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2019NE01767",
+      "contrato": "1/2018",
+      "valor": 18870.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA DE CONTROLE DE PESSOAL - CPPM, FISN ATENDER AS NECESSIDADES DA PMAM."
+    },
+    {
+      "numero": "2019NE01768",
+      "contrato": "14/2017",
+      "valor": 28350.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2017NE01216",
+      "contrato": "",
+      "valor": 9230.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Contratação de Empresa Especializada para prestação de serviço de Cadastro de pessoas da PMAM - Disp. Lic. DOE 32.223 de 28/12/2011."
+    },
+    {
+      "numero": "2017NE01224",
+      "contrato": "",
+      "valor": 18900.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2019NE01126",
+      "contrato": "",
+      "valor": 28350.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2019NE01127",
+      "contrato": "",
+      "valor": 18870.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA DE CONTROLE DE PESSOAL - CPPM, FISN ATENDER AS NECESSIDADES DA PMAM."
+    },
+    {
+      "numero": "2020NE00367",
+      "contrato": "14/2017",
+      "valor": 66150.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2020",
+      "descricao": "Contratação de empresa para prestação, de forma dedicada, de serviço de acesso á internet por fibra óptica com garantia de 100(por cento) em download e upload, inclusos equipamentos e instalação, conforme projeto básico. para 12 (doze meses)"
+    },
+    {
+      "numero": "2016NE00468",
+      "contrato": "2/2012",
+      "valor": 13845.87,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2016",
+      "descricao": "REFORÇO DA NE 0043/2016 SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE DE APLICAÇÃO, Descrição: contratação de empresa especializada em prestação de serviços de desenvolvimento de software aplicativo para controle de pessoal MARCA: null Serviço de Sistema de Cadastro de Pessoal da Polícia Militar - CPPM. 4º TERMO ADITIVO AO CONTRATO Nº 002/2012-PMAM"
+    },
+    {
+      "numero": "2016NE00467",
+      "contrato": "14/2012",
+      "valor": 17789.95,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2016",
+      "descricao": "REFORÇO NE 0042/2016 82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico. MARCA: null"
+    },
+    {
+      "numero": "2019NE00161",
+      "contrato": "1/2018",
+      "valor": 18870.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA DE CONTROLE DE PESSOAL - CPPM, FISN ATENDER AS NECESSIDADES DA PMAM."
+    },
+    {
+      "numero": "2019NE00159",
+      "contrato": "14/2017",
+      "valor": 18900.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "Contratação de Empresa Especializada para a prestação de serviço de informática, no Fornecimento de Circuito de Transmissão de Dados, acesso a Internet dedicado com velocidade de 15 Mbps. Portaria nº 044/AJG-2017, publ. DOE nº 33.528 de 23/05/17"
+    },
+    {
+      "numero": "2015NE00415",
+      "contrato": "14/2012",
+      "valor": 23079.85,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "REFORÇO DA NE 00027 REFERENTE CONTRATO 014/2012-PMAM"
+    },
+    {
+      "numero": "2015NE00414",
+      "contrato": "2/2012",
+      "valor": 4615.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "REFORÇO DA NE 00223 REFERENTE CONTRATO 002/2012-PMAM"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "145849",
+      "nf": "41753",
+      "contrato": "1/2023",
+      "valor_bruto": 7537.9,
+      "competencia": "11/2023",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 200
+    },
+    {
+      "id": "146633",
+      "nf": "42465",
+      "contrato": "1/2023",
+      "valor_bruto": 7537.9,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 200
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "PMAM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2023",
+      "Número": "145849",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145849/E",
+      "Comp.": "11/2023",
+      "Valor": "2.163,12",
+      "Atraso": "840 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "PMAM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2023",
+      "Número": "146633",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146633/E",
+      "Comp.": "12/2023",
+      "Valor": "7.537,90",
+      "Atraso": "805 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 95,
+      "valor_total": 2536803.94,
+      "por_ano": {
+        "2020": {
+          "qtd": 4,
+          "valor": 196901.6
+        },
+        "2019": {
+          "qtd": 13,
+          "valor": 245520.0
+        },
+        "2022": {
+          "qtd": 5,
+          "valor": 82273.20000000001
+        },
+        "2023": {
+          "qtd": 7,
+          "valor": 113537.2
+        },
+        "2017": {
+          "qtd": 9,
+          "valor": 121533.48
+        },
+        "2016": {
+          "qtd": 16,
+          "valor": 298848.39999999997
+        },
+        "2021": {
+          "qtd": 12,
+          "valor": 320934.97
+        },
+        "2015": {
+          "qtd": 19,
+          "valor": 420675.13000000006
+        },
+        "2014": {
+          "qtd": 3,
+          "valor": 320899.96
+        },
+        "2018": {
+          "qtd": 7,
+          "valor": 415680.0
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 2,
+      "valor_total": 15075.8
+    },
+    "cobrancas": {
+      "qtd": 2,
+      "valor_total": 9701.02
+    }
+  }
+}

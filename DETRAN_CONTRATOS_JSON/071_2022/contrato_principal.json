@@ -1,0 +1,25 @@
+{
+  "filename": "PROPOSTA 71.2022.PDF",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\PROPOSTA 71.2022.PDF",
+  "filename_parsed": {
+    "filename": "PROPOSTA 71.2022.PDF",
+    "tipo": "CONTRATO_PRINCIPAL",
+    "contrato_num": 71,
+    "contrato_ano": 2022,
+    "contrato_ref": "071/2022"
+  },
+  "pdf_meta": {
+    "num_paginas": 20,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 999343
+  },
+  "texto_length": 38402,
+  "texto_preview": "Proposta 71/2022\nManaus, 25 de Março de 2022\nRodrigo de Sá Barbosa\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nConforme entendimentos, apresentamos proposta para realização dos serviços descritos no\nobjeto desta.\nAv. Mario Ypiranga Monteiro, 2080 -  Adrianópolis\n1. OBJETO\nLicença de Uso de Sistema de Identificação e Controle dos Candidatos e Motoristas.\nManaus - AM\nAo Senhor\nSenhor Diretor-Presidente,\nNível de Classificação\nPúblico\nGrupo de acesso\nPRODAM\nO detalhamento do",
+  "clausulas_detectadas": {
+    "valor_contrato": [
+      "R$ 3.120.000,00"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

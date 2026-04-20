@@ -1,0 +1,613 @@
+{
+  "sigla": "BANCO MASTER",
+  "profile": {
+    "nome_completo": "Banco Master",
+    "sigla": "BANCO MASTER",
+    "natureza": "EMPRESA_PRIVADA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": "889270.87",
+    "val_orig": "889270.87",
+    "val_atualizado": "889270.87",
+    "faturas_total": 0,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 0,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "2%",
+    "n_contratos": 0,
+    "regime_execucao": "protesto_serasa_sisbajud",
+    "titulo_executivo": false,
+    "status": "Valores extraídos (SPCF)",
+    "setor": "Banco",
+    "docs_financeiro": 50,
+    "prioridade_sugerida": "ALTA",
+    "observacoes": "Valor original R$ 889,270.87 — fonte: relatorio_devedores.xls. Análise massiva pendente para atualização monetária.",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "F",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "33.884.941/0001-94",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "PRIVADA",
+    "score_composto": 0.2695,
+    "proximo_passo": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário.",
+    "p_recuperacao": 0.15,
+    "ev_valor_esperado": "133390.63",
+    "ev_honorarios": "26678.13",
+    "esforco_estimado": 8,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 20,
+    "ultima_interacao": "2026-03-25",
+    "investigacao_documental": "Notificacao Modelo F gerada 25/03/2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2029-10-01",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": true,
+    "situacao_cadastral": "EM_LIQUIDACAO_EXTRAJUDICIAL",
+    "grupo_economico": null,
+    "prazo_habilitacao": "2026-08-31",
+    "apagao_canetas_risco": null,
+    "nome": "BANCO MASTER",
+    "spcf_total_receber": "967386.73",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "val_servicos_spcf_mar2026": "967386.73",
+    "val_liquido_spcf_mar2026": "967386.73",
+    "num_faturas_spcf_mar2026": 57,
+    "reconciliacao_status": "MAJOR",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 8.78,
+    "urgencia_prescricao": "NORMAL",
+    "d_plus_prescricao": 1271,
+    "via_processual_recomendada": {
+      "via": "HABILITACAO_CREDITO",
+      "fundamentacao": "Liquidação extrajudicial BCB, crédito quirografário R$889K"
+    },
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [
+    {
+      "id": "160770",
+      "nf": "55836",
+      "contrato": "122/2023",
+      "valor_bruto": 37516.0,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "161396",
+      "nf": "56338",
+      "contrato": "122/2023",
+      "valor_bruto": 37482.0,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "158299",
+      "nf": "53427",
+      "contrato": "122/2023",
+      "valor_bruto": 37270.0,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "157592",
+      "nf": "52764",
+      "contrato": "122/2023",
+      "valor_bruto": 37240.0,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "159911",
+      "nf": "55000",
+      "contrato": "122/2023",
+      "valor_bruto": 37240.0,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "156830",
+      "nf": "51997",
+      "contrato": "122/2023",
+      "valor_bruto": 37186.0,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "162382",
+      "nf": "57407",
+      "contrato": "122/2023",
+      "valor_bruto": 37054.0,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "155750",
+      "nf": "50947",
+      "contrato": "122/2023",
+      "valor_bruto": 36934.0,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "152834",
+      "nf": "48165",
+      "contrato": "122/2023",
+      "valor_bruto": 36818.0,
+      "competencia": "08/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "153594",
+      "nf": "48882",
+      "contrato": "122/2023",
+      "valor_bruto": 36750.0,
+      "competencia": "09/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "159145",
+      "nf": "54256",
+      "contrato": "122/2023",
+      "valor_bruto": 36610.0,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "MEDIA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "155238",
+      "nf": "50380",
+      "contrato": "122/2023",
+      "valor_bruto": 36216.0,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "152037",
+      "nf": "47414",
+      "contrato": "122/2023",
+      "valor_bruto": 36068.0,
+      "competencia": "07/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "154386",
+      "nf": "49633",
+      "contrato": "122/2023",
+      "valor_bruto": 35928.0,
+      "competencia": "10/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "151276",
+      "nf": "46732",
+      "contrato": "122/2023",
+      "valor_bruto": 35710.0,
+      "competencia": "06/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "150448",
+      "nf": "45940",
+      "contrato": "122/2023",
+      "valor_bruto": 34862.0,
+      "competencia": "05/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "163151",
+      "nf": "58153",
+      "contrato": "122/2023",
+      "valor_bruto": 34706.0,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "163960",
+      "nf": "58899",
+      "contrato": "122/2023",
+      "valor_bruto": 32838.0,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "164846",
+      "nf": "59779",
+      "contrato": "122/2023",
+      "valor_bruto": 32720.0,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "165490",
+      "nf": "60393",
+      "contrato": "122/2023",
+      "valor_bruto": 32530.0,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "MEDIA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "150496",
+      "nf": "46023",
+      "contrato": "59/2024",
+      "valor_bruto": 10290.0,
+      "competencia": "05/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "151274",
+      "nf": "46733",
+      "contrato": "59/2024",
+      "valor_bruto": 10092.0,
+      "competencia": "06/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "152004",
+      "nf": "47413",
+      "contrato": "59/2024",
+      "valor_bruto": 9878.0,
+      "competencia": "07/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "152835",
+      "nf": "48166",
+      "contrato": "59/2024",
+      "valor_bruto": 9744.0,
+      "competencia": "08/2024",
+      "situacao": "Emitida",
+      "cadeia": "MEDIA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "153593",
+      "nf": "48883",
+      "contrato": "59/2024",
+      "valor_bruto": 9470.0,
+      "competencia": "09/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "154379",
+      "nf": "49634",
+      "contrato": "59/2024",
+      "valor_bruto": 9192.0,
+      "competencia": "10/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "155237",
+      "nf": "50381",
+      "contrato": "59/2024",
+      "valor_bruto": 8878.0,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "155979",
+      "nf": "51091",
+      "contrato": "14/2024",
+      "valor_bruto": 8624.0,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "156592",
+      "nf": "51754",
+      "contrato": "14/2024",
+      "valor_bruto": 8434.0,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "157594",
+      "nf": "52765",
+      "contrato": "14/2024",
+      "valor_bruto": 8236.0,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "158325",
+      "nf": "53453",
+      "contrato": "14/2024",
+      "valor_bruto": 8076.0,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "159144",
+      "nf": "54257",
+      "contrato": "14/2024",
+      "valor_bruto": 7634.0,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "159773",
+      "nf": "54892",
+      "contrato": "14/2024",
+      "valor_bruto": 7370.0,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "160667",
+      "nf": "55820",
+      "contrato": "14/2024",
+      "valor_bruto": 7200.0,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "161388",
+      "nf": "56339",
+      "contrato": "14/2024",
+      "valor_bruto": 7010.0,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "162395",
+      "nf": "57403",
+      "contrato": "14/2024",
+      "valor_bruto": 6710.0,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "163150",
+      "nf": "58154",
+      "contrato": "14/2024",
+      "valor_bruto": 5798.0,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "163830",
+      "nf": "58792",
+      "contrato": "14/2024",
+      "valor_bruto": 5314.0,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "164845",
+      "nf": "59780",
+      "contrato": "14/2024",
+      "valor_bruto": 4904.0,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "165508",
+      "nf": "60408",
+      "contrato": "14/2024",
+      "valor_bruto": 4594.0,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "166400",
+      "nf": "692",
+      "contrato": "14/2024",
+      "valor_bruto": 4104.0,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 3
+    },
+    {
+      "id": "163961",
+      "nf": "58900",
+      "contrato": "2/2025",
+      "valor_bruto": 1697.54,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "165661",
+      "nf": "60575",
+      "contrato": "2/2025",
+      "valor_bruto": 1680.49,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "164847",
+      "nf": "59781",
+      "contrato": "2/2025",
+      "valor_bruto": 1660.8,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "162393",
+      "nf": "57402",
+      "contrato": "2/2025",
+      "valor_bruto": 1397.46,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "161586",
+      "nf": "56618",
+      "contrato": "2/2025",
+      "valor_bruto": 1308.15,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "160759",
+      "nf": "55821",
+      "contrato": "2/2025",
+      "valor_bruto": 1162.37,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "160042",
+      "nf": "55153",
+      "contrato": "2/2025",
+      "valor_bruto": 1014.23,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "160041",
+      "nf": "55152",
+      "contrato": "2/2025",
+      "valor_bruto": 846.3,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "163099",
+      "nf": "58092",
+      "contrato": "2/2025",
+      "valor_bruto": 790.51,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "160040",
+      "nf": "55151",
+      "contrato": "2/2025",
+      "valor_bruto": 587.02,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    }
+  ],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 51,
+      "valor_total": 893374.87
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

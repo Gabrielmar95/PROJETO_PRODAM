@@ -1,0 +1,222 @@
+{
+  "filename": "dashboard.html",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\dashboard.html",
+  "categoria": "09_RELATORIOS",
+  "extensao": ".html",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 10352,
+  "tipo_doc": "HTML_RELATORIO",
+  "texto_preview": "Dashboard DETRAN — v3\nDASHBOARD DETRAN\nScore 87.1/100 — APROVADO\nGerado em 2026-04-12T22:20:23 · Prescrição quinquenal · Hoje: 2026-04-12\nPDFs DETRAN\n435\n435 com texto útil · 434 BOA\nNEs canônicas\n148\n7 NLs · 80 NFs · 86 contratos\nCadeia TRIO (NEs)\n30\nExecução Art. 784 CPC\nNEs IMINENTES\n8\nR$ 10.373.054,51 · AGIR em < 90 dias\nNEs PRESCRITAS\n62\nR$ 19.997.711,31 · verificar marcos interruptivos\nSPCF oficial\nR$ 9.810.879,48\nRelação de faturas em aberto 2019-2024\nNEs por Cadeia Contratual\nNEs por Status Prescricional\nContratos por Classificação\nTipos de Documento (v3, após reclassif.)\n🚨 NEs IMINENTES (ação urgente em menos de 90 dias)\n8 NEs\nem janela de prescrição iminente · Total:\nR$ 10.373.054,51\nNE\nAno\nData\nCadeia\nValor\nContratos\n2021NE00462\n2021\n2022-11-16\nTRIO\nR$ 5.915.316,95\n0010/2021, 01",
+  "campos_estruturados": {
+    "valores_brl": [
+      "10.373.054,51",
+      "19.997.711,31",
+      "9.810.879,48",
+      "5.915.316,95",
+      "3.058.536,00",
+      "1.040.000,00",
+      "354.000,00",
+      "5.200,00",
+      "1,56",
+      "0,00",
+      "26.212.553,64",
+      "26.711.652,84",
+      "2.925,60",
+      "2.782.119,03",
+      "6.999.575,98"
+    ],
+    "nes_referenciadas": [
+      "2021NE00462",
+      "2021NE00597",
+      "2021NE01231",
+      "2021NE01911",
+      "2021NE00479",
+      "2021NE00237",
+      "2021NE00035",
+      "2021NE00038"
+    ]
+  },
+  "metodo": "beautifulsoup",
+  "titulo": "Dashboard DETRAN — v3",
+  "num_tabelas": 3,
+  "tabelas": [
+    [
+      [
+        "NE",
+        "Ano",
+        "Data",
+        "Cadeia",
+        "Valor",
+        "Contratos"
+      ],
+      [
+        "2021NE00462",
+        "2021",
+        "2022-11-16",
+        "TRIO",
+        "R$ 5.915.316,95",
+        "0010/2021, 010/2021"
+      ],
+      [
+        "2021NE00597",
+        "2021",
+        "2021-07-21",
+        "TRIO",
+        "R$ 3.058.536,00",
+        "012/2021, 012/2024"
+      ],
+      [
+        "2021NE01231",
+        "2021",
+        "2022-08-23",
+        "FORTE",
+        "R$ 1.040.000,00",
+        "009/2020, 073/2022"
+      ],
+      [
+        "2021NE01911",
+        "2021",
+        "2022-12-02",
+        "FORTE",
+        "R$ 354.000,00",
+        "078/2022, 083/2022"
+      ],
+      [
+        "2021NE00479",
+        "2021",
+        "2021-06-30",
+        "FORTE",
+        "R$ 5.200,00",
+        "003/2021, 004/2016"
+      ],
+      [
+        "2021NE00237",
+        "2021",
+        "2022-11-16",
+        "TRIO",
+        "R$ 1,56",
+        "0006/2021, 006/2021"
+      ],
+      [
+        "2021NE00035",
+        "2021",
+        "2021-02-08",
+        "FORTE",
+        "R$ 0,00",
+        "017/2015"
+      ],
+      [
+        "2021NE00038",
+        "2021",
+        "2021-02-08",
+        "FORTE",
+        "R$ 0,00",
+        "004/2016"
+      ]
+    ],
+    [
+      [
+        "Contrato",
+        "Ano",
+        "NEs",
+        "NLs",
+        "NFs",
+        "Aceites",
+        "Valor (docs)",
+        "Primeira mensão",
+        "Última mensão"
+      ],
+      [
+        "0006/2021",
+        "2021",
+        "3",
+        "3",
+        "5",
+        "0",
+        "R$ 0,00",
+        "2022-07-25",
+        "2022-11-04"
+      ],
+      [
+        "0010/2021",
+        "2021",
+        "5",
+        "3",
+        "4",
+        "0",
+        "R$ 0,00",
+        "2022-11-04",
+        "2025-03-11"
+      ],
+      [
+        "010/2021",
+        "2021",
+        "10",
+        "3",
+        "7",
+        "0",
+        "R$ 26.212.553,64",
+        "2021-06-18",
+        "2025-12-23"
+      ],
+      [
+        "012/2021",
+        "2021",
+        "16",
+        "1",
+        "3",
+        "0",
+        "R$ 26.711.652,84",
+        "2022-01-03",
+        "2025-12-22"
+      ],
+      [
+        "013/2022",
+        "2022",
+        "8",
+        "1",
+        "4",
+        "0",
+        "R$ 0,00",
+        "2024-12-11",
+        "2025-03-11"
+      ]
+    ],
+    [
+      [
+        "Ano",
+        "A receber (R$)"
+      ],
+      [
+        "2019",
+        "R$ 2.925,60"
+      ],
+      [
+        "2020",
+        "R$ 0,00"
+      ],
+      [
+        "2021",
+        "R$ 2.782.119,03"
+      ],
+      [
+        "2022",
+        "R$ 6.999.575,98"
+      ],
+      [
+        "2023",
+        "R$ 0,00"
+      ],
+      [
+        "2024",
+        "R$ 26.258,87"
+      ],
+      [
+        "TOTAL",
+        "R$ 9.810.879,48"
+      ]
+    ]
+  ],
+  "texto_completo": "Dashboard DETRAN — v3\nDASHBOARD DETRAN\nScore 87.1/100 — APROVADO\nGerado em 2026-04-12T22:20:23 · Prescrição quinquenal · Hoje: 2026-04-12\nPDFs DETRAN\n435\n435 com texto útil · 434 BOA\nNEs canônicas\n148\n7 NLs · 80 NFs · 86 contratos\nCadeia TRIO (NEs)\n30\nExecução Art. 784 CPC\nNEs IMINENTES\n8\nR$ 10.373.054,51 · AGIR em < 90 dias\nNEs PRESCRITAS\n62\nR$ 19.997.711,31 · verificar marcos interruptivos\nSPCF oficial\nR$ 9.810.879,48\nRelação de faturas em aberto 2019-2024\nNEs por Cadeia Contratual\nNEs por Status Prescricional\nContratos por Classificação\nTipos de Documento (v3, após reclassif.)\n🚨 NEs IMINENTES (ação urgente em menos de 90 dias)\n8 NEs\nem janela de prescrição iminente · Total:\nR$ 10.373.054,51\nNE\nAno\nData\nCadeia\nValor\nContratos\n2021NE00462\n2021\n2022-11-16\nTRIO\nR$ 5.915.316,95\n0010/2021, 010/2021\n2021NE00597\n2021\n2021-07-21\nTRIO\nR$ 3.058.536,00\n012/2021, 012/2024\n2021NE01231\n2021\n2022-08-23\nFORTE\nR$ 1.040.000,00\n009/2020, 073/2022\n2021NE01911\n2021\n2022-12-02\nFORTE\nR$ 354.000,00\n078/2022, 083/2022\n2021NE00479\n2021\n2021-06-30\nFORTE\nR$ 5.200,00\n003/2021, 004/2016\n2021NE00237\n2021\n2022-11-16\nTRIO\nR$ 1,56\n0006/2021, 006/2021\n2021NE00035\n2021\n2021-02-08\nFORTE\nR$ 0,00\n017/2015\n2021NE00038\n2021\n2021-02-08\nFORTE\nR$ 0,00\n004/2016\n📑 Contratos TRIO (cadeia NE+NL+NF)\nExecutáveis via\nArt. 784 III CPC\ncomo título executivo extrajudicial.\nContrato\nAno\nNEs\nNLs\nNFs\nAceites\nValor (docs)\nPrimeira mensão\nÚltima mensão\n0006/2021\n2021\n3\n3\n5\n0\nR$ 0,00\n2022-07-25\n2022-11-04\n0010/2021\n2021\n5\n3\n4\n0\nR$ 0,00\n2022-11-04\n2025-03-11\n010/2021\n2021\n10\n3\n7\n0\nR$ 26.212.553,64\n2021-06-18\n2025-12-23\n012/2021\n2021\n16\n1\n3\n0\nR$ 26.711.652,84\n2022-01-03\n2025-12-22\n013/2022\n2022\n8\n1\n4\n0\nR$ 0,00\n2024-12-11\n2025-03-11\n💰 SPCF (Fonte Autoritativa)\nAno\nA receber (R$)\n2019\nR$ 2.925,60\n2020\nR$ 0,00\n2021\nR$ 2.782.119,03\n2022\nR$ 6.999.575,98\n2023\nR$ 0,00\n2024\nR$ 26.258,87\nTOTAL\nR$ 9.810.879,48\nDashboard gerado por\norganizar_detran.py\n. Dados em\ndados_completos.json\n.\nRelatório detalhado em\nAUDITORIA_DETRAN_COMPLETA.html\n.",
+  "texto_length": 2004
+}

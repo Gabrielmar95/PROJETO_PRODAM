@@ -1,0 +1,29 @@
+{
+  "filename": "README.md",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\README.md",
+  "categoria": "09_RELATORIOS",
+  "extensao": ".md",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 3422,
+  "tipo_doc": "MARKDOWN",
+  "texto_preview": "# DETRAN — Dossiê da Auditoria\n\n**Score:** 87.1/100 · **Parecer:** APROVADO · **Gerado:** 2026-04-12T22:20:23\n\n---\n\n## 🎯 Comece por aqui\n\n| Arquivo                                | Formato | Propósito                                              |\n|----------------------------------------|---------|--------------------------------------------------------|\n| **`dashboard.html`**                   | HTML    | **Visão visual rápida**: KPIs, gráficos, urgências     |\n| `AUDITORIA_DETRAN_COMPLETA.html`       | HTML    | Relatório completo estilizado (imprimível)             |\n| `AUDITORIA_DETRAN_COMPLETA.pdf`        | PDF     | Versão imprimível/para anexar em processos            |\n| `AUDITORIA_DETRAN_COMPLETA.md`         | Markdown| Fonte do relatório (visualizar no VS Code/GitHub)      |\n| `",
+  "campos_estruturados": {
+    "valores_brl": [
+      "10.373.054,51",
+      "19.997.711,31",
+      "9.810.879,48"
+    ]
+  },
+  "metodo": "texto_direto",
+  "num_linhas": 64,
+  "num_headers": 5,
+  "titulos": [
+    "DETRAN — Dossiê da Auditoria",
+    "🎯 Comece por aqui",
+    "📁 CSVs por tópico (UTF-8 BOM, separador `;`)",
+    "🔢 Números-chave",
+    "🚀 Reexecutar a auditoria"
+  ],
+  "texto_completo": "# DETRAN — Dossiê da Auditoria\n\n**Score:** 87.1/100 · **Parecer:** APROVADO · **Gerado:** 2026-04-12T22:20:23\n\n---\n\n## 🎯 Comece por aqui\n\n| Arquivo                                | Formato | Propósito                                              |\n|----------------------------------------|---------|--------------------------------------------------------|\n| **`dashboard.html`**                   | HTML    | **Visão visual rápida**: KPIs, gráficos, urgências     |\n| `AUDITORIA_DETRAN_COMPLETA.html`       | HTML    | Relatório completo estilizado (imprimível)             |\n| `AUDITORIA_DETRAN_COMPLETA.pdf`        | PDF     | Versão imprimível/para anexar em processos            |\n| `AUDITORIA_DETRAN_COMPLETA.md`         | Markdown| Fonte do relatório (visualizar no VS Code/GitHub)      |\n| `AUDITORIA_DETRAN.xlsx`                | Excel   | Planilha multi-aba (filtrar/ordenar)                    |\n| `csv/`                                 | CSV     | Uma tabela por tópico (abre em qualquer ferramenta)    |\n| `dados_completos.json`                 | JSON    | Dump bruto dos dados (para integrações/análise)        |\n| `script/dossie_detran.py`              | Python  | Script reexecutável                                    |\n\n## 📁 CSVs por tópico (UTF-8 BOM, separador `;`)\n\n- `csv/01_inventario.csv` — **435 linhas** (1 por PDF)\n- `csv/02_nes.csv` — **148 linhas** (NEs com data, cadeia, valor)\n- `csv/03_nls.csv` — **7 linhas** (NLs com NEs referenciadas)\n- `csv/04_aceites.csv` — aceites técnicos detectados\n- `csv/05_cadeia_por_contrato.csv` — **86 contratos** (TRIO/FORTE/MÉDIA/FRACA)\n- `csv/06_prescricao.csv` — NEs ordenadas por status prescricional (**8 IMINENTES**)\n- `csv/07_spcf_cruzamento.csv` — valores oficiais SPCF\n- `csv/08_plano_de_acao.csv` — plano priorizado\n\n## 🔢 Números-chave\n\n| Métrica                           | Valor                                                    |\n|-----------------------------------|----------------------------------------------------------|\n| PDFs DETRAN                       | 435                                       |\n| NEs canônicas                     | 148                                    |\n| NLs canônicas                     | 7                                    |\n| NFs (corpo + nome de arquivo)     | 80                                    |\n| Contratos distintos               | 86                              |\n| Cadeia TRIO (NEs)                 | 30                                 |\n| Cadeia FORTE (NEs)                | 89                                |\n| NEs IMINENTES                     | 8 (R$ 10.373.054,51) |\n| NEs PRESCRITAS                    | 62 (R$ 19.997.711,31) |\n| SPCF oficial (total a receber)    | R$ 9.810.879,48                 |\n\n## 🚀 Reexecutar a auditoria\n\n```bash\npy -3.12 script/dossie_detran.py\n```\n\nRegera `dados_completos.json` e `AUDITORIA_DETRAN.xlsx`. Para regenerar todos\nos formatos desta pasta (HTML, PDF, CSVs, dashboard), rode do diretório-raiz:\n\n```bash\npy -3.12 organizar_detran.py\n```\n\n---\n\n*Auditoria por `dossie_detran.py` (v3, 3 ações de score-lift). Formatos\nderivados por `organizar_detran.py`. Fonte de valores: SPCF oficial.\nRegex canônicas: NE formato SIAFI AM + ordinal; NF formato livre + nome\nde arquivo; NL `YYYYNL#####` + `Liquidação nº X em DD/MM/YYYY`.*\n",
+  "texto_length": 3296
+}

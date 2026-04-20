@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê FMT — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — FMT</h1>
+<p><b>Fundação de Medicina Tropical do Amazonas</b> | GOV_INDIRETA | CNPJ: 04.534.053/0001-43 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi média">MÉDIA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ENVIAR_TRD</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 272.130,68</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 693.107,38</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">41</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">42</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">480</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">55%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2018NE00332</td><td></td><td>01/02/2018</td><td>R$ 110.186,46</td><td>Ativo</td></tr>
+<tr><td>2014NE00059</td><td>2/2013</td><td>02/01/2014</td><td>R$ 104.416,68</td><td>Ativo</td></tr>
+<tr><td>2014NE00049</td><td>3/2013</td><td>02/01/2014</td><td>R$ 60.000,00</td><td>Ativo</td></tr>
+<tr><td>2024NE0002092</td><td>9/2019</td><td>12/12/2024</td><td>R$ 56.756,43</td><td>Ativo</td></tr>
+<tr><td>2025NE0001863</td><td>4/2018</td><td>28/11/2025</td><td>R$ 49.200,12</td><td>Ativo</td></tr>
+<tr><td>2020NE00061</td><td>9/2019</td><td>02/01/2020</td><td>R$ 48.739,59</td><td>Ativo</td></tr>
+<tr><td>2021NE0000119</td><td></td><td>27/01/2021</td><td>R$ 47.112,06</td><td>Ativo</td></tr>
+<tr><td>2021NE0000024</td><td>9/2019</td><td>20/01/2021</td><td>R$ 47.112,06</td><td>Ativo</td></tr>
+<tr><td>2021NE0000207</td><td>9/2019</td><td>04/01/2021</td><td>R$ 47.112,06</td><td>Ativo</td></tr>
+<tr><td>2022NE0000020</td><td>9/2019</td><td>03/01/2022</td><td>R$ 47.112,06</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>167358</td><td>1668</td><td>7/2025</td><td>03/2026</td><td>R$ 17.452,91</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>143872</td><td>39999</td><td>6/2019</td><td>08/2023</td><td>R$ 4.976,20</td><td>Parcialmente Paga</td><td>COMPLETA</td></tr>
+<tr><td>139429</td><td>36577</td><td>6/2019</td><td>03/2023</td><td>R$ 799,08</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>6 evidências, Documento de Reconhecimento de Dívida existente</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[11, 40, 29, 17, 35, 26, 72, 43, 47, 50, 27, 57, 26],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[205372.34000000003, 264338.11000000016, 134602.47000000003, 83505.71, 201891.88000000003, 72886.12000000001, 466167.28999999975, 376708.75999999995, 363127.42000000004, 303189.19999999995, 320885.9, 384382.3499999998, 193806.92],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

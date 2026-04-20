@@ -1,0 +1,28 @@
+{
+  "filename": "faturas_devidas-CPA.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\06_COBRANCAS\\faturas_devidas-CPA.pdf",
+  "categoria": "06_COBRANCAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 6254,
+  "texto_length": 1459,
+  "texto_preview": "SPCF\nRelação Faturas Devidas por Cliente\nFaturamento até 30/06/2025\nSetor: Todos / Poder: Todos\nData de referência: 12/08/2025\nEsfera: Todas / Vínculo: Todos\nNum.\nPREF\nServiço / Sistema\nCompetência\nData Emissão\nValor Serviços\nValor Liquido\nDesconto\nValor P/ISS\nISSRF\nIRRF\nValor PG\nParcial\nContrato\nProtocolo SIGED\nCLIENTE: CPA\nCobrança\n02/2025\n36.932,91\n0,00\n20/02/2025\n0,00\n0,00\n36.932,91\nExecução de sistemas - CVMT\n157319\n0,00\n36.932,91\n52383\nC.1/2014\n0,00\n0,00\n0,00\n0,00\n TOTAL MENSAL\n36.932,91\n36.932,91\n36.932,91\n03/2024\n30.862,78\n0,00\n20/03/2025\n0,00\n0,00\n30.862,78\nExecução de sistemas - CVMT\n157974\n0,00\n30.862,78\n53042\nC.1/2014\n0,00\n0,00\n0,00\n0,00\n TOTAL MENSAL\n30.862,78\n30.862,78\n30.862,78\n04/2025\n36.007,90\n0,00\n22/04/2025\n0,00\n0,00\n36.007,90\nExecução de sistemas - CVMT\n158888\n0,00\n36.0",
+  "texto_completo": "SPCF\nRelação Faturas Devidas por Cliente\nFaturamento até 30/06/2025\nSetor: Todos / Poder: Todos\nData de referência: 12/08/2025\nEsfera: Todas / Vínculo: Todos\nNum.\nPREF\nServiço / Sistema\nCompetência\nData Emissão\nValor Serviços\nValor Liquido\nDesconto\nValor P/ISS\nISSRF\nIRRF\nValor PG\nParcial\nContrato\nProtocolo SIGED\nCLIENTE: CPA\nCobrança\n02/2025\n36.932,91\n0,00\n20/02/2025\n0,00\n0,00\n36.932,91\nExecução de sistemas - CVMT\n157319\n0,00\n36.932,91\n52383\nC.1/2014\n0,00\n0,00\n0,00\n0,00\n TOTAL MENSAL\n36.932,91\n36.932,91\n36.932,91\n03/2024\n30.862,78\n0,00\n20/03/2025\n0,00\n0,00\n30.862,78\nExecução de sistemas - CVMT\n157974\n0,00\n30.862,78\n53042\nC.1/2014\n0,00\n0,00\n0,00\n0,00\n TOTAL MENSAL\n30.862,78\n30.862,78\n30.862,78\n04/2025\n36.007,90\n0,00\n22/04/2025\n0,00\n0,00\n36.007,90\nExecução de sistemas - CVMT\n158888\n0,00\n36.007,90\n53967\nC.1/2014\n0,00\n0,00\n0,00\n0,00\n TOTAL MENSAL\n36.007,90\n36.007,90\n36.007,90\n05/2025\n34.872,48\n0,00\n20/05/2025\n0,00\n0,00\n34.872,48\nExecução de sistemas - CVMT\n159499\n0,00\n34.872,48\n54617\nC.1/2014\n0,00\n0,00\n0,00\n0,00\n TOTAL MENSAL\n34.872,48\n34.872,48\n34.872,48\n06/2025\n40.894,97\n0,00\n23/06/2025\n0,00\n0,00\n40.894,97\nExecução de sistemas - CVMT\n160480\n0,00\n40.894,97\n55474\nC.1/2014\n0,00\n0,00\n0,00\n0,00\n TOTAL MENSAL\n40.894,97\n40.894,97\n40.894,97\n TOTAL DO CLIENTE\n179.571,04\n179.571,04\n0,00\n0,00\n0,00\n179.571,04\n0,00\n0,00\n0,00\n0,00\n179.571,04\n179.571,04\n179.571,04\n0,00\n TOTAL GERAL\n TOTAL GERAL DE CLIENTES\n1\nEmissão em: 12/08/2025 11:37\n 1\nPágina 1 de\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "30/06/2025",
+      "12/08/2025",
+      "20/02/2025",
+      "20/03/2025",
+      "22/04/2025",
+      "20/05/2025",
+      "23/06/2025"
+    ],
+    "tipo_doc": "OFICIO_COBRANCA"
+  }
+}

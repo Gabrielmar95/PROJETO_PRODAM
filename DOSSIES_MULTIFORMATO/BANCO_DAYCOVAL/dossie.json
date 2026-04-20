@@ -1,0 +1,95 @@
+{
+  "sigla": "BANCO DAYCOVAL",
+  "profile": {
+    "nome": "BANCO DAYCOVAL",
+    "sigla": "BANCO DAYCOVAL",
+    "fonte": "SPCF_EXAUSTIVO_ABR2026",
+    "data_inclusao": "2026-04-01",
+    "val_orig": "0",
+    "val_exig": "0",
+    "categoria": "EMPRESA_PRIVADA",
+    "forca_probatoria": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "status": "NOVO_SPCF",
+    "fase_atual": "F0_DIAGNOSTICO",
+    "tipo": "PRIVADO",
+    "faturamento_total_2019_2026": 3318996.66,
+    "recebimento_total_2019_2026": 3318998.0,
+    "taxa_pagamento_pct": 100.0,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 85,
+    "faturamento_pico_mes": "2023-Set",
+    "faturamento_pico_valor": 137266.94,
+    "inicio_inadimplencia": "2024-Fev",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 0.0,
+    "empenho_historico_qtd": 0,
+    "empenho_valor_global_contratos": 0.0,
+    "empenho_2026_gerencial": 0.0,
+    "a_empenhar_2026": 0.0,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [
+    {
+      "id": "167246",
+      "nf": "1676",
+      "contrato": "4/2023",
+      "valor_bruto": 69427.44,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 63
+    },
+    {
+      "id": "167305",
+      "nf": "1677",
+      "contrato": "6/2024",
+      "valor_bruto": 20673.78,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 16
+    },
+    {
+      "id": "167306",
+      "nf": "1678",
+      "contrato": "43/2024",
+      "valor_bruto": 6393.79,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "MEDIA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "167309",
+      "nf": "1675",
+      "contrato": "5/2018",
+      "valor_bruto": 2986.63,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 47
+    }
+  ],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 4,
+      "valor_total": 99481.64
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

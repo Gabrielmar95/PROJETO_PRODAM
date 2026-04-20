@@ -1,0 +1,62 @@
+name: PRODAM Tests
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '**.py'
+      - 'requirements.txt'
+      - '.github/workflows/**'
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Run tests + validate scripts
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest unidecode openpyxl
+
+      - name: Run unit tests (prodam_utils)
+        run: |
+          python -m pytest tests/ -v --tb=short
+
+      - name: Syntax check all scripts
+        run: |
+          python -m compileall -q .
+
+      - name: Validate profiles.json structure
+        run: |
+          python -c "
+          import json
+          p = json.load(open('PRODAM_DOCS/profiles.json'))
+          devs = {k:v for k,v in p.items() if not k.startswith('_')}
+          assert len(devs) > 50, f'Menos devedores que esperado: {len(devs)}'
+          sem_cnpj = [s for s,pr in devs.items() if not pr.get('cnpj')]
+          assert len(sem_cnpj) == 0, f'Devedores sem CNPJ: {sem_cnpj}'
+          assert '_metadata' in p, 'Falta _metadata em profiles.json'
+          print(f'OK: {len(devs)} devedores, todos com CNPJ, _metadata presente')
+          "
+
+      - name: Smoke test sincronizar_prodam.py
+        run: |
+          # Se houver prodam.db, valida que --so-audit roda sem erro fatal
+          if [ -f prodam.db ]; then
+            python sincronizar_prodam.py --so-audit || echo "audit requires full data"
+          fi

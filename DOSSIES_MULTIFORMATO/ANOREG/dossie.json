@@ -1,0 +1,218 @@
+{
+  "sigla": "ANOREG",
+  "profile": {
+    "nome_completo": "ANOREG",
+    "sigla": "ANOREG",
+    "natureza": "EMPRESA_PRIVADA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": "102267.91",
+    "val_orig": "102267.91",
+    "val_atualizado": "102267.91",
+    "faturas_total": 0,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 0,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "2%",
+    "n_contratos": 0,
+    "regime_execucao": "protesto_serasa_sisbajud",
+    "titulo_executivo": false,
+    "status": "Valores extraídos (SPCF)",
+    "setor": "Outros",
+    "docs_financeiro": 18,
+    "prioridade_sugerida": "MÉDIA",
+    "observacoes": "Valor original R$ 102,267.91 — fonte: relatorio_devedores.xls. Análise massiva pendente para atualização monetária.",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "F",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "03.123.477/0001-52",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "PRIVADA",
+    "score_composto": 0.2329,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.15,
+    "ev_valor_esperado": "15340.19",
+    "ev_honorarios": "3068.04",
+    "esforco_estimado": 8,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 34,
+    "investigacao_documental": "PENDENTE — prioridade de investigacao no FINANCEIRO/",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2029-10-01",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "ANOREG",
+    "spcf_total_receber": "153232.43",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 0,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "val_servicos_spcf_mar2026": "153519.07",
+    "val_liquido_spcf_mar2026": "153232.43",
+    "num_faturas_spcf_mar2026": 18,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 49.83,
+    "urgencia_prescricao": "NORMAL",
+    "d_plus_prescricao": 1271,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [
+    {
+      "id": "140091",
+      "nf": "36583",
+      "contrato": "1/2016",
+      "valor_bruto": 10192.0,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "138743",
+      "nf": "35267",
+      "contrato": "1/2016",
+      "valor_bruto": 9875.84,
+      "competencia": "01/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "143094",
+      "nf": "39309",
+      "contrato": "1/2016",
+      "valor_bruto": 9409.92,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "141578",
+      "nf": "37942",
+      "contrato": "1/2016",
+      "valor_bruto": 9380.8,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "143867",
+      "nf": "39992",
+      "contrato": "1/2016",
+      "valor_bruto": 9376.64,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "138022",
+      "nf": "34573",
+      "contrato": "1/2016",
+      "valor_bruto": 8632.0,
+      "competencia": "12/2022",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "142347",
+      "nf": "38635",
+      "contrato": "1/2016",
+      "valor_bruto": 8315.84,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "145346",
+      "nf": "41296",
+      "contrato": "1/2016",
+      "valor_bruto": 7770.88,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "140799",
+      "nf": "37218",
+      "contrato": "1/2016",
+      "valor_bruto": 7675.2,
+      "competencia": "04/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "139423",
+      "nf": "35924",
+      "contrato": "1/2016",
+      "valor_bruto": 7517.12,
+      "competencia": "02/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "146081",
+      "nf": "41957",
+      "contrato": "1/2016",
+      "valor_bruto": 7309.12,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    },
+    {
+      "id": "144609",
+      "nf": "40661",
+      "contrato": "1/2016",
+      "valor_bruto": 6830.72,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 171
+    }
+  ],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 12,
+      "valor_total": 102286.08
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

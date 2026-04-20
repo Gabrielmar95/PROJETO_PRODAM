@@ -1,0 +1,53 @@
+{
+  "filename": "4º TA do Contrato 012.2021 - Prazo.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\4º TA do Contrato 012.2021 - Prazo.pdf",
+  "filename_parsed": {
+    "filename": "4º TA do Contrato 012.2021 - Prazo.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 12,
+    "contrato_ano": 2021,
+    "contrato_ref": "012/2021",
+    "ta_numero": 4,
+    "modalidades": [
+      "PRORROGACAO_PRAZO"
+    ]
+  },
+  "pdf_meta": {
+    "num_paginas": 7,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 1899090
+  },
+  "texto_length": 23291,
+  "texto_preview": " \n  \nwww.amazonas.am.gov.br \ntwitter.comGovernodoAM \nyoutube.com/governodoamazonas \nfacebook.com/governodoamazonas \ndetran@detran.am.gov.br \nFone:(92) 3643-0000 \nAvenida Mário Ypiranga Monteiro, \n2884, Parque 10 de novembro \nManaus - AM \nCEP: 69050-030 \nQUARTO TERMO ADITIVO AO CONTRATO Nº 012/2021-DETRAN/AM \n \nQUARTO \nTERMO \nADITIVO \nAO \nCONTRATO Nº 012/2021 - DETRAN/AM \nDE \nPRESTAÇÃO \nDE \nSERVIÇOS, \nCELEBRADO ENTRE O ESTADO DO \nAMAZONAS, POR INTERMÉDIO DO \nDEPARTAMENTO \nESTADUAL \nDE \nTRÂNSITO \n",
+  "clausulas_detectadas": {
+    "valor_contrato": [
+      "R$ 2.293.902,00",
+      "R$ 17.155,68",
+      "R$ 147.666,48",
+      "R$ 6.750,00"
+    ],
+    "vigencia": [
+      [
+        "16/07/2024",
+        "16/07/2025"
+      ],
+      [
+        "10/06/2021",
+        "17/06/2024"
+      ],
+      [
+        "01/07/2024",
+        "01/07/2025"
+      ],
+      [
+        "03/06/2024",
+        "03/06/2025"
+      ]
+    ],
+    "cnpj_contratada": [
+      "04.407.920/0001-80"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

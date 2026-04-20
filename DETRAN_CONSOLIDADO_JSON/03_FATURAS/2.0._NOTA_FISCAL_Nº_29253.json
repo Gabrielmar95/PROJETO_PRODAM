@@ -1,0 +1,32 @@
+{
+  "filename": "2.0. NOTA FISCAL Nº 29253.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\2.0. NOTA FISCAL Nº 29253.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 165248,
+  "texto_length": 2547,
+  "texto_preview": "19/05/2022 13:55\nVisualizar NFSe\nhttps://nfse-prd.manaus.am.gov.br/nfse/servlet/wvalidarautenticidadenfse?04407920000180,305403.49,29253,3B93.F0FF.0F24\n1/1\nPREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\n3B93.F0FF.0F24\n16/05/2022 - 13:24:26\nNatureza da operação\nNúmero da Nota\nRetenção do\nISSQN\n29253\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n  \n, 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92 6223253.\n  CEP    69020110 - MANAUS\n - AM\n - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    PRODAM@PRODAM.AM.GOV",
+  "texto_completo": "19/05/2022 13:55\nVisualizar NFSe\nhttps://nfse-prd.manaus.am.gov.br/nfse/servlet/wvalidarautenticidadenfse?04407920000180,305403.49,29253,3B93.F0FF.0F24\n1/1\nPREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\n3B93.F0FF.0F24\n16/05/2022 - 13:24:26\nNatureza da operação\nNúmero da Nota\nRetenção do\nISSQN\n29253\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n  \n, 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92 6223253.\n  CEP    69020110 - MANAUS\n - AM\n - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    PRODAM@PRODAM.AM.GOV.BR\n  Inscrição Estadual\n  41939808\nTomador de Serviço\nNome do tomador do serviçoDEPARTAMENTO ESTADUAL DE TRANSITO - DETRAN\nCPF/CNPJ\n04.224.028/0001-63\nEndereço\nMARIO YPIRANGA MONTEIRO,   2080, \nBairro\nADRIANoPOLIS, Telefone: 09209923642.\nCep\n69057002\nCidade\nMANAUS\n - AM\n - BRASIL\n  Inscrição Municipal\n11264401\nEmail\nprotocoloadministrativo@detran.am.gov.br\n  Inscrição Estadual\nISENTO\nDiscriminação do Serviço/Dados Adicionais\n  CONTRATO No. 4/2016, MES: 05/2022\nSERVICO: Licenca de uso de sistemas de informacao SISTEMA:\nSistema de Identificacao e Controle dos Candidatos e Motoristas\nLicenca de uso de sistemas de Informacao -\nSICMO - (1.000 x 305,403.490) . R$ 305,403.49\nLei No. 12.741 de 8 de Dezembro de 2012.\nBase de Calculo:\n305.404\nValores aproximados dos Tributos Valores de Retencao do PASEP: 5.039,16\nValores de Retencao do\nCOFINS: 23.210,7\nValores de Retencao do CPRB: 6.108,07\nValores de Retencao do ISS: 15.270,2\nServiço:\n1.05-LICENCIAMENTO OU CESSÃO DE DIREITO DE USO DE PROGRAMAS DE\nCOMPUTAÇÃO.\nValor do Serviço (R$)\nQtd.\nDesconto(R$)\nDedução(R$)\nBase de\nCálculo(R$)\nAliquota(%)Valor do ISS(R$) Total(R$)\n305.403,49\n1,00\n0,00\n0,00\n305.403,49\n5,00\n15.270,17\n305.403,49\nVALOR TOTAL DA NOTA = R$\n305.403,49\nRetenções\nINSS(R$)\nPIS(R$)\nCofins(R$)\nC.S.L.L(R$)\nIRRF(R$)\n \n \n \n \n \n0,00\n0,00\n0,00\n0,00\n0,00\nISSQN(R$)\nOutras Deduções(R$)\nTotal das Retenções (R$)\nValor Líquido da Nota(R$)\n15.270,17\n0,00\n15.270,17\n290.133,32\nOutras Informações\n- Competência: Maio/2022- ISS de responsabilidade do: Tomador de serviço- Serviço\nTributado no Município: MANAUS- Data do vencimento do ISS desta NFSE: 10/06/22-\nEsta NFS-e substitui o RPS Nº 29496, série: NFse, emitido em 16/05/2022- Operação\ncom retenção de ISS por Substituição Tributária.\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80",
+      "04.224.028/0001-63"
+    ],
+    "datas_encontradas": [
+      "19/05/2022",
+      "16/05/2022",
+      "10/06/22"
+    ],
+    "valores_brl": [
+      "305,40",
+      "305.403,49"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

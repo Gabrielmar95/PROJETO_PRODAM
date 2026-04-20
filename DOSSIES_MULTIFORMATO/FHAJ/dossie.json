@@ -1,0 +1,2681 @@
+{
+  "sigla": "FHAJ",
+  "profile": {
+    "nome_completo": "Fundação Hospitalar Adriano Jorge",
+    "sigla": "FHAJ",
+    "natureza": "Fundação",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "259910.7790577516",
+    "val_orig": "304898.4199999998",
+    "val_atualizado": "493519.1295001625",
+    "faturas_total": 75,
+    "faturas_prescritas": 41,
+    "faturas_exigiveis": 34,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Petição pronta",
+    "observacoes": "Informes de RD efetuados, aguardando liberação",
+    "forca_probatoria": "FORTE",
+    "modelo_notificacao": "A",
+    "reconhecimento_revisado": {
+      "total_evidencias": 29,
+      "classificacao": "INDÍCIO — Empenho (reconhecimento orçamentário)",
+      "por_tipo": {
+        "E": 29
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "06.168.092/0001-08",
+    "evidencias_reconhecimento": 29,
+    "evidencias_por_tipo": {
+      "E": 29
+    },
+    "classificacao_reconhecimento": "INDÍCIO — Empenho (reconhecimento orçamentário)",
+    "tipo": "GOV",
+    "score_composto": 0.6126,
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "p_recuperacao": 0.83,
+    "ev_valor_esperado": "215725.95",
+    "ev_honorarios": "43145.19",
+    "esforco_estimado": 4,
+    "cenario_monte_carlo_p50": "147629.65",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 15,
+    "blindagem_resultado": {
+      "data": "2026-03-27",
+      "blocos": {
+        "A_titulo": {
+          "ok": 4,
+          "total": 6
+        },
+        "B_liquidez": {
+          "ok": 5,
+          "total": 5
+        },
+        "C_cadeia": {
+          "ok": 6,
+          "total": 6
+        },
+        "D_defesas": {
+          "ok": 4,
+          "total": 5
+        }
+      },
+      "total_ok": 19,
+      "total_items": 22,
+      "recomendacao": "MONITORIA",
+      "ressalvas": [
+        "Sem título executivo — monitória ou TRD primeiro",
+        "41 faturas prescritas > 34 exigíveis"
+      ]
+    },
+    "ultima_interacao": "2026-03-25",
+    "fase_atual": "F5",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-20",
+      "F4": "2026-03-23",
+      "F5": "2026-03-27"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "FHAJ",
+    "spcf_total_receber": "221018.07",
+    "emp_2026": "44073.96",
+    "emp_2026_qtd": 2,
+    "contratos_vigentes": 2,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "val_servicos_spcf_mar2026": "241931.61",
+    "val_liquido_spcf_mar2026": "221017.27",
+    "num_faturas_spcf_mar2026": 65,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 27.51,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "via_processual_recomendada": {
+      "via": "EXECUCAO_DIRETA",
+      "fundamentacao": "Petição pronta, GOV_INDIRETA, penhora direta"
+    },
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE01910",
+      "contrato": "",
+      "valor": 249.22,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Anulação do saldo da NE00004/2020, conforme Decreto nº 43.042/2020 - Encerramento da execução orçamentária, financeira e contábil do exercício de 2020."
+    },
+    {
+      "numero": "2020NE01911",
+      "contrato": "",
+      "valor": 1.83,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Anulação do saldo da NE00819/2020, conforme Decreto nº 43.042/2020 - Encerramento da execução orçamentária, financeira e contábil do exercício de 2020."
+    },
+    {
+      "numero": "2019NE00921",
+      "contrato": "1/2018",
+      "valor": 49.18,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2019",
+      "descricao": "Referente ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Parcela referente à Janeiro/19. Troca de Fonte conforme solicitação do FES em 18/07/2019, NC nº 5954/19."
+    },
+    {
+      "numero": "2023NE0000423",
+      "contrato": "8/2022",
+      "valor": 308.54,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2023",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: abril/2023 (parcial)."
+    },
+    {
+      "numero": "2017NE00275",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2017",
+      "descricao": "Indenizações, Parecer Jurídico nº 40/2017-ASJUR/FHAJ, Termo de Ajuste de Contas nº 14/2017-FHAJ, referente a prestação de serviço de acesso gerenciado a rede mundial - por Mbps (de 1até 10 Mbps) - (5,000 x 680,000) no período de fevereiro/2017 - R$ 3.400,00, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 22022 - Data da Emissão: 21/02/2017."
+    },
+    {
+      "numero": "2017NE00274",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2017",
+      "descricao": "Indenizações, Parecer Jurídico nº 39/2017-FHAJ, Termo de Ajuste de Contas nº 13/2017-FHAJ, referente a prestação de serviço de acesso gerenciado a rede mundial - por Mbps (de 1até 10 Mbps) - (5,000 x 680,000) no período de janeiro/2017 - R$ 3.400,00, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 22021 - Data da Emissão: 21/02/2017."
+    },
+    {
+      "numero": "2016NE01311",
+      "contrato": "",
+      "valor": 1.72,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 075/2016 PARA AJUSTE ORÇAMENTÁRIO, CONF. ORIENTAÇÃO SEFAZ-AM."
+    },
+    {
+      "numero": "2016NE01325",
+      "contrato": "",
+      "valor": 11.57,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "Anulação do saldo da NE 200/2016 em atendimento ao Aviso n. 02/2017 e Comunicação nr. 13 de 15/12/2016 - SEFAZ-AM"
+    },
+    {
+      "numero": "2021NE0001155",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "30/08/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Setembro/2021 (parcial)."
+    },
+    {
+      "numero": "2025NE0000385",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2025NE0000386",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2019NE00338",
+      "contrato": "1/2018",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2019",
+      "descricao": "1º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas."
+    },
+    {
+      "numero": "2022NE0000551",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2022",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado; Período: Abril/2022."
+    },
+    {
+      "numero": "2023NE0000104",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2023",
+      "descricao": "Referente ao 5º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: fevereiro/2023."
+    },
+    {
+      "numero": "2022NE0002504",
+      "contrato": "",
+      "valor": 5.93,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "Anulação de saldo da NE22/2022, devido o encerramento do exercício."
+    },
+    {
+      "numero": "2023NE0001622",
+      "contrato": "",
+      "valor": 2225.17,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "ANULAÇÃO DE SALDO DE EMPENHO , EM VIRTUDE DO ENCERRAMENTO DO EXECÍCIO, CONFORME DECRETO Nº 48.363/2023 DE 27/10/2023."
+    },
+    {
+      "numero": "2023NE0001684",
+      "contrato": "",
+      "valor": 308.54,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "ANULAÇÃO DE SALDO DE EMPENHO, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 48.363/2023 DE 27/10/2023."
+    },
+    {
+      "numero": "2023NE0001677",
+      "contrato": "",
+      "valor": 8111.66,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "ANULAÇÃO DE SALDO DE EMPENHO , EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 48.363/2023 DE 27/10/2023."
+    },
+    {
+      "numero": "2025NE0001330",
+      "contrato": "",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Anulação da NE 1212/2025, lançamento indevido."
+    },
+    {
+      "numero": "2014NE00640",
+      "contrato": "12/2010",
+      "valor": 9895.27,
+      "situacao": "Ativo",
+      "data_emissao": "29/07/2014",
+      "descricao": "Contrato No. 12/2010 - Internet/Computador banda 3.256Kb-MetroMAO"
+    },
+    {
+      "numero": "2023NE0000761",
+      "contrato": "8/2022",
+      "valor": 8420.2,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 008/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000760",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "Contratação de empresa especializada nos serviços de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB, para publicação de inf., noticias, videos e imagens via WEBSITE de acordo com padrão Governamental. TC: 001/2018 AD: 05."
+    },
+    {
+      "numero": "2018NE01512",
+      "contrato": "",
+      "valor": 49.18,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação do saldo da NE00063/2018, conforme orientação da Gerência de Inspetoria da Sefaz, para o encerramento do exercício financeiro de 2018."
+    },
+    {
+      "numero": "2018NE01496",
+      "contrato": "",
+      "valor": 0.02,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação do saldo da NE00182/2018, conforme orientação da Gerência de Inspetoria da Sefaz, para o encerramento do exercício financeiro de 2018."
+    },
+    {
+      "numero": "2014NE00747",
+      "contrato": "12/2010",
+      "valor": 9895.27,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2014",
+      "descricao": "Contrato No. 12/2010 - Internet/Computador banda 3.256Kb-MetroMAO"
+    },
+    {
+      "numero": "2019NE00619",
+      "contrato": "1/2018",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2019",
+      "descricao": "1º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. junho/2019."
+    },
+    {
+      "numero": "2022NE0000764",
+      "contrato": "1/2018",
+      "valor": 2157.7,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: abril/2022."
+    },
+    {
+      "numero": "2021NE0001154",
+      "contrato": "9/2017",
+      "valor": 7457.56,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: Setembro/2021."
+    },
+    {
+      "numero": "2023NE0000756",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "27/06/2023",
+      "descricao": "Contratação de empresa especializada nos serviços de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB, para publicação de inf., noticias, videos e imagens via WEBSITE de acordo com padrão Governamental. TC: 001/2018 AD: 05."
+    },
+    {
+      "numero": "2023NE0000757",
+      "contrato": "8/2022",
+      "valor": 8111.66,
+      "situacao": "Ativo",
+      "data_emissao": "27/06/2023",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 008/2022 AD: 01."
+    },
+    {
+      "numero": "2026NE0000115",
+      "contrato": "8/2022",
+      "valor": 9256.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 03."
+    },
+    {
+      "numero": "2026NE0000114",
+      "contrato": "8/2022",
+      "valor": 9256.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2018NE00182",
+      "contrato": "9/2017",
+      "valor": 6800.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2018",
+      "descricao": "Contrato de iinternet - CT 009/2017"
+    },
+    {
+      "numero": "2021NE0001757",
+      "contrato": "9/2017",
+      "valor": 7457.56,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: novembro/2021."
+    },
+    {
+      "numero": "2021NE0001760",
+      "contrato": "1/2018",
+      "valor": 1979.55,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: novembro/2021."
+    },
+    {
+      "numero": "2023NE0001349",
+      "contrato": "8/2022",
+      "valor": 8420.2,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2023",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 008/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0001350",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2023",
+      "descricao": "Contratação de empresa especializada nos serviços de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB, para publicação de inf., noticias, videos e imagens via WEBSITE de acordo com padrão Governamental. TC: 001/2018 AD: 05."
+    },
+    {
+      "numero": "2018NE00739",
+      "contrato": "9/2017",
+      "valor": 1666.67,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "1. Termo Aditivo ao Contrato 09/2017 - Internet banda larga - Março/2018"
+    },
+    {
+      "numero": "2018NE00738",
+      "contrato": "",
+      "valor": 1133.35,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Contrato 09/2017 - 01 a 05/03/2018 Internet Banda Larga"
+    },
+    {
+      "numero": "2018NE00711",
+      "contrato": "",
+      "valor": 6800.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Anulação da NE 182. Motivo: Economicidade Contratual"
+    },
+    {
+      "numero": "2024NE0000527",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2024",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2020NE00491",
+      "contrato": "1/2018",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Complemento de março e parcial de abril/2020."
+    },
+    {
+      "numero": "2026NE0000104",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2026NE0000109",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000107",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000108",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000106",
+      "contrato": "8/2022",
+      "valor": 9256.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2026NE0000111",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000105",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2026NE0000110",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0001099",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "24/09/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2023NE0000380",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "24/03/2023",
+      "descricao": "Referente ao 5º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: Março/2023."
+    },
+    {
+      "numero": "2014NE00177",
+      "contrato": "4/2012",
+      "valor": 3988.1,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2014",
+      "descricao": "Contrato No. 4/2012 - Manutenção Sist Senhas- SICS"
+    },
+    {
+      "numero": "2025NE0001068",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2025NE0001069",
+      "contrato": "4/2024",
+      "valor": 1261.99,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2021NE0000738",
+      "contrato": "1/2018",
+      "valor": 3356.88,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: maio e junho/2021 (parcial)."
+    },
+    {
+      "numero": "2021NE0000737",
+      "contrato": "9/2017",
+      "valor": 14915.52,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: maio e junho/2021."
+    },
+    {
+      "numero": "2016NE00485",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2016",
+      "descricao": "Referente ao 4. Termo aditivo ao Contrato 004/2012-FHAJ, contratação de empresa especializada em serviço de implantação de software."
+    },
+    {
+      "numero": "2024NE0000209",
+      "contrato": "8/2022",
+      "valor": 835.9,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "= Prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps; = 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ; = Vigência: 01/04/2023 a 31/03/2024. (Diferença)"
+    },
+    {
+      "numero": "2018NE00147",
+      "contrato": "1/2018",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2018",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA EM SERVIÇOS DE INFORMÁTICA, COMPR. À DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEBSITE, DE ACORDO C/PADRÃO DE COMUN. VISUAL DO GOV. ESTADO."
+    },
+    {
+      "numero": "2024NE0001758",
+      "contrato": "4/2024",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "referente à Nota Fiscal nº 47528, de 12.08.2024, no valor total de R$ 2.297,09 (dois mil, duzentos e noventa e sete reais e nove centavos), em consequência da prestação de serviços de Licença de Uso de Sistemas de nformação - SISTEMA: Gestor de Conteúdo Web Licença de Uso - Gestor de Conteúdo Web - (1.000 x 2,717.660), para atender as necessidades da Fundação Hospital Adriano Jorge - FHAJ,no mês de MARÇO de 2024."
+    },
+    {
+      "numero": "2024NE0001766",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0001757",
+      "contrato": "4/2024",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "referente à Nota Fiscal nº 47527, de 12.08.2024, no valor de R$ 2.297,09 (dois mil, duzentos e noventa e sete reais e nove centavos), em consequência da prestação de serviços de Licença de Uso de Sistemas de Informação - SISTEMA: Gestor de Conteúdo Web Licença de Uso - Gestor de Conteúdo Web - (1.000 x 2,717.660), para atender as necessidades da Fundação Hospital Adriano Jorge - FHAJ,no mês de FEVEREIRO de 2024."
+    },
+    {
+      "numero": "2024NE0001756",
+      "contrato": "4/2024",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "referente à Nota Fiscal nº 47526, de 12.08.2024, no valor total de R$ 2.297,09 (dois mil, duzentos e noventa e sete reais e nove centavos), em consequência da prestação de serviços de Licença de Uso de Sistemas de Informação - SISTEMA: Gestor de Conteúdo Web Licença de Uso - Gestor de Conteúdo Web - (1.000 x 2,717.660), para atender as necessidades da Fundação Hospital Adriano Jorge - FHAJ,no mês de JANEIRO de 2024."
+    },
+    {
+      "numero": "2023NE0001096",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2023",
+      "descricao": "Contratação de empresa especializada nos serviços de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB, para publicação de inf., noticias, videos e imagens via WEBSITE de acordo com padrão Governamental. TC: 001/2018 AD: 05."
+    },
+    {
+      "numero": "2023NE0001095",
+      "contrato": "8/2022",
+      "valor": 8420.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2023",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 008/2022 AD: 01."
+    },
+    {
+      "numero": "2022NE0001234",
+      "contrato": "1/2018",
+      "valor": 2157.7,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: junho/2022."
+    },
+    {
+      "numero": "2022NE0001235",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2022",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: junho/2022."
+    },
+    {
+      "numero": "2025NE0000463",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000462",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0000645",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2024",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2019NE00416",
+      "contrato": "1/2018",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2019",
+      "descricao": "1º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Maio/2019."
+    },
+    {
+      "numero": "2018NE00915",
+      "contrato": "9/2017",
+      "valor": 6800.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2018",
+      "descricao": "Referente ao 1º Termo Aditivo ao Contrato nº 009/2017-FHAJ - Período: Abril/2018."
+    },
+    {
+      "numero": "2022NE0001892",
+      "contrato": "1/2018",
+      "valor": 2157.7,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: Setembro/2022."
+    },
+    {
+      "numero": "2022NE0001891",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2022",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: Setembro/2022."
+    },
+    {
+      "numero": "2016NE00860",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 219/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 03/2016, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 19578 - Data da Emissão: 12/08/2016."
+    },
+    {
+      "numero": "2016NE00862",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 221/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 05/2016, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 19580 - Data da Emissão: 12/08/2016."
+    },
+    {
+      "numero": "2016NE00860",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 219/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 03/2016, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 19578 - Data da Emissão: 12/08/2016."
+    },
+    {
+      "numero": "2016NE00862",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 221/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 05/2016, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 19580 - Data da Emissão: 12/08/2016."
+    },
+    {
+      "numero": "2016NE00858",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 217/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00, competência: 01/2016"
+    },
+    {
+      "numero": "2016NE00859",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 218/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 02/2016."
+    },
+    {
+      "numero": "2016NE00861",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 220/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 04/2016, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 19579 - Data da Emissão: 12/08/2016."
+    },
+    {
+      "numero": "2016NE00859",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 218/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 02/2016."
+    },
+    {
+      "numero": "2016NE00861",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 220/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00), competência: 04/2016, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 19579 - Data da Emissão: 12/08/2016."
+    },
+    {
+      "numero": "2016NE00858",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 217/2016-ASJUR/FHAJ, referente a prestação de serviços de acesso gerenciado a Rede Mundial por Mbps (de 1 até 10 Mbps) - (5,000 x 680,00 = R$ 3.400,00, competência: 01/2016"
+    },
+    {
+      "numero": "2020NE00985",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "20/07/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: julho/2020."
+    },
+    {
+      "numero": "2020NE00984",
+      "contrato": "9/2017",
+      "valor": 15100.2,
+      "situacao": "Ativo",
+      "data_emissao": "20/07/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: Junho e Julho/2020."
+    },
+    {
+      "numero": "2020NE00477",
+      "contrato": "9/2017",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: Abril/2020."
+    },
+    {
+      "numero": "2021NE0000025",
+      "contrato": "",
+      "valor": 16358.55,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2021",
+      "descricao": "ANULAÇÃO DA NE 21/2021 POR DATA INCORRETA."
+    },
+    {
+      "numero": "2021NE0000032",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Janeiro/2021."
+    },
+    {
+      "numero": "2021NE0000021",
+      "contrato": "9/2017",
+      "valor": 16358.55,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2021",
+      "descricao": "3º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 10 Mbps. Período: jan, fev e de 01 a 05 de março/2021"
+    },
+    {
+      "numero": "2024NE0001731",
+      "contrato": "4/2024",
+      "valor": 1455.67,
+      "situacao": "Ativo",
+      "data_emissao": "19/11/2024",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2022NE0000905",
+      "contrato": "1/2018",
+      "valor": 2157.7,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: Maio/2022."
+    },
+    {
+      "numero": "2022NE0000904",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado; Período: Maio/2022."
+    },
+    {
+      "numero": "2021NE0000004",
+      "contrato": "",
+      "valor": 16358.55,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2021",
+      "descricao": "ANULAÇÃO DA NE 1/2021 POR DATA INCORRETA."
+    },
+    {
+      "numero": "2021NE0000001",
+      "contrato": "9/2017",
+      "valor": 16358.55,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2021",
+      "descricao": "3º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 10 Mbps. Período: jan, fev e de 01 a 05 de março/2021"
+    },
+    {
+      "numero": "2017NE01184",
+      "contrato": "",
+      "valor": 17000.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Contrato 009/17 - Internet Banda Larga - R$ 3.400,00 mensal (Jul à Nov/17)"
+    },
+    {
+      "numero": "2022NE0002056",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2022",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: Outubro/2022."
+    },
+    {
+      "numero": "2022NE0002057",
+      "contrato": "1/2018",
+      "valor": 2157.7,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: Outubro/2022."
+    },
+    {
+      "numero": "2026NE0000198",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "18/03/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2022NE0000224",
+      "contrato": "1/2018",
+      "valor": 1979.55,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2022",
+      "descricao": "=3º Termo Aditivo ao Contrato nº 001/2018-FHAJ, cujo o objeto e a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas.=Vigência: 02/01/2021 a 01/01/2022 =Período: Outubro/2021"
+    },
+    {
+      "numero": "2022NE0000225",
+      "contrato": "1/2018",
+      "valor": 1979.55,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2022",
+      "descricao": "=3º Termo Aditivo ao Contrato nº 001/2018-FHAJ, cujo o objeto e a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas.=Vigência: 02/01/2021 a 01/01/2022 =Período: Novembro/2021"
+    },
+    {
+      "numero": "2022NE0000226",
+      "contrato": "1/2018",
+      "valor": 1979.55,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2022",
+      "descricao": "=3º Termo Aditivo ao Contrato nº 001/2018-FHAJ, cujo o objeto e a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas.=Vigência: 02/01/2021 a 01/01/2022 =Período: Dezembro/2021"
+    },
+    {
+      "numero": "2021NE0001070",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Agosto/2021 (parcial)."
+    },
+    {
+      "numero": "2021NE0001068",
+      "contrato": "9/2017",
+      "valor": 7457.56,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: Agosto/2021."
+    },
+    {
+      "numero": "2023NE0000192",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "17/02/2023",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: Fevereiro/2023."
+    },
+    {
+      "numero": "2016NE01164",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "Indenizações, Parecer Jurídico nº 248/2016-ASJUR/FHAJ, referente a prestação de serviço de acesso gerenciado a rede mundial, por Mbps (de 1 até) - (5.000 x 680,00) - R$ 3.400,00 no mês: 11/2016, conforme Nota Fiscal de Serviço Eletrônica - NFS-e nº 20793 - Data da Emissão: 23/11/2016."
+    },
+    {
+      "numero": "2020NE01534",
+      "contrato": "9/2017",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - Período: Dezembro/2020."
+    },
+    {
+      "numero": "2015NE00199",
+      "contrato": "11/2011",
+      "valor": 5279.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "COBERTURA MARÇO 2015"
+    },
+    {
+      "numero": "2015NE00209",
+      "contrato": "12/2010",
+      "valor": 9390.08,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "Cobertura março 2015"
+    },
+    {
+      "numero": "2025NE0001212",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Referente a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas; = 5º Termo Aditivo ao Contrato nº 001/2018-FHAJ; = Vigência: 02/01/2023 a 01/01/2024."
+    },
+    {
+      "numero": "2025NE0001206",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0001218",
+      "contrato": "8/2022",
+      "valor": 835.9,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Referente ao 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ, cujo o objeto é a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps, pelo período de 12 (doze) meses, para suprir as necessidades desta Fundação. Vigência: 01/04/2023 a 31/03/2024."
+    },
+    {
+      "numero": "2025NE0001209",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "= Referente a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas; = 5º Termo Aditivo ao Contrato nº 001/2018-FHAJ; = Vigência: 02/01/2023 a 01/01/2024."
+    },
+    {
+      "numero": "2025NE0001217",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Referente ao 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ, cujo o objeto é a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps, pelo período de 12 (doze) meses, para suprir as necessidades desta Fundação. Vigência: 01/04/2023 a 31/03/2024."
+    },
+    {
+      "numero": "2025NE0001208",
+      "contrato": "1/2018",
+      "valor": 2220.52,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "= Referente a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas; = 5º Termo Aditivo ao Contrato nº 001/2018-FHAJ; = Vigência: 02/01/2023 a 01/01/2024."
+    },
+    {
+      "numero": "2025NE0001205",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0001214",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "= Referente a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps, pelo período de 12 (doze) meses, para suprir as necessidades desta Fundação; = 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ; = Vigência: 01/04/2023 a 31/03/2024."
+    },
+    {
+      "numero": "2025NE0001196",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2025NE0001207",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0001213",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "= Referente a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps, pelo período de 12 (doze) meses, para suprir as necessidades desta Fundação; = 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ; = Vigência: 01/04/2023 a 31/03/2024."
+    },
+    {
+      "numero": "2025NE0001219",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "= Referente a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps, pelo período de 12 (doze) meses, para suprir as necessidades desta Fundação; = 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ; = Vigência: 01/04/2023 a 31/03/2024."
+    },
+    {
+      "numero": "2025NE0001211",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Referente a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas; = 5º Termo Aditivo ao Contrato nº 001/2018-FHAJ; = Vigência: 02/01/2023 a 01/01/2024."
+    },
+    {
+      "numero": "2025NE0001210",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "= Referente a contratação de de pessoa jurídica especializada em serviços de informática, compreendendo à disponibilização de gestor de conteúdo WEB, para publicação de informações, notícias, vídeos e imagens via website, de acordo com padrão de comunicação visual do Governo do Estado do Amazonas; = 5º Termo Aditivo ao Contrato nº 001/2018-FHAJ; = Vigência: 02/01/2023 a 01/01/2024."
+    },
+    {
+      "numero": "2025NE0001215",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "= Referente a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps, pelo período de 12 (doze) meses, para suprir as necessidades desta Fundação; = 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ; = Vigência: 01/04/2023 a 31/03/2024."
+    },
+    {
+      "numero": "2025NE0001216",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "Referente ao 1º Termo Aditivo ao Contrato nº 008/2022-FHAJ, cujo o objeto é a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 37 Mbps, pelo período de 12 (doze) meses, para suprir as necessidades desta Fundação. Vigência: 01/04/2023 a 31/03/2024."
+    },
+    {
+      "numero": "2025NE0001195",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2025NE0001197",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2020NE00730",
+      "contrato": "9/2017",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: maio/2020."
+    },
+    {
+      "numero": "2020NE00729",
+      "contrato": "9/2017",
+      "valor": 91.2,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: Abril/2020 (diferença)."
+    },
+    {
+      "numero": "2016NE01142",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0440/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19574, emitida em, 12/08/2016, competência 11/2015. Parecer jurídico 241/2016- ASSJUR/FHAJ"
+    },
+    {
+      "numero": "2016NE01141",
+      "contrato": "",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/12/2016",
+      "descricao": "CANCELAMENTO DA NE 1123/2016 PELO MOTIVO DO NR. DO PROCESSO INCORRETO."
+    },
+    {
+      "numero": "2021NE0000871",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Julho/2021 (parcial)."
+    },
+    {
+      "numero": "2021NE0000872",
+      "contrato": "9/2017",
+      "valor": 7457.56,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: Julho/2021."
+    },
+    {
+      "numero": "2024NE0000763",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2024",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2021NE0001894",
+      "contrato": "",
+      "valor": 821.7,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2021",
+      "descricao": "Indenizações, referente à prestação de serviço de processamento da Folha de pagamento especial tipo 68. Período: julho/2021."
+    },
+    {
+      "numero": "2020NE01532",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Dezembro/2020."
+    },
+    {
+      "numero": "2020NE01533",
+      "contrato": "9/2017",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: Novembro/2020."
+    },
+    {
+      "numero": "2020NE01531",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Novembro/2020."
+    },
+    {
+      "numero": "2020NE01388",
+      "contrato": "9/2017",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: Outubro/2020."
+    },
+    {
+      "numero": "2020NE01387",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Outubro/2020."
+    },
+    {
+      "numero": "2026NE0000189",
+      "contrato": "8/2022",
+      "valor": 9256.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2026NE0000188",
+      "contrato": "8/2022",
+      "valor": 9256.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2026NE0000190",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2019NE00187",
+      "contrato": "1/2018",
+      "valor": 444.81,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2019",
+      "descricao": "1º TA ao CT nº 001/2018-FHAJ de conteúdo WEB - PRODAM. Complemento do mês de março/2019."
+    },
+    {
+      "numero": "2024NE0001864",
+      "contrato": "8/2022",
+      "valor": 18512.2,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2022NE0002375",
+      "contrato": "8/2022",
+      "valor": 15050.86,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2022",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: Novembro e dezembro/2022."
+    },
+    {
+      "numero": "2022NE0002368",
+      "contrato": "1/2018",
+      "valor": 4315.4,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: Novembro e dezembro/2022."
+    },
+    {
+      "numero": "2016NE01122",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0439/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19573, emitida em, 12/08/2016, competência 10/2015. Parecer jurídico 240/2016- ASSJUR/FHAJ."
+    },
+    {
+      "numero": "2016NE01119",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0436/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19570, emitida em, 12/08/2016, competência 07/2015. Parecer jurídico 237/2016- ASSJUR/FHAJ."
+    },
+    {
+      "numero": "2016NE01124",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0441/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19575, emitida em, 12/08/2016, competência 12/2015. Parecer jurídico 242/2016- ASSJUR/FHAJ."
+    },
+    {
+      "numero": "2016NE01118",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0435/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19569, emitida em, 12/08/2016, competência 06/2015. Parecer jurídico 435/2016- ASSJUR/FHAJ."
+    },
+    {
+      "numero": "2016NE01123",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0440/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19574, emitida em, 12/08/2016, competência 11/2015. Parecer jurídico 241/2016- ASSJUR/FHAJ."
+    },
+    {
+      "numero": "2016NE01120",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0437/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19571, emitida em, 12/08/2016, competência 08/2015. Parecer jurídico 238/2016- ASSJUR/FHAJ."
+    },
+    {
+      "numero": "2016NE01121",
+      "contrato": "P.144/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores, conforme RD 0438/2016, referente a serviço de acesso à Rede Mundial -Internet, NFS-e 19572, emitida em, 12/08/2016, competência 09/2015. Parecer jurídico 239/2016- ASSJUR/FHAJ."
+    },
+    {
+      "numero": "2020NE01529",
+      "contrato": "",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2020",
+      "descricao": "DEAS, serviço de banda larga - Internet, set/2019."
+    },
+    {
+      "numero": "2020NE01509",
+      "contrato": "9/2017",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - ago/2019."
+    },
+    {
+      "numero": "2020NE01510",
+      "contrato": "9/2017",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - jul/2019."
+    },
+    {
+      "numero": "2019NE01323",
+      "contrato": "9/2017",
+      "valor": 14917.8,
+      "situacao": "Ativo",
+      "data_emissao": "11/10/2019",
+      "descricao": "Referente ao 2º TA ao CT nº 009/17 - internet banda larga - maio e junho/2019."
+    },
+    {
+      "numero": "2022NE0001434",
+      "contrato": "",
+      "valor": 15050.86,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: julho e agosto/2022."
+    },
+    {
+      "numero": "2022NE0001433",
+      "contrato": "",
+      "valor": 4315.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: julho e agosto/2022."
+    },
+    {
+      "numero": "2015NE00443",
+      "contrato": "6/2011",
+      "valor": 680.32,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2015",
+      "descricao": "PROPORCIONAL MAIO/15 - 4ºTA"
+    },
+    {
+      "numero": "2022NE0000396",
+      "contrato": "8/2022",
+      "valor": 6214.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/03/2022",
+      "descricao": "Referente à contratação de empresa para prestação, de forma dedicada, de serviço de acesso à internet por fibra óptica com garantia de 100% em download e upload, conforme projeto básico. Período: 06 a 31 de março/2022."
+    },
+    {
+      "numero": "2020NE00438",
+      "contrato": "9/2017",
+      "valor": 6291.75,
+      "situacao": "Ativo",
+      "data_emissao": "11/03/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: 06 a 31/03/2020."
+    },
+    {
+      "numero": "2020NE00434",
+      "contrato": "",
+      "valor": 6215.75,
+      "situacao": "Ativo",
+      "data_emissao": "11/03/2020",
+      "descricao": "Anulação parcial da NE00004/2020, pelo motivo do valor total incorreto."
+    },
+    {
+      "numero": "2021NE0001618",
+      "contrato": "1/2018",
+      "valor": 301.11,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Janeiro/2021 (complemento)."
+    },
+    {
+      "numero": "2020NE01508",
+      "contrato": "",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - set/2019."
+    },
+    {
+      "numero": "2020NE01507",
+      "contrato": "",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - out/2019."
+    },
+    {
+      "numero": "2020NE01506",
+      "contrato": "",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - nov/2019."
+    },
+    {
+      "numero": "2020NE01503",
+      "contrato": "",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - out/2019."
+    },
+    {
+      "numero": "2020NE01505",
+      "contrato": "",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - dez/2019."
+    },
+    {
+      "numero": "2020NE01504",
+      "contrato": "",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - ago/2019."
+    },
+    {
+      "numero": "2020NE01501",
+      "contrato": "",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - dez/2019."
+    },
+    {
+      "numero": "2020NE01502",
+      "contrato": "",
+      "valor": 1623.56,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "DEAS, serviços de banda larga - internet - nov/2019."
+    },
+    {
+      "numero": "2016NE01031",
+      "contrato": "6/2011",
+      "valor": 748.35,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2016",
+      "descricao": "Referente ao 6º Termo Aditivo ao Contrato nº 006/2011-FHAJ, serviços de informática para confecção de páginas eletrônicas."
+    },
+    {
+      "numero": "2015NE01081",
+      "contrato": "6/2011",
+      "valor": 714.34,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2015",
+      "descricao": "Referente ao 5º Termo Aditivo ao Contrato nº 006/2011-FHAJ, contratação de serviços de desenvolvimento, confecções, hospedagem de páginas eletrônicas e site institucional da FHAJ."
+    },
+    {
+      "numero": "2021NE0000369",
+      "contrato": "9/2017",
+      "valor": 7457.76,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: Abril/2021."
+    },
+    {
+      "numero": "2021NE0000368",
+      "contrato": "1/2018",
+      "valor": 5035.32,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Fevereiro a abril/2021."
+    },
+    {
+      "numero": "2026NE0000162",
+      "contrato": "8/2022",
+      "valor": 9256.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2024NE0001702",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2024",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2021NE0001589",
+      "contrato": "9/2017",
+      "valor": 7457.56,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: outubro/2021."
+    },
+    {
+      "numero": "2021NE0001590",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2021",
+      "descricao": "3º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: outubro/2021 (parcial)."
+    },
+    {
+      "numero": "2020NE00836",
+      "contrato": "9/2017",
+      "valor": 1243.15,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: 06 a 31/03/2020 (complemento)."
+    },
+    {
+      "numero": "2017NE00499",
+      "contrato": "4/2012",
+      "valor": 797.62,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2017",
+      "descricao": "Referente ao 5º Termo Aditivo ao Contrato nº 004/2012-FHAJ, serv. de implantação do sistema SIGS- Sistema Inteligente de Controle de Senhas."
+    },
+    {
+      "numero": "2017NE00500",
+      "contrato": "6/2011",
+      "valor": 2040.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2017",
+      "descricao": "Referente ao 6º Termo Aditivo ao Contrato nº 006/2011-FHAJ, prestação de serv. de desenvolvimento, confecção e implantação de de páginas eletrônicas e hospedagem de site institucional."
+    },
+    {
+      "numero": "2020NE00708",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Complemento de abril (R$ 219,52) e parcial de maio/2020 (R$ 1.458,92)."
+    },
+    {
+      "numero": "2015NE00436",
+      "contrato": "6/2011",
+      "valor": 374.17,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "cobertura maio 2015"
+    },
+    {
+      "numero": "2015NE00376",
+      "contrato": "12/2010",
+      "valor": 9390.08,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "Reforço a NE00034/2015, 4º Termo Aditivo ao Contrato nº 12/2010-FHAJ, referente a serviços de acesso a Internet."
+    },
+    {
+      "numero": "2015NE00355",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "Referente ao complemento da NE00060/2015, 3º Termo Aditivo ao Contrato nº 006/201-FHAJ, prestação de serviços para confecção de páginas eletrônicas e hospedagem de site institucional."
+    },
+    {
+      "numero": "2015NE00353",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "Reforço a NE00093/2015, 3º Termo Aditivo ao Contrato nº 004/2012-FHAJ, serviços serviço de implantação de software."
+    },
+    {
+      "numero": "2015NE00350",
+      "contrato": "11/2011",
+      "valor": 5279.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "Reforço a NE00035/2015, 3º Termo Aditivo ao Contrato nº 011/2011-FHAJ, serviços eventuais de informática."
+    },
+    {
+      "numero": "2023NE0000280",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "08/03/2023",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: Março/2023."
+    },
+    {
+      "numero": "2021NE0001871",
+      "contrato": "",
+      "valor": 817.14,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2021",
+      "descricao": "Indenizações, prestação de serviço de processamento da Folha de pagamento especial tipo 68. Período: maio/2021."
+    },
+    {
+      "numero": "2016NE01107",
+      "contrato": "11/2011",
+      "valor": 3081.37,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercicios Anteriores, RD00276/16, SC00432/16, Referente a prestação de serviços de manutenção corretiva e preventiva em equipamentos de automação de escritório no período de outubro/14, Contrato nº 11/2011-FHAJ, conforme NFS-e nº 12235 - Data da Emissão: 20/10/2014."
+    },
+    {
+      "numero": "2016NE01098",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 181/2016 - NFS 15160, de 15/07/2015 - Ref. Contrato 06/2011, Serviço de hospedagem de site, competência Junho/2015."
+    },
+    {
+      "numero": "2016NE01095",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 178/2016 - NFS 15799, de 15/09/2015 - Ref. Contrato 06/2011, Serviço de hospedagem de site, competência Setembro/2015."
+    },
+    {
+      "numero": "2016NE01105",
+      "contrato": "11/2011",
+      "valor": 5175.24,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercicios Anteriores, RD00278/16, SC420/16, referente a prestação de serviço de manutenção corretiva e preventiva em equipamentos de automação de escritório no período de novembro/2014, Contrato nº 11/2011-FHAJ, conforme NFS-e nº 12629 - Data da Emissão: 28/11/2014 ."
+    },
+    {
+      "numero": "2016NE01096",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 179/2016 - NFS 15335, de 13/08/2015 - Ref. Contrato 06/2011, Serviço de hospedagem de site, competência Agosto/2015."
+    },
+    {
+      "numero": "2016NE01109",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercicios Anteriores, RD00117/16, SC00431/16, referente a prestação de serviços de manut. de sistemas de informatica desenvolvido por terceiros - manutenção mensal do sistema SICS - Sistema Inteligente de controle de senhas - período; 08/2015, Contrato nº 4/2012-FHAJ, conforme NFS-e nº 15336 - Data da Emissão: 13/08/2015."
+    },
+    {
+      "numero": "2016NE01081",
+      "contrato": "12/2010",
+      "valor": 9895.27,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 99/2016 - NFS 14497, de 12/05/2017 - Ref. Contrato 12/2010, Serviço de acesso a rede de internet, competência Maio/2015"
+    },
+    {
+      "numero": "2016NE01103",
+      "contrato": "11/2011",
+      "valor": 2035.16,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 260/2016 - NFS 12236, de 20/10/2014 - Ref. Contrato 11/2011, Serviço de assistência técnica em software."
+    },
+    {
+      "numero": "2016NE01104",
+      "contrato": "11/2011",
+      "valor": 5232.92,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 277/2016 - NFS 12881, de 11/12/2014 - Ref. Contrato 11/2011, Serviço eventuais de informática, competência Dezembro/2014."
+    },
+    {
+      "numero": "2016NE01086",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 107/2016 - NFS 17305, de 19/01/2016 - Ref. Contrato 06/2011, Serviço de hospedagem de site, competência Dezembro/2015."
+    },
+    {
+      "numero": "2016NE01099",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 182/2016 - NFS 16837, de 02/12/2015 - Ref. Contrato 04/2012, Serviço de manutenção do Sistema SICS, competência Dezembro/2015."
+    },
+    {
+      "numero": "2016NE01102",
+      "contrato": "12/2010",
+      "valor": 9895.27,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 258/2016 - NFS 12100, de 13/10/2014 - Ref. Contrato 12/2010, Serviço de acesso a internet -Banda Larga, competência Outubro/2014."
+    },
+    {
+      "numero": "2016NE01100",
+      "contrato": "12/2010",
+      "valor": 9895.27,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 256/2016 - NFS 12463, de 13/11/2014 - Ref. Contrato 12/2010, Serviço de acesso a internet -Banda Larga, competência Novembro/2014."
+    },
+    {
+      "numero": "2016NE01090",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 111/2016 - NFS 15800, de 15/09/2015 - Ref. Contrato 04/2012, Serviço de manutenção sistema SICS, competência Setembro/2015."
+    },
+    {
+      "numero": "2016NE01091",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 115/2016 - NFS 16209, de 13/10/2015 - Ref. Contrato 04/2012, Serviço de manutenção sistema SICS, competência Outubro/2015."
+    },
+    {
+      "numero": "2016NE01083",
+      "contrato": "6/2011",
+      "valor": 306.15,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 100/2016 - NFS 16508, de 10/11/2015 - Ref. Contrato 06/2011, Serviço de hospedagem de site, competência Novembro/2015"
+    },
+    {
+      "numero": "2016NE01108",
+      "contrato": "6/2011",
+      "valor": 986.48,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Reforço - Referente ao 6º Termo Aditivo ao Contrato nº 006/2011-FHAJ, serviços de informática para confecção de páginas eletrônicas."
+    },
+    {
+      "numero": "2016NE01084",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 105/2016 - NFS 16208, de 13/10/2015 - Ref. Contrato 06/2011, Serviço de hospedagem de site, competência Outubro/2015."
+    },
+    {
+      "numero": "2016NE01106",
+      "contrato": "4/2012",
+      "valor": 2392.86,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Reforço a NE00200/2016, referente ao 4º Termo Aditivo ao Contrato nº 004/2012-FHAJ"
+    },
+    {
+      "numero": "2016NE01111",
+      "contrato": "6/2011",
+      "valor": 6429.09,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Referente ao 5º Termo Aditivo ao Contrato nº 006/2011-FHAJ, serviços de informática para confecção de páginas eletrônicas."
+    },
+    {
+      "numero": "2016NE01094",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 134/2016 - NFS 14807, de 12/06/2015 - Ref. Contrato 04/2012, Serviço de manutenção sistema SICS, competência Junho/2015."
+    },
+    {
+      "numero": "2016NE01089",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 110/2016 - NFS 16509, de 10/11/2015 - Ref. Contrato 04/2012, Serviço de manutenção sistema SICS, competência Novembro/2015."
+    },
+    {
+      "numero": "2016NE01101",
+      "contrato": "12/2010",
+      "valor": 9895.27,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 257/2016 - NFS 12878, de 11/12/2014 - Ref. Contrato 12/2010, Serviço de acesso a internet -Banda Larga, competência Dezembro/2014."
+    },
+    {
+      "numero": "2016NE01097",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 180/2016 - NFS 15161, de 15/07/2015 - Ref. Contrato 06/2011, Serviço de hospedagem de site, competência Julho/2015."
+    },
+    {
+      "numero": "2016NE01093",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesas De Exercícios Anteriores - RD 133/2016 - NFS 15096, de 09/07/2015 - Ref. Contrato 04/2012, Serviço de manutenção sistema SICS, competência Julho/2015."
+    },
+    {
+      "numero": "2026NE0000157",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000203",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000204",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2018NE00265",
+      "contrato": "9/2017",
+      "valor": 4000.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2018",
+      "descricao": "Referente ao 1º Termo Aditivo ao Contrato nº 0009/2017-FHAJ."
+    },
+    {
+      "numero": "2014NE00445",
+      "contrato": "6/2011",
+      "valor": 7823.75,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2014",
+      "descricao": "Contrato No. 6/2011 - Desenvolvimento e Hospedagem de Site"
+    },
+    {
+      "numero": "2026NE0000006",
+      "contrato": "8/2022",
+      "valor": 9256.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 04."
+    },
+    {
+      "numero": "2026NE0000002",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2015NE00050",
+      "contrato": "4/2012",
+      "valor": 427.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura 2015"
+    },
+    {
+      "numero": "2015NE00059",
+      "contrato": "6/2011",
+      "valor": 2040.98,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Anulação do Empenho nº 00051/2015 para correção da Referência/Artigo: Art.24; VI; Lei 8.666/93 para Art.24; XVI; Lei 8.666/93."
+    },
+    {
+      "numero": "2015NE00051",
+      "contrato": "6/2011",
+      "valor": 2040.98,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "3. Termo Aditivo ao Contrato 006/2011-FHAJ, referente a contratação de empresa especializada em serviço de processamento de dados."
+    },
+    {
+      "numero": "2015NE00035",
+      "contrato": "11/2011",
+      "valor": 10558.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00060",
+      "contrato": "6/2011",
+      "valor": 2040.98,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira 2015"
+    },
+    {
+      "numero": "2015NE00034",
+      "contrato": "12/2010",
+      "valor": 18780.16,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2020NE01207",
+      "contrato": "9/2017",
+      "valor": 15100.2,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga - período: Agosto e setembro/2020."
+    },
+    {
+      "numero": "2020NE01206",
+      "contrato": "1/2018",
+      "valor": 3356.88,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: Agosto e setembro/2020."
+    },
+    {
+      "numero": "2020NE00819",
+      "contrato": "9/2017",
+      "valor": 219.52,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2020",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 009/17 - Internet banda larga. Valor complementar ref. às competências janeiro a abril/2020, no valor de R$ 54,88 (mensal)."
+    },
+    {
+      "numero": "2020NE00820",
+      "contrato": "1/2018",
+      "valor": 1678.44,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: junho/2020."
+    },
+    {
+      "numero": "2015NE00354",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2015",
+      "descricao": "Anulação parcial da NE00060/2015, pelo motivo da fonte de recursos incorreta."
+    },
+    {
+      "numero": "2015NE00352",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2015",
+      "descricao": "Reforço da NE00060/2015, 3º Termo Aditivo ao Contrato nº 006/2011-FHAJ, prestação de serviços de desenvolvimento e confecção e implantação de Web Site."
+    },
+    {
+      "numero": "2022NE0000374",
+      "contrato": "9/2017",
+      "valor": 7457.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2022",
+      "descricao": "=4º Termo Aditivo ao Contrato nº 009/2017-FHAJ, cujo o objeto e a contratação de pessoa jurídica especializada para prestação de serviços de acesso à Internet Banda Larga, com IP dedicado, com velocidade de 35 Mbps.=Vigência: 06/03/2021 a 05/03/2022 =Período: Dezembro/2021"
+    },
+    {
+      "numero": "2021NE0000026",
+      "contrato": "9/2017",
+      "valor": 16358.55,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "3º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 10 Mbps. Período: jan, fev e de 01 a 05 de março/2021"
+    },
+    {
+      "numero": "2016NE00842",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "Reforço a NE00074/2016, referente ao 5º Termo Aditivo ao Contrato nº 006/2011-FHAJ."
+    },
+    {
+      "numero": "2024NE0000899",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2024NE0000900",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2017NE00668",
+      "contrato": "",
+      "valor": 0.98,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2017",
+      "descricao": "Contrato 006/2011 - 6a. TA - Reforço para o mês de Fevereiro e Março/22017 NE 500"
+    },
+    {
+      "numero": "2017NE00666",
+      "contrato": "9/2017",
+      "valor": 20400.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2017",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE ACESSO À INTERNET BANDA LARGA, COM IP DEDICADO, COM VELOCIDADE DE 10 MBPS. (Abril/Maio e Junho)"
+    },
+    {
+      "numero": "2017NE00667",
+      "contrato": "4/2012",
+      "valor": 1196.43,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2017",
+      "descricao": "Contratação de pessoa jurídica para prestação de serviço de informática, compreendendo a implantação do SICS - Sistema Inteligente de Controle de Senha para esta fundação. (Maio/junho/julho)."
+    },
+    {
+      "numero": "2017NE00669",
+      "contrato": "",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2017",
+      "descricao": "Contrato 006/2011 - 6.TA - Manutenção site. mês: Abril/2017"
+    },
+    {
+      "numero": "2025NE0000574",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000573",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2019NE00526",
+      "contrato": "9/2017",
+      "valor": 7458.9,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2019",
+      "descricao": "Referente ao 2º TA ao CT nº 009/17 - internet banda larga - abril/2019."
+    },
+    {
+      "numero": "2021NE0000216",
+      "contrato": "9/2017",
+      "valor": 6215.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2021",
+      "descricao": "4º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 35 Mbps. Período: 06 a 31 de março/2021."
+    },
+    {
+      "numero": "2021NE0000215",
+      "contrato": "",
+      "valor": 6199.41,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2021",
+      "descricao": "ANULAÇÃO DA NE 213/2021 POR VALOR INCORRETO."
+    },
+    {
+      "numero": "2017NE00272",
+      "contrato": "9/2017",
+      "valor": 5666.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2017",
+      "descricao": "Referente ao Termo de Contrato nº 009/2017-FHAJ, para prestação de serviço de de acesso a internet banda larga, com IP dedicado, com velocidade de 10 MBPS."
+    },
+    {
+      "numero": "2017NE00164",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2017",
+      "descricao": "Referente ao 5º Termo Aditivo ao Contrato nº 004/2012-FHAJ, serviços de informatica - implantação do sistema inteligente de senhas - SICS."
+    },
+    {
+      "numero": "2022NE0000022",
+      "contrato": "1/2018",
+      "valor": 6473.1,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Referente ao 4º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo); Período: Janeiro a março/2022."
+    },
+    {
+      "numero": "2022NE0000034",
+      "contrato": "9/2017",
+      "valor": 16158.28,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Referente ao 4º TA ao CT 009/2017-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado; Período: Janeiro, fevereiro e de 01 a 05 de março/2022."
+    },
+    {
+      "numero": "2021NE0000213",
+      "contrato": "9/2017",
+      "valor": 6199.41,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2021",
+      "descricao": "3º TA ao CT 009/2017, contratação de empresa especializada para prestação de serviços de acesso à internet Banda Larga com IP dedicado, com velocidade de 10 Mbps. Período: 06 a 31 de março/2021."
+    },
+    {
+      "numero": "2015NE00093",
+      "contrato": "4/2012",
+      "valor": 370.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2015",
+      "descricao": "Cobertura 3TA MES FEVEREIRO 2015"
+    },
+    {
+      "numero": "2025NE0000004",
+      "contrato": "8/2022",
+      "valor": 9256.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de Empresa Especializada em serviços de acesso à Internet Banda Larga, com IP Dedicado, com Velocidade de 37Mbps, para atender à necessidades desta FHAJ, com reajuste em 23% para realinhamento de internet de 37Mbps para 49Mbps TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000012",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2023NE0000005",
+      "contrato": "1/2018",
+      "valor": 2297.09,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Referente ao 5º TA ao CT 001/2018-FHAJ, serviços de disponibilidade de gestor de conteúdo WEB (Publicações padrão Governo). Período: Janeiro/2023."
+    },
+    {
+      "numero": "2023NE0000006",
+      "contrato": "8/2022",
+      "valor": 7525.43,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Referente ao CT 008/2022-FHAJ, serviços de acesso à Internet banda larga, com Ip dedicado. Período: Janeiro/2023."
+    },
+    {
+      "numero": "2020NE00004",
+      "contrato": "9/2017",
+      "valor": 22376.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Referente ao 2º TA ao CT nº 009/17 - internet banda larga - Período: jan a mar/2020."
+    },
+    {
+      "numero": "2020NE00008",
+      "contrato": "1/2018",
+      "valor": 4870.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "2º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas. Período: jan, fev e parcial de mar/2020."
+    },
+    {
+      "numero": "2019NE00013",
+      "contrato": "9/2017",
+      "valor": 16400.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "01 TA ao CT 009/17 - serviços de Internet banda larga."
+    },
+    {
+      "numero": "2019NE00024",
+      "contrato": "1/2018",
+      "valor": 4425.87,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "1º TA ao CT nº 001/2018-FHAJ de serviço de confecção de páginas eletrônicas."
+    },
+    {
+      "numero": "2018NE00031",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "DEAS - Serviço de Hospedagem do site ref. CT 06/11, competência Agosto/17 conforme NFS 24368, de 15/08/2018. SC 020/2018, RD 116/2018."
+    },
+    {
+      "numero": "2018NE00063",
+      "contrato": "1/2018",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "SERVIÇO DE DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB - CT 001/2018"
+    },
+    {
+      "numero": "2018NE00052",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de pessoa jurídica para prestação de serviço de informática , compreendendo a implantação do SICS - Sistema Inteligente de Controle de senha para a FHJA - 5. Termo aditivo ao Contrato 004/2012-FHAJ"
+    },
+    {
+      "numero": "2018NE00048",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "DEAS - Serviço de Senhas - SCI no mês Outubr2018."
+    },
+    {
+      "numero": "2018NE00055",
+      "contrato": "9/2017",
+      "valor": 6800.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE ACESSO À INTERNET BANDA LARGA, COM IP DEDICADO, COM VELOCIDADE DE 10 MBPS. TERMO DE CONTRATO 009/2017-FHAJ"
+    },
+    {
+      "numero": "2017NE00084",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "4. Termo aditivo ao Contrato 004/2012-FHAJ - Serviço de Senhas"
+    },
+    {
+      "numero": "2017NE00083",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Referente ao 6º Termo Aditivo ao Contrato nº 006/2011-FHAJ, serviços de desenvolvimento, confecção e implantação de Web Site."
+    },
+    {
+      "numero": "2014NE00047",
+      "contrato": "4/2012",
+      "valor": 405.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 4/2012 - Manutenção Sist Senhas- SICS"
+    },
+    {
+      "numero": "2014NE00073",
+      "contrato": "11/2011",
+      "valor": 35211.47,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 11/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2014NE00058",
+      "contrato": "6/2011",
+      "valor": 3873.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 6/2011 - Desenvolvimento e Hospedagem de Site"
+    },
+    {
+      "numero": "2014NE00053",
+      "contrato": "12/2010",
+      "valor": 47263.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 12/2010 - Internet/Computador banda 3.256Kb-MetroMAO"
+    },
+    {
+      "numero": "2017NE00817",
+      "contrato": "",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "Contratação de pessoa jurídica para prestação de serviço de informática, compreendendo a implantação do SICS - Sistema Inteligente de Controle de Senha para esta fundação."
+    },
+    {
+      "numero": "2017NE00816",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "Para atender despesa com Contrato de serviço de informática."
+    },
+    {
+      "numero": "2017NE00737",
+      "contrato": "6/2011",
+      "valor": 2040.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Para atender despesa com contrato 06/2011 - 6. TA"
+    },
+    {
+      "numero": "2016NE00698",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Reforço a NE00200/2016, referente ao 4º Termo Aditivo ao Contrato nº 004/2012-FHAJ"
+    },
+    {
+      "numero": "2016NE00678",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Reforço a NE00074/2016, referente ao 5º Termo Aditivo ao Contrato nº 006/2011-FHAJ."
+    },
+    {
+      "numero": "2016NE00679",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Reforço a NE00200/2016, referente ao 4º Termo Aditivo ao Contrato nº 004/2012-FHAJ."
+    },
+    {
+      "numero": "2015NE00567",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "cobertura maio/2015"
+    },
+    {
+      "numero": "2015NE00568",
+      "contrato": "11/2011",
+      "valor": 5279.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "cobertura maio/2015."
+    },
+    {
+      "numero": "2015NE00569",
+      "contrato": "12/2010",
+      "valor": 9390.08,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "Reforço a NE00034/2015, 4º Termo Aditivo ao Contrato nº 12/2010-FHAJ, referente a serviços de acesso a Internet."
+    },
+    {
+      "numero": "2014NE00555",
+      "contrato": "12/2010",
+      "valor": 9565.42,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2014",
+      "descricao": "Contrato No. 12/2010 - Internet/Computador banda 3.256Kb-MetroMAO"
+    },
+    {
+      "numero": "2024NE0000365",
+      "contrato": "4/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2024",
+      "descricao": "CONTRATAÇÃODE EMPRESA ESPECIALIZADA PARA O SERVIÇO DE CONFECÇÃO, DESENVOLVIMENTO E HOSPEDAGEM DE PÁGINA ELETRÔNICA E SITE INSTITUCIONAL PARA ATENDER A NECESSIDADES DA FUNDAÇÃO HOSPITAL ADRIANO JORGE – FHAJ."
+    },
+    {
+      "numero": "2015NE00206",
+      "contrato": "6/2011",
+      "valor": 1020.49,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "cobertura março 2015"
+    },
+    {
+      "numero": "2015NE00200",
+      "contrato": "4/2012",
+      "valor": 398.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "COBERTURA MARÇO 2015"
+    },
+    {
+      "numero": "2019NE00173",
+      "contrato": "",
+      "valor": 1666.67,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "Anulação parcial da NE00013, pelo motivo do empenhamento a maior no mês de março/2019."
+    },
+    {
+      "numero": "2019NE00178",
+      "contrato": "",
+      "valor": 444.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "Anulação parcial da NE00024/2019, pelo motivo da descrição incorreta."
+    },
+    {
+      "numero": "2019NE00177",
+      "contrato": "1/2018",
+      "valor": 444.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "Referente ao 1º AD ao CT nº 001/2018-FHAJ, serv. de confecções de páginas eletrônicas (reforço à NE24/2019 - complemento de março/19)."
+    },
+    {
+      "numero": "2019NE00176",
+      "contrato": "9/2017",
+      "valor": 5221.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "Referente ao 2º TA ao CT nº 009/17 - internet banda larga - parcial de março/2019."
+    },
+    {
+      "numero": "2016NE00200",
+      "contrato": "4/2012",
+      "valor": 769.31,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2016",
+      "descricao": "4º Termo Aditivo ao Contrato nº 004/2012-FHAJ, contratação de pessoa jurídica para prestação de serviços de informática."
+    },
+    {
+      "numero": "2016NE00074",
+      "contrato": "6/2011",
+      "valor": 2040.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "5º Termo Aditivo ao Contrato nº 006/2011-FHAJ, de prestação de serviços para desenvolvimento, confecção de páginas eletrônicas e hospedagem de Site Institucional desta Fundação."
+    },
+    {
+      "numero": "2016NE00075",
+      "contrato": "4/2012",
+      "valor": 427.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "Referente ao 3º Termo Aditivo ao Contrato nº 004/2012-FHAJ, para prestação de serviços de informática, instalação, implantação, manutenção do Sistema Inteligente de Senhas-SICS."
+    },
+    {
+      "numero": "2014NE00096",
+      "contrato": "4/2012",
+      "valor": 370.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2014",
+      "descricao": "Contrato No. 4/2012 - Manutenção Sist Senhas- SICS"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "142153",
+      "nf": "142153",
+      "contrato": "8/2022",
+      "valor_bruto": 9256.1,
+      "competencia": "06/2023",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 160
+    },
+    {
+      "id": "167379",
+      "nf": "167379",
+      "contrato": "8/2022",
+      "valor_bruto": 9256.0,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 160
+    },
+    {
+      "id": "167380",
+      "nf": "167380",
+      "contrato": "4/2024",
+      "valor_bruto": 2717.66,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 81
+    },
+    {
+      "id": "166278",
+      "nf": "547",
+      "contrato": "4/2024",
+      "valor_bruto": 2717.66,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 81
+    },
+    {
+      "id": "145183",
+      "nf": "41142",
+      "contrato": "1/2018",
+      "valor_bruto": 2297.09,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "146738",
+      "nf": "42550",
+      "contrato": "1/2018",
+      "valor_bruto": 2297.09,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "FHAJ",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "008/2022",
+      "Número": "142153",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142153/E",
+      "Comp.": "06/2023",
+      "Valor": "835,90",
+      "Atraso": "990 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FHAJ",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "001/2018",
+      "Número": "145183",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145183/E",
+      "Comp.": "10/2023",
+      "Valor": "2.297,09",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FHAJ",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "001/2018",
+      "Número": "146738",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146738/E",
+      "Comp.": "12/2023",
+      "Valor": "2.297,09",
+      "Atraso": "805 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FHAJ",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "004/2024",
+      "Número": "166278",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166278/E",
+      "Comp.": "01/2026",
+      "Valor": "2.717,66",
+      "Atraso": "42 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 297,
+      "valor_total": 1453289.68,
+      "por_ano": {
+        "2020": {
+          "qtd": 35,
+          "valor": 177341.77999999997
+        },
+        "2019": {
+          "qtd": 13,
+          "valor": 56345.39
+        },
+        "2023": {
+          "qtd": 18,
+          "valor": 82982.08999999997
+        },
+        "2017": {
+          "qtd": 16,
+          "valor": 60200.569999999985
+        },
+        "2016": {
+          "qtd": 56,
+          "valor": 149371.41999999998
+        },
+        "2021": {
+          "qtd": 26,
+          "valor": 180771.55000000002
+        },
+        "2025": {
+          "qtd": 32,
+          "valor": 172565.86000000007
+        },
+        "2022": {
+          "qtd": 22,
+          "valor": 129396.29
+        },
+        "2014": {
+          "qtd": 10,
+          "valor": 128291.98
+        },
+        "2018": {
+          "qtd": 14,
+          "valor": 38817.91
+        },
+        "2026": {
+          "qtd": 18,
+          "valor": 107763.14000000001
+        },
+        "2024": {
+          "qtd": 14,
+          "valor": 82128.52000000002
+        },
+        "2015": {
+          "qtd": 23,
+          "valor": 87313.18000000002
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 6,
+      "valor_total": 28541.6
+    },
+    "cobrancas": {
+      "qtd": 4,
+      "valor_total": 8147.74
+    }
+  }
+}

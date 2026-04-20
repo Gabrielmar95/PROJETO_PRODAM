@@ -1,0 +1,22 @@
+{
+  "filename": "RECIBO.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\05_ACEITES\\RECIBO.pdf",
+  "categoria": "05_ACEITES",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499384,
+  "texto_length": 1163,
+  "texto_preview": "R  E  C  I  B  O\nR$ 533.938,58\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n533.938,58 (QUINHENTOS E TRINTA E TRêS MIL, NOVECENTOS E TRINTA E OITO REAIS E CINQUENTA E\nOITO CENTAVOS), referente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s)\nfiscal(is) de serviços abaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n22/2014\nExecução de sistemas - Sist. de Controle Veículos\nMultas e Talonários\n25016\n417.156,81\n20.857,84\n0,00\n0,00\n396.298,97\njan/2021\n22/2014\nExecução de sistemas - Sist. de Controle Frota\nVeiculos Apreendidos\n25017\n2.487,27\n124,36\n0,00\n0,00\n2.362",
+  "texto_completo": "R  E  C  I  B  O\nR$ 533.938,58\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n533.938,58 (QUINHENTOS E TRINTA E TRêS MIL, NOVECENTOS E TRINTA E OITO REAIS E CINQUENTA E\nOITO CENTAVOS), referente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s)\nfiscal(is) de serviços abaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n22/2014\nExecução de sistemas - Sist. de Controle Veículos\nMultas e Talonários\n25016\n417.156,81\n20.857,84\n0,00\n0,00\n396.298,97\njan/2021\n22/2014\nExecução de sistemas - Sist. de Controle Frota\nVeiculos Apreendidos\n25017\n2.487,27\n124,36\n0,00\n0,00\n2.362,91\njan/2021\n22/2014\nExecução de sistemas - Sist. de Carteira Nacional de\nHabilitação\n25019\n92.347,09\n4.617,35\n0,00\n0,00\n87.729,74\njan/2021\n22/2014\nExecução de sistemas - Sist. Cont. Infra. Talonários\n25021\n21.947,41\n1.097,37\n0,00\n0,00\n20.850,04\njan/2021\n533.938,58\n26.696,92\n0,00\n0,00\n507.241,66\nManaus, 27 de Outubro de 2021\nJosé Maria Pinto\nGerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "valores_brl": [
+      "533.938,58"
+    ],
+    "tipo_doc": "ACEITE_TECNICO"
+  }
+}

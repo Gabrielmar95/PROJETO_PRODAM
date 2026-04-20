@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê SUHAB — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — SUHAB</h1>
+<p><b>Superintendência da Zona Franca de Manaus - Habitação</b> | GOV_INDIRETA | CNPJ: 04.355.863/0001-32 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi média">MÉDIA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 840.061,15</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 1.210.268,55</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">87</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">36</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">322</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">47%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2017NE00018</td><td>17/2016</td><td>02/01/2017</td><td>R$ 347.538,70</td><td>Ativo</td></tr>
+<tr><td>2016NE00782</td><td>17/2016</td><td>24/06/2016</td><td>R$ 347.538,66</td><td>Ativo</td></tr>
+<tr><td>2018NE00390</td><td>17/2016</td><td>29/06/2018</td><td>R$ 327.620,46</td><td>Ativo</td></tr>
+<tr><td>2017NE00421</td><td>17/2016</td><td>21/06/2017</td><td>R$ 327.620,46</td><td>Ativo</td></tr>
+<tr><td>2019NE00050</td><td>17/2016</td><td>02/01/2019</td><td>R$ 327.620,46</td><td>Ativo</td></tr>
+<tr><td>2020NE00026</td><td>17/2016</td><td>02/01/2020</td><td>R$ 319.318,17</td><td>Ativo</td></tr>
+<tr><td>2019NE00285</td><td>17/2016</td><td>18/07/2019</td><td>R$ 319.318,14</td><td>Ativo</td></tr>
+<tr><td>2018NE00180</td><td>17/2016</td><td>13/03/2018</td><td>R$ 293.308,58</td><td>Ativo</td></tr>
+<tr><td>2020NE00662</td><td>17/2016</td><td>01/07/2020</td><td>R$ 283.654,68</td><td>Ativo</td></tr>
+<tr><td>2018NE00058</td><td>17/2016</td><td>02/01/2018</td><td>R$ 273.017,05</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>122692</td><td>19753</td><td>46/2021</td><td>02/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>122694</td><td>19791</td><td>46/2021</td><td>01/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>123185</td><td>20315</td><td>46/2021</td><td>03/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>123872</td><td>20909</td><td>46/2021</td><td>04/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>124586</td><td>21618</td><td>46/2021</td><td>05/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>125289</td><td>22293</td><td>46/2021</td><td>06/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>126050</td><td>23024</td><td>46/2021</td><td>07/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>126606</td><td>23567</td><td>46/2021</td><td>08/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>127412</td><td>24327</td><td>46/2021</td><td>09/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>128052</td><td>24914</td><td>46/2021</td><td>10/2021</td><td>R$ 33.380,89</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Documentação fraca</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[9, 26, 34, 22, 44, 21, 18, 16, 22, 37, 38, 29, 6],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[590849.3099999999, 634541.02, 728574.2999999997, 1419865.3299999998, 2140348.54, 1084280.0400000003, 881966.02, 240547.22, 326865.91000000003, 522416.8799999999, 288280.17999999993, 246790.73, 88192.72],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

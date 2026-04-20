@@ -1,0 +1,1847 @@
+{
+  "sigla": "CGE",
+  "profile": {
+    "nome_completo": "Controladoria Geral do Estado do Amazonas",
+    "sigla": "CGE",
+    "natureza": "Órgão Estadual",
+    "categoria": "GOV_DIRETA",
+    "val_orig": "25693.37",
+    "val_exig": "25693.37",
+    "val_atualizado": "25693.37",
+    "faturas_total": 9,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 9,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 2,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Pendente analise",
+    "observacoes": "Incluido via SPCF Mar/2026. 7 fat aberto (B2-05 R$24.917,06). Emp 2026 R$130K (5x a divida). Perdas R$23K",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "CNPJ_PENDENTE",
+    "tipo": "GOV",
+    "score_composto": 0,
+    "proximo_passo": "CLASSIFICAR",
+    "fonte": "SPCF_MAR2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-31",
+    "spcf_total_receber": "25693.37",
+    "spcf_fat_devidas_qtd": 9,
+    "spcf_fat_devidas_val": "25693.34",
+    "spcf_fat_aberto_qtd": 7,
+    "spcf_fat_aberto_val": "24917.06",
+    "spcf_perdas": "23626.15",
+    "emp_2026": "130471.45",
+    "emp_2026_qtd": 2,
+    "contratos_vigentes": 2,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 7,
+    "fat_canceladas_val_bruto": 23820.91,
+    "fat_canceladas_val_liquido": 22629.86,
+    "faturamento_total_2019_2026": 1910901.05,
+    "recebimento_total_2019_2026": 1795619.0,
+    "taxa_pagamento_pct": 93.97,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2023-Fev",
+    "faturamento_pico_valor": 96220.86,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 3584640.729999998,
+    "empenho_historico_qtd": 113,
+    "empenho_valor_global_contratos": 730517.76,
+    "empenho_2026_gerencial": 213359.74,
+    "a_empenhar_2026": 428665.74,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "25734.20",
+    "val_liquido_spcf_mar2026": "25693.34",
+    "num_faturas_spcf_mar2026": 8,
+    "reconciliacao_status": "MATCH",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 0.0,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2016NE00324",
+      "contrato": "7/2016",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DO SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2020NE00307",
+      "contrato": "",
+      "valor": 377.6,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2020",
+      "descricao": "Anulação Parcial do Saldo da NE 2020NE00210, CT nº 003/2020 - CGE, em cumprimento ao Decreto nº 43.042, de 18 de novembro de 2020, publicado no DOE nº 34.376. (Encerramento do Exercício)."
+    },
+    {
+      "numero": "2020NE00305",
+      "contrato": "",
+      "valor": 48767.17,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2020",
+      "descricao": "Anulação Parcial do Saldo da NE 2020NE00278, 3TA ao CT nº 003/2017 - CGE, em cumprimento ao Decreto nº 43.042, de 18 de novembro de 2020, publicado no DOE nº 34.376. (Encerramento do Exercício)."
+    },
+    {
+      "numero": "2020NE00306",
+      "contrato": "",
+      "valor": 17810.29,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2020",
+      "descricao": "Anulação Total do Saldo da NE 2020NE00221, 2TA ao CT nº 003/2017 - CGE, em cumprimento ao Decreto nº 43.042, de 18 de novembro de 2020, publicado no DOE nº 34.376. (Encerramento do Exercício)."
+    },
+    {
+      "numero": "2020NE00304",
+      "contrato": "",
+      "valor": 878.4,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2020",
+      "descricao": "Anulação Total do Saldo da NE 2020NE00220, 2TA ao CT nº 003/2017 - CGE, em cumprimento ao Decreto nº 43.042, de 18 de novembro de 2020, publicado no DOE nº 34.376. (Encerramento do Exercício)."
+    },
+    {
+      "numero": "2019NE00357",
+      "contrato": "",
+      "valor": 42646.24,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "Anulação Total do Saldo da NE 000315/2019,2TA CT. Nº003/2017-CGE, em cumprimento ao Decreto nº 41.554, de 26 de novembro de 2019. Publicado no DOE Nº 34.131 DE 26/11/2019. (Encerramento do exercício)."
+    },
+    {
+      "numero": "2019NE00358",
+      "contrato": "",
+      "valor": 60.95,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "Anulação Total do Saldo da NE 000314/2019, 2TA CT. Nº003/2017-CGE, em cumprimento ao Decreto nº 41.554, de 26 de novembro de 2019. Publicado no DOE Nº 34.131 DE 26/11/2019. (Encerramento do exercício)."
+    },
+    {
+      "numero": "2019NE00356",
+      "contrato": "",
+      "valor": 196946.71,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "Anulação Total do Saldo da NE 000004/2019,1TA CT. Nº003/2017-CGE, em cumprimento ao Decreto nº 41.554, de 26 de novembro de 2019. Publicado no DOE Nº 34.131 DE 26/11/2019. (Encerramento do exercício)."
+    },
+    {
+      "numero": "2016NE00463",
+      "contrato": "",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO QUE SE FAZ EM ATENDIMENTO A INSTRUÇÃO NORMATIVA Nº 01/2016-GSET DE ENCERRAMENTO DO EXERCÍCIO DE 2016, PUB NO DOE EM 14/12/16."
+    },
+    {
+      "numero": "2025NE0000427",
+      "contrato": "",
+      "valor": 14597.67,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2025",
+      "descricao": "Anulação Parcial do Saldo da NE nº 38/2025 ? conforme Decreto nº 52.770 de 21/10/2025 ? para o encerramento da execução, orçamentária, financeira, patrimonial e contábil do exercício de 2025."
+    },
+    {
+      "numero": "2017NE00199",
+      "contrato": "",
+      "valor": 144.11,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação total do saldo da NE nº 0061/2017, TA nº04 CT nº002/2012-CGE, em cumprimento a IN. nº001/2017-GSEFAZ de 12/12/2017, publicado no DOE nº 33.663 de 14/12/2017. ( encerramento do exercício)."
+    },
+    {
+      "numero": "2017NE00374",
+      "contrato": "",
+      "valor": 2445.6,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação do Saldo da Nota de Empenho nº 2017NE00102, correspondente ao 1º TA-CT.002/2016-OGE, para ajuste orçamentário no encerramento do exercício."
+    },
+    {
+      "numero": "2017NE00200",
+      "contrato": "",
+      "valor": 37952.88,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação total do saldo da NE nº 0180/2017, CT nº03/2017-CGE, em cumprimento a IN. nº001/2017-GSEFAZ de 12/12/2017, publicado no DOE nº 33.663 de 14/12/2017. ( encerramento do exercício)."
+    },
+    {
+      "numero": "2017NE00201",
+      "contrato": "",
+      "valor": 3115.58,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação total do saldo da NE nº 0181/2017, CT nº03/2017-CGE, em cumprimento a IN. nº001/2017-GSEFAZ de 12/12/2017, publicado no DOE nº 33.663 de 14/12/2017. ( encerramento do exercício)."
+    },
+    {
+      "numero": "2016NE00164",
+      "contrato": "",
+      "valor": 144.11,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "Anulação total do saldo da NE nº 0096/2016, conforme Instrução Normativa nº 001/2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2019NE00315",
+      "contrato": "3/2017",
+      "valor": 42646.24,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2019",
+      "descricao": "Contratação de Empresa Especializada em prestação de serviços de TI, Tipo DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, CONFORME PROJETO BÁSICO ."
+    },
+    {
+      "numero": "2016NE00142",
+      "contrato": "2/2013",
+      "valor": 42826.7,
+      "situacao": "Ativo",
+      "data_emissao": "29/02/2016",
+      "descricao": "SERVIÇOS DE REDE COMPREENDENDO A DISPONIBILIDADE DE ACESSO À REDE DE GOVERNO COM O FORNEC. DE LINK SEGURO, DEDICADO, PONTO A PONTO, ENTRE A SEDE DA OUVIDORIA E A PRODAM, PARA ACESSO GERENCIADO A INTERNET, E SERVIÇO RESIDENTES NO DATA CENTER DO ESTADO"
+    },
+    {
+      "numero": "2019NE00314",
+      "contrato": "3/2017",
+      "valor": 1577.93,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2019",
+      "descricao": "Contratação de Empresa Especializada em prestação de serviços de TI, Tipo LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB, e LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2022NE0000236",
+      "contrato": "3/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2022",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado - CGE. (Conforme Projeto Básico)"
+    },
+    {
+      "numero": "2022NE0000234",
+      "contrato": "2/2021",
+      "valor": 9080.26,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2022",
+      "descricao": "Contratação de Empresa Especializada na Prestação de Serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para a CGE/AM. Conforme Projeto Básico."
+    },
+    {
+      "numero": "2022NE0000235",
+      "contrato": "3/2017",
+      "valor": 20000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2022",
+      "descricao": "REFORÇO QUE SE FAZ DA NE Nº 20 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A - REFERENTE AO QUARTO TERMO ADITIVO AO CONTRATO Nº 003/2017"
+    },
+    {
+      "numero": "2024NE0000379",
+      "contrato": "",
+      "valor": 67608.32,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 34/2024 - REF. AO ENCERRAMENTO DO EXERCÍCIO 01 FINANCEIRO DE 2024 - DECRETO Nº 50.522 DE 22/10/2024 ? CONTRATO Nº 1/2023 ? 2º TA. ? PRODAM S.A."
+    },
+    {
+      "numero": "2020NE00278",
+      "contrato": "3/2017",
+      "valor": 50424.78,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRETAÇÃO DE SERVIÇOS DE TI, TIPO DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, LICENÇAS DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEUDO WEB E LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO-PORTAL DA TRANSPARÊNCIA"
+    },
+    {
+      "numero": "2021NE0000101",
+      "contrato": "",
+      "valor": 1128.61,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2021",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 001/2021 - TERMO DE CTA N° 003/2020 MOTIVO: ENCERRAMENTO DA VIGÊNCIA DO CONTRATO"
+    },
+    {
+      "numero": "2024NE0000140",
+      "contrato": "2/2021",
+      "valor": 255.87,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2023NE0000098",
+      "contrato": "",
+      "valor": 126919.84,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2023",
+      "descricao": "REFORÇO QUE SE FAZ DA NE 029/2023 - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO (TI), PARA ATENDER AS NECESSIDADES DA CONTROLADORIA GERAL DO ESATDO - REF. AO TERMO DE CONTRATO 001/2023.- CGE"
+    },
+    {
+      "numero": "2023NE0000095",
+      "contrato": "2/2021",
+      "valor": 18268.22,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2023",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000101",
+      "contrato": "3/2020",
+      "valor": 2424.2,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2023",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado -CGE. Demais informações no Projeto Básico, páginas 32 a 35 - SIGED. TC: 003/2020 AD: 03."
+    },
+    {
+      "numero": "2019NE00075",
+      "contrato": "3/2017",
+      "valor": 124006.32,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2019",
+      "descricao": "Contratação de empresa especializada em prestação de Serviços de TI, tipo DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, conforme projeto básico."
+    },
+    {
+      "numero": "2019NE00074",
+      "contrato": "3/2017",
+      "valor": 10179.54,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2019",
+      "descricao": "Contratação de empresa especializada em prestação de Serviços de TI, tipo LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB; e LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2019NE00077",
+      "contrato": "1/2018",
+      "valor": 3887.41,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, para a CONTROLADORIA-GERAL DO ESTADO."
+    },
+    {
+      "numero": "2018NE00221",
+      "contrato": "3/2017",
+      "valor": 15577.9,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2018",
+      "descricao": "Complementação ao Termo de Contrato nº 003/2017-CGE ref. Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE."
+    },
+    {
+      "numero": "2024NE0000136",
+      "contrato": "2/2021",
+      "valor": 15351.96,
+      "situacao": "Ativo",
+      "data_emissao": "24/04/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000135",
+      "contrato": "1/2023",
+      "valor": 47748.88,
+      "situacao": "Ativo",
+      "data_emissao": "24/04/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2017NE00056",
+      "contrato": "2/2013",
+      "valor": 447.86,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2017",
+      "descricao": "DESPESA DE EXERCÍCIO ANTERIOR - REF. 01 DIA DO CONTRATO 2/2013 - ACESSO A INTERNET, MÊS 01/2016"
+    },
+    {
+      "numero": "2022NE0000302",
+      "contrato": "",
+      "valor": 350.35,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2022",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DO 2º TA AO CONTRATO Nº 003/2020-CGE, PRODAM S.A. ENCERRAMENTO DO EXERCÍCIO 2022. DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000301",
+      "contrato": "",
+      "valor": 32.25,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2022",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DO 1º TA AO CONTRATO Nº 003/2020-CGE, PRODAM S.A. ENCERRAMENTO DO EXERCÍCIO 2022. DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000303",
+      "contrato": "",
+      "valor": 1970.13,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2022",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DO 4º TA AO CONTRATO Nº 003/2017-CGE, PRODAM S.A. ENCERRAMENTO DO EXERCÍCIO 2022. DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000251",
+      "contrato": "3/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2022",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado - CGE. (Conforme Projeto Básico)"
+    },
+    {
+      "numero": "2020NE00264",
+      "contrato": "1/2018",
+      "valor": 1015.5,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2020",
+      "descricao": "REFORÇO DA NE 216-2020, REFERENTE AO 2º TA AO CTA Nº 001/2018-CGE (COMPLEMENTO)"
+    },
+    {
+      "numero": "2020NE00263",
+      "contrato": "",
+      "valor": 1015.5,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 210-2020, PARA CORREÇÃO"
+    },
+    {
+      "numero": "2017NE00342",
+      "contrato": "2/2016",
+      "valor": 8565.34,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2017",
+      "descricao": "REFORÇO DA NE Nº 102 - PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 002/2016 VIGÊNCIA: 01/03/2017 A 01/03/2018 VALOR MENSAL: R$ 8.565,34 VALOR GLOBAL: R$ 102.784,08 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, DE ACORDO COM A PORTARIA Nº 001/2016, PUBLICADO NO D.O.E DO DIA 29/01/2016 E PARECER Nº 031/2016 - ASJUR/OUVIDORIA. OBS. REFERENTE A NOVEMBRO/2017"
+    },
+    {
+      "numero": "2017NE00344",
+      "contrato": "7/2016",
+      "valor": 1573.54,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2017",
+      "descricao": "REFORÇO A NOTA DE EMPENHO Nº 205/2017."
+    },
+    {
+      "numero": "2016NE00025",
+      "contrato": "2/2012",
+      "valor": 353.8,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2016",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA, HOSPEDAGEM DE SITE."
+    },
+    {
+      "numero": "2016NE00026",
+      "contrato": "2/2012",
+      "valor": 353.8,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2016",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA, HOSPEDAGEM DE SITE."
+    },
+    {
+      "numero": "2023NE0000351",
+      "contrato": "",
+      "valor": 2746.1,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2023",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 95-2023, REF. AO SEGUNDO TERMO ADITIVO AO CTA 002-2021, CONFORME DECRETO N° 48.363, DE 27.10.2023."
+    },
+    {
+      "numero": "2023NE0000350",
+      "contrato": "",
+      "valor": 713.45,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2023",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 56-2023, REF. AO SEGUNDO TERMO ADITIVO AO CTA 002-2021, CONFORME DECRETO N° 48.363, DE 27.10.2023."
+    },
+    {
+      "numero": "2023NE0000352",
+      "contrato": "",
+      "valor": 2746.1,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2023",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 56-2023, REF. AO SEGUNDO TERMO ADITIVO AO CTA 002-2021, CONFORME DECRETO N° 48.363, DE 27.10.2023. OBS: SUPRESSÃO DE 15,96% (QUINZE VIRGULA NOVENTA E SEIS POR CENTO), CONFORME DEC. Nº 47.925, DE 16.08.2023"
+    },
+    {
+      "numero": "2023NE0000353",
+      "contrato": "",
+      "valor": 2746.1,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2023",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 56-2023, REF. AO SEGUNDO TERMO ADITIVO AO CTA 002-2021, CONFORME DECRETO N° 48.363, DE 27.10.2023. OBS: SUPRESSÃO DE 15,96% (QUINZE VIRGULA NOVENTA E SEIS POR CENTO), CONFORME DEC. Nº 47.925, DE 16.08.2023"
+    },
+    {
+      "numero": "2023NE0000354",
+      "contrato": "",
+      "valor": 85.08,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2023",
+      "descricao": "ANULAÇÃO PARCIAL DO SALDO DA NE 56-2023, REF. AO SEGUNDO TERMO ADITIVO AO CTA 002-2021, CONFORME DECRETO N° 48.363, DE 27.10.2023. OBS: SUPRESSÃO DE 15,96% (QUINZE VIRGULA NOVENTA E SEIS POR CENTO), CONFORME DEC. Nº 47.925, DE 16.08.2023"
+    },
+    {
+      "numero": "2023NE0000355",
+      "contrato": "",
+      "valor": 121.16,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2023",
+      "descricao": "ANULAÇÃO PARCIAL DO SALDO DA NE 29-2023, REF. AO TERMO DE CTA 001-2023, CONFORME DECRETO N° 48.363, DE 27.10.2023. OBS: SUPRESSÃO DE 24,76% (VINTE E QUATRO VIRGULA SETENTA E SEIS POR CENTO), CONFORME DEC. Nº 47.925, DE 16.08.2023"
+    },
+    {
+      "numero": "2015NE00538",
+      "contrato": "",
+      "valor": 8324.17,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2019NE00206",
+      "contrato": "",
+      "valor": 200000.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/08/2019",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2019NE00217",
+      "contrato": "",
+      "valor": 242.96,
+      "situacao": "Ativo",
+      "data_emissao": "21/08/2019",
+      "descricao": "ANULAÇÃO QUE SE FAZ DEVIDO AO ENCERRAMENTO DO CONTRATO"
+    },
+    {
+      "numero": "2023NE00056",
+      "contrato": "2/2021",
+      "valor": 4593.98,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2023",
+      "descricao": "2º T.A Contrato 002/2021 Prazo e Reajuste 1,86%"
+    },
+    {
+      "numero": "2023NE0000056",
+      "contrato": "2/2021",
+      "valor": 4593.98,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2023",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED)."
+    },
+    {
+      "numero": "2018NE00099",
+      "contrato": "3/2017",
+      "valor": 639.29,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2018",
+      "descricao": "Pagamento em favor da PRODAM SA, referente ao mês de DEZEMBRO/2017 - (2018RD00002)."
+    },
+    {
+      "numero": "2017NE00061",
+      "contrato": "2/2012",
+      "valor": 930.17,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de site institucional da CGE, 4ºTA ao CT nº 002/2012-CGE."
+    },
+    {
+      "numero": "2018NE00336",
+      "contrato": "",
+      "valor": 1922.81,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NOTA DE EMPENHO Nº 2018NE00295, PARA FINS DE AJUSTE ORÇAMENTÁRIO NO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00328",
+      "contrato": "",
+      "valor": 1685.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DO SALDO DA NOTA DE EMPENHO Nº 2018NE0066, PARA FINS DE AJUSTE ORÇAMENTÁRIO NO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00340",
+      "contrato": "",
+      "valor": 1470.37,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NOTA DE EMPENHO Nº 2018NE00066, PARA FINS DE AJUSTE ORÇAMENTÁRIO NO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00339",
+      "contrato": "",
+      "valor": 1685.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NOTA DE EMPENHO Nº 2018NE00066, PARA FINS DE AJUSTE ORÇAMENTÁRIO NO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00335",
+      "contrato": "",
+      "valor": 41335.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NOTA DE EMPENHO Nº 2018NE00294, PARA FINS DE AJUSTE ORÇAMENTÁRIO NO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00341",
+      "contrato": "",
+      "valor": 253326.52,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NOTA DE EMPENHO Nº 2018NE00067, PARA FINS DE AJUSTE ORÇAMENTÁRIO NO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00330",
+      "contrato": "",
+      "valor": 3887.41,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NOTA DE EMPENHO Nº 2018NE00114, PARA FINS DE AJUSTE ORÇAMENTÁRIO NO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2015NE00084",
+      "contrato": "2/2012",
+      "valor": 2122.8,
+      "situacao": "Ativo",
+      "data_emissao": "19/06/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2021NE0000002",
+      "contrato": "3/2017",
+      "valor": 302548.68,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRETAÇÃO DE SERVIÇOS DE TI, TIPO DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, LICENÇAS DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEUDO WEB E LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO-PORTAL DA TRANSPARÊNCIA"
+    },
+    {
+      "numero": "2025NE0000083",
+      "contrato": "",
+      "valor": 83000.98,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2025",
+      "descricao": "Anulação Total do saldo da NE nº 002/2025 - PRODAM SA - Encerramento do Contrato nº 01/2023 2º Termo Aditivo. - Vigência: 15/02/2024 a 15/02/2025."
+    },
+    {
+      "numero": "2021NE0000043",
+      "contrato": "P.288/2020",
+      "valor": 658.26,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2021",
+      "descricao": "Atender despesas com execução de sistema: Sis. de Recursos Humanos e Folha de Pagamento Especial, referente ao mês 12/2020. Conforme Nota Técnica nº 001/2021-GERH/CGE."
+    },
+    {
+      "numero": "2017NE00027",
+      "contrato": "2/2012",
+      "valor": 393.03,
+      "situacao": "Ativo",
+      "data_emissao": "17/02/2017",
+      "descricao": "Atender despesas de exercício anterior RD nº 00008/2017, NFS-e nº 21028/16."
+    },
+    {
+      "numero": "2020NE00220",
+      "contrato": "3/2017",
+      "valor": 12425.03,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2020",
+      "descricao": "2ºTA AO CT. Nº003/2017,REFERENTE SISTEMA DE GESTOR DE CONTEÚDO WEB-GERWE E LICENÇA DO PORTAL DA TRANSPARÊNCIA. OBS: TROCA DE FONTE DE RECURSO (145 PARA 100)."
+    },
+    {
+      "numero": "2020NE00216",
+      "contrato": "1/2018",
+      "valor": 22502.1,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2020",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇO DE REDE MUNDIAL DE INTERNET, PARA A CGE-AM"
+    },
+    {
+      "numero": "2020NE00221",
+      "contrato": "3/2017",
+      "valor": 42646.24,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2020",
+      "descricao": "2º TA AO CT. Nº 003/2017, REFERENTE A PRESTAÇÃO DE SERVIÇO DE TI. OBS: TROCA DE FONTE DE RECURSO (145 PARA 100)."
+    },
+    {
+      "numero": "2023NE0000041",
+      "contrato": "3/2017",
+      "valor": 15059.94,
+      "situacao": "Ativo",
+      "data_emissao": "16/02/2023",
+      "descricao": "QUARTO TERMO ADITIVO AO CONTRATO Nº 003/2017-CGE.: Empresa PRODAM S.A, prestação de Serviços: TIPO DESENVOLVIMENTO DO SISTEMA DE INFORMAÇÃO, LICENÇA DE USO DO SISTEMA GESTOR DE CONTEÚDO WEB-GERWE e LICENÇA DE USO DO PORTAL DA TRANSPARENCIA."
+    },
+    {
+      "numero": "2017NE00181",
+      "contrato": "3/2017",
+      "valor": 3115.58,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE."
+    },
+    {
+      "numero": "2017NE00180",
+      "contrato": "3/2017",
+      "valor": 37952.88,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE."
+    },
+    {
+      "numero": "2020NE00070",
+      "contrato": "1/2018",
+      "valor": 3919.2,
+      "situacao": "Ativo",
+      "data_emissao": "15/04/2020",
+      "descricao": "Contratação de Empresa para a prestação de serviços de rede, compreendendo o Acesso Gerenciado à rede mundial para a CGE/AM"
+    },
+    {
+      "numero": "2020NE00204",
+      "contrato": "",
+      "valor": 85292.48,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NE 006-2020, EM VIRTUDE DA TROCA DE FONTE (145 PARA A 100)"
+    },
+    {
+      "numero": "2020NE00203",
+      "contrato": "",
+      "valor": 12425.03,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 001-2020, EM VIRTUDE DA TROCA DE FONTE (145 PARA A 100)"
+    },
+    {
+      "numero": "2020NE00201",
+      "contrato": "",
+      "valor": 5609.99,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 54-2020, EM VIRTUDE DA TROCA DE FONTE (145 PARA A 100)"
+    },
+    {
+      "numero": "2020NE00202",
+      "contrato": "",
+      "valor": 6823.7,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 70-2020, EM VIRTUDE DA TROCA DE FONTE (145 PARA A 100)"
+    },
+    {
+      "numero": "2020NE00210",
+      "contrato": "3/2020",
+      "valor": 5609.99,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2020",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA PARA PRESTAÇÃO DE SERVIÇO DE PROTOCOLO SPROWEB, PARA A CGE-AM"
+    },
+    {
+      "numero": "2025NE0000038",
+      "contrato": "1/2023",
+      "valor": 25208.85,
+      "situacao": "Ativo",
+      "data_emissao": "14/02/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 03."
+    },
+    {
+      "numero": "2020NE00125",
+      "contrato": "1/2018",
+      "valor": 39196.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2020",
+      "descricao": "Contratação de Empresa para a prestação de serviços de rede, compreendendo o Acesso Gerenciado à rede mundial para a CGE/AM"
+    },
+    {
+      "numero": "2020NE00123",
+      "contrato": "",
+      "valor": 39196.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2020",
+      "descricao": "ANULAÇÃO QUE SE FAZ PARA CORREÇÃO DE DESCRIÇÃO"
+    },
+    {
+      "numero": "2015NE00069",
+      "contrato": "",
+      "valor": 832.48,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2015",
+      "descricao": "EXERC.ANTERIOR - FOLHA DE REC. DE DIVIDA Nº 004/2015."
+    },
+    {
+      "numero": "2021NE0000062",
+      "contrato": "3/2020",
+      "valor": 5436.56,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "REFORÇO QUE SE FAZ DA NE 040-2021 - REF. AO PRIMEIRO TERMO ADITIVO AO CTA 003-2020"
+    },
+    {
+      "numero": "2020NE00069",
+      "contrato": "",
+      "valor": 170584.96,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2020",
+      "descricao": "Anulação parcial da NE nº 005/2020, conforme Decreto nº 42.146 de 31/03/2020,que dispõe sobre o Plano de Contingenciamento de Gastos. Referente ao Contrato nº 002/2019-CGE. Referente ao Segundo Termo Aditivo ao Contrato nº 003/2017-CGE"
+    },
+    {
+      "numero": "2018NE00114",
+      "contrato": "1/2018",
+      "valor": 65600.1,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, para a CONTROLADORIA-GERAL DO ESTADO."
+    },
+    {
+      "numero": "2021NE0000056",
+      "contrato": "2/2021",
+      "valor": 35188.74,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA A PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO O ACESSO GERENCIADO À REDE MUNDIAL DE INTERNET PARA A CGE/AM."
+    },
+    {
+      "numero": "2021NE0000057",
+      "contrato": "1/2018",
+      "valor": 99.6,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "REFORÇO QUE SE FAZ PARA COMPLEMENTO DO 2º T. A. AO CTA Nº 001/2018-CGE"
+    },
+    {
+      "numero": "2023NE0000284",
+      "contrato": "3/2020",
+      "valor": 2424.2,
+      "situacao": "Ativo",
+      "data_emissao": "11/10/2023",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado -CGE. Demais informações no Projeto Básico, páginas 32 a 35 - SIGED. TC: 003/2020 AD: 03."
+    },
+    {
+      "numero": "2014NE00091",
+      "contrato": "2/2012",
+      "valor": 2497.44,
+      "situacao": "Ativo",
+      "data_emissao": "11/07/2014",
+      "descricao": "Contrato No. 2/2012 - Hospedagem de Site Institucional CGE"
+    },
+    {
+      "numero": "2020NE00121",
+      "contrato": "1/2018",
+      "valor": 39196.0,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2020",
+      "descricao": "Contratação de Empresa para a prestação de serviços de rede, compreendendo o Acesso Gerenciado à rede mundial para a CGE/AM"
+    },
+    {
+      "numero": "2024NE0000100",
+      "contrato": "2/2021",
+      "valor": 3582.12,
+      "situacao": "Ativo",
+      "data_emissao": "11/04/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2020NE00284",
+      "contrato": "1/2018",
+      "valor": 7839.2,
+      "situacao": "Ativo",
+      "data_emissao": "09/12/2020",
+      "descricao": "REFORÇO DA NE Nº 216-2020, PARA COMPLEMENTO DO 2º T. A. AO CONTATO 001-2018-CGE"
+    },
+    {
+      "numero": "2021NE0000179",
+      "contrato": "3/2017",
+      "valor": 62959.5,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECILIZADA EM PRESTAÇÃO DE SERVIÇOS DE TI, TIPO DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, LICENÇAS DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB E LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2022NE0000192",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2022",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado - CGE. (Conforme Projeto Básico)"
+    },
+    {
+      "numero": "2022NE0000182",
+      "contrato": "",
+      "valor": 20000.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2022",
+      "descricao": "ANULAÇÃO PARCIAL QUE SE FAZ DA NE 020-2022 - REF. AO QUARTO TERMO ADITIVO AO CTA Nº 003/2017."
+    },
+    {
+      "numero": "2022NE0000191",
+      "contrato": "2/2021",
+      "valor": 18160.52,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2022",
+      "descricao": "Contratação de Empresa Especializada na Prestação de Serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para a CGE/AM. Conforme Projeto Básico."
+    },
+    {
+      "numero": "2020NE00054",
+      "contrato": "3/2020",
+      "valor": 10915.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2020",
+      "descricao": "Contratação do Sistema de Protocolo – SPROWEB para atender a Controladoria-Geral do Estado."
+    },
+    {
+      "numero": "2018NE00075",
+      "contrato": "3/2017",
+      "valor": 4848.4,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2018",
+      "descricao": "Pagamento em favor da PRODAM SA, referente ao mês de DEZEMBRO/2017 - (2018RD00007)."
+    },
+    {
+      "numero": "2018NE00076",
+      "contrato": "3/2017",
+      "valor": 1573.54,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2018",
+      "descricao": "Pagamento em favor da PRODAM SA, referente ao mês de DEZEMBRO/2017 - (2018RD00004)."
+    },
+    {
+      "numero": "2018NE00074",
+      "contrato": "2/2012",
+      "valor": 2071.05,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2018",
+      "descricao": "Pagamento em favor da PRODAM SA, referente ao mês de DEZEMBRO/2017 - (2018RD00006)."
+    },
+    {
+      "numero": "2018NE00073",
+      "contrato": "2/2012",
+      "valor": 1642.29,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2018",
+      "descricao": "Pagamento em favor da PRODAM SA, referente ao mês de DEZEMBRO/2017 - (2018RD00008)."
+    },
+    {
+      "numero": "2024NE0000154",
+      "contrato": "",
+      "valor": 3837.99,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2024",
+      "descricao": "ANULAÇÃO QUE SE FAZ DO SALDO PARCIAL DA NE 007-2024- REFERENTE AO TERCEIRO TERMO ADITIVO AI CTA Nº 002/2021"
+    },
+    {
+      "numero": "2019NE00087",
+      "contrato": "1/2018",
+      "valor": 19598.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2019",
+      "descricao": "Primeiro Termo Aditivo ao CT.001/2018, ref. Contratação de empresa especializada na prestação de serviços de Rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, para a CONTROLADORIA-GERAL DO ESTADO."
+    },
+    {
+      "numero": "2021NE0000040",
+      "contrato": "3/2020",
+      "valor": 2718.28,
+      "situacao": "Ativo",
+      "data_emissao": "08/03/2021",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB pata atender a CGE."
+    },
+    {
+      "numero": "2023NE0000029",
+      "contrato": "1/2023",
+      "valor": 190379.76,
+      "situacao": "Ativo",
+      "data_emissao": "08/02/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED."
+    },
+    {
+      "numero": "2023NE0000308",
+      "contrato": "2/2021",
+      "valor": 15522.12,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2023",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2025NE0000104",
+      "contrato": "2/2021",
+      "valor": 5202.01,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 05."
+    },
+    {
+      "numero": "2022NE0000069",
+      "contrato": "2/2021",
+      "valor": 40861.17,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2022",
+      "descricao": "Contratação de Empresa Especializada na Prestação de Serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para a CGE/AM. Conforme Projeto Básico."
+    },
+    {
+      "numero": "2015NE00046",
+      "contrato": "2/2012",
+      "valor": 1248.72,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2015",
+      "descricao": "Cobertura financeira 2015 meses: abril a junho"
+    },
+    {
+      "numero": "2022NE0000046",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2022",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado - CGE. (Conforme Projeto Básico)"
+    },
+    {
+      "numero": "2018NE00065",
+      "contrato": "",
+      "valor": 34271.38,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2018",
+      "descricao": "Anulação total da Nota de Empenho nº 2018NE00039, para mudança na Natureza de Despesa, em atenção à Orientação Técnica nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00067",
+      "contrato": "3/2017",
+      "valor": 391991.12,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE."
+    },
+    {
+      "numero": "2018NE00064",
+      "contrato": "",
+      "valor": 417481.68,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2018",
+      "descricao": "Anulação total da Nota de Empenho nº 2018NE00040, para mudança na Natureza de Despesa, em atenção à Orientação Técnica nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00066",
+      "contrato": "3/2017",
+      "valor": 18693.48,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE."
+    },
+    {
+      "numero": "2018NE00294",
+      "contrato": "3/2017",
+      "valor": 41335.44,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2018",
+      "descricao": "Contratação de empresa especializada em prestação de Serviços de TI, tipo DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, conforme projeto básico."
+    },
+    {
+      "numero": "2018NE00293",
+      "contrato": "",
+      "valor": 20000.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2018",
+      "descricao": "Anulação parcial do saldo da Nota de Empenho nº 2018NE00067, correspondente ao Termo de Contrato nº 003/2017-CGE."
+    },
+    {
+      "numero": "2018NE00295",
+      "contrato": "3/2017",
+      "valor": 3393.18,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2018",
+      "descricao": "Contratação de empresa especializada em prestação de Serviços de TI, tipo LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB; e LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2026NE0000100",
+      "contrato": "",
+      "valor": 36364.32,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2026",
+      "descricao": "Anulação Total do Saldo na NE nº 01/2026 - referente ao 3º TA ao Contrato nº 1/2023-CGE, devido ao encerramento do Contrato."
+    },
+    {
+      "numero": "2026NE0000064",
+      "contrato": "1/2023",
+      "valor": 4290.3,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 03."
+    },
+    {
+      "numero": "2025NE0000060",
+      "contrato": "1/2023",
+      "valor": 100835.42,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 03."
+    },
+    {
+      "numero": "2025NE0000061",
+      "contrato": "2/2021",
+      "valor": 11513.97,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2023NE0000228",
+      "contrato": "3/2020",
+      "valor": 2424.2,
+      "situacao": "Ativo",
+      "data_emissao": "05/09/2023",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado -CGE. Demais informações no Projeto Básico, páginas 32 a 35 - SIGED. TC: 003/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000229",
+      "contrato": "1/2023",
+      "valor": 63459.92,
+      "situacao": "Ativo",
+      "data_emissao": "05/09/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED."
+    },
+    {
+      "numero": "2023NE0000230",
+      "contrato": "2/2021",
+      "valor": 18268.22,
+      "situacao": "Ativo",
+      "data_emissao": "05/09/2023",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2025NE0000130",
+      "contrato": "2/2021",
+      "valor": 20808.04,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0000034",
+      "contrato": "1/2023",
+      "valor": 47748.88,
+      "situacao": "Ativo",
+      "data_emissao": "05/02/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2026NE0000002",
+      "contrato": "2/2021",
+      "valor": 36760.88,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 05."
+    },
+    {
+      "numero": "2015NE00054",
+      "contrato": "6/2012",
+      "valor": 24972.51,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO PARA CORREÇÃO NA DESCRIÇÃO"
+    },
+    {
+      "numero": "2015NE00017",
+      "contrato": "2/2012",
+      "valor": 1248.72,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00057",
+      "contrato": "6/2012",
+      "valor": 24972.51,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "EMPENHO DE SERVIÇO"
+    },
+    {
+      "numero": "2015NE00047",
+      "contrato": "6/2012",
+      "valor": 24972.51,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "SEGUNDO TERMO ADITIVO AO CONTRATO Nº 006/2012 - SERVIÇO DE LINK DE ACESSO A INTERNET NO PAC MANACAPURU"
+    },
+    {
+      "numero": "2015NE00052",
+      "contrato": "2/2013",
+      "valor": 126982.32,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2021NE0000177",
+      "contrato": "",
+      "valor": 60000.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2021",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 002/2021, EM FAVOR DA PRODAM S.A. - PARA ATENDER DESPESAS COM CONTRATAÇÃO DO 4º TERMO ADITIVO AO CONTRATO Nº 003/2017-CGE."
+    },
+    {
+      "numero": "2023NE0000160",
+      "contrato": "1/2023",
+      "valor": 63459.92,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED."
+    },
+    {
+      "numero": "2023NE0000158",
+      "contrato": "2/2021",
+      "valor": 18268.22,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000159",
+      "contrato": "3/2020",
+      "valor": 2424.2,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado -CGE. Demais informações no Projeto Básico, páginas 32 a 35 - SIGED. TC: 003/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0000055",
+      "contrato": "1/2023",
+      "valor": 95497.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2021NE0000001",
+      "contrato": "3/2020",
+      "valor": 2183.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação do Sistema de Protocolo – SPROWEB para atender a Controladoria-Geral do Estado."
+    },
+    {
+      "numero": "2021NE0000005",
+      "contrato": "",
+      "valor": 27337.6,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de Empresa para a prestação de serviços de rede, compreendendo o Acesso Gerenciado à rede mundial para a CGE/AM"
+    },
+    {
+      "numero": "2016NE00011",
+      "contrato": "2/2012",
+      "valor": 2122.8,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "3ºTA AO CONTRATO Nº 002/2012-CGE - Hospedagem de Site."
+    },
+    {
+      "numero": "2018NE00289",
+      "contrato": "",
+      "valor": 45000.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2018",
+      "descricao": "Anulação parcial do saldo da Nota de Empenho nº 2018NE00067, correspondente ao CT.003/2017-CGE."
+    },
+    {
+      "numero": "2016NE00132",
+      "contrato": "2/2012",
+      "valor": 393.03,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "4º TA AO CONTRATO Nº 002/2012-CGE."
+    },
+    {
+      "numero": "2016NE00132",
+      "contrato": "2/2012",
+      "valor": 393.03,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "4º TA AO CONTRATO Nº 002/2012-CGE."
+    },
+    {
+      "numero": "2021NE0000128",
+      "contrato": "3/2020",
+      "valor": 5436.56,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2021",
+      "descricao": "REFORÇO QUE SE FAZ DA NE 040-2021 - REF. AO PRIMEIRO TERMO ADITIVO AO CTA 003-2020"
+    },
+    {
+      "numero": "2021NE0000130",
+      "contrato": "2/2021",
+      "valor": 31278.88,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2021",
+      "descricao": "REFORÇO QUE SE FAZ DA NE 056-2021 - REF. AO TERMO DE CTA Nº 002/2021"
+    },
+    {
+      "numero": "2022NE0000095",
+      "contrato": "3/2020",
+      "valor": 4671.36,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2022",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado - CGE. (Conforme Projeto Básico)"
+    },
+    {
+      "numero": "2026NE0000036",
+      "contrato": "1/2023",
+      "valor": 126181.15,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 04."
+    },
+    {
+      "numero": "2022NE0000015",
+      "contrato": "3/2020",
+      "valor": 2718.28,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB pata atender a CGE."
+    },
+    {
+      "numero": "2022NE0000014",
+      "contrato": "2/2021",
+      "valor": 27369.02,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA A PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO O ACESSO GERENCIADO À REDE MUNDIAL DE INTERNET PARA A CGE/AM."
+    },
+    {
+      "numero": "2022NE0000020",
+      "contrato": "3/2017",
+      "valor": 125919.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECILIZADA EM PRESTAÇÃO DE SERVIÇOS DE TI, TIPO DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, LICENÇAS DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB E LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2025NE0000261",
+      "contrato": "2/2021",
+      "valor": 20808.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0000257",
+      "contrato": "2/2021",
+      "valor": 7675.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000194",
+      "contrato": "2/2021",
+      "valor": 20808.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0000201",
+      "contrato": "2/2021",
+      "valor": 15351.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2014NE00341",
+      "contrato": "6/2012",
+      "valor": 49945.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2014",
+      "descricao": "Contrato No. 6/2012 - Internet link via satélite de 1 Mbps p.Manacapuru"
+    },
+    {
+      "numero": "2017NE00150",
+      "contrato": "7/2016",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "REFORÇO QUE SE FAZ DA NE Nº 18"
+    },
+    {
+      "numero": "2017NE00147",
+      "contrato": "2/2016",
+      "valor": 34261.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "REFORÇO QUE SE FAZ DA NE 102 - TERMO DE CONTRATO Nº 002/2016"
+    },
+    {
+      "numero": "2015NE00077",
+      "contrato": "6/2012",
+      "valor": 8324.17,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2015",
+      "descricao": "EMPENHO DE SERVIÇO"
+    },
+    {
+      "numero": "2015NE00076",
+      "contrato": "6/2012",
+      "valor": 8324.17,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2015",
+      "descricao": "EMPENHO DE SERVIÇOS"
+    },
+    {
+      "numero": "2025NE0000003",
+      "contrato": "2/2021",
+      "valor": 15351.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000008",
+      "contrato": "1/2023",
+      "valor": 47748.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE. Demais informações no Projeto Básico - SIGED. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000007",
+      "contrato": "2/2021",
+      "valor": 15351.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000003",
+      "contrato": "3/2020",
+      "valor": 2424.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado -CGE. Demais informações no Projeto Básico, páginas 32 a 35 - SIGED. TC: 0003/2020 AD: 03."
+    },
+    {
+      "numero": "2020NE00006",
+      "contrato": "3/2017",
+      "valor": 255877.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de Empresa Especializada em prestação de serviços de TI, Tipo DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, CONFORME PROJETO BÁSICO ."
+    },
+    {
+      "numero": "2020NE00001",
+      "contrato": "3/2017",
+      "valor": 40430.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de Empresa Especializada em prestação de serviços de TI, Tipo LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB, e LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2020NE00007",
+      "contrato": "1/2018",
+      "valor": 27437.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, para a CONTROLADORIA-GERAL DO ESTADO."
+    },
+    {
+      "numero": "2019NE00005",
+      "contrato": "1/2018",
+      "valor": 21866.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, para a CONTROLADORIA-GERAL DO ESTADO."
+    },
+    {
+      "numero": "2019NE00004",
+      "contrato": "3/2017",
+      "valor": 124006.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada em prestação de Serviços de TI, tipo DESENVOLVIMENTO DE SISTEMA DE INFORMAÇÃO, conforme projeto básico."
+    },
+    {
+      "numero": "2019NE00003",
+      "contrato": "3/2017",
+      "valor": 10179.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada em prestação de Serviços de TI, tipo LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB; e LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2018NE00040",
+      "contrato": "3/2017",
+      "valor": 417481.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE."
+    },
+    {
+      "numero": "2018NE00039",
+      "contrato": "3/2017",
+      "valor": 34271.38,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação (TI), para atender as necessidades da Controladoria-Geral do Estado - CGE."
+    },
+    {
+      "numero": "2017NE00012",
+      "contrato": "2/2012",
+      "valor": 1572.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "4º TA AO CONTRATO Nº 002/2012-CGE."
+    },
+    {
+      "numero": "2017NE00018",
+      "contrato": "7/2016",
+      "valor": 5901.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DO SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2017NE00001",
+      "contrato": "2/2016",
+      "valor": 17130.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SERVIÇOS DE REDE COMPREENDENDO DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE LINK SEGURO DEDICADO PONTO A PONTO ENTRE A REDE DA OUVIDORIA E A PRODAM PARA ACESSO GERENCIADO A INTERNET E SERVIÇOS RESIDENTES NO DATA CENTER DO ESTADO."
+    },
+    {
+      "numero": "2014NE00011",
+      "contrato": "2/2012",
+      "valor": 1958.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 2/2012 - Hospedagem de Site Institucional CGE"
+    },
+    {
+      "numero": "2014NE00025",
+      "contrato": "2/2013",
+      "valor": 432551.76,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 2/2013 - Internet 8Mb, Link 3Mb e Servidor Proxy (Subst.Contr 005/2010)"
+    },
+    {
+      "numero": "2014NE00023",
+      "contrato": "6/2012",
+      "valor": 46314.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 6/2012 - Internet link via satélite de 1 Mbps p.Manacapuru"
+    },
+    {
+      "numero": "2015NE00170",
+      "contrato": "",
+      "valor": 707.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2016NE00440",
+      "contrato": "2/2016",
+      "valor": 17130.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Nº TERMO DE CONTRATO Nº 002/2016 - PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM O FORNECIMENTO DE LINK SEGURO,"
+    },
+    {
+      "numero": "2016NE00134",
+      "contrato": "2/2012",
+      "valor": 393.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "4º TA AO CONTRATO Nº 0002/2012-CGE."
+    },
+    {
+      "numero": "2016NE00439",
+      "contrato": "7/2016",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "REFORÇO QUE SE FAZ PARA EMPENHAR O RESTO DO CONTRATO Nº TERMO DE CONTRATO Nº 007/2016 - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DO SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO"
+    },
+    {
+      "numero": "2025NE0000316",
+      "contrato": "2/2021",
+      "valor": 20808.04,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0000301",
+      "contrato": "2/2021",
+      "valor": 23027.94,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Rede, compreendendo o ACESSO GERENCIADO A REDE MUNDIAL DE INTERNET, para atender a CGE/AM. Demais informações no Projeto Básico (SIGED). TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2019NE00250",
+      "contrato": "1/2018",
+      "valor": 23517.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "REFORÇO A NOTA DE EMPENHO Nº 2019NE00087, CORRESPONDENTE AO 4º TRIMESTRE/2019."
+    },
+    {
+      "numero": "2019NE00245",
+      "contrato": "3/2017",
+      "valor": 8709.17,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Reforço a Nota de Empenho nº 2019NE00003, referente ao 4º Trimestre"
+    },
+    {
+      "numero": "2019NE00244",
+      "contrato": "3/2017",
+      "valor": 82670.88,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Reforço da Nota de Empenho 2019NE00004, referente ao 4º Trimestre."
+    },
+    {
+      "numero": "2017NE00291",
+      "contrato": "2/2013",
+      "valor": 8730.88,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "PAGAMENTO DE EXERCICIO ANTERIOR RD Nº 385/2017 - SERVIÇO DE ACESSO A INTERNET, NF 17238/17239/20986/20987/20988"
+    },
+    {
+      "numero": "2017NE00292",
+      "contrato": "2/2013",
+      "valor": 311368.27,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "PAGAMENTO DE EXERCÍCIO ANTERIOR RD Nº 384/2017 - SERVIÇO DE ACESSO A REDE DE INTERNET E SUPORTE TÉCNICO, NFS 15664/14200/14201/14202/15665/15666/14859/14860/14861/14862/14863/14864/15086/15087/15088/15382/15383/15422/15343/15808/15805/15806/15806/158"
+    },
+    {
+      "numero": "2017NE00296",
+      "contrato": "2/2013",
+      "valor": 8249.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "DESPESAS DE EXERCÍCIO ANTERIOR RD Nº 377/2017 - SERVIÇOS DE ACESSO A REDE DE INTERNET, ANO 2014. NF 12845/1007"
+    },
+    {
+      "numero": "2017NE00313",
+      "contrato": "",
+      "valor": 17130.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "PRORROGAÇÃO DO PRAZO DE VIGÊNCIA DO CONTRATO ORIGINAL POR MAIS 12 MESES."
+    },
+    {
+      "numero": "2017NE00316",
+      "contrato": "",
+      "valor": 3147.08,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "PRORROGAÇÃO DO CONTRATO POR MAIS 12 MESES E REAJUSTE DE PREÇO"
+    },
+    {
+      "numero": "2019NE00173",
+      "contrato": "3/2017",
+      "valor": 10179.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2019NE00003, CORRESPONDENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 003/2017-CGE."
+    },
+    {
+      "numero": "2019NE00174",
+      "contrato": "3/2017",
+      "valor": 124006.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2019NE00003, CORRESPONDENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 003/2017-CGE."
+    },
+    {
+      "numero": "2019NE00175",
+      "contrato": "1/2018",
+      "valor": 23517.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2019NE00087, REFERENTE PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 001/2018-CGE"
+    },
+    {
+      "numero": "2019NE00171",
+      "contrato": "3/2017",
+      "valor": 10179.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa especializada em prestação de Serviços de TI, tipo LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - GESTOR DE CONTEÚDO WEB; e LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2019NE00172",
+      "contrato": "",
+      "valor": 10179.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "ANULAÇÃO TOTAL PARA AJUSTE NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2016NE00096",
+      "contrato": "2/2012",
+      "valor": 1179.09,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "SERVIÇO DE PROCESSAMENTO DE DADOS - 4ºTA AO TC Nº 002/2012-CGE."
+    },
+    {
+      "numero": "2015NE00346",
+      "contrato": "6/2012",
+      "valor": 16648.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "TERCEIRO TERMO ADITIVO AO CONTRATO Nº 006/2012 - PRESTAÇÃO DOS SERVIÇOS DE ACESSO A REDE MUNDIAL INTERNET NO PAC MANACAPURU."
+    },
+    {
+      "numero": "2015NE00363",
+      "contrato": "6/2012",
+      "valor": 16648.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "NE 363 DE 01/07/2015 R$ 16.648,34 3º TA ao Contrato 006/2012"
+    },
+    {
+      "numero": "2015NE00362",
+      "contrato": "6/2012",
+      "valor": 16648.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "ANULAÇÃO QUE SE FAZ PARA CORREÇÃO DA DESCRIÇÃO Nº DA PORTARIA."
+    },
+    {
+      "numero": "2017NE00205",
+      "contrato": "7/2016",
+      "valor": 4720.62,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2017",
+      "descricao": "PRORROGAÇÃO DO CONTRATO POR MAIS 12 MESES E REAJUSTE DE PREÇO"
+    },
+    {
+      "numero": "2016NE00326",
+      "contrato": "2/2016",
+      "valor": 25696.02,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2016",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM O FORNECIMENTO DE LINK SEGURO, DEDICADO, PONTO A PONTO ENTRE A SEDE DA OUVIDORIA E A PRODAM, PARA ACESSO GERENCIADO À INTERNET, E SERVIÇOS RESIDENTES NO DATA CENTER DO ESTADO."
+    },
+    {
+      "numero": "2016NE00325",
+      "contrato": "7/2016",
+      "valor": 4425.87,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2016",
+      "descricao": "REFORÇO QUE SE FAZ PARA EMPENHAR O RESTO DO CONTRATO Nº TERMO DE CONTRATO Nº 007/2016 - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DO SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO"
+    },
+    {
+      "numero": "2023NE0000046",
+      "contrato": "3/2020",
+      "valor": 2424.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2023",
+      "descricao": "Contratação de Serviços de Execução do Sistema de Protocolo SPROWEB, para atender a Controladoria Geral do Estado -CGE. Demais informações no Projeto Básico, páginas 32 a 35 - SIGED."
+    },
+    {
+      "numero": "2017NE00102",
+      "contrato": "2/2016",
+      "valor": 17130.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2017",
+      "descricao": "PRORROGAÇÃO DO PRAZO DE VIGÊNCIA DO CONTRATO ORIGINAL POR MAIS 12 MESES."
+    },
+    {
+      "numero": "2017NE00109",
+      "contrato": "",
+      "valor": 8565.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2017",
+      "descricao": "ANULAÇÃO QUE SE FAZ PARA CORREÇÃO"
+    },
+    {
+      "numero": "2017NE00107",
+      "contrato": "2/2016",
+      "valor": 8565.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2017",
+      "descricao": "PAGAMENTO DE EXERCÍCIO ANTERIOR RD Nº 015/2017 - SERVIÇO DE REDE MUNDIAL, ACESSO A METROMAO E SERVIÇOS DE FIREWALL, MÊS 12/2016, NF 20986/20987/20988 EMITIDAS EM 01/12/2016"
+    },
+    {
+      "numero": "2016NE00147",
+      "contrato": "",
+      "valor": 42826.7,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2016",
+      "descricao": "ANULAÇÃO QUE SE FAZ PARA CORREÇÃO DE DATA"
+    },
+    {
+      "numero": "2016NE00149",
+      "contrato": "2/2016",
+      "valor": 34261.36,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2016",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM O FORNECIMENTO DE LINK SEGURO, DEDICADO, PONTO A PONTO ENTRE A SEDE DA OUVIDORIA E A PRODAM, PARA ACESSO GERENCIADO À INTERNET, E SERVIÇOS RESIDENTES NO DATA CENTER DO ESTADO."
+    }
+  ],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 213,
+      "valor_total": 7711851.61,
+      "por_ano": {
+        "2016": {
+          "qtd": 17,
+          "valor": 179876.46999999997
+        },
+        "2020": {
+          "qtd": 25,
+          "valor": 948215.7499999998
+        },
+        "2019": {
+          "qtd": 22,
+          "valor": 1090805.05
+        },
+        "2025": {
+          "qtd": 11,
+          "valor": 338943.01999999996
+        },
+        "2017": {
+          "qtd": 25,
+          "valor": 544585.8799999999
+        },
+        "2022": {
+          "qtd": 16,
+          "valor": 278139.38
+        },
+        "2024": {
+          "qtd": 14,
+          "valor": 393212.7
+        },
+        "2021": {
+          "qtd": 13,
+          "valor": 536974.2699999999
+        },
+        "2023": {
+          "qtd": 22,
+          "valor": 560073.11
+        },
+        "2018": {
+          "qtd": 24,
+          "valor": 1821184.4599999995
+        },
+        "2015": {
+          "qtd": 15,
+          "valor": 282977.70000000007
+        },
+        "2014": {
+          "qtd": 5,
+          "valor": 533267.1699999999
+        },
+        "2026": {
+          "qtd": 4,
+          "valor": 203596.65
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

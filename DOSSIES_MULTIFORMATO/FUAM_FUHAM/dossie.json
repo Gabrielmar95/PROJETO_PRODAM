@@ -1,0 +1,168 @@
+{
+  "sigla": "FUAM/FUHAM",
+  "profile": {
+    "nome_completo": "Fundação Universidade Aberta do Amazonas / Fundação Hospitalar de Hematologia e Hemoterapia do Amazonas",
+    "sigla": "FUAM/FUHAM",
+    "natureza": "Fundação",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "44020.01",
+    "val_orig": "368561.6299999997",
+    "val_atualizado": "356355.07",
+    "faturas_total": 75,
+    "faturas_prescritas": 53,
+    "faturas_exigiveis": 22,
+    "indice_correcao": "IGPM",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Petição pronta",
+    "observacoes": "Cláusula Décima contratual — Reconhecida no AF (SISTEMA AF)",
+    "forca_probatoria": "FORTE",
+    "modelo_notificacao": "A",
+    "reconhecimento_revisado": {
+      "total_evidencias": 44,
+      "classificacao": "CONFIRMADO — Reconhecimento formal",
+      "por_tipo": {
+        "A": 1,
+        "B": 1,
+        "E": 42
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "02.006.782/0001-00",
+    "evidencias_reconhecimento": 44,
+    "evidencias_por_tipo": {
+      "A": 1,
+      "B": 1,
+      "E": 42
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Reconhecimento formal",
+    "tipo": "GOV",
+    "score_composto": 0.5688,
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "p_recuperacao": 0.78,
+    "ev_valor_esperado": "34335.61",
+    "ev_honorarios": "6867.12",
+    "esforco_estimado": 3,
+    "cenario_monte_carlo_p50": "24179.49",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 27,
+    "blindagem_resultado": {
+      "data": "2026-03-27",
+      "blocos": {
+        "A_titulo": {
+          "ok": 4,
+          "total": 6
+        },
+        "B_liquidez": {
+          "ok": 5,
+          "total": 5
+        },
+        "C_cadeia": {
+          "ok": 6,
+          "total": 6
+        },
+        "D_defesas": {
+          "ok": 4,
+          "total": 5
+        }
+      },
+      "total_ok": 19,
+      "total_items": 22,
+      "recomendacao": "MONITORIA",
+      "ressalvas": [
+        "Sem título executivo — monitória ou TRD primeiro",
+        "53 faturas prescritas > 22 exigíveis"
+      ]
+    },
+    "ultima_interacao": "2026-03-25",
+    "fase_atual": "F5",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-20",
+      "F4": "2026-03-23",
+      "F5": "2026-03-27"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nota_titulo": "Título executivo pendente de confirmação — blindagem detectou ausência. Verificar cadeia documental C1-C6 antes de executar.",
+    "nome": "FUAM/FUHAM",
+    "spcf_total_receber": "55166.40",
+    "spcf_fat_devidas_qtd": 10,
+    "spcf_fat_devidas_val": "63306.61",
+    "spcf_fat_aberto_qtd": 6,
+    "spcf_fat_aberto_val": "12107.79",
+    "spcf_perdas": "645932.36",
+    "emp_2026": "7695.60",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 9,
+    "fat_canceladas_val_bruto": 190652.47,
+    "fat_canceladas_val_liquido": 181523.05,
+    "faturamento_total_2019_2026": 439086.5,
+    "recebimento_total_2019_2026": 410458.0,
+    "taxa_pagamento_pct": 93.48,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 86,
+    "faturamento_pico_mes": "2024-Dez",
+    "faturamento_pico_valor": 13663.91,
+    "inicio_inadimplencia": "2019-Jun",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 792064.0800000005,
+    "empenho_historico_qtd": 222,
+    "empenho_valor_global_contratos": 396078.24,
+    "empenho_2026_gerencial": 11589.66,
+    "a_empenhar_2026": 56189.4,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "66001.29",
+    "val_liquido_spcf_mar2026": "63306.61",
+    "num_faturas_spcf_mar2026": 9,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 82.82,
+    "pipeline_ultima_execucao": "2026-04-08 12:23",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "via_processual_recomendada": {
+      "via": "EXECUCAO_DIRETA",
+      "fundamentacao": "Petição pronta, valor baixo R$44K"
+    },
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

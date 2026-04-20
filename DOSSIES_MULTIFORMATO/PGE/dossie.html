@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê PGE — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — PGE</h1>
+<p><b>Procuradoria-Geral do Estado</b> | GOV_DIRETA | CNPJ: 19.477.848/0001-34 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi média">MÉDIA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 680.239,77</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 1.603.066,41</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">41</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">6</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">436</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">37%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2026NE0000031</td><td></td><td>05/01/2026</td><td>R$ 806.156,20</td><td>Ativo</td></tr>
+<tr><td>2026NE0000009</td><td>6/2025</td><td>05/01/2026</td><td>R$ 630.431,84</td><td>Ativo</td></tr>
+<tr><td>2024NE0000475</td><td>6/2019</td><td>08/11/2024</td><td>R$ 546.000,00</td><td>Ativo</td></tr>
+<tr><td>2023NE0000448</td><td></td><td>12/12/2023</td><td>R$ 436.520,99</td><td>Ativo</td></tr>
+<tr><td>2025NE0000257</td><td>6/2019</td><td>10/07/2025</td><td>R$ 412.000,00</td><td>Ativo</td></tr>
+<tr><td>2025NE0000431</td><td></td><td>30/10/2025</td><td>R$ 403.078,10</td><td>Ativo</td></tr>
+<tr><td>2025NE0000259</td><td></td><td>10/07/2025</td><td>R$ 403.078,10</td><td>Ativo</td></tr>
+<tr><td>2024NE0000480</td><td></td><td>08/11/2024</td><td>R$ 372.672,69</td><td>Ativo</td></tr>
+<tr><td>2025NE0000081</td><td></td><td>07/03/2025</td><td>R$ 372.671,34</td><td>Ativo</td></tr>
+<tr><td>2025NE0000006</td><td></td><td>02/01/2025</td><td>R$ 372.671,34</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>167222</td><td>1684</td><td>6/2025</td><td>03/2026</td><td>R$ 132.620,25</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>163930</td><td>59030</td><td>6/2025</td><td>10/2025</td><td>R$ 132.620,25</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>164692</td><td>59823</td><td>6/2025</td><td>11/2025</td><td>R$ 132.620,25</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>165093</td><td>375</td><td>6/2025</td><td>12/2025</td><td>R$ 132.620,25</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>161914</td><td>57256</td><td>6/2019</td><td>07/2025</td><td>R$ 130.377,36</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>145187</td><td>41320</td><td>6/2019</td><td>10/2023</td><td>R$ 48.199,96</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>145967</td><td>41971</td><td>6/2019</td><td>11/2023</td><td>R$ 48.199,96</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>147331</td><td>42963</td><td>6/2019</td><td>12/2023</td><td>R$ 48.199,96</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>105644</td><td>4003</td><td>7/2014</td><td>09/2018</td><td>R$ 40.234,67</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>106906</td><td>4915</td><td>7/2014</td><td>11/2018</td><td>R$ 40.234,67</td><td>Emitida</td><td>FORTE</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Documentação fraca</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[11, 44, 67, 46, 52, 63, 13, 11, 25, 27, 45, 28, 4],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[478341.63, 1114263.2499999998, 752179.5200000005, 743856.0899999999, 945887.6400000001, 855360.65, 608767.46, 612335.01, 610359.69, 2144977.9499999997, 3654048.54, 3700330.659999999, 1467693.2999999998],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

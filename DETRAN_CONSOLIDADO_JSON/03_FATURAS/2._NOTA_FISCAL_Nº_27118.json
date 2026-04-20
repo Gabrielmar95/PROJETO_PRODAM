@@ -1,0 +1,32 @@
+{
+  "filename": "2. NOTA FISCAL Nº 27118.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\2. NOTA FISCAL Nº 27118.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 355497,
+  "texto_length": 2490,
+  "texto_preview": "PREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\n93B2.11C0.D346\n15/02/2022 - 16:57:42\nNatureza da operação\nNúmero da Nota\nRetenção do ISSQN\n27118\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n   , 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92 6223253.\n  CEP    69020110 - MANAUS  - AM  - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    PRODAM@PRODAM.AM.GOV.BR\n  Inscrição Estadual\n  41939808\nTomador de Serviço\nNome do tomador do serviço\nDEPARTAMENTO ESTADUAL DE TRANSITO - DETRAN\nCPF/CNPJ\n04.224.028/0001-63\nEnd",
+  "texto_completo": "PREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\n93B2.11C0.D346\n15/02/2022 - 16:57:42\nNatureza da operação\nNúmero da Nota\nRetenção do ISSQN\n27118\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n   , 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92 6223253.\n  CEP    69020110 - MANAUS  - AM  - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    PRODAM@PRODAM.AM.GOV.BR\n  Inscrição Estadual\n  41939808\nTomador de Serviço\nNome do tomador do serviço\nDEPARTAMENTO ESTADUAL DE TRANSITO - DETRAN\nCPF/CNPJ\n04.224.028/0001-63\nEndereço\nMARIO YPIRANGA MONTEIRO,   2080, \nBairro\nADRIANoPOLIS, Telefone: 09209923642.\nCep\n69057002\nCidade\nMANAUS  - AM  - BRASIL\n  Inscrição Municipal\n11264401\nEmail\nprotocoloadministrativo@detran.am.gov.br\n  Inscrição Estadual\nISENTO\nDiscriminação do Serviço/Dados Adicionais\nCONTRATO No. 4/2016, MES: 02/2022 SERVICO: Licenca de uso de sistemas de informacao SISTEMA:\nSistema de Identificacao e Controle dos Candidatos e Motoristas Licenca de uso de sistemas de Informacao -\nSICMO - (1.000 x 305,403.490) . R$ 305,403.49 Lei No. 12.741 de 8 de Dezembro de 2012. Base de Calculo:\n305.404 Valores aproximados dos Tributos Valores de Retencao do PASEP: 5.039,16 Valores de Retencao do\nCOFINS: 23.210,7 Valores de Retencao do CPRB: 6.108,07 Valores de Retencao do ISS: 15.270,2\nServiço:\n1.05-LICENCIAMENTO OU CESSÃO DE DIREITO DE USO DE PROGRAMAS DE\nCOMPUTAÇÃO.\nValor do Serviço (R$)\nQtd.\nDesconto(R$)\nDedução(R$)\nBase de Cálculo(R$)\nAliquota(%)\nValor do ISS(R$)\nTotal(R$)\n305.403,49\n1,00\n0,00\n0,00\n305.403,49\n5,00\n15.270,17\n305.403,49\nVALOR TOTAL DA NOTA = R$ 305.403,49\nRetenções\nINSS(R$)\nPIS(R$)\nCofins(R$)\nC.S.L.L(R$)\nIRRF(R$)\n0,00\n0,00\n0,00\n0,00\n0,00\nISSQN(R$)\nOutras Deduções(R$)\nTotal das Retenções (R$)\nValor Líquido da Nota(R$)\n15.270,17\n0,00\n15.270,17\n290.133,32\nOutras Informações\n- Competência: Fevereiro/2022- ISS de responsabilidade do: Tomador de serviço-\nServiço Tributado no Município: MANAUS- Data do vencimento do ISS desta NFSE:\n10/03/22- Esta NFS-e substitui o RPS Nº 27367, série: NFse, emitido em 15/02/2022-\nOperação com retenção de ISS por Substituição Tributária.\nFirefox\nhttps://nfse-prd.manaus.am.gov.br/nfse/servlet/aprelnotafiscalxml?IO...\n1 of 1\n22/02/2022 19:54\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80",
+      "04.224.028/0001-63"
+    ],
+    "datas_encontradas": [
+      "15/02/2022",
+      "10/03/22",
+      "22/02/2022"
+    ],
+    "valores_brl": [
+      "305,40",
+      "305.403,49"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

@@ -1,0 +1,2338 @@
+{
+  "sigla": "FAAR/SEDEL",
+  "profile": {
+    "nome_completo": "Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico",
+    "sigla": "FAAR/SEDEL",
+    "natureza": "Fundação/Secretaria",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "734498.9430028957",
+    "val_orig": "877764.1999999997",
+    "val_atualizado": "1472879.245464368",
+    "faturas_total": 221,
+    "faturas_prescritas": 108,
+    "faturas_exigiveis": 113,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Análise pendente",
+    "observacoes": "Documentação fraca",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "35.933.557/0001-60",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "GOV",
+    "score_composto": 0.4406,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.3,
+    "ev_valor_esperado": "220349.68",
+    "ev_honorarios": "44069.94",
+    "esforco_estimado": 7,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 18,
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "FAAR/SEDEL",
+    "spcf_total_receber": "525860.25",
+    "spcf_fat_devidas_qtd": 25,
+    "spcf_fat_devidas_val": "104505.63",
+    "spcf_fat_aberto_qtd": 23,
+    "spcf_fat_aberto_val": "104811.74",
+    "spcf_nota": "SEDEL(portfolio) + FAAR(fora do portfolio) combinados",
+    "spcf_faar_total_receber": "421354.62",
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "faturamento_total_2019_2026": 2078628.34,
+    "recebimento_total_2019_2026": 791065.0,
+    "taxa_pagamento_pct": 38.06,
+    "padrao_inadimplencia": "RECENTE",
+    "meses_com_faturamento": 65,
+    "faturamento_pico_mes": "2024-Abr",
+    "faturamento_pico_valor": 98137.08,
+    "inicio_inadimplencia": "2020-Set",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 642854.03,
+    "empenho_historico_qtd": 37,
+    "empenho_valor_global_contratos": 899573.88,
+    "empenho_2026_gerencial": 141040.19999999998,
+    "a_empenhar_2026": 183390.75999999998,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "553049.44",
+    "val_liquido_spcf_mar2026": "525860.25",
+    "num_faturas_spcf_mar2026": 118,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 40.09,
+    "reconciliacao_merged_from": "FAAR - EXTINTA LEI 6.225 INCP PELA SEDEL + SEDEL",
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE00286",
+      "contrato": "",
+      "valor": 2566.26,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 055/2020, CONFORME DECRETO Nº 43.042 DE 18 DE NOVEMBRO DE 2020 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DE 2020. OBS: SALDO DE EMPENHO PARA QUITAÇÃO DAS FATURAS EM RESTOS A PAGAR."
+    },
+    {
+      "numero": "2020NE00284",
+      "contrato": "",
+      "valor": 10204.74,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 056/2020 , CONFORME DECRETO Nº 43.042 DE 18 DE NOVEMBRO DE 2020 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DE 2020."
+    },
+    {
+      "numero": "2023NE0000501",
+      "contrato": "26/2021",
+      "valor": 17085.03,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2023",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 02."
+    },
+    {
+      "numero": "2022NE0000572",
+      "contrato": "",
+      "valor": 4662.74,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2022",
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2023NE0000472",
+      "contrato": "3/2020",
+      "valor": 5849.15,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2023",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 03."
+    },
+    {
+      "numero": "2021NE0000198",
+      "contrato": "2/2020",
+      "valor": 17681.14,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2021",
+      "descricao": "1º Termo Aditivo ao Contrato 002.2020 - Serviços de infraestrutura de TI, Internet e Metromao"
+    },
+    {
+      "numero": "2021NE0000196",
+      "contrato": "",
+      "valor": 17681.14,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2021",
+      "descricao": "Anulação total do saldo da Ne nº. 186/21, para ajustes na descrição."
+    },
+    {
+      "numero": "2022NE0000363",
+      "contrato": "26/2021",
+      "valor": 164431.28,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM INSTALAÇÃO DE LINKS DE INTERNET, PARA QUE POSSA INTERLIGAR NOSSOS ESPAÇOS ESPORTIVOS, DE RESPONSABILIDADE DESTA FUNDAÇÃO."
+    },
+    {
+      "numero": "2021NE0000188",
+      "contrato": "4/2020",
+      "valor": 4251.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2021",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2021NE0000020",
+      "contrato": "",
+      "valor": 5745.6,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2021",
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2023NE0000600",
+      "contrato": "",
+      "valor": 1493.82,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2023",
+      "descricao": "Contratação de empresa especializada para execução do Sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal."
+    },
+    {
+      "numero": "2022NE00279",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Cobertura Financeira 2022"
+    },
+    {
+      "numero": "2022NE0000281",
+      "contrato": "4/2020",
+      "valor": 4880.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE00281",
+      "contrato": "4/2020",
+      "valor": 4880.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Cobertura Financeira 2022"
+    },
+    {
+      "numero": "2022NE0000279",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE00283",
+      "contrato": "2/2020",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Cobertura Financeira 2022"
+    },
+    {
+      "numero": "2022NE0000283",
+      "contrato": "2/2020",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2021NE00187",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "1º Termo Aditivo ao Contrato 003/2020 - SPROWEB"
+    },
+    {
+      "numero": "2021NE0000186",
+      "contrato": "",
+      "valor": 17681.14,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2021NE0000187",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2023NE0000469",
+      "contrato": "3/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2023",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB). PARECER Nº 134/2022 – ASSJUR/FAAR TC: 003/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000207",
+      "contrato": "3/2020",
+      "valor": 1169.83,
+      "situacao": "Ativo",
+      "data_emissao": "27/06/2023",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 03."
+    },
+    {
+      "numero": "2021NE0000108",
+      "contrato": "",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2021",
+      "descricao": "119820 - (ID-119820) HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para prestação de serviço de hospedagem de Website, conforme Projeto Básico. MARCA: sem marca Termo de Contrato Nº 004/2020; Objeto: Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
+    },
+    {
+      "numero": "2021NE0000103",
+      "contrato": "",
+      "valor": 17967.2,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2021",
+      "descricao": "115752 - (ID-115752) SERVIÇO DE TRANSMISSÃO DE DADOS, Descrição: Contratação de empresa especializada para fornecimento de circuito de transmissão de dados para conexão cliente/fornecedor. MARCA: sem marca"
+    },
+    {
+      "numero": "2021NE0000106",
+      "contrato": "",
+      "valor": 2966.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2021",
+      "descricao": "115747 - (ID-115747) EXECUÇÃO DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para execução de sistema de protocolo web (SPROWEB). MARCA: sem marca Termo de Contrato Nº 003/2020; Objeto: Contratação de empresa especializada em serviços de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB).; Vigência: 01/07/2020 A 30/06/2021; Valor Mensal: R$ 1.483,00; Valor Global: R$ 17.796,00;"
+    },
+    {
+      "numero": "2021NE0000107",
+      "contrato": "",
+      "valor": 7660.8,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2021",
+      "descricao": "116142 - (ID-116142) EXECUÇÃO DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para execução do Sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal. MARCA: sem marca Termo de Contrato Nº 003/2021; Objeto: Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento;"
+    },
+    {
+      "numero": "2022NE00412",
+      "contrato": "26/2021",
+      "valor": 22625.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2022",
+      "descricao": "1º TA ao Contrato 026/2021 - Internet e Link"
+    },
+    {
+      "numero": "2022NE0000412",
+      "contrato": "26/2021",
+      "valor": 22625.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2022",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
+    },
+    {
+      "numero": "2021NE0000094",
+      "contrato": "",
+      "valor": 2966.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 65 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
+    },
+    {
+      "numero": "2021NE0000092",
+      "contrato": "",
+      "valor": 17967.2,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 63 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
+    },
+    {
+      "numero": "2021NE0000095",
+      "contrato": "",
+      "valor": 7660.8,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 66 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
+    },
+    {
+      "numero": "2021NE0000096",
+      "contrato": "",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 67 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
+    },
+    {
+      "numero": "2022NE0000551",
+      "contrato": "26/2021",
+      "valor": 22625.58,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
+    },
+    {
+      "numero": "2022NE0000549",
+      "contrato": "3/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000550",
+      "contrato": "4/2020",
+      "valor": 2440.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000548",
+      "contrato": "2/2020",
+      "valor": 10146.3,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2023NE0000031",
+      "contrato": "26/2021",
+      "valor": 45251.16,
+      "situacao": "Ativo",
+      "data_emissao": "25/01/2023",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
+    },
+    {
+      "numero": "2023NE0000011",
+      "contrato": "",
+      "valor": 45251.16,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2023",
+      "descricao": "anulação total do empenho nº 05 de 02/01/2023 para acerto no tipo de empenho"
+    },
+    {
+      "numero": "2023NE0000001",
+      "contrato": "",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "23/01/2023",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2023NE00202",
+      "contrato": "4/2020",
+      "valor": 2444.15,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem de site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR;"
+    },
+    {
+      "numero": "2023NE0000202",
+      "contrato": "4/2020",
+      "valor": 2444.15,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 03."
+    },
+    {
+      "numero": "2021NE0000067",
+      "contrato": "",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Reforço da Notas de Empenho 2121NE0000004 Termo de Contrato Nº 004/2020; Objeto: Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
+    },
+    {
+      "numero": "2021NE0000063",
+      "contrato": "",
+      "valor": 17967.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Reforço da Notas de Empenho 2121NE0000002 Termo de Contrato Nº 002/2020; Objeto: Contratação de empresa especializada em serviços de infraestrutura de TI para acesso e manutenção através da Rede Metropolitana de Manaus (REPAM/MEtroMao) por meio de fibra ótica, incluindo serviço de Acesso à Internet através da Rede de Governo.;"
+    },
+    {
+      "numero": "2021NE0000066",
+      "contrato": "",
+      "valor": 7660.8,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Reforço da Notas de Empenho 2121NE0000020 Termo de Contrato Nº 003/2021; Objeto: Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento;"
+    },
+    {
+      "numero": "2021NE0000065",
+      "contrato": "",
+      "valor": 2966.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Reforço da Notas de Empenho 2121NE0000003 Termo de Contrato Nº 003/2020; Objeto: Contratação de empresa especializada em serviços de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB).;"
+    },
+    {
+      "numero": "2021NE00434",
+      "contrato": "26/2021",
+      "valor": 43555.02,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "Contratação de Serviços de Infraestrutura de TI para acesso e manutenção e serviço de rede."
+    },
+    {
+      "numero": "2021NE0000434",
+      "contrato": "",
+      "valor": 43555.02,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM INSTALAÇÃO DE LINKS DE INTERNET, PARA QUE POSSA INTERLIGAR NOSSOS ESPAÇOS ESPORTIVOS, DE RESPONSABILIDADE DESTA FUNDAÇÃO."
+    },
+    {
+      "numero": "2022NE0000388",
+      "contrato": "26/2021",
+      "valor": 41107.82,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM INSTALAÇÃO DE LINKS DE INTERNET, PARA QUE POSSA INTERLIGAR NOSSOS ESPAÇOS ESPORTIVOS, DE RESPONSABILIDADE DESTA FUNDAÇÃO."
+    },
+    {
+      "numero": "2022NE0000387",
+      "contrato": "4/2020",
+      "valor": 4880.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000386",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000385",
+      "contrato": "2/2020",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000384",
+      "contrato": "",
+      "valor": 4662.74,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2023NE00191",
+      "contrato": "2/2020",
+      "valor": 10631.5,
+      "situacao": "Ativo",
+      "data_emissao": "20/06/2023",
+      "descricao": "Contratação de Empresa especializada em serviços de infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus REPAM\\MetroMao por meio de fibra ótica, incluindo o serviço de acesso à internet."
+    },
+    {
+      "numero": "2023NE0000191",
+      "contrato": "2/2020",
+      "valor": 10631.5,
+      "situacao": "Ativo",
+      "data_emissao": "20/06/2023",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 136/2023 – ASSJUR TC: 0002/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000100",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2023",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2023NE0000101",
+      "contrato": "4/2020",
+      "valor": 4880.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2023",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000210",
+      "contrato": "4/2020",
+      "valor": 4251.98,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000209",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000208",
+      "contrato": "2/2020",
+      "valor": 17681.14,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000211",
+      "contrato": "",
+      "valor": 9325.48,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2021NE0000270",
+      "contrato": "4/2020",
+      "valor": 8503.96,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "1º TERMO ADITIVO OU CONTRATO Nº 004/2020, Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
+    },
+    {
+      "numero": "2021NE0000269",
+      "contrato": "2/2020",
+      "valor": 35362.28,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 002/2020, contratação de empresa especializada em serviços de infraestrutura de TI para acesso e manutenção através da Rede Metropolitana de Manaus (REPAM/MEtroMao) por meio de fibra ótica, incluindo serviço de Acesso à Internet através da Rede de Governo.;"
+    },
+    {
+      "numero": "2021NE0000268",
+      "contrato": "3/2020",
+      "valor": 4671.36,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 003/2020, Contratação de empresa especializada em serviços de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB).;"
+    },
+    {
+      "numero": "2020NE00054",
+      "contrato": "2/2020",
+      "valor": 53901.6,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2020",
+      "descricao": "Serviços de Transmissão de Dados"
+    },
+    {
+      "numero": "2020NE00056",
+      "contrato": "4/2020",
+      "valor": 10204.74,
+      "situacao": "Ativo",
+      "data_emissao": "16/06/2020",
+      "descricao": "Hospedagem de Sistemas - Gestor WEB"
+    },
+    {
+      "numero": "2020NE00055",
+      "contrato": "3/2020",
+      "valor": 8898.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/06/2020",
+      "descricao": "Execução de sistemas - SPROWEB"
+    },
+    {
+      "numero": "2023NE00031",
+      "contrato": "26/2021",
+      "valor": 45251.16,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE00004",
+      "contrato": "3/2021",
+      "valor": 2331.37,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE00003",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE00036",
+      "contrato": "2/2020",
+      "valor": 2292.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE0000036",
+      "contrato": "2/2020",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2023",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000426",
+      "contrato": "2/2020",
+      "valor": 10146.3,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000424",
+      "contrato": "4/2020",
+      "valor": 2440.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000425",
+      "contrato": "3/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2021NE0000407",
+      "contrato": "",
+      "valor": 7660.8,
+      "situacao": "Ativo",
+      "data_emissao": "08/10/2021",
+      "descricao": "Termo de Contrato Nº 003/2021; Objeto: Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento;"
+    },
+    {
+      "numero": "2023NE0000519",
+      "contrato": "4/2020",
+      "valor": 2444.15,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000212",
+      "contrato": "4/2020",
+      "valor": 2440.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2023",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. PARECER Nº 126/2022 – ASSJUR/FAAR TC: 004/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000210",
+      "contrato": "2/2020",
+      "valor": 10146.3,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2023",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao, incluindo o serviço de Acesso à Internet através da Rede de Governo. PARECER Nº 125/2022–ASSJUR TC: 002/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000211",
+      "contrato": "3/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2023",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB). PARECER Nº 134/2022 – ASSJUR/FAAR TC: 003/2020 AD: 02."
+    },
+    {
+      "numero": "2022NE00032",
+      "contrato": "3/2021",
+      "valor": 6994.11,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2022",
+      "descricao": "1º T.A Contrato 003/2021 - Prazo e Reaj. 21,73%"
+    },
+    {
+      "numero": "2022NE0000032",
+      "contrato": "",
+      "valor": 6994.11,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2022",
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2021NE0000003",
+      "contrato": "3/2020",
+      "valor": 5932.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2021NE0000004",
+      "contrato": "4/2020",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2021NE0000002",
+      "contrato": "2/2020",
+      "valor": 35934.4,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000010",
+      "contrato": "3/2020",
+      "valor": 4671.36,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000012",
+      "contrato": "4/2020",
+      "valor": 8503.96,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000023",
+      "contrato": "2/2020",
+      "valor": 35362.28,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000031",
+      "contrato": "",
+      "valor": 1915.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2023NE0000009",
+      "contrato": "4/2020",
+      "valor": 4880.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2023NE0000004",
+      "contrato": "",
+      "valor": 2331.37,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2023NE0000003",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2023NE0000008",
+      "contrato": "",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Anulação total da NE 2023NE0000001, por motivo de data e modalidade informada errada"
+    },
+    {
+      "numero": "2023NE0000005",
+      "contrato": "26/2021",
+      "valor": 45251.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
+    },
+    {
+      "numero": "2021NE00020",
+      "contrato": "3/2021",
+      "valor": 5745.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/01/2021",
+      "descricao": "Serviço de Execução de PRODAM RH"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "139491",
+      "nf": "35978",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "140720",
+      "nf": "140720",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "04/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "140908",
+      "nf": "140908",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "142077",
+      "nf": "142077",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "142389",
+      "nf": "142389",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143187",
+      "nf": "143187",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143947",
+      "nf": "143947",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "144721",
+      "nf": "144721",
+      "contrato": "26/2021",
+      "valor_bruto": 14017.2,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "145873",
+      "nf": "145873",
+      "contrato": "26/2021",
+      "valor_bruto": 11188.2,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "146171",
+      "nf": "146171",
+      "contrato": "26/2021",
+      "valor_bruto": 11188.2,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143183",
+      "nf": "143183",
+      "contrato": "2/2020",
+      "valor_bruto": 7950.4,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "143943",
+      "nf": "143943",
+      "contrato": "2/2020",
+      "valor_bruto": 7950.4,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "144717",
+      "nf": "144717",
+      "contrato": "2/2020",
+      "valor_bruto": 7950.4,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "145406",
+      "nf": "145406",
+      "contrato": "2/2020",
+      "valor_bruto": 7950.4,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "140719",
+      "nf": "140719",
+      "contrato": "2/2020",
+      "valor_bruto": 7469.76,
+      "competencia": "04/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "140905",
+      "nf": "140905",
+      "contrato": "2/2020",
+      "valor_bruto": 7469.76,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "142076",
+      "nf": "142076",
+      "contrato": "2/2020",
+      "valor_bruto": 7469.76,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "146165",
+      "nf": "146165",
+      "contrato": "2/2020",
+      "valor_bruto": 6620.7,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "139492",
+      "nf": "35977",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "140173",
+      "nf": "37129",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "04/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "140909",
+      "nf": "37341",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "141652",
+      "nf": "38357",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "142390",
+      "nf": "38704",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143188",
+      "nf": "39397",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143948",
+      "nf": "40256",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "144722",
+      "nf": "41064",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "145871",
+      "nf": "41771",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "146169",
+      "nf": "42206",
+      "contrato": "26/2021",
+      "valor_bruto": 5896.83,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "139493",
+      "nf": "35976",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "140174",
+      "nf": "36648",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "04/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "140910",
+      "nf": "37342",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "141653",
+      "nf": "38358",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "142391",
+      "nf": "38703",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143189",
+      "nf": "39396",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143949",
+      "nf": "40255",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "144723",
+      "nf": "41065",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "145872",
+      "nf": "41770",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "146170",
+      "nf": "42207",
+      "contrato": "26/2021",
+      "valor_bruto": 2711.55,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 28
+    },
+    {
+      "id": "143184",
+      "nf": "39394",
+      "contrato": "2/2020",
+      "valor_bruto": 2681.1,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "143944",
+      "nf": "40253",
+      "contrato": "2/2020",
+      "valor_bruto": 2681.1,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "144718",
+      "nf": "41062",
+      "contrato": "2/2020",
+      "valor_bruto": 2681.1,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "145407",
+      "nf": "41454",
+      "contrato": "2/2020",
+      "valor_bruto": 2681.1,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "146166",
+      "nf": "42204",
+      "contrato": "2/2020",
+      "valor_bruto": 2681.1,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "140168",
+      "nf": "37128",
+      "contrato": "2/2020",
+      "valor_bruto": 2676.54,
+      "competencia": "04/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "140904",
+      "nf": "37339",
+      "contrato": "2/2020",
+      "valor_bruto": 2676.54,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "141647",
+      "nf": "38355",
+      "contrato": "2/2020",
+      "valor_bruto": 2676.54,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 127
+    },
+    {
+      "id": "143186",
+      "nf": "39395",
+      "contrato": "4/2020",
+      "valor_bruto": 2444.15,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "143946",
+      "nf": "40254",
+      "contrato": "4/2020",
+      "valor_bruto": 2444.15,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "144720",
+      "nf": "41063",
+      "contrato": "4/2020",
+      "valor_bruto": 2444.15,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "145409",
+      "nf": "41455",
+      "contrato": "4/2020",
+      "valor_bruto": 2444.15,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "146168",
+      "nf": "42205",
+      "contrato": "4/2020",
+      "valor_bruto": 2444.15,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "141650",
+      "nf": "38356",
+      "contrato": "4/2020",
+      "valor_bruto": 2440.0,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "141368",
+      "nf": "37758",
+      "contrato": "26/2023",
+      "valor_bruto": 2146.36,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "140002",
+      "nf": "36491",
+      "contrato": "26/2023",
+      "valor_bruto": 1216.67,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "140718",
+      "nf": "37120",
+      "contrato": "26/2023",
+      "valor_bruto": 1211.73,
+      "competencia": "04/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "140170",
+      "nf": "36646",
+      "contrato": "3/2020",
+      "valor_bruto": 1167.84,
+      "competencia": "04/2023",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 91
+    },
+    {
+      "id": "142183",
+      "nf": "38453",
+      "contrato": "26/2023",
+      "valor_bruto": 1032.77,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "145882",
+      "nf": "41781",
+      "contrato": "26/2023",
+      "valor_bruto": 1011.63,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "144445",
+      "nf": "40508",
+      "contrato": "26/2023",
+      "valor_bruto": 1011.21,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "140001",
+      "nf": "36492",
+      "contrato": "26/2023",
+      "valor_bruto": 1009.43,
+      "competencia": "02/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "143742",
+      "nf": "39870",
+      "contrato": "26/2023",
+      "valor_bruto": 1006.21,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "145197",
+      "nf": "41169",
+      "contrato": "26/2023",
+      "valor_bruto": 1001.81,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "142946",
+      "nf": "39165",
+      "contrato": "26/2023",
+      "valor_bruto": 999.89,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 1
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "139493",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/139493/E",
+      "Comp.": "03/2023",
+      "Valor": "2.711,55",
+      "Atraso": "1093 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "139492",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/139492/E",
+      "Comp.": "03/2023",
+      "Valor": "5.896,83",
+      "Atraso": "1093 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "139491",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/139491/E",
+      "Comp.": "03/2023",
+      "Valor": "14.017,20",
+      "Atraso": "1093 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "140002",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140002/E",
+      "Comp.": "03/2023",
+      "Valor": "1.216,67",
+      "Atraso": "1079 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "140001",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140001/E",
+      "Comp.": "02/2023",
+      "Valor": "1.009,43",
+      "Atraso": "1079 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "003/2020",
+      "Número": "140170",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140170/E",
+      "Comp.": "04/2023",
+      "Valor": "116,78",
+      "Atraso": "1060 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "140174",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140174/E",
+      "Comp.": "04/2023",
+      "Valor": "2.711,55",
+      "Atraso": "1060 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "140718",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140718/E",
+      "Comp.": "04/2023",
+      "Valor": "1.211,73",
+      "Atraso": "1051 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "140168",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140168/E",
+      "Comp.": "04/2023",
+      "Valor": "2.676,54",
+      "Atraso": "1051 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "140173",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140173/E",
+      "Comp.": "04/2023",
+      "Valor": "5.896,83",
+      "Atraso": "1051 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "140719",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140719/E",
+      "Comp.": "04/2023",
+      "Valor": "7.469,76",
+      "Atraso": "1051 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "140720",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140720/E",
+      "Comp.": "04/2023",
+      "Valor": "14.017,20",
+      "Atraso": "1051 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "140904",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140904/E",
+      "Comp.": "05/2023",
+      "Valor": "2.676,54",
+      "Atraso": "1032 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "140909",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140909/E",
+      "Comp.": "05/2023",
+      "Valor": "5.896,83",
+      "Atraso": "1032 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "140910",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140910/E",
+      "Comp.": "05/2023",
+      "Valor": "2.711,55",
+      "Atraso": "1032 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "140905",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140905/E",
+      "Comp.": "05/2023",
+      "Valor": "7.469,76",
+      "Atraso": "1032 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "140908",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140908/E",
+      "Comp.": "05/2023",
+      "Valor": "14.017,20",
+      "Atraso": "1032 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "141368",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141368/E",
+      "Comp.": "05/2023",
+      "Valor": "2.146,36",
+      "Atraso": "1022 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "141647",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141647/E",
+      "Comp.": "06/2023",
+      "Valor": "2.676,54",
+      "Atraso": "995 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "004/2020",
+      "Número": "141650",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141650/E",
+      "Comp.": "06/2023",
+      "Valor": "2.440,00",
+      "Atraso": "995 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "141652",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141652/E",
+      "Comp.": "06/2023",
+      "Valor": "5.896,83",
+      "Atraso": "995 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "141653",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141653/E",
+      "Comp.": "06/2023",
+      "Valor": "2.711,55",
+      "Atraso": "995 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "142076",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142076/E",
+      "Comp.": "06/2023",
+      "Valor": "7.469,76",
+      "Atraso": "995 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "142077",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142077/E",
+      "Comp.": "06/2023",
+      "Valor": "14.017,20",
+      "Atraso": "995 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "142183",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142183/E",
+      "Comp.": "06/2023",
+      "Valor": "1.032,77",
+      "Atraso": "989 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "142391",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142391/E",
+      "Comp.": "07/2023",
+      "Valor": "2.711,55",
+      "Atraso": "969 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "142390",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142390/E",
+      "Comp.": "07/2023",
+      "Valor": "5.896,83",
+      "Atraso": "969 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "142389",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142389/E",
+      "Comp.": "07/2023",
+      "Valor": "14.017,20",
+      "Atraso": "969 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "142946",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142946/E",
+      "Comp.": "07/2023",
+      "Valor": "999,89",
+      "Atraso": "960 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "143184",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143184/E",
+      "Comp.": "08/2023",
+      "Valor": "2.681,10",
+      "Atraso": "940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "004/2020",
+      "Número": "143186",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143186/E",
+      "Comp.": "08/2023",
+      "Valor": "2.444,15",
+      "Atraso": "940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "143189",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143189/E",
+      "Comp.": "08/2023",
+      "Valor": "2.711,55",
+      "Atraso": "940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "143188",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143188/E",
+      "Comp.": "08/2023",
+      "Valor": "5.896,83",
+      "Atraso": "940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "143183",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143183/E",
+      "Comp.": "08/2023",
+      "Valor": "7.950,40",
+      "Atraso": "940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "143187",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143187/E",
+      "Comp.": "08/2023",
+      "Valor": "14.017,20",
+      "Atraso": "940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "143742",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143742/E",
+      "Comp.": "08/2023",
+      "Valor": "1.006,21",
+      "Atraso": "926 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "143943",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143943/E",
+      "Comp.": "09/2023",
+      "Valor": "7.950,40",
+      "Atraso": "905 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "143947",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143947/E",
+      "Comp.": "09/2023",
+      "Valor": "14.017,20",
+      "Atraso": "905 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "143944",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143944/E",
+      "Comp.": "09/2023",
+      "Valor": "2.681,10",
+      "Atraso": "904 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "004/2020",
+      "Número": "143946",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143946/E",
+      "Comp.": "09/2023",
+      "Valor": "2.444,15",
+      "Atraso": "904 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "143949",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143949/E",
+      "Comp.": "09/2023",
+      "Valor": "2.711,55",
+      "Atraso": "904 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "143948",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143948/E",
+      "Comp.": "09/2023",
+      "Valor": "5.896,83",
+      "Atraso": "904 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "144445",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144445/E",
+      "Comp.": "09/2023",
+      "Valor": "1.011,21",
+      "Atraso": "898 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "144717",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144717/E",
+      "Comp.": "10/2023",
+      "Valor": "7.950,40",
+      "Atraso": "874 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "144721",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144721/E",
+      "Comp.": "10/2023",
+      "Valor": "14.017,20",
+      "Atraso": "874 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "144718",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144718/E",
+      "Comp.": "10/2023",
+      "Valor": "2.681,10",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "004/2020",
+      "Número": "144720",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144720/E",
+      "Comp.": "10/2023",
+      "Valor": "2.444,15",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "144722",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144722/E",
+      "Comp.": "10/2023",
+      "Valor": "5.896,83",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "144723",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144723/E",
+      "Comp.": "10/2023",
+      "Valor": "2.711,55",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "145197",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145197/E",
+      "Comp.": "10/2023",
+      "Valor": "1.001,81",
+      "Atraso": "867 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "145407",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145407/E",
+      "Comp.": "11/2023",
+      "Valor": "2.681,10",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "004/2020",
+      "Número": "145409",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145409/E",
+      "Comp.": "11/2023",
+      "Valor": "2.444,15",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "145406",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145406/E",
+      "Comp.": "11/2023",
+      "Valor": "7.950,40",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "145872",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145872/E",
+      "Comp.": "11/2023",
+      "Valor": "2.711,55",
+      "Atraso": "839 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "145871",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145871/E",
+      "Comp.": "11/2023",
+      "Valor": "5.896,83",
+      "Atraso": "839 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "145873",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145873/E",
+      "Comp.": "11/2023",
+      "Valor": "11.188,20",
+      "Atraso": "839 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "026/2023",
+      "Número": "145882",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145882/E",
+      "Comp.": "11/2023",
+      "Valor": "1.011,63",
+      "Atraso": "836 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2020",
+      "Número": "146165",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146165/E",
+      "Comp.": "12/2023",
+      "Valor": "6.620,70",
+      "Atraso": "818 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "026/2021",
+      "Número": "146171",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146171/E",
+      "Comp.": "12/2023",
+      "Valor": "11.188,20",
+      "Atraso": "818 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "002/2020",
+      "Número": "146166",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146166/E",
+      "Comp.": "12/2023",
+      "Valor": "2.681,10",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "004/2020",
+      "Número": "146168",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146168/E",
+      "Comp.": "12/2023",
+      "Valor": "2.444,15",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "146169",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146169/E",
+      "Comp.": "12/2023",
+      "Valor": "5.896,83",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FAAR",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "026/2021",
+      "Número": "146170",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146170/E",
+      "Comp.": "12/2023",
+      "Valor": "2.711,55",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 94,
+      "valor_total": 1272727.86,
+      "por_ano": {
+        "2020": {
+          "qtd": 5,
+          "valor": 85775.34000000001
+        },
+        "2023": {
+          "qtd": 28,
+          "valor": 334720.07999999996
+        },
+        "2022": {
+          "qtd": 32,
+          "valor": 490809.73999999993
+        },
+        "2021": {
+          "qtd": 29,
+          "valor": 361422.6999999999
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 63,
+      "valor_total": 330340.8
+    },
+    "cobrancas": {
+      "qtd": 63,
+      "valor_total": 329289.74
+    }
+  }
+}

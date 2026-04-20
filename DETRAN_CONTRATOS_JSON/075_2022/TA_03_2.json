@@ -1,0 +1,60 @@
+{
+  "filename": "3º TA Contrato 075.2022 - Prazo e reajuste 5,32% IPCA.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\3º TA Contrato 075.2022 - Prazo e reajuste 5,32% IPCA.pdf",
+  "filename_parsed": {
+    "filename": "3º TA Contrato 075.2022 - Prazo e reajuste 5,32% IPCA.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 75,
+    "contrato_ano": 2022,
+    "contrato_ref": "075/2022",
+    "ta_numero": 3,
+    "indice": "IPCA",
+    "percentual_reajuste": 5.32,
+    "modalidades": [
+      "PRORROGACAO_PRAZO",
+      "REAJUSTE"
+    ]
+  },
+  "pdf_meta": {
+    "num_paginas": 7,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 1446081
+  },
+  "texto_length": 23161,
+  "texto_preview": "AMAZONAS\nGOVERNO DO ESTADO\nTERCEIRO TERMO ADITIVO AO CONTRATO N°. 075/2022-DETRAN/AM\nTERCEIRO TERMO ADITIVO AO\nCONTRATO N° 075/2022-DETRAN/AМ,\nCELEBRADO ENTRE O ESTADO DO\nAMAZONAS, POR INTERMÉDIO DO\nDEPARTAMENTO ESTADUAL DE TRÂNSITO\n- DETRAN/AMEAEMPRESA PRODAM\nPROCESSAMENTO DE DADOS AMAZONAS\nS/A, NA FORMA ABAIXO:\nAo 01 (primeiro) dia do mês de setembro do ano de 2025 (dois mil e vinte e cinco), nesta cidade\nde Manaus, na sede do CONTRATANTE, situada na Rua Mário Ypiranga, n.° 2884, bairro:\nParqu",
+  "clausulas_detectadas": {
+    "indice_correcao": [
+      "IPCA"
+    ],
+    "valor_contrato": [
+      "R$ 283.936,40",
+      "R$ 3.407.236,80",
+      "R$ 626.250,00",
+      "R$ \n283.936,40",
+      "R$ 257.100,00"
+    ],
+    "vigencia": [
+      [
+        "01/09/2025",
+        "01/09/2026"
+      ],
+      [
+        "08/08/2022",
+        "14/08/2025"
+      ],
+      [
+        "07/05/2025",
+        "07/05/2026"
+      ]
+    ],
+    "acrescimo_pct": [
+      "5,32"
+    ],
+    "cnpj_contratada": [
+      "04.224.028/0001-63",
+      "04.407.920/0001-80"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

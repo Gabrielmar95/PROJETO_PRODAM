@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê SEPROR — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — SEPROR</h1>
+<p><b>Secretaria de Produção Rural</b> | GOV_DIRETA | CNPJ: 05.560.185/0001-02 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi média">MÉDIA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 77.960,49</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 170.884,10</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">15</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">10</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">298</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">40%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2020NE00228</td><td>8/2016</td><td>03/04/2020</td><td>R$ 189.331,63</td><td>Ativo</td></tr>
+<tr><td>2018NE00258</td><td>8/2016</td><td>02/04/2018</td><td>R$ 158.760,00</td><td>Ativo</td></tr>
+<tr><td>2017NE00219</td><td>8/2016</td><td>10/04/2017</td><td>R$ 105.840,00</td><td>Ativo</td></tr>
+<tr><td>2020NE00575</td><td>19/2020</td><td>02/09/2020</td><td>R$ 100.819,35</td><td>Ativo</td></tr>
+<tr><td>2016NE00255</td><td>8/2016</td><td>10/03/2016</td><td>R$ 72.000,00</td><td>Ativo</td></tr>
+<tr><td>2019NE00464</td><td>8/2016</td><td>05/07/2019</td><td>R$ 56.913,93</td><td>Ativo</td></tr>
+<tr><td>2019NE00747</td><td>8/2016</td><td>01/10/2019</td><td>R$ 56.913,93</td><td>Ativo</td></tr>
+<tr><td>2019NE00148</td><td>8/2016</td><td>01/04/2019</td><td>R$ 56.913,93</td><td>Ativo</td></tr>
+<tr><td>2021NE0000009</td><td>8/2016</td><td>04/01/2021</td><td>R$ 54.288,64</td><td>Ativo</td></tr>
+<tr><td>2016NE00516</td><td>8/2016</td><td>01/06/2016</td><td>R$ 54.000,00</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>120862</td><td>18206</td><td>8/2016</td><td>12/2020</td><td>R$ 20.358,24</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>107512</td><td>5439</td><td>8/2016</td><td>12/2018</td><td>R$ 17.640,00</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>142980</td><td>39204</td><td>4/2022</td><td>07/2023</td><td>R$ 583,22</td><td>Parcialmente Paga</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Documentação fraca</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[2, 9, 29, 37, 25, 24, 12, 11, 25, 33, 52, 35, 4],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[30000.0, 99207.6, 358612.61, 390784.5199999999, 611574.2999999999, 280203.68000000005, 418810.5899999999, 159659.33000000002, 222473.63, 213240.44999999995, 220951.56999999998, 227041.62999999998, 63943.28],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

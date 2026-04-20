@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>DETRAN — Auditoria Profunda | Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,0.1)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.kpi-big{font-size:32px}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.alert{background:#fff4e0;border-left:4px solid #B8963E;padding:12px;margin:16px 0}
+.alert-red{background:#ffeceb;border-left:4px solid #c0392b}
+.alert-green{background:#eafaf1;border-left:4px solid #27ae60}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:8px 12px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+canvas{max-height:300px}
+.ok{color:#27ae60;font-weight:bold} .warn{color:#f39c12;font-weight:bold} .err{color:#c0392b;font-weight:bold}
+</style></head><body>
+<h1>DETRAN — Auditoria Profunda</h1>
+<p><b>Departamento Estadual de Trânsito do Amazonas</b> | Categoria GOV_INDIRETA | CNPJ 04.224.028/0001-63 | Prioridade #2 PRODAM</p>
+
+<div class="alert alert-green">
+<b>✅ NÃO ESTÁ PRESCRITO</b> — Contrário ao que o profile marcava, 93 de 113 faturas (82%) estão protegidas
+por marcos interruptivos (Art. 202 VI CC) via NEs de 2024-2026 em 30 contratos. Ação: protocolar execução.
+</div>
+
+<div class="grid4">
+<div class="card"><div class="label">Força</div><div class="kpi-big ok">FORTE</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi">PROTOCOLAR_PETICAO</div></div>
+<div class="card"><div class="label">Val. protegido</div><div class="kpi">R$ 15,94M</div></div>
+<div class="card"><div class="label">Val. atualizado (est.)</div><div class="kpi">R$ 28,87M</div></div>
+<div class="card"><div class="label">Faturas DB total</div><div class="kpi">113</div></div>
+<div class="card"><div class="label">Protegidas Art.202 VI</div><div class="kpi ok">93</div></div>
+<div class="card"><div class="label">Prescritas s/ marco</div><div class="kpi err">20</div></div>
+<div class="card"><div class="label">NEs no DB</div><div class="kpi">470</div></div>
+</div>
+
+<h2>Cadeia Documental (REsp 793.969/RJ)</h2>
+<div class="grid2">
+<div class="card"><canvas id="cadeiaChart"></canvas></div>
+<div class="card">
+<h3>100% das faturas em cadeia executável</h3>
+<ul>
+<li><b class="ok">COMPLETA (99):</b> Contrato + NE + NL + NF + Atesto — título executivo pleno</li>
+<li><b class="ok">FORTE (14):</b> Contrato + NE + NF — título executivo (falta atesto)</li>
+</ul>
+<p>Todas passam o teste de título executivo extrajudicial do Art. 784 CPC + REsp 793.969/RJ.</p>
+</div>
+</div>
+
+<h2>Marcos Interruptivos por Ano (NEs posteriores a vencimentos)</h2>
+<div class="card"><canvas id="neAnoChart"></canvas></div>
+
+<h2>Top 10 Contratos com NE Mais Recente</h2>
+<table>
+<tr><th>Contrato</th><th>Último NE</th><th>Data</th><th>Status prescrição</th></tr>
+<tr><td>10/2021</td><td>2026NE0000101</td><td>2026-01-20</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>8/2021</td><td>2026NE0000007</td><td>2026-01-05</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>6/2021</td><td>2026NE0000006</td><td>2026-01-05</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>12/2021</td><td>2026NE0000008</td><td>2026-01-05</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>75/2022</td><td>2026NE0000009</td><td>2026-01-05</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>83/2022</td><td>2026NE0000010</td><td>2026-01-05</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>3/2026</td><td>2026NE0000005</td><td>2026-01-05</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>(sem contrato)</td><td>2025NE0001771</td><td>2025-10-29</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>17/2015</td><td>2024NE0002123</td><td>2024-12-02</td><td class='ok'>🟢 INTERROMPE</td></tr>
+<tr><td>78/2022</td><td>2023NE0000004</td><td>2023-01-02</td><td class='ok'>🟢 INTERROMPE</td></tr>
+
+</table>
+
+<h2>Blindagem Pré-Execução (6 blocos)</h2>
+<table>
+<tr><th>Bloco</th><th>Requisito</th><th>Status</th></tr>
+<tr><td><b>titulo_executivo</b></td><td>Art.784 CPC — instrumento público/particular</td><td class='warn'>⚠️ Contratos formais assinados (228 SPCF)</td></tr>
+<tr><td><b>liquidez</b></td><td>Valor líquido, certo, exigível (Art.783 CPC)</td><td class='ok'>✅ Valor bruto agregado R$ 17,802,420.55 do SPCF</td></tr>
+<tr><td><b>cadeia_documental</b></td><td>REsp 793.969/RJ — Contrato+NE+NF+Atesto</td><td class='ok'>✅ 113 faturas com cadeia FORTE/COMPLETA</td></tr>
+<tr><td><b>prescricao</b></td><td>Não prescrita + marcos Art.202 VI</td><td class='ok'>✅ 93 faturas protegidas × R$ 15,941,367.35</td></tr>
+<tr><td><b>reconhecimento_tacito</b></td><td>Art.202 VI CC — empenho é reconhecimento</td><td class='ok'>✅ 470 NEs, 30 contratos com NE posterior a vencimento</td></tr>
+<tr><td><b>inadimplemento</b></td><td>Mora ex re (Art.397 CC)</td><td class='ok'>✅ padrão INTERMITENTE, início 2020-Jan</td></tr>
+
+</table>
+
+<script>
+new Chart(document.getElementById('cadeiaChart'),{
+  type:'doughnut',
+  data:{labels:["COMPLETA", "FORTE"],datasets:[{data:[99, 14],backgroundColor:['#27ae60','#3498db','#f39c12','#c0392b']}]},
+  options:{plugins:{title:{display:true,text:'Distribuição de cadeia (113 faturas)'}}}
+});
+
+new Chart(document.getElementById('neAnoChart'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2018", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[{label:'Contratos com NE mais recente naquele ano',data:[5, 2, 2, 3, 5, 1, 2, 1, 1, 1, 7],backgroundColor:'#1F3864'}]},
+  options:{responsive:true,plugins:{title:{display:true,text:'NEs mais recentes por ano — quanto mais recente, melhor proteção contra prescrição'}}}
+});
+</script>
+</body></html>

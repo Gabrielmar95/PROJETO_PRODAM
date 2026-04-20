@@ -1,0 +1,34 @@
+{
+  "filename": "relatorio - 2025-11-27 - Faturas até dezembro.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\06_COBRANCAS\\relatorio - 2025-11-27 - Faturas até dezembro.pdf",
+  "categoria": "06_COBRANCAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 20982,
+  "texto_length": 1895,
+  "texto_preview": "PREF\nContrato\nProtocolo SIGED\nCompetência\nData Emissão\nValor Serviços\nNota de Empenho\nSaldo\nNecessário \nEmpenhar/Reforçar\n57983\n717.302,60\n57984\n481.179,03\n57985\n90.503,51\n58945\n107.515,72\n58946\n454.740,90\n58947\n719.677,70\n2.570.919,46\nnov/25\n1.281.934,32\ndez/25\n1.281.934,32\n5.134.788,10\n58129\n01.03.011210.033986/2025-35\nset/25\n30/09/2025\n139.963,41\n58784\n01.03.011210.038382/2025-85\nout/25\n23/10/2025\n226.680,99\n366.644,40\nnov/25\n226.680,99\ndez/25\n226.680,99\n820.006,38\n59616\n1.723,49\n59617\n38.506,00\n59618\n4.052,80\n59619\n16.933,66\n59620\n7.824,86\n59621\n27.338,34\n59622\n604,16\n96.983,31\ndez/25\n96.983,31\n193.966,62\n58949\nP.296/2025\n01.03.011210.039732/2025-20\nout/25\n30/10/2025\n630.582,35\n59663\nP.296/2025\n01.03.011210.043876/2025-81\nnov/25\n25/11/2025\n630.582,35\n1.261.164,70\n984,02\n3.070,15\n984,02",
+  "texto_completo": "PREF\nContrato\nProtocolo SIGED\nCompetência\nData Emissão\nValor Serviços\nNota de Empenho\nSaldo\nNecessário \nEmpenhar/Reforçar\n57983\n717.302,60\n57984\n481.179,03\n57985\n90.503,51\n58945\n107.515,72\n58946\n454.740,90\n58947\n719.677,70\n2.570.919,46\nnov/25\n1.281.934,32\ndez/25\n1.281.934,32\n5.134.788,10\n58129\n01.03.011210.033986/2025-35\nset/25\n30/09/2025\n139.963,41\n58784\n01.03.011210.038382/2025-85\nout/25\n23/10/2025\n226.680,99\n366.644,40\nnov/25\n226.680,99\ndez/25\n226.680,99\n820.006,38\n59616\n1.723,49\n59617\n38.506,00\n59618\n4.052,80\n59619\n16.933,66\n59620\n7.824,86\n59621\n27.338,34\n59622\n604,16\n96.983,31\ndez/25\n96.983,31\n193.966,62\n58949\nP.296/2025\n01.03.011210.039732/2025-20\nout/25\n30/10/2025\n630.582,35\n59663\nP.296/2025\n01.03.011210.043876/2025-81\nnov/25\n25/11/2025\n630.582,35\n1.261.164,70\n984,02\n3.070,15\n984,02\n3.070,15\n8.108,34\n59254\nC.75/2022\n01.03.011210.042945/2025-30\nnov/25\n17/11/2025\n283.936,40\n283.936,40\nA faturar (estimado)\ndez/25\n283.936,40\n567.872,80\n30.751,00\n8.016.657,94\n690.317,28\n7.499.895,58\nC.10/2021\n01.03.011210.032625/2025-71\nset/25\n24/09/2025\n01.03.011210.039714/2025-49\nout/25\n30/10/2025\nTotal faturado\nA faturar (estimado)\nA faturar (estimado)\nTotal contrato 10 até dezembro\nC.12/2021\nTotal faturado\nA faturar (estimado)\nA faturar (estimado)\nTotal contrato 12 até dezembro\nC.6/2021\n01.03.011210.043869/2025-80\nnov/25\n25/11/2025\nTotal faturado\nA faturar (estimado)\nTotal contrato 6 até dezembro\nTotal faturado Proposta 296\nC.8/2021\nA faturar (estimado)\nnov/25\nA faturar (estimado)\ndez/25\nC.8/2021\nA faturar (estimado)\ndez/25\nTotal  Contrato 8 até dezembro\n30.751,00\nTotal  Contrato 8 até dezembro\nTOTAL DETRAN ATÉ DEZEMBRO\n2025NE0000738\n9.070,24\n2025NE0000737\nTotal faturado\nTotal  Contrato 75 até dezembro\nC.83/2022\n366.557,64\n2025NE0000007\n30.753,00\n2025NE0001492\nDETRAN - FATURAS A SEREM PAGAS EM 2025\nData: 27/11/2025\n283.936,40\n5.134.788,10\n820.006,38\n1.261.164,70\n283.936,40\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "30/09/2025",
+      "23/10/2025",
+      "30/10/2025",
+      "25/11/2025",
+      "17/11/2025",
+      "24/09/2025",
+      "27/11/2025"
+    ],
+    "nes_referenciadas": [
+      "2025NE0000738",
+      "2025NE0000737",
+      "2025NE0000007",
+      "2025NE0001492"
+    ],
+    "tipo_doc": "OFICIO_COBRANCA"
+  }
+}

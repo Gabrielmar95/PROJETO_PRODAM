@@ -1,0 +1,22 @@
+{
+  "filename": "RECIBO__e104f8f6a9.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\05_ACEITES\\RECIBO__e104f8f6a9.pdf",
+  "categoria": "05_ACEITES",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499252,
+  "texto_length": 941,
+  "texto_preview": "R  E  C  I  B  O\nR$ 168.318,10\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n168.318,10 (CENTO E SESSENTA E OITO MIL, TREZENTOS E DEZOITO REAIS E DEZ CENTAVOS),\nreferente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s) fiscal(is) de serviços\nabaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n17/2015\nExecução de sistemas - Acesso via Web\n25049\n51.635,24\n2.581,76\n0,00\n0,00\n49.053,48\nmar/2021\n17/2015\nHospedagem de Servidores\n25050\n10.798,76\n539,94\n0,00\n0,00\n10.258,82\nmar/2021\n17/2015\nExecução de sistemas - Transações com a Base -\nDENATRAN\n25053\n105.884,10\n5.294",
+  "texto_completo": "R  E  C  I  B  O\nR$ 168.318,10\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n168.318,10 (CENTO E SESSENTA E OITO MIL, TREZENTOS E DEZOITO REAIS E DEZ CENTAVOS),\nreferente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s) fiscal(is) de serviços\nabaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n17/2015\nExecução de sistemas - Acesso via Web\n25049\n51.635,24\n2.581,76\n0,00\n0,00\n49.053,48\nmar/2021\n17/2015\nHospedagem de Servidores\n25050\n10.798,76\n539,94\n0,00\n0,00\n10.258,82\nmar/2021\n17/2015\nExecução de sistemas - Transações com a Base -\nDENATRAN\n25053\n105.884,10\n5.294,21\n0,00\n0,00\n100.589,89\nmar/2021\n168.318,10\n8.415,91\n0,00\n0,00\n159.902,19\nManaus, 27 de Outubro de 2021\nJosé Maria Pinto\nGerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "valores_brl": [
+      "168.318,10"
+    ],
+    "tipo_doc": "ACEITE_TECNICO"
+  }
+}

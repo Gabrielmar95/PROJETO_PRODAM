@@ -1,0 +1,3634 @@
+{
+  "sigla": "IDAM",
+  "profile": {
+    "nome_completo": "Instituto de Desenvolvimento Agropecuário do Amazonas",
+    "sigla": "IDAM",
+    "natureza": "Instituto",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "328735.506557344",
+    "val_orig": "505375.1699999998",
+    "val_atualizado": "892277.9349171629",
+    "faturas_total": 35,
+    "faturas_prescritas": 5,
+    "faturas_exigiveis": 30,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "TRD recomendado",
+    "observacoes": "Tramitado para Diretoria Adm-Financeira",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "01.171.012/0001-41",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "GOV",
+    "score_composto": 0.4019,
+    "proximo_passo": "ENVIAR_TRD",
+    "p_recuperacao": 0.35,
+    "ev_valor_esperado": "115057.43",
+    "ev_honorarios": "23011.49",
+    "esforco_estimado": 7,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 22,
+    "fase_atual": "F3",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-27"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "IDAM",
+    "spcf_total_receber": "315872.02",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 4,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 2,
+    "fat_canceladas_val_bruto": 5084.42,
+    "fat_canceladas_val_liquido": 4830.2,
+    "val_servicos_spcf_mar2026": "329645.61",
+    "val_liquido_spcf_mar2026": "315872.02",
+    "num_faturas_spcf_mar2026": 17,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 37.5,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "via_processual_recomendada": {
+      "via": "TRD_RECOMENDADO",
+      "fundamentacao": "TRD recomendado, GOV_INDIRETA"
+    },
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2023NE0001762",
+      "contrato": "16/2018",
+      "valor": 5341.96,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE. TC: 016/2018 AD: 04."
+    },
+    {
+      "numero": "2023NE0001760",
+      "contrato": "8/2020",
+      "valor": 4946.96,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2023",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 008/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0001761",
+      "contrato": "11/2023",
+      "valor": 93376.48,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2023",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM"
+    },
+    {
+      "numero": "2023NE0001759",
+      "contrato": "7/2020",
+      "valor": 31820.24,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2023",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 007/2020 AD: 03."
+    },
+    {
+      "numero": "2018NE00975",
+      "contrato": "",
+      "valor": 25200.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2018",
+      "descricao": "-ANULAÇÃO PARCIAL QUE SE FAZ DA NE º 335/2018, EM VIRTUDE DO ENCERRAMENTO DA VIGÊNCIA DO CONTRATO Nº 013/2017"
+    },
+    {
+      "numero": "2018NE00976",
+      "contrato": "",
+      "valor": 1684.48,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2018",
+      "descricao": "ANULAÇÃO PARCIAL QUE SE FAZ DA NOTA DE EMPENHO DE Nº 334/2018, EM VIRTUDE DO TERMINO DA VIGENCIA DO CONTRATO DE Nº 04/2015"
+    },
+    {
+      "numero": "2018NE00049",
+      "contrato": "3/2015",
+      "valor": 21277.08,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2018",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS"
+    },
+    {
+      "numero": "2018NE00054",
+      "contrato": "23/2015",
+      "valor": 39921.95,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2018",
+      "descricao": "-REFERENTE AO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 023/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: AQUISIÇAO DE SERVIÇOS DE SISTEMAS DE GESTÃO, COMPREENDENDO O DESENVOLVIMENTO E IMPLANTAÇÃO DO SISTEMA DE GESTÃO E FOMENTO DE ASSISTENCIA TECNICA, EXTENÇÃO RURAL E FLORESTAL, DESTE IDAM"
+    },
+    {
+      "numero": "2018NE00050",
+      "contrato": "4/2015",
+      "valor": 49697.78,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2018",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS"
+    },
+    {
+      "numero": "2017NE00054",
+      "contrato": "4/2015",
+      "valor": 13553.94,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2017",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE"
+    },
+    {
+      "numero": "2017NE00055",
+      "contrato": "3/2015",
+      "valor": 5802.84,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2017",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS"
+    },
+    {
+      "numero": "2020NE01696",
+      "contrato": "",
+      "valor": 9565.71,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL QUE SE FAZ DA NE Nº 099/2020, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2020."
+    },
+    {
+      "numero": "2020NE01698",
+      "contrato": "",
+      "valor": 824.7,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2020",
+      "descricao": "ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 01382/2020, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2020."
+    },
+    {
+      "numero": "2020NE01697",
+      "contrato": "",
+      "valor": 9008.69,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL QUE SE FAZ DA NE Nº 00100/2020, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2020."
+    },
+    {
+      "numero": "2016NE01331",
+      "contrato": "",
+      "valor": 6000.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 066/2016 EMITIDA EM: 04/01/2016, EM VIRTUDE DO TERMINO DA VIGÊNCIA DO CONTRATO. Nº 017/2014 - IDAM"
+    },
+    {
+      "numero": "2016NE01332",
+      "contrato": "17/2014",
+      "valor": 3366.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO DO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2016NE01332",
+      "contrato": "17/2014",
+      "valor": 3366.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO DO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2016NE01331",
+      "contrato": "",
+      "valor": 6000.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 066/2016 EMITIDA EM: 04/01/2016, EM VIRTUDE DO TERMINO DA VIGÊNCIA DO CONTRATO. Nº 017/2014 - IDAM"
+    },
+    {
+      "numero": "2018NE00760",
+      "contrato": "",
+      "valor": 31288.16,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 754/2018 EMITIDA EM: 24/05/2018, EM VIRTUDE DO EQUIVOCO NO VALOR DO REFERIDO EMPENHO."
+    },
+    {
+      "numero": "2017NE00815",
+      "contrato": "13/2017",
+      "valor": 37800.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2017",
+      "descricao": "-OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET, COM LARGURA DE BANDA DEFINIDA DE 10.1 A 30 Mbps. PROJETO BÁSICO, PES Nº 0016/2017, RDL Nº 009/2017."
+    },
+    {
+      "numero": "2025NE0000431",
+      "contrato": "16/2018",
+      "valor": 2670.98,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "Conta cobrança no valor de R$ 2.670,98 (Dois mil, seiscentos e setenta reais e noventa e oito centavos) referente ao mês de Maio/2023, PRODAM - PROCESSAMENTO DE DADOS AMAZONAS."
+    },
+    {
+      "numero": "2025NE0001734",
+      "contrato": "",
+      "valor": 1.2,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2025",
+      "descricao": "Anulação do saldo da 2025NE00000805, em atendimento ao Decreto nº 52.770, de encerramento do Exercício/2025."
+    },
+    {
+      "numero": "2017NE01695",
+      "contrato": "",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 1424/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01697",
+      "contrato": "",
+      "valor": 1139.72,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 1469/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01693",
+      "contrato": "",
+      "valor": 3033.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 0815/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01692",
+      "contrato": "",
+      "valor": 145.05,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 055/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01689",
+      "contrato": "",
+      "valor": 333.99,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 006/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01688",
+      "contrato": "",
+      "valor": 4488.4,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 005/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01690",
+      "contrato": "",
+      "valor": 3222.89,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 007/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01691",
+      "contrato": "",
+      "valor": 39981.11,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 048/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01699",
+      "contrato": "",
+      "valor": 12600.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 1615/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01700",
+      "contrato": "",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 1621/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01694",
+      "contrato": "",
+      "valor": 6758.37,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 0957/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01698",
+      "contrato": "",
+      "valor": 1139.72,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 1609/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2017NE01696",
+      "contrato": "",
+      "valor": 529.46,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "-ANULAÇÃO DO SALDO TOTAL DA NOTA DE EMPENHO Nº 1446/2017, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2017."
+    },
+    {
+      "numero": "2022NE0003048",
+      "contrato": "16/2018",
+      "valor": 2670.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2022NE0003050",
+      "contrato": "",
+      "valor": 2670.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 3033/2022. PARA AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2016NE01680",
+      "contrato": "8/2012",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps"
+    },
+    {
+      "numero": "2016NE01679",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE PAGAMENTO"
+    },
+    {
+      "numero": "2016NE01678",
+      "contrato": "",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2016",
+      "descricao": "ANULAÇÃO TOTAL QUE SE FAZ DA NOTA DE EMPENHO DE Nº 1677/2016, EM VIRTUDE DE EQUIVOCO NO PROJETO DE ATIVIDADE DO REFERIDO EMPENHO"
+    },
+    {
+      "numero": "2016NE01677",
+      "contrato": "8/2012",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2017NE01469",
+      "contrato": "17/2014",
+      "valor": 1139.72,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2017",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2016NE00296",
+      "contrato": "4/2015",
+      "valor": 1405.92,
+      "situacao": "Ativo",
+      "data_emissao": "29/02/2016",
+      "descricao": "Custear despesas de exercício anterior com serviços de execução de sistemas Recursos Humanos e Folha - novembro. Contrato nº 004/2015"
+    },
+    {
+      "numero": "2016NE00295",
+      "contrato": "3/2015",
+      "valor": 1157.9,
+      "situacao": "Ativo",
+      "data_emissao": "29/02/2016",
+      "descricao": "Custear despesas de exercício anterior com serviços de execução de sistemas Controle de Protocolo - dezembro. Contrato nº 003/2015"
+    },
+    {
+      "numero": "2016NE00293",
+      "contrato": "4/2015",
+      "valor": 2572.23,
+      "situacao": "Ativo",
+      "data_emissao": "29/02/2016",
+      "descricao": "Custear despesas de exercício anterior com serviços de execução de sistemas Recursos Humanos e Folha - dezembro. Contrato nº 004/2015"
+    },
+    {
+      "numero": "2016NE00292",
+      "contrato": "3/2015",
+      "valor": 1165.85,
+      "situacao": "Ativo",
+      "data_emissao": "29/02/2016",
+      "descricao": "Custear despesas de exercício anterior com serviços de execução de sistemas Controle de Protocolo. Contrato nº 003/2015"
+    },
+    {
+      "numero": "2019NE00072",
+      "contrato": "4/2015",
+      "valor": 9911.54,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE PAGAMENTO."
+    },
+    {
+      "numero": "2023NE0002104",
+      "contrato": "",
+      "valor": 116.91,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2023",
+      "descricao": "Anulação do saldo 2023NE0000016 em atendimento ao Decreto nº 48.363 de 27.10.2023, de encerramento de Exercício Financeiro e Contábil do ano de 2023."
+    },
+    {
+      "numero": "2018NE01850",
+      "contrato": "",
+      "valor": 64.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 1600/2018, PARA AJUSTE ORÇAMENTÁRIO 2018 E EM CUMPRIMENTO AO ART 42 DA LRF."
+    },
+    {
+      "numero": "2018NE01864",
+      "contrato": "",
+      "valor": 5523.44,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0338/2018, PARA AJUSTE ORÇAMENTÁRIO E EM CUMPRIMENTO AO ART. 42 DA LRF."
+    },
+    {
+      "numero": "2018NE01870",
+      "contrato": "",
+      "valor": 15579.88,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01846",
+      "contrato": "",
+      "valor": 30422.34,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "-ANULAÇÃO PARCIAL QUE SE FAZ DA NE Nº 338/2018, PARA AJUSTE ORÇAMENTÁRIO 2018 E EM CUMPRIMENTO AO ART 42 DA LRF."
+    },
+    {
+      "numero": "2018NE01847",
+      "contrato": "",
+      "valor": 10138.06,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "-ANULAÇÃO PARCIAL QUE SE FAZ DA NE Nº 339/2018, PARA AJUSTE ORÇAMENTÁRIO 2018 E EM CUMPRIMENTO AO ART 42 DA LRF."
+    },
+    {
+      "numero": "2018NE01848",
+      "contrato": "",
+      "valor": 128.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 1121/2018, PARA AJUSTE ORÇAMENTÁRIO 2018 E EM CUMPRIMENTO AO ART 42 DA LRF."
+    },
+    {
+      "numero": "2018NE01865",
+      "contrato": "",
+      "valor": 1895.08,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0339/2018, PARA AJUSTE ORÇAMENTÁRIO E EM CUMPRIMENTO AO ART. 42 DA LRF."
+    },
+    {
+      "numero": "2018NE01849",
+      "contrato": "",
+      "valor": 64.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "-ANULAÇÃO PARCIAL QUE SE FAZ DA NE Nº 1317/2018, PARA AJUSTE ORÇAMENTÁRIO 2018 E EM CUMPRIMENTO AO ART 42 DA LRF."
+    },
+    {
+      "numero": "2015NE01631",
+      "contrato": "",
+      "valor": 66.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2015",
+      "descricao": "ANULAÇÃO TOTAL QUE SE FAZ DO EMPENHO DE Nº 1603, POR EQUIVOCO NO NOME DO CREDOR."
+    },
+    {
+      "numero": "2025NE0000288",
+      "contrato": "16/2018",
+      "valor": 2670.98,
+      "situacao": "Ativo",
+      "data_emissao": "28/03/2025",
+      "descricao": "Conta cobrança no valor de R$ 2.670,98 (Dois mil, seiscentos e setenta reais e noventa e oito centavos) referente ao mês de Setembro/2023, contrato: 16/2018, contratada: PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A."
+    },
+    {
+      "numero": "2014NE00080",
+      "contrato": "3/2010",
+      "valor": 17424.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2014",
+      "descricao": "Contrato No. 3/2010 - Cessão de uso do Sistema SPROWeb"
+    },
+    {
+      "numero": "2022NE0003187",
+      "contrato": "",
+      "valor": 4516.1,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2022",
+      "descricao": "ANULAÇÃO EM VIRTUDE DO ENCERRAMENTO DO EXERCICIO DE 2022."
+    },
+    {
+      "numero": "2022NE0003188",
+      "contrato": "",
+      "valor": 10838.55,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2022",
+      "descricao": "ANULAÇÃO EM VIRTUDE DO ENCERRAMENTO DO EXERCICIO DE 2022."
+    },
+    {
+      "numero": "2022NE0003203",
+      "contrato": "",
+      "valor": 3358.51,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL EM VIRTUDE DO ENCERRAMENTO DO EXERCICIO DE 2022."
+    },
+    {
+      "numero": "2015NE01826",
+      "contrato": "8/2012",
+      "valor": 12676.42,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2015",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 008/2012, FIRMADO ENTRE O ESTE IDAM E A EMPRESA PRODAM PROCESSAMENTO DE DADOS DO AMAZONAS S.A."
+    },
+    {
+      "numero": "2015NE01828",
+      "contrato": "14/2013",
+      "valor": 18558.9,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2015",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 014/2013, FIRMADO ENTRE O ESTE IDAM E A EMPRESA PRODAM PROCESSAMENTO DE DADOS DO AMAZONAS S.A."
+    },
+    {
+      "numero": "2017NE01446",
+      "contrato": "3/2015",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2017",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb)"
+    },
+    {
+      "numero": "2017NE01415",
+      "contrato": "13/2017",
+      "valor": 12600.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2017",
+      "descricao": "-REFERENTE A UM TERMO DE CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET, COM LARGURA DE BANDA DEFINIDA DE"
+    },
+    {
+      "numero": "2017NE01424",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2017",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE"
+    },
+    {
+      "numero": "2022NE0001282",
+      "contrato": "13/2017",
+      "valor": 53630.25,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2019NE00424",
+      "contrato": "13/2017",
+      "valor": 16937.82,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2019",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2025NE0000151",
+      "contrato": "5/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema de protocolo web visando atender às necessidades do IDAM central."
+    },
+    {
+      "numero": "2024NE0000137",
+      "contrato": "7/2020",
+      "valor": 18953.73,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000136",
+      "contrato": "8/2020",
+      "valor": 3710.22,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000135",
+      "contrato": "",
+      "valor": 3710.22,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "Correção da modalidade do Empenho."
+    },
+    {
+      "numero": "2024NE0000134",
+      "contrato": "8/2020",
+      "valor": 3710.22,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 04."
+    },
+    {
+      "numero": "2022NE0000058",
+      "contrato": "",
+      "valor": 71507.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2022",
+      "descricao": "-ANULAÇÃO QUE SE FAZ DA NE Nº 57 EM VIRTUDE DO EQUIVOCO DA DATA"
+    },
+    {
+      "numero": "2022NE0000057",
+      "contrato": "13/2017",
+      "valor": 71507.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2019NE01571",
+      "contrato": "",
+      "valor": 321.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DA NE Nº 029, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO 2019."
+    },
+    {
+      "numero": "2018NE01317",
+      "contrato": "13/2017",
+      "valor": 15644.08,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2018",
+      "descricao": "-REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A;"
+    },
+    {
+      "numero": "2016NE01283",
+      "contrato": "",
+      "valor": 119765.85,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 070/2016 EMITIDA EM: 04/01/2016, EM VIRTUDE DA TROCA DE FONTE DE RECURSO."
+    },
+    {
+      "numero": "2018NE00316",
+      "contrato": "",
+      "valor": 39921.95,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº0054 DO CONTRATO Nº 023/2015 EM VIRTUDE DA ORIENTAÇÃO DA SEFAZ PARA A TROCA DE NATUREZA DE DESPESA"
+    },
+    {
+      "numero": "2018NE00315",
+      "contrato": "",
+      "valor": 49697.78,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº0050 DO CONTRATO Nº 003/2015 EM VIRTUDE DA ORIENTAÇÃO DA SEFAZ PARA A TROCA DE NATUREZA DE DESPESA"
+    },
+    {
+      "numero": "2018NE00312",
+      "contrato": "",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0036 DO CONTRATO Nº 003/2015 FIRMADO ENTRE O IDAM E A PRODAM."
+    },
+    {
+      "numero": "2018NE00314",
+      "contrato": "",
+      "valor": 21277.08,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº0049 DO CONTRATO Nº 003/2015 FIRMADO ENTRE O IDAM E A PRODAM."
+    },
+    {
+      "numero": "2018NE00313",
+      "contrato": "",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0037 DO CONTRATO Nº 004/2015 FIRMADO ENTRE O IDAM E A PRODAM."
+    },
+    {
+      "numero": "2018NE00311",
+      "contrato": "",
+      "valor": 10257.48,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0035 DO CONTRATO Nº 017/2014 FIRMADO ENTRE O IDAM E A PRODAM."
+    },
+    {
+      "numero": "2016NE00290",
+      "contrato": "",
+      "valor": 28060.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NOTA DE EMPENHO DE Nº 279/2016, EM VIRTUDE DO EQUIVOCO NO CRONOGRAMA DO REFERIDO EMPENHO."
+    },
+    {
+      "numero": "2016NE00291",
+      "contrato": "8/2012",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2016NE00279",
+      "contrato": "8/2012",
+      "valor": 28060.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2022NE0000042",
+      "contrato": "",
+      "valor": 71507.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2022",
+      "descricao": "-EQUIVOCO EM VIRTUDE DA DATA"
+    },
+    {
+      "numero": "2022NE0000041",
+      "contrato": "13/2017",
+      "valor": 71507.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2015NE00082",
+      "contrato": "4/2015",
+      "valor": 16360.23,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2015",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NOTA DE EMPENHO Nº 67 EMITIDA EM 05/01/2015."
+    },
+    {
+      "numero": "2015NE00079",
+      "contrato": "3/2015",
+      "valor": 3280.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2015",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NOTA DE EMPENHO Nº 68 EMITIDA EM 05/01/2015, POR EQUIVOCO NA DATA DE EMISSAO."
+    },
+    {
+      "numero": "2015NE00083",
+      "contrato": "4/2015",
+      "valor": 7324.35,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2015",
+      "descricao": "cobertura janeiro 2015"
+    },
+    {
+      "numero": "2015NE00080",
+      "contrato": "3/2015",
+      "valor": 3280.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2015",
+      "descricao": "cobertura fevereiro e março 2015"
+    },
+    {
+      "numero": "2015NE00084",
+      "contrato": "4/2015",
+      "valor": 9035.88,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2015",
+      "descricao": "PRODAM-RH"
+    },
+    {
+      "numero": "2022NE0003033",
+      "contrato": "16/2018",
+      "valor": 2670.98,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2015NE01603",
+      "contrato": "",
+      "valor": 66.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/09/2015",
+      "descricao": "DIÁRIAS."
+    },
+    {
+      "numero": "2016NE00716",
+      "contrato": "8/2012",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2MBPS VIGÊNCIA: 22/03/2016 A 21/03/2017"
+    },
+    {
+      "numero": "2022NE0002979",
+      "contrato": "7/2020",
+      "valor": 7511.86,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2022",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2022NE0002977",
+      "contrato": "8/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2022",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2022NE0002978",
+      "contrato": "13/2017",
+      "valor": 17876.75,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2022NE0002181",
+      "contrato": "7/2020",
+      "valor": 15023.72,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2022",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2022NE0002182",
+      "contrato": "8/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2022",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2022NE0002185",
+      "contrato": "16/2018",
+      "valor": 4919.38,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2022",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2022NE0002183",
+      "contrato": "13/2017",
+      "valor": 35753.5,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2025NE0000805",
+      "contrato": "11/2023",
+      "valor": 25379.97,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE00805",
+      "contrato": "11/2023",
+      "valor": 25379.97,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2025",
+      "descricao": "SERVIÇOS DE ACESSO À INTERNET E TRANSMISSÃO DE DADOS REFERENTE AO 2º TA AO CONTRATO 011/2023."
+    },
+    {
+      "numero": "2025NE0000806",
+      "contrato": "5/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema de protocolo web visando atender às necessidades do IDAM central."
+    },
+    {
+      "numero": "2025NE0000804",
+      "contrato": "11/2023",
+      "valor": 24097.98,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000807",
+      "contrato": "6/2025",
+      "valor": 17149.2,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução e manutenção de sistema de Recursos Humanos (RH), para atender as necessidades do IDAM, pelo período de 12 (doze) meses"
+    },
+    {
+      "numero": "2025NE0000808",
+      "contrato": "1/2024",
+      "valor": 5665.78,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website. TC: 0001/2024 AD: 01."
+    },
+    {
+      "numero": "2024NE0000787",
+      "contrato": "7/2020",
+      "valor": 6317.91,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2024",
+      "descricao": "Conta cobrança no valor de R$ 6.317,91 (Seis mil, trezentos e dezessete reais e noventa e um centavos) referente ao mês de Dezembro/2023, contrato: 007/2020, contratada: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A."
+    },
+    {
+      "numero": "2024NE0000827",
+      "contrato": "7/2020",
+      "valor": 4479.79,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2024",
+      "descricao": "Conta cobrança no valor de R$ 4.479,79 (Quatro mil, quatrocentos e setenta e nove reais e setenta e nove centavos) referente ao mês de Outubro/2023, contrato: 007/2020, contratada: PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A."
+    },
+    {
+      "numero": "2024NE0000826",
+      "contrato": "7/2020",
+      "valor": 4448.62,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2024",
+      "descricao": "Despesa com cobertura contratual - Serviço de folha de pagamento, referente ao mês 09/2023 - Contrato 7/2020 AD 3, vigência 03/03/2023 a 02/03/2024."
+    },
+    {
+      "numero": "2024NE0000828",
+      "contrato": "7/2020",
+      "valor": 4472.36,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2024",
+      "descricao": "Conta cobrança no valor de R$ 4.472,36 (Quatro mil quatrocentos e setenta e dois reais e trinta e seis centavos) referente ao mês de Novembro/2023, contrato: 007/2020, contratada: PRODAM - PROCESSAMENTO DE DADO AMAZONAS S.A."
+    },
+    {
+      "numero": "2019NE00417",
+      "contrato": "",
+      "valor": 3171.62,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2019",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DO EMPENHO Nº 009/2019, EM VIRTUDE DE UM NOVO TERMO ADITIVO FIRMADO."
+    },
+    {
+      "numero": "2019NE00418",
+      "contrato": "",
+      "valor": 795.22,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2019",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DO EMPENHO Nº 030/2019, EM VIRTUDE DE UM NOVO TERMO ADITIVO FIRMADO."
+    },
+    {
+      "numero": "2018NE00756",
+      "contrato": "",
+      "valor": 40215.84,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2018",
+      "descricao": "-REFERENTE A UM TERMO DE CONTRATO A SER FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: AQUISIÇAO DE SERVIÇOS DE SISTEMAS DE GESTÃO, COMPREENDENDO O DESENVOLVIMENTO E IMPLANTAÇÃO DO SISTEMA DE GESTÃO E FOMENTO DE ASSISTENCIA TECNICA, EXTENÇÃO RURAL E FLORESTAL, DESTE INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM"
+    },
+    {
+      "numero": "2018NE00754",
+      "contrato": "13/2017",
+      "valor": 31288.16,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2018",
+      "descricao": "-REFERENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET, COM LARGURA DE BAND"
+    },
+    {
+      "numero": "2016NE01782",
+      "contrato": "14/2013",
+      "valor": 6120.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2016",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2016NE01783",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE"
+    },
+    {
+      "numero": "2015NE01593",
+      "contrato": "14/2013",
+      "valor": 6186.3,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE01596",
+      "contrato": "17/2014",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2015",
+      "descricao": "-REFERENTE À PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A."
+    },
+    {
+      "numero": "2015NE01597",
+      "contrato": "17/2014",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2015",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NOTA DE EMPENHO Nº 1596 EMITIDA EM 23/09/2015, POR EQUIVOCO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2015NE01598",
+      "contrato": "17/2014",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE01591",
+      "contrato": "17/2014",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2015",
+      "descricao": "-ANULAÇÃO QUE SE FAZ DA NOTA DE EMPENHO Nº 27/2015, POR MOTIVO DO TERMINO DA VIGENCIA DO REFERIDO CONTRATO."
+    },
+    {
+      "numero": "2016NE00859",
+      "contrato": "8/2012",
+      "valor": 14030.26,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2018NE00430",
+      "contrato": "13/2017",
+      "valor": 9132.24,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2018",
+      "descricao": "-REFERENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET."
+    },
+    {
+      "numero": "2016NE01774",
+      "contrato": "",
+      "valor": 3366.3,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2016",
+      "descricao": "-ANULAÇÃO QUE SE FAZ DO SALDO DA NOTA DE EMPENHO Nº 1332/2016, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2016NE01775",
+      "contrato": "14/2013",
+      "valor": 1632.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2016",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2015NE02347",
+      "contrato": "",
+      "valor": 1535.31,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE02341",
+      "contrato": "",
+      "valor": 84.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE02346",
+      "contrato": "",
+      "valor": 8232.35,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE02353",
+      "contrato": "",
+      "valor": 4542.64,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE02342",
+      "contrato": "",
+      "valor": 6000.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE02348",
+      "contrato": "",
+      "valor": 38568.09,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE02344",
+      "contrato": "",
+      "valor": 1651.87,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE02354",
+      "contrato": "",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2024NE0001503",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2024",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0001504",
+      "contrato": "7/2020",
+      "valor": 12635.82,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2024",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0001502",
+      "contrato": "1/2024",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2024NE0001501",
+      "contrato": "11/2023",
+      "valor": 48195.96,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2018NE00286",
+      "contrato": "",
+      "valor": 63000.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0032 EMITIDA EM 02/01/2018 EM VIRTUDE DA ORIENTAÇÃO DA SEFAZ EM RELAÇÃO A MUDANÇA DE NATUREZA DE DESPESA"
+    },
+    {
+      "numero": "2024NE0000014",
+      "contrato": "11/2023",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM"
+    },
+    {
+      "numero": "2024NE0000017",
+      "contrato": "",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2024",
+      "descricao": "ANULAÇÃO DA 2024NE0000014 para correção da descrição"
+    },
+    {
+      "numero": "2019NE00069",
+      "contrato": "3/2015",
+      "valor": 4286.36,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2019",
+      "descricao": "Contratação de empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWEB) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2016NE00097",
+      "contrato": "4/2015",
+      "valor": 22589.9,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO."
+    },
+    {
+      "numero": "2016NE00098",
+      "contrato": "3/2015",
+      "valor": 9027.75,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSO"
+    },
+    {
+      "numero": "2015NE01781",
+      "contrato": "23/2015",
+      "valor": 119765.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2015",
+      "descricao": "-REFERENTE A UM TERMO DE CONTRATO A SER FIRMADO ENTRE ESTE IDAM E A EMPRESA PRODAM S.A, OBJETIVANDO A AQUISIÇÃO DOS SERVIÇOS DE SISTEMA DE GESTÃO E FOMENTO DE ATER."
+    },
+    {
+      "numero": "2015NE01780",
+      "contrato": "",
+      "valor": 119765.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2015",
+      "descricao": "ANULAÇÃO TOTAL QUE SE FAZ DA NOTA DE EMPENHO DE Nº 1779/2015, EM VIRTUDE DO EQUIVOCO NA MODALIDADE DO REFERINDO EMPENHO."
+    },
+    {
+      "numero": "2015NE01779",
+      "contrato": "23/2015",
+      "valor": 119765.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2015",
+      "descricao": "-REFERENTE A UM TERMO DE CONTRATO A SER FIRMADO ENTRE ESTE IDAM E A EMPRESA PRODAM S.A, OBJETIVANDO A AQUISIÇÃO DOS SERVIÇOS DE SISTEMA DE GESTÃO E FOMENTO DE ATER."
+    },
+    {
+      "numero": "2024NE0000764",
+      "contrato": "11/2023",
+      "valor": 24097.98,
+      "situacao": "Ativo",
+      "data_emissao": "21/06/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2018NE00811",
+      "contrato": "23/2015",
+      "valor": 79843.1,
+      "situacao": "Ativo",
+      "data_emissao": "21/06/2018",
+      "descricao": "-REFERENTE AO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 023/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: AQUISIÇAO DE SERVIÇOS DE SISTEMAS DE GESTÃO, COMPREENDENDO O DESENVOLVIMENTO E IMPLANTAÇÃO DO SISTEMA DE GESTÃO E FOMENTO DE ASSISTENCIA TECNICA, EXTENÇÃO RURAL E FLORESTAL, DESTE INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUST."
+    },
+    {
+      "numero": "2017NE00115",
+      "contrato": "3/2015",
+      "valor": 873.3,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2017",
+      "descricao": "-RECONHECIMENTO DA DÍVIDA - RD N.º 0053/2017 E PARECER INSPETORIAL SETORIAL EMITIDA EM: 02/02/2017, CONSTANTE NO PROCESSO N.º 0191/2017. -CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE. - NOTA FISCAL Nº 021676 EMITIDA EM 25/01/2017, REFERENTE AO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE N"
+    },
+    {
+      "numero": "2017NE00113",
+      "contrato": "",
+      "valor": 873.3,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2017",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE DA NE Nº 111/2017, EM VIRTUDE DO EQUIVOCO NA NATUREZA DE DESPESA."
+    },
+    {
+      "numero": "2017NE00111",
+      "contrato": "3/2015",
+      "valor": 873.3,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2017",
+      "descricao": "-RECONHECIMENTO DA DÍVIDA - RD N.º 0053/2017 E PARECER INSPETORIAL SETORIAL EMITIDA EM: 02/02/2017, CONSTANTE NO PROCESSO N.º 0191/2017. -CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE. - NOTA FISCAL Nº 021676 EMITIDA EM 25/01/2017, REFERENTE AO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE"
+    },
+    {
+      "numero": "2016NE01772",
+      "contrato": "8/2012",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps"
+    },
+    {
+      "numero": "2020NE00419",
+      "contrato": "13/2017",
+      "valor": 16937.82,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2020NE00415",
+      "contrato": "",
+      "valor": 3439.24,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "Anulação total que se faz da NE nº 007/2020, em virtude do termino do Contrato nº 004/2015."
+    },
+    {
+      "numero": "2020NE00417",
+      "contrato": "",
+      "valor": 12376.4,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "Anulação parcial da NE nº 100/2020, para ser utilizado na complementação orçamentária da Renovação do Termo de contrato nº 13/2017, por mais doze meses."
+    },
+    {
+      "numero": "2020NE00418",
+      "contrato": "",
+      "valor": 15.61,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "Anulação parcial da NE nº 099/2020, para ser utilizado na complementação orçamentária da Renovação do Termo de contrato nº 13/2017, por mais doze meses."
+    },
+    {
+      "numero": "2020NE00416",
+      "contrato": "",
+      "valor": 1106.57,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "Anulação total que se faz da NE nº 008/2020, em virtude do termino do Contrato nº 003/2015."
+    },
+    {
+      "numero": "2026NE0000098",
+      "contrato": "6/2025",
+      "valor": 17879.76,
+      "situacao": "Ativo",
+      "data_emissao": "20/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução e manutenção de sistema de Recursos Humanos (RH), para atender as necessidades do IDAM, pelo período de 12 (doze) meses TC: 0006/2025 AD: 01."
+    },
+    {
+      "numero": "2024NE0001786",
+      "contrato": "",
+      "valor": 3044.29,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2024",
+      "descricao": "Anulação do Saldo da 2024NE0001504, em atendimento ao Decreto nº 50.522/2024 datado de 22.10.2024, de Encerramento da Execução Orçamentária, Financeira e Contábil do Exercício 2024."
+    },
+    {
+      "numero": "2024NE0001783",
+      "contrato": "",
+      "valor": 24097.98,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2024",
+      "descricao": "Anulação do Saldo da 2024NE0001501, em atendimento ao Decreto nº 50.522/2024 datado de 22.10.2024, de Encerramento da Execução Orçamentária, Financeira e Contábil do Exercício 2024."
+    },
+    {
+      "numero": "2024NE0001782",
+      "contrato": "",
+      "valor": 3362.46,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2024",
+      "descricao": "Anulação do Saldo da 2024NE0000013, em atendimento ao Decreto nº 50.522/2024 datado de 22.10.2024, de Encerramento da Execução Orçamentária, Financeira e Contábil do Exercício 2024."
+    },
+    {
+      "numero": "2024NE0001784",
+      "contrato": "",
+      "valor": 1236.74,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2024",
+      "descricao": "Anulação do Saldo da 2024NE0001503, em atendimento ao Decreto nº 50.522/2024 datado de 22.10.2024, de Encerramento da Execução Orçamentária, Financeira e Contábil do Exercício 2024."
+    },
+    {
+      "numero": "2016NE01769",
+      "contrato": "",
+      "valor": 0.1,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2016",
+      "descricao": "-ANULAÇÃO DO SALDO DA NOTA DE EMPENHO N.º 0296/2016, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2021NE0002037",
+      "contrato": "16/2018",
+      "valor": 2459.69,
+      "situacao": "Ativo",
+      "data_emissao": "19/10/2021",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2015NE00357",
+      "contrato": "8/2012",
+      "valor": 6338.21,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2015",
+      "descricao": "Cobertura Financeira março/2015"
+    },
+    {
+      "numero": "2020NE00099",
+      "contrato": "8/2020",
+      "valor": 21431.8,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2020NE00100",
+      "contrato": "7/2020",
+      "valor": 49557.7,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2015NE00185",
+      "contrato": "",
+      "valor": 1351.86,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00187",
+      "contrato": "",
+      "valor": 6157.18,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00184",
+      "contrato": "",
+      "valor": 1414.26,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00189",
+      "contrato": "",
+      "valor": 6157.18,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00190",
+      "contrato": "",
+      "valor": 1445.36,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00173",
+      "contrato": "",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00192",
+      "contrato": "",
+      "valor": 6194.51,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00174",
+      "contrato": "",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00188",
+      "contrato": "",
+      "valor": 6157.18,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00193",
+      "contrato": "",
+      "valor": 6194.51,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00186",
+      "contrato": "",
+      "valor": 2587.79,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00172",
+      "contrato": "",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2015NE00191",
+      "contrato": "",
+      "valor": 6194.51,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2015",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES."
+    },
+    {
+      "numero": "2024NE0000002",
+      "contrato": "7/2020",
+      "valor": 15910.12,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2024",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0000008",
+      "contrato": "11/2023",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM"
+    },
+    {
+      "numero": "2024NE0000009",
+      "contrato": "",
+      "valor": 15910.12,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2024",
+      "descricao": "Anulação da 2024NE0000002, para correção da Descrição"
+    },
+    {
+      "numero": "2024NE0000012",
+      "contrato": "",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2024",
+      "descricao": "Anulação da 2024NE0000008, para correção da Descrição"
+    },
+    {
+      "numero": "2022NE0002857",
+      "contrato": "13/2017",
+      "valor": 17876.75,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2022NE0002856",
+      "contrato": "8/2020",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2022",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2022NE0002855",
+      "contrato": "7/2020",
+      "valor": 7511.86,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2022",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2022NE0002858",
+      "contrato": "16/2018",
+      "valor": 2459.69,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2022",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2020NE01382",
+      "contrato": "16/2018",
+      "valor": 1875.91,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2020",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2019NE01266",
+      "contrato": "16/2018",
+      "valor": 1659.8,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2019",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2021NE0001331",
+      "contrato": "13/2017",
+      "valor": 71507.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2021",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2021NE0001341",
+      "contrato": "7/2020",
+      "valor": 24683.72,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2021",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2021NE0001342",
+      "contrato": "8/2020",
+      "valor": 10674.76,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2021",
+      "descricao": "Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2014NE01388",
+      "contrato": "14/2013",
+      "valor": 24778.04,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2014",
+      "descricao": "Contrato No. 14/2013 - Serviços de Rede"
+    },
+    {
+      "numero": "2024NE0000945",
+      "contrato": "11/2023",
+      "valor": 48195.96,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2022NE0000853",
+      "contrato": "13/2017",
+      "valor": 17876.75,
+      "situacao": "Ativo",
+      "data_emissao": "18/04/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2022NE0000850",
+      "contrato": "7/2020",
+      "valor": 30047.44,
+      "situacao": "Ativo",
+      "data_emissao": "18/04/2022",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2022NE0000854",
+      "contrato": "16/2018",
+      "valor": 9838.76,
+      "situacao": "Ativo",
+      "data_emissao": "18/04/2022",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2022NE0000851",
+      "contrato": "8/2020",
+      "valor": 4671.36,
+      "situacao": "Ativo",
+      "data_emissao": "18/04/2022",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2020NE00534",
+      "contrato": "7/2020",
+      "valor": 1627.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2020",
+      "descricao": "VIRTUDE DO SERVIÇO DE EXECUÇÃO DO SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO POR CONTRA CHEQUE GERADO EM MÍDIA ELETRÔNICA, ESTÁ SEM COBERTURA CONTRATUAL NO PERÍODO DE 01 A 28 DE FEVEREIRO DE 2020. NF Nº 13436 EMITIDA EM 28/02/2020."
+    },
+    {
+      "numero": "2020NE00535",
+      "contrato": "8/2020",
+      "valor": 1224.31,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2020",
+      "descricao": "EM VIRTUDE DO SERVIÇO DE EXECUÇÃO DO SISTEMA DE PROTOCOLO WEB ESTÁ SEM COBERTURA CONTRATUAL NO PERÍODO DE 01 A 28 DE FEVEREIRO DE 2020. NF Nº 13472 EMITIDA EM 28/02/2020, PARECER DE Nº 056/2020 - PJ/IDAM EMITIDO EM: 12/03/2020"
+    },
+    {
+      "numero": "2016NE01755",
+      "contrato": "",
+      "valor": 628.99,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "-ANULAÇÃO DO SALDO DA NOTA DE EMPENHO N.º 001343/2016, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2016NE01753",
+      "contrato": "",
+      "valor": 573.43,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "-ANULAÇÃO DO SALDO DA NOTA DE EMPENHO N.º 0098/2016, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2016NE01754",
+      "contrato": "",
+      "valor": 1583.38,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "-ANULAÇÃO DO SALDO DA NOTA DE EMPENHO N.º 001236/2016, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2016NE01752",
+      "contrato": "",
+      "valor": 925.47,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "-ANULAÇÃO DO SALDO DA NOTA DE EMPENHO N.º 0097/2016, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2016NE01756",
+      "contrato": "",
+      "valor": 932.25,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "-ANULAÇÃO DO SALDO DA NOTA DE EMPENHO N.º 001590/2016, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2025NE0001314",
+      "contrato": "",
+      "valor": 1726.11,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "PARA ANULAÇÃO PARCIAL DO EMPENHO 2/2025."
+    },
+    {
+      "numero": "2025NE0001315",
+      "contrato": "",
+      "valor": 2670.98,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "PARA ANULAÇÃO PARCIAL DO EMPENHO 288/2025."
+    },
+    {
+      "numero": "2025NE0001316",
+      "contrato": "",
+      "valor": 17900.93,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "PARA ANULAÇÃO PARCIAL DO EMPENHO 312/2025."
+    },
+    {
+      "numero": "2025NE0001317",
+      "contrato": "",
+      "valor": 2670.98,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "PARA ANULAÇÃO PARCIAL DO EMPENHO 431/2025."
+    },
+    {
+      "numero": "2024NE0001247",
+      "contrato": "11/2023",
+      "valor": 48195.96,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0001246",
+      "contrato": "7/2020",
+      "valor": 12635.82,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2024",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0001245",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2024",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 04."
+    },
+    {
+      "numero": "2016NE01235",
+      "contrato": "",
+      "valor": 5830.67,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE DA NE Nº 063/2016 EMITIDA EM: 04/01/2016, EM VIRTUDE DO TERMINO DA VIGÊNCIA DO CONTRATO ADITIVO."
+    },
+    {
+      "numero": "2016NE01236",
+      "contrato": "14/2013",
+      "valor": 6120.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2016",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2016NE01234",
+      "contrato": "",
+      "valor": 1100.84,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE DA NE Nº 083/2016 EMITIDA EM: 04/01/2016, EM VIRTUDE DO TERMINO DA VIGÊNCIA DO CONTRATO ADITIVO."
+    },
+    {
+      "numero": "2017NE01615",
+      "contrato": "13/2017",
+      "valor": 12600.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "-REFERENTE A UM TERMO DE CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET, COM LARGURA DE BANDA DEFINIDA"
+    },
+    {
+      "numero": "2017NE01609",
+      "contrato": "17/2014",
+      "valor": 1139.72,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2017NE01621",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "Contratação de serviço de execução de sistemas PRODAM - RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. Vig. 03/02/2017 a 02/02/2018"
+    },
+    {
+      "numero": "2017NE01623",
+      "contrato": "3/2015",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE."
+    },
+    {
+      "numero": "2020NE00804",
+      "contrato": "13/2017",
+      "valor": 84689.1,
+      "situacao": "Ativo",
+      "data_emissao": "14/08/2020",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2016NE01012",
+      "contrato": "14/2013",
+      "valor": 12372.6,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2016",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2016NE01011",
+      "contrato": "8/2012",
+      "valor": 21045.39,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2021NE0000603",
+      "contrato": "13/2017",
+      "valor": 53630.25,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2021",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2015NE00616",
+      "contrato": "14/2013",
+      "valor": 30972.55,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00615",
+      "contrato": "8/2012",
+      "valor": 44367.47,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00611",
+      "contrato": "4/2015",
+      "valor": 40661.82,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2015",
+      "descricao": "-COMPLEMENTAÇÃO QUE SE FAZ DA NOTA DE EMPENHO Nº 84/2015, REFERENTE A DISPÊNDIO MENSAL DE PARTE DE UM TERMO DE CONTRATO A SER FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2015NE00614",
+      "contrato": "17/2014",
+      "valor": 6000.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00612",
+      "contrato": "3/2015",
+      "valor": 14760.63,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2015",
+      "descricao": "COMPLEMENTAÇÃO QUE SE FAZ DO EMPENHO Nº 8/2015, REFERENTE A PARTE DE UM TERMO DE CONTRATO A SER FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A;"
+    },
+    {
+      "numero": "2020NE01355",
+      "contrato": "",
+      "valor": 1377.61,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2020",
+      "descricao": "PARA ATENDER O 2 ADITIVO DO CONTRATO N. 016/2018 - MANUTENÇÃO DO SITE."
+    },
+    {
+      "numero": "2018NE01600",
+      "contrato": "13/2017",
+      "valor": 15644.08,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2018",
+      "descricao": "-REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A;"
+    },
+    {
+      "numero": "2020NE00640",
+      "contrato": "13/2017",
+      "valor": 16937.82,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2020",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2017NE00956",
+      "contrato": "3/2015",
+      "valor": 5802.84,
+      "situacao": "Ativo",
+      "data_emissao": "12/06/2017",
+      "descricao": "Contratação de empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWeb) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2017NE00957",
+      "contrato": "4/2015",
+      "valor": 13553.94,
+      "situacao": "Ativo",
+      "data_emissao": "12/06/2017",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE PAGAMENTO."
+    },
+    {
+      "numero": "2017NE00350",
+      "contrato": "8/2012",
+      "valor": 4910.59,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2017",
+      "descricao": "-PROCESSO INDENIZATÓRIO EM FAVOR DA EMPRESA: PROCESSAMENTO DE DADOS AMAZONAS S/A PRODAM, NO VALOR DE R$ 4.910,59 ( QUATRO MIL, NOVECENTOS E DEZ REAIS E CINQUENTA E NOVE CENTAVOS), REFERENTE A NOTA FISCAL Nº 22225 EMITIDA EM: 15/03/2017, MÊS: MARÇO/2017, CONTRATO Nº 008/2012, PARECER JURIDICO Nº 039/2017 EMITIDO EM: 29/03/2017, CONTANTE NO PROCESSO ADMINISTRATIVO Nº 573/2017 ¿ IDAM."
+    },
+    {
+      "numero": "2018NE01453",
+      "contrato": "",
+      "valor": 128.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/10/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0780/2018 EMITIDA EM: 04/06/2018. EM VIRTUDE DA VIGÊNCIA DO CONTRATO."
+    },
+    {
+      "numero": "2018NE01449",
+      "contrato": "",
+      "valor": 10257.48,
+      "situacao": "Ativo",
+      "data_emissao": "11/10/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0336/2018 EMITIDA EM: 01/03/2018. EM VIRTUDE DA VIGÊNCIA DO CONTRATO."
+    },
+    {
+      "numero": "2018NE01451",
+      "contrato": "",
+      "valor": 9132.24,
+      "situacao": "Ativo",
+      "data_emissao": "11/10/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0430/2018 EMITIDA EM: 23/03/2018. EM VIRTUDE DA VIGÊNCIA DO CONTRATO."
+    },
+    {
+      "numero": "2018NE01450",
+      "contrato": "",
+      "valor": 0.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/10/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 0340/2018 EMITIDA EM: 01/03/2018. EM VIRTUDE DA VIGÊNCIA DO CONTRATO."
+    },
+    {
+      "numero": "2024NE0001235",
+      "contrato": "1/2024",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2016NE01591",
+      "contrato": "14/2013",
+      "valor": 6120.0,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2016",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2016NE01590",
+      "contrato": "3/2015",
+      "valor": 1805.55,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE."
+    },
+    {
+      "numero": "2022NE0000190",
+      "contrato": "8/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2022",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2021NE0000078",
+      "contrato": "7/2020",
+      "valor": 12341.86,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2021",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2021NE0000077",
+      "contrato": "8/2020",
+      "valor": 5337.38,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2021",
+      "descricao": "Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2014NE00086",
+      "contrato": "8/2012",
+      "valor": 61571.8,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2014",
+      "descricao": "Contrato No. 8/2012 - Internet banda 2Mb e acesso computador (MetroMAO)"
+    },
+    {
+      "numero": "2016NE01588",
+      "contrato": "",
+      "valor": 473.84,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 00059 EM VIRTUDE DO TERMINO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2016NE01587",
+      "contrato": "",
+      "valor": 768.37,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2016",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 00059 EM VIRTUDE DO TERMINO DO EXERCÍCIO DE 2016."
+    },
+    {
+      "numero": "2018NE01121",
+      "contrato": "13/2017",
+      "valor": 31288.16,
+      "situacao": "Ativo",
+      "data_emissao": "09/08/2018",
+      "descricao": "-REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET."
+    },
+    {
+      "numero": "2025NE0000312",
+      "contrato": "P.68/2023",
+      "valor": 17900.93,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2025",
+      "descricao": "Conta cobrança no valor de R$ 17.900,93 (Dezessete mil novecentos reais e noventa e três centavos) referente ao mês de Junho2023, contratada: PRODAM - PROCESSAMENTO DE DADOS AMAZONAS."
+    },
+    {
+      "numero": "2025NE0001154",
+      "contrato": "5/2025",
+      "valor": 4123.26,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema de protocolo web visando atender às necessidades do IDAM central."
+    },
+    {
+      "numero": "2025NE0001155",
+      "contrato": "6/2025",
+      "valor": 25723.8,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução e manutenção de sistema de Recursos Humanos (RH), para atender as necessidades do IDAM, pelo período de 12 (doze) meses"
+    },
+    {
+      "numero": "2025NE0001156",
+      "contrato": "1/2024",
+      "valor": 8498.67,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website. TC: 0001/2024 AD: 01."
+    },
+    {
+      "numero": "2019NE00614",
+      "contrato": "13/2017",
+      "valor": 50813.46,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE ACESSO A INTERNET ESTABELECENDO CIRCUITO DE DADOS, DESTINADO A ATENDER AS NECESSIDADES DESTE ÓRGÃO. -VIGENCIA: 01/06/2019 A 31/05/2020 -VALOR GLOBAL R$: 203.253,84"
+    },
+    {
+      "numero": "2019NE00620",
+      "contrato": "3/2015",
+      "valor": 6429.54,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA, PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb)"
+    },
+    {
+      "numero": "2019NE00622",
+      "contrato": "16/2018",
+      "valor": 4744.08,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2019NE00618",
+      "contrato": "4/2015",
+      "valor": 14867.31,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE PAGAMENTO"
+    },
+    {
+      "numero": "2018NE00782",
+      "contrato": "",
+      "valor": 40215.84,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2018",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 756/2018 EMITIDO EM: 24/05/2018, EM VIRTUDE DO EQUIVOCO NO CONTRATO."
+    },
+    {
+      "numero": "2025NE0000445",
+      "contrato": "1/2024",
+      "valor": 2832.89,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website. TC: 0001/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000444",
+      "contrato": "6/2025",
+      "valor": 8574.6,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução e manutenção de sistema de Recursos Humanos (RH), para atender as necessidades do IDAM, pelo período de 12 (doze) meses"
+    },
+    {
+      "numero": "2025NE0000443",
+      "contrato": "5/2025",
+      "valor": 1374.42,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema de protocolo web visando atender às necessidades do IDAM central."
+    },
+    {
+      "numero": "2025NE0000442",
+      "contrato": "11/2023",
+      "valor": 24097.98,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000424",
+      "contrato": "11/2023",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM"
+    },
+    {
+      "numero": "2024NE0000445",
+      "contrato": "7/2020",
+      "valor": 12635.82,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2024",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000444",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2024",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000443",
+      "contrato": "1/2024",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2023NE0000728",
+      "contrato": "13/2017",
+      "valor": 17876.75,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2023",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada. TC: 013/2017 AD: 06."
+    },
+    {
+      "numero": "2018NE01785",
+      "contrato": "16/2018",
+      "valor": 1581.36,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "-SERVIÇOS DE DESENVOLVIMENTO, MANUTENÇÃO E SEGURANÇA NO SITE INSTITUCIONAL DO IDAM, COM O OBJETIVO DE MELHOR A COMUNICAÇÃO COM NOSSO PÚBLICO ALVO E OS EXTENSIONISTAS QUE ESTÃO NA PONTA REALIZANDO SUAS TAREFAS DIÁRIAS."
+    },
+    {
+      "numero": "2016NE01343",
+      "contrato": "3/2015",
+      "valor": 1805.55,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE."
+    },
+    {
+      "numero": "2016NE01343",
+      "contrato": "3/2015",
+      "valor": 1805.55,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE."
+    },
+    {
+      "numero": "2016NE01345",
+      "contrato": "14/2013",
+      "valor": 6120.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2016",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2016NE01344",
+      "contrato": "8/2012",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2016NE01344",
+      "contrato": "8/2012",
+      "valor": 7015.13,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2016",
+      "descricao": "-REFERENTE PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2016NE01345",
+      "contrato": "14/2013",
+      "valor": 6120.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2016",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2025NE0000168",
+      "contrato": "6/2025",
+      "valor": 17149.2,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução e manutenção de sistema de Recursos Humanos (RH), para atender as necessidades do IDAM, pelo período de 12 (doze) meses"
+    },
+    {
+      "numero": "2025NE0000165",
+      "contrato": "1/2024",
+      "valor": 5665.78,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website. TC: 0001/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000161",
+      "contrato": "11/2023",
+      "valor": 48195.96,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2022NE0001647",
+      "contrato": "",
+      "valor": 2636.68,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2022",
+      "descricao": "Anulação total que se faz para ajuste orçamentário."
+    },
+    {
+      "numero": "2022NE0001648",
+      "contrato": "",
+      "valor": 4440.86,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2022",
+      "descricao": "Anulação total que se faz para ajuste orçamentário."
+    },
+    {
+      "numero": "2022NE0001646",
+      "contrato": "",
+      "valor": 1155.72,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2022",
+      "descricao": "Anulação total que se faz para ajuste orçamentário."
+    },
+    {
+      "numero": "2022NE0001649",
+      "contrato": "",
+      "valor": 38.93,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2022",
+      "descricao": "Anulação total que se faz para ajuste orçamentário."
+    },
+    {
+      "numero": "2017NE00571",
+      "contrato": "14/2013",
+      "valor": 12240.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2017",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O IDAM E A EMPRESA: PRODAM S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO. -VIGÊNCIA: 24/09/2016 A 23/09/2017"
+    },
+    {
+      "numero": "2019NE00255",
+      "contrato": "3/2015",
+      "valor": 6429.54,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2019",
+      "descricao": "Contratação de empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWEB) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2019NE00254",
+      "contrato": "16/2018",
+      "valor": 4744.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2019",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2019NE00251",
+      "contrato": "13/2017",
+      "valor": 31288.16,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2019",
+      "descricao": "Contração de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2019NE00256",
+      "contrato": "4/2015",
+      "valor": 14867.31,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE PAGAMENTO."
+    },
+    {
+      "numero": "2019NE00253",
+      "contrato": "23/2015",
+      "valor": 79843.9,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2019",
+      "descricao": "Contratação de serviços de sistemas de informação, compreendendo o desenvolvimento e implantação do sistema de Gestão e Fomento de Assist.Téc.,Ext.Rural e Florestal - ATER"
+    },
+    {
+      "numero": "2026NE0000078",
+      "contrato": "5/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "05/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema de protocolo web visando atender às necessidades do IDAM central. TC: 0005/2025 AD: 01."
+    },
+    {
+      "numero": "2026NE0000007",
+      "contrato": "11/2023",
+      "valor": 101519.88,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 02."
+    },
+    {
+      "numero": "2026NE0000009",
+      "contrato": "5/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema de protocolo web visando atender às necessidades do IDAM central."
+    },
+    {
+      "numero": "2026NE0000008",
+      "contrato": "6/2025",
+      "valor": 17149.2,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução e manutenção de sistema de Recursos Humanos (RH), para atender as necessidades do IDAM, pelo período de 12 (doze) meses"
+    },
+    {
+      "numero": "2015NE00005",
+      "contrato": "3/2010",
+      "valor": 1584.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "-REFERENTE A PARTE DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 003/2010, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S/A, -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE CESSÃO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB - SPROWeb."
+    },
+    {
+      "numero": "2015NE00069",
+      "contrato": "8/2012",
+      "valor": 12314.36,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015 - meses: janeiro e fevereiro"
+    },
+    {
+      "numero": "2015NE00067",
+      "contrato": "4/2015",
+      "valor": 16360.23,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "-REFERENTE A PARTE DE UM TERMO DE CONTRATO A SER FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO."
+    },
+    {
+      "numero": "2015NE00026",
+      "contrato": "14/2013",
+      "valor": 18583.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "-REFERENTE SALDO DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, A SER FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO"
+    },
+    {
+      "numero": "2015NE00027",
+      "contrato": "17/2014",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015 - meses: janeiro a março."
+    },
+    {
+      "numero": "2015NE00030",
+      "contrato": "14/2013",
+      "valor": 18583.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015 - meses: janeiro a março."
+    },
+    {
+      "numero": "2015NE00029",
+      "contrato": "14/2013",
+      "valor": 18583.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NOTA DE EMPENHO Nº 26 EMITIDA EM 05/01/2015, POR MOTIVO DE EQUIVOCO NA NATUREZA DE DESPESA."
+    },
+    {
+      "numero": "2015NE00068",
+      "contrato": "3/2015",
+      "valor": 3280.14,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "-REFERENTE A PARTE DE UM TERMO DE CONTRATO A SER FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE."
+    },
+    {
+      "numero": "2019NE01422",
+      "contrato": "13/2017",
+      "valor": 15182.52,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2019",
+      "descricao": "2º TERMO ADITIVO AO TERMO DE CONTRATO Nº 013/2017. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE ACESSO A INTERNET ESTABELECENDO CIRCUITO DE DADOS, DESTINADO A ATENDER AS NECESSIDADES DESTE ÓRGÃO. NF Nº5490 05/12/18 NF Nº5595 13/12/18"
+    },
+    {
+      "numero": "2019NE01442",
+      "contrato": "13/2017",
+      "valor": 12600.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE ACESSO A INTERNET ESTABELECENDO CIRCUITO DE DADOS, DESTINADO A ATENDER AS NECESSIDADES DESTE ÓRGÃO. -VIGENCIA: 02/06/2018 A 01/06/2019 NF Nº 5490 EMITIDA EM: 05/12/2018 RD Nº 44/2019"
+    },
+    {
+      "numero": "2019NE01424",
+      "contrato": "",
+      "valor": 15182.52,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2019",
+      "descricao": "-ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 1422/2019, EM VIRTUDE DO EQUIVOCO NO VALOR."
+    },
+    {
+      "numero": "2019NE01421",
+      "contrato": "13/2017",
+      "valor": 2582.52,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2019",
+      "descricao": "2º TERMO ADITIVO AO TERMO DE CONTRATO Nº 013/2017. -OBJETO: EMPRESA ESPECIALIZADA EM SERVIÇO DE ACESSO A INTERNET ESTABELECENDO CIRCUITO DE DADOS, DESTINADO A ATENDER AS NECESSIDADES DESTE ÓRGÃO. NF Nº 5595 EMITIDO EM: 13/12/19"
+    },
+    {
+      "numero": "2025NE0001151",
+      "contrato": "11/2023",
+      "valor": 76139.91,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000971",
+      "contrato": "11/2023",
+      "valor": 50759.94,
+      "situacao": "Ativo",
+      "data_emissao": "04/08/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 02."
+    },
+    {
+      "numero": "2023NE0001234",
+      "contrato": "16/2018",
+      "valor": 5341.96,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE. TC: 016/2018 AD: 04."
+    },
+    {
+      "numero": "2023NE0001233",
+      "contrato": "7/2020",
+      "valor": 15910.12,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 007/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0001229",
+      "contrato": "11/2023",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM"
+    },
+    {
+      "numero": "2023NE0001232",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 008/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE01229",
+      "contrato": "11/2023",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2023",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet."
+    },
+    {
+      "numero": "2018NE00780",
+      "contrato": "13/2017",
+      "valor": 31288.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "-REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET"
+    },
+    {
+      "numero": "2023NE0000721",
+      "contrato": "7/2020",
+      "valor": 15910.12,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2023",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 007/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000720",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2023",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 008/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000722",
+      "contrato": "16/2018",
+      "valor": 5341.96,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE. TC: 016/2018 AD: 04."
+    },
+    {
+      "numero": "2021NE0000561",
+      "contrato": "8/2020",
+      "valor": 10674.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2021",
+      "descricao": "-PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2020. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb), OBJETIVANDO O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE PARA ATENDER AS NECESSIDADES DESTE IDAM. -VIGENCIA: 03/03/2021 A 02/03/2022"
+    },
+    {
+      "numero": "2021NE0000560",
+      "contrato": "7/2020",
+      "valor": 24683.72,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2021",
+      "descricao": "-PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 007/2020. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO. -VIGENCIA: 03/03/2021 A 02/03/2022"
+    },
+    {
+      "numero": "2022NE0000095",
+      "contrato": "7/2020",
+      "valor": 15023.72,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2022",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2021NE0000072",
+      "contrato": "8/2020",
+      "valor": 1064.05,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2021",
+      "descricao": "NF nº 15279 emitida em 18/06/2020, no valor de R$ 1.064,05, referente ao mês de junho/2020 - PRODAM, contrato nº 08/2020, serviços de execução de sistema de protocolo em plataforma web (sproweb), objetivando o controle e acompanhamento"
+    },
+    {
+      "numero": "2021NE0000071",
+      "contrato": "16/2018",
+      "valor": 687.83,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2021",
+      "descricao": "NF nº 18474 emitida em: 23/12/2020, no valor de R$ 687,83, referente ao mês de dezembro/2020 – PRODAM contrato nº 016/2018, serviço de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web para publicação"
+    },
+    {
+      "numero": "2021NE0000014",
+      "contrato": "16/2018",
+      "valor": 20635.01,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2021NE0000006",
+      "contrato": "7/2020",
+      "valor": 9911.54,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2021NE0000007",
+      "contrato": "8/2020",
+      "valor": 4286.36,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2021NE0000011",
+      "contrato": "13/2017",
+      "valor": 84689.1,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2016NE00066",
+      "contrato": "17/2014",
+      "valor": 6000.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO DO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2016NE00082",
+      "contrato": "3/2015",
+      "valor": 1640.07,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "-REFERENTE A PARTE DO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DO CLIENTE."
+    },
+    {
+      "numero": "2016NE00070",
+      "contrato": "23/2015",
+      "valor": 119765.85,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "-REFERENTE A PARTE DO TERMO DE CONTRATO DE Nº 023/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A."
+    },
+    {
+      "numero": "2016NE00065",
+      "contrato": "8/2012",
+      "valor": 12676.42,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "- REFERENTE PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A;"
+    },
+    {
+      "numero": "2016NE00063",
+      "contrato": "14/2013",
+      "valor": 37117.8,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A."
+    },
+    {
+      "numero": "2016NE00083",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "-REFERENTE A PARTE DO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO."
+    },
+    {
+      "numero": "2016NE00070",
+      "contrato": "23/2015",
+      "valor": 119765.85,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "cobertura Financeira"
+    },
+    {
+      "numero": "2019NE01403",
+      "contrato": "",
+      "valor": 15579.88,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2019",
+      "descricao": "ANULAÇÃO TOTAL QUE SE FAZ DA NE Nº 1394/2019, EM VIRTUDE DO EQUIVOCO NO VALOR."
+    },
+    {
+      "numero": "2019NE01098",
+      "contrato": "16/2018",
+      "valor": 3162.72,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2019NE01096",
+      "contrato": "3/2015",
+      "valor": 6429.54,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA, PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb)."
+    },
+    {
+      "numero": "2019NE01095",
+      "contrato": "13/2017",
+      "valor": 50813.46,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE ACESSO A INTERNET ESTABELECENDO CIRCUITO DE DADOS, DESTINADO A ATENDER AS NECESSIDADES DESTE ÓRGÃO."
+    },
+    {
+      "numero": "2019NE01097",
+      "contrato": "4/2015",
+      "valor": 14867.31,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE PAGAMENTO."
+    },
+    {
+      "numero": "2024NE0000880",
+      "contrato": "7/2020",
+      "valor": 12635.82,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000876",
+      "contrato": "1/2024",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2024NE0000879",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 04."
+    },
+    {
+      "numero": "2022NE0000023",
+      "contrato": "8/2020",
+      "valor": 5337.38,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2022NE0000022",
+      "contrato": "7/2020",
+      "valor": 12341.86,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2022NE0000043",
+      "contrato": "16/2018",
+      "valor": 9838.76,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2022NE0000059",
+      "contrato": "13/2017",
+      "valor": 71507.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2019NE01391",
+      "contrato": "4/2015",
+      "valor": 1357.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "RI Nº 36 DE 02/12/19 NF N° 5351 DE 30/11/18 EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS"
+    },
+    {
+      "numero": "2019NE01395",
+      "contrato": "13/2017",
+      "valor": 15579.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "EMPRESA ESPECIALIZADA EM SERVIÇO DE ACESSO A INTERNET ESTABELECENDO CIRCUITO DE DADOS, DESTINADO A ATENDER AS NECESSIDADES DESTE ÓRGÃO. NF Nº 4384 EMITIDA EM: 15/10/2018 NF Nº 4385 EMITIDA EM: 15/10/2018 RD Nº 40 DE 02/12/19"
+    },
+    {
+      "numero": "2019NE01392",
+      "contrato": "4/2015",
+      "valor": 2626.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "RI Nº 37 DE 02/12/19 NF Nº 5659 DE 18/12/18 EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS"
+    },
+    {
+      "numero": "2019NE01390",
+      "contrato": "3/2015",
+      "valor": 935.57,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "RD nº 035 de 02/12/2019, NF nº 4567 de 19/10/18 Empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWeb) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2019NE01389",
+      "contrato": "3/2015",
+      "valor": 959.51,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "RD nº 034 de 02/12/2019, NF nº 5623 de 17/12/18 Empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWeb) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2019NE01394",
+      "contrato": "13/2017",
+      "valor": 15579.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "EMPRESA ESPECIALIZADA EM SERVIÇO DE ACESSO A INTERNET ESTABELECENDO CIRCUITO DE DADOS, DESTINADO A ATENDER AS NECESSIDADES DESTE ÓRGÃO. NF Nº 5490 EMITIDA EM: 05/12/2018 NF Nº 5491 EMITIDA EM: 05/12/2018 RI Nº 39 DE 02/12/19"
+    },
+    {
+      "numero": "2019NE01393",
+      "contrato": "4/2015",
+      "valor": 1539.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "RI Nº 38 DE 02/12/19 NF Nº 4698 DE 25/10/18 EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS"
+    },
+    {
+      "numero": "2024NE0000870",
+      "contrato": "11/2023",
+      "valor": 23344.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Despesa com serviço de Fornecimento de circuito de transmissão de dados Circuito de Transmissão de Dados - 20 Mbps - (2.000 x 2,208.210) Acesso Gerenciado a Rede MundialAlocacao de endereco IPv4. Fatura: 144056 R$ 18.927,70. NFS-e: 41045 R$ 4.416,42. CONTRATO: 0011/2023, MES: 09/2023. Vigência: 07/2023 a 07/2024. Valor Global R$ 280.129,44"
+    },
+    {
+      "numero": "2024NE0000866",
+      "contrato": "11/2023",
+      "valor": 23344.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Conta cobrança no valor de R$ 23.44,12 (Vinte e três mil, trezentos e quarenta e quatro reais e doze centavos) referente ao mês de Julho/2023, contrato: 11/2023, contratada: PRODAM - PROCESSAMENTO DE DADOS AMAZONAS."
+    },
+    {
+      "numero": "2024NE0000864",
+      "contrato": "11/2023",
+      "valor": 23344.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Pagamento no valor de R$ 23.344,12 (Vinte e três mil, trezentos e quarenta e quatro reais) referente ao mês de Novembro/2023, contrato: 011/2023 Vigência: 07/2023 a 07/2024. Valor Global R$ 280.129,44"
+    },
+    {
+      "numero": "2024NE0000865",
+      "contrato": "11/2023",
+      "valor": 23344.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "pagamento de Conta cobrança no valor de R$ 23.344,12 (Vinte e três mil, trezentos e quarenta e quatro reais e doze centavos) referente ao mês de Dezembro/2023, contrato: 011/2023, Vigência: 07/2023 a 07/2024. Valor Global R$ 280.129,44"
+    },
+    {
+      "numero": "2024NE0000867",
+      "contrato": "11/2023",
+      "valor": 23344.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Conta cobrança no valor de R$ 23.344,12 (Vinte e três mil, trezentos e quarenta e quatro reais e doze centavos) referente ao mês de Agosto/2023, contrato: 011/2023, contratada: PRODAM - PROCESSAMENTO DE DADOS AMAZONAS."
+    },
+    {
+      "numero": "2024NE0000869",
+      "contrato": "11/2023",
+      "valor": 23344.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Despesa com serviço de Fornecimento de circuito de transmissao de dados Circuito de Transmissao de Dados - 20 Mbps - (2.000 x 2,208.210) Acesso Gerenciado a Rede MundialAlocacao de endereco IPv4. Fatura: 144877 R$ 18.927,70. NFS-e: 41045 R$ 4.416,42. CONTRATO: 0011/2023, MES: 10/2023. Vigência: 07/2023 a 07/2024. Valor Global R$ 280.129,44"
+    },
+    {
+      "numero": "2023NE0000156",
+      "contrato": "8/2020",
+      "valor": 15910.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2023",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2023NE0000157",
+      "contrato": "7/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2023",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2025NE0000016",
+      "contrato": "11/2023",
+      "valor": 48195.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000003",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000002",
+      "contrato": "7/2020",
+      "valor": 12635.82,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000013",
+      "contrato": "7/2020",
+      "valor": 15910.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento. TC: 0007/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0000024",
+      "contrato": "1/2024",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2024NE0000003",
+      "contrato": "8/2020",
+      "valor": 2473.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM. TC: 0008/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0000022",
+      "contrato": "11/2023",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM"
+    },
+    {
+      "numero": "2023NE0000003",
+      "contrato": "8/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de Serviço de execução de sistema de protocolo em plataforma web, objetivando o controle e acompanhamento o controle e acompanhamento do registro de todos os documentos ou processos do cliente para atender as necessidades deste IDAM."
+    },
+    {
+      "numero": "2023NE0000005",
+      "contrato": "7/2020",
+      "valor": 15023.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada em manter o cadastro dos servidores e folha de pagamento pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2023NE0000006",
+      "contrato": "16/2018",
+      "valor": 10683.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2023NE0000008",
+      "contrato": "13/2017",
+      "valor": 71507.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2020NE00008",
+      "contrato": "3/2015",
+      "valor": 2143.18,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWEB) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2020NE00009",
+      "contrato": "16/2018",
+      "valor": 18257.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2020NE00007",
+      "contrato": "4/2015",
+      "valor": 4955.77,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO DE PAGAMENTO."
+    },
+    {
+      "numero": "2020NE00010",
+      "contrato": "13/2017",
+      "valor": 84689.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2019NE00009",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de serviço de execução de sistemas PRODAM - RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2019NE00008",
+      "contrato": "23/2015",
+      "valor": 119765.85,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de serviços de sistemas de informação, compreendendo o desenvolvimento e implantação do sistema de Gestão e Fomento de Assist.Téc.,Ext.Rural e Florestal - ATER"
+    },
+    {
+      "numero": "2019NE00010",
+      "contrato": "16/2018",
+      "valor": 4744.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEO E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2019NE00004",
+      "contrato": "13/2017",
+      "valor": 46932.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contração de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2019NE00005",
+      "contrato": "3/2015",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWeb) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2019NE00029",
+      "contrato": "13/2017",
+      "valor": 46932.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contração de empresa especializada em serviços de acesso a rede de internet, estabelecendo comunicação a partir de circuito de dados existentes entre a contratante e a contratada."
+    },
+    {
+      "numero": "2019NE00030",
+      "contrato": "3/2015",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa p/ serviços de Sist., p/ processamento do Sistema de Protoc. em plataforma Web (SPROWeb) obj. o controle e acomp. do regist. de todos os doc. ou processos dos clientes."
+    },
+    {
+      "numero": "2019NE00025",
+      "contrato": "",
+      "valor": 46932.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "-ANULAÇÃO QUE SE FAZ DA NOTA DE EMPENHO EM VIRTUDE NO EQUIVOCO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2019NE00026",
+      "contrato": "",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "-ANULAÇÃO QUE SE FAZ DA NOTA DE EMPENHO EM VIRTUDE NO EQUIVOCO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2018NE00035",
+      "contrato": "17/2014",
+      "valor": 10257.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "-REFERENTE AO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2018NE00037",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "-REFERENTE AO SALDO DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS"
+    },
+    {
+      "numero": "2018NE00032",
+      "contrato": "13/2017",
+      "valor": 63000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "-REFERENTE A UM TERMO DE CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET"
+    },
+    {
+      "numero": "2018NE00036",
+      "contrato": "3/2015",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "-REFERENTE AO SALDO DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS"
+    },
+    {
+      "numero": "2017NE00048",
+      "contrato": "23/2015",
+      "valor": 159687.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "-REFERENTE A PARTE DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 023/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: AQUISIÇÃO DE SERVIÇOS DE SISTEMAS DE GESTÃO, COMPREENDENDO O DESENVOLVIMENTO E IMPLANTAÇÃO DO SISTEMA DE GESTÃO E FOMENTO DE ASSISTENCIA TECNICA, EXTENÇÃO RURAL E FLORESTAL, DESTE INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTA"
+    },
+    {
+      "numero": "2017NE00005",
+      "contrato": "17/2014",
+      "valor": 4488.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "-REFERENTE A PARTE DO SEGUNDO TERMO ADITIVO AO DO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL, REFERENTE AOS MESES DE OUTUBRO, NOVEMBRO E DEZEMBRO/2016"
+    },
+    {
+      "numero": "2017NE00007",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de serviço de execução de sistemas PRODAM - RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2017NE00006",
+      "contrato": "3/2015",
+      "valor": 1805.55,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "-REFERENTE AO SALDO DO PRIMEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESS"
+    },
+    {
+      "numero": "2017NE00008",
+      "contrato": "14/2013",
+      "valor": 24480.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 014/2013, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DE GOVERNO COM FORNECIMENTO DE ACESSO DEDICADO ENTRE LABORATORIO DE GEOPROCESSAMENTO DO IDAM E DA PRODAM, ATRAVÉS DE METROMAO."
+    },
+    {
+      "numero": "2017NE00004",
+      "contrato": "8/2012",
+      "valor": 14030.26,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "-REFERENTE AO SALDO DO QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 008/2012 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE ACESSO À REDE INTERNET DE 2 Mbps."
+    },
+    {
+      "numero": "2014NE00039",
+      "contrato": "2/2010",
+      "valor": 29150.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 2/2010 - CFPP-Cad. e Folha de Pagto. de Pessoal"
+    },
+    {
+      "numero": "2014NE00042",
+      "contrato": "14/2013",
+      "valor": 46645.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 14/2013 - Serviços de Rede"
+    },
+    {
+      "numero": "2014NE00041",
+      "contrato": "8/2012",
+      "valor": 11661.34,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 8/2012 - Internet banda 2Mb e acesso computador (MetroMAO)"
+    },
+    {
+      "numero": "2014NE00040",
+      "contrato": "3/2010",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 3/2010 - Cessão de uso do Sistema SPROWeb"
+    },
+    {
+      "numero": "2014NE00063",
+      "contrato": "12/2011",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 12/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2014NE01649",
+      "contrato": "17/2014",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2014",
+      "descricao": "Contrato No. 17/2014"
+    },
+    {
+      "numero": "2025NE0000967",
+      "contrato": "5/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema de protocolo web visando atender às necessidades do IDAM central."
+    },
+    {
+      "numero": "2025NE0000969",
+      "contrato": "1/2024",
+      "valor": 5665.78,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website. TC: 0001/2024"
+    },
+    {
+      "numero": "2025NE0000968",
+      "contrato": "6/2025",
+      "valor": 17149.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução e manutenção de sistema de Recursos Humanos (RH), para atender as necessidades do IDAM, pelo período de 12 (doze) meses"
+    },
+    {
+      "numero": "2024NE0000140",
+      "contrato": "1/2024",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de fornecimento de licença de uso de sistema de informação, disponibilizando o Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2024NE0000139",
+      "contrato": "11/2023",
+      "valor": 46688.24,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2024",
+      "descricao": "Contratação de empresa especializada em serviço de acesso à rede de internet, para atender as necessidades do Instituto de Desenvolvimento Agropecuário e Florestal Sustentável do Estado do Amazonas – IDAM"
+    },
+    {
+      "numero": "2018NE00336",
+      "contrato": "17/2014",
+      "valor": 10257.48,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "-REFERENTE AO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 017/2014 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS-IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A. -OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO TECNICOS EM INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2018NE00334",
+      "contrato": "4/2015",
+      "valor": 4517.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "-REFERENTE AO SALDO DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO"
+    },
+    {
+      "numero": "2018NE00338",
+      "contrato": "4/2015",
+      "valor": 49697.78,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO Nº 004/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATORIOS PARA EFETIVAÇÃO"
+    },
+    {
+      "numero": "2018NE00333",
+      "contrato": "3/2015",
+      "valor": 1934.28,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "-REFERENTE AO SALDO DO SEGUNDO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSO"
+    },
+    {
+      "numero": "2018NE00335",
+      "contrato": "13/2017",
+      "valor": 63000.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "-REFERENTE A UM TERMO DE CONTRATO Nº 013/2017 FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUÁRIO E FLORESTAL SUSTENTÁVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE SERVIÇO DE ACESSO A INTERNET DESTINADO A ATENDER AS NECESSIDADES DESTE ORGÃO, POSSIBILIDADE ASSIM O ACESSO DESTE INSTITUTO AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL INTERNET, COM LARGURA DE BANDA DEFINIDA"
+    },
+    {
+      "numero": "2018NE00340",
+      "contrato": "23/2015",
+      "valor": 39921.95,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Contratação de empresa especializada em Sistemas de Gestão, compreendendo o desenvolvimento e implantação do sistema de Gestão e Fomento de Assist.Téc.,Ext.Rural e Florestal, deste IDAM.Contrato nº 23/15 AD.02,Vig. 05/08/17 a 04/02/18, Em Subst.NE 54"
+    },
+    {
+      "numero": "2018NE00339",
+      "contrato": "3/2015",
+      "valor": 21277.08,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "-REFERENTE A PARTE DO TERCEIRO TERMO ADITIVO AO TERMO DE CONTRATO DE Nº 003/2015, FIRMADO ENTRE O INSTITUTO DE DESENVOLVIMENTO AGROPECUARIO E FLORESTAL SUSTENTAVEL DO ESTADO DO AMAZONAS - IDAM E A EMPRESA: PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A; -OBJETO: CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA EM SERVIÇOS DE EXECUÇÃO DE SISTEMA PARA PROCESSAMENTO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb) PARA O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSO"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "95395",
+      "nf": "21041",
+      "contrato": "23/2015",
+      "valor_bruto": 119706.69,
+      "competencia": "11/2016",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 42
+    },
+    {
+      "id": "99858",
+      "nf": "25262",
+      "contrato": "23/2015",
+      "valor_bruto": 119706.69,
+      "competencia": "09/2017",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 42
+    },
+    {
+      "id": "142209",
+      "nf": "142209",
+      "contrato": "68/2023",
+      "valor_bruto": 14211.66,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "155720",
+      "nf": "50913",
+      "contrato": "7/2020",
+      "valor_bruto": 6317.91,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 144
+    },
+    {
+      "id": "142210",
+      "nf": "38473",
+      "contrato": "68/2023",
+      "valor_bruto": 3689.27,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "141008",
+      "nf": "37430",
+      "contrato": "16/2018",
+      "valor_bruto": 2670.98,
+      "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 24
+    },
+    {
+      "id": "144053",
+      "nf": "40204",
+      "contrato": "16/2018",
+      "valor_bruto": 2670.98,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 24
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "IDAM",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "023/2015",
+      "Número": "95395",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/95395/E",
+      "Comp.": "11/2016",
+      "Valor": "119.706,69",
+      "Atraso": "3387 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "IDAM",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "023/2015",
+      "Número": "99858",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/99858/E",
+      "Comp.": "09/2017",
+      "Valor": "119.706,69",
+      "Atraso": "3086 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "IDAM",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "016/2018",
+      "Número": "141008",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141008/E",
+      "Comp.": "05/2023",
+      "Valor": "2.670,98",
+      "Atraso": "1032 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "IDAM",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "068/2023",
+      "Número": "142210",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142210/E",
+      "Comp.": "06/2023",
+      "Valor": "3.689,27",
+      "Atraso": "988 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "IDAM",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "068/2023",
+      "Número": "142209",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142209/E",
+      "Comp.": "06/2023",
+      "Valor": "14.211,66",
+      "Atraso": "988 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "IDAM",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "016/2018",
+      "Número": "144053",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144053/E",
+      "Comp.": "09/2023",
+      "Valor": "2.670,98",
+      "Atraso": "904 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "IDAM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "007/2020",
+      "Número": "155720",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155720/E",
+      "Comp.": "12/2024",
+      "Valor": "6.317,91",
+      "Atraso": "448 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 414,
+      "valor_total": 7108383.88,
+      "por_ano": {
+        "2023": {
+          "qtd": 20,
+          "valor": 412240.8199999999
+        },
+        "2018": {
+          "qtd": 46,
+          "valor": 1009467.4299999999
+        },
+        "2017": {
+          "qtd": 37,
+          "valor": 428085.67
+        },
+        "2020": {
+          "qtd": 20,
+          "valor": 342042.35
+        },
+        "2016": {
+          "qtd": 53,
+          "valor": 700460.55
+        },
+        "2025": {
+          "qtd": 33,
+          "valor": 513389.1600000001
+        },
+        "2022": {
+          "qtd": 36,
+          "valor": 667080.12
+        },
+        "2019": {
+          "qtd": 41,
+          "valor": 701716.9600000001
+        },
+        "2015": {
+          "qtd": 52,
+          "valor": 795490.6900000003
+        },
+        "2014": {
+          "qtd": 9,
+          "valor": 198730.81999999998
+        },
+        "2024": {
+          "qtd": 47,
+          "valor": 860365.7599999997
+        },
+        "2026": {
+          "qtd": 5,
+          "valor": 142046.52000000002
+        },
+        "2021": {
+          "qtd": 15,
+          "valor": 337267.02999999997
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 7,
+      "valor_total": 268974.18
+    },
+    "cobrancas": {
+      "qtd": 7,
+      "valor_total": 268974.18
+    }
+  }
+}

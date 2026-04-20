@@ -1,0 +1,25 @@
+{
+  "filename": "REQUERIMENTO__8bafad0874.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\REQUERIMENTO__8bafad0874.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499343,
+  "texto_length": 1020,
+  "texto_preview": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 66.585,00 (SESSENTA E SEIS MIL, QUINHENTOS E OITENTA E CINCO REAIS e recibo\nem anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nfev/2021\n0,00\n0,00\n37.953,45\n1.997,55\n25025\n25/2014\n39.951,00\nSuporte técnico em sistemas de info",
+  "texto_completo": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 66.585,00 (SESSENTA E SEIS MIL, QUINHENTOS E OITENTA E CINCO REAIS e recibo\nem anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nfev/2021\n0,00\n0,00\n37.953,45\n1.997,55\n25025\n25/2014\n39.951,00\nSuporte técnico em sistemas de informação\nfev/2021\n0,00\n399,51\n24.902,79\n1.331,70\n25034\n25/2014\n26.634,00\nAssessoria Técnica em Informática\nTotais\n66.585,00\n399,51\n3.329,25\n62.856,24\n0,00\nNestes Termos\nP. Deferimento\n José Maria Pinto\n Gerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80"
+    ],
+    "valores_brl": [
+      "66.585,00"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

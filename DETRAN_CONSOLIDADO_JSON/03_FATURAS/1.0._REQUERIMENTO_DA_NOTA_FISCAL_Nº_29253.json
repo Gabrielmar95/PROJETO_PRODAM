@@ -1,0 +1,25 @@
+{
+  "filename": "1.0. REQUERIMENTO DA NOTA FISCAL Nº 29253.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\1.0. REQUERIMENTO DA NOTA FISCAL Nº 29253.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 467006,
+  "texto_length": 1118,
+  "texto_preview": "Ao Senhor\nJosé Amurine Feitosa Tomaz Filho\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 305.403,49 (TREZENTOS E CINCO MIL, QUATROCENTOS E TRêS REAIS E QUARENTA\nE NOVE CENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nmai/2022\n0,00\n0,00\n290.133,32\n15.270,17\n29253\n4/2016\n305.403,49\nLicença de uso de sistemas de informação -\nSistema de Identificação e Control",
+  "texto_completo": "Ao Senhor\nJosé Amurine Feitosa Tomaz Filho\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 305.403,49 (TREZENTOS E CINCO MIL, QUATROCENTOS E TRêS REAIS E QUARENTA\nE NOVE CENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nmai/2022\n0,00\n0,00\n290.133,32\n15.270,17\n29253\n4/2016\n305.403,49\nLicença de uso de sistemas de informação -\nSistema de Identificação e Controle dos Candidatos\ne Motoristas\nTotais\n305.403,49\n0,00\n15.270,17\n290.133,32\n0,00\nPRODAM - Processamento de Dados Amazonas S.A\nPRODAM - Processamento de Dados\nAmazonas S.A\n04.407.920.0001-80\nRua Jonathas Pedrosa, 1937\nPça 14 de Janeiro\nCEP. 69.020-110\nNestes Termos\nP. Deferimento\n  José Maria Pinto\n  Gerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80"
+    ],
+    "valores_brl": [
+      "305.403,49"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

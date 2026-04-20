@@ -1,0 +1,63 @@
+{
+  "sigla": "COSAMA",
+  "profile": {
+    "nome": "COSAMA",
+    "sigla": "COSAMA",
+    "fonte": "SPCF_EXAUSTIVO_ABR2026",
+    "data_inclusao": "2026-04-01",
+    "val_orig": "0",
+    "val_exig": "0",
+    "categoria": "GOV_INDIRETA",
+    "forca_probatoria": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "status": "NOVO_SPCF",
+    "fase_atual": "F0_DIAGNOSTICO",
+    "tipo": "ESTADUAL",
+    "fat_canceladas_qtd": 5,
+    "fat_canceladas_val_bruto": 18873.18,
+    "fat_canceladas_val_liquido": 18013.87,
+    "faturamento_total_2019_2026": 244091.57,
+    "recebimento_total_2019_2026": 225229.0,
+    "taxa_pagamento_pct": 92.27,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2021-Mai",
+    "faturamento_pico_valor": 4770.4,
+    "inicio_inadimplencia": "2019-Nov",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 0.0,
+    "empenho_historico_qtd": 0,
+    "empenho_valor_global_contratos": 74972.16,
+    "empenho_2026_gerencial": 0.0,
+    "a_empenhar_2026": 27399.489999999998,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "9243.41",
+    "val_liquido_spcf_mar2026": "9172.72",
+    "num_faturas_spcf_mar2026": 5,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 100.0,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

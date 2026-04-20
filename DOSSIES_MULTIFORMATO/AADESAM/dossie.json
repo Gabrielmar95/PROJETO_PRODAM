@@ -1,0 +1,131 @@
+{
+  "sigla": "AADESAM",
+  "profile": {
+    "nome_completo": "Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental",
+    "sigla": "AADESAM",
+    "natureza": "Autarquia Estadual",
+    "categoria": "GOV_INDIRETA",
+    "val_orig": "125682.90",
+    "val_exig": "125682.90",
+    "val_atualizado": "125682.90",
+    "faturas_total": 34,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 34,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 0,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Pendente analise",
+    "observacoes": "Incluido via SPCF Mar/2026. 0 fat aberto. R$177K em perdas. Todas possivelmente prescritas",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "CNPJ_PENDENTE",
+    "tipo": "GOV",
+    "score_composto": 0,
+    "proximo_passo": "CLASSIFICAR",
+    "fonte": "SPCF_MAR2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-31",
+    "spcf_total_receber": "125682.90",
+    "spcf_fat_devidas_qtd": 34,
+    "spcf_fat_devidas_val": "125682.90",
+    "spcf_fat_aberto_qtd": 0,
+    "spcf_fat_aberto_val": "0",
+    "spcf_perdas": "177309.58",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 0,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 9,
+    "fat_canceladas_val_bruto": 73464.9,
+    "fat_canceladas_val_liquido": 70940.53,
+    "faturamento_total_2019_2026": 40836.57,
+    "recebimento_total_2019_2026": 38795.0,
+    "taxa_pagamento_pct": 95.0,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 4,
+    "faturamento_pico_mes": "2019-Fev",
+    "faturamento_pico_valor": 12035.82,
+    "inicio_inadimplencia": "2019-Fev",
+    "ultimo_faturamento": "2019-Dez",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 181156.24000000002,
+    "empenho_historico_qtd": 2,
+    "empenho_valor_global_contratos": 351043.32,
+    "empenho_2026_gerencial": 0.0,
+    "a_empenhar_2026": 0.0,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "51626.68",
+    "val_liquido_spcf_mar2026": "49045.38",
+    "num_faturas_spcf_mar2026": 25,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 60.98,
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2015NE00028",
+      "contrato": "4/2011",
+      "valor": 3521.2,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2015",
+      "descricao": "NAD 28 Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2016NE22016",
+      "contrato": "1/2014",
+      "valor": 177635.04,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Cobertura financeira do 2º Termo Aditivo"
+    },
+    {
+      "numero": "2015NE00022",
+      "contrato": "1/2014",
+      "valor": 1348.53,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2015NE00023",
+      "contrato": "5/2011",
+      "valor": 25570.01,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "NAD 023 Cobertura Financeira 2015"
+    }
+  ],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 4,
+      "valor_total": 208074.78,
+      "por_ano": {
+        "2015": {
+          "qtd": 3,
+          "valor": 30439.739999999998
+        },
+        "2016": {
+          "qtd": 1,
+          "valor": 177635.04
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "filename": "REQUERIMENTO__1ce08aca04.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\REQUERIMENTO__1ce08aca04.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499437,
+  "texto_length": 1139,
+  "texto_preview": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 103.539,68 (CENTO E TRêS MIL, QUINHENTOS E TRINTA E NOVE REAIS E SESSENTA\nE OITO CENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nmar/2021\n0,00\n399,51\n24.902,79\n1.331,70\n25041\n25/2014\n26.634,00\nAssessoria",
+  "texto_completo": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 103.539,68 (CENTO E TRêS MIL, QUINHENTOS E TRINTA E NOVE REAIS E SESSENTA\nE OITO CENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nmar/2021\n0,00\n399,51\n24.902,79\n1.331,70\n25041\n25/2014\n26.634,00\nAssessoria Técnica em Informática\nmar/2021\n0,00\n0,00\n37.953,45\n1.997,55\n25055\n25/2014\n39.951,00\nSuporte técnico em sistemas de informação\nmar/2021\n0,00\n0,00\n35.106,95\n1.847,73\n25056\n25/2014\n36.954,68\nManutenção Evolutiva de Sistemas\nTotais\n103.539,68\n399,51\n5.176,98\n97.963,19\n0,00\nNestes Termos\nP. Deferimento\n José Maria Pinto\n Gerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80"
+    ],
+    "valores_brl": [
+      "103.539,68"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

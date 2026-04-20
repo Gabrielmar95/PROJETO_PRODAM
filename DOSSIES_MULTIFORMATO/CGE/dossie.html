@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê CGE — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — CGE</h1>
+<p><b>Controladoria Geral do Estado do Amazonas</b> | GOV_DIRETA | CNPJ: CNPJ_PENDENTE | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">CLASSIFICAR</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 25.693,37</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 25.693,37</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">9</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">213</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">0%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2014NE00025</td><td>2/2013</td><td>02/01/2014</td><td>R$ 432.551,76</td><td>Ativo</td></tr>
+<tr><td>2018NE00064</td><td></td><td>07/02/2018</td><td>R$ 417.481,68</td><td>Ativo</td></tr>
+<tr><td>2018NE00040</td><td>3/2017</td><td>02/01/2018</td><td>R$ 417.481,68</td><td>Ativo</td></tr>
+<tr><td>2018NE00067</td><td>3/2017</td><td>07/02/2018</td><td>R$ 391.991,12</td><td>Ativo</td></tr>
+<tr><td>2017NE00292</td><td>2/2013</td><td>01/09/2017</td><td>R$ 311.368,27</td><td>Ativo</td></tr>
+<tr><td>2021NE0000002</td><td>3/2017</td><td>19/01/2021</td><td>R$ 302.548,68</td><td>Ativo</td></tr>
+<tr><td>2020NE00006</td><td>3/2017</td><td>02/01/2020</td><td>R$ 255.877,44</td><td>Ativo</td></tr>
+<tr><td>2018NE00341</td><td></td><td>19/12/2018</td><td>R$ 253.326,52</td><td>Ativo</td></tr>
+<tr><td>2019NE00206</td><td></td><td>21/08/2019</td><td>R$ 200.000,00</td><td>Ativo</td></tr>
+<tr><td>2019NE00356</td><td></td><td>30/12/2019</td><td>R$ 196.946,71</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr></table>
+
+<h2>Observações</h2>
+<div class="card"><p>Incluido via SPCF Mar/2026. 7 fat aberto (B2-05 R$24.917,06). Emp 2026 R$130K (5x a divida). Perdas R$23K</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[5, 15, 17, 25, 24, 22, 25, 13, 16, 22, 14, 11, 4],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[533267.1699999999, 282977.70000000007, 179876.46999999997, 544585.8799999999, 1821184.4599999995, 1090805.05, 948215.7499999998, 536974.2699999999, 278139.38, 560073.11, 393212.7, 338943.01999999996, 203596.65],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

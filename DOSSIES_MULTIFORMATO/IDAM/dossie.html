@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê IDAM — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — IDAM</h1>
+<p><b>Instituto de Desenvolvimento Agropecuário do Amazonas</b> | GOV_INDIRETA | CNPJ: 01.171.012/0001-41 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ENVIAR_TRD</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 328.735,51</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 892.277,93</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">30</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">5</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">414</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">35%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2017NE00048</td><td>23/2015</td><td>02/01/2017</td><td>R$ 159.687,80</td><td>Ativo</td></tr>
+<tr><td>2015NE01781</td><td>23/2015</td><td>21/10/2015</td><td>R$ 119.765,91</td><td>Ativo</td></tr>
+<tr><td>2015NE01780</td><td></td><td>21/10/2015</td><td>R$ 119.765,91</td><td>Ativo</td></tr>
+<tr><td>2015NE01779</td><td>23/2015</td><td>21/10/2015</td><td>R$ 119.765,91</td><td>Ativo</td></tr>
+<tr><td>2016NE01283</td><td></td><td>26/09/2016</td><td>R$ 119.765,85</td><td>Ativo</td></tr>
+<tr><td>2016NE00070</td><td>23/2015</td><td>04/01/2016</td><td>R$ 119.765,85</td><td>Ativo</td></tr>
+<tr><td>2016NE00070</td><td>23/2015</td><td>04/01/2016</td><td>R$ 119.765,85</td><td>Ativo</td></tr>
+<tr><td>2019NE00008</td><td>23/2015</td><td>02/01/2019</td><td>R$ 119.765,85</td><td>Ativo</td></tr>
+<tr><td>2026NE0000007</td><td>11/2023</td><td>05/01/2026</td><td>R$ 101.519,88</td><td>Ativo</td></tr>
+<tr><td>2023NE0001761</td><td>11/2023</td><td>31/10/2023</td><td>R$ 93.376,48</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>95395</td><td>21041</td><td>23/2015</td><td>11/2016</td><td>R$ 119.706,69</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>99858</td><td>25262</td><td>23/2015</td><td>09/2017</td><td>R$ 119.706,69</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>142209</td><td>142209</td><td>68/2023</td><td>06/2023</td><td>R$ 14.211,66</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>155720</td><td>50913</td><td>7/2020</td><td>12/2024</td><td>R$ 6.317,91</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>142210</td><td>38473</td><td>68/2023</td><td>06/2023</td><td>R$ 3.689,27</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>141008</td><td>37430</td><td>16/2018</td><td>05/2023</td><td>R$ 2.670,98</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>144053</td><td>40204</td><td>16/2018</td><td>09/2023</td><td>R$ 2.670,98</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Tramitado para Diretoria Adm-Financeira</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[9, 52, 53, 37, 46, 41, 20, 15, 36, 20, 47, 33, 5],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[198730.81999999998, 795490.6900000003, 700460.55, 428085.67, 1009467.4299999999, 701716.9600000001, 342042.35, 337267.02999999997, 667080.12, 412240.8199999999, 860365.7599999997, 513389.1600000001, 142046.52000000002],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

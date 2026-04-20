@@ -1,0 +1,43 @@
+{
+  "filename": "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf",
+  "filename_parsed": {
+    "filename": "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 75,
+    "contrato_ano": 2022,
+    "contrato_ref": "075/2022",
+    "ta_numero": 3,
+    "modalidades": []
+  },
+  "pdf_meta": {
+    "num_paginas": 1,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 198979
+  },
+  "texto_length": 8665,
+  "texto_preview": "DIÁRIO OFICIAL DO ESTADO DO AMAZONAS | PODER EXECUTIVO - SEÇÃO II\nManaus, quinta-feira, 04 de setembro de 2025 27\nSIGED: 01.03.011210.017154/2025-71 - DETRAN/AM. CIENTIFIQUE-SE, \nPUBLIQUE-SE E CUMPRA-SE. GABINETE DO DIRETOR-PRESIDENTE \nDO DETRAN/AM, em Manaus, 03 de setembro de 2025.\nDAVID FERNANDES DOS SANTOS\nDiretor-Presidente do Departamento Estadual de Trânsito do\nAmazonas - DETRAN/AM\n<#E.G.B#239993#27#243546/>\nProtocolo 239993\n<#E.G.B#239994#27#243547>\nSEGUNDO TERMO ADITIVO AO CONTRATO Nº 0",
+  "clausulas_detectadas": {
+    "valor_contrato": [
+      "R$ 626.250,00",
+      "R$ \n283.936,40",
+      "R$ 3.407.236,80",
+      "R$ 257.100,00"
+    ],
+    "vigencia": [
+      [
+        "07/05/2025",
+        "07/05/2026"
+      ],
+      [
+        "01/09/2025",
+        "01/09/2026"
+      ]
+    ],
+    "acrescimo_pct": [
+      "5,32"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

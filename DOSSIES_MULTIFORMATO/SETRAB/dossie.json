@@ -1,0 +1,1523 @@
+{
+  "sigla": "SETRAB",
+  "profile": {
+    "nome_completo": "Secretaria de Estado do Trabalho (extinta, incorporada SEAS/SEJUSC)",
+    "sigla": "SETRAB",
+    "natureza": "Secretaria de Estado (extinta)",
+    "categoria": "GOV_DIRETA",
+    "val_orig": "505961.79",
+    "val_exig": "505961.79",
+    "val_atualizado": "505961.79",
+    "faturas_total": 81,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 81,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 0,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Pendente analise",
+    "observacoes": "Incluido via SPCF Mar/2026. EXTINTA — incorporada SEAS/SEJUSC. 0 fat aberto. R$931K em perdas. Cobrar de SEAS/SEJUSC como sucessoras",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "CNPJ_PENDENTE",
+    "tipo": "GOV",
+    "score_composto": 0,
+    "proximo_passo": "AVALIAR_SUCESSAO",
+    "fonte": "SPCF_MAR2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-31",
+    "spcf_total_receber": "505961.79",
+    "spcf_fat_devidas_qtd": 81,
+    "spcf_fat_devidas_val": "505899.62",
+    "spcf_fat_aberto_qtd": 0,
+    "spcf_fat_aberto_val": "0",
+    "spcf_perdas": "931075.15",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 0,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 9,
+    "fat_canceladas_val_bruto": 20664.91,
+    "fat_canceladas_val_liquido": 19926.16,
+    "faturamento_total_2019_2026": 155405.16,
+    "recebimento_total_2019_2026": 147637.0,
+    "taxa_pagamento_pct": 95.0,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 13,
+    "faturamento_pico_mes": "2019-Set",
+    "faturamento_pico_valor": 12096.2,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2020-Jan",
+    "empenho_historico_total": 0.0,
+    "empenho_historico_qtd": 0,
+    "empenho_valor_global_contratos": 0.0,
+    "empenho_2026_gerencial": 0.0,
+    "a_empenhar_2026": 0.0,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": true,
+    "val_servicos_spcf_mar2026": "532267.64",
+    "val_liquido_spcf_mar2026": "505899.62",
+    "num_faturas_spcf_mar2026": 75,
+    "reconciliacao_status": "MATCH",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 0.01,
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2016NE00612",
+      "contrato": "",
+      "valor": 26.55,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ajuste orçamentário."
+    },
+    {
+      "numero": "2016NE00613",
+      "contrato": "",
+      "valor": 79.65,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ajuste orçamentário."
+    },
+    {
+      "numero": "2016NE00614",
+      "contrato": "",
+      "valor": 563.4,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ajuste orçamentário."
+    },
+    {
+      "numero": "2016NE00571",
+      "contrato": "4/2014",
+      "valor": 193.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "RESERVA"
+    },
+    {
+      "numero": "2016NE00563",
+      "contrato": "",
+      "valor": 19.55,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "resrva"
+    },
+    {
+      "numero": "2016NE00564",
+      "contrato": "",
+      "valor": 0.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "RESERVA"
+    },
+    {
+      "numero": "2019NE00104",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00106",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00108",
+      "contrato": "3/2017",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00112",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00103",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00107",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00102",
+      "contrato": "3/2017",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00109",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00105",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2017NE00406",
+      "contrato": "",
+      "valor": 94.81,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação da NE n.058/2017 Motivo: Em atenção ao Encerramento do Exercício de 2017 - Instrução Normativa n.0001/2017."
+    },
+    {
+      "numero": "2017NE00405",
+      "contrato": "",
+      "valor": 26.55,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação da NE n.024/2017 Motivo: Em atenção ao Encerramento do Exercício de 2017 - Instrução Normativa n.0001/2017."
+    },
+    {
+      "numero": "2019NE00101",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "29/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00110",
+      "contrato": "3/2017",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00111",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/03/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2018NE00584",
+      "contrato": "",
+      "valor": 66101.46,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE00568",
+      "contrato": "",
+      "valor": 4217.15,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO QUE SE FAZ DO SALDO DE EMPENHO EM ATENDIMENTO IN Nº 01/2018-SET-SEFAZ DE 30/11/2018 (ENCERRAMENTO DO EXERCÍCIO 2018)"
+    },
+    {
+      "numero": "2018NE00580",
+      "contrato": "",
+      "valor": 847.45,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE00576",
+      "contrato": "",
+      "valor": 1689.62,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO QUE SE FAZ DO SALDO DE EMPENHO EM ATENDIMENTO IN Nº 01/2018-SET-SEFAZ DE 30/11/2018 (ENCERRAMENTO DO EXERCÍCIO 2018)"
+    },
+    {
+      "numero": "2015NE00548",
+      "contrato": "10/2013",
+      "valor": 35904.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2015",
+      "descricao": "objeto: Contratação de Empresa especializada a Serviços de Acesso a Rede de Internet,da SETRAB,compreendendo o acesso Gerenciado a Internet através da Rede do Governo."
+    },
+    {
+      "numero": "2014NE00069",
+      "contrato": "4/2014",
+      "valor": 8250.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2014",
+      "descricao": "Contrato N. 004/2014 - Serviços de SPROWEB"
+    },
+    {
+      "numero": "2018NE00559",
+      "contrato": "",
+      "valor": 206.39,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2018",
+      "descricao": "ANULAÇÃO QUE SE FAZ DO SALDO DE EMPENHO EM ATENDIMENTO IN Nº 01/2018-SET-SEFAZ DE 30/11/2018 (ENCERRAMENTO DO EXERCÍCIO 2018)"
+    },
+    {
+      "numero": "2019NE00490",
+      "contrato": "",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00492",
+      "contrato": "",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00488",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00486",
+      "contrato": "",
+      "valor": 362.67,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00473",
+      "contrato": "",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00481",
+      "contrato": "",
+      "valor": 1694.31,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00495",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00482",
+      "contrato": "",
+      "valor": 2594.67,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00533",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00048, 2019GR00049"
+    },
+    {
+      "numero": "2019NE00534",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão. 2019GR00082 e 2019GR00083."
+    },
+    {
+      "numero": "2019NE00471",
+      "contrato": "",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00491",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00568",
+      "contrato": "",
+      "valor": 1694.31,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/18."
+    },
+    {
+      "numero": "2019NE00563",
+      "contrato": "",
+      "valor": 65.44,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão."
+    },
+    {
+      "numero": "2019NE00564",
+      "contrato": "",
+      "valor": 362.67,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão."
+    },
+    {
+      "numero": "2019NE00560",
+      "contrato": "",
+      "valor": 2594.67,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão"
+    },
+    {
+      "numero": "2019NE00547",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão."
+    },
+    {
+      "numero": "2019NE00561",
+      "contrato": "",
+      "valor": 916.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão"
+    },
+    {
+      "numero": "2019NE00559",
+      "contrato": "",
+      "valor": 5077.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao"
+    },
+    {
+      "numero": "2019NE00532",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO.2019GR00066 e 2019GR00120."
+    },
+    {
+      "numero": "2019NE00558",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00545",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão. 2019GR00096 e 2019GR00109."
+    },
+    {
+      "numero": "2019NE00493",
+      "contrato": "",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00541",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão. 2019GR00096 e 2019GR00109."
+    },
+    {
+      "numero": "2019NE00546",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão. 2019GR00111 e 2019GR00121."
+    },
+    {
+      "numero": "2019NE00543",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 541 EQUIVOCO NA MODALIDADE DE LICITAÇÃO"
+    },
+    {
+      "numero": "2019NE00554",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00069 e 2019GR00070"
+    },
+    {
+      "numero": "2019NE00542",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão. 2019GR00111 e 2019GR00121."
+    },
+    {
+      "numero": "2019NE00477",
+      "contrato": "",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00474",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00475",
+      "contrato": "",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00483",
+      "contrato": "",
+      "valor": 916.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00535",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão. 2019GR00055 e 2019GR00056"
+    },
+    {
+      "numero": "2019NE00539",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão. 2019GR00107 e 2019GR00108."
+    },
+    {
+      "numero": "2019NE00536",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão. 2019GR00052 e 2019GR00053"
+    },
+    {
+      "numero": "2019NE00537",
+      "contrato": "3/2017",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão. 2019GR00060 e 2019GR00086."
+    },
+    {
+      "numero": "2019NE00538",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00093 e 2019GR00094."
+    },
+    {
+      "numero": "2019NE00487",
+      "contrato": "",
+      "valor": 185.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00494",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00468",
+      "contrato": "",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00496",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00489",
+      "contrato": "",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00478",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00555",
+      "contrato": "",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00043 e 2019GR00044."
+    },
+    {
+      "numero": "2019NE00484",
+      "contrato": "",
+      "valor": 121.02,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00531",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00073 e 2019GR00075"
+    },
+    {
+      "numero": "2019NE00562",
+      "contrato": "",
+      "valor": 121.02,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao."
+    },
+    {
+      "numero": "2019NE00540",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00485",
+      "contrato": "",
+      "valor": 65.44,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00480",
+      "contrato": "",
+      "valor": 5077.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00565",
+      "contrato": "",
+      "valor": 185.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão"
+    },
+    {
+      "numero": "2019NE00469",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00530",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00051 E 2019GR00071"
+    },
+    {
+      "numero": "2019NE00556",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00045 e 2019GR00063."
+    },
+    {
+      "numero": "2019NE00544",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 542 EQUIVOCO NA MODALIDADE DE LICITAÇÃO"
+    },
+    {
+      "numero": "2019NE00470",
+      "contrato": "",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00479",
+      "contrato": "",
+      "valor": 165.78,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00472",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00557",
+      "contrato": "",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO. 2019GR00046 e 2019GR00064"
+    },
+    {
+      "numero": "2019NE00567",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO."
+    },
+    {
+      "numero": "2019NE00516",
+      "contrato": "",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00476",
+      "contrato": "",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00332",
+      "contrato": "3/2017",
+      "valor": 10965.75,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos Serviços de Informática, Rede compreendendo o acesso a Metromao através co circuito de transmissão de dados. Reforço ao cronograma de agosto."
+    },
+    {
+      "numero": "2017NE00055",
+      "contrato": "4/2014",
+      "valor": 2534.43,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2017",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA ATENDER AS DISPOSIÇÕES DO SISTEMA DE PROTOCOLO ELETRÔNICO EM PLATAFORMA WEB - SPROWEB"
+    },
+    {
+      "numero": "2017NE00058",
+      "contrato": "4/2014",
+      "valor": 2534.43,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2017",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA ATENDER AS DISPOSIÇÕES DO SISTEMA DE PROTOCOLO ELETRÔNICO EM PLATAFORMA WEB - SPROWEB"
+    },
+    {
+      "numero": "2017NE00057",
+      "contrato": "",
+      "valor": 2534.43,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2017",
+      "descricao": "ANULAÇÃO DA NE N.055/2017 MOTIVO MODALIDADE INCORRETA"
+    },
+    {
+      "numero": "2015NE00952",
+      "contrato": "",
+      "valor": 4446.9,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2018NE00512",
+      "contrato": "3/2017",
+      "valor": 66101.46,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2018",
+      "descricao": "Prestação de Serviço de Rede, compreendendo o acesso a MetroMAO, através de circuito de transmissão de dados para atender a SETRAB, Primeiro Termo Aditivo ao Contrato 003 2017 - prorrogação do prozo de vigência por mais 12 meses."
+    },
+    {
+      "numero": "2016NE00566",
+      "contrato": "",
+      "valor": 193.3,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2016",
+      "descricao": "RESERVA"
+    },
+    {
+      "numero": "2014NE00254",
+      "contrato": "4/2014",
+      "valor": 6000.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2014",
+      "descricao": "Contrato No. 4/2014 - Serviços de SPROWEB"
+    },
+    {
+      "numero": "2015NE00669",
+      "contrato": "10/2013",
+      "valor": 183813.57,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2015",
+      "descricao": "Anulação...."
+    },
+    {
+      "numero": "2018NE00244",
+      "contrato": "4/2014",
+      "valor": 10137.72,
+      "situacao": "Ativo",
+      "data_emissao": "21/06/2018",
+      "descricao": "4º termo aditivo ao Contrato nº 004/2014 - Prorrogação de Contrato."
+    },
+    {
+      "numero": "2018NE00228",
+      "contrato": "",
+      "valor": 10137.72,
+      "situacao": "Ativo",
+      "data_emissao": "21/06/2018",
+      "descricao": "anulação desta NE00215/2018"
+    },
+    {
+      "numero": "2017NE00279",
+      "contrato": "4/2014",
+      "valor": 1689.62,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2017",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA ATENDER AS DISPOSIÇÕES DO SISTEMA DE PROTOCOLO ELETRÔNICO EM PLATAFORMA WEB - SPROWEB"
+    },
+    {
+      "numero": "2019NE00449",
+      "contrato": "2/2019",
+      "valor": 1130.45,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2019",
+      "descricao": "Reforço que se faz necessário ao cronograma de outubro nº 002/2019 que tem como objetivo a prestação dos serviços de execução de Sistema de Protocolo em plataforma Web (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos desta SETRAB."
+    },
+    {
+      "numero": "2015NE00340",
+      "contrato": "10/2013",
+      "valor": 183813.57,
+      "situacao": "Ativo",
+      "data_emissao": "18/06/2015",
+      "descricao": "Contratação de Empresa Especializada em Fornecimento de (08)oito,Links Seguro e Dedicados compreendendo a disponibilidade de Acesso á Rede de Governo com Links dedicados, ponto a ponto,para acesso gerenciado aos sistemas contratado"
+    },
+    {
+      "numero": "2018NE00200",
+      "contrato": "4/2014",
+      "valor": 9292.91,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2018",
+      "descricao": "Referente ao 4º TA ao Termo de Contrato 004/2014 . Prorrogar prazo de Vigencia por mais 12 meses 28/02/2018 a 2702/2019"
+    },
+    {
+      "numero": "2016NE00112",
+      "contrato": "4/2014",
+      "valor": 3882.75,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2016",
+      "descricao": "REF: A CONTRATAÇÃO DOS SERVIÇOS DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPOSIÇÃO DO SISTEMA DE PROTOCOLO ELETRONICO EM PLATAFORMA WEB - SPROWEB."
+    },
+    {
+      "numero": "2016NE00111",
+      "contrato": "4/2014",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2016",
+      "descricao": "OBJETO: PRESTAÇÃO DE SERVIÇOS DE CESSÃO DE DIREITO DE USO DE PROGRAMA ESPECIALIZADO EM PLATAFORME DE TRAMITES ELETRONICO - SPROWEB, MES: 12/2015."
+    },
+    {
+      "numero": "2019NE00408",
+      "contrato": "2/2019",
+      "valor": 1130.45,
+      "situacao": "Ativo",
+      "data_emissao": "09/10/2019",
+      "descricao": "Reforço que se faz do cronograma de setembro do Termo de Contrato nº 002/2019 que tem como objeto a prestação de serviços de Uso de Sistema de Protocolo em plataforma Web (SPROWEB)."
+    },
+    {
+      "numero": "2018NE00101",
+      "contrato": "4/2014",
+      "valor": 1689.62,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2018",
+      "descricao": "Contratacao dos servicos de cessao de direito de uso do programa de computacao para atender as disposicoes do sistema de protocolo eletronico em plataforma web sproweb"
+    },
+    {
+      "numero": "2018NE00097",
+      "contrato": "3/2017",
+      "valor": 66101.46,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2018",
+      "descricao": "Prestação de serviços de Rede, compreendendo o acesso à Metromao, através de circuito de transmissão de dados interligados - link"
+    },
+    {
+      "numero": "2014NE00256",
+      "contrato": "10/2013",
+      "valor": 177543.36,
+      "situacao": "Ativo",
+      "data_emissao": "05/06/2014",
+      "descricao": "Contrato No. 10/2013 - 8 links ponto a ponto e Internet 3Mbps via MetroMAO"
+    },
+    {
+      "numero": "2018NE00215",
+      "contrato": "4/2014",
+      "valor": 10137.72,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "Referente ao 4º Termo Aditivo ao Termo de Contrato nº 004/2014,Prorrogar Prazo de Vigência por mais 12 meses 28/02/2018 27/02/2018"
+    },
+    {
+      "numero": "2018NE00214",
+      "contrato": "3/2017",
+      "valor": 66101.46,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "REFERENTE AO TERMO DE CONTRATO Nº 003/2017 DOS SERVIÇOS DE FIREWALL,ACESSO A METROMAO,FORNECIMENTO DE TRANSMISSÃO DE DADOS E ACESSO A REDE MUNDIAL NOS MESES DE JANEIRO A JUNHO/2018"
+    },
+    {
+      "numero": "2019NE00135",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "04/04/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão"
+    },
+    {
+      "numero": "2016NE00100",
+      "contrato": "4/2014",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE FORNECIMENTO DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPOSIÇÃO DO SISTEMA DE PROTOCOLO ELETRONICO EM PLATAFORMA WEB - SPROWEB."
+    },
+    {
+      "numero": "2016NE00107",
+      "contrato": "",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "REF: AO ERRO NA ORIGEM DO MATERIAL."
+    },
+    {
+      "numero": "2016NE00106",
+      "contrato": "4/2014",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "REF: PRESTAÇÃO DE SERVIÇOS DE CESSÃO DE DIREITO DE USO DE PROGRAMA ESPECIALIZADO EM PLATAFORME DE TRAMITES ELETRONICO - SPROWEB, MES: 12/2015."
+    },
+    {
+      "numero": "2016NE00108",
+      "contrato": "4/2014",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "REF: PRESTAÇÃO DE SERVIÇOS DE CESSÃO DE DIREITO DE USO DE PROGRAMA ESPECIALIZADO EM PLATAFORME DE TRAMITES ELETRONICO - SPROWEB, MES: 12/2015."
+    },
+    {
+      "numero": "2016NE00109",
+      "contrato": "",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "REF. AO ERRO NA NATUREZA."
+    },
+    {
+      "numero": "2017NE00203",
+      "contrato": "3/2017",
+      "valor": 22033.82,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2017",
+      "descricao": "Prestação de serviços de Rede, compreendendo o acesso à Metromao, através de circuito de transmissão de dados interligados - link"
+    },
+    {
+      "numero": "2017NE00164",
+      "contrato": "",
+      "valor": 3379.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "reforço da ne 58 referente a prestação de serviços de sistema de protocolo eletrônco"
+    },
+    {
+      "numero": "2018NE00132",
+      "contrato": "",
+      "valor": 66101.46,
+      "situacao": "Ativo",
+      "data_emissao": "02/04/2018",
+      "descricao": "anulação desta NE ,Referente descrição Incorreta."
+    },
+    {
+      "numero": "2019NE00008",
+      "contrato": "3/2017",
+      "valor": 33050.73,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE INFORMATICA, REDE COMPREENDENDO O ACESSO A METROMAO ATRAVES DO CIRCUITO DE TRANSMISSÃO DE DADOS."
+    },
+    {
+      "numero": "2019NE00001",
+      "contrato": "4/2014",
+      "valor": 2112.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de Empresa Especializada do Serviço de Disponibilização de Sistema de Protocolo em plataforma WEB, com acréscimo de 25%, devido a inclusão de itens de faturamento para nova versão do SPROWEB."
+    },
+    {
+      "numero": "2019NE00032",
+      "contrato": "4/2014",
+      "valor": 2112.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de Empresa Especializada do Serviço de Disponibilização de Sistema de Protocolo em plataforma WEB, com acréscimo de 25%, devido a inclusão de itens de faturamento para nova versão do SPROWEB."
+    },
+    {
+      "numero": "2019NE00050",
+      "contrato": "3/2017",
+      "valor": 33050.73,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE INFORMATICA, REDE COMPREENDENDO O ACESSO A METROMAO ATRAVES DO CIRCUITO DE TRANSMISSÃO DE DADOS."
+    },
+    {
+      "numero": "2019NE00037",
+      "contrato": "",
+      "valor": 33050.73,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "ANULAÇÃO DESTA NE, MOTIVO DESCRIÇÃO INCORRETA."
+    },
+    {
+      "numero": "2019NE00028",
+      "contrato": "",
+      "valor": 2112.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "anulação para correção da descrição"
+    },
+    {
+      "numero": "2017NE00024",
+      "contrato": "4/2014",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE FORNECIMENTO DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPOSIÇÃO DO SISTEMA DE PROTOCOLO ELETRÔNICO EM PLATAFORMA WEB - SPROWEB."
+    },
+    {
+      "numero": "2014NE00036",
+      "contrato": "10/2013",
+      "valor": 177543.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 10/2013 - 8 links ponto a ponto e Internet 3Mbps via MetroMAO"
+    },
+    {
+      "numero": "2014NE00038",
+      "contrato": "10/2013",
+      "valor": 88771.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 10/2013 - 8 links ponto a ponto e Internet 3Mbps via MetroMAO"
+    },
+    {
+      "numero": "2014NE00022",
+      "contrato": "2/2014",
+      "valor": 169021.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato N. 002/2014 - Serviços Técnico de Rede, Link, MetroMAO"
+    },
+    {
+      "numero": "2017NE00373",
+      "contrato": "4/2014",
+      "valor": 1689.62,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Empenho será destinado a cobrir despesas com o contrato n. 004/2014 - SETRAB, referente a prestação de serviços de disponibilidade do Sistema SPRWEB, mês de referência Novembro e Dezembro."
+    },
+    {
+      "numero": "2017NE00367",
+      "contrato": "3/2017",
+      "valor": 22033.82,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Prestação de serviços de Rede, compreendendo o acesso à Metromao, através de circuito de transmissão de dados interligados - link - meses de outubro e novembro."
+    },
+    {
+      "numero": "2016NE00581",
+      "contrato": "4/2014",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE FORNECIMENTO DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPOSIÇÃO DO SISTEMA DE PROTOCOLO ELETRONICO EM PLATAFORMA WEB - SPROWEB."
+    },
+    {
+      "numero": "2016NE00572",
+      "contrato": "",
+      "valor": 193.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "reserva"
+    },
+    {
+      "numero": "2016NE00512",
+      "contrato": "",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "REF: A PRESTAÇÃO DOS SERVIÇOS DE SPROWEB (PLATAFORMA)"
+    },
+    {
+      "numero": "2016NE00509",
+      "contrato": "",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "reserva"
+    },
+    {
+      "numero": "2016NE00509",
+      "contrato": "",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "reserva"
+    },
+    {
+      "numero": "2016NE00512",
+      "contrato": "4/2014",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "REF: A PRESTAÇÃO DOS SERVIÇOS DE SPROWEB (PLATAFORMA)"
+    },
+    {
+      "numero": "2018NE00506",
+      "contrato": "",
+      "valor": 66101.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2018",
+      "descricao": "ANULAÇÃO QUE SE FAZ PARA CORREÇÃO DO SUBITEM DA NATUREZA DE DESPESAS."
+    },
+    {
+      "numero": "2018NE00491",
+      "contrato": "3/2017",
+      "valor": 66101.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2018",
+      "descricao": "Prestação do serviço de Rede, compreendendo o acesso a MetroMAO, através do circuito de transmissão de Dados para atender a SETRAB, 1º TACT 003/2017 - prorrogação prazo de vigência por mais 12 meses."
+    },
+    {
+      "numero": "2016NE00475",
+      "contrato": "4/2014",
+      "valor": 1553.1,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2016",
+      "descricao": "RESERVA"
+    },
+    {
+      "numero": "2016NE00475",
+      "contrato": "",
+      "valor": 1553.1,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2016",
+      "descricao": "RESERVA"
+    },
+    {
+      "numero": "2016NE00465",
+      "contrato": "",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2016",
+      "descricao": "100171 - SERVIÇOS DE LICENÇAS DE SOFTWARES, Descrição: SERVIÇOS DE LICENÇAS DE SOFTWARES, Descrição: Licença de uso de Sistema de Protocolo em plataforma WEB, conforme Projeto Básico MARCA: null REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 004/2014-SETRAB. OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE FORNECIMENTO DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPOSIÇÃO DO SISTEMA DE PROTOCOLO ELETRONICO EM PLATAFORMA WEB - SPROWEB. VIGÊNCIA: 2"
+    },
+    {
+      "numero": "2016NE00465",
+      "contrato": "4/2014",
+      "valor": 776.55,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2016",
+      "descricao": "100171 - SERVIÇOS DE LICENÇAS DE SOFTWARES, Descrição: SERVIÇOS DE LICENÇAS DE SOFTWARES, Descrição: Licença de uso de Sistema de Protocolo em plataforma WEB, conforme Projeto Básico MARCA: null REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 004/2014-SETRAB. OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE FORNECIMENTO DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPOSIÇÃO DO SISTEMA DE PROTOCOLO ELETRONICO EM PLATAFORMA WEB - SPROWEB. VIGÊNCIA: 2"
+    },
+    {
+      "numero": "2017NE00294",
+      "contrato": "3/2017",
+      "valor": 11576.91,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "COMPLEMENTAÇÃO FINANCEIRA DO CONTRATO N.003/2017 - OBJETO DISPONIBILIDADE DE LINK PARA SETRAB E SUAS UNIDADES."
+    },
+    {
+      "numero": "2016NE00373",
+      "contrato": "",
+      "valor": 212.4,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "RESERVA DE EMPENHO"
+    },
+    {
+      "numero": "2015NE00564",
+      "contrato": "",
+      "valor": 35904.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "Anulaçao desta NE referente Descriçao Incorreta"
+    },
+    {
+      "numero": "2019NE00339",
+      "contrato": "5/2019",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2019",
+      "descricao": "Contratação de empresa especializada na Prestação de Serviços de execução de sistema da informação, compreendendo a disponibilização de informações, notícias, vídeos e imagens, via WEBSITE, de acordo com o padrão de comunicação visual do Governo do E"
+    },
+    {
+      "numero": "2018NE00301",
+      "contrato": "4/2014",
+      "valor": 1056.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA DO SERVIÇO DE DISPONIBILIZAÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB, COM ACRÉSCIMO DE 25%, DEVIDO A INCLUSÃO DE ITENS DE FATURAMENTO PARA NOVA VERSÃO DO SPROWEB."
+    },
+    {
+      "numero": "2019NE00287",
+      "contrato": "",
+      "valor": 418.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Anulação que se faz de saldo de empenho de Contrato não executado despesa na sua totalidade mensalmente."
+    },
+    {
+      "numero": "2019NE00312",
+      "contrato": "3/2017",
+      "valor": 10965.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos Serviços de Informática, Rede compreendendo o acesso a Metromao através co circuito de transmissão de dados."
+    },
+    {
+      "numero": "2019NE00313",
+      "contrato": "2/2019",
+      "valor": 2260.9,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Reforco que se faz do cronograma de julho e agosto do Termo de Contrato nº 002/2019 que tem como objeto a prestação de serviços de Uso de Sistema de Protocolo em plataforma Web (SPROWEB)."
+    },
+    {
+      "numero": "2019NE00289",
+      "contrato": "",
+      "valor": 282.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Anulação que se faz de saldo de empenho de Contrato não executado despesa no valor mensal previsto."
+    },
+    {
+      "numero": "2016NE00309",
+      "contrato": "",
+      "valor": 2329.65,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE FORNECIMENTO DE CESSÃO DE DIREITO DE USO DE PROGRAMAS DE COMPUTAÇÃO PARA A DISPOSIÇÃO DO SISTEMA DE PROTOCOLO ELETRONICO EM PLATAFORMA WEB - SPROWEB."
+    },
+    {
+      "numero": "2018NE00209",
+      "contrato": "",
+      "valor": 9292.91,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "Anulação desta 2018NE00200"
+    },
+    {
+      "numero": "2015NE00316",
+      "contrato": "4/2014",
+      "valor": 8250.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+    },
+    {
+      "numero": "2019NE00129",
+      "contrato": "3/2017",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Dezembro/18"
+    },
+    {
+      "numero": "2019NE00117",
+      "contrato": "3/2017",
+      "valor": 5077.33,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/18."
+    },
+    {
+      "numero": "2019NE00134",
+      "contrato": "",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "Anulação da Nota de Empenho nº. 104 - equivoco no elemento de despesas"
+    },
+    {
+      "numero": "2019NE00130",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão"
+    },
+    {
+      "numero": "2019NE00133",
+      "contrato": "3/2017",
+      "valor": 2780.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão"
+    },
+    {
+      "numero": "2019NE00132",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão"
+    },
+    {
+      "numero": "2019NE00124",
+      "contrato": "3/2017",
+      "valor": 362.67,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/2018"
+    },
+    {
+      "numero": "2019NE00121",
+      "contrato": "3/2017",
+      "valor": 916.14,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/18."
+    },
+    {
+      "numero": "2019NE00127",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Dezembro/18"
+    },
+    {
+      "numero": "2019NE00123",
+      "contrato": "3/2017",
+      "valor": 65.44,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/2018"
+    },
+    {
+      "numero": "2019NE00118",
+      "contrato": "3/2017",
+      "valor": 1694.31,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/18."
+    },
+    {
+      "numero": "2019NE00116",
+      "contrato": "2/2019",
+      "valor": 3391.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de execução de Sistema de Protocolo em plataforma web (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos desta SETRAB."
+    },
+    {
+      "numero": "2019NE00131",
+      "contrato": "3/2017",
+      "valor": 5440.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1.º (Primeiro) Termo Aditivo ao Contrato n.º 003/2017-SETRAB. Prorrogação do Prazo Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Acesso a Rede Mundial, compreendendo o acesso a MetroMAO, através do circuito de transmissão"
+    },
+    {
+      "numero": "2019NE00126",
+      "contrato": "3/2017",
+      "valor": 981.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Dezembro/18"
+    },
+    {
+      "numero": "2019NE00128",
+      "contrato": "3/2017",
+      "valor": 1815.33,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Dezembro/18"
+    },
+    {
+      "numero": "2019NE00122",
+      "contrato": "3/2017",
+      "valor": 121.02,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/2018"
+    },
+    {
+      "numero": "2019NE00119",
+      "contrato": "3/2017",
+      "valor": 2594.67,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/18."
+    },
+    {
+      "numero": "2019NE00125",
+      "contrato": "3/2017",
+      "valor": 185.33,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º Termo Aditivo ao Contrato nº 003/2017. Objeto: Contratação de empresa especializada na prestação dos serviços de Acesso a Rede Mundial, compreendendo o acesso a Metromao, através de circuito de dados de transmissão, Competência: Julho/2018"
+    },
+    {
+      "numero": "2019NE00138",
+      "contrato": "",
+      "valor": 33050.73,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE INFORMATICA, REDE COMPREENDENDO O ACESSO A METROMAO ATRAVES DO CIRCUITO DE TRANSMISSÃO DE DADOS."
+    }
+  ],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 176,
+      "valor_total": 2076190.08,
+      "por_ano": {
+        "2016": {
+          "qtd": 26,
+          "valor": 20762.749999999996
+        },
+        "2019": {
+          "qtd": 108,
+          "valor": 383844.19000000006
+        },
+        "2017": {
+          "qtd": 12,
+          "valor": 70904.23000000001
+        },
+        "2018": {
+          "qtd": 18,
+          "valor": 521415.43000000005
+        },
+        "2015": {
+          "qtd": 6,
+          "valor": 452133.64
+        },
+        "2014": {
+          "qtd": 6,
+          "valor": 627129.84
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

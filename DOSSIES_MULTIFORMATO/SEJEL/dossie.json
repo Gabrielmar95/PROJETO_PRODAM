@@ -1,0 +1,921 @@
+{
+  "sigla": "SEJEL",
+  "profile": {
+    "nome_completo": "Secretaria de Estado de Juventude, Esporte e Lazer",
+    "sigla": "SEJEL",
+    "natureza": "Secretaria de Estado",
+    "categoria": "GOV_DIRETA",
+    "val_orig": "280242.25",
+    "val_exig": "280242.25",
+    "val_atualizado": "280242.25",
+    "faturas_total": 96,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 96,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 0,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Pendente analise",
+    "observacoes": "Incluido via SPCF Mar/2026. 0 fat aberto (B2-05). R$574K em perdas. 96 fat devidas mas todas possivelmente prescritas/perdas",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "CNPJ_PENDENTE",
+    "tipo": "GOV",
+    "score_composto": 0,
+    "proximo_passo": "CLASSIFICAR",
+    "fonte": "SPCF_MAR2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-31",
+    "spcf_total_receber": "280242.25",
+    "spcf_fat_devidas_qtd": 96,
+    "spcf_fat_devidas_val": "280242.25",
+    "spcf_fat_aberto_qtd": 0,
+    "spcf_fat_aberto_val": "0",
+    "spcf_perdas": "574447.02",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 0,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 13,
+    "fat_canceladas_val_bruto": 54138.45,
+    "fat_canceladas_val_liquido": 51431.53,
+    "faturamento_total_2019_2026": 212945.68,
+    "recebimento_total_2019_2026": 184226.0,
+    "taxa_pagamento_pct": 86.51,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 19,
+    "faturamento_pico_mes": "2020-Abr",
+    "faturamento_pico_valor": 35945.36,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2020-Ago",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 0.0,
+    "empenho_historico_qtd": 0,
+    "empenho_valor_global_contratos": 0.0,
+    "empenho_2026_gerencial": 0.0,
+    "a_empenhar_2026": 0.0,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2018NE00339",
+      "contrato": "26/2015",
+      "valor": 8426.43,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2018",
+      "descricao": "REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 026/2015 COM A EMPRESA PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S/A, COM O OBJETO DE PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE WEBSITE."
+    },
+    {
+      "numero": "2018NE00334",
+      "contrato": "6/2017",
+      "valor": 60372.9,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2018",
+      "descricao": "REFERENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 006/2017 COM A EMPRESA PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S/A, COM O OBJETO DE PRESTAÇÃO DE SERVIÇO DE REDE - INTERNET."
+    },
+    {
+      "numero": "2014NE00928",
+      "contrato": "4/2012",
+      "valor": 5830.92,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2014",
+      "descricao": "Contrato No. 4/2012 - Sistema de Protocolo em Plataforma Web - SPROWEB"
+    },
+    {
+      "numero": "2016NE00838",
+      "contrato": "",
+      "valor": 2202.92,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO DA NE 71 PARA AJUSTES ORÇAMENTÁRIO DE ENCERRAMENTO DE EXERCÍCIO."
+    },
+    {
+      "numero": "2016NE00836",
+      "contrato": "",
+      "valor": 17588.5,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO DA NE 26 PARA AJUSTES ORÇAMENTÁRIO DE ENCERRAMENTO DE EXERCÍCIO."
+    },
+    {
+      "numero": "2016NE00837",
+      "contrato": "",
+      "valor": 925.56,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO DA NE 27 PARA AJUSTES ORÇAMENTÁRIO DE ENCERRAMENTO DE EXERCÍCIO."
+    },
+    {
+      "numero": "2016NE00523",
+      "contrato": "4/2012",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00521",
+      "contrato": "",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "CANCELAMENTO DE NE PARA ALTERAÇÃO NA MODALIDADE."
+    },
+    {
+      "numero": "2016NE00523",
+      "contrato": "4/2012",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00521",
+      "contrato": "",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2016",
+      "descricao": "CANCELAMENTO DE NE PARA ALTERAÇÃO NA MODALIDADE."
+    },
+    {
+      "numero": "2019NE00207",
+      "contrato": "6/2017",
+      "valor": 27038.53,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2019",
+      "descricao": "REFERENTE OS MESES DE ABRIL A JUNHO DO CONTRATO N. 006/2017 - SERVIÇO DE ACESSO A INTERNET."
+    },
+    {
+      "numero": "2016NE00366",
+      "contrato": "",
+      "valor": 10221.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMATICA EM GERAL, CONFORME O PROJETO BASICO"
+    },
+    {
+      "numero": "2016NE00367",
+      "contrato": "",
+      "valor": 10221.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2016",
+      "descricao": "ANULAÇÃO DA NE 366 PARA ACERTO NO CRONOGRAMA DE DESENBOLSO."
+    },
+    {
+      "numero": "2016NE00370",
+      "contrato": "",
+      "valor": 10221.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA EM GERAL, CONFORME O PROJETO BÁSICO."
+    },
+    {
+      "numero": "2016NE00188",
+      "contrato": "",
+      "valor": 509.09,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PROCESSAMENTO DE FOLHA DE PAGAMENTO ESPECIAL"
+    },
+    {
+      "numero": "2015NE00082",
+      "contrato": "",
+      "valor": 17710.79,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2015",
+      "descricao": "- EXERCÍCIOS ANTERIORES Nº 012/2015;"
+    },
+    {
+      "numero": "2018NE00591",
+      "contrato": "",
+      "valor": 78.76,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAR PARA AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2018NE00592",
+      "contrato": "",
+      "valor": 3589.74,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAR PARA AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2016NE00508",
+      "contrato": "4/2012",
+      "valor": 3870.79,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRARAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00518",
+      "contrato": "",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "CANNE PARA ALTERAÇÃO NA LICITAÇÃO."
+    },
+    {
+      "numero": "2016NE00511",
+      "contrato": "4/2012",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "SERVIÇOS DE PROCESSAMENTO DE DADOS, Descrição: SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00519",
+      "contrato": "4/2012",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "SERVIÇOS DE PROCESSAMENTO DE DADOS, Descrição: SERVIÇOS DE PROCESSAMENTO DE DADOS, Descrição: SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00508",
+      "contrato": "4/2012",
+      "valor": 3870.79,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRARAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00518",
+      "contrato": "",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "CANNE PARA ALTERAÇÃO NA LICITAÇÃO."
+    },
+    {
+      "numero": "2016NE00511",
+      "contrato": "4/2012",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "SERVIÇOS DE PROCESSAMENTO DE DADOS, Descrição: SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00510",
+      "contrato": "",
+      "valor": 3870.79,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "CANNE PARA AJUSTES NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2016NE00510",
+      "contrato": "",
+      "valor": 3870.79,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "CANNE PARA AJUSTES NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2016NE00519",
+      "contrato": "4/2012",
+      "valor": 3225.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "SERVIÇOS DE PROCESSAMENTO DE DADOS, Descrição: SERVIÇOS DE PROCESSAMENTO DE DADOS, Descrição: SERVIÇO ESPECIALIZADO EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2019NE00313",
+      "contrato": "",
+      "valor": 1307.05,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2019NE00311",
+      "contrato": "",
+      "valor": 19.36,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "ANULAÇÃO DE EMPENHO EM CUMPRIMENTO A LEI DELEGADA Nº 122 DE 15/10/2019."
+    },
+    {
+      "numero": "2016NE00564",
+      "contrato": "",
+      "valor": 7035.4,
+      "situacao": "Ativo",
+      "data_emissao": "25/10/2016",
+      "descricao": "CANCELAR PARA AJUSTE ORÇAMENTARIO."
+    },
+    {
+      "numero": "2016NE00565",
+      "contrato": "18/2013",
+      "valor": 7035.4,
+      "situacao": "Ativo",
+      "data_emissao": "25/10/2016",
+      "descricao": "- TERMO DE CONTRATO Nº 018/2013 - TERCEIRO TERMO ADITIVO; - OBJETO: PRESTAÇÃO DE SERVIÇOS DE ACESSO À REDE DE INTERNET PARA ATENDER AS NECESSIDADES DESTA SEJEL."
+    },
+    {
+      "numero": "2018NE00477",
+      "contrato": "26/2015",
+      "valor": 3589.74,
+      "situacao": "Ativo",
+      "data_emissao": "24/10/2018",
+      "descricao": "SOLICITAÇÃO DE COTA REFERENTE AO TERCEIRO TERMO ADITIVO AO CONTRATO 26/2015 - PRODAM DE HOSPEDAGEM DE SITE DESTA SEJEL."
+    },
+    {
+      "numero": "2015NE00828",
+      "contrato": "",
+      "valor": 3517.65,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00834",
+      "contrato": "",
+      "valor": 1329.74,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00835",
+      "contrato": "",
+      "valor": 2590.92,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00821",
+      "contrato": "",
+      "valor": 485.46,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2017NE00221",
+      "contrato": "6/2017",
+      "valor": 34498.8,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "SERVIÇOS DE ACESSO À REDE DE INTERNET PARA ATENDER AS NECESSIDADES DESTA SEJEL"
+    },
+    {
+      "numero": "2017NE00228",
+      "contrato": "6/2017",
+      "valor": 25874.1,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "SERVIÇOS DE ACESSO À INTERNET."
+    },
+    {
+      "numero": "2017NE00225",
+      "contrato": "",
+      "valor": 2150.44,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2017NE00224",
+      "contrato": "",
+      "valor": 3873.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE PROCESSAMENTO DE DADOS (HOSPEDAGEM DE SITE)."
+    },
+    {
+      "numero": "2017NE00252",
+      "contrato": "26/2015",
+      "valor": 3873.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE PROCESSAMENTO DE DADOS (HOSPEDAGEM DE SITE)."
+    },
+    {
+      "numero": "2017NE00251",
+      "contrato": "",
+      "valor": 3873.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "ANULAÇÃO DE EMPRENHO PARA ALTERAÇÃO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2017NE00249",
+      "contrato": "",
+      "valor": 2150.44,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA ALTERAÇÃO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2017NE00250",
+      "contrato": "4/2012",
+      "valor": 2150.44,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2017NE00227",
+      "contrato": "",
+      "valor": 34498.8,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2017",
+      "descricao": "ANULAÇÃO DE NE PARA ALTERAÇÃO NO CRONOGRAMA."
+    },
+    {
+      "numero": "2017NE00053",
+      "contrato": "26/2015",
+      "valor": 3873.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE PROCESSAMENTO DE DADOS. (HOSPEDAGEM DE SITE)"
+    },
+    {
+      "numero": "2017NE00057",
+      "contrato": "26/2015",
+      "valor": 3873.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE PROCESSAMENTO DE DADOS. (HOSPEDAGEM DE SITE)"
+    },
+    {
+      "numero": "2017NE00056",
+      "contrato": "",
+      "valor": 3873.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2017",
+      "descricao": "CANCELAMENTO DO EMPENHO PARA ALTERAÇÃO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2017NE00676",
+      "contrato": "",
+      "valor": 387.7,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "CANCELAR SALDO DE EMPENHO EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2017NE00677",
+      "contrato": "",
+      "valor": 1728.09,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "CANCELAR SALDO DE EMPENHO EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2015NE00151",
+      "contrato": "",
+      "valor": 810.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2015",
+      "descricao": "FOLHA DE INFORMAÇÃO DE EXERCÍCIOS ANTERIORES Nº 18/2015"
+    },
+    {
+      "numero": "2015NE00654",
+      "contrato": "26/2015",
+      "valor": 3468.88,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00655",
+      "contrato": "4/2012",
+      "valor": 5830.92,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2015",
+      "descricao": "CORREÇÃO NA DESCRIÇÃO E REFERÊNCIA"
+    },
+    {
+      "numero": "2015NE00659",
+      "contrato": "4/2012",
+      "valor": 5830.92,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2015",
+      "descricao": "Cobertura Financeira 2015."
+    },
+    {
+      "numero": "2020NE00056",
+      "contrato": "4/2020",
+      "valor": 10204.74,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2020",
+      "descricao": "Contrato 004/2020 - Gestor de Conteudo WEB"
+    },
+    {
+      "numero": "2020NE00055",
+      "contrato": "3/2020",
+      "valor": 8898.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2020",
+      "descricao": "Contrato 003/2020 - SPROWEB"
+    },
+    {
+      "numero": "2020NE00054",
+      "contrato": "2/2020",
+      "valor": 53901.6,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2020",
+      "descricao": "Contrato 002/2020 - Serviço de transmissão de dados"
+    },
+    {
+      "numero": "2016NE00613",
+      "contrato": "",
+      "valor": 28141.6,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2016",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE ACESSO À REDE DE INTERNET PARA ATENDER AS NECESSIDADES DESTA SEJEL"
+    },
+    {
+      "numero": "2015NE00647",
+      "contrato": "4/2012",
+      "valor": 5830.92,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2015",
+      "descricao": "CONTRATO 004/2012 - TERCEIRO TERMO ADITIVO"
+    },
+    {
+      "numero": "2018NE00135",
+      "contrato": "",
+      "valor": 34498.8,
+      "situacao": "Ativo",
+      "data_emissao": "08/03/2018",
+      "descricao": "ANULAÇÃO DA 132 PARA ACERTO NO ELEMENTO DE DESPESAS CONFORME PARECER DA INSPETORA DA SEFAZ."
+    },
+    {
+      "numero": "2018NE00136",
+      "contrato": "",
+      "valor": 8426.43,
+      "situacao": "Ativo",
+      "data_emissao": "08/03/2018",
+      "descricao": "ANULAÇÃO DA 134 PARA ACERTO NO ELEMENTO DE DESPESAS CONFORME PARECER DA INSPETORA DA SEFAZ."
+    },
+    {
+      "numero": "2018NE00134",
+      "contrato": "26/2015",
+      "valor": 8426.43,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SITE AS NECESSIDADES DESTA SECRETARIA"
+    },
+    {
+      "numero": "2018NE00131",
+      "contrato": "",
+      "valor": 34498.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "ANULAR PARA ACERTO NA DESCRIÇÃO"
+    },
+    {
+      "numero": "2018NE00130",
+      "contrato": "6/2017",
+      "valor": 34498.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE INTERNET ATRAVÉS DA REDE DO GOVERNO"
+    },
+    {
+      "numero": "2018NE00132",
+      "contrato": "6/2017",
+      "valor": 34498.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE INTERNET ATRAVÉS DA REDE DO GOVERNO"
+    },
+    {
+      "numero": "2015NE00003",
+      "contrato": "18/2013",
+      "valor": 27028.23,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00005",
+      "contrato": "4/2012",
+      "valor": 2915.46,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2016NE00040",
+      "contrato": "",
+      "valor": 5176.02,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "ANULAR NE Nº 34 PARA AJUSTE NO VALOR GLOBAL CONFORME INSTRUÇÃO DO INSPETOR."
+    },
+    {
+      "numero": "2016NE00030",
+      "contrato": "",
+      "valor": 5203.32,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "ANULAR NE 28 DE 04/01/2016 PARA MUDANÇA DE NATUREZA DE DESPESA CONFORME SOLICITAÇÃO DA CHEFE DO SETOR"
+    },
+    {
+      "numero": "2016NE00027",
+      "contrato": "4/2012",
+      "valor": 5830.92,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE DISPONIBILIDADE DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB) PARA ATENDER AS NECESSIDADES DESTA SEJEL."
+    },
+    {
+      "numero": "2016NE00033",
+      "contrato": "26/2015",
+      "valor": 5203.32,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADO EM PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SITE."
+    },
+    {
+      "numero": "2016NE00026",
+      "contrato": "18/2013",
+      "valor": 42212.4,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET) PARA ATENDER AS NECESSIDADES DESTA SEJEL."
+    },
+    {
+      "numero": "2016NE00028",
+      "contrato": "26/2015",
+      "valor": 5203.32,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM HOSPEDAGEM DE SITE PARA ATENDER AS NECESSIDADES DESTA SEJEL."
+    },
+    {
+      "numero": "2016NE00034",
+      "contrato": "26/2015",
+      "valor": 5176.02,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE PROCESSAMENTO DE DADOS ATUALIZAÇÃO DE WEB SITE."
+    },
+    {
+      "numero": "2016NE00041",
+      "contrato": "18/2014",
+      "valor": 5176.02,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE´PROCESSAMENTO DE DADOS ATULIZAÇÃO DE WEB SITE"
+    },
+    {
+      "numero": "2019NE00252",
+      "contrato": "3/2019",
+      "valor": 1307.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "Contratação de Serviços Implantação do Sistema de Protocolo (Sproweb)"
+    },
+    {
+      "numero": "2019NE00249",
+      "contrato": "",
+      "valor": 1307.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "erro de descrição"
+    },
+    {
+      "numero": "2019NE00245",
+      "contrato": "3/2019",
+      "valor": 1307.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "Contratação de Serviços Implantação do Sistema de Protocolo (Sproweb)"
+    },
+    {
+      "numero": "2019NE00251",
+      "contrato": "",
+      "valor": 1307.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "ERRO DE REFERENCIA"
+    },
+    {
+      "numero": "2019NE00250",
+      "contrato": "3/2019",
+      "valor": 1307.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "Contratação de Serviços Implantação do Sistema de Protocolo (Sproweb)"
+    },
+    {
+      "numero": "2019NE00003",
+      "contrato": "6/2017",
+      "valor": 25874.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS INTERNET ATRAVÉS DA REDE GOVERNO"
+    },
+    {
+      "numero": "2019NE00004",
+      "contrato": "26/2015",
+      "valor": 3076.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO E SERVIÇOS DE HOSPEDAGEM DE SITE"
+    },
+    {
+      "numero": "2017NE00006",
+      "contrato": "4/2012",
+      "valor": 4300.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM CESSÃO DE USO DE PROGRAMA DE COMPUTAÇÃO PARA DISPONIBILIZAÇÃO DO SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2014NE00017",
+      "contrato": "4/2012",
+      "valor": 5400.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 4/2012 - Sistema de Protocolo em Plataforma Web - SPROWEB"
+    },
+    {
+      "numero": "2014NE00023",
+      "contrato": "18/2013",
+      "valor": 95715.18,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 18/2013 - Acesso Internet na velocidade 3Mbps"
+    },
+    {
+      "numero": "2015NE00693",
+      "contrato": "4/2012",
+      "valor": 485.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAR PARCIALMENTE O EMPENHO 2015NE00342, CONFORME SOLICITADO PELO MEMO Nº 44/2015.GSEA/SEJEL."
+    },
+    {
+      "numero": "2016NE00375",
+      "contrato": "",
+      "valor": 10221.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "-CONTRATAÇÃO DE EMPRESA ESPECEALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMATICA."
+    },
+    {
+      "numero": "2015NE03019",
+      "contrato": "18/2013",
+      "valor": 59800.85,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+    },
+    {
+      "numero": "2015NE00342",
+      "contrato": "4/2012",
+      "valor": 2915.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "contrato 004/2012 - prodam segundo termo aditivo."
+    },
+    {
+      "numero": "2015NE00318",
+      "contrato": "18/2013",
+      "valor": 59800.85,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAR PARA AJUSTES."
+    },
+    {
+      "numero": "2015NE00302",
+      "contrato": "18/2013",
+      "valor": 59800.85,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "2º T.A AO CONTATRO 018/2013 - PRODAM/INTERNET."
+    },
+    {
+      "numero": "2015NE00303",
+      "contrato": "4/2012",
+      "valor": 2915.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "SEGUNDO TERMO ADITIVO AO CONTRATO 04/2014"
+    },
+    {
+      "numero": "2015NE00341",
+      "contrato": "4/2012",
+      "valor": 2915.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "cancelar para ajustes."
+    },
+    {
+      "numero": "2015NE00319",
+      "contrato": "18/2013",
+      "valor": 59800.85,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira 2015 - De 04 a 11/2015"
+    },
+    {
+      "numero": "2015NE00321",
+      "contrato": "4/2012",
+      "valor": 2915.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "SEGUNDO TERMO ADITIVO AO CONTRATO 004/2012."
+    },
+    {
+      "numero": "2015NE00320",
+      "contrato": "4/2012",
+      "valor": 2915.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAR PARA AJUSTER"
+    },
+    {
+      "numero": "2016NE00071",
+      "contrato": "10/2014",
+      "valor": 9238.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "TERMO DE CONTRATO 010/2014 - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2016NE00068",
+      "contrato": "",
+      "valor": 9238.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "anulação da ne 65 para acerto na descrição"
+    },
+    {
+      "numero": "2016NE00065",
+      "contrato": "10/2014",
+      "valor": 9238.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "TERMO DE CONTRATO 010/2014 - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS INFORMATICA DE FORMA EVENTUAL."
+    },
+    {
+      "numero": "2016NE00073",
+      "contrato": "24/2014",
+      "valor": 21834.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "CONTRATO 024/2014 - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET) PARA ATENDER AS NECESSIDADES DESTA SEJEL."
+    }
+  ],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 101,
+      "valor_total": 1218094.75,
+      "por_ano": {
+        "2018": {
+          "qtd": 11,
+          "valor": 230905.63
+        },
+        "2014": {
+          "qtd": 3,
+          "valor": 106946.09999999999
+        },
+        "2016": {
+          "qtd": 37,
+          "valor": 280793.73
+        },
+        "2019": {
+          "qtd": 10,
+          "valor": 63851.21
+        },
+        "2015": {
+          "qtd": 22,
+          "valor": 331616.05000000005
+        },
+        "2017": {
+          "qtd": 15,
+          "valor": 130977.69
+        },
+        "2020": {
+          "qtd": 3,
+          "valor": 73004.34
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

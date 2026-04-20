@@ -1,0 +1,25 @@
+{
+  "filename": "REQUERIMENTO__32cb5dd05f.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\REQUERIMENTO__32cb5dd05f.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499574,
+  "texto_length": 1336,
+  "texto_preview": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 511.277,10 (QUINHENTOS E ONZE MIL, DUZENTOS E SETENTA E SETE REAIS E DEZ\nCENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nfev/2021\n0,00\n0,00\n1.740,51\n91,61\n25029\n22/2014\n1.832,12\nExecução de sistemas - Si",
+  "texto_completo": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 511.277,10 (QUINHENTOS E ONZE MIL, DUZENTOS E SETENTA E SETE REAIS E DEZ\nCENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nfev/2021\n0,00\n0,00\n1.740,51\n91,61\n25029\n22/2014\n1.832,12\nExecução de sistemas - Sist. de Controle Frota\nVeiculos Apreendidos\nfev/2021\n0,00\n0,00\n78.201,02\n4.115,84\n25035\n22/2014\n82.316,86\nExecução de sistemas - Sist. de Carteira Nacional\nde Habilitação\nfev/2021\n0,00\n0,00\n384.757,95\n20.250,42\n25036\n22/2014\n405.008,37\nExecução de sistemas - Sist. de Controle Veículos\nMultas e Talonários\nfev/2021\n0,00\n0,00\n21.013,76\n1.105,99\n25037\n22/2014\n22.119,75\nExecução de sistemas - Sist. Cont. Infra. Talonários\nTotais\n511.277,10\n0,00\n25.563,86\n485.713,24\n0,00\nNestes Termos\nP. Deferimento\n José Maria Pinto\n Gerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80"
+    ],
+    "valores_brl": [
+      "511.277,10"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

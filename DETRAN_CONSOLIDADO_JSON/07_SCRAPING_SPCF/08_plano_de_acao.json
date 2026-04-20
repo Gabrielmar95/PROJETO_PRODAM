@@ -1,0 +1,65 @@
+{
+  "filename": "08_plano_de_acao.csv",
+  "tipo_doc": "CSV_SPCF",
+  "categoria": "07_SCRAPING_SPCF",
+  "total_linhas": 5,
+  "campos": [
+    "﻿prioridade",
+    "acao",
+    "impacto_esperado"
+  ],
+  "amostra_5_linhas": [
+    {
+      "﻿prioridade": "1",
+      "acao": "Revisar manualmente as cadeias COMPLETAs de DETRAN (confirmar vinculação real NE→NL→NF)",
+      "impacto_esperado": "Base probatória solida para execução Art. 784 CPC"
+    },
+    {
+      "﻿prioridade": "2",
+      "acao": "Ampliar regex de NFs para capturar formatos livres em DETRAN",
+      "impacto_esperado": "Fecha NE+NF para as NEs com só NL"
+    },
+    {
+      "﻿prioridade": "3",
+      "acao": "Revisar 42 (reclassificados) DESCONHECIDOs — confirmar tipos atribuidos heuristicamente",
+      "impacto_esperado": "Precisão da classificação"
+    },
+    {
+      "﻿prioridade": "4",
+      "acao": "Extrair período de competência das NLs para cálculo preciso de prescrição",
+      "impacto_esperado": "Prescrição por fatura"
+    },
+    {
+      "﻿prioridade": "5",
+      "acao": "Cruzar SPCF (R$ 9.810.879,48) com valores extraidos dos PDFs para consistência",
+      "impacto_esperado": "Garantir que o extraido cobre a SPCF"
+    }
+  ],
+  "dados_completos": [
+    {
+      "﻿prioridade": "1",
+      "acao": "Revisar manualmente as cadeias COMPLETAs de DETRAN (confirmar vinculação real NE→NL→NF)",
+      "impacto_esperado": "Base probatória solida para execução Art. 784 CPC"
+    },
+    {
+      "﻿prioridade": "2",
+      "acao": "Ampliar regex de NFs para capturar formatos livres em DETRAN",
+      "impacto_esperado": "Fecha NE+NF para as NEs com só NL"
+    },
+    {
+      "﻿prioridade": "3",
+      "acao": "Revisar 42 (reclassificados) DESCONHECIDOs — confirmar tipos atribuidos heuristicamente",
+      "impacto_esperado": "Precisão da classificação"
+    },
+    {
+      "﻿prioridade": "4",
+      "acao": "Extrair período de competência das NLs para cálculo preciso de prescrição",
+      "impacto_esperado": "Prescrição por fatura"
+    },
+    {
+      "﻿prioridade": "5",
+      "acao": "Cruzar SPCF (R$ 9.810.879,48) com valores extraidos dos PDFs para consistência",
+      "impacto_esperado": "Garantir que o extraido cobre a SPCF"
+    }
+  ]
+}

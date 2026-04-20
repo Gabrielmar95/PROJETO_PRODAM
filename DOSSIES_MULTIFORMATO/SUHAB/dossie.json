@@ -1,0 +1,3062 @@
+{
+  "sigla": "SUHAB",
+  "profile": {
+    "nome_completo": "Superintendência da Zona Franca de Manaus - Habitação",
+    "sigla": "SUHAB",
+    "natureza": "Superintendência",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "840061.1525043402",
+    "val_orig": "710644.0000000003",
+    "val_atualizado": "1210268.549392809",
+    "faturas_total": 123,
+    "faturas_prescritas": 36,
+    "faturas_exigiveis": 87,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Análise pendente",
+    "observacoes": "Documentação fraca",
+    "forca_probatoria": "MÉDIA",
+    "modelo_notificacao": "B",
+    "reconhecimento_revisado": {
+      "total_evidencias": 7,
+      "classificacao": "CONFIRMADO — Pagamento parcial",
+      "por_tipo": {
+        "E": 6,
+        "F": 1
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "04.355.863/0001-32",
+    "evidencias_reconhecimento": 7,
+    "evidencias_por_tipo": {
+      "E": 6,
+      "F": 1
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Pagamento parcial",
+    "tipo": "GOV",
+    "score_composto": 0.5337,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.47,
+    "ev_valor_esperado": "394828.74",
+    "ev_honorarios": "78965.75",
+    "esforco_estimado": 5,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 9,
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "SUHAB",
+    "spcf_total_receber": "636026.33",
+    "spcf_fat_devidas_qtd": 115,
+    "spcf_fat_devidas_val": "636026.33",
+    "spcf_fat_aberto_qtd": 17,
+    "spcf_fat_aberto_val": "378345.92",
+    "spcf_perdas": "555356.27",
+    "emp_2026": "46114.96",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 5,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 32,
+    "fat_canceladas_val_bruto": 110480.0,
+    "fat_canceladas_val_liquido": 107078.69,
+    "faturamento_total_2019_2026": 3206959.92,
+    "recebimento_total_2019_2026": 2711914.0,
+    "taxa_pagamento_pct": 84.56,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2020-Out",
+    "faturamento_pico_valor": 142082.02,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 4295596.830000002,
+    "empenho_historico_qtd": 179,
+    "empenho_valor_global_contratos": 273268.9,
+    "empenho_2026_gerencial": 90917.32,
+    "a_empenhar_2026": 157531.32,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "669577.36",
+    "val_liquido_spcf_mar2026": "636026.33",
+    "num_faturas_spcf_mar2026": 107,
+    "reconciliacao_status": "MAJOR",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 10.5,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "via_processual_recomendada": {
+      "via": "PROTESTO",
+      "fundamentacao": "Aguarda procuração, 14 faturas R$135K"
+    },
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE01061",
+      "contrato": "",
+      "valor": 3184.4,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 00994, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 43.042, DE 18/11/2020."
+    },
+    {
+      "numero": "2020NE01051",
+      "contrato": "",
+      "valor": 2360.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 0027, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 43.042, DE 18/11/2020."
+    },
+    {
+      "numero": "2020NE01052",
+      "contrato": "",
+      "valor": 24269.02,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 00028, EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 43.042, DE 18/11/2020."
+    },
+    {
+      "numero": "2020NE01048",
+      "contrato": "",
+      "valor": 40662.12,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO DO SALDO PARCIAL DA NE 00662, CONFORME DECRETO Nº 43.042, DE 18/11/2020."
+    },
+    {
+      "numero": "2023NE00678",
+      "contrato": "9/2022",
+      "valor": 4006.35,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE0000678",
+      "contrato": "",
+      "valor": 4006.35,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2023",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 01."
+    },
+    {
+      "numero": "2018NE00753",
+      "contrato": "",
+      "valor": 5110.98,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 176/2018, POR ENCERRAMENTO DO PRAZO DO 4º TERMO ADITIVO AO CONTRATO Nº 17/2013-SUHAB/PRODAM."
+    },
+    {
+      "numero": "2018NE00754",
+      "contrato": "",
+      "valor": 86918.46,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 180/2018, POR ENCERRAMENTO DO PRAZO DO 1º TERMO ADITIVO AO CONTRATO Nº 17/2016-SUHAB/PRODOM PROCESSAMENTO DE DADOS AMAZONAS SA."
+    },
+    {
+      "numero": "2016NE01104",
+      "contrato": "14/2014",
+      "valor": 3410.8,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "PRORROGAÇÃO 2º TERMO ADITIVO AO CONTRATO Nº 014/2014- SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS ,REFERENTE A CONTRATAÇÃO DE SERVIÇOS DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO E RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO.PRORROGAÇÃO DO PRAZO DE VIGÊNCIA POR 40(QUARENTA)DIAS. VIGÊNCIA DO CONTRATO: 03.11.2016 A 03.12.2016 VALOR GLOBAL: R$ 3.410,80 VALOR MENSAL: NOV. 2.558,10 DEZ. 852,70"
+    },
+    {
+      "numero": "2016NE01104",
+      "contrato": "",
+      "valor": 3410.8,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "PRORROGAÇÃO 2º TERMO ADITIVO AO CONTRATO Nº 014/2014- SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS ,REFERENTE A CONTRATAÇÃO DE SERVIÇOS DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO E RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO.PRORROGAÇÃO DO PRAZO DE VIGÊNCIA POR 40(QUARENTA)DIAS. VIGÊNCIA DO CONTRATO: 03.11.2016 A 03.12.2016 VALOR GLOBAL: R$ 3.410,80 VALOR MENSAL: NOV. 2.558,10 DEZ. 852,70"
+    },
+    {
+      "numero": "2020NE00758",
+      "contrato": "28/2017",
+      "valor": 16334.8,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2020",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº 028/2017-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM A DISPONIBILIZAÇÃO DE APPLIANCE (CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PROMOÇÃO Nº 1.165/2020-PROJUR/SUHAB. VIGÊNCIA: 14/09/2020 A 14/09/2021 VALOR GLOBAL: R$ 49.004,40 DESPESA PARA O PRÓXIMO EXERCÍCIO: R$ 32.669,60 FUNDAMENTO LEGAL"
+    },
+    {
+      "numero": "2018NE00557",
+      "contrato": "28/2017",
+      "valor": 15608.96,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2018",
+      "descricao": "Contratação dos serviços de fireqall, compreendendo a prestação de serviços de gestão continuada em segurança de tecnologia da informação, com disponibilidade de appliance (conjunto de equipamentos e softwares), para Suhab."
+    },
+    {
+      "numero": "2025NE0000385",
+      "contrato": "4/2024",
+      "valor": 3606.6,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2025",
+      "descricao": "Contratação de solução tecnológica para gestão de margem consignável em folha de pagamento referente às parcelas de financiamentos da casa própria de servidores ativos, aposentados e pensionistas de Órgãos do Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0000383",
+      "contrato": "1/2022",
+      "valor": 10193.26,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2025",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000381",
+      "contrato": "9/2020",
+      "valor": 17941.56,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000382",
+      "contrato": "1/2021",
+      "valor": 4744.06,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000384",
+      "contrato": "9/2022",
+      "valor": 8354.04,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2025",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000070",
+      "contrato": "1/2022",
+      "valor": 5096.63,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2025",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0000042",
+      "contrato": "1/2021",
+      "valor": 2226.42,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AP."
+    },
+    {
+      "numero": "2018NE00107",
+      "contrato": "1/2015",
+      "valor": 110265.1,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2018",
+      "descricao": "4º TERMO ADITIVO AO TERMO DE CONTRATO 001/2015-SUHAB/PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A,REFERENTE A PRORROGAÇÃO DO PRAZO PELO PERÍODO DE 12(DOZE)MESES , CORRESPONDENTE A CONTRATAÇÃO DOS SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DO GOVERNO,VIA CIRCUITO DE TRANSMISSÃO DE DADOS DE DEDICADOS ENTRE A SUHAB E PRODRAM, CONFORME PARECER JURÍDICO Nº 0043/2018- PROJUR/SUHAB VIGENCIA: 01.02.2018 A 01.02.2019 VALOR GLOBAL: R$ 120.289,20 VALOR MENSAL: R$ 10."
+    },
+    {
+      "numero": "2017NE00095",
+      "contrato": "1/2015",
+      "valor": 110265.1,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2017",
+      "descricao": "3º TERMO ADITIVO AO TERMO DE CONTRATO 001/2015-SUHAB,REFERENTE A PRORROGAÇÃO DO PRAZO PELO PERÍODO DE 12(DOZE)MESES E REJUSTE COM BASE IGPM NO PERCENTUAL DE 8,79%,CORRESPONDENTE A CONTRATAÇÃO DOS SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DO GOVERNO,VIA CIRCUITO DE TRANSMISSÃO DE DADOS DE DEDICADOS ENTRE A SUHAB E PRODAM.PARECER JURÍDICO Nº 54/2017 PROJUR-SUHAB"
+    },
+    {
+      "numero": "2019NE00759",
+      "contrato": "",
+      "valor": 26626.79,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL DO SALDO DA NE 31/2019 POR ENCERRAMENTO DO EXERCÍCIO CONFORME DECRETO Nº 41.554 DE 26 DE NOVEMBRO DE 2019"
+    },
+    {
+      "numero": "2025NE0000584",
+      "contrato": "9/2020",
+      "valor": 17941.56,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000585",
+      "contrato": "1/2021",
+      "valor": 4744.06,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 04."
+    },
+    {
+      "numero": "2022NE0000589",
+      "contrato": "9/2020",
+      "valor": 6538.93,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2022",
+      "descricao": "2º TERMO ADITIVO AO TERMO AO CONTRATO 009/2020 -SUHAB/PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A, PARA CONTINUIDADE DO SERVIÇO CIRCUITO DE TRANSMISSÃO DE DADOS E ACESSO GERENCIADO A REDE MUNDIAL, INCLUINDO O ACESSO À INTERNET ATRAVÉS DA REDE DO GOVERNO, POR UM PERÍODO DE 12 (DOZE) MESES, PARA ATENDER AS NECESSIDADES DESTA SUHAB, CONFORME PARECER Nº 738/2022-PROJUR/SUHAB, PROCESSO SIGED 8633/2022-48."
+    },
+    {
+      "numero": "2022NE00589",
+      "contrato": "",
+      "valor": 6538.93,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2022",
+      "descricao": "2º T.A Contrato 009/2020"
+    },
+    {
+      "numero": "2021NE0000797",
+      "contrato": "9/2020",
+      "valor": 6021.7,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2021",
+      "descricao": "1º TERMO ADITIVO AO TERMO AO CONTRATO 009/2020 -SUHAB/PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A, PARA CONTINUIDADE DO SERVIÇO CIRCUITO DE TRANSMISSÃO DE DADOS E ACESSO GERENCIADO A REDE MUNDIAL, INCLUINDO O ACESSO À INTERNET ATRAVÉS DA REDE DO GOVERNO, POR UM PERÍODO DE 12 (DOZE) MESES, PARA ATENDER AS NECESSIDADES DESTA SUHAB, CONFORME PARECER Nº 1.150/2021-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2025NE0000480",
+      "contrato": "9/2020",
+      "valor": 17941.56,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000481",
+      "contrato": "1/2021",
+      "valor": 4744.06,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000482",
+      "contrato": "9/2022",
+      "valor": 8354.04,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2025",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 02."
+    },
+    {
+      "numero": "2014NE00889",
+      "contrato": "13/2009",
+      "valor": 24660.12,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2014",
+      "descricao": "Contrato No. 13/2009 - Acesso Computador Central 3 Mbps /Internet link 2 Mbps"
+    },
+    {
+      "numero": "2015NE00178",
+      "contrato": "1/2015",
+      "valor": 134135.32,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+    },
+    {
+      "numero": "2016NE01325",
+      "contrato": "",
+      "valor": 2587.37,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO NE Nº 52 POR ENCERRAMENTO DE EXERCÍCIO,CONFORME INSTRUÇÃO NORMATIVA Nº 01/2016, DE 14 DE DEZEMBRO/2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE01343",
+      "contrato": "",
+      "valor": 44.25,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO NE 99 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 01/2016, DE 14 DE DEZEMBRO DE 2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE01379",
+      "contrato": "",
+      "valor": 2045.28,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO NE Nº 1104 POR ENCERRAMENTO DO EXERCÍCIO,CONFORME INSTRUÇÃO NORMATIVA Nº 01/2016, DE 14 DE DEZEMBRO/2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE01380",
+      "contrato": "",
+      "valor": 3583.11,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO NE 874 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 01/2016, DE 14 DE DEZEMBRO DE 2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE01354",
+      "contrato": "",
+      "valor": 4451.16,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO NE 103 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 01/2016, DE 14 DE DEZEMBRO DE 2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE01334",
+      "contrato": "",
+      "valor": 17045.7,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO NE Nº 74 POR ENCERRAMENTO DE EXERCÍCIO,CONFORME INSTRUÇÃO NORMATIVA Nº 01/2016, DE 14 DE DEZEMBRO/2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE01352",
+      "contrato": "",
+      "valor": 28.14,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO NE Nº 177 POR ENCERRAMENTO DO EXERCÍCIO,CONFORME INSTRUÇÃO NORMATIVA Nº 01/2016, DE 14 DE DEZEMBRO/2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2018NE00390",
+      "contrato": "17/2016",
+      "valor": 327620.46,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2018",
+      "descricao": "Contratação dos serviços de execução de sistema em plataforma web (Sproweb), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do cliente: Para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2018NE00099",
+      "contrato": "17/2016",
+      "valor": 54603.41,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2018",
+      "descricao": "Contratação de serviços de execução de sistema em plataforma Web (SPROWeb0, objetivando o controle e acompanhamento do registro de todos os documentos ou processos do cliente: Licença de uso de sistema de informação para Suhab."
+    },
+    {
+      "numero": "2023NE0000835",
+      "contrato": "",
+      "valor": 4185.29,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2023",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 94/2023 POR ENCERRAMENTO DE EXERCÍCIO, CONFORME DECRETO Nº 48.343/2023 DE 26/10/2023."
+    },
+    {
+      "numero": "2022NE0000164",
+      "contrato": "",
+      "valor": 1787.87,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO DE SALDO DA NE Nº 100 DE ACORDO COM O DECRETO Nº 5.829 DE 24/03/22"
+    },
+    {
+      "numero": "2022NE0000636",
+      "contrato": "",
+      "valor": 3462.63,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO DO SAADO DA NE 188 CONTRATO 10/2018 POR ENCERRAMENTO DO PRAZO DO CONTRATO"
+    },
+    {
+      "numero": "2022NE0000647",
+      "contrato": "",
+      "valor": 11930.33,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANUIAÇAO DO SAIDO DA NE 471 POR ENCERRAMENTO DO EXERCICIO CONFORME DECRETO 46.621 DE 11/11/2022"
+    },
+    {
+      "numero": "2022NE0000638",
+      "contrato": "",
+      "valor": 30207.49,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO DE SALDO DA NE Nº 189 DE ACORDO COM O DECRETO Nº 46.621 DE 11/11/2022"
+    },
+    {
+      "numero": "2022NE0000637",
+      "contrato": "",
+      "valor": 1522.76,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANUIAÇAO DO SAADO DA NE 491 POR DETERMINAÇAO DO DECRETO 46.621 DE 11/11/2022"
+    },
+    {
+      "numero": "2022NE0000172",
+      "contrato": "",
+      "valor": 16.33,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANUIAÇAO DO SAIDO DA NE 86 POR DETERMINAÇAO DA IEI 5.829 DE 24 DE MARÇO DE 2022"
+    },
+    {
+      "numero": "2022NE0000165",
+      "contrato": "",
+      "valor": 1629.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 0083 DE ACORDO COM A LEI 5.829 DE 24/03/2022"
+    },
+    {
+      "numero": "2018NE00951",
+      "contrato": "",
+      "valor": 0.55,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2017NE00798",
+      "contrato": "",
+      "valor": 225119.02,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 18 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ."
+    },
+    {
+      "numero": "2017NE00806",
+      "contrato": "",
+      "valor": 4944.85,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO DO SALDO NE 27 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ."
+    },
+    {
+      "numero": "2017NE00832",
+      "contrato": "",
+      "valor": 3.27,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO DO SALDO NE 266 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ."
+    },
+    {
+      "numero": "2017NE00840",
+      "contrato": "",
+      "valor": 214768.71,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO DO SALDO NE 421 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ."
+    },
+    {
+      "numero": "2017NE00796",
+      "contrato": "",
+      "valor": 29065.05,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 09 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ."
+    },
+    {
+      "numero": "2017NE00820",
+      "contrato": "",
+      "valor": 0.55,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO DO SALDO NE 095 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ."
+    },
+    {
+      "numero": "2017NE00803",
+      "contrato": "",
+      "valor": 128.84,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 17 POR ENCERRAMENTO DO EXERCÍCIO, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ."
+    },
+    {
+      "numero": "2024NE0000683",
+      "contrato": "4/2024",
+      "valor": 1803.3,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2024",
+      "descricao": "Contratação de solução tecnológica para gestão de margem consignável em folha de pagamento referente às parcelas de financiamentos da casa própria de servidores ativos, aposentados e pensionistas de Órgãos do Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2016NE01152",
+      "contrato": "4/2011",
+      "valor": 1300.47,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2016",
+      "descricao": "COMPLEMENTO DO SALDO 5º TERMO ADITIVO AO CONTRATO Nº 04/2011-FEH/SUHAB, COM A EMPRESA PRODAM, REFERENTE AOS SERVIÇOS DE INFORMÁTICA PARA PROCESSAMENTO MENSAL DO SISTEMA CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2016NE01166",
+      "contrato": "23/2016",
+      "valor": 6614.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2016",
+      "descricao": "TERMO DE CONTRATO Nº 023/2016-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE SERVIÇOS DE INFORMÁTICA, REFERENTE A PROCESSAMENTO DE CADASTRO DE FOLHA DE PAGAMENTO DE PESSOAL-SISTEMA CFPP. VIGÊNCIA: 12/12/2016 A 12/12/2017 VALOR GLOBAL: 46.302,76 DESPESA PARA O PRÓXIMO EXERCÍCIO R$ 39.688,08 DATA DA PUBLICAÇÃO: 16 NOV. 2016 PORTARIA Nº 152/2016-SUHAB."
+    },
+    {
+      "numero": "2024NE0000604",
+      "contrato": "9/2022",
+      "valor": 4177.02,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2024",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 02."
+    },
+    {
+      "numero": "2021NE0000389",
+      "contrato": "23/2016",
+      "valor": 25129.32,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "SALDO DO 4º TERMO ADITIVO AO CONTRATO Nº 023/2016 -SUHAB/PRODAM , PELO PRAZO DE 12(DOZE) MESES, REF. A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA SERVIÇOS DE EXECUÇÃO DO SISTEMA DE FOLHA DE PAGAMENTO DESTA SUHAB."
+    },
+    {
+      "numero": "2021NE0000388",
+      "contrato": "1/2021",
+      "valor": 6868.12,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "SALDO DA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB PARA A PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEB SITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO, POR PERIODO DE 12(DOZE) MESES."
+    },
+    {
+      "numero": "2021NE0000387",
+      "contrato": "28/2017",
+      "valor": 8167.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "SALDO DO 3º TERMO ADITIVO AO CONTRATO Nº 028/2017 SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A PELO PRAZO DE 12(DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM DISPONIBILIZAÇÃO DE APPLIANCE(CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PROMOÇÃO Nº 1.165/2020-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2024NE0000775",
+      "contrato": "",
+      "valor": 28268.12,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO DO SALDO PARCIAL DA NE Nº 57 DEVIDO ENCERRAMENTO DE EXERCÍCIO CONFORME DECRETO Nº 50.522 DE 22 DE OUTUBRO DE 2024."
+    },
+    {
+      "numero": "2024NE0000774",
+      "contrato": "",
+      "valor": 2747.11,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO DO SALDO TOTAL DA NE Nº 38 DEVIDO ENCERRAMENTO DE EXERCÍCIO CONFORME DECRETO Nº 50.522 DE 22 DE OUTUBRO DE 2024."
+    },
+    {
+      "numero": "2024NE0000769",
+      "contrato": "",
+      "valor": 2163.96,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO DO SALDO TOTAL DA NE Nº 101 DEVIDO ENCERRAMENTO DE EXERCÍCIO CONFORME DECRETO Nº 50.522 DE 22 DE OUTUBRO DE 2024."
+    },
+    {
+      "numero": "2019NE00728",
+      "contrato": "",
+      "valor": 77382.19,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº50/2019 POR ENCERRAMENTO DO PRAZO DO 2º TERMO ADITIVO AO CONTRATO Nº17/2016"
+    },
+    {
+      "numero": "2019NE00724",
+      "contrato": "",
+      "valor": 10024.1,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº32/2019 POR ACERTO CONTÁBIL"
+    },
+    {
+      "numero": "2019NE00742",
+      "contrato": "",
+      "valor": 51643.08,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº285/2019 POR ENCERRAMENTO DO EXERCÍCIO CONFORME DECRETO Nº 41.554 DE 26 DE NOVEMBRO DE 2019"
+    },
+    {
+      "numero": "2019NE00727",
+      "contrato": "",
+      "valor": 4360.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº41/2019 POR ENCERRAMENTO DO PRAZO DO CONTRATO"
+    },
+    {
+      "numero": "2019NE00748",
+      "contrato": "",
+      "valor": 181.46,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº412/2019 POR ENCERRAMENTO DO EXERCÍCIO CONFORME DECRETO Nº 41.554 DE 26 DE NOVEMBRO DE 2019"
+    },
+    {
+      "numero": "2019NE00750",
+      "contrato": "",
+      "valor": 1040.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº432/2019 POR ENCERRAMENTO DO EXERCÍCIO CONFORME DECRETO Nº 41.554 DE 26 DE NOVEMBRO DE 2019"
+    },
+    {
+      "numero": "2019NE00740",
+      "contrato": "",
+      "valor": 3.54,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº191/2019 POR ENCERRAMENTO DO EXERCÍCIO CONFORME DECRETO Nº 41.554 DE 26 DE NOVEMBRO DE 2019"
+    },
+    {
+      "numero": "2018NE00923",
+      "contrato": "",
+      "valor": 100000.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA Nº 390, POR ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00948",
+      "contrato": "",
+      "valor": 5786.94,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 847, POR ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00913",
+      "contrato": "",
+      "valor": 27101.94,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 114, POR ENCERRAMENTO DO CONTRATO."
+    },
+    {
+      "numero": "2018NE00929",
+      "contrato": "",
+      "valor": 46.86,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 557, POR ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2018NE00938",
+      "contrato": "",
+      "valor": 1040.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA Nº 629, POR ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2024NE0000664",
+      "contrato": "1/2022",
+      "valor": 9567.54,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2024",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000662",
+      "contrato": "9/2020",
+      "valor": 12406.55,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AP."
+    },
+    {
+      "numero": "2024NE0000663",
+      "contrato": "1/2021",
+      "valor": 4452.84,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000665",
+      "contrato": "9/2022",
+      "valor": 4177.02,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2024",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 02."
+    },
+    {
+      "numero": "2023NE0000673",
+      "contrato": "",
+      "valor": 2765.06,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AD: 05."
+    },
+    {
+      "numero": "2022NE0000471",
+      "contrato": "",
+      "valor": 17370.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2022",
+      "descricao": "TERMO DE CONTRATO Nº 007/2022-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A PARA PRESTAÇÃO DE SERVIÇO DE IMPRESSÃO DE DOCUMENTOS E ENVELOPAMENTO DOS BOLETOS DE COBRANÇA DOS FINANCIAMENTOS IMOBILIÁRIOS DESTA SUHAB, POR 12 (DOZE) MESES CONFORME PARECER N º 319/2022-PROJUR/SUHAB, PROCESSO SIGED 3900/2022-90. VIGÊNCIA: 01/10/2022 A 01/10/2023 VALOR GLOBAL: R$ 69.480,00 VALOR MENSAL: R$ 5.790,00 VALOR PARA O PRÓXIMO EXERCÍCIO: R$ 52.110,00 FUNDAMENTO LEGAL: INEXIGÍVEL, Art. 24, VIII, Lei 8.666/93 DATA DE PUBLICAÇÃO: PORTARIA Nº 18/2022-GAB/SUHAB, DOE 30/08/2022"
+    },
+    {
+      "numero": "2022NE00471",
+      "contrato": "7/2022",
+      "valor": 17370.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2022",
+      "descricao": "Cobertura Financeira Contrato 007/2022"
+    },
+    {
+      "numero": "2018NE00300",
+      "contrato": "17/2016",
+      "valor": 13448.29,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2018",
+      "descricao": "SERVIÇOS REALIZADOS NO MÊS DE AGOSTO/17 ,CORRESPONDENTE A UM DOS MÓDULOS PREVISTO NO CONTRATO 17/2016,REFERENTE A LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO."
+    },
+    {
+      "numero": "2018NE00298",
+      "contrato": "17/2016",
+      "valor": 13448.29,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2018",
+      "descricao": "SERVIÇOS REALIZADOS NO MÊS DE SETEMBRO/2017,CORRESPONDENTE A UM DOS MODULOS PREVISTO NO CONTRATO 17/2016,REFERENTE A LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO .SOCIO/HABITACIONAL"
+    },
+    {
+      "numero": "2018NE00297",
+      "contrato": "17/2016",
+      "valor": 13448.29,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2018",
+      "descricao": "RECONHECIMENTO DE DIVIDA Nº 14, REFERENTE A SERVIÇOS REALIZADOS NO MÊS DE OUTUBRO/2017,CORRESPONDENTE A UM DOS MÓDULOS PREVISTO NO CONTRATO 17/2016,REFERENTE A LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - SOCIO/HABITACIONAL, CONFORME PROMOÇÃO Nº 635/2018-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2018NE00299",
+      "contrato": "17/2016",
+      "valor": 13448.29,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2018",
+      "descricao": "RECONHECIMENTO DE DIVIDA Nº 16, REFERENTE A SERVIÇOS REALIZADOS NO MÊS DE NOVEMBRO/2017 - NOTA FISCAL Nº 1242, CORRESPONDENTE A UM DOS MÓDULOS PREVISTO NO CONTRATO 17/2016,REFERENTE A LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO - SÓCIO/HABITACIONAL, CONFORME PROMOÇÃO Nº 635/2018-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2018NE00296",
+      "contrato": "17/2016",
+      "valor": 13448.29,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2018",
+      "descricao": "RECONHECIMENTO DE DIVIDA Nº 17,REFERENTE A SERVIÇOS REALIZADOS NO MÊS DE DEZEMBRO/2017,CORRESPONDENTE A UM DOS MODULOS PREVISTO NO CONTRATO 17/2016,REFERENTE A LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO .SOCIO/HABITACIONAL"
+    },
+    {
+      "numero": "2024NE0000756",
+      "contrato": "",
+      "valor": 1442.64,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2024",
+      "descricao": "ANULAÇÃO DO SALDO TOTAL DA NE Nº 30 DEVIDO ENCERRAMENTO DO EXERCÍCIO CONFORME DECRETO Nº 50.22 DE 22 DE OUTUBRO 2024"
+    },
+    {
+      "numero": "2024NE0000530",
+      "contrato": "10/2018",
+      "valor": 841.54,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AD: 06."
+    },
+    {
+      "numero": "2024NE0000531",
+      "contrato": "9/2020",
+      "valor": 17311.46,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AP."
+    },
+    {
+      "numero": "2024NE0000532",
+      "contrato": "1/2021",
+      "valor": 4452.84,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000534",
+      "contrato": "9/2022",
+      "valor": 8012.7,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AP."
+    },
+    {
+      "numero": "2024NE0000533",
+      "contrato": "1/2022",
+      "valor": 9567.54,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2017NE00459",
+      "contrato": "9/2014",
+      "valor": 262.22,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2017",
+      "descricao": "DESPESA DE EXERCÍCIO ANTERIOR RD Nº 265 REFERENTE NOTA FISCAL Nº 20009 COMPETÊNCIA 09/2016 (17 DIAS). CONTRATO Nº 009/2014 - HOSPEDAGEM DE SITE. DATA DA PUBLICAÇÃO DA DISPENSA DE LICITAÇÃO: 26/08/2014"
+    },
+    {
+      "numero": "2016NE00585",
+      "contrato": "10/2016",
+      "valor": 11802.32,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2016",
+      "descricao": "TERMO DE CONTRATO Nº 10/2016-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA .CONTRATAÇÃO DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO,COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB A ESSA SUHAB. PARA PUBLICAÇÃO DE INFORMAÇÕES ,NOTÍCIAS,VÍDEOS E IMAGENS VIA WEBSITE,DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL."
+    },
+    {
+      "numero": "2016NE00582",
+      "contrato": "10/2016",
+      "valor": 11802.32,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2016",
+      "descricao": "TERMO DE CONTRATO Nº 10/2016-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A CONTRATAÇÃO DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO,COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB A ESSA SUHAB. PARA PUBLICAÇÃO DE INFORMAÇÕES ,NOTÍCIAS,VÍDEOS E IMAGENS VIA WEBSITE,DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL."
+    },
+    {
+      "numero": "2016NE00584",
+      "contrato": "",
+      "valor": 11802.32,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2016",
+      "descricao": "ANULAÇÃO DA NE 582 POR ERRO NA MODALIDADE."
+    },
+    {
+      "numero": "2024NE0000653",
+      "contrato": "9/2020",
+      "valor": 5083.44,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 04."
+    },
+    {
+      "numero": "2021NE0000376",
+      "contrato": "10/2018",
+      "valor": 1760.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2021",
+      "descricao": "SALDO DO 2º TERMO ADITIVO AO CONTRATO Nº010/2018 SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A , PELO PRAZO DE 12(DOZE) MESES, REF. A CONTRATAÇÃO PARA PROCESSAMENTO MENSAL DOS SERVIÇOS DE INFORMÁTICA PARA GERAÇÃO DE CONSIGNAÇÃO DO FINANCIAMENTO DA CASA PRÓPRIA, ATRAVÉS DOS CÓDIGOS DE DESCONTOS NA FOLHA DE PAGAMENTO EM FAVOR DA SUHAB, CONFORME PARECER Nº 2.358/2020-PROJUR/SUHAB"
+    },
+    {
+      "numero": "2025NE0000154",
+      "contrato": "1/2022",
+      "valor": 10193.26,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000155",
+      "contrato": "9/2022",
+      "valor": 8354.04,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000156",
+      "contrato": "4/2024",
+      "valor": 3606.6,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Contratação de solução tecnológica para gestão de margem consignável em folha de pagamento referente às parcelas de financiamentos da casa própria de servidores ativos, aposentados e pensionistas de Órgãos do Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0000153",
+      "contrato": "1/2021",
+      "valor": 4744.06,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000152",
+      "contrato": "9/2020",
+      "valor": 17941.56,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 04."
+    },
+    {
+      "numero": "2021NE0000366",
+      "contrato": "9/2020",
+      "valor": 57833.38,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2021",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS,POSSIBILITANDO O ACESSO AOS SISTEMAS CONTRATADOS RESIDENTES NO DATA CENTER DO ESTADO, INCLUINDO O ACESSO À INTERNET ATRAVÉS DA REDE DO GOVERNO CONTRATO Nº009/2020"
+    },
+    {
+      "numero": "2016NE00782",
+      "contrato": "17/2016",
+      "valor": 347538.66,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2016",
+      "descricao": "CONTRATAÇÃO ESPECIALIZADOS EM INFORMÁTICA, COMPREENDO A EXECUÇÃO DE SISTEMA EM PLATAFORMA WEB, LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO,SERVIÇO DE DATA CENTER, HOSPEDAGEM DE SISTEMA DE INFORMÁTICA, PARA ATENDER AS NECESSIDADES DA SUHAB."
+    },
+    {
+      "numero": "2022NE0000238",
+      "contrato": "1/2021",
+      "valor": 16721.12,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2022",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO CONTRATO Nº 001/2021-SUHAB/PRODAM PROCESSMANTO DEDADOS AMAZONAS S/A, POR PERIODO DE 12(DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB PARA A PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEB SITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO PARECER Nº 107/2022 PROJUR/SUHAB."
+    },
+    {
+      "numero": "2015NE00361",
+      "contrato": "1/2015",
+      "valor": 109747.08,
+      "situacao": "Ativo",
+      "data_emissao": "24/03/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 178 POR DETERMINAÇÃO DA REFORMA GOVERNAMENTAL."
+    },
+    {
+      "numero": "2023NE0000005",
+      "contrato": "",
+      "valor": 2090.14,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2023",
+      "descricao": "SALDO 1º TERMO ADITIVO AO CONTRATO Nº 001/2021-SUHAB/PRODAM PROCESSMANTO DE DADOS AMAZONAS S/A, POR PERIODO DE 12(DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB PARA A PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEB SITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO PARECER Nº 107/2022 PROJUR/SUHAB."
+    },
+    {
+      "numero": "2023NE0000008",
+      "contrato": "",
+      "valor": 57696.45,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2023",
+      "descricao": "SALDO DO 2º TERMO ADITIVO AO TERMO AO CONTRATO 009/2020 -SUHAB/PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A, PARA CONTINUIDADE DO SERVIÇO CIRCUITO DE TRANSMISSÃO DE DADOS E ACESSO GERENCIADO A REDE MUNDIAL, INCLUINDO O ACESSO À INTERNET ATRAVÉS DA REDE DO GOVERNO, POR UM PERÍODO DE 12 (DOZE) MESES, PARA ATENDER AS NECESSIDADES DESTA SUHAB, CONFORME PARECER Nº 738/2022-PROJUR/SUHAB, PROCESSO SIGED 8633/2022-48."
+    },
+    {
+      "numero": "2023NE0000011",
+      "contrato": "",
+      "valor": 9016.5,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2023",
+      "descricao": "ANULAÇÃO DA NE Nº 09 MOTIVO DATA DE EMISSÃO INORRETA"
+    },
+    {
+      "numero": "2023NE0000009",
+      "contrato": "",
+      "valor": 9016.5,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2023",
+      "descricao": "SALDO DO 4º TERMO ADITIVO AO CONTRATO Nº 010/20218-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A E REAJUSTAMENTO DO VALOR GLOBAL COM AUMENTO DE 10,70% COM BASE NO IGPM ACUMULADO DO PERÍODO, PELO PRAZO DE 12 (DOZE) MESES, PARA CONTINUIDADE DO SERVIÇO DE DESCONTO EM CONSIGNAÇÃO, DOS VALORES DAS PRESTAÇÕES DO FINANCIAMENTO DA CASA PRÓPRIA DOS SERVIDORES PÚBLICOS CONTEMPLADOS COM IMÓVEIS EM CONJUNTOS HABITACIONAIS, ATRAVÉS DA FOLHA DE PAGAMENTO DO ESTADO, CONFORME PARECER Nº 590/2022-PROJUR/SUHAB, PROCESSO SIGED 6408/2022-77."
+    },
+    {
+      "numero": "2023NE0000086",
+      "contrato": "",
+      "valor": 57696.45,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2023",
+      "descricao": "ANULAÇÃO NA NE Nº 08 MOTIVO DATA DE EMISSÃO INCORRETA"
+    },
+    {
+      "numero": "2025NE0000659",
+      "contrato": "",
+      "valor": 5085.99,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2025",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 11 DEVIDO O ENCERRAMENTO DE EXERCÍCIO CONFORME DECRETO Nº 52.770 DE 21 DE OUTUBRO DE 2025"
+    },
+    {
+      "numero": "2025NE0000653",
+      "contrato": "",
+      "valor": 2704.95,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2025",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 15 DEVIDO O ENCERRAMENTO DE EXERCÍCIO CONFORME DECRETO Nº 52.770 DE 21 DE OUTUBRO DE 2025"
+    },
+    {
+      "numero": "2016NE00263",
+      "contrato": "4/2011",
+      "valor": 905.6,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2016",
+      "descricao": "RECONHECIMENTO DA DIVIDA: RD RECONHECIMENTO DE DESPESA DE EXERCÍCIOS ANTERIORES Nº 17 PARA PAGAMENTO DE SERVIÇOS DE CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL, CORRESPONDENTE AO CONTRATO Nº 004/2011-FEH/SUHAB NO MÊS DE NOVEMBRO/2015. FUNDAMENTAÇÃO LEGAL: PROCESSO ADMINISTRATIVO 231652/2015 NOTA FISCAL Nº 16722 EMISSÃO 27.11.2015"
+    },
+    {
+      "numero": "2016NE00261",
+      "contrato": "4/2011",
+      "valor": 625.12,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2016",
+      "descricao": "RECONHECIMENTO DA DIVIDA: RD RECONHECIMENTO DE DESPESA DE EXERCÍCIOS ANTERIORES Nº 14 PARA PAGAMENTO DE SERVIÇOS DE CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL, CORRESPONDENTE AO CONTRATO Nº 004/2011-FEH/SUHAB NO MÊS DE OUTUBRO/2015. FUNDAMENTAÇÃO LEGAL: PROCESSO ADMINISTRATIVO 230414/2015 NOTA FISCAL Nº 16398 EMISSÃO 28/10/2015."
+    },
+    {
+      "numero": "2016NE00264",
+      "contrato": "4/2011",
+      "valor": 1238.5,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2016",
+      "descricao": "RECONHECIMENTO DA DIVIDA: RD RECONHECIMENTO DE DESPESA DE EXERCÍCIOS ANTERIORES Nº 33 PARA PAGAMENTO DE SERVIÇOS DE CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL, CORRESPONDENTE AO CONTRATO Nº 004/2011-FEH/SUHAB NO MÊS DE DEZEMBRO/2015. FUNDAMENTAÇÃO LEGAL: PROCESSO ADMINISTRATIVO 232599/2015 NOTA FISCAL Nº 17145 EMISSÃO 29.12.2015"
+    },
+    {
+      "numero": "2016NE00262",
+      "contrato": "4/2011",
+      "valor": 636.76,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2016",
+      "descricao": "RECONHECIMENTO DA DIVIDA: RD RECONHECIMENTO DE DESPESA DE EXERCÍCIOS ANTERIORES Nº 05 PARA PAGAMENTO DE SERVIÇOS DE CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL, CORRESPONDENTE AO CONTRATO Nº 004/2011-FEH/SUHAB NO MÊS DE SETEMBRO/2015. FUNDAMENTAÇÃO LEGAL: PROCESSO ADMINISTRATIVO 229716/2015 NOTA FISCAL Nº 16027 EMISSÃO 29.09.2015"
+    },
+    {
+      "numero": "2025NE0000236",
+      "contrato": "9/2022",
+      "valor": 8354.04,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000235",
+      "contrato": "1/2022",
+      "valor": 10193.26,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000237",
+      "contrato": "4/2024",
+      "valor": 3606.6,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação de solução tecnológica para gestão de margem consignável em folha de pagamento referente às parcelas de financiamentos da casa própria de servidores ativos, aposentados e pensionistas de Órgãos do Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0000234",
+      "contrato": "1/2021",
+      "valor": 4744.06,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000233",
+      "contrato": "9/2020",
+      "valor": 17941.56,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 04."
+    },
+    {
+      "numero": "2015NE01373",
+      "contrato": "",
+      "valor": 5598.99,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01364",
+      "contrato": "",
+      "valor": 738.51,
+      "situacao": "Ativo",
+      "data_emissao": "21/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2017NE00421",
+      "contrato": "17/2016",
+      "valor": 327620.46,
+      "situacao": "Ativo",
+      "data_emissao": "21/06/2017",
+      "descricao": "SALDO TERMO DE CONTRATO Nº 017/2016-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DE SISTEMA EM PLATAFORMA WEB (SPROweb), OBJETIVANDO O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DOS CLIENTES DESTA SUHAB. VIGÊNCIA: 01/07/2016 A 01/07/2017 VALOR GLOBAL: R$ 695.077,36 FUNDAMENTAÇÃO LEGAL: DISPENSA DE LICITAÇÃO CONFORME PORTARIA Nº 087/2016-GDP-SUHAB, PUBLICADO NO DOE DE 21/06/201"
+    },
+    {
+      "numero": "2024NE0000177",
+      "contrato": "9/2022",
+      "valor": 8012.7,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AP."
+    },
+    {
+      "numero": "2024NE0000176",
+      "contrato": "1/2022",
+      "valor": 9567.54,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000175",
+      "contrato": "1/2021",
+      "valor": 4452.84,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2023NE0000393",
+      "contrato": "",
+      "valor": 17370.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2023",
+      "descricao": "Contratação da Empresa PRODAM – Processamento de Dados Amazonas S/A para prestação de serviço de Impressão de documentos e envelopamento dos Boletos de Cobrança dos Financiamentos Imobiliários desta SUHAB."
+    },
+    {
+      "numero": "2023NE0000392",
+      "contrato": "1/2022",
+      "valor": 33486.39,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2023",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 001/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000390",
+      "contrato": "1/2021",
+      "valor": 13358.52,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 001/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000389",
+      "contrato": "9/2020",
+      "valor": 62696.81,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2023",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 009/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000388",
+      "contrato": "10/2018",
+      "valor": 6251.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 010/2018 AD: 04."
+    },
+    {
+      "numero": "2023NE0000395",
+      "contrato": "9/2022",
+      "valor": 16025.4,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2023",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance."
+    },
+    {
+      "numero": "2018NE00655",
+      "contrato": "",
+      "valor": 1770.59,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2018",
+      "descricao": "ANULAÇÃO DO PARCIAL DA NE Nº 557 POR ERRO NO CRONOGRAMA DE DESEMBOLSO ."
+    },
+    {
+      "numero": "2016NE01062",
+      "contrato": "4/2011",
+      "valor": 1300.47,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2016",
+      "descricao": "COMPLEMENTO DO SALDO 5º TERMO ADITIVO AO CONTRATO Nº 04/2011-FEH/SUHAB, COM A EMPRESA PRODAM, REFERENTE AOS SERVIÇOS DE INFORMÁTICA PARA PROCESSAMENTO MENSAL DO SISTEMA CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL ¿CFPP. VIGÊNCIA: 12/12/2015 A 12/12/2016 VALOR GLOBAL: R$ 15.605,64 VALOR MENSAL: R$ 1.300,47 DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO: 08/11/2011 EMPENHADO R$ 3.901,41"
+    },
+    {
+      "numero": "2016NE01062",
+      "contrato": "4/2011",
+      "valor": 1300.47,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2016",
+      "descricao": "COMPLEMENTO DO SALDO 5º TERMO ADITIVO AO CONTRATO Nº 04/2011-FEH/SUHAB, COM A EMPRESA PRODAM, REFERENTE AOS SERVIÇOS DE INFORMÁTICA PARA PROCESSAMENTO MENSAL DO SISTEMA CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL ¿CFPP. VIGÊNCIA: 12/12/2015 A 12/12/2016 VALOR GLOBAL: R$ 15.605,64 VALOR MENSAL: R$ 1.300,47 DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO: 08/11/2011 EMPENHADO R$ 3.901,41"
+    },
+    {
+      "numero": "2014NE00850",
+      "contrato": "9/2014",
+      "valor": 8278.45,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2014",
+      "descricao": "Contrato No. 9/2014"
+    },
+    {
+      "numero": "2019NE00285",
+      "contrato": "17/2016",
+      "valor": 319318.14,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2019",
+      "descricao": "Contratação para continuidade dos serviços especializados em informática, compreendendo Licença de Uso do Sistema de Informação, Hospedagem de Sistemas, Data Center, impressão de documentos, envelopamento e serrilhamento, para atender esta SUHAB."
+    },
+    {
+      "numero": "2023NE0000247",
+      "contrato": "",
+      "valor": 1803.3,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 010/2018 AD: 04."
+    },
+    {
+      "numero": "2023NE0000248",
+      "contrato": "",
+      "valor": 11539.29,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2023",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 009/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000236",
+      "contrato": "",
+      "valor": 4006.35,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance."
+    },
+    {
+      "numero": "2023NE0000243",
+      "contrato": "",
+      "valor": 23918.85,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 001/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000242",
+      "contrato": "",
+      "valor": 5790.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "Contratação da Empresa PRODAM – Processamento de Dados Amazonas S/A para prestação de serviço de Impressão de documentos e envelopamento dos Boletos de Cobrança dos Financiamentos Imobiliários desta SUHAB."
+    },
+    {
+      "numero": "2021NE0000074",
+      "contrato": "9/2020",
+      "valor": 21030.32,
+      "situacao": "Ativo",
+      "data_emissao": "16/02/2021",
+      "descricao": "REFORÇO NE 00055 - prestação dos serviços de fornecimento de Circuito de Transmissão de Dados, possibilitando o acesso aos sistemas contratados residentes no Data Center do Estado, incluindo o Acesso à Internet através da Rede do Governo."
+    },
+    {
+      "numero": "2021NE0000071",
+      "contrato": "23/2016",
+      "valor": 8376.44,
+      "situacao": "Ativo",
+      "data_emissao": "16/02/2021",
+      "descricao": "REFORÇO DA NE 00052 - serviços de execução de Sistemas PRODAM-RH para manter o cadastro dos servidores e folha de pagamento, para atender as necessidades desta SUHAB."
+    },
+    {
+      "numero": "2021NE0000073",
+      "contrato": "9/2020",
+      "valor": 4800.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/02/2021",
+      "descricao": "REFORÇO DA NE 00054 - prestação de serviços de execução de sistema, compreendendo geração de consignações do Financiamento da Casa Própria, em folha de pagamento em favor da SUHAB."
+    },
+    {
+      "numero": "2021NE0000072",
+      "contrato": "28/2017",
+      "valor": 8167.4,
+      "situacao": "Ativo",
+      "data_emissao": "16/02/2021",
+      "descricao": "REFORÇO DA NE 00053 - prestação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação com a disponibilidade de Appliance para atender às necessidades desta SUHAB"
+    },
+    {
+      "numero": "2021NE0000070",
+      "contrato": "1/2021",
+      "valor": 6868.12,
+      "situacao": "Ativo",
+      "data_emissao": "16/02/2021",
+      "descricao": "REFORÇO DA NE 00062 - prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens, via Website."
+    },
+    {
+      "numero": "2020NE00816",
+      "contrato": "10/2018",
+      "valor": 3040.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2020",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema, compreendendo geração de consignações do Financiamento da Casa Própria, em folha de pagamento em favor da SUHAB."
+    },
+    {
+      "numero": "2019NE00432",
+      "contrato": "10/2018",
+      "valor": 3040.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema, compreendendo geração de consignações do FINANCIAMENTO DA CASA PRÓPRIA, em folha de pagamento em favor da SUHAB."
+    },
+    {
+      "numero": "2018NE00629",
+      "contrato": "10/2018",
+      "valor": 3040.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2018",
+      "descricao": "Contratação dos serviços de execução de sistema , compreendendo geração de consignações do \"financiamento da casa própria\" em folha de pagamento em favor da Suhab."
+    },
+    {
+      "numero": "2015NE01014",
+      "contrato": "9/2014",
+      "valor": 1850.96,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2024NE0000162",
+      "contrato": "9/2020",
+      "valor": 17311.46,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AP."
+    },
+    {
+      "numero": "2022NE00491",
+      "contrato": "10/2018",
+      "valor": 4568.36,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2022",
+      "descricao": "Serviço de Desconto em consignação das prestações do financiamento da casa própria."
+    },
+    {
+      "numero": "2022NE0000491",
+      "contrato": "10/2018",
+      "valor": 4568.36,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2022",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 010/20218-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A E REAJUSTAMENTO DO VALOR GLOBAL COM AUMENTO DE 10,70% COM BASE NO IGPM ACUMULADO DO PERÍODO, PELO PRAZO DE 12 (DOZE) MESES, PARA CONTINUIDADE DO SERVIÇO DE DESCONTO EM CONSIGNAÇÃO, DOS VALORES DAS PRESTAÇÕES DO FINANCIAMENTO DA CASA PRÓPRIA DOS SERVIDORES PÚBLICOS CONTEMPLADOS COM IMÓVEIS EM CONJUNTOS HABITACIONAIS, ATRAVÉS DA FOLHA DE PAGAMENTO DO ESTADO, CONFORME PARECER Nº 590/2022-PROJUR/SUHAB, PROCESSO SIGED 6408/2022-77."
+    },
+    {
+      "numero": "2021NE0000689",
+      "contrato": "10/2018",
+      "valor": 4121.37,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2021",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº 010/20218-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A E REAJUSTAMENTO DO VALOR GLOBAL COM AUMENTO DE 35,75% COM BASE NO IGPM ACUMULADO DO PERÍODO, PELO PRAZO DE 12 (DOZE) MESES, PARA CONTINUIDADE DO SERVIÇO DE DESCONTO EM CONSIGNAÇÃO, DOS VALORES DAS PRESTAÇÕES DO FINANCIAMENTO DA CASA PRÓPRIA DOS SERVIDORES PÚBLICOS CONTEMPLADOS COM IMÓVEIS EM CONJUNTOS HABITACIONAIS, ATRAVÉS DA FOLHA DE PAGAMENTO DO ESTADO, CONFORME PARECER Nº 1.019/2021-PROJUR"
+    },
+    {
+      "numero": "2019NE00412",
+      "contrato": "28/2017",
+      "valor": 16334.8,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2019",
+      "descricao": "Contratação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuidade em Segurança de Tecnologia da Informação, com a disponibilidade de appliance (conjunto de equipamentos e softwares)."
+    },
+    {
+      "numero": "2018NE00509",
+      "contrato": "",
+      "valor": 0.05,
+      "situacao": "Ativo",
+      "data_emissao": "13/08/2018",
+      "descricao": "ANULAÇÃO DO SALDO DO 1º TERMO ADITIVO DE CONTRATO Nº 10/2016 NE Nº 0178."
+    },
+    {
+      "numero": "2022NE0000187",
+      "contrato": "9/2020",
+      "valor": 89617.07,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2022",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO TERMO AO CONTRATO 009/2020 -SUHAB/PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A, PARA CONTINUIDADE DO SERVIÇO CIRCUITO DE TRANSMISSÃO DE DADOS E ACESSO GERENCIADO A REDE MUNDIAL, INCLUINDO O ACESSO À INTERNET ATRAVÉS DA REDE DO GOVERNO, POR UM PERÍODO DE 12 (DOZE) MESES, PARA ATENDER AS NECESSIDADES DESTA SUHAB, CONFORME PARECER Nº 1.150/2021-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2022NE0000186",
+      "contrato": "",
+      "valor": 21798.8,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2022",
+      "descricao": "SALDO DO 4º TERMO ADITIVO AO CONTRATO Nº 28/2017 - SUHAB/PRODAM PROCESSAMENTOS DE DADOS AMAZONAS S/A, PELO PRAZO DE 12(DOZE) MESES, REAJUSTE DO VALOR GLOBAL COM AUMENTO DE 6,76% COM BASE NO IPCA, PARA CONTINUIDADE DOS SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM A DISPONIBILIDADE DE APPLIANCE (CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PARECER Nº 960/2021 - PROJUR/SUHAB."
+    },
+    {
+      "numero": "2022NE0000189",
+      "contrato": "1/2022",
+      "valor": 53891.52,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2022",
+      "descricao": "TERMO DE CONTRATO Nº 001/2022-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, POR 12(DOZE) MESES, PARA FORNECIMENTO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH PARA CONTROLE DE CADASTRO PESSOAL (SERVIDORES E SEUS DEPENDENTES), PROCESSAMENTO DE FOLHA DE PAGAMENTO DE SERVIDORES, TRANSMISSÃO DOS DADOS REFERENTE AO ATENDIMENTO DO E-SOCIAL, SERVIÇO DE MENSAGERIA DO E-SOCIAL, GERAÇÃO DE ARQUIVOS PROVENIENTES DO PROCESSAMENTO DA FOLHA DE PAGAMENTO DA BASE CADASTRAL COM VISTAS AO ATENDIMENTO DE OBRIGAÇÕES LEGAIS PARA ESSA SUHAB, PARECE Nº 1.179/2021-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2022NE0000188",
+      "contrato": "10/2018",
+      "valor": 10539.63,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2022",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº 010/20218-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A E REAJUSTAMENTO DO VALOR GLOBAL COM AUMENTO DE 35,75% COM BASE NO IGPM ACUMULADO DO PERÍODO, PELO PRAZO DE 12 (DOZE) MESES, PARA CONTINUIDADE DO SERVIÇO DE DESCONTO EM CONSIGNAÇÃO, DOS VALORES DAS PRESTAÇÕES DO FINANCIAMENTO DA CASA PRÓPRIA DOS SERVIDORES PÚBLICOS CONTEMPLADOS COM IMÓVEIS EM CONJUNTOS HABITACIONAIS, ATRAVÉS DA FOLHA DE PAGAMENTO DO ESTADO, CONFORME PARECER Nº 1.019/2021-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2018NE00176",
+      "contrato": "17/2013",
+      "valor": 7754.73,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "SALDO DO 4º TERMO ADITIVO AO CONTRATO Nº 17/2013 COM PRORROGAÇÃO DE PRAZO E REAJUSTE NO PERCENTUAL DE 3,36 % (TRÊS VÍRGULA TRINTA E SEIS POR CENTO) COM BASE NO IGPM REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DE SISTEMA"
+    },
+    {
+      "numero": "2018NE00181",
+      "contrato": "23/2016",
+      "valor": 36029.84,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "SALDO DO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 023/2016-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A PELO PERIODO DE 12(DOZE) MESES,PARA CONTINUIDADE DOS SERVIÇOS."
+    },
+    {
+      "numero": "2018NE00178",
+      "contrato": "10/2016",
+      "valor": 3147.13,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "ALDO DO 1º TERMO ADITIVO AO CONTRATO Nº 010/2016-SUHAB/PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE A PRORROGAÇÃO E REAJUSTAMENTO NO PERCENTUAL 6,66%, COM BASE NO IGPM ACUMULADO NO PERÍODO, PARA"
+    },
+    {
+      "numero": "2018NE00177",
+      "contrato": "28/2017",
+      "valor": 24535.25,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "SALDO DO TERMO DE CONTRATO Nº 028/2017-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE"
+    },
+    {
+      "numero": "2018NE00180",
+      "contrato": "17/2016",
+      "valor": 293308.58,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO CONTRATO Nº 017/2016-SUHAB/PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S/A, PRORROGAÇÃO DE PRAZO E REAJUSTE NO PERCENTUAL DE 4,86% COM BASE NO IGPM ACUMULADO DO PERÍODO, REFERENTE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA,"
+    },
+    {
+      "numero": "2018NE00179",
+      "contrato": "1/2015",
+      "valor": 100241.05,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "4º TERMO ADITIVO AO TERMO DE CONTRATO 001/2015-SUHAB/PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A,REFERENTE A PRORROGAÇÃO DO PRAZO PELO PERÍODO DE 12(DOZE)MESES , CORRESPONDENTE A CONTRATAÇÃO DOS SERVIÇOS DE REDE, C"
+    },
+    {
+      "numero": "2014NE00709",
+      "contrato": "8/2012",
+      "valor": 11059.83,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2014",
+      "descricao": "Contrato No. 8/2012 - Locação de Firewall."
+    },
+    {
+      "numero": "2024NE0000370",
+      "contrato": "10/2018",
+      "valor": 3606.6,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AD: 06."
+    },
+    {
+      "numero": "2024NE0000371",
+      "contrato": "9/2020",
+      "valor": 17311.46,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AP."
+    },
+    {
+      "numero": "2024NE0000374",
+      "contrato": "9/2022",
+      "valor": 8012.7,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2024",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AP."
+    },
+    {
+      "numero": "2024NE0000373",
+      "contrato": "1/2022",
+      "valor": 9567.54,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2024",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000372",
+      "contrato": "1/2021",
+      "valor": 4452.84,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2023NE0000750",
+      "contrato": "9/2020",
+      "valor": 4904.91,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2023",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000752",
+      "contrato": "9/2022",
+      "valor": 4006.35,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2023",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000751",
+      "contrato": "10/2018",
+      "valor": 1803.3,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AD: 05."
+    },
+    {
+      "numero": "2020NE00994",
+      "contrato": "17/2016",
+      "valor": 3184.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2020",
+      "descricao": "PRORROGAÇÃO DO PRAZO DE VIGÊNCIA ATRAVÉS DO 5º TERMO ADITIVO AO CONTRATO Nº 17/2016 -SUHAB, CELEBRADO ENTRE A SUPERINTENDÊNCIA ESTADUAL DE HABITAÇÃO E EMPRESA PROCESSAMENTO DE DADOS DO AMAZONAS S/A PARA A CONTINUIDADE DA PRESTAÇÃO DOS SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA, COMPREENDENDO LICENÇA DE USO DO SISTEMA DE SOCIO/HABITACIONAL E HOSPEDAGEM DE SISTEMAS, DATA CENTER, IMPRESSÃO DE DOCUMENTOS, ENVELOPAMENTO E SERRILHAMENTO, PARA ATENDER ESTA SUHAB, CONFORME PARECER Nº 2.568/2020-PR"
+    },
+    {
+      "numero": "2020NE00993",
+      "contrato": "9/2020",
+      "valor": 5257.58,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2020",
+      "descricao": "CONTRATAÇÃO PARA A PRESTAÇÃO DOS SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, POSSIBILITANDO O ACESSO AOS SISTEMAS CONTRATADOS RESIDENTES NO DATA CENTER DO ESTADO, INCLUINDO O ACESSO À INTERNET ATRAVÉS DA REDE DO GOVERNO. VIGÊNCIA:14/12/2020 A 14/12/2021 VALOR GLOBAL: R$ 126.181,92 VALOR MENSAL: R$ 10.515,16 FUNDAMENTO LEGAL: PARECER 2.642/2020-PROJUR/SUHAB, DISPENSA DE LICITAÇÃO, Art. 24, Inciso VIII e XVI, da Lei 8.666/93. Decreto nº 16.604 de 12/07/1995. DATA DA"
+    },
+    {
+      "numero": "2015NE01004",
+      "contrato": "8/2012",
+      "valor": 12298.97,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2015",
+      "descricao": "CONTRATAÇÃO PARA PRESTAÇÃO DE SERVIÇO DE LOCAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA. 3º TERMO ADITIVO AO CONTRATO Nº 08/2012 SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA REFERENTE LOCAÇÃO DE EQUIPAMENTOS COMPREENDENDO INSTALAÇÃO, CONFIGURAÇÃO, MANUTENÇÃO E ADMINISTRAÇÃO DE UM FIREWALL UTM TIPO 6 PARA ATÉ 250 USUÁRIOS AUTENTICADOS E PRORROGAÇÃO E REAJUSTE DE 5,58% COM BASE NO IGP-M. VIGÊNCIA: 14/09/2014 A 14/09/2015. VALOR GLOBAL: R$ 41.770,08 VALOR MENSAL:SETEMBRO 2015 - R$1.856,45"
+    },
+    {
+      "numero": "2015NE10004",
+      "contrato": "8/2012",
+      "valor": 12298.97,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2026NE0000064",
+      "contrato": "1/2022",
+      "valor": 15289.89,
+      "situacao": "Ativo",
+      "data_emissao": "11/02/2026",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 04."
+    },
+    {
+      "numero": "2015NE01333",
+      "contrato": "4/2011",
+      "valor": 1300.47,
+      "situacao": "Ativo",
+      "data_emissao": "10/12/2015",
+      "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 04/2011- FEH/SUHAB, COM A EMPRESA PRODAM, REFERENTE AOS SERVIÇOS DE INFORMÁTICA PARA PROCESSAMENTO MENSAL DO SISTEMA CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL- CFPP. VIVENCIA: 12/12/2015 A 12/12/2016 VALOR GLOBAL R$ 15.605,64 VALOR MENSAL R$ 1.300,47 VALOR PARA O PRÓXIMO EXERCÍCIO R$ 14.305,17"
+    },
+    {
+      "numero": "2021NE0000624",
+      "contrato": "28/2017",
+      "valor": 17439.04,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2021",
+      "descricao": "PRORROGAÇÃO DO 4º TERMO ADITIVO DO CONTRATO Nº 28/2017 - SUHAB/PRODAM PROCESSAMENTOS DE DADOS AMAZONAS S/A, PELO PRAZO DE 12(DOZE) MESES, REAJUSTE DO VALOR GLOBAL COM AUMENTO DE 6,76% COM BASE NO IPCA, PARA CONTINUIDADE DOS SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM A DISPONIBILIDADE DE APPLIANCE (CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PARECER Nº 960/2021 - PROJUR/SUHAB"
+    },
+    {
+      "numero": "2017NE00498",
+      "contrato": "17/2013",
+      "valor": 6294.45,
+      "situacao": "Ativo",
+      "data_emissao": "10/07/2017",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 17/2013 COM PRORROGAÇÃO DE PRAZO E REAJUSTE NO PERCENTUAL DE 3,36 % (TRÊS VÍRGULA TRINTA E SEIS POR CENTO) COM BASE NO IGPM REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DE SISTEMA COMPREENDENDO GERAÇÃO DE CONSIGNAÇÃO DO \"FINANCIAMENTO DA CASA PRÓPRIA\" EM FOLHA DE PAGAMENTO EM FAVOR DA SUHAB, CONFORME PARECER Nº 1.554/2017-PROJUR/SUHAB. VIGÊNCIA: 04/08/2017 A 04/08/2018 VALOR MENSAL: R$ 1.258,89 VALOR GLOBAL: R$ 15.106,68 DESPESA PARA O PRÓXIMO"
+    },
+    {
+      "numero": "2024NE0000057",
+      "contrato": "1/2022",
+      "valor": 4783.77,
+      "situacao": "Ativo",
+      "data_emissao": "08/02/2024",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2022NE0000100",
+      "contrato": "1/2022",
+      "valor": 4490.96,
+      "situacao": "Ativo",
+      "data_emissao": "08/02/2022",
+      "descricao": "TERMO DE CONTRATO Nº 001/2022-SUHAB/PRODAM PROCESSAMENTO DE DADOS S/A, POR PERIODO DE 12 (DOZE) MESES, PARA FORNECIMENTO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH PARA CONTROLE DE CADASTRO DE PESSOAL (SERVIDORES E SEUS DEPENDENTES) E PROCESSAMENTO DE FOLHA DE PAGAMENTO DE SERVIDORES, TRANSMISSÃO DE DADOS REFERENTE AO ATENDIMENTO DO E-SOCIAL, GERAÇÃO DE ARQUIVOS PROVENIENTE DO PROCESSAMENTO DA FOLHA DE PAGAMENTO CONFORME PARECER Nº 1.179/2021- PROJUR/SUHAB"
+    },
+    {
+      "numero": "2018NE00846",
+      "contrato": "",
+      "valor": 7204.04,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "ANULAÇÃO DA NE 845/2018 POR ERRO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2018NE00847",
+      "contrato": "23/2016",
+      "valor": 7204.04,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "Contratação de empresa para prestaçãode serviços de sistema PRODAM-RH, para manter o cadstro dps servidores e folha de pagamentode pessoal, processar folhas de pagamento e fornecer relatórios para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2018NE00845",
+      "contrato": "23/2016",
+      "valor": 7204.04,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "Contratação de empresa para prestaçãode serviços de sistema PRODAM-RH, para manter o cadstro dps servidores e folha de pagamentode pessoal, processar folhas de pagamento e fornecer relatórios para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2017NE00748",
+      "contrato": "23/2016",
+      "valor": 6614.68,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 023/2016-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, PELO PERÍODO DE 12 (DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE INFORMÁTICA, REFERENTE A PROCESSAMENTO DE CADASTRO DE FOLHA DE PAGAMENTO DE PESSOAL - SISTEMA CEPP, CONFORME PARECER Nº 2.090/2017-PROJUR/SUHAB. VIGÊNCIA: 12/12/2017 A 12/12/2018 VALOR GLOBAL: R$ 46.302,76 DESPESA PARA O PRÓXIMO EXERCÍCIO: R$ 39.688,08 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO ¿ PORTARIA Nº 152/2016-GDP/SUHAB DATA"
+    },
+    {
+      "numero": "2017NE00264",
+      "contrato": "10/2016",
+      "valor": 12588.32,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 010/2016-SUHAB/PRODAM ¿ PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE A PRORROGAÇÃO E REAJUSTAMENTO NO PERCENTUAL 6,66%, COM BASE NO IGPM ACUMULADO NO PERÍODO, PARA CONTINUIDADE DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE, COFORME PARECER Nº 712/2017-PROJUR/SUHAB. VIGÊNCIA: 02/05/2017 A 02/05/2018 VALOR GLOBAL :"
+    },
+    {
+      "numero": "2017NE00265",
+      "contrato": "",
+      "valor": 12588.32,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2017",
+      "descricao": "ANULAÇÃO DA NE 264, POR REFERENCIA INCORRETA."
+    },
+    {
+      "numero": "2017NE00266",
+      "contrato": "10/2016",
+      "valor": 12588.32,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 010/2016-SUHAB/PRODAM ¿ PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE A PRORROGAÇÃO E REAJUSTAMENTO NO PERCENTUAL 6,66%, COM BASE NO IGPM ACUMULADO NO PERÍODO, PARA CONTINUIDADE DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VÍDEOS E IMAGENS VIA WEBSITE, CONFORME PARECER Nº 712/2017-PROJUR/SUHAB. VIGÊNCIA: 02/05/2017 A 02/05/2018 VALOR GLOBAL"
+    },
+    {
+      "numero": "2024NE0000104",
+      "contrato": "10/2018",
+      "valor": 841.54,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AP."
+    },
+    {
+      "numero": "2018NE00165",
+      "contrato": "",
+      "valor": 54603.41,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DA NE 99 PARA TROCA DE NATUREZA DA DESPESA CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00161",
+      "contrato": "",
+      "valor": 36029.84,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 033 PARA TROCA DE NATUREZA DA DESPESA CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00164",
+      "contrato": "",
+      "valor": 24535.25,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 064 PARA TROCA DE NATUREZA DA DESPESA CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00170",
+      "contrato": "",
+      "valor": 100241.05,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 0107 PARA TROCA DE NATUREZA DA DESPESA CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00163",
+      "contrato": "",
+      "valor": 238705.17,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 058 PARA TROCA DE NATUREZA DA DESPESA CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00166",
+      "contrato": "",
+      "valor": 0.05,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE N º 47 ."
+    },
+    {
+      "numero": "2018NE00169",
+      "contrato": "",
+      "valor": 7754.73,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 062 PARA TROCA DE NATUREZA DA DESPESA CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2018NE00162",
+      "contrato": "",
+      "valor": 3147.13,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 035 PARA TROCA DE NATUREZA DA DESPESA CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS/SEFAZ."
+    },
+    {
+      "numero": "2023NE0000741",
+      "contrato": "",
+      "valor": 2704.95,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2023",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 19 DE ACORDO COM O DECRETO 48.346/2023 DE 26/10/2023"
+    },
+    {
+      "numero": "2023NE0000740",
+      "contrato": "",
+      "valor": 21340.01,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2023",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 7 DE ACORDO COM O DECRETO 48.346/2023 DE 26/10/2023"
+    },
+    {
+      "numero": "2023NE0000742",
+      "contrato": "",
+      "valor": 2545.64,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2023",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 14 DE ACORDO COM O DECRETO 48.346/2023 DE 26/10/2023"
+    },
+    {
+      "numero": "2016NE00699",
+      "contrato": "4/2011",
+      "valor": 3901.41,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2016",
+      "descricao": "COMPLEMENTO DO SALDO DO SALDO 5º TERMO ADITIVO AO CONTRATO Nº 04/2011-FEH/SUHAB, COM A EMPRESA PRODAM, REFERENTE AOS SERVIÇOS DE INFORMÁTICA PARA PROCESSAMENTO MENSAL DO SISTEMA CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL ¿CFPP. VIGÊNCIA: 12/12/2015 A 12/12/2016 VALOR GLOBAL: R$ 15.605,64 VALOR MENSAL: R$ 1.300,47 DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO: 08/11/2011 EMPENHADO R$ 3.901,41 FICANDO A EMPENHAR O RESTANTE DO TÃO LOGO HAJA DISPONIBILIDADE."
+    },
+    {
+      "numero": "2016NE00598",
+      "contrato": "25/2013",
+      "valor": 29148.16,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2016",
+      "descricao": "SALDO DO TERMO DE CONTRATO Nº 25/2013 SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONA S/A, REFERENTE RECUPERAÇÃO E MANUTENÇÃO DA REDE DE COMPUTADORES, COMPREENDENDO A INSTALAÇÃO DE 458 PONTOS DE TELECOMUNICAÇÃO INCLUINDO 229 PONTOS ELÉTRICOS DA SEDE DA SUHAB E PRÉDIOS ANEXOS. FUNDAMENTAÇÃO LEGAL: DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO 11.11.2013"
+    },
+    {
+      "numero": "2016NE00596",
+      "contrato": "25/2013",
+      "valor": 29148.16,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2016",
+      "descricao": "SALDO DO TERMO DE CONTRATO Nº 25/2013 SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONA S/A, REFERENTE RECUPERAÇÃO E MANUTENÇÃO DA REDE DE COMPUTADORES, COMPREENDENDO A INSTALAÇÃO DE 458 PONTOS DE TELECOMUNICAÇÃO INCLUINDO 229 PONTOS ELÉTRICOS DA SEDE DA SUHAB E PRÉDIOS ANEXOS."
+    },
+    {
+      "numero": "2016NE00597",
+      "contrato": "",
+      "valor": 29148.16,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2016",
+      "descricao": "ANULAÇÃO DA NE Nº 596 POR ERRO NA REFERÊNCIA."
+    },
+    {
+      "numero": "2024NE0000101",
+      "contrato": "10/2018",
+      "valor": 2765.06,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AD: 06."
+    },
+    {
+      "numero": "2026NE0000058",
+      "contrato": "3/2026",
+      "valor": 8352.72,
+      "situacao": "Ativo",
+      "data_emissao": "06/02/2026",
+      "descricao": "Contratação dos serviços de Licença de Uso de Sistema de Informação compreendendo a utilização do Gestor de Conteúdo Web - GERWEB, para a public de informações, notícias, vídeos e imagens via Website, conforme padrão de comunicação visual do Governo."
+    },
+    {
+      "numero": "2019NE00700",
+      "contrato": "1/2015",
+      "valor": 10024.1,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2019",
+      "descricao": "REFORÇO A NE Nº 00085/2019 PARA ACERTO CONTÁBIL"
+    },
+    {
+      "numero": "2026NE0000056",
+      "contrato": "2/2026",
+      "valor": 37762.24,
+      "situacao": "Ativo",
+      "data_emissao": "05/02/2026",
+      "descricao": "Contratação dos serviços de Informática, consistindo no fornecimento de Circuito de Transmissão de Dados com Acesso Gerenciado à Rede Mundial (Internet) para esta Superintendência de Habitação do Amazonas - SUHAB."
+    },
+    {
+      "numero": "2026NE0000019",
+      "contrato": "4/2024",
+      "valor": 7213.2,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de solução tecnológica para gestão de margem consignável em folha de pagamento referente às parcelas de financiamentos da casa própria de servidores ativos, aposentados e pensionistas de Órgãos do Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2026NE0000016",
+      "contrato": "1/2021",
+      "valor": 2372.03,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000018",
+      "contrato": "9/2022",
+      "valor": 17202.64,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 03."
+    },
+    {
+      "numero": "2015NE00132",
+      "contrato": "13/2009",
+      "valor": 8220.04,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "SALDO DO 7º TERMO ADITIVO AO CONTRATO Nº 13/2009 SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A REFERENTE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO O FORNECIMENTO DE UM LINK DEDICADOS DE 18MBPS, PARA RENOVAÇÃO PELO PERÍODO DE 04 MESES. VIGÊNCIA: 01/10/2014 A 01/02/2015 VALOR GLOBAL: R$32.880,16 VALOR MENSAL: R$8.220,04 DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO: 15.09.2009"
+    },
+    {
+      "numero": "2015NE00141",
+      "contrato": "8/2012",
+      "valor": 27913.5,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "SALDO D2º TERMO ADITIVO AO CONTRATO Nº 08/2012 SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA REFERENTE LOCAÇÃO DE EQUIPAMENTOS COMPREENDENDO INSTALAÇÃO, CONFIGURAÇÃO, MANUTENÇÃO E ADMINISTRAÇÃO DE UM FIREWALL UTM TIPO 6 PARA ATÉ 250 USUÁRIOS AUTENTICADOS. VIGÊNCIA: 14/09/2014 A 14/09/2015. VALOR GLOBAL: R$37.561,68 VALOR MENSAL: SETEMBRO 2014 - R$1.669,41 / OUTUBRO 2014 A AGOSTO 2015 - R$3.130,14 / SETEMBRO DE 2015 - R$1.460,73 DATA DA PUBLICAÇÃO DA DISPENSA DE LICITAÇÃO: 31/05/2012"
+    },
+    {
+      "numero": "2015NE00066",
+      "contrato": "9/2014",
+      "valor": 3506.24,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+    },
+    {
+      "numero": "2015NE00065",
+      "contrato": "14/2014",
+      "valor": 25581.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+    },
+    {
+      "numero": "2015NE00101",
+      "contrato": "4/2011",
+      "valor": 3901.41,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "4º TERMO DE RERRATIFICAÇÃO AO CONTRATO Nº004/2011-FEH/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A MODIFICANDO A CLAUSULA VIGESIMA SEGUNDA."
+    },
+    {
+      "numero": "2015NE00130",
+      "contrato": "17/2013",
+      "valor": 7372.4,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 17/2013 SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA REFERENTE SERVIÇOS DE INFORMÁTICA PARA GERAÇÃO DE CONSIGNAÇÃO DO FINANCIAMENTO DA CASA PRÓPRIA ATRAVÉS DOS CÓDIGOS DE DESCONTO NA FOLHA DE PAGAMENTO DO ESTADO, PARA O TRIBUNAL DE JUSTIÇA DO ESTADO DO AMAZONAS - TJA, ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS - ALEAM E TRIBUNAL DE CONTAS DO ESTADO - TCE, PARA RENOVAÇÃO POR 12 MESES. VIGENCIA: 04/08/2014 A 04/082015 VALOR GLOBAL: R$12.000,00 VALOR"
+    },
+    {
+      "numero": "2019NE00675",
+      "contrato": "23/2016",
+      "valor": 7665.82,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2019",
+      "descricao": "Contratação de empresa especializada na prestação de Serviços de Execução de Sistema PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2017NE00660",
+      "contrato": "28/2017",
+      "valor": 13405.85,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2017",
+      "descricao": "TERMO DE CONTRATO Nº 028/2017-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM A DISPONIBILIZAÇÃO DE APPLIANCE (CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PARECER Nº1.062/2017-PROJUR/SUHAB. VIGÊNCIA: 14/09/2017 A 14/09/2018 VALOR GLOBAL: R$ 45.529,32 VALOR PARA O PROXIMO EXERCICIO: R$ 32.123,47"
+    },
+    {
+      "numero": "2021NE0000055",
+      "contrato": "9/2020",
+      "valor": 42060.64,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação para a prestação dos serviços de fornecimento de Circuito de Transmissão de Dados, possibilitando o acesso aos sistemas contratados residentes no Data Center do Estado, incluindo o Acesso à Internet através da Rede do Governo."
+    },
+    {
+      "numero": "2021NE0000052",
+      "contrato": "23/2016",
+      "valor": 16752.88,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação dos serviços de execução de Sistemas PRODAM-RH para manter o cadastro dos servidores e folha de pagamento, para atender as necessidades desta SUHAB."
+    },
+    {
+      "numero": "2016NE00075",
+      "contrato": "14/2014",
+      "valor": 25581.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO CONTRATO Nº 014/2011- SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS ,REFERENTE A CONTRATAÇÃO DE SERVIÇOS DE SISTEMAS PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO. VIGÊNCIA DO CONTRATO: 03.11.2015 A 03.11.2016 VALOR GLOBAL: R$ 30.697,20 VALOR MENSAL: 2.558,10 DATA DE PUBLICAÇÃO DE DISPENSA DE LICITAÇÃO 13.10.2014 Art. ;XVI; Lei 8.666/93"
+    },
+    {
+      "numero": "2016NE00099",
+      "contrato": "1/2015",
+      "valor": 8413.94,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO CONTRATO Nº 01/2015 SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE SERVIÇOS DE REDE COMPREENDENDO DISPONIBILIDADE DE ACESSO A REDE DO GOVERNO, VIA CIRCUITO DE TRANSMISSÃO DE DADOS DEDICADO ENTRE A SUHAB E A PRODAM VIGÊNCIA DO CONTRATO: 01/02/2015 A 01/02/2016 VALOR GLOBAL DO ADITIVO: 100.967,31 VALOR MENSAL: 8.413,94 DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO: 03/11/2014"
+    },
+    {
+      "numero": "2016NE00078",
+      "contrato": "8/2012",
+      "valor": 29471.11,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SALDO DO 3º TERMO ADITIVO AO CONTRATO Nº 08/2012 SUHAB/ PRODAM, PROCESSAMENTOS DE DADOS AMAZONAS SA, REFERENTE A CONTRATAÇÃO DE SERVIÇOS DE LOTAÇÃO DE EQUIPAMENTOS, COMPREENDENDO A INSTALAÇÃO E CONFIGURAÇÃO DE UM FIREWALL UTM TIPO 6 PARA ATÉ 250 USUÁRIOS. VIGÊNCIA: 14/09/2015 A 14/09/2016. VALOR GLOBAL: 41.770,06 VALOR MENSAL: DE JAN A AGO DE 2016 R$ 3.480,84/ SET-2016 R$ 1.624,31 DATA DA PUBLICAÇÃO DE DISPENSA DE LICITAÇÃO: 13/10/2014."
+    },
+    {
+      "numero": "2016NE00057",
+      "contrato": "9/2014",
+      "valor": 3701.92,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO CONTRATO 09/2014 SUHAB/PRODAM PROCESSAMENTO DE DADOS DO AMAZONAS S.A, MANUTENÇÃO DE NOVA FUNCIONALIDADE NO SITE INSTITUCIONAL . VIGÊNCIA; 18/09/2015 A 18/09/2016 VALOR GLOBAL: R$ 5.552,88 VALOR MENSAL; R$ 462,74 DATA DA PUBLICAÇÃO DA LICITAÇÃO: 26/08/2014"
+    },
+    {
+      "numero": "2016NE00052",
+      "contrato": "4/2011",
+      "valor": 7802.82,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SALDO DO 5º TERMO ADITIVO AO CONTRATO Nº 04/2011 - FEH/SUHAB - PRODAM S.A , REFERENTE AOS SERVIÇOS DE INFORMÁTICA PARA PROCESSAMENTO MENSAL DO SISTEMA CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL - CFPP. VIGÊNCIA 12/12/2015 A 12/12/2016 VALOR GLOBAL : R$ 15.605,64 VALOR MENSAL : R$ 1.300,47 DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO: 08/11/2011 EMPENHANDO R$ 7.802,82, FICANDO A EMPENHAR O RESTANTE DO SALDO R$ 6.502,35, TÃO LOGO HAJA DISPONIBILIDADE."
+    },
+    {
+      "numero": "2016NE00103",
+      "contrato": "17/2013",
+      "valor": 7674.66,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SALDO DO 2º TERMO ADITIVO AO CONTRATO Nº 17/2013 SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A, REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DE SISTEMA, COMPREENDENDO GERAÇÃO DE CONSIGNAÇÃO DO FINANCIAMENTO DA CASA PRÓPRIA EM FOLHA DE PAGAMENTO EM FAVOR DA SUHAB. VIGÊNCIA: 04/08/2015 A 04/08/2016 VALOR GLOBAL: 13.156,56 VALOR MENSAL: 1.096,38 DATA DA PUBLICAÇÃO DA DISPENSA DE LICITAÇÃO: 22/05/2013"
+    },
+    {
+      "numero": "2015NE01187",
+      "contrato": "4/2011",
+      "valor": 706.03,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2015",
+      "descricao": "COMPLEMENTO DA FATURA Nº 12623 PRODAM FEH/SUHAB,REFERENTE AO MÊS DE NOVEMBRO/2014."
+    },
+    {
+      "numero": "2015NE01190",
+      "contrato": "",
+      "valor": 210.89,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2015",
+      "descricao": "ANULAÇÃO DA NE Nº 1188 POR ERRO NO PROGRAMA DE TRABALHO."
+    },
+    {
+      "numero": "2015NE01191",
+      "contrato": "14/2014",
+      "valor": 916.92,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2015",
+      "descricao": "COMPLEMENTO DAS FATURAS Nº 12623 E 13008 REFERENTE A SERVIÇOS DE EXECUÇÃO DE SISTEMAS/CADASTRO FOLHA DE PAGAMENTO DE PESSOAL CORRESPONDENTE AOS MESES DE NOVEMBRO E DEZEMBRO/2014 RESPECTIVAMENTE. INFORMAÇÃO DE DESPESAS DE EXERCÍCIOS ANTERIORES Nº 15/2015."
+    },
+    {
+      "numero": "2015NE01186",
+      "contrato": "14/2014",
+      "valor": 5116.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2015",
+      "descricao": "1º TERMO ADITIVO"
+    },
+    {
+      "numero": "2015NE01189",
+      "contrato": "",
+      "valor": 706.03,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2015",
+      "descricao": "ANULAÇÃO DA NE Nº 1187 POR ERRO NATUREZA DE DESPESA."
+    },
+    {
+      "numero": "2015NE01188",
+      "contrato": "",
+      "valor": 210.89,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2015",
+      "descricao": "COMPLEMENTO DA FATURA Nº 13008 PRODAM,REFERENTE AO MÊS DE DEZEMBRO/2014."
+    },
+    {
+      "numero": "2025NE0000491",
+      "contrato": "9/2022",
+      "valor": 8601.32,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2025",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 03."
+    },
+    {
+      "numero": "2015NE00844",
+      "contrato": "25/2013",
+      "valor": 29148.16,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "NE 844 DE 03/08/2015 R$ 29.148,16 Referente ao pagamento da última parcela do Contrato 25/2013"
+    },
+    {
+      "numero": "2015NE00857",
+      "contrato": "17/2013",
+      "valor": 5481.9,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "NE 857 DE 03/08/2015 R$ 5.481,90 2º Termo Aditivo ao Contrato 17/2013 - SUHAB Agosto a Dezembro R$ 1.096,38"
+    },
+    {
+      "numero": "2024NE0000272",
+      "contrato": "1/2021",
+      "valor": 4452.84,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000276",
+      "contrato": "1/2022",
+      "valor": 14351.31,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000273",
+      "contrato": "9/2022",
+      "valor": 8012.7,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AP."
+    },
+    {
+      "numero": "2024NE0000271",
+      "contrato": "9/2020",
+      "valor": 17311.46,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AP."
+    },
+    {
+      "numero": "2024NE0000270",
+      "contrato": "10/2018",
+      "valor": 3606.6,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AD: 06."
+    },
+    {
+      "numero": "2020NE00920",
+      "contrato": "23/2016",
+      "valor": 8376.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2020",
+      "descricao": "Contratação dos serviços de execução de Sistemas PRODAM-RH para manter o cadastro dos servidores e folha de pagamento, para atender as necessidades desta SUHAB."
+    },
+    {
+      "numero": "2020NE00921",
+      "contrato": "10/2016",
+      "valor": 1679.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2020",
+      "descricao": "Serviços de licença de uso de sistema de informação compreendendo a disponibilidade de Gestor de Conteúdo Web, para publicação de informações, notícias, vídeos e imagens via Website. Mês 04/2020. Parecer nº 2.300/2020 - PROJUR/SUHAB."
+    },
+    {
+      "numero": "2019NE00191",
+      "contrato": "10/2016",
+      "valor": 13438.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2019",
+      "descricao": "Contratação dos serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2018NE00301",
+      "contrato": "10/2016",
+      "valor": 12588.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2018",
+      "descricao": "Contratação dos serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo ueb,para publicação de informações, notícias,vídeos e imagens via website para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2025NE0000013",
+      "contrato": "1/2022",
+      "valor": 4783.77,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação para a prestação de serviços de fornecimento de Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal, processamento de folha de pagamento de servidores para atender às necessidades desta SUHAB. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000011",
+      "contrato": "9/2020",
+      "valor": 17941.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000014",
+      "contrato": "9/2022",
+      "valor": 8354.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000015",
+      "contrato": "4/2024",
+      "valor": 3606.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de solução tecnológica para gestão de margem consignável em folha de pagamento referente às parcelas de financiamentos da casa própria de servidores ativos, aposentados e pensionistas de Órgãos do Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0000063",
+      "contrato": "1/2021",
+      "valor": 2372.03,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000029",
+      "contrato": "9/2020",
+      "valor": 17311.46,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada na prestação dos serviços de Informática consistindo no fornecimento de Circuito de Transmissão de Dados e Acesso Gerenciado à Rede Mundial, para atender às necessidades desta SUHAB. TC: 0009/2020 AP."
+    },
+    {
+      "numero": "2024NE0000030",
+      "contrato": "10/2018",
+      "valor": 3606.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de Sistema, compreendendo geração de consignações da Financiamento da Casa Própria em folha de pagamento em favor da SUHAB. TC: 0010/2018 AP."
+    },
+    {
+      "numero": "2024NE0000047",
+      "contrato": "9/2022",
+      "valor": 8012.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação da PRODAM para prestação de serviço de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilização de appliance. TC: 0009/2022 AP."
+    },
+    {
+      "numero": "2023NE0000006",
+      "contrato": "",
+      "valor": 2090.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "ANULAÇÃO DA NE Nº 005 MOTIVO DATA DE EMISSÃO INCORRETA"
+    },
+    {
+      "numero": "2023NE0000007",
+      "contrato": "",
+      "valor": 28950.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "SALDO DO TERMO DE CONTRATO Nº 007/2022-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A PARA PRESTAÇÃO DE SERVIÇO DE IMPRESSÃO DE DOCUMENTOS E ENVELOPAMENTO DOS BOLETOS DE COBRANÇA DOS FINANCIAMENTOS IMOBILIÁRIOS DESTA SUHAB, POR 12 (DOZE) MESES CONFORME PARECER N º 319/2022-PROJUR/SUHAB, PROCESSO SIGED 3900/2022-90."
+    },
+    {
+      "numero": "2023NE0000010",
+      "contrato": "9/2022",
+      "valor": 20031.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "SALDO DO TERMO DE CONTRATO Nº 009/2022 - SUHAB/PRODAM PROCESSAMENTOS DE DADOS AMAZONAS S/A, PELO PRAZO DE 12(DOZE) MESES, PRESTAÇÃO DE SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM A DISPONIBILIDADE DE APPLIANCE (CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PARECER Nº 532/2022 - PROJUR/SUHAB, PROCESSO SIGED 3270/2022-54."
+    },
+    {
+      "numero": "2023NE0000019",
+      "contrato": "10/2018",
+      "valor": 9016.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "SALDO DO 4º TERMO ADITIVO AO CONTRATO Nº 010/20218-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A E REAJUSTAMENTO DO VALOR GLOBAL COM AUMENTO DE 10,70% COM BASE NO IGPM ACUMULADO DO PERÍODO, PELO PRAZO DE 12 (DOZE) MESES, PARA CONTINUIDADE DO SERVIÇO DE DESCONTO EM CONSIGNAÇÃO, DOS VALORES DAS PRESTAÇÕES DO FINANCIAMENTO DA CASA PRÓPRIA DOS SERVIDORES PÚBLICOS CONTEMPLADOS COM IMÓVEIS EM CONJUNTOS HABITACIONAIS, ATRAVÉS DA FOLHA DE PAGAMENTO DO ESTADO, CONFORME PARECER Nº 590/2022-PROJUR/SUHAB, PROCESSO SIGED 6408/2022-77."
+    },
+    {
+      "numero": "2023NE0000014",
+      "contrato": "1/2022",
+      "valor": 4490.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "SALDO DO TERMO DE CONTRATO Nº 001/2022-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, POR 12(DOZE) MESES, PARA FORNECIMENTO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH PARA CONTROLE DE CADASTRO PESSOAL (SERVIDORES E SEUS DEPENDENTES), PROCESSAMENTO DE FOLHA DE PAGAMENTO DE SERVIDORES, TRANSMISSÃO DOS DADOS REFERENTE AO ATENDIMENTO DO E-SOCIAL, SERVIÇO DE MENSAGERIA DO E-SOCIAL, GERAÇÃO DE ARQUIVOS PROVENIENTES DO PROCESSAMENTO DA FOLHA DE PAGAMENTO DA BASE CADASTRAL COM VISTAS AO ATENDIMENTO DE OBRIGAÇÕES LEGAIS PARA ESSA SUHAB, PARECE Nº 1.179/2021-PROJUR/SUHAB."
+    },
+    {
+      "numero": "2023NE0000018",
+      "contrato": "1/2021",
+      "valor": 2090.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO CONTRATO Nº 001/2021-SUHAB/PRODAM PROCESSMANTO DE DADOS AMAZONAS S/A, POR PERÍODO DE 12(DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB PARA A PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEB SITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO PARECER Nº 107/2022 PROJUR/SUHAB."
+    },
+    {
+      "numero": "2023NE0000087",
+      "contrato": "9/2020",
+      "valor": 57696.45,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "SALDO DO 2º TERMO ADITIVO AO TERMO AO CONTRATO 009/2020 -SUHAB/PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A, PARA CONTINUIDADE DO SERVIÇO CIRCUITO DE TRANSMISSÃO DE DADOS E ACESSO GERENCIADO A REDE MUNDIAL, INCLUINDO O ACESSO À INTERNET ATRAVÉS DA REDE DO GOVERNO, POR UM PERÍODO DE 12 (DOZE) MESES, PARA ATENDER AS NECESSIDADES DESTA SUHAB, CONFORME PARECER Nº 738/2022-PROJUR/SUHAB, PROCESSO SIGED 8633/2022-48."
+    },
+    {
+      "numero": "2020NE00040",
+      "contrato": "10/2016",
+      "valor": 6719.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação dos serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2020NE00027",
+      "contrato": "10/2018",
+      "valor": 11360.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de execução de sistema, compreendendo geração de consignações do FINANCIAMENTO DA CASA PRÓPRIA, em folha de pagamento em favor da SUHAB."
+    },
+    {
+      "numero": "2020NE00028",
+      "contrato": "23/2016",
+      "valor": 45994.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada na prestação de Serviços de Execução de Sistema PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2020NE00024",
+      "contrato": "28/2017",
+      "valor": 32669.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuidade em Segurança de Tecnologia da Informação, com a disponibilidade de appliance (conjunto de equipamentos e softwares)."
+    },
+    {
+      "numero": "2020NE00023",
+      "contrato": "1/2015",
+      "valor": 10314.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação dos serviços de rede, compreendendo a disponibilidade de acesso à rede de governo, via circuito de transmissão de dados dedicado entre a Suhab e Prodam."
+    },
+    {
+      "numero": "2020NE00026",
+      "contrato": "17/2016",
+      "valor": 319318.17,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação para continuidade dos serviços especializados em informática, compreendendo Licença de Uso do Sistema de Informação, Hospedagem de Sistemas, Data Center, impressão de documentos, envelopamento e serrilhamento, para atender esta SUHAB."
+    },
+    {
+      "numero": "2019NE00031",
+      "contrato": "23/2016",
+      "valor": 43224.3,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa para prestaçãode serviços de sistema PRODAM-RH, para manter o cadstro dps servidores e folha de pagamentode pessoal, processar folhas de pagamento e fornecer relatórios para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2019NE00028",
+      "contrato": "28/2017",
+      "valor": 31217.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação dos serviços de fireqall, compreendendo a prestação de serviços de gestão continuada em segurança de tecnologia da informação, com disponibilidade de appliance (conjunto de equipamentos e softwares), para Suhab."
+    },
+    {
+      "numero": "2019NE00032",
+      "contrato": "1/2015",
+      "valor": 10024.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação dos serviços de rede, compreendendo a disponibilidade de acesso a rede do Governo, via circuito de transmissão de dados dedicado entre a SUHAB e Prodam de interesse desta SUHAB."
+    },
+    {
+      "numero": "2019NE00041",
+      "contrato": "10/2018",
+      "valor": 11360.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação dos serviços de execução de sistema , compreendendo geração de consignações do \"financiamento da casa própria\" em folha de pagamento em favor da Suhab."
+    },
+    {
+      "numero": "2019NE00037",
+      "contrato": "10/2016",
+      "valor": 6294.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação dos serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo ueb,para publicação de informações, notícias,vídeos e imagens via website para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2019NE00050",
+      "contrato": "17/2016",
+      "valor": 327620.46,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação dos serviços de execução de sistema em plataforma web (Sproweb), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do cliente: Para atender as necessidades da Suhab."
+    },
+    {
+      "numero": "2018NE00064",
+      "contrato": "28/2017",
+      "valor": 32123.47,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "TERMO DE CONTRATO Nº 028/2017-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM A DISPONIBILIZAÇÃO DE APPLIANCE (CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PARECER Nº1.062/2017-PROJUR/SUHAB. VIGÊNCIA: 14/09/2017 A 14/09/2018 VALOR GLOBAL: R$ 45.529,32 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO ¿ Art.24;XVI; Lei 8.666/93 PORTARIA"
+    },
+    {
+      "numero": "2018NE00058",
+      "contrato": "17/2016",
+      "valor": 273017.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "SALDO DO 1º TERMO ADITIVO AO CONTRATO Nº 017/2016- PRORROGAÇÃO DE PRAZO CONTRATUAL E REAJUSTE NO PERCENTUAL 4,86%,COM BASE NO IGPM ACUMULADO DO PERÍODO,PRODAM/SUHAB-PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DE SISTEMA EM PLATAFORMA WEB (SPROweb), OBJETIVANDO O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DOS CLIENTES DESTA SUHAB.CONFORME PARECER 1.428/2017-PROJUR/SUHAB. VIGÊNCIA: 01/07"
+    },
+    {
+      "numero": "2018NE00035",
+      "contrato": "10/2016",
+      "valor": 6294.21,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2018NE00033",
+      "contrato": "23/2016",
+      "valor": 39688.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 023/2016-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, PELO PERÍODO DE 12 (DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE INFORMÁTICA, REFERENTE A PROCESSAMENTO DE CADASTRO DE FOLHA DE PAGAMENTO DE PESSOAL - SISTEMA CEPP, CONFORME PARECER Nº 2.090/2017-PROJUR/SUHAB. VIGÊNCIA: 12/12/2017 A 12/12/2018 VALOR GLOBAL: R$ 46.302,76 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO - PORTARIA Nº 152/2016-GDP/SUHAB DATA D"
+    },
+    {
+      "numero": "2018NE00047",
+      "contrato": "1/2015",
+      "valor": 10024.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "SALDO DO 3º TERMO ADITIVO AO TERMO DE CONTRATO 001/2015-SUHAB,REFERENTE A PRORROGAÇÃO DO PRAZO PELO PERÍODO DE 12(DOZE)MESES E REJUSTE COM BASE IGPM NO PERCENTUAL DE 8,79%,CORRESPONDENTE A CONTRATAÇÃO DOS SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DO GOVERNO,VIA CIRCUITO DE TRANSMISSÃO DE DADOS DE DEDICADOS ENTRE A SUHAB E PRODAM.CONFORME PARECER Nº 54/2017-PROJUR/SUHAB. VIGÊNCIA: 01/02/2017 A 01/02/2018 VALOR GLOBAL: R$ 120.289,20 FUNDAMENTO LEGAL: DISPENSA"
+    },
+    {
+      "numero": "2018NE00062",
+      "contrato": "17/2013",
+      "valor": 8812.23,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DE SISTEMA COMPREENDENDO GERAÇÃO DE CONSIGNAÇÃO DO \"FINANCIAMENTO DA CASA PRÓPRIA\" EM FOLHA DE PAGAMENTO EM FAVOR DA SUHAB, CUJA A DESCRIÇÃO ESTÁ CONTIDA NO ANEXO QUE PASSA A FAZER PARTE INTEGRANTE DESTE CONTRATO"
+    },
+    {
+      "numero": "2017NE00016",
+      "contrato": "1/2015",
+      "valor": 9214.17,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SALDO 2º TERMO ADITIVO AO CONTRATO 001/2015 SUHAB/ PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A, REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DO GOVERNO, VIA CIRCUITO DE TRANSMISSÃO DE DADOS DEDICADO ENTRE A SUHAB E PRODAM. VIGÊNCIA: 01/02/2016 A 01/02/2017 VALOR MENSAL: FER/2016 A DEZ/2016 R$ 9.214,17 E JAN/2017 R$ 9.214,17 VALOR GLOBAL: 110.570,04 DATA"
+    },
+    {
+      "numero": "2017NE00018",
+      "contrato": "17/2016",
+      "valor": 347538.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SALDO TERMO DE CONTRATO Nº 017/2016-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, REFERENTE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DE SISTEMA EM PLATAFORMA WEB (SPROweb), OBJETIVANDO O CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DOS CLIENTES DESTA SUHAB. VALOR GLOBAL: R$ 695.077,36 DESPESA PARA O PRÓXIMO EXERCÍCIO: R$ 347.538,70 VIGÊNCIA: 01/07/2016 A 01/07/2017 FUNDAMENTAÇÃO LEGAL:"
+    },
+    {
+      "numero": "2017NE00017",
+      "contrato": "8/2012",
+      "valor": 32739.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE LOCAÇÃO DE EQUIPAMENTOS, COMPREENDENDO A INSTALAÇÃO E CONFIGURAÇÃO DE UM FIREWALL UTM TIPO 6 PARA ATÉ 250 USUÁRIOS."
+    },
+    {
+      "numero": "2017NE00008",
+      "contrato": "10/2016",
+      "valor": 5901.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "TERMO DE CONTRATO Nº 10/2016-SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA .CONTRATAÇÃO DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO,COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB A ESSA SUHAB. PARA PUBLICAÇÃO DE INFORMAÇÕES ,NOTÍCIAS,VÍDEOS E IMAGENS VIA WEBSITE,DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL. VIGÊNCIA: 02.05.2016 A 02.05.2017 VALOR GLOBAL: R$ 17.703,48 VALOR MENSAL: MAIO/2016 A ABRIL/2017 R$ 1.475,29 DESPESA PARA O PROXIMO EXERCICIO R$ 5.901,16 FUNDAMENTAÇÃO"
+    },
+    {
+      "numero": "2017NE00027",
+      "contrato": "17/2013",
+      "valor": 8525.77,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA COMPREENDENDO GERAÇÃO DE CONSIGNAÇÕES DO FINANCIAMENTO DA CASA PRÓPRIA EM FOLHA DE PAGAMENTO EM FAVOR DA SUHAB."
+    },
+    {
+      "numero": "2017NE00009",
+      "contrato": "23/2016",
+      "valor": 39688.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação dos serviços de processamento de cadastro de folha de pagamento pessoal-Sistema CFPP, para manter o cadastro dos servidores e folha pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2014NE00047",
+      "contrato": "13/2009",
+      "valor": 73980.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 13/2009 - Acesso Computador Central 3 Mbps /Internet link 2 Mbps"
+    },
+    {
+      "numero": "2014NE00049",
+      "contrato": "7/2009",
+      "valor": 259479.71,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 7/2009 - CFPP, SGH2000-Imobiliario"
+    },
+    {
+      "numero": "2014NE00050",
+      "contrato": "8/2012",
+      "valor": 26501.85,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 8/2012 - Locação de Firewall."
+    },
+    {
+      "numero": "2014NE00073",
+      "contrato": "25/2013",
+      "valor": 174888.99,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 25/2013 - Instalação de Redes elétricas e lógicas - 458 pontos telec. 229 elé‚tricos"
+    },
+    {
+      "numero": "2014NE00048",
+      "contrato": "17/2013",
+      "valor": 7000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 17/2013 - Execução Sistema Financiamento da Casa Própria"
+    },
+    {
+      "numero": "2022NE0000535",
+      "contrato": "9/2022",
+      "valor": 8012.7,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2022",
+      "descricao": "TERMO DE CONTRATO Nº 009/2022 - SUHAB/PRODAM PROCESSAMENTOS DE DADOS AMAZONAS S/A, PELO PRAZO DE 12(DOZE) MESES, PRESTAÇÃO DE SERVIÇOS DE FIREWALL, COMPREENDENDO A PRESTAÇÃO DE SERVIÇOS DE GESTÃO CONTINUADA EM SEGURANÇA DE TECNOLOGIA DA INFORMAÇÃO, COM A DISPONIBILIDADE DE APPLIANCE (CONJUNTO DE EQUIPAMENTOS E SOFTWARES) CONFORME PARECER Nº 532/2022 - PROJUR/SUHAB, PROCESSO SIGED 3270/2022-54."
+    },
+    {
+      "numero": "2022NE00535",
+      "contrato": "9/2022",
+      "valor": 8012.7,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2022",
+      "descricao": "Serviço de Firewall contrato 009/2022"
+    },
+    {
+      "numero": "2020NE00807",
+      "contrato": "",
+      "valor": 63586.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2020",
+      "descricao": "Anulação do saldo da NE 00026 em virtude do término do Contrato nº 17/2016 em 01/07/2020."
+    },
+    {
+      "numero": "2016NE01001",
+      "contrato": "8/2012",
+      "valor": 13662.94,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 08/2012-SUHAB PRODAM, PRORROGAÇÃO DE PRAZO DE 12(DOZE) MESES E REAJUSTE DE 11,9% EM CONFORMIDADE COM O IGPM, REFERENTE A CONTRATAÇÃO DE SERVIÇOS DE LOCAÇÃO DE EQUIPAMENTOS,COMPREENDENDO A INSTALAÇÃO E CONFIGURAÇÃO DE UM FIREWALL UTM TIPO 6 PARA ATÉ 250 USUÁRIOS AUTENTICADOS. CONFORME PARECER Nº 1.801/2016-PROJUR /SUHAB. VIGÊNCIA: 14/09/2016 A 14/09/2017 VALOR GLOBAL COM REAJUSTE 11,9% : R$ 46.402,38 DESPESA PARA O PRÓXIMO EXERCÍCIO: R$ 32.739,44 DATA DA"
+    },
+    {
+      "numero": "2016NE00874",
+      "contrato": "17/2013",
+      "valor": 6089.85,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº 17/2013 COM PRORROGAÇÃO DE PRAZO DE CONTRATO E REAJUSTE ANUAL,COM BASE NO IGPM.REFERENTE A CONTRATAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA COMPREENDENDO GERAÇÃO DE CONSIGNAÇÕES DO FINANCIAMENTO DA CASA PRÓPRIA EM FOLHA DE PAGAMENTO EM FAVOR DA SUHAB.CONFORME PARECER Nº 1.327/2016-PROJUR VIGÊNCIA: 04/08/2016 A 04/08/2017 VALOR GLOBAL: R$ 14.615,62 VALOR MENSAL: R$ 1.217,97 DESPESA PARA O PRÓXIMO EXERCÍCIO R$: 8.525,77 DATA DE PUBLICAÇÃO DO DESPAC"
+    },
+    {
+      "numero": "2014NE00630",
+      "contrato": "17/2013",
+      "valor": 5000.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2014",
+      "descricao": "Contrato No. 17/2013 - Execução Sistema Financiamento da Casa Própria"
+    },
+    {
+      "numero": "2020NE00662",
+      "contrato": "17/2016",
+      "valor": 283654.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2020",
+      "descricao": "PRORROGAÇÃO DO PRAZO DE VIGÊNCIA POR 180 (OITENTA DIAS) DIAS, ATRAVÉS DO 4º TERMO ADITIVO AO CONTRATO Nº 017/2016 - SUHAB, CELEBRADO ENTRE A SUPERINTENDÊNCIA ESTADUAL DE HABITAÇÃO DO AMAZONAS E A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, PARA A CONTINUIDADE NA PRESTAÇÃO DOS SERVIÇOS ESPECIALIZADOS DE LICENÇA DE USO DO SISTEMA DE SÓCIO/HABITACIONAL E HOSPEDAGEM DE SISTEMA PARA ATENDIMENTO ÀS DEMANDAS DESTA SUHAB CONFORME PARECER Nº 1.815/2020."
+    },
+    {
+      "numero": "2015NE00380",
+      "contrato": "1/2015",
+      "valor": 75725.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "TERMO DE CONTRATO Nº 01/2015 SUHAB/ PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A REFERENTE SERVIÇOS DE REDE, COMPREENDENDO DISPONIBILIDADE DE ACESSO À REDE DO GOVERNO, VIA CIRCUITO DE TRANSMISSÃO DE DADOS DEDICADO ENTRE SUHAB E PRODAM, PARA ACESSO GERENCIADO AOS SERVIÇOS CONTRATADOS, RESIDENTES NO DATA CENTER DO ESTADO E A INTERNET. VIGÊNCIA: 01/02/2015 A 01/02/2016 VALOR GLOBAL: R$146.329,44 VALOR MENSAL: R$12.194,12 DATA DA PUBLICAÇÃO DO DESPACHO DE DISPENSA DE LICITAÇÃO: 03.11.2014 DE"
+    },
+    {
+      "numero": "2015NE00406",
+      "contrato": "4/2011",
+      "valor": 10403.76,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Alteração da dotação orçamentária da FEH para SUHAB"
+    },
+    {
+      "numero": "2015NE00398",
+      "contrato": "1/2015",
+      "valor": 75725.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "SERVIÇOS DE PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE00396",
+      "contrato": "1/2015",
+      "valor": 75725.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAÇÃO DA NE Nº 380 POR ERRO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2024NE0000052",
+      "contrato": "1/2022",
+      "valor": 2226.42,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2023NE00094",
+      "contrato": "1/2022",
+      "valor": 4783.77,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE00093",
+      "contrato": "1/2021",
+      "valor": 2226.42,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE0000094",
+      "contrato": "1/2022",
+      "valor": 4783.77,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2023",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 001/2022-SUHAB/PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, POR 12(DOZE) MESES, PARA FORNECIMENTO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH PARA CONTROLE DE CADASTRO PESSOAL (SERVIDORES E SEUS DEPENDENTES), PROCESSAMENTO DE FOLHA DE PAGAMENTO DE SERVIDORES, TRANSMISSÃO DOS DADOS REFERENTE AO ATENDIMENTO DO E-SOCIAL, SERVIÇO DE MENSAGERIA DO E-SOCIAL, GERAÇÃO DE ARQUIVOS PROVENIENTES DO PROCESSAMENTO DA FOLHA DE PAGAMENTO DA BASE CADASTRAL COM VISTAS AO ATENDIMENTO DE OBRIGAÇÕES LEGAIS PARA ESSA SUHAB, PARECE Nº 153/2023-PROJUR/SUHAB, PROCESSO SIGED 10812/2022-45."
+    },
+    {
+      "numero": "2023NE0000093",
+      "contrato": "1/2021",
+      "valor": 2226.42,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2023",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO Nº 001/2021-SUHAB/PRODAM PROCESSMANTO DE DADOS AMAZONAS S/A, POR PERIODO DE 12(DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB PARA A PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEB SITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO PARECER Nº 154/2023 PROJUR/SUHAB, PROCESSO SIGED 10354/22-44."
+    },
+    {
+      "numero": "2022NE0000099",
+      "contrato": "1/2021",
+      "valor": 6270.42,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2022",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 001/2021-SUHAB/PRODAM PROCESSMANTO DE DADOS AMAZONAS S/A, POR PERIODO DE 12(DOZE) MESES, PARA CONTINUIDADE DOS SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO COMPREENDENDO A DISPONIBILIDADE DE GESTOR DE CONTEÚDO WEB PARA A PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEB SITE, DE ACORDO COM O PADRÃO DE COMUNICAÇÃO VISUAL DO GOVERNO DO ESTADO PARECER Nº 107/2022 PROJUR/SUHAB."
+    },
+    {
+      "numero": "2021NE0000062",
+      "contrato": "1/2021",
+      "valor": 5151.09,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2021",
+      "descricao": "Contratação de empresa especializada para a prestação de serviço de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens, via Website."
+    },
+    {
+      "numero": "2019NE00085",
+      "contrato": "1/2015",
+      "valor": 113457.08,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2019",
+      "descricao": "Contratação dos serviços de rede, compreendendo a disponibilidade de acesso à rede de governo, via circuito de transmissão de dados dedicado entre a Suhab e Prodam."
+    },
+    {
+      "numero": "2016NE00177",
+      "contrato": "1/2015",
+      "valor": 101355.87,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "SEGUNDO TERMO ADITIVO AO CONTRATO 001/2015 SUHAB/ PRODAM PROCESSAMENTO DE DADOS DA AMAZONAS S/A, REFERENTE A CONTRATAÇÃO DOS SERVIÇOS DE REDE, COMPREENDENDO A DISPONIBILIDADE DE ACESSO A REDE DO GOVERNO, VIA CIRCUITO DE TRANSMISSÃO DE DADOS DEDICADO ENTRE A SUHAB E PRODAM. VIGÊNCIA: 01/02/2016 A 01/02/2017 VALOR MENSAL: FER/2016 A DEZ/2016 R$ 9.214,17 E JAN/2017 R$ 9.214,17 VALOR GLOBAL: 110.570,04 DATA DA PUBLICAÇÃO DA DISPENSA DE LICITAÇÃO: 03/11/2014 DESPESA PARA O PRÓXIMO EXERC"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "122692",
+      "nf": "19753",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "02/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 6
+    },
+    {
+      "id": "122694",
+      "nf": "19791",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "01/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 2
+    },
+    {
+      "id": "123185",
+      "nf": "20315",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "03/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "123872",
+      "nf": "20909",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "04/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "124586",
+      "nf": "21618",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "05/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "125289",
+      "nf": "22293",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "06/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "126050",
+      "nf": "23024",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "07/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "126606",
+      "nf": "23567",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "08/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "127412",
+      "nf": "24327",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "09/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "128052",
+      "nf": "24914",
+      "contrato": "46/2021",
+      "valor_bruto": 33380.89,
+      "competencia": "10/2021",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "92689",
+      "nf": "18519",
+      "contrato": "25/2013",
+      "valor_bruto": 29148.16,
+      "competencia": "05/2016",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 4
+    },
+    {
+      "id": "154323",
+      "nf": "49556",
+      "contrato": "10/2018",
+      "valor_bruto": 1202.2,
+      "competencia": "10/2024",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 78
+    },
+    {
+      "id": "166426",
+      "nf": "724",
+      "contrato": "4/2024",
+      "valor_bruto": 300.88,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 81
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Instalação  de redes elétricas e lógicas",
+      "Contrato": "025/2013",
+      "Número": "92689",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/92689/E",
+      "Comp.": "05/2016",
+      "Valor": "29.148,16",
+      "Atraso": "3593 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "122692",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/122692/E",
+      "Comp.": "02/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1839 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "122694",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/122694/E",
+      "Comp.": "01/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1839 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "123185",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/123185/E",
+      "Comp.": "03/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1813 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "123872",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/123872/E",
+      "Comp.": "04/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1780 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "124586",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/124586/E",
+      "Comp.": "05/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1749 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "125289",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/125289/E",
+      "Comp.": "06/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1717 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "126050",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/126050/E",
+      "Comp.": "07/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1687 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "126606",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/126606/E",
+      "Comp.": "08/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1655 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "127412",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/127412/E",
+      "Comp.": "09/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1625 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "046/2021",
+      "Número": "128052",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/128052/E",
+      "Comp.": "10/2021",
+      "Valor": "33.380,89",
+      "Atraso": "1598 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "010/2018",
+      "Número": "154323",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154323/E",
+      "Comp.": "10/2024",
+      "Valor": "420,77",
+      "Atraso": "497 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SUHAB",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "004/2024",
+      "Número": "166426",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166426/E",
+      "Comp.": "01/2026",
+      "Valor": "300,88",
+      "Atraso": "41 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 322,
+      "valor_total": 9193518.2,
+      "por_ano": {
+        "2020": {
+          "qtd": 18,
+          "valor": 881966.02
+        },
+        "2023": {
+          "qtd": 37,
+          "valor": 522416.8799999999
+        },
+        "2018": {
+          "qtd": 44,
+          "valor": 2140348.54
+        },
+        "2016": {
+          "qtd": 34,
+          "valor": 728574.2999999997
+        },
+        "2025": {
+          "qtd": 29,
+          "valor": 246790.73
+        },
+        "2024": {
+          "qtd": 38,
+          "valor": 288280.17999999993
+        },
+        "2017": {
+          "qtd": 22,
+          "valor": 1419865.3299999998
+        },
+        "2019": {
+          "qtd": 21,
+          "valor": 1084280.0400000003
+        },
+        "2022": {
+          "qtd": 22,
+          "valor": 326865.91000000003
+        },
+        "2021": {
+          "qtd": 16,
+          "valor": 240547.22
+        },
+        "2014": {
+          "qtd": 9,
+          "valor": 590849.3099999999
+        },
+        "2015": {
+          "qtd": 26,
+          "valor": 634541.02
+        },
+        "2026": {
+          "qtd": 6,
+          "valor": 88192.72
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 13,
+      "valor_total": 364460.14
+    },
+    "cobrancas": {
+      "qtd": 13,
+      "valor_total": 363678.71
+    }
+  }
+}

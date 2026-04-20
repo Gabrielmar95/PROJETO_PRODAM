@@ -1,0 +1,3537 @@
+{
+  "sigla": "FCECON",
+  "profile": {
+    "nome_completo": "Fundação Centro de Educação Tecnológica do Amazonas",
+    "sigla": "FCECON",
+    "natureza": "Fundação",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "637106.6794919234",
+    "val_orig": "581141.44",
+    "val_atualizado": "828620.6325084443",
+    "faturas_total": 113,
+    "faturas_prescritas": 28,
+    "faturas_exigiveis": 85,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "TRD pronto",
+    "observacoes": "Evidências de reconhecimento",
+    "forca_probatoria": "FORTE",
+    "modelo_notificacao": "A",
+    "reconhecimento_revisado": {
+      "total_evidencias": 37,
+      "classificacao": "CONFIRMADO — Reconhecimento formal",
+      "por_tipo": {
+        "A": 1,
+        "D": 1,
+        "E": 34,
+        "H": 1
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "34.570.820/0001-30",
+    "evidencias_reconhecimento": 37,
+    "evidencias_por_tipo": {
+      "A": 1,
+      "D": 1,
+      "E": 34,
+      "H": 1
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Reconhecimento formal",
+    "tipo": "GOV",
+    "score_composto": 0.6526,
+    "proximo_passo": "ENVIAR_TRD",
+    "p_recuperacao": 0.8,
+    "ev_valor_esperado": "509685.34",
+    "ev_honorarios": "101937.07",
+    "esforco_estimado": 4,
+    "cenario_monte_carlo_p50": "358533.96",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 7,
+    "blindagem_resultado": {
+      "data": "2026-03-27",
+      "blocos": {
+        "A_titulo": {
+          "ok": 4,
+          "total": 6
+        },
+        "B_liquidez": {
+          "ok": 5,
+          "total": 5
+        },
+        "C_cadeia": {
+          "ok": 6,
+          "total": 6
+        },
+        "D_defesas": {
+          "ok": 4,
+          "total": 5
+        }
+      },
+      "total_ok": 19,
+      "total_items": 22,
+      "recomendacao": "MONITORIA",
+      "ressalvas": [
+        "Sem título executivo — monitória ou TRD primeiro"
+      ]
+    },
+    "ultima_interacao": "2026-03-25",
+    "fase_atual": "F3",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-27"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "FCECON",
+    "spcf_total_receber": "213510.37",
+    "emp_2026": "211950.43",
+    "emp_2026_qtd": 23,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "val_servicos_spcf_mar2026": "225907.60",
+    "val_liquido_spcf_mar2026": "220905.77",
+    "num_faturas_spcf_mar2026": 33,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 61.99,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "via_processual_recomendada": {
+      "via": "TRD_PRIMEIRO",
+      "fundamentacao": "TRD pronto, GOV_INDIRETA"
+    },
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2022NE0001821",
+      "contrato": "40/2020",
+      "valor": 6095.63,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD."
+    },
+    {
+      "numero": "2022NE0001820",
+      "contrato": "18/2019",
+      "valor": 1854.05,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2022",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2022NE0001411",
+      "contrato": "18/2019",
+      "valor": 5001.78,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2022",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2025NE0002446",
+      "contrato": "18/2019",
+      "valor": 338.66,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2025",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2017NE00960",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2017NE00928",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2016NE00989",
+      "contrato": "",
+      "valor": 12130.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO N.º 664/2016 PARA CORREÇÃO DA DATA DE EMPENHO."
+    },
+    {
+      "numero": "2016NE00992",
+      "contrato": "13/2015",
+      "valor": 12130.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2016",
+      "descricao": "FORNECIMENTO DE 1(UM) LINK DE INTERNET DE 5MB/S (MEGABAYTE POR SEGUNDO) 7 DIAS POR SEMANA 24H POR DIA - REF AO CONTRATO 13/2015 - VIGENCIA: 28/09/2015 A 28/09/2016 - COMPETENCIA: JAN E FEV/2016"
+    },
+    {
+      "numero": "2024NE0002734",
+      "contrato": "18/2023",
+      "valor": 17313.21,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0002733",
+      "contrato": "40/2020",
+      "valor": 8332.63,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0002730",
+      "contrato": "18/2019",
+      "valor": 4504.15,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2024NE0002731",
+      "contrato": "18/2019",
+      "valor": 5732.55,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2024NE0002736",
+      "contrato": "18/2019",
+      "valor": 169.33,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2024NE0002728",
+      "contrato": "40/2020",
+      "valor": 15134.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE01043",
+      "contrato": "21/2022",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA PARA A PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO."
+    },
+    {
+      "numero": "2023NE01042",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2023NE01044",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO, DE FORMA DEDICADA, DE SERVIÇO DE ACESSO À INTERNET POR FIBRA ÓPTICA."
+    },
+    {
+      "numero": "2023NE0001042",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 018/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0001044",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 040/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0001043",
+      "contrato": "21/2022",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA."
+    },
+    {
+      "numero": "2014NE01239",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2025NE0001575",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2014NE01013",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2014NE01021",
+      "contrato": "14/2014",
+      "valor": 34368.9,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2014",
+      "descricao": "Contrato No. 14/2014"
+    },
+    {
+      "numero": "2025NE0001118",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2025NE0001119",
+      "contrato": "18/2023",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0001120",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2014NE00208",
+      "contrato": "79/2009",
+      "valor": 4317.32,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2014",
+      "descricao": "Contrato No. 79/2009 - Acesso Internet/Comput.banda 1,536Mb,c/Ass.-MetroMao"
+    },
+    {
+      "numero": "2022NE0002064",
+      "contrato": "21/2022",
+      "valor": 39118.8,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA."
+    },
+    {
+      "numero": "2021NE0002299",
+      "contrato": "40/2020",
+      "valor": 6736.66,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2021",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2025NE0003607",
+      "contrato": "40/2020",
+      "valor": 4429.84,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVIÇOS CONCERNENTES AO 2º TA CONTRATO 40/2020, VIGÊNCIA: 24/11/2022 A 23/11/2023 - COMPETÊNCIA: 11/2023, DA SEGUINTE FORMA: FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS - 25 MBPS - (1.000 X 1,906.790/ 30 X 23 DIAS ), REFERENTE A 23 DIAS NO FIM DA VIGÊNCIA - NF Nº 41457 EMITIDA EM 16/11/2023 NO VALOR DE R$ 1.461,87 E SERVICO DE ACESSO GERENCIADO À REDE MUNDIAL DE 1 ATE 30 MBPS - (18.000 X 215.070/ 30 X 23 DIAS ) - REFERENTE A 23 DIAS NO FIM DA VIGENCIA – FATURA Nº 145412 NO VALOR DE R$ 2.967,97, EMITIDA EM 16/11/2023 TOTALIZANDO O VALOR DE R$4.429,84."
+    },
+    {
+      "numero": "2025NE0003602",
+      "contrato": "40/2020",
+      "valor": 5591.82,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE ACESSO GERENCIADO À REDE MUNDIAL DE 1 ATE 30 MBPS - (26.000 X 215.070). CONFORME 3º TA CONTRATO 40/2020 - VIGÊNCIA: 24/11/2022 A 23/11/2023 - COMPETÊNCIA MÊS 08/2023 - FATURA Nº 143191 EMITIDAS EM 15/08/2023 NO VALOR DE R$5,591.82."
+    },
+    {
+      "numero": "2025NE0003608",
+      "contrato": "40/2020",
+      "valor": 5591.82,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE ACESSO GERENCIADO A REDE MUNDIAL DE 1 ATE 30 MBPS - (26.000 X 215.070). CONFORME 3º TA - CONTRATO Nº. 40/2020 VIGÊNCIA: 24/11/2023 A 23/11/2024, COMPETÊNCIA 12/2023. FATURA Nº 146173, EMITIDA EM 15/12/2023. TOTALIZANDO O VALOR DE R$ 5.591.82."
+    },
+    {
+      "numero": "2025NE0003600",
+      "contrato": "21/2022",
+      "valor": 14617.64,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "2º TA - CONTRATO Nº 21/2022 – REFERENTE A SERVIÇO DE LICENÇA DE USO DE VPN POR CONEXAO VPN - (2.000 X 160.880), CONFORME NOTA FISCAL Nº 41458, NO VALOR DE R$ 321,76, EMITIDA EM 16/11/2023 E SERVICO: HOSPEDAGEM DE SERVIDORES POR GB EM DISCO BACKUP - (2,058.00 X 2.570). R$ 5,289.06 POR GB EM DISCO MID - (2,058.00 X 1.280). R$ 2,634.24 ALOCACAO DE ENDERECO IPV4 - (1.000 X 19.210). R$ 19.21 POR GB DE MEMORIA PRINCIPAL - (53.000 X 90.260). R$ 4,783.78 POR USO SO - WINDOWS SERVER STANDARD CORE (POR VCPU) - (2.000 X 134.310). R$ 268.62 POR VCPU - (11.000 X 118.270). R$ 1,300.97, DE ACORDO COM NOTA FISCAL Nº 41459, NO VALOR DE R$ 14.295,88, COMPETÊNCIA: NOVEMBRO/2023 - TOTALIZANDO O VALOR DE R$14.617,64."
+    },
+    {
+      "numero": "2025NE0003610",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE LICENCA DE USO DE SISTEMAS DE INFORMACAO, SISTEMA GESTOR DE CONTEUDO WEB LICENCA DE USO, GESTOR DE CONTEUDO WEB - (1.000 X 2,047.340) – REFERENTE AO 5º ADITIVO - CONTRATO Nº 18/2019 - COMPETÊNCIA: DEZEMBRO/2023 - CONFORME NOTA FISCAL Nº 42208, EMITIDA EM 18/12/2023 - NO VALOR DE R$ 2,047.34"
+    },
+    {
+      "numero": "2025NE0003598",
+      "contrato": "21/2022",
+      "valor": 7308.82,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE LICENCA DE USO DE VPN POR CONEXAO VPN - (2.000 X 160.880/ 30 X 15 DIAS ). R$ 160.88 E SERVIÇO DE HOSPEDAGEM DE SERVIDORES POR GB EM DISCO BACKUP - (2,058.00 X 2.570/ 30 X 15 DIAS ). R$ 2,644.53 POR GB EM DISCO MID - (2,058.00 X 1.280/ 30 X 15 DIAS ). R$ 1,317.12 ALOCACAO DE ENDERECO IPV4 - (1.000 X 19.210/ 30 X 15 DIAS ). R$ 9.61 POR GB DE MEMORIA PRINCIPAL - (53.000 X 90.260/ 30 X 15 DIAS ). R$ 2,391.89 POR USO SO - WINDOWS SERVER STANDARD CORE (POR VCPU) - (2.000 X 134.310/ 30 X 15 DIAS ). R$ 134.31 POR VCPU - (11.000 X 118.270/ 30 X 15 DIAS ). R$ 650.49. REFERENTE AO 2º TA CONTRATO 21/2022. VIGÊNCIA: 16/09/2023 A 31/08/2024. COMPETÊNCIA: SETEMBRO/2023, CONFORME NOTAS FISCAIS 40607 NO VALOR DE R$160,88 E 40608 NO VALOR DE R$7.147,94 EMITIDAS EM 29/09/2023, NO VALOR TOTAL DE 7.308,82."
+    },
+    {
+      "numero": "2025NE0003609",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE LICENCA DE USO DE SISTEMAS DE INFORMACAO, SISTEMA GESTOR DE CONTEUDO WEB LICENCA DE USO, GESTOR DE CONTEUDO WEB - (1.000 X 2,047.340) – REFERENTE AO 5º ADITIVO - CONTRATO Nº 18/2019 - COMPETÊNCIA: NOVEMBRO/2023 - CONFORME NOTA FISCAL Nº 41456, EMITIDA EM 16/11/2023 - NO VALOR DE R$ 2,047.34"
+    },
+    {
+      "numero": "2025NE0003611",
+      "contrato": "40/2020",
+      "valor": 1692.39,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SALDO RESTANTE DA NF 33913 DE 01/12/2022- REFERENTE AO SERVIÇO DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS - COMPETÊNCIA: DEZEMBRO/2022. CONFORME 2º TERMO ADITIVO DO CONTRATO 40/2020, VIGÊNCIA: 24/11/2022 ATÉ 23/11/2023 – NO VALOR DE R$ 1.692,39."
+    },
+    {
+      "numero": "2025NE0003604",
+      "contrato": "40/2020",
+      "valor": 5484.47,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE ACESSO GERENCIADO A REDE MUNDIAL DE 1 ATE 30 MBPS - (18.000 X 198.760) E FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS CIRCUITO DE TRANSMISSAO DE DADOS - 25 MBPS - (1.000 X 1,906.790). CONFORME 2º TA - CONTRATO NO. 40/2020 VIGÊNCIA: 24/11/2022 A 23/11/2023, COMPETÊNCIA 10/2023. FATURA Nº 144725, NO VALOR DE R$ 3.577.68 - EMITIDA EM 20/10/2023 E NOTA FISCAL Nº 41067, NO VALOR DE R$ 1.906.79 - EMITIDA EM 25/10/2023. TOTALIZANDO O VALOR DE R$ 5.484,47."
+    },
+    {
+      "numero": "2025NE0003650",
+      "contrato": "",
+      "valor": 117937.3,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "139006 - LICENÇA DE SOFTWARE, Aquisição de licença (36 meses) de software antivírus Kaspersky com suporte e atualizações por 36 meses; 139009 - CAPACITAÇÃO PROFISSIONAL; 14800 - SERVIÇOS DE INFORMÁTICA."
+    },
+    {
+      "numero": "2025NE0003601",
+      "contrato": "18/2023",
+      "valor": 1906.79,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS - 25 MBPS - (1.000 X 1,906.790). CONFORME 3º TA CONTRATO 40/2020 - VIGÊNCIA: 24/11/2022 A 23/11/2023 - COMPETÊNCIA MÊS 08/2023 - NF Nº 39399 EMITIDAS EM 15/08/2023 NO VALOR DE R$ 1.906,79."
+    },
+    {
+      "numero": "2025NE0003613",
+      "contrato": "26/2025",
+      "valor": 32062.7,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR OS SERVIDORES A SEREM UTILIZADOS NOS EQUIPAMENTOS DE RADIOTERAPIA"
+    },
+    {
+      "numero": "2025NE0003596",
+      "contrato": "18/2019",
+      "valor": 477.71,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVIÇOS DE REFORMULAÇÃO E ATUALIZAÇÃO DE WEBSITE, CONFORME 4º TERMO ADITIVO AO CONTRATO 18/2019, VIGÊNCIA: 08/10/2022 A 07/10/2023, COMPETÊNCIA 01/10/2023 A 07/10/2023, NOTA FISCAL Nº 41066 EMITIDA EM 25/10/2023 VALOR R$ 477,71."
+    },
+    {
+      "numero": "2025NE0003597",
+      "contrato": "21/2022",
+      "valor": 9779.7,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE HOSPEDAGEM DE SERVIDORES POR GB EM DISCO BACKUP - CONFORME NF 40556 DE 28/09/2023 – NO VALOR DE 9.129,34; SUPORTE TECNICO EM SISTEMAS DE INFORMACAO HORAS DE SUPORTE EM SISTEMAS DE INFORMACAO, CONFORME NF 40557 DE 28/09/2023, NO VALOR DE R$489,48 E LICENCA DE USO DE VPN POR CONEXAO VPN, CONFORME NF 40558 DE 28/09/2023, NO VALOR DE R$160,88. COMPETÊNCIA: SETEMBRO/2023 DE ACORDO COM O 2º TA – CONTRATO Nº 21/2022 – VIGÊNCIA: 01/09/2023 A 31/08/2024 - TOTALIZANDO O VALOR DE R$9.779,70."
+    },
+    {
+      "numero": "2025NE0003612",
+      "contrato": "22/2025",
+      "valor": 1.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE"
+    },
+    {
+      "numero": "2025NE0003599",
+      "contrato": "21/2022",
+      "valor": 14617.64,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "LICENCA DE USO DE VPN POR CONEXAO VPN - (2.000 X 160.880) E HOSPEDAGEM DE SERVIDORES POR GB EM DISCO BACKUP - (2,058.00 X 2.570). R$ 5,289.06 POR GB EM DISCO MID - (2,058.00 X 1.280). R$ 2,634.24 ALOCACAO DE ENDERECO IPV4 - (1.000 X 19.210). R$ 19.21 POR GB DE MEMORIA PRINCIPAL - (53.000 X 90.260). R$ 4,783.78 POR USO SO - WINDOWS SERVER STANDARD CORE (POR VCPU) - (2.000 X 134.310). R$ 268.62 POR VCPU - (11.000 X 118.270). R$ 1.300.97. CONFORME 2º TA - CONTRATO Nº. 21/2022 VIGÊNCIA: 16/09/2023 A 31/08/2024, COMPETÊNCIA 10/2023. NOTAS FISCAIS Nº: 41068, NO VALOR DE R$321,76 E 41069, NO VALOR DE R$14.295,88 - EMITIDAS EM 25/10/2023. TOTALIZANDO O VALOR DE R$ 14.617,64."
+    },
+    {
+      "numero": "2025NE0003603",
+      "contrato": "40/2020",
+      "valor": 1749.68,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVICO DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS - 25 MBPS - (1.000 X 1,906.790/ 30 X 7 DIAS), REFERENTE A 7 DIAS, E SERVICO DE ACESSO GERENCIADO A REDE MUNDIAL DE 1 ATÉ 30 MBPS - (26.000 X 215.070/ 30 X 7 DIAS), CONFORME 3º TA CONTRATO 40/2020 - VIGÊNCIA: 24/11/2023 A 23/11/2024 - COMPETÊNCIA MÊS 11/2023 - NF Nº 41817 VALOR DE R$ 444,92 E FATURA Nº 145900 NO VALOR DE R$ 1.304.76 EMITIDAS EM 27/11/2023, NO VALOR TOTAL DE R$1.749,68."
+    },
+    {
+      "numero": "2025NE0003595",
+      "contrato": "21/2022",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, CONFORME O CONTRATO 21/2022, VIGÊNCIA: 01/09/2022 A 31/08/2023, COMPETÊNCIA 01/08/2023 A 31/08/2023, NOTAS FISCAIS Nºs 39400, 39401 e 39402 EMITIDAS EM 15/08/2023 TOTALIZANDO O VALOR DE R$ 19.559,40."
+    },
+    {
+      "numero": "2017NE01780",
+      "contrato": "13/2015",
+      "valor": 607.17,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAR O REAJUSTE DE 0,11% SOBRE O VALOR DO CONTRATO. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2017 A 28/09/2018. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL 2016: R$ 6.071,65. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2025NE0002285",
+      "contrato": "",
+      "valor": 338.66,
+      "situacao": "Ativo",
+      "data_emissao": "29/07/2025",
+      "descricao": "ANULAÇÃO POR SALDO DE EMPENHO DA NE 1678."
+    },
+    {
+      "numero": "2016NE02282",
+      "contrato": "",
+      "valor": 1890.26,
+      "situacao": "Ativo",
+      "data_emissao": "29/07/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº1359/16 EM RAZÃO DO 1º T.A. AO CONTRATO Nº13/2015 DE SUPRESSAÕ TER SIDO TORNADO SEM EFEITO, CONFORME DESPACHO DA CHEFIA DO DAF E PUBLICAÇÃO NO DOE EM 06/05/2016."
+    },
+    {
+      "numero": "2014NE01398",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "29/07/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2023NE0002542",
+      "contrato": "",
+      "valor": 136.78,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2023",
+      "descricao": "[ANULAÇÃO: ECONOMIA ORÇAMENTÁRIA DO 2º ADITIVO AO CONTRATO Nº 040/2020 - 01/06/2023 - 31/07/2023 - 2023NE0000698]"
+    },
+    {
+      "numero": "2023NE0002543",
+      "contrato": "",
+      "valor": 68.24,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2023",
+      "descricao": "[ANULAÇÃO: ECONOMIA ORÇAMENTÁRIA DO 5º ADITIVO AO CONTRATO Nº 018/2019 - 01/10/2023 - 31/10/2023 - 2023NE0001709]"
+    },
+    {
+      "numero": "2018NE02305",
+      "contrato": "",
+      "valor": 0.04,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL PARA AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2018NE01652",
+      "contrato": "13/2015",
+      "valor": 607.17,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2018",
+      "descricao": "FORNECIMENTO DE 1(UM) LINK DE INTERNET DE 5MB/S (MEGABYTE POR SEGUNDO) 7 DIAS POR SEMANA 24H POR DIA."
+    },
+    {
+      "numero": "2014NE01705",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2022NE0000565",
+      "contrato": "18/2019",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE. (PARCIAL FEV)"
+    },
+    {
+      "numero": "2022NE0000566",
+      "contrato": "40/2020",
+      "valor": 6071.67,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD. (REST MAR PARC ABR)"
+    },
+    {
+      "numero": "2018NE00186",
+      "contrato": "14/2014",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2018",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON."
+    },
+    {
+      "numero": "2025NE0003921",
+      "contrato": "25/2025",
+      "valor": 126.5,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO A INTERNET POR FIBRA ÓPTICA COM GARANTIA DE 100% EM DOWNLOAD E UPLOAD E CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR."
+    },
+    {
+      "numero": "2021NE0001987",
+      "contrato": "40/2020",
+      "valor": 1655.06,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2021",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD."
+    },
+    {
+      "numero": "2024NE0000640",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "27/03/2024",
+      "descricao": "SERVIÇOS DE REFORMULAÇÃO E ATUALIZAÇÃO DE WEBSITE, CONFORME 4º TERMO ADITIVO AO CONTRATO 18/2019, VIGÊNCIA: 08/10/2022 A 07/10/2023, COMPETÊNCIA 01/08/2023 A 31/08/2023, NOTA FISCAL Nº 39398 EMITIDA EM 15/08/2023 VALOR R$ 2.047,34."
+    },
+    {
+      "numero": "2024NE0000641",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "27/03/2024",
+      "descricao": "SERVIÇOS DE REFORMULAÇÃO E ATUALIZAÇÃO DE WEBSITE, CONFORME 4º TERMO ADITIVO AO CONTRATO 18/2019, VIGÊNCIA: 08/10/2022 A 07/10/2023, COMPETÊNCIA 01/09/2023 A 30/09/2023, NOTA FISCAL Nº 40554 EMITIDA EM 28/09/2023 VALOR R$ 2.047,34."
+    },
+    {
+      "numero": "2022NE0000070",
+      "contrato": "18/2019",
+      "valor": 1994.97,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2022",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2022NE0000071",
+      "contrato": "40/2020",
+      "valor": 18215.01,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD."
+    },
+    {
+      "numero": "2025NE0003852",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2025NE0003848",
+      "contrato": "18/2019",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE REFORMULAÇÃO E ATUALIZAÇÃO DE WEBSITE, CONFORME 1º TERMO ADITIVO AO CONTRATO 18/2019, VIGÊNCIA: 08/10/2020 ATÉ 07/10/2021, COMPETÊNCIA 01 A 31/12/2020, NFSe Nº 18186 EMITIDA EM 04/12/2020, VALOR R$ 1.700,79"
+    },
+    {
+      "numero": "2025NE0003847",
+      "contrato": "18/2019",
+      "valor": 396.85,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE REFORMULAÇÃO E ATUALIZAÇÃO DE WEBSITE, CONFORME 1º TERMO ADITIVO AO CONTRATO 18/2019, VIGÊNCIA: 08/10/2020 ATÉ 07/10/2021, COMPETÊNCIA 01 A 07/10/2021, NFSe Nº 24413 EMITIDA EM 15/10/2021, VALOR R$ 396,85."
+    },
+    {
+      "numero": "2025NE0003855",
+      "contrato": "14/2014",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2025NE0003856",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2025NE0003843",
+      "contrato": "40/2020",
+      "valor": 1692.39,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "SALDO RESTANTE DA NF 33913 DE 01/12/2022- REFERENTE AO SERVIÇO DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS - COMPETÊNCIA: DEZEMBRO/2022. CONFORME 2º TERMO ADITIVO DO CONTRATO 40/2020, VIGÊNCIA: 24/11/2022 ATÉ 23/11/2023 – NO VALOR DE R$ 1.692,39."
+    },
+    {
+      "numero": "2025NE0003850",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2025NE0003846",
+      "contrato": "40/2020",
+      "valor": 4462.68,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE UM LINK DE INTERNET, CONFORME CONTRATO 40/2020, VIGÊNCIA: 24/11/2020 ATÉ 23/11/2021, COMPETÊNCIA OUTUBRO DE 2021, NFSe Nº 24414 EMITIDA EM 15/10/2021, VALOR TOTAL DE R$ 5.305,75."
+    },
+    {
+      "numero": "2025NE0003866",
+      "contrato": "14/2014",
+      "valor": 2531.6,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 01."
+    },
+    {
+      "numero": "2025NE0003854",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2025NE0003865",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO À INTERNET TC: 13/2015 AD: 02."
+    },
+    {
+      "numero": "2025NE0003867",
+      "contrato": "18/2019",
+      "valor": 438.2,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOSSERVIÇOS ESPECIALIZADOS EM REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE 4º TERMO ADITIVO AO CONTRATO Nº 018/2019."
+    },
+    {
+      "numero": "2025NE0003861",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO À INTERNET TC: 13/2015 AD: 03."
+    },
+    {
+      "numero": "2025NE0003862",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO À INTERNET TC: 13/2015 AD: 03."
+    },
+    {
+      "numero": "2025NE0003853",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2025NE0003857",
+      "contrato": "14/2014",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2025NE0003845",
+      "contrato": "40/2020",
+      "valor": 5438.07,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE UM LINK DE INTERNET, CONFORME CONTRATO 40/2020, VIGÊNCIA: 24/11/2020 ATÉ 23/11/2021, COMPETÊNCIA NOVEMBRO DE 2021, NFSe Nº 25202 e 25203 EMITIDAS EM 17/11/2021, VALOR TOTAL DE R$ 5.438,07."
+    },
+    {
+      "numero": "2025NE0003858",
+      "contrato": "13/2015",
+      "valor": 5464.49,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO À INTERNET TC: 13/2015 AD: 03."
+    },
+    {
+      "numero": "2025NE0003859",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO À INTERNET TC: 13/2015 AD: 03."
+    },
+    {
+      "numero": "2025NE0003863",
+      "contrato": "13/2015",
+      "valor": 12130.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO À INTERNET TC: 13/2015"
+    },
+    {
+      "numero": "2025NE0003844",
+      "contrato": "40/2020",
+      "valor": 7093.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE UM LINK DE INTERNET, CONFORME 1º TERMO ADITIVO AO CONTRATO 40/2020, VIGÊNCIA: 24/11/2021 ATÉ 23/11/2022, COMPETÊNCIA DEZEMBRO DE 2021, NFSe Nº 25776 e 25777 EMITIDAS EM 02/12/2021, VALOR TOTAL DE R$ 7.093,14."
+    },
+    {
+      "numero": "2025NE0003864",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA SERVIÇO DE ACESSO Á INTERNET TC:13/2015 AD:02"
+    },
+    {
+      "numero": "2025NE0003860",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO À INTERNET TC: 13/2015 AD: 03."
+    },
+    {
+      "numero": "2025NE0003851",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014 AD: 04."
+    },
+    {
+      "numero": "2019NE01672",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2019",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2018 A 28/09/2019. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL: R$ 6.071,65. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO N.º 035/2015, HOMOLOGAÇÃO PUBL. NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2019NE01671",
+      "contrato": "14/2014",
+      "valor": 66.5,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2019",
+      "descricao": "OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2018 A 04/06/2019. VALOR GLOBAL: R$ 7.979,88 VALOR MENSAL: R$ 664,99."
+    },
+    {
+      "numero": "2025NE0001844",
+      "contrato": "18/2023",
+      "valor": 6354.69,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE01844",
+      "contrato": "18/2023",
+      "valor": 6354.69,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2025",
+      "descricao": "Contrato 018/2023 Aditivo nº 01 - Serviços de Hospedagem em Infraestrutura Virtualizada."
+    },
+    {
+      "numero": "2024NE0001359",
+      "contrato": "18/2023",
+      "valor": 97797.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA,"
+    },
+    {
+      "numero": "2018NE00522",
+      "contrato": "14/2014",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2018",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON."
+    },
+    {
+      "numero": "2020NE01450",
+      "contrato": "13/2015",
+      "valor": 6071.67,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2020",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO 013/2015. FORNECIMENTO DE 01 (UM) LINK DE INTERNET. COMPLEMENTO PARCELA ABRIL (R$ 1.583,32) E PARCIAL PARCELA MAIO (R$ 4.488,35)."
+    },
+    {
+      "numero": "2020NE01451",
+      "contrato": "13/2015",
+      "valor": 12143.34,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2020",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET COMPLEMENTO MAIO (1.979,15), PARCELA JUNHO (6.467,50) E PARCIAL JULHO (3.696,69)."
+    },
+    {
+      "numero": "2020NE01450",
+      "contrato": "13/2015",
+      "valor": 6071.67,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2020",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO 013/2015. FORNECIMENTO DE 01 (UM) LINK DE INTERNET. COMPLEMENTO PARCELA ABRIL (R$ 1.583,32) E PARCIAL PARCELA MAIO (R$ 4.488,35)."
+    },
+    {
+      "numero": "2023NE01282",
+      "contrato": "18/2019",
+      "valor": 1015.98,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2023",
+      "descricao": "4º TA do Contrato 018/2019 - Serviços Especializados em Reformulação e Atualização de Web Site. Obs.: Valor Empenhado refere-se ao restante das parcelas de janeiro a maio (R$ 169,33 mês e a parcial da parcela de junho (R$ 169,33)."
+    },
+    {
+      "numero": "2023NE0001282",
+      "contrato": "",
+      "valor": 1015.98,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 018/2019 AD: 04."
+    },
+    {
+      "numero": "2016NE01755",
+      "contrato": "",
+      "valor": 197.26,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NE 1374/2016. MOTIVO: EQUIVOCO NO PROCESSO"
+    },
+    {
+      "numero": "2016NE01760",
+      "contrato": "14/2014",
+      "valor": 789.03,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2016",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014 OBJETO DO ADITIVO: APLICAR SUPRESSÃO DE 15% NO VALOR TOTAL DO CONTRATO. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2015 A 04/06/2016. VALOR GLOBAL: R$ 789,03. VALOR MENSAL: R$ 537,97. VALOR EMPENHADO: R$ 197,26 REF. AO MÊS DE ABRIL DE 2016. VALOR EMPENHADO: R$ 537,97 REF. AO MÊS DE MAIO DE 2016. VALOR EMPENHADO: R$ 53,80 REF. AO MÊS DE JUNHO DE 2016."
+    },
+    {
+      "numero": "2022NE0002035",
+      "contrato": "40/2020",
+      "valor": 1765.63,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2022",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD"
+    },
+    {
+      "numero": "2020NE02317",
+      "contrato": "40/2020",
+      "valor": 8275.33,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2020",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2020NE01438",
+      "contrato": "18/2019",
+      "valor": 1253.35,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2020",
+      "descricao": "REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE CT. 18/2019 PARCIAL DA PARCELA DE MARÇO/2020"
+    },
+    {
+      "numero": "2024NE0001083",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0001082",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2017NE00294",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2017",
+      "descricao": "53888 - SERVIÇOS DE ACESSO À INTERNET, Descrição: SERVIÇOS DE ACESSO À INTERNET, Descrição: contratação de empresa especializada em fornecimento de um link de internet. Conforme projeto básico MARCA: null"
+    },
+    {
+      "numero": "2023NE0002087",
+      "contrato": "18/2023",
+      "valor": 68528.79,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2023",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA,"
+    },
+    {
+      "numero": "2016NE02491",
+      "contrato": "13/2015",
+      "valor": 26483.83,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2016",
+      "descricao": "CONTRATO N.º 013/2015, EXTR. PUBL. NO D.O. DE 01/10/2015. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2015 A 28/09/2016. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016:R$ 6.065,00. VALOR EMPENHADO:R$ 2.223,83 REF. A PARCIAL DE ABRIL DE 2016. VALOR EMPENHADO:R$ 24.260,00 REF. AOS MESES DE MAI A AGO DE 2016. VALOR A EMPENHAR: R$ 5.458,50 REF. AO MÊS DE SET. DE 2016 FUNDAMENTO LEGAL: DISP. DE LICIT. CONF. PORT. N.º 035/2015 PUB. NO D.O. DE 27/07/2015"
+    },
+    {
+      "numero": "2015NE01124",
+      "contrato": "14/2014",
+      "valor": 2978.27,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2015",
+      "descricao": "REF. RESSARCIMENTO DE DESPESA COM CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SITE, CONF. MEMO 123/2015 DA GEOFI/FCECON DE ACORDO COM O PARECER Nº 62/2015-FCECON, DATADO DE 18/06/2015."
+    },
+    {
+      "numero": "2022NE0000762",
+      "contrato": "40/2020",
+      "valor": 6071.67,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD."
+    },
+    {
+      "numero": "2022NE0000761",
+      "contrato": "18/2019",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2022",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2020NE00605",
+      "contrato": "13/2015",
+      "valor": 11351.68,
+      "situacao": "Ativo",
+      "data_emissao": "23/04/2020",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAÇÃO DE REAJUSTE DE 6,52%. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 29/09/2019 A 28/09/2020. VALOR GLOBAL: R$ 77.610,00. VALOR MENSAL: R$ 6.467,50. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO N.º 035/2015, HOMOLOGAÇÃO PUBL. NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2018NE00363",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2018",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAR O REAJUSTE DE 0,11% SOBRE O VALOR DO CONTRATO. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2017 A 28/09/2018. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL: R$ 6.071,65. FUNDAMENTO LEGAL: Dispensa de Licitação, previsto no Art.24; XVI; da Lei 8.666/93; de acordo com a Portaria de Dispensa de Licitação nº035/15"
+    },
+    {
+      "numero": "2023NE0000219",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD"
+    },
+    {
+      "numero": "2023NE0000218",
+      "contrato": "21/2022",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA."
+    },
+    {
+      "numero": "2023NE0000217",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE"
+    },
+    {
+      "numero": "2025NE0004221",
+      "contrato": "",
+      "valor": 742.92,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO DEVIDO AO DÉFICIT ORÇAMENTÁRIO PARA O PAGAMENTO DA NOTA FISCAL 12499, NO VALOR (744,56). ANULAR - R$ 742,92"
+    },
+    {
+      "numero": "2024NE0002631",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2024NE0002630",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0002629",
+      "contrato": "18/2023",
+      "valor": 17225.18,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA,"
+    },
+    {
+      "numero": "2024NE0002628",
+      "contrato": "18/2023",
+      "valor": 2334.22,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA,"
+    },
+    {
+      "numero": "2023NE0001630",
+      "contrato": "40/2020",
+      "valor": 20.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0001631",
+      "contrato": "21/2022",
+      "valor": 20.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA. TC: 0021/2022 AD: 02."
+    },
+    {
+      "numero": "2023NE0001632",
+      "contrato": "18/2019",
+      "valor": 20.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0002670",
+      "contrato": "18/2023",
+      "valor": 4236.46,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2015NE01121",
+      "contrato": "14/2014",
+      "valor": 2978.24,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2015",
+      "descricao": "REF. RESSARCIMENTO DE DESPESA COM CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SITE, CONF. MEMO 123/2015 DA GEOFI/FCECON DE ACORDO COM O PARECER Nº 62/2015-FCECON, DATADO DE 18/06/2015."
+    },
+    {
+      "numero": "2015NE01123",
+      "contrato": "14/2014",
+      "valor": 2978.24,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NE 1121/2015. MOTIVO: EQUIVOCO NO VALOR"
+    },
+    {
+      "numero": "2025NE0001440",
+      "contrato": "18/2023",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0001439",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2017NE00240",
+      "contrato": "14/2014",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO CONF. PORT. N.º 027/2014 PUBL. NO D.O. DE 27/05/2014."
+    },
+    {
+      "numero": "2026NE0000022",
+      "contrato": "",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2026",
+      "descricao": "Anulação total do valor da Nota de Empenho para ajuste da data, conforme orientação do FES/DATEC."
+    },
+    {
+      "numero": "2026NE0000024",
+      "contrato": "",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2026",
+      "descricao": "Anulação total do valor da Nota de Empenho para ajuste da data, conforme orientação do FES/DATEC."
+    },
+    {
+      "numero": "2026NE0000023",
+      "contrato": "",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2026",
+      "descricao": "Anulação total do valor da Nota de Empenho para ajuste da data, conforme orientação do FES/DATEC."
+    },
+    {
+      "numero": "2026NE0000013",
+      "contrato": "26/2025",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "21/01/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE"
+    },
+    {
+      "numero": "2026NE0000011",
+      "contrato": "26/2025",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "21/01/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR OS SERVIDORES A SEREM UTILIZADOS NOS EQUIPAMENTOS DE RADIOTERAPIA"
+    },
+    {
+      "numero": "2026NE0000012",
+      "contrato": "25/2025",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/01/2026",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO A INTERNET POR FIBRA ÓPTICA COM GARANTIA DE 100% EM DOWNLOAD E UPLOAD E CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR."
+    },
+    {
+      "numero": "2016NE02668",
+      "contrato": "13/2015",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "20/09/2016",
+      "descricao": "CONTRATO N.º 013/2015, EXTRATO PUBLICADO DO DOE DE 01/10/2015. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2015 A 28/09/2016. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. VALOR EMPENHADO: R$ 5.458,50 REF. AO MÊS DE SETEMBRO DE 2016. FUNDAMENTO LEGAL: DISP. DE LICIT. CONF. PORT. N.º 035/2015 PUB. NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2019NE00907",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2019",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2018 A 28/09/2019. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL: R$ 6.071,65. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO N.º 035/2015, HOMOLOGAÇÃO PUBL. NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2024NE0000525",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0000524",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2024NE0003031",
+      "contrato": "18/2023",
+      "valor": 4353.66,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2016NE03657",
+      "contrato": "",
+      "valor": 1347.3,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NE 586/2016. MOTIVO: AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2020NE01914",
+      "contrato": "18/2019",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "19/10/2020",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 018/2019. OBJETO DO CONTRATO: SERVIÇOS ESPECIALIZADOS EM REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE DESTA FCECON. VIGÊNCIA: 08/10/2020 A 07/10/2021. VALOR GLOBAL: R$ 20.409,48. VALOR MENSAL: R$ 1.700,79 FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO Nº 197/2019, HOMOLOGAÇÃO PUBL. NO D.O. DE 25/09/2019. VALOR EMPENHADO R$ 664,99 REFERENTE AO COMPLEMENTO DA PARCELA DE OUTUBRO DE 2020."
+    },
+    {
+      "numero": "2020NE01915",
+      "contrato": "18/2019",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "19/10/2020",
+      "descricao": "contratação de pessoa jurídica para prestação de serviços especializados em manutenção e suporte de reformulação do site da FCECON, melhorando o gerenciamento de conteúdo, tornando as atualizações de notícias sobre o controle do cliente"
+    },
+    {
+      "numero": "2018NE01583",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2018",
+      "descricao": "FORNECIMENTO DE 01 (UM) LINK DE INTERNET. MAI/18."
+    },
+    {
+      "numero": "2021NE0000596",
+      "contrato": "40/2020",
+      "valor": 7093.14,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2021NE0000595",
+      "contrato": "18/2019",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "contratação de pessoa jurídica para prestação de serviços especializados em manutenção e suporte de reformulação do site da FCECON, melhorando o gerenciamento de conteúdo, tornando as atualizações de notícias sobre o controle do cliente"
+    },
+    {
+      "numero": "2017NE02216",
+      "contrato": "13/2015",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015. OBS.: VALOR EMPENHADO: R$ 5.458,50 - REFERENTE A PARCELA DE SETEMBRO DE 2017."
+    },
+    {
+      "numero": "2017NE02217",
+      "contrato": "13/2015",
+      "valor": 18214.95,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAR O REAJUSTE DE 0,11% SOBRE O VALOR DO CONTRATO. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2017 A 28/09/2018. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL 2016: R$ 6.071,65. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015. OBS.: VALOR EMPENHADO: R$ 18.214,95 - (OUT A NOV)"
+    },
+    {
+      "numero": "2017NE02101",
+      "contrato": "14/2014",
+      "valor": 1990.98,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E REAJUSTAR O PREÇO DOS SERVIÇOS EM 4,86%. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2017 A 04/06/2018. VALOR GLOBAL: R$ 7.963,91. VALOR MENSAL: R$ 663,66. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI Nº 8.666/93 HOMOLOGADO NO NO D.O. DE 27/05/2014. (OUT A DEZ)"
+    },
+    {
+      "numero": "2017NE02125",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015. OBS.: VALOR EMPENHADO: R$ 6.065,00 - REFERENTE A PARCELA DE AGOSTO DE 2017."
+    },
+    {
+      "numero": "2017NE02143",
+      "contrato": "",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NE2125/17 PARA CORREÇÃO DO FUNDAMENTO LEGAL."
+    },
+    {
+      "numero": "2017NE02144",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "FORNECIMENTO DE 1(UM) LINK DE INTERNET DE 5MB/S (MEGABYTE POR SEGUNDO) 7 DIAS POR SEMANA 24H POR DIA."
+    },
+    {
+      "numero": "2017NE02098",
+      "contrato": "14/2014",
+      "valor": 1327.32,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E REAJUSTAR O PREÇO DOS SERVIÇOS EM 4,86%. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2017 A 04/06/2018. VALOR GLOBAL: R$ 7.963,91. VALOR MENSAL: R$ 663,66. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI Nº 8.666/93 HOMOLOGADO NO NO D.O. DE 27/05/2014. (AGO E SET)"
+    },
+    {
+      "numero": "2023NE0001564",
+      "contrato": "21/2022",
+      "valor": 136.78,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA. TC: 0021/2022 AD: 01."
+    },
+    {
+      "numero": "2020NE01390",
+      "contrato": "18/2019",
+      "valor": 1624.16,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2020",
+      "descricao": "REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE CT. 18/2019 PARCIAL DA PARCELA DE FEVEREIRO/2020"
+    },
+    {
+      "numero": "2020NE01390",
+      "contrato": "",
+      "valor": 1624.16,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2020",
+      "descricao": "REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE CT. 18/2019 PARCIAL DA PARCELA DE FEVEREIRO/2020"
+    },
+    {
+      "numero": "2020NE01391",
+      "contrato": "18/2019",
+      "valor": 76.63,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2020",
+      "descricao": "REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE CT. 18/2019 RESTANTE DA PARCELA DE FEVEREIRO/2020"
+    },
+    {
+      "numero": "2017NE00821",
+      "contrato": "13/2015",
+      "valor": 12130.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO CONF. PORTARIA N.º 035/2015 PUBL NO D.O. DE 27/07/2015. OBS.: VALOR EMPENHADO: R$ 12.130,00 - REFERENTE AS PARCELAS DE MARÇO E ABRIL/2017"
+    },
+    {
+      "numero": "2017NE00827",
+      "contrato": "14/2014",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI Nº 8.666/93 HOMOLOGADO NO NO D.O. DE 27/05/2014. OBS.: VALOR EMPENHADO: R$ 1.265,80 - REFERENTE AS PARCELAS DE ABRIL E MAIO/17"
+    },
+    {
+      "numero": "2017NE00826",
+      "contrato": "",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NE 820. MOTIVO: AJUSTE ORÇAMENTÁRIO"
+    },
+    {
+      "numero": "2017NE00820",
+      "contrato": "14/2014",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO CONF. PORT. N.º 027/2014 PUBL. NO D.O. DE 27/05/2014. OBS.: VALOR EMPENHADO: R$ 1.265,80 - REFERENTE AS PARCELAS DE ABRIL E MAIO/2017"
+    },
+    {
+      "numero": "2017NE00828",
+      "contrato": "13/2015",
+      "valor": 12130.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015. OBS.: VALOR EMPENHADO: R$ 12.130,00 - REFERENTE AS PARCELAS DE MARÇO E ABRIL/2017"
+    },
+    {
+      "numero": "2017NE00825",
+      "contrato": "",
+      "valor": 12130.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NE 821. MOTIVO: AJUSTE ORÇAMENTÁRIO"
+    },
+    {
+      "numero": "2024NE0003005",
+      "contrato": "18/2023",
+      "valor": 12658.35,
+      "situacao": "Ativo",
+      "data_emissao": "17/12/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA,"
+    },
+    {
+      "numero": "2024NE0003004",
+      "contrato": "18/2023",
+      "valor": 17323.97,
+      "situacao": "Ativo",
+      "data_emissao": "17/12/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2016NE02957",
+      "contrato": "13/2015",
+      "valor": 18195.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2016",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO N.º 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. VALOR EMPENHADO: R$ 18.195,00 REF. AOS MESES DE OUTUBRO A DEZEMBRO DE 2016. VALOR A EMPENHAR: R$ 53.978,50 REF. AOS MESES DE JANEIRO A SETEMBRO DE 2017."
+    },
+    {
+      "numero": "2016NE02959",
+      "contrato": "14/2014",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2016",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014, EXTR. PUBL. NO D.O. DE 06/05/2016. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. VALOR EMPENHADO: R$ 1.265,80 REF. AOS MESES DE NOVEMBRO E DEZEMBRO DE 2016. A EMPENHAR: R$ 3.227,79 REF. AOS MESES DE JANEIRO A JUNHO DE 2017. FUNDAMENT"
+    },
+    {
+      "numero": "2016NE02957",
+      "contrato": "13/2015",
+      "valor": 18195.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2016",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO N.º 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. VALOR EMPENHADO: R$ 18.195,00 REF. AOS MESES DE OUTUBRO A DEZEMBRO DE 2016. VALOR A EMPENHAR: R$ 53.978,50 REF. AOS MESES DE JANEIRO A SETEMBRO DE 2017."
+    },
+    {
+      "numero": "2016NE02959",
+      "contrato": "14/2014",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2016",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014, EXTR. PUBL. NO D.O. DE 06/05/2016. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. VALOR EMPENHADO: R$ 1.265,80 REF. AOS MESES DE NOVEMBRO E DEZEMBRO DE 2016. A EMPENHAR: R$ 3.227,79 REF. AOS MESES DE JANEIRO A JUNHO DE 2017. FUNDAMENT"
+    },
+    {
+      "numero": "2024NE0001193",
+      "contrato": "18/2019",
+      "valor": 2724.66,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2023NE0000699",
+      "contrato": "18/2019",
+      "valor": 3756.02,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 018/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0000698",
+      "contrato": "40/2020",
+      "valor": 15134.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 040/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000697",
+      "contrato": "21/2022",
+      "valor": 39118.8,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA."
+    },
+    {
+      "numero": "2023NE00699",
+      "contrato": "18/2019",
+      "valor": 3756.02,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "4º Aditivo do Contrato 018/2019 - Prestação de Serviço em Manutenção e Suporte de Reformulação do site."
+    },
+    {
+      "numero": "2020NE02156",
+      "contrato": "18/2019",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2020",
+      "descricao": "contratação de pessoa jurídica para prestação de serviços especializados em manutenção e suporte de reformulação do site da FCECON, melhorando o gerenciamento de conteúdo, tornando as atualizações de notícias sobre o controle do cliente"
+    },
+    {
+      "numero": "2020NE02157",
+      "contrato": "",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2020",
+      "descricao": "ANULAÇÃO TOTAL DEVIDO ASSINATURA TER OCORRIDO ANTES DA DESCRIÇÃO."
+    },
+    {
+      "numero": "2020NE02155",
+      "contrato": "18/2019",
+      "valor": 1189.06,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2020",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 018/2019. OBJETO DO CONTRATO: SERVIÇOS ESPECIALIZADOS EM REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE DESTA FCECON. VIGÊNCIA: 08/10/2020 A 07/10/2021. VALOR GLOBAL: R$ 20.409,48. VALOR MENSAL: R$ 1.700,79 FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO Nº 197/2019, HOMOLOGAÇÃO PUBL. NO D.O. DE 25/09/2019. VALOR EMPENHADO REFERENTE AO COMPLEMENTO DA PARCELA DO MÊS DE NOVEMBRO DE 2020."
+    },
+    {
+      "numero": "2020NE02159",
+      "contrato": "18/2019",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2020",
+      "descricao": "contratação de pessoa jurídica para prestação de serviços especializados em manutenção e suporte de reformulação do site da FCECON, melhorando o gerenciamento de conteúdo, tornando as atualizações de notícias sobre o controle do cliente"
+    },
+    {
+      "numero": "2022NE0001480",
+      "contrato": "18/2019",
+      "valor": 218.52,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2022",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE WEB DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2023NE0001380",
+      "contrato": "21/2022",
+      "valor": 39118.8,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA."
+    },
+    {
+      "numero": "2023NE0001379",
+      "contrato": "40/2020",
+      "valor": 15134.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 040/2020 AD: 02."
+    },
+    {
+      "numero": "2019NE00848",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2019",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E REAJUSTAR O PREÇO DOS SERVIÇOS EM 0,20%. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2018 A 04/06/2019. VALOR GLOBAL: R$ 7.979,88 VALOR MENSAL: R$ 664,99."
+    },
+    {
+      "numero": "2015NE00834",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 117/2015. MOTIVO: EQUIVOCO NA DATA DE EMISSÃO."
+    },
+    {
+      "numero": "2015NE00663",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "REF. AO 3º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2014 A 12/04/2015 NO VALOR MENSAL R$ 528,35 E VALOR GLOBAL DE R$ 6.340,20. CONFORME MEMO 0013/2014 DA DAF/FCECON. - COMPLEMENTO DA NE 117/2015."
+    },
+    {
+      "numero": "2020NE01884",
+      "contrato": "13/2015",
+      "valor": 3562.47,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2020",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAÇÃO DE REAJUSTE DE 6,52%. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 29/09/2019 A 28/09/2020. VALOR GLOBAL: R$ 77.610,00. VALOR MENSAL: R$ 6.467,50. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO N.º 035/2015, HOMOLOGAÇÃO PUBL. NO D.O. DE 27/07/2015. VALOR EMPENHADO REFERENTE AO COMPLEMENTO DA PARCELA DE SETEMBRO (R$ 3.562,47)."
+    },
+    {
+      "numero": "2023NE0001556",
+      "contrato": "",
+      "valor": 136.78,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2023",
+      "descricao": "[ANULAÇÃO: ECONOMIA ORÇAMENTÁRIA DO 2º ADITIVO DO CONTRATO Nº 040/2020 - 01/01/2023 - 28/02/2023 - 2023NE0000039]"
+    },
+    {
+      "numero": "2023NE0001558",
+      "contrato": "",
+      "valor": 68.39,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2023",
+      "descricao": "[ANULAÇÃO: ECONOMIA ORÇAMENTÁRIA DO 2º ADITIVO DO CONTRATO Nº 040/2020 - 01/05/2023 - 31/05/2023 - 2023NE0001044]"
+    },
+    {
+      "numero": "2023NE0001557",
+      "contrato": "",
+      "valor": 136.78,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2023",
+      "descricao": "[ANULAÇÃO: ECONOMIA ORÇAMENTÁRIA DO 2º ADITIVO DO CONTRATO Nº 040/2020 - 01/03/2023 - 30/04/2023 - 2023NE0000698]"
+    },
+    {
+      "numero": "2020NE02142",
+      "contrato": "18/2019",
+      "valor": 10204.74,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2020",
+      "descricao": "TERMO DE CONTRATO Nº 018/2019. OBJETO DO CONTRATO: SERVIÇOS ESPECIALIZADOS EM REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE DESTA FCECON. VIGÊNCIA: 08/10/2019 A 07/10/2020. VALOR GLOBAL: R$ 20.409,48. VALOR MENSAL: R$ 1.700,79 FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO Nº 197/2019, HOMOLOGAÇÃO PUBL. NO D.O. DE 25/09/2019. VALOR EMPENHADO REFERENTE ÀS PARCELAS DOS MESES DE ABRIL A SETEMBRO DE 2020."
+    },
+    {
+      "numero": "2024NE0001173",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0001183",
+      "contrato": "",
+      "valor": 338.66,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2024",
+      "descricao": "[ANULAÇÃO: ECONOMIA ORÇAMENTÁRIA DO 3º ADITIVO AO CONTRATO Nº 040/2020 - COMPETÊNCIA: 01/02/2024 A 28/02/2024 - 2024NE0000007]"
+    },
+    {
+      "numero": "2016NE01289",
+      "contrato": "13/2015",
+      "valor": 1890.26,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "1º T.A. CONT. N.º 013/2015 - FORNECIMENTO DE LINK DE INTERNET - VIGÊNCIA: 20/04/2016 a 28/09/2016 - VALOR EMPENHADO REF. A COMPETÊNCIA DO MÊS DE ABRIL DE 2016."
+    },
+    {
+      "numero": "2016NE01394",
+      "contrato": "14/2014",
+      "valor": 1033.74,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO N.º 663/2016 - REFERENTE AO 2º T.A. CONT. N.º 14/2014 - REFERENTE A COMPETÊNCIA DE MARÇO E ABRIL DE 2016"
+    },
+    {
+      "numero": "2016NE01373",
+      "contrato": "14/2014",
+      "valor": 400.84,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "REFORÇO DA NE N.º 663/2014- REF. AO 1º T.A. CONT. N.º 14/2014 - VIGENCIA: 04/06/2015 a 04/06/2016 - VALOR EMPENHADO REF. AO MES DE ABRIL (PARCIAL) DE 2016."
+    },
+    {
+      "numero": "2016NE01371",
+      "contrato": "",
+      "valor": 139.97,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "ANULÇÃO TOTAL DA NOTA DE EMPENHO N.º 1158/2016 - EMPENHADO ENDEVIDO."
+    },
+    {
+      "numero": "2016NE01372",
+      "contrato": "",
+      "valor": 241.77,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "ANULÇÃO TOTAL DA NOTA DE EMPENHO N.º 1183/2016 - EMPENHADO ENDEVIDO."
+    },
+    {
+      "numero": "2016NE01355",
+      "contrato": "",
+      "valor": 1890.26,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "ANULAÇÃO TOTLA DA NOTA DE EMPENHO N.º 1289/2016 REF. A TER SIDO EMPENHADO INDEVIDO."
+    },
+    {
+      "numero": "2016NE01393",
+      "contrato": "",
+      "valor": 400.84,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 663/2016. MOTIVO: EQUIVOCO NO DESCRITIVO"
+    },
+    {
+      "numero": "2016NE01374",
+      "contrato": "14/2014",
+      "valor": 197.26,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "2º T.A. CONT. N.º 014/2014 - APLICAÇÃO DE SUPRESSÃO NO VALOR INICIAL DO CONTRATO - VIGÊNCIA: 04/06/2015 a 04/06/2016 - VALOR EMPENHADO REF. AO MÊS DE ABRIL DE 2016."
+    },
+    {
+      "numero": "2016NE01357",
+      "contrato": "13/2015",
+      "valor": 3841.17,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO N.º 992/2016 PARA ATENDER O CONTRATO N.º 013/2015 - VIGÊNCIA: 28/09/2015 a 28/09/2016 - VALOR EMPENHADO REF. AO MES DE ABRIL (PARCIAL) DE 2016."
+    },
+    {
+      "numero": "2016NE01359",
+      "contrato": "13/2015",
+      "valor": 1890.26,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "1º T.A. CONT. N.º 013/2015 - FORNECIMENTO DE 01 (UM) LINK DE INTERNET - VIGÊNCIA: 28/09/2016 a 28/09/2016 - VALOR EMPENHADO REF. AO PERIODO DE 20 a 30 DE ABR. DE 2016."
+    },
+    {
+      "numero": "2016NE01392",
+      "contrato": "",
+      "valor": 632.9,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 663/2016. MOTIVO: EQUIVOCO NO DESCRITIVO"
+    },
+    {
+      "numero": "2024NE0000489",
+      "contrato": "40/2020",
+      "valor": 2742.24,
+      "situacao": "Ativo",
+      "data_emissao": "14/03/2024",
+      "descricao": "SERVICO DE ACESSO GERENCIADO A REDE MUNDIAL DE 1 ATE 30 MBPS - (18.000 X 198.760/ 30 X 15 DIAS) E SERVICO DE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS CIRCUITO DE TRANSMISSAO DE DADOS - 25 MBPS - (1.000 X 1,906.790/ 30 X 15 DIAS). CONFORME 2º TA - CONTRATO NO. 40/2020 VIGÊNCIA: 24/11/2022 A 23/11/2023, COMPETÊNCIA 09/2023. FATURA Nº 144349 NO VALOR DE R$ 1.788,84 - EMITIDA EM 22/09/2023 E NOTA FISCAL Nº 40606, NO VALOR DE 953,40 - EMITIDA EM 29/09/2023. TOTALIZANDO O VALOR DE R$ 2.742,24."
+    },
+    {
+      "numero": "2021NE0000101",
+      "contrato": "40/2020",
+      "valor": 14186.28,
+      "situacao": "Ativo",
+      "data_emissao": "14/01/2021",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2024NE0002956",
+      "contrato": "18/2023",
+      "valor": 58678.2,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA,"
+    },
+    {
+      "numero": "2024NE0002952",
+      "contrato": "",
+      "valor": 17313.21,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2024",
+      "descricao": "ANULAÇÃO PARA AJUSTE NO PB"
+    },
+    {
+      "numero": "2021NE0002216",
+      "contrato": "18/2019",
+      "valor": 10709.33,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2021",
+      "descricao": "contratação de pessoa jurídica para prestação de serviços especializados em manutenção e suporte de reformulação do site da FCECON, melhorando o gerenciamento de conteúdo, tornando as atualizações de notícias sobre o controle do cliente"
+    },
+    {
+      "numero": "2016NE02934",
+      "contrato": "14/2014",
+      "valor": 928.25,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2016",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO N.º 014/2014, EXTR. PUBL. NO D.O. DE 30/06/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAR SUPRESSÃO DE 15% NO VALOR TOTAL DO CONTRATO. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2015 A 04/06/2016. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90."
+    },
+    {
+      "numero": "2016NE02936",
+      "contrato": "",
+      "valor": 789.03,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NE 1760. MOTIVO: EQUIVOCO NO DESCRITIVO"
+    },
+    {
+      "numero": "2016NE02934",
+      "contrato": "14/2014",
+      "valor": 928.25,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2016",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO N.º 014/2014, EXTR. PUBL. NO D.O. DE 30/06/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAR SUPRESSÃO DE 15% NO VALOR TOTAL DO CONTRATO. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2015 A 04/06/2016. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90."
+    },
+    {
+      "numero": "2016NE02936",
+      "contrato": "",
+      "valor": 789.03,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NE 1760. MOTIVO: EQUIVOCO NO DESCRITIVO"
+    },
+    {
+      "numero": "2016NE02935",
+      "contrato": "14/2014",
+      "valor": 3101.21,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2016",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014, EXTR. PUBL. NO D.O. DE 06/05/2016. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. VALOR EMPENHADO: R$ 569,61 REF. AO MÊS DE JUNHO DE 2016. VALOR EMPENHADO: R$ 2.531,60 REF. AOS MESES DE JULHO A OUTUBRO DE 2016."
+    },
+    {
+      "numero": "2016NE02935",
+      "contrato": "14/2014",
+      "valor": 3101.21,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2016",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014, EXTR. PUBL. NO D.O. DE 06/05/2016. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. VALOR EMPENHADO: R$ 569,61 REF. AO MÊS DE JUNHO DE 2016. VALOR EMPENHADO: R$ 2.531,60 REF. AOS MESES DE JULHO A OUTUBRO DE 2016."
+    },
+    {
+      "numero": "2026NE0000599",
+      "contrato": "25/2025",
+      "valor": 10201.56,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO A INTERNET POR FIBRA ÓPTICA COM GARANTIA DE 100% EM DOWNLOAD E UPLOAD E CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR."
+    },
+    {
+      "numero": "2024NE0002935",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0002423",
+      "contrato": "40/2020",
+      "valor": 1.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2022NE0002310",
+      "contrato": "40/2020",
+      "valor": 10244.16,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD."
+    },
+    {
+      "numero": "2022NE0002309",
+      "contrato": "40/2020",
+      "valor": 6071.67,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD."
+    },
+    {
+      "numero": "2022NE0002311",
+      "contrato": "40/2020",
+      "valor": 5806.22,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2022",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD"
+    },
+    {
+      "numero": "2022NE0002312",
+      "contrato": "18/2019",
+      "valor": 5419.41,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2022",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE"
+    },
+    {
+      "numero": "2017NE01588",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015. OBS.: REFERENTE A PARCELA DE JULHO/17"
+    },
+    {
+      "numero": "2017NE01587",
+      "contrato": "14/2014",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2017",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E REAJUSTAR O PREÇO DOS SERVIÇOS EM 4,86%. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2017 A 04/06/2018. VALOR GLOBAL: R$ 7.963,91. VALOR MENSAL: R$ 663,66. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI Nº 8.666/93 HOMOLOGADO NO NO D.O. DE 27/05/2014. VALOR EMPENHADO:R$ 663,66 - JULHO/17"
+    },
+    {
+      "numero": "2021NE0001197",
+      "contrato": "40/2020",
+      "valor": 7093.14,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2021",
+      "descricao": "TERMO DE CONTRATO 040/2020. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 24/11/2020 A 23/11/2021. VALOR GLOBAL: R$ 85.117,68. VALOR MENSAL: R$ 7.093,14. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO Nº 183/2020, HOMOLOGAÇÃO PUBL. NO D.O.E. DE 11/11/2020. OBS.: VALOR EMPENHADO REFERENTE À PARCELA DO MÊS DE JUNHO DE 2021."
+    },
+    {
+      "numero": "2021NE0001198",
+      "contrato": "18/2019",
+      "valor": 1937.82,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2021",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 018/2019. OBJETO DO CONTRATO: SERVIÇOS ESPECIALIZADOS EM REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE DESTA FCECON. VIGÊNCIA: 08/10/2020 A 07/10/2021. VALOR GLOBAL: R$ 20.409,48. VALOR MENSAL: R$ 1.700,79. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO Nº 197/2019, HOMOLOGAÇÃO PUBL. NO D.O. DE 25/09/2019. OBS.: VALOR EMPENHADO REFERENTE AO COMPLEMENTO DA PARCELA DO MÊS DE FEVEREIRO E PARCIAL DE MARÇO DE 2021."
+    },
+    {
+      "numero": "2024NE0001156",
+      "contrato": "",
+      "valor": 677.32,
+      "situacao": "Ativo",
+      "data_emissao": "12/06/2024",
+      "descricao": "[ANULAÇÃO: ECONOMIA ORÇAMENTÁRIA DO 3º ADITIVO AO CONTRATO Nº 040/2020 - COMPETÊNCIA: 01/01/2024 A 31/01/2024 - 2024NE0000007]"
+    },
+    {
+      "numero": "2019NE00606",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2019",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2018 A 28/09/2019. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL: R$ 6.071,65. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO N.º 035/2015, HOMOLOGAÇÃO PUBL. NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2020NE00343",
+      "contrato": "",
+      "valor": 6467.5,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2020",
+      "descricao": "[ANULAÇÃO: EQUÍVOCO NO DESCRITIVO DO CONTRATO Nº 013/2015 - 01/12/2019-31/12/2019 - 2020NE00342]"
+    },
+    {
+      "numero": "2020NE00342",
+      "contrato": "13/2015",
+      "valor": 6467.5,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2020",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 13/2015. VIGÊNCIA: 29/09/2019 A 28/09/2020. SERVIÇOS DE ACESSO À INTERNET. PERÍODO: 01/12/2019 A 31/12/2019. 2020RD00172"
+    },
+    {
+      "numero": "2020NE00344",
+      "contrato": "18/2019",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2020",
+      "descricao": "SERVIÇOS DE REFORMULAÇÃO E ATUALIZAÇÃO DE WEBSITE LICENÇA DE USO MODELO 1, NO PERÍODO DE DEZEMBRO DE 2019, CONFORME CONTRATO Nº18/2019. COMPETÊNCIA 12/2019. VIGÊNCIA: 08/10/2019 A 07/10/2020. 2020RD00184"
+    },
+    {
+      "numero": "2020NE00346",
+      "contrato": "13/2015",
+      "valor": 6467.5,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2020",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 13/2015. VIGÊNCIA: 29/09/2019 A 28/09/2020. SERVIÇOS DE ACESSO À INTERNET. PERÍODO: 01/12/2019 A 31/12/2019. 2020RD00172"
+    },
+    {
+      "numero": "2025NE0004126",
+      "contrato": "",
+      "valor": 1.0,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO TOTAL: ECONOMIA ORÇAMENTÁRIA DO CONTRATO Nº 22/2025. COMPETÊNCIA: NOV/2025. (2025NE0003612). R$ 1,00"
+    },
+    {
+      "numero": "2021NE0002160",
+      "contrato": "18/2019",
+      "valor": 511.73,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2021",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2021NE0002159",
+      "contrato": "40/2020",
+      "valor": 613.27,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2021",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2021NE0002158",
+      "contrato": "40/2020",
+      "valor": 6071.67,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2021",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2021NE0002157",
+      "contrato": "",
+      "valor": 3395.14,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2021",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2021NE0002161",
+      "contrato": "18/2019",
+      "valor": 3107.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2021",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2023NE01369",
+      "contrato": "18/2019",
+      "valor": 3925.35,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2023",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 018/2019. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 (DOZE) MESES E REAJUSTE pelo INPC 9,016730%. OBJETO DO CONTRATO: SERVIÇOS ESPECIALIZADOS EM REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE DESTA FCECON. OBS.: VALOR EMPENHADO REFERE-SE AO RESTANTE DA PARCELA DE JUNHO (R$ 1.878,01) E AO TOTAL DA PARCELA DE JULHO (R$ 2.047,34)"
+    },
+    {
+      "numero": "2023NE0001369",
+      "contrato": "",
+      "valor": 3925.35,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 018/2019 AD: 04."
+    },
+    {
+      "numero": "2022NE0001272",
+      "contrato": "40/2020",
+      "valor": 12143.34,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD. (REST MAI PARC JUN)"
+    },
+    {
+      "numero": "2014NE00858",
+      "contrato": "18/2011",
+      "valor": 317.0,
+      "situacao": "Ativo",
+      "data_emissao": "11/04/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2025NE0004085",
+      "contrato": "14/2014",
+      "valor": 4467.6,
+      "situacao": "Ativo",
+      "data_emissao": "10/12/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE"
+    },
+    {
+      "numero": "2023NE0001709",
+      "contrato": "18/2019",
+      "valor": 1637.87,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2022NE0001688",
+      "contrato": "18/2019",
+      "valor": 313.14,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2022",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE"
+    },
+    {
+      "numero": "2016NE02917",
+      "contrato": "",
+      "valor": 2223.83,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 2491. MOTIVO: AJUSTE DE FONTE."
+    },
+    {
+      "numero": "2016NE02918",
+      "contrato": "13/2015",
+      "valor": 2223.83,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2016",
+      "descricao": "CONTRATO N.º 013/2015, EXTRATO PUBLICADO DO DOE DE 01/10/2015. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2015 A 28/09/2016. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. VALOR EMPENHADO: R$ 2.223,83 REF. A PARCIAL DO MÊS DE ABRIL DE 2016. FUNDAMENTO LEGAL: DISP. DE LICIT. CONF. PORT. N.º 035/2015 PUB. NO D.O. DE 27/07/2015"
+    },
+    {
+      "numero": "2016NE02917",
+      "contrato": "",
+      "valor": 2223.83,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 2491. MOTIVO: AJUSTE DE FONTE."
+    },
+    {
+      "numero": "2016NE02918",
+      "contrato": "13/2015",
+      "valor": 2223.83,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2016",
+      "descricao": "CONTRATO N.º 013/2015, EXTRATO PUBLICADO DO DOE DE 01/10/2015. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2015 A 28/09/2016. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. VALOR EMPENHADO: R$ 2.223,83 REF. A PARCIAL DO MÊS DE ABRIL DE 2016. FUNDAMENTO LEGAL: DISP. DE LICIT. CONF. PORT. N.º 035/2015 PUB. NO D.O. DE 27/07/2015"
+    },
+    {
+      "numero": "2020NE01637",
+      "contrato": "18/2019",
+      "valor": 1329.98,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2020",
+      "descricao": "REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE COMPLEMENTO MARÇO (R$ 447,44) E PARCIAL ABRIL (R$ 882,54)."
+    },
+    {
+      "numero": "2020NE01636",
+      "contrato": "13/2015",
+      "valor": 11496.59,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2020",
+      "descricao": "FORNECIMENTO DE 01(UM) LINK DE INTERNET. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAÇÃO DE REAJUSTE DE 6,52%. COMPLEMENTO PARCELA JULHO (R$ 2.770,81), PARCELA AGOSTO (R$ 6.467,50) E PARCIAL SETEMBRO (R$ 2.258,28)."
+    },
+    {
+      "numero": "2023NE0000174",
+      "contrato": "21/2022",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA para Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA."
+    },
+    {
+      "numero": "2022NE0001430",
+      "contrato": "18/2019",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2022",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2022NE0001431",
+      "contrato": "40/2020",
+      "valor": 13221.96,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2022",
+      "descricao": "CONTRATAÇÃO DE PESSSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD."
+    },
+    {
+      "numero": "2015NE01318",
+      "contrato": "18/2011",
+      "valor": 499.1,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 841/2015. MOTIVO: EQUIVOCO NO VALOR EMPENHADO"
+    },
+    {
+      "numero": "2015NE01320",
+      "contrato": "18/2011",
+      "valor": 449.1,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "REF. AO 4º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2015 A 12/04/2016 NO VALOR MENSAL R$ 449,10 E VALOR GLOBAL DE R$ 5.389,20 . CONFORME MEMO 0049/2015 DA DAF/FCECON - COMPLEMENTO DA NE 841/2015 - COMPETENCIA DE JUNHO/2015"
+    },
+    {
+      "numero": "2015NE01253",
+      "contrato": "18/2011",
+      "valor": 499.1,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "REF. AO 4º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2015 A 12/04/2016 NO VALOR MENSAL R$ 449,10 E VALOR GLOBAL DE R$ 5.389,20 . CONFORME MEMO 0049/2015 DA DAF/FCECON - COMPLEMENTO DA NE 841/2015 - COMPETENCIA DE JUNHO/2015"
+    },
+    {
+      "numero": "2025NE0001179",
+      "contrato": "18/2019",
+      "valor": 507.99,
+      "situacao": "Ativo",
+      "data_emissao": "09/05/2025",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2021NE0001910",
+      "contrato": "40/2020",
+      "valor": 7093.14,
+      "situacao": "Ativo",
+      "data_emissao": "08/10/2021",
+      "descricao": "contratação de pessoa jurídica especializada para prestação de serviços de telecomunicações, objetivando a implantação, configuração e manutenção de acesso à Rede Internet, por intermédio de 1 link dedicado com a velocidade de 20 Mbps de Upload"
+    },
+    {
+      "numero": "2022NE0001204",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2022",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2015NE01000",
+      "contrato": "18/2011",
+      "valor": 499.1,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "REF. AO 4º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2015 A 12/04/2016 NO VALOR MENSAL R$ 449,10 E VALOR GLOBAL DE R$ 5.389,20 . CONFORME MEMO 0049/2015 DA DAF/FCECON - COMPLEMENTO DA NE 841/2015."
+    },
+    {
+      "numero": "2021NE0001902",
+      "contrato": "18/2019",
+      "valor": 1329.98,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2021",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITE DA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE."
+    },
+    {
+      "numero": "2020NE01831",
+      "contrato": "18/2019",
+      "valor": 882.54,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2020",
+      "descricao": "contratação de pessoa jurídica para prestação de serviços especializados em manutenção e suporte de reformulação do site da FCECON, melhorando o gerenciamento de conteúdo, tornando as atualizações de notícias sobre o controle do cliente"
+    },
+    {
+      "numero": "2021NE0001154",
+      "contrato": "40/2020",
+      "valor": 14186.28,
+      "situacao": "Ativo",
+      "data_emissao": "07/07/2021",
+      "descricao": "TERMO DE CONTRATO 040/2020. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 24/11/2020 A 23/11/2021. VALOR GLOBAL: R$ 85.117,68. VALOR MENSAL: R$ 7.093,14. FUNDAMENTO LEGAL: ART. 24, XVI, LEI 8.666/93, DISPENSA DE LICITAÇÃO Nº 183/2020, HOMOLOGAÇÃO PUBL. NO D.O.E. DE 11/11/2020. OBS.: VALOR EMPENHADO REFERENTE ÀS PARCELAS DOS MESES DE ABRIL E MAIO DE 2021."
+    },
+    {
+      "numero": "2025NE0000420",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000418",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2025NE0000419",
+      "contrato": "18/2023",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0003756",
+      "contrato": "",
+      "valor": 117937.3,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2025",
+      "descricao": "139006 - (ID-139006) LICENÇA DE SOFTWARE - QT 350 139009 - (ID-139009) CAPACITAÇÃO PROFISSIONAL - QT 5 148005 - (ID-148005) SERVIÇOS DE INFORMÁTICA - QT 350"
+    },
+    {
+      "numero": "2024NE0002402",
+      "contrato": "40/2020",
+      "valor": 1000.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2020NE02001",
+      "contrato": "13/2015",
+      "valor": 6467.5,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2020",
+      "descricao": "SERVIÇOS DE ACESSO À INTERNET NO PERÍODO DE NOVEMBRO DE 2019, CONFORME 3º TERMO ADITIVO AO CONTRATO Nº 13/2015."
+    },
+    {
+      "numero": "2020NE01998",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2020",
+      "descricao": "SERVIÇOS DE ACESSO À INTERNET NO PERÍODO DE AGOSTO DE 2019, CONFORME 3º TERMO ADITIVO AO CONTRATO Nº 13/2015."
+    },
+    {
+      "numero": "2020NE01999",
+      "contrato": "13/2015",
+      "valor": 5464.49,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2020",
+      "descricao": "SERVIÇOS DE ACESSO À INTERNET NO PERÍODO DE SETEMBRO DE 2019, CONFORME 3º TERMO ADITIVO AO CONTRATO Nº 13/2015."
+    },
+    {
+      "numero": "2020NE02000",
+      "contrato": "13/2015",
+      "valor": 6467.5,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2020",
+      "descricao": "SERVIÇOS DE FORNECIMENTO DE INTERNET NO PERÍODO DE OUTUBRO DE 2019, CONFORME 4º TERMO ADITIVO AO CONTRATO Nº 13/2015, VIGÊNCIA 29/09/2019 A 28/09/2020."
+    },
+    {
+      "numero": "2020NE01997",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2020",
+      "descricao": "SERVIÇOS DE ACESSO À INTERNET NO PERÍODO DE JULHO DE 2019, CONFORME 3º TERMO ADITIVO AO CONTRATO Nº 13/2015."
+    },
+    {
+      "numero": "2023NE0001680",
+      "contrato": "",
+      "valor": 20.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2023",
+      "descricao": "[ANULAÇÃO: 5º ADITIVO DO CONTRATO Nº 018/2019, CONFORME ORIENTAÇÃO NO DESPACHO FLS. 157 DO DEPARTAMENTO ADMINISTRATIVO E FINANCEIRO, PROCESSO: 1916/2023 - 2023NE0001632]"
+    },
+    {
+      "numero": "2026NE0000517",
+      "contrato": "22/2025",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE"
+    },
+    {
+      "numero": "2026NE0000518",
+      "contrato": "26/2025",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR OS SERVIDORES A SEREM UTILIZADOS NOS EQUIPAMENTOS DE RADIOTERAPIA"
+    },
+    {
+      "numero": "2026NE0000515",
+      "contrato": "25/2025",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2026",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO A INTERNET POR FIBRA ÓPTICA COM GARANTIA DE 100% EM DOWNLOAD E UPLOAD E CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR."
+    },
+    {
+      "numero": "2025NE0004020",
+      "contrato": "14/2014",
+      "valor": 2232.04,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE TC: 14/2014."
+    },
+    {
+      "numero": "2026NE0000413",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2026",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2026NE0000412",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2026",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2026NE0000100",
+      "contrato": "26/2025",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR OS SERVIDORES A SEREM UTILIZADOS NOS EQUIPAMENTOS DE RADIOTERAPIA"
+    },
+    {
+      "numero": "2026NE0000101",
+      "contrato": "25/2025",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATACAO DE PESSOA JURIDICA SERVIÇO DE ACESSO A INTERNET POR FIBRA ÓPTICA COM GARANTIA DE 100% EM DOWNLOAD E UPLOAD E CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR."
+    },
+    {
+      "numero": "2015NE00117",
+      "contrato": "18/2011",
+      "valor": 1056.7,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura 2015: janeiro e fevereiro"
+    },
+    {
+      "numero": "2025NE0003753",
+      "contrato": "",
+      "valor": 117937.3,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2025",
+      "descricao": "ANULAÇÃO TOTAL DO VALOR POR DIVERGÊNCIA NO INCISO DA REFERÊNCIA."
+    },
+    {
+      "numero": "2025NE0001677",
+      "contrato": "18/2023",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0001678",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0001676",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2025",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2018NE00855",
+      "contrato": "14/2014",
+      "valor": 598.49,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON."
+    },
+    {
+      "numero": "2018NE00854",
+      "contrato": "",
+      "valor": 598.49,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE 2018NE00852, MOTIVO: DESCRIÇÃO INCORRETA."
+    },
+    {
+      "numero": "2018NE00852",
+      "contrato": "14/2014",
+      "valor": 598.49,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON."
+    },
+    {
+      "numero": "2018NE00845",
+      "contrato": "",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 2018NE00819 REFERENTE A COMPETÊNCIA DO MÊS DE ABRIL/2018 MOTIVO: AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2021NE0000075",
+      "contrato": "18/2019",
+      "valor": 1994.97,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "contratação de pessoa jurídica para prestação de serviços especializados em manutenção e suporte de reformulação do site da FCECON, melhorando o gerenciamento de conteúdo, tornando as atualizações de notícias sobre o controle do cliente"
+    },
+    {
+      "numero": "2025NE0003733",
+      "contrato": "18/2023",
+      "valor": 3239.86,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 Vigência: 12/2023 à 12/2024."
+    },
+    {
+      "numero": "2025NE0003729",
+      "contrato": "40/2020",
+      "valor": 3749.31,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 02 Vigência: 11/2022 à 11/2023."
+    },
+    {
+      "numero": "2025NE0003730",
+      "contrato": "18/2023",
+      "valor": 28240.39,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 Vigência: 12/2023 à 12/2024."
+    },
+    {
+      "numero": "2025NE0003732",
+      "contrato": "18/2023",
+      "valor": 3239.86,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 Vigência: 12/2023 à 12/2024."
+    },
+    {
+      "numero": "2025NE0003731",
+      "contrato": "18/2023",
+      "valor": 17313.21,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 Vigência: 12/2023 à 12/2024."
+    },
+    {
+      "numero": "2015NE01500",
+      "contrato": "18/2011",
+      "valor": 898.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "REF. AO 4º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2015 A 12/04/2016 NO VALOR MENSAL R$ 449,10 E VALOR GLOBAL DE R$ 5.389,20 . CONFORME MEMO 0049/2015 DA DAF/FCECON - COMPLEMENTO DA NE 841/2015 - COMPETENCIA DE JULHO E AGOSTO/2015."
+    },
+    {
+      "numero": "2015NE01501",
+      "contrato": "18/2011",
+      "valor": 8.34,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "ANULAÇÃO DA NE 841/2015. MOTIVO: AJUSTE ORÇAMENTÁRIO"
+    },
+    {
+      "numero": "2015NE01499",
+      "contrato": "18/2011",
+      "valor": 4.17,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 841/2015. MOTIVO: AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2015NE01502",
+      "contrato": "14/2014",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "REF. AO 1º TERMO ADITIVO AO CONTRATO Nº 14/2014 DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE REFORMULAÇÃO E ATUALIZAÇÃO WEB SITE - VIGENCIA 04/06/2015 A 04/06/2016 NO VALOR MENSAL R$ 632,90 E VALOR GLOBAL DE R$ 7.594,80. CONFORME MEMO 0071/2015 DA DAF/FCECON - COMPLEMENTO DA NE 1125/2015 - COMPETENCIA: JULHO E AGOSTO/2015."
+    },
+    {
+      "numero": "2015NE01498",
+      "contrato": "18/2011",
+      "valor": 662.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 117/2015. MOTIVO: AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2024NE0001366",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0001367",
+      "contrato": "18/2023",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA,"
+    },
+    {
+      "numero": "2024NE0001365",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2026NE0000400",
+      "contrato": "40/2020",
+      "valor": 5591.82,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2026NE0000402",
+      "contrato": "40/2020",
+      "valor": 5591.82,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2026NE0000409",
+      "contrato": "18/2023",
+      "valor": 21677.63,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA. TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2026NE0000399",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2026NE0000406",
+      "contrato": "18/2023",
+      "valor": 21677.63,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA. TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2026NE0000403",
+      "contrato": "40/2020",
+      "valor": 4287.06,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2026NE0000410",
+      "contrato": "18/2023",
+      "valor": 21677.63,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA. TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2026NE0000411",
+      "contrato": "40/2020",
+      "valor": 1647.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2026NE0000401",
+      "contrato": "40/2020",
+      "valor": 5591.82,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD TC: 0040/2020 AD: 04."
+    },
+    {
+      "numero": "2026NE0000397",
+      "contrato": "26/2025",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURÍDICA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM PARA WEBSITE"
+    },
+    {
+      "numero": "2026NE0000407",
+      "contrato": "18/2023",
+      "valor": 21677.63,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA. TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2026NE0000408",
+      "contrato": "18/2023",
+      "valor": 21677.63,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA. TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2026NE0000404",
+      "contrato": "26/2025",
+      "valor": 50328.89,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR OS SERVIDORES A SEREM UTILIZADOS NOS EQUIPAMENTOS DE RADIOTERAPIA"
+    },
+    {
+      "numero": "2026NE0000398",
+      "contrato": "18/2019",
+      "valor": 2047.34,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO, TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2026NE0000405",
+      "contrato": "18/2023",
+      "valor": 21677.63,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA. TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2019NE03208",
+      "contrato": "18/2019",
+      "valor": 1316.74,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE (OUT)"
+    },
+    {
+      "numero": "2019NE03207",
+      "contrato": "13/2015",
+      "valor": 646.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. (SET)"
+    },
+    {
+      "numero": "2020NE01819",
+      "contrato": "",
+      "valor": 882.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2020NE00013 COMPETÊNCIA ABRIL DE 2020 PARA AJUSTE ORÇAMENTÁRIO."
+    },
+    {
+      "numero": "2014NE01958",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2025NE0000027",
+      "contrato": "18/2023",
+      "valor": 19559.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000026",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 06."
+    },
+    {
+      "numero": "2024NE0000146",
+      "contrato": "18/2019",
+      "valor": 3756.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE TC: 0018/2019 AD: 05."
+    },
+    {
+      "numero": "2023NE0000039",
+      "contrato": "40/2020",
+      "valor": 7567.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE PESSOA JURIDICA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE TELECOMUNICAÇÃO, OBJETIVANDO A IMPLANTAÇÃO, CONFIGURAÇÃO DE ACESSO À REDE INTERNET, POR INTERMEDIO DE 1 LINK DEDICADO COM VELOCIDADE DE 20 MBPS DE UPLOAD"
+    },
+    {
+      "numero": "2023NE0000038",
+      "contrato": "18/2019",
+      "valor": 1878.01,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇAO DE PESSOA JURIDICA PARA PRESTAÇÃO DE SERVIÇOS EM MANUTENÇÃO E SUPORTE DE REFORMULAÇÃO DO SITEDA FCECON, MELHORANDO O GERENCIAMENTO DE CONTEUDO , TOMANDO AS ATUALIZAÇÕES DE NOTICIAS SOBRE O CONTROLE DO CLIENTE"
+    },
+    {
+      "numero": "2020NE00013",
+      "contrato": "18/2019",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE"
+    },
+    {
+      "numero": "2020NE00026",
+      "contrato": "13/2015",
+      "valor": 12935.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAÇÃO DE REAJUSTE DE 6,52% SOBRE O VALOR DO CONTRATO."
+    },
+    {
+      "numero": "2019NE00040",
+      "contrato": "14/2014",
+      "valor": 1994.97,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON."
+    },
+    {
+      "numero": "2019NE00015",
+      "contrato": "13/2015",
+      "valor": 18214.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "FORNECIMENTO DE 1(UM) LINK DE INTERNET DE 5MB/S (MEGABYTE POR SEGUNDO) 7 DIAS POR SEMANA 24H POR DIA."
+    },
+    {
+      "numero": "2018NE00041",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "FORNECIMENTO DE 1(UM) LINK DE INTERNET DE 5MB/S (MEGABYTE POR SEGUNDO) 7 DIAS POR SEMANA 24H POR DIA."
+    },
+    {
+      "numero": "2018NE00050",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAR O REAJUSTE DE 0,11% SOBRE O VALOR DO CONTRATO. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2017 A 28/09/2018. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL: R$ 6.071,65. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2018NE00042",
+      "contrato": "14/2014",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON."
+    },
+    {
+      "numero": "2018NE00047",
+      "contrato": "",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE 41. MOTIVO: EQUIVOCO NO DESCRITIVO"
+    },
+    {
+      "numero": "2018NE00048",
+      "contrato": "13/2015",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E APLICAR O REAJUSTE DE 0,11% SOBRE O VALOR DO CONTRATO. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2017 A 28/09/2018. VALOR GLOBAL: R$ 72.859,80. VALOR MENSAL: R$ 6.071,65. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI 8.666/93 HOMOLOGADO NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2018NE00049",
+      "contrato": "",
+      "valor": 6071.65,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE 48. MOTIVO: EQUIVOCO NO DESCRITIVO"
+    },
+    {
+      "numero": "2017NE00070",
+      "contrato": "",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "EQUIVOCO NA CÉLULA ORÇAMENTÁRIA"
+    },
+    {
+      "numero": "2017NE00068",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO CONF. PORTARIA N.º 035/2015 PUBL NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2017NE00072",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO CONF. PORTARIA N.º 035/2015 PUBL NO D.O. DE 27/07/2015."
+    },
+    {
+      "numero": "2017NE00067",
+      "contrato": "14/2014",
+      "valor": 632.9,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO CONF. PORT. N.º 027/2014 PUBL. NO D.O. DE 27/05/2014."
+    },
+    {
+      "numero": "2014NE00150",
+      "contrato": "18/2011",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2014NE00154",
+      "contrato": "79/2009",
+      "valor": 87105.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 79/2009 - Acesso Internet/Comput.banda 1,536Mb,c/Ass.-MetroMao"
+    },
+    {
+      "numero": "2025NE0003190",
+      "contrato": "18/2023",
+      "valor": 7899.69,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023."
+    },
+    {
+      "numero": "2025NE0003191",
+      "contrato": "18/2023",
+      "valor": 12653.18,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2025",
+      "descricao": "CONTRATAÇÃO PESSOA JURIDICA PARA SERVIÇOS DE HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA, TC: 0018/2023."
+    },
+    {
+      "numero": "2022NE0001420",
+      "contrato": "21/2022",
+      "valor": 39118.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2022",
+      "descricao": "Prestação de Serviços de Hospedagem de servidor em nuvem, em ambiente dedicado, para comportar os sistemas da CONTRATANTE no ambiente de produção do Data Center da CONTRATADA."
+    },
+    {
+      "numero": "2016NE02576",
+      "contrato": "13/2015",
+      "valor": 606.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO N.º 013/2015. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: FORNECIMENTO DE 01(UM) LINK DE INTERNET. VIGÊNCIA: 28/09/2016 A 28/09/2017. VALOR GLOBAL: R$ 72.780,00. VALOR MENSAL 2016: R$ 6.065,00. VALOR EMPENHADO: R$ 606,50 REF. AO MÊS DE SETEMBRO DE 2016. VALOR A EMPENHAR: R$ 18.195,00 REF. AOS MESES DE OUTUBRO A DEZEMBRO DE 2016. VALOR A EMPENHAR: R$ 53.978,50 REF. AOS MESES DE JANEIRO A SETEMBRO DE 2017."
+    },
+    {
+      "numero": "2015NE01682",
+      "contrato": "13/2015",
+      "valor": 6671.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "cobertura setembro e agosto de 2015"
+    },
+    {
+      "numero": "2014NE01914",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2014",
+      "descricao": "Contrato No. 18/2011 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2025NE0002456",
+      "contrato": "",
+      "valor": 1.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2025",
+      "descricao": "ANULAÇÃO DO SALDO DE EMPENHO DA NE1678 COMP DE MAI/2025"
+    },
+    {
+      "numero": "2015NE01321",
+      "contrato": "18/2011",
+      "valor": 50.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 841/2015. MOTIVO: EQUIVOCO NO VALOR REFORÇADO PELO EMPENHO 1253/2015."
+    },
+    {
+      "numero": "2018NE00819",
+      "contrato": "14/2014",
+      "valor": 1327.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "HOSPEDAGEM DE SITES DESTA FCECON (MARÇO E ABRIL/2018)."
+    },
+    {
+      "numero": "2018NE00818",
+      "contrato": "",
+      "valor": 1327.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "anulação para correção da fundamentação legal."
+    },
+    {
+      "numero": "2018NE00785",
+      "contrato": "13/2015",
+      "valor": 12143.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "FORNECIMENTO DE 01 (UM) LINK DE INTERNET."
+    },
+    {
+      "numero": "2018NE00781",
+      "contrato": "13/2015",
+      "valor": 12143.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "FORNECIMENTO DE 01 (UM) LINK DE INTERNET."
+    },
+    {
+      "numero": "2018NE00783",
+      "contrato": "13/2015",
+      "valor": 12143.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "FORNECIMENTO DE 01 (UM) LINK DE INTERNET."
+    },
+    {
+      "numero": "2018NE00784",
+      "contrato": "",
+      "valor": 12143.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "ANULAÇÃO PARA CORREÇÃO DA FUNDAMENTAÇÃO LEGAL."
+    },
+    {
+      "numero": "2018NE00782",
+      "contrato": "",
+      "valor": 12143.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "ANULAÇÃO TOTAL PARA CORREÇÃO DA DESCRIÇÃO."
+    },
+    {
+      "numero": "2018NE00780",
+      "contrato": "14/2014",
+      "valor": 1327.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2018",
+      "descricao": "HOSPEDAGEM DE SITES DESTA FCECON (MARÇO E ABRIL/2018)."
+    },
+    {
+      "numero": "2017NE00992",
+      "contrato": "14/2014",
+      "valor": 597.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES E REAJUSTAR O PREÇO DOS SERVIÇOS EM 4,86%. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2017 A 04/06/2018. VALOR GLOBAL: R$ 7.963,91. VALOR MENSAL: R$ 663,66. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI Nº 8.666/93 HOMOLOGADO NO NO D.O. DE 27/05/2014."
+    },
+    {
+      "numero": "2017NE00991",
+      "contrato": "14/2014",
+      "valor": 63.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2017",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO N.º 014/2014. OBJETO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES. OBJETO DO CONTRATO: SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON. VIGÊNCIA: 04/06/2016 A 04/06/2017. VALOR GLOBAL: R$ 7.594,80. VALOR MENSAL: R$ 632,90. FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO, ART. 24, XVI DA LEI Nº 8.666/93 HOMOLOGADO NO NO D.O. DE 27/05/2014."
+    },
+    {
+      "numero": "2015NE01125",
+      "contrato": "14/2014",
+      "valor": 632.9,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2015",
+      "descricao": "cobertura junho 2015 - 1º TA"
+    },
+    {
+      "numero": "2019NE00527",
+      "contrato": "14/2014",
+      "valor": 664.99,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE DESENVOLVIMENTO E IMPLANTAÇÃO E HOSPEDAGEM DE SITE DESTA FCECON."
+    },
+    {
+      "numero": "2016NE01145",
+      "contrato": "13/2015",
+      "valor": 6065.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO N.º 0992/2016 PARA ATENDER O CONT. N.º 013/2015 REF. A COMPETÊNCIA DE MARÇO DE 2016"
+    },
+    {
+      "numero": "2016NE01158",
+      "contrato": "18/2011",
+      "valor": 139.97,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "5º T.A. CONT. N.º 015/2011 - SERVIÇOS TECNICOS EVENTUAIS DE INFORMATICA - VIGÊNCIA: 01/04/2016 a 12/04/2016"
+    },
+    {
+      "numero": "2016NE01146",
+      "contrato": "14/2014",
+      "valor": 632.9,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO N.º 663/2016 - REFERENTE AO 2º T.A. CONT. N.º 14/2014 - REFERENTE A COMPETÊNCIA DE MARÇO DE 2016"
+    },
+    {
+      "numero": "2016NE01147",
+      "contrato": "18/2011",
+      "valor": 449.1,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO N.º 586/2016 - REFERENTE AO 4º T.A. CONT. N.º 18/2011 - REFERENTE A COMPETÊNCIA DE MARÇO DE 2016"
+    },
+    {
+      "numero": "2016NE01183",
+      "contrato": "18/2011",
+      "valor": 241.77,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "6º T.A. CONT N.º 018/2011 - SERVIÇOS TÉCNICOS DE INFORMATICA DE FORMA EVENTUAIS - VIGÊNCIA: 12/04/2016 a 12/04/2017. - EMPENHO REFERENTE A COMPLEMENTO DO MÊS DE ABRIL DE 2016."
+    },
+    {
+      "numero": "2015NE00661",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "REF. AO 3º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2014 A 12/04/2015 NO VALOR MENSAL R$ 528,35 E VALOR GLOBAL DE R$ 6.340,20. CONFORME MEMO 0013/2014 DA DAF/FCECON. - COMPLEMENTO DA NE 117/2015."
+    },
+    {
+      "numero": "2015NE00835",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "REF. AO 3º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2014 A 12/04/2015 NO VALOR MENSAL R$ 528,35 E VALOR GLOBAL DE R$ 6.340,20. CONFORME MEMO 0013/2014 DA DAF/FCECON. - COMPLEMENTO DA NE 60/2015"
+    },
+    {
+      "numero": "2015NE00841",
+      "contrato": "18/2011",
+      "valor": 269.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "cobertura do mes de abril 2015 - 4ºTA"
+    },
+    {
+      "numero": "2015NE00874",
+      "contrato": "18/2011",
+      "valor": 179.65,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 117/2015. MOTIVO: EQUIVOCO NO VALOR EMPENHADO."
+    },
+    {
+      "numero": "2015NE00662",
+      "contrato": "18/2011",
+      "valor": 528.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 117/2015. MOTIVO: EQUIVOCO NA DATA DE EMISSÃO"
+    },
+    {
+      "numero": "2015NE00869",
+      "contrato": "18/2011",
+      "valor": 179.65,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "REF. AO 4º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 01/04/2015 A 12/04/2015 NO VALOR MENSAL R$ 449,10 E VALOR GLOBAL DE R$ 5.389,20 . CONFORME MEMO 0049/2015 DA DAF/FCECON. - COMPLEMENTO DA NE 117/2015 COMPETENCIA ABRIL/2015."
+    },
+    {
+      "numero": "2015NE00836",
+      "contrato": "18/2011",
+      "valor": 269.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "REF. AO 4º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2015 A 12/04/2016 NO VALOR MENSAL R$ 449,10 E VALOR GLOBAL DE R$ 5.389,20 . CONFORME MEMO 0049/2015 DA DAF/FCECON."
+    },
+    {
+      "numero": "2015NE00838",
+      "contrato": "18/2011",
+      "valor": 269.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NE 836/2015. MOTIVO: EQUIVOCO NO PROCESSO"
+    },
+    {
+      "numero": "2015NE00875",
+      "contrato": "18/2011",
+      "valor": 221.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "REF. AO 3º TERMO ADITIVO AO CONTRATO Nº 18/2011 DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS EM INFORMÁTICA - VIGENCIA 12/04/2014 A 12/04/2015 NO VALOR MENSAL R$ 528,35 E VALOR GLOBAL DE R$ 6.340,20. CONFORME MEMO 0013/2014 DA DAF/FCECON. - COMPLEMENTO DA NE 117/2015"
+    },
+    {
+      "numero": "2018NE00280",
+      "contrato": "",
+      "valor": 663.66,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "ANULAÇÃO TOTAL COMFORME ORIENTAÇÃO DA GINS EM 02/03/2018."
+    },
+    {
+      "numero": "2016NE00663",
+      "contrato": "14/2014",
+      "valor": 1265.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE REFORMULAÇÃO E ATUALIZAÇÃO DE WEB SITE DESTA FCECON - REF. AO 1º TA AO CONTRATO 14/2014 - VIGENCIA: 04/06/2016 A 04/06/2016 - COMPETENCIA: JAN E FEV/2016"
+    },
+    {
+      "numero": "2016NE00586",
+      "contrato": "18/2011",
+      "valor": 898.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS EVENTUAIS DE INFORMÁTICA REF. AO 4º TERMO ADITIVO AO CONTRATO N.º 018/2011 VIGÊNCIA: 12/04/2015 A 12/04/2016 - COMPETENCIA: JAN E FEV/2016"
+    },
+    {
+      "numero": "2016NE00664",
+      "contrato": "13/2015",
+      "valor": 12130.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "FORNECIMENTO DE 1(UM) LINK DE INTERNET DE 5MB/S (MEGABAYTE POR SEGUNDO) 7 DIAS POR SEMANA 24H POR DIA - REF AO CONTRATO 13/2015 - VIGENCIA: 28/09/2015 A 28/09/2016 - COMPETENCIA: JAN E FEV/2016"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "166123",
+      "nf": "519",
+      "contrato": "26/2025",
+      "valor_bruto": 45964.47,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "166462",
+      "nf": "769",
+      "contrato": "25/2025",
+      "valor_bruto": 6990.0,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "166463",
+      "nf": "770",
+      "contrato": "25/2025",
+      "valor_bruto": 3211.56,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "166121",
+      "nf": "520",
+      "contrato": "26/2025",
+      "valor_bruto": 2870.24,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "166119",
+      "nf": "521",
+      "contrato": "22/2025",
+      "valor_bruto": 2717.66,
+      "competencia": "01/2026",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 20
+    },
+    {
+      "id": "151371",
+      "nf": "46933",
+      "contrato": "18/2019",
+      "valor_bruto": 2047.34,
+      "competencia": "07/2024",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "160893",
+      "nf": "56302",
+      "contrato": "18/2019",
+      "valor_bruto": 2047.34,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 76
+    },
+    {
+      "id": "166120",
+      "nf": "518",
+      "contrato": "26/2025",
+      "valor_bruto": 1124.56,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "166458",
+      "nf": "765",
+      "contrato": "25/2025",
+      "valor_bruto": 699.0,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "166122",
+      "nf": "517",
+      "contrato": "26/2025",
+      "valor_bruto": 369.62,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "166459",
+      "nf": "766",
+      "contrato": "25/2025",
+      "valor_bruto": 321.16,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "018/2019",
+      "Número": "151371",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/151371/E",
+      "Comp.": "07/2024",
+      "Valor": "170,61",
+      "Atraso": "605 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "018/2019",
+      "Número": "160893",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160893/E",
+      "Comp.": "07/2025",
+      "Valor": "2.047,34",
+      "Atraso": "232 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "022/2025",
+      "Número": "166119",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166119/E",
+      "Comp.": "01/2026",
+      "Valor": "839,65",
+      "Atraso": "42 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "026/2025",
+      "Número": "166120",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166120/E",
+      "Comp.": "01/2026",
+      "Valor": "1.124,56",
+      "Atraso": "42 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "026/2025",
+      "Número": "166123",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166123/E",
+      "Comp.": "01/2026",
+      "Valor": "45.964,47",
+      "Atraso": "42 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2025",
+      "Número": "166121",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166121/E",
+      "Comp.": "01/2026",
+      "Valor": "2.870,24",
+      "Atraso": "42 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "026/2025",
+      "Número": "166122",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166122/E",
+      "Comp.": "01/2026",
+      "Valor": "369,62",
+      "Atraso": "42 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "025/2025",
+      "Número": "166458",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166458/E",
+      "Comp.": "11/2025",
+      "Valor": "699,00",
+      "Atraso": "30 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "025/2025",
+      "Número": "166462",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166462/E",
+      "Comp.": "01/2026",
+      "Valor": "6.990,00",
+      "Atraso": "30 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "025/2025",
+      "Número": "166463",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166463/E",
+      "Comp.": "01/2026",
+      "Valor": "3.211,56",
+      "Atraso": "30 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FCECON",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "025/2025",
+      "Número": "166459",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166459/E",
+      "Comp.": "11/2025",
+      "Valor": "321,16",
+      "Atraso": "30 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 386,
+      "valor_total": 2844079.07,
+      "por_ano": {
+        "2022": {
+          "qtd": 22,
+          "valor": 185356.0
+        },
+        "2025": {
+          "qtd": 77,
+          "valor": 805366.1300000002
+        },
+        "2017": {
+          "qtd": 26,
+          "valor": 131659.26
+        },
+        "2016": {
+          "qtd": 42,
+          "valor": 152868.58999999997
+        },
+        "2024": {
+          "qtd": 33,
+          "valor": 366846.0100000001
+        },
+        "2023": {
+          "qtd": 35,
+          "valor": 312849.35000000003
+        },
+        "2014": {
+          "qtd": 11,
+          "valor": 130778.6
+        },
+        "2021": {
+          "qtd": 17,
+          "valor": 88380.0
+        },
+        "2018": {
+          "qtd": 25,
+          "valor": 112921.19
+        },
+        "2019": {
+          "qtd": 10,
+          "valor": 41784.840000000004
+        },
+        "2020": {
+          "qtd": 32,
+          "valor": 150754.13
+        },
+        "2015": {
+          "qtd": 27,
+          "valor": 26162.170000000002
+        },
+        "2026": {
+          "qtd": 29,
+          "valor": 338352.80000000005
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 11,
+      "valor_total": 68362.95
+    },
+    "cobrancas": {
+      "qtd": 11,
+      "valor_total": 64608.21
+    }
+  }
+}

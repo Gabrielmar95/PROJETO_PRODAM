@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê BANCO BMG — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — BANCO BMG</h1>
+<p><b>Banco BMG</b> | EMPRESA_PRIVADA | CNPJ: 61.186.680/0001-74 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 39.242,00</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 39.242,00</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">15%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>163140</td><td>58131</td><td>8/2023</td><td>09/2025</td><td>R$ 7.408,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>163955</td><td>58902</td><td>8/2023</td><td>10/2025</td><td>R$ 7.198,00</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>164837</td><td>59787</td><td>8/2023</td><td>11/2025</td><td>R$ 7.076,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>165491</td><td>60397</td><td>8/2023</td><td>12/2025</td><td>R$ 6.930,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>166396</td><td>697</td><td>8/2023</td><td>01/2026</td><td>R$ 6.834,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>163156</td><td>58141</td><td>66/2024</td><td>09/2025</td><td>R$ 2.764,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>163827</td><td>58794</td><td>66/2024</td><td>10/2025</td><td>R$ 2.690,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>164838</td><td>59786</td><td>66/2024</td><td>11/2025</td><td>R$ 2.628,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>165563</td><td>60396</td><td>66/2024</td><td>12/2025</td><td>R$ 2.548,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>166398</td><td>694</td><td>66/2024</td><td>01/2026</td><td>R$ 2.498,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Valor original R$ 39,242.00 — fonte: relatorio_devedores.xls. Análise massiva pendente para atualização monetária.</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:[],datasets:[
+    {label:'Qtd',data:[],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

@@ -1,0 +1,16 @@
+{
+  "rel_faturas_aberto": 138,
+  "rel_geral_faturas_total": 1167,
+  "rel_geral_faturas_by_year": {
+    "2019": 64,
+    "2020": 68,
+    "2021": 162,
+    "2022": 203,
+    "2023": 215,
+    "2024": 201,
+    "2025": 212,
+    "2026": 42
+  },
+  "total_xls": 1305,
+  "extracted_date": "2026-04-14"
+}

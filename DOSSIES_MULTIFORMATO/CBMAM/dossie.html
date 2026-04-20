@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê CBMAM — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — CBMAM</h1>
+<p><b>Corpo de Bombeiros Militar do Amazonas</b> | GOV_DIRETA | CNPJ: 02.963.980/0001-53 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi forte">FORTE</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ENVIAR_TRD</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 3.134,03</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 71.483,16</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">4</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">20</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">150</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">62%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2014NE00028</td><td>2/2011</td><td>02/01/2014</td><td>R$ 39.648,70</td><td>Ativo</td></tr>
+<tr><td>2018NE00236</td><td>2/2011</td><td>17/04/2018</td><td>R$ 29.920,00</td><td>Ativo</td></tr>
+<tr><td>2016NE00046</td><td>2/2011</td><td>04/01/2016</td><td>R$ 20.218,92</td><td>Ativo</td></tr>
+<tr><td>2016NE00053</td><td></td><td>04/01/2016</td><td>R$ 20.218,92</td><td>Ativo</td></tr>
+<tr><td>2016NE00054</td><td>2/2011</td><td>04/01/2016</td><td>R$ 20.218,92</td><td>Ativo</td></tr>
+<tr><td>2020NE00427</td><td>1/2017</td><td>18/09/2020</td><td>R$ 19.465,18</td><td>Ativo</td></tr>
+<tr><td>2020NE00420</td><td></td><td>16/09/2020</td><td>R$ 19.465,18</td><td>Ativo</td></tr>
+<tr><td>2020NE00420</td><td></td><td>16/09/2020</td><td>R$ 19.465,18</td><td>Ativo</td></tr>
+<tr><td>2020NE00270</td><td>1/2017</td><td>07/07/2020</td><td>R$ 19.465,18</td><td>Ativo</td></tr>
+<tr><td>2018NE00607</td><td>1/2017</td><td>20/07/2018</td><td>R$ 18.088,63</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>146631</td><td>42460</td><td>6/2021</td><td>12/2023</td><td>R$ 699,30</td><td>Parcialmente Paga</td><td>COMPLETA</td></tr>
+<tr><td>148807</td><td>44437</td><td>6/2021</td><td>03/2024</td><td>R$ 699,30</td><td>Parcialmente Paga</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>27 evidências tipo A</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[4, 16, 30, 9, 12, 18, 15, 10, 9, 10, 10, 6, 1],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[55603.17999999999, 95978.45000000003, 157303.84000000003, 33718.93, 96394.44999999998, 45887.41, 115632.90999999999, 30615.24, 22887.84, 12063.69, 9704.25, 4859.67, 2218.28],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

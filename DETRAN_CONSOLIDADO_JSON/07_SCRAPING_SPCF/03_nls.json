@@ -1,0 +1,127 @@
+{
+  "filename": "03_nls.csv",
+  "tipo_doc": "CSV_SPCF",
+  "categoria": "07_SCRAPING_SPCF",
+  "total_linhas": 7,
+  "campos": [
+    "﻿NL",
+    "ano",
+    "data",
+    "valor_R$",
+    "NEs_referenciadas",
+    "fiscais",
+    "primeiro_doc"
+  ],
+  "amostra_5_linhas": [
+    {
+      "﻿NL": "2022NL01955",
+      "ano": "2022",
+      "data": "2022-08-23",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00237, 2022NE00003, 2022NE00417",
+      "fiscais": "DE SERVIÇOS ELETRÔNICA",
+      "primeiro_doc": "01.03.022201.0178892022-88.pdf"
+    },
+    {
+      "﻿NL": "2022NL02929",
+      "ano": "2022",
+      "data": "2022-10-31",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00237, 2022NE00003, 2022NE00417",
+      "fiscais": "DE SERVIÇOS ELETRÔNICA",
+      "primeiro_doc": "01.03.022201.0178892022-88.pdf"
+    },
+    {
+      "﻿NL": "2022NL03206",
+      "ano": "2022",
+      "data": "2022-11-17",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00237",
+      "fiscais": "DE SERVIÇOS ELETRÔNICA",
+      "primeiro_doc": "01.03.022201.0265442022-15.pdf"
+    },
+    {
+      "﻿NL": "2022NL03214",
+      "ano": "2022",
+      "data": "2022-11-17",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00462, 2022NE00683",
+      "fiscais": "DE SERVIÇOS ELETRONICA",
+      "primeiro_doc": "01.03.022201.0265472022-59.pdf"
+    },
+    {
+      "﻿NL": "2022NL03218",
+      "ano": "2022",
+      "data": "2022-11-16",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00462, 2022NE00683",
+      "fiscais": "DE SERVIÇOS ELETRONICA",
+      "primeiro_doc": "01.03.022201.0265472022-59.pdf"
+    }
+  ],
+  "dados_completos": [
+    {
+      "﻿NL": "2022NL01955",
+      "ano": "2022",
+      "data": "2022-08-23",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00237, 2022NE00003, 2022NE00417",
+      "fiscais": "DE SERVIÇOS ELETRÔNICA",
+      "primeiro_doc": "01.03.022201.0178892022-88.pdf"
+    },
+    {
+      "﻿NL": "2022NL02929",
+      "ano": "2022",
+      "data": "2022-10-31",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00237, 2022NE00003, 2022NE00417",
+      "fiscais": "DE SERVIÇOS ELETRÔNICA",
+      "primeiro_doc": "01.03.022201.0178892022-88.pdf"
+    },
+    {
+      "﻿NL": "2022NL03206",
+      "ano": "2022",
+      "data": "2022-11-17",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00237",
+      "fiscais": "DE SERVIÇOS ELETRÔNICA",
+      "primeiro_doc": "01.03.022201.0265442022-15.pdf"
+    },
+    {
+      "﻿NL": "2022NL03214",
+      "ano": "2022",
+      "data": "2022-11-17",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00462, 2022NE00683",
+      "fiscais": "DE SERVIÇOS ELETRONICA",
+      "primeiro_doc": "01.03.022201.0265472022-59.pdf"
+    },
+    {
+      "﻿NL": "2022NL03218",
+      "ano": "2022",
+      "data": "2022-11-16",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2021NE00462, 2022NE00683",
+      "fiscais": "DE SERVIÇOS ELETRONICA",
+      "primeiro_doc": "01.03.022201.0265472022-59.pdf"
+    },
+    {
+      "﻿NL": "2025NL03930",
+      "ano": "2025",
+      "data": "2025-11-07",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2025NE00737",
+      "fiscais": "DE SERVIÇOS ELETRÔNICA",
+      "primeiro_doc": "01.03.011210.038381-2025-30.pdf"
+    },
+    {
+      "﻿NL": "2025NL04752",
+      "ano": "2025",
+      "data": "2025-12-23",
+      "valor_R$": "0",
+      "NEs_referenciadas": "2025NE01458",
+      "fiscais": "s em Lei esta\ncondicionada a verificação de autenticidade no",
+      "primeiro_doc": "01.03.011210.032625-2025-71.pdf"
+    }
+  ]
+}

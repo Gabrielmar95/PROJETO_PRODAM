@@ -1,0 +1,170 @@
+{
+  "data": "2026-04-14",
+  "total_contratos": 13,
+  "resumo_indices": {
+    "IGPM": 7,
+    "IPCA": 3
+  },
+  "por_contrato": {
+    "004/2016": {
+      "arquivos": 7,
+      "paginas": 63,
+      "tem_principal": true,
+      "indice_dominante": "IGPM",
+      "indices_filename": [],
+      "indices_texto_mentions": {
+        "IGPM": 2
+      },
+      "reajustes_pct_encontrados": []
+    },
+    "006/2021": {
+      "arquivos": 6,
+      "paginas": 93,
+      "tem_principal": true,
+      "indice_dominante": "IGPM",
+      "indices_filename": [
+        "IGPM"
+      ],
+      "indices_texto_mentions": {
+        "IGPM": 7,
+        "IPCA": 1
+      },
+      "reajustes_pct_encontrados": [
+        6.54,
+        6.54
+      ]
+    },
+    "010/2021": {
+      "arquivos": 5,
+      "paginas": 74,
+      "tem_principal": true,
+      "indice_dominante": "IGPM",
+      "indices_filename": [],
+      "indices_texto_mentions": {
+        "IGPM": 3,
+        "IPCA": 1
+      },
+      "reajustes_pct_encontrados": []
+    },
+    "012/2021": {
+      "arquivos": 6,
+      "paginas": 74,
+      "tem_principal": true,
+      "indice_dominante": "IPCA",
+      "indices_filename": [
+        "IPCA"
+      ],
+      "indices_texto_mentions": {
+        "IGPM": 5,
+        "IPCA": 5
+      },
+      "reajustes_pct_encontrados": []
+    },
+    "017/2015": {
+      "arquivos": 7,
+      "paginas": 72,
+      "tem_principal": true,
+      "indice_dominante": "IGPM",
+      "indices_filename": [],
+      "indices_texto_mentions": {
+        "IGPM": 1
+      },
+      "reajustes_pct_encontrados": [
+        11.09,
+        11.09,
+        11.09,
+        11.09
+      ]
+    },
+    "022/2014": {
+      "arquivos": 9,
+      "paginas": 121,
+      "tem_principal": true,
+      "indice_dominante": "IGPM",
+      "indices_filename": [],
+      "indices_texto_mentions": {
+        "IGPM": 4
+      },
+      "reajustes_pct_encontrados": []
+    },
+    "025/2014": {
+      "arquivos": 8,
+      "paginas": 80,
+      "tem_principal": true,
+      "indice_dominante": "IGPM",
+      "indices_filename": [],
+      "indices_texto_mentions": {
+        "IGPM": 2
+      },
+      "reajustes_pct_encontrados": [
+        15.21
+      ]
+    },
+    "027/2014": {
+      "arquivos": 7,
+      "paginas": 77,
+      "tem_principal": true,
+      "indice_dominante": "IGPM",
+      "indices_filename": [],
+      "indices_texto_mentions": {
+        "IGPM": 1
+      },
+      "reajustes_pct_encontrados": []
+    },
+    "060/2022": {
+      "arquivos": 1,
+      "paginas": 6,
+      "tem_principal": true,
+      "indice_dominante": "INDETERMINADO",
+      "indices_filename": [],
+      "indices_texto_mentions": {},
+      "reajustes_pct_encontrados": []
+    },
+    "071/2022": {
+      "arquivos": 1,
+      "paginas": 20,
+      "tem_principal": true,
+      "indice_dominante": "INDETERMINADO",
+      "indices_filename": [],
+      "indices_texto_mentions": {},
+      "reajustes_pct_encontrados": []
+    },
+    "075/2022": {
+      "arquivos": 6,
+      "paginas": 60,
+      "tem_principal": true,
+      "indice_dominante": "IPCA",
+      "indices_filename": [
+        "IPCA"
+      ],
+      "indices_texto_mentions": {
+        "IPCA": 8
+      },
+      "reajustes_pct_encontrados": []
+    },
+    "083/2022": {
+      "arquivos": 4,
+      "paginas": 91,
+      "tem_principal": true,
+      "indice_dominante": "IPCA",
+      "indices_filename": [
+        "IPCA"
+      ],
+      "indices_texto_mentions": {
+        "IPCA": 4
+      },
+      "reajustes_pct_encontrados": [
+        4.24
+      ]
+    },
+    "DESCONHECIDO": {
+      "arquivos": 3,
+      "paginas": 11,
+      "tem_principal": false,
+      "indice_dominante": "INDETERMINADO",
+      "indices_filename": [],
+      "indices_texto_mentions": {},
+      "reajustes_pct_encontrados": []
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "filename": "4º TA ao Contrato 006.2021 - Prazo e reajuste 6,54% IGPM.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\4º TA ao Contrato 006.2021 - Prazo e reajuste 6,54% IGPM.pdf",
+  "filename_parsed": {
+    "filename": "4º TA ao Contrato 006.2021 - Prazo e reajuste 6,54% IGPM.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 6,
+    "contrato_ano": 2021,
+    "contrato_ref": "006/2021",
+    "ta_numero": 4,
+    "indice": "IGPM",
+    "percentual_reajuste": 6.54,
+    "modalidades": [
+      "PRORROGACAO_PRAZO",
+      "REAJUSTE"
+    ]
+  },
+  "pdf_meta": {
+    "num_paginas": 11,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 1540101
+  },
+  "texto_length": 26737,
+  "texto_preview": "\n\n\nGOVERNO DO ESTADO DO AMAZONAS\nADMINISTRAÇÃO FINANCEIRA INTEGRADA\nNota de Empenho\nUnidade Gestora\nGestão\nCredor\nNúmero Documento\nProcesso\nLicitação\nData Emissão\nNE Original\nModalidade\nEvento\nReferência\nValor\n011210 - DEPARTAMENTO ESTADUAL DE TRÂNSITO\n00002 - AUTARQUIA\n2025NE0000737\n04407920000180 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S A\n400091 - Empenho de Despesa\n011210.000384/2025\nArt.24; XVI;  Lei 8.666/93\n 522.461,76\n16/05/2025\n5 - Dispensa de Licitação\n3 - Global\nNatureza Despesa\nFont",
+  "clausulas_detectadas": {
+    "indice_correcao": [
+      "IGPM"
+    ],
+    "valor_contrato": [
+      "R$ \n4.563.780,00",
+      "R$ \n2.089.847,04",
+      "R$ 54.410,19"
+    ],
+    "vigencia": [
+      [
+        "02/03/2021",
+        "25/03/2025"
+      ],
+      [
+        "21/05/2025",
+        "21/05/2026"
+      ],
+      [
+        "01/04/2025",
+        "01/04/2026"
+      ],
+      [
+        "03/06/2025",
+        "31/12/2025"
+      ]
+    ],
+    "acrescimo_pct": [
+      "6,54"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

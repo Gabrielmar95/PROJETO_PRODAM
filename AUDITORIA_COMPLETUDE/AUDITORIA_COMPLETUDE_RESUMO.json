@@ -1,0 +1,423 @@
+{
+  "data": "2026-04-17",
+  "total_devedores": 69,
+  "total_divergencias": 56,
+  "total_gaps": 478,
+  "score_medio": 37.0,
+  "por_devedor": {
+    "SES/SUSAM": {
+      "score": 36.4,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 7,
+      "categoria": "GOV_DIRETA"
+    },
+    "SSP": {
+      "score": 54.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "DETRAN": {
+      "score": 54.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "SEDUC": {
+      "score": 54.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "SEAD": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "SEJUSC": {
+      "score": 54.5,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "FUAM/FUHAM": {
+      "score": 18.2,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 9,
+      "categoria": "GOV_INDIRETA"
+    },
+    "POLÍCIA CIVIL": {
+      "score": 27.3,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 8,
+      "categoria": "GOV_DIRETA"
+    },
+    "SEC": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "SEINFRA": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "FAAR/SEDEL": {
+      "score": 27.3,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 8,
+      "categoria": "GOV_INDIRETA"
+    },
+    "IPAAM": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "FMT": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "SEDECTI": {
+      "score": 54.5,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "CBMAM": {
+      "score": 54.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "SEAS": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "FHAJ": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "FHEMOAM": {
+      "score": 45.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 6,
+      "categoria": "GOV_INDIRETA"
+    },
+    "SEFAZ": {
+      "score": 54.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "SEPROR": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "SUHAB": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "ARSEPAM": {
+      "score": 45.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 6,
+      "categoria": "GOV_INDIRETA"
+    },
+    "SNPH": {
+      "score": 54.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "FCECON": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "AMAZONPREV": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "SEMA": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "PGE": {
+      "score": 54.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "SECT": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "IDAM": {
+      "score": 45.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 6,
+      "categoria": "GOV_INDIRETA"
+    },
+    "PMAM": {
+      "score": 45.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 6,
+      "categoria": "GOV_DIRETA"
+    },
+    "FVS": {
+      "score": 54.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 5,
+      "categoria": "GOV_INDIRETA"
+    },
+    "FUNTEA": {
+      "score": 45.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 6,
+      "categoria": "GOV_INDIRETA"
+    },
+    "SEMIG": {
+      "score": 54.5,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 5,
+      "categoria": "GOV_DIRETA"
+    },
+    "CAIXA": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "BANCO MASTER": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "PROVER": {
+      "score": 27.3,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 8,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "BANCO SICOOB": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "IKM DE": {
+      "score": 18.2,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 9,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "SUL AMERICA": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "ANOREG": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "ODONTOMED": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "BANCO BMG": {
+      "score": 36.4,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "FENIXSOFT": {
+      "score": 36.4,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "ITRANSITO": {
+      "score": 36.4,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "EASYTECH": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE": {
+      "score": 0.0,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 11,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "BMC": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "CPA": {
+      "score": 36.4,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "BANCO SAFRA": {
+      "score": 36.4,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 7,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "B23 TECNOLOGIA": {
+      "score": 18.2,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 9,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "PSA TECHNOLOGY": {
+      "score": 0.0,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 11,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "CETAM": {
+      "score": 27.3,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 8,
+      "categoria": "GOV_INDIRETA"
+    },
+    "UGPI": {
+      "score": 0.0,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 11,
+      "categoria": "GOV_DIRETA"
+    },
+    "ADAF": {
+      "score": 45.5,
+      "divergencias_qtd": 1,
+      "gaps_qtd": 6,
+      "categoria": "GOV_INDIRETA"
+    },
+    "CGE": {
+      "score": 27.3,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 8,
+      "categoria": "GOV_DIRETA"
+    },
+    "FMPES": {
+      "score": 0.0,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 11,
+      "categoria": "GOV_INDIRETA"
+    },
+    "DPE": {
+      "score": 45.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 6,
+      "categoria": "GOV_DIRETA"
+    },
+    "SEJEL": {
+      "score": 18.2,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 9,
+      "categoria": "GOV_DIRETA"
+    },
+    "ADS": {
+      "score": 45.5,
+      "divergencias_qtd": 2,
+      "gaps_qtd": 6,
+      "categoria": "GOV_INDIRETA"
+    },
+    "SETRAB": {
+      "score": 9.1,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 10,
+      "categoria": "GOV_DIRETA"
+    },
+    "AADESAM": {
+      "score": 9.1,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 10,
+      "categoria": "GOV_INDIRETA"
+    },
+    "FJJA": {
+      "score": 0.0,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 11,
+      "categoria": "GOV_INDIRETA"
+    },
+    "CASA CIVIL": {
+      "score": 45.5,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 6,
+      "categoria": "GOV_DIRETA"
+    },
+    "COSAMA": {
+      "score": 18.2,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 9,
+      "categoria": "GOV_INDIRETA"
+    },
+    "CASA MILITAR": {
+      "score": 27.3,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 8,
+      "categoria": "GOV_DIRETA"
+    },
+    "BANCO DAYCOVAL": {
+      "score": 9.1,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 10,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "BRADESCO": {
+      "score": 18.2,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 9,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "SALUX": {
+      "score": 18.2,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 9,
+      "categoria": "EMPRESA_PRIVADA"
+    },
+    "BRADESCO FINANCIAMENTO": {
+      "score": 9.1,
+      "divergencias_qtd": 0,
+      "gaps_qtd": 10,
+      "categoria": "EMPRESA_PRIVADA"
+    }
+  }
+}

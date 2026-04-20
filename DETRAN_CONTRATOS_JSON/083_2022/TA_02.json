@@ -1,0 +1,46 @@
+{
+  "filename": "2º TA Contrato 083.2022 - Prazo e reajuste 4,24% IPCA.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\2º TA Contrato 083.2022 - Prazo e reajuste 4,24% IPCA.pdf",
+  "filename_parsed": {
+    "filename": "2º TA Contrato 083.2022 - Prazo e reajuste 4,24% IPCA.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 83,
+    "contrato_ano": 2022,
+    "contrato_ref": "083/2022",
+    "ta_numero": 2,
+    "indice": "IPCA",
+    "percentual_reajuste": 4.24,
+    "modalidades": [
+      "PRORROGACAO_PRAZO",
+      "REAJUSTE"
+    ]
+  },
+  "pdf_meta": {
+    "num_paginas": 7,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 1491240
+  },
+  "texto_length": 15520,
+  "texto_preview": "\n\n\nGOVERNO DO ESTADO DO AMAZONAS\nADMINISTRAÇÃO FINANCEIRA INTEGRADA\nNota de Empenho\nUnidade Gestora\nGestão\nCredor\nNúmero Documento\nProcesso\nLicitação\nData Emissão\nNE Original\nModalidade\nEvento\nReferência\nValor\n011210 - DEPARTAMENTO ESTADUAL DE TRÂNSITO\n00002 - AUTARQUIA\n2024NE0002022\n04407920000180 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S A\n400091 - Empenho de Despesa\n011210.028405/2024\nArt.24; XVI;  Lei 8.666/93\n 30.751,00\n22/11/2024\n5 - Dispensa de Licitação\n3 - Global\nNatureza Despesa\nFonte",
+  "clausulas_detectadas": {
+    "indice_correcao": [
+      "IPCA"
+    ],
+    "valor_contrato": [
+      "R$ 369.012,00",
+      "R$ 184.000,00"
+    ],
+    "vigencia": [
+      [
+        "25/11/2022",
+        "14/11/2024"
+      ],
+      [
+        "02/12/2024",
+        "02/12/2025"
+      ]
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

@@ -1,0 +1,321 @@
+{
+  "sigla": "CASA MILITAR",
+  "profile": {
+    "nome": "CASA MILITAR",
+    "sigla": "CASA MILITAR",
+    "fonte": "SPCF_EXAUSTIVO_ABR2026",
+    "data_inclusao": "2026-04-01",
+    "val_orig": "0",
+    "val_exig": "0",
+    "categoria": "GOV_DIRETA",
+    "forca_probatoria": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "status": "NOVO_SPCF",
+    "fase_atual": "F0_DIAGNOSTICO",
+    "tipo": "ESTADUAL",
+    "fat_canceladas_qtd": 3,
+    "fat_canceladas_val_bruto": 4309.41,
+    "fat_canceladas_val_liquido": 4093.94,
+    "faturamento_total_2019_2026": 118738.91,
+    "recebimento_total_2019_2026": 110693.0,
+    "taxa_pagamento_pct": 93.22,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 63,
+    "faturamento_pico_mes": "2024-Nov",
+    "faturamento_pico_valor": 3401.58,
+    "inicio_inadimplencia": "2020-Dez",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 96374.8,
+    "empenho_historico_qtd": 14,
+    "empenho_valor_global_contratos": 33410.88,
+    "empenho_2026_gerencial": 11136.96,
+    "a_empenhar_2026": 11136.96,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "2784.24",
+    "val_liquido_spcf_mar2026": "2784.24",
+    "num_faturas_spcf_mar2026": 1,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 100.0,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2022NE0000095",
+      "contrato": "6/2020",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2022",
+      "descricao": "Reforço da NE 2022NE0000008 de 03/01/2022 - 1º Termo Aditivo ao Termo de Contrato nº 006/2020 - Casa Militar"
+    },
+    {
+      "numero": "2023NE0000241",
+      "contrato": "6/2020",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 006/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000473",
+      "contrato": "6/2020",
+      "valor": 5102.37,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2023",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 03."
+    },
+    {
+      "numero": "2021NE0000188",
+      "contrato": "",
+      "valor": 654.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2021",
+      "descricao": "RD 2021RD0000068, referente pagamento por geração de Folha Especial de pagamento (Tipo 68) no mês de OUTUBRO/2020, Nota Fiscal nº 18672."
+    },
+    {
+      "numero": "2022NE0001188",
+      "contrato": "6/2020",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2022",
+      "descricao": "Reforço da 2022NE0000810 - 2º Termo Aditivo ao Termo de Contrato nº 006/2020 - Casa Militar Objeto: Serviço de licença de uso de Sistema de Informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2023NE0000115",
+      "contrato": "",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2023",
+      "descricao": "Reforço da NE 2023NE0000017 - 2º Termo Aditivo ao Contrato nº 006/2020 - Casa Militar - Objeto: Serviço de licença de uso de Sistema de Informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado"
+    },
+    {
+      "numero": "2025NE0000061",
+      "contrato": "6/2020",
+      "valor": 10204.74,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2025",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000335",
+      "contrato": "6/2020",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2024",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 03."
+    },
+    {
+      "numero": "2022NE0000086",
+      "contrato": "",
+      "valor": 1639.6,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2022",
+      "descricao": "Rec Dívida, Proc 011108.0000005/2022, referente pag por geração de Folha Especial (TIPO 68) no mês de JULHO e SETEMBRO/2021, junto à Empresa PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. (04.407.920/0001-80), nota fiscal 24921 (R$ 822,46) e 24922 (R$ 817,14) ambas de 26/10/2021. Parecer Jur. n° 02/2022 ASJUR/Casa Militar de 06/01/22, aprovado em 11/01/22. Fund Legal: Decreto 25.648 de 21 fev 2006 e Instrução Normativa/GSEFAZ nº 001/2006 de 01/03/2006."
+    },
+    {
+      "numero": "2020NE00568",
+      "contrato": "",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2020",
+      "descricao": "Termo de Contrato nº 006/2020 – Serviço de licença de uso de Sistema de Informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado"
+    },
+    {
+      "numero": "2022NE0001360",
+      "contrato": "6/2020",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2022",
+      "descricao": "Reforço da NE 2022NE0000810 de 17/08/2022. 115833 - LICENÇA DE SOFTWARE, LICENÇA DE SOFTWARE, Descrição: Licença de uso do sistema 1 Gestor de Conteúdo Web - GERWEB. MARCA: null 2º Termo Aditivo ao Termo de Contrato nº 006/2020 - Casa Militar Objeto: Serviço de licença de uso de Sistema de Informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado. Vigência: 01/09/2022 a 01/09/2023"
+    },
+    {
+      "numero": "2020NE00553",
+      "contrato": "",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2020",
+      "descricao": "Anulação total do saldo da Nota de Empenho nº 2020NE00447 ¿ TC 006/2020, serviço de licença de uso de sistema de informação, em razão de ajuste orçamentário, troca de fonte devido FRUSTAÇÃO DE RECEITA na fonte 145 (Bloqueio pelo Órgão Central), conforme mensagem do sistema AFI/SEFAZ e solicitação da SEO/SEFAZ"
+    },
+    {
+      "numero": "2022NE0000810",
+      "contrato": "6/2020",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2022",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado"
+    },
+    {
+      "numero": "2022NE0000810",
+      "contrato": "6/2020",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2022",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado"
+    },
+    {
+      "numero": "2020NE00447",
+      "contrato": "6/2020",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2020",
+      "descricao": "Serviço de licença de uso de sistema de informação GERWEB Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via website, visando atender à Casa Militar por um período de 12 meses."
+    },
+    {
+      "numero": "2015NE00077",
+      "contrato": "",
+      "valor": 21437.58,
+      "situacao": "Ativo",
+      "data_emissao": "17/04/2015",
+      "descricao": "Correspondente ao pagamento de despesas realizadas com a contratação de empresa para prestação dos serviços de Instalação de rede, locação de equipamentos e disponibilização de links que foram utilizados durante a realização do Festival Folclórico de Parintins, no exercício de 2014 - Despesas de Exercícios Anteriores."
+    },
+    {
+      "numero": "2015NE00232",
+      "contrato": "",
+      "valor": 21437.58,
+      "situacao": "Ativo",
+      "data_emissao": "14/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2023NE0000313",
+      "contrato": "6/2020",
+      "valor": 1700.79,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2023",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 03."
+    },
+    {
+      "numero": "2024NE0000139",
+      "contrato": "6/2020",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "10/05/2024",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 03."
+    },
+    {
+      "numero": "2021NE0000482",
+      "contrato": "6/2020",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2021",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado"
+    },
+    {
+      "numero": "2024NE0000053",
+      "contrato": "6/2020",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2024",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 03."
+    },
+    {
+      "numero": "2026NE0000007",
+      "contrato": "3/2025",
+      "valor": 11136.96,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de Serviço licença de sistema de informação, disponibilização de Gestor de Conteúdo WEB - GERWEB, publ de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado do Amazonas"
+    },
+    {
+      "numero": "2025NE0000490",
+      "contrato": "3/2025",
+      "valor": 11136.96,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2025",
+      "descricao": "Contratação de Serviço licença de sistema de informação, disponibilização de Gestor de Conteúdo WEB - GERWEB, publ de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado do Amazonas"
+    },
+    {
+      "numero": "2025NE00490",
+      "contrato": "3/2025",
+      "valor": 11136.96,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2025",
+      "descricao": "Serviço de Licença de Uso de Sistema de Informação a disponibilização de Gestor de Conteúdo Web. Contrato 003/2025."
+    },
+    {
+      "numero": "2022NE0000008",
+      "contrato": "6/2020",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado"
+    },
+    {
+      "numero": "2025NE0000010",
+      "contrato": "6/2020",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2023NE0000017",
+      "contrato": "6/2020",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado"
+    },
+    {
+      "numero": "2024NE0000512",
+      "contrato": "6/2020",
+      "valor": 6803.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2024",
+      "descricao": "Serviço de licença de uso de sistema de informação, compreendendo a disponibilidade de gestor de conteúdo web, de acordo com o padrão de comunicação visual do Governo do Estado TC: 0006/2020 AD: 04."
+    }
+  ],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 28,
+      "valor_total": 180627.63999999998,
+      "por_ano": {
+        "2022": {
+          "qtd": 7,
+          "valor": 25450.66
+        },
+        "2023": {
+          "qtd": 5,
+          "valor": 20409.48
+        },
+        "2021": {
+          "qtd": 2,
+          "valor": 7457.76
+        },
+        "2025": {
+          "qtd": 4,
+          "valor": 35880.24
+        },
+        "2024": {
+          "qtd": 4,
+          "valor": 17007.9
+        },
+        "2020": {
+          "qtd": 3,
+          "valor": 20409.48
+        },
+        "2015": {
+          "qtd": 2,
+          "valor": 42875.16
+        },
+        "2026": {
+          "qtd": 1,
+          "valor": 11136.96
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

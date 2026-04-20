@@ -1,0 +1,25 @@
+{
+  "filename": "REQUERIMENTO__2a55d3df0d.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\REQUERIMENTO__2a55d3df0d.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499625,
+  "texto_length": 1351,
+  "texto_preview": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 44.077,46 (QUARENTA E QUATRO MIL E SETENTA E SETE REAIS E QUARENTA E SEIS\nCENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nfev/2021\n0,00\n0,00\n707,75\n37,25\n25024\n27/2014\n745,00\nFornecimento de Espaço em Ra",
+  "texto_completo": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 44.077,46 (QUARENTA E QUATRO MIL E SETENTA E SETE REAIS E QUARENTA E SEIS\nCENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nfev/2021\n0,00\n0,00\n707,75\n37,25\n25024\n27/2014\n745,00\nFornecimento de Espaço em Rack\nfev/2021\n0,00\n0,00\n18.404,15\n968,64\n25030\n27/2014\n19.372,79\nFornecimento de circuito de transmissão de dados\nfev/2021\n0,00\n0,00\n15.017,60\n790,40\n25033\n27/2014\n15.808,00\nAcesso Gerenciado à Rede Mundial\nfev/2021\n0,00\n0,00\n2.423,15\n127,53\n25038\n27/2014\n2.550,68\nServiços de Firewall\nfev/2021\n0,00\n0,00\n3.863,56\n203,35\n25039\n27/2014\n4.066,91\nServiços de Firewall\nfev/2021\n0,00\n0,00\n1.457,38\n76,70\n25040\n27/2014\n1.534,08\nAcesso à MetroMao\nTotais\n44.077,46\n0,00\n2.203,87\n41.873,59\n0,00\nNestes Termos\nP. Deferimento\n José Maria Pinto\n Gerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80"
+    ],
+    "valores_brl": [
+      "44.077,46"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

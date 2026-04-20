@@ -1,0 +1,73 @@
+{
+  "filename": "04_aceites.csv",
+  "tipo_doc": "CSV_SPCF",
+  "categoria": "07_SCRAPING_SPCF",
+  "total_linhas": 3,
+  "campos": [
+    "﻿arquivo",
+    "tipo_novo",
+    "data_doc",
+    "fiscal_detectado",
+    "nes",
+    "contratos",
+    "valor_max_R$"
+  ],
+  "amostra_5_linhas": [
+    {
+      "﻿arquivo": "Contrato 022.2014 - Execução de Sistema SCIT.pdf",
+      "tipo_novo": "CONTRATO",
+      "data_doc": "",
+      "fiscal_detectado": "Eletrônica.",
+      "nes": "2014NE01409",
+      "contratos": "022/2014, 026/2014",
+      "valor_max_R$": "4254058.86"
+    },
+    {
+      "﻿arquivo": "Contrato 025.2014 - Manutenção de Sistema.pdf",
+      "tipo_novo": "CONTRATO",
+      "data_doc": "",
+      "fiscal_detectado": "Eletrônica",
+      "nes": "2014NE01393, 2014NE01414",
+      "contratos": "025/2014",
+      "valor_max_R$": "6232356"
+    },
+    {
+      "﻿arquivo": "Contrato 027.2014 - Serviço Rede.pdf",
+      "tipo_novo": "NOTA_DE_EMPENHO",
+      "data_doc": "",
+      "fiscal_detectado": "Eletrônica. o o\ne",
+      "nes": "2014NE01413",
+      "contratos": "026/2014, 027/2014",
+      "valor_max_R$": "468002.76"
+    }
+  ],
+  "dados_completos": [
+    {
+      "﻿arquivo": "Contrato 022.2014 - Execução de Sistema SCIT.pdf",
+      "tipo_novo": "CONTRATO",
+      "data_doc": "",
+      "fiscal_detectado": "Eletrônica.",
+      "nes": "2014NE01409",
+      "contratos": "022/2014, 026/2014",
+      "valor_max_R$": "4254058.86"
+    },
+    {
+      "﻿arquivo": "Contrato 025.2014 - Manutenção de Sistema.pdf",
+      "tipo_novo": "CONTRATO",
+      "data_doc": "",
+      "fiscal_detectado": "Eletrônica",
+      "nes": "2014NE01393, 2014NE01414",
+      "contratos": "025/2014",
+      "valor_max_R$": "6232356"
+    },
+    {
+      "﻿arquivo": "Contrato 027.2014 - Serviço Rede.pdf",
+      "tipo_novo": "NOTA_DE_EMPENHO",
+      "data_doc": "",
+      "fiscal_detectado": "Eletrônica. o o\ne",
+      "nes": "2014NE01413",
+      "contratos": "026/2014, 027/2014",
+      "valor_max_R$": "468002.76"
+    }
+  ]
+}

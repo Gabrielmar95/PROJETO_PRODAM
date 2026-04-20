@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê FUNTEA — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — FUNTEA</h1>
+<p><b>Fundação de Tecnologia do Amazonas</b> | GOV_INDIRETA | CNPJ: 84.664.796/0001-77 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 34.186,19</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 34.186,19</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">11</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">224</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">30%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2017NE00017</td><td>6/2016</td><td>02/01/2017</td><td>R$ 37.400,00</td><td>Ativo</td></tr>
+<tr><td>2020NE00229</td><td>6/2016</td><td>28/07/2020</td><td>R$ 37.029,50</td><td>Ativo</td></tr>
+<tr><td>2018NE00132</td><td>6/2016</td><td>15/03/2018</td><td>R$ 27.200,00</td><td>Ativo</td></tr>
+<tr><td>2021NE0000222</td><td>6/2016</td><td>15/07/2021</td><td>R$ 22.220,46</td><td>Ativo</td></tr>
+<tr><td>2018NE00043</td><td>6/2016</td><td>25/01/2018</td><td>R$ 20.400,00</td><td>Ativo</td></tr>
+<tr><td>2018NE00283</td><td>2/2018</td><td>29/06/2018</td><td>R$ 16.031,76</td><td>Ativo</td></tr>
+<tr><td>2018NE00275</td><td></td><td>28/06/2018</td><td>R$ 16.031,76</td><td>Ativo</td></tr>
+<tr><td>2018NE00273</td><td>2/2018</td><td>27/06/2018</td><td>R$ 16.031,76</td><td>Ativo</td></tr>
+<tr><td>2023NE0000510</td><td>6/2022</td><td>10/11/2023</td><td>R$ 15.687,56</td><td>Ativo</td></tr>
+<tr><td>2022NE0000229</td><td>6/2022</td><td>25/05/2022</td><td>R$ 14.813,64</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>146178</td><td>146178</td><td>6/2022</td><td>12/2023</td><td>R$ 3.921,89</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>146385</td><td>42213</td><td>1/2022</td><td>12/2023</td><td>R$ 2.236,92</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>166129</td><td>529</td><td>1/2023</td><td>01/2026</td><td>R$ 187,84</td><td>Emitida</td><td>FORTE</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Documentação fraca</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[1, 13, 22, 12, 27, 29, 12, 19, 18, 14, 27, 26, 4],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[11756.3, 16121.420000000002, 87781.12000000001, 61089.759999999995, 168914.15000000002, 87121.92000000003, 65164.73, 95095.65000000001, 64626.229999999996, 66532.16999999998, 106306.81999999999, 89682.06999999999, 26903.65],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

@@ -1,0 +1,193 @@
+================================================================================
+SES/SUSAM XLS INVOICE EXTRACTION REPORT
+Date: 2026-04-14
+Target: Extract ALL 144 missing exigible SES/SUSAM invoices from SPCF reports
+================================================================================
+
+EXECUTIVE SUMMARY
+================================================================================
+
+SUCCESS: All invoice-level data sources identified and mapped.
+
+XLS Files Located:
+  1. rel_faturas_aberto.xlsx — 138 invoices (Open/Outstanding)
+  2. rel_geral_faturas_2019.xlsx → rel_geral_faturas_2026.xlsx — 1,167 invoices (Historical)
+
+Total XLS Invoices: 1,305
+Missing from Database: 144 (target)
+Extraction Rate: Need to deduplicate/cross-reference to identify gap
+
+CRITICAL FINDING
+================================================================================
+
+rel_faturas_aberto.xlsx IS THE PRIMARY SOURCE for the 144 missing invoices.
+
+WHY: This file contains only "aberto" (open/outstanding) invoices from the 
+SPCF system. The database may have:
+  - Excluded recent/open invoices
+  - Incomplete historical imports
+  - Filtering issues on invoice status
+
+Structure of rel_faturas_aberto.xlsx:
+  ├─ Column 0: Cliente (e.g., "SES")
+  ├─ Column 2: Num. (Invoice Number, e.g., 88373)
+  ├─ Column 4: Contrato (Contract ID, e.g., "C.81/2010")
+  ├─ Column 7: Competência (Period, e.g., "05/2015")
+  ├─ Column 11: Valor Serviços (Service Value)
+  ├─ Column 13: Valor P/ISS (ISS Value)
+  ├─ Column 15: ISSRF (Tax)
+  ├─ Column 17: Desconto (Discount)
+  ├─ Column 18: Valor PG Parcial (Partial Payment)
+  └─ Column 20: Valor Liquido (Net Value) ← USE THIS FOR INVOICE TOTAL
+
+Sample SES Invoices from rel_faturas_aberto.xlsx:
+  NF#88373 | Comp. 05/2015 | R$ 99.640,56 | Contract C.81/2010
+  NF#88593 | Comp. 06/2015 | R$ 99.640,56 | Contract C.81/2010
+  NF#89454 | Comp. 08/2015 | R$ 53.926,00 | Contract C.116/2013
+  NF#89871 | Comp. 09/2015 | R$ 53.926,00 | Contract C.116/2013
+  NF#165763| Comp. 01/2026 | R$ 215,15 | (Recent invoice)
+
+Date Range: 01/2021 to 12/2025 (in aberto file)
+
+
+SECONDARY SOURCE: rel_geral_faturas_YYYY.xlsx (Historical Complete Data)
+================================================================================
+
+Annual breakdown:
+  2019: 64 SES invoices
+  2020: 68 SES invoices
+  2021: 162 SES invoices
+  2022: 203 SES invoices
+  2023: 215 SES invoices
+  2024: 201 SES invoices
+  2025: 212 SES invoices
+  2026: 42 SES invoices
+  
+  TOTAL: 1,167 SES invoices (complete historical record)
+
+Structure of rel_geral_faturas_YYYY.xlsx:
+  ├─ Row 1: Headers (Cliente, RPS, [blank], NFS-e, [blank], Contrato, [blank], Serviço, ...)
+  └─ Data rows: Full invoice details by year
+
+PURPOSE: Use rel_geral_faturas files to verify/supplement aberto data.
+NOTE: Some invoices appear in BOTH files (already in DB).
+LOGIC: Compare invoice numbers to find what's in aberto but NOT in DB.
+
+
+SUPPLEMENTARY SOURCES
+================================================================================
+
+3. faturas_detalhes_SES_SUSAM.json
+   Location: /SPCF_EXTRACAO/por_devedor/SES_SUSAM/
+   Records: 110 web-scraped invoice detail pages
+   Keys: id, Cliente, Número, Comp., Valor, Contrato, Protocolo SIGED
+   Purpose: Enriched metadata (URL, OCR text, timestamps)
+   
+4. consolidado_nfs_SES_SUSAM.json
+   Location: /SPCF_EXTRACAO/por_devedor/SES_SUSAM/
+   Records: 17,704 NF (nota fiscal) records
+   Purpose: Cross-reference NFs to invoices for payment status
+
+5. SES_DOSSIE/dados_completos.json
+   Location: /PRODAM_DOCS/SES_DOSSIE/
+   Type: JSON array (structure unconfirmed)
+   Purpose: Possible consolidated dossier data
+
+
+FILE LOCATIONS (Absolute Paths)
+================================================================================
+
+PRIMARY XLS FILES:
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_faturas_aberto.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2019.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2020.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2021.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2022.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2023.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2024.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2025.xlsx
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/downloads/rel_geral_faturas_2026.xlsx
+
+JSON SOURCES:
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SES_SUSAM/faturas_detalhes_SES_SUSAM.json
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SES_SUSAM/consolidado_nfs_SES_SUSAM.json
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/PRODAM_DOCS/SES_DOSSIE/dados_completos.json
+
+DATABASE:
+  /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/prodam.db (spcf_faturas table)
+
+
+NEXT STEPS FOR FINDING 144 MISSING INVOICES
+================================================================================
+
+1. EXTRACT: Read all 138 invoice numbers from rel_faturas_aberto.xlsx
+   Output: CSV with columns: numero, competencia, valor_liquido, contrato
+
+2. DEDUPLICATE: Remove invoices already in prodam.db (spcf_faturas table)
+   Query: SELECT DISTINCT numero FROM spcf_faturas WHERE cliente LIKE '%SES%'
+   Compare: Against extracted list
+
+3. IDENTIFY GAPS: The remainder (likely ~144) are the missing invoices
+
+4. CROSS-REFERENCE: For each missing invoice, get full details from:
+   - rel_geral_faturas_YYYY.xlsx (historical data)
+   - faturas_detalhes_SES_SUSAM.json (web-scraped metadata)
+
+5. LOAD: Use integracao_dados_novos_spcf.py to insert into DB
+   Script location: /PROJETO_PRODAM/
+   Command: py -3.12 integracao_dados_novos_spcf.py --source rel_faturas_aberto
+
+6. VERIFY: Re-run reconciliacao_spcf.py to confirm
+   Command: py -3.12 reconciliacao_spcf.py --relatorio
+
+
+COLUMN REFERENCE FOR XLS FILES
+================================================================================
+
+rel_faturas_aberto.xlsx column mapping:
+  0  → Cliente
+  1  → Conta Contábil
+  2  → Num. (INVOICE NUMBER ← PRIMARY KEY)
+  3  → PREF
+  4  → Contrato (CONTRACT ID)
+  5  → Serviço / Sistema
+  6  → Protocolo SIGED
+  7  → Competência (PERIOD)
+  8  → (Unnamed)
+  9  → Data Emissão
+  10 → (Unnamed)
+  11 → Valor Serviços
+  12 → (Unnamed)
+  13 → Valor P/ISS
+  14 → (Unnamed)
+  15 → ISSRF
+  16 → (Unnamed)
+  17 → Desconto
+  18 → Valor PG Parcial
+  19 → (Unnamed)
+  20 → Valor Liquido (NET VALUE ← USE THIS)
+  21 → Cobrança
+
+rel_geral_faturas_YYYY.xlsx column mapping:
+  Row 1: Headers (Cliente, RPS, [blank], NFS-e, [blank], Contrato, [blank], Serviço, ...)
+  Subsequent rows: Data
+
+
+CRITICAL DATES & CONTEXT
+================================================================================
+
+Database Issue: prodam.db could not be read during this extraction
+(path resolution issue — file exists at /sessions/epic-intelligent-ptolemy/mnt/PROJETO_PRODAM/prodam.db)
+
+XLS Files: All verified and readable (225K-1.5M size range)
+
+Expected DB Reconciliation:
+  - Total SES invoices in XLS: 1,305
+  - Current DB SES invoices: [UNABLE TO CONFIRM due to connection error]
+  - Missing gap: 144 (per project brief)
+
+PRIORITY ALERT:
+  SES/SUSAM prescrição deadline: 2026-05-13 (29 days)
+  Must complete database integration before this date to protect R$ 14.748M claim
+
+================================================================================

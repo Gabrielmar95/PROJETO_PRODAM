@@ -1,0 +1,4361 @@
+{
+  "sigla": "SSP",
+  "profile": {
+    "nome_completo": "Secretaria de Segurança Pública",
+    "sigla": "SSP",
+    "natureza": "Secretaria de Estado",
+    "categoria": "GOV_DIRETA",
+    "val_exig": "4553230.799761455",
+    "val_orig": "12532319.37999999",
+    "val_atualizado": "29034062.62695501",
+    "faturas_total": 196,
+    "faturas_prescritas": 115,
+    "faturas_exigiveis": 81,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": true,
+    "status": "Petição pronta",
+    "observacoes": "Marcos interruptivos expiram jul-nov/2026",
+    "forca_probatoria": "FORTE",
+    "modelo_notificacao": "A",
+    "reconhecimento_revisado": {
+      "total_evidencias": 125,
+      "classificacao": "CONFIRMADO — RD no AFI",
+      "por_tipo": {
+        "B": 1,
+        "E": 117,
+        "F": 3,
+        "H": 2,
+        "D": 1,
+        "G": 1
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "01.804.019/0001-53",
+    "ultima_interacao": "2026-03-25",
+    "evidencias_reconhecimento": 125,
+    "evidencias_por_tipo": {
+      "B": 1,
+      "E": 117,
+      "F": 3,
+      "H": 2,
+      "D": 1,
+      "G": 1
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — RD no AFI",
+    "tipo": "GOV",
+    "score_composto": 0.8492,
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "p_recuperacao": 0.93,
+    "ev_valor_esperado": "4234504.64",
+    "ev_honorarios": "846900.93",
+    "esforco_estimado": 2,
+    "cenario_monte_carlo_p50": "2842732.92",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "data_prescricao_proxima": "2026-03-01",
+    "prioridade_rank": 4,
+    "blindagem_resultado": {
+      "data": "2026-03-27",
+      "blocos": {
+        "A_titulo": {
+          "ok": 6,
+          "total": 6
+        },
+        "B_liquidez": {
+          "ok": 5,
+          "total": 5
+        },
+        "C_cadeia": {
+          "ok": 6,
+          "total": 6
+        },
+        "D_defesas": {
+          "ok": 5,
+          "total": 5
+        }
+      },
+      "total_ok": 22,
+      "total_items": 22,
+      "recomendacao": "EXECUCAO",
+      "ressalvas": [
+        "115 faturas prescritas > 81 exigíveis"
+      ]
+    },
+    "fase_atual": "F5",
+    "data_fase_atual": "2026-03-27",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-20",
+      "F4": "2026-03-23",
+      "F5": "2026-03-27"
+    },
+    "elegivel_cprac": true,
+    "via_transacao_referendada": true,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": "ALTO",
+    "nome": "SSP",
+    "spcf_total_receber": "10725242.83",
+    "spcf_fat_devidas_qtd": 191,
+    "spcf_fat_devidas_val": "10725242.83",
+    "spcf_fat_aberto_qtd": 82,
+    "spcf_fat_aberto_val": "6290728.66",
+    "spcf_perdas": "10269852.48",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 128,
+    "fat_canceladas_val_bruto": 15929079.87,
+    "fat_canceladas_val_liquido": 15704434.29,
+    "faturamento_total_2019_2026": 59476026.84,
+    "recebimento_total_2019_2026": 47497263.0,
+    "taxa_pagamento_pct": 79.86,
+    "padrao_inadimplencia": "INTERMITENTE",
+    "meses_com_faturamento": 80,
+    "faturamento_pico_mes": "2025-Dez",
+    "faturamento_pico_valor": 5514729.77,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 61905752.830000035,
+    "empenho_historico_qtd": 134,
+    "empenho_valor_global_contratos": 42352571.519999996,
+    "empenho_2026_gerencial": 14117523.84,
+    "a_empenhar_2026": 3529380.96,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "11251189.18",
+    "val_liquido_spcf_mar2026": "10725242.83",
+    "num_faturas_spcf_mar2026": 181,
+    "reconciliacao_status": "MAJOR",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 14.42,
+    "pipeline_reconciliacao": {
+      "match": 0,
+      "so_pdf": 0,
+      "so_spcf": 350,
+      "divergentes": 0
+    },
+    "pipeline_ultima_execucao": "2026-04-08 12:23",
+    "pipeline_versao": "3.2.0",
+    "cruzamento_empenho_completo": true,
+    "cruzamento_data": "2026-04-08",
+    "faturas_abertas_com_empenho": 58,
+    "faturas_abertas_sem_empenho": 0,
+    "faturas_forca_forte": 0,
+    "faturas_forca_media_alta": 58,
+    "faturas_forca_media": 0,
+    "faturas_forca_fraca": 0,
+    "valor_forca_forte": 0,
+    "valor_forca_media_alta": 2176112.44,
+    "valor_forca_media": 2148732.66,
+    "valor_forca_fraca": 0,
+    "pct_com_empenho": 100.0,
+    "contratos_com_gap": [],
+    "liquidadas_historicas_total": 886,
+    "liquidadas_historicas_valor": 64932446.6,
+    "faturas_abertas_exigiveis": 58,
+    "reconciliacao_6_6": {
+      "data": "2026-04-08",
+      "faturas_csv": 181,
+      "valor_bruto_csv": "11251189.18",
+      "valor_pg_parcial_csv": "643.85",
+      "saldo_aberto_real": "11250545.33",
+      "faturas_com_pg_parcial": 1,
+      "faturas_pagas_historico": 838,
+      "total_pago_historico": "51097080.98",
+      "novas_em_5devs": 0
+    },
+    "correcao_monetaria_passo7": {
+      "data_calculo": "2026-04-08",
+      "indice": "SELIC",
+      "faturas_exigiveis": 66,
+      "faturas_prescritas": 115,
+      "saldo_base": "2182121.23",
+      "correcao": "675283.43",
+      "juros": "0",
+      "multa_2pct": "43642.44",
+      "valor_total_atualizado": "2901047.10",
+      "fonte": "API BCB séries 4390 (SELIC) e 189 (IGPM)"
+    },
+    "dados_5devs_varredura": {
+      "data_varredura": "2026-04-08",
+      "cobrancas_em_faturas_abertas": 79,
+      "cobrancas_status": "Suspenso (todas)",
+      "contratos_detalhados": 98,
+      "aditivos_contratuais": 17,
+      "pendencias_contratuais": 8,
+      "anexos_servicos": 169,
+      "nes_pdf_disponiveis": 79,
+      "contratos_pdf_disponiveis": 0
+    },
+    "dossie_classificacao_passo8": {
+      "data_classificacao": "2026-04-08",
+      "total_faturas_classificadas": 66,
+      "vias_processuais": {
+        "EXECUCAO_A": {
+          "count": 0,
+          "valor": "0",
+          "descricao": "Contrato PDF + NE PDF disponíveis"
+        },
+        "EXECUCAO_B": {
+          "count": 58,
+          "valor": "2889593.47",
+          "descricao": "Composição documental (REsp 793.969/RJ)"
+        },
+        "MONITORIA": {
+          "count": 8,
+          "valor": "11453.63",
+          "descricao": "Sem NE — ação monitória (Súmula 339 STJ)"
+        }
+      },
+      "prescritas_excluidas": 115,
+      "lacunas_documentais": {
+        "C1_contrato_pdf": 66,
+        "C3_liquidacao": 66,
+        "C5_aceite": 66,
+        "C2_empenho": 8,
+        "C2_empenho_pdf": 8
+      },
+      "passo": 8,
+      "mapeamento_docs": {
+        "total": 66,
+        "FORTE": 0,
+        "MEDIA": 58,
+        "FRACA": 8,
+        "ne_pdfs_utilizados": 36,
+        "ne_pdfs_disponiveis": 79,
+        "ne_pdfs_nao_mapeados": 43
+      },
+      "lacunas": {
+        "contratos_sem_pdf": [
+          "18/2025",
+          "19/2025",
+          "190/2021",
+          "191/2021",
+          "192/2021",
+          "271/2021",
+          "272/2021",
+          "288/2021",
+          "318/2021",
+          "319/2021",
+          "48/2021"
+        ],
+        "ne_pdfs_disponiveis": 79,
+        "ne_pdfs_mapeados": 79,
+        "lacunas_criticas": [
+          "11 contratos sem PDF: 18/2025, 19/2025, 190/2021, 191/2021, 192/2021",
+          "8 faturas sem NE (via monitória)",
+          "0 contratos PDF — todas execuções dependem de composição documental (Caminho B)"
+        ]
+      }
+    },
+    "contratos_spcf": {
+      "total": 11,
+      "vigentes": 2,
+      "rescindidos": 0,
+      "concluidos": 9,
+      "total_aditivos": 6,
+      "total_anexos": 23,
+      "contratos": [
+        {
+          "numero": "18/2025",
+          "id_spcf": "11973",
+          "valor_global": "118.572,00",
+          "status": "Vigente",
+          "objeto": "Prestao de servio de Informtica para acesso ao legado do sistema SISP.",
+          "inicio_vigencia": "13/06/2025",
+          "fim_vigencia": "12/06/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Licena de uso de sistemas de informao"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "203473"
+          ],
+          "proposta_id": "14062"
+        },
+        {
+          "numero": "19/2025",
+          "id_spcf": "11972",
+          "valor_global": "80.993,40",
+          "status": "Vigente",
+          "objeto": "Fornecimento de circuitos de transmisso de dados, Licena de Uso de Sistema de Informao - do Gestor de Contedo Web e Licena de uso de sistemas de informao - INTEGRA Plataforma de Comunicao e Colaborao ",
+          "inicio_vigencia": "13/06/2025",
+          "fim_vigencia": "12/06/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 3,
+          "n_servicos": 3,
+          "servicos": [
+            "Licena de uso de sistemas de informao",
+            "Fornecimento de circuito de transmisso de dados",
+            "Licena de uso de sistemas de informao"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "203470",
+            "203471",
+            "203472"
+          ],
+          "proposta_id": "14052"
+        },
+        {
+          "numero": "190/2021",
+          "id_spcf": "11118",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "03/05/2021",
+          "fim_vigencia": "30/07/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202107"
+          ],
+          "proposta_id": "12395"
+        },
+        {
+          "numero": "191/2021",
+          "id_spcf": "11119",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "03/05/2021",
+          "fim_vigencia": "30/07/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202108"
+          ],
+          "proposta_id": "12396"
+        },
+        {
+          "numero": "192/2021",
+          "id_spcf": "11123",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "03/05/2021",
+          "fim_vigencia": "30/07/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202112"
+          ],
+          "proposta_id": "12400"
+        },
+        {
+          "numero": "271/2021",
+          "id_spcf": "11196",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "01/07/2021",
+          "fim_vigencia": "30/09/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202212"
+          ],
+          "proposta_id": "12528"
+        },
+        {
+          "numero": "272/2021",
+          "id_spcf": "11197",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "01/07/2021",
+          "fim_vigencia": "30/09/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202213"
+          ],
+          "proposta_id": "12529"
+        },
+        {
+          "numero": "288/2021",
+          "id_spcf": "11216",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "02/08/2021",
+          "fim_vigencia": "29/10/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202240"
+          ],
+          "proposta_id": "12571"
+        },
+        {
+          "numero": "318/2021",
+          "id_spcf": "11240",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "30/09/2021",
+          "fim_vigencia": "05/11/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202271"
+          ],
+          "proposta_id": "12627"
+        },
+        {
+          "numero": "319/2021",
+          "id_spcf": "11241",
+          "valor_global": "0,00",
+          "status": "Concludo",
+          "objeto": "",
+          "inicio_vigencia": "30/09/2021",
+          "fim_vigencia": "05/11/2021",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202272"
+          ],
+          "proposta_id": "12628"
+        },
+        {
+          "numero": "48/2021",
+          "id_spcf": "11158",
+          "valor_global": "2.411.785,20",
+          "status": "Concludo",
+          "objeto": "Acesso Gerenciado Rede Mundial Internet atravs da Rede de Governo, Servios de Infraestrutura de TI para Acesso e Manuteno atravs da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra tica, ",
+          "inicio_vigencia": "17/08/2024",
+          "fim_vigencia": "16/02/2025",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 6,
+          "n_anexos": 11,
+          "n_servicos": 11,
+          "servicos": [
+            "Hospedagem de Servidores",
+            "Desenvolvimento de Sistemas de Informao",
+            "Licena de uso de sistemas de informao",
+            "Acesso Gerenciado Rede Mundial",
+            "Acesso MetroMao",
+            "Suporte Tcnico em Sistemas de Informao",
+            "Gesto de Segurana e Ativos de Rede",
+            "Fornecimento de circuito de transmisso de dados",
+            "Licena de uso de sistemas de informao",
+            "Acesso a Armazm de Informaes",
+            "Acesso Gerenciado Rede Mundial"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "3085",
+              "data": "01/06/2022",
+              "objeto": "Atualizar os itens"
+            },
+            {
+              "id": "4064",
+              "data": "17/08/2024",
+              "objeto": "Prorrogao de prazo por 06 meses"
+            },
+            {
+              "id": "3210",
+              "data": "17/08/2022",
+              "objeto": "Prorrogao de prazo"
+            },
+            {
+              "id": "3820",
+              "data": "15/09/2023",
+              "objeto": "prorrogao de prazo"
+            },
+            {
+              "id": "3606",
+              "data": "17/08/2023",
+              "objeto": "Prorrogao de Prazo"
+            },
+            {
+              "id": "3821",
+              "data": "15/09/2023",
+              "objeto": "prorrogao de prazo"
+            }
+          ],
+          "anexo_ids": [
+            "202163",
+            "202164",
+            "202165",
+            "202166",
+            "202167",
+            "202168",
+            "202169",
+            "202170",
+            "202171",
+            "202172",
+            "203210"
+          ],
+          "proposta_id": "12265"
+        }
+      ],
+      "data_integracao": "2026-04-08T15:08:50.808341"
+    },
+    "nes_raspadas_spcf": {
+      "total": 130,
+      "com_contrato": 61,
+      "contratos_unicos": [
+        "12/2012",
+        "18/2016",
+        "19/2025",
+        "22/2025",
+        "28/2011",
+        "48/2021",
+        "61/2014",
+        "67/2012",
+        "68/2012",
+        "72/2011",
+        "83/2014",
+        "94/2011",
+        "P.193/2015",
+        "P.194/2016",
+        "P.22/2016",
+        "P.54/2015",
+        "P.55/2015"
+      ],
+      "por_evento": {
+        "400091_empenho": 61,
+        "400092_reforco": 7,
+        "400093_anulacao": 62
+      },
+      "valor_total": 56512923.86,
+      "data_integracao": "2026-04-08T15:31:54.272438",
+      "procedencia": "P3-SISTEMA"
+    },
+    "reconciliacao_spcf": {
+      "data_reconciliacao": "2026-04-08",
+      "fonte": "DADOS_5DEV (faturas_COMPLETO, empenhos_COMPLETO, contratos_COMPLETO, liquidadas 2019-2026)",
+      "procedencia": "P3-SISTEMA",
+      "faturas_emitidas_pendentes": 87,
+      "faturas_pagas_total": 1957,
+      "faturas_pagas_valor": 119344587.86,
+      "faturas_canceladas": 150,
+      "faturas_perdas": 74,
+      "faturas_em_aberto": 62,
+      "valor_em_aberto": 4931378.27,
+      "empenhos_total": 219,
+      "empenhos_valor": 139630538.94,
+      "empenhos_situacoes": {
+        "Ativo": 219
+      },
+      "contratos_total": 98,
+      "contratos_ativos": 3,
+      "contratos_valor": 125038000.49,
+      "liquidadas_total": 841,
+      "liquidadas_valor": 53122618.07,
+      "liquidadas_por_ano": {
+        "2019": {
+          "count": 100,
+          "valor": 5157669.73
+        },
+        "2020": {
+          "count": 136,
+          "valor": 5960331.51
+        },
+        "2021": {
+          "count": 226,
+          "valor": 10389255.3
+        },
+        "2022": {
+          "count": 123,
+          "valor": 5676303.82
+        },
+        "2023": {
+          "count": 96,
+          "valor": 4108816.28
+        },
+        "2024": {
+          "count": 108,
+          "valor": 4398320.23
+        },
+        "2025": {
+          "count": 45,
+          "valor": 11809828.53
+        },
+        "2026": {
+          "count": 7,
+          "valor": 5622092.67
+        }
+      },
+      "nes_spcf_raspadas": 130,
+      "faturas_com_empenho": 58,
+      "valor_com_empenho": 4911616.27,
+      "faturas_sem_empenho": 4,
+      "valor_sem_empenho": 19762.0,
+      "pct_com_empenho": 99.6
+    },
+    "saldo_devedor_spcf": 4931378.27,
+    "total_pago_historico": 119344587.86,
+    "total_liquidadas": 841,
+    "total_empenhos_spcf": 219,
+    "total_contratos_spcf": 98,
+    "referencia_juridica": {
+      "arquivos_referencia": 55,
+      "categorias_cobertas": 8,
+      "tem_dossie_devedor": true,
+      "tem_execucao_fazenda": true,
+      "tem_prescricao": false,
+      "tem_estrategia_cobranca": false,
+      "tem_errata_correcoes": true,
+      "status": "COMPLETA"
+    },
+    "status_consolidado": {
+      "data_atualizacao": "2026-04-08",
+      "sessao": 66,
+      "saldo_devedor_nominal": 4931378.27,
+      "faturas_em_aberto": 62,
+      "pct_com_empenho": 99.6,
+      "total_liquidadas_historico": 841,
+      "total_pagas_historico": 1957,
+      "cobertura_juridica": "COMPLETA",
+      "pronto_para_passo9": true
+    },
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -39,
+    "reconciliacao_alerta": {
+      "tipo": "DIVERGENCIA_VALOR",
+      "csv_val": 10725242.83,
+      "profiles_val": 4553230.799761455,
+      "diferenca_pct": 135.5,
+      "acao": "INVESTIGAR - CSV FATURAS_POR_DEVEDOR mostra R$10.7M vs profiles R$4.6M",
+      "data_deteccao": "2026-04-09"
+    },
+    "via_processual_recomendada": {
+      "via": "EXECUCAO_DIRETA",
+      "fundamentacao": "Força FORTE, petição pronta, 100% com empenho, RD no AFI"
+    },
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE01200",
+      "contrato": "",
+      "valor": 1064.35,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Anulação do saldo da 2020NE00438 no valor de R$ 1.064,35, conforme descrito no Memorando nº 062/2020-DOF/SSP de 28 de dezembro de 2020, em razão do encerramento do exercício/2020."
+    },
+    {
+      "numero": "2020NE01201",
+      "contrato": "",
+      "valor": 21287.04,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Anulação do saldo da 2020NE00598 no valor de R$ 21.287,04, conforme descrito no Memorando nº 062/2020-DOF/SSP, em razão do encerramento do exercício/2020."
+    },
+    {
+      "numero": "2020NE01202",
+      "contrato": "",
+      "valor": 16195.31,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Anulação do saldo da 2020NE00919 no valor de R$ 16.195,31, conforme descrito no Memorando nº 062/2020-DOF/SSP, em razão do encerramento do exercício/2020."
+    },
+    {
+      "numero": "2016NE00901",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "Anulação de Saldo da Nota de Empenho 2016NE00399, em atendimento a Instrução Normativa Nº 01/2016, de 14/12/2016-SET/SEFAZ (Encerramento do Exercício de 2016)."
+    },
+    {
+      "numero": "2025NE0001172",
+      "contrato": "22/2025",
+      "valor": 2025526.76,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0001171",
+      "contrato": "22/2025",
+      "valor": 1487223.75,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2019NE01739",
+      "contrato": "18/2016",
+      "valor": 164332.21,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2025NE0002018",
+      "contrato": "22/2025",
+      "valor": 2025526.76,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0002021",
+      "contrato": "",
+      "valor": 922698.81,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Anulação parcial da 2025NE0000887 no valor de R$ 922.698,81, conforme execução até 08/2025, nos termos do MEMORANDO Nº 142/2025-DOF/SSP-AM."
+    },
+    {
+      "numero": "2025NE0002020",
+      "contrato": "",
+      "valor": 1509828.59,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Anulação parcial da 2025NE0000885 no valor de R$ 1.509.828,59, conforme execução até 08/2025, nos termos do MEMORANDO Nº 142/2025-DOF/SSP-AM."
+    },
+    {
+      "numero": "2025NE0002017",
+      "contrato": "22/2025",
+      "valor": 1487223.75,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2020NE00919",
+      "contrato": "18/2016",
+      "valor": 482357.33,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2023NE0000626",
+      "contrato": "",
+      "valor": 53599.06,
+      "situacao": "Ativo",
+      "data_emissao": "29/05/2023",
+      "descricao": "Anulação do saldo da NE0000035/2023, conforme faturamento dos meses de janeiro e fevereiro/2023, bem como Despacho do fiscal do Contrato na fl.16 do MEMO CIRC. Nº 038/2023-GSE/SSP-AM."
+    },
+    {
+      "numero": "2018NE01137",
+      "contrato": "",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01142",
+      "contrato": "",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01181",
+      "contrato": "",
+      "valor": 48194.39,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE01139",
+      "contrato": "",
+      "valor": 151738.93,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01135",
+      "contrato": "",
+      "valor": 509.09,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01156",
+      "contrato": "",
+      "valor": 303477.86,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01148",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01191",
+      "contrato": "",
+      "valor": 358916.21,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE01134",
+      "contrato": "",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01149",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01151",
+      "contrato": "",
+      "valor": 423599.9,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01155",
+      "contrato": "",
+      "valor": 624634.32,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01154",
+      "contrato": "",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01152",
+      "contrato": "",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01138",
+      "contrato": "",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01144",
+      "contrato": "",
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01147",
+      "contrato": "",
+      "valor": 1747120.16,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01153",
+      "contrato": "",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01146",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01150",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01141",
+      "contrato": "",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01143",
+      "contrato": "",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01145",
+      "contrato": "",
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01136",
+      "contrato": "",
+      "valor": 945610.24,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01140",
+      "contrato": "",
+      "valor": 281919.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2022NE0001418",
+      "contrato": "48/2021",
+      "valor": 535952.26,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
+    },
+    {
+      "numero": "2023NE0000438",
+      "contrato": "48/2021",
+      "valor": 1071904.52,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 048/"
+    },
+    {
+      "numero": "2023NE00438",
+      "contrato": "48/2021",
+      "valor": 1071904.52,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2024NE0001659",
+      "contrato": "",
+      "valor": 15874.46,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "Anulação do saldo remanescente da 2023NE0000003 no valor de R$ 15.874,46, conforme orientação contida no Decreto nº 50.522 de 22/10/2024 que trata do enceramento da execução orçamentária, financeira e contábil do exercício de 2024, bem como Despacho do fiscal do Contrato na fl. 23 do MEMO CIRC. Nº 113/2024-GSE/SSP-AM."
+    },
+    {
+      "numero": "2024NE0001657",
+      "contrato": "",
+      "valor": 7411.51,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "Anulação do saldo remanescente da 2023NE0000930 no valor de R$ 7.411,51, conforme orientação contida no Decreto nº 50.522 de 22/10/2024 que trata do enceramento da execução orçamentária, financeira e contábil do exercício de 2024, bem como Despacho do fiscal do Contrato na fl. 23 do MEMO CIRC. Nº 113/2024-GSE/SSP-AM."
+    },
+    {
+      "numero": "2023NE0001607",
+      "contrato": "",
+      "valor": 139816.94,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2023",
+      "descricao": "Anulação do saldo da 2023NE0000035 no valor R$ 139.816,94, conforme faturamentos dos meses de março a julho de 2023, bem como Despacho do fiscal do Contrato no MEMO CIRC Nº 172/2023-GSE/SSP-AM."
+    },
+    {
+      "numero": "2015NE00284",
+      "contrato": "94/2011",
+      "valor": 172111.36,
+      "situacao": "Ativo",
+      "data_emissao": "26/03/2015",
+      "descricao": "Despesa com reconhecimento de divida - Folha de Informação 046/2015 do Contratos 094/2011 ref. a prestação de serviços de implantação de solução tecnológica integrada de monitoramento, comando e controle de operações."
+    },
+    {
+      "numero": "2015NE00285",
+      "contrato": "67/2012",
+      "valor": 776531.03,
+      "situacao": "Ativo",
+      "data_emissao": "26/03/2015",
+      "descricao": "Despesa com reconhecimento de divida Folha de Informação 045/2015 do Contratos 067/2011 ref. a prestação de serviços de desenvolvimento e hospedagem de sistema de segurança pública."
+    },
+    {
+      "numero": "2022NE0001718",
+      "contrato": "48/2021",
+      "valor": 25476.86,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
+    },
+    {
+      "numero": "2019NE00890",
+      "contrato": "18/2016",
+      "valor": 460648.33,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2015NE00283",
+      "contrato": "",
+      "valor": 2104077.64,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2015",
+      "descricao": "Despesa com reconhecimento de divida Folha de Informação 018/2015 do Contratos 068/2011 ref. a prestação de serviços de fornecimento de circuito de transmissão de dados para atender o programa ronda no bairro; desenvolvimento e hospedagem do SISP; implantação de solução tecnológica."
+    },
+    {
+      "numero": "2021NE0001415",
+      "contrato": "48/2021",
+      "valor": 535952.26,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2021",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
+    },
+    {
+      "numero": "2021NE0001410",
+      "contrato": "",
+      "valor": 292828.26,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2021",
+      "descricao": "Anulação parcial da 2021NE0000991 no valor R$ 292.828,26, conforme descrito no Memorando 131/2021-DOF/SSP, Memorando Circular nº 018/2021-GSE/SSP e resposta do fiscal na folha 11 do Memorando Circular nº 018/2021-GSE/SSP."
+    },
+    {
+      "numero": "2022NE0001685",
+      "contrato": "",
+      "valor": 25476.86,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA 2022NE0001418, NO VALOR DE R$ 25.476,86, CONFORME DESCRITO NO MEMO CIRC Nº 064/2022-GSE/SSP-AM-FOLHA 11, EM RAZÃO DO FATURAMENTO NO MÊS DE SETEMBRO/2022."
+    },
+    {
+      "numero": "2025NE0001952",
+      "contrato": "19/2025",
+      "valor": 7617.78,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001951",
+      "contrato": "18/2025",
+      "valor": 19762.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001953",
+      "contrato": "19/2025",
+      "valor": 5881.12,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001639",
+      "contrato": "22/2025",
+      "valor": 1487223.75,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0001638",
+      "contrato": "22/2025",
+      "valor": 2025526.76,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2024NE0000315",
+      "contrato": "48/2021",
+      "valor": 803928.4,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
+    },
+    {
+      "numero": "2021NE0001250",
+      "contrato": "",
+      "valor": 92388.03,
+      "situacao": "Ativo",
+      "data_emissao": "20/08/2021",
+      "descricao": "Anulação parcial da 2021NE0000069 no valor R$ 92.388,03 referente ao faturamento de abril a junho, conforme descrito no Memorando 117/2021-DOF/SSP, Memorando Circular nº 015/2021-GSE/SSP e resposta do fiscal na folha 26 do Memorando Circular nº 015/2021-GSE/SSP."
+    },
+    {
+      "numero": "2015NE00227",
+      "contrato": "",
+      "valor": 5778.06,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2015",
+      "descricao": "Despesa para pgto de reconhecimento de divida Folha de Informação 005/2015, do serviço de locação de equipamentos de informática para a SSP."
+    },
+    {
+      "numero": "2021NE0000792",
+      "contrato": "",
+      "valor": 89407.77,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2021",
+      "descricao": "Anulação do saldo da 2021NE0000069 no valor de R$ 89.407,77, conforme descrito no Memorando nº 005/2021-GSE/SSP, em razão dos faturamentos entre meses de janeiro a março de 2021."
+    },
+    {
+      "numero": "2021NE0000660",
+      "contrato": "",
+      "valor": 360021.56,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Despesa com pagamento de prestação de serviço de internet. NFS-e Nºs 5029; 5030; 5033; 5035 e 5036, referente ao mês de nov/18; oriundo do TC 18/2016-SSP, para atender as necessidades do SSP. Parecer Nº 00064/2019-PA/PGE."
+    },
+    {
+      "numero": "2021NE0000659",
+      "contrato": "",
+      "valor": 502299.07,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Despesa com pgto de prest. de serviços de informática, NFS-e Nºs. 12196; 12197; 12198; 12199; 12200; 12201; 12202; 12203 e 12204, ref. ao mês de dez/19; oriundo do TC 18/2016-SSP. Parecer Nº 00243/2020-PA/PGE/AM."
+    },
+    {
+      "numero": "2021NE0000661",
+      "contrato": "",
+      "valor": 296457.13,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Despesa com pgto de prestação de serviço de informática. NFS-e Nºs. 11658; 11660; 11661; 11663, ref. ao valor líquido (remanescente) do mês de nov/19; oriundo do TC 18/2016-SSP, para atender as necessidades do SSP. Parecer Nº 00293/2020-PA/PGE/AM."
+    },
+    {
+      "numero": "2021NE0000658",
+      "contrato": "",
+      "valor": 500362.04,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Despesa com pgto. de prest. de serv. de internet, hospedagem de sistema e manut. de rede, conf. NFS-e Nºs: 5448; 5449; 5450; 5451; 5452; 5453; 5454 e 5455, ref. ao mês de dez/18; oriundo do TC 18/2016-SSP. Parecer Nº 00057/2019-PA/PGE."
+    },
+    {
+      "numero": "2024NE0001311",
+      "contrato": "48/2021",
+      "valor": 133988.2,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 06."
+    },
+    {
+      "numero": "2025NE0001373",
+      "contrato": "22/2025",
+      "valor": 1487223.75,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0001374",
+      "contrato": "22/2025",
+      "valor": 2025526.76,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0000129",
+      "contrato": "",
+      "valor": 239347.25,
+      "situacao": "Ativo",
+      "data_emissao": "18/03/2025",
+      "descricao": "Anulação parcial da 2025NE0000007, no valor de R$ 239.347,25 relativo ao saldo de empenho dos meses de janeiro e fevereiro/2025, conforme informação contida pelo Coordenador Técnico do CITIC/SEAGI/SSP-AM à folha 1000 constante nos autos."
+    },
+    {
+      "numero": "2018NE01127",
+      "contrato": "",
+      "valor": 20.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 217/2018, PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2024NE0001135",
+      "contrato": "48/2021",
+      "valor": 401964.2,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 06."
+    },
+    {
+      "numero": "2022NE0001192",
+      "contrato": "48/2021",
+      "valor": 768198.24,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
+    },
+    {
+      "numero": "2022NE0001192",
+      "contrato": "48/2021",
+      "valor": 768198.24,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
+    },
+    {
+      "numero": "2018NE00676",
+      "contrato": "83/2014",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00153, REF. AO MÊS DE JULHO/2015 DO CONTRATO Nº 83/2014-SSP/AM."
+    },
+    {
+      "numero": "2018NE00669",
+      "contrato": "94/2011",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 15484, que corresponde ao mês de agosto/2015."
+    },
+    {
+      "numero": "2018NE00660",
+      "contrato": "P.194/2016",
+      "valor": 509.09,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do serviço de informática prestado da SSP, referente a Nota Fiscal 20207, que corresponde ao mês de setembro/2016."
+    },
+    {
+      "numero": "2018NE00678",
+      "contrato": "P.54/2015",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00151, REF. AO MÊS DE AGOSTO/2015."
+    },
+    {
+      "numero": "2018NE00665",
+      "contrato": "P.193/2015",
+      "valor": 151738.93,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento referente ao serviço de suporte técnico em Sistema de Informação Nota Fiscal 17138 que corresponde ao mês de dez/2015."
+    },
+    {
+      "numero": "2018NE00679",
+      "contrato": "P.54/2015",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00151, REF. AO MÊS DE JULHO/2015."
+    },
+    {
+      "numero": "2018NE00666",
+      "contrato": "94/2011",
+      "valor": 281919.5,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 14451, que corresponde ao mês de abril/2015."
+    },
+    {
+      "numero": "2018NE00681",
+      "contrato": "P.54/2015",
+      "valor": 624634.32,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2017RD00331, REF. AO MÊS DE JUNHO/2015."
+    },
+    {
+      "numero": "2018NE00682",
+      "contrato": "",
+      "valor": 455216.79,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 664/2018, PARA CORREÇÃO NO VALOR INFORMADO NA RD2017RD00273."
+    },
+    {
+      "numero": "2018NE00668",
+      "contrato": "94/2011",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 15170, que corresponde ao mês de julho/2015."
+    },
+    {
+      "numero": "2018NE00667",
+      "contrato": "94/2011",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 14690, que corresponde ao mês de maio/2015."
+    },
+    {
+      "numero": "2018NE00672",
+      "contrato": "68/2012",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente as Notas Fiscal 14696, 14697, 14698, 14699 e 14700, que corresponde ao mês de maio/2015."
+    },
+    {
+      "numero": "2018NE00664",
+      "contrato": "94/2011",
+      "valor": 455216.79,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 16732, 16724 e 16980, que corresponde aos meses de out, nov e dez/2016."
+    },
+    {
+      "numero": "2018NE00677",
+      "contrato": "P.193/2015",
+      "valor": 423599.9,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00219, REF. AO MÊS DE SETEMBRO/2015 e DEZEMBRO/2015."
+    },
+    {
+      "numero": "2018NE00663",
+      "contrato": "67/2012",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 067/2015-SSP, referente a Nota Fiscal 14229, que corresponde ao mês de abril/2015."
+    },
+    {
+      "numero": "2018NE00659",
+      "contrato": "67/2012",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 067/2015-SSP, referente a Nota Fiscal 13800, que corresponde ao mês de março/2015."
+    },
+    {
+      "numero": "2018NE00671",
+      "contrato": "68/2012",
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente a Nota Fiscal 13801, que corresponde ao mês de março/2015."
+    },
+    {
+      "numero": "2018NE00661",
+      "contrato": "P.54/2015",
+      "valor": 945610.24,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto de serviço de informática prestado para Secretaria de Segurança, processo com várias notas fiscais e meses diversos todos anexo no mesmo."
+    },
+    {
+      "numero": "2018NE00673",
+      "contrato": "P.22/2016",
+      "valor": 1747120.16,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2017RD00271, REF. AOS MESES DE JANEIRO/FEVEREIRO/MARÇO E ABRIL/2016."
+    },
+    {
+      "numero": "2018NE00670",
+      "contrato": "68/2012",
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente a Nota Fiscal 14231, que corresponde ao mês de abril/2015."
+    },
+    {
+      "numero": "2018NE00675",
+      "contrato": "83/2014",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00150, REF. AO MÊS DE AGOSTO/2015 DO CONTRATO Nº 083/2014-SSP/AM."
+    },
+    {
+      "numero": "2018NE00680",
+      "contrato": "18/2016",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2018RD00136, REF. AO MÊS DE NOVEMBRO/2017."
+    },
+    {
+      "numero": "2018NE00674",
+      "contrato": "P.55/2015",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00218, REF. AO MÊS DE SETEMBRO/2015 DO CONTRATO Nº 55/2015-SSP/AM."
+    },
+    {
+      "numero": "2018NE00662",
+      "contrato": "67/2012",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do serviço de informática prestado a Secretaria de Segurança."
+    },
+    {
+      "numero": "2020NE00807",
+      "contrato": "",
+      "valor": 20222.69,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2020",
+      "descricao": "Anulação parcial do saldo da 2020NE00438 no valor de R$ 20.222,69, conforme descrito no Memorando nº 006/2020-DETEC/SSP de 14 de outubro de 2020."
+    },
+    {
+      "numero": "2020NE00809",
+      "contrato": "",
+      "valor": 22351.39,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2020",
+      "descricao": "Anulação parcial do saldo da 2020NE00001 no valor de R$ 22.351,39, conforme descrito no Memorando nº 006/2020-DETEC/SSP de 14 de outubro de 2020."
+    },
+    {
+      "numero": "2022NE0001345",
+      "contrato": "",
+      "valor": 31134.98,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA 2022NE0000066 NO VALOR DE R$ 31.134,98, CONFORME DESCRITO NO MEMO CIRC Nº 044/2022-GSE/SSP-AM-FOLHA 10, EM RAZÃO DO FATURAMENTO DOS MESES DE JUNHO E JULHO DE 2022."
+    },
+    {
+      "numero": "2025NE0000887",
+      "contrato": "22/2025",
+      "valor": 945245.82,
+      "situacao": "Ativo",
+      "data_emissao": "16/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0000885",
+      "contrato": "22/2025",
+      "valor": 694037.75,
+      "situacao": "Ativo",
+      "data_emissao": "16/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2017NE00959",
+      "contrato": "18/2016",
+      "valor": 1050820.08,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "Contratação de empresa para prestar serv de especializado em informática, manutenção e suporte a operação, serv técnico em telecomunicações, com fornecimento de circuito de transmissão de dados de links ponto a ponto p/ atender SISP, INFOPOL e SSP."
+    },
+    {
+      "numero": "2023NE0001326",
+      "contrato": "48/2021",
+      "valor": 250111.05,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 04."
+    },
+    {
+      "numero": "2023NE0001327",
+      "contrato": "48/2021",
+      "valor": 214380.91,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0000930",
+      "contrato": "48/2021",
+      "valor": 174184.49,
+      "situacao": "Ativo",
+      "data_emissao": "15/08/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 06."
+    },
+    {
+      "numero": "2021NE0000649",
+      "contrato": "",
+      "valor": 701234.12,
+      "situacao": "Ativo",
+      "data_emissao": "15/04/2021",
+      "descricao": "DESPESAS COM SERVIÇOS DE HOSPEDAGEM DE SISTEMAS DE SERVIDORES E OUTROS, NFS-e nºs: 16730, 16731, 16738, 16739, 16725, 16726, 16727, 16728, 16729, 16733, 16734, 16735, 16736, 16737 e PROPOSTA Nº 055/2015 PARA ATENDER NECESSIDADES DO SSP."
+    },
+    {
+      "numero": "2021NE0000644",
+      "contrato": "",
+      "valor": 945610.24,
+      "situacao": "Ativo",
+      "data_emissao": "15/04/2021",
+      "descricao": "Anulação total da 2021NE0000609 no valor R$ 945.610,24 para ajuste no cronograma."
+    },
+    {
+      "numero": "2016NE00399",
+      "contrato": "18/2016",
+      "valor": 1266662.12,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2016",
+      "descricao": "Cobertura Financeira 2016"
+    },
+    {
+      "numero": "2016NE00399",
+      "contrato": "18/2016",
+      "valor": 1266662.12,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
+    },
+    {
+      "numero": "2025NE0001887",
+      "contrato": "22/2025",
+      "valor": 1487223.75,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0001888",
+      "contrato": "22/2025",
+      "valor": 2025526.76,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2021NE0000614",
+      "contrato": "",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "Despesa de exercício anterior referente a prestação de serviço de Hospedagem de sistema e suporte técnico em sistema de informação, para atender as necessidades do SSP, NFS-e nº 25802, 25803, 25804, 25805, 25806, 25807, 25808 e 25809.Mês:novo/2017."
+    },
+    {
+      "numero": "2021NE0000613",
+      "contrato": "",
+      "valor": 1747120.16,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "Despesas com serviços de hospedagem de sistemas de servidores e outros; NFS-e 18092 a 18099; 18100 a 18107; 18109 a 18116; 18699 a 18706; referentes ao período JAN a ABR/2016; oriundos do Contrato 18/2016-SSP; para atender necessidades do SSP."
+    },
+    {
+      "numero": "2021NE0000609",
+      "contrato": "",
+      "valor": 945610.24,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "DESPESAS COM SERVIÇOS DE HOSPEDAGEM DE SISTEMAS DE SERVIDORES E OUTROS, NFS-e nºs: 16730, 16731, 16738, 16739, 16725, 16726, 16727, 16728, 16729, 16733, 16734, 16735, 16736, 16737 e PROPOSTA Nº 055/2015 PARA ATENDER NECESSIDADES DO SSP."
+    },
+    {
+      "numero": "2021NE0000612",
+      "contrato": "",
+      "valor": 509.09,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "Despesa com execução de sistemas, conforme NFS-e Nº 20207, no valor R$ 509,09, referente ao período SET/2016, para atender necessidades do Sistema de Segurança Pública. Parecer 50/2017-AJUR/SSP."
+    },
+    {
+      "numero": "2021NE0000610",
+      "contrato": "",
+      "valor": 303477.86,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "Despesa com pagamento de serviço de suporte técnico em sistema de informação, conforme NFS-e Nºs 16732 e 16724, referente aos meses de OUT e NOV/2015; oriundo do Contrato 94/2011-SSP, para atender as necessidades do SSP. Parecer Nº 677/2016-AJUR/SSP."
+    },
+    {
+      "numero": "2021NE0000611",
+      "contrato": "",
+      "valor": 151738.93,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "DESPESAS COM SERVIÇOS DE SUPORTE TÉCNICO EM SISTEMAS DE INFORMAÇÃO, NFS-e Nº 17138 VALOR R$ 151.738,93, REFERENTE AO MÊS DE DEZEMBRO/2015, PARA ATENDER NECESSIDADES DO SISTEMA DE SEGURANÇA PUBLICA."
+    },
+    {
+      "numero": "2021NE0001165",
+      "contrato": "48/2021",
+      "valor": 1840102.76,
+      "situacao": "Ativo",
+      "data_emissao": "12/08/2021",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
+    },
+    {
+      "numero": "2019NE00961",
+      "contrato": "18/2016",
+      "valor": 512942.59,
+      "situacao": "Ativo",
+      "data_emissao": "12/08/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2023NE0000972",
+      "contrato": "48/2021",
+      "valor": 839658.54,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 048/2021 AD: 02."
+    },
+    {
+      "numero": "2022NE0000322",
+      "contrato": "48/2021",
+      "valor": 1911563.06,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
+    },
+    {
+      "numero": "2025NE0000873",
+      "contrato": "19/2025",
+      "valor": 1666.32,
+      "situacao": "Ativo",
+      "data_emissao": "11/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0000872",
+      "contrato": "19/2025",
+      "valor": 2158.37,
+      "situacao": "Ativo",
+      "data_emissao": "11/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2014NE00535",
+      "contrato": "12/2012",
+      "valor": 20733.89,
+      "situacao": "Ativo",
+      "data_emissao": "11/04/2014",
+      "descricao": "Contrato No. 12/2012 - Hospedagem do Sistema de Gerenciamento de Denúncias"
+    },
+    {
+      "numero": "2021NE0000069",
+      "contrato": "18/2016",
+      "valor": 2143810.36,
+      "situacao": "Ativo",
+      "data_emissao": "11/01/2021",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2020NE00963",
+      "contrato": "18/2016",
+      "valor": 535952.59,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2020NE00963",
+      "contrato": "",
+      "valor": 535952.59,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2020NE00961",
+      "contrato": "18/2016",
+      "valor": 535952.59,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2020NE00962",
+      "contrato": "",
+      "valor": 535952.59,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "Anulação total da 2020NE00961, para correção de tipo de empenho."
+    },
+    {
+      "numero": "2022NE0001139",
+      "contrato": "",
+      "valor": 99663.16,
+      "situacao": "Ativo",
+      "data_emissao": "10/08/2022",
+      "descricao": "NULAÇÃO DO SALDO DA 2022NE0000066 NO VALOR DE R$ 99.663,16, CONFORME DESCRITO NO MEMO CIRC Nº 036/2022-GSE/SSP-AM-FOLHA 12, EM RAZÃO DO FATURAMENTO NO MÊS DE MAIO DE 2022."
+    },
+    {
+      "numero": "2025NE0000866",
+      "contrato": "18/2025",
+      "valor": 5599.23,
+      "situacao": "Ativo",
+      "data_emissao": "10/06/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2022NE0000529",
+      "contrato": "",
+      "valor": 305415.78,
+      "situacao": "Ativo",
+      "data_emissao": "10/05/2022",
+      "descricao": "Anulação de saldo remanescente da 2022NE0000066, no valor de R$ 305.415,78 referente a competência de 01 a 03/2022, conf. MEMO CIRC Nº 018/2022-GSE/SSP-AM."
+    },
+    {
+      "numero": "2014NE00770",
+      "contrato": "61/2014",
+      "valor": 122306.53,
+      "situacao": "Ativo",
+      "data_emissao": "09/06/2014",
+      "descricao": "Contrato No. 61/2014"
+    },
+    {
+      "numero": "2021NE0000597",
+      "contrato": "18/2016",
+      "valor": 1125500.44,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2021",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2022NE0001631",
+      "contrato": "48/2021",
+      "valor": 535952.26,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
+    },
+    {
+      "numero": "2025NE0001607",
+      "contrato": "19/2025",
+      "valor": 2940.56,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001605",
+      "contrato": "18/2025",
+      "valor": 9881.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001606",
+      "contrato": "19/2025",
+      "valor": 3808.89,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2018NE00111",
+      "contrato": "18/2016",
+      "valor": 46640.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/01/2018",
+      "descricao": "Contratação de empresa especializada em serviço especializado em informática, com manutenção e suporte a operação, serviço técnico em telecomunicações e fornecimento de circuito de transmissão de dados com disponibilidade de links ponto a ponto."
+    },
+    {
+      "numero": "2018NE01064",
+      "contrato": "18/2016",
+      "valor": 141445.84,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "Complemento da NE00613/2018,com prestação de serviço de informática, manutenção e suporte a operação,serviço técnico em telecomunicações, fornec.de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und. SSP."
+    },
+    {
+      "numero": "2016NE00850",
+      "contrato": "18/2016",
+      "valor": 873560.08,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Despesa com prestação de serviços de informática em geral para atender necessidades desta SSP."
+    },
+    {
+      "numero": "2023NE0001134",
+      "contrato": "48/2021",
+      "valor": 232245.98,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 04."
+    },
+    {
+      "numero": "2023NE01134",
+      "contrato": "48/2021",
+      "valor": 232245.98,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2023",
+      "descricao": "4º T.A Contrato 048/2021 - Prorrogação de Prazo"
+    },
+    {
+      "numero": "2014NE01116",
+      "contrato": "28/2011",
+      "valor": 23112.24,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2014",
+      "descricao": "Contrato No. 28/2011 - Locação de Equipamentos Ronda nos Bairros"
+    },
+    {
+      "numero": "2022NE0000790",
+      "contrato": "",
+      "valor": 99663.16,
+      "situacao": "Ativo",
+      "data_emissao": "07/06/2022",
+      "descricao": "Anulação parcial da 2022NE0000066 no valor de R$ 99.663,16, referente ao saldo remanescente do mês de abril/2022."
+    },
+    {
+      "numero": "2025NE0001854",
+      "contrato": "19/2025",
+      "valor": 2940.56,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001852",
+      "contrato": "18/2025",
+      "valor": 9881.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001853",
+      "contrato": "19/2025",
+      "valor": 3808.89,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2014NE00768",
+      "contrato": "68/2012",
+      "valor": 910.76,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2014",
+      "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
+    },
+    {
+      "numero": "2014NE00750",
+      "contrato": "68/2012",
+      "valor": 23983.48,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2014",
+      "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
+    },
+    {
+      "numero": "2018NE00216",
+      "contrato": "18/2016",
+      "valor": 220673.6,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2018",
+      "descricao": "2º TA Contrat0018/2016"
+    },
+    {
+      "numero": "2019NE01619",
+      "contrato": "18/2016",
+      "valor": 512942.59,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2019",
+      "descricao": "Contratação de emp. especializada em serv de informática, manutenção e suporte a operação,serviço téc. em telecomunicações, fornecimento de circuito de trans. de dados e disponibilização de links ponto a ponto p/ ligação das und SSP.Pgto mês 10/2019."
+    },
+    {
+      "numero": "2019NE01591",
+      "contrato": "18/2016",
+      "valor": 512942.59,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2019",
+      "descricao": "Contratação de emp especializada em serviço de informática, manutenção e suporte a operação, serviço téc em telecomunicações, fornecimento de circuito de trans de dados e disponibilização de links ponto a ponto p/ ligação das und SSP. Pgto mês set/19"
+    },
+    {
+      "numero": "2018NE00217",
+      "contrato": "18/2016",
+      "valor": 32595.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "Contratação de empresa especializada em serviço especializado em informática, com manutenção e suporte a operação, serviço técnico em telecomunicações e fornecimento de circuito de transmissão de dados com disponibilidade de links ponto a ponto."
+    },
+    {
+      "numero": "2018NE00218",
+      "contrato": "18/2016",
+      "valor": 1790798.16,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "Contratação de empresa para prestar serv de especializado em informática, manutenção e suporte a operação, serv técnico em telecomunicações, com fornecimento de circuito de transmissão de dados de links ponto a ponto p/ atender SISP, INFOPOL e SSP."
+    },
+    {
+      "numero": "2014NE00155",
+      "contrato": "68/2012",
+      "valor": 270143.95,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2014",
+      "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
+    },
+    {
+      "numero": "2026NE0000007",
+      "contrato": "22/2025",
+      "valor": 8102107.04,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2026NE0000006",
+      "contrato": "22/2025",
+      "valor": 5948895.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2026NE0000004",
+      "contrato": "19/2025",
+      "valor": 11762.24,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2026NE0000008",
+      "contrato": "19/2025",
+      "valor": 15235.56,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2026NE0000002",
+      "contrato": "18/2025",
+      "valor": 39524.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2022NE0000066",
+      "contrato": "48/2021",
+      "valor": 2143809.04,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
+    },
+    {
+      "numero": "2015NE00021",
+      "contrato": "12/2012",
+      "valor": 7177.29,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00070",
+      "contrato": "28/2011",
+      "valor": 17334.18,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Despesa com 3º TA ao Contrato nº 028/2011-SSP, serviço de geoprocessamento do Programa Ronda no Bairro."
+    },
+    {
+      "numero": "2015NE00071",
+      "contrato": "83/2014",
+      "valor": 26709.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Despesa com Contrato nº83/2014-SSP, serviço de Hospedagem do Sistema INFOPOL."
+    },
+    {
+      "numero": "2015NE00023",
+      "contrato": "72/2011",
+      "valor": 41899.71,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira 2015"
+    },
+    {
+      "numero": "2024NE0001476",
+      "contrato": "48/2021",
+      "valor": 1071904.4,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 06."
+    },
+    {
+      "numero": "2019NE01288",
+      "contrato": "",
+      "valor": 24592.1,
+      "situacao": "Ativo",
+      "data_emissao": "04/10/2019",
+      "descricao": "Anulação parcial do saldo da 2019NE00078, conforme o faturamento do período de vigência do contrato, no valor de R$ 24.592,10."
+    },
+    {
+      "numero": "2019NE01289",
+      "contrato": "",
+      "valor": 31736.85,
+      "situacao": "Ativo",
+      "data_emissao": "04/10/2019",
+      "descricao": "Anulação parcial do saldo da 2019NE00365, conforme o faturamento do período de vigência do contrato, no valor de R$ 31.736,85."
+    },
+    {
+      "numero": "2022NE0001548",
+      "contrato": "",
+      "valor": 28939.98,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA 2022NE0001192 NO VALOR DE R$ 28.939,98, CONFORME DESCRITO NO MEMO CIRC Nº 058/2022-GSE/SSP-AM-FOLHA 19, EM RAZÃO DOS FATURAMENTOS NOS MESES DE AGOSTO E SETEMBRO DE 2022."
+    },
+    {
+      "numero": "2022NE0001547",
+      "contrato": "",
+      "valor": 37547.26,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA 2022NE0000066 NO VALOR DE R$ 37.547,26, CONFORME DESCRITO NO MEMO CIRC Nº 058/2022-GSE/SSP-AM-FOLHA 19, EM RAZÃO DOS FATURAMENTOS NO MÊS DE AGOSTO DE 2022."
+    },
+    {
+      "numero": "2016NE00704",
+      "contrato": "18/2016",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
+    },
+    {
+      "numero": "2016NE00704",
+      "contrato": "18/2016",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
+    },
+    {
+      "numero": "2025NE0001081",
+      "contrato": "19/2025",
+      "valor": 7617.78,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001076",
+      "contrato": "18/2025",
+      "valor": 19762.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2025",
+      "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2025NE0001082",
+      "contrato": "19/2025",
+      "valor": 5881.12,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2019NE00802",
+      "contrato": "18/2016",
+      "valor": 1000.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2017NE00446",
+      "contrato": "18/2016",
+      "valor": 829882.08,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2017",
+      "descricao": "Contratação de empresa para prestar serv de especializado em informática, manutenção e suporte a operação, serv técnico em telecomunicações, com fornecimento de circuito de transmissão de dados de links ponto a ponto p/ atender SISP, INFOPOL e SSP."
+    },
+    {
+      "numero": "2020NE00393",
+      "contrato": "",
+      "valor": 42574.08,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2020",
+      "descricao": "Anulação parcial do saldo da 2020NE00001, 6º TA do Contrato nº 18/2016-SSP/AM, referente aos meses de janeiro a abril/2020."
+    },
+    {
+      "numero": "2022NE0000056",
+      "contrato": "48/2021",
+      "valor": 2143809.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
+    },
+    {
+      "numero": "2022NE0000061",
+      "contrato": "",
+      "valor": 2143809.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Anulação total da 2022NE0000056, no valor de R$ 2.143.809,04 para ajuste do cronograma."
+    },
+    {
+      "numero": "2020NE00598",
+      "contrato": "18/2016",
+      "valor": 1025885.18,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2024NE0000752",
+      "contrato": "48/2021",
+      "valor": 629743.91,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
+    },
+    {
+      "numero": "2021NE0000991",
+      "contrato": "18/2016",
+      "valor": 1018309.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2021",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2020NE00438",
+      "contrato": "18/2016",
+      "valor": 1025885.18,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2018NE00613",
+      "contrato": "18/2016",
+      "valor": 2310328.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2018",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2017NE00256",
+      "contrato": "18/2016",
+      "valor": 917238.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
+    },
+    {
+      "numero": "2018NE00204",
+      "contrato": "18/2016",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2018",
+      "descricao": "DESPESA DE EXERCÍCIO ANTERIOR REFERENTE AO SERVIÇO DE SUPORTE TÉCNICO, MANUTENÇÃO E OUTROS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO - MÊS 12/2017. 1º TERMO ADITIVO AO CONTRATO 16/2016-SSP."
+    },
+    {
+      "numero": "2025NE0000007",
+      "contrato": "48/2021",
+      "valor": 629743.91,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048"
+    },
+    {
+      "numero": "2024NE0000003",
+      "contrato": "48/2021",
+      "valor": 803928.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
+    },
+    {
+      "numero": "2023NE0000035",
+      "contrato": "48/2021",
+      "valor": 2143809.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
+    },
+    {
+      "numero": "2020NE00001",
+      "contrato": "18/2016",
+      "valor": 3128949.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2019NE00009",
+      "contrato": "18/2016",
+      "valor": 1501086.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2018NE00092",
+      "contrato": "18/2016",
+      "valor": 2664358.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa para prestar serv de especializado em informática, manutenção e suporte a operação, serv técnico em telecomunicações, com fornecimento de circuito de transmissão de dados de links ponto a ponto p/ atender SISP, INFOPOL e SSP."
+    },
+    {
+      "numero": "2017NE00025",
+      "contrato": "18/2016",
+      "valor": 1747120.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
+    },
+    {
+      "numero": "2014NE00035",
+      "contrato": "68/2012",
+      "valor": 4388613.31,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
+    },
+    {
+      "numero": "2014NE00033",
+      "contrato": "12/2012",
+      "valor": 7546.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 12/2012 - Hospedagem do Sistema de Gerenciamento de Denúncias"
+    },
+    {
+      "numero": "2014NE00042",
+      "contrato": "72/2011",
+      "valor": 122482.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 72/2011 - Serviços Eventuais de Informatica SSP/SEAI"
+    },
+    {
+      "numero": "2014NE00030",
+      "contrato": "28/2011",
+      "valor": 37457.35,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 28/2011 - Locação de Equipamentos Ronda nos Bairros"
+    },
+    {
+      "numero": "2014NE00059",
+      "contrato": "94/2011",
+      "valor": 3291563.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 94/2011 - Manutenção de Solução Tecnológica do CIOPS"
+    },
+    {
+      "numero": "2014NE00020",
+      "contrato": "67/2012",
+      "valor": 1634417.25,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 67/2012 - Hospedagem do SISP"
+    },
+    {
+      "numero": "2023NE0001706",
+      "contrato": "48/2021",
+      "valor": 193415.92,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
+    },
+    {
+      "numero": "2015NE00875",
+      "contrato": "72/2011",
+      "valor": 41899.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00023, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 072/2011-SSP, COM VIGÊNCIA ATÉ OUTUBRO/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
+    },
+    {
+      "numero": "2015NE00876",
+      "contrato": "28/2011",
+      "valor": 17334.18,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00070, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 028/2011-SSP, COM VIGÊNCIA ATÉ AGOSTO/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
+    },
+    {
+      "numero": "2015NE00877",
+      "contrato": "83/2014",
+      "valor": 26709.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00071, REFERENTE AO CONTRATO Nº 083/2014-SSP, COM VIGÊNCIA ATÉ SETEMBR/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
+    },
+    {
+      "numero": "2015NE00878",
+      "contrato": "12/2012",
+      "valor": 797.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00342, REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2012-SSP, COM VIGÊNCIA ATÉ ABRIL/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
+    },
+    {
+      "numero": "2018NE00698",
+      "contrato": "94/2011",
+      "valor": 303477.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2018",
+      "descricao": "Despesa para pagamento de faturas, objeto do Contrato nº 94/2011-SSP."
+    },
+    {
+      "numero": "2014NE01115",
+      "contrato": "28/2011",
+      "valor": 5778.06,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2014",
+      "descricao": "Contrato No. 28/2011 - Locação de Equipamentos Ronda nos Bairros"
+    },
+    {
+      "numero": "2019NE00798",
+      "contrato": "18/2016",
+      "valor": 50036.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2019NE00799",
+      "contrato": "18/2016",
+      "valor": 1258.05,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa especializada para atender o presente Termo Aditivo cujo objeto é inclusão de oito links ponto a ponto para as unidades SEAI, Batalhão de Choque da PM, Perícia Criminal, e mais cinco links de reserva técnica."
+    },
+    {
+      "numero": "2019NE00365",
+      "contrato": "18/2016",
+      "valor": 37741.65,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "Contratação de empresa especializada para atender o presente Termo Aditivo cujo objeto é inclusão de oito links ponto a ponto para as unidades SEAI, Batalhão de Choque da PM, Perícia Criminal, e mais cinco links de reserva técnica."
+    },
+    {
+      "numero": "2019NE00376",
+      "contrato": "18/2016",
+      "valor": 1501086.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2015NE00342",
+      "contrato": "12/2012",
+      "valor": 797.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Contratação de empresa para prestação do Serviço de Hospedagem do Sistema de Gerenciamento de Denúncias, para a Secretaria Executiva de Inteligência-SEAI/SSP-AM. O valor empenhado corresponde a 10 dias do 2º Termo Aditivo ao Contrato nº 12/2012-SSP."
+    },
+    {
+      "numero": "2024NE0000119",
+      "contrato": "48/2021",
+      "valor": 803928.4,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2024",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
+    },
+    {
+      "numero": "2018NE00207",
+      "contrato": "",
+      "valor": 1790798.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação parcial da Nota de Empenho 2018NE00092 para correção de natureza de despesa conforme orientação repassada pelo Órgão Centralizador."
+    },
+    {
+      "numero": "2018NE00208",
+      "contrato": "",
+      "valor": 32595.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação parcial da Nota de Empenho 2018NE00111 para correção de natureza de despesa conforme orientação repassada pelo Órgão Centralizador."
+    },
+    {
+      "numero": "2019NE00078",
+      "contrato": "18/2016",
+      "valor": 23483.69,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2019",
+      "descricao": "Contratação de empresa especializada para atender o presente Termo Aditivo cujo objeto é inclusão de oito links ponto a ponto para as unidades SEAI, Batalhão de Choque da PM, Perícia Criminal, e mais cinco links de reserva técnica."
+    }
+  ],
+  "faturas": [
+    {
+      "id": "87217",
+      "nf": "13591",
+      "contrato": "68/2012",
+      "valor_bruto": 453387.48,
+      "competencia": "01/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87220",
+      "nf": "13594",
+      "contrato": "68/2012",
+      "valor_bruto": 453387.48,
+      "competencia": "02/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87433",
+      "nf": "13801",
+      "contrato": "68/2012",
+      "valor_bruto": 453387.48,
+      "competencia": "03/2015",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87878",
+      "nf": "14231",
+      "contrato": "68/2012",
+      "valor_bruto": 453387.48,
+      "competencia": "04/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87214",
+      "nf": "13588",
+      "contrato": "94/2011",
+      "valor_bruto": 286222.91,
+      "competencia": "02/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 9
+    },
+    {
+      "id": "87213",
+      "nf": "13587",
+      "contrato": "94/2011",
+      "valor_bruto": 286222.91,
+      "competencia": "01/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 9
+    },
+    {
+      "id": "88104",
+      "nf": "14451",
+      "contrato": "94/2011",
+      "valor_bruto": 281919.5,
+      "competencia": "04/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 9
+    },
+    {
+      "id": "137383",
+      "nf": "34591",
+      "contrato": "48/2021",
+      "valor_bruto": 215061.76,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "87216",
+      "nf": "13590",
+      "contrato": "67/2012",
+      "valor_bruto": 211781.19,
+      "competencia": "02/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "87215",
+      "nf": "13589",
+      "contrato": "67/2012",
+      "valor_bruto": 211781.19,
+      "competencia": "01/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "87432",
+      "nf": "13800",
+      "contrato": "67/2012",
+      "valor_bruto": 211781.19,
+      "competencia": "03/2015",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "87876",
+      "nf": "14229",
+      "contrato": "67/2012",
+      "valor_bruto": 211781.19,
+      "competencia": "04/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "155129",
+      "nf": "50272",
+      "contrato": "48/2021",
+      "valor_bruto": 168193.86,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "155130",
+      "nf": "50273",
+      "contrato": "48/2021",
+      "valor_bruto": 168193.86,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "155131",
+      "nf": "50274",
+      "contrato": "48/2021",
+      "valor_bruto": 168193.86,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "137380",
+      "nf": "34593",
+      "contrato": "48/2021",
+      "valor_bruto": 130664.92,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147463",
+      "nf": "43188",
+      "contrato": "48/2021",
+      "valor_bruto": 106032.36,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147482",
+      "nf": "43207",
+      "contrato": "48/2021",
+      "valor_bruto": 106032.36,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147492",
+      "nf": "43216",
+      "contrato": "48/2021",
+      "valor_bruto": 106032.36,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "155126",
+      "nf": "50270",
+      "contrato": "48/2021",
+      "valor_bruto": 100362.15,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "137384",
+      "nf": "34589",
+      "contrato": "48/2021",
+      "valor_bruto": 91242.6,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "155128",
+      "nf": "50271",
+      "contrato": "48/2021",
+      "valor_bruto": 89703.39,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "87218",
+      "nf": "13592",
+      "contrato": "68/2012",
+      "valor_bruto": 74475.72,
+      "competencia": "01/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87221",
+      "nf": "13595",
+      "contrato": "68/2012",
+      "valor_bruto": 74475.72,
+      "competencia": "02/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87434",
+      "nf": "13802",
+      "contrato": "68/2012",
+      "valor_bruto": 74475.72,
+      "competencia": "03/2015",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87879",
+      "nf": "14232",
+      "contrato": "68/2012",
+      "valor_bruto": 74475.72,
+      "competencia": "04/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "147462",
+      "nf": "43189",
+      "contrato": "48/2021",
+      "valor_bruto": 66189.48,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147481",
+      "nf": "43208",
+      "contrato": "48/2021",
+      "valor_bruto": 66189.48,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147491",
+      "nf": "43219",
+      "contrato": "48/2021",
+      "valor_bruto": 66189.48,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147426",
+      "nf": "43142",
+      "contrato": "48/2021",
+      "valor_bruto": 58977.67,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147441",
+      "nf": "43153",
+      "contrato": "48/2021",
+      "valor_bruto": 56550.59,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "87219",
+      "nf": "13593",
+      "contrato": "68/2012",
+      "valor_bruto": 45976.16,
+      "competencia": "01/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87222",
+      "nf": "13596",
+      "contrato": "68/2012",
+      "valor_bruto": 45976.16,
+      "competencia": "02/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87435",
+      "nf": "13803",
+      "contrato": "68/2012",
+      "valor_bruto": 45976.16,
+      "competencia": "03/2015",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "87880",
+      "nf": "14233",
+      "contrato": "68/2012",
+      "valor_bruto": 45976.16,
+      "competencia": "04/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "147427",
+      "nf": "43141",
+      "contrato": "48/2021",
+      "valor_bruto": 42579.88,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147440",
+      "nf": "43154",
+      "contrato": "48/2021",
+      "valor_bruto": 35301.06,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "137381",
+      "nf": "34586",
+      "contrato": "48/2021",
+      "valor_bruto": 30748.43,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147461",
+      "nf": "43190",
+      "contrato": "48/2021",
+      "valor_bruto": 30748.43,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147480",
+      "nf": "43209",
+      "contrato": "48/2021",
+      "valor_bruto": 30748.43,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147490",
+      "nf": "43217",
+      "contrato": "48/2021",
+      "valor_bruto": 30748.43,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "88357",
+      "nf": "14697",
+      "contrato": "55/2015",
+      "valor_bruto": 27470.92,
+      "competencia": "05/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "88355",
+      "nf": "14695",
+      "contrato": "54/2015",
+      "valor_bruto": 24852.6,
+      "competencia": "05/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "88543",
+      "nf": "14878",
+      "contrato": "54/2015",
+      "valor_bruto": 24852.6,
+      "competencia": "06/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "88354",
+      "nf": "14694",
+      "contrato": "54/2015",
+      "valor_bruto": 20296.29,
+      "competencia": "05/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "88542",
+      "nf": "14877",
+      "contrato": "54/2015",
+      "valor_bruto": 20296.29,
+      "competencia": "06/2015",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "147439",
+      "nf": "43155",
+      "contrato": "48/2021",
+      "valor_bruto": 16399.16,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "137377",
+      "nf": "34588",
+      "contrato": "48/2021",
+      "valor_bruto": 14542.44,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147428",
+      "nf": "43147",
+      "contrato": "48/2021",
+      "valor_bruto": 14349.27,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147460",
+      "nf": "43191",
+      "contrato": "48/2021",
+      "valor_bruto": 11660.45,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147479",
+      "nf": "43210",
+      "contrato": "48/2021",
+      "valor_bruto": 11660.45,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147489",
+      "nf": "43218",
+      "contrato": "48/2021",
+      "valor_bruto": 11660.45,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "167170",
+      "nf": "1688",
+      "contrato": "18/2025",
+      "valor_bruto": 9881.0,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 10
+    },
+    {
+      "id": "164955",
+      "nf": "372",
+      "contrato": "18/2025",
+      "valor_bruto": 9881.0,
+      "competencia": "12/2025",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 10
+    },
+    {
+      "id": "147466",
+      "nf": "43185",
+      "contrato": "48/2021",
+      "valor_bruto": 8822.7,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147476",
+      "nf": "43205",
+      "contrato": "48/2021",
+      "valor_bruto": 8822.7,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147486",
+      "nf": "43214",
+      "contrato": "48/2021",
+      "valor_bruto": 8822.7,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147467",
+      "nf": "43187",
+      "contrato": "48/2021",
+      "valor_bruto": 7646.34,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147477",
+      "nf": "43212",
+      "contrato": "48/2021",
+      "valor_bruto": 7646.34,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147487",
+      "nf": "43215",
+      "contrato": "48/2021",
+      "valor_bruto": 7646.34,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147422",
+      "nf": "43146",
+      "contrato": "48/2021",
+      "valor_bruto": 6786.47,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "138027",
+      "nf": "34585",
+      "contrato": "48/2021",
+      "valor_bruto": 6273.92,
+      "competencia": "12/2022",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147438",
+      "nf": "43156",
+      "contrato": "48/2021",
+      "valor_bruto": 6218.91,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147407",
+      "nf": "43140",
+      "contrato": "48/2021",
+      "valor_bruto": 5489.68,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147424",
+      "nf": "43144",
+      "contrato": "48/2021",
+      "valor_bruto": 5441.54,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147451",
+      "nf": "43150",
+      "contrato": "48/2021",
+      "valor_bruto": 4705.44,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147408",
+      "nf": "43148",
+      "contrato": "48/2021",
+      "valor_bruto": 4666.23,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147452",
+      "nf": "43152",
+      "contrato": "48/2021",
+      "valor_bruto": 4078.05,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "167172",
+      "nf": "1687",
+      "contrato": "19/2025",
+      "valor_bruto": 2784.24,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 13
+    },
+    {
+      "id": "164957",
+      "nf": "371",
+      "contrato": "19/2025",
+      "valor_bruto": 2784.24,
+      "competencia": "12/2025",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 13
+    },
+    {
+      "id": "147459",
+      "nf": "43184",
+      "contrato": "48/2021",
+      "valor_bruto": 1895.19,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147478",
+      "nf": "43211",
+      "contrato": "48/2021",
+      "valor_bruto": 1895.19,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147488",
+      "nf": "43220",
+      "contrato": "48/2021",
+      "valor_bruto": 1895.19,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "167171",
+      "nf": "1686",
+      "contrato": "19/2025",
+      "valor_bruto": 1024.65,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 13
+    },
+    {
+      "id": "164956",
+      "nf": "370",
+      "contrato": "19/2025",
+      "valor_bruto": 1024.65,
+      "competencia": "12/2025",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 13
+    },
+    {
+      "id": "147437",
+      "nf": "43149",
+      "contrato": "48/2021",
+      "valor_bruto": 1010.77,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147425",
+      "nf": "43143",
+      "contrato": "48/2021",
+      "valor_bruto": 884.42,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147465",
+      "nf": "43186",
+      "contrato": "48/2021",
+      "valor_bruto": 775.39,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147484",
+      "nf": "43206",
+      "contrato": "48/2021",
+      "valor_bruto": 775.39,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147494",
+      "nf": "43221",
+      "contrato": "48/2021",
+      "valor_bruto": 775.39,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147443",
+      "nf": "43151",
+      "contrato": "48/2021",
+      "valor_bruto": 413.54,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "147423",
+      "nf": "43145",
+      "contrato": "48/2021",
+      "valor_bruto": 387.77,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "068/2012",
+      "Número": "87217",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87217/E",
+      "Comp.": "01/2015",
+      "Valor": "453.387,48",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "068/2012",
+      "Número": "87218",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87218/E",
+      "Comp.": "01/2015",
+      "Valor": "74.475,72",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "SERVICOS ESPECIALIZADOS EM INFORMATICA",
+      "Contrato": "094/2011",
+      "Número": "87214",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87214/E",
+      "Comp.": "02/2015",
+      "Valor": "286.222,91",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "068/2012",
+      "Número": "87220",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87220/E",
+      "Comp.": "02/2015",
+      "Valor": "453.387,48",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "068/2012",
+      "Número": "87219",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87219/E",
+      "Comp.": "01/2015",
+      "Valor": "45.976,16",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "067/2012",
+      "Número": "87216",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87216/E",
+      "Comp.": "02/2015",
+      "Valor": "211.781,19",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "067/2012",
+      "Número": "87215",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87215/E",
+      "Comp.": "01/2015",
+      "Valor": "211.781,19",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "SERVICOS ESPECIALIZADOS EM INFORMATICA",
+      "Contrato": "094/2011",
+      "Número": "87213",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87213/E",
+      "Comp.": "01/2015",
+      "Valor": "286.222,91",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "068/2012",
+      "Número": "87222",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87222/E",
+      "Comp.": "02/2015",
+      "Valor": "45.976,16",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "068/2012",
+      "Número": "87221",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87221/E",
+      "Comp.": "02/2015",
+      "Valor": "74.475,72",
+      "Atraso": "4038 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "068/2012",
+      "Número": "87433",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87433/E",
+      "Comp.": "03/2015",
+      "Valor": "453.387,48",
+      "Atraso": "4020 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "067/2012",
+      "Número": "87432",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87432/E",
+      "Comp.": "03/2015",
+      "Valor": "211.781,19",
+      "Atraso": "4020 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "068/2012",
+      "Número": "87435",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87435/E",
+      "Comp.": "03/2015",
+      "Valor": "45.976,16",
+      "Atraso": "4020 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "068/2012",
+      "Número": "87434",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87434/E",
+      "Comp.": "03/2015",
+      "Valor": "74.475,72",
+      "Atraso": "4020 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "068/2012",
+      "Número": "87879",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87879/E",
+      "Comp.": "04/2015",
+      "Valor": "74.475,72",
+      "Atraso": "3985 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "067/2012",
+      "Número": "87876",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87876/E",
+      "Comp.": "04/2015",
+      "Valor": "211.781,19",
+      "Atraso": "3985 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "068/2012",
+      "Número": "87880",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87880/E",
+      "Comp.": "04/2015",
+      "Valor": "45.976,16",
+      "Atraso": "3985 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "068/2012",
+      "Número": "87878",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/87878/E",
+      "Comp.": "04/2015",
+      "Valor": "453.387,48",
+      "Atraso": "3985 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "SERVICOS ESPECIALIZADOS EM INFORMATICA",
+      "Contrato": "094/2011",
+      "Número": "88104",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/88104/E",
+      "Comp.": "04/2015",
+      "Valor": "281.919,50",
+      "Atraso": "3963 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "054/2015",
+      "Número": "88354",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/88354/E",
+      "Comp.": "05/2015",
+      "Valor": "20.296,29",
+      "Atraso": "3940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "055/2015",
+      "Número": "88357",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/88357/E",
+      "Comp.": "05/2015",
+      "Valor": "27.470,92",
+      "Atraso": "3940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Manutenção Evolutiva de Sistemas",
+      "Contrato": "054/2015",
+      "Número": "88355",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/88355/E",
+      "Comp.": "05/2015",
+      "Valor": "24.852,60",
+      "Atraso": "3940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "054/2015",
+      "Número": "88542",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/88542/E",
+      "Comp.": "06/2015",
+      "Valor": "20.296,29",
+      "Atraso": "3920 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Manutenção Evolutiva de Sistemas",
+      "Contrato": "054/2015",
+      "Número": "88543",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/88543/E",
+      "Comp.": "06/2015",
+      "Valor": "24.852,60",
+      "Atraso": "3920 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "138027",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/138027/E",
+      "Comp.": "12/2022",
+      "Valor": "5.630,07",
+      "Atraso": "1164 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "048/2021",
+      "Número": "137381",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137381/E",
+      "Comp.": "12/2022",
+      "Valor": "30.748,43",
+      "Atraso": "1164 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso a Armazém de Informações",
+      "Contrato": "048/2021",
+      "Número": "137377",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137377/E",
+      "Comp.": "12/2022",
+      "Valor": "14.542,44",
+      "Atraso": "1164 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "048/2021",
+      "Número": "137384",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137384/E",
+      "Comp.": "12/2022",
+      "Valor": "91.242,60",
+      "Atraso": "1164 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "048/2021",
+      "Número": "137383",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137383/E",
+      "Comp.": "12/2022",
+      "Valor": "215.061,76",
+      "Atraso": "1164 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "048/2021",
+      "Número": "137380",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137380/E",
+      "Comp.": "12/2022",
+      "Valor": "130.664,92",
+      "Atraso": "1164 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147407",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147407/E",
+      "Comp.": "09/2023",
+      "Valor": "5.489,68",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "048/2021",
+      "Número": "147427",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147427/E",
+      "Comp.": "09/2023",
+      "Valor": "42.579,88",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "048/2021",
+      "Número": "147426",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147426/E",
+      "Comp.": "09/2023",
+      "Valor": "58.977,67",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147425",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147425/E",
+      "Comp.": "09/2023",
+      "Valor": "884,42",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "048/2021",
+      "Número": "147424",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147424/E",
+      "Comp.": "09/2023",
+      "Valor": "5.441,54",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147423",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147423/E",
+      "Comp.": "09/2023",
+      "Valor": "387,77",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso a Armazém de Informações",
+      "Contrato": "048/2021",
+      "Número": "147422",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147422/E",
+      "Comp.": "09/2023",
+      "Valor": "6.786,47",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "048/2021",
+      "Número": "147428",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147428/E",
+      "Comp.": "09/2023",
+      "Valor": "14.349,27",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147408",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147408/E",
+      "Comp.": "09/2023",
+      "Valor": "4.666,23",
+      "Atraso": "777 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147451",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147451/E",
+      "Comp.": "09/2023",
+      "Valor": "4.705,44",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147443",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147443/E",
+      "Comp.": "09/2023",
+      "Valor": "413,54",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147452",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147452/E",
+      "Comp.": "09/2023",
+      "Valor": "4.078,05",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "048/2021",
+      "Número": "147441",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147441/E",
+      "Comp.": "09/2023",
+      "Valor": "56.550,59",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "048/2021",
+      "Número": "147440",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147440/E",
+      "Comp.": "09/2023",
+      "Valor": "35.301,06",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "048/2021",
+      "Número": "147439",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147439/E",
+      "Comp.": "09/2023",
+      "Valor": "16.399,16",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "048/2021",
+      "Número": "147438",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147438/E",
+      "Comp.": "09/2023",
+      "Valor": "6.218,91",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147437",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147437/E",
+      "Comp.": "09/2023",
+      "Valor": "1.010,77",
+      "Atraso": "776 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147459",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147459/E",
+      "Comp.": "10/2023",
+      "Valor": "1.895,19",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147466",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147466/E",
+      "Comp.": "10/2023",
+      "Valor": "8.822,70",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147465",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147465/E",
+      "Comp.": "10/2023",
+      "Valor": "775,39",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147467",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147467/E",
+      "Comp.": "10/2023",
+      "Valor": "7.646,34",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "048/2021",
+      "Número": "147463",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147463/E",
+      "Comp.": "10/2023",
+      "Valor": "106.032,36",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "048/2021",
+      "Número": "147462",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147462/E",
+      "Comp.": "10/2023",
+      "Valor": "66.189,48",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "048/2021",
+      "Número": "147461",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147461/E",
+      "Comp.": "10/2023",
+      "Valor": "30.748,43",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "048/2021",
+      "Número": "147460",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147460/E",
+      "Comp.": "10/2023",
+      "Valor": "11.660,45",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147476",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147476/E",
+      "Comp.": "11/2023",
+      "Valor": "8.822,70",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147484",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147484/E",
+      "Comp.": "11/2023",
+      "Valor": "775,39",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "048/2021",
+      "Número": "147482",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147482/E",
+      "Comp.": "11/2023",
+      "Valor": "106.032,36",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "048/2021",
+      "Número": "147481",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147481/E",
+      "Comp.": "11/2023",
+      "Valor": "66.189,48",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "048/2021",
+      "Número": "147480",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147480/E",
+      "Comp.": "11/2023",
+      "Valor": "30.748,43",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "048/2021",
+      "Número": "147479",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147479/E",
+      "Comp.": "11/2023",
+      "Valor": "11.660,45",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147478",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147478/E",
+      "Comp.": "11/2023",
+      "Valor": "1.895,19",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147477",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147477/E",
+      "Comp.": "11/2023",
+      "Valor": "7.646,34",
+      "Atraso": "773 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147487",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147487/E",
+      "Comp.": "12/2023",
+      "Valor": "7.646,34",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "048/2021",
+      "Número": "147492",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147492/E",
+      "Comp.": "12/2023",
+      "Valor": "106.032,36",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "048/2021",
+      "Número": "147490",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147490/E",
+      "Comp.": "12/2023",
+      "Valor": "30.748,43",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "048/2021",
+      "Número": "147491",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147491/E",
+      "Comp.": "12/2023",
+      "Valor": "66.189,48",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147488",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147488/E",
+      "Comp.": "12/2023",
+      "Valor": "1.895,19",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "048/2021",
+      "Número": "147486",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147486/E",
+      "Comp.": "12/2023",
+      "Valor": "8.822,70",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "048/2021",
+      "Número": "147489",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147489/E",
+      "Comp.": "12/2023",
+      "Valor": "11.660,45",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "048/2021",
+      "Número": "147494",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/147494/E",
+      "Comp.": "12/2023",
+      "Valor": "775,39",
+      "Atraso": "772 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "048/2021",
+      "Número": "155126",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155126/E",
+      "Comp.": "09/2023",
+      "Valor": "100.362,15",
+      "Atraso": "492 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "048/2021",
+      "Número": "155129",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155129/E",
+      "Comp.": "10/2023",
+      "Valor": "168.193,86",
+      "Atraso": "491 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "048/2021",
+      "Número": "155130",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155130/E",
+      "Comp.": "11/2023",
+      "Valor": "168.193,86",
+      "Atraso": "491 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "048/2021",
+      "Número": "155131",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155131/E",
+      "Comp.": "12/2023",
+      "Valor": "168.193,86",
+      "Atraso": "491 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "048/2021",
+      "Número": "155128",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155128/E",
+      "Comp.": "09/2023",
+      "Valor": "89.703,39",
+      "Atraso": "491 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "019/2025",
+      "Número": "164957",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164957/E",
+      "Comp.": "12/2025",
+      "Valor": "92,72",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "018/2025",
+      "Número": "164955",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164955/E",
+      "Comp.": "12/2025",
+      "Valor": "329,37",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SSP",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "019/2025",
+      "Número": "164956",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164956/E",
+      "Comp.": "12/2025",
+      "Valor": "34,24",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 218,
+      "valor_total": 136963244.94,
+      "por_ano": {
+        "2020": {
+          "qtd": 14,
+          "valor": 7930582.71
+        },
+        "2016": {
+          "qtd": 6,
+          "valor": 4280444.41
+        },
+        "2025": {
+          "qtd": 31,
+          "valor": 22613861.3
+        },
+        "2019": {
+          "qtd": 14,
+          "valor": 5335829.090000001
+        },
+        "2023": {
+          "qtd": 11,
+          "valor": 6443092.46
+        },
+        "2018": {
+          "qtd": 61,
+          "valor": 28027656.359999996
+        },
+        "2022": {
+          "qtd": 16,
+          "valor": 11604609.219999999
+        },
+        "2024": {
+          "qtd": 10,
+          "valor": 4846856.37
+        },
+        "2015": {
+          "qtd": 13,
+          "valor": 3239158.3200000008
+        },
+        "2021": {
+          "qtd": 20,
+          "valor": 14029520.28
+        },
+        "2017": {
+          "qtd": 4,
+          "valor": 4545060.4
+        },
+        "2014": {
+          "qtd": 13,
+          "valor": 9949050.18
+        },
+        "2026": {
+          "qtd": 5,
+          "valor": 14117523.84
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 82,
+      "valor_total": 6290728.66
+    },
+    "cobrancas": {
+      "qtd": 79,
+      "valor_total": 6263161.36
+    }
+  }
+}

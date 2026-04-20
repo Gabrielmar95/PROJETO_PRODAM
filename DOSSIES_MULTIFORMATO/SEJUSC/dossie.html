@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê SEJUSC — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — SEJUSC</h1>
+<p><b>Secretaria de Estado da Justiça, Direitos Humanos e Cidadania</b> | GOV_DIRETA | CNPJ: 04.312.401/0001-38 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi média">MÉDIA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ANALISAR_DOCUMENTACAO</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 2.589.660,12</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 5.262.537,82</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">65</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">100</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">434</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">40%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2021NE0000017</td><td>7/2020</td><td>19/01/2021</td><td>R$ 390.871,26</td><td>Ativo</td></tr>
+<tr><td>2017NE00241</td><td>12/2016</td><td>07/04/2017</td><td>R$ 367.295,55</td><td>Ativo</td></tr>
+<tr><td>2023NE0000007</td><td>7/2020</td><td>16/01/2023</td><td>R$ 283.032,26</td><td>Ativo</td></tr>
+<tr><td>2021NE0000207</td><td>7/2020</td><td>28/04/2021</td><td>R$ 260.580,84</td><td>Ativo</td></tr>
+<tr><td>2020NE00595</td><td></td><td>25/11/2020</td><td>R$ 260.580,84</td><td>Ativo</td></tr>
+<tr><td>2020NE00310</td><td>7/2020</td><td>10/07/2020</td><td>R$ 260.580,84</td><td>Ativo</td></tr>
+<tr><td>2022NE0000132</td><td>7/2020</td><td>08/03/2022</td><td>R$ 260.580,84</td><td>Ativo</td></tr>
+<tr><td>2021NE0000783</td><td>7/2020</td><td>06/10/2021</td><td>R$ 260.580,84</td><td>Ativo</td></tr>
+<tr><td>2022NE0000037</td><td>7/2020</td><td>03/01/2022</td><td>R$ 260.580,84</td><td>Ativo</td></tr>
+<tr><td>2019NE00318</td><td>12/2016</td><td>01/07/2019</td><td>R$ 235.252,38</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>140858</td><td>140858</td><td>7/2020</td><td>04/2023</td><td>R$ 81.855,48</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>141604</td><td>141604</td><td>7/2020</td><td>05/2023</td><td>R$ 81.855,48</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>143109</td><td>143109</td><td>7/2020</td><td>07/2023</td><td>R$ 81.855,48</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>143896</td><td>143896</td><td>7/2020</td><td>08/2023</td><td>R$ 81.855,48</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>134664</td><td>31287</td><td>7/2020</td><td>08/2022</td><td>R$ 71.414,73</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>135352</td><td>32113</td><td>7/2020</td><td>09/2022</td><td>R$ 71.414,73</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>136061</td><td>32650</td><td>7/2020</td><td>10/2022</td><td>R$ 71.414,73</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>136733</td><td>33329</td><td>7/2020</td><td>11/2022</td><td>R$ 71.414,73</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>137362</td><td>33943</td><td>7/2020</td><td>12/2022</td><td>R$ 71.414,73</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>127563</td><td>24440</td><td>7/2020</td><td>10/2021</td><td>R$ 65.841,84</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Documentação fraca (5,15% da carteira)</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[11, 66, 65, 60, 54, 54, 26, 20, 17, 27, 15, 14, 5],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[449181.66, 941709.7300000004, 1086521.5000000007, 930376.8200000003, 2033731.450000001, 1354816.7299999997, 1967495.88, 1264821.5999999999, 1055815.93, 715641.2100000002, 113226.16, 74738.71, 109539.47],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

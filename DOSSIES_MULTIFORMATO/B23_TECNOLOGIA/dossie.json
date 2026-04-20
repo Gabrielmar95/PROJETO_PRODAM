@@ -1,0 +1,125 @@
+{
+  "sigla": "B23 TECNOLOGIA",
+  "profile": {
+    "nome_completo": "B23 Tecnologia",
+    "sigla": "B23 TECNOLOGIA",
+    "natureza": "EMPRESA_PRIVADA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": "11892.24",
+    "val_orig": "11892.24",
+    "val_atualizado": "11892.24",
+    "faturas_total": 0,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 0,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "2%",
+    "n_contratos": 0,
+    "regime_execucao": "protesto_serasa_sisbajud",
+    "titulo_executivo": false,
+    "status": "Valores extraídos (SPCF)",
+    "setor": "Tecnologia",
+    "docs_financeiro": 3,
+    "prioridade_sugerida": "BAIXA",
+    "observacoes": "Valor original R$ 11,892.24 — fonte: relatorio_devedores.xls. Análise massiva pendente para atualização monetária.",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "F",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "40.402.740/0001-79",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "PRIVADA",
+    "score_composto": 0.1964,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.15,
+    "ev_valor_esperado": "1783.84",
+    "ev_honorarios": "356.77",
+    "esforco_estimado": 7,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 47,
+    "investigacao_documental": "Baixa prioridade — protesto em massa",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2029-10-01",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "B23 TECNOLOGIA",
+    "fonte_spcf": null,
+    "data_spcf": null,
+    "spcf_nota": "Nao encontrado no SPCF Mar/2026",
+    "val_servicos_spcf_mar2026": "12039.08",
+    "val_liquido_spcf_mar2026": "11892.24",
+    "num_faturas_spcf_mar2026": 3,
+    "reconciliacao_status": "MATCH",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 0.0,
+    "urgencia_prescricao": "NORMAL",
+    "d_plus_prescricao": 1271,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [
+    {
+      "id": "149493",
+      "nf": "44998",
+      "contrato": "3/2023",
+      "valor_bruto": 9789.6,
+      "competencia": "03/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 106
+    },
+    {
+      "id": "156065",
+      "nf": "51245",
+      "contrato": "3/2023",
+      "valor_bruto": 1124.74,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 106
+    },
+    {
+      "id": "156869",
+      "nf": "52024",
+      "contrato": "3/2023",
+      "valor_bruto": 1124.74,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 106
+    }
+  ],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 3,
+      "valor_total": 12039.08
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

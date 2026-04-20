@@ -1,0 +1,4115 @@
+{
+  "sigla": "SEAS",
+  "profile": {
+    "nome_completo": "Secretaria de Assuntos Estratégicos",
+    "sigla": "SEAS",
+    "natureza": "Secretaria de Estado",
+    "categoria": "GOV_DIRETA",
+    "val_exig": "651041.089737987",
+    "val_orig": "474659.7699999997",
+    "val_atualizado": "651041.089737987",
+    "faturas_total": 63,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 63,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Petição pronta",
+    "observacoes": "Em trâmite de reconhecimento de Dívida",
+    "forca_probatoria": "FORTE",
+    "modelo_notificacao": "A",
+    "reconhecimento_revisado": {
+      "total_evidencias": 190,
+      "classificacao": "CONFIRMADO — Reconhecimento formal",
+      "por_tipo": {
+        "E": 179,
+        "A": 7,
+        "G": 2,
+        "F": 2
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "01.742.414/0001-59",
+    "evidencias_reconhecimento": 190,
+    "evidencias_por_tipo": {
+      "E": 179,
+      "A": 7,
+      "G": 2,
+      "F": 2
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Reconhecimento formal",
+    "tipo": "GOV",
+    "score_composto": 0.6827,
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "p_recuperacao": 0.78,
+    "ev_valor_esperado": "507812.05",
+    "ev_honorarios": "101562.41",
+    "esforco_estimado": 4,
+    "cenario_monte_carlo_p50": "351307.5",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 8,
+    "blindagem_resultado": {
+      "data": "2026-03-27",
+      "blocos": {
+        "A_titulo": {
+          "ok": 4,
+          "total": 6
+        },
+        "B_liquidez": {
+          "ok": 5,
+          "total": 5
+        },
+        "C_cadeia": {
+          "ok": 6,
+          "total": 6
+        },
+        "D_defesas": {
+          "ok": 5,
+          "total": 5
+        }
+      },
+      "total_ok": 20,
+      "total_items": 22,
+      "recomendacao": "MONITORIA",
+      "ressalvas": [
+        "Sem título executivo — monitória ou TRD primeiro"
+      ]
+    },
+    "ultima_interacao": "2026-03-25",
+    "fase_atual": "F5",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2027-01-01",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-20",
+      "F4": "2026-03-23",
+      "F5": "2026-03-27"
+    },
+    "elegivel_cprac": true,
+    "via_transacao_referendada": true,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": "MEDIO",
+    "nome": "SEAS",
+    "spcf_total_receber": "391246.29",
+    "spcf_fat_devidas_qtd": 50,
+    "spcf_fat_devidas_val": "391239.28",
+    "spcf_fat_aberto_qtd": 38,
+    "spcf_fat_aberto_val": "362026.30",
+    "spcf_perdas": "117576.80",
+    "emp_2026": "280460.71",
+    "emp_2026_qtd": 1,
+    "contratos_vigentes": 2,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 15,
+    "fat_canceladas_val_bruto": 159097.53,
+    "fat_canceladas_val_liquido": 154533.43,
+    "faturamento_total_2019_2026": 4027195.89,
+    "recebimento_total_2019_2026": 3493276.0,
+    "taxa_pagamento_pct": 86.74,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2021-Nov",
+    "faturamento_pico_valor": 185087.38,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 6642249.050000006,
+    "empenho_historico_qtd": 238,
+    "empenho_valor_global_contratos": 1425094.08,
+    "empenho_2026_gerencial": 402252.79000000004,
+    "a_empenhar_2026": 533468.0599999999,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "461983.44",
+    "val_liquido_spcf_mar2026": "391239.28",
+    "num_faturas_spcf_mar2026": 47,
+    "reconciliacao_status": "MAJOR",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 17.57,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "NORMAL",
+    "d_plus_prescricao": 267,
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE00468",
+      "contrato": "",
+      "valor": 61.75,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO saldo remanescente 4º TAC nº 003/2016-SEAS -Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, em cumprimento a Comunicação 14 de 16/11/2020/SEFAZ/AM."
+    },
+    {
+      "numero": "2024NE0000771",
+      "contrato": "12/2021",
+      "valor": 71837.72,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2024",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 02."
+    },
+    {
+      "numero": "2022NE0000744",
+      "contrato": "1/2021",
+      "valor": 4196.7,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2022",
+      "descricao": "1º Termo Aditivo ao Contrato nº 001/2021-SEAS. Objeto: Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website."
+    },
+    {
+      "numero": "2022NE0000744",
+      "contrato": "1/2021",
+      "valor": 4196.7,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2022",
+      "descricao": "1º Termo Aditivo ao Contrato nº 001/2021-SEAS. Objeto: Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website."
+    },
+    {
+      "numero": "2016NE00705",
+      "contrato": "3/2014",
+      "valor": 9997.25,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "2º Termo Aditivo ao Termo de Contrato 03/2014 Objeto: Reequilibrio econômico-financeiro de 10,96% mais prorrogação de prazo Vigência:12 (doze) meses Valor Global: R$ 119.967,00 Valor Mensal: R$ 9.997,25 Vigência: 21/05/2016 a 2/05/2017"
+    },
+    {
+      "numero": "2016NE00712",
+      "contrato": "1/2016",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "Termo de Contrato n. 001/2016-SEAS. Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Serviços Técnicos em Informática, para atender as necessidades desta Secretaria e suas Unidades. Valor Global: R$47.808,00 Valor Mensal: R$3.984,00"
+    },
+    {
+      "numero": "2016NE00706",
+      "contrato": "2/2016",
+      "valor": 454.46,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "Termo de Contrato nº 02/2016 Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados. Valor Global: R$12.218,95 Valor Mensal: R$ 454.46"
+    },
+    {
+      "numero": "2016NE00713",
+      "contrato": "",
+      "valor": 9997.25,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "Anulação da NE 0705/2016, em virtude de descrição incorreta"
+    },
+    {
+      "numero": "2016NE00711",
+      "contrato": "",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "Anulação da NE 0707/2016, em virtude do valor na descrição estar incorreto"
+    },
+    {
+      "numero": "2016NE00714",
+      "contrato": "3/2014",
+      "valor": 9997.25,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "2º Termo Aditivo ao Termo de Contrato 03/2014 Objeto: Reequilibrio econômico-financeiro de 10,96% mais prorrogação de prazo Vigência:12 (doze) meses Valor Global: R$ 119.967,00 Valor Mensal: R$ 9.997,25 Vigência: 22/05/2016 a 21/05/2017"
+    },
+    {
+      "numero": "2016NE00707",
+      "contrato": "1/2016",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "Termo de Contrato n. 001/2016-SEAS. Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Serviços Técnicos em Informática, para atender as necessidades desta Secretaria e suas Unidades. Valor Global: R$47.808,00 Valor Mensal: R$3.984,00"
+    },
+    {
+      "numero": "2016NE00704",
+      "contrato": "3/2016",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2016",
+      "descricao": "Termo de Contrato n. 003/2016-SEAS Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Licença de uso de Sistema de Informação, para atender as necessidades da Secretaria de Estado de Assistência Social-SEAS. Valor Global: R$18.000,00 Valor Mensal: R$1.500,00"
+    },
+    {
+      "numero": "2025NE0000630",
+      "contrato": "5/2024",
+      "valor": 30448.02,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2025",
+      "descricao": "Contratação de empresa prestadora de serviços de tecnologia da informação, para atender as necessidades desta SEAS. TC: 0005/2024 AD: 01."
+    },
+    {
+      "numero": "2020NE00226",
+      "contrato": "5/2019",
+      "valor": 66294.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "Prestação de Serviços de Acesso à Internet por Fibra Ótica com garantia de 100% em download e upload para atender as necessidades da SEAS e suas Unidades."
+    },
+    {
+      "numero": "2019NE00201",
+      "contrato": "5/2019",
+      "valor": 19888.2,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2019",
+      "descricao": "Termo de Contrato nº 005/2019 - SEAS. Objeto: Contratação de Pessoa Jurídica Especializada no Serviços de Acesso a Internet por Fibra Ótica com com garantia de 100% em download e upload, para atender as necessidades da SEAS e suas Unidades."
+    },
+    {
+      "numero": "2022NE0000413",
+      "contrato": "16/2017",
+      "valor": 50845.92,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2022",
+      "descricao": "Reforço 2022NE000038 - 4º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Financiamento Estadual e Marco Regulatório das Organizações."
+    },
+    {
+      "numero": "2023NE0000047",
+      "contrato": "5/2019",
+      "valor": 57869.96,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM."
+    },
+    {
+      "numero": "2022NE0000043",
+      "contrato": "",
+      "valor": 3503.52,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2022",
+      "descricao": "Anulação que se faz a NE 000041/2022, por erro de digitação na data."
+    },
+    {
+      "numero": "2022NE0000044",
+      "contrato": "1/2021",
+      "valor": 3503.52,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2022",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 meses."
+    },
+    {
+      "numero": "2023NE0000855",
+      "contrato": "5/2019",
+      "valor": 964.49,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0000856",
+      "contrato": "7/2021",
+      "valor": 909.29,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2023",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000858",
+      "contrato": "12/2021",
+      "valor": 143806.62,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2023",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000810",
+      "contrato": "",
+      "valor": 26801.73,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2023",
+      "descricao": "Anulação saldo remanescente dos meses de maio a agosto/2023, do CT.03/2021-2ºAD, para ajuste orçamentário"
+    },
+    {
+      "numero": "2019NE00292",
+      "contrato": "",
+      "valor": 1213.91,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2019",
+      "descricao": "Anulação de Saldo remanescente 3º Termo Aditivo ao Contrato nº 003/2016 - SEAS. Objeto: Serviços de Licenciamento de Softwares, Licença de Uso de Sistema de Protocolo em Plataforma Web. Trimestre (abril a junho/19)"
+    },
+    {
+      "numero": "2019NE00293",
+      "contrato": "",
+      "valor": 1741.95,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2019",
+      "descricao": "Anulação saldo remanescente do CT 03/16 - 3º TA - trimestre janeiro a março 2019- 3º Termo Aditivo ao Contrato nº 003/2016-SEAS. Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB,"
+    },
+    {
+      "numero": "2016NE00550",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0130/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme NFS-e nº 15400, emitida em 25/08/2015. Fundamento Legal: Decreto Nº 25648, de 21 de fevereiro de 2006 e Instrução Normativa/GSEFAZ n.º 001/2006, de 1º de março de 2006."
+    },
+    {
+      "numero": "2016NE00553",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0134/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme NFS-e nº 16544, emitida em 10/11/2015. Fundamento Legal: Decreto Nº 25648, de 21 de fevereiro de 2006 e Instrução Normativa/GSEFAZ n.º 001/2006, de 1º de março de 2006."
+    },
+    {
+      "numero": "2016NE00551",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0131/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme NFS-e nº 15695, emitida em 10/09/2015. Fundamento Legal: Decreto Nº 25648, de 21 de fevereiro de 2006 e Instrução Normativa/GSEFAZ n.º 001/2006, de 1º de março de 2006."
+    },
+    {
+      "numero": "2016NE00554",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0129/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme NFS-e nº 16889, emitida em 02/12/2015. Fundamento Legal: Decreto Nº 25648, de 21 de fevereiro de 2006 e Instrução Normativa/GSEFAZ n.º 001/2006, de 1º de março de 2006."
+    },
+    {
+      "numero": "2016NE00549",
+      "contrato": "49/2010",
+      "valor": 1978.43,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0041/2016: Termo de Contrato n. 049/2010-SEAS-Contratação de Empresa para Prestação de Serviços de Informática, conforme NFS-e nº 15479, emitida em 29/08/2015. Fundamento Legal: Decreto Nº 25648, de 21 de fevereiro de 2006 e Instrução Normativa/GSEFAZ n.º 001/2006, de 1º de março de 2006."
+    },
+    {
+      "numero": "2016NE00552",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0132/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme NFS-e nº 16156, emitida em 13/10/2015. Fundamento Legal: Decreto Nº 25648, de 21 de fevereiro de 2006 e Instrução Normativa/GSEFAZ n.º 001/2006, de 1º de março de 2006."
+    },
+    {
+      "numero": "2024NE0000263",
+      "contrato": "3/2021",
+      "valor": 11047.74,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de manutenção de PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FAREWALL em relação a internet. TC: 0003/2021 AD: 03."
+    },
+    {
+      "numero": "2015NE00083",
+      "contrato": "3/2014",
+      "valor": 26104.14,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2015",
+      "descricao": "Termo de Contrato nº 03/2014"
+    },
+    {
+      "numero": "2015NE00082",
+      "contrato": "3/2014",
+      "valor": 26104.14,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2015",
+      "descricao": "Anulação que se faz a n.e 49, por erro de digitação no subgrupo da natureza de despesa"
+    },
+    {
+      "numero": "2025NE0000880",
+      "contrato": "5/2024",
+      "valor": 60896.04,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Contratação de empresa prestadora de serviços de tecnologia da informação, para atender as necessidades desta SEAS. TC: 0005/2024 AD: 01."
+    },
+    {
+      "numero": "2022NE0000683",
+      "contrato": "5/2019",
+      "valor": 28934.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2022",
+      "descricao": "Saldo - 3º Termo Aditivo ao Contrato nº 005/2019-SEAS. Objeto: Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM."
+    },
+    {
+      "numero": "2020NE00309",
+      "contrato": "16/2017",
+      "valor": 33126.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2020",
+      "descricao": "CT nº 16/2017 - Objeto: Prestação de serviços de Desenvolvimento de Sistema de Informação. conforme Parecer Jurídico nº 218/2020-ASSESSORIA JURÍDICA, despesa referente ao mês de junho/2018."
+    },
+    {
+      "numero": "2020NE00306",
+      "contrato": "",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2020",
+      "descricao": "Atender despesa com reconhecimento de divida RD Nº 05/2020 - referente ao mês de junho/2019- prestação de serviços de sistema Acesso Gerenciamento à rede mundial.."
+    },
+    {
+      "numero": "2020NE00308",
+      "contrato": "",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2020",
+      "descricao": "Atender despesa com reconhecimento de divida RD Nº 06/2020 - referente ao mês de julho/2019- prestação de serviços de sistema Acesso Gerenciamento da Rede."
+    },
+    {
+      "numero": "2020NE00304",
+      "contrato": "",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2020",
+      "descricao": "Anulação que se faz a N.E 00297, por incorreção no subgrupo da natureza de despesa."
+    },
+    {
+      "numero": "2020NE00310",
+      "contrato": "16/2017",
+      "valor": 33126.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2020",
+      "descricao": "CT.16/2017-Objeto: Prestação de serviços de Desenvolvimento de Sistema de Informação. conforme Parecer Jurídico nº 220/2020-ASSESSORIA JURÍDICA, despesa referente ao mês de julho/2018."
+    },
+    {
+      "numero": "2020NE00305",
+      "contrato": "",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2020",
+      "descricao": "Anulação que se faz a N.E 00298, por incorreção no subgrupo da natureza de despesa."
+    },
+    {
+      "numero": "2016NE00670",
+      "contrato": "2/2016",
+      "valor": 1363.38,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2016",
+      "descricao": "Termo de Contrato nº 02/2016 - referente aos meses de julho, agosto e setembro/2016 Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados."
+    },
+    {
+      "numero": "2016NE00671",
+      "contrato": "",
+      "valor": 1363.38,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2016",
+      "descricao": "Anulação que se faz a n.e. 670, por erro de digitação no valor a ser empenhado"
+    },
+    {
+      "numero": "2016NE00670",
+      "contrato": "2/2016",
+      "valor": 1363.38,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2016",
+      "descricao": "Termo de Contrato nº 02/2016 - referente aos meses de julho, agosto e setembro/2016 Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados."
+    },
+    {
+      "numero": "2016NE00672",
+      "contrato": "2/2016",
+      "valor": 1363.38,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2016",
+      "descricao": "Termo de Contrato nº 02/2016 Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados."
+    },
+    {
+      "numero": "2016NE00673",
+      "contrato": "3/2014",
+      "valor": 29991.75,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2016",
+      "descricao": "2 Aditivo ao Termo de Contrato n 03-2014"
+    },
+    {
+      "numero": "2016NE00672",
+      "contrato": "2/2016",
+      "valor": 1363.38,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2016",
+      "descricao": "Termo de Contrato nº 02/2016 Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados."
+    },
+    {
+      "numero": "2016NE00671",
+      "contrato": "",
+      "valor": 1363.38,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2016",
+      "descricao": "Anulação que se faz a n.e. 670, por erro de digitação no valor a ser empenhado"
+    },
+    {
+      "numero": "2019NE00260",
+      "contrato": "16/2017",
+      "valor": 32802.66,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2019",
+      "descricao": "2º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das OSC’s."
+    },
+    {
+      "numero": "2019NE00262",
+      "contrato": "",
+      "valor": 32802.66,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2019",
+      "descricao": "Anulação da NE nº 260/2019, por erro de descrição."
+    },
+    {
+      "numero": "2022NE0000248",
+      "contrato": "",
+      "valor": 819.42,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2022",
+      "descricao": "Execução de sistemas SISTEMA: Sist. de Recursos Humanos e Folha Faturamento mínimo por folha - até 200 funcionários processados, conforme PARECER Nº 331/2021 – ASSEJUR/SEAS"
+    },
+    {
+      "numero": "2022NE0000250",
+      "contrato": "",
+      "valor": 848.3,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2022",
+      "descricao": "Execução de sistemas SISTEMA: Sist. de Recursos Humanos e Folha Faturamento mínimo por folha - até 200 funcionários processados, conforme PARECER Nº 330/2021 – ASSEJUR/SEAS"
+    },
+    {
+      "numero": "2022NE0000249",
+      "contrato": "",
+      "valor": 822.46,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2022",
+      "descricao": "Execução de sistemas SISTEMA: Sist. de Recursos Humanos e Folha Faturamento mínimo por folha - até 200 funcionários processados, conforme PARECER Nº 357/2021 – ASSEJUR/SEAS"
+    },
+    {
+      "numero": "2021NE0000031",
+      "contrato": "1/2021",
+      "valor": 6632.79,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2021",
+      "descricao": "Contrato 01/2021 - Prestação de serviços de execução de Sistema de Protocolo em plataforma WEB (SPROWEB), objetivando o controle e acompanhamento do registro de todos os doumentos ou processos desta SEAS."
+    },
+    {
+      "numero": "2018NE00438",
+      "contrato": "",
+      "valor": 8851.08,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação do saldo, de acordo com a Instrução Normativa nº 01/2018-SET/SEFAZ, de 30.11.2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF"
+    },
+    {
+      "numero": "2018NE00440",
+      "contrato": "",
+      "valor": 91308.92,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação do saldo, de acordo com a Instrução Normativa nº 01/2018-SET/SEFAZ, de 30.11.2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF"
+    },
+    {
+      "numero": "2018NE00437",
+      "contrato": "",
+      "valor": 48.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação do saldo, de acordo com a Instrução Normativa nº 01/2018-SET/SEFAZ, de 30.11.2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF"
+    },
+    {
+      "numero": "2018NE00439",
+      "contrato": "",
+      "valor": 92034.88,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação do saldo, de acordo com a Instrução Normativa nº 01/2018-SET/SEFAZ, de 30.11.2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF"
+    },
+    {
+      "numero": "2023NE0000850",
+      "contrato": "",
+      "valor": 909.29,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2023",
+      "descricao": "ANULAÇÃO Saldo remanescente do 1º Termo Aditivo ao Contrato nº 007/2021-SEAS, para ajuste orçamentário e encerramento do Termo de Contrato."
+    },
+    {
+      "numero": "2023NE0000851",
+      "contrato": "",
+      "valor": 40000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2023",
+      "descricao": "ANULAÇÃO Saldo remanescente do 1º Termo Aditivo ao Contrato nº 003/2021-SEAS, para ajuste orçamentário e encerramento do exercício 2023."
+    },
+    {
+      "numero": "2023NE0000852",
+      "contrato": "",
+      "valor": 150000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2023",
+      "descricao": "ANULAÇÃO Saldo remanescente do 1º Termo Aditivo ao Contrato nº 012/2021-SEAS, para ajuste orçamentário e encerramento do exercício 2023."
+    },
+    {
+      "numero": "2023NE0000803",
+      "contrato": "12/2021",
+      "valor": 143806.62,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2023",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 012/2021 AD: 01."
+    },
+    {
+      "numero": "2022NE0000548",
+      "contrato": "",
+      "valor": 50000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Anulação parcial de saldo da NE nº 0026/2022, pelo encerramento do 1º trimestre de 2022."
+    },
+    {
+      "numero": "2017NE00352",
+      "contrato": "3/2014",
+      "valor": 7000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS, REFORÇO DA NE 004/2017, 2º TERMO ADITIVO AO CONTRATO 03/2014 - SEAS, REFERENTE A 21 DIAS DO MÊS DE 2017."
+    },
+    {
+      "numero": "2022NE0000237",
+      "contrato": "5/2019",
+      "valor": 39584.47,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "REFORÇO 2022NE000023 - SALDO 2º TAC nº 05/2019 - PRODAM"
+    },
+    {
+      "numero": "2022NE0000238",
+      "contrato": "1/2021",
+      "valor": 4671.36,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "REFORÇO 2022NE0000044 - SALDO 1º TAC 01/2021"
+    },
+    {
+      "numero": "2022NE0000239",
+      "contrato": "7/2021",
+      "valor": 6358.06,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "REFORÇO 2022NE000024 - SALDO CT nº 007/2021"
+    },
+    {
+      "numero": "2022NE0000240",
+      "contrato": "12/2021",
+      "valor": 148331.11,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "REFORÇO 2022NE0000026 - SALDO CT nº 012/2021"
+    },
+    {
+      "numero": "2021NE0000316",
+      "contrato": "3/2021",
+      "valor": 38988.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2021",
+      "descricao": "Contrato nº 03/2021 – DL/Portaria nº 109/2021- DOE nº 34.482, de 15/04/2021, fl.01 e 16 – Prestação de serviços de forma Eventual e Gestão de segurança e ativos de rede. Artigo 16 - Lei 8.666/93"
+    },
+    {
+      "numero": "2017NE00267",
+      "contrato": "",
+      "valor": 32848.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2017",
+      "descricao": "ANULAÇÃO DA NE 261/2017 POR ERRO DE DESCRIÇÃO."
+    },
+    {
+      "numero": "2017NE00264",
+      "contrato": "",
+      "valor": 4425.87,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2017",
+      "descricao": "ANULAÇÃO DA NE 257/2017 POR ERRO DE DESCRIÇÃO."
+    },
+    {
+      "numero": "2017NE00265",
+      "contrato": "10/2016",
+      "valor": 4425.87,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2017",
+      "descricao": "SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMATICA, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VIDEOS E IMAGENS WEBSITE."
+    },
+    {
+      "numero": "2017NE00259",
+      "contrato": "3/2014",
+      "valor": 32848.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2017NE00268",
+      "contrato": "3/2014",
+      "valor": 32848.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2017NE00260",
+      "contrato": "",
+      "valor": 32848.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2017",
+      "descricao": "ANULAÇÃO DA NE 259/2017, POR ERRO DE DIGITAÇÃO NO VALOR GLOBAL."
+    },
+    {
+      "numero": "2017NE00261",
+      "contrato": "3/2014",
+      "valor": 32848.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2014NE00022",
+      "contrato": "49/2010",
+      "valor": 30000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2014",
+      "descricao": "Contrato No. 49/2010 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2022NE0000867",
+      "contrato": "",
+      "valor": 21854.52,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2022",
+      "descricao": "Anulação de Saldo Remanescente, em cumprimento ao Decreto nº 46.621, de 11/11/2022, que dispõe sobre os procedimentos para encerramento do exercício de 2022."
+    },
+    {
+      "numero": "2024NE0000608",
+      "contrato": "",
+      "valor": 9966.12,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2024",
+      "descricao": "Anulação do saldo remanescente da 2024NE000263, Contrato/Ajustes Nº 0003/2021 Aditivo Nº 03 - Objeto: Contratação de empresa especializada na prestação de serviços de manutenção de PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FAREWALL em relação a internet, conforme despacho exarado pela Chefia do Departamento de Administração, página 108."
+    },
+    {
+      "numero": "2024NE0000609",
+      "contrato": "",
+      "valor": 1231.49,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2024",
+      "descricao": "Anulação do saldo remanescente da 2024NE000036, Contrato Nº 0001/2021 Aditivo Nº 03 Objeto: Contratação de empresa especializada na prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, conforme despacho exarado pela Chefia do Departamento de Administração, página 125."
+    },
+    {
+      "numero": "2024NE0000607",
+      "contrato": "",
+      "valor": 906.29,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2024",
+      "descricao": "Anulação do saldo remanescente da 2024NE000008, referente ao Contrato Nº 0007/2021 Aditivo Nº 02, Objeto: Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website, conforme despacho exarado pela Chefia do Departamento de Administração, página 132."
+    },
+    {
+      "numero": "2023NE0000693",
+      "contrato": "7/2021",
+      "valor": 1189.06,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2023",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000699",
+      "contrato": "5/2019",
+      "valor": 13503.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2017NE00257",
+      "contrato": "10/2016",
+      "valor": 4425.87,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2017",
+      "descricao": "SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMATICA, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VIDEOS E IMAGENS WEBSITE."
+    },
+    {
+      "numero": "2017NE00256",
+      "contrato": "3/2014",
+      "valor": 32848.2,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2017NE00258",
+      "contrato": "",
+      "valor": 32848.2,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2017",
+      "descricao": "ANULAÇÃO DA NE 256/2017 POR ERRO DE DESCRIÇÃO."
+    },
+    {
+      "numero": "2023NE0000046",
+      "contrato": "1/2021",
+      "valor": 3694.47,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2023",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses."
+    },
+    {
+      "numero": "2022NE0000716",
+      "contrato": "12/2021",
+      "valor": 59919.43,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2022",
+      "descricao": "1º Termo Aditivo ao Contrato 012/2021-SEAS. Objeto: Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social."
+    },
+    {
+      "numero": "2020NE00357",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2020",
+      "descricao": "Reconhecimento de Dívida Nº 238 do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de dezembro/2015, Nota Fiscal nº 17008"
+    },
+    {
+      "numero": "2020NE00244",
+      "contrato": "16/2017",
+      "valor": 140929.95,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2020",
+      "descricao": "3º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das Organizaçõe"
+    },
+    {
+      "numero": "2022NE0000222",
+      "contrato": "3/2021",
+      "valor": 43709.04,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2022",
+      "descricao": "Prestação de serviços de manutenção do serviço PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FIREWALL em ralação a internet."
+    },
+    {
+      "numero": "2022NE0000222",
+      "contrato": "",
+      "valor": 43709.04,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2022",
+      "descricao": "Prestação de serviços de manutenção do serviço PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FIREWALL em ralação a internet."
+    },
+    {
+      "numero": "2022NE0000816",
+      "contrato": "",
+      "valor": 435.56,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Saldo - 3º Termo Aditivo ao Contrato nº 005/2019-SEAS. Objeto: Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM."
+    },
+    {
+      "numero": "2016NE00756",
+      "contrato": "3/2014",
+      "valor": 13830.54,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2016",
+      "descricao": "2º Termo Aditivo ao Termo de Contrato 03/2014 Objeto: Reequilibrio econômico-financeiro de 10,96% mais prorrogação de prazo Valor Global: R$ 119.967,00 Valor Mensal: R$ 9.997,25 Valor Empenhado R$ 9.997,25 ref. ao mês de novembro/2016 Valor a ser empenhado no exercício R$ 9.997,25 Valor a ser empenhado em 2017 R$ 46.987,08 Vigência: 22/05/2016 a 21/05/2017 Fundamento Legal: Art. 24; XVI; Lei 8.666/93, RDL nº 02/2014, Portaria nº 128/2014-GSEAS, Publicado no DOE Nº 32.779"
+    },
+    {
+      "numero": "2020NE00296",
+      "contrato": "",
+      "valor": 2435.51,
+      "situacao": "Ativo",
+      "data_emissao": "25/09/2020",
+      "descricao": "Atender despesa com reconhecimento de divida RD Nº 07/2020 - referente ao mês de maio/2019- prestação de serviços de sistema Acesso Gerenciamento da Rede."
+    },
+    {
+      "numero": "2020NE00297",
+      "contrato": "",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "25/09/2020",
+      "descricao": "Atender despesa com reconhecimento de divida RD Nº 05/2020 - referente ao mês de junho/2019- prestação de serviços de sistema Acesso Gerenciamento à rede mundial.."
+    },
+    {
+      "numero": "2020NE00298",
+      "contrato": "",
+      "valor": 7550.1,
+      "situacao": "Ativo",
+      "data_emissao": "25/09/2020",
+      "descricao": "Atender despesa com reconhecimento de divida RD Nº 06/2020 - referente ao mês de julho/2019- prestação de serviços de sistema Acesso Gerenciamento da Rede."
+    },
+    {
+      "numero": "2019NE00196",
+      "contrato": "10/2016",
+      "valor": 2473.35,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2019",
+      "descricao": "3º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto: Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2020NE00174",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2020",
+      "descricao": "Reconhecimento de Dívida do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de outubro 2015, Nota Fiacal nº 16273."
+    },
+    {
+      "numero": "2023NE0000464",
+      "contrato": "7/2021",
+      "valor": 4196.7,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2023",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 007/2021 AD: 01."
+    },
+    {
+      "numero": "2017NE00291",
+      "contrato": "49/2010",
+      "valor": 3998.63,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2017",
+      "descricao": "Atender despesa para pagamento de Reconhecimento de Dívida, referente mês de novembro/2014 do Cont. 49/2010"
+    },
+    {
+      "numero": "2017NE00292",
+      "contrato": "49/2010",
+      "valor": 3771.78,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2017",
+      "descricao": "Atender despesa para pagamento de Reconhecimento de Dívida, referente mês de dezembro/2014 do Cont. 49/2010"
+    },
+    {
+      "numero": "2020NE00213",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "24/07/2020",
+      "descricao": "Reconhecimento de Dívida Nº 235 do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de setembro/2015, Nota Fiscal nº 16103"
+    },
+    {
+      "numero": "2021NE0000476",
+      "contrato": "5/2019",
+      "valor": 13066.87,
+      "situacao": "Ativo",
+      "data_emissao": "23/07/2021",
+      "descricao": "PRORROGAÇÃO DE PRAZO DE VIGÊNCIA CONTRATUAL POR MAIS 12 MESES- Celebração do 2º Aditivo ao Termo de Contrato nº 005/2019-SEAS."
+    },
+    {
+      "numero": "2020NE00207",
+      "contrato": "",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "23/07/2020",
+      "descricao": "Anulação que se faz a n.e 206, por erro de digitação no numero do processo."
+    },
+    {
+      "numero": "2020NE00206",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "23/07/2020",
+      "descricao": "Reconhecimento de Dívida Nº 235 do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de setembro/2015, Nota Fiscal nº 16103, emitida em 02/10/2015."
+    },
+    {
+      "numero": "2014NE00348",
+      "contrato": "13/2012",
+      "valor": 75310.53,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2014",
+      "descricao": "Contrato No. 13/2012"
+    },
+    {
+      "numero": "2021NE0000294",
+      "contrato": "12/2020",
+      "valor": 55424.25,
+      "situacao": "Ativo",
+      "data_emissao": "23/04/2021",
+      "descricao": "REFORÇO DA NE Nº 023/2021 - Contrato nº 12/2020-SEAS, tendo como objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Processamento de dados para geração das informações do cartão de benefício para concessão de auxilio emergencial, concedida pelo Governo do Estado do Amazonas Vigência: 22/12/2020 a 22/06/2021. Valor Global: R$: 332.545,50 Valor Mensal: R$: 55.424,25."
+    },
+    {
+      "numero": "2021NE0000295",
+      "contrato": "1/2021",
+      "valor": 8843.72,
+      "situacao": "Ativo",
+      "data_emissao": "23/04/2021",
+      "descricao": "REFORÇO DA NE Nº 031/2021 - Termo de Contrato nº 001/2021-SEAS. Objeto do Contrato: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 meses. Vigência: 01/02/2021 a 01/02/2022 Valor Global: R$ 26.531,16 Valor Mensal: R$ 2.210,93."
+    },
+    {
+      "numero": "2020NE00462",
+      "contrato": "12/2020",
+      "valor": 55424.25,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2020",
+      "descricao": "Prestação de Serviços de de Processamento de Dados para geração das informações do cartão de benefícios para concessão de auxilio emergência pelo Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2025NE0000599",
+      "contrato": "5/2024",
+      "valor": 29152.63,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2025",
+      "descricao": "Contratação de empresa prestadora de serviços de tecnologia da informação, para atender as necessidades desta SEAS."
+    },
+    {
+      "numero": "2025NE0000598",
+      "contrato": "12/2021",
+      "valor": 143675.44,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2025",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 03."
+    },
+    {
+      "numero": "2020NE00204",
+      "contrato": "",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2020",
+      "descricao": "Anulação total d Nota de Empenho por conter erro de digitação no numero do Processo"
+    },
+    {
+      "numero": "2020NE00204",
+      "contrato": "",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2020",
+      "descricao": "Anulação total d Nota de Empenho por conter erro de digitação no numero do Processo"
+    },
+    {
+      "numero": "2020NE00203",
+      "contrato": "16/2017",
+      "valor": 33126.98,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2020",
+      "descricao": "Reconhecimento de Dívida do Contrato nº 016/2017, prestação de serviço de Desenvolvimento de Sistema de Informação- MIROSC, parcela do mês de maio 2018, Nota Fiscal nº 5947"
+    },
+    {
+      "numero": "2020NE00204",
+      "contrato": "",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2020",
+      "descricao": "Anulação total d Nota de Empenho por conter erro de digitação no numero do Processo"
+    },
+    {
+      "numero": "2020NE00204",
+      "contrato": "",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2020",
+      "descricao": "Anulação total d Nota de Empenho por conter erro de digitação no numero do Processo"
+    },
+    {
+      "numero": "2020NE00145",
+      "contrato": "5/2019",
+      "valor": 26517.6,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2020",
+      "descricao": "Termo de Contrato nº 005/2019-SEAS. Objeto do Contrato: Contratação de Pessoa Jurídica Especializada no Serviços de Acesso a Internet por Fibra Ótica com com garantia de 100% em download e upload, para atender as necessidades da SEAS e suas Unidades"
+    },
+    {
+      "numero": "2020NE00141",
+      "contrato": "3/2016",
+      "valor": 12379.15,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2020",
+      "descricao": "4º Termo Aditivo ao Contrato nº 003/2016 -SEAS. Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2020NE00149",
+      "contrato": "10/2016",
+      "valor": 3025.04,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2020",
+      "descricao": "3º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto do Contrato: Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website"
+    },
+    {
+      "numero": "2020NE00151",
+      "contrato": "16/2017",
+      "valor": 112986.94,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2020",
+      "descricao": "2º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das Organizações da Sociedade Civil - MROSC."
+    },
+    {
+      "numero": "2021NE0000287",
+      "contrato": "10/2016",
+      "valor": 4537.56,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "REFORÇO DA NE Nº 016/2021 -4º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto do Contrato: Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website, pelo período de 12 (doze) meses. Vigência: 12/08/2020 a 11/08/2021. Valor Global: R$ 18.150,24."
+    },
+    {
+      "numero": "2017NE00065",
+      "contrato": "3/2016",
+      "valor": 5734.7,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2021NE0000026",
+      "contrato": "3/2016",
+      "valor": 1026.85,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "Reforço a 202100014, 4º Termo Aditivo ao Contrato nº 003/2016-SEAS. Objeto do Contrato: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2021NE0000020",
+      "contrato": "5/2019",
+      "valor": 53035.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "Prestação de Serviços de Acesso à Internet por Fibra Ótica com garantia de 100% em download e upload para atender as necessidades da SEAS e suas Unidades."
+    },
+    {
+      "numero": "2021NE0000014",
+      "contrato": "3/2016",
+      "valor": 741.6,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2021NE0000016",
+      "contrato": "10/2016",
+      "valor": 6050.08,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "Serviço de Licença e Uso de Sistema de Informatica compreendendo a disponibilização de gestor de conteúdo web par publicação de informações, noticias, videos e imagens website."
+    },
+    {
+      "numero": "2021NE0000023",
+      "contrato": "12/2020",
+      "valor": 221697.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "Prestação de Serviços de de Processamento de Dados para geração das informações do cartão de benefícios para concessão de auxilio emergência pelo Governo do Estado do Amazonas."
+    },
+    {
+      "numero": "2021NE0000017",
+      "contrato": "16/2017",
+      "valor": 36447.4,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "3º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das Organizaçõe"
+    },
+    {
+      "numero": "2015NE00706",
+      "contrato": "3/2014",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "21/08/2015",
+      "descricao": "Termo de Contrato nº 03/2014 - mes de abril/2015 Objeto: Prestação de serviços de técnicos em telecomunicações com banda de 3 Mbps Valor do Contrato: R$ 104.416,56 Valor Mensal: R$ 8.701,38 Vigência: 22/05/2014 a 21/05/2015 Fundamento Legal: Art. 24; XVI; Lei 8.666/93, RDL nº 02/2014, Portaria nº 128/2014-GSEAS, Publicado no DOE Nº 32.779 DE 09/04/201"
+    },
+    {
+      "numero": "2015NE00707",
+      "contrato": "3/2014",
+      "valor": 27029.34,
+      "situacao": "Ativo",
+      "data_emissao": "21/08/2015",
+      "descricao": "Cobertura de junho/julho e agosto/2015"
+    },
+    {
+      "numero": "2020NE00199",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2020",
+      "descricao": "Reconhecimento de Dívida Nº 234 do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de agosto/2015, Nota Fiscal nº 16102"
+    },
+    {
+      "numero": "2020NE00197",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2020",
+      "descricao": "Reconhecimento de Dívida Nº 235 do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de setembro/2015, Nota Fiscal nº 16103"
+    },
+    {
+      "numero": "2020NE00196",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2020",
+      "descricao": "Reconhecimento de Dívida Nº 233 do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de julho a 2015, Nota Fiscal nº 16101"
+    },
+    {
+      "numero": "2020NE00198",
+      "contrato": "11/2014",
+      "valor": 822.41,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2020",
+      "descricao": "Reconhecimento de Dívida Nº 237 do Contrato nº 011/2014, prestação de serviço de sistema SPROWEB Protocolo, mes de novembro a 2015, Nota Fiscal nº 16782"
+    },
+    {
+      "numero": "2022NE0000859",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2022",
+      "descricao": "Anulação de Saldo Remanescente, em cumprimento ao Decreto nº 46.621, de 11/11/2022, que dispõe sobre os procedimentos para encerramento do exercício de 2022."
+    },
+    {
+      "numero": "2022NE0000713",
+      "contrato": "",
+      "valor": 42031.2,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2022",
+      "descricao": "Anulação Saldo remanescente do Contrato: 03/2021 - Processo: 760/2020 - Vigência: 03/05/2021 ate 03/05/2022, para ajuste orçamentário. 42.031,20"
+    },
+    {
+      "numero": "2022NE0000712",
+      "contrato": "",
+      "valor": 66273.92,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2022",
+      "descricao": "Anulação Saldo remanescente do Contrato: 16/2017 - Processo: 903/2021 - Vigência: 05.09.21 ate 04.09.22, para ajuste orçamentário.66.273,92"
+    },
+    {
+      "numero": "2016NE00498",
+      "contrato": "3/2014",
+      "valor": 36039.12,
+      "situacao": "Ativo",
+      "data_emissao": "20/04/2016",
+      "descricao": "1º Termo Aditivo ao Termo de Contrato nº 03/2014- mes de janeiro, feveeiro, março e abril/15 Objeto Acrescimo de 3,5442200% mais prorrogação de prazo de vigência por mais (12) meses"
+    },
+    {
+      "numero": "2025NE0000792",
+      "contrato": "5/2024",
+      "valor": 60896.04,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2025",
+      "descricao": "Contratação de empresa prestadora de serviços de tecnologia da informação, para atender as necessidades desta SEAS. TC: 0005/2024 AD: 01."
+    },
+    {
+      "numero": "2017NE00658",
+      "contrato": "",
+      "valor": 4977.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação parcial da NE 268/2017, através da INSTRUÇÃO NORMATIVA Nº 001/2017, em virtude de encerramento de exercício."
+    },
+    {
+      "numero": "2017NE00657",
+      "contrato": "",
+      "valor": 1142.2,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação parcial da NE 218/2017, através da INSTRUÇÃO NORMATIVA Nº 001/2017, em virtude de encerramento de exercício."
+    },
+    {
+      "numero": "2020NE00410",
+      "contrato": "3/2016",
+      "valor": 69.34,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2020",
+      "descricao": "Reforço da N.E. 00017/2020 4º Termo Aditivo ao Contrato nº 003/2016 -SEAS. Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2016NE00746",
+      "contrato": "2/2016",
+      "valor": 454.46,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Termo de Contrato nº 02/2016 Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados. Valor Global: R$ 12.218,95 Valor Mensal: R$ 454.46 Valor Empenhado R$ 454,46 ref. ao mes de novembro/2016 Valor a ser empenhado no exercício: R$ 454,46 Vigência: 04/01/2016 a 03/01/2017"
+    },
+    {
+      "numero": "2016NE00745",
+      "contrato": "3/2016",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Termo de Contrato nº 003/2016-SEAS Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Licença de uso de Sistema de Informação, para atender as necessidades da Secretaria de Estado de Assistência Social-SEAS . Valor Global: R$18.000,00 Valor Mensal: R$ 1.500,00 Valor Empenhado R$ 3.0000,00 ref. aos meses de outubro e novembro/2016 Valor a ser empenhado no exercício: R$ 1.500,00 Vigência: 04/01/2016 a 03/01/2017"
+    },
+    {
+      "numero": "2016NE00748",
+      "contrato": "",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Anulação da Nota de Empenho n. 0745/2016, em virtude de Descrição da Vigência incorreta"
+    },
+    {
+      "numero": "2016NE00749",
+      "contrato": "3/2016",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Termo de Contrato nº 003/2016-SEAS Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Licença de uso de Sistema de Informação, para atender as necessidades da Secretaria de Estado de Assistência Social-SEAS . Valor Global: R$18.000,00"
+    },
+    {
+      "numero": "2016NE00750",
+      "contrato": "",
+      "valor": 5901.16,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Anulação da Nota de Empenho n. 0747/2016, em virtude de Cronograma de Desembolso incorreto"
+    },
+    {
+      "numero": "2016NE00743",
+      "contrato": "3/2014",
+      "valor": 9997.25,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "2º Termo Aditivo ao Termo de Contrato 03/2014 Objeto: Reequilibrio econômico-financeiro de 10,96% mais prorrogação de prazo Valor Global: R$ 119.967,00 Valor Mensal: R$ 9.997,25 Valor Empenhado R$ 9.997,25 ref. ao mês de novembro/2016 Valor a ser empenhado no exercício R$ 9.997,25 Valor a ser empenhado em 2017 R$ 46.987,08 Vigência: 22/05/2016 a 21/05/2017 Fundamento Legal: Art. 24; XVI; Lei 8.666/93, RDL nº 02/2014, Portaria nº 128/2014-GSEAS, Publicado no DOE Nº 32.779"
+    },
+    {
+      "numero": "2016NE00744",
+      "contrato": "1/2016",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Termo de Contrato n. 001/2016-SEAS. Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Serviços Técnicos em Informática, para atender as necessidades desta Secretaria e suas Unidades. Valor Global: R$ 47.808,00 Valor Mensal: R$ 3.984,00 Valor a ser empenhado no exercício: R$ 3.984,00 Valor Empenhado R$ 3.984,00 ref. ao mês de novembro/2016 Vigência: 04/01/2016 a 03/01/2017."
+    },
+    {
+      "numero": "2016NE00747",
+      "contrato": "10/2016",
+      "valor": 5901.16,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Termo de Contrato nº 10/2016 Objeto: Prestação de serviços para licença de uso de sistema de informação, compreendendo a disponibilização de Gestor de conteúdo Web a essa SEAS, para publicações, noticias, vídeos e imagens via WEBSITE, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2016NE00751",
+      "contrato": "10/2016",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2016",
+      "descricao": "Termo de Contrato nº 10/2016 Objeto: Prestação de serviços para licença de uso de sistema de informação, compreendendo a disponibilização de Gestor de conteúdo Web a essa SEAS, para publicações, noticias, vídeos e imagens via WEBSITE, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2025NE0000783",
+      "contrato": "12/2021",
+      "valor": 25632.2,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2025",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0000790",
+      "contrato": "",
+      "valor": 50028.76,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2025",
+      "descricao": "Anulação do saldo remanescente (50.028,76) do TC.05/2024, pela expiração da vigência: 05/08/2024 a 05/08/2025."
+    },
+    {
+      "numero": "2015NE00758",
+      "contrato": "",
+      "valor": 750.5,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2015",
+      "descricao": "Reconhecimento de Divida. Folha de Informação de Exercícios anteriores nº 0118/2015. Serviços de Licença de uso de sistemas de informação para a disponibilização do Sistema de Protocolo em plataforma Web (Sproweb), referente ao mês de novembro/2014, NFs-e nº 12574 emitida em 24/11/2014, do Termo de Contrato nº 011/2014-SEAS."
+    },
+    {
+      "numero": "2015NE00760",
+      "contrato": "",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2015",
+      "descricao": "Reconhecimento de Divida. Folha de Informação de Exercícios anteriores nº 0118/2015. Serviços de Licença de uso de sistemas de informação para a disponibilização do Sistema de Protocolo em plataforma Web (Sproweb), referente ao mês de novembro/2014, NFs-e nº 12574 emitida em 24/11/2014, do Termo de Contrato nº 011/2014-SEAS."
+    },
+    {
+      "numero": "2015NE00757",
+      "contrato": "",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2015",
+      "descricao": "Reconhecimento de Divida. Folha de Informação de Exercícios anteriores nº 0120/2015. Serviços de Rede, compreendendo a disponibilidade de acesso a rede de Governo, referente ao mês de novembro/2014, NFs-e nº 12525 emitida em 14/11/2014, do Termo de Contrato nº 003/2014-SEAS."
+    },
+    {
+      "numero": "2015NE00759",
+      "contrato": "",
+      "valor": 750.5,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2015",
+      "descricao": "Anulação da Nota de Empenho n. 0758/2015, em virtude de valor estar incorreto."
+    },
+    {
+      "numero": "2022NE0000617",
+      "contrato": "",
+      "valor": 1383.71,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2022",
+      "descricao": "Anulação parcial de Saldo da Nota de Empenho nº 2022NE0000026, devido à valor empenhado à maior."
+    },
+    {
+      "numero": "2023NE0000632",
+      "contrato": "",
+      "valor": 42319.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Anulação do saldo remanescente do contrato: 03/2021, para ajuste orçamentário."
+    },
+    {
+      "numero": "2023NE0000635",
+      "contrato": "12/2021",
+      "valor": 215709.93,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 012/2021 AD: 01."
+    },
+    {
+      "numero": "2023NE0000638",
+      "contrato": "7/2021",
+      "valor": 3007.64,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 007/2021 AD: 01."
+    },
+    {
+      "numero": "2023NE0000636",
+      "contrato": "1/2021",
+      "valor": 2462.98,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 001/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000637",
+      "contrato": "3/2021",
+      "valor": 43460.82,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de manutenção de PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FAREWALL em relação a internet. TC: 003/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000633",
+      "contrato": "5/2019",
+      "valor": 14467.49,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 005/2019 AD: 03."
+    },
+    {
+      "numero": "2021NE0000218",
+      "contrato": "",
+      "valor": 666.94,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2021",
+      "descricao": "ANULAÇÃO do SALDO remanescente do 4º Termo Aditivo ao Contrato nº 003/2016-SEAS. Objeto do Contrato: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2021NE0000538",
+      "contrato": "3/2021",
+      "valor": 36173.2,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2021",
+      "descricao": "Reforço da 2021NE000316 - Contrato nº 03/2021 ¿ DL/Portaria nº 109/2021- DOE nº 34.482, de 15/04/2021, fl.01 e 16 ¿ Prestação de serviços de forma Eventual e Gestão de segurança e ativos de rede. Artigo 16 - Lei 8.666/93 - Vigência: 03.05.2021 até 03.05.2022"
+    },
+    {
+      "numero": "2021NE0000537",
+      "contrato": "1/2021",
+      "valor": 8843.72,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2021",
+      "descricao": "Reforço da 2021NE000031 - Contrato 01/2021 - Prestação de serviços de execução de Sistema de Protocolo em plataforma WEB (SPROWEB), vigência: 01/02/2021 até 01/02/2022"
+    },
+    {
+      "numero": "2021NE0000536",
+      "contrato": "5/2019",
+      "valor": 52267.48,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2021",
+      "descricao": "Reforço da 2021NE000476 - 2º Aditivo ao Termo de Contrato nº 005/2019-SEAS. Serviços de Acesso à Internet por Fibra Ótica com garantia de 100% em download e upload, para atender as necessidades da SEAS e suas Unidades. Vigência: 02/08/2021 a 01/08/2022."
+    },
+    {
+      "numero": "2020NE00447",
+      "contrato": "",
+      "valor": 127205.51,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2020",
+      "descricao": "ANUALÇÃO saldo remanescente do 3º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das Organizações, atendendo o disposto na Comunicação 14 de 16/11/2020-SEFAZ/AM"
+    },
+    {
+      "numero": "2021NE0000745",
+      "contrato": "",
+      "valor": 6000.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2021",
+      "descricao": "Anulação de saldo remanescente do contrato nº 01/2021- referente aos meses de fevereiro a setembro/2021 para ajuste orçamentário do exercício 2021"
+    },
+    {
+      "numero": "2021NE0000746",
+      "contrato": "",
+      "valor": 30000.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2021",
+      "descricao": "Anulação de saldo remanescente do contrato nº 03/2021- referente aos meses de maio a agosto/2021 para ajuste orçamentário do exercício 2021"
+    },
+    {
+      "numero": "2021NE0000744",
+      "contrato": "",
+      "valor": 166272.75,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2021",
+      "descricao": "Ajuste"
+    },
+    {
+      "numero": "2022NE0000661",
+      "contrato": "3/2021",
+      "valor": 21854.52,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2022",
+      "descricao": "Saldo - 1º Aditivo ao Termo de Contrato nº 003/2021-SEAS. Objeto: Prestação de serviços de manutenção do serviço PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FIREWALL em ralação a internet."
+    },
+    {
+      "numero": "2023NE0000498",
+      "contrato": "5/2019",
+      "valor": 28934.98,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 005/2019 AD: 03."
+    },
+    {
+      "numero": "2025NE0000342",
+      "contrato": "5/2024",
+      "valor": 58313.26,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2025",
+      "descricao": "Contratação de empresa prestadora de serviços de tecnologia da informação, para atender as necessidades desta SEAS."
+    },
+    {
+      "numero": "2025NE0000341",
+      "contrato": "12/2021",
+      "valor": 71837.72,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2025",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 03."
+    },
+    {
+      "numero": "2020NE00014",
+      "contrato": "3/2016",
+      "valor": 8100.65,
+      "situacao": "Ativo",
+      "data_emissao": "14/01/2020",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2020NE00017",
+      "contrato": "3/2016",
+      "valor": 8100.65,
+      "situacao": "Ativo",
+      "data_emissao": "14/01/2020",
+      "descricao": "4º Termo Aditivo ao Contrato nº 003/2016 -SEAS. Objeto:Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2020NE00016",
+      "contrato": "",
+      "valor": 8100.65,
+      "situacao": "Ativo",
+      "data_emissao": "14/01/2020",
+      "descricao": "Anulação da NE nº 0014/2020, por erro de descrição."
+    },
+    {
+      "numero": "2024NE0000843",
+      "contrato": "",
+      "valor": 37251.14,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2024",
+      "descricao": "Anulação saldo remanescente de do TC. 012/2021 Aditivo Nº 02, em cumprimento ao Decreto Estadual nº 50.522/2024 de 22/10/2024."
+    },
+    {
+      "numero": "2024NE0000845",
+      "contrato": "",
+      "valor": 19228.39,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2024",
+      "descricao": "Anulação saldo remanescente do TC. 05/2024, em cumprimento ao Decreto Estadual nº 50.522/2024 de 22/10/2024."
+    },
+    {
+      "numero": "2024NE0000844",
+      "contrato": "",
+      "valor": 17436.36,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2024",
+      "descricao": "Anulação saldo remanescente de do TC. 012/2021 Aditivo Nº 02, em cumprimento ao Decreto Estadual nº 50.522/2024 de 22/10/2024."
+    },
+    {
+      "numero": "2022NE0000660",
+      "contrato": "",
+      "valor": 21854.52,
+      "situacao": "Ativo",
+      "data_emissao": "13/09/2022",
+      "descricao": "Anulação parcial de saldo da Nota de Empenho nº 2022NE0000222, referente a NE de Reforço nº 2022NE0000654, para correção no tipo de empenho."
+    },
+    {
+      "numero": "2014NE00290",
+      "contrato": "3/2014",
+      "valor": 43506.9,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2014",
+      "descricao": "Contrato No. 3/2014"
+    },
+    {
+      "numero": "2019NE00028",
+      "contrato": "",
+      "valor": 4563.75,
+      "situacao": "Ativo",
+      "data_emissao": "13/01/2019",
+      "descricao": "Anulação da Ne nº 010/2018, por erro de descrição."
+    },
+    {
+      "numero": "2019NE00010",
+      "contrato": "3/2016",
+      "valor": 4563.75,
+      "situacao": "Ativo",
+      "data_emissao": "13/01/2019",
+      "descricao": "Serviços de Licenciamento de Softwares, Licença de Uso de Sistema de Protocolo em Plataforma Web."
+    },
+    {
+      "numero": "2016NE00048",
+      "contrato": "3/2016",
+      "valor": 9000.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/01/2016",
+      "descricao": "Termo de Contrato a ser firmado Objeto: Empresa especializada na prestação de serviços de execução de sistema de Protocolo"
+    },
+    {
+      "numero": "2019NE00284",
+      "contrato": "",
+      "valor": 50.52,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2019",
+      "descricao": "Reforço da NE nº 222/2019. 3º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto: Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2014NE00810",
+      "contrato": "49/2010",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2014",
+      "descricao": "Contrato No. 49/2010 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2022NE0000569",
+      "contrato": "5/2019",
+      "valor": 14467.49,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2022",
+      "descricao": "3º Termo Aditivo ao Contrato nº 005/2019-SEAS. Objeto: Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM."
+    },
+    {
+      "numero": "2023NE0000483",
+      "contrato": "1/2021",
+      "valor": 2462.98,
+      "situacao": "Ativo",
+      "data_emissao": "12/06/2023",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 001/2021 AD: 02."
+    },
+    {
+      "numero": "2018NE00246",
+      "contrato": "3/2014",
+      "valor": 72664.2,
+      "situacao": "Ativo",
+      "data_emissao": "12/06/2018",
+      "descricao": "Serviços de Link de Comunicação para Atender as Necessidades da SEAS."
+    },
+    {
+      "numero": "2018NE00198",
+      "contrato": "16/2017",
+      "valor": 300433.7,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2018",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E HOSPEDAGEM DE SISTEMAS DE INFORMAÇÕES PARA IMPLANTAÇÃO DAS PLATAFORMAS ELETRÔNICAS SOBRE O COFINANCIAMENTO ESTADUAL E MARCO REGULATÓRIO DAS ORGANIZAÇÕES DA SOCIEDADE CIVIL - MROSC"
+    },
+    {
+      "numero": "2020NE00138",
+      "contrato": "",
+      "valor": 0.6,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2020",
+      "descricao": "Anulação saldo remanescente do 3º TAC nº 03/16 - serviço SproWeb. PRODAM"
+    },
+    {
+      "numero": "2015NE00515",
+      "contrato": "3/2014",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2015",
+      "descricao": "Termo de Contrato 03/2014"
+    },
+    {
+      "numero": "2015NE00512",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+    },
+    {
+      "numero": "2019NE00029",
+      "contrato": "10/2016",
+      "valor": 4563.75,
+      "situacao": "Ativo",
+      "data_emissao": "11/01/2019",
+      "descricao": "Serviços de Licenciamento de Softwares, Licença de Uso de Sistema de Protocolo em Plataforma Web."
+    },
+    {
+      "numero": "2023NE0000816",
+      "contrato": "5/2019",
+      "valor": 27970.49,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0000817",
+      "contrato": "1/2021",
+      "valor": 3694.47,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2023",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 001/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000818",
+      "contrato": "7/2021",
+      "valor": 6295.05,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2023",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2021NE0000602",
+      "contrato": "",
+      "valor": 1939.12,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2021",
+      "descricao": "Anulação da NE 00017/2021, referente ao saldo remanescente do 3º Aditivo ao Contrato nº 16/2017 do período de janeiro/2021"
+    },
+    {
+      "numero": "2021NE0000527",
+      "contrato": "7/2021",
+      "valor": 8803.46,
+      "situacao": "Ativo",
+      "data_emissao": "10/08/2021",
+      "descricao": "Termo de Contrato nº 07/2021 Objeto: Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2019NE00102",
+      "contrato": "",
+      "valor": 62933.5,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2019",
+      "descricao": "Anulação de Saldo Remanescente do 1º trimestre de 2019, referente ao 1º Termo Aditivo ao Contrato nº 016/2017-SEAS."
+    },
+    {
+      "numero": "2025NE0000162",
+      "contrato": "12/2021",
+      "valor": 143675.44,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0000164",
+      "contrato": "5/2024",
+      "valor": 58313.26,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "Contratação de empresa especializada em serviços de tecnologia da informação, para atender as necessidades desta SEAS."
+    },
+    {
+      "numero": "2022NE0000654",
+      "contrato": "3/2021",
+      "valor": 21854.52,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2022",
+      "descricao": "Saldo - 1º Aditivo ao Termo de Contrato nº 003/2021-SEAS. Objeto: Prestação de serviços de manutenção do serviço PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FIREWALL em ralação a internet."
+    },
+    {
+      "numero": "2021NE0000526",
+      "contrato": "",
+      "valor": 8803.46,
+      "situacao": "Ativo",
+      "data_emissao": "09/08/2021",
+      "descricao": "Anulação total que se faz a NE, por erro na descrição da despesa o correto seria Celebração e não Aditivo de Contrato."
+    },
+    {
+      "numero": "2017NE00094",
+      "contrato": "",
+      "valor": 5734.7,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2017",
+      "descricao": "Anulação que se faz para correção na descrição da NE 00074."
+    },
+    {
+      "numero": "2017NE00095",
+      "contrato": "3/2016",
+      "valor": 5734.7,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2015NE00015",
+      "contrato": "49/2010",
+      "valor": 11952.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00014",
+      "contrato": "49/2010",
+      "valor": 11952.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/01/2015",
+      "descricao": "Anulação que se faz a n.e 07, por erro de digitação na modalidade do tipo de licitação"
+    },
+    {
+      "numero": "2015NE00049",
+      "contrato": "3/2014",
+      "valor": 26104.14,
+      "situacao": "Ativo",
+      "data_emissao": "09/01/2015",
+      "descricao": "Termo de Contrato nº 03/2014"
+    },
+    {
+      "numero": "2022NE0000652",
+      "contrato": "1/2021",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2022",
+      "descricao": "1º Termo Aditivo ao Contrato nº 001/2021-SEAS. Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 meses."
+    },
+    {
+      "numero": "2015NE00755",
+      "contrato": "",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2015",
+      "descricao": "Reconhecimento de Divida. Folha de Informação de Exercícios anteriores nº 0117/2015. Serviços de Licença de uso de Sistemas de Informação para a disponibilização do Sistema de Protocolo em plataforma Web (Sproweb), referente ao mês de dezembro/2014, NFs-e nº 12959 emitida em 17/12/2014, do Termo de Contrato nº 11/2014-SEAS."
+    },
+    {
+      "numero": "2018NE00289",
+      "contrato": "10/2016",
+      "valor": 7058.43,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2018",
+      "descricao": "Ref: A serviços de Licença de Uso de Sistemas de Informática que compreende o Gestor Web para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2016NE00771",
+      "contrato": "",
+      "valor": 19525.93,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Anulação que se faz a n.e 19, para cobrir outras despesas"
+    },
+    {
+      "numero": "2022NE0000769",
+      "contrato": "1/2021",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2022",
+      "descricao": "Reforço da Nota de Empenho 2022NE0000044. Saldo - 1º Termo Aditivo ao Contrato nº 001/2021-SEAS. Objeto: Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 meses."
+    },
+    {
+      "numero": "2022NE0000768",
+      "contrato": "5/2019",
+      "valor": 28452.73,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2022",
+      "descricao": "REFORÇO DA NE. 000569/2022 3º Termo Aditivo ao Contrato nº 005/2019-SEAS. Objeto: Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM."
+    },
+    {
+      "numero": "2024NE0000305",
+      "contrato": "7/2021",
+      "valor": 4196.7,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2024",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000304",
+      "contrato": "1/2021",
+      "valor": 2462.98,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2024",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000300",
+      "contrato": "",
+      "valor": 20653.32,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2024",
+      "descricao": "Anulação do saldo remanescente do TC.03/2021 AD 02, pelo encerramento do mesmo Prazo de Vigência: 05/2023 - 05/2024 Fundamento Legal: Dispensa de Licitação nº 109/2021, de acordo com Art.24; XVI; Lei 8.666/93, homologação publicada no dia 15/04/2021"
+    },
+    {
+      "numero": "2024NE0000303",
+      "contrato": "5/2019",
+      "valor": 28934.98,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2024",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2017NE00217",
+      "contrato": "1/2016",
+      "valor": 15936.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2017",
+      "descricao": "SERVIÇOS DE MANUTENÇÃO EM EQUIPAMENTOS DE INFORMATICA"
+    },
+    {
+      "numero": "2017NE00218",
+      "contrato": "3/2016",
+      "valor": 6431.44,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2017NE00216",
+      "contrato": "2/2016",
+      "valor": 1948.6,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2017",
+      "descricao": "Sistema de informação compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem website."
+    },
+    {
+      "numero": "2020NE00390",
+      "contrato": "",
+      "valor": 191775.18,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2020",
+      "descricao": "Anulação da 2020NE0009, referente a saldo remanescente do 2º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das Organizações da Sociedade Civil - MROSC. Vigência: 05/09/2019 a 04/09/2020, ajuste orçamentário e encerramento de exercício 2020"
+    },
+    {
+      "numero": "2023NE0000763",
+      "contrato": "7/2021",
+      "valor": 2098.35,
+      "situacao": "Ativo",
+      "data_emissao": "06/09/2023",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000759",
+      "contrato": "5/2019",
+      "valor": 14467.49,
+      "situacao": "Ativo",
+      "data_emissao": "06/09/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0000762",
+      "contrato": "1/2021",
+      "valor": 1231.49,
+      "situacao": "Ativo",
+      "data_emissao": "06/09/2023",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 001/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000760",
+      "contrato": "3/2021",
+      "valor": 14486.94,
+      "situacao": "Ativo",
+      "data_emissao": "06/09/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de manutenção de PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FAREWALL em relação a internet. TC: 003/2021 AD: 02."
+    },
+    {
+      "numero": "2021NE0000516",
+      "contrato": "10/2016",
+      "valor": 8803.46,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2021",
+      "descricao": "5º Termo Aditivo ao Contrato nº 010/2016-SEAS Objeto: Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2020NE00229",
+      "contrato": "10/2016",
+      "valor": 7562.6,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2020",
+      "descricao": "Atender 4º aditivo ao Contrato 10/2016 - Prestação de serviços de provimento acesso a sistema de informação (licença de uso), compreendendo a disponibilização d gestor de conteúdo Web para publicação de informações, noticias, video e imagens via We"
+    },
+    {
+      "numero": "2019NE00221",
+      "contrato": "",
+      "valor": 2470.35,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2019",
+      "descricao": "Anulação da NE nº 220/2019, por erro de descrição."
+    },
+    {
+      "numero": "2019NE00220",
+      "contrato": "10/2016",
+      "valor": 2470.35,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2019",
+      "descricao": "3º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto: Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2019NE00222",
+      "contrato": "10/2016",
+      "valor": 2470.35,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2019",
+      "descricao": "3º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto: Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2021NE0000424",
+      "contrato": "16/2017",
+      "valor": 67000.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/07/2021",
+      "descricao": "REFORÇO PARA ATENDER SALDO DO 3º TERMO ADITIVO AO CONTRATO Nº 016/2017-SEAS.OBJETO: SERVIÇO DE DESENVOLVIMENTO E HOSPEDADGEM DE SISTEMAS DE INFORMAÇÕES PARA IMPLANTAÇÃO DAS PLATAFORMAS ELETRÔNICAS SOBRE O COFINANCIAMENTO ESTADUAL E MARCO REGULATÓRIO DAS ORGANIZAÇÕES DA SOCIEDADE CIVIL MROSC, PERÍODO DE 12 (DOZE) MESES."
+    },
+    {
+      "numero": "2016NE00468",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0220/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores."
+    },
+    {
+      "numero": "2016NE00469",
+      "contrato": "3/2014",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0066/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores."
+    },
+    {
+      "numero": "2016NE00466",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0065/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores."
+    },
+    {
+      "numero": "2016NE00464",
+      "contrato": "",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 119/2016: Necessidade de compra de KITS, modelagem e corte e costura-malharia, para realização dos cursos nos Centros de Convivência da Familia e do Idoso Aparecida,CECI e Iranduba ministrado pelo CETAM, concernente ao Termo de Contrato nº 11/2015-FEAS, conforme DANFE nº 000.000.483 Serie: 1 emitida em 24/11/2015."
+    },
+    {
+      "numero": "2016NE00467",
+      "contrato": "3/2014",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2016",
+      "descricao": "Reconhecimento da Divida - RD nº 0219/2016: Termo de Contrato n. 003/2014-SEAS-Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores."
+    },
+    {
+      "numero": "2016NE00465",
+      "contrato": "",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2016",
+      "descricao": "Anulação da NE 464/2016, em virtude de descrição incorreta."
+    },
+    {
+      "numero": "2024NE0000087",
+      "contrato": "1/2021",
+      "valor": 2462.98,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2024",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000088",
+      "contrato": "7/2021",
+      "valor": 4196.7,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2024",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000086",
+      "contrato": "5/2019",
+      "valor": 28934.98,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2024",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2019NE00433",
+      "contrato": "",
+      "valor": 128420.42,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2019",
+      "descricao": "Anulação Parcial da NE, SALDO CT 16/17 - 2.º TA Natureza da Despesa: 33904003 - Hospedagem de Sistemas. - Natureza da Despesa: 33904003 - Hospedagem de Sistemas, em obediência ao Decreto nº 41.554, de 26/11/2019, que dispõe sobre o encerramento da execução orçamentaria, financeira e contábil do exercício 2019"
+    },
+    {
+      "numero": "2019NE00431",
+      "contrato": "",
+      "valor": 87206.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2019",
+      "descricao": "Anulação total da NE, SALDO CT 16/17 -1.º TA - Natureza da Despesa: 33904003 - Hospedagem de Sistemas, em obediência ao Decreto nº .554, de 26/11/2019, que dispõe sobre o encerramento da execução orçamentaria, financeira e contábil do exercício 2019"
+    },
+    {
+      "numero": "2019NE00432",
+      "contrato": "",
+      "valor": 72555.02,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2019",
+      "descricao": "Anulação total da NE, SALDO CT 16/17 -1.º TA - Natureza da Despesa: 33904003 - Hospedagem de Sistemas, em obediência ao Decreto nº .554, de 26/11/2019, que dispõe sobre o encerramento da execução orçamentaria, financeira e contábil do exercício 2019"
+    },
+    {
+      "numero": "2022NE0000767",
+      "contrato": "",
+      "valor": 1176.36,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2022",
+      "descricao": "Anulação saldo remanescente do contrato 12/2021, pelo seu encerramento, ajuste orçamentário para o encerramento do exercício."
+    },
+    {
+      "numero": "2021NE0000836",
+      "contrato": "12/2021",
+      "valor": 296662.22,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2021",
+      "descricao": "Contrato de Prestação de serviços de processamento de dados para geração de relação de benefícios e gestão das entregas do cartão Auxílio Emergencial a famílias com vulnerabilidade social,"
+    },
+    {
+      "numero": "2024NE0000552",
+      "contrato": "5/2024",
+      "valor": 145783.15,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2024",
+      "descricao": "Contratação de empresa especializada em serviços de tecnologia da informação, para atender as necessidades desta SEAS."
+    },
+    {
+      "numero": "2020NE00228",
+      "contrato": "",
+      "valor": 64046.32,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2020",
+      "descricao": "Anulação parcial de saldo remanescente do Contrato nº 16/2017 - parcela de janeiro e fevereiro/2020 - prestação de serviços de desenvolvimento e hospedagem de sistema de informação para implantação das plataformas - MIROSC"
+    },
+    {
+      "numero": "2024NE0000381",
+      "contrato": "12/2021",
+      "valor": 143675.44,
+      "situacao": "Ativo",
+      "data_emissao": "05/06/2024",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 02."
+    },
+    {
+      "numero": "2016NE00528",
+      "contrato": "3/2014",
+      "valor": 12663.18,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2016",
+      "descricao": "2º Termo Aditivo ao Contrato nº 03/2014 Objeto: Prestação de serviços de técnicos em telecomunicações com banda de 3 Mbps"
+    },
+    {
+      "numero": "2026NE0000042",
+      "contrato": "2/2026",
+      "valor": 280460.71,
+      "situacao": "Ativo",
+      "data_emissao": "05/02/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO, DESENVOLVIMENTO, HOSPEDAGEM DE SISTEMA E ACESSO À ARMAZEM DE INFORMAÇÃO PARA GEREÇÃO DE RELAÇÃO DE BENEFICIÁRIOS E ENTREGAS DO CARTÃO AUXÍLIO, EM ATENDIMENTO AS NECESSIDADES DA SEAS"
+    },
+    {
+      "numero": "2026NE0000003",
+      "contrato": "5/2024",
+      "valor": 121792.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa prestadora de serviços de tecnologia da informação, para atender as necessidades desta SEAS. TC: 0005/2024 AD: 01."
+    },
+    {
+      "numero": "2015NE00005",
+      "contrato": "11/2014",
+      "valor": 4500.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Serviços de Licenças de softwares"
+    },
+    {
+      "numero": "2015NE00007",
+      "contrato": "49/2010",
+      "valor": 11952.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Prestação de serviços de informática"
+    },
+    {
+      "numero": "2017NE00468",
+      "contrato": "16/2017",
+      "valor": 136935.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2017",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E HOSPEDAGEM DE SISTEMAS DE INFORMAÇÕES PARA IMPLANTAÇÃO DAS PLATAFORMAS ELETRÔNICAS SOBRE O COFINANCIAMENTO ESTADUAL E MARCO REGULATÓRIO DAS ORGANIZAÇÕES DA SOCIEDADE CIVIL - MROSC"
+    },
+    {
+      "numero": "2017NE00466",
+      "contrato": "16/2017",
+      "valor": 136935.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2017",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E HOSPEDAGEM DE SISTEMAS DE INFORMAÇÕES PARA IMPLANTAÇÃO DAS PLATAFORMAS ELETRÔNICAS SOBRE O COFINANCIAMENTO ESTADUAL E MARCO REGULATÓRIO DAS ORGANIZAÇÕES DA SOCIEDADE CIVIL - MROSC"
+    },
+    {
+      "numero": "2017NE00467",
+      "contrato": "",
+      "valor": 136935.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2017",
+      "descricao": "ANULAÇÃO DA NE Nº 466 POR ERRO DA NATUREZA DE DESPESA."
+    },
+    {
+      "numero": "2017NE00465",
+      "contrato": "",
+      "valor": 136935.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2017",
+      "descricao": "ANULAÇÃO DA NE Nº 461/2017, POR ERRO DE DESCRIÇÃO."
+    },
+    {
+      "numero": "2017NE00461",
+      "contrato": "16/2017",
+      "valor": 136935.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2017",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E HOSPEDAGEM DE SISTEMAS DE INFORMAÇÕES PARA IMPLANTAÇÃO DAS PLATAFORMAS ELETRÔNICAS SOBRE O COFINANCIAMENTO ESTADUAL E MARCO REGULATÓRIO DAS ORGANIZAÇÕES DA SOCIEDADE CIVIL - MROSC"
+    },
+    {
+      "numero": "2023NE0000705",
+      "contrato": "5/2019",
+      "valor": 15431.98,
+      "situacao": "Ativo",
+      "data_emissao": "04/08/2023",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2020NE00136",
+      "contrato": "",
+      "valor": 741.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2020",
+      "descricao": "Anulação saldo remanescente do 3º TAC nº 03/16 - serviço SproWeb. PRODAM"
+    },
+    {
+      "numero": "2017NE00026",
+      "contrato": "2/2016",
+      "valor": 1948.6,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2017",
+      "descricao": "Sistema de informação compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem website."
+    },
+    {
+      "numero": "2016NE00029",
+      "contrato": "",
+      "valor": 9000.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Anulação que se faz a n.e. 00020, por erro de digitação na vigência do contrato"
+    },
+    {
+      "numero": "2016NE00020",
+      "contrato": "10/2016",
+      "valor": 9000.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Termo de Contrato a ser firmado. Objeto: Contratação de pessoa jurídica especializada na Prestação de Serviços de execução do Sistema de Protocolo em Plataforma Web (SPROWEB), para atender as desta Secretaria de Estado de Assistência Social-SEAS"
+    },
+    {
+      "numero": "2016NE00019",
+      "contrato": "1/2016",
+      "valor": 23904.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Termo de Contrato a ser firmado. Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Serviços Técnicos em Informática, para atender as necessidades desta Secretaria e suas Unidades."
+    },
+    {
+      "numero": "2016NE00022",
+      "contrato": "2/2016",
+      "valor": 9492.19,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Termo de Contrato a ser firmado. Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados."
+    },
+    {
+      "numero": "2016NE00676",
+      "contrato": "3/2014",
+      "valor": 29991.75,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "2 Aditivo ao Termo de Contrato n 03-2014"
+    },
+    {
+      "numero": "2016NE00675",
+      "contrato": "",
+      "valor": 29991.75,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "Anulação da NE 0673/2016, em virtude de descrição incorreta"
+    },
+    {
+      "numero": "2016NE00675",
+      "contrato": "",
+      "valor": 29991.75,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "Anulação da NE 0673/2016, em virtude de descrição incorreta"
+    },
+    {
+      "numero": "2016NE00676",
+      "contrato": "3/2014",
+      "valor": 29991.75,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "2 Aditivo ao Termo de Contrato n 03-2014"
+    },
+    {
+      "numero": "2021NE0000586",
+      "contrato": "16/2017",
+      "valor": 50845.92,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2021",
+      "descricao": "4º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Financiamento Estadual e Marco Regulatório das Organizações"
+    },
+    {
+      "numero": "2018NE00341",
+      "contrato": "16/2017",
+      "valor": 142144.86,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2018",
+      "descricao": "1º TAC n.º 016/2017-SEAS, acerca dos serviços de desenvolvimento e hospedagem de sistemas."
+    },
+    {
+      "numero": "2024NE0000474",
+      "contrato": "7/2021",
+      "valor": 3004.64,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000473",
+      "contrato": "1/2021",
+      "valor": 2462.98,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000472",
+      "contrato": "5/2019",
+      "valor": 14467.49,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0000334",
+      "contrato": "3/2021",
+      "valor": 14486.94,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de manutenção de PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FAREWALL em relação a internet. TC: 003/2021 AD: 02."
+    },
+    {
+      "numero": "2022NE0000259",
+      "contrato": "",
+      "valor": 817.9,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2022",
+      "descricao": "Execução de sistemas SISTEMA: Sist. de Recursos Humanos e Folha Faturamento mínimo por folha - até 200 funcionários processados, conforme PARECER Nº 331/2021 – ASSEJUR/SEAS"
+    },
+    {
+      "numero": "2022NE0000257",
+      "contrato": "",
+      "valor": 817.14,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2022",
+      "descricao": "Execução de sistemas SISTEMA: Sist. de Recursos Humanos e Folha Faturamento mínimo por folha - até 200 funcionários processados, conforme PARECER Nº 329/2021 – ASSEJUR/SEAS"
+    },
+    {
+      "numero": "2022NE0000023",
+      "contrato": "5/2019",
+      "valor": 52267.48,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "PRORROGAÇÃO DE PRAZO DE VIGÊNCIA CONTRATUAL POR MAIS 12 MESES."
+    },
+    {
+      "numero": "2022NE0000021",
+      "contrato": "1/2021",
+      "valor": 2210.93,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Prestação de serviços de execução de Sistema de Protocolo em plataforma WEB (SPROWEB), objetivando o controle e acompanhamento do registro de todos os doumentos ou processos desta SEAS."
+    },
+    {
+      "numero": "2022NE0000024",
+      "contrato": "7/2021",
+      "valor": 7580.76,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2022NE0000026",
+      "contrato": "12/2021",
+      "valor": 296662.22,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contrato de Prestação de serviços de processamento de dados para geração de relação de benefícios e gestão das entregas do cartão Auxílio Emergencial a famílias com vulnerabilidade social,"
+    },
+    {
+      "numero": "2022NE0000029",
+      "contrato": "1/2021",
+      "valor": 3503.52,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 meses."
+    },
+    {
+      "numero": "2022NE0000028",
+      "contrato": "3/2021",
+      "valor": 47434.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contrato nº 03/2021 – DL/Portaria nº 109/2021- DOE nº 34.482, de 15/04/2021, fl.01 e 16 – Prestação de serviços de forma Eventual e Gestão de segurança e ativos de rede. Artigo 16 - Lei 8.666/93"
+    },
+    {
+      "numero": "2022NE0000040",
+      "contrato": "",
+      "valor": 3503.52,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Anulação da NE nº 00029/2022, por a erro de descrição."
+    },
+    {
+      "numero": "2022NE0000038",
+      "contrato": "16/2017",
+      "valor": 50845.92,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "4º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto do Contrato: Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Financiamento Estadual e Marco Regulatório das Organizações"
+    },
+    {
+      "numero": "2022NE0000041",
+      "contrato": "1/2021",
+      "valor": 3503.52,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "1º Aditivo ao Termo de Contrato 01/2021 Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 meses."
+    },
+    {
+      "numero": "2019NE00265",
+      "contrato": "16/2017",
+      "valor": 32802.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "Serviço de Desenvolvimento e Hospedagem de Sistemas de Informações- 2º Termo Aditivo ao Contrato 016/2017"
+    },
+    {
+      "numero": "2015NE00754",
+      "contrato": "",
+      "valor": 3944.81,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2015",
+      "descricao": "Reconhecimento de Divida folha de informação de exercicio anteriores nº 0121/2015. Prestação de Serviços eventuais (reparação e manutenção de computadores e equipamentos , referente ao mês de outubro/2014, NFs-e nº 12526 emitida em 14/11/2014, do 4º Termo Aditivo ao Termo de Contrato nº 49/2015."
+    },
+    {
+      "numero": "2015NE00747",
+      "contrato": "49/2010",
+      "valor": 23904.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2015",
+      "descricao": "4º Termo Aditivo ao Contrato 049/2010 Objeto: Reajuste de 6,24% e prorrogação de prazo por mais 12 meses. Valor global: R$ 47.000,00 Valor mensal: 3.984,00 Vigência: 24/09/2014 a 23/09/2015 Fundamento legal: Dispensa de Licitação Portaria 277/2010-GSEAS, Publicada no DOE nº 31.896 de 18/08/2010"
+    },
+    {
+      "numero": "2015NE00753",
+      "contrato": "",
+      "valor": 779.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2015",
+      "descricao": "Reconhecimento de Divida folha de informação de exercicio anteriores nº 0119/2015. Prestação de Serviços de licença de uso de informação do sistema protocolo Delphi cessão em uso do sproweb tramitação 1.501 atté 3.00 tramitações, referente ao mês de outubro/2014, NFs-e nº 12276 emitida em 23/10/2014. Contrato nº 011/2014"
+    },
+    {
+      "numero": "2019NE00217",
+      "contrato": "",
+      "valor": 19888.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2019",
+      "descricao": "Anulação da NE nº 201/2019 por erro de descrição."
+    },
+    {
+      "numero": "2019NE00210",
+      "contrato": "",
+      "valor": 696.74,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2019",
+      "descricao": "Anulação saldo remanescente do contrato 03/16 SPROWEB"
+    },
+    {
+      "numero": "2019NE00219",
+      "contrato": "5/2019",
+      "valor": 26517.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2019",
+      "descricao": "Termo de Contrato nº 005/2019 - SEAS. Objeto: Contratação de Pessoa Jurídica Especializada no Serviços de Acesso a Internet por Fibra Ótica com com garantia de 100% em download e upload, para atender as necessidades da SEAS e suas Unidades."
+    },
+    {
+      "numero": "2019NE00218",
+      "contrato": "",
+      "valor": 2473.35,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2019",
+      "descricao": "Anulação da NE nº 196/2019, por erro de descrição."
+    },
+    {
+      "numero": "2017NE00430",
+      "contrato": "10/2016",
+      "valor": 3819.81,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2017",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website."
+    },
+    {
+      "numero": "2017NE00410",
+      "contrato": "10/2016",
+      "valor": 540.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2017",
+      "descricao": "SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMÁTICA, DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB"
+    },
+    {
+      "numero": "2020NE00189",
+      "contrato": "3/2016",
+      "valor": 881.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2020",
+      "descricao": "Referente ao Reconhecimento de Divida-RD Nº 0001/2020, Contrato nº 3/2016, NF Nº 5616, referente ao mês de dezembro/2016."
+    },
+    {
+      "numero": "2017NE00071",
+      "contrato": "",
+      "valor": 5734.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2017",
+      "descricao": "Anulação da NE 065/2017, em virtude de descrição incorreta"
+    },
+    {
+      "numero": "2017NE00073",
+      "contrato": "",
+      "valor": 5734.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2017",
+      "descricao": "Anulação da NE 072/2017, em virtude de descrição incorreta"
+    },
+    {
+      "numero": "2017NE00074",
+      "contrato": "3/2016",
+      "valor": 5734.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2017NE00072",
+      "contrato": "3/2016",
+      "valor": 5734.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2024NE0000036",
+      "contrato": "1/2021",
+      "valor": 1231.49,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2024",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 0001/2021 AD: 03."
+    },
+    {
+      "numero": "2018NE00129",
+      "contrato": "3/2014",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2018",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2018NE00130",
+      "contrato": "10/2016",
+      "valor": 10685.99,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2018",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website."
+    },
+    {
+      "numero": "2018NE00136",
+      "contrato": "3/2014",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2018",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2018NE00135",
+      "contrato": "",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2018",
+      "descricao": "Anulação da NE 0129/2018, me virtude de descrição incorreta."
+    },
+    {
+      "numero": "2018NE00137",
+      "contrato": "",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2018",
+      "descricao": "Anulação da NE 0136/2018, em virtude de Natureza incorreta."
+    },
+    {
+      "numero": "2025NE0000007",
+      "contrato": "5/2024",
+      "valor": 58305.26,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada em serviços de tecnologia da informação, para atender as necessidades desta SEAS."
+    },
+    {
+      "numero": "2024NE0000006",
+      "contrato": "5/2019",
+      "valor": 28934.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de Serviços de rede, contemplando o fornecimento de circuito de transmissão de dados, contemplando manutenção à metromao, através de rede de governo, por meio de fibra ótica, para atender a SEAS e o JACAMIM. TC: 0005/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000005",
+      "contrato": "3/2021",
+      "valor": 22095.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de manutenção de PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FAREWALL em relação a internet. TC: 0003/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000009",
+      "contrato": "12/2021",
+      "valor": 143675.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social. TC: 0012/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000007",
+      "contrato": "1/2021",
+      "valor": 1231.49,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada n prestação dos serviços de licença de uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 Meses. TC: 0001/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000008",
+      "contrato": "7/2021",
+      "valor": 4196.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website. TC: 0007/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000013",
+      "contrato": "1/2021",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS, pelo período de 12 meses."
+    },
+    {
+      "numero": "2023NE0000014",
+      "contrato": "3/2021",
+      "valor": 43708.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Saldo - 1º Aditivo ao Termo de Contrato nº 003/2021-SEAS. Prestação de serviços de manutenção do serviço PROXY, serviço de segurança da informação, serviço de regras de acesso e serviços de FIREWALL em ralação a internet."
+    },
+    {
+      "numero": "2023NE0000016",
+      "contrato": "12/2021",
+      "valor": 287613.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "1º Termo Aditivo ao Contrato nº 012/2021-SEAS. Contrato de prestação de serviços de processamento de dados para a geração de relação de benefícios e gestão das entregas do cartão emergencial a famílias com vulnerabilidade social."
+    },
+    {
+      "numero": "2023NE0000020",
+      "contrato": "7/2021",
+      "valor": 8393.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Saldo - 1º Termo Aditivo ao Contrato nº 007/2021-SEAS. Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website."
+    },
+    {
+      "numero": "2020NE00009",
+      "contrato": "16/2017",
+      "valor": 182237.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das OSC’s."
+    },
+    {
+      "numero": "2020NE00008",
+      "contrato": "3/2016",
+      "valor": 741.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Serviços de Licenciamento de Softwares, Licença de Uso de Sistema de Protocolo em Plataforma Web."
+    },
+    {
+      "numero": "2020NE00003",
+      "contrato": "10/2016",
+      "valor": 7562.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2020NE00001",
+      "contrato": "5/2019",
+      "valor": 66294.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de Pessoa Jurídica Especializada no Serviços de Acesso a Internet por Fibra Ótica com com garantia de 100% em download e upload, para atender as necessidades da SEAS e suas Unidades."
+    },
+    {
+      "numero": "2020NE00011",
+      "contrato": "3/2016",
+      "valor": 8100.65,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Licença de Uso de Sistema de Informação SPROWEB, para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2020NE00012",
+      "contrato": "",
+      "valor": 8100.65,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Anulação da NE Nº 11 por erro de digitação na data da Nota de Empenho"
+    },
+    {
+      "numero": "2019NE00005",
+      "contrato": "10/2016",
+      "valor": 4537.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2019NE00003",
+      "contrato": "3/2016",
+      "valor": 696.74,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB."
+    },
+    {
+      "numero": "2019NE00004",
+      "contrato": "3/2014",
+      "valor": 29862.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Serviços de Link de Comunicação para Atender as Necessidades da SEAS."
+    },
+    {
+      "numero": "2019NE00006",
+      "contrato": "16/2017",
+      "valor": 109342.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de Empresa Especializada na Prestação dos Serviços de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das OSCs."
+    },
+    {
+      "numero": "2018NE00051",
+      "contrato": "10/2016",
+      "valor": 10685.99,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website."
+    },
+    {
+      "numero": "2018NE00064",
+      "contrato": "3/2014",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2018NE00052",
+      "contrato": "3/2014",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2018NE00063",
+      "contrato": "",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Anulação da NE 052/2018, em virtude de descrição incorreta."
+    },
+    {
+      "numero": "2017NE00004",
+      "contrato": "3/2014",
+      "valor": 39989.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2017NE00021",
+      "contrato": "1/2016",
+      "valor": 15936.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SERVIÇOS DE MANUTENÇÃO EM EQUIPAMENTOS DE INFORMATICA"
+    },
+    {
+      "numero": "2017NE00005",
+      "contrato": "10/2016",
+      "valor": 5901.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMATICA, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTICIAS, VIDEOS E IMAGENS WEBSITE."
+    },
+    {
+      "numero": "2017NE00609",
+      "contrato": "10/2016",
+      "valor": 1450.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website."
+    },
+    {
+      "numero": "2017NE00607",
+      "contrato": "3/2014",
+      "valor": 9954.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2017NE00610",
+      "contrato": "3/2016",
+      "valor": 1607.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2017NE00625",
+      "contrato": "",
+      "valor": 1.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 004/2017, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ DE 12 DE DEZEMBRO, EM VIRTUDE DE ENCERRAMENTO DE EXERCÍCIO."
+    },
+    {
+      "numero": "2017NE00611",
+      "contrato": "2/2016",
+      "valor": 487.15,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Sistema de informação compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem website."
+    },
+    {
+      "numero": "2017NE00613",
+      "contrato": "1/2016",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "SERVIÇOS DE MANUTENÇÃO EM EQUIPAMENTOS DE INFORMATICA"
+    },
+    {
+      "numero": "2017NE00631",
+      "contrato": "",
+      "valor": 445.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 095/2017, CONFORME INSTRUÇÃO NORMATIVA Nº 0001/2017-GSEFAZ DE 12 DE DEZEMBRO, EM VIRTUDE DE ENCERRAMENTO DE EXERCÍCIO."
+    },
+    {
+      "numero": "2016NE00765",
+      "contrato": "3/2016",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Termo de Contrato nº 003/2016-SEAS Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Licença de uso de Sistema de Informação, para atender as necessidades da Secretaria de Estado de Assistência Social-SEAS . Valor Global: R$18.000,00"
+    },
+    {
+      "numero": "2016NE00759",
+      "contrato": "",
+      "valor": 13830.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Anulação da n.e 756, para atender outras despesas."
+    },
+    {
+      "numero": "2016NE00766",
+      "contrato": "1/2016",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Termo de Contrato nº 10/2016 Objeto: Prestação de serviços para licença de uso de sistema de informação, compreendendo a disponibilização de Gestor de conteúdo Web a essa SEAS, para publicações, noticias, vídeos e imagens via WEBSITE, de acordo com o padrão de comunicação visual do Governo do Estado. Valor Global: R$ 20.755,88 Valor Mensal: R$ 1.475,29 Valor empenhado referente aos meses de dezeembro de 2016."
+    },
+    {
+      "numero": "2016NE00764",
+      "contrato": "3/2014",
+      "valor": 9997.25,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "2º Termo Aditivo ao Termo de Contrato 03/2014 Objeto: Reequilibrio econômico-financeiro de 10,96% mais prorrogação de prazo Valor Global: R$ 119.967,00 Valor Mensal: R$ 9.997,25 Valor Empenhado R$ 9.997,25 ref. ao mês de dezembro/2016 Valor a ser empenhado em 2017 R$ 46.987,08 Vigência: 22/05/2016 a 21/05/2017 Fundamento Legal: Art. 24; XVI; Lei 8.666/93, RDL nº 02/2014, Portaria nº 128/2014-GSEAS, Publicado no DOE Nº 32.779"
+    },
+    {
+      "numero": "2016NE00767",
+      "contrato": "2/2016",
+      "valor": 454.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Termo de Contrato nº 02/2016 Objeto: Contratação, por dispensa de licitação, compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem para armazenamento de dados. Valor Global: R$ 12.218,95 Valor Mensal: R$ 454.46 Valor Empenhado R$ 454,46 referente ao mes de dezembro/2016 Valor a ser empenhado no exercício: R$ 454,46 Vigência: 04/01/2016 a 03/01/2017 Fundamento Legal: Art. 24, XVI da Lei 8.666/93, Portaria da nº 358/2015-GSEAS"
+    },
+    {
+      "numero": "2015NE00863",
+      "contrato": "",
+      "valor": 9009.78,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00867",
+      "contrato": "",
+      "valor": 27029.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00852",
+      "contrato": "",
+      "valor": 11952.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00864",
+      "contrato": "",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00868",
+      "contrato": "",
+      "valor": 23904.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00866",
+      "contrato": "",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2017NE00583",
+      "contrato": "",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Anulação da NE 557 em virtude de Evento incorreto"
+    },
+    {
+      "numero": "2017NE00581",
+      "contrato": "",
+      "valor": 1607.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Anulação da NE 558 em virtude de Evento incorreto"
+    },
+    {
+      "numero": "2017NE00582",
+      "contrato": "",
+      "valor": 487.15,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Anulação da NE 559 em virtude de Evento incorreto"
+    },
+    {
+      "numero": "2017NE00590",
+      "contrato": "",
+      "valor": 487.15,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender o Contrato nº 002/2016-Sistema de Informação compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem website."
+    },
+    {
+      "numero": "2017NE00603",
+      "contrato": "3/2014",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender despesa com a RD 0268/2017, do Cont. 03/2014 - Serviços de Acesso a Rede de Governo, referente mês de outubro/14"
+    },
+    {
+      "numero": "2017NE00591",
+      "contrato": "1/2016",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender o 1º Termo Aditivo ao Contrato nº 001/2016 Objeto: Serviços de manutenção em equipamentos de informática."
+    },
+    {
+      "numero": "2017NE00580",
+      "contrato": "",
+      "valor": 1450.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Anulação da NE 560 em virtude de Evento incorreto"
+    },
+    {
+      "numero": "2017NE00588",
+      "contrato": "",
+      "valor": 9954.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender o 3º Temo Aditivo ao Contrato 03/2014-SEAS. Objeto: Realinhamento dos Serviços com base na nova tabela de preços e prorrogação de prazo de vigência (12 meses)."
+    },
+    {
+      "numero": "2017NE00604",
+      "contrato": "3/2014",
+      "valor": 8701.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender despesa com a RD 0280/2017, do Cont. 03/2014 - Serviços de Acesso a Rede de Governo, referente mês de dezembro/14"
+    },
+    {
+      "numero": "2017NE00589",
+      "contrato": "3/2016",
+      "valor": 1607.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender despesa com o Contrato nº 003/2016/SEAS. Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Licença de uso de Sistema de Informação."
+    },
+    {
+      "numero": "2017NE00563",
+      "contrato": "3/2014",
+      "valor": 9954.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender o 3º Temo Aditivo ao Contrato 03/2014-SEAS. Objeto: Realinhamento dos Serviços com base na nova tabela de preços e prorrogação de prazo de vigência (12 meses)."
+    },
+    {
+      "numero": "2017NE00558",
+      "contrato": "3/2016",
+      "valor": 1607.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender despesa com o Contrato nº 003/2016/SEAS. Objeto: Contratação, por dispensa de licitação, de pessoa jurídica especializada em Licença de uso de Sistema de Informação."
+    },
+    {
+      "numero": "2017NE00557",
+      "contrato": "1/2016",
+      "valor": 3984.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender o 1º Termo Aditivo ao Contrato nº 001/2016 Objeto: Serviços de manutenção em equipamentos de informática."
+    },
+    {
+      "numero": "2017NE00560",
+      "contrato": "10/2016",
+      "valor": 1450.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender despesa com o Contrato nº 10/2016. Objeto: Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website."
+    },
+    {
+      "numero": "2017NE00559",
+      "contrato": "2/2016",
+      "valor": 487.15,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender o Contrato nº 002/2016-Sistema de Informação compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem website."
+    },
+    {
+      "numero": "2017NE00586",
+      "contrato": "",
+      "valor": 9954.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "ANULAÇÃO DA NE EM VIRTUDE DE EVENTO INCORRETO"
+    },
+    {
+      "numero": "2017NE00587",
+      "contrato": "10/2016",
+      "valor": 1450.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Atender despesa com o Contrato nº 10/2016. Objeto: Serviços de Licença de Uso de Sistema de Informática, Compreendendo a Disponibilização de Gestor de Conteúdo Web, para Publicação de Informações, Notícias, Vídeos e Imagens Website."
+    },
+    {
+      "numero": "2016NE00721",
+      "contrato": "3/2014",
+      "valor": 6306.85,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "1º Termo Aditivo ao Termo de Contrato 03/2014 Objeto: Acréscimo de 3,5442200% mais prorrogação de vigência por mais 12 (doze) meses Valor Global: R$ 108.117,36 Valor Mensal: R$ 9.009,78 Vigência: 22/05/2015 a 22/05/2016 Fundamento Legal: Art. 24; XVI; Lei 8.666/93, RDL nº 02/2014, Portaria nº 128/2014-GSEAS, Publicado no DOE Nº 32.779 DE 09/04/2014"
+    },
+    {
+      "numero": "2019NE00299",
+      "contrato": "",
+      "valor": 39776.4,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Reforço da NE nº 0219/2019. Termo de Contrato nº 005/2019 - SEAS. Objeto: Contratação de Pessoa Jurídica Especializada no Serviços de Acesso a Internet por Fibra Ótica com com garantia de 100% em download e upload, para atender as necessidades da SEAS e suas Unidades."
+    },
+    {
+      "numero": "2019NE00301",
+      "contrato": "16/2017",
+      "valor": 109342.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Reforço da NE nº 0265/2019. 2º Termo Aditivo ao Contrato nº 016/2017 - SEAS. Objeto; Contratação de Empresa Especializada na Prestação dos Serviços de Desenvolvimento e Hospedagem de Sistemas de Informações para Implantação das Plataformas Eletrônicas sobre o Cofinanciamento Estadual e Marco Regulatório das OSC’s."
+    },
+    {
+      "numero": "2019NE00300",
+      "contrato": "",
+      "valor": 4537.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Reforço da NE nº 222/2019. 3º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto: Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2019NE00298",
+      "contrato": "",
+      "valor": 5305.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Reforço da NE nº 0167/2019. 3º Termo de Contrato nº 003/2016-SEAS. Objeto:Serviços de Licenciamento de Softwares, Licença de Uso de Sistema de Protocolo em Plataforma Web."
+    },
+    {
+      "numero": "2018NE00333",
+      "contrato": "",
+      "valor": 142144.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2018",
+      "descricao": "ajuste"
+    },
+    {
+      "numero": "2014NE00796",
+      "contrato": "49/2010",
+      "valor": 3750.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2014",
+      "descricao": "Contrato No. 49/2010 - Serviços Eventuais de Informatica"
+    },
+    {
+      "numero": "2022NE0000603",
+      "contrato": "7/2021",
+      "valor": 1189.06,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2022",
+      "descricao": "1º Termo Aditivo ao Contrato nº 001/2021-SEAS. Objeto: Serviços de Licença de Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para a publicação de informações, noticias, vídeos e imagens website."
+    },
+    {
+      "numero": "2017NE00401",
+      "contrato": "2/2016",
+      "valor": 974.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Sistema de informação compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem website."
+    },
+    {
+      "numero": "2017NE00390",
+      "contrato": "2/2016",
+      "valor": 974.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Sistema de informação compreendendo o desenvolvimento de Website de transparência a esta Secretaria e hospedagem website."
+    },
+    {
+      "numero": "2017NE00389",
+      "contrato": "3/2016",
+      "valor": 3215.72,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2017NE00399",
+      "contrato": "3/2016",
+      "valor": 3215.72,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Anulação Parcial da NE 0218/2017, em virtude de Natureza incorreta"
+    },
+    {
+      "numero": "2017NE00398",
+      "contrato": "3/2014",
+      "valor": 19908.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Anulação da NE 0392/2017, em virtude de Natureza incorreta"
+    },
+    {
+      "numero": "2017NE00391",
+      "contrato": "1/2016",
+      "valor": 7968.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "SERVIÇOS DE MANUTENÇÃO EM EQUIPAMENTOS DE INFORMATICA"
+    },
+    {
+      "numero": "2017NE00403",
+      "contrato": "3/2014",
+      "valor": 19908.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2017NE00404",
+      "contrato": "1/2016",
+      "valor": 7968.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "SERVIÇOS DE MANUTENÇÃO EM EQUIPAMENTOS DE INFORMATICA"
+    },
+    {
+      "numero": "2017NE00402",
+      "contrato": "3/2016",
+      "valor": 3215.72,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB"
+    },
+    {
+      "numero": "2017NE00395",
+      "contrato": "",
+      "valor": 7968.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Anulação Parcial da NE 0217/2017, em virtude de Natureza incorreta"
+    },
+    {
+      "numero": "2017NE00392",
+      "contrato": "3/2014",
+      "valor": 19908.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "SERVIÇOS DE LINK DE COMUNICAÇÃO PARA ATENDER AS NECESSIDADES DA SEAS."
+    },
+    {
+      "numero": "2017NE00394",
+      "contrato": "",
+      "valor": 974.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "Anulação da NE 390/2017 devido a descrição incorreta"
+    },
+    {
+      "numero": "2016NE00606",
+      "contrato": "",
+      "valor": 8953.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Anulação que se faz a n.e 605, por ter sido empenhado a maior"
+    },
+    {
+      "numero": "2016NE00605",
+      "contrato": "10/2016",
+      "valor": 8953.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Termo de contrato a ser firmado Objeto: Prestação de serviços para licença de uso de sistema de informação, compreendendo a disponibilização de Gestor de conteúdo Web a essa SEAS, para publicações, noticias, vídeos e imagens via WEBSITE, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2016NE00608",
+      "contrato": "3/2014",
+      "valor": 333.24,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "2º Aditivo ao Termo de Contrato 03/2014 - Diferença de 01 dia do mes de maio"
+    },
+    {
+      "numero": "2016NE00614",
+      "contrato": "3/2016",
+      "valor": 3000.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Termo de Contrato n. 003/2016- Prestação de Serviço de execução de Sistema de Protocolo em Plataforma Web (SPROWEB), para atender as necessidades da SEAS."
+    },
+    {
+      "numero": "2016NE00610",
+      "contrato": "1/2016",
+      "valor": 7968.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Contratação de pessoa jurídica especializada em Serviços Técnicos em Informática, para atender as necessidades desta Secretaria e de suas unidades."
+    },
+    {
+      "numero": "2016NE00607",
+      "contrato": "10/2016",
+      "valor": 6002.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "Termo de contrato a ser firmado Objeto: Prestação de serviços para licença de uso de sistema de informação, compreendendo a disponibilização de Gestor de conteúdo Web a essa SEAS, para publicações, noticias, vídeos e imagens via WEBSITE, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2019NE00167",
+      "contrato": "3/2016",
+      "valor": 5305.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Cobertura Financeira do Contrato 003/2016 - 3º Termo Aditivo - SEAS"
+    },
+    {
+      "numero": "2019NE00168",
+      "contrato": "10/2016",
+      "valor": 2016.69,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Cobertura financeira do 2º Termo Aditivo ao Contrato 010/2016 - Gestor de conteúdo Web."
+    },
+    {
+      "numero": "2019NE00170",
+      "contrato": "16/2017",
+      "valor": 76539.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Cobertura Financeira do 1º Termo Aditivo ao Contrato 016/2017 - SEAS"
+    },
+    {
+      "numero": "2019NE00168",
+      "contrato": "10/2016",
+      "valor": 2016.69,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "2º Termo Aditivo ao Contrato nº 010/2016-SEAS. Objeto: Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2019NE00167",
+      "contrato": "3/2016",
+      "valor": 5305.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "3º Termo de Contrato nº 003/2019-SEAS. Objeto:Serviços de Licenciamento de Softwares, Licença de Uso de Sistema de Protocolo em Plataforma Web."
+    },
+    {
+      "numero": "2019NE00085",
+      "contrato": "10/2016",
+      "valor": 4537.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "2º Termo Aditivo ao Contrato nº 010/2016 - SEAS Objeto: Serviços de Licença e Uso de Sistema de Informática compreendendo a disponibilização de gestor de conteúdo web para publicação de informações, notícias, vídeos e imagens website."
+    },
+    {
+      "numero": "2019NE00083",
+      "contrato": "3/2016",
+      "valor": 5305.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "3º Termo Aditivo ao Contrato nº 003/2016 - SEAS. Objeto: Serviços de Licenciamento de Softwares, Licença de Uso de Sistema de Protocolo em Plataforma Web."
+    },
+    {
+      "numero": "2019NE00084",
+      "contrato": "16/2017",
+      "valor": 109342.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "1º TA ao Contrato 016/2017 - Hospedagem de Sistemas"
+    },
+    {
+      "numero": "2019NE00082",
+      "contrato": "3/2014",
+      "valor": 16921.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "4º Termo Aditivo ao Contrato 03/2014 - SEAS Objeto: Serviços de Link de Comunicação para Atender as Necessidades da SEAS."
+    },
+    {
+      "numero": "2018NE00156",
+      "contrato": "3/2014",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "1º t.a. contrato 03/2014 Prestação de serviços técnicos em telecomunicações com banda larga 3mbps."
+    },
+    {
+      "numero": "2018NE00188",
+      "contrato": "10/2016",
+      "valor": 18597.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "SERVIÇOS DE LICENCIAMENTO DE SOFTWARES, LICENÇA DE USO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB."
+    },
+    {
+      "numero": "2018NE00068",
+      "contrato": "",
+      "valor": 10685.99,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "Anulação da NE 051/2018, em virtude de mudança na Natureza de Despesa, conforme orientação da SEFAZ."
+    },
+    {
+      "numero": "2018NE00067",
+      "contrato": "",
+      "valor": 46783.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "Anulação da NE 064/2018, em virtude de mudança na Natureza de Despesa, conforme orientação da SEFAZ."
+    }
+  ],
+  "faturas": [
+    {
+      "id": "137295",
+      "nf": "33860",
+      "contrato": "12/2021",
+      "valor_bruto": 23135.08,
+      "competencia": "11/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "137294",
+      "nf": "33861",
+      "contrato": "12/2021",
+      "valor_bruto": 23135.08,
+      "competencia": "11/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "137999",
+      "nf": "34559",
+      "contrato": "12/2021",
+      "valor_bruto": 23135.08,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "137998",
+      "nf": "34560",
+      "contrato": "12/2021",
+      "valor_bruto": 23135.08,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "144778",
+      "nf": "41092",
+      "contrato": "12/2021",
+      "valor_bruto": 12448.25,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "145448",
+      "nf": "41534",
+      "contrato": "12/2021",
+      "valor_bruto": 12448.25,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "146205",
+      "nf": "42234",
+      "contrato": "12/2021",
+      "valor_bruto": 12448.25,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "144773",
+      "nf": "144773",
+      "contrato": "5/2019",
+      "valor_bruto": 9908.36,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "145443",
+      "nf": "145443",
+      "contrato": "5/2019",
+      "valor_bruto": 9908.36,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "146200",
+      "nf": "146200",
+      "contrato": "5/2019",
+      "valor_bruto": 9908.36,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "144777",
+      "nf": "41093",
+      "contrato": "12/2021",
+      "valor_bruto": 6862.1,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "145447",
+      "nf": "41533",
+      "contrato": "12/2021",
+      "valor_bruto": 6862.1,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "146204",
+      "nf": "42235",
+      "contrato": "12/2021",
+      "valor_bruto": 6862.1,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "144779",
+      "nf": "41094",
+      "contrato": "12/2021",
+      "valor_bruto": 6321.85,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "145449",
+      "nf": "41535",
+      "contrato": "12/2021",
+      "valor_bruto": 6321.85,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "146206",
+      "nf": "42236",
+      "contrato": "12/2021",
+      "valor_bruto": 6321.85,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "146024",
+      "nf": "41943",
+      "contrato": "3/2021",
+      "valor_bruto": 3869.1,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 105
+    },
+    {
+      "id": "143825",
+      "nf": "39982",
+      "contrato": "12/2021",
+      "valor_bruto": 2744.84,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 79
+    },
+    {
+      "id": "144771",
+      "nf": "41088",
+      "contrato": "5/2019",
+      "valor_bruto": 2582.09,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "145441",
+      "nf": "41529",
+      "contrato": "5/2019",
+      "valor_bruto": 2582.09,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "146198",
+      "nf": "42230",
+      "contrato": "5/2019",
+      "valor_bruto": 2582.09,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "144772",
+      "nf": "41087",
+      "contrato": "5/2019",
+      "valor_bruto": 1977.04,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "145442",
+      "nf": "41528",
+      "contrato": "5/2019",
+      "valor_bruto": 1977.04,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "146199",
+      "nf": "42229",
+      "contrato": "5/2019",
+      "valor_bruto": 1977.04,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "143136",
+      "nf": "143136",
+      "contrato": "5/2019",
+      "valor_bruto": 330.28,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 92
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Consultoria em informática",
+      "Contrato": "012/2021",
+      "Número": "137295",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137295/E",
+      "Comp.": "11/2022",
+      "Valor": "23.135,08",
+      "Atraso": "1198 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "012/2021",
+      "Número": "137294",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137294/E",
+      "Comp.": "11/2022",
+      "Valor": "23.135,08",
+      "Atraso": "1198 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Consultoria em informática",
+      "Contrato": "012/2021",
+      "Número": "137999",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137999/E",
+      "Comp.": "12/2022",
+      "Valor": "23.135,08",
+      "Atraso": "1169 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "012/2021",
+      "Número": "137998",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137998/E",
+      "Comp.": "12/2022",
+      "Valor": "23.135,08",
+      "Atraso": "1169 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "005/2019",
+      "Número": "143136",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143136/E",
+      "Comp.": "08/2023",
+      "Valor": "330,28",
+      "Atraso": "947 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Consultoria em informática",
+      "Contrato": "012/2021",
+      "Número": "143825",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143825/E",
+      "Comp.": "08/2023",
+      "Valor": "2.744,84",
+      "Atraso": "924 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "005/2019",
+      "Número": "144773",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144773/E",
+      "Comp.": "10/2023",
+      "Valor": "9.908,36",
+      "Atraso": "874 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "005/2019",
+      "Número": "144772",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144772/E",
+      "Comp.": "10/2023",
+      "Valor": "1.977,04",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "005/2019",
+      "Número": "144771",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144771/E",
+      "Comp.": "10/2023",
+      "Valor": "2.582,09",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "012/2021",
+      "Número": "144777",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144777/E",
+      "Comp.": "10/2023",
+      "Valor": "6.862,10",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso a Armazém de Informações",
+      "Contrato": "012/2021",
+      "Número": "144779",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144779/E",
+      "Comp.": "10/2023",
+      "Valor": "6.321,85",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "012/2021",
+      "Número": "144778",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144778/E",
+      "Comp.": "10/2023",
+      "Valor": "12.448,25",
+      "Atraso": "869 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "005/2019",
+      "Número": "145442",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145442/E",
+      "Comp.": "11/2023",
+      "Valor": "1.977,04",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "005/2019",
+      "Número": "145441",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145441/E",
+      "Comp.": "11/2023",
+      "Valor": "2.582,09",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "012/2021",
+      "Número": "145447",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145447/E",
+      "Comp.": "11/2023",
+      "Valor": "6.862,10",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "012/2021",
+      "Número": "145448",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145448/E",
+      "Comp.": "11/2023",
+      "Valor": "12.448,25",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso a Armazém de Informações",
+      "Contrato": "012/2021",
+      "Número": "145449",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145449/E",
+      "Comp.": "11/2023",
+      "Valor": "6.321,85",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "005/2019",
+      "Número": "145443",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145443/E",
+      "Comp.": "11/2023",
+      "Valor": "9.908,36",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Instalação e Configuração de Softwares",
+      "Contrato": "003/2021",
+      "Número": "146024",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146024/E",
+      "Comp.": "11/2023",
+      "Valor": "3.869,10",
+      "Atraso": "833 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "005/2019",
+      "Número": "146200",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146200/E",
+      "Comp.": "12/2023",
+      "Valor": "9.908,36",
+      "Atraso": "818 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "005/2019",
+      "Número": "146199",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146199/E",
+      "Comp.": "12/2023",
+      "Valor": "1.977,04",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "005/2019",
+      "Número": "146198",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146198/E",
+      "Comp.": "12/2023",
+      "Valor": "2.582,09",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "012/2021",
+      "Número": "146205",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146205/E",
+      "Comp.": "12/2023",
+      "Valor": "12.448,25",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "012/2021",
+      "Número": "146204",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146204/E",
+      "Comp.": "12/2023",
+      "Valor": "6.862,10",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEAS",
+      "Serviços": "Acesso a Armazém de Informações",
+      "Contrato": "012/2021",
+      "Número": "146206",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146206/E",
+      "Comp.": "12/2023",
+      "Valor": "6.321,85",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 415,
+      "valor_total": 11691051.78,
+      "por_ano": {
+        "2020": {
+          "qtd": 48,
+          "valor": 1265047.5999999999
+        },
+        "2024": {
+          "qtd": 26,
+          "valor": 771507.1699999999
+        },
+        "2022": {
+          "qtd": 43,
+          "valor": 1209432.58
+        },
+        "2016": {
+          "qtd": 61,
+          "valor": 552234.1500000001
+        },
+        "2025": {
+          "qtd": 12,
+          "valor": 791174.0700000001
+        },
+        "2019": {
+          "qtd": 39,
+          "valor": 1076259.58
+        },
+        "2023": {
+          "qtd": 34,
+          "valor": 1381523.5299999996
+        },
+        "2015": {
+          "qtd": 25,
+          "valor": 301738.87
+        },
+        "2021": {
+          "qtd": 26,
+          "valor": 1189573.4499999997
+        },
+        "2018": {
+          "qtd": 22,
+          "valor": 1328399.0800000003
+        },
+        "2017": {
+          "qtd": 72,
+          "valor": 1265357.48
+        },
+        "2014": {
+          "qtd": 5,
+          "valor": 156551.43
+        },
+        "2026": {
+          "qtd": 2,
+          "valor": 402252.79000000004
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 25,
+      "valor_total": 219783.61000000002
+    },
+    "cobrancas": {
+      "qtd": 25,
+      "valor_total": 219783.61
+    }
+  }
+}

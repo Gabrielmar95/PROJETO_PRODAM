@@ -1,0 +1,2441 @@
+{
+  "sigla": "SEMA",
+  "profile": {
+    "nome_completo": "Secretaria de Meio Ambiente",
+    "sigla": "SEMA",
+    "natureza": "Secretaria de Estado",
+    "categoria": "GOV_DIRETA",
+    "val_exig": "38541.1088668302",
+    "val_orig": "35326.64",
+    "val_atualizado": "49842.06985580978",
+    "faturas_total": 10,
+    "faturas_prescritas": 5,
+    "faturas_exigiveis": 5,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Análise pendente",
+    "observacoes": "Documentação fraca",
+    "forca_probatoria": "MÉDIA",
+    "modelo_notificacao": "B",
+    "reconhecimento_revisado": {
+      "total_evidencias": 3,
+      "classificacao": "INDÍCIO — Empenho (reconhecimento orçamentário)",
+      "por_tipo": {
+        "E": 3
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "05.562.326/0001-26",
+    "evidencias_reconhecimento": 3,
+    "evidencias_por_tipo": {
+      "E": 3
+    },
+    "classificacao_reconhecimento": "INDÍCIO — Empenho (reconhecimento orçamentário)",
+    "tipo": "GOV",
+    "score_composto": 0.3603,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.37,
+    "ev_valor_esperado": "14260.21",
+    "ev_honorarios": "2852.04",
+    "esforco_estimado": 5,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 31,
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": true,
+    "via_transacao_referendada": true,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": "BAIXO",
+    "nome": "SEMA",
+    "spcf_total_receber": "32741.72",
+    "spcf_fat_devidas_qtd": 16,
+    "spcf_fat_devidas_val": "32656.40",
+    "spcf_fat_aberto_qtd": 8,
+    "spcf_fat_aberto_val": "27001.48",
+    "spcf_perdas": "13315.37",
+    "emp_2026": "26250.48",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 25,
+    "fat_canceladas_val_bruto": 2503762.54,
+    "fat_canceladas_val_liquido": 2340137.26,
+    "faturamento_total_2019_2026": 33586426.91,
+    "recebimento_total_2019_2026": 27283157.0,
+    "taxa_pagamento_pct": 81.23,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2025-Dez",
+    "faturamento_pico_valor": 993398.96,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 1299183.4900000002,
+    "empenho_historico_qtd": 132,
+    "empenho_valor_global_contratos": 97279.37,
+    "empenho_2026_gerencial": 32426.44,
+    "a_empenhar_2026": 45938.34,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "33740.07",
+    "val_liquido_spcf_mar2026": "32656.40",
+    "num_faturas_spcf_mar2026": 14,
+    "reconciliacao_status": "MAJOR",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 7.56,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE00361",
+      "contrato": "",
+      "valor": 3856.14,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Cancelamento por força do Decreto de nº 43.042 de 18 de Novembro de 2020."
+    },
+    {
+      "numero": "2020NE00363",
+      "contrato": "",
+      "valor": 9000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Cancelamento por força do Decreto de nº 43.042 de 18 de Novembro de 2020."
+    },
+    {
+      "numero": "2021NE00221",
+      "contrato": "9/2019",
+      "valor": 247000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2021",
+      "descricao": "3º Termo Aditivo ao Contrato 009/2019 - PRODAM RH"
+    },
+    {
+      "numero": "2017NE00270",
+      "contrato": "10/2014",
+      "valor": 174000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2017",
+      "descricao": "4º Termo Aditivo ao Contrato 10/2014 - CFPP - Prorrogação de prazo por 12 meses."
+    },
+    {
+      "numero": "2017NE00270",
+      "contrato": "10/2014",
+      "valor": 174000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2017",
+      "descricao": "NE 270 DE 31/05/2017 NO VALOR DE R$ 174.000,00 4º TERMO ADITIVO AO CONTRATO 10/2014 - CFPP SUPRESSÃO DE 12,99%"
+    },
+    {
+      "numero": "2016NE00238",
+      "contrato": "10/2014",
+      "valor": 150000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2016",
+      "descricao": "NE 238 DE 31/05/2016 R$ 150.000,00 - 2º Termo Aditivo ao Contrato 10/2014 - CFPP"
+    },
+    {
+      "numero": "2014NE00038",
+      "contrato": "2/2014",
+      "valor": 22000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2014",
+      "descricao": "Contrato No. 2/2014 - Serviços Eventuais"
+    },
+    {
+      "numero": "2019NE00535",
+      "contrato": "",
+      "valor": 3646.7,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2019NE00018, CONFORME ESTABELECIDO PELO DECRETO Nº 41.554, DE 26 DE NOVEMBRO DE 2019, EM SEU ARTIGO. 3º.- ANEXO ÚNICO."
+    },
+    {
+      "numero": "2024NE0000325",
+      "contrato": "2/2020",
+      "valor": 1439.73,
+      "situacao": "Ativo",
+      "data_emissao": "30/08/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2019NE00329",
+      "contrato": "",
+      "valor": 1581.36,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2019",
+      "descricao": "SERVIÇO DE CONTRATAÇÃO DE SITE DESTA SEMA"
+    },
+    {
+      "numero": "2025NE0000160",
+      "contrato": "2/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA"
+    },
+    {
+      "numero": "2019NE00136",
+      "contrato": "4/2018",
+      "valor": 16990.07,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2019",
+      "descricao": "contratação de serviço de acesso a internet."
+    },
+    {
+      "numero": "2015NE00143",
+      "contrato": "3/2015",
+      "valor": 6186.26,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2015",
+      "descricao": "NE 143 DE 30/03/2015 NO VALOR DE R$ 6.186,27 CONTRATO 003/2015 - SERVIÇOS DE REDE - SEMAD"
+    },
+    {
+      "numero": "2024NE01142",
+      "contrato": "13/2021",
+      "valor": 5598.05,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2024",
+      "descricao": "Cobertura Contratual 3º TA"
+    },
+    {
+      "numero": "2015NE00355",
+      "contrato": "3/2015",
+      "valor": 6186.27,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2015",
+      "descricao": "Cobertura Financeira 2015 Contrato 003/2015 - Serviços de Rede NE 355 de 29/10/15 R$ 6.186,27"
+    },
+    {
+      "numero": "2017NE00466",
+      "contrato": "6/2016",
+      "valor": 12000.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2017",
+      "descricao": "Prestação de serviços de forma eventual."
+    },
+    {
+      "numero": "2023NE0000325",
+      "contrato": "",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 3º TA, Parecer Jurídico nº036/23 TC: 002/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000324",
+      "contrato": "",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 005/2021 AD: 02."
+    },
+    {
+      "numero": "2022NE0000583",
+      "contrato": "",
+      "valor": 2456.76,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "Anulação do Saldo da Nota de Empenho Nº 0020/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022."
+    },
+    {
+      "numero": "2022NE0000583",
+      "contrato": "",
+      "valor": 2456.76,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "Anulação do Saldo da Nota de Empenho Nº 0020/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022."
+    },
+    {
+      "numero": "2022NE0000585",
+      "contrato": "",
+      "valor": 5600.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "Anulação do Saldo da Nota de Empenho Nº 0029/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022."
+    },
+    {
+      "numero": "2022NE0000585",
+      "contrato": "",
+      "valor": 5600.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "Anulação do Saldo da Nota de Empenho Nº 0029/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022."
+    },
+    {
+      "numero": "2018NE00435",
+      "contrato": "",
+      "valor": 8462.67,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00463",
+      "contrato": "",
+      "valor": 31.12,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE00442",
+      "contrato": "",
+      "valor": 7906.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00440",
+      "contrato": "",
+      "valor": 267.75,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00466",
+      "contrato": "",
+      "valor": 4744.08,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE00436",
+      "contrato": "",
+      "valor": 613.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00465",
+      "contrato": "",
+      "valor": 8032.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2025NE0000372",
+      "contrato": "5/2021",
+      "valor": 169.57,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2025",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000140",
+      "contrato": "5/2021",
+      "valor": 339.14,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2025",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 04."
+    },
+    {
+      "numero": "2017NE00107",
+      "contrato": "4/2013",
+      "valor": 357.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/03/2017",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2014NE00097",
+      "contrato": "4/2013",
+      "valor": 122422.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2014",
+      "descricao": "Contrato No. 4/2013 - Acesso a rede Internet com banda de 4Mbps"
+    },
+    {
+      "numero": "2023NE00986",
+      "contrato": "",
+      "valor": 37528.7,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2021NE00565",
+      "contrato": "9/2021",
+      "valor": 76800.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2021",
+      "descricao": "Serviço de Licença de uso de Sistema de Informação"
+    },
+    {
+      "numero": "2025NE0000370",
+      "contrato": "2/2025",
+      "valor": 1374.42,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2025",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA"
+    },
+    {
+      "numero": "2020NE00123",
+      "contrato": "2/2020",
+      "valor": 14741.52,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2020",
+      "descricao": "CONTRATAÇÃO VISANDO A PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB), PARA ACESSO A LOCALIZAÇÃO E DISPONIBILIZAÇÃO DO HISTÓRICO DE TRÂMITES DE DOCUMENTOS E PROCESSOS EXPEDIDOS E RECEBIDOS."
+    },
+    {
+      "numero": "2015NE00103",
+      "contrato": "4/2013",
+      "valor": 12242.26,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NESTA SDS NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12274/14."
+    },
+    {
+      "numero": "2015NE00104",
+      "contrato": "22/2014",
+      "valor": 1989.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET DO PARQUE SUMAÚMA NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 22/14, CONFORME NFS-E N.º. 12712/14"
+    },
+    {
+      "numero": "2015NE00111",
+      "contrato": "2/2014",
+      "valor": 1609.88,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 02/14, CONFORME NFS-E N.º. 12515/14."
+    },
+    {
+      "numero": "2015NE00102",
+      "contrato": "4/2013",
+      "valor": 12242.26,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NESTA SDS NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12711/14"
+    },
+    {
+      "numero": "2015NE00101",
+      "contrato": "4/2013",
+      "valor": 12242.26,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NA SDS NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12514/14."
+    },
+    {
+      "numero": "2015NE00109",
+      "contrato": "2/2014",
+      "valor": 3773.48,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º02/14, CONFORME NFS-E N.º. 12710/12709/14"
+    },
+    {
+      "numero": "2015NE00107",
+      "contrato": "6/2011",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO VIA WEB (SPROWEB) NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12958/14."
+    },
+    {
+      "numero": "2015NE00108",
+      "contrato": "6/2011",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO VIA WEB (SPROWEB) NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12275/14."
+    },
+    {
+      "numero": "2015NE00110",
+      "contrato": "2/2014",
+      "valor": 1986.48,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 02/14, CONFORME NFS-E N.º. 12273/14."
+    },
+    {
+      "numero": "2015NE00105",
+      "contrato": "22/2014",
+      "valor": 33799.53,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET DO PARQUE SUMAÚMA NOS MESES DE SETEMBRO, OUTUBRO E NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 22/14, CONFORME NFS-E N.º. 12516/12517/12518/12519/12520/12521/14."
+    },
+    {
+      "numero": "2015NE00106",
+      "contrato": "6/2011",
+      "valor": 1500.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12573/14."
+    },
+    {
+      "numero": "2024NE0000315",
+      "contrato": "",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2024",
+      "descricao": "Anulação da Nota de Empenho Nº 314, para alteração do valor empenhado."
+    },
+    {
+      "numero": "2024NE0000314",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2023NE00181",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2023",
+      "descricao": "Serviço de VPN"
+    },
+    {
+      "numero": "2023NE0000181",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2023",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 005/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000182",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2023",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 3º TA, Parecer Jurídico nº036/23 TC: 002/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE00182",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2023",
+      "descricao": "Execução de Sistema SPROWEB"
+    },
+    {
+      "numero": "2026NE00068",
+      "contrato": "1/2026",
+      "valor": 161559.68,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2026",
+      "descricao": "Prestação de serviços de suporte técnico e tecnológico para recadastramento de servidores."
+    },
+    {
+      "numero": "2015NE00121",
+      "contrato": "10/2014",
+      "valor": 305181.38,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2015",
+      "descricao": "Cobertura Financeira Contrato 10/2014 NE 121 DE 26/01/15 R$ 305.181,38"
+    },
+    {
+      "numero": "2020NE00324",
+      "contrato": "",
+      "valor": 8032.5,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Despesa de Exercícios Anteriores referente ao serviço de Acesso Gerenciado a Rede Mundial , CT. 12/2018, mês de dezembro/2018."
+    },
+    {
+      "numero": "2020NE00323",
+      "contrato": "",
+      "valor": 1581.36,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de outubro/2018."
+    },
+    {
+      "numero": "2020NE00327",
+      "contrato": "",
+      "valor": 1632.01,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Pagamento a PRODAM Processamento de Dados Amazonas S/A, pelos serviços prestados no Sistema de Protocolo WEB, conforme Nota Fiscal 12505 - mês de dezembro/2019 - RD 003/2020."
+    },
+    {
+      "numero": "2020NE00328",
+      "contrato": "",
+      "valor": 1581.36,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de DEZEMBRO/2018."
+    },
+    {
+      "numero": "2020NE00326",
+      "contrato": "",
+      "valor": 1581.36,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de novembro/2018."
+    },
+    {
+      "numero": "2020NE00315",
+      "contrato": "",
+      "valor": 3424.34,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Indenização da despesa sem cobertura contratual referente aos serviços prestados de licença de uso de VPN para atender o processamento da Folha de Pagamento desta SEMA, nos meses de abril à setembro/2020."
+    },
+    {
+      "numero": "2020NE00325",
+      "contrato": "",
+      "valor": 31.12,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Despesa de Exercícios Anteriores referente ao serviço de e sistemas de Protocolo-SPPROWEB) CT. 01/2017, mês de dezembro/2018."
+    },
+    {
+      "numero": "2024NE0000125",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2024",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0000699",
+      "contrato": "",
+      "valor": 55925.37,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2025",
+      "descricao": "Anulação do saldo remanescente da Nota de Empenho Nº 2025NE0000044 emitida em 02/01/2025, em atendimento ao DECRETO Nº 52.770, de 21 de outubro de 2025, que dispõe sobre o encerramento da execução orçamentária, financeira e contábil do exercício de 2025."
+    },
+    {
+      "numero": "2022NE0000519",
+      "contrato": "",
+      "valor": 150.67,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2022",
+      "descricao": "Reforço a Nota de Empenho nº 2022NE000149, contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2024NE0000265",
+      "contrato": "2/2020",
+      "valor": 1439.73,
+      "situacao": "Ativo",
+      "data_emissao": "23/07/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2023NE01034",
+      "contrato": "13/2021",
+      "valor": 5509.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2023",
+      "descricao": "NE 1034 Cobertura Financeira"
+    },
+    {
+      "numero": "2024NE0000264",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2024",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2015NE00236",
+      "contrato": "3/2015",
+      "valor": 4124.18,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2015",
+      "descricao": "Complemento cobertura financeira 2015"
+    },
+    {
+      "numero": "2015NE00241",
+      "contrato": "10/2014",
+      "valor": 320000.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2015",
+      "descricao": "Complemento Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2024NE00468",
+      "contrato": "7/2023",
+      "valor": 448265.08,
+      "situacao": "Ativo",
+      "data_emissao": "21/05/2024",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2018NE00083",
+      "contrato": "",
+      "valor": 11015.49,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE"
+    },
+    {
+      "numero": "2018NE00094",
+      "contrato": "1/2017",
+      "valor": 613.95,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "SPROWEB"
+    },
+    {
+      "numero": "2018NE00084",
+      "contrato": "1/2017",
+      "valor": 19478.96,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "contratação de serviço de acesso ao protocolo SPROWEB"
+    },
+    {
+      "numero": "2018NE00089",
+      "contrato": "",
+      "valor": 19478.96,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "SEMA"
+    },
+    {
+      "numero": "2018NE00093",
+      "contrato": "1/2017",
+      "valor": 19478.96,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "SPROWEB"
+    },
+    {
+      "numero": "2018NE00090",
+      "contrato": "",
+      "valor": 21152.25,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00088",
+      "contrato": "",
+      "valor": 11015.49,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "anulação"
+    },
+    {
+      "numero": "2018NE00095",
+      "contrato": "1/2017",
+      "valor": 11015.49,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "CONTRATO N.º 15/2017, SERVIÇO DE SITE"
+    },
+    {
+      "numero": "2018NE00082",
+      "contrato": "1/2017",
+      "valor": 613.95,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "contratação de serviço de acesso ao SPROWEB, sistema de protocolo."
+    },
+    {
+      "numero": "2018NE00091",
+      "contrato": "",
+      "valor": 613.95,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00081",
+      "contrato": "4/2013",
+      "valor": 21152.25,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "Contratação de Serviço de acesso a rede de internet."
+    },
+    {
+      "numero": "2018NE00092",
+      "contrato": "4/2013",
+      "valor": 21152.25,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2018",
+      "descricao": "Internet"
+    },
+    {
+      "numero": "2021NE0000018",
+      "contrato": "",
+      "valor": 7370.76,
+      "situacao": "Ativo",
+      "data_emissao": "21/01/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO No. 2021NE0000002, PARA CORREÇÃO NA DATA DA EMISSÃO."
+    },
+    {
+      "numero": "2021NE0000002",
+      "contrato": "2/2020",
+      "valor": 7370.76,
+      "situacao": "Ativo",
+      "data_emissao": "21/01/2021",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites de documentos e processos desta SEMA."
+    },
+    {
+      "numero": "2019NE00510",
+      "contrato": "",
+      "valor": 3162.72,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2019NE0001, POR ENCERRAMENTO DA VIGÊNCIA DO TERMO DE CONTRATO."
+    },
+    {
+      "numero": "2019NE00516",
+      "contrato": "",
+      "valor": 3.42,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2019",
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2019NE00136, POR ENCERRAMENTO DO EXERCÍCIO, CONFORME ESTABELECIDO NO DECRETO Nº 41.554, DE 26 DE NOVEMBRO DE 2019, EM SEU ANEXO ÚNICO."
+    },
+    {
+      "numero": "2022NE0000345",
+      "contrato": "",
+      "valor": 301.34,
+      "situacao": "Ativo",
+      "data_emissao": "19/08/2022",
+      "descricao": "Reforço a Nota de Empenho nº 2022NE000149, contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2021NE0000075",
+      "contrato": "5/2021",
+      "valor": 1299.76,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2024NE0000070",
+      "contrato": "38/2023",
+      "valor": 70284.84,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2024",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA."
+    },
+    {
+      "numero": "2019NE00086",
+      "contrato": "10/2014",
+      "valor": 39.6,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2019",
+      "descricao": "Reforço da NE00029"
+    },
+    {
+      "numero": "2025NE01466",
+      "contrato": "22/2025",
+      "valor": 10000.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2025",
+      "descricao": "Serviço de envelopamento"
+    },
+    {
+      "numero": "2017NE00452",
+      "contrato": "",
+      "valor": 8851.74,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2017NE00438",
+      "contrato": "",
+      "valor": 1246.55,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2017NE00439",
+      "contrato": "",
+      "valor": 2677.5,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2024NE0000476",
+      "contrato": "38/2023",
+      "valor": 11714.14,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2024",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA."
+    },
+    {
+      "numero": "2022NE0000344",
+      "contrato": "",
+      "valor": 2730.64,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2022",
+      "descricao": "Reforço a Nota de Empenho Nº 2022NE000166, Parte do Saldo do 2º Termo Aditivo ao Contrato n.º 002/2020, serviços de Sistema de Protocolo em Plataforma Web (Sproweb), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização do histórico de trâmites de documentos e processos expedidos ou recebidos por esta Secretaria de Estado do Meio Ambiente - SEMA."
+    },
+    {
+      "numero": "2016NE00167",
+      "contrato": "4/2013",
+      "valor": 43468.8,
+      "situacao": "Ativo",
+      "data_emissao": "18/03/2016",
+      "descricao": "Cobertura Financeira 2016"
+    },
+    {
+      "numero": "2017NE00243",
+      "contrato": "1/2017",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE"
+    },
+    {
+      "numero": "2024NE0000524",
+      "contrato": "38/2023",
+      "valor": 8455.69,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2024",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000525",
+      "contrato": "",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2024",
+      "descricao": "Anulação total da Nota de Empenho Nº 502, emitida em 26/11/2024, devido a celebração do 1º termo aditivo do termo de Contrato Nº 38/2023 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S A, no mês de Dezembro de 2024, para alteração de vigência e ajustes no valores contratuais."
+    },
+    {
+      "numero": "2016NE00395",
+      "contrato": "4/2013",
+      "valor": 10187.39,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "REFORÇO REFERENTE AO MÊS DE DEZEMBRO/16"
+    },
+    {
+      "numero": "2016NE00396",
+      "contrato": "6/2011",
+      "valor": 1860.46,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2016",
+      "descricao": "REFORÇO REFERENTE AO MÊS DE DEZEMBRO/16"
+    },
+    {
+      "numero": "2024NE0000339",
+      "contrato": "38/2023",
+      "valor": 11714.14,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2024",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA."
+    },
+    {
+      "numero": "2021NE0000241",
+      "contrato": "",
+      "valor": 654.6,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2021",
+      "descricao": "Despesa por indenização através de Reconhecimento de Dívida - RD Nº 003/2021, por serviços prestados de licença de uso de VPN no mês de outubro/2020 - NF Nº 18649 - TAC Nº 002/2021."
+    },
+    {
+      "numero": "2021NE0000065",
+      "contrato": "",
+      "valor": 1042.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2021",
+      "descricao": "Anulação da Nota de Empenho Nº 2021NE000035, para ajuste no cronograma de desembolso visando a contratação dos serviços."
+    },
+    {
+      "numero": "2015NE00002",
+      "contrato": "85/2011",
+      "valor": 8000.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2017NE00158",
+      "contrato": "",
+      "valor": 42840.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2017",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2017NE00159",
+      "contrato": "",
+      "valor": 42840.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2017",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2025NE0000636",
+      "contrato": "38/2023",
+      "valor": 8455.69,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2025",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000064",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2024",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000063",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 3º TA, Parecer Jurídico nº036/23 TC: 0002/2020 AD: 03."
+    },
+    {
+      "numero": "2021NE0000329",
+      "contrato": "36/2021",
+      "valor": 1400.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2021",
+      "descricao": "Contratação de empresa especializada para execução do Sistema PRODAMRH – Cadastro e Folha de Pagamento de Pessoal, somente para a execução de folhas extras não contempladas pelo contrato da SEAD."
+    },
+    {
+      "numero": "2021NE0000035",
+      "contrato": "",
+      "valor": 1042.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/02/2021",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2017NE00025",
+      "contrato": "1/2017",
+      "valor": 6759.67,
+      "situacao": "Ativo",
+      "data_emissao": "12/01/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB."
+    },
+    {
+      "numero": "2017NE00026",
+      "contrato": "",
+      "valor": 6759.67,
+      "situacao": "Ativo",
+      "data_emissao": "12/01/2017",
+      "descricao": "ANULAÇÃO PARA CORREÇÃO NA MODALIDADE"
+    },
+    {
+      "numero": "2017NE00027",
+      "contrato": "1/2017",
+      "valor": 6759.67,
+      "situacao": "Ativo",
+      "data_emissao": "12/01/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB."
+    },
+    {
+      "numero": "2023NE0000658",
+      "contrato": "38/2023",
+      "valor": 16212.38,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2023",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA."
+    },
+    {
+      "numero": "2025NE0000635",
+      "contrato": "",
+      "valor": 8455.69,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2025",
+      "descricao": "Anulação Parcial do Saldo Remanescente do valor mensal estimado da Nota de Empenho Nº 2025NE0000044, serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2012NE00432",
+      "contrato": "10/2014",
+      "valor": 111157.34,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2018",
+      "descricao": "Contrato 10/2014 - Processamento de folha de pagamento"
+    },
+    {
+      "numero": "2024NE0000242",
+      "contrato": "38/2023",
+      "valor": 23428.28,
+      "situacao": "Ativo",
+      "data_emissao": "11/07/2024",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA."
+    },
+    {
+      "numero": "2019NE00018",
+      "contrato": "1/2017",
+      "valor": 4914.12,
+      "situacao": "Ativo",
+      "data_emissao": "11/01/2019",
+      "descricao": "Contratação de serviço do Sistema Sproweb"
+    },
+    {
+      "numero": "2023NE0000639",
+      "contrato": "2/2020",
+      "valor": 1439.73,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2023",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 3º TA, Parecer Jurídico nº036/23 TC: 002/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000631",
+      "contrato": "5/2021",
+      "valor": 158.88,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2023",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 005/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000630",
+      "contrato": "5/2021",
+      "valor": 158.88,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2023",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 005/2021 AD: 02."
+    },
+    {
+      "numero": "2018NE00498",
+      "contrato": "6/2016",
+      "valor": 8000.0,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2018",
+      "descricao": "Serviços Eventuais de Informatica - 2º TA ao Contrato 006/2016"
+    },
+    {
+      "numero": "2016NE00403",
+      "contrato": "6/2016",
+      "valor": 16000.0,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2016",
+      "descricao": "NE 403 DE 10/10/2016 R$ 16.000,00"
+    },
+    {
+      "numero": "2021NE00664",
+      "contrato": "13/2021",
+      "valor": 8000.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/12/2021",
+      "descricao": "Sistema de Informação, Desenvolvimento, impressão e envelopamento."
+    },
+    {
+      "numero": "2021NE0000223",
+      "contrato": "5/2021",
+      "valor": 515.52,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2021",
+      "descricao": "Reforço a Nota de Empenho Nº 2021NE000075, complemento do Contrato nº 05/2021 - Prestação de serviços de VPN (Virtual Private Network), necessário para acessar sistemas específicos do Estado, no caso em tela a Folha de Pagamento, que é armazenado no mainframe da mesma. Valor Global: R$ 2.330,80 Valor Mensal: R$ 128,88 Incluído o valor de R$ 784,24 no primeiro mês referente ao serviço de Configuração de Proxy/Fireweel."
+    },
+    {
+      "numero": "2021NE0000220",
+      "contrato": "2/2020",
+      "valor": 9265.8,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2021",
+      "descricao": "Reforço a Nota de Empenho Nº 2021NE000089, do 1º Termo Aditivo ao Termo de Contrato Nº 002/2020, para prorrogação do prazo pelo período de 12 (doze) meses + reequilíbrio financeiro, referente a prestação de serviços de sistema de protocolo em plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilidade do histórico de trâmites de documentos e processos expedidos e recebidos por esta SEMA."
+    },
+    {
+      "numero": "2015NE00565",
+      "contrato": "2/2014",
+      "valor": 213.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2015",
+      "descricao": "ANULAÇÃO TOTAL PARA AJUSTE ORÇAMENTÁRIO TENDO EM VISTA O ENCERRAMENTO DO EXERCÍCIO FINANCEIRO DE 2015."
+    },
+    {
+      "numero": "2024NE0000371",
+      "contrato": "",
+      "valor": 11714.14,
+      "situacao": "Ativo",
+      "data_emissao": "08/10/2024",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA."
+    },
+    {
+      "numero": "2020NE00517",
+      "contrato": "6/2016",
+      "valor": 8000.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/10/2020",
+      "descricao": "Quarto Termo Aditivo ao Contrato 006/20216 - Serviço Eventuais"
+    },
+    {
+      "numero": "2019NE00406",
+      "contrato": "1/2017",
+      "valor": 5528.07,
+      "situacao": "Ativo",
+      "data_emissao": "08/10/2019",
+      "descricao": "REFORÇO A NOTA DE EMPENHO 2019NE00018, DESEMBOLSO DE OUTUBRO, NOVEMBRO E DEZEMBRO DO 3º TERMO ADITIVO AO CONTRATO 001/2017."
+    },
+    {
+      "numero": "2019NE00411",
+      "contrato": "4/2018",
+      "valor": 25917.06,
+      "situacao": "Ativo",
+      "data_emissao": "08/10/2019",
+      "descricao": "Reforço referente Saldo do 1º Termo Aditivo ao Termo de Contrato nº 004/2018, referente serviços de sistema de rede, contemplando o acesso a rede mundial de internet."
+    },
+    {
+      "numero": "2025NE0000284",
+      "contrato": "38/2023",
+      "valor": 16911.38,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2025",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2020NE00174",
+      "contrato": "",
+      "valor": 26206.74,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2020",
+      "descricao": "Anulação do Saldo da Nota de Empenho Nº 2020NE00005, pelo Distrato do Termo de Contrato Nº 004/2018, a contar do dia 07/02/2020, por mútuo acordo dos Contratantes, conforme Termo de Distrato Nº 001/2020."
+    },
+    {
+      "numero": "2020NE00095",
+      "contrato": "1/2020",
+      "valor": 3856.14,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2020",
+      "descricao": "CONTRATAÇÃO PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS DE INFORMÁTICA, COMPREENDENDO A DISPONIBILIDADE DE CLIENTES VPN (VIRTUAL PRIVATE NETWORK), PARA ACESSO A SISTEMA ESPECÍFICO DO ESTADO DE FOLHA DE PAGAMENTO."
+    },
+    {
+      "numero": "2026NE0000040",
+      "contrato": "38/2023",
+      "valor": 26250.48,
+      "situacao": "Ativo",
+      "data_emissao": "08/01/2026",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 02."
+    },
+    {
+      "numero": "2024NE0000461",
+      "contrato": "2/2020",
+      "valor": 1439.73,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000443",
+      "contrato": "2/2020",
+      "valor": 1439.73,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000444",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2024",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0000347",
+      "contrato": "5/2021",
+      "valor": 339.14,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2025",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 04."
+    },
+    {
+      "numero": "2014NE00579",
+      "contrato": "22/2014",
+      "valor": 37777.53,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2014",
+      "descricao": "Contrato No. 22/2014"
+    },
+    {
+      "numero": "2021NE0000089",
+      "contrato": "2/2020",
+      "valor": 9265.8,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2021",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites de documentos e processos desta SEMA-1º TA."
+    },
+    {
+      "numero": "2022NE0000118",
+      "contrato": "36/2021",
+      "valor": 2800.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2022",
+      "descricao": "Reforço a Nota de Empenho nº 2022NE000029, parte do saldo do Termo de Contrato Nº 036/2021 - SEMA-PRODAM, para execução do Sistema PRODAMRH, Cadastro e Folha de Pagamento de Pessoal, somente para a execução de folhas extras não contempladas pelo contrato da SEAD."
+    },
+    {
+      "numero": "2025NE0000078",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0000077",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000079",
+      "contrato": "38/2023",
+      "valor": 16911.38,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2017NE00070",
+      "contrato": "4/2013",
+      "valor": 14280.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET"
+    },
+    {
+      "numero": "2024NE0000440",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2024",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000439",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE01088",
+      "contrato": "17/2025",
+      "valor": 713425.66,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2025",
+      "descricao": "Implantação, manutenção evolutiva e corretiva, suporte técnico, gestão e treinamento do Sistema Eletrônico de Informações - SEI"
+    },
+    {
+      "numero": "2025NE0000443",
+      "contrato": "38/2023",
+      "valor": 8455.69,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2025",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2023NE0000536",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2023",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 3º TA, Parecer Jurídico nº036/23 TC: 002/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000537",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2023",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 005/2021 AD: 02."
+    },
+    {
+      "numero": "2025NE0000344",
+      "contrato": "2/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2025",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA"
+    },
+    {
+      "numero": "2025NE0000165",
+      "contrato": "38/2023",
+      "valor": 16911.38,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2022NE0000166",
+      "contrato": "2/2020",
+      "valor": 5461.28,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2022",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites de documentos e processos desta SEMA-2º TA."
+    },
+    {
+      "numero": "2025NE0000673",
+      "contrato": "38/2023",
+      "valor": 6562.62,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2025",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 02."
+    },
+    {
+      "numero": "2015NE00045",
+      "contrato": "6/2011",
+      "valor": 6624.45,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO TOTAL PARA ACERTO QUANTO AO REAJUSTE COM BASE NO IGPM."
+    },
+    {
+      "numero": "2015NE00017",
+      "contrato": "6/2011",
+      "valor": 6624.45,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "3º TERMO DE ADITAMENTO AO CONTRATO Nº 006/2011, POR MAIS 12 MESES COM REAJUSTE DE 4,88% NO VALOR, ENTRE ESTA SDS E A EMPRESA PRODAM PROCESSAMENTO DE DADOS PARA O SERVIÇO DE PROTOCOLO DIGITAL (SPROWEB)."
+    },
+    {
+      "numero": "2015NE00009",
+      "contrato": "22/2014",
+      "valor": 5967.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00011",
+      "contrato": "2/2014",
+      "valor": 2000.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00046",
+      "contrato": "6/2011",
+      "valor": 6566.31,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00018",
+      "contrato": "4/2013",
+      "valor": 24484.52,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2019NE00517",
+      "contrato": "6/2016",
+      "valor": 47410.49,
+      "situacao": "Ativo",
+      "data_emissao": "04/10/2019",
+      "descricao": "Prestação de Serviços Eventuais"
+    },
+    {
+      "numero": "2025NE00608",
+      "contrato": "7/2023",
+      "valor": 1613757.18,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2025",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2021NE0000020",
+      "contrato": "2/2020",
+      "valor": 7370.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites de documentos e processos desta SEMA."
+    },
+    {
+      "numero": "2016NE00028",
+      "contrato": "6/2011",
+      "valor": 11162.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DO SISTEMA DE PROTOCOLO INFORMATIZADO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2016NE00015",
+      "contrato": "4/2013",
+      "valor": 19587.62,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE TELECOMUNICAÇÃO, PARA PROVER SERVIÇOS DE CONEXÃO DEDICADOS E EXCLUSIVOS A REDE DE INTERNET VIA FIBRA ÓTICA EM DIVERSAS VELOCIDADES, COM SUPRESSÃO DE 20%."
+    },
+    {
+      "numero": "2015NE00662",
+      "contrato": "",
+      "valor": 7387.73,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00661",
+      "contrato": "",
+      "valor": 9883.63,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2025NE0000610",
+      "contrato": "5/2021",
+      "valor": 339.14,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000609",
+      "contrato": "2/2025",
+      "valor": 2748.84,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA"
+    },
+    {
+      "numero": "2022NE0000459",
+      "contrato": "5/2021",
+      "valor": 150.67,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2022",
+      "descricao": "Reforço a Nota de Empenho nº 2022NE000149, contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2022NE0000458",
+      "contrato": "2/2020",
+      "valor": 1365.32,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2022",
+      "descricao": "Reforço a Nota de Empenho Nº 2022NE000166, Parte do Saldo do 2º Termo Aditivo ao Contrato n.º 002/2020, serviços de Sistema de Protocolo em Plataforma Web (Sproweb), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização do histórico de trâmites de documentos e processos expedidos ou recebidos por esta Secretaria de Estado do Meio Ambiente - SEMA."
+    },
+    {
+      "numero": "2025NE0000442",
+      "contrato": "5/2021",
+      "valor": 169.57,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2025",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000441",
+      "contrato": "2/2025",
+      "valor": 1374.42,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2025",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA"
+    },
+    {
+      "numero": "2016NE00355",
+      "contrato": "6/2011",
+      "valor": 1860.46,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "REFORÇO DO MÊS DE OUTUBRO/2016"
+    },
+    {
+      "numero": "2016NE00353",
+      "contrato": "4/2013",
+      "valor": 10867.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "REFORÇO MÊS DE OUTUBRO/16"
+    },
+    {
+      "numero": "2016NE00355",
+      "contrato": "",
+      "valor": 1860.46,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "REFORÇO DO MÊS DE OUTUBRO/2016"
+    },
+    {
+      "numero": "2016NE00353",
+      "contrato": "",
+      "valor": 10867.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "REFORÇO MÊS DE OUTUBRO/16"
+    },
+    {
+      "numero": "2018NE00466",
+      "contrato": "10/2018",
+      "valor": 59726.26,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2018",
+      "descricao": "Serviço de Capacitação e implantação de Software."
+    },
+    {
+      "numero": "2015NE00537",
+      "contrato": "6/2011",
+      "valor": 1888.11,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2015",
+      "descricao": "ANULAÇÃO TOTAL PARA AJUSTE ORÇAMENTÁRIO"
+    },
+    {
+      "numero": "2015NE00539",
+      "contrato": "22/2014",
+      "valor": 3580.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2015",
+      "descricao": "REFORÇO da ne 326/15 A FIM DE COBRIR O SALDO DESCOBERTO DO TERMO DE CONTRATO, CONSIDERANDO DP/ 565-15 EMITIDO PELA PRODAM PROCESSAMENTO DE DADOS ÀS FLS. 37 E NOTA TÉCNICA Nº 02/15-GETI/SEMA ÀS FLS. 38, INFORMANDO QUE O REFERIDO TERMO DE CONTRATO NÃO SOFRERÁ SUPRESSÃO."
+    },
+    {
+      "numero": "2019NE00300",
+      "contrato": "9/2019",
+      "valor": 814458.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2019",
+      "descricao": "Serviço de Execução de Sistemas PRODAM-RH"
+    },
+    {
+      "numero": "2019NE00300",
+      "contrato": "9/2019",
+      "valor": 814458.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2019",
+      "descricao": "NE 300 DE 03/06/2019 NO VALOR DE R$ 814.458,00 - REFERENTE AO CONTRATO 009/2019 - PRODAM RH - SEMAD"
+    },
+    {
+      "numero": "2022NE0000021",
+      "contrato": "5/2021",
+      "valor": 515.52,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2022NE0000029",
+      "contrato": "36/2021",
+      "valor": 2800.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada para execução do Sistema PRODAMRH – Cadastro e Folha de Pagamento de Pessoal, somente para a execução de folhas extras não contempladas pelo contrato da SEAD."
+    },
+    {
+      "numero": "2022NE0000020",
+      "contrato": "2/2020",
+      "valor": 9265.8,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites de documentos e processos desta SEMA-1º TA."
+    },
+    {
+      "numero": "2025NE0000379",
+      "contrato": "38/2023",
+      "valor": 8455.69,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2025",
+      "descricao": "Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website, para esta SEMA. TC: 0038/2023 AD: 01."
+    },
+    {
+      "numero": "2019NE00492",
+      "contrato": "10/2018",
+      "valor": 32000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "NE 492 DE 02/09/2019 - COBERTURA FINANCEIRA DO CONTRATO 010/2018 - PRORROGAÇÃO DE PRAZO E REAJUSTE DE 6,4113%"
+    },
+    {
+      "numero": "2023NE00583",
+      "contrato": "7/2023",
+      "valor": 2689595.3,
+      "situacao": "Ativo",
+      "data_emissao": "02/06/2023",
+      "descricao": "Cobertura Financeira"
+    },
+    {
+      "numero": "2024NE0000131",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 4º TA. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2022NE0000149",
+      "contrato": "5/2021",
+      "valor": 602.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2022",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2018NE00166",
+      "contrato": "4/2018",
+      "valor": 64260.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2018",
+      "descricao": "contratação de serviço de gerenciamento e acesso a internet."
+    },
+    {
+      "numero": "2018NE00169",
+      "contrato": "5/2018",
+      "valor": 12650.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2018",
+      "descricao": "SERVIÇO DE CONTRATAÇÃO DO SITE DESTA SEMA"
+    },
+    {
+      "numero": "2017NE00141",
+      "contrato": "4/2013",
+      "valor": 42840.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET"
+    },
+    {
+      "numero": "2017NE00140",
+      "contrato": "",
+      "valor": 7441.84,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "E SPROWEB"
+    },
+    {
+      "numero": "2015NE00144",
+      "contrato": "2/2014",
+      "valor": 4146.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "ANULAÇÃO TOTAL TENDO EM VISTA QUE ESTA SECRETARIA NÃO MANIFESTOU INTERESSE EM PRORROGAR O CONTRATO Nº 002/14."
+    },
+    {
+      "numero": "2015NE00145",
+      "contrato": "4/2013",
+      "valor": 12691.55,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "Cobertura Financeira 2015 - Março"
+    },
+    {
+      "numero": "2015NE00070",
+      "contrato": "2/2014",
+      "valor": 4146.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2015",
+      "descricao": "1º TERMO DE ADITAMENTO AO CONTRATO Nº 002/2014, PRAZO E VALOR, COM REAJUSTE DE 3,65%, A SER FIRMADO ENTRE ESTA SDS E A EMPRESA PRODAM PROCESSAMENTO DE DADOS PARA SERVIÇOS EVENTUAIS EM MANUTENÇÃO DOS EQUIPAMENTOS DE INFORMÁTICA PARA ATENDER AS DEMANDAS DESTA SECRETARIA."
+    },
+    {
+      "numero": "2015NE00125",
+      "contrato": "85/2011",
+      "valor": 40000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2015",
+      "descricao": "Complemento cobertura financeira 2015"
+    },
+    {
+      "numero": "2025NE0000039",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000006",
+      "contrato": "5/2021",
+      "valor": 317.76,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parecer Jurídico Nº33/2023. TC: 0005/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000005",
+      "contrato": "2/2020",
+      "valor": 2879.46,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e processos desta SEMA - 3º TA, Parecer Jurídico nº036/23 TC: 0002/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000003",
+      "contrato": "",
+      "valor": 602.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma."
+    },
+    {
+      "numero": "2023NE0000002",
+      "contrato": "",
+      "valor": 5461.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites de documentos e processos desta SEMA-2º TA."
+    },
+    {
+      "numero": "2020NE00005",
+      "contrato": "4/2018",
+      "valor": 34844.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Serviços de sistema de rede, contemplando o acesso a gerenciamento a rede mundial de internet através da rede de Governo."
+    },
+    {
+      "numero": "2020NE00001",
+      "contrato": "1/2017",
+      "valor": 613.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Execução de Sistema de Informação - Serviço de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites de docs. e processos expedidos ou recebidos."
+    },
+    {
+      "numero": "2019NE00077",
+      "contrato": "10/2014",
+      "valor": 640000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CFPP"
+    },
+    {
+      "numero": "2019NE00078",
+      "contrato": "6/2016",
+      "valor": 8000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Serviços Eventuais"
+    },
+    {
+      "numero": "2019NE00029",
+      "contrato": "10/2014",
+      "valor": 339162.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Cobertura Financeira do 6 º Termo Aditivo"
+    },
+    {
+      "numero": "2019NE00001",
+      "contrato": "5/2018",
+      "valor": 4744.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "SERVIÇO DE CONTRATAÇÃO DO SITE DESTA SEMA"
+    },
+    {
+      "numero": "2019NE00004",
+      "contrato": "4/2018",
+      "valor": 24097.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "contratação de serviço de gerenciamento e acesso a internet."
+    },
+    {
+      "numero": "2019NE00005",
+      "contrato": "1/2017",
+      "valor": 613.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "contratação de serviço de acesso ao protocolo SPROWEB"
+    },
+    {
+      "numero": "2018NE00047",
+      "contrato": "",
+      "valor": 11015.49,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE"
+    },
+    {
+      "numero": "2018NE00043",
+      "contrato": "1/2017",
+      "valor": 613.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "contratação de serviço de acesso ao SPROWEB, sistema de protocolo."
+    },
+    {
+      "numero": "2018NE00048",
+      "contrato": "1/2017",
+      "valor": 19478.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "contratação de serviço de acesso ao protocolo SPROWEB"
+    },
+    {
+      "numero": "2018NE00042",
+      "contrato": "4/2013",
+      "valor": 21152.25,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de Serviço de acesso a rede de internet."
+    },
+    {
+      "numero": "2017NE00001",
+      "contrato": "4/2013",
+      "valor": 21734.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "contratação de serviço de telecomunicação para prover serviços de conexão a internet via fibra ótica em diversas velocidades."
+    },
+    {
+      "numero": "2017NE00126",
+      "contrato": "10/2014",
+      "valor": 584000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Cobertura Financeira 2017 - Contrato 10/2014"
+    },
+    {
+      "numero": "2017NE00098",
+      "contrato": "10/2014",
+      "valor": 373940.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Cobertura Financeira 2017 - Contrato 10/2014"
+    },
+    {
+      "numero": "2015NE00122",
+      "contrato": "10/2014",
+      "valor": 865000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2015",
+      "descricao": "Cobertura Financeira 2015 Contrato 10/2014 - CFPP NE 122 DE 02/01/2015 R$ 865.000,00"
+    },
+    {
+      "numero": "2014NE00004",
+      "contrato": "4/2013",
+      "valor": 23203.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 4/2013 - Acesso a rede Internet com banda de 4Mbps"
+    },
+    {
+      "numero": "2014NE00024",
+      "contrato": "6/2011",
+      "valor": 25264.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 6/2011 - Cessão de Uso do SproWeb"
+    },
+    {
+      "numero": "2017NE00391",
+      "contrato": "",
+      "valor": 1860.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB."
+    },
+    {
+      "numero": "2017NE00379",
+      "contrato": "",
+      "valor": 13387.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE."
+    },
+    {
+      "numero": "2017NE00378",
+      "contrato": "",
+      "valor": 9120.44,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE."
+    },
+    {
+      "numero": "2017NE00394",
+      "contrato": "",
+      "valor": 10710.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET"
+    },
+    {
+      "numero": "2017NE00393",
+      "contrato": "",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE"
+    },
+    {
+      "numero": "2024NE01044",
+      "contrato": "9/2021",
+      "valor": 35305.88,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2024",
+      "descricao": "3º TA Contrato 009/2021, prorrogação de prazo e reajuste de 4,53%"
+    },
+    {
+      "numero": "2017NE00346",
+      "contrato": "1/2017",
+      "valor": 1860.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB."
+    },
+    {
+      "numero": "2017NE00344",
+      "contrato": "",
+      "valor": 10710.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET"
+    },
+    {
+      "numero": "2017NE00345",
+      "contrato": "",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE"
+    },
+    {
+      "numero": "2016NE00360",
+      "contrato": "6/2011",
+      "valor": 1860.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "REFORÇO DO MÊS DE NOVEMBRO/16"
+    },
+    {
+      "numero": "2016NE00361",
+      "contrato": "4/2013",
+      "valor": 10867.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "REFORÇO DO MÊS DE NOVEMBRO/16"
+    },
+    {
+      "numero": "2017NE00290",
+      "contrato": "",
+      "valor": 3720.92,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB."
+    },
+    {
+      "numero": "2017NE00289",
+      "contrato": "",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE"
+    },
+    {
+      "numero": "2017NE00291",
+      "contrato": "",
+      "valor": 21420.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET"
+    },
+    {
+      "numero": "2016NE00312",
+      "contrato": "6/2011",
+      "valor": 5581.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "REFORÇO A NOTA DE EMPENHO Nº 2016NE00028, CORRESPONDENTE AO CONTRATO Nº 006/2011, EM SEU 5º TERMO ADITIVO."
+    },
+    {
+      "numero": "2016NE00311",
+      "contrato": "4/2013",
+      "valor": 32601.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 2016NE00167, REFERENTE AO CONTRATO Nº 004/2013."
+    },
+    {
+      "numero": "2019NE00294",
+      "contrato": "",
+      "valor": 25917.06,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2019NE00293",
+      "contrato": "",
+      "valor": 5528.07,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2022NE00552",
+      "contrato": "9/2019",
+      "valor": 1155263.49,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2022",
+      "descricao": "4º Termo Aditivo ao Contrato 009/2019 - PRODAM RH"
+    },
+    {
+      "numero": "2020NE00265",
+      "contrato": "9/2019",
+      "valor": 72000.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2020",
+      "descricao": "Execução de Sistema PRODAM-RH"
+    },
+    {
+      "numero": "2015NE00188",
+      "contrato": "10/2014",
+      "valor": 179000.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2015",
+      "descricao": "Contrato 10/2014 - 1º Termo Aditivo NE 188 DE 01/06/2015 R$ 179.000,00 Junho - R$ 179.000,00"
+    },
+    {
+      "numero": "2019NE00089",
+      "contrato": "",
+      "valor": 5528.07,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "Contratação de serviço do Sistema Sproweb"
+    },
+    {
+      "numero": "2019NE00088",
+      "contrato": "",
+      "valor": 8300.25,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "contratação de serviço de gerenciamento e acesso a internet."
+    },
+    {
+      "numero": "2015NE00272",
+      "contrato": "4/2013",
+      "valor": 449.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira abril 2015"
+    },
+    {
+      "numero": "2015NE00325",
+      "contrato": "4/2013",
+      "valor": 88144.29,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00326",
+      "contrato": "22/2014",
+      "valor": 6364.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "1º TERMO DE ADITAMENTO AO CONTRATO Nº 22/2014, COM SUPRESSÃO DE 20% NO VALOR, FIRMADO ENTRE ESTA SECRETARIA DE ESTADO DO MEIO SEMA E A EMPRESA PRODAM PROCESSAMENTO DE DADOS, COM O OBJETIVO DE PROVER SERVIÇOS DE CONEXÃO DEDICADOS E EXCLUSIVOS A REDE INTERNET VIA FIBRA ÓTICA EM DIVERSAS VELOCIDADES PARA ATENDER AS NECESSIDADES DESTA SECRETARIA E AO PARQUE ESTADUAL SUMAÚMA, CONF. PROJETO BÁSICO E EM CUMPRIMENTO ÀS DETERMINAÇÕES CONSTANTES NO DECRETO Nº 35.616, DE 26/02/15 PARA REDUÇÃO DE CUSTEIO PLEITEADA PELO GOVERNO DO ESTADO."
+    },
+    {
+      "numero": "2015NE00327",
+      "contrato": "6/2011",
+      "valor": 16744.13,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2018NE00096",
+      "contrato": "",
+      "valor": 11015.49,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "anulação para formalização de novo contrato"
+    },
+    {
+      "numero": "2018NE00059",
+      "contrato": "",
+      "valor": 11015.49,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00057",
+      "contrato": "",
+      "valor": 613.95,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00056",
+      "contrato": "",
+      "valor": 21152.25,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "anulação"
+    },
+    {
+      "numero": "2018NE00058",
+      "contrato": "",
+      "valor": 19478.96,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2016NE00049",
+      "contrato": "4/2013",
+      "valor": 3118.8,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "SERVIÇO DE INTERNET MESES DE OUT E NOV/15"
+    },
+    {
+      "numero": "2016NE00047",
+      "contrato": "4/2013",
+      "valor": 9793.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "SERVIÇO DE INTERNET MÊS DE 12/15"
+    },
+    {
+      "numero": "2016NE00051",
+      "contrato": "4/2013",
+      "valor": 1559.4,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "SERVIÇO DE INTERNET MÊS DE DEZEMBRO/15"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "165509",
+      "nf": "60316",
+      "contrato": "7/2023",
+      "valor_bruto": 776814.69,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 29
+    },
+    {
+      "id": "155724",
+      "nf": "50916",
+      "contrato": "7/2023",
+      "valor_bruto": 679938.71,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 29
+    },
+    {
+      "id": "121314",
+      "nf": "18476",
+      "contrato": "9/2019",
+      "valor_bruto": 465404.58,
+      "competencia": "12/2020",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 116
+    },
+    {
+      "id": "164760",
+      "nf": "59694",
+      "contrato": "7/2023",
+      "valor_bruto": 445615.44,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 29
+    },
+    {
+      "id": "163832",
+      "nf": "58814",
+      "contrato": "7/2023",
+      "valor_bruto": 439209.02,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 29
+    },
+    {
+      "id": "129504",
+      "nf": "26298",
+      "contrato": "9/2019",
+      "valor_bruto": 424595.97,
+      "competencia": "12/2021",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 116
+    },
+    {
+      "id": "155111",
+      "nf": "50282",
+      "contrato": "7/2023",
+      "valor_bruto": 389549.95,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 29
+    },
+    {
+      "id": "165653",
+      "nf": "60572",
+      "contrato": "17/2025",
+      "valor_bruto": 213718.26,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "167399",
+      "nf": "1690",
+      "contrato": "1/2026",
+      "valor_bruto": 40389.92,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 4
+    },
+    {
+      "id": "167398",
+      "nf": "1689",
+      "contrato": "1/2026",
+      "valor_bruto": 25580.28,
+      "competencia": "02/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 4
+    },
+    {
+      "id": "146786",
+      "nf": "42587",
+      "contrato": "38/2023",
+      "valor_bruto": 13494.72,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164660",
+      "nf": "59563",
+      "contrato": "9/2021",
+      "valor_bruto": 3922.88,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 12
+    },
+    {
+      "id": "146213",
+      "nf": "42241",
+      "contrato": "2/2020",
+      "valor_bruto": 1439.73,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 127
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "SEMA",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2020",
+      "Número": "146213",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146213/E",
+      "Comp.": "12/2023",
+      "Valor": "1.439,73",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMA",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "038/2023",
+      "Número": "146786",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146786/E",
+      "Comp.": "12/2023",
+      "Valor": "13.494,72",
+      "Atraso": "804 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 263,
+      "valor_total": 15473287.68,
+      "por_ano": {
+        "2020": {
+          "qtd": 16,
+          "valor": 190982.59000000003
+        },
+        "2021": {
+          "qtd": 14,
+          "valor": 378397.76
+        },
+        "2017": {
+          "qtd": 30,
+          "valor": 1604970.1599999997
+        },
+        "2016": {
+          "qtd": 18,
+          "valor": 343105.00000000006
+        },
+        "2014": {
+          "qtd": 5,
+          "valor": 230668.61
+        },
+        "2019": {
+          "qtd": 23,
+          "valor": 2832000.9999999995
+        },
+        "2024": {
+          "qtd": 26,
+          "valor": 654140.1399999999
+        },
+        "2025": {
+          "qtd": 25,
+          "valor": 2500094.6299999994
+        },
+        "2015": {
+          "qtd": 38,
+          "valor": 2025968.7
+        },
+        "2023": {
+          "qtd": 17,
+          "valor": 2769455.9099999997
+        },
+        "2022": {
+          "qtd": 16,
+          "valor": 1197520.93
+        },
+        "2018": {
+          "qtd": 33,
+          "valor": 558172.0900000001
+        },
+        "2026": {
+          "qtd": 2,
+          "valor": 187810.16
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 13,
+      "valor_total": 3919674.15
+    },
+    "cobrancas": {
+      "qtd": 2,
+      "valor_total": 14934.45
+    }
+  }
+}

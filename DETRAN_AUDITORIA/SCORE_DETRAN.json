@@ -1,0 +1,150 @@
+{
+  "data": "2026-04-14",
+  "score_final": 93.4,
+  "conceito": "A+ (EXCEPCIONAL)",
+  "dimensoes": [
+    {
+      "dimensao": "Integridade de Dados",
+      "peso_pct": 10,
+      "score": 100.0,
+      "contribuicao": 10.0,
+      "detalhes": [
+        "Campos críticos do profile: 9/9 = 20.0/20",
+        "✅ 10 contratos com índice granular identificado = 15/15",
+        "✅ 454 PDFs em JSON estruturado = 20/20",
+        "DB: 149 faturas, 470 NEs, 13 contratos = 25/25",
+        "✅ Sessão 74 integrada (202 faturas) = 10/10",
+        "✅ Sem bugs conhecidos"
+      ]
+    },
+    {
+      "dimensao": "Cadeia Documental",
+      "peso_pct": 15,
+      "score": 93.3,
+      "contribuicao": 13.99,
+      "detalhes": [
+        "99 COMPLETA + 50 FORTE + 0 MÉDIA + 0 FRACA / 149",
+        "Score ponderado médio: 93.3/100"
+      ]
+    },
+    {
+      "dimensao": "Prescrição & Marcos",
+      "peso_pct": 15,
+      "score": 91.6,
+      "contribuicao": 13.74,
+      "detalhes": [
+        "Sessão 74: 148 VIGENTES + 53 ATENÇÃO + 1 PRESCRITAS",
+        "Score ponderado: 91.6/100",
+        "✅ 184 NEs pós-2021 — reconhecimento tácito massivo"
+      ]
+    },
+    {
+      "dimensao": "Blindagem Pré-Execução",
+      "peso_pct": 10,
+      "score": 75,
+      "contribuicao": 7.5,
+      "detalhes": [
+        "Blindagem: 22/22 VALIDADOS",
+        "✅ 22/22 itens validados",
+        "⚠️ TRD assinado faltando — CRÍTICO"
+      ]
+    },
+    {
+      "dimensao": "Compliance Jurídico",
+      "peso_pct": 10,
+      "score": 100,
+      "contribuicao": 10.0,
+      "detalhes": [
+        "✅ Regime penhora_direta (Tema 253/STF correto)",
+        "✅ Índice IGPM+1%+2% (cláusula 11.1 CT 022/2014)",
+        "✅ titulo_executivo=True (Art.784 CPC)",
+        "✅ Modelo A (força FORTE — coerente)"
+      ]
+    },
+    {
+      "dimensao": "Evidências Documentais",
+      "peso_pct": 8,
+      "score": 95.3,
+      "contribuicao": 7.62,
+      "detalhes": [
+        "286 evidências de reconhecimento",
+        "Tipos: {'E': 284, 'F': 2}",
+        "✅ CONFIRMADO — Pagamento parcial"
+      ]
+    },
+    {
+      "dimensao": "Reconhecimento Tácito",
+      "peso_pct": 8,
+      "score": 100,
+      "contribuicao": 8.0,
+      "detalhes": [
+        "500 NEs × R$ 284.653.134,96",
+        "✅ Reconhecimento tácito massivo (Art.202 VI CC)",
+        "✅ reconhecimento_revisado preenchido"
+      ]
+    },
+    {
+      "dimensao": "Atualização Monetária",
+      "peso_pct": 6,
+      "score": 95,
+      "contribuicao": 5.7,
+      "detalhes": [
+        "Fator 1.20x (bruto→atualizado)",
+        "✅ IGPM+1%+2% aplicado (sessão 74): R$ 26.378.697,98",
+        "ℹ️ Ideal: re-rodar atualizacao-monetaria-sob-demanda para IGPM real BCB"
+      ]
+    },
+    {
+      "dimensao": "Priorização",
+      "peso_pct": 6,
+      "score": 100,
+      "contribuicao": 6.0,
+      "detalhes": [
+        "Ranking: #1 | score composto: 0.9318"
+      ]
+    },
+    {
+      "dimensao": "Risco Processual",
+      "peso_pct": 5,
+      "score": 95.0,
+      "contribuicao": 4.75,
+      "detalhes": [
+        "p_recuperação: 95.00%",
+        "✅ Blindagem 22/22 — risco processual minimizado"
+      ]
+    },
+    {
+      "dimensao": "Valor Recuperável (E[V])",
+      "peso_pct": 4,
+      "score": 99.5,
+      "contribuicao": 3.98,
+      "detalhes": [
+        "E[V]: R$ 30.100.502,06 | Honorários esperados: R$ 6.020.100,41",
+        "24.9% do portfólio — peso 99.5"
+      ]
+    },
+    {
+      "dimensao": "Urgência/Prazo",
+      "peso_pct": 3,
+      "score": 70,
+      "contribuicao": 2.1,
+      "detalhes": [
+        "⚠️ 53 faturas em ATENÇÃO — primeira prescrição 2026-10-27",
+        "✅ Fase F5 — petição pronta"
+      ]
+    }
+  ],
+  "resumo_forcas": [
+    "Integridade de Dados",
+    "Cadeia Documental",
+    "Prescrição & Marcos",
+    "Compliance Jurídico",
+    "Evidências Documentais",
+    "Reconhecimento Tácito",
+    "Atualização Monetária",
+    "Priorização",
+    "Risco Processual",
+    "Valor Recuperável (E[V])"
+  ],
+  "resumo_fraquezas": []
+}

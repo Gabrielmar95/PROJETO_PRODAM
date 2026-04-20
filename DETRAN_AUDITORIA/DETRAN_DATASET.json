@@ -1,0 +1,2030 @@
+{
+  "meta": {
+    "data": "2026-04-14",
+    "cutoff_prescricao_base": "2021-04-15",
+    "fonte_profile": "profiles.json (154 campos)"
+  },
+  "profile": {
+    "nome_completo": "Departamento Estadual de Trânsito do Amazonas",
+    "sigla": "DETRAN",
+    "natureza": "Autarquia",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "31684739.01023886",
+    "val_orig": "22745276.48",
+    "val_atualizado": "37960629.18957764",
+    "faturas_total": 233,
+    "faturas_prescritas": 54,
+    "faturas_exigiveis": 179,
+    "indice_correcao": "IGPM+1%+2%",
+    "juros_mora": "1% a.m.",
+    "multa": "2%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": true,
+    "status": "Petição pronta",
+    "observacoes": "Cláusula 11.1, CT 022/2014 (IGPM) + juros 1% a.m. + multa 2%",
+    "forca_probatoria": "FORTE",
+    "modelo_notificacao": "A",
+    "reconhecimento_revisado": {
+      "total_evidencias": 286,
+      "classificacao": "CONFIRMADO — Pagamento parcial",
+      "por_tipo": {
+        "E": 284,
+        "F": 2
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "04.224.028/0001-63",
+    "ultima_interacao": "2026-03-26",
+    "evidencias_reconhecimento": 286,
+    "evidencias_por_tipo": {
+      "E": 284,
+      "F": 2
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Pagamento parcial",
+    "tipo": "GOV",
+    "score_composto": 0.9318,
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "p_recuperacao": 0.95,
+    "ev_valor_esperado": "30100502.06",
+    "ev_honorarios": "6020100.41",
+    "esforco_estimado": 1,
+    "cenario_monte_carlo_p50": "20346795.45",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 1,
+    "blindagem_resultado": {
+      "data": "2026-03-27",
+      "blocos": {
+        "A_titulo": {
+          "ok": 6,
+          "total": 6
+        },
+        "B_liquidez": {
+          "ok": 5,
+          "total": 5
+        },
+        "C_cadeia": {
+          "ok": 6,
+          "total": 6
+        },
+        "D_defesas": {
+          "ok": 5,
+          "total": 5
+        }
+      },
+      "total_ok": 22,
+      "total_items": 22,
+      "recomendacao": "EXECUCAO",
+      "ressalvas": []
+    },
+    "fase_atual": "F5",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-20",
+      "F4": "2026-03-23",
+      "F5": "2026-03-27"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "DETRAN",
+    "spcf_total_receber": "21123486.62",
+    "spcf_fat_devidas_qtd": 214,
+    "spcf_fat_devidas_val": "20848440.34",
+    "spcf_fat_aberto_qtd": 149,
+    "spcf_fat_aberto_val": "22448434.53",
+    "spcf_perdas": "3012042.04",
+    "emp_2026": "1551010.38",
+    "emp_2026_qtd": 3,
+    "contratos_vigentes": 7,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 127,
+    "fat_canceladas_val_bruto": 9540133.47,
+    "fat_canceladas_val_liquido": 9062191.61,
+    "faturamento_total_2019_2026": 140855773.23,
+    "recebimento_total_2019_2026": 108451932.0,
+    "taxa_pagamento_pct": 77.0,
+    "padrao_inadimplencia": "INTERMITENTE",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2021-Out",
+    "faturamento_pico_valor": 3920932.56,
+    "inicio_inadimplencia": "2020-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": true,
+    "empenho_historico_total": 119600700.63999993,
+    "empenho_historico_qtd": 288,
+    "empenho_valor_global_contratos": 37134122.370000005,
+    "empenho_2026_gerencial": 10792108.860000001,
+    "a_empenhar_2026": 9331066.71,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "22697929.21",
+    "val_liquido_spcf_mar2026": "20848440.34",
+    "num_faturas_spcf_mar2026": 202,
+    "reconciliacao_status": "MAJOR",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 8.34,
+    "pipeline_reconciliacao": {
+      "match": 0,
+      "so_pdf": 0,
+      "so_spcf": 822,
+      "divergentes": 0
+    },
+    "pipeline_ultima_execucao": "2026-04-08 12:23",
+    "pipeline_versao": "3.2.0",
+    "cruzamento_empenho_completo": true,
+    "cruzamento_data": "2026-04-08",
+    "faturas_abertas_exigiveis": 148,
+    "faturas_abertas_com_empenho": 141,
+    "faturas_abertas_sem_empenho": 7,
+    "faturas_forca_forte": 0,
+    "faturas_forca_media_alta": 141,
+    "faturas_forca_media": 0,
+    "faturas_forca_fraca": 7,
+    "valor_forca_media_alta": 19071201.64,
+    "valor_forca_fraca": 3071829.4,
+    "pct_com_empenho": 95.3,
+    "reconciliacao_6_6": {
+      "data": "2026-04-08",
+      "faturas_csv": 202,
+      "valor_bruto_csv": "22697929.21",
+      "valor_pg_parcial_csv": "1263717.76",
+      "saldo_aberto_real": "21434211.45",
+      "faturas_com_pg_parcial": 8,
+      "faturas_pagas_historico": 1452,
+      "total_pago_historico": "109836724.18",
+      "novas_em_5devs": 0
+    },
+    "correcao_monetaria_passo7": {
+      "data_calculo": "2026-04-08",
+      "indice": "IGPM+1%+2%",
+      "faturas_exigiveis": 201,
+      "faturas_prescritas": 1,
+      "saldo_base": "21431127.37",
+      "correcao": "348355.01",
+      "juros": "5046329.24",
+      "multa_2pct": "428622.58",
+      "valor_total_atualizado": "27254434.20",
+      "fonte": "API BCB séries 4390 (SELIC) e 189 (IGPM)"
+    },
+    "dados_5devs_varredura": {
+      "data_varredura": "2026-04-08",
+      "cobrancas_em_faturas_abertas": 112,
+      "cobrancas_status": "Suspenso (todas)",
+      "contratos_detalhados": 227,
+      "aditivos_contratuais": 85,
+      "pendencias_contratuais": 11,
+      "anexos_servicos": 356,
+      "nes_pdf_disponiveis": 163,
+      "contratos_pdf_disponiveis": 1
+    },
+    "dossie_classificacao_passo8": {
+      "data_classificacao": "2026-04-08",
+      "total_faturas_classificadas": 201,
+      "vias_processuais": {
+        "EXECUCAO_A": {
+          "count": 5,
+          "valor": "1106363.69",
+          "descricao": "Contrato PDF + NE PDF disponíveis"
+        },
+        "EXECUCAO_B": {
+          "count": 188,
+          "valor": "22613291.69",
+          "descricao": "Composição documental (REsp 793.969/RJ)"
+        },
+        "MONITORIA": {
+          "count": 8,
+          "valor": "3534778.82",
+          "descricao": "Sem NE — ação monitória (Súmula 339 STJ)"
+        }
+      },
+      "prescritas_excluidas": 1,
+      "lacunas_documentais": {
+        "C1_contrato_pdf": 196,
+        "C3_liquidacao": 201,
+        "C5_aceite": 201,
+        "C2_empenho": 8,
+        "C2_empenho_pdf": 8
+      },
+      "passo": 8,
+      "mapeamento_docs": {
+        "total": 201,
+        "FORTE": 5,
+        "MEDIA": 188,
+        "FRACA": 8,
+        "ne_pdfs_utilizados": 131,
+        "ne_pdfs_disponiveis": 163,
+        "ne_pdfs_nao_mapeados": 32
+      },
+      "lacunas": {
+        "contratos_sem_pdf": [
+          "10/2021",
+          "12/2021",
+          "14/2019",
+          "17/2015",
+          "22/2014",
+          "23/2014",
+          "25/2014",
+          "27/2014",
+          "296/2025",
+          "3/2026",
+          "6/2021",
+          "60/2022",
+          "71/2022",
+          "75/2022",
+          "8/2021",
+          "83/2022"
+        ],
+        "ne_pdfs_disponiveis": 163,
+        "ne_pdfs_mapeados": 163,
+        "lacunas_criticas": [
+          "16 contratos sem PDF: 10/2021, 12/2021, 14/2019, 17/2015, 22/2014",
+          "8 faturas sem NE (via monitória)"
+        ]
+      }
+    },
+    "contratos_spcf": {
+      "total": 16,
+      "vigentes": 1,
+      "rescindidos": 7,
+      "concluidos": 6,
+      "total_aditivos": 31,
+      "total_anexos": 38,
+      "contratos": [
+        {
+          "numero": "10/2021",
+          "id_spcf": "11103",
+          "valor_global": "13.650.730,50",
+          "status": "Rescindido",
+          "objeto": "Software como Servio, com a disponibilizao de uma soluo de Gesto de Trnsito, em infraestrutura de nuvem, visando atender s necessidades do Departamento Estadual de Trnsito, DETRAN-AM, no Estado do Ama",
+          "inicio_vigencia": "01/01/2026",
+          "fim_vigencia": "17/06/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 5,
+          "n_anexos": 3,
+          "n_servicos": 3,
+          "servicos": [
+            "Software como Servio",
+            "Software como Servio",
+            "Software como Servio"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "4704",
+              "data": "01/01/2026",
+              "objeto": "Suplementao de 25% no valor do Contrato."
+            },
+            {
+              "id": "4443",
+              "data": "18/06/2025",
+              "objeto": "Prorrogao de prazo por 12 meses."
+            },
+            {
+              "id": "4013",
+              "data": "18/06/2024",
+              "objeto": "Prorrogao de Prazo por 12 meses."
+            },
+            {
+              "id": "3095",
+              "data": "18/06/2022",
+              "objeto": "Prorrogao de prazo."
+            },
+            {
+              "id": "3542",
+              "data": "18/06/2023",
+              "objeto": "Prorrogao de Prazo"
+            }
+          ],
+          "anexo_ids": [
+            "202081",
+            "202082",
+            "202083"
+          ],
+          "proposta_id": "12184"
+        },
+        {
+          "numero": "12/2021",
+          "id_spcf": "11112",
+          "valor_global": "2.409.973,44",
+          "status": "Rescindido",
+          "objeto": "Prestao de servios tcnicos de informtica, compreendendo o desenvolvimento de Sistemas de Informao, visando atender as necessidades desse DETRAN em suas diversas reas de atuao.",
+          "inicio_vigencia": "16/07/2025",
+          "fim_vigencia": "15/07/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 5,
+          "n_anexos": 2,
+          "n_servicos": 2,
+          "servicos": [
+            "Desenvolvimento de Sistemas de Informao",
+            "Consultoria em informtica"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "3143",
+              "data": "16/07/2022",
+              "objeto": "Prorrogao de prazo por 12 meses."
+            },
+            {
+              "id": "3658",
+              "data": "01/09/2023",
+              "objeto": "Supresso conforme Decreto n 47.935"
+            },
+            {
+              "id": "4045",
+              "data": "16/07/2024",
+              "objeto": "Prorrogao de Prazo por 12 meses."
+            },
+            {
+              "id": "4487",
+              "data": "16/07/2025",
+              "objeto": "Prorrogao de prazo e reajuste de preos de 8,50% IGPM de abril de 2025."
+            },
+            {
+              "id": "3578",
+              "data": "16/07/2023",
+              "objeto": "Prorrogao de prazo."
+            }
+          ],
+          "anexo_ids": [
+            "202100",
+            "202101"
+          ],
+          "proposta_id": "12259"
+        },
+        {
+          "numero": "14/2019",
+          "id_spcf": "10783",
+          "valor_global": "40.101,12",
+          "status": "Concludo",
+          "objeto": "Prestao de servio de execuo de Sistema de Protocolo em plataforma Web (SPROWeb), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do cliente. Este sistema tem po",
+          "inicio_vigencia": "05/12/2019",
+          "fim_vigencia": "31/10/2021",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "201458"
+          ],
+          "proposta_id": "11574"
+        },
+        {
+          "numero": "17/2015",
+          "id_spcf": "10033",
+          "valor_global": "878.566,38",
+          "status": "Concludo",
+          "objeto": "Prestao de Servios de Data Center, compreendendo Hospedagem de Servidores web do DETRAN/AM, Acesso aos Servios atravs da web, Processamento de Dados para Transaes Executadas com a Base Nacional.",
+          "inicio_vigencia": "13/08/2020",
+          "fim_vigencia": "31/10/2021",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 6,
+          "n_anexos": 3,
+          "n_servicos": 3,
+          "servicos": [
+            "Execuo de sistemas",
+            "Execuo de sistemas",
+            "Hospedagem de Servidores"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "1519",
+              "data": "13/08/2017",
+              "objeto": "Prorrogao de Prazo e aumento da quantidade dos itens."
+            },
+            {
+              "id": "2453",
+              "data": "13/08/2020",
+              "objeto": "Prorrogao de prazo por 06 meses"
+            },
+            {
+              "id": "1297",
+              "data": "13/08/2016",
+              "objeto": "Prorrogao de Prazo"
+            },
+            {
+              "id": "2272",
+              "data": "13/02/2020",
+              "objeto": "Prorrogao de prazo por 6 meses."
+            },
+            {
+              "id": "1776",
+              "data": "13/08/2018",
+              "objeto": "Prorrogao de prazo, supresso de 8,35% do valor mensal e suplementao de 1,876%."
+            },
+            {
+              "id": "2110",
+              "data": "13/08/2019",
+              "objeto": "Prorrogao de prazo por 6 meses."
+            }
+          ],
+          "anexo_ids": [
+            "165006",
+            "166006",
+            "167006"
+          ],
+          "proposta_id": "10111"
+        },
+        {
+          "numero": "22/2014",
+          "id_spcf": "10006",
+          "valor_global": "4.254.058,86",
+          "status": "Concludo",
+          "objeto": "Execuo de Sistema - SCIT, CVMT, SCNH e FRAM",
+          "inicio_vigencia": "26/11/2014",
+          "fim_vigencia": "31/10/2021",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 4,
+          "n_servicos": 4,
+          "servicos": [
+            "Execuo de sistemas",
+            "Execuo de sistemas",
+            "Execuo de sistemas",
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "115006",
+            "116006",
+            "117006",
+            "118006"
+          ],
+          "proposta_id": "10018"
+        },
+        {
+          "numero": "23/2014",
+          "id_spcf": "4124",
+          "valor_global": "66.239,52",
+          "status": "Cancelado",
+          "objeto": "",
+          "inicio_vigencia": "03/11/2014",
+          "fim_vigencia": "02/11/2015",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "5796"
+          ],
+          "proposta_id": "4124"
+        },
+        {
+          "numero": "25/2014",
+          "id_spcf": "10003",
+          "valor_global": "2.077.452,00",
+          "status": "Concludo",
+          "objeto": "Manuteno dos Sistemas do DETRAN-AM",
+          "inicio_vigencia": "28/11/2014",
+          "fim_vigencia": "27/11/2015",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 3,
+          "n_servicos": 3,
+          "servicos": [
+            "Suporte Tcnico em Sistemas de Informao",
+            "Assessoria Tcnica em Informtica",
+            "Manuteno Evolutiva de Sistemas"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "106006",
+            "107006",
+            "50060"
+          ],
+          "proposta_id": "10021"
+        },
+        {
+          "numero": "27/2014",
+          "id_spcf": "10005",
+          "valor_global": "468.002,76",
+          "status": "Cancelado",
+          "objeto": "Servio de Rede e Internet.",
+          "inicio_vigencia": "28/11/2014",
+          "fim_vigencia": "27/11/2015",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 3,
+          "n_servicos": 3,
+          "servicos": [
+            "Acesso Gerenciado Rede Mundial",
+            "Acesso MetroMao",
+            "Fornecimento de circuito de transmisso de dados"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "112006",
+            "113006",
+            "114006"
+          ],
+          "proposta_id": "10020"
+        },
+        {
+          "numero": "296/2025",
+          "id_spcf": "12049",
+          "valor_global": "15.133.976,40",
+          "status": "Rescindido",
+          "objeto": "Assessoria Tcnica em Informtica",
+          "inicio_vigencia": "01/10/2025",
+          "fim_vigencia": "31/12/2025",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Assessoria Tcnica em Informtica"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "203626"
+          ],
+          "proposta_id": "14521"
+        },
+        {
+          "numero": "3/2026",
+          "id_spcf": "12086",
+          "valor_global": "15.133.976,40",
+          "status": "Vigente",
+          "objeto": "Prestao de Servios de Assessoria Tcnica em Informtica, compreendendo os servios de apoio tcnico para a extrao de dados dos sistemas legados, assessoria tcnica no processo de migrao dos dados para este",
+          "inicio_vigencia": "05/01/2026",
+          "fim_vigencia": "04/01/2028",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Assessoria Tcnica em Informtica"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "203694"
+          ],
+          "proposta_id": "14421"
+        },
+        {
+          "numero": "6/2021",
+          "id_spcf": "11055",
+          "valor_global": "2.089.847,04",
+          "status": "Concludo",
+          "objeto": "Servios de Rede, compreendendo a disponibilizao de licenas de tecnologia Virtual Private Network (VPN) para acesso aos sistemas do DETRAN/AM, no computador central da PRODAM; 1.2 Servio de Rede, compr",
+          "inicio_vigencia": "01/04/2025",
+          "fim_vigencia": "31/03/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 4,
+          "n_anexos": 10,
+          "n_servicos": 10,
+          "servicos": [
+            "Hospedagem de Servidores",
+            "Acesso MetroMao",
+            "Fornecimento de circuito de transmisso de dados",
+            "Suporte Tcnico em Sistemas de Informao",
+            "Servios de Firewall",
+            "Fornecimento de Espao em Rack",
+            "Implantao de Websites ou portais",
+            "Acesso Gerenciado Rede Mundial",
+            "Licena de uso de VPN",
+            "Assessoria Tcnica em Informtica"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "4395",
+              "data": "01/04/2025",
+              "objeto": "Prorrogao de prazo e reajuste de preos de 6,54% IGPM de dezembro de 2024."
+            },
+            {
+              "id": "3917",
+              "data": "01/04/2024",
+              "objeto": "Prorrogao de Prazo."
+            },
+            {
+              "id": "3012",
+              "data": "01/04/2022",
+              "objeto": "Prorrogao de prazo."
+            },
+            {
+              "id": "3455",
+              "data": "01/04/2023",
+              "objeto": "Prorrogao de prazo e reajuste de 5,45%"
+            }
+          ],
+          "anexo_ids": [
+            "201982",
+            "201983",
+            "201984",
+            "201985",
+            "201986",
+            "201987",
+            "201988",
+            "201989",
+            "201990",
+            "201991"
+          ],
+          "proposta_id": "11810"
+        },
+        {
+          "numero": "60/2022",
+          "id_spcf": "11441",
+          "valor_global": "0,00",
+          "status": "Rescindido",
+          "objeto": "",
+          "inicio_vigencia": "01/08/2022",
+          "fim_vigencia": "30/11/2022",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Licena de uso de sistemas de informao"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202597"
+          ],
+          "proposta_id": "13078"
+        },
+        {
+          "numero": "71/2022",
+          "id_spcf": "11407",
+          "valor_global": "0,00",
+          "status": "Rescindido",
+          "objeto": "",
+          "inicio_vigencia": "01/07/2022",
+          "fim_vigencia": "31/08/2022",
+          "forma_pagamento": "",
+          "n_aditivos": 0,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Licena de uso de sistemas de informao"
+          ],
+          "aditivos_resumo": [],
+          "anexo_ids": [
+            "202543"
+          ],
+          "proposta_id": "13006"
+        },
+        {
+          "numero": "75/2022",
+          "id_spcf": "11424",
+          "valor_global": "3.407.236,80",
+          "status": "Rescindido",
+          "objeto": "Licena de Uso de Sistema de Identificao e Controle dos Candidatos e Motoristas.",
+          "inicio_vigencia": "01/09/2025",
+          "fim_vigencia": "31/08/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 3,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Licena de uso de sistemas de informao"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "4490",
+              "data": "01/09/2025",
+              "objeto": "Prorrogao de prazo e reajuste de preos de 5,32% IPCA."
+            },
+            {
+              "id": "3656",
+              "data": "01/09/2023",
+              "objeto": "Prorrogao de Prazo por 12 meses."
+            },
+            {
+              "id": "4116",
+              "data": "01/09/2024",
+              "objeto": "Prorrogao de prazo e reajuste de preos de 3,69% IPCA acumulado de abril 2024."
+            }
+          ],
+          "anexo_ids": [
+            "202569"
+          ],
+          "proposta_id": "12846"
+        },
+        {
+          "numero": "8/2021",
+          "id_spcf": "11060",
+          "valor_global": "54.410,19",
+          "status": "Concludo",
+          "objeto": "Fornecimento de Servio de Execuo de Sistemas PRODAM-RH para controle de cadastro de pessoal (servidores e seus dependentes e estagirios), processamento de folha de pagamento de servidores, transmisso ",
+          "inicio_vigencia": "01/04/2025",
+          "fim_vigencia": "31/03/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 5,
+          "n_anexos": 2,
+          "n_servicos": 2,
+          "servicos": [
+            "Execuo de sistemas",
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "3013",
+              "data": "01/04/2022",
+              "objeto": "Prorrogao de prazo, supresso e incluso do item \"Por Consulta a Base de Dados\" e excluso dos demais i"
+            },
+            {
+              "id": "3456",
+              "data": "01/04/2023",
+              "objeto": "Prorrogao de prazo e reajuste de preos de 5,45% - IGPM."
+            },
+            {
+              "id": "3657",
+              "data": "01/09/2023",
+              "objeto": "Supresso de 25% conforme Decreto Estadual n 47.925"
+            },
+            {
+              "id": "3920",
+              "data": "01/04/2024",
+              "objeto": "Prorrogao de Prazo."
+            },
+            {
+              "id": "4396",
+              "data": "01/04/2025",
+              "objeto": "Prorrogao de prazo e reajuste de preos de 6,54% IGPM acumulado de dezembro de 2024."
+            }
+          ],
+          "anexo_ids": [
+            "201999",
+            "202000"
+          ],
+          "proposta_id": "12180"
+        },
+        {
+          "numero": "83/2022",
+          "id_spcf": "11457",
+          "valor_global": "387.948,00",
+          "status": "Rescindido",
+          "objeto": "Licena de Uso de Sistemas de Informao, compreendendo a cesso de uso da Soluo de Talo Eletrnico na plataforma Android.",
+          "inicio_vigencia": "02/12/2025",
+          "fim_vigencia": "01/12/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 3,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Licena de uso de sistemas de informao"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "3777",
+              "data": "02/12/2023",
+              "objeto": "Prorrogao de Prazo."
+            },
+            {
+              "id": "4620",
+              "data": "02/12/2025",
+              "objeto": "Prorrogao de prazo e reajuste de 5,13%"
+            },
+            {
+              "id": "4231",
+              "data": "02/12/2024",
+              "objeto": "Prorrogao de prazo e reajuste de preos de 4,24% IPCA agosto de 2024."
+            }
+          ],
+          "anexo_ids": [
+            "202626"
+          ],
+          "proposta_id": "12842"
+        }
+      ],
+      "data_integracao": "2026-04-08T15:08:50.808362"
+    },
+    "nes_raspadas_spcf": {
+      "total": 303,
+      "com_contrato": 145,
+      "contratos_unicos": [
+        "1/2011",
+        "1/2014",
+        "10/2021",
+        "11/2016",
+        "12/2021",
+        "14/2019",
+        "16/2009",
+        "17/2015",
+        "21/2014",
+        "22/2014",
+        "23/2014",
+        "24/2014",
+        "25/2011",
+        "25/2014",
+        "26/2014",
+        "27/2014",
+        "28/2012",
+        "30/2012",
+        "34/2011",
+        "4/2016",
+        "5/2016",
+        "6/2021",
+        "75/2022",
+        "8/2021",
+        "83/2022"
+      ],
+      "por_evento": {
+        "400091_empenho": 104,
+        "400092_reforco": 36,
+        "400093_anulacao": 163
+      },
+      "valor_total": 141508017.66,
+      "data_integracao": "2026-04-08T15:31:54.272514",
+      "procedencia": "P3-SISTEMA",
+      "nota_spcf_empenhos_20260331": "488 NEs no SPCF_EMPENHOS_20260331 vs 303 raspadas = 185 gap"
+    },
+    "reconciliacao_spcf": {
+      "data_reconciliacao": "2026-04-08",
+      "fonte": "DADOS_5DEV (faturas_COMPLETO, empenhos_COMPLETO, contratos_COMPLETO, liquidadas 2019-2026)",
+      "procedencia": "P3-SISTEMA",
+      "faturas_emitidas_pendentes": 149,
+      "faturas_pagas_total": 4660,
+      "faturas_pagas_valor": 196341590.4,
+      "faturas_canceladas": 215,
+      "faturas_perdas": 147,
+      "faturas_em_aberto": 151,
+      "valor_em_aberto": 20634702.51,
+      "empenhos_total": 478,
+      "empenhos_valor": 278322583.84,
+      "empenhos_situacoes": {
+        "Ativo": 478
+      },
+      "contratos_total": 227,
+      "contratos_ativos": 1,
+      "contratos_valor": 99741087.65,
+      "liquidadas_total": 1453,
+      "liquidadas_valor": 116908550.43,
+      "liquidadas_por_ano": {
+        "2019": {
+          "count": 253,
+          "valor": 14415922.9
+        },
+        "2020": {
+          "count": 263,
+          "valor": 13216140.07
+        },
+        "2021": {
+          "count": 166,
+          "valor": 12375883.59
+        },
+        "2022": {
+          "count": 152,
+          "valor": 13702829.13
+        },
+        "2023": {
+          "count": 179,
+          "valor": 15822922.29
+        },
+        "2024": {
+          "count": 248,
+          "valor": 27425048.45
+        },
+        "2025": {
+          "count": 176,
+          "valor": 18215675.39
+        },
+        "2026": {
+          "count": 16,
+          "valor": 1734128.61
+        }
+      },
+      "nes_spcf_raspadas": 303,
+      "faturas_com_empenho": 139,
+      "valor_com_empenho": 15698601.06,
+      "faturas_sem_empenho": 12,
+      "valor_sem_empenho": 4936101.45,
+      "pct_com_empenho": 76.1,
+      "empenhos_total_spcf_20260331": 488,
+      "nota_divergencia_empenhos": "478 (DADOS_5DEV) vs 488 (SPCF_EMPENHOS_20260331) — +10 NEs novas"
+    },
+    "saldo_devedor_spcf": 20634702.51,
+    "total_pago_historico": 196341590.4,
+    "total_liquidadas": 1453,
+    "total_empenhos_spcf": 488,
+    "total_contratos_spcf": 228,
+    "referencia_juridica": {
+      "arquivos_referencia": 77,
+      "categorias_cobertas": 9,
+      "tem_dossie_devedor": true,
+      "tem_execucao_fazenda": true,
+      "tem_prescricao": false,
+      "tem_estrategia_cobranca": false,
+      "tem_errata_correcoes": true,
+      "status": "COMPLETA"
+    },
+    "status_consolidado": {
+      "data_atualizacao": "2026-04-10",
+      "sessao": 76,
+      "saldo_devedor_nominal": 20634702.51,
+      "faturas_em_aberto": 151,
+      "pct_com_empenho": 95.3,
+      "total_liquidadas_historico": 1453,
+      "total_pagas_historico": 4660,
+      "cobertura_juridica": "COMPLETA",
+      "pronto_para_passo9": true,
+      "nota_pct_empenho": "Atualizado sessão 76: 141/148 faturas abertas com empenho = 95.3%. Valor anterior 76.1% era de sessão 66 com denominador diferente."
+    },
+    "auditoria_sessao76": {
+      "data": "2026-04-10",
+      "divergencias_corrigidas": [
+        "faturas_canceladas_investigar.qtd: 9 → 127/219 (reconciliado com SPCF e DETRAN NOVO)",
+        "status_consolidado.pct_com_empenho: 76.1% → 95.3% (alinhado com faturas_abertas)",
+        "status_consolidado.sessao: 66 → 76",
+        "SKILL_ROUTER.md: SKILL_classificacao_evidencia → classificacao-forca-probatoria (9 ocorrências)",
+        "6 skills atualizadas: Decreto 51.084/2025 → 53.464/2026",
+        "protocolo-juridico-prodam: 51 devedores → 66 devedores"
+      ],
+      "campos_novos_audit": {
+        "contratos_ids_spcf": "Equivalente em spcf_files_detran_novo.SPCF_CONTRATOS_TODOS (228 contratos)",
+        "empenhos_ids_spcf": "Equivalente em spcf_files_detran_novo.SPCF_EMPENHOS (488 NEs)",
+        "historico_cobrancas": "Equivalente em cartas_cobranca (8 registros 2021-2024)",
+        "pagamentos_parciais": "Equivalente em reconciliacao_6_6.faturas_com_pg_parcial (8 faturas, R$1.263.717,76)",
+        "num_faturas_pagas": "Equivalente em reconciliacao_6_6.faturas_pagas_historico (1452)",
+        "val_total_pago": "Equivalente em reconciliacao_6_6.total_pago_historico (R$109.836.724,18)",
+        "data_ultimo_pagamento": "Equivalente em ultimo_faturamento (2026-Mar)",
+        "num_faturas_canceladas": "Equivalente em fat_canceladas_qtd (127)",
+        "cadeia_documental_completude": "Equivalente em dossie_classificacao_passo8.mapeamento_docs",
+        "val_corrigido_data": "Equivalente em correcao_monetaria_passo7.valor_total_atualizado (R$27.254.434,20)",
+        "data_prescricao_mais_proxima": "Equivalente em data_prescricao_proxima (2026-03-20)"
+      },
+      "nota_empenhos": "Múltiplas contagens: empenho_historico_qtd=288 (profiles SSOT), SPCF_EMPENHOS=488 (scrape mar/2026), nes_extraidas_pdf=115 (OCR), nes_spcf_2014_2019=161 (scrape abr/2026). 288 é contagem reconciliada; 488 inclui reforços e anulações (eventos 400091+400092+400093).",
+      "val_exig_nota": "val_exig=R$31.684.739,01 inclui correção monetária parcial e faturas de múltiplos contratos. spcf_fat_devidas_val=R$20.848.440,34 é valor nominal SPCF sem correção. Diferença de 34% é esperada (IGPM+juros+multa).",
+      "prescricao_validacao": "Prescrição calculada por VENCIMENTO (Art. 189 CC), não por emissão. Confirmado via correcao_monetaria_passo7 que usa faturas_exigiveis=201 (pós-cutoff vencimento).",
+      "indice_status": "IGPM+1%+2% permanece PRESUMIDO — CT 022/2014 Cláusula 11.1 referenciada em observacoes mas contrato original não acessado. Lei 14.905/2024 arts. 404-406 CC: não presumir 1% a.m."
+    },
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -21,
+    "via_processual_recomendada": {
+      "via": "EXECUCAO_DIRETA",
+      "fundamentacao": "Força FORTE, petição pronta, 95.3% com empenho, NE+NL confirmados"
+    },
+    "tem_csv_faturas": true,
+    "cobrancas_detran_total": 2268,
+    "cobrancas_spcf_count": 113,
+    "ranking_spcf": 2,
+    "ranking_faturas_emitidas": 135239859.22,
+    "ranking_faturas_pendentes": 21956554.7,
+    "ranking_faturas_pagas": 112791424.69,
+    "overlap_pagos_devidas_count": 1643,
+    "empenhos_completo_total": 501,
+    "evolucao_mensal_cobertura": "2019-2026 (16 CSVs contínuo + não-contínuo)",
+    "faturamento_servicos_cobertura": "2019-2026 (17 CSVs contínuo + não-contínuo + consolidado)",
+    "faturas_detran_novo_detalhadas": {
+      "total": 202,
+      "colunas": 47,
+      "prescricao_vigente": 148,
+      "prescricao_atencao": 53,
+      "prescricao_prescrita": 1,
+      "com_marcos_interruptivos": true,
+      "forca_por_fatura": true,
+      "fonte": "DETRAN_NOVO/CSV/FATURAS_DETRAN.csv"
+    },
+    "spcf_files_detran_novo": {
+      "SPCF_EMPENHOS_20260331": {
+        "total_geral": 16829,
+        "detran": 488
+      },
+      "SPCF_CONTRATOS_TODOS_20260331": {
+        "total_geral": 5512,
+        "detran": 228
+      },
+      "SPCF_COBRANCAS_TODOS_20260331": {
+        "total_geral": 1814,
+        "detran": 113
+      },
+      "SPCF_RANKING_CLIENTES_20260331": {
+        "classificacao_detran": 2
+      },
+      "SPCF_PAGOS_20260331": {
+        "disponivel": true,
+        "tamanho_kb": 29281
+      }
+    },
+    "fonte_detran_novo": {
+      "data_integracao": "2026-04-10T18:53:36.333868",
+      "total_arquivos": 796,
+      "tamanho_gb": 1.1,
+      "subpastas": {
+        "CSV": 282,
+        "JSON": 329,
+        "TXT": 185
+      },
+      "sessao": 74
+    },
+    "nes_extraidas_pdf": 115,
+    "nes_com_valor_pdf": 107,
+    "nes_valor_total_pdf": 88392361.41,
+    "nes_contratos_vinculados": [
+      "01/2011",
+      "012/2021",
+      "04/2016",
+      "05/2016",
+      "06/2021",
+      "075/2022",
+      "08/2021",
+      "083/2022",
+      "10/2021",
+      "11/2016",
+      "12/2021",
+      "14/2016",
+      "17/2015",
+      "22/2014",
+      "23/2014",
+      "25/2014",
+      "27/2014",
+      "28/2012",
+      "35/2014",
+      "78/2022"
+    ],
+    "nes_num_contratos": 20,
+    "nes_por_ano": {
+      "2014": 1,
+      "2015": 17,
+      "2016": 17,
+      "2017": 18,
+      "2018": 10,
+      "2019": 9,
+      "2020": 9,
+      "2021": 4,
+      "2022": 7,
+      "2023": 7,
+      "2024": 8,
+      "2025": 6,
+      "2026": 2
+    },
+    "nes_ano_mais_antigo": "2014",
+    "nes_ano_mais_recente": "2026",
+    "nes_metodo_extracao": "82 OCR + 33 digital",
+    "nes_erros_remanescentes": 1,
+    "nes_data_extracao": "2026-04-10",
+    "nes_arquivo_consolidado": "DOSSIES/DETRAN_NES_CONSOLIDADO.json",
+    "nes_relevancia_juridica": "Art. 202 VI CC - Empenho = reconhecimento tacito de divida. 115 NEs documentadas de 2014-2026, cobrindo 13 anos. Valor total R$ 88,392,361.41. 20 contratos vinculados. Cada NE interrompe prescricao da fatura correspondente.",
+    "cartas_cobranca": {
+      "data_integracao": "2026-04-10",
+      "sessao": 73,
+      "total_cartas": 8,
+      "cartas": [
+        {
+          "data": "2021-07-08",
+          "tipo": "Carta de cobrança formal",
+          "destinatario": "Rodrigo de Sá Barbosa (Diretor-Presidente DETRAN)",
+          "protocolo": null,
+          "descricao": "Demanda formal de pagamento, cita contratos inadimplidos",
+          "marco_interruptivo": true,
+          "fundamentacao": "Art. 202 VI CC - ato inequívoco de reconhecimento pela cobrança formal"
+        },
+        {
+          "data": "2023-01-01",
+          "tipo": "Acompanhamento carta cobrança 2023",
+          "destinatario": "DETRAN",
+          "protocolo": "01.03.022201.021677/2023",
+          "descricao": "3 registros no tracking 2023, status PROCESSO PARADO",
+          "marco_interruptivo": false,
+          "fundamentacao": "Carta de cobrança pelo credor (PRODAM) NÃO interrompe prescrição por si só"
+        },
+        {
+          "data": "2024-02-01",
+          "tipo": "Acompanhamento carta cobrança FEV/2024",
+          "destinatario": "DETRAN",
+          "protocolo": null,
+          "descricao": "1 registro no tracking fev/2024",
+          "marco_interruptivo": false,
+          "fundamentacao": "Carta de cobrança pelo credor (PRODAM) NÃO interrompe prescrição por si só"
+        },
+        {
+          "data": "2024-01-01",
+          "tipo": "Acompanhamento carta cobrança 2024",
+          "destinatario": "DETRAN",
+          "protocolo": "01.05.016503.000545/2024-75",
+          "descricao": "4 registros no tracking 2024, SIGED rastreável",
+          "marco_interruptivo": false,
+          "fundamentacao": "Carta de cobrança pelo credor (PRODAM) NÃO interrompe prescrição por si só"
+        }
+      ],
+      "relevancia_juridica": "Cartas de cobrança da PRODAM NÃO são marcos interruptivos por si só (Art. 202 CC exige ato do DEVEDOR). Porém documentam diligência do credor e afastam inércia. A carta formal de 08/07/2021 ao Diretor do DETRAN é evidência de que a dívida era conhecida."
+    },
+    "nfs_especificas_documentadas": [
+      {
+        "numero": "25055",
+        "valor": 39951.0,
+        "contrato": "025/2014",
+        "competencia": "2021-03",
+        "descricao": "Serviços de TI DETRAN",
+        "assinado_por": "Marcelo Almeida Marinho",
+        "fonte": "PDF upload sessao 73"
+      },
+      {
+        "numero": "29253",
+        "valor": 305403.49,
+        "contrato": "4/2016",
+        "competencia": "2022-05",
+        "descricao": "Licenciamento de software DETRAN",
+        "assinado_por": null,
+        "fonte": "PDF upload sessao 73"
+      }
+    ],
+    "faturas_canceladas_investigar": {
+      "data_integracao": "2026-04-10",
+      "sessao": 76,
+      "qtd_canceladas_spcf_reconciliado": 127,
+      "qtd_canceladas_detran_novo_raw": 219,
+      "qtd_canceladas_json_raw": 81,
+      "valor_bruto": 9540133.47,
+      "valor_liquido": 9062191.61,
+      "periodo": "2008-2026",
+      "status_investigacao": "RECONCILIADO_PARCIAL",
+      "motivos_identificados": [
+        "Registro não enviado à SEFAZ",
+        "Enviado manualmente à Prefeitura",
+        "A pedido do cliente",
+        "Erro de emissão"
+      ],
+      "nota": "SPCF reconciliado=127 (fonte autoritativa). DETRAN NOVO raw=219 (inclui duplicatas e tipos distintos: fat_cancelados=219, fat_mov_cancelados=89, faturas_doc_cancelados=21). Diferença sessão 73 (9) era subestimativa do relatório geral XLS.",
+      "impacto_juridico": "Canceladas NÃO reduzem val_exig diretamente — já excluídas na reconciliação SPCF. Porém DETRAN pode usar como defesa.",
+      "fonte": "fat_cancelados.csv (DETRAN NOVO) + SPCF_MAR2026 reconciliado"
+    },
+    "rel_nf_recebimento_detran": {
+      "data_integracao": "2026-04-10",
+      "sessao": 73,
+      "paginas": 2400,
+      "periodo": "2019-2026",
+      "status_extracao": "PENDENTE",
+      "nota": "PDF massivo com dados de recebimento/pagamento de NFs. Precisa filtrar apenas DETRAN.",
+      "fonte": "REL_nf_por_recebimento_DETRAN.pdf"
+    },
+    "dossie_sessao73": {
+      "data": "2026-04-10",
+      "arquivos_gerados": [
+        "DOSSIES/DETRAN_COMPILACAO_DOSSIE_SESSAO73.md",
+        "DOSSIES/DETRAN_NES_EXTRAIDAS.json",
+        "DOSSIES/DETRAN_NES_RESUMO.md",
+        "DOSSIES/DETRAN_EXTRACAO_DADOS_COMPLETA.md",
+        "DOSSIES/DETRAN_EXTRACAO_RELATORIO_COMPLETO.md",
+        "DOSSIES/DETRAN_INVENTARIO_COMPLETO_SESSAO73.md",
+        "DOSSIES/DOSSIE_DETRAN_FORMAL_v3.docx",
+        "DOSSIES/DETRAN_NES_CONSOLIDADO.json",
+        "DOSSIES/DETRAN_NES_CONSOLIDADO.csv",
+        "DOSSIES/DETRAN_NES_RELATORIO_CONSOLIDADO.md",
+        "DOSSIES/DETRAN_NES_2014_2019_SPCF_RESUMO.md"
+      ],
+      "nes_extraidas": 115,
+      "nes_ocr": 82,
+      "nes_digital": 33,
+      "nes_pendentes_ocr": 0,
+      "nes_pendentes_ocr_nota": "RESOLVIDO sessão 76 — 161 NEs 2014-2019 já existem em NEs_v2_1512.json (SPCF scrape 08/04/2026). OCR desnecessário.",
+      "fontes_analisadas": 14,
+      "status": "COMPLETO"
+    },
+    "nes_spcf_2014_2019": {
+      "data_extracao": "2026-04-10",
+      "fonte": "NEs_v2_1512.json (scrape SPCF 08/04/2026)",
+      "procedencia": "P3-SISTEMA",
+      "total_nes": 161,
+      "por_evento": {
+        "400091_emissao": 55,
+        "400092_reforco": 30,
+        "400093_anulacao": 76
+      },
+      "por_ano": {
+        "2014": 17,
+        "2015": 24,
+        "2016": 28,
+        "2017": 17,
+        "2018": 38,
+        "2019": 37
+      },
+      "contratos_identificados": [
+        "CT 22/2014 (SCIT/CVMT/SCNH/FRAM — sistemas trânsito, MAIOR)",
+        "CT 25/2014 (manutenção corretiva/evolutiva)",
+        "CT 4/2016 (biometria identificação/habilitação)",
+        "CT 17/2015 (Data Center hospedagem)",
+        "CT 11/2016 (talão eletrônico Android)",
+        "CT 27/2014 (rede de governo/internet)",
+        "CT 23/2014 (RH/folha de pagamento)",
+        "CT 28/2012 (SPROWeb protocolo)",
+        "CT 5/2016 (VPN 20 licenças)",
+        "CT 16/2009 (SCIT/CVMT/SCNH/FRAM antigo)",
+        "CT 26/2014",
+        "CT 24/2014 (datacenter indenizatório)",
+        "CT 30/2012",
+        "CT 34/2011 (Ponte Rio Negro)",
+        "CT 1/2014",
+        "CT 1/2011 (VPN antigo)",
+        "CT 25/2011 (site DETRAN)",
+        "CT 1/2015 (VPN)",
+        "CT 14/2019"
+      ],
+      "nes_destaque_400091": [
+        {
+          "ne": "2018NE00050",
+          "val": "4792503.80",
+          "ctr": "22/2014",
+          "dt": "02/01/2018"
+        },
+        {
+          "ne": "2018NE00263",
+          "val": "4303231.85",
+          "ctr": "22/2014",
+          "dt": "26/03/2018"
+        },
+        {
+          "ne": "2018NE00046",
+          "val": "1832420.94",
+          "ctr": "4/2016",
+          "dt": "02/01/2018"
+        },
+        {
+          "ne": "2019NE00019",
+          "val": "1437751.14",
+          "ctr": "22/2014",
+          "dt": "02/01/2019"
+        },
+        {
+          "ne": "2018NE00259",
+          "val": "1221613.96",
+          "ctr": "4/2016",
+          "dt": "26/03/2018"
+        },
+        {
+          "ne": "2014NE00801",
+          "val": "1071904.53",
+          "ctr": "16/2009",
+          "dt": "2014"
+        },
+        {
+          "ne": "2018NE00049",
+          "val": "1065386.60",
+          "ctr": "25/2014",
+          "dt": "02/01/2018"
+        },
+        {
+          "ne": "2016NE00030",
+          "val": "1065386.60",
+          "ctr": "25/2014",
+          "dt": "04/01/2016"
+        },
+        {
+          "ne": "2018NE00047",
+          "val": "1024994.11",
+          "ctr": "17/2015",
+          "dt": "02/01/2018"
+        },
+        {
+          "ne": "2016NE00697",
+          "val": "958500.76",
+          "ctr": "22/2014",
+          "dt": "25/11/2016"
+        }
+      ],
+      "impacto_juridico": "Cada NE 400091/400092 = reconhecimento tácito (Art. 202 VI CC). Interrompe prescrição. Fortalece título de EXEC_B para EXEC_A.",
+      "ultimo_empenho_2014_2019": "2019NE01227 (22/11/2019, CT 22/2014, R$479.250,38)",
+      "ocr_necessario": false,
+      "relatorio": "DOSSIES/DETRAN_NES_2014_2019_SPCF_RESUMO.md"
+    }
+  },
+  "contratos_db_count": 0,
+  "empenhos_db": {
+    "count": 470,
+    "valor_total": 250316057.3
+  },
+  "faturas_db": {
+    "count": 113,
+    "valor_bruto": 17802420.55,
+    "valor_atualizado": 28867345.467968147,
+    "fator_igpm_juros_multa": 1.6215404746164221
+  },
+  "ne_mais_recente_por_contrato": {
+    "(sem contrato)": {
+      "data": "2025-10-29",
+      "numero": "2025NE0001771",
+      "valor": 814321.11
+    },
+    "11/2016": {
+      "data": "2022-01-03",
+      "numero": "2022NE0000053",
+      "valor": 422289.0
+    },
+    "8/2021": {
+      "data": "2026-01-05",
+      "numero": "2026NE0000007",
+      "valor": 13602.54
+    },
+    "10/2021": {
+      "data": "2026-01-20",
+      "numero": "2026NE0000101",
+      "valor": 6066991.32
+    },
+    "16/2009": {
+      "data": "2014-07-30",
+      "numero": "2014NE00801",
+      "valor": 1071904.53
+    },
+    "5/2016": {
+      "data": "2021-01-29",
+      "numero": "2021NE0000036",
+      "valor": 9622.8
+    },
+    "4/2016": {
+      "data": "2022-01-03",
+      "numero": "2022NE0000040",
+      "valor": 1832420.94
+    },
+    "6/2021": {
+      "data": "2026-01-05",
+      "numero": "2026NE0000006",
+      "valor": 522461.76
+    },
+    "23/2014": {
+      "data": "2020-05-20",
+      "numero": "2020NE00468",
+      "valor": 33119.76
+    },
+    "27/2014": {
+      "data": "2020-11-11",
+      "numero": "2020NE01096",
+      "valor": 45352.8
+    },
+    "25/2014": {
+      "data": "2020-11-10",
+      "numero": "2020NE01088",
+      "valor": 106538.66
+    },
+    "17/2015": {
+      "data": "2024-12-02",
+      "numero": "2024NE0002123",
+      "valor": 106770.0
+    },
+    "1/2014": {
+      "data": "2014-11-28",
+      "numero": "2014NE01413",
+      "valor": 78000.46
+    },
+    "12/2021": {
+      "data": "2026-01-05",
+      "numero": "2026NE0000008",
+      "valor": 401662.24
+    },
+    "75/2022": {
+      "data": "2026-01-05",
+      "numero": "2026NE0000009",
+      "valor": 1135745.6
+    },
+    "22/2014": {
+      "data": "2020-11-10",
+      "numero": "2020NE01086",
+      "valor": 479250.38
+    },
+    "28/2012": {
+      "data": "2018-03-26",
+      "numero": "2018NE00264",
+      "valor": 44738.76
+    },
+    "83/2022": {
+      "data": "2026-01-05",
+      "numero": "2026NE0000010",
+      "valor": 129316.0
+    },
+    "78/2022": {
+      "data": "2023-01-02",
+      "numero": "2023NE0000004",
+      "valor": 267942.15
+    },
+    "9/2018": {
+      "data": "2018-04-20",
+      "numero": "2018NE00399",
+      "valor": 363693.15
+    },
+    "26/2014": {
+      "data": "2015-09-09",
+      "numero": "2015NE00760",
+      "valor": 77947.05
+    },
+    "25/2011": {
+      "data": "2014-08-11",
+      "numero": "2014NE00864",
+      "valor": 12930.0
+    },
+    "21/2014": {
+      "data": "2015-09-09",
+      "numero": "2015NE00759",
+      "valor": 5967.0
+    },
+    "1/2011": {
+      "data": "2016-04-06",
+      "numero": "2016NE00256",
+      "valor": 3715.11
+    },
+    "14/2019": {
+      "data": "2020-01-02",
+      "numero": "2020NE00055",
+      "valor": 36759.36
+    },
+    "3/2026": {
+      "data": "2026-01-05",
+      "numero": "2026NE0000005",
+      "valor": 2522329.4
+    },
+    "24/2014": {
+      "data": "2016-05-03",
+      "numero": "2016NE00314",
+      "valor": 154348.75
+    },
+    "25/2018": {
+      "data": "2018-10-02",
+      "numero": "2018NE01008",
+      "valor": 24971.64
+    },
+    "34/2011": {
+      "data": "2014-01-02",
+      "numero": "2014NE00010",
+      "valor": 293495.0
+    },
+    "30/2012": {
+      "data": "2014-01-02",
+      "numero": "2014NE00017",
+      "valor": 540294.4
+    }
+  },
+  "prescricao": {
+    "total": 113,
+    "protegidas": 93,
+    "prescritas": 20,
+    "valor_protegido": 15941367.35,
+    "valor_prescrito": 1861053.2
+  },
+  "cadeia_distribuicao": {
+    "COMPLETA": 99,
+    "FORTE": 14
+  },
+  "blindagem": {
+    "titulo_executivo": {
+      "requisito": "Art.784 CPC — instrumento público/particular",
+      "evidencia": "Contratos formais assinados (228 SPCF)",
+      "ok": false
+    },
+    "liquidez": {
+      "requisito": "Valor líquido, certo, exigível (Art.783 CPC)",
+      "evidencia": "Valor bruto agregado R$ 17,802,420.55 do SPCF",
+      "ok": true
+    },
+    "cadeia_documental": {
+      "requisito": "REsp 793.969/RJ — Contrato+NE+NF+Atesto",
+      "evidencia": "113 faturas com cadeia FORTE/COMPLETA",
+      "ok": true
+    },
+    "prescricao": {
+      "requisito": "Não prescrita + marcos Art.202 VI",
+      "evidencia": "93 faturas protegidas × R$ 15,941,367.35",
+      "ok": true,
+      "atencao": "ATENÇÃO: profile marca urgencia_prescricao=PRESCRITA (D-21) — verificar Of.129/2021"
+    },
+    "reconhecimento_tacito": {
+      "requisito": "Art.202 VI CC — empenho é reconhecimento",
+      "evidencia": "470 NEs, 30 contratos com NE posterior a vencimento",
+      "ok": true
+    },
+    "inadimplemento": {
+      "requisito": "Mora ex re (Art.397 CC)",
+      "evidencia": "padrão INTERMITENTE, início 2020-Jan",
+      "ok": true
+    }
+  },
+  "top30_atualizacoes": [
+    {
+      "bruto": 727346.0,
+      "correcao_igpm": 16590.123482683513,
+      "juros_1pct_am": 29757.444939307345,
+      "multa_2pct": 14878.722469653672,
+      "atualizado": 788572.2908916445,
+      "meses_atraso": 4,
+      "id": "165623",
+      "comp": "12/2025"
+    },
+    {
+      "bruto": 719677.7,
+      "correcao_igpm": 24762.701448430453,
+      "juros_1pct_am": 44666.42408690583,
+      "multa_2pct": 14888.808028968608,
+      "atualizado": 803995.6335643048,
+      "meses_atraso": 6,
+      "id": "164005",
+      "comp": "10/2025"
+    },
+    {
+      "bruto": 630582.35,
+      "correcao_igpm": 25385.187660283686,
+      "juros_1pct_am": 45917.72763621985,
+      "multa_2pct": 13119.350753205672,
+      "atualizado": 715004.6160497091,
+      "meses_atraso": 7,
+      "id": "164000",
+      "comp": "09/2025"
+    },
+    {
+      "bruto": 630582.35,
+      "correcao_igpm": 21697.104789685272,
+      "juros_1pct_am": 39136.76728738111,
+      "multa_2pct": 13045.589095793704,
+      "atualizado": 704461.81117286,
+      "meses_atraso": 6,
+      "id": "163999",
+      "comp": "10/2025"
+    },
+    {
+      "bruto": 630582.35,
+      "correcao_igpm": 18029.757633096375,
+      "juros_1pct_am": 32430.605381654823,
+      "multa_2pct": 12972.24215266193,
+      "atualizado": 694014.9551674131,
+      "meses_atraso": 5,
+      "id": "164621",
+      "comp": "11/2025"
+    },
+    {
+      "bruto": 630582.35,
+      "correcao_igpm": 14383.029606955635,
+      "juros_1pct_am": 25798.615184278224,
+      "multa_2pct": 12899.307592139112,
+      "atualizado": 683663.3023833729,
+      "meses_atraso": 4,
+      "id": "165497",
+      "comp": "12/2025"
+    },
+    {
+      "bruto": 630582.35,
+      "correcao_igpm": 10756.80478317597,
+      "juros_1pct_am": 19240.17464349528,
+      "multa_2pct": 12826.783095663519,
+      "atualizado": 673406.1125223347,
+      "meses_atraso": 3,
+      "id": "166089",
+      "comp": "01/2026"
+    },
+    {
+      "bruto": 601527.4,
+      "correcao_igpm": 152177.50250173637,
+      "juros_1pct_am": 301481.96100069454,
+      "multa_2pct": 15074.098050034729,
+      "atualizado": 1070260.9615524658,
+      "meses_atraso": 40,
+      "id": "137917",
+      "comp": "12/2022"
+    },
+    {
+      "bruto": 593876.4,
+      "correcao_igpm": 158680.4083225994,
+      "juros_1pct_am": 316073.8594954918,
+      "multa_2pct": 15051.136166451988,
+      "atualizado": 1083681.803984543,
+      "meses_atraso": 42,
+      "id": "136425",
+      "comp": "10/2022"
+    },
+    {
+      "bruto": 590156.6,
+      "correcao_igpm": 166167.23412529743,
+      "juros_1pct_am": 332782.4870151309,
+      "multa_2pct": 15126.476682505949,
+      "atualizado": 1104232.7978229343,
+      "meses_atraso": 44,
+      "id": "135059",
+      "comp": "08/2022"
+    },
+    {
+      "bruto": 585782.6,
+      "correcao_igpm": 160714.86516460686,
+      "juros_1pct_am": 320993.9100207809,
+      "multa_2pct": 14929.949303292136,
+      "atualizado": 1082421.3244886799,
+      "meses_atraso": 43,
+      "id": "135863",
+      "comp": "09/2022"
+    },
+    {
+      "bruto": 585212.0,
+      "correcao_igpm": 169015.54516782018,
+      "juros_1pct_am": 339402.3953255191,
+      "multa_2pct": 15084.550903356403,
+      "atualizado": 1108714.4913966956,
+      "meses_atraso": 45,
+      "id": "134317",
+      "comp": "07/2022"
+    },
+    {
+      "bruto": 481179.03,
+      "correcao_igpm": 19370.697538145927,
+      "juros_1pct_am": 35038.48092767022,
+      "multa_2pct": 10010.99455076292,
+      "atualizado": 545599.2030165792,
+      "meses_atraso": 7,
+      "id": "162973",
+      "comp": "09/2025"
+    },
+    {
+      "bruto": 454740.9,
+      "correcao_igpm": 15646.744567867769,
+      "juros_1pct_am": 28223.258674072073,
+      "multa_2pct": 9407.752891357357,
+      "atualizado": 508018.6561332972,
+      "meses_atraso": 6,
+      "id": "164006",
+      "comp": "10/2025"
+    },
+    {
+      "bruto": 440294.97,
+      "correcao_igpm": 10042.741585303875,
+      "juros_1pct_am": 18013.508463412152,
+      "multa_2pct": 9006.754231706076,
+      "atualizado": 477357.9742804221,
+      "meses_atraso": 4,
+      "id": "165621",
+      "comp": "12/2025"
+    },
+    {
+      "bruto": 427976.04,
+      "correcao_igpm": 175676.4446304467,
+      "juros_1pct_am": 368228.01562457246,
+      "multa_2pct": 12073.049692608933,
+      "atualizado": 983953.549947628,
+      "meses_atraso": 61,
+      "id": "128168",
+      "comp": "03/2021"
+    },
+    {
+      "bruto": 417156.81,
+      "correcao_igpm": 177907.86598055216,
+      "juros_1pct_am": 374890.7458677479,
+      "multa_2pct": 11901.293519611043,
+      "atualizado": 981856.7153679109,
+      "meses_atraso": 63,
+      "id": "128081",
+      "comp": "01/2021"
+    },
+    {
+      "bruto": 417036.48,
+      "correcao_igpm": 114417.8090163864,
+      "juros_1pct_am": 228525.34427704616,
+      "multa_2pct": 10629.085780327729,
+      "atualizado": 770608.7190737602,
+      "meses_atraso": 43,
+      "id": "135864",
+      "comp": "09/2022"
+    },
+    {
+      "bruto": 415087.2,
+      "correcao_igpm": 110908.94735922235,
+      "juros_1pct_am": 220918.38189087342,
+      "multa_2pct": 10519.922947184448,
+      "atualizado": 757434.4521972802,
+      "meses_atraso": 42,
+      "id": "136423",
+      "comp": "10/2022"
+    },
+    {
+      "bruto": 405008.37,
+      "correcao_igpm": 169478.60051775468,
+      "juros_1pct_am": 356181.9217210079,
+      "multa_2pct": 11489.739410355094,
+      "atualizado": 942158.6316491177,
+      "meses_atraso": 62,
+      "id": "128134",
+      "comp": "02/2021"
+    },
+    {
+      "bruto": 395711.04,
+      "correcao_igpm": 111418.23887023365,
+      "juros_1pct_am": 223136.88270290277,
+      "multa_2pct": 10142.585577404672,
+      "atualizado": 740408.7471505412,
+      "meses_atraso": 44,
+      "id": "135060",
+      "comp": "08/2022"
+    },
+    {
+      "bruto": 394871.52,
+      "correcao_igpm": 114043.1591013954,
+      "juros_1pct_am": 229011.60559562795,
+      "multa_2pct": 10178.293582027909,
+      "atualizado": 748104.5782790512,
+      "meses_atraso": 45,
+      "id": "134318",
+      "comp": "07/2022"
+    },
+    {
+      "bruto": 391817.76,
+      "correcao_igpm": 99124.07672971296,
+      "juros_1pct_am": 196376.73469188518,
+      "multa_2pct": 9818.836734594259,
+      "atualizado": 697137.4081561924,
+      "meses_atraso": 40,
+      "id": "137918",
+      "comp": "12/2022"
+    },
+    {
+      "bruto": 371260.32,
+      "correcao_igpm": 126486.20645673148,
+      "juros_1pct_am": 258828.19375750038,
+      "multa_2pct": 9954.93052913463,
+      "atualizado": 766529.6507433665,
+      "meses_atraso": 52,
+      "id": "129515",
+      "comp": "12/2021"
+    },
+    {
+      "bruto": 305403.49,
+      "correcao_igpm": 99457.93807704088,
+      "juros_1pct_am": 202430.71403852047,
+      "multa_2pct": 8097.228561540818,
+      "atualizado": 615389.3706771021,
+      "meses_atraso": 50,
+      "id": "130540",
+      "comp": "02/2022"
+    },
+    {
+      "bruto": 305403.49,
+      "correcao_igpm": 97181.6630906555,
+      "juros_1pct_am": 197266.7250144212,
+      "multa_2pct": 8051.703061813109,
+      "atualizado": 607903.5811668898,
+      "meses_atraso": 49,
+      "id": "131182",
+      "comp": "03/2022"
+    },
+    {
+      "bruto": 305403.49,
+      "correcao_igpm": 94918.18613207497,
+      "juros_1pct_am": 192154.404543396,
+      "multa_2pct": 8006.4335226415,
+      "atualizado": 600482.5141981125,
+      "meses_atraso": 48,
+      "id": "131912",
+      "comp": "04/2022"
+    },
+    {
+      "bruto": 305403.49,
+      "correcao_igpm": 92667.43524623381,
+      "juros_1pct_am": 187093.33486572988,
+      "multa_2pct": 7961.418504924676,
+      "atualizado": 593125.6786168884,
+      "meses_atraso": 47,
+      "id": "132600",
+      "comp": "05/2022"
+    },
+    {
+      "bruto": 305403.49,
+      "correcao_igpm": 90429.33888262359,
+      "juros_1pct_am": 182083.10128600686,
+      "multa_2pct": 7916.656577652472,
+      "atualizado": 585832.5867462829,
+      "meses_atraso": 46,
+      "id": "133362",
+      "comp": "06/2022"
+    },
+    {
+      "bruto": 260000.0,
+      "correcao_igpm": 75090.80767932518,
+      "juros_1pct_am": 150790.86345569632,
+      "multa_2pct": 6701.816153586504,
+      "atualizado": 492583.487288608,
+      "meses_atraso": 45,
+      "id": "134497",
+      "comp": "07/2022"
+    }
+  ],
+  "faturas_prescritas_amostra": [
+    {
+      "id": "128168",
+      "nf": "25043",
+      "contrato": "22/2014",
+      "comp": "03/2021",
+      "valor": 427976.04,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128081",
+      "nf": "25016",
+      "contrato": "22/2014",
+      "comp": "01/2021",
+      "valor": 417156.81,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128134",
+      "nf": "25036",
+      "contrato": "22/2014",
+      "comp": "02/2021",
+      "valor": 405008.37,
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128080",
+      "nf": "25019",
+      "contrato": "22/2014",
+      "comp": "01/2021",
+      "valor": 92347.09,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128169",
+      "nf": "25044",
+      "contrato": "22/2014",
+      "comp": "03/2021",
+      "valor": 90451.28,
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128133",
+      "nf": "25035",
+      "contrato": "22/2014",
+      "comp": "02/2021",
+      "valor": 82316.86,
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128140",
+      "nf": "25025",
+      "contrato": "25/2014",
+      "comp": "02/2021",
+      "valor": 39951.0,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128159",
+      "nf": "25055",
+      "contrato": "25/2014",
+      "comp": "03/2021",
+      "valor": 39951.0,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128171",
+      "nf": "25056",
+      "contrato": "25/2014",
+      "comp": "03/2021",
+      "valor": 36954.68,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128075",
+      "nf": "25020",
+      "contrato": "25/2014",
+      "comp": "01/2021",
+      "valor": 26634.0,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128138",
+      "nf": "25034",
+      "contrato": "25/2014",
+      "comp": "02/2021",
+      "valor": 26634.0,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128160",
+      "nf": "25041",
+      "contrato": "25/2014",
+      "comp": "03/2021",
+      "valor": 26634.0,
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128135",
+      "nf": "25037",
+      "contrato": "22/2014",
+      "comp": "02/2021",
+      "valor": 22119.75,
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128079",
+      "nf": "25021",
+      "contrato": "22/2014",
+      "comp": "01/2021",
+      "valor": 21947.41,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128142",
+      "nf": "25030",
+      "contrato": "27/2014",
+      "comp": "02/2021",
+      "valor": 19372.79,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128156",
+      "nf": "25051",
+      "contrato": "27/2014",
+      "comp": "03/2021",
+      "valor": 19372.79,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "128167",
+      "nf": "25057",
+      "contrato": "22/2014",
+      "comp": "03/2021",
+      "valor": 18801.33,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "127483",
+      "nf": "25023",
+      "contrato": "27/2014",
+      "comp": "01/2021",
+      "valor": 15808.0,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "127484",
+      "nf": "25033",
+      "contrato": "27/2014",
+      "comp": "02/2021",
+      "valor": 15808.0,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    },
+    {
+      "id": "127485",
+      "nf": "25058",
+      "contrato": "27/2014",
+      "comp": "03/2021",
+      "valor": 15808.0,
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "protegida": false,
+      "motivo": "ne_anterior_ao_venc"
+    }
+  ]
+}

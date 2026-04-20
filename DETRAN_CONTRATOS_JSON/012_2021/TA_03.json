@@ -1,0 +1,40 @@
+{
+  "filename": "3º TA do Contrato 012.2021 - Redução de 25% decreto (2).pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\3º TA do Contrato 012.2021 - Redução de 25% decreto (2).pdf",
+  "filename_parsed": {
+    "filename": "3º TA do Contrato 012.2021 - Redução de 25% decreto (2).pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 12,
+    "contrato_ano": 2021,
+    "contrato_ref": "012/2021",
+    "ta_numero": 3
+  },
+  "pdf_meta": {
+    "num_paginas": 12,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 2243518
+  },
+  "texto_length": 25601,
+  "texto_preview": "\n\n\nGOVERNO DO ESTADO DO AMAZONAS\nADMINISTRAÇÃO FINANCEIRA INTEGRADA\nNota de Empenho\nUnidade Gestora\nGestão\nCredor\nNúmero Documento\nProcesso\nLicitação\nData Emissão\nNE Original\nModalidade\nEvento\nReferência\nValor\n022201 - DEPARTAMENTO ESTADUAL DE TRÂNSITO\n00002 - AUTARQUIA\n2023NE0001833\n04407920000180 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA\n400091 - Empenho de Despesa\n022201.023511/2023\nArt.24; XVI;  Lei 8.666/93\n 573.475,50\n26/09/2023\n5 - Dispensa de Licitação\n2 - Estimativo\nNatureza Despesa\nF",
+  "clausulas_detectadas": {
+    "valor_contrato": [
+      "R$ 29.790,95",
+      "R$ 1.911.585,00",
+      "R$ 262.969,96",
+      "R$ 657.584,22",
+      "R$ 24.508,32"
+    ],
+    "vigencia": [
+      [
+        "10/06/2021",
+        "30/12/2023"
+      ]
+    ],
+    "supressao_pct": [
+      "25",
+      "10"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

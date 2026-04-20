@@ -1,0 +1,24 @@
+{
+  "filename": "ANEXO DA NOTA FISCAL Nº 25029.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\ANEXO DA NOTA FISCAL Nº 25029.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 186908,
+  "texto_length": 838,
+  "texto_preview": "1\n128146\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25252\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25029\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. de Controle Frota Veiculos\nApreendidos\nFRAM -PERIODO:20/01/2021 A 19/02/2021\nMIL\n108,528\nPor milheiro de Ocorrências de Veículos mantidos\n868,22\n8,00\nUN\n357,00\nPor unidade de Ocorrências de Veículos Apreendidos\n963,90\n2,70\n1.832,12\n1.832,12\n1.8",
+  "texto_completo": "1\n128146\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25252\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25029\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. de Controle Frota Veiculos\nApreendidos\nFRAM -PERIODO:20/01/2021 A 19/02/2021\nMIL\n108,528\nPor milheiro de Ocorrências de Veículos mantidos\n868,22\n8,00\nUN\n357,00\nPor unidade de Ocorrências de Veículos Apreendidos\n963,90\n2,70\n1.832,12\n1.832,12\n1.832,12\nTOTAL DA PÁGINA\nTOTAL ACUMULADO\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "27/10/2021",
+      "20/01/2021",
+      "19/02/2021"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "filename": "RECIBO__c44f14cf29.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\05_ACEITES\\RECIBO__c44f14cf29.pdf",
+  "categoria": "05_ACEITES",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499388,
+  "texto_length": 1160,
+  "texto_preview": "R  E  C  I  B  O\nR$ 538.846,99\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n538.846,99 (QUINHENTOS E TRINTA E OITO MIL, OITOCENTOS E QUARENTA E SEIS REAIS E NOVENTA E\nNOVE CENTAVOS), referente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s)\nfiscal(is) de serviços abaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n22/2014\nExecução de sistemas - Sist. de Controle Veículos\nMultas e Talonários\n25043\n427.976,04\n21.398,80\n0,00\n0,00\n406.577,24\nmar/2021\n22/2014\nExecução de sistemas - Sist. de Carteira Nacional de\nHabilitação\n25044\n90.451,28\n4.522,56\n0,00\n0,00\n85.92",
+  "texto_completo": "R  E  C  I  B  O\nR$ 538.846,99\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\nRecebemos da(o) DEPARTAMENTO ESTADUAL DE TRÂNSITO - DETRAN a importancia bruta de R$\n538.846,99 (QUINHENTOS E TRINTA E OITO MIL, OITOCENTOS E QUARENTA E SEIS REAIS E NOVENTA E\nNOVE CENTAVOS), referente ao(s) serviços(s) de processamento de dados contratado(s), conforme a(s) nota(s)\nfiscal(is) de serviços abaixo discriminada(s), pelo qual damos recibo.\nContrato\nServico ou Sistema\nMes / Ano\nNFS-e/\nRecibo\nValor Bruto\nISS\nIRRF\nDesconto\nValor Líquido\n22/2014\nExecução de sistemas - Sist. de Controle Veículos\nMultas e Talonários\n25043\n427.976,04\n21.398,80\n0,00\n0,00\n406.577,24\nmar/2021\n22/2014\nExecução de sistemas - Sist. de Carteira Nacional de\nHabilitação\n25044\n90.451,28\n4.522,56\n0,00\n0,00\n85.928,72\nmar/2021\n22/2014\nExecução de sistemas - Sist. de Controle Frota\nVeiculos Apreendidos\n25046\n1.618,34\n80,92\n0,00\n0,00\n1.537,42\nmar/2021\n22/2014\nExecução de sistemas - Sist. Cont. Infra. Talonários\n25057\n18.801,33\n940,07\n0,00\n0,00\n17.861,26\nmar/2021\n538.846,99\n26.942,35\n0,00\n0,00\n511.904,64\nManaus, 27 de Outubro de 2021\nJosé Maria Pinto\nGerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "valores_brl": [
+      "538.846,99"
+    ],
+    "tipo_doc": "ACEITE_TECNICO"
+  }
+}

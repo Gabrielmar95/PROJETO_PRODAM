@@ -1,0 +1,218 @@
+{
+  "sigla": "IKM DE",
+  "profile": {
+    "nome_completo": "IKM DE",
+    "sigla": "IKM DE",
+    "natureza": "EMPRESA_PRIVADA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": "116263.6",
+    "val_orig": "116263.6",
+    "val_atualizado": "116263.6",
+    "faturas_total": 0,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 0,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "2%",
+    "n_contratos": 0,
+    "regime_execucao": "protesto_serasa_sisbajud",
+    "titulo_executivo": false,
+    "status": "Valores extraídos (SPCF)",
+    "setor": "Tecnologia",
+    "docs_financeiro": 19,
+    "prioridade_sugerida": "MÉDIA",
+    "observacoes": "Valor original R$ 116,263.60 — fonte: relatorio_devedores.xls. Análise massiva pendente para atualização monetária.",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "F",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "14.968.157/0001-10",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "PRIVADA",
+    "score_composto": 0.2351,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.15,
+    "ev_valor_esperado": "17439.54",
+    "ev_honorarios": "3487.91",
+    "esforco_estimado": 8,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 33,
+    "investigacao_documental": "PENDENTE — prioridade de investigacao no FINANCEIRO/",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2029-10-01",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "IKM DE",
+    "spcf_total_receber": "183622.37",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 0,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "val_servicos_spcf_mar2026": "183622.37",
+    "val_liquido_spcf_mar2026": "183622.37",
+    "num_faturas_spcf_mar2026": 19,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 57.94,
+    "urgencia_prescricao": "NORMAL",
+    "d_plus_prescricao": 1271,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [
+    {
+      "id": "118647",
+      "nf": "16177",
+      "contrato": "1/2018",
+      "valor_bruto": 10952.0,
+      "competencia": "08/2020",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "119104",
+      "nf": "16630",
+      "contrato": "1/2018",
+      "valor_bruto": 10952.0,
+      "competencia": "09/2020",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "119765",
+      "nf": "17132",
+      "contrato": "1/2018",
+      "valor_bruto": 10952.0,
+      "competencia": "10/2020",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "120359",
+      "nf": "17659",
+      "contrato": "1/2018",
+      "valor_bruto": 10952.0,
+      "competencia": "11/2020",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "115135",
+      "nf": "12590",
+      "contrato": "1/2018",
+      "valor_bruto": 10284.0,
+      "competencia": "01/2020",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "115657",
+      "nf": "13160",
+      "contrato": "1/2018",
+      "valor_bruto": 10284.0,
+      "competencia": "02/2020",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "116167",
+      "nf": "13681",
+      "contrato": "1/2018",
+      "valor_bruto": 10284.0,
+      "competencia": "03/2020",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "116676",
+      "nf": "14182",
+      "contrato": "1/2018",
+      "valor_bruto": 10284.0,
+      "competencia": "04/2020",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "117157",
+      "nf": "14647",
+      "contrato": "1/2018",
+      "valor_bruto": 10284.0,
+      "competencia": "05/2020",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "117673",
+      "nf": "15125",
+      "contrato": "1/2018",
+      "valor_bruto": 10284.0,
+      "competencia": "06/2020",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "118336",
+      "nf": "15785",
+      "contrato": "1/2018",
+      "valor_bruto": 7666.4,
+      "competencia": "07/2020",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "118187",
+      "nf": "15630",
+      "contrato": "1/2018",
+      "valor_bruto": 3085.2,
+      "competencia": "07/2020",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 376
+    }
+  ],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 12,
+      "valor_total": 116263.6
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê BANCO MASTER — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — BANCO MASTER</h1>
+<p><b>Banco Master</b> | EMPRESA_PRIVADA | CNPJ: 33.884.941/0001-94 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário.</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 889.270,87</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 889.270,87</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">15%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>160770</td><td>55836</td><td>122/2023</td><td>06/2025</td><td>R$ 37.516,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>161396</td><td>56338</td><td>122/2023</td><td>07/2025</td><td>R$ 37.482,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>158299</td><td>53427</td><td>122/2023</td><td>03/2025</td><td>R$ 37.270,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>157592</td><td>52764</td><td>122/2023</td><td>02/2025</td><td>R$ 37.240,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>159911</td><td>55000</td><td>122/2023</td><td>05/2025</td><td>R$ 37.240,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>156830</td><td>51997</td><td>122/2023</td><td>01/2025</td><td>R$ 37.186,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>162382</td><td>57407</td><td>122/2023</td><td>08/2025</td><td>R$ 37.054,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>155750</td><td>50947</td><td>122/2023</td><td>12/2024</td><td>R$ 36.934,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>152834</td><td>48165</td><td>122/2023</td><td>08/2024</td><td>R$ 36.818,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>153594</td><td>48882</td><td>122/2023</td><td>09/2024</td><td>R$ 36.750,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Valor original R$ 889,270.87 — fonte: relatorio_devedores.xls. Análise massiva pendente para atualização monetária.</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:[],datasets:[
+    {label:'Qtd',data:[],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

@@ -1,0 +1,32 @@
+{
+  "filename": "NFSe nº 25056.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\NFSe nº 25056.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 237326,
+  "texto_length": 2510,
+  "texto_preview": "PREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\n61F6.80EB.D00A\n27/10/2021 - 15:30:04\nNatureza da operação\nNúmero da Nota\nRetenção do\nISSQN\n25056\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n   JONATHAS PEDROSA, 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92 6223253.\n  CEP    69020110 - MANAUS  - AM  - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    PRODAM@PRODAM.AM.GOV.BR\n  Inscrição Estadual\n  41939808\nTomador de Serviço\nNome do tomador do serviço\nDEPARTAMENTO ESTADUAL DE TRANSITO - DETRAN\nCPF/CNPJ\n04.224",
+  "texto_completo": "PREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\n61F6.80EB.D00A\n27/10/2021 - 15:30:04\nNatureza da operação\nNúmero da Nota\nRetenção do\nISSQN\n25056\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n   JONATHAS PEDROSA, 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92 6223253.\n  CEP    69020110 - MANAUS  - AM  - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    PRODAM@PRODAM.AM.GOV.BR\n  Inscrição Estadual\n  41939808\nTomador de Serviço\nNome do tomador do serviço\nDEPARTAMENTO ESTADUAL DE TRANSITO - DETRAN\nCPF/CNPJ\n04.224.028/0001-63\nEndereço\nMARIO YPIRANGA MONTEIRO,   2080, \nBairro\nADRIANoPOLIS, Telefone: 09209923642.\nCep\n69057002\nCidade\nMANAUS  - AM  - BRASIL\n  Inscrição Municipal\n11264401\nEmail\nprotocoloadministrativo@detran.am.gov.br\n  Inscrição Estadual\nISENTO\nDiscriminação do Serviço/Dados Adicionais\n  CONTRATO No. 25/2014, MES: 03/2021 SERVICO: Manutencao Evolutiva de Sistemas HORA DE DESE\nNVOLVIMENTO - (277.500 x 133.170) . R$ 36,954.68 Lei No. 12.741 de 8 de Dezembro d e 2012. Base de\nCalculo: 36,954.68 Valores aproximados dos Tributos Valores de Retenca o do PASEP: 609.75 Valores de\nRetencao do COFINS: 2,808.56 Valores de Retencao do CPRB: 73 9.09 Valores de Retencao do ISS: 1,847.73\nServiço:\n1.07-SUPORTE TÉCNICO EM INFORMÁTICA, INCLUSIVE INSTALAÇÃO,\nCONFIGURAÇÃO E MANUTENÇÃO DE PROGRAMAS DE COMPUTAÇÃO E BANCOS DE\nDADOS.\nValor do Serviço (R$)\nQtd.\nDesconto(R$)\nDedução(R$)\nBase de Cálculo(R$)\nAliquota(%)\nValor do ISS(R$)\nTotal(R$)\n36.954,68\n1,00\n0,00\n0,00\n36.954,68\n5,00\n1.847,73\n36.954,68\nVALOR TOTAL DA NOTA = R$ 36.954,68\nRetenções\nINSS(R$)\nPIS(R$)\nCofins(R$)\nC.S.L.L(R$)\nIRRF(R$)\n \n \n \n \n \n0,00\n0,00\n0,00\n0,00\n0,00\nISSQN(R$)\nOutras Deduções(R$)\nTotal das Retenções (R$)\nValor Líquido da Nota(R$)\n1.847,73\n0,00\n1.847,73\n35.106,95\nOutras Informações\n- Competência: Outubro/2021- ISS de responsabilidade do: Tomador de serviço-\nServiço Tributado no Município: MANAUS- Data do vencimento do ISS desta NFSE:\n10/11/21- Esta NFS-e substitui o RPS Nº 25279, série: NFse, emitido em 27/10/2021-\nOperação com retenção de ISS por Substituição Tributária.\n06/10/2025, 14:35\nVisualizar NFSe\nhttps://nfse-prd.manaus.am.gov.br/nfse/servlet/wvalidarautenticidadenfse?04407920000180,36954.68,25056,61F6.80EB.D00A\n1/1\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80",
+      "04.224.028/0001-63"
+    ],
+    "datas_encontradas": [
+      "27/10/2021",
+      "10/11/21",
+      "06/10/2025"
+    ],
+    "valores_brl": [
+      "36,95",
+      "36.954,68"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "filename": "RELATÓRIO DE PÁGINAS IMPRESSAS__3280852f4f.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\05_ACEITES\\RELATÓRIO DE PÁGINAS IMPRESSAS__3280852f4f.pdf",
+  "categoria": "05_ACEITES",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 15756,
+  "texto_length": 1156,
+  "texto_preview": "ACCOUNT DAS IMPRESSOES DO OS2PDF                           PAGINA -          12\nCEPGB025 - RELACAO DE CLIENTE/SISTEMAS                     DATA   -  22/03/2021\nPERIODO - 20/02/2021 ATE 19/03/2021\nCLIENTE....................................................\n     DESCRICAO DO SERVICO..................................   MIDIA IMPRESSO\n63 - DEPARTAMENTO ESTADUAL DE TRANSITO\n  CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL\n     04 - Relatório Impresso a Laser ou Gerado em Mídia         352       35\n \n            Total Geral do Sistema CFPP                         352       35\n  SCIT - SISTEMA DE CONTROLE DE INFRACOES DE TRANSITO\n     04 - Relatório Impresso a Laser ou Gerado em Mídia                  573\n \n     05 - FORMULARIO ESPECIAL                                          9.821\n \n          ",
+  "texto_completo": "ACCOUNT DAS IMPRESSOES DO OS2PDF                           PAGINA -          12\nCEPGB025 - RELACAO DE CLIENTE/SISTEMAS                     DATA   -  22/03/2021\nPERIODO - 20/02/2021 ATE 19/03/2021\nCLIENTE....................................................\n     DESCRICAO DO SERVICO..................................   MIDIA IMPRESSO\n63 - DEPARTAMENTO ESTADUAL DE TRANSITO\n  CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL\n     04 - Relatório Impresso a Laser ou Gerado em Mídia         352       35\n \n            Total Geral do Sistema CFPP                         352       35\n  SCIT - SISTEMA DE CONTROLE DE INFRACOES DE TRANSITO\n     04 - Relatório Impresso a Laser ou Gerado em Mídia                  573\n \n     05 - FORMULARIO ESPECIAL                                          9.821\n \n            Total Geral do Sistema SCIT                               10.394\n  SCNH - GERCLI DE CARTEIRA NACIONAL DE HABILITACAO\n     04 - Relatório Impresso a Laser ou Gerado em Mídia                   57\n \n     05 - FORMULARIO ESPECIAL                                             54\n \n            Total Geral do Sistema SCNH                                  111\n \n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "22/03/2021",
+      "20/02/2021",
+      "19/03/2021"
+    ],
+    "tipo_doc": "ACEITE_TECNICO"
+  }
+}

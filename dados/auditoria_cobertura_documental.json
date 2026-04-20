@@ -1,0 +1,2968 @@
+[
+  {
+    "sigla": "SEDUC",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 49215512.48334964,
+    "forca": "FORTE",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 84,
+    "fat_exig": 76,
+    "fat_db": 106,
+    "fat_db_val": 54535717.29,
+    "cadeia": {
+      "FORTE": 23,
+      "COMPLETA": 83
+    },
+    "contratos_db": 6,
+    "empenhos_db": 286,
+    "empenhos_val": 482690583.05000025,
+    "nf_total": 83,
+    "nf_paid": 2,
+    "pendrive_total": 112,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 19,
+      "CERTIDAO": 2,
+      "CONTRATO": 2,
+      "DESCONHECIDO": 40,
+      "NOTA_DE_LIQUIDACAO": 1,
+      "NOTA_FISCAL": 43,
+      "OFICIO": 1,
+      "SEM_TEXTO": 4
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 76,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 45,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "DETRAN",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 31684739.01023886,
+    "forca": "FORTE",
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "fat_profiles": 233,
+    "fat_exig": 179,
+    "fat_db": 113,
+    "fat_db_val": 17802420.549999997,
+    "cadeia": {
+      "COMPLETA": 99,
+      "FORTE": 14
+    },
+    "contratos_db": 14,
+    "empenhos_db": 470,
+    "empenhos_val": 250316057.29999992,
+    "nf_total": 99,
+    "nf_paid": 6,
+    "pendrive_total": 444,
+    "pendrive_tipos": {
+      "ACEITE_ATESTO": 3,
+      "ADITIVO": 3,
+      "CARTA_COBRANCA": 20,
+      "CERTIDAO": 62,
+      "CONTRATO": 70,
+      "DESCONHECIDO": 42,
+      "FATURA": 1,
+      "NOTA_DE_EMPENHO": 67,
+      "NOTA_DE_LIQUIDACAO": 1,
+      "NOTA_FISCAL": 141,
+      "OFICIO": 1,
+      "RECIBO": 32,
+      "SEM_TEXTO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 52,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 175,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 113 vs 179 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SES/SUSAM",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 14748048.9572181,
+    "forca": "FORTE",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 324,
+    "fat_exig": 144,
+    "fat_db": 110,
+    "fat_db_val": 6752368.259999998,
+    "cadeia": {
+      "COMPLETA": 105,
+      "FORTE": 5
+    },
+    "contratos_db": 12,
+    "empenhos_db": 475,
+    "empenhos_val": 107076806.49000017,
+    "nf_total": 100,
+    "nf_paid": 59,
+    "pendrive_total": 76,
+    "pendrive_tipos": {
+      "ADITIVO": 2,
+      "CARTA_COBRANCA": 8,
+      "CONTRATO": 5,
+      "DESCONHECIDO": 17,
+      "NOTA_DE_EMPENHO": 1,
+      "NOTA_FISCAL": 35,
+      "OFICIO": 3,
+      "RECIBO": 5
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 107,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 42,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 110 vs 144 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SSP",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 4553230.799761455,
+    "forca": "FORTE",
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "fat_profiles": 196,
+    "fat_exig": 81,
+    "fat_db": 82,
+    "fat_db_val": 6290728.660000002,
+    "cadeia": {
+      "FORTE": 10,
+      "COMPLETA": 72
+    },
+    "contratos_db": 8,
+    "empenhos_db": 218,
+    "empenhos_val": 136963244.94000006,
+    "nf_total": 68,
+    "nf_paid": 20,
+    "pendrive_total": 785,
+    "pendrive_tipos": {
+      "ACEITE_ATESTO": 7,
+      "ADITIVO": 5,
+      "CARTA_COBRANCA": 184,
+      "CERTIDAO": 27,
+      "CONTRATO": 6,
+      "DESCONHECIDO": 331,
+      "NOTA_DE_EMPENHO": 6,
+      "NOTA_FISCAL": 98,
+      "OFICIO": 36,
+      "RECIBO": 62,
+      "RELATORIO": 1,
+      "SEM_TEXTO": 22
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 68,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 162,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "SEJUSC",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 2589660.118313503,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 165,
+    "fat_exig": 65,
+    "fat_db": 58,
+    "fat_db_val": 2434441.6100000003,
+    "cadeia": {
+      "COMPLETA": 29,
+      "FORTE": 27,
+      "MEDIA": 2
+    },
+    "contratos_db": 5,
+    "empenhos_db": 322,
+    "empenhos_val": 10930205.100000009,
+    "nf_total": 29,
+    "nf_paid": 6,
+    "pendrive_total": 85,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 15,
+      "CERTIDAO": 16,
+      "DESCONHECIDO": 23,
+      "NOTA_FISCAL": 21,
+      "OFICIO": 1,
+      "RECIBO": 9
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 21,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 58 vs 65 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SEAD",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 2339702.19897373,
+    "forca": "FORTE",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 69,
+    "fat_exig": 25,
+    "fat_db": 56,
+    "fat_db_val": 4941372.73,
+    "cadeia": {
+      "FORTE": 27,
+      "COMPLETA": 29
+    },
+    "contratos_db": 13,
+    "empenhos_db": 693,
+    "empenhos_val": 91267344.84999996,
+    "nf_total": 28,
+    "nf_paid": 4,
+    "pendrive_total": 87,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 15,
+      "DESCONHECIDO": 52,
+      "NOTA_FISCAL": 7,
+      "OFICIO": 9,
+      "RECIBO": 1,
+      "SEM_TEXTO": 3
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 51,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "CETAM",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 1256564.28,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 16,
+    "fat_exig": 16,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 276,
+    "empenhos_val": 62549005.64000001,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 26,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 3,
+      "CERTIDAO": 2,
+      "DESCONHECIDO": 17,
+      "NOTA_FISCAL": 3,
+      "RECIBO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 16 faturas mas DB tem 0"
+      ],
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "SEDECTI",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 1249203.13232546,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 228,
+    "fat_exig": 52,
+    "fat_db": 42,
+    "fat_db_val": 1319548.2899999993,
+    "cadeia": {
+      "FORTE": 9,
+      "COMPLETA": 33
+    },
+    "contratos_db": 7,
+    "empenhos_db": 524,
+    "empenhos_val": 22052502.439999983,
+    "nf_total": 33,
+    "nf_paid": 0,
+    "pendrive_total": 133,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 15,
+      "DESCONHECIDO": 63,
+      "NOTA_DE_EMPENHO": 2,
+      "NOTA_FISCAL": 44,
+      "OFICIO": 2,
+      "RECIBO": 4,
+      "RELATORIO": 1,
+      "SEM_TEXTO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 63,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 42 vs 52 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "33 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "POLÍCIA CIVIL",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 960481.713334285,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 56,
+    "fat_exig": 32,
+    "fat_db": 18,
+    "fat_db_val": 625567.97,
+    "cadeia": {
+      "FORTE": 7,
+      "COMPLETA": 11
+    },
+    "contratos_db": 2,
+    "empenhos_db": 158,
+    "empenhos_val": 18307206.980000008,
+    "nf_total": 11,
+    "nf_paid": 0,
+    "pendrive_total": 62,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 7,
+      "CERTIDAO": 8,
+      "DESCONHECIDO": 18,
+      "NOTA_FISCAL": 24,
+      "RECIBO": 5
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 24,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 18 vs 32 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "11 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "BANCO MASTER",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 889270.87,
+    "forca": "FRACA",
+    "proximo_passo": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário.",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 51,
+    "fat_db_val": 893374.8700000001,
+    "cadeia": {
+      "COMPLETA": 45,
+      "MEDIA": 3,
+      "FORTE": 3
+    },
+    "contratos_db": 4,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 45,
+    "nf_paid": 0,
+    "pendrive_total": 50,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 50
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_CRUZAMENTO",
+        "Tem faturas e PDFs mas sem cruzamento NF×PDF"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "45 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "FENIXSOFT",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 888250.0,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 7,
+    "fat_db_val": 1405000.0,
+    "cadeia": {
+      "COMPLETA": 4,
+      "FORTE": 3
+    },
+    "contratos_db": 3,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 4,
+    "nf_paid": 3,
+    "pendrive_total": 14,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 14
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 14,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "CAIXA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 844328.88,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 60,
+    "fat_db_val": 920891.3400000001,
+    "cadeia": {
+      "COMPLETA": 57,
+      "MEDIA": 3
+    },
+    "contratos_db": 5,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 57,
+    "nf_paid": 0,
+    "pendrive_total": 59,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 59
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 59,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "57 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "SUHAB",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 840061.1525043402,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 123,
+    "fat_exig": 87,
+    "fat_db": 13,
+    "fat_db_val": 364460.1400000001,
+    "cadeia": {
+      "COMPLETA": 12,
+      "FORTE": 1
+    },
+    "contratos_db": 4,
+    "empenhos_db": 322,
+    "empenhos_val": 9193518.199999997,
+    "nf_total": 12,
+    "nf_paid": 2,
+    "pendrive_total": 49,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 12,
+      "CERTIDAO": 2,
+      "DESCONHECIDO": 13,
+      "NOTA_FISCAL": 10,
+      "OFICIO": 1,
+      "RECIBO": 11
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 11,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 13 vs 87 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "AMAZONPREV",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 736219.7938469165,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 23,
+    "fat_exig": 21,
+    "fat_db": 5,
+    "fat_db_val": 277932.98,
+    "cadeia": {
+      "COMPLETA": 5
+    },
+    "contratos_db": 5,
+    "empenhos_db": 174,
+    "empenhos_val": 34894367.81999999,
+    "nf_total": 5,
+    "nf_paid": 0,
+    "pendrive_total": 53,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 10,
+      "CERTIDAO": 6,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 19,
+      "NOTA_DE_EMPENHO": 1,
+      "NOTA_FISCAL": 7,
+      "OFICIO": 1,
+      "RECIBO": 8
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 14,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 5 vs 21 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "5 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "FAAR/SEDEL",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 734498.9430028957,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 221,
+    "fat_exig": 113,
+    "fat_db": 72,
+    "fat_db_val": 364632.44,
+    "cadeia": {
+      "COMPLETA": 44,
+      "FORTE": 28
+    },
+    "contratos_db": 8,
+    "empenhos_db": 155,
+    "empenhos_val": 2446703.480000001,
+    "nf_total": 44,
+    "nf_paid": 1,
+    "pendrive_total": 100,
+    "pendrive_tipos": {
+      "DESCONHECIDO": 23,
+      "CERTIDAO": 21,
+      "NOTA_FISCAL": 54,
+      "RECIBO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 54,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 72 vs 113 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "PGE",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 680239.7715611592,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 47,
+    "fat_exig": 41,
+    "fat_db": 46,
+    "fat_db_val": 1083736.8500000003,
+    "cadeia": {
+      "FORTE": 17,
+      "COMPLETA": 29
+    },
+    "contratos_db": 5,
+    "empenhos_db": 428,
+    "empenhos_val": 17569995.939999986,
+    "nf_total": 29,
+    "nf_paid": 0,
+    "pendrive_total": 47,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 14,
+      "DESCONHECIDO": 25,
+      "NOTA_FISCAL": 6,
+      "RECIBO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 17,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "29 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "IPAAM",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 652339.8873389428,
+    "forca": "MÉDIA",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 58,
+    "fat_exig": 58,
+    "fat_db": 19,
+    "fat_db_val": 233596.94999999998,
+    "cadeia": {
+      "FORTE": 3,
+      "COMPLETA": 16
+    },
+    "contratos_db": 6,
+    "empenhos_db": 235,
+    "empenhos_val": 9934556.14,
+    "nf_total": 16,
+    "nf_paid": 4,
+    "pendrive_total": 83,
+    "pendrive_tipos": {
+      "ACEITE_ATESTO": 1,
+      "CARTA_COBRANCA": 10,
+      "CERTIDAO": 5,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 20,
+      "NOTA_DE_EMPENHO": 1,
+      "NOTA_FISCAL": 28,
+      "OFICIO": 2,
+      "RECIBO": 13,
+      "SEM_TEXTO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 33,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 19 vs 58 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SEAS",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 651041.089737987,
+    "forca": "FORTE",
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "fat_profiles": 63,
+    "fat_exig": 63,
+    "fat_db": 25,
+    "fat_db_val": 219783.61000000004,
+    "cadeia": {
+      "COMPLETA": 18,
+      "FORTE": 7
+    },
+    "contratos_db": 3,
+    "empenhos_db": 415,
+    "empenhos_val": 11691051.780000001,
+    "nf_total": 18,
+    "nf_paid": 0,
+    "pendrive_total": 44,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 8,
+      "CERTIDAO": 5,
+      "CONTRATO": 3,
+      "DESCONHECIDO": 13,
+      "NOTA_FISCAL": 13,
+      "OFICIO": 1,
+      "RECIBO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 18,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 25 vs 63 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "18 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "FCECON",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 637106.6794919234,
+    "forca": "FORTE",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 113,
+    "fat_exig": 85,
+    "fat_db": 11,
+    "fat_db_val": 68362.95000000001,
+    "cadeia": {
+      "COMPLETA": 9,
+      "FORTE": 2
+    },
+    "contratos_db": 4,
+    "empenhos_db": 386,
+    "empenhos_val": 2844079.069999999,
+    "nf_total": 9,
+    "nf_paid": 2,
+    "pendrive_total": 65,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 14,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 14,
+      "NOTA_FISCAL": 30,
+      "OFICIO": 2,
+      "RECIBO": 4
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 31,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 11 vs 85 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "PROVER",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 549105.7,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 48,
+    "fat_db_val": 600636.0,
+    "cadeia": {
+      "MEDIA": 2,
+      "COMPLETA": 46
+    },
+    "contratos_db": 2,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 46,
+    "nf_paid": 0,
+    "pendrive_total": 46,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 46
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ],
+      [
+        "MEDIO",
+        "SEM_CRUZAMENTO",
+        "Tem faturas e PDFs mas sem cruzamento NF×PDF"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "46 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 3,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "SETRAB",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 505961.79,
+    "forca": "FRACA",
+    "proximo_passo": "AVALIAR_SUCESSAO",
+    "fat_profiles": 81,
+    "fat_exig": 81,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 176,
+    "empenhos_val": 2076190.080000001,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": false,
+    "dossie_inventario": false,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 81 faturas mas DB tem 0"
+      ],
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ],
+      [
+        "ALTO",
+        "SEM_DOSSIE",
+        "Sem pasta *_DOSSIE em PRODAM_DOCS"
+      ],
+      [
+        "MEDIO",
+        "SEM_PENDRIVE",
+        "Nenhum doc do pen drive para este devedor"
+      ]
+    ],
+    "n_gaps": 4,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "SEINFRA",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 379631.5477448804,
+    "forca": "MÉDIA",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 38,
+    "fat_exig": 38,
+    "fat_db": 12,
+    "fat_db_val": 71805.43000000001,
+    "cadeia": {
+      "COMPLETA": 11,
+      "FORTE": 1
+    },
+    "contratos_db": 3,
+    "empenhos_db": 395,
+    "empenhos_val": 7754214.44,
+    "nf_total": 11,
+    "nf_paid": 0,
+    "pendrive_total": 36,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 6,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 13,
+      "NOTA_FISCAL": 7,
+      "OFICIO": 4,
+      "RECIBO": 5
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 8,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 12 vs 38 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "11 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "UGPI",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 353473.42,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 18,
+    "fat_exig": 18,
+    "fat_db": 4,
+    "fat_db_val": 234247.40000000002,
+    "cadeia": {
+      "COMPLETA": 4
+    },
+    "contratos_db": 3,
+    "empenhos_db": 407,
+    "empenhos_val": 13812630.079999996,
+    "nf_total": 4,
+    "nf_paid": 1,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": false,
+    "dossie_inventario": false,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 4 vs 18 exigíveis no profiles"
+      ],
+      [
+        "ALTO",
+        "SEM_DOSSIE",
+        "Sem pasta *_DOSSIE em PRODAM_DOCS"
+      ],
+      [
+        "MEDIO",
+        "SEM_PENDRIVE",
+        "Nenhum doc do pen drive para este devedor"
+      ]
+    ],
+    "n_gaps": 3,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "IDAM",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 328735.506557344,
+    "forca": "FRACA",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 35,
+    "fat_exig": 30,
+    "fat_db": 7,
+    "fat_db_val": 268974.18,
+    "cadeia": {
+      "COMPLETA": 6,
+      "FORTE": 1
+    },
+    "contratos_db": 4,
+    "empenhos_db": 414,
+    "empenhos_val": 7108383.880000001,
+    "nf_total": 6,
+    "nf_paid": 2,
+    "pendrive_total": 42,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 10,
+      "CERTIDAO": 4,
+      "DESCONHECIDO": 19,
+      "NOTA_FISCAL": 7,
+      "RECIBO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 12,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 7 vs 30 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "FVS",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 321372.9594133031,
+    "forca": "FORTE",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 23,
+    "fat_exig": 23,
+    "fat_db": 1,
+    "fat_db_val": 14638.55,
+    "cadeia": {
+      "COMPLETA": 1
+    },
+    "contratos_db": 1,
+    "empenhos_db": 517,
+    "empenhos_val": 7501889.399999986,
+    "nf_total": 1,
+    "nf_paid": 1,
+    "pendrive_total": 39,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 7,
+      "DESCONHECIDO": 13,
+      "NOTA_FISCAL": 14,
+      "OFICIO": 2,
+      "RECIBO": 1,
+      "SEM_TEXTO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 24,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 1 vs 23 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SEJEL",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 280242.25,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 96,
+    "fat_exig": 96,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 101,
+    "empenhos_val": 1218094.7500000002,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 50,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 12,
+      "DESCONHECIDO": 35,
+      "RECIBO": 3
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 96 faturas mas DB tem 0"
+      ],
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "FMT",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 272130.6793465254,
+    "forca": "MÉDIA",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 83,
+    "fat_exig": 41,
+    "fat_db": 3,
+    "fat_db_val": 23228.190000000002,
+    "cadeia": {
+      "FORTE": 1,
+      "COMPLETA": 2
+    },
+    "contratos_db": 2,
+    "empenhos_db": 480,
+    "empenhos_val": 3370864.470000004,
+    "nf_total": 2,
+    "nf_paid": 1,
+    "pendrive_total": 49,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 13,
+      "CERTIDAO": 1,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 15,
+      "NOTA_FISCAL": 8,
+      "OFICIO": 4,
+      "RECIBO": 5,
+      "SEM_TEXTO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 13,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 3 vs 41 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "FHAJ",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 259910.7790577516,
+    "forca": "FORTE",
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "fat_profiles": 75,
+    "fat_exig": 34,
+    "fat_db": 6,
+    "fat_db_val": 28541.600000000002,
+    "cadeia": {
+      "FORTE": 4,
+      "COMPLETA": 2
+    },
+    "contratos_db": 3,
+    "empenhos_db": 297,
+    "empenhos_val": 1453289.6800000025,
+    "nf_total": 2,
+    "nf_paid": 0,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 44,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 6 vs 34 exigíveis no profiles"
+      ],
+      [
+        "MEDIO",
+        "SEM_PENDRIVE",
+        "Nenhum doc do pen drive para este devedor"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "2 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 3,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SECT",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 258328.5777689927,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 44,
+    "fat_exig": 35,
+    "fat_db": 8,
+    "fat_db_val": 38747.149999999994,
+    "cadeia": {
+      "FORTE": 4,
+      "COMPLETA": 4
+    },
+    "contratos_db": 4,
+    "empenhos_db": 198,
+    "empenhos_val": 3061390.120000001,
+    "nf_total": 4,
+    "nf_paid": 0,
+    "pendrive_total": 45,
+    "pendrive_tipos": {
+      "ACEITE_ATESTO": 1,
+      "CARTA_COBRANCA": 8,
+      "DESCONHECIDO": 17,
+      "NOTA_DE_EMPENHO": 1,
+      "NOTA_FISCAL": 12,
+      "RECIBO": 5,
+      "SEM_TEXTO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 8 vs 35 exigíveis no profiles"
+      ],
+      [
+        "MEDIO",
+        "SEM_CRUZAMENTO",
+        "Tem faturas e PDFs mas sem cruzamento NF×PDF"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "4 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 3,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "ADS",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 211657.47,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 119,
+    "fat_exig": 119,
+    "fat_db": 6,
+    "fat_db_val": 10230.6,
+    "cadeia": {
+      "COMPLETA": 6
+    },
+    "contratos_db": 3,
+    "empenhos_db": 256,
+    "empenhos_val": 1191974.6099999999,
+    "nf_total": 6,
+    "nf_paid": 2,
+    "pendrive_total": 48,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 10,
+      "CERTIDAO": 1,
+      "CONTRATO": 4,
+      "DESCONHECIDO": 25,
+      "NOTA_DE_EMPENHO": 1,
+      "NOTA_FISCAL": 5,
+      "RECIBO": 1,
+      "SEM_TEXTO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 9,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 6 vs 119 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SEFAZ",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 198980.4851109561,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 5,
+    "fat_exig": 4,
+    "fat_db": 5,
+    "fat_db_val": 39025.32,
+    "cadeia": {
+      "COMPLETA": 5
+    },
+    "contratos_db": 3,
+    "empenhos_db": 206,
+    "empenhos_val": 246421222.30000025,
+    "nf_total": 5,
+    "nf_paid": 1,
+    "pendrive_total": 19,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 5,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 9,
+      "NOTA_FISCAL": 1,
+      "OFICIO": 2,
+      "RECIBO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 6,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "CPA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 165830.96,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 6,
+    "fat_db_val": 165830.96,
+    "cadeia": {
+      "COMPLETA": 5,
+      "FORTE": 1
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 5,
+    "nf_paid": 0,
+    "pendrive_total": 10,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 2,
+      "CERTIDAO": 1,
+      "DESCONHECIDO": 1,
+      "NOTA_FISCAL": 6
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 6,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "5 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "ADAF",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 149600.91,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 44,
+    "fat_exig": 44,
+    "fat_db": 27,
+    "fat_db_val": 122182.04,
+    "cadeia": {
+      "FORTE": 8,
+      "COMPLETA": 19
+    },
+    "contratos_db": 4,
+    "empenhos_db": 275,
+    "empenhos_val": 2425272.3599999985,
+    "nf_total": 19,
+    "nf_paid": 0,
+    "pendrive_total": 58,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 8,
+      "CERTIDAO": 7,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 20,
+      "NOTA_FISCAL": 18,
+      "RECIBO": 3,
+      "SEM_TEXTO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 19,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 27 vs 44 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "19 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "AADESAM",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 125682.9,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 34,
+    "fat_exig": 34,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 4,
+    "empenhos_val": 208074.78000000003,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": false,
+    "dossie_inventario": false,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 34 faturas mas DB tem 0"
+      ],
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ],
+      [
+        "ALTO",
+        "SEM_DOSSIE",
+        "Sem pasta *_DOSSIE em PRODAM_DOCS"
+      ],
+      [
+        "MEDIO",
+        "SEM_PENDRIVE",
+        "Nenhum doc do pen drive para este devedor"
+      ]
+    ],
+    "n_gaps": 4,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "IKM DE",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 116263.6,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 12,
+    "fat_db_val": 116263.59999999999,
+    "cadeia": {
+      "FORTE": 7,
+      "COMPLETA": 5
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 5,
+    "nf_paid": 0,
+    "pendrive_total": 19,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 19
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_CRUZAMENTO",
+        "Tem faturas e PDFs mas sem cruzamento NF×PDF"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "5 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "ANOREG",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 102267.91,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 12,
+    "fat_db_val": 102286.07999999999,
+    "cadeia": {
+      "COMPLETA": 11,
+      "FORTE": 1
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 11,
+    "nf_paid": 1,
+    "pendrive_total": 18,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 18
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 18,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "SEC",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 99050.70706237933,
+    "forca": "FORTE",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 23,
+    "fat_exig": 11,
+    "fat_db": 7,
+    "fat_db_val": 182178.56,
+    "cadeia": {
+      "FORTE": 3,
+      "COMPLETA": 4
+    },
+    "contratos_db": 4,
+    "empenhos_db": 271,
+    "empenhos_val": 7709640.650000005,
+    "nf_total": 4,
+    "nf_paid": 1,
+    "pendrive_total": 61,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 18,
+      "CERTIDAO": 2,
+      "CONTRATO": 3,
+      "DESCONHECIDO": 28,
+      "NOTA_DE_EMPENHO": 1,
+      "NOTA_FISCAL": 5,
+      "OFICIO": 1,
+      "RECIBO": 3
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 39,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 7 vs 11 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SEPROR",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 77960.49143925689,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 25,
+    "fat_exig": 15,
+    "fat_db": 3,
+    "fat_db_val": 38581.46000000001,
+    "cadeia": {
+      "FORTE": 1,
+      "COMPLETA": 2
+    },
+    "contratos_db": 2,
+    "empenhos_db": 298,
+    "empenhos_val": 3296503.190000003,
+    "nf_total": 2,
+    "nf_paid": 1,
+    "pendrive_total": 33,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 12,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 15,
+      "RECIBO": 5
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 3,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 3 vs 15 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "BMC",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 58142.0,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 6,
+    "fat_db_val": 58142.0,
+    "cadeia": {
+      "COMPLETA": 5,
+      "MEDIA": 1
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 5,
+    "nf_paid": 0,
+    "pendrive_total": 6,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 6
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 6,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "5 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "ARSEPAM",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 49618.85205354253,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 23,
+    "fat_exig": 23,
+    "fat_db": 20,
+    "fat_db_val": 30809.93,
+    "cadeia": {
+      "COMPLETA": 18,
+      "FORTE": 2
+    },
+    "contratos_db": 3,
+    "empenhos_db": 166,
+    "empenhos_val": 1276314.1400000004,
+    "nf_total": 18,
+    "nf_paid": 0,
+    "pendrive_total": 65,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 11,
+      "DESCONHECIDO": 16,
+      "NOTA_FISCAL": 38
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 45,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 20 vs 23 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "18 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "FUAM/FUHAM",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 44020.01,
+    "forca": "FORTE",
+    "proximo_passo": "PROTOCOLAR_PETICAO",
+    "fat_profiles": 75,
+    "fat_exig": 22,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 349,
+    "empenhos_val": 1609904.7700000005,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 124,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 20,
+      "DESCONHECIDO": 30,
+      "OFICIO": 9,
+      "RECIBO": 6,
+      "SEM_TEXTO": 2,
+      "CONTRATO": 12,
+      "NOTA_FISCAL": 45
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 5,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 75 faturas mas DB tem 0"
+      ],
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "BANCO BMG",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 39242.0,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 10,
+    "fat_db_val": 48574.0,
+    "cadeia": {
+      "COMPLETA": 9,
+      "FORTE": 1
+    },
+    "contratos_db": 2,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 9,
+    "nf_paid": 0,
+    "pendrive_total": 10,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 10
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 10,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "9 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "SEMA",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 38541.1088668302,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 10,
+    "fat_exig": 5,
+    "fat_db": 2,
+    "fat_db_val": 14934.449999999999,
+    "cadeia": {
+      "COMPLETA": 2
+    },
+    "contratos_db": 2,
+    "empenhos_db": 220,
+    "empenhos_val": 2093648.6799999995,
+    "nf_total": 2,
+    "nf_paid": 0,
+    "pendrive_total": 45,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 18,
+      "CONTRATO": 1,
+      "DESCONHECIDO": 15,
+      "NOTA_FISCAL": 4,
+      "RECIBO": 7
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 4,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 2 vs 5 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "2 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "ITRANSITO",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 38360.67,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 12,
+    "fat_db_val": 46954.4,
+    "cadeia": {
+      "COMPLETA": 9,
+      "MEDIA": 3
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 9,
+    "nf_paid": 1,
+    "pendrive_total": 10,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 10
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 10,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 34760.79,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 6,
+    "fat_db_val": 34760.79,
+    "cadeia": {
+      "COMPLETA": 3,
+      "MEDIA": 3
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 3,
+    "nf_paid": 0,
+    "pendrive_total": 6,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 6
+    },
+    "spcf_json": false,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_SPCF_JSON",
+        "Sem pasta em SPCF_EXTRACAO/por_devedor/"
+      ],
+      [
+        "MEDIO",
+        "SEM_CRUZAMENTO",
+        "Tem faturas e PDFs mas sem cruzamento NF×PDF"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "3 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 3,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "FUNTEA",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 34186.18707715725,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 11,
+    "fat_exig": 11,
+    "fat_db": 3,
+    "fat_db_val": 6346.65,
+    "cadeia": {
+      "FORTE": 2,
+      "COMPLETA": 1
+    },
+    "contratos_db": 3,
+    "empenhos_db": 224,
+    "empenhos_val": 947095.9899999995,
+    "nf_total": 1,
+    "nf_paid": 0,
+    "pendrive_total": 21,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 9,
+      "CERTIDAO": 2,
+      "DESCONHECIDO": 9,
+      "NOTA_FISCAL": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 7,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 3 vs 11 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "1 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "BANCO SICOOB",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 30290.0,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 21,
+    "fat_db_val": 32618.0,
+    "cadeia": {
+      "COMPLETA": 19,
+      "MEDIA": 2
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 19,
+    "nf_paid": 0,
+    "pendrive_total": 19,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 19
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 19,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "19 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "DPE",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 28060.05,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 7,
+    "fat_exig": 7,
+    "fat_db": 1,
+    "fat_db_val": 4662.12,
+    "cadeia": {
+      "COMPLETA": 1
+    },
+    "contratos_db": 1,
+    "empenhos_db": 79,
+    "empenhos_val": 2912569.120000001,
+    "nf_total": 1,
+    "nf_paid": 0,
+    "pendrive_total": 16,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 9,
+      "DESCONHECIDO": 7
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 3,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 1 vs 7 exigíveis no profiles"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "1 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "FMPES",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 27264.57,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 3,
+    "fat_exig": 3,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": false,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": false,
+    "dossie_inventario": false,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 3 faturas mas DB tem 0"
+      ],
+      [
+        "ALTO",
+        "SEM_EMPENHOS",
+        "Devedor governo sem NEs no banco"
+      ],
+      [
+        "MEDIO",
+        "SEM_SPCF_JSON",
+        "Sem pasta em SPCF_EXTRACAO/por_devedor/"
+      ],
+      [
+        "ALTO",
+        "SEM_DOSSIE",
+        "Sem pasta *_DOSSIE em PRODAM_DOCS"
+      ],
+      [
+        "MEDIO",
+        "SEM_PENDRIVE",
+        "Nenhum doc do pen drive para este devedor"
+      ]
+    ],
+    "n_gaps": 5,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "PMAM",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 27020.90058524942,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 13,
+    "fat_exig": 8,
+    "fat_db": 2,
+    "fat_db_val": 15075.8,
+    "cadeia": {
+      "COMPLETA": 1,
+      "FORTE": 1
+    },
+    "contratos_db": 1,
+    "empenhos_db": 95,
+    "empenhos_val": 2536803.94,
+    "nf_total": 1,
+    "nf_paid": 1,
+    "pendrive_total": 36,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 9,
+      "CERTIDAO": 2,
+      "DESCONHECIDO": 18,
+      "NOTA_FISCAL": 3,
+      "OFICIO": 3,
+      "RECIBO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 8,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 2 vs 8 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "CGE",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 25693.37,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 9,
+    "fat_exig": 9,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 174,
+    "empenhos_val": 6272270.140000002,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 15,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 6,
+      "DESCONHECIDO": 8,
+      "OFICIO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 9 faturas mas DB tem 0"
+      ],
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "SNPH",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 25117.34434577535,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 8,
+    "fat_exig": 8,
+    "fat_db": 13,
+    "fat_db_val": 19802.66,
+    "cadeia": {
+      "FORTE": 1,
+      "COMPLETA": 12
+    },
+    "contratos_db": 5,
+    "empenhos_db": 224,
+    "empenhos_val": 1075170.8499999994,
+    "nf_total": 12,
+    "nf_paid": 0,
+    "pendrive_total": 53,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 8,
+      "CERTIDAO": 13,
+      "DESCONHECIDO": 11,
+      "NOTA_FISCAL": 14,
+      "RECIBO": 7
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 18,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "12 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "PSA TECHNOLOGY",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 21007.21,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 1,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 1,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "FJJA",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 20596.36,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 5,
+    "fat_exig": 5,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": false,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": false,
+    "dossie_inventario": false,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "CRITICO",
+        "SEM_FATURAS_DB",
+        "profiles diz 5 faturas mas DB tem 0"
+      ],
+      [
+        "ALTO",
+        "SEM_EMPENHOS",
+        "Devedor governo sem NEs no banco"
+      ],
+      [
+        "MEDIO",
+        "SEM_SPCF_JSON",
+        "Sem pasta em SPCF_EXTRACAO/por_devedor/"
+      ],
+      [
+        "ALTO",
+        "SEM_DOSSIE",
+        "Sem pasta *_DOSSIE em PRODAM_DOCS"
+      ],
+      [
+        "MEDIO",
+        "SEM_PENDRIVE",
+        "Nenhum doc do pen drive para este devedor"
+      ]
+    ],
+    "n_gaps": 5,
+    "max_severity": "CRITICO"
+  },
+  {
+    "sigla": "SUL AMERICA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 18196.0,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 20,
+    "fat_db_val": 18998.0,
+    "cadeia": {
+      "COMPLETA": 18,
+      "MEDIA": 2
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 18,
+    "nf_paid": 0,
+    "pendrive_total": 19,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 19
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 19,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "18 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "B23 TECNOLOGIA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 11892.24,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 3,
+    "fat_db_val": 12039.08,
+    "cadeia": {
+      "COMPLETA": 3
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 3,
+    "nf_paid": 0,
+    "pendrive_total": 3,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 3
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_CRUZAMENTO",
+        "Tem faturas e PDFs mas sem cruzamento NF×PDF"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "3 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "BANCO SAFRA",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 9310.0,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 6,
+    "fat_db_val": 12102.0,
+    "cadeia": {
+      "COMPLETA": 5,
+      "MEDIA": 1
+    },
+    "contratos_db": 2,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 5,
+    "nf_paid": 0,
+    "pendrive_total": 5,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 5
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 5,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "5 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "ODONTOMED",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 7541.1,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 14,
+    "fat_db_val": 7350.0,
+    "cadeia": {
+      "COMPLETA": 14
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 14,
+    "nf_paid": 0,
+    "pendrive_total": 15,
+    "pendrive_tipos": {
+      "NOTA_FISCAL": 15
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 15,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "14 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "EASYTECH",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 6927.16,
+    "forca": "FRACA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 10,
+    "fat_db_val": 7804.2199999999975,
+    "cadeia": {
+      "COMPLETA": 8,
+      "FORTE": 2
+    },
+    "contratos_db": 1,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 8,
+    "nf_paid": 0,
+    "pendrive_total": 11,
+    "pendrive_tipos": {
+      "CONTRATO": 2,
+      "NOTA_FISCAL": 9
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 9,
+    "gaps": [
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "8 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "INFO"
+  },
+  {
+    "sigla": "FHEMOAM",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 6886.906967936138,
+    "forca": "FRACA",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 8,
+    "fat_exig": 7,
+    "fat_db": 3,
+    "fat_db_val": 1688.6100000000001,
+    "cadeia": {
+      "COMPLETA": 2,
+      "FORTE": 1
+    },
+    "contratos_db": 2,
+    "empenhos_db": 44,
+    "empenhos_val": 90818.30000000002,
+    "nf_total": 2,
+    "nf_paid": 0,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 10,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 3 vs 7 exigíveis no profiles"
+      ],
+      [
+        "MEDIO",
+        "SEM_PENDRIVE",
+        "Nenhum doc do pen drive para este devedor"
+      ],
+      [
+        "INFO",
+        "NFS_SEM_PAGAMENTO",
+        "2 NFs, 0 pagas"
+      ]
+    ],
+    "n_gaps": 3,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "CBMAM",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 3134.027944080676,
+    "forca": "FORTE",
+    "proximo_passo": "ENVIAR_TRD",
+    "fat_profiles": 24,
+    "fat_exig": 4,
+    "fat_db": 2,
+    "fat_db_val": 1398.6,
+    "cadeia": {
+      "COMPLETA": 2
+    },
+    "contratos_db": 1,
+    "empenhos_db": 150,
+    "empenhos_val": 682868.1400000004,
+    "nf_total": 2,
+    "nf_paid": 2,
+    "pendrive_total": 39,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 8,
+      "CERTIDAO": 2,
+      "DESCONHECIDO": 21,
+      "NOTA_DE_LIQUIDACAO": 1,
+      "NOTA_FISCAL": 5,
+      "RECIBO": 2
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 9,
+    "gaps": [
+      [
+        "ALTO",
+        "FATURAS_INCOMPLETAS",
+        "DB tem 2 vs 4 exigíveis no profiles"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "SEMIG",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 0.0,
+    "forca": "MÉDIA",
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 30,
+    "fat_db_val": 235353.14999999994,
+    "cadeia": {
+      "FORTE": 8,
+      "COMPLETA": 22
+    },
+    "contratos_db": 1,
+    "empenhos_db": 22,
+    "empenhos_val": 2025827.2700000003,
+    "nf_total": 22,
+    "nf_paid": 2,
+    "pendrive_total": 14,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 4,
+      "CERTIDAO": 1,
+      "DESCONHECIDO": 2,
+      "NOTA_FISCAL": 3,
+      "RECIBO": 4
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 3,
+    "gaps": [],
+    "n_gaps": 0,
+    "max_severity": "OK"
+  },
+  {
+    "sigla": "CASA CIVIL",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 0.0,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 4,
+    "fat_db_val": 20927.09,
+    "cadeia": {
+      "FORTE": 3,
+      "COMPLETA": 1
+    },
+    "contratos_db": 2,
+    "empenhos_db": 194,
+    "empenhos_val": 18186385.12,
+    "nf_total": 1,
+    "nf_paid": 1,
+    "pendrive_total": 35,
+    "pendrive_tipos": {
+      "ACEITE_ATESTO": 1,
+      "CARTA_COBRANCA": 8,
+      "DESCONHECIDO": 18,
+      "NOTA_DE_EMPENHO": 1,
+      "NOTA_DE_LIQUIDACAO": 1,
+      "NOTA_FISCAL": 1,
+      "OFICIO": 5
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_CRUZAMENTO",
+        "Tem faturas e PDFs mas sem cruzamento NF×PDF"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "COSAMA",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": 0.0,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 25,
+    "pendrive_tipos": {
+      "CARTA_COBRANCA": 8,
+      "DESCONHECIDO": 16,
+      "RECIBO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "ALTO",
+        "SEM_EMPENHOS",
+        "Devedor governo sem NEs no banco"
+      ],
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ]
+    ],
+    "n_gaps": 2,
+    "max_severity": "ALTO"
+  },
+  {
+    "sigla": "CASA MILITAR",
+    "categoria": "GOV_DIRETA",
+    "val_exig": 0.0,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 0,
+    "fat_db_val": 0.0,
+    "cadeia": {},
+    "contratos_db": 0,
+    "empenhos_db": 28,
+    "empenhos_val": 180627.64,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 2,
+    "pendrive_tipos": {
+      "DESCONHECIDO": 1,
+      "OFICIO": 1
+    },
+    "spcf_json": true,
+    "spcf_json_faturas": false,
+    "spcf_json_empenhos": true,
+    "spcf_html_faturas": 0,
+    "dossie_existe": true,
+    "dossie_inventario": true,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "MEDIO",
+        "SEM_FATURAS_JSON",
+        "Pasta SPCF existe mas sem consolidado_faturas"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "MEDIO"
+  },
+  {
+    "sigla": "BANCO DAYCOVAL",
+    "categoria": "EMPRESA_PRIVADA",
+    "val_exig": 0.0,
+    "forca": "FRACA",
+    "proximo_passo": "CLASSIFICAR",
+    "fat_profiles": 0,
+    "fat_exig": 0,
+    "fat_db": 4,
+    "fat_db_val": 99481.64000000001,
+    "cadeia": {
+      "MEDIA": 1,
+      "FORTE": 3
+    },
+    "contratos_db": 4,
+    "empenhos_db": 0,
+    "empenhos_val": 0.0,
+    "nf_total": 0,
+    "nf_paid": 0,
+    "pendrive_total": 0,
+    "pendrive_tipos": {},
+    "spcf_json": true,
+    "spcf_json_faturas": true,
+    "spcf_json_empenhos": false,
+    "spcf_html_faturas": 0,
+    "dossie_existe": false,
+    "dossie_inventario": false,
+    "cruzamento": 0,
+    "gaps": [
+      [
+        "ALTO",
+        "SEM_DOSSIE",
+        "Sem pasta *_DOSSIE em PRODAM_DOCS"
+      ]
+    ],
+    "n_gaps": 1,
+    "max_severity": "ALTO"
+  }
+]

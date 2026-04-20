@@ -1,0 +1,889 @@
+{
+  "sigla": "SEMIG",
+  "profile": {
+    "nome_completo": "Secretaria de Mineração",
+    "sigla": "SEMIG",
+    "natureza": "Secretaria de Estado",
+    "categoria": "GOV_DIRETA",
+    "val_exig": "0",
+    "val_orig": "0",
+    "val_atualizado": "0",
+    "faturas_total": 0,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 0,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 0,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Análise pendente",
+    "observacoes": "Sem dados no demonstrativo (S/D)",
+    "forca_probatoria": "MÉDIA",
+    "modelo_notificacao": "B",
+    "reconhecimento_revisado": {
+      "total_evidencias": 4,
+      "classificacao": "CONFIRMADO — Pagamento parcial",
+      "por_tipo": {
+        "E": 3,
+        "F": 1
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "51.999.904/0001-03",
+    "nota": "Sem dados no SPCF. Valor exigível = 0 porque não há faturas registradas. Existem 4 evidências de pagamento parcial (3 tipo E + 1 tipo F) nos PDFs do FINANCEIRO, indicando que houve relação contratual. Ação: solicitar à PRODAM dados SPCF específicos para SEMIG.",
+    "evidencias_reconhecimento": 4,
+    "evidencias_por_tipo": {
+      "E": 3,
+      "F": 1
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Pagamento parcial",
+    "tipo": "GOV",
+    "score_composto": 0.1357,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.37,
+    "ev_valor_esperado": "0.0",
+    "ev_honorarios": "0.0",
+    "esforco_estimado": 5,
+    "cenario_monte_carlo_p50": "0.0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 51,
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "N/A",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "SEMIG",
+    "spcf_total_receber": "337858.93",
+    "emp_2026": "277175.12",
+    "emp_2026_qtd": 2,
+    "contratos_vigentes": 1,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "val_servicos_spcf_mar2026": "349707.18",
+    "val_liquido_spcf_mar2026": "337858.93",
+    "num_faturas_spcf_mar2026": 37,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 100.0,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2026NE0000078",
+      "contrato": "3/2024",
+      "valor": 71299.91,
+      "situacao": "Ativo",
+      "data_emissao": "27/03/2026",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG. TC: 0003/2024 AD: 02."
+    },
+    {
+      "numero": "2024NE0000068",
+      "contrato": "3/2024",
+      "valor": 65527.02,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2024",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2024NE0000066",
+      "contrato": "3/2024",
+      "valor": 2516.56,
+      "situacao": "Ativo",
+      "data_emissao": "24/04/2024",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2026NE0000002",
+      "contrato": "3/2024",
+      "valor": 205875.21,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2026",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG. TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000009",
+      "contrato": "3/2024",
+      "valor": 131054.04,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2025NE0000010",
+      "contrato": "",
+      "valor": 131054.04,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2025",
+      "descricao": "Anulação para atualização de ndata de emissão de NE."
+    },
+    {
+      "numero": "2025NE0000270",
+      "contrato": "3/2024",
+      "valor": 274500.12,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG. TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000075",
+      "contrato": "3/2024",
+      "valor": 98290.55,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2025NE0000076",
+      "contrato": "3/2024",
+      "valor": 314.58,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2024NE0000276",
+      "contrato": "3/2024",
+      "valor": 67702.72,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2024",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2024NE0000277",
+      "contrato": "3/2024",
+      "valor": 259932.38,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2024",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2024NE0000159",
+      "contrato": "3/2024",
+      "valor": 131054.04,
+      "situacao": "Ativo",
+      "data_emissao": "10/07/2024",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2025NE0000095",
+      "contrato": "3/2024",
+      "valor": 68625.03,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG. TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2024NE0000056",
+      "contrato": "3/2024",
+      "valor": 32763.51,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2024",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2024NE0000057",
+      "contrato": "3/2024",
+      "valor": 314.57,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2024",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2024NE00056",
+      "contrato": "3/2024",
+      "valor": 32763.51,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2024",
+      "descricao": "Serviço em TI"
+    },
+    {
+      "numero": "2024NE00057",
+      "contrato": "3/2024",
+      "valor": 314.57,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2024",
+      "descricao": "Serviço em TI"
+    },
+    {
+      "numero": "2025NE0000132",
+      "contrato": "3/2024",
+      "valor": 137250.06,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG. TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000208",
+      "contrato": "3/2024",
+      "valor": 45741.61,
+      "situacao": "Ativo",
+      "data_emissao": "07/07/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG. TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000251",
+      "contrato": "3/2024",
+      "valor": 137250.06,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG. TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000011",
+      "contrato": "3/2024",
+      "valor": 629.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    },
+    {
+      "numero": "2025NE0000013",
+      "contrato": "3/2024",
+      "valor": 131054.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CT - Prestação de Serviços de Tecnologia da Informação e Comunicação (TIC) para atender às necessidades da Secretaria de Estado - SEMIG."
+    }
+  ],
+  "faturas": [
+    {
+      "id": "160606",
+      "nf": "55669",
+      "contrato": "3/2024",
+      "valor_bruto": 48438.75,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "161466",
+      "nf": "56466",
+      "contrato": "3/2024",
+      "valor_bruto": 48438.75,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "165024",
+      "nf": "59925",
+      "contrato": "3/2024",
+      "valor_bruto": 48438.75,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "167401",
+      "nf": "167401",
+      "contrato": "3/2024",
+      "valor_bruto": 16146.25,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "160610",
+      "nf": "55672",
+      "contrato": "3/2024",
+      "valor_bruto": 6455.44,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "161470",
+      "nf": "56465",
+      "contrato": "3/2024",
+      "valor_bruto": 6455.44,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "165028",
+      "nf": "59922",
+      "contrato": "3/2024",
+      "valor_bruto": 6455.44,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "160605",
+      "nf": "55670",
+      "contrato": "3/2024",
+      "valor_bruto": 5457.96,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "161465",
+      "nf": "56464",
+      "contrato": "3/2024",
+      "valor_bruto": 5457.96,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "165023",
+      "nf": "59920",
+      "contrato": "3/2024",
+      "valor_bruto": 5457.96,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "150429",
+      "nf": "45927",
+      "contrato": "3/2024",
+      "valor_bruto": 3774.84,
+      "competencia": "05/2024",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "160608",
+      "nf": "55674",
+      "contrato": "3/2024",
+      "valor_bruto": 3007.15,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "161468",
+      "nf": "56467",
+      "contrato": "3/2024",
+      "valor_bruto": 3007.15,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "165026",
+      "nf": "59921",
+      "contrato": "3/2024",
+      "valor_bruto": 3007.15,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "155179",
+      "nf": "50320",
+      "contrato": "3/2024",
+      "valor_bruto": 2870.24,
+      "competencia": "12/2024",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "160611",
+      "nf": "55673",
+      "contrato": "3/2024",
+      "valor_bruto": 2847.29,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "161471",
+      "nf": "56463",
+      "contrato": "3/2024",
+      "valor_bruto": 2847.29,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "165029",
+      "nf": "59924",
+      "contrato": "3/2024",
+      "valor_bruto": 2847.29,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "167405",
+      "nf": "167405",
+      "contrato": "3/2024",
+      "valor_bruto": 2151.81,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "160609",
+      "nf": "55671",
+      "contrato": "3/2024",
+      "valor_bruto": 2036.21,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "161469",
+      "nf": "56468",
+      "contrato": "3/2024",
+      "valor_bruto": 2036.21,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "165027",
+      "nf": "59926",
+      "contrato": "3/2024",
+      "valor_bruto": 2036.21,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "167400",
+      "nf": "167400",
+      "contrato": "3/2024",
+      "valor_bruto": 1819.32,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "167403",
+      "nf": "167403",
+      "contrato": "3/2024",
+      "valor_bruto": 1002.38,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "167406",
+      "nf": "167406",
+      "contrato": "3/2024",
+      "valor_bruto": 949.1,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "167404",
+      "nf": "167404",
+      "contrato": "3/2024",
+      "valor_bruto": 678.74,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "160607",
+      "nf": "55668",
+      "contrato": "3/2024",
+      "valor_bruto": 369.62,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "161467",
+      "nf": "56462",
+      "contrato": "3/2024",
+      "valor_bruto": 369.62,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "165025",
+      "nf": "59923",
+      "contrato": "3/2024",
+      "valor_bruto": 369.62,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 119
+    },
+    {
+      "id": "167402",
+      "nf": "167402",
+      "contrato": "3/2024",
+      "valor_bruto": 123.21,
+      "competencia": "04/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 119
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Certificado Digital",
+      "Contrato": "003/2024",
+      "Número": "150429",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/150429/E",
+      "Comp.": "05/2024",
+      "Valor": "943,71",
+      "Atraso": "653 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "003/2024",
+      "Número": "155179",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155179/E",
+      "Comp.": "12/2024",
+      "Valor": "212,33",
+      "Atraso": "470 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "003/2024",
+      "Número": "160607",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160607/E",
+      "Comp.": "06/2025",
+      "Valor": "369,62",
+      "Atraso": "260 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Assistência Técnica em Informática",
+      "Contrato": "003/2024",
+      "Número": "160606",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160606/E",
+      "Comp.": "06/2025",
+      "Valor": "48.438,75",
+      "Atraso": "260 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "003/2024",
+      "Número": "160605",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160605/E",
+      "Comp.": "06/2025",
+      "Valor": "5.457,96",
+      "Atraso": "260 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "003/2024",
+      "Número": "160609",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160609/E",
+      "Comp.": "06/2025",
+      "Valor": "2.036,21",
+      "Atraso": "260 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "003/2024",
+      "Número": "160610",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160610/E",
+      "Comp.": "06/2025",
+      "Valor": "6.455,44",
+      "Atraso": "260 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "003/2024",
+      "Número": "160611",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160611/E",
+      "Comp.": "06/2025",
+      "Valor": "2.847,29",
+      "Atraso": "260 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "003/2024",
+      "Número": "160608",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160608/E",
+      "Comp.": "06/2025",
+      "Valor": "3.007,15",
+      "Atraso": "260 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "003/2024",
+      "Número": "161467",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161467/E",
+      "Comp.": "07/2025",
+      "Valor": "369,62",
+      "Atraso": "230 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "003/2024",
+      "Número": "161471",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161471/E",
+      "Comp.": "07/2025",
+      "Valor": "2.847,29",
+      "Atraso": "230 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "003/2024",
+      "Número": "161470",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161470/E",
+      "Comp.": "07/2025",
+      "Valor": "6.455,44",
+      "Atraso": "230 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Assistência Técnica em Informática",
+      "Contrato": "003/2024",
+      "Número": "161466",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161466/E",
+      "Comp.": "07/2025",
+      "Valor": "48.438,75",
+      "Atraso": "230 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "003/2024",
+      "Número": "161468",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161468/E",
+      "Comp.": "07/2025",
+      "Valor": "3.007,15",
+      "Atraso": "230 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "003/2024",
+      "Número": "161469",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161469/E",
+      "Comp.": "07/2025",
+      "Valor": "2.036,21",
+      "Atraso": "230 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "003/2024",
+      "Número": "161465",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161465/E",
+      "Comp.": "07/2025",
+      "Valor": "5.457,96",
+      "Atraso": "230 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "003/2024",
+      "Número": "165026",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165026/E",
+      "Comp.": "12/2025",
+      "Valor": "3.007,15",
+      "Atraso": "100 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "003/2024",
+      "Número": "165028",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165028/E",
+      "Comp.": "12/2025",
+      "Valor": "6.455,44",
+      "Atraso": "100 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "003/2024",
+      "Número": "165029",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165029/E",
+      "Comp.": "12/2025",
+      "Valor": "2.847,29",
+      "Atraso": "100 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Assistência Técnica em Informática",
+      "Contrato": "003/2024",
+      "Número": "165024",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165024/E",
+      "Comp.": "12/2025",
+      "Valor": "48.438,75",
+      "Atraso": "100 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "003/2024",
+      "Número": "165027",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165027/E",
+      "Comp.": "12/2025",
+      "Valor": "2.036,21",
+      "Atraso": "100 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "003/2024",
+      "Número": "165023",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165023/E",
+      "Comp.": "12/2025",
+      "Valor": "5.457,96",
+      "Atraso": "100 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEMIG",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "003/2024",
+      "Número": "165025",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165025/E",
+      "Comp.": "12/2025",
+      "Valor": "369,62",
+      "Atraso": "100 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 22,
+      "valor_total": 2025827.27,
+      "por_ano": {
+        "2026": {
+          "qtd": 2,
+          "valor": 277175.12
+        },
+        "2024": {
+          "qtd": 9,
+          "valor": 592888.8799999999
+        },
+        "2025": {
+          "qtd": 11,
+          "valor": 1155763.2699999998
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 30,
+      "valor_total": 235353.15
+    },
+    "cobrancas": {
+      "qtd": 23,
+      "valor_total": 206993.3
+    }
+  }
+}

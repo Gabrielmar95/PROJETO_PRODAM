@@ -1,0 +1,29 @@
+{
+  "filename": "006.2021 - PRODAM VPN - QUARTO TERMO ADITIVO - NE.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\006.2021 - PRODAM VPN - QUARTO TERMO ADITIVO - NE.pdf",
+  "filename_parsed": {
+    "filename": "006.2021 - PRODAM VPN - QUARTO TERMO ADITIVO - NE.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 6,
+    "contrato_ano": 2021,
+    "contrato_ref": "006/2021",
+    "ta_numero": 4
+  },
+  "pdf_meta": {
+    "num_paginas": 3,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 241539
+  },
+  "texto_length": 10736,
+  "texto_preview": "GOVERNO DO ESTADO DO AMAZONAS\nADMINISTRAÇÃO FINANCEIRA INTEGRADA\nNota de Empenho\nUnidade Gestora\nGestão\nCredor\nNúmero Documento\nProcesso\nLicitação\nData Emissão\nNE Original\nModalidade\nEvento\nReferência\nValor\n011210 - DEPARTAMENTO ESTADUAL DE TRÂNSITO\n00002 - AUTARQUIA\n2025NE0000737\n04407920000180 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S A\n400091 - Empenho de Despesa\n011210.000384/2025\nArt.24; XVI;  Lei 8.666/93\n 522.461,76\n16/05/2025\n5 - Dispensa de Licitação\n3 - Global\nNatureza Despesa\nFonte R",
+  "clausulas_detectadas": {
+    "vigencia": [
+      [
+        "02/03/2021",
+        "25/03/2025"
+      ]
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

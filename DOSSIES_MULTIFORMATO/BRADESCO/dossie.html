@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê BRADESCO — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — BRADESCO</h1>
+<p><b>Banco Bradesco S.A.</b> | EMPRESA_PRIVADA | CNPJ: 60.746.948/0001-12 | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">CLASSIFICAR</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 2.226.517,80</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 2.226.517,80</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">115</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">0%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>166431</td><td>733</td><td>5/2025</td><td>01/2026</td><td>R$ 61.738,00</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>143025</td><td>39233</td><td>119/2023</td><td>07/2023</td><td>R$ 61.264,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>165567</td><td>60391</td><td>5/2025</td><td>12/2025</td><td>R$ 61.076,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>146774</td><td>42567</td><td>119/2023</td><td>12/2023</td><td>R$ 60.966,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>146017</td><td>41885</td><td>119/2023</td><td>11/2023</td><td>R$ 60.960,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>147530</td><td>43264</td><td>119/2023</td><td>01/2024</td><td>R$ 60.884,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>143777</td><td>39901</td><td>119/2023</td><td>08/2023</td><td>R$ 60.814,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>144500</td><td>40564</td><td>119/2023</td><td>09/2023</td><td>R$ 60.784,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>151258</td><td>46730</td><td>119/2023</td><td>06/2024</td><td>R$ 60.716,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>151999</td><td>47411</td><td>119/2023</td><td>07/2024</td><td>R$ 60.654,00</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Cadastrado em 14/04/2026 após auditoria — 43 faturas com R$ 2M em cobrancas.json. Órfão detectado no ANALISE_CLIENTES_ORFAOS.json</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:[],datasets:[
+    {label:'Qtd',data:[],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

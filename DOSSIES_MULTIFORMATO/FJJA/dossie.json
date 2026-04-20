@@ -1,0 +1,69 @@
+{
+  "sigla": "FJJA",
+  "profile": {
+    "nome_completo": "Fundação Juiz de Fora Jorge Almeida (ex-FUNJEAM)",
+    "sigla": "FJJA",
+    "natureza": "Fundação Estadual",
+    "categoria": "GOV_INDIRETA",
+    "val_orig": "20596.36",
+    "val_exig": "20596.36",
+    "val_atualizado": "20596.36",
+    "faturas_total": 5,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 5,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 3,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Pendente analise",
+    "observacoes": "Incluido via SPCF Mar/2026. Alias: FUNJEAM. 4 fat aberto (B2-05 R$20.736,92). Emp 2026 R$24K",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "CNPJ_PENDENTE",
+    "tipo": "GOV",
+    "score_composto": 0,
+    "proximo_passo": "CLASSIFICAR",
+    "fonte": "SPCF_MAR2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-31",
+    "spcf_total_receber": "20596.36",
+    "spcf_fat_devidas_qtd": 5,
+    "spcf_fat_devidas_val": "20596.35",
+    "spcf_fat_aberto_qtd": 4,
+    "spcf_fat_aberto_val": "20736.92",
+    "spcf_perdas": "3205.11",
+    "emp_2026": "24882.59",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "empenho_historico_total": 0.0,
+    "empenho_historico_qtd": 0,
+    "empenho_valor_global_contratos": 0.0,
+    "empenho_2026_gerencial": 0.0,
+    "a_empenhar_2026": 0.0,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

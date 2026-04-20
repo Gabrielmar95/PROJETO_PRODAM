@@ -1,0 +1,173 @@
+{
+  "total": 14,
+  "devedores": [
+    {
+      "sigla": "FUAM/FUHAM",
+      "categoria": "GOV_INDIRETA",
+      "forca": "FORTE",
+      "status": "Petição pronta",
+      "situacao_cadastral": "ATIVA",
+      "em_liquidacao": false,
+      "faturas_exig_profile": 22,
+      "val_exig_profile": 44020.01,
+      "empenhos_db": 0,
+      "proximo_passo": "PROTOCOLAR_PETICAO"
+    },
+    {
+      "sigla": "POLÍCIA CIVIL",
+      "categoria": "GOV_DIRETA",
+      "forca": "MÉDIA",
+      "status": "Análise pendente",
+      "situacao_cadastral": "ATIVA",
+      "em_liquidacao": false,
+      "faturas_exig_profile": 32,
+      "val_exig_profile": 960481.713334285,
+      "empenhos_db": 0,
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    {
+      "sigla": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+      "categoria": "EMPRESA_PRIVADA",
+      "forca": "FRACA",
+      "status": "Valores extraídos (SPCF)",
+      "situacao_cadastral": "ATIVA",
+      "em_liquidacao": false,
+      "faturas_exig_profile": 0,
+      "val_exig_profile": 34760.79,
+      "empenhos_db": 0,
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    {
+      "sigla": "PSA TECHNOLOGY",
+      "categoria": "EMPRESA_PRIVADA",
+      "forca": "FRACA",
+      "status": "Valores extraídos (SPCF)",
+      "situacao_cadastral": "ATIVA",
+      "em_liquidacao": false,
+      "faturas_exig_profile": 0,
+      "val_exig_profile": 21007.21,
+      "empenhos_db": 0,
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    {
+      "sigla": "CETAM",
+      "categoria": "GOV_INDIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 16,
+      "val_exig_profile": 1256564.28,
+      "empenhos_db": 276,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "UGPI",
+      "categoria": "GOV_DIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 18,
+      "val_exig_profile": 353473.42,
+      "empenhos_db": 0,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "CGE",
+      "categoria": "GOV_DIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 9,
+      "val_exig_profile": 25693.37,
+      "empenhos_db": 213,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "FMPES",
+      "categoria": "GOV_INDIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 3,
+      "val_exig_profile": 27264.57,
+      "empenhos_db": 0,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "SEJEL",
+      "categoria": "GOV_DIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 96,
+      "val_exig_profile": 280242.25,
+      "empenhos_db": 101,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "SETRAB",
+      "categoria": "GOV_DIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 81,
+      "val_exig_profile": 505961.79,
+      "empenhos_db": 176,
+      "proximo_passo": "AVALIAR_SUCESSAO"
+    },
+    {
+      "sigla": "AADESAM",
+      "categoria": "GOV_INDIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 34,
+      "val_exig_profile": 125682.9,
+      "empenhos_db": 4,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "FJJA",
+      "categoria": "GOV_INDIRETA",
+      "forca": "FRACA",
+      "status": "Pendente analise",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 5,
+      "val_exig_profile": 20596.36,
+      "empenhos_db": 0,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "COSAMA",
+      "categoria": "GOV_INDIRETA",
+      "forca": "FRACA",
+      "status": "NOVO_SPCF",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 0,
+      "val_exig_profile": 0.0,
+      "empenhos_db": 0,
+      "proximo_passo": "CLASSIFICAR"
+    },
+    {
+      "sigla": "CASA MILITAR",
+      "categoria": "GOV_DIRETA",
+      "forca": "FRACA",
+      "status": "NOVO_SPCF",
+      "situacao_cadastral": "—",
+      "em_liquidacao": null,
+      "faturas_exig_profile": 0,
+      "val_exig_profile": 0.0,
+      "empenhos_db": 28,
+      "proximo_passo": "CLASSIFICAR"
+    }
+  ]
+}

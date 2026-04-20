@@ -1,0 +1,2348 @@
+{
+  "sigla": "CETAM",
+  "profile": {
+    "nome_completo": "Centro de Educação Tecnológica do Amazonas",
+    "sigla": "CETAM",
+    "natureza": "Autarquia Estadual",
+    "categoria": "GOV_INDIRETA",
+    "val_orig": "1256564.28",
+    "val_exig": "1256564.28",
+    "val_atualizado": "1256564.28",
+    "faturas_total": 16,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 16,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 4,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Pendente analise",
+    "observacoes": "Incluido via SPCF Mar/2026. 15 fat em aberto (B2-05 R$1.256.564,27). Perdas R$1.387,10",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "CNPJ_PENDENTE",
+    "tipo": "GOV",
+    "score_composto": 0,
+    "proximo_passo": "CLASSIFICAR",
+    "fonte": "SPCF_MAR2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-31",
+    "spcf_total_receber": "1256564.28",
+    "spcf_fat_devidas_qtd": 16,
+    "spcf_fat_devidas_val": "1256564.27",
+    "spcf_fat_aberto_qtd": 15,
+    "spcf_fat_aberto_val": "1256564.27",
+    "spcf_perdas": "1387.10",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 4,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "faturamento_total_2019_2026": 50857280.95,
+    "recebimento_total_2019_2026": 47112776.0,
+    "taxa_pagamento_pct": 92.64,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2024-Out",
+    "faturamento_pico_valor": 2121455.86,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": true,
+    "empenho_historico_total": 31749714.17000001,
+    "empenho_historico_qtd": 170,
+    "empenho_valor_global_contratos": 7461752.67,
+    "empenho_2026_gerencial": 4178030.14,
+    "a_empenhar_2026": 503954.52000000014,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "1256564.27",
+    "val_liquido_spcf_mar2026": "1256564.27",
+    "num_faturas_spcf_mar2026": 15,
+    "reconciliacao_status": "MATCH",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 0.0,
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2023NE0001582",
+      "contrato": "7/2020",
+      "valor": 100000.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2023",
+      "descricao": "contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do cetam. Parecer juridico - 2023 -PJ/CETAM pag. 28 a 33. TC: 007/2020 AD: 04."
+    },
+    {
+      "numero": "2015NE00454",
+      "contrato": "1/2012",
+      "valor": 3856.51,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2015",
+      "descricao": "Anulação total"
+    },
+    {
+      "numero": "2023NE0001573",
+      "contrato": "",
+      "valor": 100000.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "Referente a anulação da NE 1507/2023."
+    },
+    {
+      "numero": "2023NE0001563",
+      "contrato": "6/2020",
+      "valor": 334735.1,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2023NE0001570",
+      "contrato": "6/2020",
+      "valor": 780039.12,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 006/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0001574",
+      "contrato": "7/2020",
+      "valor": 923541.27,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do cetam. Parecer juridico - 2023 -PJ/CETAM pag. 28 a 33. TC: 007/2020 AD: 04."
+    },
+    {
+      "numero": "2022NE0002075",
+      "contrato": "15/2021",
+      "valor": 12223.56,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2022",
+      "descricao": "Contratação da prestação de serviço de TIC compreendendo a execução dos sistemas Sproweb, Licença de uso do Gestor Conteúdo WEB e PRODAM RH, para atender a demanda do CETAM."
+    },
+    {
+      "numero": "2020NE00518",
+      "contrato": "2/2020",
+      "valor": 175070.25,
+      "situacao": "Ativo",
+      "data_emissao": "29/05/2020",
+      "descricao": "Contratação de empresa especializada em tecnologia da informação para atender demanda do CETAM."
+    },
+    {
+      "numero": "2023NE0000333",
+      "contrato": "7/2020",
+      "valor": 1505578.86,
+      "situacao": "Ativo",
+      "data_emissao": "29/03/2023",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM."
+    },
+    {
+      "numero": "2018NE01868",
+      "contrato": "",
+      "valor": 157492.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2018",
+      "descricao": "anulação total"
+    },
+    {
+      "numero": "2018NE01869",
+      "contrato": "8/2016",
+      "valor": 157492.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2018",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores - internet capital."
+    },
+    {
+      "numero": "2025NE0000084",
+      "contrato": "6/2020",
+      "valor": 699789.98,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000083",
+      "contrato": "10/2024",
+      "valor": 371098.88,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2025",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2023NE0001507",
+      "contrato": "7/2020",
+      "valor": 100000.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2023",
+      "descricao": "contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do cetam. Parecer juridico - 2023 -PJ/CETAM pag. 28 a 33. TC: 007/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000111",
+      "contrato": "7/2020",
+      "valor": 501859.62,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2019NE03030",
+      "contrato": "",
+      "valor": 984.84,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2019",
+      "descricao": "Anulação total da NE nº 2185/19, por ocasião do encerramento do exercício."
+    },
+    {
+      "numero": "2024NE0001976",
+      "contrato": "10/2024",
+      "valor": 185549.44,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2024",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2024NE0001975",
+      "contrato": "7/2020",
+      "valor": 431973.43,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 07."
+    },
+    {
+      "numero": "2024NE0001974",
+      "contrato": "6/2020",
+      "valor": 349894.99,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0001977",
+      "contrato": "15/2021",
+      "valor": 10779.72,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2024",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0001190",
+      "contrato": "7/2020",
+      "valor": 863946.86,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2020NE00742",
+      "contrato": "6/2019",
+      "valor": 20058.3,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2020",
+      "descricao": "Reforço da NE"
+    },
+    {
+      "numero": "2016NE01512",
+      "contrato": "8/2016",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2016",
+      "descricao": "Serviço de acesso a internet"
+    },
+    {
+      "numero": "2022NE0001021",
+      "contrato": "",
+      "valor": 12662.08,
+      "situacao": "Ativo",
+      "data_emissao": "26/05/2022",
+      "descricao": "Pelo encerramento da vigência"
+    },
+    {
+      "numero": "2022NE0003259",
+      "contrato": "15/2021",
+      "valor": 6636.78,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação dos serviços de Tecnologia da Informação e Comunicação de Dados - TIC, compreendendo a execução dos sistemas SPROWEB e PRODAMRH e licença de uso do Gestor de Conteúdo Web."
+    },
+    {
+      "numero": "2022NE0003260",
+      "contrato": "6/2020",
+      "valor": 302096.8,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação dos serviços de fornecimento de circuito de transmissão de dados e conexão á rede metropolitana de Manaus Repam/Metromao."
+    },
+    {
+      "numero": "2020NE01142",
+      "contrato": "9/2016",
+      "valor": 414.51,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Contratação dos serviços de execução dos sistemas SPROWEB, Prodam Rh e Licenca do uso do gestor de conteudo web."
+    },
+    {
+      "numero": "2020NE01136",
+      "contrato": "7/2020",
+      "valor": 317774.55,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Referente fornecimento de consultoria, Manutenção e Suporte de Software em Banco de Dados, desenvolvimento de Sistemas de Informação"
+    },
+    {
+      "numero": "2020NE01146",
+      "contrato": "6/2019",
+      "valor": 25160.85,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistemas de informação, compreendendo a analise e desenvolvimento de funcionalidades em sistema de inscrições e matriculas, para atender demanda do cetam"
+    },
+    {
+      "numero": "2020NE01135",
+      "contrato": "6/2020",
+      "valor": 546345.07,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "Referente a contratação dos serviços de TI para acesso e manutenção, através da rede Metropolitana de Manaus REPAM/por meio de fibra ótica no CETAM"
+    },
+    {
+      "numero": "2024NE0000072",
+      "contrato": "6/2020",
+      "valor": 669470.2,
+      "situacao": "Ativo",
+      "data_emissao": "25/01/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2020NE01027",
+      "contrato": "",
+      "valor": 58356.74,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2020",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação, compreendendo a analise e desenvolvimento de funcionalidades de sistemas, no caso o pagamento de pessoal sem vinculo, para atender demanda desta autarquia."
+    },
+    {
+      "numero": "2024NE0000454",
+      "contrato": "7/2020",
+      "valor": 1003719.24,
+      "situacao": "Ativo",
+      "data_emissao": "24/04/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2019NE03028",
+      "contrato": "",
+      "valor": 984.84,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2019",
+      "descricao": "Referente anulação total do saldo da NE nº 1150/19, por ocasião do encerramento do exercício"
+    },
+    {
+      "numero": "2019NE03027",
+      "contrato": "",
+      "valor": 8078.45,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2019",
+      "descricao": "Referente anulação total do saldo da NE nº 1144/19, por ocasião do encerramento do exercício"
+    },
+    {
+      "numero": "2019NE03026",
+      "contrato": "",
+      "valor": 39373.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2019",
+      "descricao": "Referente anulação total do saldo da NE nº 1143/19, por ocasião do encerramento do exercício"
+    },
+    {
+      "numero": "2019NE03029",
+      "contrato": "",
+      "valor": 736.6,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2019",
+      "descricao": "Referente anulação total do saldo da NE nº 1520/19, por ocasião do encerramento do exercício"
+    },
+    {
+      "numero": "2016NE02320",
+      "contrato": "",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2016",
+      "descricao": "Anulação total da NE"
+    },
+    {
+      "numero": "2016NE02319",
+      "contrato": "",
+      "valor": 1615.69,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2016",
+      "descricao": "Anulação do total do saldo da NE"
+    },
+    {
+      "numero": "2023NE0001506",
+      "contrato": "6/2020",
+      "valor": 543840.68,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2023",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 006/2020 AD: 02."
+    },
+    {
+      "numero": "2025NE0001416",
+      "contrato": "6/2020",
+      "valor": 719524.06,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). TC: 0006/2020 AD: 06."
+    },
+    {
+      "numero": "2025NE0001372",
+      "contrato": "",
+      "valor": 110.88,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2025",
+      "descricao": "Anulação parcial da Nota de Empenho nº 437/2025."
+    },
+    {
+      "numero": "2025NE0001373",
+      "contrato": "",
+      "valor": 69156.26,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2025",
+      "descricao": "Anulação parcial da Nota de Empenho nº 793/2025."
+    },
+    {
+      "numero": "2024NE0000446",
+      "contrato": "6/2020",
+      "valor": 669470.2,
+      "situacao": "Ativo",
+      "data_emissao": "23/04/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000445",
+      "contrato": "15/2021",
+      "valor": 10339.26,
+      "situacao": "Ativo",
+      "data_emissao": "23/04/2024",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0001370",
+      "contrato": "15/2021",
+      "valor": 5389.86,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0001365",
+      "contrato": "6/2020",
+      "valor": 349894.99,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0001367",
+      "contrato": "7/2020",
+      "valor": 964514.52,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 10."
+    },
+    {
+      "numero": "2025NE0001368",
+      "contrato": "10/2024",
+      "valor": 185549.54,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2025NE0001369",
+      "contrato": "10/2024",
+      "valor": 393877.68,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam. TC: 0010/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0001366",
+      "contrato": "7/2020",
+      "valor": 469030.6,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 09."
+    },
+    {
+      "numero": "2025NE0001371",
+      "contrato": "15/2021",
+      "valor": 11098.8,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0001642",
+      "contrato": "7/2020",
+      "valor": 431973.43,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 06."
+    },
+    {
+      "numero": "2021NE0001029",
+      "contrato": "6/2020",
+      "valor": 773141.37,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2021",
+      "descricao": "Contratação dos serviços de interligação da rede de computadores das unidades do CETAM mediante fornecimento de circuito de transmissão de dados a rede metropolitana de Manaus (metromao) com provimento de internet."
+    },
+    {
+      "numero": "2021NE0001040",
+      "contrato": "7/2020",
+      "valor": 953323.65,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2021",
+      "descricao": "Contratação dos serviços de administração e suporte tecnico em banco de dados e sistemas, desenvlimento de sistemas de informação e modelagem de processos de negocio, sob demanda."
+    },
+    {
+      "numero": "2018NE01759",
+      "contrato": "8/2016",
+      "valor": 157492.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2018",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores - internet capital."
+    },
+    {
+      "numero": "2017NE01319",
+      "contrato": "8/2016",
+      "valor": 71130.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2017",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores - internet capital."
+    },
+    {
+      "numero": "2023NE0000982",
+      "contrato": "7/2020",
+      "valor": 1003719.24,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2023",
+      "descricao": "contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do cetam. Parecer juridico - 2023 -PJ/CETAM pag. 28 a 33. TC: 007/2020 AD: 04."
+    },
+    {
+      "numero": "2023NE0000966",
+      "contrato": "6/2020",
+      "valor": 890608.04,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2023",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 006/2020 AD: 02."
+    },
+    {
+      "numero": "2021NE0000213",
+      "contrato": "7/2020",
+      "valor": 1271098.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Contratação dos serviços de administração e suporte tecnico em banco de dados e sistemas, desenvlimento de sistemas de informação e modelagem de processos de negocio, sob demanda."
+    },
+    {
+      "numero": "2020NE00448",
+      "contrato": "6/2019",
+      "valor": 201286.8,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2020",
+      "descricao": "Contratação da prestação dos serviços de desenvolvimento de sistemas de informação, compreendendo a analise e funcionalidades em sistemas de matriculas."
+    },
+    {
+      "numero": "2024NE0000209",
+      "contrato": "15/2021",
+      "valor": 2568.98,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação dos serviços de e Tecnologia da Informação e Comunicação de Dados – TIC, compreendendo a execução dos sistemas SPROWEB e PRODAMRH e licença de uso do Gestor de Conteúdo Web, no período de novembro de 2023.Contrato n° 015/2021 Parecer Jurídico n° 046/2024-PJ/CETAM"
+    },
+    {
+      "numero": "2024NE0000210",
+      "contrato": "15/2021",
+      "valor": 6010.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação dos serviços de e Tecnologia da Informação e Comunicação de Dados – TIC, compreendendo a execução dos sistemas SPROWEB e PRODAMRH e licença de uso do Gestor de Conteúdo Web, no período de dezembro de 2023.(Notas Fiscais N° 42216 Emitida em 18/12/2023, 42581 Emitida em 29/12/2023) Contrato n° 015/2021 Parecer Jurídico n° 046/2024-PJ/CETAM"
+    },
+    {
+      "numero": "2024NE0000200",
+      "contrato": "4/2017",
+      "valor": 11812.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação de serviços de Sistemas de Infraestrutura, compreendendo os serviços de Instalação, Hospedagem de Servidores e Suporte em Sistemas de Informação nas unidades do Cetam.Contrato Nº 004/2017 - CETAM Parecer Jurídico Nº 051/2024 - PJ/CETAM"
+    },
+    {
+      "numero": "2024NE0000208",
+      "contrato": "15/2021",
+      "valor": 3837.14,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação dos serviços de e Tecnologia da Informação e Comunicação de Dados – TIC, compreendendo a execução dos sistemas SPROWEB e PRODAMRH e licença de uso do Gestor de Conteúdo Web, no período de outubro de 2023.(Notas Fiscais N° 41117 Emitida em 25/10/2023, 41118 Emitida em 25/10/2023) Contrato n° 015/2021 Parecer Jurídico n° 046/2024-PJ/CETAM"
+    },
+    {
+      "numero": "2024NE0000204",
+      "contrato": "7/2020",
+      "valor": 522954.96,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação dos Serviços de de Administração e suporte técnico em banco de dados e sistemas, desenvolvimento de sistemas de informação e modelagem de processos de negocio, sob demanda. No período de Outubro de 2023 (Nota Fiscal N° 41254 Emitida em 31/10/2023, N° 41255 Emitida em 31/10/2023, N° 41256 Emitida em 31/10/2023, N° 41257 Emitida em 31/10/2023).Contrato N° 007/2020 - CETAM.Parecer Jurídico N° 053/2024 - PJ/CETAM."
+    },
+    {
+      "numero": "2024NE0000206",
+      "contrato": "7/2020",
+      "valor": 480566.06,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação dos Serviços de de Administração e suporte técnico em banco de dados e sistemas, desenvolvimento de sistemas de informação e modelagem de processos de negocio, sob demanda. No período de Dezembro de 2023 (Nota Fiscal N° 42461 Emitida em 28/12/2023, N° 42462 Emitida em 28/12/2023, N° 2463 Emitida em 28/12/2023, N° 42464 Emitida em 28/12/2023).Contrato N° 007/2020 - CETAM.Parecer Jurídico N° 053/2024 - PJ/CETAM."
+    },
+    {
+      "numero": "2024NE0000205",
+      "contrato": "7/2020",
+      "valor": 493733.79,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação dos Serviços de de Administração e suporte técnico em banco de dados e sistemas, desenvolvimento de sistemas de informação e modelagem de processos de negocio, sob demanda. No período de Novembro de 2023 (Nota Fiscal N° 41783 Emitida em 27/11/2023, N° 41784 Emitida em 27/11/2023, N° 41785 Emitida em 27/11/2023, N° 41786 Emitida em 27/11/2023).Contrato N° 007/2020 - CETAM.Parecer Jurídico N° 053/2024 - PJ/CETAM."
+    },
+    {
+      "numero": "2024NE0000207",
+      "contrato": "7/2020",
+      "valor": 117619.83,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2024",
+      "descricao": "Referente a contratação dos Serviços de de Administração e suporte técnico em banco de dados e sistemas, desenvolvimento de sistemas de informação e modelagem de processos de negocio, sob demanda. No período de Setembro de 2023, pagamento parcial (Nota Fiscal N° 40538, Emitida em 27/09/2023).Contrato N° 007/2020 - CETAM.Parecer Jurídico N° 053/2024 - PJ/CETAM."
+    },
+    {
+      "numero": "2019NE02318",
+      "contrato": "9/2016",
+      "valor": 15388.65,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2019",
+      "descricao": "Contratação de serviços de execução dos sistemas de sproweb, prodam - rh e licença do uso do gestor de conteúdo web."
+    },
+    {
+      "numero": "2024NE0000075",
+      "contrato": "7/2020",
+      "valor": 501859.62,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2024",
+      "descricao": "contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do cetam. Parecer juridico - 2023 -PJ/CETAM pag. 28 a 33. TC: 0007/2020 AD: 04."
+    },
+    {
+      "numero": "2021NE0001017",
+      "contrato": "",
+      "valor": 1469.54,
+      "situacao": "Ativo",
+      "data_emissao": "20/09/2021",
+      "descricao": "Anulação do saldo de empenho"
+    },
+    {
+      "numero": "2021NE0001016",
+      "contrato": "",
+      "valor": 682.68,
+      "situacao": "Ativo",
+      "data_emissao": "20/09/2021",
+      "descricao": "Anulação do saldo do empenho"
+    },
+    {
+      "numero": "2025NE0000561",
+      "contrato": "7/2020",
+      "valor": 938061.2,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 09."
+    },
+    {
+      "numero": "2022NE0003505",
+      "contrato": "6/2020",
+      "valor": 15916.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2022",
+      "descricao": "Contratação dos serviços de fornecimento de circuito de transmissão de dados e conexão á rede metropolitana de Manaus Repam/Metromao, atendendo as necessidades deste órgão de Educação Profissional."
+    },
+    {
+      "numero": "2022NE0003505",
+      "contrato": "",
+      "valor": 15916.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2022",
+      "descricao": "Contratação dos serviços de fornecimento de circuito de transmissão de dados e conexão á rede metropolitana de Manaus Repam/Metromao, atendendo as necessidades deste órgão de Educação Profissional."
+    },
+    {
+      "numero": "2022NE0003502",
+      "contrato": "",
+      "valor": 29.82,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2022",
+      "descricao": "Cancelamento da NE 745/2022 pelo encerramento do exercício"
+    },
+    {
+      "numero": "2021NE0001630",
+      "contrato": "6/2020",
+      "valor": 427924.96,
+      "situacao": "Ativo",
+      "data_emissao": "19/11/2021",
+      "descricao": "Contratação dos serviços de interligação da rede de computadores das unidades do CETAM mediante fornecimento de circuito de transmissão de dados a rede metropolitana de Manaus (metromao) com provimento de internet."
+    },
+    {
+      "numero": "2019NE01890",
+      "contrato": "",
+      "valor": 31000.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2019",
+      "descricao": "Reforço da NE 1520/2019"
+    },
+    {
+      "numero": "2017NE01505",
+      "contrato": "4/2017",
+      "valor": 17589.04,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2017",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2021NE0000182",
+      "contrato": "8/2016",
+      "valor": 127154.19,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Contratação dos serviços de circuito de transmissão de dados e acesso gerenciado a Rede Mundial _ internet."
+    },
+    {
+      "numero": "2021NE0000184",
+      "contrato": "9/2016",
+      "valor": 24870.8,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Contratação dos serviços de execução dos sistemas SPROWEB, Prodam Rh e Licenca do uso do gestor de conteudo web."
+    },
+    {
+      "numero": "2021NE0000186",
+      "contrato": "6/2020",
+      "valor": 1030855.16,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Contratação dos serviços de interligação da rede de computadores das unidades do CETAM mediante fornecimento de circuito de transmissão de dados a rede metropolitana de Manaus (metromao) com provimento de internet."
+    },
+    {
+      "numero": "2021NE0000185",
+      "contrato": "4/2017",
+      "valor": 48948.16,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do Cetam."
+    },
+    {
+      "numero": "2017NE02029",
+      "contrato": "",
+      "valor": 10625.96,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação do saldo da NE, devido encerramento do exercício de 2017."
+    },
+    {
+      "numero": "2017NE02028",
+      "contrato": "",
+      "valor": 7662.48,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação do saldo da NE"
+    },
+    {
+      "numero": "2017NE02027",
+      "contrato": "",
+      "valor": 5129.37,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação do saldo da NE"
+    },
+    {
+      "numero": "2017NE02030",
+      "contrato": "",
+      "valor": 2150.04,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação do saldo da NE, devido encerramento do exercício de 2017."
+    },
+    {
+      "numero": "2017NE02031",
+      "contrato": "",
+      "valor": 7597.67,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação do saldo da NE, devido encerramento do exercício de 2017."
+    },
+    {
+      "numero": "2017NE01988",
+      "contrato": "",
+      "valor": 813.3,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação do saldo de empenho"
+    },
+    {
+      "numero": "2017NE02026",
+      "contrato": "",
+      "valor": 522.88,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "Anulação do saldo da NE"
+    },
+    {
+      "numero": "2015NE03060",
+      "contrato": "",
+      "valor": 877.18,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2015",
+      "descricao": "Anulação do saldo da NE nº 36"
+    },
+    {
+      "numero": "2015NE03063",
+      "contrato": "",
+      "valor": 5999.64,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2015",
+      "descricao": "Anulação do saldo do empenho"
+    },
+    {
+      "numero": "2015NE03089",
+      "contrato": "",
+      "valor": 7914.48,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2015",
+      "descricao": "Anulação total do saldo da NE"
+    },
+    {
+      "numero": "2021NE0001597",
+      "contrato": "15/2021",
+      "valor": 12223.57,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2021",
+      "descricao": "Contratação da prestação de serviço de TIC."
+    },
+    {
+      "numero": "2019NE02298",
+      "contrato": "8/2016",
+      "valor": 127155.24,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2019",
+      "descricao": "Contratação dos serviços de circuito de transmissão de dados e acesso gerenciado a Rede Mundial _ internet."
+    },
+    {
+      "numero": "2017NE01480",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2017",
+      "descricao": "Contratação dos serviços de tecnologia de informação para execução dos sistemas SPROWEb e PRODAMRH, e do site institucional parametrizável para atender demanda do CETAM."
+    },
+    {
+      "numero": "2024NE0000396",
+      "contrato": "7/2020",
+      "valor": 1003719.24,
+      "situacao": "Ativo",
+      "data_emissao": "18/04/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2023NE0000016",
+      "contrato": "15/2021",
+      "valor": 26547.12,
+      "situacao": "Ativo",
+      "data_emissao": "18/01/2023",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM."
+    },
+    {
+      "numero": "2024NE0002059",
+      "contrato": "",
+      "valor": 0.58,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2024",
+      "descricao": "Anulação do saldo da Nota de Empenho 1724/2024 pelo encerramento do exercício"
+    },
+    {
+      "numero": "2023NE0001487",
+      "contrato": "15/2021",
+      "valor": 5169.63,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2023",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 03."
+    },
+    {
+      "numero": "2015NE01312",
+      "contrato": "6/2015",
+      "valor": 19376.65,
+      "situacao": "Ativo",
+      "data_emissao": "16/07/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2023NE0000135",
+      "contrato": "7/2020",
+      "valor": 1003719.24,
+      "situacao": "Ativo",
+      "data_emissao": "16/02/2023",
+      "descricao": "contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do cetam."
+    },
+    {
+      "numero": "2023NE0000014",
+      "contrato": "6/2020",
+      "valor": 1781216.08,
+      "situacao": "Ativo",
+      "data_emissao": "16/01/2023",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO), COM PROVIMENTO DE ACESSO A INTERNET"
+    },
+    {
+      "numero": "2020NE00434",
+      "contrato": "",
+      "valor": 656.56,
+      "situacao": "Ativo",
+      "data_emissao": "15/04/2020",
+      "descricao": "Anulação para novo empenho"
+    },
+    {
+      "numero": "2017NE01937",
+      "contrato": "",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2017",
+      "descricao": "Contratação dos serviços de tecnologia de informação para execução dos sistemas SPROWEb e PRODAMRH, e do site institucional parametrizável para atender demanda do CETAM."
+    },
+    {
+      "numero": "2016NE02194",
+      "contrato": "",
+      "valor": 2462.46,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2016",
+      "descricao": "Anulação total do saldo do Empenho, encerramento do exercício."
+    },
+    {
+      "numero": "2016NE02195",
+      "contrato": "",
+      "valor": 2216.58,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2016",
+      "descricao": "Anulação total do saldo do Empenho, encerramento do exercício."
+    },
+    {
+      "numero": "2019NE01520",
+      "contrato": "6/2019",
+      "valor": 50321.7,
+      "situacao": "Ativo",
+      "data_emissao": "13/08/2019",
+      "descricao": "Contratação de empresa especializada para implantação de Sistemas de Informação, compreendendo análise e desenvolvimento de funcionalidades em sistema: Inscrição do Processo Seletivo e Matrícula."
+    },
+    {
+      "numero": "2021NE0001507",
+      "contrato": "7/2020",
+      "valor": 483533.69,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2021",
+      "descricao": "Contratação dos serviços de administração e suporte tecnico em banco de dados e sistemas, desenovlimento de sistemas de informação e modelagem de processos de negocio, sob demanda."
+    },
+    {
+      "numero": "2014NE00084",
+      "contrato": "1/2011",
+      "valor": 840.27,
+      "situacao": "Ativo",
+      "data_emissao": "12/02/2014",
+      "descricao": "Contrato No. 1/2011 - Acesso Computador Central / Link ponto a ponto 3 Mbps"
+    },
+    {
+      "numero": "2017NE01902",
+      "contrato": "",
+      "valor": 8794.52,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2017",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2017NE01906",
+      "contrato": "",
+      "valor": 35565.1,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2017",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores - internet capital."
+    },
+    {
+      "numero": "2022NE0000808",
+      "contrato": "7/2020",
+      "valor": 1934134.76,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2022",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE ADMINISTRAÇÃO E SUPORTE TÉCNICO EM BANCO DE DADOS E SISTEMAS, DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO E MODELAGEM DE PROCESSOS DE NEGOCIO, SOB DEMANDA."
+    },
+    {
+      "numero": "2022NE0000809",
+      "contrato": "6/2020",
+      "valor": 1711699.84,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2022",
+      "descricao": "Contratação dos serviços de interligação das redes de computadores das unidades do cetam mediante fornecimento de circuito de transmissao de dados e conexao a rede metropolitana de Manaus (metromao)."
+    },
+    {
+      "numero": "2025NE0000138",
+      "contrato": "7/2020",
+      "valor": 431973.43,
+      "situacao": "Ativo",
+      "data_emissao": "11/02/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 08."
+    },
+    {
+      "numero": "2019NE02185",
+      "contrato": "4/2017",
+      "valor": 28366.2,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2019",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2019NE02186",
+      "contrato": "6/2019",
+      "valor": 75482.55,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2019",
+      "descricao": "Contratação de empresa especializada para implantação de sistemas de informação, compreendendo análise e desenvolvimento de funcionalidades em sistema: Inscrição de Processo Seletivo e Matrícula."
+    },
+    {
+      "numero": "2022NE0002967",
+      "contrato": "15/2021",
+      "valor": 6636.78,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2022",
+      "descricao": "Contratação dos serviços de Tecnologia da Informação e Comunicação de Dados - TIC, compreendendo a execução dos sistemas SPROWEB e PRODAMRH e licença de uso do Gestor de Conteúdo Web."
+    },
+    {
+      "numero": "2017NE00224",
+      "contrato": "4/2017",
+      "valor": 23846.46,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2017",
+      "descricao": "Serviço de Informática"
+    },
+    {
+      "numero": "2021NE0000920",
+      "contrato": "9/2016",
+      "valor": 5803.19,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2021",
+      "descricao": "Contratação dos serviços de execução dos sistemas SPROWEB, Prodam Rh e Licenca do uso do gestor de conteudo web."
+    },
+    {
+      "numero": "2019NE01143",
+      "contrato": "8/2016",
+      "valor": 118119.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2019",
+      "descricao": "Contratação dos serviços para acesso a internet"
+    },
+    {
+      "numero": "2019NE01150",
+      "contrato": "4/2017",
+      "valor": 28366.2,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2019",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2019NE01144",
+      "contrato": "9/2016",
+      "valor": 17098.47,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2019",
+      "descricao": "Contratação dos serviços de execução dos sistemas sproweb, prodam e licença do uso de gestor conteúdo web."
+    },
+    {
+      "numero": "2018NE00187",
+      "contrato": "4/2017",
+      "valor": 87945.2,
+      "situacao": "Ativo",
+      "data_emissao": "08/03/2018",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2024NE0001772",
+      "contrato": "10/2024",
+      "valor": 185549.44,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2024",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2016NE01738",
+      "contrato": "",
+      "valor": 26169.38,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Anulação total"
+    },
+    {
+      "numero": "2016NE01743",
+      "contrato": "",
+      "valor": 3373.79,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 16"
+    },
+    {
+      "numero": "2016NE01745",
+      "contrato": "",
+      "valor": 3070.87,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 713"
+    },
+    {
+      "numero": "2016NE01739",
+      "contrato": "",
+      "valor": 26.76,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 37"
+    },
+    {
+      "numero": "2016NE01743",
+      "contrato": "",
+      "valor": 3373.79,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 16"
+    },
+    {
+      "numero": "2016NE01746",
+      "contrato": "",
+      "valor": 3011.02,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 1213"
+    },
+    {
+      "numero": "2016NE01741",
+      "contrato": "",
+      "valor": 5772.41,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 40"
+    },
+    {
+      "numero": "2016NE01738",
+      "contrato": "",
+      "valor": 26169.38,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Anulação total"
+    },
+    {
+      "numero": "2016NE01739",
+      "contrato": "",
+      "valor": 26.76,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 37"
+    },
+    {
+      "numero": "2016NE01745",
+      "contrato": "",
+      "valor": 3070.87,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 713"
+    },
+    {
+      "numero": "2016NE01711",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Serviço de Tecnologia e Informação"
+    },
+    {
+      "numero": "2016NE01742",
+      "contrato": "",
+      "valor": 600.36,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 1211"
+    },
+    {
+      "numero": "2016NE01711",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Serviço de Tecnologia e Informação"
+    },
+    {
+      "numero": "2016NE01746",
+      "contrato": "",
+      "valor": 3011.02,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 1213"
+    },
+    {
+      "numero": "2016NE01741",
+      "contrato": "",
+      "valor": 5772.41,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 40"
+    },
+    {
+      "numero": "2016NE01751",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE01686",
+      "contrato": "8/2016",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. serviço de transmissão de dados"
+    },
+    {
+      "numero": "2016NE01686",
+      "contrato": "8/2016",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. serviço de transmissão de dados"
+    },
+    {
+      "numero": "2016NE01751",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE01749",
+      "contrato": "",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação da NE nº 1711"
+    },
+    {
+      "numero": "2016NE01749",
+      "contrato": "",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação da NE nº 1711"
+    },
+    {
+      "numero": "2016NE01742",
+      "contrato": "",
+      "valor": 600.36,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2016",
+      "descricao": "Ref. anulação do saldo da NE nº 1211"
+    },
+    {
+      "numero": "2020NE00651",
+      "contrato": "8/2016",
+      "valor": 169538.92,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2020",
+      "descricao": "Contratação dos serviços de circuito de transmissão de dados e acesso gerenciado a Rede Mundial _ internet."
+    },
+    {
+      "numero": "2024NE0000668",
+      "contrato": "6/2020",
+      "valor": 167410.0,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2024",
+      "descricao": "Referente a contratação dos serviços de interligação das redes de computadores das unidades do CETAM, mediante fornecimento de circuito de transmissão de dados e conexão a rede metropolitana de Manaus (Metromao) com provimento de internet, no período de dezembro de 2023.Contrato n° 006/2020-CETAM Parecer Jurídico n° 048/2024-PJ/CETAM"
+    },
+    {
+      "numero": "2024NE0000667",
+      "contrato": "6/2020",
+      "valor": 138001.45,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2024",
+      "descricao": "Referente a contratação dos serviços de interligação das redes de computadores das unidades do CETAM, mediante fornecimento de circuito de transmissão de dados e conexão a rede metropolitana de Manaus (Metromao) com provimento de internet, no período de dezembro de 2023.Contrato n° 006/2020-CETAM Parecer Jurídico n° 048/2024-PJ/CETAM"
+    },
+    {
+      "numero": "2014NE00727",
+      "contrato": "1/2012",
+      "valor": 14396.48,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2014",
+      "descricao": "Contrato No. 1/2012 - CFPP - Cadastro e Folha de Pagamento de Pessoal"
+    },
+    {
+      "numero": "2025NE0000185",
+      "contrato": "10/2024",
+      "valor": 371098.88,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2025NE0000187",
+      "contrato": "7/2020",
+      "valor": 863946.86,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 08."
+    },
+    {
+      "numero": "2025NE0000186",
+      "contrato": "6/2020",
+      "valor": 699789.98,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000184",
+      "contrato": "15/2021",
+      "valor": 10779.72,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000114",
+      "contrato": "6/2020",
+      "valor": 669470.2,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000115",
+      "contrato": "15/2021",
+      "valor": 10339.26,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2024",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 03."
+    },
+    {
+      "numero": "2022NE0003402",
+      "contrato": "",
+      "valor": 15916.44,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2022",
+      "descricao": "Anulação do saldo da NE 808/2022"
+    },
+    {
+      "numero": "2017NE01673",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "05/10/2017",
+      "descricao": "Contratação dos serviços de tecnologia de informação para execução dos sistemas SPROWEb e PRODAMRH, e do site institucional parametrizável para atender demanda do CETAM."
+    },
+    {
+      "numero": "2025NE0000437",
+      "contrato": "6/2020",
+      "valor": 699789.98,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000438",
+      "contrato": "15/2021",
+      "valor": 10779.72,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2025",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000436",
+      "contrato": "10/2024",
+      "valor": 371098.88,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2025",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2022NE0000745",
+      "contrato": "15/2021",
+      "valor": 24447.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2022",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM."
+    },
+    {
+      "numero": "2017NE00747",
+      "contrato": "",
+      "valor": 7772.75,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2017",
+      "descricao": "Anulação total"
+    },
+    {
+      "numero": "2016NE00713",
+      "contrato": "1/2012",
+      "valor": 3741.64,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2019NE00339",
+      "contrato": "9/2016",
+      "valor": 17098.47,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2019",
+      "descricao": "Contratação de serviços de execução dos sistemas sproweb, prodam - rh e licença do uso de gestor de conteúdo web."
+    },
+    {
+      "numero": "2019NE00340",
+      "contrato": "8/2016",
+      "valor": 118119.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2019",
+      "descricao": "Contratação dos serviços de acesso a internet."
+    },
+    {
+      "numero": "2021NE0000100",
+      "contrato": "4/2017",
+      "valor": 24474.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2021",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2026NE0000008",
+      "contrato": "15/2021",
+      "valor": 22197.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 05."
+    },
+    {
+      "numero": "2026NE0000006",
+      "contrato": "7/2020",
+      "valor": 1929029.06,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 10."
+    },
+    {
+      "numero": "2026NE0000005",
+      "contrato": "6/2020",
+      "valor": 1439048.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). TC: 0006/2020 AD: 06."
+    },
+    {
+      "numero": "2015NE00042",
+      "contrato": "1/2015",
+      "valor": 5967.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00035",
+      "contrato": "1/2012",
+      "valor": 5398.68,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2024NE0001724",
+      "contrato": "6/2020",
+      "valor": 349894.99,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0001725",
+      "contrato": "15/2021",
+      "valor": 5389.86,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2024",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0001723",
+      "contrato": "7/2020",
+      "valor": 431973.43,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 07."
+    },
+    {
+      "numero": "2021NE0001352",
+      "contrato": "7/2020",
+      "valor": 953323.65,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2021",
+      "descricao": "Despesa com contratação de serviços continuados de administração e suporte técnico em banco de dados e sistemas, desenvolvimento de sistemas de informação e modelagem de processos de negócios. Contrato 007/2020 - CETAM com a PRODAM S.A."
+    },
+    {
+      "numero": "2015NE00225",
+      "contrato": "1/2015",
+      "valor": 14966.56,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2019NE00330",
+      "contrato": "4/2017",
+      "valor": 28366.2,
+      "situacao": "Ativo",
+      "data_emissao": "04/04/2019",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2022NE0000040",
+      "contrato": "7/2020",
+      "valor": 1934134.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2022",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE ADMINISTRAÇÃO E SUPORTE TÉCNICO EM BANCO DE DADOS E SISTEMAS, DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO E MODELAGEM DE PROCESSOS DE NEGOCIO, SOB DEMANDA."
+    },
+    {
+      "numero": "2021NE0000017",
+      "contrato": "8/2016",
+      "valor": 169538.92,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação dos serviços de circuito de transmissão de dados e acesso gerenciado a Rede Mundial _ internet."
+    },
+    {
+      "numero": "2021NE0000018",
+      "contrato": "9/2016",
+      "valor": 24870.8,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação dos serviços de execução dos sistemas SPROWEB, Prodam Rh e Licenca do uso do gestor de conteudo web."
+    },
+    {
+      "numero": "2021NE0000032",
+      "contrato": "7/2020",
+      "valor": 1271098.2,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação dos serviços de administração e suporte tecnico em banco de dados e sistemas, desenovlimento de sistemas de informação e modelagem de processos de negocio, sob demanda."
+    },
+    {
+      "numero": "2021NE0000022",
+      "contrato": "4/2017",
+      "valor": 19660.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2016NE00037",
+      "contrato": "1/2015",
+      "valor": 13138.14,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE00040",
+      "contrato": "6/2015",
+      "valor": 12611.22,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE00016",
+      "contrato": "1/2012",
+      "valor": 7483.28,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Ref. contratação de serviço de processamento de dados"
+    },
+    {
+      "numero": "2021NE0001351",
+      "contrato": "",
+      "valor": 26968.31,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2021",
+      "descricao": "Anulação do saldo de empenho"
+    },
+    {
+      "numero": "2020NE00650",
+      "contrato": "",
+      "valor": 50321.7,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2020",
+      "descricao": "Anulação parcial"
+    },
+    {
+      "numero": "2020NE00181",
+      "contrato": "4/2017",
+      "valor": 98303.8,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2020",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2022NE0000023",
+      "contrato": "6/2020",
+      "valor": 1711699.84,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação dos serviços de interligação das redes de computadores das unidades do cetam mediante fornecimento de circuito de transmissao de dados e conexao a rede metropolitana de Manaus (metromao)."
+    },
+    {
+      "numero": "2022NE0000006",
+      "contrato": "15/2021",
+      "valor": 24447.12,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM."
+    },
+    {
+      "numero": "2019NE00035",
+      "contrato": "8/2016",
+      "valor": 118119.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2019",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores"
+    },
+    {
+      "numero": "2024NE0001550",
+      "contrato": "6/2020",
+      "valor": 334735.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0001549",
+      "contrato": "15/2021",
+      "valor": 5169.63,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2024",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0001220",
+      "contrato": "6/2020",
+      "valor": 334735.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0001219",
+      "contrato": "15/2021",
+      "valor": 5169.63,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2024",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 03."
+    },
+    {
+      "numero": "2021NE0000897",
+      "contrato": "4/2017",
+      "valor": 48948.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2021",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do Cetam."
+    },
+    {
+      "numero": "2019NE01461",
+      "contrato": "8/2016",
+      "valor": 42385.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2019",
+      "descricao": "Contratação dos serviços de circuito de transmissão de dados e acesso gerenciado a Rede Mundial _ internet."
+    },
+    {
+      "numero": "2025NE0000795",
+      "contrato": "7/2020",
+      "valor": 938061.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 09."
+    },
+    {
+      "numero": "2025NE0000793",
+      "contrato": "6/2020",
+      "valor": 699789.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000792",
+      "contrato": "10/2024",
+      "valor": 371098.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2025",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2025NE0000794",
+      "contrato": "15/2021",
+      "valor": 10779.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2025",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2023NE0000572",
+      "contrato": "15/2021",
+      "valor": 13273.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2023",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. PJ as ffls 23 a 29 PJ TC: 015/2021 AD: 01."
+    },
+    {
+      "numero": "2017NE00628",
+      "contrato": "4/2017",
+      "valor": 35178.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "Ref. serviço de infraestrutura de TI, instalação e hospedagem de servidores"
+    },
+    {
+      "numero": "2017NE00600",
+      "contrato": "8/2016",
+      "valor": 142280.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "Teleprocessamento"
+    },
+    {
+      "numero": "2017NE00598",
+      "contrato": "9/2016",
+      "valor": 20632.13,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "Serviço de Processamento de Dados"
+    },
+    {
+      "numero": "2025NE0000004",
+      "contrato": "7/2020",
+      "valor": 431973.43,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 07."
+    },
+    {
+      "numero": "2025NE0000005",
+      "contrato": "15/2021",
+      "valor": 10779.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000014",
+      "contrato": "7/2020",
+      "valor": 501859.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do cetam. Parecer juridico - 2023 -PJ/CETAM pag. 28 a 33. TC: 0007/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000015",
+      "contrato": "6/2020",
+      "valor": 669470.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000033",
+      "contrato": "",
+      "valor": 669470.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Referente a anulação da NE 015/2024 para ajuste da referência do artigo"
+    },
+    {
+      "numero": "2020NE00010",
+      "contrato": "8/2016",
+      "valor": 339080.64,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação dos serviços de circuito de transmissão de dados e acesso gerenciado a Rede Mundial _ internet."
+    },
+    {
+      "numero": "2020NE00008",
+      "contrato": "9/2016",
+      "valor": 63262.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação dos serviços de execução dos sistemas SPROWEB, Prodam Rh e Licenca do uso do gestor de conteudo web."
+    },
+    {
+      "numero": "2020NE00009",
+      "contrato": "4/2017",
+      "valor": 18910.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2020NE00027",
+      "contrato": "6/2019",
+      "valor": 75482.55,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada em tecnologia da informação para o desenvolvimento do modulo de inscrição e matricula, licenciamento de uso de sistemas integrados com os respectivos serviços de instalação, customização, parametrização."
+    },
+    {
+      "numero": "2019NE00003",
+      "contrato": "9/2016",
+      "valor": 17098.47,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços da TIC, compreendendo a execução dos sistemas SPROWEB, PRODAM E RH, e licença do uso do gestor de conteudo web"
+    },
+    {
+      "numero": "2019NE00002",
+      "contrato": "4/2017",
+      "valor": 17589.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do Cetam."
+    },
+    {
+      "numero": "2018NE00017",
+      "contrato": "4/2017",
+      "valor": 17589.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do Cetam."
+    },
+    {
+      "numero": "2018NE00029",
+      "contrato": "8/2016",
+      "valor": 284520.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores - internet capital."
+    },
+    {
+      "numero": "2018NE00027",
+      "contrato": "9/2016",
+      "valor": 46422.27,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação dos serviços de tecnologia de informação para execução dos sistemas SPROWEb e PRODAMRH, e do site institucional parametrizável para atender demanda do CETAM."
+    },
+    {
+      "numero": "2017NE00005",
+      "contrato": "8/2016",
+      "valor": 142280.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2017NE00018",
+      "contrato": "9/2016",
+      "valor": 20632.13,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2017NE00017",
+      "contrato": "",
+      "valor": 20632.13,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Anulação da NE nº 4, para acerto na modalidade"
+    },
+    {
+      "numero": "2017NE00004",
+      "contrato": "9/2016",
+      "valor": 20632.13,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Ref. seviço de processamento de dados"
+    },
+    {
+      "numero": "2014NE00048",
+      "contrato": "1/2011",
+      "valor": 19140.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 1/2011 - Acesso Computador Central / Link ponto a ponto 3 Mbps"
+    },
+    {
+      "numero": "2014NE00038",
+      "contrato": "1/2012",
+      "valor": 6812.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 1/2012 - CFPP - Cadastro e Folha de Pagamento de Pessoal"
+    },
+    {
+      "numero": "2021NE0001823",
+      "contrato": "7/2020",
+      "valor": 483533.69,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2021",
+      "descricao": "Contratação dos serviços de administração e suporte técnico em banco de dados e sistemas, desenvolvimento de sistemas de informação e modelagem de processos de negócio, sob demanda."
+    },
+    {
+      "numero": "2021NE0001818",
+      "contrato": "",
+      "valor": 483533.69,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2021",
+      "descricao": "Para correção do processo"
+    },
+    {
+      "numero": "2016NE02171",
+      "contrato": "8/2016",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Teleprocessamento"
+    },
+    {
+      "numero": "2016NE02172",
+      "contrato": "",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Anulação para correção de data"
+    },
+    {
+      "numero": "2016NE02170",
+      "contrato": "",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Anulação da NE para correção da moldalidade"
+    },
+    {
+      "numero": "2016NE02173",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Processamento de dados"
+    },
+    {
+      "numero": "2016NE02154",
+      "contrato": "8/2016",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Ref. a serviços de informática"
+    },
+    {
+      "numero": "2016NE02140",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "Re. cont. de serviço de informática"
+    },
+    {
+      "numero": "2017NE01736",
+      "contrato": "8/2016",
+      "valor": 35565.1,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores - internet capital."
+    },
+    {
+      "numero": "2017NE01735",
+      "contrato": "",
+      "valor": 35565.1,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Anulação total"
+    },
+    {
+      "numero": "2017NE01734",
+      "contrato": "4/2017",
+      "valor": 8794.52,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2017NE01732",
+      "contrato": "8/2016",
+      "valor": 35565.1,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação de empresa especializada em serviços de fornecimento de acesso a rede mundial de computadores - internet capital."
+    },
+    {
+      "numero": "2017NE01719",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação dos serviços de tecnologia de informação para execução dos sistemas SPROWEb e PRODAMRH, e do site institucional parametrizável para atender demanda do CETAM."
+    },
+    {
+      "numero": "2016NE01897",
+      "contrato": "",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE01918",
+      "contrato": "",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE01918",
+      "contrato": "8/2016",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE01909",
+      "contrato": "8/2016",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Ref. despesa com processamento de dados"
+    },
+    {
+      "numero": "2016NE01897",
+      "contrato": "9/2016",
+      "valor": 5158.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Ref. serviço de processamento de dados"
+    },
+    {
+      "numero": "2016NE01909",
+      "contrato": "",
+      "valor": 35570.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Ref. despesa com processamento de dados"
+    },
+    {
+      "numero": "2024NE0001524",
+      "contrato": "",
+      "valor": 501859.62,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2024",
+      "descricao": "Anulação parcial da Nota de Empenho 832/2024"
+    },
+    {
+      "numero": "2025NE0001022",
+      "contrato": "7/2020",
+      "valor": 469030.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2025",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 09."
+    },
+    {
+      "numero": "2025NE0001020",
+      "contrato": "6/2020",
+      "valor": 349894.99,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0001019",
+      "contrato": "10/2024",
+      "valor": 185549.44,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2025",
+      "descricao": "Contratação dos serviços de tecnologia da informação, compreendendo aos serviços de hospedagem de servidores e licença de uso de office 365, para atender as demandas do cetam."
+    },
+    {
+      "numero": "2025NE0001021",
+      "contrato": "15/2021",
+      "valor": 5389.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2025",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 04."
+    },
+    {
+      "numero": "2019NE01409",
+      "contrato": "",
+      "valor": 3418.74,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2019",
+      "descricao": "Anulação total do Saldo da NE"
+    },
+    {
+      "numero": "2019NE01407",
+      "contrato": "",
+      "valor": 872.62,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2019",
+      "descricao": "Anulação total do Saldo da NE"
+    },
+    {
+      "numero": "2019NE01408",
+      "contrato": "",
+      "valor": 328.28,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2019",
+      "descricao": "Anulação total do Saldo da NE"
+    },
+    {
+      "numero": "2019NE01405",
+      "contrato": "",
+      "valor": 6789.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2019",
+      "descricao": "Anulação total do Saldo da NE"
+    },
+    {
+      "numero": "2019NE01406",
+      "contrato": "",
+      "valor": 5630.79,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2019",
+      "descricao": "Anulação total do Saldo da NE"
+    },
+    {
+      "numero": "2024NE0000830",
+      "contrato": "15/2021",
+      "valor": 10339.26,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2024",
+      "descricao": "Contratação da prestação de serviços de TIC, compreendendo a Execução dos sistemas SPROweb, Licença de uso do Gestor de Conteúdo Web e PRODAM RH, para atender as demandas do CETAM. TC: 0015/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000832",
+      "contrato": "7/2020",
+      "valor": 1003719.24,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2024",
+      "descricao": "Contratação dos serviços de desenvolvimento de sistema de informação e modelagem de processos de negócios para atender as demandas do CETAM. TC: 0007/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000831",
+      "contrato": "6/2020",
+      "valor": 669470.2,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INTERLIGAÇÃO DAS REDES DE COMPUTADORES DAS UNIDADES DO CETAM MEDIANTE FORNECIMENTO DE CIRCUITO DE TRANSMISSAO DE DADOS E CONEXAO A REDE METROPOLITANA DE MANAUS(METROMAO). PJ as fl 29 a 35 TC: 0006/2020 AD: 04."
+    },
+    {
+      "numero": "2016NE01211",
+      "contrato": "6/2015",
+      "valor": 4203.74,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "Ref. processamento de dados"
+    },
+    {
+      "numero": "2016NE01226",
+      "contrato": "1/2015",
+      "valor": 6569.07,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "Ref. serviço de link de dados"
+    },
+    {
+      "numero": "2016NE01213",
+      "contrato": "1/2012",
+      "valor": 5612.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "Ref. processamento de dados"
+    },
+    {
+      "numero": "2015NE01192",
+      "contrato": "6/2015",
+      "valor": 19376.65,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "Anulação total"
+    },
+    {
+      "numero": "2015NE01185",
+      "contrato": "6/2015",
+      "valor": 19376.65,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "Celebração do contrato Sproweb"
+    },
+    {
+      "numero": "2015NE00035",
+      "contrato": "1/2015",
+      "valor": 17901.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00036",
+      "contrato": "1/2012",
+      "valor": 1799.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2019NE00156",
+      "contrato": "4/2017",
+      "valor": 9455.4,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2018NE00093",
+      "contrato": "8/2016",
+      "valor": 248955.7,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "contratação dos serviços de fornecimento de acesso a rede mundial de computadores - internet capital"
+    },
+    {
+      "numero": "2018NE00095",
+      "contrato": "9/2016",
+      "valor": 42385.53,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Contratação dos serviços de tecnologia da informação para execução dos sistemas de SPROWEB e PRODAMRH"
+    },
+    {
+      "numero": "2018NE00097",
+      "contrato": "8/2016",
+      "valor": 248955.7,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "contratação dos serviços de fornecimento de acesso a rede mundial de computadores - internet capital"
+    },
+    {
+      "numero": "2018NE00070",
+      "contrato": "",
+      "valor": 248955.7,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação da NE"
+    },
+    {
+      "numero": "2018NE00069",
+      "contrato": "",
+      "valor": 42385.53,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação da NE"
+    },
+    {
+      "numero": "2018NE00094",
+      "contrato": "4/2017",
+      "valor": 17589.04,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Contratação de empresa especializada em prover serviços de infraestrutura de tecnologia da informação, compreendendo os serviços de instalação e hospedagem de servidores e suporte em sistema de informação para atender demanda do cetam."
+    },
+    {
+      "numero": "2018NE00068",
+      "contrato": "",
+      "valor": 17589.04,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação da NE"
+    },
+    {
+      "numero": "2018NE00096",
+      "contrato": "",
+      "valor": 248955.7,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação total"
+    }
+  ],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 276,
+      "valor_total": 62549005.64,
+      "por_ano": {
+        "2023": {
+          "qtd": 15,
+          "valor": 9111987.940000001
+        },
+        "2015": {
+          "qtd": 12,
+          "valor": 122810.56
+        },
+        "2022": {
+          "qtd": 15,
+          "valor": 7728598.58
+        },
+        "2020": {
+          "qtd": 16,
+          "valor": 2160024.96
+        },
+        "2018": {
+          "qtd": 15,
+          "valor": 2024725.25
+        },
+        "2025": {
+          "qtd": 31,
+          "valor": 12108702.52
+        },
+        "2024": {
+          "qtd": 41,
+          "valor": 14937685.299999995
+        },
+        "2019": {
+          "qtd": 27,
+          "valor": 926726.76
+        },
+        "2016": {
+          "qtd": 46,
+          "valor": 591711.79
+        },
+        "2021": {
+          "qtd": 23,
+          "valor": 8666979.420000002
+        },
+        "2017": {
+          "qtd": 28,
+          "valor": 737588.3099999999
+        },
+        "2014": {
+          "qtd": 4,
+          "valor": 41189.47
+        },
+        "2026": {
+          "qtd": 3,
+          "valor": 3390274.7800000003
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

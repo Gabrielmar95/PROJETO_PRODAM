@@ -1,0 +1,25 @@
+{
+  "filename": "REQUERIMENTO__c7f252536f.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\REQUERIMENTO__c7f252536f.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 499443,
+  "texto_length": 1138,
+  "texto_preview": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 168.318,10 (CENTO E SESSENTA E OITO MIL, TREZENTOS E DEZOITO REAIS E DEZ\nCENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nmar/2021\n0,00\n0,00\n49.053,48\n2.581,76\n25049\n17/2015\n51.635,24\nExecução de sistemas",
+  "texto_completo": "Ao Senhor\nDavid Fernandes dos Santos\nDiretor-Presidente do Departamento Estadual de Trânsito - DETRAN-AM\nNível de Classificação\nÓrgão Público\nGrupo de acesso\nÓRGÃOS DO GOVERNO\n                       A PRODAM - Processamento de Dados Amazonas S.A., inscrita no CNPJ sob o número\n04.407.920/0001-80, localizada na rua Jonathas Pedrosa nº 1937, bairro Praça 14 de Janeiro, na cidade de\nManaus, solicita a(o) V.Sa. o pagamento da(s) nota(s) fiscal(is) referente ao(s) serviço(s) abaixo descriminado(s)\nno valor total de R$ 168.318,10 (CENTO E SESSENTA E OITO MIL, TREZENTOS E DEZOITO REAIS E DEZ\nCENTAVOS e recibo em anexo:\nDesconto\nContrato\nIRRF\nISSRF\nServiçoo / Sistema\nValor Líquido\nMes / Ano\nValor Bruto\nNFS-e/\nRecibo\nmar/2021\n0,00\n0,00\n49.053,48\n2.581,76\n25049\n17/2015\n51.635,24\nExecução de sistemas - Acesso via Web\nmar/2021\n0,00\n0,00\n10.258,82\n539,94\n25050\n17/2015\n10.798,76\nHospedagem de Servidores\nmar/2021\n0,00\n0,00\n100.589,89\n5.294,21\n25053\n17/2015\n105.884,10\nExecução de sistemas - Transações com a Base -\nDENATRAN\nTotais\n168.318,10\n0,00\n8.415,91\n159.902,19\n0,00\nNestes Termos\nP. Deferimento\n José Maria Pinto\n Gerente Financeiro\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80"
+    ],
+    "valores_brl": [
+      "168.318,10"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

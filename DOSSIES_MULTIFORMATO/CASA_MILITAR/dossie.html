@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê CASA MILITAR — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — CASA MILITAR</h1>
+<p><b></b> | GOV_DIRETA | CNPJ: — | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">CLASSIFICAR</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 0,00</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 0,00</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">28</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">0%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2015NE00077</td><td></td><td>17/04/2015</td><td>R$ 21.437,58</td><td>Ativo</td></tr>
+<tr><td>2015NE00232</td><td></td><td>14/12/2015</td><td>R$ 21.437,58</td><td>Ativo</td></tr>
+<tr><td>2026NE0000007</td><td>3/2025</td><td>05/01/2026</td><td>R$ 11.136,96</td><td>Ativo</td></tr>
+<tr><td>2025NE0000490</td><td>3/2025</td><td>03/09/2025</td><td>R$ 11.136,96</td><td>Ativo</td></tr>
+<tr><td>2025NE00490</td><td>3/2025</td><td>03/09/2025</td><td>R$ 11.136,96</td><td>Ativo</td></tr>
+<tr><td>2025NE0000061</td><td>6/2020</td><td>27/02/2025</td><td>R$ 10.204,74</td><td>Ativo</td></tr>
+<tr><td>2022NE0000095</td><td>6/2020</td><td>31/03/2022</td><td>R$ 6.803,16</td><td>Ativo</td></tr>
+<tr><td>2020NE00568</td><td></td><td>18/09/2020</td><td>R$ 6.803,16</td><td>Ativo</td></tr>
+<tr><td>2020NE00553</td><td></td><td>17/09/2020</td><td>R$ 6.803,16</td><td>Ativo</td></tr>
+<tr><td>2020NE00447</td><td>6/2020</td><td>17/08/2020</td><td>R$ 6.803,16</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr></table>
+
+<h2>Observações</h2>
+<div class="card"><p>—</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2015", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[2, 3, 2, 7, 5, 4, 4, 1],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[42875.16, 20409.48, 7457.76, 25450.66, 20409.48, 17007.9, 35880.24, 11136.96],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

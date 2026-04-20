@@ -1,0 +1,2009 @@
+{
+  "sigla": "FUNTEA",
+  "profile": {
+    "nome_completo": "Fundação de Tecnologia do Amazonas",
+    "sigla": "FUNTEA",
+    "natureza": "Fundação",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "34186.18707715725",
+    "val_orig": "23998.67000000001",
+    "val_atualizado": "34186.18707715725",
+    "faturas_total": 11,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 11,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Análise pendente",
+    "observacoes": "Documentação fraca",
+    "reconhecimento_revisado": {
+      "total_evidencias": 0,
+      "classificacao": "NÃO CONFIRMADO",
+      "por_tipo": {},
+      "data_revisao": "2026-03-23"
+    },
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "84.664.796/0001-77",
+    "evidencias_reconhecimento": 0,
+    "evidencias_por_tipo": {},
+    "classificacao_reconhecimento": "NÃO CONFIRMADO",
+    "tipo": "GOV",
+    "score_composto": 0.3236,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.3,
+    "ev_valor_esperado": "10255.86",
+    "ev_honorarios": "2051.17",
+    "esforco_estimado": 6,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 36,
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2027-01-01",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "FUNTEA",
+    "fonte_spcf": null,
+    "data_spcf": null,
+    "spcf_nota": "Nao encontrado no SPCF Mar/2026",
+    "val_servicos_spcf_mar2026": "37092.32",
+    "val_liquido_spcf_mar2026": "36302.38",
+    "num_faturas_spcf_mar2026": 17,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 51.27,
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "NORMAL",
+    "d_plus_prescricao": 267,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE00453",
+      "contrato": "",
+      "valor": 292.77,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO DE SALDO DE EMPENHO DE Nº0011/2020, ATENDENTO AO DECRETO GOVERNAMENTAL, TERMINO DE EXERCICIO."
+    },
+    {
+      "numero": "2016NE00301",
+      "contrato": "9/2011",
+      "valor": 5200.3,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2016",
+      "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 009/2011"
+    },
+    {
+      "numero": "2016NE00306",
+      "contrato": "8/2012",
+      "valor": 13605.76,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2016",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº008/2012."
+    },
+    {
+      "numero": "2018NE00502",
+      "contrato": "9/2017",
+      "valor": 117.12,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2018",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2018NE00503",
+      "contrato": "7/2016",
+      "valor": 1302.98,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2018",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2016NE00411",
+      "contrato": "6/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "Contrato nº 0006/2016 referente ao serviço de Acesso à Internet."
+    },
+    {
+      "numero": "2016NE00409",
+      "contrato": "6/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "PRESTAÇAO DE SERVS DE ACESSO A REDE DE GOVERNO."
+    },
+    {
+      "numero": "2016NE00410",
+      "contrato": "",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "ANULAÇÃO TOTAL DA N.E. DE Nº00409/2016, PELO MOTIVO DA MODALIDADE ESTA INCORRETA."
+    },
+    {
+      "numero": "2025NE0000615",
+      "contrato": "1/2023",
+      "valor": 186.13,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000614",
+      "contrato": "1/2022",
+      "valor": 2338.25,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2025",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000613",
+      "contrato": "6/2022",
+      "valor": 4178.4,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0000522",
+      "contrato": "1/2023",
+      "valor": 178.06,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000520",
+      "contrato": "6/2022",
+      "valor": 3921.89,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000521",
+      "contrato": "1/2022",
+      "valor": 2236.92,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2022NE0000459",
+      "contrato": "9/2017",
+      "valor": 347.12,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2022",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste de 31,12% no valor mensal, conforme DIRAF 264 de 15/09/2021."
+    },
+    {
+      "numero": "2019NE00316",
+      "contrato": "",
+      "valor": 2605.96,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2019",
+      "descricao": "Reforço da NE nº 162/2019."
+    },
+    {
+      "numero": "2025NE0000770",
+      "contrato": "",
+      "valor": 8000.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2025",
+      "descricao": "ANULAÇÃO DO SALDO PARCIAL DO EMPENHO Nº19, MOTIVO - NÃO EFETIVAÇÃO DA DESPESA"
+    },
+    {
+      "numero": "2022NE0000614",
+      "contrato": "",
+      "valor": 178.06,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 563/2022. Encerramento da execução orçamentária e financeira do exercício de 2022. Conforme decreto nº 46.621 publicado no Diário Oficial do Estado de 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000613",
+      "contrato": "",
+      "valor": 173.56,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 533/2022. Encerramento da execução orçamentária e financeira do exercício de 2022. Conforme decreto nº 46.621 publicado no Diário Oficial do Estado de 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000610",
+      "contrato": "",
+      "valor": 819.92,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 227/2022. Encerramento da execução orçamentária e financeira do exercício de 2022. Conforme decreto nº 46.621 publicado no Diário Oficial do Estado de 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000612",
+      "contrato": "",
+      "valor": 370.3,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 531/2022. Encerramento da execução orçamentária e financeira do exercício de 2022. Conforme decreto nº 46.621 publicado no Diário Oficial do Estado de 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000611",
+      "contrato": "",
+      "valor": 11.72,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 459/2022. Encerramento da execução orçamentária e financeira do exercício de 2022. Conforme decreto nº 46.621 publicado no Diário Oficial do Estado de 11/11/2022."
+    },
+    {
+      "numero": "2022NE0000563",
+      "contrato": "",
+      "valor": 178.06,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "Prestação dos serviços de rede, com disponibilização de 1 (um) acesso ao VPN (Virtual Private Network) utilizado pela FUNTEC com reajuste de 34,51% no valor mensal, conforme Cláusula Décima Primeira do contrato primitivo."
+    },
+    {
+      "numero": "2021NE0000488",
+      "contrato": "9/2017",
+      "valor": 173.56,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2021",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste de 31,12% no valor mensal, conforme DIRAF 264 de 15/09/2021."
+    },
+    {
+      "numero": "2019NE00529",
+      "contrato": "6/2016",
+      "valor": 3702.95,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2019",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados, conforme 3º aditivo ao contrato nº 006/2016."
+    },
+    {
+      "numero": "2019NE00531",
+      "contrato": "7/2016",
+      "valor": 1302.98,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2019",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, conforme 3º Aditivo ao Contrato nº 007/2016."
+    },
+    {
+      "numero": "2019NE00530",
+      "contrato": "9/2017",
+      "valor": 117.12,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2019",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC, conforme 2º Aditivo ao Contrato nº 009/2017."
+    },
+    {
+      "numero": "2024NE0000509",
+      "contrato": "",
+      "valor": 1000.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 06. MOTIVO: NÃO EFETIVAÇÃO DA DESPESA"
+    },
+    {
+      "numero": "2024NE0000407",
+      "contrato": "1/2022",
+      "valor": 2236.92,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2024",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000408",
+      "contrato": "1/2023",
+      "valor": 178.06,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2024",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000406",
+      "contrato": "6/2022",
+      "valor": 3921.89,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2018NE00283",
+      "contrato": "2/2018",
+      "valor": 16031.76,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2018",
+      "descricao": "Prestação dos serviços de licença de uso de sistema informação, compreendendo a disponibilização de Gestor de Conteúdo web, para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2025NE0000215",
+      "contrato": "1/2023",
+      "valor": 178.06,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000192",
+      "contrato": "1/2022",
+      "valor": 4473.84,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2024",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000193",
+      "contrato": "1/2023",
+      "valor": 356.12,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2024",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000190",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000077",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "29/02/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. Com reajuste de 5,90% com base no IGPM acumulado do período, conforme DIRAF 576 de 07/12/202 TC: 0006/2022 AD: 01."
+    },
+    {
+      "numero": "2018NE00586",
+      "contrato": "",
+      "valor": 1302.98,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE00585",
+      "contrato": "",
+      "valor": 117.12,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE00584",
+      "contrato": "",
+      "valor": 3702.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE00491",
+      "contrato": "6/2016",
+      "valor": 3702.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2018",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados com aplicação do reajuste pelo índice IGPM acumulado de 8,91%."
+    },
+    {
+      "numero": "2017NE00380",
+      "contrato": "6/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2017",
+      "descricao": "Reforço da NE 0017/2017 para prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados."
+    },
+    {
+      "numero": "2020NE00227",
+      "contrato": "7/2016",
+      "valor": 10423.84,
+      "situacao": "Ativo",
+      "data_emissao": "28/07/2020",
+      "descricao": "Reforço da NE 011/2020 para Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, conforme 3º Aditivo ao Contrato nº 007/2016."
+    },
+    {
+      "numero": "2020NE00229",
+      "contrato": "6/2016",
+      "valor": 37029.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/07/2020",
+      "descricao": "Reforço da NE 0010/2020 para Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados, conforme 3º Aditivo ao Contrato nº 006/2016."
+    },
+    {
+      "numero": "2020NE00228",
+      "contrato": "9/2017",
+      "valor": 1054.08,
+      "situacao": "Ativo",
+      "data_emissao": "28/07/2020",
+      "descricao": "Reforço da NE 0137/2020 para prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC, conforme 2º Termo aditivo ao Contrato nº 009/2017."
+    },
+    {
+      "numero": "2018NE00275",
+      "contrato": "",
+      "valor": 16031.76,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2018",
+      "descricao": "Anulação total da NE 00273/18 por motivo de incorreção na natureza de despesa"
+    },
+    {
+      "numero": "2025NE0000211",
+      "contrato": "6/2022",
+      "valor": 8356.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000212",
+      "contrato": "1/2023",
+      "valor": 372.26,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000210",
+      "contrato": "1/2022",
+      "valor": 4676.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2025",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000080",
+      "contrato": "1/2023",
+      "valor": 372.26,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000079",
+      "contrato": "1/2022",
+      "valor": 4676.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2025",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2023NE0000474",
+      "contrato": "1/2023",
+      "valor": 356.12,
+      "situacao": "Ativo",
+      "data_emissao": "27/10/2023",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN."
+    },
+    {
+      "numero": "2016NE00336",
+      "contrato": "",
+      "valor": 13605.76,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2016",
+      "descricao": "Anulação do saldo da NE 00306/16."
+    },
+    {
+      "numero": "2016NE00336",
+      "contrato": "",
+      "valor": 13605.76,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2016",
+      "descricao": "Anulação do saldo da NE 00306/16."
+    },
+    {
+      "numero": "2025NE0000472",
+      "contrato": "6/2022",
+      "valor": 4178.4,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000473",
+      "contrato": "1/2022",
+      "valor": 2338.25,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2025",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000474",
+      "contrato": "1/2023",
+      "valor": 186.13,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2018NE00273",
+      "contrato": "2/2018",
+      "valor": 16031.76,
+      "situacao": "Ativo",
+      "data_emissao": "27/06/2018",
+      "descricao": "Prestação dos serviços de licença de uso de sistema informação, compreendendo a disponibilização de Gestor de Conteúdo web, para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2017NE00215",
+      "contrato": "7/2016",
+      "valor": 5982.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/06/2017",
+      "descricao": "Reforço da NE 0025/2017 referente ao Termo de Contrato nº 007/2016"
+    },
+    {
+      "numero": "2017NE00218",
+      "contrato": "8/2012",
+      "valor": 271.86,
+      "situacao": "Ativo",
+      "data_emissao": "27/06/2017",
+      "descricao": "Reforço da NE 0026/2017 referente ao 4º Termo Aditivo ao Contrato nº 008/12."
+    },
+    {
+      "numero": "2017NE00123",
+      "contrato": "",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2017",
+      "descricao": "ANULAÇÃO PARCIAL DO SALDO DA NE 0017/17."
+    },
+    {
+      "numero": "2024NE0000643",
+      "contrato": "",
+      "valor": 582.25,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2024",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 06. MOTIVO: NÃO EFETIVAÇÃO DA DESPESA"
+    },
+    {
+      "numero": "2019NE00522",
+      "contrato": "",
+      "valor": 201.08,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2019",
+      "descricao": "Anulação total do saldo da NE 00162/2019 para encerramento do exercício."
+    },
+    {
+      "numero": "2024NE0000452",
+      "contrato": "1/2023",
+      "valor": 178.06,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000450",
+      "contrato": "6/2022",
+      "valor": 3921.89,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000451",
+      "contrato": "1/2022",
+      "valor": 2236.92,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000326",
+      "contrato": "1/2023",
+      "valor": 372.26,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000324",
+      "contrato": "",
+      "valor": 4676.5,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2025",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000325",
+      "contrato": "6/2022",
+      "valor": 8356.8,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2020NE00392",
+      "contrato": "6/2016",
+      "valor": 3703.41,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "REF. AO QUARTO TERMO ADITIVO AO CONTRATO Nº0006/2016"
+    },
+    {
+      "numero": "2020NE00389",
+      "contrato": "",
+      "valor": 1472.63,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA N.E. DE Nº367/2020, PELO MOTIVO DO MES DE NOVEMBRO ESTA COBERTO."
+    },
+    {
+      "numero": "2020NE00391",
+      "contrato": "",
+      "valor": 132.37,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA N.E. DE Nº00390/2020, PELO MOTIVO DO MES DE NOVEMBRO/2020, ESTA COBERTO."
+    },
+    {
+      "numero": "2020NE00390",
+      "contrato": "9/2017",
+      "valor": 264.74,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "PRODAM LICENÇA DE SOFTWARE VPN"
+    },
+    {
+      "numero": "2016NE00294",
+      "contrato": "9/2011",
+      "valor": 1668.35,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2016",
+      "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 009/2011"
+    },
+    {
+      "numero": "2016NE00293",
+      "contrato": "8/2012",
+      "valor": 453.1,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2016",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº008/2012."
+    },
+    {
+      "numero": "2019NE00313",
+      "contrato": "6/2016",
+      "valor": 11108.85,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2019",
+      "descricao": "Reforço da NE 187/2019"
+    },
+    {
+      "numero": "2019NE00312",
+      "contrato": "9/2017",
+      "valor": 351.36,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2019",
+      "descricao": "Reforço da NE 00157/2019."
+    },
+    {
+      "numero": "2022NE0000229",
+      "contrato": "6/2022",
+      "valor": 14813.64,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2022",
+      "descricao": "Prestação do Serviço de Rede, compreendendo o acesso gerenciado à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000228",
+      "contrato": "9/2017",
+      "valor": 520.68,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2022",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste de 31,12% no valor mensal, conforme DIRAF 264 de 15/09/2021."
+    },
+    {
+      "numero": "2022NE0000227",
+      "contrato": "1/2022",
+      "valor": 8400.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2022",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec."
+    },
+    {
+      "numero": "2021NE0000039",
+      "contrato": "6/2016",
+      "valor": 7406.82,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2021",
+      "descricao": "REF, A ACESSO A INTERNET"
+    },
+    {
+      "numero": "2021NE0000037",
+      "contrato": "9/2017",
+      "valor": 264.74,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2021",
+      "descricao": "REF, SERVS. ACESSO VPN - PROC. Nº 0390/2020, REF, LICENÇA DE SOFTWARE."
+    },
+    {
+      "numero": "2021NE0000038",
+      "contrato": "7/2016",
+      "valor": 2945.26,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2021",
+      "descricao": "REF, AO CFPP"
+    },
+    {
+      "numero": "2018NE00043",
+      "contrato": "6/2016",
+      "valor": 20400.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/01/2018",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados."
+    },
+    {
+      "numero": "2018NE00040",
+      "contrato": "7/2016",
+      "valor": 7178.28,
+      "situacao": "Ativo",
+      "data_emissao": "25/01/2018",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP."
+    },
+    {
+      "numero": "2018NE00042",
+      "contrato": "9/2017",
+      "valor": 645.24,
+      "situacao": "Ativo",
+      "data_emissao": "25/01/2018",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC."
+    },
+    {
+      "numero": "2018NE00411",
+      "contrato": "",
+      "valor": 1196.38,
+      "situacao": "Ativo",
+      "data_emissao": "24/09/2018",
+      "descricao": "Anulação total do saldo da NE 0040/18 para regularização contábil devido a mudança da Natureza da Despesa."
+    },
+    {
+      "numero": "2018NE00412",
+      "contrato": "",
+      "valor": 215.08,
+      "situacao": "Ativo",
+      "data_emissao": "24/09/2018",
+      "descricao": "Anulação total do saldo da NE 0042/18 para regularização contábil devido a mudança da Natureza da Despesa."
+    },
+    {
+      "numero": "2018NE00410",
+      "contrato": "",
+      "valor": 6800.0,
+      "situacao": "Ativo",
+      "data_emissao": "24/09/2018",
+      "descricao": "Anulação total do saldo da NE 0043/18 para regularização contábil devido a mudança da Natureza da Despesa."
+    },
+    {
+      "numero": "2015NE00499",
+      "contrato": "",
+      "valor": 181.24,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00498",
+      "contrato": "",
+      "valor": 1644.77,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00493",
+      "contrato": "",
+      "valor": 440.75,
+      "situacao": "Ativo",
+      "data_emissao": "23/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2020NE00367",
+      "contrato": "7/2016",
+      "valor": 2945.26,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2020",
+      "descricao": "EXECUÇÃO DE SISTEMA DE INFORMAÇÃO, REFERENTE AO QUARTO TERMO ADITIVO CADASTRO E FOLHA DE PAGAMENTO."
+    },
+    {
+      "numero": "2016NE00389",
+      "contrato": "",
+      "valor": 2417.16,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2016",
+      "descricao": "REFORÇO DA N.E. DE Nº00027/2016."
+    },
+    {
+      "numero": "2015NE00427",
+      "contrato": "9/2011",
+      "valor": 1040.06,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2015",
+      "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 009/2011"
+    },
+    {
+      "numero": "2017NE00141",
+      "contrato": "",
+      "valor": 362.48,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2017",
+      "descricao": "Reforço da NE 0026/2017 referente ao 4º Termo Aditivo ao contrato nº 008/2012"
+    },
+    {
+      "numero": "2015NE00190",
+      "contrato": "9/2011",
+      "valor": 1238.17,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2015",
+      "descricao": "REFORÇO DA N.E. DE Nº00013/2015."
+    },
+    {
+      "numero": "2015NE00189",
+      "contrato": "8/2012",
+      "valor": 181.24,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2015",
+      "descricao": "REFORÇO DA N.E. DE Nº00012/2015."
+    },
+    {
+      "numero": "2019NE00094",
+      "contrato": "7/2016",
+      "valor": 1302.98,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2019",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO CAD FOLHA DE PAGAMENTO"
+    },
+    {
+      "numero": "2019NE00093",
+      "contrato": "9/2017",
+      "valor": 135.04,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2019",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SOFTWARE DE COMUNICAÇÃO VPN"
+    },
+    {
+      "numero": "2019NE00095",
+      "contrato": "6/2016",
+      "valor": 3702.95,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2019",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE ACESSO A INTERNETE"
+    },
+    {
+      "numero": "2019NE00089",
+      "contrato": "",
+      "valor": 135.04,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº0057/19 POR MOTIVO DA NATUREZA DA DESPESA ESTAR INCORRETA"
+    },
+    {
+      "numero": "2019NE00090",
+      "contrato": "",
+      "valor": 1302.98,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº0058/19 POR MOTIVO DA NATUREZA DA DESPESA ESTAR INCORRETA"
+    },
+    {
+      "numero": "2019NE00091",
+      "contrato": "",
+      "valor": 3702.95,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº0059/19 POR MOTIVO DA NATUREZA DA DESPESA ESTAR INCORRETA"
+    },
+    {
+      "numero": "2023NE0000313",
+      "contrato": "1/2022",
+      "valor": 4473.84,
+      "situacao": "Ativo",
+      "data_emissao": "20/07/2023",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 001/2022 AD: 01."
+    },
+    {
+      "numero": "2018NE00568",
+      "contrato": "",
+      "valor": 413.87,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "Anulação total do saldo da NE 00453/18 para encerramento do exercício de 2018."
+    },
+    {
+      "numero": "2018NE00566",
+      "contrato": "",
+      "valor": 40.52,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "Anulação total do saldo da NE 00130/18 para encerramento do exercício de 2018."
+    },
+    {
+      "numero": "2018NE00567",
+      "contrato": "",
+      "valor": 3162.72,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "Anulação parcial do saldo da NE 00283/18 para encerramento do exercício de 2018."
+    },
+    {
+      "numero": "2022NE0000368",
+      "contrato": "7/2016",
+      "valor": 3387.88,
+      "situacao": "Ativo",
+      "data_emissao": "19/08/2022",
+      "descricao": "Prestação dos serviços de execução do Sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal no período de dezembro de 2021, conforme projeto básico e Nota fiscal. Com cobertura contratual (4º Aditivo ao Contrato nº 007/2016)."
+    },
+    {
+      "numero": "2022NE0000369",
+      "contrato": "6/2016",
+      "valor": 3703.41,
+      "situacao": "Ativo",
+      "data_emissao": "19/08/2022",
+      "descricao": "Prestação dos serviço de acesso a Rede mundial de internet por fibra óptica no período de dezembro de 2021, conforme projeto básico e Nota fiscal. Com cobertura contratual (4º Aditivo ao Contrato nº 006/2016)."
+    },
+    {
+      "numero": "2019NE00059",
+      "contrato": "6/2016",
+      "valor": 3702.95,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2019",
+      "descricao": "REFERENTE AO PAGAMENTO DA NFSe, Nº 5741/2018"
+    },
+    {
+      "numero": "2019NE00058",
+      "contrato": "7/2016",
+      "valor": 1302.98,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2019",
+      "descricao": "REFERENTE A PAGAMENTO DA NFSe nº5652/2018"
+    },
+    {
+      "numero": "2019NE00057",
+      "contrato": "9/2017",
+      "valor": 135.04,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2019",
+      "descricao": "REFERENTE AO PAGAMENTO DA NFSe, Nº 5404 E 5662/2018"
+    },
+    {
+      "numero": "2018NE00429",
+      "contrato": "6/2016",
+      "valor": 10200.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2018",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados, conforme 1º Aditivo ao Contrato nº 006/2016."
+    },
+    {
+      "numero": "2024NE0000425",
+      "contrato": "",
+      "valor": 4000.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2024",
+      "descricao": "ANULAÇÃO DO SALDO PARCIAL DO EMPENHO Nº 6 MOTIVO - NÃO EFETIVAÇÃO DA DESPESA"
+    },
+    {
+      "numero": "2023NE0000306",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. Com reajuste de 5,90% com base no IGPM acumulado do período, conforme DIRAF 576 de 07/12/202 TC: 006/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000305",
+      "contrato": "1/2023",
+      "valor": 356.12,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN."
+    },
+    {
+      "numero": "2016NE00431",
+      "contrato": "",
+      "valor": 3862.67,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2016",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 00301/2016 PARA REGULARIZAÇÃO CONTÁBIL - ENCERRAMENTO DE EXERCÍCIO."
+    },
+    {
+      "numero": "2021NE0000221",
+      "contrato": "7/2016",
+      "valor": 8835.78,
+      "situacao": "Ativo",
+      "data_emissao": "15/07/2021",
+      "descricao": "Reforço da NE nº 192/2021 para Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP."
+    },
+    {
+      "numero": "2021NE0000219",
+      "contrato": "",
+      "valor": 350.48,
+      "situacao": "Ativo",
+      "data_emissao": "15/07/2021",
+      "descricao": "Anulação total do saldo da NE 0038/2021."
+    },
+    {
+      "numero": "2021NE0000222",
+      "contrato": "6/2016",
+      "valor": 22220.46,
+      "situacao": "Ativo",
+      "data_emissao": "15/07/2021",
+      "descricao": "Reforço da NE nº 193/2021 para Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo."
+    },
+    {
+      "numero": "2021NE0000220",
+      "contrato": "9/2017",
+      "valor": 794.22,
+      "situacao": "Ativo",
+      "data_emissao": "15/07/2021",
+      "descricao": "Reforço da NE 191/2021 para Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC."
+    },
+    {
+      "numero": "2018NE00131",
+      "contrato": "9/2017",
+      "valor": 967.86,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2018",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC conforme contrato nº 009/2017"
+    },
+    {
+      "numero": "2018NE00132",
+      "contrato": "6/2016",
+      "valor": 27200.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2018",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados, conforme 1º Aditivo ao Contrato nº 006/2016."
+    },
+    {
+      "numero": "2018NE00130",
+      "contrato": "7/2016",
+      "valor": 10767.42,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2018",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, conforme 1º Aditivo ao Contrato nº 007/2016"
+    },
+    {
+      "numero": "2025NE0000186",
+      "contrato": "6/2022",
+      "valor": 3921.89,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000094",
+      "contrato": "1/2022",
+      "valor": 4473.84,
+      "situacao": "Ativo",
+      "data_emissao": "14/03/2024",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000093",
+      "contrato": "1/2023",
+      "valor": 356.12,
+      "situacao": "Ativo",
+      "data_emissao": "14/03/2024",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2018NE00451",
+      "contrato": "9/2017",
+      "valor": 215.08,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2018",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC, conf. Termo de Contrato nº 009/17."
+    },
+    {
+      "numero": "2018NE00453",
+      "contrato": "7/2016",
+      "valor": 1158.26,
+      "situacao": "Ativo",
+      "data_emissao": "13/11/2018",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, conf. 1º Termo Aditivo ao Contrato 007/2016."
+    },
+    {
+      "numero": "2023NE0000418",
+      "contrato": "6/2022",
+      "valor": 3921.89,
+      "situacao": "Ativo",
+      "data_emissao": "13/09/2023",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. Com reajuste de 5,90% com base no IGPM acumulado do período, conforme DIRAF 576 de 07/12/202 TC: 006/2022 AD: 01."
+    },
+    {
+      "numero": "2022NE0000031",
+      "contrato": "1/2022",
+      "valor": 8400.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/01/2022",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec."
+    },
+    {
+      "numero": "2022NE0000533",
+      "contrato": "9/2017",
+      "valor": 173.56,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2022",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste de 31,12% no valor mensal, conforme 4º Termo aditivo ao Contrato nº 009/2017"
+    },
+    {
+      "numero": "2022NE0000532",
+      "contrato": "1/2022",
+      "valor": 4200.0,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2022",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec."
+    },
+    {
+      "numero": "2022NE0000531",
+      "contrato": "6/2022",
+      "valor": 11110.23,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2022",
+      "descricao": "Prestação do Serviço de Rede, compreendendo o acesso gerenciado à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000361",
+      "contrato": "",
+      "valor": 431.27,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA NE 31/2022"
+    },
+    {
+      "numero": "2023NE0000511",
+      "contrato": "1/2022",
+      "valor": 6710.76,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2023",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 001/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000510",
+      "contrato": "6/2022",
+      "valor": 15687.56,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2023",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. Com reajuste de 5,90% com base no IGPM acumulado do período, conforme DIRAF 576 de 07/12/202 TC: 006/2022 AD: 01."
+    },
+    {
+      "numero": "2019NE00162",
+      "contrato": "7/2016",
+      "valor": 3908.94,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2019",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2019NE00157",
+      "contrato": "9/2017",
+      "valor": 351.36,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2019",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2019NE00154",
+      "contrato": "2/2018",
+      "valor": 4744.08,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2019",
+      "descricao": "Prestação dos serviços de licença de uso de sistema informação, compreendendo a disponibilização de Gestor de Conteúdo web, para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2019NE00161",
+      "contrato": "6/2016",
+      "valor": 11108.85,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2019",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados com aplicação do reajuste pelo índice IGPM acumulado de 8,91%."
+    },
+    {
+      "numero": "2023NE0000125",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2023",
+      "descricao": "1º Termo Aditivo do Contrato nº006/2022 para Prestação dos Serviços de Rede, compreendendo o acesso gerenciado à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000061",
+      "contrato": "6/2022",
+      "valor": 7406.82,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2022",
+      "descricao": "Prestação do Serviço de Rede, compreendendo o acesso gerenciado à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2023NE0000391",
+      "contrato": "1/2023",
+      "valor": 534.18,
+      "situacao": "Ativo",
+      "data_emissao": "09/08/2023",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN."
+    },
+    {
+      "numero": "2023NE0000069",
+      "contrato": "1/2022",
+      "valor": 8947.68,
+      "situacao": "Ativo",
+      "data_emissao": "09/01/2023",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022."
+    },
+    {
+      "numero": "2023NE0000067",
+      "contrato": "1/2023",
+      "valor": 712.24,
+      "situacao": "Ativo",
+      "data_emissao": "09/01/2023",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN."
+    },
+    {
+      "numero": "2015NE00041",
+      "contrato": "",
+      "valor": 1392.94,
+      "situacao": "Ativo",
+      "data_emissao": "09/01/2015",
+      "descricao": "Pagamento da NFS Nº 12358/14 E NFS 12584/2014"
+    },
+    {
+      "numero": "2023NE0000504",
+      "contrato": "",
+      "valor": 1250.13,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2023",
+      "descricao": "Anulação do saldo da NE 313/2023."
+    },
+    {
+      "numero": "2023NE0000501",
+      "contrato": "",
+      "valor": 487.27,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2023",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 0069/2023"
+    },
+    {
+      "numero": "2019NE00467",
+      "contrato": "9/2017",
+      "valor": 234.24,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2019",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2019NE00466",
+      "contrato": "7/2016",
+      "valor": 3421.68,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2019",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2019NE00465",
+      "contrato": "6/2016",
+      "valor": 7405.9,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2019",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados com aplicação do reajuste pelo índice IGPM acumulado de 8,91%."
+    },
+    {
+      "numero": "2024NE0000214",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000096",
+      "contrato": "6/2022",
+      "valor": 8356.8,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0000081",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2026NE0000036",
+      "contrato": "1/2023",
+      "valor": 751.36,
+      "situacao": "Ativo",
+      "data_emissao": "07/01/2026",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 03."
+    },
+    {
+      "numero": "2026NE0000037",
+      "contrato": "1/2022",
+      "valor": 9439.09,
+      "situacao": "Ativo",
+      "data_emissao": "07/01/2026",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 04."
+    },
+    {
+      "numero": "2015NE00360",
+      "contrato": "9/2011",
+      "valor": 5200.3,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2015",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 009/2011"
+    },
+    {
+      "numero": "2015NE00361",
+      "contrato": "8/2012",
+      "valor": 543.72,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2015",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO Nº 008/2015"
+    },
+    {
+      "numero": "2024NE0000206",
+      "contrato": "",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2024",
+      "descricao": "ANULAÇÃO DO SALDO TOTAL DA NE DE REFORÇO 190. MOTIVO EMISSÃO INDEVIDA"
+    },
+    {
+      "numero": "2019NE00551",
+      "contrato": "",
+      "valor": 815.72,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2019",
+      "descricao": "Anulação total do saldo da NE nº466/2019 em cumprimento ao Decreto nº 41.554 de 26/11/2019 que dispõe sobre normas e procedimentos para o encerramento do exercício de 2019."
+    },
+    {
+      "numero": "2016NE00417",
+      "contrato": "8/2012",
+      "valor": 90.62,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2016",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº008/2012."
+    },
+    {
+      "numero": "2021NE0000424",
+      "contrato": "7/2016",
+      "valor": 2945.26,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2021",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, com acrescimo de 13,02% no valor mensal conforme DP 511 de 16/09/2020."
+    },
+    {
+      "numero": "2021NE0000423",
+      "contrato": "6/2016",
+      "valor": 3703.41,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2021",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados e com acréscimo de 0,0124% no valor mensal, conforme DP 524 de 22/09/2020."
+    },
+    {
+      "numero": "2024NE0000080",
+      "contrato": "",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2024",
+      "descricao": "ANULAÇÃO TOTAL DA NE 77. MOTIVO: NÚMERO DO PROCESSO INCORRETO"
+    },
+    {
+      "numero": "2026NE0000005",
+      "contrato": "6/2022",
+      "valor": 8356.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2015NE00013",
+      "contrato": "9/2011",
+      "valor": 3714.51,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00012",
+      "contrato": "8/2012",
+      "valor": 271.86,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2024NE0000297",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000300",
+      "contrato": "1/2023",
+      "valor": 356.12,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2024",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000299",
+      "contrato": "1/2022",
+      "valor": 4473.84,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2024",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2026NE0000083",
+      "contrato": "6/2022",
+      "valor": 8356.4,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2026",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 04."
+    },
+    {
+      "numero": "2016NE00027",
+      "contrato": "9/2011",
+      "valor": 5200.3,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 009/2011."
+    },
+    {
+      "numero": "2016NE00026",
+      "contrato": "8/2012",
+      "valor": 543.72,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº008/2012."
+    },
+    {
+      "numero": "2016NE00028",
+      "contrato": "9/2011",
+      "valor": 6240.36,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 009/2011"
+    },
+    {
+      "numero": "2025NE0000689",
+      "contrato": "1/2023",
+      "valor": 186.13,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000688",
+      "contrato": "6/2022",
+      "valor": 4178.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000556",
+      "contrato": "1/2023",
+      "valor": 186.13,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000555",
+      "contrato": "1/2022",
+      "valor": 2338.25,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0000554",
+      "contrato": "6/2022",
+      "valor": 4178.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 03."
+    },
+    {
+      "numero": "2021NE0000191",
+      "contrato": "9/2017",
+      "valor": 264.74,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2021",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste de 13,02% no valor mensal, conforme DP 512 de 16/09/2020."
+    },
+    {
+      "numero": "2021NE0000192",
+      "contrato": "7/2016",
+      "valor": 2945.26,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2021",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, com acrescimo de 13,02% no valor mensal conforme DP 511 de 16/09/2020."
+    },
+    {
+      "numero": "2021NE0000193",
+      "contrato": "6/2016",
+      "valor": 7406.82,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2021",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados e com acréscimo de 0,0124% no valor mensal, conforme DP 524 de 22/09/2020."
+    },
+    {
+      "numero": "2016NE00057",
+      "contrato": "9/2011",
+      "valor": 1312.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2016",
+      "descricao": "RECONHECIMENTO DA DÍVIDA DE EXERCÍCIOS ANTERIORES, RD Nº2016RD00008"
+    },
+    {
+      "numero": "2016NE00056",
+      "contrato": "9/2011",
+      "valor": 705.39,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2016",
+      "descricao": "RECONHECIMENTO DA DÍVIDA DE EXERCÍCIOS ANTERIORES, RD Nº2016RD00016"
+    },
+    {
+      "numero": "2025NE0000005",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. TC: 0006/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000017",
+      "contrato": "1/2023",
+      "valor": 372.26,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Prestação dos serviços de rede de Internet, compreendendo a disponibilização de 1 (um) acesso aos sistemas hospedados no Data Center do Estado do Amazonas por meio do Virtual Private Network - VPN. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000019",
+      "contrato": "1/2022",
+      "valor": 4676.53,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0000006",
+      "contrato": "1/2022",
+      "valor": 4473.84,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Prestação dos serviços de execução do sistema PRODAM RH para o cadastro da folha de pagamento de pessoal (CFPP) da Funtec, com reajuste de 6,52% no valor mensal. Conforme Cláusula Décima Primeira e DIRAF 568 de 02/12/2022. TC: 0001/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000003",
+      "contrato": "6/2022",
+      "valor": 7843.78,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação para a Prestação do Serviço de Rede de internet, compreendendo o acesso gerenciado à Internet através da Rede de Governo. Com reajuste de 5,90% com base no IGPM acumulado do período, conforme DIRAF 576 de 07/12/202 TC: 0006/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000001",
+      "contrato": "6/2022",
+      "valor": 7406.82,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Prestação do Serviço de Rede, compreendendo o acesso gerenciado à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2020NE00012",
+      "contrato": "9/2017",
+      "valor": 234.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC."
+    },
+    {
+      "numero": "2020NE00011",
+      "contrato": "7/2016",
+      "valor": 3908.94,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP."
+    },
+    {
+      "numero": "2020NE00010",
+      "contrato": "6/2016",
+      "valor": 3702.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados."
+    },
+    {
+      "numero": "2019NE00007",
+      "contrato": "7/2016",
+      "valor": 3908.94,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2019NE00008",
+      "contrato": "8/2012",
+      "valor": 351.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste pelo índice IGPM de 8,91%."
+    },
+    {
+      "numero": "2019NE00006",
+      "contrato": "6/2016",
+      "valor": 11108.85,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados com aplicação do reajuste pelo índice IGPM acumulado de 8,91%."
+    },
+    {
+      "numero": "2019NE00011",
+      "contrato": "2/2018",
+      "valor": 4744.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Prestação dos serviços de licença de uso de sistema informação, compreendendo a disponibilização de Gestor de Conteúdo web, para publicação de informações, notícias, vídeos e imagens via website."
+    },
+    {
+      "numero": "2017NE00026",
+      "contrato": "8/2012",
+      "valor": 362.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº008/2012."
+    },
+    {
+      "numero": "2017NE00017",
+      "contrato": "6/2016",
+      "valor": 37400.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "TERMO DE CONTRATO Nº 0006/2016"
+    },
+    {
+      "numero": "2017NE00025",
+      "contrato": "7/2016",
+      "valor": 4785.52,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "TERMO DE CONTRATO Nº 007/2016."
+    },
+    {
+      "numero": "2014NE00003",
+      "contrato": "9/2011",
+      "valor": 11756.3,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 9/2011 - CFPP-Cad. e Folha de Pagto. de Pessoal"
+    },
+    {
+      "numero": "2017NE00391",
+      "contrato": "7/2016",
+      "valor": 421.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, conforme Termo de Contrato nº 007/2016 (Reforço da NE 0025/17."
+    },
+    {
+      "numero": "2017NE00392",
+      "contrato": "7/2016",
+      "valor": 1196.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP."
+    },
+    {
+      "numero": "2017NE00394",
+      "contrato": "6/2016",
+      "valor": 3400.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados."
+    },
+    {
+      "numero": "2017NE00395",
+      "contrato": "9/2017",
+      "valor": 107.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC."
+    },
+    {
+      "numero": "2016NE00416",
+      "contrato": "7/2016",
+      "valor": 1196.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "TERMO DE CONTRATO Nº 007/2016."
+    },
+    {
+      "numero": "2016NE00415",
+      "contrato": "",
+      "valor": 1743.87,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE 0027/2016 PARA REGULARIZAÇÃO CONTÁBIL."
+    },
+    {
+      "numero": "2015NE00435",
+      "contrato": "8/2012",
+      "valor": 90.62,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº 008/2012"
+    },
+    {
+      "numero": "2015NE00434",
+      "contrato": "8/2012",
+      "valor": 181.24,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO Nº 008/2015"
+    },
+    {
+      "numero": "2016NE00367",
+      "contrato": "",
+      "valor": 4530.48,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Anulação total do saldo da NE 028/2016 para regularização contábil."
+    },
+    {
+      "numero": "2016NE00366",
+      "contrato": "",
+      "valor": 709.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Anulação total do saldo da NE 294/2016 para regularização contábil."
+    },
+    {
+      "numero": "2016NE00360",
+      "contrato": "",
+      "valor": 889.13,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Anulação total do saldo da NE 0027/2016 para regularização contábil."
+    },
+    {
+      "numero": "2021NE0000322",
+      "contrato": "9/2017",
+      "valor": 397.11,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "Prestação de serviços de rede, compreendendo a disponibilização de 1 (um) acesso ao VPN (Virtual Private Network), para acesso aos sistema utilizado pela FUNTEC com reajuste de 13,02% no valor mensal, conforme DP 512 de 16/09/2020."
+    },
+    {
+      "numero": "2021NE0000320",
+      "contrato": "6/2016",
+      "valor": 11110.23,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "Prestação de serviços de acesso à rede de internet, compreendendo o fornecimento do serviço via Rede de Governo, através de circuito de dados e com acréscimo de 0,0124% no valor mensal, conforme DP 524 de 22/09/2020."
+    },
+    {
+      "numero": "2021NE0000321",
+      "contrato": "7/2016",
+      "valor": 4417.89,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "Prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro de servidores e folha de pagamento de pessoal - CFPP, com acrescimo de 13,02% no valor mensal conforme DP 511 de 16/09/2020."
+    },
+    {
+      "numero": "2021NE0000318",
+      "contrato": "",
+      "valor": 11110.23,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE Nº 0193/2021, POR MOTIVO DE INCORREÇÃO NO CRONOGRAMA DE DESEMBOLSO."
+    },
+    {
+      "numero": "2021NE0000317",
+      "contrato": "",
+      "valor": 7538.64,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "ANULAÇÃO TOTAL DO SALDO DA NE Nº 0192/2021."
+    },
+    {
+      "numero": "2021NE0000319",
+      "contrato": "",
+      "valor": 264.74,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 191/2021, POR MOTIVO DE ERRO NO CRONOGRAMA DE DESEMBOLSO"
+    },
+    {
+      "numero": "2019NE00286",
+      "contrato": "",
+      "valor": 204.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Anulação total do saldo da NE nº 007/2019."
+    },
+    {
+      "numero": "2018NE00123",
+      "contrato": "9/2017",
+      "valor": 430.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação total do saldo da NE 0042/2018 para mudança no elemento de despesa conforme Orientação Técnica nº12/2018-GINS."
+    },
+    {
+      "numero": "2018NE00121",
+      "contrato": "6/2016",
+      "valor": 13600.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação total do saldo da NE 0043/2018 para mudança no elemento de despesa conforme Orientação Técnica nº12/2018-GINS."
+    },
+    {
+      "numero": "2018NE00120",
+      "contrato": "7/2016",
+      "valor": 5981.9,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação total do saldo da NE 0040/2018 para mudança no elemento de despesa conforme Orientação Técnica nº12/2018-GINS."
+    }
+  ],
+  "faturas": [
+    {
+      "id": "146178",
+      "nf": "146178",
+      "contrato": "6/2022",
+      "valor_bruto": 3921.89,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 90
+    },
+    {
+      "id": "146385",
+      "nf": "42213",
+      "contrato": "1/2022",
+      "valor_bruto": 2236.92,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 158
+    },
+    {
+      "id": "166129",
+      "nf": "529",
+      "contrato": "1/2023",
+      "valor_bruto": 187.84,
+      "competencia": "01/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 200
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "FUNTEA",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "006/2022",
+      "Número": "146178",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146178/E",
+      "Comp.": "12/2023",
+      "Valor": "3.921,89",
+      "Atraso": "818 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FUNTEA",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2022",
+      "Número": "146385",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146385/E",
+      "Comp.": "12/2023",
+      "Valor": "2.236,92",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "FUNTEA",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "001/2023",
+      "Número": "166129",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166129/E",
+      "Comp.": "01/2026",
+      "Valor": "187,84",
+      "Atraso": "42 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 224,
+      "valor_total": 947095.99,
+      "por_ano": {
+        "2020": {
+          "qtd": 12,
+          "valor": 65164.73
+        },
+        "2016": {
+          "qtd": 22,
+          "valor": 87781.12000000001
+        },
+        "2018": {
+          "qtd": 27,
+          "valor": 168914.15000000002
+        },
+        "2025": {
+          "qtd": 26,
+          "valor": 89682.06999999999
+        },
+        "2024": {
+          "qtd": 27,
+          "valor": 106306.81999999999
+        },
+        "2022": {
+          "qtd": 18,
+          "valor": 64626.229999999996
+        },
+        "2019": {
+          "qtd": 29,
+          "valor": 87121.92000000003
+        },
+        "2021": {
+          "qtd": 19,
+          "valor": 95095.65000000001
+        },
+        "2017": {
+          "qtd": 12,
+          "valor": 61089.759999999995
+        },
+        "2023": {
+          "qtd": 14,
+          "valor": 66532.16999999998
+        },
+        "2015": {
+          "qtd": 13,
+          "valor": 16121.420000000002
+        },
+        "2026": {
+          "qtd": 4,
+          "valor": 26903.65
+        },
+        "2014": {
+          "qtd": 1,
+          "valor": 11756.3
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 3,
+      "valor_total": 6346.65
+    },
+    "cobrancas": {
+      "qtd": 3,
+      "valor_total": 6346.65
+    }
+  }
+}

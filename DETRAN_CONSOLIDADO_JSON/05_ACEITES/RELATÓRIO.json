@@ -1,0 +1,23 @@
+{
+  "filename": "RELATÓRIO.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\05_ACEITES\\RELATÓRIO.pdf",
+  "categoria": "05_ACEITES",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 108025,
+  "texto_length": 2025,
+  "texto_preview": "Emissão.: 25/05/2021 ás 15:52:31\nPágina.: 2 / 2\nDETRAN-AM – DEPARTAMENTO ESTADUAL DE TRÂNSITO DO AMAZONAS – MANAUS-AM\nAV. MÁRIO YPIRANGA MONTEIRO, 2884 – PARQUE 10 DE NOVEMBRO – CEP 69050-030 - TELEFONE 3642-3355 RAMAL 270\nTOTAIS PARA FATURAMENTO \nCLIENTE DETRAN \nMES REFERENCIA.: JANEIRO/2021 \nSCIT (ANEXO 01) \nITEM                                            QUANTIDADE \nAutos de Infração no Periodo     (MILHEIROS)         3,440 \nTalonários Mantido no Cadastro   (MILHEIROS)        61,435 \nNotificações Estaduais Manuais   (MILHEIROS)         0,077 \nMultas Incluídas no período      (MILHEIROS)         3,440 \nMultas Armazenadas               (MILHEIROS)       648,862 \nCVMT (ANEXO 02) \nITEM                                            QUANTIDADE \nRegistros Armazenados            (MILHEIROS)    46.",
+  "texto_completo": "Emissão.: 25/05/2021 ás 15:52:31\nPágina.: 2 / 2\nDETRAN-AM – DEPARTAMENTO ESTADUAL DE TRÂNSITO DO AMAZONAS – MANAUS-AM\nAV. MÁRIO YPIRANGA MONTEIRO, 2884 – PARQUE 10 DE NOVEMBRO – CEP 69050-030 - TELEFONE 3642-3355 RAMAL 270\nTOTAIS PARA FATURAMENTO \nCLIENTE DETRAN \nMES REFERENCIA.: JANEIRO/2021 \nSCIT (ANEXO 01) \nITEM                                            QUANTIDADE \nAutos de Infração no Periodo     (MILHEIROS)         3,440 \nTalonários Mantido no Cadastro   (MILHEIROS)        61,435 \nNotificações Estaduais Manuais   (MILHEIROS)         0,077 \nMultas Incluídas no período      (MILHEIROS)         3,440 \nMultas Armazenadas               (MILHEIROS)       648,862 \nCVMT (ANEXO 02) \nITEM                                            QUANTIDADE \nRegistros Armazenados            (MILHEIROS)    46.824,212 \nCRV(DUT) Emitidos                (UNIDADE)          11.673 \nCRLV(DUAL) Emitidos              (UNIDADE)          22.397 \nCertidao Negativa de Multa       (UNIDADE)               7 \nOcorrencias Roubo e Furto        (UNIDADE)             447 \nVeiculos Incluidos               (UNIDADE)           4.324 \nVistorias Incluidas              (MILHEIROS)        14,932 \nServicos Renavam Incluidos       (MILHEIROS)        62,165 \nRENACH (ANEXO 03) \nITEM                                            QUANTIDADE \nRegistros Armazenados            (MILHEIROS)     9.681,500 \nCondutores Incluidos             (UNIDADE)           1.586 \nProtocolos RENACH                (MILHEIROS)        17,702 \nCNH Com Emissao Autorizada       (MILHEIROS)         8,096 \nExames Atualizados               (MILHEIROS)        18,234 \nNotificações de Pontuacao        (MILHEIROS)         0,004 \nFRAM (ANEXO 04) \nITEM                                            QUANTIDADE \nOcorrências Veículos Removidos (UNIDADE)               601 \nOcorrências Veículos Mantidos    (MILHEIROS)       108,171 \nF634N010\nFolha: 7\nDocumento P7E2.5D9A.A58C.EDDD assinado por: MARCELO ALMEIDA MARINHO:51930072287 em 21/10/2021 às 13:22 utilizando assinatura por login/senha.\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "25/05/2021",
+      "21/10/2021"
+    ],
+    "tipo_doc": "ACEITE_TECNICO"
+  }
+}

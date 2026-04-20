@@ -1,0 +1,24 @@
+{
+  "filename": "ANEXO DA NOTA FISCAL Nº 25057.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\ANEXO DA NOTA FISCAL Nº 25057.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 189438,
+  "texto_length": 1226,
+  "texto_preview": "1\n128167\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25280\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25057\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. Cont. Infra. Talonários\nSCIT -PERIODO:20/02/2021 A 19/03/2021\nMIL\n650,05\nPor milheiro armazenado no arquivo de Multas\n9.750,75\n15,00\nMIL\n2,252\nPor milheiro de Multas Incluídas no período\n2.319,56\n1.030,00\nMIL\n0,063\nPor milheiro de Notificações ",
+  "texto_completo": "1\n128167\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25280\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25057\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. Cont. Infra. Talonários\nSCIT -PERIODO:20/02/2021 A 19/03/2021\nMIL\n650,05\nPor milheiro armazenado no arquivo de Multas\n9.750,75\n15,00\nMIL\n2,252\nPor milheiro de Multas Incluídas no período\n2.319,56\n1.030,00\nMIL\n0,063\nPor milheiro de Notificações Estaduais manuais\n64,89\n1.030,00\nMIL\n61,435\nPor milheiro de Talonários Mantidos no Cadastro\n399,33\n6,50\nMIL\n2,252\nPor milheiro de Autos de Infração Controlados\n30,40\n13,50\n12.564,93\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. Cont. Infra. Talonários\nSCIT-PERIODO: 20/02/2021 A 19/03/2021\nUN\n10.394,00\nPor página impressa a laser\n6.236,40\n0,60\n6.236,40\n18.801,33\n18.801,33\nTOTAL DA PÁGINA\nTOTAL ACUMULADO\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "27/10/2021",
+      "20/02/2021",
+      "19/03/2021"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

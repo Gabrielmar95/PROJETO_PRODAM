@@ -1,0 +1,116 @@
+{
+  "sigla": "_metadata",
+  "profile": {
+    "auditoria_ciencia_dados": {
+      "data": "2026-03-27",
+      "versao": "2.0",
+      "score_formula": "0.30*log(val_exig) + 0.25*P(rec) + 0.20*log(evidencias) + 0.15*log(faturas) + 0.10*titulo",
+      "spearman_score_vs_ev": 0.8705,
+      "spearman_anterior": 0.7423,
+      "ev_total": "86222684.65",
+      "sensibilidade": {
+        "forca": "ALTA (6.71%)",
+        "titulo": "BAIXA (1.35%)",
+        "evidencias": "MEDIA (2.88%)",
+        "gov": "MEDIA (3.49%)",
+        "regime": "BAIXA (0.92%)"
+      },
+      "modelo": "heurístico aditivo 7 features, calibrado por expert judgment",
+      "baseline_registrado": true,
+      "blindagem_executada": "12/51 (FORTE)"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "ultima_reconciliacao_spcf": {
+      "data": "2026-03-31",
+      "snapshot_spcf": "2026-03-29",
+      "devedores_atualizados": 35,
+      "devedores_novos": 11,
+      "devedores_sem_match": 16,
+      "total_devedores": 62,
+      "campos_adicionados": [
+        "spcf_total_receber",
+        "spcf_fat_devidas_qtd",
+        "spcf_fat_devidas_val",
+        "spcf_fat_aberto_qtd",
+        "spcf_fat_aberto_val",
+        "spcf_perdas",
+        "emp_2026",
+        "emp_2026_qtd",
+        "contratos_vigentes",
+        "fonte_spcf",
+        "data_spcf"
+      ]
+    },
+    "ultima_reconciliacao": {
+      "data": "2026-04-09",
+      "sessao": 71,
+      "fontes_cruzadas": [
+        "profiles.json",
+        "SPCF/",
+        "FATURAS_POR_DEVEDOR/",
+        "DADOS_5DEV/",
+        "DOSSIES/"
+      ],
+      "divergencias": 0,
+      "total_devedores": 66,
+      "total_val_exig": 121512497.27,
+      "total_val_atualizado": 195448326.86,
+      "total_faturas": 2958,
+      "total_faturas_exigiveis": 1873
+    },
+    "reconciliacao_profunda": {
+      "data": "2026-04-09",
+      "sessao": 71,
+      "fontes_cruzadas": [
+        "profiles.json (66 dev × 122 campos)",
+        "FATURAS_POR_DEVEDOR/ (20 CSVs, 1.735 faturas)",
+        "SPCF/ (367 contratos, 17.016 empenhos, 18.350 faturas)",
+        "DADOS_5DEV/ (132K+ registros, 5 devedores TOP)",
+        "DOSSIES/ (8 raiz + 121 TOP10)",
+        "pipeline_output/ (31 JSONs)",
+        "DASHBOARDS/ (29 arquivos)",
+        "RELATORIOS/ (36 relatórios)"
+      ],
+      "total_arquivos_mapeados": 4284,
+      "total_csvs": 701,
+      "total_jsons": 1145,
+      "total_excels": 874,
+      "total_pdfs": 1499,
+      "total_htmls": 59,
+      "achados_criticos": [
+        "SSP: CSV mostra R$10.7M vs profiles R$4.6M (+135.5%)",
+        "SEAD: CSV mostra R$5.3M vs profiles R$2.3M (+126.1%)",
+        "Campo empenho_vinculado nos CSVs mostra False - mas SPCF tem 17.016 empenhos",
+        "50 devedores sem CSV individual em FATURAS_POR_DEVEDOR/",
+        "24 devedores com prescrição formal vencida (D+ negativo)"
+      ]
+    },
+    "ultima_atualizacao": "2026-04-10T18:53:36.333978",
+    "sessao": 74,
+    "nota_sessao_74": "Integração DETRAN NOVO (796 arquivos, 1.1GB) — +10 empenhos, +1 contrato, cobranças, ranking, evolução mensal"
+  },
+  "empenhos": [],
+  "faturas": [],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 0,
+      "valor_total": 0,
+      "por_ano": {}
+    },
+    "faturas": {
+      "qtd": 0,
+      "valor_total": 0
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

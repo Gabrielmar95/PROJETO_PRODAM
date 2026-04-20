@@ -1,0 +1,35 @@
+{
+  "filename": "1º TA ao Contrato 006.2021 - Prazo.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\01_CONTRATOS\\1º TA ao Contrato 006.2021 - Prazo.pdf",
+  "filename_parsed": {
+    "filename": "1º TA ao Contrato 006.2021 - Prazo.pdf",
+    "tipo": "TERMO_ADITIVO",
+    "contrato_num": 6,
+    "contrato_ano": 2021,
+    "contrato_ref": "006/2021",
+    "ta_numero": 1,
+    "modalidades": [
+      "PRORROGACAO_PRAZO"
+    ]
+  },
+  "pdf_meta": {
+    "num_paginas": 16,
+    "metodo": "pymupdf",
+    "tem_imagens_sem_texto": false,
+    "byte_size": 7116886
+  },
+  "texto_length": 24727,
+  "texto_preview": "6fiVÉÉN& §§ T§TÂ§ü\nPRIMEIRO TERMO ADITIVO AO CONTRATO NO. ()(}6/2O21.DETRAN/AM\nPRIMEIRO TERMO ADITIVO AO CONTRATO NO 006/202í.\nDETRAN/AM DE PRESTAçÃO DE SERVrçoS, CELEBRADO\nENTRE O ESTADO DO AMAZONAS, POR INTERMÉDIO DO\nDEPARTAMENTO ESTADUAL DE TRANSITO - DETRAN/AM\nE A EMPRESA PRODAM PROCESSAMENTO DE DADOS\nAMMONAS S/A, NA FORMAABAIXO:\nAo 01 (primeiro) dia do mês de abril do ano de 2022 (dois mil e vinte e dois), nesta cidade de Manaus, na sede\ndo CONTRATANTE, situada na Rua Mário Ypirangâ, h,0 2.",
+  "clausulas_detectadas": {
+    "valor_contrato": [
+      "R$ 1.868.846,52",
+      "R$ 155.737,21",
+      "R$ 4.797.000,00",
+      "R$ 1.868.976,52"
+    ],
+    "cnpj_contratada": [
+      "04.224.028/0001-63"
+    ]
+  },
+  "data_extracao": "2026-04-14"
+}

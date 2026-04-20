@@ -1,0 +1,5299 @@
+{
+  "sigla": "SEDUC",
+  "profile": {
+    "nome_completo": "Secretaria de Educação do Amazonas",
+    "sigla": "SEDUC",
+    "natureza": "Secretaria de Estado",
+    "categoria": "GOV_DIRETA",
+    "val_exig": "49215512.48334964",
+    "val_orig": "38705633.18000001",
+    "val_atualizado": "50263263.55696253",
+    "faturas_total": 84,
+    "faturas_prescritas": 8,
+    "faturas_exigiveis": 76,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Negativa expressa (Of. 316/2020-GS/SEDUC)",
+    "observacoes": "Requer prova documental robusta. Negativa expressa para cobrança.",
+    "forca_probatoria": "FORTE",
+    "modelo_notificacao": "A",
+    "reconhecimento_revisado": {
+      "total_evidencias": 1732,
+      "classificacao": "CONFIRMADO — Reconhecimento formal",
+      "por_tipo": {
+        "E": 1645,
+        "F": 10,
+        "G": 1,
+        "H": 25,
+        "A": 26,
+        "D": 25
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "04.312.419/0001-30",
+    "evidencias_reconhecimento": 1732,
+    "evidencias_por_tipo": {
+      "E": 1645,
+      "F": 10,
+      "G": 1,
+      "H": 25,
+      "A": 26,
+      "D": 25
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Reconhecimento formal",
+    "tipo": "GOV",
+    "score_composto": 0.8005,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.7,
+    "ev_valor_esperado": "34450858.74",
+    "ev_honorarios": "6890171.75",
+    "esforco_estimado": 4,
+    "cenario_monte_carlo_p50": "24391879.65",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 2,
+    "blindagem_resultado": {
+      "data": "2026-03-27",
+      "blocos": {
+        "A_titulo": {
+          "ok": 4,
+          "total": 6
+        },
+        "B_liquidez": {
+          "ok": 5,
+          "total": 5
+        },
+        "C_cadeia": {
+          "ok": 6,
+          "total": 6
+        },
+        "D_defesas": {
+          "ok": 5,
+          "total": 5
+        }
+      },
+      "total_ok": 20,
+      "total_items": 22,
+      "recomendacao": "MONITORIA",
+      "ressalvas": [
+        "Sem título executivo — monitória ou TRD primeiro",
+        "Negativa expressa registrada"
+      ]
+    },
+    "ultima_interacao": "2026-03-25",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": true,
+    "via_transacao_referendada": true,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": "ALTO",
+    "nome": "SEDUC",
+    "spcf_total_receber": "56053583.28",
+    "spcf_fat_devidas_qtd": 136,
+    "spcf_fat_devidas_val": "56040239.62",
+    "spcf_fat_aberto_qtd": 120,
+    "spcf_fat_aberto_val": "60107842.84",
+    "spcf_perdas": "472990.31",
+    "emp_2026": "24998189.56",
+    "emp_2026_qtd": 6,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 36,
+    "fat_canceladas_val_bruto": 13845897.63,
+    "fat_canceladas_val_liquido": 13231767.57,
+    "faturamento_total_2019_2026": 293922974.64,
+    "recebimento_total_2019_2026": 220843310.0,
+    "taxa_pagamento_pct": 75.14,
+    "padrao_inadimplencia": "INTERMITENTE",
+    "meses_com_faturamento": 86,
+    "faturamento_pico_mes": "2022-Jan",
+    "faturamento_pico_valor": 7474744.67,
+    "inicio_inadimplencia": "2019-Mar",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": true,
+    "empenho_historico_total": 383664365.88000053,
+    "empenho_historico_qtd": 234,
+    "empenho_valor_global_contratos": 58330511.64,
+    "empenho_2026_gerencial": 12325904.09,
+    "a_empenhar_2026": 10802454.09,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "60408763.88",
+    "val_liquido_spcf_mar2026": "56040239.62",
+    "num_faturas_spcf_mar2026": 128,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 44.79,
+    "pipeline_reconciliacao": {
+      "match": 0,
+      "so_pdf": 0,
+      "so_spcf": 469,
+      "divergentes": 0
+    },
+    "pipeline_ultima_execucao": "2026-04-08 12:23",
+    "pipeline_versao": "3.2.0",
+    "cruzamento_empenho_completo": true,
+    "cruzamento_data": "2026-04-08",
+    "faturas_abertas_exigiveis": 120,
+    "faturas_abertas_com_empenho": 120,
+    "faturas_abertas_sem_empenho": 0,
+    "faturas_forca_forte": 0,
+    "faturas_forca_media_alta": 120,
+    "faturas_forca_media": 0,
+    "faturas_forca_fraca": 0,
+    "valor_forca_media_alta": 60107842.84,
+    "valor_forca_fraca": 0,
+    "pct_com_empenho": 100.0,
+    "reconciliacao_6_6": {
+      "data": "2026-04-08",
+      "faturas_csv": 128,
+      "valor_bruto_csv": "60408763.88",
+      "valor_pg_parcial_csv": "2576281.88",
+      "saldo_aberto_real": "57832482.00",
+      "faturas_com_pg_parcial": 3,
+      "faturas_pagas_historico": 734,
+      "total_pago_historico": "222412770.34",
+      "novas_em_5devs": 0
+    },
+    "correcao_monetaria_passo7": {
+      "data_calculo": "2026-04-08",
+      "indice": "SELIC",
+      "faturas_exigiveis": 120,
+      "faturas_prescritas": 8,
+      "saldo_base": "57539503.61",
+      "correcao": "6555298.03",
+      "juros": "0",
+      "multa_2pct": "1150789.96",
+      "valor_total_atualizado": "65245591.60",
+      "fonte": "API BCB séries 4390 (SELIC) e 189 (IGPM)"
+    },
+    "dados_5devs_varredura": {
+      "data_varredura": "2026-04-08",
+      "cobrancas_em_faturas_abertas": 104,
+      "cobrancas_status": "Suspenso (todas)",
+      "contratos_detalhados": 69,
+      "aditivos_contratuais": 52,
+      "pendencias_contratuais": 12,
+      "anexos_servicos": 143,
+      "nes_pdf_disponiveis": 63,
+      "contratos_pdf_disponiveis": 2
+    },
+    "dossie_classificacao_passo8": {
+      "data_classificacao": "2026-04-08",
+      "total_faturas_classificadas": 120,
+      "vias_processuais": {
+        "EXECUCAO_A": {
+          "count": 87,
+          "valor": "24933112.35",
+          "descricao": "Contrato PDF + NE PDF disponíveis"
+        },
+        "EXECUCAO_B": {
+          "count": 33,
+          "valor": "40312479.25",
+          "descricao": "Composição documental (REsp 793.969/RJ)"
+        },
+        "MONITORIA": {
+          "count": 0,
+          "valor": "0",
+          "descricao": "Sem NE — ação monitória (Súmula 339 STJ)"
+        }
+      },
+      "prescritas_excluidas": 8,
+      "lacunas_documentais": {
+        "C3_liquidacao": 120,
+        "C5_aceite": 120,
+        "C1_contrato_pdf": 33
+      },
+      "passo": 8,
+      "mapeamento_docs": {
+        "total": 120,
+        "FORTE": 87,
+        "MEDIA": 33,
+        "FRACA": 0,
+        "ne_pdfs_utilizados": 29,
+        "ne_pdfs_disponiveis": 63,
+        "ne_pdfs_nao_mapeados": 34
+      },
+      "lacunas": {
+        "contratos_sem_pdf": [
+          "2/2021",
+          "20/2022",
+          "23/2021"
+        ],
+        "ne_pdfs_disponiveis": 63,
+        "ne_pdfs_mapeados": 63,
+        "lacunas_criticas": [
+          "3 contratos sem PDF: 2/2021, 20/2022, 23/2021"
+        ]
+      }
+    },
+    "contratos_spcf": {
+      "total": 3,
+      "vigentes": 2,
+      "rescindidos": 1,
+      "concluidos": 0,
+      "total_aditivos": 13,
+      "total_anexos": 4,
+      "contratos": [
+        {
+          "numero": "2/2021",
+          "id_spcf": "11020",
+          "valor_global": "3.748.884,43",
+          "status": "Vigente",
+          "objeto": "Servio de Execuo do Sistema PRODAM RH para controle de cadastro de pessoal, processamento de folha de pagamento dos servidores, transmisso dos dados referentes ao atendimento do e-Social, servio de me",
+          "inicio_vigencia": "01/02/2026",
+          "fim_vigencia": "31/01/2027",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 5,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Execuo de sistemas"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "2964",
+              "data": "01/02/2022",
+              "objeto": "Prorrogao de prazo"
+            },
+            {
+              "id": "4312",
+              "data": "01/02/2025",
+              "objeto": "Prorrogao de prazo e reajuste de 5,59%"
+            },
+            {
+              "id": "3401",
+              "data": "01/02/2023",
+              "objeto": "Prorrogao de prazo"
+            },
+            {
+              "id": "3849",
+              "data": "01/02/2024",
+              "objeto": "Prorrogao de prazo"
+            },
+            {
+              "id": "4698",
+              "data": "01/02/2026",
+              "objeto": "Prorrogao de prazo"
+            }
+          ],
+          "anexo_ids": [
+            "201917"
+          ],
+          "proposta_id": "12129"
+        },
+        {
+          "numero": "20/2022",
+          "id_spcf": "11345",
+          "valor_global": "19.963.695,60",
+          "status": "Rescindido",
+          "objeto": "Prestao de servios de TIC, compreendendo a disponibilizao de Software como Servio - Sistema de Gesto Educacional, a Implantao de Sistemas de Gesto Educacional e Desenvolvimento de Sistemas de Informao",
+          "inicio_vigencia": "01/04/2025",
+          "fim_vigencia": "30/03/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 3,
+          "n_anexos": 2,
+          "n_servicos": 2,
+          "servicos": [
+            "Implantao de Sistemas de Informao",
+            "Software como Servio"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "4357",
+              "data": "01/04/2025",
+              "objeto": "Prorrogao de prazo"
+            },
+            {
+              "id": "3061",
+              "data": "01/06/2022",
+              "objeto": "Prorrogao de prazo e reajuste de 14,88%"
+            },
+            {
+              "id": "3914",
+              "data": "01/04/2024",
+              "objeto": "Prorrogao de prazo"
+            }
+          ],
+          "anexo_ids": [
+            "202442",
+            "202443"
+          ],
+          "proposta_id": "12653"
+        },
+        {
+          "numero": "23/2021",
+          "id_spcf": "11094",
+          "valor_global": "17.505.370,65",
+          "status": "Vigente",
+          "objeto": "Prestao de servio de Central de Atendimento, com a disponibilizao de Licena de uso de sistemas de informao - Plataforma de Central de Atendimento Multicanais, como mdulo de gesto de atendimento, assim",
+          "inicio_vigencia": "31/05/2025",
+          "fim_vigencia": "30/05/2026",
+          "forma_pagamento": "Parcelado",
+          "n_aditivos": 5,
+          "n_anexos": 1,
+          "n_servicos": 1,
+          "servicos": [
+            "Licena de uso de sistemas de informao"
+          ],
+          "aditivos_resumo": [
+            {
+              "id": "3969",
+              "data": "31/05/2024",
+              "objeto": "Prorrogao de prazo"
+            },
+            {
+              "id": "4408",
+              "data": "31/05/2025",
+              "objeto": "Prorrogao de prazo"
+            },
+            {
+              "id": "3515",
+              "data": "31/05/2023",
+              "objeto": "Prorrogao de prazo por 03 meses"
+            },
+            {
+              "id": "3654",
+              "data": "30/08/2023",
+              "objeto": "Prorrogao de prazo por 09 meses"
+            },
+            {
+              "id": "3053",
+              "data": "31/05/2022",
+              "objeto": "Prorrogao de prazo"
+            }
+          ],
+          "anexo_ids": [
+            "202059"
+          ],
+          "proposta_id": "12232"
+        }
+      ],
+      "data_integracao": "2026-04-08T15:08:50.808372"
+    },
+    "nes_raspadas_spcf": {
+      "total": 219,
+      "com_contrato": 163,
+      "contratos_unicos": [
+        "14/2018",
+        "156/2013",
+        "161/2016",
+        "2/2015",
+        "2/2021",
+        "20/2022",
+        "21/2026",
+        "23/2021",
+        "235/2010",
+        "54/2017",
+        "54/2021",
+        "91/2016",
+        "P.180/2016",
+        "P.219/2014",
+        "P.222/2014"
+      ],
+      "por_evento": {
+        "400091_empenho": 164,
+        "400092_reforco": 2,
+        "400093_anulacao": 53
+      },
+      "valor_total": 342282994.9800004,
+      "data_integracao": "2026-04-08T15:31:54.272577",
+      "procedencia": "P3-SISTEMA"
+    },
+    "reconciliacao_spcf": {
+      "data_reconciliacao": "2026-04-08",
+      "fonte": "DADOS_5DEV (faturas_COMPLETO, empenhos_COMPLETO, contratos_COMPLETO, liquidadas 2019-2026)",
+      "procedencia": "P3-SISTEMA",
+      "faturas_emitidas_pendentes": 121,
+      "faturas_pagas_total": 2633,
+      "faturas_pagas_valor": 540595785.3,
+      "faturas_canceladas": 52,
+      "faturas_perdas": 150,
+      "faturas_em_aberto": 122,
+      "valor_em_aberto": 55763251.6,
+      "empenhos_total": 289,
+      "empenhos_valor": 492403181.5,
+      "empenhos_situacoes": {
+        "Ativo": 289
+      },
+      "contratos_total": 69,
+      "contratos_ativos": 3,
+      "contratos_valor": 268361662.22,
+      "liquidadas_total": 734,
+      "liquidadas_valor": 234307343.91,
+      "liquidadas_por_ano": {
+        "2019": {
+          "count": 99,
+          "valor": 23614292.5
+        },
+        "2020": {
+          "count": 104,
+          "valor": 22755232.99
+        },
+        "2021": {
+          "count": 121,
+          "valor": 30494196.75
+        },
+        "2022": {
+          "count": 138,
+          "valor": 49593503.3
+        },
+        "2023": {
+          "count": 91,
+          "valor": 28198957.77
+        },
+        "2024": {
+          "count": 103,
+          "valor": 47997164.32
+        },
+        "2025": {
+          "count": 73,
+          "valor": 28037118.69
+        },
+        "2026": {
+          "count": 5,
+          "valor": 3616877.59
+        }
+      },
+      "nes_spcf_raspadas": 219,
+      "faturas_com_empenho": 120,
+      "valor_com_empenho": 55763251.6,
+      "faturas_sem_empenho": 2,
+      "valor_sem_empenho": 0.0,
+      "pct_com_empenho": 100.0
+    },
+    "saldo_devedor_spcf": 55763251.6,
+    "total_pago_historico": 540595785.3,
+    "total_liquidadas": 734,
+    "total_empenhos_spcf": 289,
+    "total_contratos_spcf": 69,
+    "referencia_juridica": {
+      "arquivos_referencia": 45,
+      "categorias_cobertas": 7,
+      "tem_dossie_devedor": true,
+      "tem_execucao_fazenda": true,
+      "tem_prescricao": false,
+      "tem_estrategia_cobranca": false,
+      "tem_errata_correcoes": true,
+      "status": "COMPLETA"
+    },
+    "status_consolidado": {
+      "data_atualizacao": "2026-04-08",
+      "sessao": 66,
+      "saldo_devedor_nominal": 55763251.6,
+      "faturas_em_aberto": 122,
+      "pct_com_empenho": 100.0,
+      "total_liquidadas_historico": 734,
+      "total_pagas_historico": 2633,
+      "cobertura_juridica": "COMPLETA",
+      "pronto_para_passo9": true
+    },
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "via_processual_recomendada": {
+      "via": "MONITORIA",
+      "fundamentacao": "Negativa expressa (Of. 316/2020), força FORTE mas resistência ativa"
+    },
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE05432",
+      "contrato": "14/2018",
+      "valor": 9428517.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Para atender ao 2º termo aditivo ao contrato nº14/2018."
+    },
+    {
+      "numero": "2021NE0003649",
+      "contrato": "54/2017",
+      "valor": 7737.28,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2021",
+      "descricao": "PARA ATENDER DESPESAS DO 3º TA AO CT-054/2017-SEDUC-CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO. PROC. 028101.6652/2021-24"
+    },
+    {
+      "numero": "2020NE02645",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "ATENDER AO CONTRATO Nº 14/2018, REFERENTE PRESTAÇÃO DE SERVIÇOS TÉCNICOS PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM."
+    },
+    {
+      "numero": "2020NE02643",
+      "contrato": "2/2015",
+      "valor": 407376.7,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "ATENDER AO CONTRATO Nº 02/2015, REFERENTE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2023NE0004433",
+      "contrato": "23/2021",
+      "valor": 1459368.39,
+      "situacao": "Ativo",
+      "data_emissao": "31/05/2023",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER, COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, UTILIZANDO MODELO OMNICHANNEL, DESTINADOS À CENTRAL DE ATENDIMENTO DA SEDUC."
+    },
+    {
+      "numero": "2023NE0000552",
+      "contrato": "54/2017",
+      "valor": 4206.28,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2023",
+      "descricao": "ATENDER DESPESAS PARCIAIS DO CT-054/2017-SEDUC, REFERENTE A SERVIÇOS DE MANUTENÇÃO DO SISTEMA SIGPRO. PROC. ADM 028101.035985/2022-41(SIGED)"
+    },
+    {
+      "numero": "2022NE0000458",
+      "contrato": "54/2017",
+      "valor": 12006.12,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2022",
+      "descricao": "PARA ATENDER DESPESAS PARCIAIS DO CT Nº 0054/2017-SEDUC, REF. A CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
+    },
+    {
+      "numero": "2017NE00580",
+      "contrato": "2/2015",
+      "valor": 1135000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2017",
+      "descricao": "SERV. PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2017NE00579",
+      "contrato": "",
+      "valor": 1135000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2017",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2017NE00578",
+      "contrato": "2/2015",
+      "valor": 1135000.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/01/2017",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2019NE07576",
+      "contrato": "2/2015",
+      "valor": 244426.02,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ATENDER AO CT. 02/2015"
+    },
+    {
+      "numero": "2019NE07578",
+      "contrato": "14/2018",
+      "valor": 9428517.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ATENDER AO CT. 14/2018"
+    },
+    {
+      "numero": "2014NE10962",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2014",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2024NE0009311",
+      "contrato": "20/2022",
+      "valor": 3358031.83,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2024NE0009309",
+      "contrato": "2/2021",
+      "valor": 1184079.76,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0009310",
+      "contrato": "23/2021",
+      "valor": 5835123.56,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2021NE0004781",
+      "contrato": "54/2021",
+      "valor": 369600.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2021",
+      "descricao": "OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA;CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE IMPLANTAÇÃO DE REPOSITÓRIO ARQUIVÍSTICO CONFIÁVEL MEDIANTE TRATAMENTO ARQUIVÍSTICO DE DOCUMENTOS PÚBLICOS ;;;;;R$ 6.904.768,32"
+    },
+    {
+      "numero": "2018NE02969",
+      "contrato": "161/2016",
+      "valor": 1781358.83,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2018",
+      "descricao": "PARA ATENDER EM PAGAMENTO/EXERCÍCIOS ANTERIORES, PERÍODO: DEZEMBRO DE 2017, DE MANUTENÇÃO OPERACIONAL CORRETIVA E EVOLUTIVA DO SIGEAM, NAS ESCOLAS EST. DO ESTADO AMAZONAS"
+    },
+    {
+      "numero": "2016NE02476",
+      "contrato": "235/2010",
+      "valor": 2970506.22,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2026NE0000723",
+      "contrato": "",
+      "valor": 312406.99,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2026",
+      "descricao": "ANULAÇÃO TOTAL DO VALOR DA NOTA DE EMPENHO"
+    },
+    {
+      "numero": "2020NE00259",
+      "contrato": "2/2015",
+      "valor": 611065.05,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2020",
+      "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 02/2015 REFERENTE A PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA - SISTEMA CFPP DE FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES."
+    },
+    {
+      "numero": "2025NE0011395",
+      "contrato": "",
+      "valor": 251.86,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2025",
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE0000648,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
+    },
+    {
+      "numero": "2025NE0011396",
+      "contrato": "",
+      "valor": 2.35,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2025",
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE0000824,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
+    },
+    {
+      "numero": "2025NE0011398",
+      "contrato": "",
+      "valor": 12.28,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2025",
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE000497702812,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
+    },
+    {
+      "numero": "2017NE08739",
+      "contrato": "2/2015",
+      "valor": 244426.03,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "DESPESAS CT- 02/2015"
+    },
+    {
+      "numero": "2015NE09172",
+      "contrato": "235/2010",
+      "valor": 49508.44,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2015",
+      "descricao": "SERV. PROC. DADOS"
+    },
+    {
+      "numero": "2023NE0008924",
+      "contrato": "14/2018",
+      "valor": 83395.57,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
+      "numero": "2023NE0008923",
+      "contrato": "2/2021",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2022NE0008511",
+      "contrato": "54/2017",
+      "valor": 2882.29,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "ATENDER DESPESAS PARCIAIS DO 4º TERMO ADITIVO AO CT 054/2017-SEDUC, REFERENTE A SUPORTE E MANUTENÇÃO DO SISTEMA SIGPRO, PARA ATENDER A UG PADEAM/SEDUC. PROC. ADM Nº 01.01.028101.035985/2022-41."
+    },
+    {
+      "numero": "2024NE0009306",
+      "contrato": "",
+      "valor": 502077.97,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2024",
+      "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO 2024NE0003955"
+    },
+    {
+      "numero": "2017NE06887",
+      "contrato": "161/2016",
+      "valor": 944083.62,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2017",
+      "descricao": "Para atender no aditivo do contrato nº 161/2016 que tem como objeto: serviços de desenvolvimento e implantação de software (SIGEAM) em atendimento as Escolas Estaduais da Rede Publica de Ensino."
+    },
+    {
+      "numero": "2017NE06884",
+      "contrato": "",
+      "valor": 944083.62,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2017",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2016NE05112",
+      "contrato": "235/2010",
+      "valor": 485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2016NE05110",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2016NE05111",
+      "contrato": "235/2010",
+      "valor": 1000000.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE03676",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "29/05/2015",
+      "descricao": "Cobertura Financeira 2015 NE 3676 DE 29/05/2015 R$ 1.485.253,11 Julho a Setembro/15 6 TA Contrato 235/2010"
+    },
+    {
+      "numero": "2021NE0000798",
+      "contrato": "",
+      "valor": 169290.72,
+      "situacao": "Ativo",
+      "data_emissao": "29/03/2021",
+      "descricao": "PARA ATENDER A PAGAMENTO INDENIZATÓRIO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL, QUE ATENDEU AS NECESSIDADES DESTA SECRETARIA, NO PERÍODO DE JANEIRO DE 2021. CONFORME NOTA FISCAL ELETRÔNICA - NFSe 19265,"
+    },
+    {
+      "numero": "2024NE0002014",
+      "contrato": "2/2021",
+      "valor": 1480102.8,
+      "situacao": "Ativo",
+      "data_emissao": "29/02/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 02."
+    },
+    {
+      "numero": "2021NE0000372",
+      "contrato": "2/2021",
+      "valor": 888061.68,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA - FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC."
+    },
+    {
+      "numero": "2021NE0000408",
+      "contrato": "54/2017",
+      "valor": 6003.06,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2021",
+      "descricao": "ATENDER DESPESAS DO 1º TRIMESTRE DE 2021 DO CT 054/2017 - CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
+    },
+    {
+      "numero": "2022NE0009834",
+      "contrato": "",
+      "valor": 1458780.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO ;2022NE0007460;,"
+    },
+    {
+      "numero": "2018NE09098",
+      "contrato": "14/2018",
+      "valor": 9428517.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "PARA ATENDER NOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO - SIGEAM, DESTINADOS AS ESCOLAS ESTADUAIS DA CAPITAL E INTERIOR"
+    },
+    {
+      "numero": "2022NE0008504",
+      "contrato": "54/2017",
+      "valor": 935.58,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2022",
+      "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2022NE0004479, PARA ATENDER DESPESAS DO CONTRATO Nº CT-00054/2017-SEDUC, REFERENTE A SERVIÇOS PARA CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SIGPRO."
+    },
+    {
+      "numero": "2022NE0008505",
+      "contrato": "54/2017",
+      "valor": 170000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2022",
+      "descricao": "ATENDER DESPESAS CONTRATUAIS DO CT 054/2017-SEDUC, REFERENTE A CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
+    },
+    {
+      "numero": "2020NE04051",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/10/2020",
+      "descricao": "ATENDER AO CONTRATO DE N. 14/2018"
+    },
+    {
+      "numero": "2022NE0005752",
+      "contrato": "23/2021",
+      "valor": 2917561.78,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;COMPLEMENTO DE QB;2022NE3827;CT 23/2021;1° TERMO;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2021NE0004733",
+      "contrato": "23/2021",
+      "valor": 5835123.56,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2021",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇOS DE CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO A CENTRAL DA SEDUC;COMPLEMENTO DE QB;2021NE1504;CT 23/2021;;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2021NE0004730",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2021",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM;COMPLEMENTO DE QB;2021NE1456;CT 14/2018;3° TERMO ADITIVO ;R$ 22.628.440,80"
+    },
+    {
+      "numero": "2021NE0002000",
+      "contrato": "54/2017",
+      "valor": 4268.84,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "PARA ATENDER 2º TERMO ADITIVO AO CT-0054/2017 - SEDUC - CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
+    },
+    {
+      "numero": "2019NE03110",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "PARA ATENDER AO CONTRATO DE N. 14/2018. OBJETO: SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL DA SECRETARIA DE ESTADO DA EDUCAÇÃO E QUALIDADE DO ENSINO"
+    },
+    {
+      "numero": "2026NE0000659",
+      "contrato": "23/2021",
+      "valor": 5833557.86,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2026",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0011455",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0003799, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+    },
+    {
+      "numero": "2024NE0011468",
+      "contrato": "",
+      "valor": 1.32,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0009310, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+    },
+    {
+      "numero": "2024NE0011465",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0009311, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+    },
+    {
+      "numero": "2024NE0011459",
+      "contrato": "",
+      "valor": 0.02,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0003959, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+    },
+    {
+      "numero": "2024NE0011462",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0008475, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+    },
+    {
+      "numero": "2022NE0009684",
+      "contrato": "",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2022",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO ;2022NE0007459;,"
+    },
+    {
+      "numero": "2019NE07442",
+      "contrato": "",
+      "valor": 244426.02,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 019/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2019NE07443",
+      "contrato": "",
+      "valor": 227725.18,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 01963/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2019NE07444",
+      "contrato": "",
+      "valor": 733280.58,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 03862/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2019NE07445",
+      "contrato": "",
+      "valor": 733271.42,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 05779/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2016NE09727",
+      "contrato": "P.180/2016",
+      "valor": 1283878.25,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2016",
+      "descricao": "indenização"
+    },
+    {
+      "numero": "2016NE09744",
+      "contrato": "",
+      "valor": 67572.54,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2016",
+      "descricao": "INDENIZAÇÃO"
+    },
+    {
+      "numero": "2023NE0008864",
+      "contrato": "",
+      "valor": 83395.57,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2023",
+      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006095, PARA AJUSTE DE FONTE"
+    },
+    {
+      "numero": "2023NE0008889",
+      "contrato": "",
+      "valor": 36227.19,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2023",
+      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006118, PARA AJUSTE DE FONTE"
+    },
+    {
+      "numero": "2023NE0008866",
+      "contrato": "",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2023",
+      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006096, PARA AJUSTE DE FONTE"
+    },
+    {
+      "numero": "2021NE0001504",
+      "contrato": "23/2021",
+      "valor": 5835123.56,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2021",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇOS DE CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO A CENTRA DA SEDUC;;;SEDE;CONTRATAÇÃO ;R$ 5.835.123,56."
+    },
+    {
+      "numero": "2025NE0001623",
+      "contrato": "20/2022",
+      "valor": 198851.11,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2021NE0003529",
+      "contrato": "54/2021",
+      "valor": 369600.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2021",
+      "descricao": "OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA;CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE IMPLANTAÇÃO DE REPOSITÓRIO ARQUIVÍSTICO CONFIÁVEL MEDIANTE TRATAMENTO ARQUIVÍSTICO DE DOCUMENTOS PÚBLICOS ;;;;;R$ 6.904.768,32"
+    },
+    {
+      "numero": "2021NE0003528",
+      "contrato": "54/2021",
+      "valor": 2731200.25,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2021",
+      "descricao": "OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA;CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE IMPLANTAÇÃO DE REPOSITÓRIO ARQUIVÍSTICO CONFIÁVEL MEDIANTE TRATAMENTO ARQUIVÍSTICO DE DOCUMENTOS PÚBLICOS ;;;;;R$ 6.904.768,32"
+    },
+    {
+      "numero": "2017NE04839",
+      "contrato": "161/2016",
+      "valor": 2861069.19,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2017",
+      "descricao": "PARA ATENDER EM DESPESAS COM DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE, SIGEAM, QUE ATENDE AS NECESSIDADES DAS ESCOLAS ESTADUAIS."
+    },
+    {
+      "numero": "2025NE0006225",
+      "contrato": "23/2021",
+      "valor": 1635948.77,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0006209",
+      "contrato": "20/2022",
+      "valor": 1450847.54,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2018NE04045",
+      "contrato": "91/2016",
+      "valor": 2493794.69,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2018",
+      "descricao": "PARA ATENDER EM DESPESAS COM O CONTRATO N. 91/2016. OBJETO: SERVIÇOS DE CONSULTORIA, TREINAMENTO E MANUTENÇÃO DO SIGEAM, QUE ATENDE AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
+    },
+    {
+      "numero": "2018NE04044",
+      "contrato": "",
+      "valor": 2493794.69,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2018",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 3554/2018 POR TER SIDO IMPRESSA SEM HISTÓRICO"
+    },
+    {
+      "numero": "2022NE0003102",
+      "contrato": "23/2021",
+      "valor": 1507406.92,
+      "situacao": "Ativo",
+      "data_emissao": "26/05/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;;;CT 23/2021;1° TERMO;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2022NE0008475",
+      "contrato": "",
+      "valor": 612939.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO 2022NE0000246"
+    },
+    {
+      "numero": "2016NE08596",
+      "contrato": "161/2016",
+      "valor": 3721553.2,
+      "situacao": "Ativo",
+      "data_emissao": "25/10/2016",
+      "descricao": "SERV. PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2016NE08596",
+      "contrato": "",
+      "valor": 3721553.2,
+      "situacao": "Ativo",
+      "data_emissao": "25/10/2016",
+      "descricao": "SERV. PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2021NE0001456",
+      "contrato": "14/2018",
+      "valor": 5782823.76,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2021",
+      "descricao": "RENOVAÇÃO DO CONTRATO DE N. 14/2018, A SER FIRMADO COM ESTA SECRETARIA.OBJETO: SERVIÇOS DE MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SISTEMA DE GESTÃO EDUCACIONAL - SIGEAM, QUE ATENDE AS NECESSIDADES DESTA SECRETARIA"
+    },
+    {
+      "numero": "2025NE0002282",
+      "contrato": "20/2022",
+      "valor": 1333679.43,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional"
+    },
+    {
+      "numero": "2025NE0002281",
+      "contrato": "20/2022",
+      "valor": 1090274.23,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívida, referentes aos serviços prestados sem cobertura contratual,sendo eles, técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, que atendeu as necessidades da Secretaria de Estado de Educação e Desporto Escolar; Período: Mês de agosto de 2024; Conforme Notas Fiscais de Serviços Eletrônicas – NFSes: 48208, 48209, 48210, 48211 e 48212, Fatura de nº 152863 . Despesa amparada pelo parecer 4458/2024-ASSJUR, fl 498 a 510, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
+    },
+    {
+      "numero": "2025NE0002280",
+      "contrato": "20/2022",
+      "valor": 989631.47,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM"
+    },
+    {
+      "numero": "2025NE0002277",
+      "contrato": "20/2022",
+      "valor": 1013254.78,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional"
+    },
+    {
+      "numero": "2025NE0002279",
+      "contrato": "20/2022",
+      "valor": 734682.26,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívida, referentes aos serviços prestados sem cobertura contratual,sendo eles, técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, que atendeu as necessidades da Secretaria de Estado de Educação e Desporto Escolar; Período: Mês de julho de 2024; Conforme Notas Fiscais de Serviços Eletrônicas – NFSes: 47477, 47478, 47479 e 47480, Fatura de nº 152128 . Despesa amparada pelo parecer 4456/2024-ASSJUR, fl 237 a 249, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
+    },
+    {
+      "numero": "2025NE0002283",
+      "contrato": "20/2022",
+      "valor": 1333679.43,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, referente ao período de DEZEMBRO/2024, para atender as necessidades da Secretaria de Estado de Educação e Desporto Escolar"
+    },
+    {
+      "numero": "2025NE0002276",
+      "contrato": "20/2022",
+      "valor": 725439.59,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívidas, referentes aos serviços de técnicosespecializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall para atender as necessidades da Secretaria de Estado de Educação e Desporto Escolar, prestados sem cobertura contratual; Período: Mês de junho de 2024; Conforme Notas Fiscais de Serviços Eletrônicas emitidas e atestadas em pela Gerência de Sistemas de. Informação – GESIN/DEINFRA/SEDUC. Despesa amparada pelo parecer 4358/2024-ASSJUR, fl 359 a 371, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
+    },
+    {
+      "numero": "2023NE0000553",
+      "contrato": "2/2021",
+      "valor": 888061.68,
+      "situacao": "Ativo",
+      "data_emissao": "25/01/2023",
+      "descricao": "RENOVAÇÃO DO CT 02/2021. SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAMRH - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL;CT 02/2021;2º TERMO;;;;"
+    },
+    {
+      "numero": "2021NE0003251",
+      "contrato": "2/2021",
+      "valor": 1184082.24,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2021",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL DOS SERVIDORES DA SEDUC;COMPLEMENTO DE QB;2021NE1063;CT 2/2021;;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2022NE0001018",
+      "contrato": "2/2021",
+      "valor": 888061.68,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;;;CT 2/2021;1° TERMO;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2019NE05779",
+      "contrato": "2/2015",
+      "valor": 733271.42,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2019",
+      "descricao": "DESPESAS DO CONTRATO Nº 02/2015"
+    },
+    {
+      "numero": "2021NE0004048",
+      "contrato": "",
+      "valor": 369600.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2021",
+      "descricao": "OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA;ANULAÇÃO TOTAL DA 2021NE0003529 PARA RETIFICAÇÃO DA NATUREZA DE DESPESA;NE DE ANULAÇÃO TOTAL;2021NE3529;;;R$ 369.600,00"
+    },
+    {
+      "numero": "2022NE0002921",
+      "contrato": "14/2018",
+      "valor": 2011416.96,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM;;;CT 14/2018;4° TERMO;R$ 22.628.440,80"
+    },
+    {
+      "numero": "2026NE0002326",
+      "contrato": "21/2026",
+      "valor": 6179939.24,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2026",
+      "descricao": "Contratação de empresa especializada p/prestação de serviços de TIC, compreendendo a disponibilização de uma solução tecnológica abrangendo os serviços de Software como Serviço (SAAS)–Sistema de Gestão Educacional e Fornecimento de Circuito de Dados."
+    },
+    {
+      "numero": "2022NE0008082",
+      "contrato": "",
+      "valor": 60296.26,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2022",
+      "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO 2022NE0004038"
+    },
+    {
+      "numero": "2016NE07737",
+      "contrato": "",
+      "valor": 712512.77,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2016",
+      "descricao": "Anulação Parcial"
+    },
+    {
+      "numero": "2024NE0004519",
+      "contrato": "14/2018",
+      "valor": 3440675.59,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2024",
+      "descricao": "SALDO DO CT 14/2018. OBJETO:PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL."
+    },
+    {
+      "numero": "2016NE00593",
+      "contrato": "2/2015",
+      "valor": 2688686.33,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2016",
+      "descricao": "SERV. PROCESSAMENTO"
+    },
+    {
+      "numero": "2022NE0004137",
+      "contrato": "54/2017",
+      "valor": 6336.56,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2022",
+      "descricao": "ATENDER DESPESAS DO CONTRATO Nº 0064/2017-SEDUC, REF. A SERV. DE CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA SIGPRO, PELA SEDUC."
+    },
+    {
+      "numero": "2022NE0004137",
+      "contrato": "54/2017",
+      "valor": 6336.56,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2022",
+      "descricao": "ATENDER DESPESAS DO CONTRATO Nº 0064/2017-SEDUC, REF. A SERV. DE CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA SIGPRO, PELA SEDUC."
+    },
+    {
+      "numero": "2024NE0004403",
+      "contrato": "",
+      "valor": 95691.2,
+      "situacao": "Ativo",
+      "data_emissao": "21/05/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE000011, CONSIDERANDO O TÉRMINO DA VIGÊNCIA DO 2º TERMO ADITIVO AO CONTRATO Nº 02/2021. EM ATENDIMENTO AO DESPACHO EXARADO PELA GERÊNCIA DE SISTEMAS DE INFORMAÇÃO - GESIN (FLS. 317-318)."
+    },
+    {
+      "numero": "2024NE0004405",
+      "contrato": "",
+      "valor": 1155815.42,
+      "situacao": "Ativo",
+      "data_emissao": "21/05/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE002014, CONSIDERANDO O TÉRMINO DA VIGÊNCIA DO 2º TERMO ADITIVO AO CONTRATO Nº 02/2021. EM ATENDIMENTO AO DESPACHO EXARADO PELA GERÊNCIA DE SISTEMAS DE INFORMAÇÃO - GESIN (FLS. 317-318)."
+    },
+    {
+      "numero": "2018NE02790",
+      "contrato": "14/2018",
+      "valor": 13199923.8,
+      "situacao": "Ativo",
+      "data_emissao": "21/05/2018",
+      "descricao": "PARA ATENDER EM CONTRATAÇÃO DE SERVIÇOS DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM, TRANSMISSÃO DE DADOS/INTERNET SERVIÇOS FIREWALL, HOSPEDAGEM DE DADOS, NAS UNIDADES EDUCACIONAIS DESTA SEDUC"
+    },
+    {
+      "numero": "2022NE0001493",
+      "contrato": "14/2018",
+      "valor": 5531396.64,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE0241;CT 14/2018;3° TERMO;R$ 22.628.440,80"
+    },
+    {
+      "numero": "2022NE0001503",
+      "contrato": "20/2022",
+      "valor": 6606733.25,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E GESTÃO DE P;R$ 19.963.695,60"
+    },
+    {
+      "numero": "2017NE01521",
+      "contrato": "54/2017",
+      "valor": 6720.47,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2017",
+      "descricao": "Serviços"
+    },
+    {
+      "numero": "2017NE01520",
+      "contrato": "54/2017",
+      "valor": 60483.79,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2017",
+      "descricao": "Serviços"
+    },
+    {
+      "numero": "2017NE00962",
+      "contrato": "2/2015",
+      "valor": 900000.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2017",
+      "descricao": "COMPLEMENTAÇÃO DOS RECURSOS DA NOTA DE EMPENHO DE N. 580/2017"
+    },
+    {
+      "numero": "2022NE0008950",
+      "contrato": "",
+      "valor": 135565.31,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0008949",
+      "contrato": "",
+      "valor": 94933.91,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0008948",
+      "contrato": "",
+      "valor": 1681751.82,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0008947",
+      "contrato": "",
+      "valor": 5375559.49,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0004131",
+      "contrato": "",
+      "valor": 4135.43,
+      "situacao": "Ativo",
+      "data_emissao": "20/07/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2022NE00458, PARA AJUSTE ORÇAMENTÁRIO NO CONTRATO Nº 054/2017 - SEDUC - CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM DO SIGPRO"
+    },
+    {
+      "numero": "2018NE03630",
+      "contrato": "161/2016",
+      "valor": 1767609.36,
+      "situacao": "Ativo",
+      "data_emissao": "20/06/2018",
+      "descricao": "PARA ATENDER EM DESPESAS COM SERVIÇOS PRESTADOS SEM COBERTURA CONTRATUAL NO PERÍODO DE ABRIL DE 2018, DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE - SIGEAM, QUE ATENDEU AS ESCOLAS ESTADUAIS DA CAPITAL E INTERIOR DO ESTADO DO AMAZONAS/SEDUC."
+    },
+    {
+      "numero": "2020NE01548",
+      "contrato": "14/2018",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "RENOVAÇÃO AO CONTRATO 14/2018"
+    },
+    {
+      "numero": "2020NE01551",
+      "contrato": "14/2018",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "RENOVAÇÃO AO CONTRATO 14/2018"
+    },
+    {
+      "numero": "2020NE01550",
+      "contrato": "",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO"
+    },
+    {
+      "numero": "2026NE0002267",
+      "contrato": "",
+      "valor": 6179939.24,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2026",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 2026NE0001902, PARA CORREÇÃO DA AÇÃO DO PROGRAMA DE TRABALHO."
+    },
+    {
+      "numero": "2023NE0000008",
+      "contrato": "",
+      "valor": 9428517.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2023",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 2023NE00000006, PARA CORREÇÃO DA DATA DE EMISSÃO"
+    },
+    {
+      "numero": "2023NE0000006",
+      "contrato": "14/2018",
+      "valor": 9428517.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM REF AO 4º TERMO ADITIVO AO CONTRATO Nº 14/2018, FIRMADO COM ESTA SECRETARIA PELO PERÍODO DE 12 (DOZE) MESES, ;;;;; R$ 22.628.440,80"
+    },
+    {
+      "numero": "2015NE07056",
+      "contrato": "2/2015",
+      "valor": 184127.1,
+      "situacao": "Ativo",
+      "data_emissao": "19/10/2015",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2016NE06984",
+      "contrato": "128/2016",
+      "valor": 46405.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/08/2016",
+      "descricao": "LOCAÇÃO DE SOFTWARE"
+    },
+    {
+      "numero": "2016NE07015",
+      "contrato": "2/2015",
+      "valor": 234122.58,
+      "situacao": "Ativo",
+      "data_emissao": "19/08/2016",
+      "descricao": "PARA ATENDER NO PAGAMENTO DE EXERCICIOS ANTERIORES DOS SERVIÇOS DE EXECUÇÃO DE SISTEMAS CADASTRO/FOLHA DE PAGAMENTO DO ANO 2014"
+    },
+    {
+      "numero": "2016NE06983",
+      "contrato": "",
+      "valor": 46405.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/08/2016",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2025NE0001095",
+      "contrato": "23/2021",
+      "valor": 2774901.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2025",
+      "descricao": "SALDO REMANESCENTE DO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, DESTINADO À CENTRAL DE ATENDIMENTO DA SEDUC."
+    },
+    {
+      "numero": "2025NE0001094",
+      "contrato": "2/2021",
+      "valor": 900690.91,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2025",
+      "descricao": "SALDO REMANESCENTE DO CONTRATO Nº 02/2021. OBJETO: SERVIÇOS DE INFORMÁTICA PARA EXECUÇÃO DO SISTEMA PRODAM RH - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2020NE00385",
+      "contrato": "54/2017",
+      "valor": 13617.12,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "ATENDER 1º TERMO ADITIVO AO CT-00054/2017-SEDUC, REF PRORROGAÇÃO DE PRAZO ATENDER 1º TERMO ADITIVO AO CT-00054/2017-SEDUC, REF PRORROGAÇÃO DE PRAZO."
+    },
+    {
+      "numero": "2024NE0011101",
+      "contrato": "23/2021",
+      "valor": 4376342.67,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2022NE0006242",
+      "contrato": "14/2018",
+      "valor": 5657110.2,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE4032;CT 14/2018;4° TERMO;R$ 22.628.440,80"
+    },
+    {
+      "numero": "2017NE06246",
+      "contrato": "161/2016",
+      "valor": 944083.62,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2017",
+      "descricao": "Para atender no aditivo do contrato nº 161/2016 que tem como objeto: serviços de desenvolvimento e implantação de software (SIGEAM) em atendimento as Escolas Estaduais da Rede Publica de Ensino."
+    },
+    {
+      "numero": "2025NE0007845",
+      "contrato": "2/2021",
+      "valor": 624814.08,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0007857",
+      "contrato": "23/2021",
+      "valor": 2917741.06,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 05."
+    },
+    {
+      "numero": "2016NE05695",
+      "contrato": "91/2016",
+      "valor": 1068769.15,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2016",
+      "descricao": "TECNOLOGIA DA INFORMAÇÃO"
+    },
+    {
+      "numero": "2016NE05694",
+      "contrato": "",
+      "valor": 1194922.67,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO DE N. 5396/2016 POR TER SIDO EMPENHADO A MAIOR"
+    },
+    {
+      "numero": "2024NE0003352",
+      "contrato": "23/2021",
+      "valor": 1458870.53,
+      "situacao": "Ativo",
+      "data_emissao": "18/04/2024",
+      "descricao": "SALDO REMANESCENTE DO 3º TERMO ADITIVO AO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER, COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, UTILIZANDO MODELO OMNICHANNEL."
+    },
+    {
+      "numero": "2024NE0003351",
+      "contrato": "14/2018",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "18/04/2024",
+      "descricao": "SALDO REMANESCENTE DO 5º TERMO ADITIVO AO CONTRATO Nº 14/2018. OBJETO: SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL DA SEDUC."
+    },
+    {
+      "numero": "2020NE00350",
+      "contrato": "54/2017",
+      "valor": 4000.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2020",
+      "descricao": "ATENDER SALDO DO CT.00054/2017 - REF CUSTOMIZAÇÃO IMPLANTAÇÃO E HOSPEDAGEM DO SIGPRO."
+    },
+    {
+      "numero": "2020NE00364",
+      "contrato": "",
+      "valor": 222660.24,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 2020NE00126, CORRESPONDENTE AO CT.00091/2016-SEDUC, PARA PERMUTA DE FONTE."
+    },
+    {
+      "numero": "2020NE00349",
+      "contrato": "",
+      "valor": 206245.7,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 2020NE00130, CORRESPONDENTE AO CT.00054/2017-SEDUC, PARA PERMUTA DE FONTE."
+    },
+    {
+      "numero": "2020NE00365",
+      "contrato": "91/2016",
+      "valor": 890640.96,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2020",
+      "descricao": "ATENDER CT.00091/2016-SEDUC - DESENVOLVIMENTO E IMPLANTAÇÃO DO SIGEAM"
+    },
+    {
+      "numero": "2015NE07822",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2015",
+      "descricao": "NE 7822 DE 17/11/2015 R$ 1.485.253,11 Contrato 235/2010 - SIGEAM ON LINE"
+    },
+    {
+      "numero": "2015NE07822",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2015",
+      "descricao": "SER. PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2022NE0004619",
+      "contrato": "2/2021",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE4024;CT 2/2021;1° TERMO;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2022NE0004619",
+      "contrato": "2/2021",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE4024;CT 2/2021;1° TERMO;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2017NE02042",
+      "contrato": "2/2015",
+      "valor": 653686.29,
+      "situacao": "Ativo",
+      "data_emissao": "17/04/2017",
+      "descricao": "TOTALIDADE"
+    },
+    {
+      "numero": "2017NE01364",
+      "contrato": "54/2017",
+      "valor": 68548.3,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2017",
+      "descricao": "Serviços customização."
+    },
+    {
+      "numero": "2017NE01518",
+      "contrato": "",
+      "valor": 68548.3,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2017",
+      "descricao": "Anulação"
+    },
+    {
+      "numero": "2017NE01519",
+      "contrato": "",
+      "valor": 7616.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2017",
+      "descricao": "Anulação"
+    },
+    {
+      "numero": "2017NE01280",
+      "contrato": "91/2016",
+      "valor": 712512.77,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2017",
+      "descricao": "Consultoria"
+    },
+    {
+      "numero": "2017NE01365",
+      "contrato": "91/2016",
+      "valor": 7616.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2017",
+      "descricao": "serviços customização."
+    },
+    {
+      "numero": "2018NE07102",
+      "contrato": "2/2015",
+      "valor": 244426.1,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2018",
+      "descricao": "PARA ATENDER EM DESPESAS COM O CONTRATO DE N. 002/2015, FIRMADO COM ESTA SECRETARIA, VIGENTE ATÉ 02/02/2019. OBJETO: SERVIÇOS DE PROCESSAMENTO DE DADOS DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL DA SEDUC."
+    },
+    {
+      "numero": "2014NE07075",
+      "contrato": "235/2010",
+      "valor": 693118.16,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2014",
+      "descricao": "Contrato No. 235/2010 - SIGEAM"
+    },
+    {
+      "numero": "2018NE01512",
+      "contrato": "",
+      "valor": 2444260.2,
+      "situacao": "Ativo",
+      "data_emissao": "16/03/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE01513",
+      "contrato": "2/2015",
+      "valor": 2444260.2,
+      "situacao": "Ativo",
+      "data_emissao": "16/03/2018",
+      "descricao": "ADITIVO CT- 02/2015"
+    },
+    {
+      "numero": "2017NE08003",
+      "contrato": "161/2016",
+      "valor": 2581452.03,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2017",
+      "descricao": "PARA ATENDER DESPESAS DO CONTRATO DE Nª 161/2016"
+    },
+    {
+      "numero": "2017NE06175",
+      "contrato": "161/2016",
+      "valor": 2861069.19,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2017",
+      "descricao": "Para atender na complementação do contrato nº 161/2016 com vigencia 27.12.2017 que tem como objeto: serviços de desenvolvimento e implantação de software (SIGEAM) em atendimento as Escolas Estaduais da Rede Publica de Ensino."
+    },
+    {
+      "numero": "2016NE07636",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2016",
+      "descricao": "COMPLEMENTAÇÃO DOS RECURSOS DA NOTA DE EMPENHO DE N. 5110/2016"
+    },
+    {
+      "numero": "2022NE0004539",
+      "contrato": "54/2017",
+      "valor": 6003.06,
+      "situacao": "Ativo",
+      "data_emissao": "15/08/2022",
+      "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2022NE0004137, PARA ATENDER DESPESAS DO CONTRATO Nº CT-00054/2017-SEDUC, REFERENTE A SERVIÇOS PARA CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SIGPRO"
+    },
+    {
+      "numero": "2018NE03554",
+      "contrato": "91/2016",
+      "valor": 2493794.69,
+      "situacao": "Ativo",
+      "data_emissao": "15/06/2018",
+      "descricao": "PARA ATENDER EM DESPESAS COM O CONTRATO N. 91/2016. OBJETO: SERVIÇOS DE CONSULTORIA, TREINAMENTO E MANUTENÇÃO DO SIGEAM, QUE ATENDE AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
+    },
+    {
+      "numero": "2018NE03573",
+      "contrato": "161/2016",
+      "valor": 1010600.98,
+      "situacao": "Ativo",
+      "data_emissao": "15/06/2018",
+      "descricao": "PARA ATENDER A PAGAMENTO/EXERCÍCIOS ANTERIORES, PERÍODO NOVEMBRO DE 2017, DE SERVIÇOS DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE (SIGEAM) QUE ATENDEU AS NECESSIDADES DESTA SECRETARIA JUNTO AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
+    },
+    {
+      "numero": "2023NE0004028",
+      "contrato": "14/2018",
+      "valor": 2019297.86,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
+      "numero": "2023NE04028",
+      "contrato": "14/2018",
+      "valor": 2019287.86,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "5º Termo Aditivo, prorrogação de prazo."
+    },
+    {
+      "numero": "2020NE01533",
+      "contrato": "2/2015",
+      "valor": 407376.7,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2020",
+      "descricao": "RENOVAÇÃO DO CONTRATO Nº 02/2015. OBJETO: PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA - FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC."
+    },
+    {
+      "numero": "2024NE0008473",
+      "contrato": "2/2021",
+      "valor": 296019.94,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0008475",
+      "contrato": "20/2022",
+      "valor": 1934977.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2016NE05396",
+      "contrato": "235/2010",
+      "valor": 1194922.67,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2016",
+      "descricao": "CONSULTORIA"
+    },
+    {
+      "numero": "2017NE03557",
+      "contrato": "161/2016",
+      "valor": 2861069.19,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2017",
+      "descricao": "SERV. PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2025NE0003892",
+      "contrato": "2/2021",
+      "valor": 624814.08,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0003893",
+      "contrato": "23/2021",
+      "valor": 1410154.86,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0003958",
+      "contrato": "23/2021",
+      "valor": 1458870.53,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0003955",
+      "contrato": "14/2018",
+      "valor": 1752108.94,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
+      "numero": "2024NE0003959",
+      "contrato": "20/2022",
+      "valor": 1475162.08,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2024NE0003956",
+      "contrato": "2/2021",
+      "valor": 296019.94,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
+    },
+    {
+      "numero": "2014NE03313",
+      "contrato": "156/2013",
+      "valor": 1400000.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2014",
+      "descricao": "Contrato No. 156/2013 - Serviços de Implantação da Rede de Comunicação sem fio WI FI"
+    },
+    {
+      "numero": "2015NE02634",
+      "contrato": "235/2010",
+      "valor": 3960674.94,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2015",
+      "descricao": "Cobertura Financeira 2015 Contrato 235/2010 - 6 TA NE 2634 de 14/04/2015 R$ 3.960.674,94 Abril a Junho/15"
+    },
+    {
+      "numero": "2024NE0002483",
+      "contrato": "23/2021",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "14/03/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
+      "numero": "2024NE0002485",
+      "contrato": "23/2021",
+      "valor": 2917741.06,
+      "situacao": "Ativo",
+      "data_emissao": "14/03/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 03."
+    },
+    {
+      "numero": "2022NE0006115",
+      "contrato": "23/2021",
+      "valor": 1458780.89,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;COMPLEMENTO DE QB;2022NE5752;CT 23/2021;1° TERMO;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2022NE0004038",
+      "contrato": "54/2021",
+      "valor": 543424.01,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE IMPLANTAÇÃO DE REPOSITRÓRIO ARQUIVÍSTICO CONFIÁVEL, MANTIDA NA ESTRUTURA DE DATA CENTER PRÓPRIA. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE2608;CT 54/2021;;R$ 6.904.768,32"
+    },
+    {
+      "numero": "2022NE0004024",
+      "contrato": "2/2021",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE2776;CT 2/2021;1° TERMO;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2022NE0004032",
+      "contrato": "14/2018",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE2921;CT 14/2018;4° TERMO;R$ 22.628.440,80"
+    },
+    {
+      "numero": "2021NE0001219",
+      "contrato": "54/2017",
+      "valor": 6003.06,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2021",
+      "descricao": "PARA ATENDER DESPESAS DO CT 0054/2017 - SEDUC - CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
+    },
+    {
+      "numero": "2020NE00126",
+      "contrato": "91/2016",
+      "valor": 222660.24,
+      "situacao": "Ativo",
+      "data_emissao": "13/01/2020",
+      "descricao": "ATENDER CT.091/2016-SEDUC, DESENVOLVIMENTO E IMPLANTAÇÃO DO SIGEAM."
+    },
+    {
+      "numero": "2020NE00130",
+      "contrato": "54/2017",
+      "valor": 206245.7,
+      "situacao": "Ativo",
+      "data_emissao": "13/01/2020",
+      "descricao": "ATENDER CT.054/2017-SEDUC, FIRMADO COM A PRODAM, REF. CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM DO SIGPRO."
+    },
+    {
+      "numero": "2015NE05162",
+      "contrato": "2/2015",
+      "valor": 370039.7,
+      "situacao": "Ativo",
+      "data_emissao": "12/08/2015",
+      "descricao": "Cobertura Financeira 2015 NE 5162 de 12/08/2015 R$ 370.039,70 Agosto - R$ 370.039,70"
+    },
+    {
+      "numero": "2022NE0002776",
+      "contrato": "2/2021",
+      "valor": 592041.12,
+      "situacao": "Ativo",
+      "data_emissao": "12/05/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE1018;CT 2/2021;1° TERMO;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2022NE0007459",
+      "contrato": "20/2022",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE6242;CT 14/2018;4° TERMO;R$ 22.628.440,80"
+    },
+    {
+      "numero": "2022NE0007460",
+      "contrato": "23/2021",
+      "valor": 1458780.89,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;COMPLEMENTO DE QB;2022NE6115;CT 23/2021;1° TERMO;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2023NE0006118",
+      "contrato": "23/2021",
+      "valor": 1458870.53,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2023",
+      "descricao": "2º TERMO ADITIVO AO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER, COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, UTILIZANDO MODELO OMNICHANNEL, DESTINADOS À CENTRAL DE ATENDIMENTO DA SEDUC."
+    },
+    {
+      "numero": "2016NE06473",
+      "contrato": "",
+      "valor": 46405.44,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2016",
+      "descricao": "LOCAÇÃO SOFTWARE"
+    },
+    {
+      "numero": "2018NE01833",
+      "contrato": "161/2016",
+      "valor": 1837735.26,
+      "situacao": "Ativo",
+      "data_emissao": "11/04/2018",
+      "descricao": "Pagamento de indenização referente ao Mês de Fevereiro/2018, NF´S: 751 A 756, dos serviços de processamento de dados contratado sem a cobertura contratual"
+    },
+    {
+      "numero": "2019NE00308",
+      "contrato": "2/2015",
+      "valor": 488853.72,
+      "situacao": "Ativo",
+      "data_emissao": "11/02/2019",
+      "descricao": "SERV, DE PROCESSAMENTO DA FOLHA DE PESSOAL"
+    },
+    {
+      "numero": "2015NE08556",
+      "contrato": "P.222/2014",
+      "valor": 850603.66,
+      "situacao": "Ativo",
+      "data_emissao": "10/12/2015",
+      "descricao": "INDENIZAÇÃO"
+    },
+    {
+      "numero": "2015NE08558",
+      "contrato": "P.222/2014",
+      "valor": 7635.8,
+      "situacao": "Ativo",
+      "data_emissao": "10/12/2015",
+      "descricao": "INDENIZAÇÃO"
+    },
+    {
+      "numero": "2020NE03175",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2020",
+      "descricao": "ATENDER AO CONTRATO Nº 14/2018."
+    },
+    {
+      "numero": "2022NE0004479",
+      "contrato": "54/2017",
+      "valor": 12006.12,
+      "situacao": "Ativo",
+      "data_emissao": "10/08/2022",
+      "descricao": "PARA ATENDER DESPESAS DO CT 054/2017-SEDUC, REFERENTE A SERVIÇOS DE CUSTOMIZAÇÃO, IMPLANTAÇÃO, HOSPEDAGEM E MANUTENÇÃO DO SISTEMA SIGPRO, PARA UTILIZAÇÃO PELA SEDUC/AM."
+    },
+    {
+      "numero": "2023NE0004983",
+      "contrato": "",
+      "valor": 619380.18,
+      "situacao": "Ativo",
+      "data_emissao": "10/07/2023",
+      "descricao": "ANULAÇÃO PARCIAL DE SALDO DA NOTA DE EMPENHO DE 2023NE000013"
+    },
+    {
+      "numero": "2023NE0004984",
+      "contrato": "",
+      "valor": 1759989.84,
+      "situacao": "Ativo",
+      "data_emissao": "10/07/2023",
+      "descricao": "ANULAÇÃO TOTAL DE SALDO DA NOTA DE EMPENHO DE 2023NE0003892"
+    },
+    {
+      "numero": "2015NE03781",
+      "contrato": "235/2010",
+      "valor": 1485253.72,
+      "situacao": "Ativo",
+      "data_emissao": "10/06/2015",
+      "descricao": "Cobertura Financeira 2015 NE 3781 DE 10/06/2015 R$ 1.485.253,72 Contrato 235/2010- 6 TA Junho a Julho/15"
+    },
+    {
+      "numero": "2025NE0002812",
+      "contrato": "23/2021",
+      "valor": 2917561.76,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0002818",
+      "contrato": "20/2022",
+      "valor": 434317.06,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2018NE01832",
+      "contrato": "",
+      "valor": 1837735.26,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE01800",
+      "contrato": "161/2016",
+      "valor": 1837735.26,
+      "situacao": "Ativo",
+      "data_emissao": "10/04/2018",
+      "descricao": "Pagamento de indenização referente ao Mês de Fevereiro/2018, NF´S: 751 A 756, dos serviços de processamento de dados contratado sem a cobertura contratual"
+    },
+    {
+      "numero": "2025NE0000824",
+      "contrato": "23/2021",
+      "valor": 1458780.88,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000821",
+      "contrato": "2/2021",
+      "valor": 296019.96,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0008389",
+      "contrato": "23/2021",
+      "valor": 1333371.64,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0008390",
+      "contrato": "23/2021",
+      "valor": 1390799.16,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2020NE03144",
+      "contrato": "2/2015",
+      "valor": 407376.7,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2020",
+      "descricao": "ATENDER AO CONTRATO Nº 02/2015."
+    },
+    {
+      "numero": "2025NE0002774",
+      "contrato": "2/2021",
+      "valor": 624814.08,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2015NE02553",
+      "contrato": "2/2015",
+      "valor": 555059.55,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2015",
+      "descricao": "Cobertura Financeira 2015 Contrato 002/2015 - PRODAM RH Abril a Junho/15"
+    },
+    {
+      "numero": "2023NE0003946",
+      "contrato": "2/2021",
+      "valor": 592041.12,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2015NE03176",
+      "contrato": "P.222/2014",
+      "valor": 488337.2,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "INDENIZAÇÃO"
+    },
+    {
+      "numero": "2015NE03177",
+      "contrato": "",
+      "valor": 83822.44,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2015NE03178",
+      "contrato": "P.222/2014",
+      "valor": 83822.44,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "INDENIZAÇÃO E RESTITUIÇÃO"
+    },
+    {
+      "numero": "2015NE03175",
+      "contrato": "",
+      "valor": 488337.2,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2015NE02403",
+      "contrato": "P.222/2014",
+      "valor": 83822.44,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2015",
+      "descricao": "DESP DE EXERC. ANTERIORES"
+    },
+    {
+      "numero": "2015NE02402",
+      "contrato": "P.222/2014",
+      "valor": 488337.2,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2015",
+      "descricao": "DESPESAS EXERCICIOS ANTERIOS"
+    },
+    {
+      "numero": "2024NE0002322",
+      "contrato": "2/2021",
+      "valor": 592039.88,
+      "situacao": "Ativo",
+      "data_emissao": "08/03/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
+    },
+    {
+      "numero": "2023NE0002583",
+      "contrato": "20/2022",
+      "valor": 1935569.8,
+      "situacao": "Ativo",
+      "data_emissao": "08/03/2023",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SALDO REMANESCENTE DO CT 20/2022. SERVIÇO DE FORNECIMENTO, LICENÇA, DESENVOLVIMENTO E MANUTENÇÃO DO SISTEMA INTEGRADO DE GESTÃO EDUCACIONAL;;;CT 20/2022;;R$ 19.963.695,60"
+    },
+    {
+      "numero": "2024NE0003867",
+      "contrato": "23/2021",
+      "valor": 48626.03,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2020NE04141",
+      "contrato": "54/2017",
+      "valor": 6106.84,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2020",
+      "descricao": "ATENDER COMPLEMENTAÇÃO DE DESPESAS COM O 1º TERMO ADITIVO AO CT-00054/2017-SEDUC, REF CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM DO SIGPRO."
+    },
+    {
+      "numero": "2018NE04263",
+      "contrato": "161/2016",
+      "valor": 1860776.4,
+      "situacao": "Ativo",
+      "data_emissao": "06/07/2018",
+      "descricao": "PARA ATENDER EM PAGAMENTO/INDENIZAÇÃO DE SERVIÇOS PRESTADOS SEM COBERTURA CONTRATUAL REFERENTE AO MÊS DE MAIO DE 2018, OBJETO: SERVIÇOS DE CONSULTORIA TREINAMENTO E MANUTENÇÃO DO SIGEAM, QUE ATENDE AS ESCOLAS DA REDE ESTADUAL DE ENSINO"
+    },
+    {
+      "numero": "2025NE0001669",
+      "contrato": "",
+      "valor": 2774901.44,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2025",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO 2025NE001095"
+    },
+    {
+      "numero": "2022NE0005882",
+      "contrato": "",
+      "valor": 3619337.99,
+      "situacao": "Ativo",
+      "data_emissao": "05/10/2022",
+      "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 2022NE0001493"
+    },
+    {
+      "numero": "2023NE0006095",
+      "contrato": "14/2018",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "05/09/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
+      "numero": "2023NE0006096",
+      "contrato": "2/2021",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "05/09/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2026NE0000176",
+      "contrato": "2/2021",
+      "valor": 312406.99,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2015NE00336",
+      "contrato": "235/2010",
+      "valor": 3960674.94,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira 2015 - meses: janeiro a março"
+    },
+    {
+      "numero": "2015NE08490",
+      "contrato": "235/2010",
+      "valor": 600000.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2015",
+      "descricao": "TOTALIDADE DA NE 8489/2015"
+    },
+    {
+      "numero": "2015NE08489",
+      "contrato": "235/2010",
+      "valor": 2370506.22,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2015",
+      "descricao": "COMPLEMENTAÇÃO DA NE 7822/2015"
+    },
+    {
+      "numero": "2021NE0005967",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2021",
+      "descricao": "SALDO REMANESCENTE DO 3º T. AD. AO CONTRATO 14/2018DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM;COMPLEMENTO DE QB;2021NE1456;CT 14/2018;3° TERMO ADITIVO ;R$ 22.628.440,80 ;;;;;;"
+    },
+    {
+      "numero": "2019NE04862",
+      "contrato": "14/2018",
+      "valor": 1865628.52,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2019",
+      "descricao": "ATENDER AO CONTRATO DE Nº 14/2018"
+    },
+    {
+      "numero": "2019NE04861",
+      "contrato": "14/2018",
+      "valor": 3791481.68,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2019",
+      "descricao": "ATENDER AO CONTRATO DE Nº 14/2018"
+    },
+    {
+      "numero": "2025NE0006348",
+      "contrato": "20/2022",
+      "valor": 1787765.05,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2022NE0003827",
+      "contrato": "23/2021",
+      "valor": 1458780.89,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;COMPLEMENTO DE QB;2022NE3102;CT 23/2021;1° TERMO;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2018NE04072",
+      "contrato": "161/2016",
+      "valor": 1860641.43,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2018",
+      "descricao": "PARA ATENDER A PAGAMENTO/INDENIZAÇÃO DE SERVIÇOS PRESTADOS NO PERÍODO DE ABRIL DE 2018, DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE (SIGEAM), QUE ATENDEU AS NECESSIDADES DESTA SECRETARIA JUNTO AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
+    },
+    {
+      "numero": "2022NE0002608",
+      "contrato": "54/2021",
+      "valor": 1086848.02,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE IMPLANTAÇÃO DE REPOSITRÓRIO ARQUIVÍSTICO CONFIÁVEL, MANTIDA NA ESTRUTURA DE DATA CENTER PRÓPRIA. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE238;CT 54/2021;;R$ 6.904.768,32"
+    },
+    {
+      "numero": "2018NE02393",
+      "contrato": "161/2016",
+      "valor": 1860631.36,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2018",
+      "descricao": "PARA ATENDER EM PAGAMENTO/INDENIZAÇÃO, PERÍODO: MARÇO DE 2018, DE MANUTENÇÃO OPERACIONAL CORRETIVA E EVOLUTIVA DO SIGEAM -SISTEMA INTEGRADO DE GESTÃO EDUCACIONAL DA SECRETARIA DE ESTADO DE EDUCAÇÃO JUNTO AS ESCOLAS ESTADUAIS"
+    },
+    {
+      "numero": "2016NE00400",
+      "contrato": "235/2010",
+      "valor": 4406250.89,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2016NE00410",
+      "contrato": "2/2015",
+      "valor": 185019.85,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2019NE06792",
+      "contrato": "14/2018",
+      "valor": 3680635.32,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2019",
+      "descricao": "ATENDER AO CONTRATO DE N. 14/2018"
+    },
+    {
+      "numero": "2019NE06791",
+      "contrato": "14/2018",
+      "valor": 90771.48,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2019",
+      "descricao": "ATENDER AO CONTRATO DE N. 14/2018"
+    },
+    {
+      "numero": "2015NE08488",
+      "contrato": "",
+      "valor": 600000.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO DE N. 8457/2015"
+    },
+    {
+      "numero": "2015NE08487",
+      "contrato": "",
+      "valor": 2370506.22,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NE 8455/2015"
+    },
+    {
+      "numero": "2015NE08455",
+      "contrato": "235/2010",
+      "valor": 2370506.22,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE08471",
+      "contrato": "P.219/2014",
+      "valor": 582322.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "SERV. PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE08448",
+      "contrato": "235/2010",
+      "valor": 990168.17,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE08472",
+      "contrato": "P.219/2014",
+      "valor": 167074.3,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "INDENIZAÇÃO"
+    },
+    {
+      "numero": "2015NE08449",
+      "contrato": "2/2015",
+      "valor": 1000000.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "PROC. DE DADOS"
+    },
+    {
+      "numero": "2015NE08457",
+      "contrato": "235/2010",
+      "valor": 600000.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2024NE0003799",
+      "contrato": "20/2022",
+      "valor": 5469579.94,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2023NE0003892",
+      "contrato": "14/2018",
+      "valor": 1759989.84,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS PARA A MANUNTENÇÃO OPERACIONAL DO SIGEAM DA SEDUC/AM TC: 014/2018 AD: 04."
+    },
+    {
+      "numero": "2023NE0003893",
+      "contrato": "23/2021",
+      "valor": 2868935.74,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 023/2021 AD: 01."
+    },
+    {
+      "numero": "2021NE0001063",
+      "contrato": "2/2021",
+      "valor": 1184082.24,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA - FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC. CT 2/2021"
+    },
+    {
+      "numero": "2023NE03350",
+      "contrato": "54/2017",
+      "valor": 8866.14,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2023",
+      "descricao": "6º Termo Aditivo ao Contrato 054/2027"
+    },
+    {
+      "numero": "2023NE0003350",
+      "contrato": "54/2017",
+      "valor": 8866.14,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2023",
+      "descricao": "ATENDER DESPESAS DO 6º TA AO CT-0054/2017-SEDUC, REF. A SERVIÇOS DE CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO E PROJETOS - SIGPRO PROC. ADM. 01.01.028101.010886/2023-38 (SIGED)"
+    },
+    {
+      "numero": "2014NE02307",
+      "contrato": "156/2013",
+      "valor": 1000000.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2014",
+      "descricao": "Contrato No. 156/2013 - Serviços de Implantação da Rede de Comunicação sem fio WI FI"
+    },
+    {
+      "numero": "2026NE0001902",
+      "contrato": "21/2026",
+      "valor": 6179939.24,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "Contratação de empresa especializada p/prestação de serviços de TIC, compreendendo a disponibilização de uma solução tecnológica abrangendo os serviços de Software como Serviço (SAAS)–Sistema de Gestão Educacional e Fornecimento de Circuito de Dados."
+    },
+    {
+      "numero": "2022NE0000246",
+      "contrato": "23/2021",
+      "valor": 5835123.53,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE1504;CT 23/2021;;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2022NE0000238",
+      "contrato": "54/2021",
+      "valor": 2173696.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE IMPLANTAÇÃO DE REPOSITRÓRIO ARQUIVÍSTICO CONFIÁVEL, MANTIDA NA ESTRUTURA DE DATA CENTER PRÓPRIA. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE3528;CT 54/2021;;R$ 6.904.768,32"
+    },
+    {
+      "numero": "2022NE0000243",
+      "contrato": "2/2021",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE372;CT 2/2021;;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2025NE0006283",
+      "contrato": "",
+      "valor": 1450847.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2025",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO 2025NE0006209"
+    },
+    {
+      "numero": "2018NE04064",
+      "contrato": "",
+      "valor": 1767609.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2018",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 3630/2018 PARA CORREÇÃO NO VALOR EMPENHADO"
+    },
+    {
+      "numero": "2018NE02373",
+      "contrato": "161/2016",
+      "valor": 1610834.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2018",
+      "descricao": "PARA ATENDER EM PAGAMENTO PRESTADOS SEM COBERTURA CONTRATUAL, NO PERÍODO DE JANEIRO DE 2018, DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE (SIGEAM), QUE ATENDEU ESTA SECRETARIA DE ESTADO DE EDUCAÇÃO E QUALIDADE DE ENSINO/SEDUC"
+    },
+    {
+      "numero": "2018NE01423",
+      "contrato": "2/2015",
+      "valor": 2444260.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2018",
+      "descricao": "ADITIVO CT- 02/2015"
+    },
+    {
+      "numero": "2015NE00872",
+      "contrato": "2/2015",
+      "valor": 375366.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/02/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+    },
+    {
+      "numero": "2025NE0000648",
+      "contrato": "23/2021",
+      "valor": 1458780.89,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000412",
+      "contrato": "20/2022",
+      "valor": 1122184.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2025NE0000367",
+      "contrato": "2/2021",
+      "valor": 312407.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000011",
+      "contrato": "2/2021",
+      "valor": 296020.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000010",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
+      "numero": "2024NE0000469",
+      "contrato": "23/2021",
+      "valor": 2916974.27,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 03."
+    },
+    {
+      "numero": "2023NE0000013",
+      "contrato": "14/2018",
+      "valor": 9428517.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM REF AO 4º TERMO ADITIVO AO CONTRATO Nº 14/2018, FIRMADO COM ESTA SECRETARIA PELO PERÍODO DE 12 (DOZE) MESES, ;;;;; R$ 22.628.440,80"
+    },
+    {
+      "numero": "2023NE0000001",
+      "contrato": "2/2021",
+      "valor": 1480102.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE4619;CT 2/2021;1° TERMO;R$ 3.552.246,72"
+    },
+    {
+      "numero": "2023NE0000011",
+      "contrato": "23/2021",
+      "valor": 4376342.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE CONTACT CENTER, COM ADOÇÃO DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO REF AO 1º TERMO ADITIVO AO CONTRATO Nº 23/2021, A SER FIRMADO COM ESTA SECRETARIA PELO PERÍODO DE 12 MESES;;;;;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2019NE00003",
+      "contrato": "",
+      "valor": 488852.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 001/2019"
+    },
+    {
+      "numero": "2019NE00001",
+      "contrato": "2/2015",
+      "valor": 488852.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL DA SEDUC."
+    },
+    {
+      "numero": "2019NE00019",
+      "contrato": "2/2015",
+      "valor": 244426.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL DA SEDUC."
+    },
+    {
+      "numero": "2017NE00116",
+      "contrato": "2/2015",
+      "valor": 244425.99,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "PARA ATENDER NOS SERVIÇOS DE PROCESSAMENTO DE DADOS DAS FOLHAS DE PAGAMENTO DE PESSOAL E CADASTRO DOS SERVIDORES DESTA SECRETARIA"
+    },
+    {
+      "numero": "2017NE00192",
+      "contrato": "128/2016",
+      "valor": 92810.82,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE PARA ATENDER A SECRETARIA DE ESTADO DE EDUCAÇÃO E QUALIDADE DO ENSINO"
+    },
+    {
+      "numero": "2017NE00211",
+      "contrato": "161/2016",
+      "valor": 7443106.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2014NE00478",
+      "contrato": "156/2013",
+      "valor": 2400000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 156/2013 - Serviços de Implantação da Rede de Comunicação sem fio WI FI"
+    },
+    {
+      "numero": "2014NE00458",
+      "contrato": "235/2010",
+      "valor": 12674159.97,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 235/2010 - SIGEAM"
+    },
+    {
+      "numero": "2019NE03862",
+      "contrato": "2/2015",
+      "valor": 733280.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "PARA ATENDER DESPESAS DO CONTRATO N. 02/2015"
+    },
+    {
+      "numero": "2019NE01963",
+      "contrato": "2/2015",
+      "valor": 733280.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "despesas do contrato n. 02/2015"
+    },
+    {
+      "numero": "2016NE02557",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "165304",
+      "nf": "60220",
+      "contrato": "20/2022",
+      "valor_bruto": 1468611.61,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "164103",
+      "nf": "59054",
+      "contrato": "20/2022",
+      "valor_bruto": 1466825.77,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "163239",
+      "nf": "58223",
+      "contrato": "20/2022",
+      "valor_bruto": 1466822.97,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "166073",
+      "nf": "382",
+      "contrato": "20/2022",
+      "valor_bruto": 1466822.97,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "164099",
+      "nf": "59049",
+      "contrato": "23/2021",
+      "valor_bruto": 1458776.53,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "166074",
+      "nf": "381",
+      "contrato": "23/2021",
+      "valor_bruto": 1458764.46,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "165291",
+      "nf": "60114",
+      "contrato": "23/2021",
+      "valor_bruto": 1458761.44,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "163238",
+      "nf": "58226",
+      "contrato": "23/2021",
+      "valor_bruto": 1458753.43,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "146667",
+      "nf": "42489",
+      "contrato": "23/2021",
+      "valor_bruto": 1458649.43,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "146031",
+      "nf": "41899",
+      "contrato": "23/2021",
+      "valor_bruto": 1454992.31,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "141565",
+      "nf": "37928",
+      "contrato": "23/2021",
+      "valor_bruto": 1449441.38,
+      "competencia": "05/2023",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "145317",
+      "nf": "41278",
+      "contrato": "23/2021",
+      "valor_bruto": 1448755.22,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 31
+    },
+    {
+      "id": "161637",
+      "nf": "56684",
+      "contrato": "20/2022",
+      "valor_bruto": 1440272.24,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "162718",
+      "nf": "57731",
+      "contrato": "20/2022",
+      "valor_bruto": 1440272.24,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "160535",
+      "nf": "55579",
+      "contrato": "20/2022",
+      "valor_bruto": 1439753.04,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "160790",
+      "nf": "55863",
+      "contrato": "20/2022",
+      "valor_bruto": 1439753.04,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "157625",
+      "nf": "52792",
+      "contrato": "20/2022",
+      "valor_bruto": 1434464.68,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "158371",
+      "nf": "53510",
+      "contrato": "20/2022",
+      "valor_bruto": 1434464.68,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "159169",
+      "nf": "54292",
+      "contrato": "20/2022",
+      "valor_bruto": 1434464.68,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "155273",
+      "nf": "50425",
+      "contrato": "20/2022",
+      "valor_bruto": 1377022.68,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "156790",
+      "nf": "51924",
+      "contrato": "20/2022",
+      "valor_bruto": 1377022.68,
+      "competencia": "01/2025",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "154422",
+      "nf": "49673",
+      "contrato": "20/2022",
+      "valor_bruto": 1273521.48,
+      "competencia": "10/2024",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "155536",
+      "nf": "50725",
+      "contrato": "20/2022",
+      "valor_bruto": 1167705.65,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "163248",
+      "nf": "58228",
+      "contrato": "14/2018",
+      "valor_bruto": 1003760.37,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "162442",
+      "nf": "57463",
+      "contrato": "14/2018",
+      "valor_bruto": 1002289.26,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164105",
+      "nf": "59055",
+      "contrato": "14/2018",
+      "valor_bruto": 989383.85,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "156807",
+      "nf": "51968",
+      "contrato": "14/2018",
+      "valor_bruto": 987736.23,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159167",
+      "nf": "54295",
+      "contrato": "14/2018",
+      "valor_bruto": 898750.69,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158373",
+      "nf": "53512",
+      "contrato": "14/2018",
+      "valor_bruto": 897306.14,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159999",
+      "nf": "55043",
+      "contrato": "14/2018",
+      "valor_bruto": 892813.84,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "157624",
+      "nf": "52787",
+      "contrato": "14/2018",
+      "valor_bruto": 891324.2,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "161610",
+      "nf": "56641",
+      "contrato": "14/2018",
+      "valor_bruto": 886264.1,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "160788",
+      "nf": "55846",
+      "contrato": "14/2018",
+      "valor_bruto": 883929.5,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "166072",
+      "nf": "384",
+      "contrato": "14/2018",
+      "valor_bruto": 519857.73,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "165305",
+      "nf": "60221",
+      "contrato": "14/2018",
+      "valor_bruto": 519741.03,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "154425",
+      "nf": "49672",
+      "contrato": "20/2022",
+      "valor_bruto": 390085.64,
+      "competencia": "10/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "156804",
+      "nf": "51969",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "157428",
+      "nf": "52790",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158194",
+      "nf": "53513",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158975",
+      "nf": "54296",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159797",
+      "nf": "55047",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "160731",
+      "nf": "55850",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "161431",
+      "nf": "56642",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "162438",
+      "nf": "57465",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163245",
+      "nf": "58230",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163870",
+      "nf": "59057",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164630",
+      "nf": "60073",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164942",
+      "nf": "385",
+      "contrato": "14/2018",
+      "valor_bruto": 353200.0,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "155272",
+      "nf": "50426",
+      "contrato": "20/2022",
+      "valor_bruto": 283141.89,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "155527",
+      "nf": "50651",
+      "contrato": "20/2022",
+      "valor_bruto": 283141.89,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "157623",
+      "nf": "52786",
+      "contrato": "14/2018",
+      "valor_bruto": 241750.08,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "156806",
+      "nf": "51966",
+      "contrato": "14/2018",
+      "valor_bruto": 234215.23,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158372",
+      "nf": "53511",
+      "contrato": "14/2018",
+      "valor_bruto": 218922.71,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "160791",
+      "nf": "55862",
+      "contrato": "20/2022",
+      "valor_bruto": 209445.61,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "161638",
+      "nf": "56683",
+      "contrato": "20/2022",
+      "valor_bruto": 209445.61,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 22
+    },
+    {
+      "id": "155127",
+      "nf": "50349",
+      "contrato": "2/2021",
+      "valor_bruto": 195120.54,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 182
+    },
+    {
+      "id": "155525",
+      "nf": "50650",
+      "contrato": "2/2021",
+      "valor_bruto": 195120.54,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 182
+    },
+    {
+      "id": "163247",
+      "nf": "58229",
+      "contrato": "14/2018",
+      "valor_bruto": 187875.22,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164104",
+      "nf": "59056",
+      "contrato": "14/2018",
+      "valor_bruto": 181753.63,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "162441",
+      "nf": "57466",
+      "contrato": "14/2018",
+      "valor_bruto": 164060.4,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "161609",
+      "nf": "56643",
+      "contrato": "14/2018",
+      "valor_bruto": 156545.39,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159998",
+      "nf": "55044",
+      "contrato": "14/2018",
+      "valor_bruto": 147205.04,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "167169",
+      "nf": "167169",
+      "contrato": "21/2026",
+      "valor_bruto": 139800.0,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 2
+    },
+    {
+      "id": "156803",
+      "nf": "51967",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "157427",
+      "nf": "52789",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158193",
+      "nf": "53514",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158974",
+      "nf": "54294",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159798",
+      "nf": "55042",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "160730",
+      "nf": "55851",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "161430",
+      "nf": "56645",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "162439",
+      "nf": "57464",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163244",
+      "nf": "58233",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163869",
+      "nf": "59059",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164629",
+      "nf": "60074",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164941",
+      "nf": "387",
+      "contrato": "14/2018",
+      "valor_bruto": 134008.96,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "160787",
+      "nf": "55847",
+      "contrato": "14/2018",
+      "valor_bruto": 133898.1,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "145907",
+      "nf": "145907",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "156805",
+      "nf": "51970",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "157429",
+      "nf": "52791",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158195",
+      "nf": "53515",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158976",
+      "nf": "54298",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159796",
+      "nf": "55046",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "160732",
+      "nf": "55849",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "161432",
+      "nf": "56644",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "162437",
+      "nf": "57468",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163246",
+      "nf": "58232",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163871",
+      "nf": "59060",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164631",
+      "nf": "60072",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164943",
+      "nf": "386",
+      "contrato": "14/2018",
+      "valor_bruto": 123025.58,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "165157",
+      "nf": "60071",
+      "contrato": "14/2018",
+      "valor_bruto": 95596.59,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "166071",
+      "nf": "383",
+      "contrato": "14/2018",
+      "valor_bruto": 84394.28,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159166",
+      "nf": "54293",
+      "contrato": "14/2018",
+      "valor_bruto": 79226.57,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "156802",
+      "nf": "51971",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "157426",
+      "nf": "52788",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158192",
+      "nf": "53516",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "03/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "158973",
+      "nf": "54297",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "04/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "159799",
+      "nf": "55045",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "05/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "160729",
+      "nf": "55848",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "06/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "161429",
+      "nf": "56646",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "162440",
+      "nf": "57467",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163243",
+      "nf": "58231",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "163868",
+      "nf": "59058",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "10/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164628",
+      "nf": "60069",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "11/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "164940",
+      "nf": "388",
+      "contrato": "14/2018",
+      "valor_bruto": 9051.74,
+      "competencia": "12/2025",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 34
+    },
+    {
+      "id": "142846",
+      "nf": "39136",
+      "contrato": "54/2017",
+      "valor_bruto": 1953.43,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 25
+    },
+    {
+      "id": "142845",
+      "nf": "39137",
+      "contrato": "54/2017",
+      "valor_bruto": 706.41,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 25
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "141565",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141565/E",
+      "Comp.": "05/2023",
+      "Valor": "85.610,89",
+      "Atraso": "1016 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Sistemas",
+      "Contrato": "054/2017",
+      "Número": "142846",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142846/E",
+      "Comp.": "07/2023",
+      "Valor": "1.953,43",
+      "Atraso": "961 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "054/2017",
+      "Número": "142845",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142845/E",
+      "Comp.": "07/2023",
+      "Valor": "706,41",
+      "Atraso": "961 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "145317",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145317/E",
+      "Comp.": "10/2023",
+      "Valor": "1.448.755,22",
+      "Atraso": "863 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "145907",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145907/E",
+      "Comp.": "11/2023",
+      "Valor": "123.025,58",
+      "Atraso": "836 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "146031",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146031/E",
+      "Comp.": "11/2023",
+      "Valor": "1.454.992,31",
+      "Atraso": "833 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "146667",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146667/E",
+      "Comp.": "12/2023",
+      "Valor": "1.458.649,43",
+      "Atraso": "805 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Implantação de Sistemas de Informação",
+      "Contrato": "020/2022",
+      "Número": "154425",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154425/E",
+      "Comp.": "10/2024",
+      "Valor": "390.085,64",
+      "Atraso": "497 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "154422",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154422/E",
+      "Comp.": "10/2024",
+      "Valor": "1.273.521,48",
+      "Atraso": "497 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2021",
+      "Número": "155127",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155127/E",
+      "Comp.": "11/2024",
+      "Valor": "195.120,54",
+      "Atraso": "469 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "155273",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155273/E",
+      "Comp.": "11/2024",
+      "Valor": "1.377.022,68",
+      "Atraso": "468 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Implantação de Sistemas de Informação",
+      "Contrato": "020/2022",
+      "Número": "155272",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155272/E",
+      "Comp.": "11/2024",
+      "Valor": "283.141,89",
+      "Atraso": "468 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2021",
+      "Número": "155525",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155525/E",
+      "Comp.": "12/2024",
+      "Valor": "195.120,54",
+      "Atraso": "461 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Implantação de Sistemas de Informação",
+      "Contrato": "020/2022",
+      "Número": "155527",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155527/E",
+      "Comp.": "12/2024",
+      "Valor": "283.141,89",
+      "Atraso": "461 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "155536",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155536/E",
+      "Comp.": "12/2024",
+      "Valor": "1.167.705,65",
+      "Atraso": "456 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "156790",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156790/E",
+      "Comp.": "01/2025",
+      "Valor": "172.513,94",
+      "Atraso": "405 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "156806",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156806/E",
+      "Comp.": "01/2025",
+      "Valor": "234.215,23",
+      "Atraso": "405 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "156803",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156803/E",
+      "Comp.": "01/2025",
+      "Valor": "134.008,96",
+      "Atraso": "405 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "156807",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156807/E",
+      "Comp.": "01/2025",
+      "Valor": "987.736,23",
+      "Atraso": "405 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "156804",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156804/E",
+      "Comp.": "01/2025",
+      "Valor": "353.200,00",
+      "Atraso": "405 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "156805",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156805/E",
+      "Comp.": "01/2025",
+      "Valor": "123.025,58",
+      "Atraso": "405 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "156802",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156802/E",
+      "Comp.": "01/2025",
+      "Valor": "9.051,74",
+      "Atraso": "405 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "157623",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157623/E",
+      "Comp.": "02/2025",
+      "Valor": "241.750,08",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "157624",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157624/E",
+      "Comp.": "02/2025",
+      "Valor": "891.324,20",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "157428",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157428/E",
+      "Comp.": "02/2025",
+      "Valor": "353.200,00",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "157429",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157429/E",
+      "Comp.": "02/2025",
+      "Valor": "123.025,58",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "157625",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157625/E",
+      "Comp.": "02/2025",
+      "Valor": "1.434.464,68",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "157427",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157427/E",
+      "Comp.": "02/2025",
+      "Valor": "134.008,96",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "157426",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157426/E",
+      "Comp.": "02/2025",
+      "Valor": "9.051,74",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "158371",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158371/E",
+      "Comp.": "03/2025",
+      "Valor": "1.434.464,68",
+      "Atraso": "346 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "158194",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158194/E",
+      "Comp.": "03/2025",
+      "Valor": "353.200,00",
+      "Atraso": "346 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "158193",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158193/E",
+      "Comp.": "03/2025",
+      "Valor": "134.008,96",
+      "Atraso": "346 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "158195",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158195/E",
+      "Comp.": "03/2025",
+      "Valor": "123.025,58",
+      "Atraso": "346 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "158192",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158192/E",
+      "Comp.": "03/2025",
+      "Valor": "9.051,74",
+      "Atraso": "346 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "158373",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158373/E",
+      "Comp.": "03/2025",
+      "Valor": "897.306,14",
+      "Atraso": "346 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "158372",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158372/E",
+      "Comp.": "03/2025",
+      "Valor": "218.922,71",
+      "Atraso": "346 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "159169",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159169/E",
+      "Comp.": "04/2025",
+      "Valor": "1.434.464,68",
+      "Atraso": "316 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "159166",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159166/E",
+      "Comp.": "04/2025",
+      "Valor": "79.226,57",
+      "Atraso": "316 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "159167",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159167/E",
+      "Comp.": "04/2025",
+      "Valor": "898.750,69",
+      "Atraso": "316 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "158975",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158975/E",
+      "Comp.": "04/2025",
+      "Valor": "353.200,00",
+      "Atraso": "316 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "158973",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158973/E",
+      "Comp.": "04/2025",
+      "Valor": "9.051,74",
+      "Atraso": "316 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "158976",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158976/E",
+      "Comp.": "04/2025",
+      "Valor": "123.025,58",
+      "Atraso": "316 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "158974",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/158974/E",
+      "Comp.": "04/2025",
+      "Valor": "134.008,96",
+      "Atraso": "316 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "159999",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159999/E",
+      "Comp.": "05/2025",
+      "Valor": "892.813,84",
+      "Atraso": "286 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "159998",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159998/E",
+      "Comp.": "05/2025",
+      "Valor": "147.205,04",
+      "Atraso": "286 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "159799",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159799/E",
+      "Comp.": "05/2025",
+      "Valor": "9.051,74",
+      "Atraso": "286 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "159796",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159796/E",
+      "Comp.": "05/2025",
+      "Valor": "123.025,58",
+      "Atraso": "286 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "159797",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159797/E",
+      "Comp.": "05/2025",
+      "Valor": "353.200,00",
+      "Atraso": "286 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "159798",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/159798/E",
+      "Comp.": "05/2025",
+      "Valor": "134.008,96",
+      "Atraso": "286 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "160535",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160535/E",
+      "Comp.": "05/2025",
+      "Valor": "1.439.753,04",
+      "Atraso": "261 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "160788",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160788/E",
+      "Comp.": "06/2025",
+      "Valor": "883.929,50",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "160787",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160787/E",
+      "Comp.": "06/2025",
+      "Valor": "133.898,10",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "160729",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160729/E",
+      "Comp.": "06/2025",
+      "Valor": "9.051,74",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "160732",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160732/E",
+      "Comp.": "06/2025",
+      "Valor": "123.025,58",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "160731",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160731/E",
+      "Comp.": "06/2025",
+      "Valor": "353.200,00",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Implantação de Sistemas de Informação",
+      "Contrato": "020/2022",
+      "Número": "160791",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160791/E",
+      "Comp.": "06/2025",
+      "Valor": "209.445,61",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "160790",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160790/E",
+      "Comp.": "06/2025",
+      "Valor": "1.439.753,04",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "160730",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/160730/E",
+      "Comp.": "06/2025",
+      "Valor": "134.008,96",
+      "Atraso": "255 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "161610",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161610/E",
+      "Comp.": "07/2025",
+      "Valor": "886.264,10",
+      "Atraso": "219 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "161431",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161431/E",
+      "Comp.": "07/2025",
+      "Valor": "353.200,00",
+      "Atraso": "219 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "161609",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161609/E",
+      "Comp.": "07/2025",
+      "Valor": "156.545,39",
+      "Atraso": "219 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "161432",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161432/E",
+      "Comp.": "07/2025",
+      "Valor": "123.025,58",
+      "Atraso": "219 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "161430",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161430/E",
+      "Comp.": "07/2025",
+      "Valor": "134.008,96",
+      "Atraso": "219 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "161429",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161429/E",
+      "Comp.": "07/2025",
+      "Valor": "9.051,74",
+      "Atraso": "219 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "161637",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161637/E",
+      "Comp.": "07/2025",
+      "Valor": "1.440.272,24",
+      "Atraso": "217 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Implantação de Sistemas de Informação",
+      "Contrato": "020/2022",
+      "Número": "161638",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/161638/E",
+      "Comp.": "07/2025",
+      "Valor": "209.445,61",
+      "Atraso": "217 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "162442",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162442/E",
+      "Comp.": "08/2025",
+      "Valor": "1.002.289,26",
+      "Atraso": "184 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "162439",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162439/E",
+      "Comp.": "08/2025",
+      "Valor": "134.008,96",
+      "Atraso": "184 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "162438",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162438/E",
+      "Comp.": "08/2025",
+      "Valor": "353.200,00",
+      "Atraso": "184 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "162441",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162441/E",
+      "Comp.": "08/2025",
+      "Valor": "164.060,40",
+      "Atraso": "184 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "162440",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162440/E",
+      "Comp.": "08/2025",
+      "Valor": "9.051,74",
+      "Atraso": "184 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "162437",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162437/E",
+      "Comp.": "08/2025",
+      "Valor": "123.025,58",
+      "Atraso": "184 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "162718",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162718/E",
+      "Comp.": "08/2025",
+      "Valor": "1.440.272,24",
+      "Atraso": "174 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "163239",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163239/E",
+      "Comp.": "09/2025",
+      "Valor": "1.466.822,97",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "163238",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163238/E",
+      "Comp.": "09/2025",
+      "Valor": "1.458.753,43",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "163248",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163248/E",
+      "Comp.": "09/2025",
+      "Valor": "1.003.760,37",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "163247",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163247/E",
+      "Comp.": "09/2025",
+      "Valor": "187.875,22",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "163245",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163245/E",
+      "Comp.": "09/2025",
+      "Valor": "353.200,00",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "163243",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163243/E",
+      "Comp.": "09/2025",
+      "Valor": "9.051,74",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "163246",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163246/E",
+      "Comp.": "09/2025",
+      "Valor": "123.025,58",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "163244",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163244/E",
+      "Comp.": "09/2025",
+      "Valor": "134.008,96",
+      "Atraso": "146 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "164099",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164099/E",
+      "Comp.": "10/2025",
+      "Valor": "1.458.776,53",
+      "Atraso": "120 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "164103",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164103/E",
+      "Comp.": "10/2025",
+      "Valor": "1.466.825,77",
+      "Atraso": "118 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "164105",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164105/E",
+      "Comp.": "10/2025",
+      "Valor": "989.383,85",
+      "Atraso": "118 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "163870",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163870/E",
+      "Comp.": "10/2025",
+      "Valor": "353.200,00",
+      "Atraso": "118 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "163868",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163868/E",
+      "Comp.": "10/2025",
+      "Valor": "9.051,74",
+      "Atraso": "118 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "163869",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163869/E",
+      "Comp.": "10/2025",
+      "Valor": "134.008,96",
+      "Atraso": "118 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "163871",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/163871/E",
+      "Comp.": "10/2025",
+      "Valor": "123.025,58",
+      "Atraso": "118 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "164104",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164104/E",
+      "Comp.": "10/2025",
+      "Valor": "181.753,63",
+      "Atraso": "118 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "165157",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165157/E",
+      "Comp.": "11/2025",
+      "Valor": "95.596,59",
+      "Atraso": "90 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "164629",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164629/E",
+      "Comp.": "11/2025",
+      "Valor": "134.008,96",
+      "Atraso": "90 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "164630",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164630/E",
+      "Comp.": "11/2025",
+      "Valor": "353.200,00",
+      "Atraso": "90 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "164631",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164631/E",
+      "Comp.": "11/2025",
+      "Valor": "123.025,58",
+      "Atraso": "90 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "164628",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164628/E",
+      "Comp.": "11/2025",
+      "Valor": "9.051,74",
+      "Atraso": "90 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "165305",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165305/E",
+      "Comp.": "11/2025",
+      "Valor": "519.741,03",
+      "Atraso": "90 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "165291",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165291/E",
+      "Comp.": "11/2025",
+      "Valor": "1.458.761,44",
+      "Atraso": "87 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "165304",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165304/E",
+      "Comp.": "11/2025",
+      "Valor": "1.468.611,61",
+      "Atraso": "86 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "023/2021",
+      "Número": "166074",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166074/E",
+      "Comp.": "12/2025",
+      "Valor": "1.458.764,46",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Software como Serviço",
+      "Contrato": "020/2022",
+      "Número": "166073",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166073/E",
+      "Comp.": "12/2025",
+      "Valor": "1.466.822,97",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Desenvolvimento de Sistemas de Informação",
+      "Contrato": "014/2018",
+      "Número": "166071",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166071/E",
+      "Comp.": "12/2025",
+      "Valor": "84.394,28",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "014/2018",
+      "Número": "164942",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164942/E",
+      "Comp.": "12/2025",
+      "Valor": "353.200,00",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "014/2018",
+      "Número": "164941",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164941/E",
+      "Comp.": "12/2025",
+      "Valor": "134.008,96",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Serviços de Firewall",
+      "Contrato": "014/2018",
+      "Número": "164940",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164940/E",
+      "Comp.": "12/2025",
+      "Valor": "9.051,74",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "014/2018",
+      "Número": "166072",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/166072/E",
+      "Comp.": "12/2025",
+      "Valor": "519.857,73",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDUC",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "014/2018",
+      "Número": "164943",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164943/E",
+      "Comp.": "12/2025",
+      "Valor": "123.025,58",
+      "Atraso": "43 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 286,
+      "valor_total": 482690583.05,
+      "por_ano": {
+        "2020": {
+          "qtd": 19,
+          "valor": 30005219.549999993
+        },
+        "2021": {
+          "qtd": 17,
+          "valor": 32285413.849999994
+        },
+        "2023": {
+          "qtd": 26,
+          "valor": 54521511.27000001
+        },
+        "2022": {
+          "qtd": 39,
+          "valor": 59828161.82000001
+        },
+        "2017": {
+          "qtd": 23,
+          "valor": 27912412.58
+        },
+        "2019": {
+          "qtd": 18,
+          "valor": 28722386.58
+        },
+        "2014": {
+          "qtd": 6,
+          "valor": 19652531.240000002
+        },
+        "2024": {
+          "qtd": 30,
+          "valor": 51769469.87000001
+        },
+        "2018": {
+          "qtd": 20,
+          "valor": 56720299.14999999
+        },
+        "2016": {
+          "qtd": 21,
+          "valor": 29530499.080000002
+        },
+        "2026": {
+          "qtd": 6,
+          "valor": 24998189.559999995
+        },
+        "2025": {
+          "qtd": 32,
+          "valor": 37122222.730000004
+        },
+        "2015": {
+          "qtd": 29,
+          "valor": 29622265.769999996
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 106,
+      "valor_total": 54535717.29
+    },
+    "cobrancas": {
+      "qtd": 105,
+      "valor_total": 51827578.06
+    }
+  }
+}

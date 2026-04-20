@@ -1,0 +1,4051 @@
+{
+  "sigla": "FMT",
+  "profile": {
+    "nome_completo": "Fundação de Medicina Tropical do Amazonas",
+    "sigla": "FMT",
+    "natureza": "Fundação",
+    "categoria": "GOV_INDIRETA",
+    "val_exig": "272130.6793465254",
+    "val_orig": "390275.52",
+    "val_atualizado": "693107.3755040537",
+    "faturas_total": 83,
+    "faturas_prescritas": 42,
+    "faturas_exigiveis": 41,
+    "indice_correcao": "SELIC",
+    "juros_mora": "1% a.m.",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "TRD pronto",
+    "observacoes": "6 evidências, Documento de Reconhecimento de Dívida existente",
+    "forca_probatoria": "MÉDIA",
+    "modelo_notificacao": "B",
+    "reconhecimento_revisado": {
+      "total_evidencias": 49,
+      "classificacao": "CONFIRMADO — Pagamento parcial",
+      "por_tipo": {
+        "E": 48,
+        "F": 1
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "04.534.053/0001-43",
+    "evidencias_reconhecimento": 49,
+    "evidencias_por_tipo": {
+      "E": 48,
+      "F": 1
+    },
+    "classificacao_reconhecimento": "CONFIRMADO — Pagamento parcial",
+    "tipo": "GOV",
+    "score_composto": 0.5623,
+    "proximo_passo": "ENVIAR_TRD",
+    "p_recuperacao": 0.55,
+    "ev_valor_esperado": "149671.87",
+    "ev_honorarios": "29934.37",
+    "esforco_estimado": 5,
+    "cenario_monte_carlo_p50": "97791.58",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 19,
+    "fase_atual": "F3",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01",
+      "F1": "2026-03-03",
+      "F2": "2026-03-10",
+      "F3": "2026-03-27"
+    },
+    "elegivel_cprac": false,
+    "via_transacao_referendada": false,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": null,
+    "nome": "FMT",
+    "spcf_total_receber": "102291.31",
+    "spcf_fat_devidas_qtd": 19,
+    "spcf_fat_devidas_val": "102291.31",
+    "spcf_fat_aberto_qtd": 7,
+    "spcf_fat_aberto_val": "37113.10",
+    "spcf_perdas": "320525.13",
+    "emp_2026": "144858.55",
+    "emp_2026_qtd": 15,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 5,
+    "fat_canceladas_val_bruto": 19571.69,
+    "fat_canceladas_val_liquido": 18593.09,
+    "faturamento_total_2019_2026": 1897723.11,
+    "recebimento_total_2019_2026": 1776073.0,
+    "taxa_pagamento_pct": 93.59,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2025-Set",
+    "faturamento_pico_valor": 44931.1,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "empenho_historico_total": 0.0,
+    "empenho_historico_qtd": 0,
+    "empenho_valor_global_contratos": 0.0,
+    "empenho_2026_gerencial": 0.0,
+    "a_empenhar_2026": 0.0,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "via_processual_recomendada": {
+      "via": "TRD_PRIMEIRO",
+      "fundamentacao": "TRD pronto, GOV_INDIRETA"
+    },
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2020NE02190",
+      "contrato": "",
+      "valor": 1598.97,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2020NE02216",
+      "contrato": "",
+      "valor": 523.47,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2022NE0001462",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2022",
+      "descricao": "PARA ATENDER O MÊS DE NOVEMBRO/22"
+    },
+    {
+      "numero": "2022NE0001461",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2022",
+      "descricao": "reforço"
+    },
+    {
+      "numero": "2022NE0001193",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2022",
+      "descricao": "NOVO ADITIVO DA PRODAM"
+    },
+    {
+      "numero": "2021NE0001296",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2021",
+      "descricao": "REF AO MES DE SETMBRO/21"
+    },
+    {
+      "numero": "2017NE01126",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2017",
+      "descricao": "PARA ATENDER O CONTRATO Nº 002/13 - PRODAM, REFERENTE AO SERVIÇO DE ACESSO EM BANDA LARGA."
+    },
+    {
+      "numero": "2019NE02195",
+      "contrato": "",
+      "valor": 844.75,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2019NE02184",
+      "contrato": "",
+      "valor": 677.82,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2019NE02205",
+      "contrato": "",
+      "valor": 400.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2016NE01963",
+      "contrato": "",
+      "valor": 458.94,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2017NE00732",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2017NE00731",
+      "contrato": "2/2013",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2017NE00730",
+      "contrato": "12/2012",
+      "valor": 4578.6,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2025NE0000565",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0000567",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2025NE0000566",
+      "contrato": "3/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2022NE0001856",
+      "contrato": "",
+      "valor": 121.26,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 242, SALDO DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0001872",
+      "contrato": "",
+      "valor": 1362.08,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 1462, SALDO DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0001875",
+      "contrato": "",
+      "valor": 1608.84,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2022NE0001886",
+      "contrato": "",
+      "valor": 1097.4,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE01349",
+      "contrato": "22/2017",
+      "valor": 116.58,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2018",
+      "descricao": "PARA ATENDER O REFORÇO"
+    },
+    {
+      "numero": "2025NE0001026",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "29/07/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2023NE0001966",
+      "contrato": "",
+      "valor": 812.35,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2018NE02067",
+      "contrato": "",
+      "valor": 9328.78,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO DO SALDO, PARA AJUSTE ORÇAMENTO E EM CUMPRIMENTO AO ART. 42 DA LRF."
+    },
+    {
+      "numero": "2018NE02045",
+      "contrato": "",
+      "valor": 8.18,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE02047",
+      "contrato": "",
+      "valor": 282.98,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE02015",
+      "contrato": "",
+      "valor": 282.98,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE02044",
+      "contrato": "",
+      "valor": 352.87,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2025NE0001861",
+      "contrato": "9/2014",
+      "valor": 9666.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2025",
+      "descricao": "REFERENTE AO 3ºT.A. DO CONTRATO Nº 009/14,REFERENTE A EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA EM GERAL - SERVIÇOS FIREWALL,REFERENTE AS NOTAS FISCAIS N°25298,25840 E 26145,COMPETÊNCIAS OUTUBRO,NOVEMBRO E DEZEMBRO/17."
+    },
+    {
+      "numero": "2025NE0001859",
+      "contrato": "22/2017",
+      "valor": 536.93,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2025",
+      "descricao": "REFERENTE A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DESENVOLVIMENTO DE SOFTWARE APLICATIVO PARA CONTROLE DE PESSOAL E PROCESSAMENTO DE FOLHA DE PAGAMENTO,REFERENTE AO 2º T.A. DO CONTRATO Nº 022/2017.REFERENTE AO MÊS DE OUTUBRO/2017."
+    },
+    {
+      "numero": "2025NE0001863",
+      "contrato": "4/2018",
+      "valor": 49200.12,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2025",
+      "descricao": "REFERENTE A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ACESSO EM BANDA LARGA A REDE MUNDIAL DE COMPUTADORES - INTERNET,CONTRATO Nº 004/18,REFERENTE AS NOTAS FISCAIS E COMPETÊNCIAS: N.F 1339 - 04/2018 N.F 1840 - 05/2018 N.F 2308 - 06/2018 N.F 2946 - 07/2018 N.F 3328 - 08/2018 N.F 3877 - 09/2018 N.F 4381 - 10/2018 N.F 4967 - 11/2018 N.F 5487 - 12/2018"
+    },
+    {
+      "numero": "2025NE0001862",
+      "contrato": "2/2013",
+      "valor": 13706.9,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2025",
+      "descricao": "REFERENTE A EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE ACESSO Á INTERNET,CONTRATO Nº 002/2013,REFERENTE AS FATURAS Nº20584 E 21034 COMPETÊNCIAS NOVEMBRO E DEZEMBRO/2016. FATURA Nº 26144,COMPETÊNCIA DEZEMBRO/2017"
+    },
+    {
+      "numero": "2025NE0001860",
+      "contrato": "",
+      "valor": 9810.82,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2025",
+      "descricao": "REFERENTE AO TERMO DE CONVÊNIO Nº 001/2018-CESSÃO SERVIDOR - FABRICIO ROGÉRIO CYRINO BARBOSA,PACTUADO NA FORMA DA LEI ENTRE A PRODAM, REFERENTE AO MÊS DE DEZEMBRO/18."
+    },
+    {
+      "numero": "2022NE0001340",
+      "contrato": "",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2022",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2022NE0001342",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2022",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2022NE0001343",
+      "contrato": "6/2019",
+      "valor": 9588.96,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2022",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2024NE0001295",
+      "contrato": "2/2024",
+      "valor": 9952.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2024",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2022NE0000972",
+      "contrato": "22/2017",
+      "valor": 2656.16,
+      "situacao": "Ativo",
+      "data_emissao": "28/07/2022",
+      "descricao": "JULHO E AGOSTO /2022"
+    },
+    {
+      "numero": "2023NE0000851",
+      "contrato": "",
+      "valor": 659.42,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2023",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2023NE0000849",
+      "contrato": "",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2023",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2023NE00849",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE TECNOLOGIA DA INFORMAÇÃO, COMPREENDENDO A HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPOR O SISTEMA I-DOCTOR."
+    },
+    {
+      "numero": "2023NE0000850",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2023",
+      "descricao": "PARA ATENDER CT 006/19"
+    },
+    {
+      "numero": "2023NE00851",
+      "contrato": "9/2022",
+      "valor": 659.42,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2023",
+      "descricao": "REFERENTE AO CONTRATO 009/2022, CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE SISTEMA PRODAM-RH."
+    },
+    {
+      "numero": "2022NE0000523",
+      "contrato": "9/2019",
+      "valor": 1000.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "VALOR REFERENTE AO INICIO DO NOVO ADITIVO DE CONTRATO"
+    },
+    {
+      "numero": "2022NE0000524",
+      "contrato": "6/2019",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "REF AO MES DE ABRIL/22 DO CONTRATO DE LOCAÇÃO DE EQUIPAMENTOS."
+    },
+    {
+      "numero": "2020NE00198",
+      "contrato": "",
+      "valor": 578.69,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2020",
+      "descricao": "PARA ATENDER DEZ/19"
+    },
+    {
+      "numero": "2020NE00200",
+      "contrato": "",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2020",
+      "descricao": "PARA ATENDER DEZ/19"
+    },
+    {
+      "numero": "2020NE00199",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2020",
+      "descricao": "PARA ATENDER DEZ/19"
+    },
+    {
+      "numero": "2023NE0001953",
+      "contrato": "",
+      "valor": 3712.16,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2020NE01086",
+      "contrato": "22/2017",
+      "valor": 2656.16,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2020",
+      "descricao": "PARA ATENDER O MÊS DE SETEMBRO E OUTUBRO/20."
+    },
+    {
+      "numero": "2022NE0000510",
+      "contrato": "",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2022",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2022NE0000503",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2022NE0000508",
+      "contrato": "",
+      "valor": 2429.24,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2022",
+      "descricao": "ABULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2022NE0000512",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2022NE0000502",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2021NE0000118",
+      "contrato": "",
+      "valor": 3984.24,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2021",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2021NE0000119",
+      "contrato": "",
+      "valor": 47112.06,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2021",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2021NE0000128",
+      "contrato": "",
+      "valor": 8133.82,
+      "situacao": "Ativo",
+      "data_emissao": "27/01/2021",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2016NE01521",
+      "contrato": "12/2012",
+      "valor": 915.72,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01521",
+      "contrato": "12/2012",
+      "valor": 915.72,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2024NE0001446",
+      "contrato": "6/2019",
+      "valor": 363.44,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2024",
+      "descricao": "PARA ATENDER A DESPESA NO SERVIÇO DE FIREWALL."
+    },
+    {
+      "numero": "2023NE0001456",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2023",
+      "descricao": "Contratação de serviços de um sistema de folha de pagamento informatizado denominado Plantão mensal/anual."
+    },
+    {
+      "numero": "2023NE0001454",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2023",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 009/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0001455",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2023",
+      "descricao": "Contratação de empresa para Prestação do Serviço de Firewall para a FMT-HVD. TC: 006/2019 AD: 04."
+    },
+    {
+      "numero": "2022NE0000950",
+      "contrato": "",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2022",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2022NE0000952",
+      "contrato": "9/2019",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2022NE0000949",
+      "contrato": "9/2019",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2022",
+      "descricao": "CONTRATO REF ASO MES DE JUNHO/2022"
+    },
+    {
+      "numero": "2022NE0000951",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2022NE0000948",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2022",
+      "descricao": "REF AO MES DE JUNHO/2022"
+    },
+    {
+      "numero": "2024NE0000944",
+      "contrato": "3/2024",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2024",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2023NE0000515",
+      "contrato": "9/2019",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2023",
+      "descricao": "PARA ATENDER O CT- 009/19"
+    },
+    {
+      "numero": "2023NE00515",
+      "contrato": "9/2019",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2023",
+      "descricao": "Referente ao Contrato 009/2019 - 4º TA contratação de empresa especializada em Prestação de Serviços de Tecnologia de Informação, compreendendo a Hospedagem de Infraestrutura virtualizada para compor o Sistema I-DOCTOR."
+    },
+    {
+      "numero": "2026NE0000118",
+      "contrato": "7/2025",
+      "valor": 17452.91,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2024NE0000301",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2024",
+      "descricao": "OBJETO: REFERENTE A CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DO SERVIÇO DE FIREWALL PARA A FMT-HVD.REFERENTE A NOTA FISCAL Nº 40677, MÊS SETEMBRO/2023.CONTRATO Nº 0006/2019 – ADITIVO Nº 4º - PRORROGAÇÃO DE PRAZO + READEQUAÇÃO CONTRATUAL VALOR GLOBAL:R$ 59.714,40 VALOR MENSAL:R$ 4.976,20 VIGÊNCIA: 03/2023 – 03/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 038/2018, DE ACORDO COM Art.24;XVI;Lei 8.666/93,homologação publicada no dia 22/12/2019"
+    },
+    {
+      "numero": "2024NE0000303",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2024",
+      "descricao": "OBJETO: CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO, HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR O SISTEMA INTEGRADO DE GESTÃO HOSPITALAR – IDOCTOR.REFERENTE AS NOTAS FISCAIS Nº 40678,40679 E 40680, MÊS DE SETEMBRO/23CONTRATO Nº 009/2019 – ADITIVO 4ºT.A – PRORROGAÇÃO DE PRAZO + REEQUILIBRIO FINANCEIRO VALOR GLOBAL: R$ 227.025,72 VALOR MENSAL:R$ 18.918,81 VIGÊNCIA: 05/2023 – 05/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 95/2019, DE ACORDO COM Art.24;XVI;Lei 8.666/93,HOMOLOGAÇÃO PUBLICADA NO DIA 17/04/2019"
+    },
+    {
+      "numero": "2024NE0000302",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2024",
+      "descricao": "OBJETO: CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO, HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR O SISTEMA INTEGRADO DE GESTÃO HOSPITALAR – IDOCTOR.REFERENTE AS NOTAS FISCAIS Nº 40000,40001 E 40002, MÊS DE AGOSTO/23CONTRATO Nº 009/2019 – ADITIVO 4ºT.A – PRORROGAÇÃO DE PRAZO + REEQUILIBRIO FINANCEIRO VALOR GLOBAL: R$ 227.025,72 VALOR MENSAL:R$ 18.918,81 VIGÊNCIA: 05/2023 – 05/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 95/2019, DE ACORDO COM Art.24;XVI;Lei 8.666/93,HOMOLOGAÇÃO PUBLICADA NO DIA 17/04/2019"
+    },
+    {
+      "numero": "2021NE0000320",
+      "contrato": "",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2021",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2022NE0000943",
+      "contrato": "",
+      "valor": 84.13,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2022",
+      "descricao": "ANUL PARCIAL DA NE 649"
+    },
+    {
+      "numero": "2022NE0000942",
+      "contrato": "",
+      "valor": 804.89,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 686"
+    },
+    {
+      "numero": "2022NE0000941",
+      "contrato": "",
+      "valor": 281.7,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 524"
+    },
+    {
+      "numero": "2026NE0000113",
+      "contrato": "2/2024",
+      "valor": 3186.3,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000100",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024."
+    },
+    {
+      "numero": "2026NE0000105",
+      "contrato": "2/2024",
+      "valor": 5325.53,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000114",
+      "contrato": "3/2024",
+      "valor": 953.12,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000117",
+      "contrato": "7/2025",
+      "valor": 378.68,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2026NE0000098",
+      "contrato": "7/2025",
+      "valor": 17831.59,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2026NE0000109",
+      "contrato": "3/2024",
+      "valor": 2855.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000107",
+      "contrato": "3/2024",
+      "valor": 2855.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000104",
+      "contrato": "2/2024",
+      "valor": 5325.53,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000101",
+      "contrato": "2/2024",
+      "valor": 5325.53,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000103",
+      "contrato": "2/2024",
+      "valor": 5325.53,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000099",
+      "contrato": "7/2025",
+      "valor": 17831.59,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2026NE0000111",
+      "contrato": "3/2024",
+      "valor": 2855.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000102",
+      "contrato": "2/2024",
+      "valor": 5325.53,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000110",
+      "contrato": "3/2024",
+      "valor": 2855.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000108",
+      "contrato": "3/2024",
+      "valor": 2855.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000095",
+      "contrato": "7/2025",
+      "valor": 17831.59,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2026NE0000106",
+      "contrato": "3/2024",
+      "valor": 2855.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000097",
+      "contrato": "7/2025",
+      "valor": 17831.59,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2026NE0000096",
+      "contrato": "7/2025",
+      "valor": 17831.59,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2023NE0001797",
+      "contrato": "",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2023",
+      "descricao": "ANULAÇÃO PARCIAL DA NE"
+    },
+    {
+      "numero": "2023NE0001808",
+      "contrato": "",
+      "valor": 647.65,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2023NE0001823",
+      "contrato": "",
+      "valor": 2882.28,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2023NE0001812",
+      "contrato": "",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2021NE0001952",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2021",
+      "descricao": "PARA ATENDER FMTHVD"
+    },
+    {
+      "numero": "2015NE01354",
+      "contrato": "12/2012",
+      "valor": 915.72,
+      "situacao": "Ativo",
+      "data_emissao": "24/09/2015",
+      "descricao": "COBERTURA OUT.2015"
+    },
+    {
+      "numero": "2024NE0001084",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "24/07/2024",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2023NE0000213",
+      "contrato": "6/2019",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2023",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2023NE0000212",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2023",
+      "descricao": "PARA ATENDER CT- 4ºT.A.- 006/19"
+    },
+    {
+      "numero": "2023NE0000834",
+      "contrato": "",
+      "valor": 659.42,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2023",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2023NE0000833",
+      "contrato": "",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2023",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2023NE0000821",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2023",
+      "descricao": "PARA ATENDER CT 006/19"
+    },
+    {
+      "numero": "2023NE0000820",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2023",
+      "descricao": "PARA ATENDER CT 009/19"
+    },
+    {
+      "numero": "2023NE0000822",
+      "contrato": "9/2022",
+      "valor": 659.42,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2023",
+      "descricao": "PARA ATENDER CR 009/2022"
+    },
+    {
+      "numero": "2023NE0000832",
+      "contrato": "",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2023",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2023NE0000384",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2023",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2023NE00384",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2023",
+      "descricao": "REFERENTE AO CONTRATO Nº 009/2022, CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE APLICATIVO PARA CONTROLE DE PESSOAL E PROCESSAMENTO DE FOLHA DE PAGAMENTO"
+    },
+    {
+      "numero": "2023NE0000205",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2023",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2023NE0000204",
+      "contrato": "9/2019",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2023",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2015NE00162",
+      "contrato": "",
+      "valor": 39098.43,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2015",
+      "descricao": "SISTEMA DE CABEAMENTO"
+    },
+    {
+      "numero": "2015NE02099",
+      "contrato": "",
+      "valor": 13875.62,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 596, SALDO DE CONTRATO."
+    },
+    {
+      "numero": "2015NE02107",
+      "contrato": "2/2013",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ACESSO A INTERNET"
+    },
+    {
+      "numero": "2015NE02105",
+      "contrato": "12/2012",
+      "valor": 717.77,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2015NE02108",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "SERV"
+    },
+    {
+      "numero": "2024NE0001224",
+      "contrato": "3/2024",
+      "valor": 10870.64,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2024",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2024NE0001223",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2024",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2023NE0001165",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2023",
+      "descricao": "reforço"
+    },
+    {
+      "numero": "2023NE0001167",
+      "contrato": "",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2023NE0001168",
+      "contrato": "",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2023NE0001169",
+      "contrato": "",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2023",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2023NE0001166",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2023",
+      "descricao": "PARA ATENDER CT N° 009/2019"
+    },
+    {
+      "numero": "2025NE0000691",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2025NE0000690",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0000689",
+      "contrato": "3/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2024NE0000620",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2024",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000621",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2024",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2024NE0000624",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2024",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2022NE0000226",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2022",
+      "descricao": "HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para prestação de serviço de hospedagem de Sistema de Informação, compreendendo a hospedagem em infraestrutura virtualizada para compor o sistema I-DOCTOR, referente ao mês de DEZEMBRO/2021."
+    },
+    {
+      "numero": "2021NE0001666",
+      "contrato": "",
+      "valor": 2252.43,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2021NE0001671",
+      "contrato": "",
+      "valor": 793.14,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2021NE0001672",
+      "contrato": "22/2017",
+      "valor": 3984.24,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2021NE0001680",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2021NE0001669",
+      "contrato": "",
+      "valor": 804.89,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2021NE0001668",
+      "contrato": "",
+      "valor": 1589.1,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2021NE0001670",
+      "contrato": "",
+      "valor": 803.48,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2021NE0001667",
+      "contrato": "",
+      "valor": 802.07,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2016NE01511",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01510",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01510",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01511",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2020NE00185",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2020",
+      "descricao": "PAR ATENDER O M~ES DE MARÇO/20"
+    },
+    {
+      "numero": "2021NE0000033",
+      "contrato": "6/2019",
+      "valor": 8133.82,
+      "situacao": "Ativo",
+      "data_emissao": "21/01/2021",
+      "descricao": "PARA ATENDER FMT-HVD"
+    },
+    {
+      "numero": "2016NE01813",
+      "contrato": "12/2012",
+      "valor": 1831.44,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01814",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2016NE01806",
+      "contrato": "12/2012",
+      "valor": 915.72,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01805",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2022NE0001417",
+      "contrato": "9/2019",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2022",
+      "descricao": "PARA ATENDER O MÊS SETEMBRO/22"
+    },
+    {
+      "numero": "2018NE01399",
+      "contrato": "4/2018",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "20/09/2018",
+      "descricao": "PARA ATENDER O MÊS DE MARÇO/18."
+    },
+    {
+      "numero": "2018NE01400",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "20/09/2018",
+      "descricao": "PARA ATENDER O MÊS DE ABRIL/18."
+    },
+    {
+      "numero": "2022NE0000701",
+      "contrato": "9/2019",
+      "valor": 981.42,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2022",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2022NE0000686",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2021NE0000691",
+      "contrato": "9/2019",
+      "valor": 31408.04,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2021",
+      "descricao": "PÁRA ATENDER OS MESES DE MAIO E JUNHO/21"
+    },
+    {
+      "numero": "2021NE0000690",
+      "contrato": "",
+      "valor": 2170.04,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2021",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2021NE0000672",
+      "contrato": "",
+      "valor": 2170.04,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2021",
+      "descricao": "PARA ATENDER O MÊS DE MAIO/21"
+    },
+    {
+      "numero": "2023NE0000004",
+      "contrato": "",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2023",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2023NE0000003",
+      "contrato": "9/2019",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2023",
+      "descricao": "PARA ATENDER O CONTRATO Nº 009/2019 - 3ºT.A. MÊS DE JANEIRO/23"
+    },
+    {
+      "numero": "2021NE0000023",
+      "contrato": "22/2017",
+      "valor": 3984.24,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2021",
+      "descricao": "PARA ATENDER OS MÊSES DE JANEIRO A MARÇO/21"
+    },
+    {
+      "numero": "2021NE0000024",
+      "contrato": "9/2019",
+      "valor": 47112.06,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2021",
+      "descricao": "PARA ATENDER OS MÊSES DE JANEIRO A MARÇO/21"
+    },
+    {
+      "numero": "2020NE01891",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "19/11/2020",
+      "descricao": "PARA ATENDER CT - 009/19"
+    },
+    {
+      "numero": "2017NE01471",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2017",
+      "descricao": "PARA ATENDER MÊS DE JULHO/17 - CONTRATO Nº 002/13"
+    },
+    {
+      "numero": "2017NE01472",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2017",
+      "descricao": "PARA ATENDER O MÊS DE AGOSTO/17 - CONTRATO Nº 009/14"
+    },
+    {
+      "numero": "2024NE0000837",
+      "contrato": "3/2024",
+      "valor": 3714.15,
+      "situacao": "Ativo",
+      "data_emissao": "19/06/2024",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2022NE0000662",
+      "contrato": "",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2022NE0000661",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2022NE0000663",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2025NE0000296",
+      "contrato": "2/2024",
+      "valor": 2180.64,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2024NE0000326",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2024",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2020NE02163",
+      "contrato": "",
+      "valor": 19.04,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2020NE02162",
+      "contrato": "",
+      "valor": 1612.6,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2018NE01427",
+      "contrato": "22/2017",
+      "valor": 8.18,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2018",
+      "descricao": "PARA ATENDER O MÊS DE SETEMBRO/18."
+    },
+    {
+      "numero": "2018NE01423",
+      "contrato": "22/2017",
+      "valor": 1211.25,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2018",
+      "descricao": "PARA ATENDER O MÊS DE SETEMBRO/18 - CONTRATO Nº 022/17"
+    },
+    {
+      "numero": "2022NE0000649",
+      "contrato": "9/2019",
+      "valor": 16246.53,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2022",
+      "descricao": "CONTRATO PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2020NE00618",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2020",
+      "descricao": "PARA ATENDER MÊS DE MAIO/20"
+    },
+    {
+      "numero": "2020NE00620",
+      "contrato": "",
+      "valor": 14076.49,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2020",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2020NE00620",
+      "contrato": "9/2019",
+      "valor": 14076.49,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2020",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2020NE00619",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "18/05/2020",
+      "descricao": "PARA ATENDER O MÊS DE MAIO/20"
+    },
+    {
+      "numero": "2022NE0001530",
+      "contrato": "9/2019",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2022",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2022NE0001528",
+      "contrato": "9/2019",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2022",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2022NE0001529",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2022",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2025NE0001458",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "OBJETO: REFERENTE A CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DO SERVIÇO DE FIREWALL PARA A FMT-HVD.REFERENTE A NOTA FISCAL Nº 42955, MÊS DEZEMBRO/2023.CONTRATO Nº 0006/2019 – ADITIVO Nº 4º - PRORROGAÇÃO DE PRAZO + READEQUAÇÃO CONTRATUAL VALOR GLOBAL:R$ 59.714,40 VALOR MENSAL:R$ 4.976,20 VIGÊNCIA: 03/2023 – 03/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 038/2018, DE ACORDO COM Art.24;XVI;Lei 8.666/93,homologação publicada no dia 22/12/2019"
+    },
+    {
+      "numero": "2025NE0001457",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "OBJETO: REFERENTE A CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DO SERVIÇO DE FIREWALL PARA A FMT-HVD.REFERENTE A NOTA FISCAL Nº 44951, MÊS NOVEMBRO/2023.CONTRATO Nº 0006/2019 – ADITIVO Nº 4º - PRORROGAÇÃO DE PRAZO + READEQUAÇÃO CONTRATUAL VALOR GLOBAL:R$ 59.714,40 VALOR MENSAL:R$ 4.976,20 VIGÊNCIA: 03/2023 – 03/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 038/2018, DE ACORDO COM Art.24;XVI;Lei 8.666/93,homologação publicada no dia 22/12/2019"
+    },
+    {
+      "numero": "2025NE0001454",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0001455",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0001461",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "OBJETO: CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO, HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR O SISTEMA INTEGRADO DE GESTÃO HOSPITALAR – IDOCTOR.REFERENTE AS NOTAS FISCAIS Nº 42956,42957 E 42958, MÊS DE DEZEMBRO/23 CONTRATO Nº 009/2019 – ADITIVO 4ºT.A – PRORROGAÇÃO DE PRAZO + REEQUILIBRIO FINANCEIRO VALOR GLOBAL: R$ 227.025,72 VALOR MENSAL:R$ 18.918,81 VIGÊNCIA: 05/2023 – 05/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 95/2019, DE ACORDO COM Art.24;XVI;Lei 8.666/93,HOMOLOGAÇÃO PUBLICADA NO DIA 17/04/2019"
+    },
+    {
+      "numero": "2025NE0001460",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "OBJETO: CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO, HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR O SISTEMA INTEGRADO DE GESTÃO HOSPITALAR – IDOCTOR.REFERENTE AS NOTAS FISCAIS Nº 41952,41953 E 41954, MÊS DE NOVEMBRO/23CONTRATO Nº 009/2019 – ADITIVO 4ºT.A – PRORROGAÇÃO DE PRAZO + REEQUILIBRIO FINANCEIRO VALOR GLOBAL: R$ 227.025,72 VALOR MENSAL:R$ 18.918,81 VIGÊNCIA: 05/2023 – 05/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 95/2019, DE ACORDO COM Art.24;XVI;Lei 8.666/93,HOMOLOGAÇÃO PUBLICADA NO DIA 17/04/2019"
+    },
+    {
+      "numero": "2025NE0001459",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "OBJETO: CONTRATAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO, HOSPEDAGEM EM INFRAESTRUTURA VIRTUALIZADA PARA COMPORTAR O SISTEMA INTEGRADO DE GESTÃO HOSPITALAR – IDOCTOR.REFERENTE AS NOTAS FISCAIS Nº 41307,41308 E 41309, MÊS DE OUTUBRO/23CONTRATO Nº 009/2019 – ADITIVO 4ºT.A – PRORROGAÇÃO DE PRAZO + REEQUILIBRIO FINANCEIRO VALOR GLOBAL: R$ 227.025,72 VALOR MENSAL:R$ 18.918,81 VIGÊNCIA: 05/2023 – 05/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 95/2019, DE ACORDO COM Art.24;XVI;Lei 8.666/93,HOMOLOGAÇÃO PUBLICADA NO DIA 17/04/2019"
+    },
+    {
+      "numero": "2025NE0001456",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "OBJETO: REFERENTE A CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DO SERVIÇO DE FIREWALL PARA A FMT-HVD.REFERENTE A NOTA FISCAL Nº 41306, MÊS OUTUBRO/2023.CONTRATO Nº 0006/2019 – ADITIVO Nº 4º - PRORROGAÇÃO DE PRAZO + READEQUAÇÃO CONTRATUAL VALOR GLOBAL:R$ 59.714,40 VALOR MENSAL:R$ 4.976,20 VIGÊNCIA: 03/2023 – 03/2024 FUNDAMENTO LEGAL: DISPENSA DE LICITAÇÃO Nº 038/2018, DE ACORDO COM Art.24;XVI;Lei 8.666/93,homologação publicada no dia 22/12/2019"
+    },
+    {
+      "numero": "2021NE0001187",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "REF AO MES DE AGOSTO 21"
+    },
+    {
+      "numero": "2021NE0001189",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "PARA ATENDER FMTHVD"
+    },
+    {
+      "numero": "2021NE0001188",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "REF AO MES DE AGOSTO/21"
+    },
+    {
+      "numero": "2020NE00940",
+      "contrato": "9/2019",
+      "valor": 31408.04,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2020",
+      "descricao": "PARA ATENDER OS MESES DE JULHO E AGOSTO/20"
+    },
+    {
+      "numero": "2020NE00949",
+      "contrato": "6/2019",
+      "valor": 8133.82,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2020",
+      "descricao": "PARA ATENDER OS MESES DE JUNHO E JULHO/20"
+    },
+    {
+      "numero": "2020NE00939",
+      "contrato": "9/2019",
+      "valor": 542.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2020",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2020NE00953",
+      "contrato": "22/2017",
+      "valor": 2656.16,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2020",
+      "descricao": "PARA ATENDER OS MESES DE JUNHO E JULHO/20"
+    },
+    {
+      "numero": "2020NE00939",
+      "contrato": "9/2019",
+      "valor": 542.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2020",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2025NE00834",
+      "contrato": "3/2024",
+      "valor": 1721.17,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2025",
+      "descricao": "Referente ao Contrato 003/2024 - Fornecimento de Licença de uso de Sistema de Informação, compreendendo a disponibilização do Gestor de Conteúdo Web - GERWEB."
+    },
+    {
+      "numero": "2025NE00835",
+      "contrato": "3/2024",
+      "valor": 1046.87,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2025",
+      "descricao": "Referente ao 1º TA ao Contrato 003/2024 - Serviço de Fornecimento de Licença de uso de Sistema de informação, compreendendo a disponibilização do Gestor de Conteúdo Web - GERWEB."
+    },
+    {
+      "numero": "2025NE0000836",
+      "contrato": "7/2025",
+      "valor": 9458.7,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2025",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2025NE00836",
+      "contrato": "7/2025",
+      "valor": 9458.7,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2025",
+      "descricao": "Referente ao Contrato 007/2025 - Serviço de Tecnologia da Informação Hospedagem em Infraestrutura Virtualizada."
+    },
+    {
+      "numero": "2025NE0000835",
+      "contrato": "3/2024",
+      "valor": 1046.87,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0000834",
+      "contrato": "3/2024",
+      "valor": 1721.17,
+      "situacao": "Ativo",
+      "data_emissao": "17/06/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2023NE0000202",
+      "contrato": "",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "17/02/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2016NE01170",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2016",
+      "descricao": "LOCAÇÃO DE SOFTWARE"
+    },
+    {
+      "numero": "2020NE00923",
+      "contrato": "",
+      "valor": 542.51,
+      "situacao": "Ativo",
+      "data_emissao": "16/07/2020",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2020NE00923",
+      "contrato": "",
+      "valor": 542.51,
+      "situacao": "Ativo",
+      "data_emissao": "16/07/2020",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2023NE0000676",
+      "contrato": "9/2019",
+      "valor": 36274.18,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2023",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 009/2019 AD: 03."
+    },
+    {
+      "numero": "2023NE0000673",
+      "contrato": "9/2019",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2023",
+      "descricao": "PARA ATENDER O CT009/19"
+    },
+    {
+      "numero": "2023NE00673",
+      "contrato": "9/2019",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2023",
+      "descricao": "Referente ao Contrato 009/2019 - 3º TA Contratação de empresa especializada em Prestação de Serviços de TI, compreendendo a Hospedagem em estrutura virtualizada para compor o Sistema I-DOCTOR."
+    },
+    {
+      "numero": "2015NE00411",
+      "contrato": "2/2013",
+      "valor": 9126.02,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "Cobertura 2015 -Mês de Março"
+    },
+    {
+      "numero": "2015NE00408",
+      "contrato": "3/2013",
+      "valor": 5250.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "Cobertura financeira 2015 - Mês de Março"
+    },
+    {
+      "numero": "2020NE00345",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "16/03/2020",
+      "descricao": "PARA ATENDER O MÊS DE ABRIL/2020."
+    },
+    {
+      "numero": "2020NE00346",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "16/03/2020",
+      "descricao": "PARA ATENDER O MÊS DE ABRIL/2020."
+    },
+    {
+      "numero": "2020NE00347",
+      "contrato": "9/2019",
+      "valor": 16246.53,
+      "situacao": "Ativo",
+      "data_emissao": "16/03/2020",
+      "descricao": "PARA ATENDER O MÊS DE ABRIL/2020."
+    },
+    {
+      "numero": "2023NE0001909",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2023",
+      "descricao": "Contratação de empresa para Prestação do Serviço de Firewall para a FMT-HVD. TC: 0006/2019 AD: 04."
+    },
+    {
+      "numero": "2020NE01217",
+      "contrato": "",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2020",
+      "descricao": "SOLICITADO NA VIGÊNCIA INDEVIDA."
+    },
+    {
+      "numero": "2020NE01232",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2020",
+      "descricao": "PARA ATENDER A FMT-HVD."
+    },
+    {
+      "numero": "2023NE0000668",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "PARA ATENDER CT 009/22 - MÊS DE ABRIL/23"
+    },
+    {
+      "numero": "2023NE0000669",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "PARA ATENDER CT 006/19 - MÊS DE ABRIL/23"
+    },
+    {
+      "numero": "2023NE0000670",
+      "contrato": "",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2023NE00668",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "Referente ao Contrato nº 009/2022 contratação de empresa especializada em Prestação de Serviços de Desenvolvimento de Software aplicativo para controle de Pessoal e Processamento de Folha de Pagamento."
+    },
+    {
+      "numero": "2023NE00669",
+      "contrato": "6/2019",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "Referente ao 4º TA da contratação de empresa especializada na prestação de serviços de informática em geral, referente ao Contrato nº 006/2019."
+    },
+    {
+      "numero": "2023NE0000175",
+      "contrato": "",
+      "valor": 181.72,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2023",
+      "descricao": "anulação parcial"
+    },
+    {
+      "numero": "2019NE00085",
+      "contrato": "4/2018",
+      "valor": 1648.11,
+      "situacao": "Ativo",
+      "data_emissao": "15/01/2019",
+      "descricao": "PARA ATENDER A COMPLEMENTAÇÃO DE JANEIRO A MARÇO/19."
+    },
+    {
+      "numero": "2019NE00084",
+      "contrato": "22/2017",
+      "valor": 325.95,
+      "situacao": "Ativo",
+      "data_emissao": "15/01/2019",
+      "descricao": "COMPLEMENTAÇÃO DOS MESES DE JANEIRO A M,ARÇO/19"
+    },
+    {
+      "numero": "2020NE01459",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2020",
+      "descricao": "PARA ATENDER O MÊS DE NOVEMBRO/20"
+    },
+    {
+      "numero": "2020NE01458",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2020",
+      "descricao": "PARA ATENDER O MÊS DE OUTUBRO/20"
+    },
+    {
+      "numero": "2020NE01452",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2020",
+      "descricao": "PARA ATENDER O MÊS DE NOVEMBRO/20"
+    },
+    {
+      "numero": "2020NE01455",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2020",
+      "descricao": "PARA ATENDER O MÊS DE DEZEMBRO/20"
+    },
+    {
+      "numero": "2025NE0001926",
+      "contrato": "",
+      "valor": 2.94,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2024NE0002095",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "REGRENTE AO SERVIÇO DE INFORMÁTICA NA GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL.REFERENTE AO MÊS DE MAIO/2024.PARECER JURDÍDICO Nº 252/2024-ASJUR/FMT-HVD. TAC Nº 003/2024."
+    },
+    {
+      "numero": "2024NE0002093",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "REGRENTE AO SERVIÇO DE INFORMÁTICA NA GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL.REFERENTE AO MÊS DE MARÇO/2024. PARECER JURDÍDICO Nº 256/2024-ASJUR/FMT-HVD. TAC Nº 001/2024."
+    },
+    {
+      "numero": "2024NE0002102",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "REGRENTE AO SERVIÇO DE INFORMÁTICA NA GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL.REFERENTE AO MÊS DE JUNHO/2024.PARECER JURDÍDICO Nº 254/2024-ASJUR/FMT-HVD.TAC Nº 004/2024."
+    },
+    {
+      "numero": "2024NE0002092",
+      "contrato": "9/2019",
+      "valor": 56756.43,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2024NE0002094",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "REGRENTE AO SERVIÇO DE INFORMÁTICA NA GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL.REFERENTE AO MÊS DE ABRIL/2024. PARECER JURDÍDICO Nº 258/2024-ASJUR/FMT-HVD. TAC Nº 002/2024."
+    },
+    {
+      "numero": "2024NE0002103",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "REGRENTE AO SERVIÇO DE INFORMÁTICA NA GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL.REFERENTE AO MÊS DE JULHO/2024.PARECER JURDÍDICO Nº 246/2024-ASJUR/FMT-HVD.TAC Nº 005/2024."
+    },
+    {
+      "numero": "2022NE0001709",
+      "contrato": "9/2019",
+      "valor": 36455.9,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2022",
+      "descricao": "PARA ATENDER OS MESES DE NOV E DEZ/22"
+    },
+    {
+      "numero": "2022NE0001098",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "12/08/2022",
+      "descricao": "PRODAM LOCAÇÃO DE EQUIPAMENTOS"
+    },
+    {
+      "numero": "2021NE0000482",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "PARA ATENDER O MÊS DE ABRIL/21."
+    },
+    {
+      "numero": "2021NE0000481",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "PARA ATENDER O MÊS DE ABRIL/21"
+    },
+    {
+      "numero": "2021NE0000484",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "PARA ATENDER O MÊS DE ABRIL/21."
+    },
+    {
+      "numero": "2025NE0001921",
+      "contrato": "",
+      "valor": 248.81,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2025NE0001925",
+      "contrato": "",
+      "valor": 171.6,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001924",
+      "contrato": "",
+      "valor": 945.94,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2025NE0001920",
+      "contrato": "",
+      "valor": 248.81,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2025NE0001919",
+      "contrato": "",
+      "valor": 171.6,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001923",
+      "contrato": "",
+      "valor": 945.94,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2025NE0001922",
+      "contrato": "",
+      "valor": 248.81,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2020NE01205",
+      "contrato": "",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2020",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2020NE01207",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2020",
+      "descricao": "PARA ATENDER FMT-HVD"
+    },
+    {
+      "numero": "2022NE0001088",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "AGOSTO CONTRATO DE EQUIP DE INFORMATICA"
+    },
+    {
+      "numero": "2022NE0001090",
+      "contrato": "",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2016NE00602",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "11/05/2016",
+      "descricao": "SERVIÇO DE INFORMÁTICA"
+    },
+    {
+      "numero": "2022NE0001061",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "10/08/2022",
+      "descricao": "CONTRATO DE SERV DE INFORMATICA"
+    },
+    {
+      "numero": "2022NE0001062",
+      "contrato": "9/2019",
+      "valor": 36455.9,
+      "situacao": "Ativo",
+      "data_emissao": "10/08/2022",
+      "descricao": "REFERENTE AOS MESES DE JULHO E AGOSTO"
+    },
+    {
+      "numero": "2023NE0000148",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "10/02/2023",
+      "descricao": "Contratação para prestação de Serviço de firewall, e reajuste de 17,89 % com base no IGPM acumulado do período e em conformidade com a carta DIRAF 383/2021."
+    },
+    {
+      "numero": "2020NE01733",
+      "contrato": "",
+      "valor": 2134.38,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2020NE01730",
+      "contrato": "",
+      "valor": 1835.4,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2020NE01734",
+      "contrato": "",
+      "valor": 806.3,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2020NE01731",
+      "contrato": "",
+      "valor": 807.24,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2020NE01732",
+      "contrato": "",
+      "valor": 805.36,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2015NE00908",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "COBERTURA MAIO 2015"
+    },
+    {
+      "numero": "2015NE00898",
+      "contrato": "2/2013",
+      "valor": 9126.02,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "REFORÇO DE CONTRATO"
+    },
+    {
+      "numero": "2015NE00897",
+      "contrato": "3/2013",
+      "valor": 5250.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "reforço do contrato"
+    },
+    {
+      "numero": "2021NE0001811",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2021",
+      "descricao": "PARA ATENDER A FMT-HVD"
+    },
+    {
+      "numero": "2021NE0001812",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2021",
+      "descricao": "PARA ATENDER A FMT-HVD"
+    },
+    {
+      "numero": "2020NE01180",
+      "contrato": "",
+      "valor": 2656.16,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2020",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2020NE01181",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2020",
+      "descricao": "PARA ATENDER O MÊS NOV/20"
+    },
+    {
+      "numero": "2020NE01179",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2020",
+      "descricao": "PARA ATENDER O M~ES OUTUBRO/20"
+    },
+    {
+      "numero": "2020NE01184",
+      "contrato": "22/2017",
+      "valor": 2656.16,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2020",
+      "descricao": "PARA ATENDER OS MESES NOV E DEZ/20"
+    },
+    {
+      "numero": "2021NE0000944",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2021",
+      "descricao": "REF A JULHO/21"
+    },
+    {
+      "numero": "2021NE0000943",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2021",
+      "descricao": "REF AO MES DE JULHO/21"
+    },
+    {
+      "numero": "2021NE0000945",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2021",
+      "descricao": "REF AO MES DE JULHO/21"
+    },
+    {
+      "numero": "2021NE0000735",
+      "contrato": "6/2019",
+      "valor": 8133.82,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2021",
+      "descricao": "PARA ATENDER FMTHVD , REF AOS MESES DE MAIO E JUNHO/21"
+    },
+    {
+      "numero": "2021NE0000734",
+      "contrato": "22/2017",
+      "valor": 2656.16,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2021",
+      "descricao": "PARA ATENDER FMTHVD , REF. AOS MESES DE MAIO E JUNHO/21"
+    },
+    {
+      "numero": "2017NE00795",
+      "contrato": "2/2013",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2017NE00797",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2017NE00796",
+      "contrato": "12/2012",
+      "valor": 1831.44,
+      "situacao": "Ativo",
+      "data_emissao": "08/06/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2015NE00597",
+      "contrato": "2/2013",
+      "valor": 9126.02,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "Cobertura financeira do mes de abril 2015"
+    },
+    {
+      "numero": "2015NE00596",
+      "contrato": "3/2013",
+      "valor": 5250.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "Cobertura financeira do mês de abril 2015"
+    },
+    {
+      "numero": "2015NE00595",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "Cobertura financeira do mês de abril/15"
+    },
+    {
+      "numero": "2025NE0000249",
+      "contrato": "3/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2025NE0000250",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0000251",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2016NE00777",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2026NE0000197",
+      "contrato": "7/2025",
+      "valor": 18917.46,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2026",
+      "descricao": "Contratação de Serviço de Tecnologia da Informação, compreendendo a Hospedagem em infraestrutura virtualizada"
+    },
+    {
+      "numero": "2017NE00383",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2014NE00322",
+      "contrato": "9/2014",
+      "valor": 3130.14,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2020NE00570",
+      "contrato": "9/2019",
+      "valor": 1627.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2020",
+      "descricao": "PARA ATENDER O MÊS DE MAIO/2020"
+    },
+    {
+      "numero": "2026NE0000171",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000173",
+      "contrato": "3/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2020NE00314",
+      "contrato": "",
+      "valor": 14778.74,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2020",
+      "descricao": "PARA ATENDER RD, MÊS DEZEMBRO/2019"
+    },
+    {
+      "numero": "2018NE00399",
+      "contrato": "9/2014",
+      "valor": 2685.13,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "PARA ATENDER O CONTRATO Nº 09/14 - MARÇO/18 - 25 DIAS."
+    },
+    {
+      "numero": "2026NE0000012",
+      "contrato": "3/2024",
+      "valor": 2719.01,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000010",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2015NE00071",
+      "contrato": "12/2012",
+      "valor": 7325.76,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "SOFTWARE"
+    },
+    {
+      "numero": "2015NE00092",
+      "contrato": "2/2013",
+      "valor": 18252.04,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015 - meses: janeiro a fevereiro"
+    },
+    {
+      "numero": "2015NE00070",
+      "contrato": "12/2012",
+      "valor": 7325.76,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº52, EM VIRTUDE DE TER SIDO EMPENHADO NA REFERÊNCIA INDEVIDA."
+    },
+    {
+      "numero": "2015NE00074",
+      "contrato": "12/2012",
+      "valor": 7325.76,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00073",
+      "contrato": "12/2012",
+      "valor": 7325.76,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº71, EM VIRTUDE DE TER SIDO EMPENHADO NA REFERENCIA INDEVIDA."
+    },
+    {
+      "numero": "2015NE00052",
+      "contrato": "12/2012",
+      "valor": 7325.76,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "CONTRATO"
+    },
+    {
+      "numero": "2015NE00091",
+      "contrato": "3/2013",
+      "valor": 10500.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira 2015 - meses: janeiro e fevereiro"
+    },
+    {
+      "numero": "2015NE00053",
+      "contrato": "9/2014",
+      "valor": 6260.28,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2024NE0001996",
+      "contrato": "",
+      "valor": 996.49,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2017NE01983",
+      "contrato": "2/2013",
+      "valor": 5640.45,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2017",
+      "descricao": "PARA ATENDER AGOSTO E SETEMBRO/17"
+    },
+    {
+      "numero": "2017NE01859",
+      "contrato": "",
+      "valor": 1675.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2024NE0001336",
+      "contrato": "2/2024",
+      "valor": 4976.2,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2024",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2020NE00564",
+      "contrato": "",
+      "valor": 1627.53,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2020",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2022NE0000242",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA EM GERAL, REFERENTE AO CONTRATO Nº 006/2019. PRODAM"
+    },
+    {
+      "numero": "2021NE0000207",
+      "contrato": "9/2019",
+      "valor": 47112.06,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO A MARÇO/21"
+    },
+    {
+      "numero": "2021NE0000209",
+      "contrato": "22/2017",
+      "valor": 3984.24,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO A MARÇO/21"
+    },
+    {
+      "numero": "2021NE0000208",
+      "contrato": "6/2019",
+      "valor": 12200.73,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "PARA TANEDER OS MESES DE JANEIRO A MARÇO/21"
+    },
+    {
+      "numero": "2025NE0001874",
+      "contrato": "",
+      "valor": 2459.97,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001899",
+      "contrato": "",
+      "valor": 542.9,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001873",
+      "contrato": "",
+      "valor": 1288.88,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001875",
+      "contrato": "",
+      "valor": 322.22,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001886",
+      "contrato": "",
+      "valor": 1090.32,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001876",
+      "contrato": "",
+      "valor": 293.35,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001889",
+      "contrato": "",
+      "valor": 1894.62,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2025NE0001904",
+      "contrato": "3/2024",
+      "valor": 1894.62,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0001905",
+      "contrato": "3/2024",
+      "valor": 960.55,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2020NE01636",
+      "contrato": "",
+      "valor": 581.01,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01615",
+      "contrato": "",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01640",
+      "contrato": "",
+      "valor": 539.25,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01614",
+      "contrato": "",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01633",
+      "contrato": "",
+      "valor": 1922.38,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01641",
+      "contrato": "",
+      "valor": 539.25,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01644",
+      "contrato": "",
+      "valor": 925.28,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01613",
+      "contrato": "",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01658",
+      "contrato": "",
+      "valor": 6510.15,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01661",
+      "contrato": "",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01665",
+      "contrato": "",
+      "valor": 13781.64,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01666",
+      "contrato": "",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER RD"
+    },
+    {
+      "numero": "2020NE01667",
+      "contrato": "",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01617",
+      "contrato": "",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01616",
+      "contrato": "",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01669",
+      "contrato": "",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01618",
+      "contrato": "",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01626",
+      "contrato": "",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01627",
+      "contrato": "",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2020NE01630",
+      "contrato": "",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2020",
+      "descricao": "PARA ATENDER REC.DIVIDAS"
+    },
+    {
+      "numero": "2021NE0001357",
+      "contrato": "",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2021",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2021NE0001358",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2021",
+      "descricao": "REFE A SETEMBRO"
+    },
+    {
+      "numero": "2021NE0001359",
+      "contrato": "",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2021",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2020NE01152",
+      "contrato": "22/2017",
+      "valor": 2656.16,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2020",
+      "descricao": "PARA ATENDER OS MESES DE AGOSTO E SETEMBRO/20"
+    },
+    {
+      "numero": "2020NE01158",
+      "contrato": "6/2019",
+      "valor": 8133.82,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2020",
+      "descricao": "PARA ATENDER OS MESES DE AGOSTO E SETEMBRO/20"
+    },
+    {
+      "numero": "2020NE01153",
+      "contrato": "9/2019",
+      "valor": 31408.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2020",
+      "descricao": "PARA ATENDER OS MESES DE SETEMBRO E OUTUBRO/20"
+    },
+    {
+      "numero": "2018NE01389",
+      "contrato": "",
+      "valor": 8.18,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2018",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2024NE0000961",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2024",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0000772",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2025NE0000771",
+      "contrato": "3/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2019NE00827",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2019NE00818",
+      "contrato": "4/2018",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2019NE00819",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2022NE0000020",
+      "contrato": "9/2019",
+      "valor": 47112.06,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "REF AOS MESES DE JAN A MARÇO /2022"
+    },
+    {
+      "numero": "2022NE0000025",
+      "contrato": "22/2017",
+      "valor": 3984.24,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "REF AOS MESES DE JAN A MARÇO /2022"
+    },
+    {
+      "numero": "2022NE0000031",
+      "contrato": "6/2019",
+      "valor": 8133.82,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "PARA ATENDER A FMT"
+    },
+    {
+      "numero": "2025NE0001869",
+      "contrato": "22/2017",
+      "valor": 5867.1,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "REFERENTE AO 2ºT.A. DO CONTRATO Nº 022/2017,CONTRATÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DESENVOLVIMENTO DE SOFTWARE APLICATIVO PARA CONTROLE DE PESSOAL E PROCESSAMENTO DE FOLHA DE PAGAMENTO.REFERENTE AS NOTAS FISCAIS Nº E COMPETÊNCIAS: NF.2282 - MÊS MAIO/2018 NF.2791- -MÊS JUNHO/2018 NF.3285 - MÊS JULHO/2018 NF.3834 - MÊS AGOSTO/2018 NF.4353 - MÊS SETEMBRO/2018 NF.4871 - MÊS OUTUBRO/2018 NF.5590 - MÊS NOVEMBRO/2018 NF.5833 - MÊS DEZEMBRO/2018"
+    },
+    {
+      "numero": "2025NE0001868",
+      "contrato": "3/2024",
+      "valor": 0.03,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web TC: 0003/2024 AD: 01."
+    },
+    {
+      "numero": "2025NE0001867",
+      "contrato": "9/2014",
+      "valor": 25777.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "REFERENTE AO CONTRATO Nº 009/14,REFERENTE A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS EM GERAL - SERVIÇOS FIREWALL. REFERENTE AS NOTAS FISCAIS ECOMPETÊNCIAS: N.F 1839 - 05/2018 N.F 2307 - 06/2018 N.F 2945 - 07/2018 N.F 3327 - 08/2018 N.F 3876 - 09/2018 N.F 4380 - 10/2018 N.F 4966 - 11/2018 N.F 5486 - 12/2018"
+    },
+    {
+      "numero": "2019NE01989",
+      "contrato": "",
+      "valor": 7.78,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2021NE0001327",
+      "contrato": "9/2019",
+      "valor": 15704.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2021",
+      "descricao": "PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2021NE0001326",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2021",
+      "descricao": "PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2021NE0001328",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2021",
+      "descricao": "PARA ATENDER A FMTHVD"
+    },
+    {
+      "numero": "2019NE01519",
+      "contrato": "22/2017",
+      "valor": 400.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "PARA ATENDER O MÊS DE SETEMBRO/19"
+    },
+    {
+      "numero": "2019NE01416",
+      "contrato": "",
+      "valor": 400.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2019",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2024NE0000953",
+      "contrato": "3/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2024NE0000952",
+      "contrato": "",
+      "valor": 5435.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2024",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2014NE00797",
+      "contrato": "9/2014",
+      "valor": 1130.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/07/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2014NE00688",
+      "contrato": "9/2014",
+      "valor": 10260.28,
+      "situacao": "Ativo",
+      "data_emissao": "02/06/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2019NE00594",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2019NE00592",
+      "contrato": "4/2018",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2019NE00593",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2019",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2019NE00500",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2019",
+      "descricao": "reforço"
+    },
+    {
+      "numero": "2019NE00661",
+      "contrato": "9/2019",
+      "valor": 844.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2019",
+      "descricao": "PARA ATENDER O MÊS DE MAIO/19"
+    },
+    {
+      "numero": "2016NE00735",
+      "contrato": "",
+      "valor": 10032.09,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 177, EM VIRTUDE DA SUSPENSÃO DO CONTRATO Nº 003/2013,CONFORME OFICIO Nº 0533/2016-GDF/FMT-HVD."
+    },
+    {
+      "numero": "2016NE00737",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2016NE00736",
+      "contrato": "12/2012",
+      "valor": 915.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2016NE00738",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2014NE00477",
+      "contrato": "9/2014",
+      "valor": 1130.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2021NE0000340",
+      "contrato": "6/2019",
+      "valor": 4066.91,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2021",
+      "descricao": "PARA ATENDER O MÊS DE MARÇO/21"
+    },
+    {
+      "numero": "2018NE00338",
+      "contrato": "",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00369",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2018",
+      "descricao": "para atender o CT. 009/14"
+    },
+    {
+      "numero": "2018NE00339",
+      "contrato": "",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00370",
+      "contrato": "4/2018",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2018",
+      "descricao": "PARA ATENDER CT - 004/18"
+    },
+    {
+      "numero": "2018NE00368",
+      "contrato": "22/2017",
+      "valor": 1219.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2018",
+      "descricao": "PARA ATENDER DT-022/17"
+    },
+    {
+      "numero": "2015NE00321",
+      "contrato": "9/2014",
+      "valor": 2608.45,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "cobertura financeira do mês de março/2015"
+    },
+    {
+      "numero": "2025NE0000010",
+      "contrato": "2/2024",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados."
+    },
+    {
+      "numero": "2025NE0000012",
+      "contrato": "9/2019",
+      "valor": 18918.81,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 05."
+    },
+    {
+      "numero": "2025NE0000073",
+      "contrato": "3/2024",
+      "valor": 2717.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação para serviço de fornecimento de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo web"
+    },
+    {
+      "numero": "2024NE0000101",
+      "contrato": "9/2019",
+      "valor": 37837.62,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000058",
+      "contrato": "6/2019",
+      "valor": 9588.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa para Prestação do Serviço de Firewall para a FMT-HVD. TC: 0006/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0000051",
+      "contrato": "9/2019",
+      "valor": 18227.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de serviços de tecnologia da Informação, hospedagem em infraestrutura virtualizada para comportar Sistema Integrado de Gestão Hospitalar - IDOCTOR"
+    },
+    {
+      "numero": "2023NE0000002",
+      "contrato": "6/2019",
+      "valor": 4794.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "PARA ATENDER O CONTRATO Nº 006/2019 - 3ºT.A. MÊS DE JANEIRO/23"
+    },
+    {
+      "numero": "2023NE0000001",
+      "contrato": "9/2022",
+      "valor": 1532.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "PARA ATENDER O CONTRATO Nº 009/2022 - MÊS DE JANEIRO/23"
+    },
+    {
+      "numero": "2020NE00061",
+      "contrato": "9/2019",
+      "valor": 48739.59,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO A MARÇO/2020."
+    },
+    {
+      "numero": "2020NE00016",
+      "contrato": "6/2019",
+      "valor": 8133.82,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO E FEVEREIRO/20."
+    },
+    {
+      "numero": "2020NE00015",
+      "contrato": "22/2017",
+      "valor": 3984.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO A MARÇO/20."
+    },
+    {
+      "numero": "2020NE00003",
+      "contrato": "6/2019",
+      "valor": 12200.73,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO A MARÇO/20."
+    },
+    {
+      "numero": "2020NE00013",
+      "contrato": "",
+      "valor": 12200.73,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2019NE00073",
+      "contrato": "22/2017",
+      "valor": 3658.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "PARA OS MESES DE JANEIRO A MARÇO/19."
+    },
+    {
+      "numero": "2019NE00068",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO E FEVEREIRO/19."
+    },
+    {
+      "numero": "2019NE00074",
+      "contrato": "4/2018",
+      "valor": 16400.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "PARA ATENDER OS MESES DE JANEIRO A MARÇO/19."
+    },
+    {
+      "numero": "2018NE00004",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PARA ATENDER O MÊS DE SETEMBRO/17 - EXERC.ANT."
+    },
+    {
+      "numero": "2018NE00103",
+      "contrato": "2/2013",
+      "valor": 2789.9,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PARA ATENDER O MÊS DE NOV/17."
+    },
+    {
+      "numero": "2018NE00147",
+      "contrato": "4/2018",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PARA ATENDER O MÊS DE JANEIRO/18 - PRODAM CONT.004/18"
+    },
+    {
+      "numero": "2018NE00146",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PARA ATENDER O M~ES DE JANEIRO/18 - CONT.009/14"
+    },
+    {
+      "numero": "2018NE00145",
+      "contrato": "22/2017",
+      "valor": 1219.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PARA ATENDER O M~ES DE JANEIRO/18 - CONT.022/17 - PRODAM"
+    },
+    {
+      "numero": "2017NE00161",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2017NE00154",
+      "contrato": "12/2012",
+      "valor": 915.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2017NE00159",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2014NE00059",
+      "contrato": "2/2013",
+      "valor": 104416.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 2/2013 - Internet 3Mbps"
+    },
+    {
+      "numero": "2014NE00049",
+      "contrato": "3/2013",
+      "valor": 60000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 3/2013 - Serviços Eventuais em Informatica"
+    },
+    {
+      "numero": "2014NE00046",
+      "contrato": "12/2012",
+      "valor": 6784.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 12/2012 - CFPP,(Colaboradores em regime de plantão)"
+    },
+    {
+      "numero": "2025NE0001866",
+      "contrato": "",
+      "valor": 0.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2016NE01748",
+      "contrato": "12/2012",
+      "valor": 2522.66,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01749",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01750",
+      "contrato": "2/2013",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE01757",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2015NE01973",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "LOCAÇÃO"
+    },
+    {
+      "numero": "2015NE01972",
+      "contrato": "2/2013",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ACESSO A INTERNET"
+    },
+    {
+      "numero": "2015NE01965",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "serviços INFORMATICA"
+    },
+    {
+      "numero": "2018NE01577",
+      "contrato": "22/2017",
+      "valor": 282.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2018",
+      "descricao": "PARA ATENDER O MÊS DE OUTUBRO/18."
+    },
+    {
+      "numero": "2018NE01541",
+      "contrato": "",
+      "valor": 282.98,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2018",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2015NE01580",
+      "contrato": "12/2012",
+      "valor": 1882.38,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 74,SALDO DE CONTRATO."
+    },
+    {
+      "numero": "2015NE01582",
+      "contrato": "12/2012",
+      "valor": 1731.92,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2015NE01581",
+      "contrato": "12/2012",
+      "valor": 94.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 1252,SALDO DE CONTRATO."
+    },
+    {
+      "numero": "2014NE01434",
+      "contrato": "9/2014",
+      "valor": 1130.14,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2017NE01450",
+      "contrato": "22/2017",
+      "valor": 4877.72,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "REFERENTE AO CONTRATO Nº 022/17 - PRODAM MESES DE SETEMBRO A DEZEMBRO/17."
+    },
+    {
+      "numero": "2015NE01316",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "LOCAÇÃO DE SOFTWARE"
+    },
+    {
+      "numero": "2015NE01252",
+      "contrato": "12/2012",
+      "valor": 915.72,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "COBERTURA SET.2015"
+    },
+    {
+      "numero": "2015NE01254",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "COBERTURA JUNHO E JULHO/2015 - VALOR MENSAL R$ 3.222,16"
+    },
+    {
+      "numero": "2015NE01253",
+      "contrato": "9/2014",
+      "valor": 5250.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "COBERTURA JUNHO.2015"
+    },
+    {
+      "numero": "2015NE01255",
+      "contrato": "2/2013",
+      "valor": 18252.04,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "COBERTURA JUNHO E JULHO 2015 - VALOR MENSAL R$ 9.126,02"
+    },
+    {
+      "numero": "2015NE01317",
+      "contrato": "2/2013",
+      "valor": 5458.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "COBERTURA AGOSTO/2015"
+    },
+    {
+      "numero": "2015NE01315",
+      "contrato": "3/2013",
+      "valor": 297.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 408, SALDO DE CONTRATO."
+    },
+    {
+      "numero": "2015NE01314",
+      "contrato": "3/2013",
+      "valor": 763.17,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 91, SALDO DE CONTRATO."
+    },
+    {
+      "numero": "2014NE01214",
+      "contrato": "9/2014",
+      "valor": 1130.14,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2025NE0001035",
+      "contrato": "2/2024",
+      "valor": 1897.59,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2025",
+      "descricao": "Contratação de serviço de Gestão de Segurança da Informação, através do fornecimento de Firewall e serviços correlatados. TC: 0002/2024 AD: 01."
+    },
+    {
+      "numero": "2018NE01345",
+      "contrato": "",
+      "valor": 116.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2018",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2014NE01096",
+      "contrato": "9/2014",
+      "valor": 1130.14,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2015NE00871",
+      "contrato": "",
+      "valor": 3130.14,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "EXERC."
+    },
+    {
+      "numero": "2015NE00872",
+      "contrato": "",
+      "valor": 3130.14,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "EXERC.ANT."
+    },
+    {
+      "numero": "2019NE00339",
+      "contrato": "6/2019",
+      "valor": 844.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "PARA ATENDER A FMT-HVD. PRODAM PROCESSAMENTO"
+    },
+    {
+      "numero": "2019NE00347",
+      "contrato": "4/2018",
+      "valor": 6016.05,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "PARA ATENDER A FMT-HVD. PRODAM CONTRATO 004/2018"
+    },
+    {
+      "numero": "2019NE00349",
+      "contrato": "22/2017",
+      "valor": 1328.08,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "PARA ATENDER A FMT-HVD. PRODAM CONTRATO Nº 022/2017"
+    },
+    {
+      "numero": "2019NE00315",
+      "contrato": "",
+      "valor": 844.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NE 268, EM VIRTUDE DE NÃO TER INFORMADO A DESCRIÇÃO CORRETA."
+    },
+    {
+      "numero": "2016NE00549",
+      "contrato": "12/2012",
+      "valor": 1831.44,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "REFORÇO"
+    },
+    {
+      "numero": "2016NE00551",
+      "contrato": "2/2013",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "PRODAM"
+    },
+    {
+      "numero": "2015NE00424",
+      "contrato": "9/2014",
+      "valor": 613.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "reforço da NE 321- mes de março 2015"
+    },
+    {
+      "numero": "2014NE00374",
+      "contrato": "9/2014",
+      "valor": 15130.14,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2014",
+      "descricao": "Contrato No. 9/2014 - Serviços Firewall"
+    },
+    {
+      "numero": "2019NE00268",
+      "contrato": "6/2019",
+      "valor": 844.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "A CONTRATADA obriga-se a prestar para a CONTRATANTE a Prestação do Serviço de firewall, compreendendo a disponibilização de equipamento de segurança de rede a essa CONTRATANTE, cuja descrição está contida nos anexos juntamente com a Proposta 294/2018"
+    },
+    {
+      "numero": "2019NE00164",
+      "contrato": "6/2019",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "PARA ATENDER O MÊS DE MARÇO/19"
+    },
+    {
+      "numero": "2019NE00264",
+      "contrato": "",
+      "valor": 844.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 73/19, REFERENTE SALDO DE EMPENHO."
+    },
+    {
+      "numero": "2018NE00398",
+      "contrato": "9/2014",
+      "valor": 537.03,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "PARA ATENDER O CONTRATO Nº 009/14 - MÊS DE MARÇO/18 - 05 DIAS."
+    },
+    {
+      "numero": "2018NE00337",
+      "contrato": "",
+      "valor": 1219.44,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2017NE00382",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2017",
+      "descricao": "."
+    },
+    {
+      "numero": "2016NE00242",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2016",
+      "descricao": "SERVIÇOS DE INFORMÁTICA"
+    },
+    {
+      "numero": "2018NE00328",
+      "contrato": "4/2018",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "PARA ATENDER O MÊS DE FEV/18- PRODAM"
+    },
+    {
+      "numero": "2018NE00323",
+      "contrato": "",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2018NE00321",
+      "contrato": "",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "PARA ATENDER"
+    },
+    {
+      "numero": "2018NE00332",
+      "contrato": "",
+      "valor": 110186.46,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "PARA ATENDER O TERMO DE CESSÃO Nº 001/2018 - FMT-HVS E A PRODAM."
+    },
+    {
+      "numero": "2018NE00304",
+      "contrato": "4/2018",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "PARA ATENDER O CT.004/18 - FEV/18."
+    },
+    {
+      "numero": "2018NE00305",
+      "contrato": "9/2014",
+      "valor": 3222.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "PARA ATENDER CT.009/14 - FEV/18."
+    },
+    {
+      "numero": "2018NE00322",
+      "contrato": "4/2018",
+      "valor": 5466.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "PARA ATENDER O CT.004/18 - FEV/18."
+    },
+    {
+      "numero": "2018NE00303",
+      "contrato": "22/2017",
+      "valor": 1219.44,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "PARA ATENDER CT.022/17 FEV/18."
+    },
+    {
+      "numero": "2016NE00176",
+      "contrato": "9/2014",
+      "valor": 6444.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "PRODAM"
+    },
+    {
+      "numero": "2016NE00180",
+      "contrato": "12/2012",
+      "valor": 1831.44,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "AQUISIÇÃO DE SOFTWARE"
+    },
+    {
+      "numero": "2016NE00175",
+      "contrato": "2/2013",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "PRODAM"
+    },
+    {
+      "numero": "2016NE00177",
+      "contrato": "3/2013",
+      "valor": 10500.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2016",
+      "descricao": "PRODAM"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "167358",
+      "nf": "1668",
+      "contrato": "7/2025",
+      "valor_bruto": 17452.91,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 36
+    },
+    {
+      "id": "143872",
+      "nf": "39999",
+      "contrato": "6/2019",
+      "valor_bruto": 4976.2,
+      "competencia": "08/2023",
+      "situacao": "Parcialmente Paga",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 164
+    },
+    {
+      "id": "139429",
+      "nf": "36577",
+      "contrato": "6/2019",
+      "valor_bruto": 799.08,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 164
+    }
+  ],
+  "cobrancas": [],
+  "stats": {
+    "empenhos": {
+      "qtd": 480,
+      "valor_total": 3370864.47,
+      "por_ano": {
+        "2020": {
+          "qtd": 72,
+          "valor": 466167.28999999975
+        },
+        "2022": {
+          "qtd": 47,
+          "valor": 363127.42000000004
+        },
+        "2021": {
+          "qtd": 43,
+          "valor": 376708.75999999995
+        },
+        "2017": {
+          "qtd": 17,
+          "valor": 83505.71
+        },
+        "2019": {
+          "qtd": 26,
+          "valor": 72886.12000000001
+        },
+        "2016": {
+          "qtd": 29,
+          "valor": 134602.47000000003
+        },
+        "2025": {
+          "qtd": 57,
+          "valor": 384382.3499999998
+        },
+        "2018": {
+          "qtd": 35,
+          "valor": 201891.88000000003
+        },
+        "2023": {
+          "qtd": 50,
+          "valor": 303189.19999999995
+        },
+        "2024": {
+          "qtd": 27,
+          "valor": 320885.9
+        },
+        "2026": {
+          "qtd": 26,
+          "valor": 193806.92
+        },
+        "2015": {
+          "qtd": 40,
+          "valor": 264338.11000000016
+        },
+        "2014": {
+          "qtd": 11,
+          "valor": 205372.34000000003
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 3,
+      "valor_total": 23228.19
+    },
+    "cobrancas": {
+      "qtd": 0,
+      "valor_total": 0.0
+    }
+  }
+}

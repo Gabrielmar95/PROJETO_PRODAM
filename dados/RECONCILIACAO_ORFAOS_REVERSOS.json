@@ -1,0 +1,65 @@
+{
+  "data": "2026-04-14",
+  "orfaos_antes": [
+    "FUAM/FUHAM",
+    "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+    "PSA TECHNOLOGY",
+    "CETAM",
+    "UGPI",
+    "CGE",
+    "FMPES",
+    "SEJEL",
+    "SETRAB",
+    "AADESAM",
+    "FJJA",
+    "COSAMA",
+    "CASA MILITAR"
+  ],
+  "orfaos_depois": [
+    "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+    "PSA TECHNOLOGY",
+    "UGPI",
+    "FMPES",
+    "FJJA",
+    "COSAMA"
+  ],
+  "atualizados": [
+    {
+      "sigla": "SEMIG",
+      "motivo": "val_exig R$0→R$ 235.353,15",
+      "qtd_fat_nova": 30,
+      "qtd_emp_nova": 22,
+      "val_fat_nova": "235353.15",
+      "matches_fat": [
+        "SEMIG"
+      ],
+      "matches_emp": [
+        "SEMIG"
+      ]
+    },
+    {
+      "sigla": "CASA CIVIL",
+      "motivo": "val_exig R$0→R$ 20.927,09",
+      "qtd_fat_nova": 4,
+      "qtd_emp_nova": 194,
+      "val_fat_nova": "20927.09",
+      "matches_fat": [
+        "CASA CIVIL"
+      ],
+      "matches_emp": [
+        "CASA CIVIL"
+      ]
+    },
+    {
+      "sigla": "BANCO DAYCOVAL",
+      "motivo": "val_exig R$0→R$ 99.481,64",
+      "qtd_fat_nova": 4,
+      "qtd_emp_nova": 0,
+      "val_fat_nova": "99481.64",
+      "matches_fat": [
+        "BANCO DAYCOVAL"
+      ],
+      "matches_emp": []
+    }
+  ]
+}

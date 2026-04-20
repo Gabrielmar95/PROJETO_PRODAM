@@ -1,0 +1,27 @@
+{
+  "filename": "CERTIDÃO NEGATIVA DE DÉBITOS - SEFAZ__745da4debb.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\08_PDFS_ORIGINAIS\\CERTIDÃO NEGATIVA DE DÉBITOS - SEFAZ__745da4debb.pdf",
+  "categoria": "08_PDFS_ORIGINAIS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 477808,
+  "texto_length": 1127,
+  "texto_preview": "05/05/2022 08:37\nCertidão Negativa Contribuinte\nsistemas.sefaz.am.gov.br/GAE/mnt/dividaAtiva/certidaoNegativa/emitirCertidaoNegativaContDte.do\n1/1\nGoverno do Estado do Amazonas\nSecretaria de Estado da Fazenda\nSecretaria Executiva da Receita\nDepartamento de Arrecadação\nCertidão Nº:\n51565155\nData: 05/05/2022\nHora: 08:37:24\nVálida até: 04/06/2022\n\nCERTIDÃO NEGATIVA DE DÉBITOS\nC.N.P.J: 04.407.920/0001-80 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S A \nInscrição: 05.341.162-5 - Situação: Ativo \nCNAE: 6190-6/01 - Provedores de acesso às redes de comunicações\n     Resguardando o direito da Fazenda Estadual de cobrar as dívidas que venham a ser apuradas, certifico que de acordo com as buscas\nprocedidas nos livros e registros existentes na Dívida Ativa do Estado do Amazonas, correspondentes aos últim",
+  "texto_completo": "05/05/2022 08:37\nCertidão Negativa Contribuinte\nsistemas.sefaz.am.gov.br/GAE/mnt/dividaAtiva/certidaoNegativa/emitirCertidaoNegativaContDte.do\n1/1\nGoverno do Estado do Amazonas\nSecretaria de Estado da Fazenda\nSecretaria Executiva da Receita\nDepartamento de Arrecadação\nCertidão Nº:\n51565155\nData: 05/05/2022\nHora: 08:37:24\nVálida até: 04/06/2022\n\nCERTIDÃO NEGATIVA DE DÉBITOS\nC.N.P.J: 04.407.920/0001-80 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S A \nInscrição: 05.341.162-5 - Situação: Ativo \nCNAE: 6190-6/01 - Provedores de acesso às redes de comunicações\n     Resguardando o direito da Fazenda Estadual de cobrar as dívidas que venham a ser apuradas, certifico que de acordo com as buscas\nprocedidas nos livros e registros existentes na Dívida Ativa do Estado do Amazonas, correspondentes aos últimos 05 (cinco) anos, não\nconsta qualquer débito inscrito em nome do interessado acima identificado, até a presente data. Esta CERTIDÃO é a única emitida pela\nSecretaria de Fazenda, inclui todos os débitos inscritos ou não na Dívida Ativa do Estado.\nPara efeito de validação desta certidão, consultar: http://www.sefaz.am.gov.br\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80"
+    ],
+    "datas_encontradas": [
+      "05/05/2022",
+      "04/06/2022"
+    ],
+    "tipo_doc": "CERTIDAO",
+    "tipo_cnd": "NEGATIVA"
+  }
+}

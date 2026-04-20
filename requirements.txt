@@ -1,0 +1,30 @@
+# requirements.txt — Projeto PRODAM
+# Python 3.12+
+# Instalar: py -3.12 -m pip install -r requirements.txt
+
+# Essenciais (já em stdlib, listados por documentação)
+# json, sqlite3, csv, pathlib, datetime, decimal, collections, re, argparse, subprocess, shutil
+
+# Planilhas Excel (.xlsx)
+openpyxl>=3.1.0
+
+# DataFrames em escala (usado por algumas skills PRODAM — opcional)
+polars>=0.20.0
+
+# HTTP para APIs externas (SELIC, IGPM via BCB)
+requests>=2.31.0
+
+# OCR (opcional — só se for processar PDFs sem texto)
+# pytesseract>=0.3.10
+# pdf2image>=1.17.0
+
+# PDFs (opcional — só se gerar .pdf)
+# weasyprint>=60.0
+
+# Web scraping (opcional — para re-scrape SPCF)
+# beautifulsoup4>=4.12.0
+# playwright>=1.40.0
+
+# Dev/Testes (opcional — adicionar com: pip install -r requirements-dev.txt)
+# pytest>=7.4.0
+# mypy>=1.7.0

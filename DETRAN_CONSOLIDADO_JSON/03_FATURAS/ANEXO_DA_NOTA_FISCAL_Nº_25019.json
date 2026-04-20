@@ -1,0 +1,24 @@
+{
+  "filename": "ANEXO DA NOTA FISCAL Nº 25019.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\ANEXO DA NOTA FISCAL Nº 25019.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 188969,
+  "texto_length": 1350,
+  "texto_preview": "1\n128080\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25242\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25019\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. de Carteira Nacional de\nHabilitação\nRENACH -PERIODO 20/12/2020 A 19/01/2021\nMIL\n0,004\nPor milheiro de Notificação de Pontuação na CNH\n1,48\n369,00\nMIL\n18,234\nPor milheiro de Exames Atualizados\n6.108,39\n335,00\nMIL\n8,096\nPor milheiro CNHs (Naciona",
+  "texto_completo": "1\n128080\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Execução de sistemas\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25242\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25019\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. de Carteira Nacional de\nHabilitação\nRENACH -PERIODO 20/12/2020 A 19/01/2021\nMIL\n0,004\nPor milheiro de Notificação de Pontuação na CNH\n1,48\n369,00\nMIL\n18,234\nPor milheiro de Exames Atualizados\n6.108,39\n335,00\nMIL\n8,096\nPor milheiro CNHs (Nacionais e Internacionais) com Emissão Autorizada\n5.181,44\n640,00\nMIL\n17,702\nPor milheiro de Protocolos RENACH\n238,98\n13,50\nUN\n1.586,00\nPor unidade de Condutores Incluídos no Cadastro\n3.330,60\n2,10\nMIL\n9.681,50\nPor milheiro de registro armazenado: Condutores, Cursos e Protocolos\n77.452,00\n8,00\n92.312,89\nContrato N 22/2014\nServico: Execução de sistemas - Sistema: Sist. de Carteira Nacional de\nHabilitação\nSCNH - PERIODO - 20/12/2020 ATE 19/01/2021\nUN\n57,00\nPor página impressa a laser\n34,20\n0,60\n34,20\n92.347,09\n92.347,09\nTOTAL DA PÁGINA\nTOTAL ACUMULADO\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "27/10/2021",
+      "20/12/2020",
+      "19/01/2021"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

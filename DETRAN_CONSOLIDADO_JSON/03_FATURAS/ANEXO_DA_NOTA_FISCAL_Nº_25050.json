@@ -1,0 +1,22 @@
+{
+  "filename": "ANEXO DA NOTA FISCAL Nº 25050.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\ANEXO DA NOTA FISCAL Nº 25050.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 12722,
+  "texto_length": 964,
+  "texto_preview": "1\n128163\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Hospedagem de Servidores\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25273\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25050\nContrato N 17/2015\nServico: Hospedagem de Servidores\nUN\n8,00\nPor vCPU (Menor que 1TB de Disco MID)\n1.742,64\n217,83\nGB\n10,00\nPor GB de tráfego mensal de Internet\n100,80\n10,08\nGB\n1.174,00\nPor GB em Disco Backup (Menor que 1TB de Disco MID)\n5.071,68\n4,32\nGB\n1.174,00\nPor GB em Disco MID (Menor que 1TB de Disc",
+  "texto_completo": "1\n128163\nDISCRIMINAÇÃO DOS SERVIÇOS\nANEXO\nFAX:\n9232324369\n04939808\nCÓDIGO DA ATIVIDADE:\n04939808\nPRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A.\n103/631190001 - Hospedagem de Servidores\nMUNICÍPIO:\nRUA JONATHAS PEDROSA, 1937 CEP: 69020110\n92212165\nTELEFONE:\nINSCRIÇÃO MUNICIPAL. Nº:\nBAIRRO:\nINSCRIÇÃO ESTADUAL. Nº:\nMANAUS\nESTADO:\n673801\nUND.\nQUANTIDADE\nDISCRIMINAÇÃO DOS SERVIÇOS\nTOTAL\nPREÇO UNITÁRIO\n25273\nDETRAN\nDATA DE EMISSÃO\nCLIENTE\n27/10/2021\nNº RPS\nNOTA FISCAL DE SERVIÇOS ELETRONICA\n25050\nContrato N 17/2015\nServico: Hospedagem de Servidores\nUN\n8,00\nPor vCPU (Menor que 1TB de Disco MID)\n1.742,64\n217,83\nGB\n10,00\nPor GB de tráfego mensal de Internet\n100,80\n10,08\nGB\n1.174,00\nPor GB em Disco Backup (Menor que 1TB de Disco MID)\n5.071,68\n4,32\nGB\n1.174,00\nPor GB em Disco MID (Menor que 1TB de Disco MID)\n2.676,72\n2,28\nGB\n22,00\nPor GB de Memória Principal (Menor que 1TB de Disco MID)\n1.206,92\n54,86\n10.798,76\n10.798,76\n10.798,76\nTOTAL DA PÁGINA\nTOTAL ACUMULADO\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "27/10/2021"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

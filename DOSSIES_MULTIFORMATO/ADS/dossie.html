@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê ADS — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — ADS</h1>
+<p><b>Agência de Desenvolvimento Sustentável do Amazonas</b> | GOV_INDIRETA | CNPJ: CNPJ_PENDENTE | Data: 2026-04-14</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">CLASSIFICAR</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 211.657,47</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 211.657,47</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">119</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">256</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">0%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2014NE00113</td><td>102/2012</td><td>25/03/2014</td><td>R$ 79.842,51</td><td>Ativo</td></tr>
+<tr><td>2020NE00039</td><td>2/2018</td><td>28/01/2020</td><td>R$ 70.733,52</td><td>Ativo</td></tr>
+<tr><td>2015NE00034</td><td>102/2012</td><td>05/01/2015</td><td>R$ 26.614,21</td><td>Ativo</td></tr>
+<tr><td>2015NE00020</td><td>102/2012</td><td>05/01/2015</td><td>R$ 26.614,21</td><td>Ativo</td></tr>
+<tr><td>2015NE00007</td><td>102/2012</td><td>05/01/2015</td><td>R$ 26.614,21</td><td>Ativo</td></tr>
+<tr><td>2014NE00041</td><td>102/2012</td><td>02/01/2014</td><td>R$ 25.221,93</td><td>Ativo</td></tr>
+<tr><td>2026NE0000015</td><td>427/2021</td><td>05/01/2026</td><td>R$ 21.288,20</td><td>Ativo</td></tr>
+<tr><td>2019NE00166</td><td>2/2018</td><td>22/03/2019</td><td>R$ 19.290,96</td><td>Ativo</td></tr>
+<tr><td>2019NE01380</td><td>2/2018</td><td>01/10/2019</td><td>R$ 19.290,96</td><td>Ativo</td></tr>
+<tr><td>2019NE00937</td><td>2/2018</td><td>01/07/2019</td><td>R$ 19.290,96</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>164110</td><td>59302</td><td>643/2022</td><td>11/2025</td><td>R$ 2.852,42</td><td>Parcialmente Paga</td><td>COMPLETA</td></tr>
+<tr><td>164897</td><td>59869</td><td>643/2022</td><td>12/2025</td><td>R$ 2.852,42</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>163855</td><td>58821</td><td>427/2021</td><td>10/2025</td><td>R$ 2.067,62</td><td>Parcialmente Paga</td><td>COMPLETA</td></tr>
+<tr><td>164744</td><td>59675</td><td>427/2021</td><td>11/2025</td><td>R$ 2.067,62</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>164896</td><td>59868</td><td>425/2021</td><td>12/2025</td><td>R$ 195,26</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>166080</td><td>361</td><td>425/2021</td><td>01/2026</td><td>R$ 195,26</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>Incluido via SPCF Mar/2026. So 8 fat aberto (B2-05 R$13.278,28). R$342K em perdas. Maioria prescritas/perdas</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[5, 25, 2, 68, 24, 29, 11, 13, 17, 16, 29, 15, 2],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[113294.15, 121379.07, 3142.02, 171629.64999999994, 216224.16999999998, 149196.51, 139694.46, 58396.240000000005, 35030.13999999999, 55846.66, 59168.44, 45732.299999999996, 23240.8],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

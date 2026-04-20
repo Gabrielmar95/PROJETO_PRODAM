@@ -1,0 +1,1396 @@
+{
+  "filename": "06_prescricao.csv",
+  "tipo_doc": "CSV_SPCF",
+  "categoria": "07_SCRAPING_SPCF",
+  "total_linhas": 148,
+  "campos": [
+    "﻿NE",
+    "ano",
+    "prescricao",
+    "cadeia",
+    "valor_R$",
+    "data_ultima",
+    "docs"
+  ],
+  "amostra_5_linhas": [
+    {
+      "﻿NE": "2021NE00035",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2021-02-08",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2021NE00038",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2021-02-08",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2021NE00237",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "1.557",
+      "data_ultima": "2022-11-16",
+      "docs": "4"
+    },
+    {
+      "﻿NE": "2021NE00462",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "5915316.95",
+      "data_ultima": "2022-11-16",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2021NE00479",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "5200",
+      "data_ultima": "2021-06-30",
+      "docs": "2"
+    }
+  ],
+  "dados_completos": [
+    {
+      "﻿NE": "2021NE00035",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2021-02-08",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2021NE00038",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2021-02-08",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2021NE00237",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "1.557",
+      "data_ultima": "2022-11-16",
+      "docs": "4"
+    },
+    {
+      "﻿NE": "2021NE00462",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "5915316.95",
+      "data_ultima": "2022-11-16",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2021NE00479",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "5200",
+      "data_ultima": "2021-06-30",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2021NE00597",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "3058536",
+      "data_ultima": "2021-07-21",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2021NE01231",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "1040000",
+      "data_ultima": "2022-08-23",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2021NE01911",
+      "ano": "2021",
+      "prescricao": "IMINENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "354000",
+      "data_ultima": "2022-12-02",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2014NE01393",
+      "ano": "2014",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "71773.64",
+      "data_ultima": "2014-11-04",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2014NE01409",
+      "ano": "2014",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "3834003",
+      "data_ultima": "2014-11-26",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2014NE01413",
+      "ano": "2014",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "78",
+      "data_ultima": "2014-11-28",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2014NE01414",
+      "ano": "2014",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "346242",
+      "data_ultima": "2014-11-28",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE00027",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2015-01-05",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2015NE00030",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2015-01-05",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE00034",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2015-01-05",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE00080",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2015-01-05",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE00486",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2015-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE00638",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "112440.69",
+      "data_ultima": "2015-08-10",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2015NE00837",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "191699.58",
+      "data_ultima": "2015-09-25",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE01002",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "74960.46",
+      "data_ultima": "2015-11-26",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE01004",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "213077.32",
+      "data_ultima": "2015-12-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2015NE01018",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "958500.76",
+      "data_ultima": "2015-12-03",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2015NE01039",
+      "ano": "2015",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2015-12-10",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00019",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2018-01-04",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00027",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2016-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00033",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2016-01-04",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00049",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2016-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00436",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2016-07-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00528",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2018-08-18",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2016NE00638",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2015-08-10",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00685",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "213077.32",
+      "data_ultima": "2016-11-23",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00686",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2016-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00688",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "74960.46",
+      "data_ultima": "2016-11-23",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00697",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "958500.76",
+      "data_ultima": "2016-11-25",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2016NE00885",
+      "ano": "2016",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "106538.68",
+      "data_ultima": "2016-11-23",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2017NE00471",
+      "ano": "2017",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "1832420.94",
+      "data_ultima": "2017-06-30",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2017NE00594",
+      "ano": "2017",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "876128.94",
+      "data_ultima": "2017-08-11",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2017NE00595",
+      "ano": "2017",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "146427.73",
+      "data_ultima": "2017-08-11",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2017NE00612",
+      "ano": "2017",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2017-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2017NE00730",
+      "ano": "2017",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "959500.76",
+      "data_ultima": "2017-11-22",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2017NE00812",
+      "ano": "2017",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "958500.76",
+      "data_ultima": "2017-11-26",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2017NE00813",
+      "ano": "2017",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2017-11-28",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2018NE00638",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2015-08-10",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2018NE00647",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "1832420.94",
+      "data_ultima": "2018-06-29",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2018NE01233",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2018-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2018NE01243",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2018-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2018NE01250",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2018-11-23",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2018NE01275",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2018-11-29",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2018NE01276",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2018-11-29",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2018NE01344",
+      "ano": "2018",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "76700",
+      "data_ultima": "2018-12-07",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2019NE00872",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "732138.65",
+      "data_ultima": "2019-11-10",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2019NE01226",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "120000",
+      "data_ultima": "2019-11-22",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2019NE01232",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "479250.38",
+      "data_ultima": "2019-11-25",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2019NE01233",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "213077.32",
+      "data_ultima": "2019-11-25",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2019NE01234",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "11039.92",
+      "data_ultima": "2019-11-25",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2019NE01243",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "90705.6",
+      "data_ultima": "2019-11-27",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2019NE01291",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "101569.93",
+      "data_ultima": "2019-12-02",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2019NE01293",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "365555.56",
+      "data_ultima": "2019-12-03",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2019NE01298",
+      "ano": "2019",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "71100",
+      "data_ultima": "2019-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2020NE00083",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "146427.73",
+      "data_ultima": "2020-02-12",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2020NE00466",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "639231.96",
+      "data_ultima": "2020-05-20",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2020NE00467",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "479.25",
+      "data_ultima": "2020-05-20",
+      "docs": "5"
+    },
+    {
+      "﻿NE": "2020NE00468",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "5519.98",
+      "data_ultima": "2020-05-20",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2020NE00469",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "272116.8",
+      "data_ultima": "2020-05-20",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2020NE00486",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "639231.66",
+      "data_ultima": "2020-05-20",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2020NE00509",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "1603.8",
+      "data_ultima": "2020-06-24",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2020NE00510",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "1832420.94",
+      "data_ultima": "2020-06-24",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2020NE00718",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "146427.73",
+      "data_ultima": "2020-08-13",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2020NE07486",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "291861.36",
+      "data_ultima": "2020-07-31",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2020NE60083",
+      "ano": "2020",
+      "prescricao": "PRESCRITO",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2020-02-12",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2022NE00003",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "4797000",
+      "data_ultima": "2022-12-15",
+      "docs": "8"
+    },
+    {
+      "﻿NE": "2022NE00025",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2022-02-09",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2022NE00028",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2022-02-09",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2022NE00040",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2022-02-09",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2022NE00076",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2022-12-23",
+      "docs": "5"
+    },
+    {
+      "﻿NE": "2022NE00417",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "0",
+      "data_ultima": "2022-12-30",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2022NE00442",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2024-12-23",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2022NE00583",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "1397225.6",
+      "data_ultima": "2023-03-29",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2022NE00683",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "1365073.05",
+      "data_ultima": "2022-12-30",
+      "docs": "7"
+    },
+    {
+      "﻿NE": "2022NE00961",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "254",
+      "data_ultima": "2023-07-16",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2022NE01216",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2022-01-01",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2022NE01231",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2022-12-30",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2022NE01911",
+      "ano": "2022",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2022-12-30",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2023NE00006",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2023-01-24",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2023NE00007",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2023-01-24",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2023NE00008",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2023-01-24",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2023NE00609",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2023-12-30",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2023NE00610",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "27216",
+      "data_ultima": "2023-03-30",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2023NE00967",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "223209",
+      "data_ultima": "2023-05-24",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2023NE01085",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "4095219.15",
+      "data_ultima": "2023-06-14",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2023NE01316",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "892073",
+      "data_ultima": "2023-12-30",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2023NE01658",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "25000",
+      "data_ultima": "2023-08-22",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2023NE01723",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2023-09-13",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2023NE01833",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2024-12-11",
+      "docs": "4"
+    },
+    {
+      "﻿NE": "2023NE02029",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "354000",
+      "data_ultima": "2023-12-07",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2023NE02060",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "54",
+      "data_ultima": "2023-11-09",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2023NE02116",
+      "ano": "2023",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "39075",
+      "data_ultima": "2024-09-02",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00001",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-05-07",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00033",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-10-04",
+      "docs": "4"
+    },
+    {
+      "﻿NE": "2024NE00036",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-07-05",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2024NE00083",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-05-07",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00223",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "6750",
+      "data_ultima": "2024-05-22",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00263",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "17155.68",
+      "data_ultima": "2024-06-27",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00264",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "147666.48",
+      "data_ultima": "2024-06-27",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00396",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "163450.95",
+      "data_ultima": "2024-10-04",
+      "docs": "6"
+    },
+    {
+      "﻿NE": "2024NE00586",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2024-12-23",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2024NE00818",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-05-13",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00820",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-05-13",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00821",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-05-13",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00822",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-05-13",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE00823",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-05-13",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01151",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-12-02",
+      "docs": "6"
+    },
+    {
+      "﻿NE": "2024NE01221",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-07-08",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01223",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-07-08",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2024NE01224",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-07-08",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01225",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-07-08",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01226",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "2293902",
+      "data_ultima": "2024-10-04",
+      "docs": "6"
+    },
+    {
+      "﻿NE": "2024NE01534",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-10-04",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2024NE01535",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-09-12",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01537",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-09-12",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01538",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-09-12",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01539",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-09-12",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01681",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-10-14",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01682",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2024-12-23",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2024NE01683",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-10-14",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01684",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NF",
+      "valor_R$": "0",
+      "data_ultima": "2024-12-11",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2024NE01685",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-10-16",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01686",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-10-14",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE01997",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "184000",
+      "data_ultima": "2024-11-14",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE02022",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "369012",
+      "data_ultima": "2024-11-25",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2024NE02063",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-11-25",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2024NE02125",
+      "ano": "2024",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2024-12-02",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2025NE00002",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-01-02",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2025NE00004",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-03-10",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2025NE00005",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-12-22",
+      "docs": "5"
+    },
+    {
+      "﻿NE": "2025NE00007",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-11-27",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2025NE00304",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-03-07",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2025NE00307",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-03-07",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2025NE00308",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-03-07",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2025NE00309",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-12-09",
+      "docs": "4"
+    },
+    {
+      "﻿NE": "2025NE00311",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-03-10",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2025NE00737",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE+NL",
+      "valor_R$": "0",
+      "data_ultima": "2025-12-09",
+      "docs": "8"
+    },
+    {
+      "﻿NE": "2025NE00738",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-12-23",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2025NE00816",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-11-25",
+      "docs": "1"
+    },
+    {
+      "﻿NE": "2025NE01164",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "257100",
+      "data_ultima": "2025-09-02",
+      "docs": "2"
+    },
+    {
+      "﻿NE": "2025NE01458",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "COMPLETA",
+      "valor_R$": "814321.11",
+      "data_ultima": "2025-12-23",
+      "docs": "3"
+    },
+    {
+      "﻿NE": "2025NE01492",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "3407236.8",
+      "data_ultima": "2025-11-27",
+      "docs": "6"
+    },
+    {
+      "﻿NE": "2025NE01524",
+      "ano": "2025",
+      "prescricao": "VIGENTE",
+      "cadeia": "NE_APENAS",
+      "valor_R$": "0",
+      "data_ultima": "2025-09-08",
+      "docs": "2"
+    }
+  ]
+}

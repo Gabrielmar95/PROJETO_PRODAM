@@ -1,0 +1,2102 @@
+{
+  "sigla": "SECT",
+  "profile": {
+    "nome_completo": "Secretaria de Ciência e Tecnologia",
+    "sigla": "SECT",
+    "natureza": "Secretaria de Estado",
+    "categoria": "GOV_DIRETA",
+    "val_exig": "258328.5777689927",
+    "val_orig": "222910.14",
+    "val_atualizado": "296246.9739695273",
+    "faturas_total": 44,
+    "faturas_prescritas": 9,
+    "faturas_exigiveis": 35,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 1,
+    "regime_execucao": "precatorio_rpv",
+    "titulo_executivo": false,
+    "status": "Análise pendente",
+    "observacoes": "Documentação fraca",
+    "forca_probatoria": "MÉDIA",
+    "modelo_notificacao": "B",
+    "reconhecimento_revisado": {
+      "total_evidencias": 17,
+      "classificacao": "INDÍCIO — Empenho (reconhecimento orçamentário)",
+      "por_tipo": {
+        "E": 17
+      },
+      "data_revisao": "2026-03-23"
+    },
+    "cnpj": "05.558.639/0001-00",
+    "evidencias_reconhecimento": 17,
+    "evidencias_por_tipo": {
+      "E": 17
+    },
+    "classificacao_reconhecimento": "INDÍCIO — Empenho (reconhecimento orçamentário)",
+    "tipo": "GOV",
+    "score_composto": 0.4846,
+    "proximo_passo": "ANALISAR_DOCUMENTACAO",
+    "p_recuperacao": 0.37,
+    "ev_valor_esperado": "95581.57",
+    "ev_honorarios": "19116.31",
+    "esforco_estimado": 6,
+    "cenario_monte_carlo_p50": "0",
+    "valor_recuperado": "0",
+    "data_protocolo": null,
+    "prioridade_rank": 24,
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-27",
+    "data_prescricao_proxima": "2026-03-20",
+    "historico_fases": {
+      "F0": "2026-03-01"
+    },
+    "elegivel_cprac": true,
+    "via_transacao_referendada": true,
+    "em_liquidacao": false,
+    "situacao_cadastral": "ATIVA",
+    "grupo_economico": null,
+    "prazo_habilitacao": null,
+    "apagao_canetas_risco": "BAIXO",
+    "nome": "SECT",
+    "spcf_total_receber": "64724.63",
+    "emp_2026": "0",
+    "emp_2026_qtd": 0,
+    "contratos_vigentes": 3,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "val_servicos_spcf_mar2026": "82997.22",
+    "val_liquido_spcf_mar2026": "80571.09",
+    "num_faturas_spcf_mar2026": 21,
+    "reconciliacao_status": "CRITICAL",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 63.85,
+    "reconciliacao_merged_from": "SECT + SECTI-EXTINTA",
+    "pipeline_ultima_execucao": "2026-04-08 12:24",
+    "pipeline_versao": "3.2.0",
+    "urgencia_prescricao": "PRESCRITA",
+    "d_plus_prescricao": -20,
+    "tem_csv_faturas": false
+  },
+  "empenhos": [
+    {
+      "numero": "2021NE0000086",
+      "contrato": "1/2017",
+      "valor": 14328.4,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2021",
+      "descricao": "OBS: REFORSO DA NE N.º 2021NE000039, SUPLEMENTAÇÃO ORÇAMENTÁRIA PARA COBERTURA DOS MESES DE MAIO A AGOSTO/2021. 5º TERMO ADITIVO AO CONTRATO Nº 001/2017"
+    },
+    {
+      "numero": "2016NE00460",
+      "contrato": "",
+      "valor": 1345.71,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2025NE0000211",
+      "contrato": "5/2025",
+      "valor": 2784.24,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web – GERWEB, para a publicação de informações, notícias, vídeos e imagens via Website."
+    },
+    {
+      "numero": "2017NE00141",
+      "contrato": "15/2012",
+      "valor": 19407.96,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2017",
+      "descricao": "RECONHECIMENTO DE DIVIDA REF. A SERV. DE FORNECIMENTO DE LINK DE INTERNET REF. AOS MESES DE SET. A DEZ. DE 2015 DO 4º T.A. CONT. 0015/2012"
+    },
+    {
+      "numero": "2021NE0000167",
+      "contrato": "1/2018",
+      "valor": 15605.44,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2021",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS ENTRE A CONTRATADA E A CONTRATANTE, POSSIBILITANDO O ACESSO AOS SISTEMAS CONTRATADOS E RESIDENTES NO DATACENTER DA CONTRATADA."
+    },
+    {
+      "numero": "2019NE00092",
+      "contrato": "1/2018",
+      "valor": 11149.94,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS ENTRE O CLIENTE PRODAM, POSSIBILITANDO O ACESSO AOS SITEMAS CONTRATADOS RESIDENTES NA DATA CENTER DA PRODAM, INCLUINDO AINDA O ACESSO GERENCIANDO A INTERNET DA R"
+    },
+    {
+      "numero": "2015NE00107",
+      "contrato": "3/2012",
+      "valor": 6295.96,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2015",
+      "descricao": "Anulação Total da Nota de Empenho, conforme orientação SEO/SEFAZ, fundamentada na LEI nº 4.163 de 09 de Março de 2015, Reforma Administrativa."
+    },
+    {
+      "numero": "2015NE00109",
+      "contrato": "6/2013",
+      "valor": 1090.51,
+      "situacao": "Ativo",
+      "data_emissao": "30/03/2015",
+      "descricao": "Anulação Total da Nota de Empenho, conforme orientação SEO/SEFAZ, fundamentada na LEI nº 4.163 de 09 de Março de 2015, Reforma Administrativa."
+    },
+    {
+      "numero": "2017NE00556",
+      "contrato": "",
+      "valor": 1439.43,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "ANULAÇÃO DE SALDO DE EMPENHO PARA ACERTO DE ENCERRAMENTO DE EXERCÍCIO DE 2017"
+    },
+    {
+      "numero": "2017NE00557",
+      "contrato": "",
+      "valor": 380.07,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "ANULAÇÃO DE SALDO DE EMPENHO PARA ACERTO DE ENCERRAMENTO DE EXERCÍCIO DE 2017"
+    },
+    {
+      "numero": "2025NE0000287",
+      "contrato": "",
+      "valor": 25247.7,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SERVIDORES E LICENÇA DE USO DE VPN NA SECRETARIA DE ESTADO DAS CIDADES E TERRITÓRIOS."
+    },
+    {
+      "numero": "2025NE0000286",
+      "contrato": "",
+      "valor": 19124.7,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000288",
+      "contrato": "",
+      "valor": 5568.48,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web – GERWEB, para a publicação de informações, notícias, vídeos e imagens via Website."
+    },
+    {
+      "numero": "2024NE0000267",
+      "contrato": "1/2023",
+      "valor": 9118.35,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2014NE00346",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "29/08/2014",
+      "descricao": "Contrato No. 12/2014"
+    },
+    {
+      "numero": "2022NE0000233",
+      "contrato": "11/2022",
+      "valor": 23219.24,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2022",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da Informação, compreendendo os serviços de Hospedagem de servidores em infraestrutura virtualizada na Rede do Governo do Estado do Amazonas e de Licença de VPN para acesso ao Data Center, para atender as necessidades desta SECT por um período de 12(doze) meses."
+    },
+    {
+      "numero": "2025NE0000139",
+      "contrato": "2/2025",
+      "valor": 12623.85,
+      "situacao": "Ativo",
+      "data_emissao": "29/05/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SERVIDORES E LICENÇA DE USO DE VPN NA SECRETARIA DE ESTADO DAS CIDADES E TERRITÓRIOS."
+    },
+    {
+      "numero": "2025NE0000137",
+      "contrato": "1/2023",
+      "valor": 9118.35,
+      "situacao": "Ativo",
+      "data_emissao": "29/05/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2022NE0000149",
+      "contrato": "11/2022",
+      "valor": 71615.64,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2022",
+      "descricao": "CT 011/2022 A SER FIRMADO Ref, Serviços de Tecnologia da Informação, compreendendo os serviços de Hospedagem de servidores em infraestrutura virtualizada na Rede do Governo do Estado do Amazonas e de Licença de VPN para acesso ao Data Center."
+    },
+    {
+      "numero": "2016NE00213",
+      "contrato": "15/2012",
+      "valor": 13548.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2016",
+      "descricao": "contrato"
+    },
+    {
+      "numero": "2018NE00431",
+      "contrato": "",
+      "valor": 456.94,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE00429",
+      "contrato": "",
+      "valor": 11402.18,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2025NE0000207",
+      "contrato": "",
+      "valor": 3824.94,
+      "situacao": "Ativo",
+      "data_emissao": "28/07/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2023NE00215",
+      "contrato": "11/2022",
+      "valor": 26060.73,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2023",
+      "descricao": "Hospedagem e VPN"
+    },
+    {
+      "numero": "2023NE0000215",
+      "contrato": "11/2022",
+      "valor": 26060.73,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2023",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da Informação, Hospedagem de servidores em infraestrutura virtualizada na Rede do Governo do Estado do Amazonas,1º T.A CT 011/2022, VIGÊNCIA:03/05/2023 à 02/05/2024."
+    },
+    {
+      "numero": "2022NE0000146",
+      "contrato": "8/2022",
+      "valor": 9463.04,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2022",
+      "descricao": "CONTRATO Nº 08/2022-SECT À SER FIRMADO REF, A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE LICENÇA DE USO DE SISTEMA/GESTOR DE CONTEÚDO WEB - WEBSITE, MESES: MAIO À AGOSTO/2022."
+    },
+    {
+      "numero": "2024NE0000337",
+      "contrato": "",
+      "valor": 0.02,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DO EMPENHO Nº 120/2024, PRODAM PROCESSAMENTO, TENDO EM VISTA QUE TAL SALDO NÃO SERÁ MAIS USADO PARA O EXERCÍCIO FINANCEIRO DE 2024."
+    },
+    {
+      "numero": "2022NE0000443",
+      "contrato": "",
+      "valor": 62674.23,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DE SALDO DO EMPENHO Nº 0149/2022 EM ATENDIMENTO AO DECRETO Nº 46.621 DE 11/11/2022 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUCAÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2022."
+    },
+    {
+      "numero": "2022NE0000440",
+      "contrato": "",
+      "valor": 9463.04,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DE SALDO DO EMPENHO Nº 0146/2022 EM ATENDIMENTO AO DECRETO Nº 46.621 DE 11/11/2022 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUCAÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2022."
+    },
+    {
+      "numero": "2014NE00353",
+      "contrato": "15/2012",
+      "valor": 22763.12,
+      "situacao": "Ativo",
+      "data_emissao": "27/08/2014",
+      "descricao": "Contrato No. 15/2012 - Link de 3Mbps e Internet 1Mbps."
+    },
+    {
+      "numero": "2023NE00210",
+      "contrato": "8/2022",
+      "valor": 2455.16,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2023",
+      "descricao": "Gestor Web"
+    },
+    {
+      "numero": "2023NE0000210",
+      "contrato": "8/2022",
+      "valor": 2455.16,
+      "situacao": "Ativo",
+      "data_emissao": "27/04/2023",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web) para atender as necessidades desta Secretaria - SECT, 1º T.A AO CT 08/2022-SECT."
+    },
+    {
+      "numero": "2022NE0000431",
+      "contrato": "",
+      "valor": 223.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2022",
+      "descricao": "ANULAÇÃO TOTAL DE SALDO DA NE: 0000041/2022, EM ATENDIMENTO AO DECRETO Nº 46.621 DE 11/11/2022 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUCAÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2022."
+    },
+    {
+      "numero": "2025NE0000098",
+      "contrato": "1/2023",
+      "valor": 9118.35,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000047",
+      "contrato": "8/2022",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2025",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000048",
+      "contrato": "11/2022",
+      "valor": 48205.62,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2025",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000049",
+      "contrato": "1/2023",
+      "valor": 18236.7,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2021NE0000039",
+      "contrato": "1/2017",
+      "valor": 7164.2,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2021",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE INFRAESTRUTURA DE TI COMPREENDENDO OS SERVIÇOS DE INSTALAÇÃO DE HOSPEDAGEM DE SERVIDORES CUJA DESCRÇÃO ESTA CONTIDA NO ANEXO I E II QUE PASSA A FAZER PARTE INTEGRANTE DESTE CONTRATO."
+    },
+    {
+      "numero": "2024NE0000184",
+      "contrato": "8/2022",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "24/07/2024",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2019NE00165",
+      "contrato": "",
+      "valor": 8558.28,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2019",
+      "descricao": "anulação (descrição incompleta)"
+    },
+    {
+      "numero": "2019NE00158",
+      "contrato": "1/2018",
+      "valor": 20069.82,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A INTERNET POR FIBRA OPTICA COM GARANTIA DE 100% EM DOWLOAD E UPLOAD, CONFORME PROJETO BASICO."
+    },
+    {
+      "numero": "2019NE00156",
+      "contrato": "12/2014",
+      "valor": 913.88,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2019NE00157",
+      "contrato": "1/2017",
+      "valor": 8558.28,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE INFRAESTRUTURA DE TI, COMPREENDENDO OS SERVIÇOS DE INSTALAÇÃO, HOSPEDAGEM DE SERVIDORES, CUJA DESCRIÇÃO ESTA CONTIDA NO ANEXO I E II QUE FAZ PARTE INTEGRANTE DESTE CONTRATO."
+    },
+    {
+      "numero": "2019NE00161",
+      "contrato": "1/2018",
+      "valor": 20069.82,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A INTERNET POR FIBRA OPTICA COM GARANTIA DE 100% EM DOWLOAD E UPLOAD, CONFORME PROJETO BASICO."
+    },
+    {
+      "numero": "2019NE00160",
+      "contrato": "",
+      "valor": 20069.82,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2019",
+      "descricao": "ANULAÇÃO TOTAL NE 158(DESCRIÇÃO INCOMPLETA)"
+    },
+    {
+      "numero": "2019NE00166",
+      "contrato": "1/2017",
+      "valor": 8558.28,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE INFRAESTRUTURA DE TI, COMPREENDENDO OS SERVIÇOS DE INSTALAÇÃO, HOSPEDAGEM DE SERVIDORES, CUJA DESCRIÇÃO ESTA CONTIDA NO ANEXO I E II QUE FAZ PARTE INTEGRANTE DESTE CONTRATO."
+    },
+    {
+      "numero": "2022NE0000380",
+      "contrato": "",
+      "valor": 2365.76,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2022",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website) de acordo com o padrão de comunicação visual do Governo do Estado, para atender as demandas desta SECT por um período de 12(doze) meses."
+    },
+    {
+      "numero": "2022NE0000379",
+      "contrato": "",
+      "valor": 7766.15,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO À INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECT."
+    },
+    {
+      "numero": "2017NE00451",
+      "contrato": "15/2012",
+      "valor": 5701.09,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE DISPONIBILIDADE DE ACESSO REMOTO PARA ACESSO AO COMPUTADOR CENTRAL DA CONTRATADA, E A REDE MUNDIAL INTERNET, COM LINK DE 10MBPS E INTERNET DE 3 MBPS POR MAIS 01 ANO - 6º TERMO ADITIVO AO CONTRATO N.º 0015/2012"
+    },
+    {
+      "numero": "2022NE0000140",
+      "contrato": "1/2018",
+      "valor": 18121.02,
+      "situacao": "Ativo",
+      "data_emissao": "23/04/2022",
+      "descricao": "5º Termo Aditivo ao Contrato 001/2018 – SECT - PRORROGAÇÃO DE VIGÊNCIA E REAJUSTE DE PREÇOS, REFERENTE AOS SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS."
+    },
+    {
+      "numero": "2016NE00254",
+      "contrato": "15/2012",
+      "valor": 11402.18,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2016",
+      "descricao": "4º TERMO ADITIVO AO CONTRATO Nº 015/2012"
+    },
+    {
+      "numero": "2016NE00255",
+      "contrato": "",
+      "valor": 11402.18,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2016",
+      "descricao": "ANULAÇÃO TOTAL (DESCRIÇÃO RESUMIDA)"
+    },
+    {
+      "numero": "2016NE00253",
+      "contrato": "12/2014",
+      "valor": 876.56,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2016",
+      "descricao": "1º termo aditivo ao contrato nº 012/2014"
+    },
+    {
+      "numero": "2016NE00256",
+      "contrato": "15/2012",
+      "valor": 11402.18,
+      "situacao": "Ativo",
+      "data_emissao": "22/06/2016",
+      "descricao": "4º TERMO ADITIVO AO CT 15/2012"
+    },
+    {
+      "numero": "2019NE00065",
+      "contrato": "12/2014",
+      "valor": 1370.82,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2022NE0000070",
+      "contrato": "",
+      "valor": 8246.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/02/2022",
+      "descricao": "SERVIÇO DE CERTIFICAÇÃO DIGITAL, Descrição: Emissão de Certificação Digital tipo A1 e-CPF, Pessoa Física, sem dispositivo, conforme projeto básico"
+    },
+    {
+      "numero": "2021NE0000015",
+      "contrato": "",
+      "valor": 5932.6,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "ANULAÇÃO NE 0014 DATA INCORRETA"
+    },
+    {
+      "numero": "2021NE0000014",
+      "contrato": "",
+      "valor": 5932.6,
+      "situacao": "Ativo",
+      "data_emissao": "22/01/2021",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DO SISTEMA DE INFORMAÇÃO REGULARIZAÇÃO FUNDIÁRIA."
+    },
+    {
+      "numero": "2022NE0000375",
+      "contrato": "",
+      "valor": 10131.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/11/2022",
+      "descricao": "ANULAÇÃO PARCIAL DE SALDO DA N.E 149/2022, PARA ATENDER EMPENHOS DO MÊS DE DEZ/22 DOS CONTRATOS Nº 01/2018 e 08/2022 - PRODAM."
+    },
+    {
+      "numero": "2018NE00189",
+      "contrato": "12/2014",
+      "valor": 3067.96,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE) REF. AO 3º T.A. CONTRATO N.º 012/2014 - VIGÊNCIA: 01/09/2017 a 31/08/2018"
+    },
+    {
+      "numero": "2018NE00192",
+      "contrato": "15/2012",
+      "valor": 39907.63,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2018",
+      "descricao": "CONTRATO DE PRESTAÇÃO DE SERVIÇO DE LINK DE INTERNET PARA ESTA SPF - CONFORME 6º T.A. CONT. N.º 0015/2012 - VIGÊNCIA: 03/09/2017 a 02/09/2018"
+    },
+    {
+      "numero": "2018NE00190",
+      "contrato": "15/2012",
+      "valor": 39907.63,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE LINK DE INTERNET PARA ESTA SPF - CONFORME 6º T.A. CONT. N.º 0015/2012 - VIGÊNCIA: 03/09/2017 a 02/09/2018"
+    },
+    {
+      "numero": "2018NE00191",
+      "contrato": "",
+      "valor": 39907.63,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO N.º 190/2018 PARA CORREÇÃO DA NATUREZA DA DESPESAS"
+    },
+    {
+      "numero": "2020NE00025",
+      "contrato": "",
+      "valor": 29663.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2020",
+      "descricao": "ANULAÇÃO TOTAL NE 24"
+    },
+    {
+      "numero": "2020NE00026",
+      "contrato": "1/2017",
+      "valor": 29663.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DO SISTEMA DE INFORMAÇÃO REGULARIZAÇÃO FUNDIÁRIA."
+    },
+    {
+      "numero": "2017NE00051",
+      "contrato": "12/2014",
+      "valor": 876.56,
+      "situacao": "Ativo",
+      "data_emissao": "21/02/2017",
+      "descricao": "PAGAMENTO DE DESPESAS REF. A SERVIÇO DE HOSPEDAGEM DE SITE INSTITUCIONAL REF. AO MÊS DE DEZEMBRO DE 2015."
+    },
+    {
+      "numero": "2018NE00318",
+      "contrato": "12/2014",
+      "valor": 1827.76,
+      "situacao": "Ativo",
+      "data_emissao": "20/08/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2020NE00024",
+      "contrato": "1/2017",
+      "valor": 29663.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/02/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DO SISTEMA DE INFORMAÇÃO REGULARIZAÇÃO FUNDIÁRIA."
+    },
+    {
+      "numero": "2022NE0000281",
+      "contrato": "1/2018",
+      "valor": 258.87,
+      "situacao": "Ativo",
+      "data_emissao": "19/08/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESSA PARA PRESTAÇÃO, DE FORMA DEDICADA, DE SERVIÇO DE ACESSO À INTERNET POR FIBRA ÓPTICA COM GARANTIA DE 100 (POR CENTO) EM DOWNLOAD E UPLOAD, CONFORME PROJETO BASICO."
+    },
+    {
+      "numero": "2024NE0000182",
+      "contrato": "11/2022",
+      "valor": 48205.62,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2024",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000335",
+      "contrato": "",
+      "valor": 1125.8,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2024",
+      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DO EMPENHO Nº 40/2024 - PRODAM, TENDO EM VISTA QUE TAL SALDO NÃO SERÁ MAIS USADO PARA O EXERCÍCIO FINANCEIRO DE 2024."
+    },
+    {
+      "numero": "2024NE0000223",
+      "contrato": "11/2022",
+      "valor": 48205.62,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2024",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000226",
+      "contrato": "8/2022",
+      "valor": 4910.36,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2024",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000228",
+      "contrato": "1/2023",
+      "valor": 18236.7,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2021NE0000279",
+      "contrato": "1/2017",
+      "valor": 3582.1,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2021",
+      "descricao": "PARA ATENDER MES DE DEZEMBRO/2021"
+    },
+    {
+      "numero": "2025NE0000188",
+      "contrato": "1/2023",
+      "valor": 3824.94,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2024NE0000176",
+      "contrato": "1/2023",
+      "valor": 13069.64,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000066",
+      "contrato": "11/2022",
+      "valor": 48205.62,
+      "situacao": "Ativo",
+      "data_emissao": "18/03/2024",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0000068",
+      "contrato": "8/2022",
+      "valor": 4910.28,
+      "situacao": "Ativo",
+      "data_emissao": "18/03/2024",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0000067",
+      "contrato": "1/2023",
+      "valor": 17666.08,
+      "situacao": "Ativo",
+      "data_emissao": "18/03/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2022NE0000316",
+      "contrato": "",
+      "valor": 3.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2022",
+      "descricao": "ANULAÇÃO TOTAL DE SALDO DA N.E 37/2022, 5º TERMO ADITIVO AO CT 01/2017 COM VIGÊNCIA ENCERRADA EM 01/03/2022."
+    },
+    {
+      "numero": "2023NE0000317",
+      "contrato": "",
+      "valor": 5005.31,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANMISSÃO DE DADOS."
+    },
+    {
+      "numero": "2023NE00317",
+      "contrato": "1/2023",
+      "valor": 5005.31,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2023",
+      "descricao": "Contrato 001/2023 - Internet e Circuito"
+    },
+    {
+      "numero": "2022NE0000367",
+      "contrato": "",
+      "valor": 4599.1,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2022",
+      "descricao": "Anulação parcial de saldo da N.E 149/2022 para ajuste orçamentário (atender empenho do mês de nov/22, CT:01/2018 e 08/2022 - PRODAM)."
+    },
+    {
+      "numero": "2022NE0000368",
+      "contrato": "8/2022",
+      "valor": 2365.76,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2022",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website) de acordo com o padrão de comunicação visual do Governo do Estado, para atender as demandas desta SECT por um período de 12(doze) meses."
+    },
+    {
+      "numero": "2022NE0000369",
+      "contrato": "1/2018",
+      "valor": 7766.15,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO À INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECT."
+    },
+    {
+      "numero": "2025NE0000237",
+      "contrato": "5/2025",
+      "valor": 5568.48,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web – GERWEB, para a publicação de informações, notícias, vídeos e imagens via Website."
+    },
+    {
+      "numero": "2025NE0000236",
+      "contrato": "2/2025",
+      "valor": 25247.7,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SERVIDORES E LICENÇA DE USO DE VPN NA SECRETARIA DE ESTADO DAS CIDADES E TERRITÓRIOS."
+    },
+    {
+      "numero": "2025NE0000235",
+      "contrato": "1/2023",
+      "valor": 19124.7,
+      "situacao": "Ativo",
+      "data_emissao": "16/09/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2021NE0000118",
+      "contrato": "",
+      "valor": 4460.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2021",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO N. 17 PARA ATENDER MES DE JUNHO/2021"
+    },
+    {
+      "numero": "2024NE0000129",
+      "contrato": "1/2023",
+      "valor": 17666.08,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2016NE00236",
+      "contrato": "",
+      "valor": 13548.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/06/2016",
+      "descricao": "ANULAÇÃO TOTAL DE SALDO DA NE 213"
+    },
+    {
+      "numero": "2023NE0000310",
+      "contrato": "8/2022",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2023",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000424",
+      "contrato": "1/2023",
+      "valor": 8833.04,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2023NE0000421",
+      "contrato": "8/2022",
+      "valor": 2455.16,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2023",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2020NE00117",
+      "contrato": "1/2018",
+      "valor": 42369.58,
+      "situacao": "Ativo",
+      "data_emissao": "10/06/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS ENTRE A CONTRATADA E A CONTRATANTE, POSSIBILITANDO O ACESSO AOS SISTEMAS CONTRATADOS E RESIDENTES NO DATACENTER DA CONTRATADA."
+    },
+    {
+      "numero": "2021NE0000261",
+      "contrato": "1/2018",
+      "valor": 26752.28,
+      "situacao": "Ativo",
+      "data_emissao": "09/08/2021",
+      "descricao": "REFORÇO DA NE N. 167 PARA ATENDER AOS MESES DE SETEMBRO A DEZEMBRO/2021"
+    },
+    {
+      "numero": "2021NE0000268",
+      "contrato": "1/2017",
+      "valor": 10746.3,
+      "situacao": "Ativo",
+      "data_emissao": "09/08/2021",
+      "descricao": "REFORÇO DA NE N. 39"
+    },
+    {
+      "numero": "2024NE0000282",
+      "contrato": "11/2022",
+      "valor": 24102.81,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2024",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000281",
+      "contrato": "8/2022",
+      "valor": 2455.16,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2024",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000280",
+      "contrato": "1/2023",
+      "valor": 9118.35,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2023NE0000484",
+      "contrato": "11/2022",
+      "valor": 48205.62,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2023",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 01."
+    },
+    {
+      "numero": "2022NE0000304",
+      "contrato": "8/2022",
+      "valor": 4731.52,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2022",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web, para a publicação de informações, notícias, vídeos e imagens via Website) de acordo com o padrão de comunicação visual do Governo do Estado, para atender as demandas desta SECT por um período de 12(doze) meses."
+    },
+    {
+      "numero": "2022NE0000305",
+      "contrato": "1/2018",
+      "valor": 15532.3,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO À INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECT."
+    },
+    {
+      "numero": "2022NE0000302",
+      "contrato": "11/2022",
+      "valor": 23219.24,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2022",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da Informação, compreendendo os serviços de Hospedagem de servidores em infraestrutura virtualizada na Rede do Governo do Estado do Amazonas e de Licença de VPN para acesso ao Data Center, para atender as necessidades desta SECT por um período de 12(doze) meses."
+    },
+    {
+      "numero": "2025NE0000214",
+      "contrato": "1/2023",
+      "valor": 13387.29,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000113",
+      "contrato": "1/2023",
+      "valor": 5014.89,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2022NE0000110",
+      "contrato": "1/2018",
+      "valor": 11146.84,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2022",
+      "descricao": "SERVIÇOS DE TRANSMISSÃO DE DADOS, 4º T.A AO CT 001/2018."
+    },
+    {
+      "numero": "2021NE0000099",
+      "contrato": "",
+      "valor": 6689.94,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2021",
+      "descricao": "REFORÇO DA NE N. 00017 PARA ATENDER MES DE MAIO/2021"
+    },
+    {
+      "numero": "2025NE0000295",
+      "contrato": "",
+      "valor": 1125.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2025",
+      "descricao": "ANULAÇÃO DE SALDO"
+    },
+    {
+      "numero": "2023NE0000416",
+      "contrato": "",
+      "valor": 72391.64,
+      "situacao": "Ativo",
+      "data_emissao": "05/09/2023",
+      "descricao": "ANULAÇÃO TOTAL DE SALDO DA N.E 09/2023, POR ENCERRAMENTO DA VIGÊNCIA CONTRATUAL."
+    },
+    {
+      "numero": "2023NE0000227",
+      "contrato": "",
+      "valor": 12943.58,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO À INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECT."
+    },
+    {
+      "numero": "2018NE00161",
+      "contrato": "",
+      "valor": 39907.63,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "CANCELAMENTO DE NOTA DE EMPENHO N.º 066/2018 - REF. A SERVIÇO DE LINK DE INTERNET PARA ATENDER A ORIENTAÇÃO TÉCNICA N.º 12/2018-GINS DE 07/02/2018 - PARA PODER PROVIDENCIAR NOVO EMPENHO COM NOVA NATUREZA DE DESPESAS"
+    },
+    {
+      "numero": "2018NE00160",
+      "contrato": "",
+      "valor": 3067.96,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "CANCELAMENTO DE NOTA DE EMPENHO N.º 067/2018 - REF. A SERVIÇO DE HOSPEDAGEM DE SITE PARA ATENDER A ORIENTAÇÃO TÉCNICA N.º 12/2018-GINS DE 07/02/2018"
+    },
+    {
+      "numero": "2026NE0000003",
+      "contrato": "2/2025",
+      "valor": 50495.4,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SERVIDORES E LICENÇA DE USO DE VPN NA SECRETARIA DE ESTADO DAS CIDADES E TERRITÓRIOS."
+    },
+    {
+      "numero": "2026NE0000005",
+      "contrato": "5/2025",
+      "valor": 11136.96,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web – GERWEB, para a publicação de informações, notícias, vídeos e imagens via Website."
+    },
+    {
+      "numero": "2026NE0000004",
+      "contrato": "1/2023",
+      "valor": 38249.4,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 02."
+    },
+    {
+      "numero": "2015NE00017",
+      "contrato": "6/2013",
+      "valor": 3271.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Reempenho do 1º TACT nº 006/13 ¿ Contratação de PJ especializada para prestação de serviço de Hospedagem e Manutenção de WEB SITE, para atender as necessidades desta Secretaria conforme Projeto Básico."
+    },
+    {
+      "numero": "2015NE00001",
+      "contrato": "15/2012",
+      "valor": 17072.34,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00009",
+      "contrato": "12/2014",
+      "valor": 1314.84,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00002",
+      "contrato": "12/2014",
+      "valor": 1314.84,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "HOSPEDAGEM DO SITE INSTITUCIONAL DA SPF, INCLUINDO A MANUTENÇÃO DO SITE."
+    },
+    {
+      "numero": "2015NE00016",
+      "contrato": "6/2013",
+      "valor": 3271.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO TOTAL PARA COMPLEMENTO DE INFORMAÇÕES"
+    },
+    {
+      "numero": "2015NE00015",
+      "contrato": "6/2013",
+      "valor": 3271.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Reempenho do 1º TACT 006/2013 - Contratação de PJ especializada para prestação de serviço de Hospedagem e Manutenção de WEB SITE. 12 meses (3 meses conforme determinação SET/SEFAZ)"
+    },
+    {
+      "numero": "2015NE00008",
+      "contrato": "12/2014",
+      "valor": 1314.84,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "anula empenho valor global incorreto."
+    },
+    {
+      "numero": "2015NE00013",
+      "contrato": "3/2012",
+      "valor": 18887.88,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Reempenho do 2º TA ao CT nº 0003/2012 Celebrado entre a SECTI e a PRODAM S.A., para prestação de acesso a Rede Mundial INTERNET, Banda Larga com velocidade de 2Mbps, através da Rede METRO/MAO. 12 meses; DIRAF nº 81-14; ADITIVO nº 0003/2014. (3 meses conforme determinação SET/SEFAZ)."
+    },
+    {
+      "numero": "2023NE0000372",
+      "contrato": "1/2023",
+      "valor": 8833.04,
+      "situacao": "Ativo",
+      "data_emissao": "04/08/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2014NE00209",
+      "contrato": "3/2012",
+      "valor": 37775.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2014",
+      "descricao": "Contrato No. 3/2012 - Acesso … rede Internet banda de 2 Mbps"
+    },
+    {
+      "numero": "2021NE0000017",
+      "contrato": "1/2018",
+      "valor": 26759.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS ENTRE A CONTRATADA E A CONTRATANTE, POSSIBILITANDO O ACESSO AOS SISTEMAS CONTRATADOS E RESIDENTES NO DATACENTER DA CONTRATADA."
+    },
+    {
+      "numero": "2016NE00017",
+      "contrato": "12/2014",
+      "valor": 2629.68,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "1º termo aditivo ao contrato nº 012/2014"
+    },
+    {
+      "numero": "2016NE00024",
+      "contrato": "15/2012",
+      "valor": 34206.54,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "4º aditivo ct nº 015/2012"
+    },
+    {
+      "numero": "2016NE00367",
+      "contrato": "",
+      "valor": 12895.86,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "anulação total saldo ne"
+    },
+    {
+      "numero": "2016NE00345",
+      "contrato": "",
+      "valor": 10340.26,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "ANULAÇÃO PARCIAL DE SALDO"
+    },
+    {
+      "numero": "2016NE00340",
+      "contrato": "",
+      "valor": 5454.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "anulação parcial"
+    },
+    {
+      "numero": "2016NE00369",
+      "contrato": "",
+      "valor": 6666.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "ANULAÇAO PARCIAL"
+    },
+    {
+      "numero": "2016NE00340",
+      "contrato": "",
+      "valor": 5454.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "anulação parcial"
+    },
+    {
+      "numero": "2016NE00369",
+      "contrato": "",
+      "valor": 6666.66,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "ANULAÇAO PARCIAL"
+    },
+    {
+      "numero": "2016NE00367",
+      "contrato": "",
+      "valor": 12895.86,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "anulação total saldo ne"
+    },
+    {
+      "numero": "2016NE00345",
+      "contrato": "",
+      "valor": 10340.26,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "ANULAÇÃO PARCIAL DE SALDO"
+    },
+    {
+      "numero": "2025NE0000170",
+      "contrato": "2/2025",
+      "valor": 25247.7,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE HOSPEDAGEM DE SERVIDORES E LICENÇA DE USO DE VPN NA SECRETARIA DE ESTADO DAS CIDADES E TERRITÓRIOS."
+    },
+    {
+      "numero": "2019NE00114",
+      "contrato": "1/2018",
+      "valor": 2229.94,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A INTERNET POR FIBRA OPTICA COM GARANTIA DE 100% EM DOWLOAD E UPLOAD, CONFORME PROJETO BASICO."
+    },
+    {
+      "numero": "2024NE0000122",
+      "contrato": "11/2022",
+      "valor": 50163.54,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000120",
+      "contrato": "8/2022",
+      "valor": 4910.34,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2024",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2016NE00216",
+      "contrato": "15/2012",
+      "valor": 24474.23,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2016",
+      "descricao": "DESPESAS DE EXERCÍCIOS ANTERIORES REFERENTE AS NOTAS FISCAIS NºS 12162 12161 12537 12538 12722 12723 12659 12660 E 12724"
+    },
+    {
+      "numero": "2022NE0000037",
+      "contrato": "1/2017",
+      "valor": 7164.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE INFRAESTRUTURA DE TI COMPREENDENDO OS SERVIÇOS DE INSTALAÇÃO DE HOSPEDAGEM DE SERVIDORES CUJA DESCRÇÃO ESTA CONTIDA NO ANEXO I E II QUE PASSA A FAZER PARTE INTEGRANTE DESTE CONTRATO."
+    },
+    {
+      "numero": "2022NE0000041",
+      "contrato": "1/2018",
+      "valor": 26752.28,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE REDE, COMPREENDENDO FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS ENTRE A CONTRATADA E A CONTRATANTE, POSSIBILITANDO O ACESSO AOS SISTEMAS CONTRATADOS E RESIDENTES NO DATACENTER DA CONTRATADA."
+    },
+    {
+      "numero": "2015NE00077",
+      "contrato": "",
+      "valor": 2079.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, Reempenho da NE nº 025/2014, prestação de serviço de Hospedagem e Manutenção de WEB SITE, meses OUTUBRO E NOVEMBRO/2014"
+    },
+    {
+      "numero": "2015NE00081",
+      "contrato": "",
+      "valor": 1090.51,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, prestação de serviço de Hospedagem e Manutenção de WEB SITE. DEZEMBRO/2015"
+    },
+    {
+      "numero": "2015NE00082",
+      "contrato": "",
+      "valor": 2079.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO PARA COMPLEMENTO DE INFORMAÇÕES"
+    },
+    {
+      "numero": "2015NE00065",
+      "contrato": "",
+      "valor": 6295.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "ANULAÇÃO TOTAL DE NE PARA COMPLEMENTO DE INFORMAÇÃO"
+    },
+    {
+      "numero": "2015NE00080",
+      "contrato": "",
+      "valor": 2079.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, Reempenho da NE nº 025/2014, prestação de serviço de Hospedagem e Manutenção de WEB SITE. Meses OUTUBRO E NOVEMBRO/2014."
+    },
+    {
+      "numero": "2015NE00075",
+      "contrato": "",
+      "valor": 2079.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO PARA COMPLEMENTO DE INFORMAÇÃO"
+    },
+    {
+      "numero": "2015NE00071",
+      "contrato": "",
+      "valor": 1090.51,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, empenho da NE nº 0017/2015, prestação de serviço de Hospedagem e Manutenção de WEB SITE. DEZEMBRO/2015"
+    },
+    {
+      "numero": "2015NE00078",
+      "contrato": "",
+      "valor": 2079.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO PARA COMPLEMENTO DE INFORMAÇÃO"
+    },
+    {
+      "numero": "2015NE00066",
+      "contrato": "",
+      "valor": 18887.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, Reempenho da NE nº 0209/2014. prestação de acesso a Rede Mundial INTERNET, Banda Larga com velocidade de 2Mbps, através da Rede METRO/MAO, meses OUTUBRO, NOVEMBRO E DEZEMBRO/2014."
+    },
+    {
+      "numero": "2015NE00076",
+      "contrato": "",
+      "valor": 1090.51,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO PARA COMPLEMENTO DE INFORMAÇÃO"
+    },
+    {
+      "numero": "2015NE00084",
+      "contrato": "",
+      "valor": 2079.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, Reempenho da NE nº 025/2014. prestação de serviço de Hospedagem e Manutenção de WEB SITE, meses OUTUBRO E NOVEMBRO/2014."
+    },
+    {
+      "numero": "2015NE00064",
+      "contrato": "",
+      "valor": 6295.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, Reempenho da NE nº 0209/2014. prestação de acesso a Rede Mundial INTERNET, Banda Larga com velocidade de 2Mbps, através da Rede METRO/MAO. 12 meses; DIRAF nº 81-14; ADITIVO nº 0003/2014. DEZEMBRO/2014"
+    },
+    {
+      "numero": "2015NE00070",
+      "contrato": "",
+      "valor": 2079.54,
+      "situacao": "Ativo",
+      "data_emissao": "02/03/2015",
+      "descricao": "PAGAMENTO DE DESPESA DE EXERCICIO ANTERIOR, Reempenho da NE nº 025/2014. prestação de serviço de Hospedagem e Manutenção de WEB SITE, meses OUTUBRO E NOVEMBRO/2014."
+    },
+    {
+      "numero": "2025NE0000006",
+      "contrato": "1/2023",
+      "valor": 18236.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000005",
+      "contrato": "8/2022",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000040",
+      "contrato": "11/2022",
+      "valor": 48205.62,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0000042",
+      "contrato": "8/2022",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0000037",
+      "contrato": "",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "ANULAÇÃO TOTL DA NE Nº 11/2024 SEM EFETIVAÇÃO DA DESPESA, PARA CORRIGIR O PROGRAMA DE TRABALHO"
+    },
+    {
+      "numero": "2024NE0000039",
+      "contrato": "1/2023",
+      "valor": 17666.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2024NE0000011",
+      "contrato": "8/2022",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0000008",
+      "contrato": "1/2023",
+      "valor": 17666.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2024NE0000035",
+      "contrato": "",
+      "valor": 17666.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "ANULAÇÃO TOTL DA NE Nº 08/2024 SEM EFETIVAÇÃO DA DESPESA, PARA CORRIGIR O PROGRAMA DE TRABALHO"
+    },
+    {
+      "numero": "2024NE0000036",
+      "contrato": "",
+      "valor": 48205.62,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "ANULAÇÃO TOTL DA NE Nº 10/2024 SEM EFETIVAÇÃO DA DESPESA, PARA CORRIGIR O PROGRAMA DE TRABALHO"
+    },
+    {
+      "numero": "2023NE0000009",
+      "contrato": "11/2022",
+      "valor": 92876.96,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CT 11/2022-SECT, Contratação de empresa especializada em Serviços de Tecnologia da informação,compreendendo os serviços de Hospedagem de servidores em infraestrutura virtualizada na Rede do Governo do Estado Amazonas e de Licença de VPN para acesso."
+    },
+    {
+      "numero": "2023NE0000006",
+      "contrato": "1/2018",
+      "valor": 31064.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "5º T.A AO CT 01/2018 - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO À INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECT."
+    },
+    {
+      "numero": "2020NE00002",
+      "contrato": "1/2017",
+      "valor": 5705.52,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE INFRAESTRUTURA DE TI, COMPREENDENDO OS SERVIÇOS DE INSTALAÇÃO, HOSPEDAGEM DE SERVIDORES, CUJA DESCRIÇÃO ESTA CONTIDA NO ANEXO I E II QUE FAZ PARTE INTEGRANTE DESTE CONTRATO."
+    },
+    {
+      "numero": "2020NE00003",
+      "contrato": "1/2018",
+      "valor": 37909.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A INTERNET POR FIBRA OPTICA COM GARANTIA DE 100% EM DOWLOAD E UPLOAD, CONFORME PROJETO BASICO."
+    },
+    {
+      "numero": "2019NE00002",
+      "contrato": "12/2014",
+      "valor": 1370.82,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2018NE00067",
+      "contrato": "12/2014",
+      "valor": 3506.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2018NE00066",
+      "contrato": "15/2012",
+      "valor": 45608.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE DISPONIBILIDADE DE ACESSO REMOTO PARA ACESSO AO COMPUTADOR CENTRAL DA CONTRATADA, E A REDE MUNDIAL INTERNET, COM LINK DE 10MBPS E INTERNET DE 3 MBPS POR MAIS 01 ANO"
+    },
+    {
+      "numero": "2017NE00022",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE) - 2º T.A. CONT. N.º 012/2014 - VIGÊNCIA: 01/09/2016 a 31/08/2017"
+    },
+    {
+      "numero": "2017NE00024",
+      "contrato": "15/2012",
+      "valor": 22804.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE DISPONIBILIDADE DE ACESSO REMOTO PARA ACESSO AO COMPUTADOR CENTRAL DA CONTRATADA, E A REDE MUNDIAL INTERNET, COM LINK DE 10MBPS E INTERNET DE 3 MBPS POR MAIS 01 ANO - 5º T.A. CONT. N.º 015/2012 - VIGÊNCIA: 03/09/2016 a 02/09/2017"
+    },
+    {
+      "numero": "2014NE00021",
+      "contrato": "15/2012",
+      "valor": 47493.45,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 15/2012 - Link de 3Mbps e Internet 1Mbps."
+    },
+    {
+      "numero": "2014NE00036",
+      "contrato": "3/2012",
+      "valor": 35567.09,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 3/2012 - Acesso … rede Internet banda de 2 Mbps"
+    },
+    {
+      "numero": "2014NE00025",
+      "contrato": "6/2013",
+      "valor": 11437.47,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 6/2013 - Hospedagem de Site"
+    },
+    {
+      "numero": "2017NE00493",
+      "contrato": "15/2012",
+      "valor": 5701.09,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE DISPONIBILIDADE DE ACESSO REMOTO PARA ACESSO AO COMPUTADOR CENTRAL DA CONTRATADA, E A REDE MUNDIAL INTERNET, COM LINK DE 10MBPS E INTERNET DE 3 MBPS POR MAIS 01 ANO"
+    },
+    {
+      "numero": "2017NE00496",
+      "contrato": "12/2014",
+      "valor": 876.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2015NE00554",
+      "contrato": "",
+      "valor": 876.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00556",
+      "contrato": "",
+      "valor": 2304.69,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2023NE0000479",
+      "contrato": "1/2023",
+      "valor": 17666.08,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT."
+    },
+    {
+      "numero": "2023NE0000480",
+      "contrato": "8/2022",
+      "valor": 4910.32,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2023",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2016NE00381",
+      "contrato": "",
+      "valor": 1734.4,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "anula saldo de empenho"
+    },
+    {
+      "numero": "2019NE00234",
+      "contrato": "1/2018",
+      "valor": 20069.82,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A INTERNET POR FIBRA OPTICA COM GARANTIA DE 100% EM DOWLOAD E UPLOAD, CONFORME PROJETO BASICO."
+    },
+    {
+      "numero": "2019NE00233",
+      "contrato": "1/2017",
+      "valor": 8558.28,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE INFRAESTRUTURA DE TI, COMPREENDENDO OS SERVIÇOS DE INSTALAÇÃO, HOSPEDAGEM DE SERVIDORES, CUJA DESCRIÇÃO ESTA CONTIDA NO ANEXO I E II QUE FAZ PARTE INTEGRANTE DESTE CONTRATO."
+    },
+    {
+      "numero": "2017NE00388",
+      "contrato": "",
+      "valor": 876.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "ANULAÇÃO DE NE PARA CORREÇÃO DE PROCESSO"
+    },
+    {
+      "numero": "2017NE00391",
+      "contrato": "12/2014",
+      "valor": 876.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2017NE00389",
+      "contrato": "15/2012",
+      "valor": 11402.18,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE DISPONIBILIDADE DE ACESSO REMOTO PARA ACESSO AO COMPUTADOR CENTRAL DA CONTRATADA, E A REDE MUNDIAL INTERNET, COM LINK DE 10MBPS E INTERNET DE 3 MBPS POR MAIS 01 ANO"
+    },
+    {
+      "numero": "2017NE00387",
+      "contrato": "12/2014",
+      "valor": 876.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DO SITE DA SPF (HOSPEDAGEM DO SITE)"
+    },
+    {
+      "numero": "2016NE00323",
+      "contrato": "",
+      "valor": 39172.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO N.º 0180/2016 PARA ATENDER AS NECESSIDADE DESTA SPF"
+    },
+    {
+      "numero": "2016NE00333",
+      "contrato": "",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO N.º 0330/2016 PARA CORRIGIR A DESCRIÇÃO DO EMPENHO."
+    },
+    {
+      "numero": "2016NE00329",
+      "contrato": "15/2012",
+      "valor": 22804.36,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "5º T.A. DO CONTRATO N.º 0015/2012 - VIGÊNCIA: 03/09/2016 a 02/09/2017 - CONTRATAÇÃO DE LINK DE INTERNET"
+    },
+    {
+      "numero": "2016NE00330",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "2º T.A. DO CONTRATO N.º 012/2014-SPF - VIGÊNCIA: 01/09/2016 a 31/08/2017 - CONTRATAÇÃO PARA MANUTENÇÃO DO SITE DA SPF."
+    },
+    {
+      "numero": "2016NE00334",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "2º T.A. DO CONTRATO N.º 012/2014-SPF OBJETIVO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES DO CONTRATO INICIAL. VIGÊNCIA: 01/09/2016 a 31/08/2017"
+    },
+    {
+      "numero": "2016NE00330",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "2º T.A. DO CONTRATO N.º 012/2014-SPF - VIGÊNCIA: 01/09/2016 a 31/08/2017 - CONTRATAÇÃO PARA MANUTENÇÃO DO SITE DA SPF."
+    },
+    {
+      "numero": "2016NE00329",
+      "contrato": "15/2012",
+      "valor": 22804.36,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "5º T.A. DO CONTRATO N.º 0015/2012 - VIGÊNCIA: 03/09/2016 a 02/09/2017 - CONTRATAÇÃO DE LINK DE INTERNET"
+    },
+    {
+      "numero": "2016NE00333",
+      "contrato": "",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO N.º 0330/2016 PARA CORRIGIR A DESCRIÇÃO DO EMPENHO."
+    },
+    {
+      "numero": "2016NE00334",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "2º T.A. DO CONTRATO N.º 012/2014-SPF OBJETIVO DO ADITIVO: PRORROGAR O PRAZO DE VIGÊNCIA PARA MAIS 12 MESES DO CONTRATO INICIAL. VIGÊNCIA: 01/09/2016 a 31/08/2017"
+    },
+    {
+      "numero": "2016NE00323",
+      "contrato": "",
+      "valor": 39172.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO N.º 0180/2016 PARA ATENDER AS NECESSIDADE DESTA SPF"
+    },
+    {
+      "numero": "2015NE00432",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "Cobertura financeira 2015"
+    },
+    {
+      "numero": "2015NE00436",
+      "contrato": "15/2012",
+      "valor": 5701.09,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "Cobertura financeira 2015"
+    },
+    {
+      "numero": "2025NE0000169",
+      "contrato": "1/2023",
+      "valor": 5167.06,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ACESSO A INTERNET E TRANSMISSÃO DE DADOS, PARA ATENDER AS NECESSIDADES DESTA SECRETARIA DE ESTADO DAS CIDADAES E TERRITÓRIOS - SECT. TC: 0001/2023 AD: 01."
+    },
+    {
+      "numero": "2023NE0000274",
+      "contrato": "11/2022",
+      "valor": 24102.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2023",
+      "descricao": "Contratação de empresa especializada em Serviços de Tecnologia da informação, Hospedagem de servidores em infraestrutura virtualizada,Licença de VPN para acesso ao Data Center. TC: 0011/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000272",
+      "contrato": "8/2022",
+      "valor": 2455.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2023",
+      "descricao": "Contratação de empresa especializa em serviços de (Licença de Uso de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web-website. TC: 0008/2022 AD: 01."
+    },
+    {
+      "numero": "2017NE00142",
+      "contrato": "15/2012",
+      "valor": 22804.36,
+      "situacao": "Ativo",
+      "data_emissao": "01/05/2017",
+      "descricao": "PRESTAÇÃO DE LINK DE INTERNET PARA ATENDER AS NECESSIDADE DA SPF CONF. 5º T.A. DO CONT. N.º 015/2012 VIGÊNCIA: 03/09/2016 a 02/09/2017"
+    },
+    {
+      "numero": "2017NE00143",
+      "contrato": "12/2014",
+      "valor": 1753.12,
+      "situacao": "Ativo",
+      "data_emissao": "01/05/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE MANUTENÇÃO E HOSPEDAGEM DE SITE DESTA SPF CONF. 2º T.A. DO CONT. N.º 012/2014 - VIGÊNCIA: 01/09/2016 a 31/08/2017"
+    },
+    {
+      "numero": "2016NE00232",
+      "contrato": "",
+      "valor": 90.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/05/2016",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2019NE00071",
+      "contrato": "1/2017",
+      "valor": 8558.28,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE INFRAESTRUTURA DE TI, COMPREENDENDO OS SERVIÇOS DE INSTALAÇÃO, HOSPEDAGEM DE SERVIDORES, CUJA DESCRIÇÃO ESTA CONTIDA NO ANEXO I E II QUE FAZ PARTE INTEGRANTE DESTE CONTRATO."
+    },
+    {
+      "numero": "2016NE00180",
+      "contrato": "15/2012",
+      "valor": 77700.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2016",
+      "descricao": "CONTRATO"
+    },
+    {
+      "numero": "2015NE00164",
+      "contrato": "15/2012",
+      "valor": 28505.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira de abril a agosto/2015"
+    },
+    {
+      "numero": "2015NE00162",
+      "contrato": "15/2012",
+      "valor": 28505.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "CT 15/2012"
+    },
+    {
+      "numero": "2015NE00157",
+      "contrato": "15/2012",
+      "valor": 28505.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "2º termo aditivo ct 15/2012"
+    },
+    {
+      "numero": "2015NE00161",
+      "contrato": "15/2012",
+      "valor": 28505.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAÇÃO (NATUREZA DE DESPESA INCORRETA)"
+    },
+    {
+      "numero": "2015NE00166",
+      "contrato": "12/2014",
+      "valor": 2191.4,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ct n. 012/2014"
+    },
+    {
+      "numero": "2015NE00163",
+      "contrato": "15/2012",
+      "valor": 28505.45,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "aNULAÇÃO DESCRIÇÃO NE 162 INCORRETA"
+    },
+    {
+      "numero": "2017NE00011",
+      "contrato": "1/2017",
+      "valor": 32190.48,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2017",
+      "descricao": "Contrato 01/2017 - Hospedagem de Sistema de Informação"
+    }
+  ],
+  "faturas": [
+    {
+      "id": "146209",
+      "nf": "42239",
+      "contrato": "11/2022",
+      "valor_bruto": 23499.6,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "146211",
+      "nf": "146211",
+      "contrato": "1/2023",
+      "valor_bruto": 5962.8,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 200
+    },
+    {
+      "id": "142319",
+      "nf": "142319",
+      "contrato": "1/2018",
+      "valor_bruto": 3343.21,
+      "competencia": "06/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 376
+    },
+    {
+      "id": "146212",
+      "nf": "42240",
+      "contrato": "1/2023",
+      "valor_bruto": 2870.24,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 200
+    },
+    {
+      "id": "146208",
+      "nf": "42237",
+      "contrato": "8/2022",
+      "valor_bruto": 2455.16,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 160
+    },
+    {
+      "id": "146210",
+      "nf": "42238",
+      "contrato": "11/2022",
+      "valor_bruto": 321.76,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 92
+    },
+    {
+      "id": "143851",
+      "nf": "143851",
+      "contrato": "1/2023",
+      "valor_bruto": 198.72,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 200
+    },
+    {
+      "id": "143852",
+      "nf": "39972",
+      "contrato": "1/2023",
+      "valor_bruto": 95.66,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 200
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "SECT",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "001/2018",
+      "Número": "142319",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142319/E",
+      "Comp.": "06/2023",
+      "Valor": "3.343,21",
+      "Atraso": "982 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SECT",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2023",
+      "Número": "143852",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143852/E",
+      "Comp.": "07/2023",
+      "Valor": "95,66",
+      "Atraso": "924 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SECT",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "001/2023",
+      "Número": "143851",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143851/E",
+      "Comp.": "07/2023",
+      "Valor": "198,72",
+      "Atraso": "924 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SECT",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "001/2023",
+      "Número": "146211",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146211/E",
+      "Comp.": "12/2023",
+      "Valor": "5.962,80",
+      "Atraso": "818 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SECT",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "008/2022",
+      "Número": "146208",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146208/E",
+      "Comp.": "12/2023",
+      "Valor": "2.455,16",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SECT",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "011/2022",
+      "Número": "146210",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146210/E",
+      "Comp.": "12/2023",
+      "Valor": "321,76",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SECT",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "011/2022",
+      "Número": "146209",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146209/E",
+      "Comp.": "12/2023",
+      "Valor": "23.499,60",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SECT",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2023",
+      "Número": "146212",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146212/E",
+      "Comp.": "12/2023",
+      "Valor": "2.870,24",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 220,
+      "valor_total": 3231567.49,
+      "por_ano": {
+        "2021": {
+          "qtd": 11,
+          "valor": 127953.62
+        },
+        "2016": {
+          "qtd": 31,
+          "valor": 409546.88
+        },
+        "2025": {
+          "qtd": 22,
+          "valor": 285618.8300000001
+        },
+        "2017": {
+          "qtd": 16,
+          "valor": 129720.05999999997
+        },
+        "2019": {
+          "qtd": 14,
+          "valor": 140106.08000000002
+        },
+        "2015": {
+          "qtd": 33,
+          "valor": 261768.02000000002
+        },
+        "2024": {
+          "qtd": 26,
+          "valor": 491121.13
+        },
+        "2014": {
+          "qtd": 6,
+          "valor": 156790.00999999998
+        },
+        "2022": {
+          "qtd": 22,
+          "valor": 326828.29000000004
+        },
+        "2018": {
+          "qtd": 11,
+          "valor": 228568.28
+        },
+        "2023": {
+          "qtd": 19,
+          "valor": 398690.73
+        },
+        "2020": {
+          "qtd": 6,
+          "valor": 174973.8
+        },
+        "2026": {
+          "qtd": 3,
+          "valor": 99881.76000000001
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 8,
+      "valor_total": 38747.15
+    },
+    "cobrancas": {
+      "qtd": 8,
+      "valor_total": 38747.15
+    }
+  }
+}

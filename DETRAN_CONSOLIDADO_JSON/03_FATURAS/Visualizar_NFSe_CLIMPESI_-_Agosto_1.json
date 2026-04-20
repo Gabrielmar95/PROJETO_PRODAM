@@ -1,0 +1,32 @@
+{
+  "filename": "Visualizar NFSe CLIMPESI - Agosto 1.pdf",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\03_FATURAS\\Visualizar NFSe CLIMPESI - Agosto 1.pdf",
+  "categoria": "03_FATURAS",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 237585,
+  "texto_length": 2406,
+  "texto_preview": "PREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\nBAD4.D56E.B7C9\n21/08/2025 - 10:40:34\nNatureza da operação\nNúmero da Nota\nISSQN a Recolher\n56970\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n   JONATHAS PEDROSA, 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92999621008.\n  CEP    69020-110 - MANAUS  - AM  - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    prodam@prodam.am.gov.br\n  Inscrição Estadual\n  053411625\nTomador de Serviço\nNome do tomador do serviço\nCLIMEPSI - CLINICA MEDICA PSICOLOGICA LTDA.\nCPF/CNPJ\n00.",
+  "texto_completo": "PREFEITURA DE MANAUS\nSecretaria Municipal de Finanças e Tecnologia da\nInformação - SEMEF\nNOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFSe\nA autenticidade desta nota pode ser confirmada\nem: nota.manaus.am.gov.br, informando o código de\nverificação.\nCódigo de verificação\nData/Hora da emissão\nBAD4.D56E.B7C9\n21/08/2025 - 10:40:34\nNatureza da operação\nNúmero da Nota\nISSQN a Recolher\n56970\nPrestador de Serviços\n  PRODAM-PROCESSAMENTO DE DADOS AMAZONAS S.A.\n   JONATHAS PEDROSA, 1937,\n  PRAÇA 14 DE JANEIRO, Telefone: 92999621008.\n  CEP    69020-110 - MANAUS  - AM  - BRASIL\n  CPF/CNPJ     04.407.920/0001-80\n  Inscrição Municipal\n  673801\n  Email    prodam@prodam.am.gov.br\n  Inscrição Estadual\n  053411625\nTomador de Serviço\nNome do tomador do serviço\nCLIMEPSI - CLINICA MEDICA PSICOLOGICA LTDA.\nCPF/CNPJ\n00.561.850/0001-69\nEndereço\nAV. EFIGENIO SALES,   3, \nBairro\nPARQUE 10, Telefone: 092.\nCep\n69060020\nCidade\nMANAUS  - AM  - BRASIL\n  Inscrição Municipal\n7034901\nEmail\nCLIMEPSIMANAUS_8@HOTMAIL.COM\n  Inscrição Estadual\nISENTO\nDiscriminação do Serviço/Dados Adicionais\n  CONTRATO No. 1/2019, MES: 08/2025 SERVICO: Licenca de uso de VPN Por Conexao VPN - (1 .000 x\n154.140) . R$ 154.14 Lei No. 12.741 de 8 de Dezembro de 2012. Base de Calcu lo: 154,14 Valores\naproximados dos Tributos Valores de Retencao do PASEP: 2,54 Valores de Retencao do COFINS: 11,71 Valores\nde Retencao do CPRB: 3,08 CONTA CORRENTE DA PRODAM Banco: BRADESCO No. 237 Agencia: 3739-7\nConta: 72891-8 OBS: PARA EVITAR PENDENCIAS O DEPOS ITO DEVE SER IDENTIFICADO.\nServiço:\n1.05-LICENCIAMENTO OU CESSÃO DE DIREITO DE USO DE PROGRAMAS DE\nCOMPUTAÇÃO.\nValor do Serviço (R$)\nQtd.\nDesconto(R$)\nDedução(R$)\nBase de Cálculo(R$)\nAliquota(%)\nValor do ISS(R$)\nTotal(R$)\n154,14\n1,00\n0,00\n0,00\n154,14\n5,00\n7,71\n154,14\nVALOR TOTAL DA NOTA = R$ 154,14\nRetenções\nINSS(R$)\nPIS(R$)\nCofins(R$)\nC.S.L.L(R$)\nIRRF(R$)\n \n \n \n \n \n0,00\n0,00\n0,00\n0,00\n0,00\nISSQN(R$)\nOutras Deduções(R$)\nTotal das Retenções (R$)\nValor Líquido da Nota(R$)\n0,00\n0,00\n0,00\n154,14\nOutras Informações\n- Competência: Agosto/2025- ISS de responsabilidade do: Prestador de serviço-\nServiço Tributado no Município: MANAUS- Data do vencimento do ISS desta NFSE:\n10/09/25- Esta NFS-e substitui o RPS Nº 57259, série: RPS, emitido em 21/08/2025\n08/10/2025, 13:15\nVisualizar NFSe\nhttps://nfse-prd.manaus.am.gov.br/nfse/servlet/wvalidarautenticidadenfse?04407920000180,154.14,56970,BAD4.D56E.B7C9\n1/1\n",
+  "pdf_meta": {
+    "metodo": "pymupdf",
+    "paginas": 1,
+    "tem_texto": true
+  },
+  "precisa_ocr": false,
+  "campos_estruturados": {
+    "cnpjs": [
+      "04.407.920/0001-80",
+      "00.561.850/0001-69"
+    ],
+    "datas_encontradas": [
+      "21/08/2025",
+      "10/09/25",
+      "08/10/2025"
+    ],
+    "valores_brl": [
+      "154.14",
+      "154,14"
+    ],
+    "tipo_doc": "FATURA"
+  }
+}

@@ -1,0 +1,2966 @@
+{
+  "sigla": "ADAF",
+  "profile": {
+    "nome_completo": "Agência de Defesa Agropecuária e Florestal do Amazonas",
+    "sigla": "ADAF",
+    "natureza": "Autarquia Estadual",
+    "categoria": "GOV_INDIRETA",
+    "val_orig": "149600.91",
+    "val_exig": "149600.91",
+    "val_atualizado": "149600.91",
+    "faturas_total": 44,
+    "faturas_prescritas": 0,
+    "faturas_exigiveis": 44,
+    "indice_correcao": "SELIC",
+    "juros_mora": "Conforme SELIC",
+    "multa": "1%",
+    "n_contratos": 4,
+    "regime_execucao": "penhora_direta",
+    "titulo_executivo": false,
+    "status": "Pendente analise",
+    "observacoes": "Incluido via SPCF Mar/2026. 39 fat aberto (B2-05 R$150.294,16). Emp 2026 R$115K (17 NEs)",
+    "forca_probatoria": "FRACA",
+    "modelo_notificacao": "C",
+    "cnpj": "CNPJ_PENDENTE",
+    "tipo": "GOV",
+    "score_composto": 0,
+    "proximo_passo": "CLASSIFICAR",
+    "fonte": "SPCF_MAR2026",
+    "fase_atual": "F0",
+    "data_fase_atual": "2026-03-31",
+    "spcf_total_receber": "149600.91",
+    "spcf_fat_devidas_qtd": 44,
+    "spcf_fat_devidas_val": "149600.91",
+    "spcf_fat_aberto_qtd": 39,
+    "spcf_fat_aberto_val": "150294.16",
+    "spcf_perdas": "8427.89",
+    "emp_2026": "115550.22",
+    "emp_2026_qtd": 17,
+    "contratos_vigentes": 4,
+    "fonte_spcf": "SPCF_MAR2026",
+    "data_spcf": "2026-03-31",
+    "fat_canceladas_qtd": 12,
+    "fat_canceladas_val_bruto": 41209.28,
+    "fat_canceladas_val_liquido": 40517.03,
+    "faturamento_total_2019_2026": 1572211.77,
+    "recebimento_total_2019_2026": 1369230.0,
+    "taxa_pagamento_pct": 87.09,
+    "padrao_inadimplencia": "PONTUAL",
+    "meses_com_faturamento": 87,
+    "faturamento_pico_mes": "2024-Dez",
+    "faturamento_pico_valor": 38516.16,
+    "inicio_inadimplencia": "2019-Jan",
+    "ultimo_faturamento": "2026-Mar",
+    "cancelada_em_devidas": false,
+    "cancelada_em_perdas": false,
+    "empenho_historico_total": 1132717.1999999997,
+    "empenho_historico_qtd": 163,
+    "empenho_valor_global_contratos": 332098.10000000003,
+    "empenho_2026_gerencial": 110145.14000000001,
+    "a_empenhar_2026": 117154.17000000001,
+    "nes_sem_cobertura_qtd": 0,
+    "nes_sem_cobertura_valor": 0,
+    "val_servicos_spcf_mar2026": "153395.75",
+    "val_liquido_spcf_mar2026": "149600.91",
+    "num_faturas_spcf_mar2026": 40,
+    "reconciliacao_status": "MATCH",
+    "reconciliacao_data": "2026-04-01",
+    "reconciliacao_divergencia_pct": 0.0,
+    "tem_csv_faturas": true
+  },
+  "empenhos": [
+    {
+      "numero": "2024NE0001955",
+      "contrato": "4/2024",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2024",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2024NE0001951",
+      "contrato": "3/2022",
+      "valor": 5768.67,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2024",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0001957",
+      "contrato": "2/2023",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2022NE0001298",
+      "contrato": "17/2018",
+      "valor": 24313.9,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2022",
+      "descricao": "- 3º Termo Aditivo ao Contrato 017/2018; Portaria de dispensa de licitação nº 316/2018-ADAF, publicada no DOE de 12/11/2018; Parecer Jurídico nº 1302/2021 AJUR/ADAF de 16/12/2021."
+    },
+    {
+      "numero": "2022NE0001302",
+      "contrato": "10/2019",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2022",
+      "descricao": "- 3º TERMO ADITIVO AO CONTRATO Nº 010/2019; VALOR GLOBAL: R$ 14.014,08; VIGÊNCIA: 03/06/2022 - 02/06/2023; NOTA DE AUTORIZAÇÃO DE DESPESAS (NAD) Nº 39 DE 13/05/2022; PARECER JURÍDICO Nº 326/2022 - AJUR/ADAF DE 16/05/2022."
+    },
+    {
+      "numero": "2022NE0001301",
+      "contrato": "9/2019",
+      "valor": 6899.08,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2022",
+      "descricao": "- 3º TERMO ADITIVO (TA) AO CONTRATO 009/2019; PERÍODO: JULHO-AGOSTO; PROCESSO SIGED 018202.001730/2022; EXTRATO DO CONTRATO Nº 009/2019 NO D.O.E. EM 28/06/2019; NAD Nº 32 DE 28/04/2022; PARECER JURÍDICO Nº 325/2022 - AJUR/ADAF DE 16/05/2022."
+    },
+    {
+      "numero": "2018NE00895",
+      "contrato": "4/2014",
+      "valor": 7990.23,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2018",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2018NE00894",
+      "contrato": "8/2016",
+      "valor": 19906.0,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2016NE00901",
+      "contrato": "",
+      "valor": 967.39,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "Anulação de Saldo da NE 00750, devido o Encerramento do Exercício Financeiro, Ref ao TC Nº 004/2014 - 2º TA - PRODAM"
+    },
+    {
+      "numero": "2016NE00891",
+      "contrato": "",
+      "valor": 57.3,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "Anulação de Saldo da NE 00382, devido o Encerramento do Exercício Financeiro, Ref ao TC Nº 004/2014 - 2º TA - PRODAM"
+    },
+    {
+      "numero": "2016NE00893",
+      "contrato": "",
+      "valor": 967.39,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "Anulação de Saldo da NE 00406, devido o Encerramento do Exercício Financeiro, Ref ao TC Nº 004/2014 - 2º TA - PRODAM"
+    },
+    {
+      "numero": "2016NE00712",
+      "contrato": "8/2016",
+      "valor": 8028.9,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "Contratação de Serviços de Infraestrutura de TI compreendendo os serviços de Instação, Hospedagem de servidores para ADAF"
+    },
+    {
+      "numero": "2019NE01036",
+      "contrato": "8/2016",
+      "valor": 4690.94,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2019",
+      "descricao": "Serviços de infraestrutura de TI, compreendendo os serviços de instalação e hospedagem de servidores de dados."
+    },
+    {
+      "numero": "2017NE00550",
+      "contrato": "4/2014",
+      "valor": 7842.03,
+      "situacao": "Ativo",
+      "data_emissao": "30/05/2017",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2026NE0000225",
+      "contrato": "7/2025",
+      "valor": 5014.73,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2026NE0000223",
+      "contrato": "3/2022",
+      "valor": 6017.59,
+      "situacao": "Ativo",
+      "data_emissao": "30/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0002590",
+      "contrato": "",
+      "valor": 0.13,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2025",
+      "descricao": "Cancelamento por encerramento de exercício."
+    },
+    {
+      "numero": "2017NE01612",
+      "contrato": "",
+      "valor": 500.89,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 0550/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01621",
+      "contrato": "",
+      "valor": 0.02,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 01134/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01645",
+      "contrato": "",
+      "valor": 50.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação parcial da NE 550/2017, Devolução saldo remanescente de pagamento."
+    },
+    {
+      "numero": "2017NE01637",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 01437/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01650",
+      "contrato": "",
+      "valor": 17756.58,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 0424/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01648",
+      "contrato": "",
+      "valor": 497.82,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 0167/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01649",
+      "contrato": "",
+      "valor": 3195.02,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 0213/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01651",
+      "contrato": "",
+      "valor": 4976.5,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 0009/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01652",
+      "contrato": "",
+      "valor": 6390.04,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 01152/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01653",
+      "contrato": "",
+      "valor": 3215.37,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 01343/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2017NE01633",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "Anulação de Saldo da NE 01344/2017, devido o Encerramento do Exercício Financeiro. Conforme orientação técnica Nº 001/2018 - GINS/SEFAZ."
+    },
+    {
+      "numero": "2022NE0001781",
+      "contrato": "3/2022",
+      "valor": 5190.29,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "- CONTRATO Nº 003/2022 ¿ ADAF; PARECER JURÍDICO Nº 1231/2021 ¿ AJUR/ADAF DE 22/11/2021; PORTARIA DE DISPENSA DE LICITAÇÃO Nº 11/2022 - ADAF/AM, PUBLICADA NO D.O.E. EM 10/02/2022; EXTRATO DE CONTRATO, PUBLICADO NO D.O.E. EM 24/03/2022."
+    },
+    {
+      "numero": "2024NE0001913",
+      "contrato": "4/2024",
+      "valor": 5236.84,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2024",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2024NE0001912",
+      "contrato": "3/2022",
+      "valor": 11537.34,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2024",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0001914",
+      "contrato": "2/2023",
+      "valor": 25161.38,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2018NE01598",
+      "contrato": "",
+      "valor": 12780.08,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação da NE Nº00317/2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF."
+    },
+    {
+      "numero": "2018NE01600",
+      "contrato": "",
+      "valor": 2713.88,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação da NE Nº01246/2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF."
+    },
+    {
+      "numero": "2018NE01601",
+      "contrato": "",
+      "valor": 9953.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação da NE Nº01542/2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF."
+    },
+    {
+      "numero": "2018NE01591",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação da NE Nº0895/2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF."
+    },
+    {
+      "numero": "2018NE01590",
+      "contrato": "",
+      "valor": 0.05,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação da NE Nº0320/2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF."
+    },
+    {
+      "numero": "2018NE01599",
+      "contrato": "",
+      "valor": 7849.12,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação da NE Nº00894/2018, para ajuste orçamentário e em cumprimento ao art. 42 da LRF."
+    },
+    {
+      "numero": "2017NE01395",
+      "contrato": "8/2016",
+      "valor": 4976.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2017",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2018NE01246",
+      "contrato": "8/2016",
+      "valor": 4976.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2018NE01244",
+      "contrato": "4/2014",
+      "valor": 1984.15,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2018",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2020NE00535",
+      "contrato": "10/2019",
+      "valor": 9184.77,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2020",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, a contar de 03/06/2020 a 02/06/2021, com base na cláusula oitava do contrato primitivo, conforme DP 217/2020."
+    },
+    {
+      "numero": "2020NE00508",
+      "contrato": "9/2019",
+      "valor": 18939.59,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2020",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, a contar de 03/06/2020 a 02/06/2021, com base na cláusula oitava do contrato primitivo, conforme DP 216/2020."
+    },
+    {
+      "numero": "2019NE00559",
+      "contrato": "10/2019",
+      "valor": 1312.11,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "Contratação de empresa para a prestação de serviço de protocolo em plataforma Web (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do Contratante."
+    },
+    {
+      "numero": "2019NE00558",
+      "contrato": "9/2019",
+      "valor": 3964.12,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "Contratação de empresa para prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e folha de pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2019NE00271",
+      "contrato": "17/2018",
+      "valor": 28157.04,
+      "situacao": "Ativo",
+      "data_emissao": "28/03/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de acesso gerenciado á Rede Mundial, via Rede de Governo."
+    },
+    {
+      "numero": "2018NE00320",
+      "contrato": "4/2014",
+      "valor": 9736.75,
+      "situacao": "Ativo",
+      "data_emissao": "28/03/2018",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sist, CFPP-Cadastro de Folha de Pagamento e Licença de Uso de sist. de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB. 3ºTA TC 04/14"
+    },
+    {
+      "numero": "2023NE0000228",
+      "contrato": "3/2022",
+      "valor": 11110.88,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2023",
+      "descricao": "por força deste contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 24/01/2023, constate do PROCESSO e do projeto BASICO."
+    },
+    {
+      "numero": "2019NE01309",
+      "contrato": "",
+      "valor": 0.05,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº00017/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01339",
+      "contrato": "",
+      "valor": 2479.64,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação parcial da NE Nº01057/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01310",
+      "contrato": "",
+      "valor": 11190.2,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº00026/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01311",
+      "contrato": "",
+      "valor": 1454.12,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº00558/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01316",
+      "contrato": "",
+      "valor": 2479.64,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº01067/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01313",
+      "contrato": "",
+      "valor": 3149.28,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº00700/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01338",
+      "contrato": "",
+      "valor": 2638.82,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação parcial da NE Nº01036/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01314",
+      "contrato": "",
+      "valor": 25.14,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº00706/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01340",
+      "contrato": "",
+      "valor": 4981.62,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação parcial da NE Nº01061/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01312",
+      "contrato": "",
+      "valor": 30.78,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº00559/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2019NE01315",
+      "contrato": "",
+      "valor": 11295.56,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2019",
+      "descricao": "Anulação da NE Nº00715/2019, para ajuste orçamentário, de encerramento do exercício de 2019, conforme o Decreto Nº 41.554, de 26 de Novembro de 2019."
+    },
+    {
+      "numero": "2024NE0000915",
+      "contrato": "3/2022",
+      "valor": 11537.34,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2024",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000912",
+      "contrato": "",
+      "valor": 11537.34,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2024",
+      "descricao": "ERRO VIGÊNCIA CONTRATO"
+    },
+    {
+      "numero": "2021NE0000496",
+      "contrato": "10/2019",
+      "valor": 3936.33,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2021",
+      "descricao": "Prorrogar o prazo de vigência do contrato por mais 12 (doze) meses, a contar da data de 03/06/2021 a 02/06/2022, com base na cláusula oitava do contrato primitivo, conforme DIRAF 16/2021"
+    },
+    {
+      "numero": "2024NE0000581",
+      "contrato": "4/2024",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "27/03/2024",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2025NE0000294",
+      "contrato": "7/2025",
+      "valor": 4000.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2024NE0000185",
+      "contrato": "3/2022",
+      "valor": 5511.12,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 0003/2022 AD: 01."
+    },
+    {
+      "numero": "2025NE0001945",
+      "contrato": "3/2022",
+      "valor": 12079.9,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0001108",
+      "contrato": "4/2024",
+      "valor": 5236.84,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2024",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2024NE0001109",
+      "contrato": "3/2022",
+      "valor": 11537.34,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2024",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0001107",
+      "contrato": "2/2023",
+      "valor": 25161.38,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2023NE0000778",
+      "contrato": "3/2022",
+      "valor": 5511.13,
+      "situacao": "Ativo",
+      "data_emissao": "26/05/2023",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 003/2022 AD: 01."
+    },
+    {
+      "numero": "2025NE0001941",
+      "contrato": "7/2025",
+      "valor": 10562.28,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2025NE0001940",
+      "contrato": "2/2023",
+      "valor": 10598.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0001939",
+      "contrato": "2/2023",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0001938",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "25/08/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2019NE00249",
+      "contrato": "4/2014",
+      "valor": 3968.3,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2019",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2022NE0000144",
+      "contrato": "",
+      "valor": 22211.56,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2022",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico."
+    },
+    {
+      "numero": "2023NE0001457",
+      "contrato": "",
+      "valor": 3591.58,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2023",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO"
+    },
+    {
+      "numero": "2023NE0001474",
+      "contrato": "3/2022",
+      "valor": 5511.13,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2023",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 003/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000767",
+      "contrato": "9/2019",
+      "valor": 3806.51,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2023",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2021NE0000489",
+      "contrato": "9/2019",
+      "valor": 10397.36,
+      "situacao": "Ativo",
+      "data_emissao": "24/05/2021",
+      "descricao": "O PRESENTE TERMO ADITIVO TEM POR OBJETO PRORROGAR O PRAZO DE VIGENCIA DO CONTRATO ORIGINAL POR MAIS 12 (DOZE) MESES, A CONTAR DE 03/06/2021 A 02/06/2022, COM BASE NA CLAUSULA OITAVA DO CONTRATO PRIMITIVO DE ACORDO COM A DIRAF 079/2021."
+    },
+    {
+      "numero": "2025NE0000279",
+      "contrato": "4/2024",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB."
+    },
+    {
+      "numero": "2025NE0000280",
+      "contrato": "2/2023",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000278",
+      "contrato": "3/2022",
+      "valor": 6137.07,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0000013",
+      "contrato": "",
+      "valor": 24209.44,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2024",
+      "descricao": "REPROGRAMAÇÃO"
+    },
+    {
+      "numero": "2024NE0000012",
+      "contrato": "",
+      "valor": 7613.02,
+      "situacao": "Ativo",
+      "data_emissao": "24/01/2024",
+      "descricao": "REPROGRAMAÇÃO"
+    },
+    {
+      "numero": "2016NE00695",
+      "contrato": "4/2014",
+      "valor": 1883.86,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2016",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2017NE01152",
+      "contrato": "8/2016",
+      "valor": 9953.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2017",
+      "descricao": "Contratação de Serviços de Infraestrutura de TI compreendendo os serviços de Instação, Hospedagem de servidores para ADAF"
+    },
+    {
+      "numero": "2017NE01134",
+      "contrato": "4/2014",
+      "valor": 3894.7,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2017",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2025NE0001398",
+      "contrato": "2/2023",
+      "valor": 2619.23,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2016NE00406",
+      "contrato": "4/2014",
+      "valor": 7586.36,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2016",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2015NE00241",
+      "contrato": "",
+      "valor": 5599.25,
+      "situacao": "Ativo",
+      "data_emissao": "23/04/2015",
+      "descricao": "RECONHECIMENTO DE DIVIDA: Folha de Informação Nº 007/2015"
+    },
+    {
+      "numero": "2017NE00167",
+      "contrato": "8/2016",
+      "valor": 4976.5,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2017",
+      "descricao": "- RDL Nº009/2016 - Contrato Nº08/2016, - Vigência: 30.11.2016 á 29.11.2017 - Valor Global: R$ 62.770,40 - Valor Mensal Nov/16: R$ 8.028,90 - Valor Mensal Jan/17 á Nov/17: R$ 4.976,50 - Fundamento Legal: Art. 24; XVI; da Lei 8.666/93"
+    },
+    {
+      "numero": "2024NE0000007",
+      "contrato": "2/2023",
+      "valor": 24209.44,
+      "situacao": "Ativo",
+      "data_emissao": "23/01/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2024NE0000006",
+      "contrato": "9/2019",
+      "valor": 7613.02,
+      "situacao": "Ativo",
+      "data_emissao": "23/01/2024",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2015NE00837",
+      "contrato": "",
+      "valor": 157.46,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE00842",
+      "contrato": "",
+      "valor": 6856.66,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2018NE00317",
+      "contrato": "8/2016",
+      "valor": 19906.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2022NE0000915",
+      "contrato": "9/2019",
+      "valor": 6899.08,
+      "situacao": "Ativo",
+      "data_emissao": "21/06/2022",
+      "descricao": "- 3º TERMO ADITIVO AO CONTRATO 009/2019; PERÍODO DESTE REFORÇO: JULHO A AGOSTO; PROCESSO SIGED 018202.001730/2022; EXTRATO DO CONTRATO Nº 009/2019 NO D.O.E. EM 28/06/2019; NAD Nº 32 DE 28/04/2022; PARECER JURÍDICO Nº 325/2022 - AJUR/ADAF DE 16/05/2022."
+    },
+    {
+      "numero": "2022NE0000914",
+      "contrato": "17/2018",
+      "valor": 12156.95,
+      "situacao": "Ativo",
+      "data_emissao": "20/06/2022",
+      "descricao": "- 3º Termo Aditivo ao Contrato 017/2018; PERÍODO: AGOSTO; Portaria de dispensa de licitação nº 316/2018-ADAF, publicada no DOE de 12/11/2018; Parecer Jurídico nº 1302/2021 AJUR/ADAF de 16/12/2021; SERVIÇOS DE ACESSO À INTERNET."
+    },
+    {
+      "numero": "2025NE0001156",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2022NE0000747",
+      "contrato": "9/2019",
+      "valor": 5174.31,
+      "situacao": "Ativo",
+      "data_emissao": "20/05/2022",
+      "descricao": "- 3º TA, PRORROGAÇÃO, AO CONTRATO 009/2019 - PRODAM SISTEMA DE RH; EXTRATO DO CONTRATO Nº 009/2019 NO D.O.E. EM 28/06/2019; MEMORANDO Nº 024/2022-DAF/ADAF; NAD Nº 32 DE 28/04/2022; PARECER JURÍDICO Nº 325/2022 - AJUR/ADAF DE 16/05/2022."
+    },
+    {
+      "numero": "2026NE0000366",
+      "contrato": "2/2023",
+      "valor": 13217.1,
+      "situacao": "Ativo",
+      "data_emissao": "20/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2025NE0000004",
+      "contrato": "",
+      "valor": 25161.38,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2025",
+      "descricao": "ERRO DATA EMPENHO"
+    },
+    {
+      "numero": "2025NE0000003",
+      "contrato": "2/2023",
+      "valor": 25161.38,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2025",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2023NE0001091",
+      "contrato": "",
+      "valor": 12104.72,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2023",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2025NE0001153",
+      "contrato": "3/2022",
+      "valor": 6039.95,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2025NE0001152",
+      "contrato": "2/2023",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0001151",
+      "contrato": "7/2025",
+      "valor": 5281.14,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2022NE0000743",
+      "contrato": "10/2019",
+      "valor": 3503.52,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "3º TERMO ADITIVO AO CONTRATO Nº 010/2019; VALOR GLOBAL: R$ 14.014,08; VIGÊNCIA: 03/06/2022 - 02/06/2023; NOTA DE AUTORIZAÇÃO DE DESPESAS (NAD) Nº 39 DE 13/05/2022; PARECER JURÍDICO Nº 326/2022 - AJUR/ADAF DE 16/05/2022."
+    },
+    {
+      "numero": "2023NE0000002",
+      "contrato": "9/2019",
+      "valor": 13798.16,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2023",
+      "descricao": "- 3º TA CONTRATO 009/2019; VIGÊNCIA: 03/06/2022 - 02/06/2023; OBJETO: SERVIÇO DE SUPORTE (SOFTWARE) DE RH; EXTRATO DO CONTRATO Nº 009/2019 NO D.O.E. EM 28/06/2019; PARECER JURÍDICO Nº 325/2022 DE 16/05/2022."
+    },
+    {
+      "numero": "2023NE0000004",
+      "contrato": "3/2022",
+      "valor": 10380.58,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2023",
+      "descricao": "- CONTRATO Nº 003/2022; VIGÊNCIA: 03/03/2022 - 02/03/2023; OBJETO: HOSPEDAGEM; PARECER JURÍDICO Nº 1231/2021 DE 22/11/2021; PORTARIA DE DISPENSA Nº 11/2022, PUBLICADA NO D.O.E. EM 10/02/2022; EXTRATO DE CONTRATO, PUBLICADO NO D.O.E. EM 24/03/2022."
+    },
+    {
+      "numero": "2023NE0000005",
+      "contrato": "10/2019",
+      "valor": 4671.36,
+      "situacao": "Ativo",
+      "data_emissao": "19/01/2023",
+      "descricao": "- 3º TERMO ADITIVO AO CONTRATO Nº 010/2019; VIGÊNCIA: 03/06/2022 - 02/06/2023; OBJETO: SISTEMA DE PROTOCOLO; PARECER JURÍDICO Nº 326/2022 DE 16/05/2022; EXTRATO DO 3º TERMO ADITIVO, PULICADO NO D.O.E. EM 09/06/2022."
+    },
+    {
+      "numero": "2016NE00659",
+      "contrato": "",
+      "valor": 1883.86,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2016",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2016NE00659",
+      "contrato": "4/2014",
+      "valor": 1883.86,
+      "situacao": "Ativo",
+      "data_emissao": "18/10/2016",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2023NE0001085",
+      "contrato": "",
+      "valor": 3806.51,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2023",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0001084",
+      "contrato": "",
+      "valor": 5511.13,
+      "situacao": "Ativo",
+      "data_emissao": "18/07/2023",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 003/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0001039",
+      "contrato": "",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "18/06/2024",
+      "descricao": "REPROGRAMAÇÃO"
+    },
+    {
+      "numero": "2024NE0001021",
+      "contrato": "2/2023",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "18/06/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2026NE0000568",
+      "contrato": "",
+      "valor": 44.72,
+      "situacao": "Ativo",
+      "data_emissao": "18/03/2026",
+      "descricao": "ANULAÇÃO DE SALDO DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0001679",
+      "contrato": "17/2018",
+      "valor": 12156.95,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2022",
+      "descricao": "- 3º Termo Aditivo ao Contrato 017/2018; Portaria de dispensa de licitação nº 316/2018-ADAF, publicada no DOE de 12/11/2018; Parecer Jurídico nº 1302/2021 AJUR/ADAF de 16/12/2021."
+    },
+    {
+      "numero": "2023NE0001772",
+      "contrato": "2/2023",
+      "valor": 12104.72,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2023",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2023NE0001771",
+      "contrato": "9/2019",
+      "valor": 3806.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2023",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000672",
+      "contrato": "4/2024",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "17/04/2024",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2021NE0001640",
+      "contrato": "17/2018",
+      "valor": 5882.4,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses."
+    },
+    {
+      "numero": "2023NE0001728",
+      "contrato": "3/2022",
+      "valor": 5511.13,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2023",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 003/2022 AD: 01."
+    },
+    {
+      "numero": "2020NE01021",
+      "contrato": "8/2016",
+      "valor": 4690.94,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2020",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência, a contar de 30/11/2020 a 29/11/2021. Serviço de infraestrutura e suporte em sistemas de informação de instalação e hospedagem de servidores."
+    },
+    {
+      "numero": "2024NE0000410",
+      "contrato": "",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2024",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2023NE0000846",
+      "contrato": "",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2023",
+      "descricao": "3º Termo Aditivo com prorrogação de prazo de 12 (doze) meses ao Contrato nº 010/2019 e Supressão de 10,99%, referente ao Sistema de Protocolo em Plataforma Web (SPROWER). TC: 010/2019 AD: 03."
+    },
+    {
+      "numero": "2023NE0000850",
+      "contrato": "2/2023",
+      "valor": 12104.72,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2023",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2023NE00850",
+      "contrato": "2/2023",
+      "valor": 12104.72,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2023",
+      "descricao": "Serviços de Acesso à Internet"
+    },
+    {
+      "numero": "2025NE0000883",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "14/04/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2017NE00213",
+      "contrato": "8/2016",
+      "valor": 4976.5,
+      "situacao": "Ativo",
+      "data_emissao": "14/03/2017",
+      "descricao": "Contratação de Serviços de Infraestrutura de TI compreendendo os serviços de Instação, Hospedagem de servidores para ADAF"
+    },
+    {
+      "numero": "2021NE0000270",
+      "contrato": "9/2019",
+      "valor": 2202.27,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, a contar de 03/06/2020 a 02/06/2021, com base na cláusula oitava do contrato primitivo, conforme DP 216/2020."
+    },
+    {
+      "numero": "2024NE0000390",
+      "contrato": "9/2019",
+      "valor": 7613.02,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2024",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2019NE00714",
+      "contrato": "17/2018",
+      "valor": 28157.04,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2019",
+      "descricao": "Contratação de serviços de acesso a internet por fibra óptica e acesso de gerenciamento a rede mundial."
+    },
+    {
+      "numero": "2019NE00715",
+      "contrato": "8/2016",
+      "valor": 13223.88,
+      "situacao": "Ativo",
+      "data_emissao": "12/07/2019",
+      "descricao": "Contratação de serviços de infraestrutura de TI, compreendendo os serviços de instalação e hospedagem de servidores de dados."
+    },
+    {
+      "numero": "2016NE00272",
+      "contrato": "4/2014",
+      "valor": 1702.11,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb, Conforme 1º Termo aditivo ao Contrato Nº 004/2014, Ref. a Novembro/2015. NFSe Emitidas Nºs 16697 de 25.11.2015"
+    },
+    {
+      "numero": "2016NE00267",
+      "contrato": "4/2014",
+      "valor": 1713.61,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb, Conforme 1º Termo aditivo ao Contrato Nº 004/2014, Referente a Junho/2015. NFSe Emitidas Nºs 16064 de 29.09.2015"
+    },
+    {
+      "numero": "2016NE00270",
+      "contrato": "4/2014",
+      "valor": 2647.57,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb, Conforme 1º Termo aditivo ao Contrato Nº 004/2014, Referente a Julho/2015. NFSe Emitidas Nºs 16066 de 29.09.2015"
+    },
+    {
+      "numero": "2016NE00266",
+      "contrato": "4/2014",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb, Conforme Contrato Nº 004/2014, Referente a Maio/2015. NFSe Emitida Nº 14676 de 29.05.2015."
+    },
+    {
+      "numero": "2016NE00271",
+      "contrato": "4/2014",
+      "valor": 1713.61,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb, Conforme 1º Termo aditivo ao Contrato Nº 004/2014, Referente a Agosto/2015. NFSe Emitidas Nºs 16069de 29.09.2015"
+    },
+    {
+      "numero": "2016NE00273",
+      "contrato": "4/2014",
+      "valor": 1711.13,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb,Conforme 1º Termo aditivo ao Contrato Nº 004/2014, Ref. a Setembro/2015. NFSe Emitidas Nºs 16071 de 29.09.2015"
+    },
+    {
+      "numero": "2016NE00274",
+      "contrato": "4/2014",
+      "valor": 1711.13,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb, Conforme 1º Termo aditivo ao Contrato Nº 004/2014, Ref. a Outubro/2015. NFSe Emitidas Nºs 16384 de 28.10.2015"
+    },
+    {
+      "numero": "2016NE00275",
+      "contrato": "4/2014",
+      "valor": 2631.03,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2016",
+      "descricao": "Contratação de Prestação de Serviços de Execução de Sistemas - CFPP, Licença de Uso de sistemas de Protocolo em Plataforma Web - Sproweb, Conforme 1º Termo aditivo ao Contrato Nº 004/2014, Ref. a dezembro/2015. NFSe Emitidas Nºs 17080 de 28.12.2015"
+    },
+    {
+      "numero": "2025NE0000365",
+      "contrato": "4/2024",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB."
+    },
+    {
+      "numero": "2025NE0000363",
+      "contrato": "2/2023",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000364",
+      "contrato": "7/2025",
+      "valor": 6562.28,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2025NE0000366",
+      "contrato": "3/2022",
+      "valor": 6039.95,
+      "situacao": "Ativo",
+      "data_emissao": "12/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2020NE01123",
+      "contrato": "17/2018",
+      "valor": 4832.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2020",
+      "descricao": "Prorrogar o prazo de vigência do Contrato original por mais 12 (doze) meses, com base na Cláusula Oitava a contar de 17/12/2020 a 16/12/2021, e reajustar em 13,02% os valores conforme Cláusula Décima Primeira, e de acordo com a DP 522."
+    },
+    {
+      "numero": "2024NE0000643",
+      "contrato": "",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "11/04/2024",
+      "descricao": "MODIFICAÇÃO DO DETACONTRATO; ALTERAÇÃO DE CONTRATO"
+    },
+    {
+      "numero": "2024NE0000350",
+      "contrato": "2/2023",
+      "valor": 24209.44,
+      "situacao": "Ativo",
+      "data_emissao": "11/03/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2025NE0002013",
+      "contrato": "",
+      "valor": 42.7,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2025",
+      "descricao": "ANULAÇÃO SALDO EMPENHO"
+    },
+    {
+      "numero": "2024NE0000822",
+      "contrato": "4/2024",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "10/05/2024",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2023NE0001323",
+      "contrato": "17/2018",
+      "valor": 6483.71,
+      "situacao": "Ativo",
+      "data_emissao": "09/08/2023",
+      "descricao": "CONTRATO No. 17/2018, MES: 12/2022 SERVICO: Acesso Gerenciado a Rede Mundial Por Mbps (De 10.1 a 30 Mbps) - (59.590 x 203.390/ 30 x 16 dias )."
+    },
+    {
+      "numero": "2017NE00424",
+      "contrato": "8/2016",
+      "valor": 9953.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/05/2017",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de hospedagem de servidor de dados (Data Center)."
+    },
+    {
+      "numero": "2021NE0000254",
+      "contrato": "8/2016",
+      "valor": 18763.76,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência, a contar de 30/11/2020 a 29/11/2021. Serviço de infraestrutura e suporte em sistemas de informação de instalação e hospedagem de servidores."
+    },
+    {
+      "numero": "2021NE0000245",
+      "contrato": "10/2019",
+      "valor": 1312.11,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, a contar de 03/06/2020 a 02/06/2021, com base na cláusula oitava do contrato primitivo, conforme DP 217/2020."
+    },
+    {
+      "numero": "2021NE0000253",
+      "contrato": "17/2018",
+      "valor": 39947.28,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2021",
+      "descricao": "Prorrogar o prazo de vigência do Contrato original por mais 12 (doze) meses, com base na Cláusula Oitava a contar de 17/12/2020 a 16/12/2021, e reajustar em 13,02% os valores conforme Cláusula Décima Primeira, e de acordo com a DP 522."
+    },
+    {
+      "numero": "2022NE0001306",
+      "contrato": "3/2022",
+      "valor": 10380.58,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2022",
+      "descricao": "- CONTRATO Nº 003/2022 – ADAF; PARECER JURÍDICO Nº 1231/2021 – AJUR/ADAF DE 22/11/2021; PORTARIA DE DISPENSA DE LICITAÇÃO Nº 11/2022 - ADAF/AM, PUBLICADA NO D.O.E. EM 10/02/2022; EXTRATO DE CONTRATO, PUBLICADO NO D.O.E. EM 24/03/2022."
+    },
+    {
+      "numero": "2023NE0001296",
+      "contrato": "",
+      "valor": 5511.13,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2023",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 003/2022 AD: 01."
+    },
+    {
+      "numero": "2018NE01542",
+      "contrato": "8/2016",
+      "valor": 9953.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "contratação de empresa especializada na prestação de serviço de infraestrutura de TI, compreendendo os serviços de instalação, hospedagem de servidores e suporte em sistema de informação para esta AADAF"
+    },
+    {
+      "numero": "2018NE01543",
+      "contrato": "",
+      "valor": 4407.96,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "anulação da ne 1487 para correção da modalidade"
+    },
+    {
+      "numero": "2018NE01490",
+      "contrato": "4/2014",
+      "valor": 6006.08,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2018NE01544",
+      "contrato": "8/2016",
+      "valor": 4407.96,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2018NE01541",
+      "contrato": "17/2018",
+      "valor": 9385.68,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de acesso gerenciado à Rede Mundial, via Rede de Governo."
+    },
+    {
+      "numero": "2018NE01487",
+      "contrato": "8/2016",
+      "valor": 4407.96,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2016NE00750",
+      "contrato": "4/2014",
+      "valor": 3818.64,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2025NE0000724",
+      "contrato": "4/2024",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB."
+    },
+    {
+      "numero": "2025NE0000723",
+      "contrato": "2/2023",
+      "valor": 12580.69,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000722",
+      "contrato": "3/2022",
+      "valor": 5747.32,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2025",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2022NE0000483",
+      "contrato": "9/2019",
+      "valor": 2970.67,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2022",
+      "descricao": "Prestação de Serviços de execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e folha de pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação do pagamento."
+    },
+    {
+      "numero": "2022NE0000485",
+      "contrato": "3/2022",
+      "valor": 20761.16,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2022",
+      "descricao": "HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO PARA COMPORTAR OS SISTEMAS DO CLIENTE NO AMBIENTE DE PRODUÇÃO DO DATA CENTER DA PRODAM."
+    },
+    {
+      "numero": "2022NE0000484",
+      "contrato": "10/2019",
+      "valor": 1312.11,
+      "situacao": "Ativo",
+      "data_emissao": "07/04/2022",
+      "descricao": "Contratação de empresa especializada para execução de sistema de protocolo web (SPROWEB)."
+    },
+    {
+      "numero": "2018NE00254",
+      "contrato": "",
+      "valor": 9736.75,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "Anulação da NE 68/2017 , para ajustar a natureza de despesa do contrato Nº 004/2014 - PRODAM"
+    },
+    {
+      "numero": "2018NE00255",
+      "contrato": "",
+      "valor": 19906.0,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2018",
+      "descricao": "Anulação da NE 72/2017 , para ajustar a natureza de despesa do contrato Nº 008/2016 - PRODAM"
+    },
+    {
+      "numero": "2023NE0001830",
+      "contrato": "",
+      "valor": 12104.72,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2023",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2023NE0001831",
+      "contrato": "9/2019",
+      "valor": 7613.02,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2023",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2023NE0001832",
+      "contrato": "3/2022",
+      "valor": 5511.13,
+      "situacao": "Ativo",
+      "data_emissao": "06/11/2023",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 003/2022 AD: 01."
+    },
+    {
+      "numero": "2021NE0000800",
+      "contrato": "10/2019",
+      "valor": 5248.44,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2021",
+      "descricao": "Prorrogar o prazo de vigência do contrato por mais 12 (doze) meses, a contar da data de 03/06/2021 a 02/06/2022, com base na cláusula oitava do contrato primitivo, conforme DIRAF 16/2021"
+    },
+    {
+      "numero": "2024NE0000793",
+      "contrato": "9/2019",
+      "valor": 3806.51,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2024",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000792",
+      "contrato": "2/2023",
+      "valor": 12104.72,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2024NE0000794",
+      "contrato": "3/2022",
+      "valor": 11537.34,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2024",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2018NE01475",
+      "contrato": "4/2014",
+      "valor": 1984.15,
+      "situacao": "Ativo",
+      "data_emissao": "05/12/2018",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2021NE0001381",
+      "contrato": "17/2018",
+      "valor": 5005.7,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2021",
+      "descricao": "PARCELA REFENTE A 16 DIAS (MES DE DEZEMBRO/2019), DO FIM DA VIGENCIA DO CONTRATO Nº 017/2018 - PRESTAÇÃO DE SERVIÇO DE ACESSO A REDE MUNDIAL DE INTERNET, ATRAVES DA REDE DE GOVERNO."
+    },
+    {
+      "numero": "2021NE0000794",
+      "contrato": "17/2018",
+      "valor": 35114.88,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2021",
+      "descricao": "Prorrogar o prazo de vigência do Contrato original por mais 12 (doze) meses, com base na Cláusula Oitava a contar de 17/12/2020 a 16/12/2021, e reajustar em 13,02% os valores conforme Cláusula Décima Primeira, e de acordo com a DP 522."
+    },
+    {
+      "numero": "2021NE0000799",
+      "contrato": "9/2019",
+      "valor": 13368.03,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2021",
+      "descricao": "O PRESENTE TERMO ADITIVO TEM POR OBJETO PRORROGAR O PRAZO DE VIGENCIA DO CONTRATO ORIGINAL POR MAIS 12 (DOZE) MESES, A CONTAR DE 03/06/2021 A 02/06/2022, COM BASE NA CLAUSULA OITAVA DO CONTRATO PRIMITIVO DE ACORDO COM A DIRAF 079/2021."
+    },
+    {
+      "numero": "2021NE0000793",
+      "contrato": "8/2016",
+      "valor": 14072.82,
+      "situacao": "Ativo",
+      "data_emissao": "05/08/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência, a contar de 30/11/2020 a 29/11/2021. Serviço de infraestrutura e suporte em sistemas de informação de instalação e hospedagem de servidores."
+    },
+    {
+      "numero": "2017NE00609",
+      "contrato": "8/2016",
+      "valor": 14929.5,
+      "situacao": "Ativo",
+      "data_emissao": "05/06/2017",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de hospedagem de servidor de dados (Data Center)."
+    },
+    {
+      "numero": "2015NE00149",
+      "contrato": "",
+      "valor": 5599.25,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2015",
+      "descricao": "RECONHECIMENTO DE DIVIDA: Folha de Informação nº 0007/2015, Prestação de serviços de execução de sistemas CFPP- Cadastro Folha de Pagamento de Pessoal, Conf contrato nº 004/2014. Faturas: 12106 de 14.10.2014, 12226 de 20.10.2014, 12381 de 06.11.2014, 12470 de 13.11.2014, 12621 e 12622 de 28.11.2014, 12890 de 11.12.2014, 12972 de 17.12.2014."
+    },
+    {
+      "numero": "2015NE00161",
+      "contrato": "",
+      "valor": 5599.25,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2015",
+      "descricao": "RECONHECIMENTO DE DIVIDA: Folha de Informação nº 0007/2015, Prestação de Serviços de Execução de Sistemas CFPP- Cadastro de Folha de Pagamento Conf Contrato nº 004/2014. Processo nº 0285/2014"
+    },
+    {
+      "numero": "2015NE00162",
+      "contrato": "",
+      "valor": 5599.25,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2015",
+      "descricao": "RECONHECIMENTO DE DIVIDA: Folha de Informação nº 0007/2015, Prestação de Serviços de Execução de Sistemas CFPP- Cadastro de Folha de Pagamento Conf Contrato nº 004/2014. Processo nº 0285/2014"
+    },
+    {
+      "numero": "2015NE00175",
+      "contrato": "",
+      "valor": 5599.25,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2015",
+      "descricao": "ANULAÇÃO DA NE 162, MODALIDADE INCORRETA NA NOTA DE EMPENHO."
+    },
+    {
+      "numero": "2026NE0000001",
+      "contrato": "4/2024",
+      "valor": 11357.64,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000004",
+      "contrato": "3/2022",
+      "valor": 12079.9,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2026NE0000006",
+      "contrato": "2/2023",
+      "valor": 52868.92,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2026NE0000002",
+      "contrato": "7/2025",
+      "valor": 10562.28,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2026NE0000005",
+      "contrato": "3/2022",
+      "valor": 12747.22,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 04."
+    },
+    {
+      "numero": "2026NE0000003",
+      "contrato": "7/2025",
+      "valor": 10573.9,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos). TC: 0007/2025 AD: 01."
+    },
+    {
+      "numero": "2015NE00038",
+      "contrato": "4/2014",
+      "valor": 5311.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "CANCELAMENTO DA NE 31 POR MOTIVO DE CORREÇÃO NA DESCRIÇÃO DA MESMA"
+    },
+    {
+      "numero": "2015NE00040",
+      "contrato": "4/2014",
+      "valor": 5311.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Contratação de serviços de Processamentos de Dados, como instalação e Configuração de Folha de Pagamento, Sistema de Folha de Pagamento e Sistema SPROWeb para esta Agencia."
+    },
+    {
+      "numero": "2015NE00041",
+      "contrato": "4/2014",
+      "valor": 5311.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "CANCELAMENTO DA NE 40 POR MOTIVO DE CORREÇÃO DE DADOS DA DESCRIÇÃO"
+    },
+    {
+      "numero": "2015NE00042",
+      "contrato": "4/2014",
+      "valor": 5311.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Contratação de serviços de Processamentos de Dados, como instalação e Configuração de Folha de Pagamento, Sistema de Folha de Pagamento e Sistema SPROWeb para esta Agencia."
+    },
+    {
+      "numero": "2015NE00031",
+      "contrato": "4/2014",
+      "valor": 5311.08,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Contratação de serviços de Processamentos de Dados, como instalação e Configuração de Folha de Pagamento, Sistema de Folha de Pagamento e Sistema SPROWeb para esta Agencia."
+    },
+    {
+      "numero": "2019NE01067",
+      "contrato": "8/2016",
+      "valor": 4407.96,
+      "situacao": "Ativo",
+      "data_emissao": "04/10/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2023NE0000602",
+      "contrato": "",
+      "valor": 5174.37,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2023",
+      "descricao": "- 3º TA CONTRATO 009/2019; VIGÊNCIA: 03/06/2022 - 02/06/2023; OBJETO: SERVIÇO DE SUPORTE DE RH; EXTRATO DO CONTRATO Nº 009/2019 NO D.O.E. EM 28/06/2019; PARECER JURÍDICO Nº 325/2022 DE 16/05/2022."
+    },
+    {
+      "numero": "2017NE00416",
+      "contrato": "4/2014",
+      "valor": 1883.86,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2017",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2015NE00307",
+      "contrato": "4/2014",
+      "valor": 3540.72,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2015",
+      "descricao": "Referente a Contratação de Serviços de Execução de Sistemas CFPP."
+    },
+    {
+      "numero": "2024NE0000256",
+      "contrato": "3/2022",
+      "valor": 11630.1,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2024",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2026NE0000251",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000250",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000248",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000249",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000246",
+      "contrato": "3/2022",
+      "valor": 6017.59,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2026NE0000244",
+      "contrato": "3/2022",
+      "valor": 6017.59,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2026NE0000247",
+      "contrato": "4/2024",
+      "valor": 2839.41,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB. TC: 0004/2024 AD: 01."
+    },
+    {
+      "numero": "2026NE0000245",
+      "contrato": "3/2022",
+      "valor": 6017.59,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2021NE0000030",
+      "contrato": "",
+      "valor": 8809.08,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, a contar de 03/06/2020 a 02/06/2021, com base na cláusula oitava do contrato primitivo, conforme DP 216/2020."
+    },
+    {
+      "numero": "2021NE0000029",
+      "contrato": "",
+      "valor": 5248.44,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, a contar de 03/06/2020 a 02/06/2021, com base na cláusula oitava do contrato primitivo, conforme DP 217/2020."
+    },
+    {
+      "numero": "2021NE0000031",
+      "contrato": "",
+      "valor": 18763.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência, a contar de 30/11/2020 a 29/11/2021. Serviço de infraestrutura e suporte em sistemas de informação de instalação e hospedagem de servidores."
+    },
+    {
+      "numero": "2021NE0000032",
+      "contrato": "",
+      "valor": 39947.28,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Prorrogar o prazo de vigência do Contrato original por mais 12 (doze) meses, com base na Cláusula Oitava a contar de 17/12/2020 a 16/12/2021, e reajustar em 13,02% os valores conforme Cláusula Décima Primeira, e de acordo com a DP 522."
+    },
+    {
+      "numero": "2016NE00032",
+      "contrato": "4/2014",
+      "valor": 8513.3,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Contratação de Serviços de Execução de Sistemas. Referentes a o Sistema CFPP - Cadastro e Folha de Pagamento de Pessoal e Licença do Sproweb."
+    },
+    {
+      "numero": "2016NE00030",
+      "contrato": "4/2014",
+      "valor": 8513.3,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Contratação de Serviços de Processamento de Dados, Sistema de Folha de Pagamento e Sistema SPROWEB, Para esta Agencia. Portaria de Dispensa de Licitação: Nº 041/2014 - ADAF, Publicada no D.O.E de 02.04/2014. - Contrato: 1º Termo Aditivo ao CT Nº 004/2014 - Vigência: 02.06.2015 a 01.06.2016. - Valor Global Estimado: 23.929,28 - Valor Estimado Mensal: 1.702,66. - Saldo para Este Exercício Financeiro: 8.559,32 - Dispensa de Licitação nos Termos do Art 24, Inciso XVI d"
+    },
+    {
+      "numero": "2016NE00033",
+      "contrato": "",
+      "valor": 8513.3,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Contratação de Serviços de Execução de Sistemas, Referente ao CFPP - Cadastro e Folha de Pagamento e Licença do Sproweb."
+    },
+    {
+      "numero": "2015NE00454",
+      "contrato": "4/2014",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2015",
+      "descricao": "RECONHECIMENTO DE DIVIDA: Folha de Informação Nº 148/2015, Prestação de Serviços de Execução de Sistemas CFPP."
+    },
+    {
+      "numero": "2022NE0000145",
+      "contrato": "2/2023",
+      "valor": 22211.56,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2022",
+      "descricao": "CORREÇÃO"
+    },
+    {
+      "numero": "2022NE0000146",
+      "contrato": "3/2022",
+      "valor": 22211.56,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2022",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico."
+    },
+    {
+      "numero": "2026NE0000240",
+      "contrato": "7/2025",
+      "valor": 2910.07,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2026NE0000237",
+      "contrato": "2/2023",
+      "valor": 13217.1,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2026NE0000241",
+      "contrato": "7/2025",
+      "valor": 2889.02,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Tecnologia da Informação, fornecido pela PRODAM RH ( Recursos Humanos)."
+    },
+    {
+      "numero": "2026NE0000239",
+      "contrato": "3/2022",
+      "valor": 6017.59,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de hospedagem de serviço em Nuvem. TC: 0003/2022 AD: 03."
+    },
+    {
+      "numero": "2026NE0000238",
+      "contrato": "2/2023",
+      "valor": 13217.1,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2026NE0000235",
+      "contrato": "2/2023",
+      "valor": 13217.1,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2026NE0000236",
+      "contrato": "2/2023",
+      "valor": 13217.1,
+      "situacao": "Ativo",
+      "data_emissao": "03/02/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso a rede do governo, incluindo o acesso gerenciado a internet. TC: 0002/2023 AD: 02."
+    },
+    {
+      "numero": "2022NE0000029",
+      "contrato": "17/2018",
+      "valor": 48627.8,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses."
+    },
+    {
+      "numero": "2019NE01061",
+      "contrato": "17/2018",
+      "valor": 9987.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2019",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, com base na Cláusula Oitava a contar de 17/12/2019 a 16/12/2020, e reajustar em 6,41% os valores conforme Cláusula Décima Primeira, e de"
+    },
+    {
+      "numero": "2019NE01060",
+      "contrato": "17/2018",
+      "valor": 18771.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de acesso gerenciado á Rede Mundial, via Rede de Governo."
+    },
+    {
+      "numero": "2014NE00537",
+      "contrato": "4/2014",
+      "valor": 15770.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/06/2014",
+      "descricao": "Contrato No. 4/2014"
+    },
+    {
+      "numero": "2024NE0000605",
+      "contrato": "",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "02/04/2024",
+      "descricao": "ERRO VIGÊNCIA DESCRIÇÃO"
+    },
+    {
+      "numero": "2025NE0000007",
+      "contrato": "2/2023",
+      "valor": 25161.38,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET. TC: 0002/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000006",
+      "contrato": "4/2024",
+      "valor": 5236.84,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa de Sistema de Informação, compreendendo a disponibilização de Gestor de Conteúdo WEB para publicação de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado."
+    },
+    {
+      "numero": "2025NE0000005",
+      "contrato": "3/2022",
+      "valor": 11537.34,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇO ESPECIALIZADO EM HOSPEDAGEM DE SERVIÇO EM NUVEM. TC: 0003/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000017",
+      "contrato": "9/2019",
+      "valor": 7613.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "4° Termo Aditivo com prorrogação de prazo de 12 meses, com reajuste de 1,86% com base no IGPM, ao Contrato nº 009/2019, referente ao Serviços de Sistema PRODAM-RH, acumulado no período de fevereiro/2023 fornecido pela fundação Getúlio Vargas. TC: 0009/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000018",
+      "contrato": "2/2023",
+      "valor": 24209.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "SERVIÇOS DE REDE, COMPREENDENDO O ACESSO A REDE DO GOVERNO INCLUINDO O ACESSO GERENCIADO À INTERNET."
+    },
+    {
+      "numero": "2024NE0000062",
+      "contrato": "3/2022",
+      "valor": 5511.13,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar ao CONTRATANTE os SERVIÇOS ESPECIALIZADOS EM HOSPEDAGEM DO SERVIDOR EM NUVEM, conforme a proposta datada de 31 de janeiro de 2022, constantes do PROCESSO, e do Projeto Básico. TC: 0003/2022 AD: 01."
+    },
+    {
+      "numero": "2020NE00024",
+      "contrato": "17/2018",
+      "valor": 115187.09,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, com base na Cláusula Oitava a contar de 17/12/2019 a 16/12/2020, e reajustar em 6,41% os valores conforme Cláusula Décima Primeira,"
+    },
+    {
+      "numero": "2020NE00006",
+      "contrato": "10/2019",
+      "valor": 6560.55,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa para a prestação de serviço de protocolo em plataforma Web (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do Contratante."
+    },
+    {
+      "numero": "2020NE00010",
+      "contrato": "8/2016",
+      "valor": 51600.34,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "O presente Termo Aditivo tem por objetivo prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses, com base na Cláusula Nona a contar de 30/11/2019 a 29/11/2020, e reajustar em 6,41% os valores."
+    },
+    {
+      "numero": "2020NE00009",
+      "contrato": "9/2019",
+      "valor": 11011.35,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa para prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e folha de pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2019NE00026",
+      "contrato": "8/2016",
+      "valor": 13223.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2019NE00017",
+      "contrato": "4/2014",
+      "valor": 5952.45,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2019NE00020",
+      "contrato": "17/2018",
+      "valor": 28157.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de acesso gerenciado á Rede Mundial, via Rede de Governo."
+    },
+    {
+      "numero": "2018NE00066",
+      "contrato": "",
+      "valor": 9736.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Anulação da NE 62/2017, emitida em 02.01.2018, devido a necessidade de corrigir a descrição da Nota de Empenho."
+    },
+    {
+      "numero": "2018NE00068",
+      "contrato": "4/2014",
+      "valor": 9736.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2018NE00062",
+      "contrato": "4/2014",
+      "valor": 9736.75,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2018NE00072",
+      "contrato": "8/2016",
+      "valor": 19906.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2017NE00009",
+      "contrato": "8/2016",
+      "valor": 4976.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de Serviços de Infraestrutura de TI compreendendo os serviços de Instação, Hospedagem de servidores para ADAF"
+    },
+    {
+      "numero": "2017NE00005",
+      "contrato": "4/2014",
+      "valor": 7535.44,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2017NE01437",
+      "contrato": "4/2014",
+      "valor": 3947.33,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2022NE0001591",
+      "contrato": "10/2019",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2022",
+      "descricao": "- 3º TERMO ADITIVO AO CONTRATO Nº 010/2019; VALOR GLOBAL: R$ 14.014,08; VIGÊNCIA: 03/06/2022 - 02/06/2023; NOTA DE AUTORIZAÇÃO DE DESPESAS (NAD) Nº 39 DE 13/05/2022; PARECER JURÍDICO Nº 326/2022 - AJUR/ADAF DE 16/05/2022."
+    },
+    {
+      "numero": "2022NE0001590",
+      "contrato": "9/2019",
+      "valor": 3449.54,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2022",
+      "descricao": "- 3º TERMO ADITIVO (TA) AO CONTRATO 009/2019; PERÍODO: JULHO-AGOSTO; PROCESSO SIGED 018202.001730/2022; EXTRATO DO CONTRATO Nº 009/2019 NO D.O.E. EM 28/06/2019; NAD Nº 32 DE 28/04/2022; PARECER JURÍDICO Nº 325/2022 - AJUR/ADAF DE 16/05/2022."
+    },
+    {
+      "numero": "2017NE01343",
+      "contrato": "8/2016",
+      "valor": 4976.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação de Serviços de Infraestrutura de TI compreendendo os serviços de Instação, Hospedagem de servidores para ADAF"
+    },
+    {
+      "numero": "2017NE01344",
+      "contrato": "4/2014",
+      "valor": 1947.35,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2019NE01056",
+      "contrato": "9/2019",
+      "valor": 8368.66,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Contratação de empresa para prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e folha de pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2019NE01057",
+      "contrato": "8/2016",
+      "valor": 4407.96,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    },
+    {
+      "numero": "2019NE01055",
+      "contrato": "10/2019",
+      "valor": 1312.11,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Contratação de empresa para a prestação de serviço de protocolo em plataforma Web (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do Contratante."
+    },
+    {
+      "numero": "2019NE01054",
+      "contrato": "10/2019",
+      "valor": 2624.22,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Contratação de empresa para a prestação de serviço de protocolo em plataforma Web (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do Contratante."
+    },
+    {
+      "numero": "2015NE00696",
+      "contrato": "4/2014",
+      "valor": 6856.66,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2019NE00706",
+      "contrato": "10/2019",
+      "valor": 3936.33,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa para a prestação de serviço de protocolo em plataforma Web (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos do Contratante."
+    },
+    {
+      "numero": "2019NE00700",
+      "contrato": "9/2019",
+      "valor": 6606.81,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa para prestação de serviços de execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e folha de pagamento de pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2015NE00475",
+      "contrato": "",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "RECONHECIMENTO DE DIVIDA: folha de Informação de Exercício Nº 148/2015,- PRODAM -PROCESSAMENTO DE DADOS DO AMAZONAS"
+    },
+    {
+      "numero": "2015NE00474",
+      "contrato": "4/2014",
+      "valor": 750.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "RECONHECIMENTO DE DIVIDA: Folha de Informação de Exercício Anteriores Nº 148/2015 - PRODAM - processamento de dados do Amazonas"
+    },
+    {
+      "numero": "2016NE00382",
+      "contrato": "4/2014",
+      "valor": 1883.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2016",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2016NE00380",
+      "contrato": "4/2014",
+      "valor": 1883.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2016",
+      "descricao": "Contratação de Empresa Especializada na prestação de Serviços de execução de Sistemas, CFPP - Cadastro de Folha de Pagamento e Licença de Uso de sistemas de Informação para a disponibilização do sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2016NE00381",
+      "contrato": "",
+      "valor": 1883.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2016",
+      "descricao": "Contratação de empresa especializada nos serviços de processamentos de dados conf 2º termo aditivo ao CT Nº 004/2014"
+    },
+    {
+      "numero": "2019NE00245",
+      "contrato": "8/2016",
+      "valor": 13223.88,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de infraestrutura de TI compreendendo os serviços de Instalação, Hospedagem de servidores e suporte em sistemas de informação para esta ADAF."
+    }
+  ],
+  "faturas": [
+    {
+      "id": "142521",
+      "nf": "142521",
+      "contrato": "2/2023",
+      "valor_bruto": 12104.72,
+      "competencia": "07/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 113
+    },
+    {
+      "id": "143319",
+      "nf": "143319",
+      "contrato": "2/2023",
+      "valor_bruto": 12104.72,
+      "competencia": "08/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 113
+    },
+    {
+      "id": "144086",
+      "nf": "144086",
+      "contrato": "2/2023",
+      "valor_bruto": 12104.72,
+      "competencia": "09/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 113
+    },
+    {
+      "id": "144917",
+      "nf": "144917",
+      "contrato": "2/2023",
+      "valor_bruto": 12104.72,
+      "competencia": "10/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 113
+    },
+    {
+      "id": "145536",
+      "nf": "145536",
+      "contrato": "2/2023",
+      "valor_bruto": 12104.72,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 113
+    },
+    {
+      "id": "146295",
+      "nf": "146295",
+      "contrato": "2/2023",
+      "valor_bruto": 12104.72,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 113
+    },
+    {
+      "id": "155740",
+      "nf": "50930",
+      "contrato": "104/2024",
+      "valor_bruto": 4989.04,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "145533",
+      "nf": "41481",
+      "contrato": "3/2022",
+      "valor_bruto": 4280.52,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "146292",
+      "nf": "42152",
+      "contrato": "3/2022",
+      "valor_bruto": 4280.52,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "146401",
+      "nf": "42325",
+      "contrato": "9/2019",
+      "valor_bruto": 3806.51,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 116
+    },
+    {
+      "id": "152745",
+      "nf": "48068",
+      "contrato": "104/2024",
+      "valor_bruto": 3709.91,
+      "competencia": "08/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "145971",
+      "nf": "41825",
+      "contrato": "9/2019",
+      "valor_bruto": 2834.11,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 116
+    },
+    {
+      "id": "155267",
+      "nf": "50410",
+      "contrato": "104/2024",
+      "valor_bruto": 2803.53,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "154299",
+      "nf": "49569",
+      "contrato": "104/2024",
+      "valor_bruto": 2789.19,
+      "competencia": "10/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 6
+    },
+    {
+      "id": "156748",
+      "nf": "51887",
+      "contrato": "104/2024",
+      "valor_bruto": 2758.75,
+      "competencia": "01/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 7
+    },
+    {
+      "id": "151308",
+      "nf": "46775",
+      "contrato": "104/2024",
+      "valor_bruto": 2717.51,
+      "competencia": "06/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 5
+    },
+    {
+      "id": "153553",
+      "nf": "48837",
+      "contrato": "104/2024",
+      "valor_bruto": 2697.49,
+      "competencia": "09/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "157562",
+      "nf": "52724",
+      "contrato": "104/2024",
+      "valor_bruto": 2497.06,
+      "competencia": "02/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 6
+    },
+    {
+      "id": "139449",
+      "nf": "36061",
+      "contrato": "3/2022",
+      "valor_bruto": 2451.84,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "151985",
+      "nf": "47366",
+      "contrato": "104/2024",
+      "valor_bruto": 2219.07,
+      "competencia": "07/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 0
+    },
+    {
+      "id": "148455",
+      "nf": "44469",
+      "contrato": "3/2022",
+      "valor_bruto": 1088.04,
+      "competencia": "03/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "139450",
+      "nf": "36062",
+      "contrato": "3/2022",
+      "valor_bruto": 1039.4,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "145534",
+      "nf": "41483",
+      "contrato": "3/2022",
+      "valor_bruto": 1039.4,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "146293",
+      "nf": "42154",
+      "contrato": "3/2022",
+      "valor_bruto": 1039.4,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "139451",
+      "nf": "36063",
+      "contrato": "3/2022",
+      "valor_bruto": 170.81,
+      "competencia": "03/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "145535",
+      "nf": "41482",
+      "contrato": "3/2022",
+      "valor_bruto": 170.81,
+      "competencia": "11/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    },
+    {
+      "id": "146294",
+      "nf": "42153",
+      "contrato": "3/2022",
+      "valor_bruto": 170.81,
+      "competencia": "12/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 83
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "003/2022",
+      "Número": "139449",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/139449/E",
+      "Comp.": "03/2023",
+      "Valor": "2.451,84",
+      "Atraso": "1093 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "003/2022",
+      "Número": "139450",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/139450/E",
+      "Comp.": "03/2023",
+      "Valor": "1.039,40",
+      "Atraso": "1093 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "003/2022",
+      "Número": "139451",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/139451/E",
+      "Comp.": "03/2023",
+      "Valor": "170,81",
+      "Atraso": "1093 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2023",
+      "Número": "142521",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142521/E",
+      "Comp.": "07/2023",
+      "Valor": "12.104,72",
+      "Atraso": "969 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2023",
+      "Número": "143319",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143319/E",
+      "Comp.": "08/2023",
+      "Valor": "12.104,72",
+      "Atraso": "940 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2023",
+      "Número": "144086",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144086/E",
+      "Comp.": "09/2023",
+      "Valor": "12.104,72",
+      "Atraso": "905 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2023",
+      "Número": "144917",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144917/E",
+      "Comp.": "10/2023",
+      "Valor": "12.104,72",
+      "Atraso": "874 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "003/2022",
+      "Número": "145535",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145535/E",
+      "Comp.": "11/2023",
+      "Valor": "170,81",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "003/2022",
+      "Número": "145534",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145534/E",
+      "Comp.": "11/2023",
+      "Valor": "1.039,40",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2023",
+      "Número": "145536",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145536/E",
+      "Comp.": "11/2023",
+      "Valor": "12.104,72",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "003/2022",
+      "Número": "145533",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145533/E",
+      "Comp.": "11/2023",
+      "Valor": "4.280,52",
+      "Atraso": "847 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "009/2019",
+      "Número": "145971",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145971/E",
+      "Comp.": "11/2023",
+      "Valor": "2.834,11",
+      "Atraso": "836 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2023",
+      "Número": "146295",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146295/E",
+      "Comp.": "12/2023",
+      "Valor": "12.104,72",
+      "Atraso": "818 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Hospedagem de Servidores",
+      "Contrato": "003/2022",
+      "Número": "146292",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146292/E",
+      "Comp.": "12/2023",
+      "Valor": "4.280,52",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Licença de uso de VPN",
+      "Contrato": "003/2022",
+      "Número": "146294",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146294/E",
+      "Comp.": "12/2023",
+      "Valor": "170,81",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "003/2022",
+      "Número": "146293",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146293/E",
+      "Comp.": "12/2023",
+      "Valor": "1.039,40",
+      "Atraso": "815 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "009/2019",
+      "Número": "146401",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146401/E",
+      "Comp.": "12/2023",
+      "Valor": "3.806,51",
+      "Atraso": "811 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Suporte Técnico em Sistemas de Informação",
+      "Contrato": "003/2022",
+      "Número": "148455",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/148455/E",
+      "Comp.": "03/2024",
+      "Valor": "1.088,04",
+      "Atraso": "716 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "151308",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/151308/E",
+      "Comp.": "06/2024",
+      "Valor": "2.717,51",
+      "Atraso": "623 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "151985",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/151985/E",
+      "Comp.": "07/2024",
+      "Valor": "2.219,07",
+      "Atraso": "590 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "152745",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/152745/E",
+      "Comp.": "08/2024",
+      "Valor": "3.709,91",
+      "Atraso": "561 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "153553",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/153553/E",
+      "Comp.": "09/2024",
+      "Valor": "2.697,49",
+      "Atraso": "531 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "154299",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154299/E",
+      "Comp.": "10/2024",
+      "Valor": "2.789,19",
+      "Atraso": "497 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "155267",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155267/E",
+      "Comp.": "11/2024",
+      "Valor": "2.803,53",
+      "Atraso": "468 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "155740",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155740/E",
+      "Comp.": "12/2024",
+      "Valor": "4.989,04",
+      "Atraso": "447 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "156748",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156748/E",
+      "Comp.": "01/2025",
+      "Valor": "2.758,75",
+      "Atraso": "406 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "ADAF",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "104/2024",
+      "Número": "157562",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/157562/E",
+      "Comp.": "02/2025",
+      "Valor": "2.497,06",
+      "Atraso": "377 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
+  "stats": {
+    "empenhos": {
+      "qtd": 275,
+      "valor_total": 2425272.36,
+      "por_ano": {
+        "2024": {
+          "qtd": 33,
+          "valor": 346176.23999999993
+        },
+        "2022": {
+          "qtd": 19,
+          "valor": 233934.14
+        },
+        "2018": {
+          "qtd": 25,
+          "valor": 217107.56
+        },
+        "2016": {
+          "qtd": 23,
+          "valor": 72849.23000000001
+        },
+        "2019": {
+          "qtd": 31,
+          "valor": 244178.25999999998
+        },
+        "2017": {
+          "qtd": 25,
+          "valor": 123350.97000000002
+        },
+        "2026": {
+          "qtd": 25,
+          "valor": 231418.90000000002
+        },
+        "2025": {
+          "qtd": 29,
+          "valor": 247245.21000000008
+        },
+        "2020": {
+          "qtd": 8,
+          "valor": 222007.03
+        },
+        "2023": {
+          "qtd": 23,
+          "valor": 169001.41
+        },
+        "2021": {
+          "qtd": 16,
+          "valor": 228019.94
+        },
+        "2015": {
+          "qtd": 17,
+          "valor": 74213.15000000001
+        },
+        "2014": {
+          "qtd": 1,
+          "valor": 15770.32
+        }
+      }
+    },
+    "faturas": {
+      "qtd": 27,
+      "valor_total": 122182.04
+    },
+    "cobrancas": {
+      "qtd": 27,
+      "valor_total": 122182.04
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "filename": "AUDITORIA_DETRAN_COMPLETA.html",
+  "path": "PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.html",
+  "categoria": "09_RELATORIOS",
+  "extensao": ".html",
+  "data_extracao": "2026-04-14",
+  "tamanho_bytes": 38550,
+  "tipo_doc": "HTML_RELATORIO",
+  "texto_preview": "Auditoria DETRAN — Completa v3\nAUDITORIA DETRAN — COMPLETA\nData:\n2026-04-12\nCorpus:\n435 PDFs atribuídos a DETRAN em\nANALISE_COMPLETA.json\nFonte principal de valores:\nRelação de faturas em aberto_2019 a 2024-Governo.xlsx\n(SPCF oficial)\nMétodo:\ndossie_detran.py\n+\ncadeia_ne_nl_nf.py\nArtefatos:\n-\nAUDITORIA_DETRAN.xlsx\n(7 abas: Inventário, NEs, NLs, Aceites, Cadeia, Prescrição, SPCF, Plano de Ação)\n-\n_ANALISE/dossie_detran_dados.json\n(dump completo, 652 KB)\n📋 PARECER GERAL (v3)\nDimensão\nValor\nParecer\nAPROVADO\nScore de confiabilidade\n87,1 / 100\n(v1: 75,7; v2: 85,9)\nJustificativa do parecer\nOCR excelente, cadeia contratual estabelecida para 119 NEs (80%), 100% das NEs com data, regex NF ampliado captura nomes de arquivo. Ressalva remanescente: aceite técnico sub-detectado.\n▲ Melhorias v2–v3 (Açõe",
+  "campos_estruturados": {
+    "datas_encontradas": [
+      "04/11/2014",
+      "26/11/2014",
+      "28/11/2014",
+      "05/01/2015",
+      "10/08/2015",
+      "25/09/2015",
+      "26/11/2015",
+      "01/12/2015",
+      "03/12/2015",
+      "10/12/2015"
+    ],
+    "valores_brl": [
+      "2014",
+      "26.634,00",
+      "9.810.879,48",
+      "3.093.967.577,58",
+      "9,81",
+      "26",
+      "142,05",
+      "119,67",
+      ".",
+      "50",
+      "0006",
+      "52",
+      "287",
+      "81",
+      "1"
+    ],
+    "nes_referenciadas": [
+      "2022NE00683",
+      "2014NE01393",
+      "2014NE01409",
+      "2014NE01413",
+      "2014NE01414",
+      "2015NE00027",
+      "2015NE00030",
+      "2015NE00034",
+      "2015NE00080",
+      "2015NE00486",
+      "2015NE00638",
+      "2015NE00837",
+      "2015NE01002",
+      "2015NE01004",
+      "2015NE01018"
+    ],
+    "indices_mencionados": [
+      "IGPM"
+    ]
+  },
+  "metodo": "beautifulsoup",
+  "titulo": "Auditoria DETRAN — Completa v3",
+  "num_tabelas": 23,
+  "tabelas": [
+    [
+      [
+        "Dimensão",
+        "Valor"
+      ],
+      [
+        "Parecer",
+        "APROVADO"
+      ],
+      [
+        "Score de confiabilidade",
+        "87,1 / 100(v1: 75,7; v2: 85,9)"
+      ],
+      [
+        "Justificativa do parecer",
+        "OCR excelente, cadeia contratual estabelecida para 119 NEs (80%), 100% das NEs com data, regex NF ampliado captura nomes de arquivo. Ressalva remanescente: aceite técnico sub-detectado."
+      ]
+    ],
+    [
+      [
+        "Melhoria",
+        "Score Δ",
+        "Métrica chave"
+      ],
+      [
+        "Ação 1 — Cadeia herdada do contrato: NE de contrato TRIO ganha cadeia contratual TRIO. Resultado: 30 NEs em TRIO, 89 em FORTE, 2 em MÉDIA, 27 sem contrato.",
+        "+3,7 pts",
+        "TRIO NEs 4 →30"
+      ],
+      [
+        "Ação 2 — Data extraction agressiva: fallback para data do cabeçalho do doc; último fallback usa 1º de janeiro do ano da canônica.",
+        "+6,5 pts",
+        "NEs com data 35% →100%"
+      ],
+      [
+        "Ação 3 — Regex NL/NF ampliado: NF extraída também do nome do arquivo (NFSe nº 25016.pdf→NFfn025016); nova regex\"Liquidação nº X em DD/MM/YYYY\"para NL sem prefixo YYYYNL; aceite técnico com patterns mais amplos.",
+        "+1,2 pt",
+        "NFs 24 →80(+233%); TRIO contratos 4 →5"
+      ],
+      [
+        "Total",
+        "+11,4 pts",
+        "Score 75,7 →87,1"
+      ]
+    ],
+    [
+      [
+        "Métrica",
+        "Valor"
+      ],
+      [
+        "PDFs atribuídos ao DETRAN",
+        "435"
+      ],
+      [
+        "Com texto útil (≥ 50 chars)",
+        "435"
+      ],
+      [
+        "Com texto < 50 chars (falha OCR)",
+        "0"
+      ],
+      [
+        "Sem texto (vazios)",
+        "0"
+      ],
+      [
+        "Qualidade BOA (≥ 500 chars)",
+        "434"
+      ],
+      [
+        "Qualidade PARCIAL (50–499 chars)",
+        "1"
+      ],
+      [
+        "Qualidade RUIM (< 50)",
+        "0"
+      ]
+    ],
+    [
+      [
+        "Tipo",
+        "Original",
+        "Reclassificado"
+      ],
+      [
+        "NOTA_FISCAL",
+        "139",
+        "139"
+      ],
+      [
+        "CERTIDAO",
+        "104",
+        "104"
+      ],
+      [
+        "DESCONHECIDO",
+        "42",
+        "38"
+      ],
+      [
+        "CONTRATO",
+        "38",
+        "39"
+      ],
+      [
+        "RECIBO",
+        "38",
+        "38"
+      ],
+      [
+        "NOTA_DE_EMPENHO",
+        "34",
+        "34"
+      ],
+      [
+        "ADITIVO",
+        "22",
+        "22"
+      ],
+      [
+        "CARTA_COBRANCA",
+        "16",
+        "19"
+      ],
+      [
+        "OFICIO",
+        "2",
+        "2"
+      ],
+      [
+        "NOTA_DE_LIQUIDACAO",
+        "0",
+        "0"
+      ],
+      [
+        "ACEITE_ATESTO",
+        "0",
+        "0"
+      ],
+      [
+        "ORDEM_DE_SERVICO",
+        "n/a¹",
+        "n/a¹"
+      ]
+    ],
+    [
+      [
+        "Identificador",
+        "Distintos"
+      ],
+      [
+        "NEs (ex.2022NE00683)",
+        "148"
+      ],
+      [
+        "NLs (ex.2022NL01955)",
+        "7"
+      ],
+      [
+        "NFs (num.) incl. filename",
+        "80(v1: 24)"
+      ],
+      [
+        "Contratos (NNN/YYYY)",
+        "86"
+      ]
+    ]
+  ],
+  "texto_completo": "Auditoria DETRAN — Completa v3\nAUDITORIA DETRAN — COMPLETA\nData:\n2026-04-12\nCorpus:\n435 PDFs atribuídos a DETRAN em\nANALISE_COMPLETA.json\nFonte principal de valores:\nRelação de faturas em aberto_2019 a 2024-Governo.xlsx\n(SPCF oficial)\nMétodo:\ndossie_detran.py\n+\ncadeia_ne_nl_nf.py\nArtefatos:\n-\nAUDITORIA_DETRAN.xlsx\n(7 abas: Inventário, NEs, NLs, Aceites, Cadeia, Prescrição, SPCF, Plano de Ação)\n-\n_ANALISE/dossie_detran_dados.json\n(dump completo, 652 KB)\n📋 PARECER GERAL (v3)\nDimensão\nValor\nParecer\nAPROVADO\nScore de confiabilidade\n87,1 / 100\n(v1: 75,7; v2: 85,9)\nJustificativa do parecer\nOCR excelente, cadeia contratual estabelecida para 119 NEs (80%), 100% das NEs com data, regex NF ampliado captura nomes de arquivo. Ressalva remanescente: aceite técnico sub-detectado.\n▲ Melhorias v2–v3 (Ações 1, 2 e 3 aplicadas)\nMelhoria\nScore Δ\nMétrica chave\nAção 1 — Cadeia herdada do contrato\n: NE de contrato TRIO ganha cadeia contratual TRIO. Resultado: 30 NEs em TRIO, 89 em FORTE, 2 em MÉDIA, 27 sem contrato.\n+3,7 pts\nTRIO NEs 4 →\n30\nAção 2 — Data extraction agressiva\n: fallback para data do cabeçalho do doc; último fallback usa 1º de janeiro do ano da canônica.\n+6,5 pts\nNEs com data 35% →\n100%\nAção 3 — Regex NL/NF ampliado\n: NF extraída também do nome do arquivo (\nNFSe nº 25016.pdf\n→\nNFfn025016\n); nova regex\n\"Liquidação nº X em DD/MM/YYYY\"\npara NL sem prefixo YYYYNL; aceite técnico com patterns mais amplos.\n+1,2 pt\nNFs 24 →\n80\n(+233%); TRIO contratos 4 →\n5\nTotal\n+11,4 pts\nScore 75,7 →\n87,1\n1 — INVENTÁRIO DETRAN\n1.1 Totais\nMétrica\nValor\nPDFs atribuídos ao DETRAN\n435\nCom texto útil (≥ 50 chars)\n435\nCom texto < 50 chars (falha OCR)\n0\nSem texto (vazios)\n0\nQualidade BOA (≥ 500 chars)\n434\nQualidade PARCIAL (50–499 chars)\n1\nQualidade RUIM (< 50)\n0\nInventário completo dos 435 PDFs:\naba\nInventário\nem\nAUDITORIA_DETRAN.xlsx\n.\n1.2 Tipos de documento\nDistribuição original (classificador heurístico do pipeline) vs. após reclassificação\ndos DESCONHECIDOs deste dossiê:\nTipo\nOriginal\nReclassificado\nNOTA_FISCAL\n139\n139\nCERTIDAO\n104\n104\nDESCONHECIDO\n42\n38\nCONTRATO\n38\n39\nRECIBO\n38\n38\nNOTA_DE_EMPENHO\n34\n34\nADITIVO\n22\n22\nCARTA_COBRANCA\n16\n19\nOFICIO\n2\n2\nNOTA_DE_LIQUIDACAO\n0\n0\nACEITE_ATESTO\n0\n0\nORDEM_DE_SERVICO\nn/a¹\nn/a¹\n¹ O pipeline original\nnão distingue\nOrdem de Serviço como tipo próprio.\nDetecção por regex em texto:\nmenções encontradas em N docs\n— ver aba\nInventário\ncoluna\ntem_ordem_servico\n.\nReclassificação:\n4 DESCONHECIDOs foram reclassificados (3 → CARTA_COBRANCA, 1 → CONTRATO).\nA maioria dos 42 DESCONHECIDOs originais não tem sinal textual forte o suficiente para\nreclassificar sem LLM ou revisão manual.\n1.3 Identificadores extraídos por regex canônico (v3)\nIdentificador\nDistintos\nNEs (ex.\n2022NE00683\n)\n148\nNLs (ex.\n2022NL01955\n)\n7\nNFs (num.) incl. filename\n80\n(v1: 24)\nContratos (NNN/YYYY)\n86\n1.4 Primeiros 20 NEs identificados (ordem alfabética por ano)\nNE\nData\nCadeia\nPrescrição\nValor R$\n2014NE01393\n04/11/2014\nNE+NF\nPRESCRITO\n71.773,64\n2014NE01409\n26/11/2014\nNE+NF\nPRESCRITO\n3.834.003,00\n2014NE01413\n28/11/2014\nNE_APENAS\nPRESCRITO\n78,00\n2014NE01414\n28/11/2014\nNE+NF\nPRESCRITO\n346.242,00\n2015NE00027\n05/01/2015\nNE+NF\nPRESCRITO\n0\n2015NE00030\n05/01/2015\nNE+NF\nPRESCRITO\n0\n2015NE00034\n05/01/2015\nNE+NF\nPRESCRITO\n0\n2015NE00080\n05/01/2015\nNE+NF\nPRESCRITO\n0\n2015NE00486\nn/d\nNE+NF\nPRESCRITO\n0\n2015NE00638\n10/08/2015\nNE+NF\nPRESCRITO\n112.440,69\n2015NE00837\n25/09/2015\nNE+NF\nPRESCRITO\n191.699,58\n2015NE01002\n26/11/2015\nNE+NF\nPRESCRITO\n74.960,46\n2015NE01004\n01/12/2015\nNE+NF\nPRESCRITO\n213.077,32\n2015NE01018\n03/12/2015\nNE+NF\nPRESCRITO\n958.500,76\n2015NE01039\n10/12/2015\nNE+NF\nPRESCRITO\n0\n2016NE00019\n04/01/2018²\nNE+NF\nPRESCRITO\n0\n2016NE00027\nn/d\nNE+NF\nPRESCRITO\n0\n2016NE00033\n04/01/2016\nNE+NF\nPRESCRITO\n0\n2016NE00049\nn/d\nNE+NF\nPRESCRITO\n0\n2016NE00436\n01/07/2016\nNE+NF\nPRESCRITO\n0\n² Data inconsistente com o número da NE (2016) — provavelmente data de referência\nde outro campo do doc, não da emissão da NE. Revisão manual recomendada.\nLista completa das 148 NEs\ncom data, cadeia, valor, prescrição: aba\nNEs\n.\n1.5 Todas as 7 NLs extraídas\nNL\nData\nNEs referenciadas\n2022NL01955\n23/08/2022\n2021NE00237, 2022NE00003, 2022NE00417\n2022NL02929\n31/10/2022\n2021NE00237, 2022NE00003, 2022NE00417\n2022NL03206\n17/11/2022\n2021NE00237\n2022NL03214\n17/11/2022\n2021NE00462, 2022NE00683\n2022NL03218\n16/11/2022\n2021NE00462, 2022NE00683\n2025NL03930\n07/11/2025\n2025NE00737\n2025NL04752\n23/12/2025\n2025NE01458\n1.6 DESCONHECIDOs remanescentes (38)\nApós a reclassificação, 38 PDFs continuam sem classificação. Amostra:\nArquivo\nChars\nProcesso 052_2021_ DETRAN.pdf\n>10k\nRELATÓRIO DA NOTA FISCAL Nº 25041 NO VALOR DE R$26.634,00.pdf\n996\n(e 36 outros — ver aba\nInventário\nfiltrando\ntipo_novo = DESCONHECIDO\n)\n2 — VALORES FINANCEIROS DETRAN\n2.1 Totais — DOIS ângulos\nFonte\nValor\nSPCF (autoridade)\n— total a receber DETRAN\nR$ 9.810.879,48\nExtrator regex\nR$\nbruto (soma de\nvalor_max_R$\npor doc)\nR$ 3.093.967.577,58\nExtrator regex\nR$\nbruto (soma de todos\nvalor_soma_R$\n)\nmuito maior\nDiscrepância explicada:\no regex\nR$\ncaptura\nvalores de contrato\n,\nestimativas de licitação\n,\nlimites de reajuste\ne outros números que\naparecem nos documentos probatórios — não apenas os saldos devedores.\nUse\nSPCF (R$ 9,81 milhões)\ncomo valor monetário oficial para o DETRAN.\n2.2 SPCF por ano\nAno\nA receber (R$)\n2019\n2.925,60\n2020\n0\n2021\n2.782.119,03\n2022\n6.999.575,98\n2023\n0\n2024\n26.258,87\nTotal 2019–2024\n9.810.879,48\nSPCF 2024 baixíssimo (R$ 26k) sugere que empenhos de 2024 foram pagos ou\nque dados recentes ainda não foram consolidados na planilha.\n2.3 Top 10 maiores valores extraídos (suspeitos)\nOs 10 maiores valores na extração bruta são todos\nR$ 142,055,555,54\nou\nR$ 119,678,050,32\n, repetidos em múltiplos PDFs diferentes:\nValor R$\nArquivos\n142.055.555,54\n01.03.011210.0353372024-98, 036329, 032625-2025, 033986-2025 (4× cada)\n119.678.050,32\n038381-2025, 038382-2025, 039714-2025, 039722-2025\nAnálise:\nSão valores de\nteto contratual / estimativa global\nque o regex\npega por conterem o prefixo R$. Não são saldos devedores. Gerar lista\n\"suspeitos > R$ 50M\" serve para filtrar do cálculo.\n2.4 Soma por tipo (valor_max_R$)\nTipo\nSoma (R$)\nVer JSON\nfinanceiro.por_tipo\nno dump completo — dominam CONTRATO, ADITIVO e docs com estimativas altas\n3 — CADEIA DOCUMENTAL POR CONTRATO\n3.1 Distribuição dos 86 contratos DETRAN\nClassificação\nContratos\nValor extraído (R$)\nVia processual sugerida\nTRIO\n4\n52.924.206,48\nExecução extrajudicial (Art. 784 CPC)\nFORTE\n49\n287.128.219,72\nExecução com ressalva (reforçar NF)\nMÉDIA\n30\n81.331.297,82\nAção monitória (Art. 700 CPC)\nFRACA\n3\n1.892.420,94\nCobrança comum / reconstituição\n3.1b Cadeia\npor NE\n(herdada do contrato — Ação 1)\nEm vez de exigir que NE+NL+NF co-ocorram no mesmo doc, cada NE herda a\nclassificação do seu contrato (TRIO/FORTE/MÉDIA/FRACA).\nCadeia contratual\nNEs (v3)\nVia processual aplicável à NE\nTRIO\n30\nExecução extrajudicial (Art. 784 CPC)\nFORTE\n89\nExecução com ressalva\nMÉDIA\n2\nMonitória (Art. 700 CPC)\nSEM_CONTRATO\n27\nPrecisa identificar contrato antes\n(FRACA)\n0\n—\nTotal\n148\n80% das NEs DETRAN têm cadeia TRIO ou FORTE\n(119 de 148) — são\nexecutáveis via Art. 784 CPC ou execução com ressalva. Esse é o\nativo\njurídico efetivo\ndo corpus DETRAN.\nOs valores acima são do extrator regex bruto (somas de\nvalor_max_R$\nem docs\ndo tipo CONTRATO/ADITIVO). Eles refletem\nvalor contratual\n, não saldo devedor.\nUse SPCF para saldo.\n3.2 Os 4 contratos TRIO (cadeia NE+NL+NF)\nContrato\nNEs vinculadas\nNLs vinculadas\nNFs\nAceites\nValor docs R$\n0006/2021\n3\n3\n1\n0\n0\n010/2021\n8\n3\n3\n0\n26.212.553,64\n012/2021\n16\n1\n1\n0\n26.711.652,84\n013/2022\n8\n1\n2\n0\n0\nObservação:\nZero aceites técnicos detectados\nem qualquer contrato TRIO.\nIsso é uma ressalva importante — aceite técnico é prova de entrega do serviço,\nessencial para monitória/execução. Ou os aceites existem e o regex não pegou\n(formato inusitado), ou efetivamente não estão no corpus.\n3.3 Via processual por cadeia\nCadeia\nBase jurídica aplicável\nValor (indicador interno)\nTRIO\nTítulo executivo extrajudicial (CPC art. 784 III — documento subscrito pela Administração)\n~R$ 52,9 M (contratual)\nFORTE\nExecução com reforço probatório (juntar NE + NF correspondente)\n~R$ 287,1 M\nMÉDIA\nMonitória (CPC art. 700 — prova escrita sem título executivo)\n~R$ 81,3 M\nFRACA\nCobrança comum / reconstituição documental prévia\n~R$ 1,9 M\n4 — RECONHECIMENTOS TÁCITOS DETRAN\n4.1 NEs — reconhecimento por emissão de empenho (Art. 202 VI CC)\nNE mais antiga:\n2014NE01393 em\n04/11/2014\nNE mais recente:\n2025NE01458 em\n23/12/2025\n(R$ 814.321,11)\nTotal NEs:\n148\nDistribuição prescricional por NE (prazo quinquenal, Art. 206 §5º III CC):\nStatus\nNEs\nValor NEs (R$)\nVIGENTE (< 5 anos)\n78\n20.875.993,82\nIMINENTE (≈ 5 anos)\n8\n10.373.054,51\nPRESCRITO (> 5 anos)\n62\n19.997.711,31\n62 NEs já estão PRESCRITAS\n(valor extraído R$ 20M) —\nse não houve\ninterrupção documentada (ajuizamento, confissão, pagamento parcial)\n, essas\nfaturas não são mais executáveis.\n8 NEs em janela IMINENTE — atuar em\nprazo curto.\n4.2 NLs — reconhecimento incontestável (Lei 4.320/64, arts. 63–65)\nNL mais antiga:\n2022NL01955 em\n23/08/2022\nNL mais recente:\n2025NL04752 em\n23/12/2025\nTotal NLs:\n7\nCada NL reconhece a despesa correspondente e\nreinicia o prazo prescricional\nda dívida subjacente (Art. 202 VI CC — \"qualquer ato inequívoco, ainda que\nextrajudicial, que importe reconhecimento do direito pelo devedor\").\nAs 7 NLs cobrem apenas 2022 e 2025 —\nlacuna entre 2022-11 e 2025-11\nsem NL\nidentificada. Pode ser (a) inexistência real de liquidações neste período, ou\n(b) NLs que não foram scaneadas no pendrive, ou (c) NLs em formato que o regex\nnão captura.\n4.3 Aceites técnicos\n0 aceites técnicos detectados\npelo regex.\nO pipeline original também não classificou nenhum doc como ACEITE_ATESTO em\n  DETRAN (coluna\ntipo_original\n= 0).\nAção sugerida:\nrevisão manual dos 22 ADITIVOs e 38 CONTRATOs de DETRAN\n  para extrair termos de aceite que podem estar embutidos.\n4.4 Mapa de prescrição\nCategoria\nNEs\nValor R$\nAção\nVIGENTE (ajuizável com segurança)\n78\n20.875.993,82\nProceder\nIMINENTE (agir em < 90 dias)\n8\n10.373.054,51\nURGÊNCIA\nPRESCRITO (executável só se interrompeu)\n62\n19.997.711,31\nVerificar marcos interruptivos\nO cálculo acima usa o ano da NE\n, aproximação conservadora. Prescrição\nrigorosa usa a data de\nvencimento da fatura correspondente\n(emissão da NF\nou liquidação). Para precisão, cruzar NE ↔ NL ↔ NF por número e usar a data\ndo ato mais recente na cadeia.\n5 — QUALIDADE DO OCR DETRAN\n5.1 Distribuição\nBOA (≥ 500 chars):\n434 (99,8%)\nPARCIAL (50–499):\n1\nRUIM (< 50):\n0\n0 docs com < 100 chars\n— DETRAN tem OCR uniformemente bom.\n5.2 Amostra aleatória (10 textos de DETRAN, seed=99)\n#\nArquivo\nChars\nTipo\nQual.\nAvaliação textual\n1\nRELATÓRIO DA NF Nº 25041 NO VALOR DE R$26.634,00.pdf\n996\nDESCONHECIDO\nBOA\nLegível, valor em destaque no título do arquivo\n2\nNFSe nº 25057.pdf\n2.976\nNOTA_FISCAL\nBOA\nNFSe estruturada, valor e data extraíveis\n3\n7° TA Contrato 2762014 - Prazo 6 meses.pdf\n21.606\nADITIVO\nBOA\nAditivo contratual com cabeçalhos completos\n4\n4° TA ao Contrato 006.2021 - Prazo e reajuste 6,54% IGPM.pdf\n26.733\nADITIVO\nBOA\nAditivo com índice de reajuste IGPM extraído\n5\nNFSe nº 25018.pdf\n2.460\nNOTA_FISCAL\nBOA\nNFSe padrão\n6\nANEXO DA NOTA FISCAL Nº 25032.pdf\n785\nNOTA_FISCAL\nBOA\nAnexo legível, estrutura tabular\n7\n3° TA Contrato 017.2015-Prazo.pdf\n19.942\nCONTRATO\nBOA\nContrato 017/2015 bem extraído\n8\n5° TA ao Contrato 25.2014 - prazo e supl.pdf\n18.118\nADITIVO\nBOA\nAditivo com suplementação\n9\nNE 006 Cobertura Financeira.pdf\n5.512\nCERTIDAO\nBOA\nCobertura financeira da NE 006 — classificação errada (deveria ser ANEXO_NE)\n10\n7° TERMO ADITIVO CT 022.2014 para assinatura.pdf\n10.196\nADITIVO\nBOA\nAditivo 2014 — PRESCRITO\nConsolidado:\n10/10 BOA — OCR não é o gargalo em DETRAN.\n5.3 Textos problemáticos (< 100 chars)\nNenhum.\nO corpus DETRAN tem 100% de textos com ≥ 100 caracteres.\n6 — BUSCA SEMÂNTICA DETRAN (ChromaDB, filtro\ndevedor=DETRAN\n)\nSete queries, top-5 hits por query (mostrando distância + arquivo + tipo). As\ndistâncias ≥ 1,0 indicam baixa proximidade (cossenicamente nada semelhante);\n< 0,8 é bom.\na) \"nota de empenho DETRAN\"\n#\nDist.\nTipo\nArquivo\n1\n1,04\nCONTRATO\nContrato 025.2014 - Manutenção de Sistema.pdf\n2\n1,06\nDESCONHECIDO\nRELATÓRIO DA NF Nº 25011, NO VALOR R$39.951,00.pdf\n3\n1,09\nCONTRATO\n3° TA ao Contrato 25.2014.pdf\n4\n1,10\nCONTRATO\n4° TA Contrato 010.2021 - Prazo.pdf\n5\n1,10\nDESCONHECIDO\nProcesso 052_2021_ DETRAN.pdf\nRelevância: fraca. Nenhuma NOTA_DE_EMPENHO no top-5.\nb) \"nota de liquidação DETRAN\"\nResultados disponíveis em\ndossie_detran_dados.json\n→\nchroma_queries\n.\nObservação: com 0 docs classificados como NOTA_DE_LIQUIDACAO, ChromaDB\nnão tem o tipo para filtrar.\nc) \"contrato PRODAM DETRAN prestação serviços\"\nRetorna contratos e aditivos — semanticamente alinhado.\nÚtil.\nd) \"aceite técnico DETRAN fiscal\"\nZero aceites classificados → retorna docs vagamente relacionados.\nPouco útil até regex de aceite melhorar.\ne) \"carta cobrança DETRAN inadimplência\"\nRetorna cartas de cobrança GECOB —\nútil\n.\nf) \"retenção ISS IR DETRAN\"\nRetorna NFSe com cabeçalho fiscal —\nútil\npara estudo de retenções.\ng) \"aditivo contrato DETRAN\"\nRetorna aditivos (TA).\nÚtil.\nCompletar top-5 de cada query:\nver\ndossie_detran_dados.json → chroma_queries\n.\n7 — CRUZAMENTO COM SPCF\n7.1 SPCF oficial DETRAN\nRegistrado na\nRelação de faturas em aberto_2019 a 2024-Governo.xlsx\n:\nR$ 9.810.879,48\ntotal\nDetalhamento ano-a-ano (seção 2.2)\n7.2 Cobertura probatória por ano SPCF\nO documento SPCF (\nfaturas_em_aberto DETRAN.pdf\n, 16 registros, e o multi-aba\nem\n.xlsx\n) contém a lista de faturas DETRAN.\nTriagem preliminar\nvia as\ndatas das 148 NEs indexadas:\nAno SPCF\nValor SPCF R$\nNEs DETRAN indexadas desse ano\n2019\n2.925,60\n(ver dump)\n2021\n2.782.119,03\n27 NEs em 2021\n2022\n6.999.575,98\n41 NEs em 2022\n2024\n26.258,87\n~15 NEs em 2024\nCruzamento rigoroso fatura-a-fatura não foi executado\n— requer o número\nda fatura da SPCF (\nNum. PREF\n/\nServiço / Sistema\n) mapeado para NEs.\nPróximo passo: extrair as linhas individuais da SPCF DETRAN e bater por\ncompetência/valor.\n7.3 Lacuna probatória\nPelo menos R$ 2.925,60 de 2019\nestão em SPCF sem NE 2019 correspondente\n(o corpus DETRAN tem NEs de 2014–2016 e depois 2020+). Isso sugere que\nempenhos de 2019 ou não existem (serviço sem empenho — Lei 4.320/64 art. 60)\nou estão em outra pasta.\n8 — SCORE E PLANO DE AÇÃO\n8.1 Decomposição do score (v3 — 87,1 / 100)\nEixo\nPeso\nPontos v1\nPontos v3\nObservação v3\nCobertura OCR (BOA)\n25\n24,9\n24,9\n434 de 435 docs em qualidade BOA\nReclassificação efetiva\n20\n18,3\n18,3\n38 DESCONHECIDOs remanescentes\nCadeia contratual\n30\n14,0\n18,9\nPeso agora considera herança do contrato\nCruzamento SPCF\n15\n15,0\n15,0\nRealizado no nível agregado (ano)\nData extraction por NE\n10\n3,5\n10,0\n100%\ndas NEs com data (incluindo fallbacks)\nTotal\n100\n75,7\n87,1\n8.2 Top 5 ações urgentes\n#\nAção\nImpacto esperado\n1\nAgir nas 8 NEs IMINENTES\n(R$ 10.373.054,51) antes da prescrição — ajuizar ou interromper\nPreserva R$ 10 M\n2\nInvestigar as 62 NEs PRESCRITAS\n(R$ 19,99 M) — verificar marcos interruptivos (Art. 202 CC)\nRecupera parte dos R$ 20 M\n3\nRegex ampliado para Aceites técnicos\ne revisão manual de ADITIVOs/CONTRATOs\nFortalece cadeia de 49 contratos FORTE\n4\nExtrair linhas individuais do SPCF DETRAN\ne cruzar por\nNum. PREF\n/competência com NEs/NFs\nTraz cadeia fatura-a-fatura\n5\nRegex específico para NFs DETRAN\n(formatos não-canônicos)\nFecha NE+NF para mais NEs\n9 — ANEXOS\nAba\nInventário\n(\nAUDITORIA_DETRAN.xlsx\n): 435 linhas, 18 colunas — cada PDF com tipo, valores, cadeia, flags.\nAba\nNEs\n: 148 linhas — todas as NEs com ano, data, cadeia estrita, valor, NLs/NFs/contratos associados.\nAba\nNLs\n: 7 linhas — todas as NLs com data, NEs referenciadas, fiscais detectados.\nAba\nAceites\n: vazia (0 detectados).\nAba\nCadeia por Contrato\n: 86 linhas — todos os contratos com classificação TRIO/FORTE/MÉDIA/FRACA.\nAba\nPrescrição\n: ordenada por status prescricional — útil para triagem de urgências.\nAba\nSPCF Cruzamento\n: dados oficiais de\nRelação de faturas em aberto_2019 a 2024-Governo.xlsx\n.\nAba\nPlano de Ação\n: 5 ações priorizadas.\nDossiê gerado por\ndossie_detran.py\nem 2026-04-12. Regex canônica em\ncadeia_ne_nl_nf.py\n. Dados completos em\n_ANALISE/dossie_detran_dados.json\n(652 KB). Nenhum dado foi inventado:\ntoda informação é derivada dos textos OCR, SPCF oficial, e dos regex\naplicados no corpus.",
+  "texto_length": 16241
+}
