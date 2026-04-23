@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.agenciaamazonas.am.gov.br)",
+      "WebFetch(domain:radaramazonico.com.br)",
+      "WebFetch(domain:www.detran.am.gov.br)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:sapl.al.am.leg.br)",
+      "WebFetch(domain:www.pge.am.gov.br)"
+    ]
+  }
+}

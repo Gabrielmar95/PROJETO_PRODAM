@@ -111,3 +111,7 @@ _backup_*/
 
 # node_modules
 node_modules/
+
+# Claude Code - arquivos locais pessoais (não versionar)
+.claude/settings.local.json
+
