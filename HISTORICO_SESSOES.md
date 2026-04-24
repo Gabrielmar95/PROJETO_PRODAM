@@ -27,3 +27,28 @@
 
 ### ⚠️ Atenção — patches em caminho volátil
 Os 3 patches em `skill-creator/scripts/` ficam no **cache do plugin**. Se o plugin for reinstalado ou atualizado pelo marketplace, os patches serão sobrescritos. Reaplicar se sintomas (WinError 10038, thinking.type.enabled) voltarem.
+
+---
+
+## 2026-04-24 — Otimização da description da skill `consulta-acervo-prodam`
+
+### O que foi feito
+- **Skill alvo:** `consulta-acervo-prodam` — skill nova (v1.0, criada no mesmo dia). Description original ~900 chars, YAML folded multi-line. Substituída por Proposta 4 do Opus 4.7 (~880 chars, linha única, padrão "intent + expected output + triggers + exclusions").
+- **Método:** mesmo pipeline da otimização anterior (`run_loop.py` com `trigger-eval.json`), mas agora com **30 queries (15 positivas + 15 negativas)** para melhor cobertura.
+- **Instalação prévia:** skill veio em `C:\Users\gabri\Downloads\consulta-acervo-prodam\`. Copiada para `C:\Users\gabri\.claude\skills\consulta-acervo-prodam\` antes da otimização.
+- **Estratégia B no conflito com `extracao-clausulas-contratuais`:** 3 queries negativas do eval foram deliberadamente construídas para ir na outra skill ("abre o CT X e me mostra a cláusula de juros", "qual o regime de correção do 145/2023?", "o TA-02 mexeu no IGPM?") — para treinar o classificador a separar "achar arquivo" de "ler cláusula".
+- **Description adotada:** Proposta 4 (iter 4) — PT, 4 parágrafos lógicos em linha única. Destaques: (1) intenção = recuperar arquivo; (2) output esperado = caminho de PDF / lista de arquivos; (3) lista ampla de exclusões (incluindo "avaliar prescrição"); (4) menciona DETRAN/SES/SSP/SEDUC/Banco Master explicitamente.
+
+### Custo da sessão
+- **Primeira tentativa falhou por saldo API insuficiente** ("Your credit balance is too low") ao passar da iter 1 → 2. As 60 chamadas de avaliação via `claude -p` rodam grátis pela assinatura Claude Code; mas `improve_description` vai pela API direta paga e estourou saldo.
+- **Ação corretiva:** Gabriel comprou créditos em `console.anthropic.com` → Plans & Billing.
+- **Segunda tentativa completou 5/5 iterações.** Custo total estimado: ~$2–3 em tokens pagos.
+
+### Arquivos fora do repo modificados
+- `C:\Users\gabri\.claude\skills\consulta-acervo-prodam\` (pasta inteira copiada de Downloads; depois SKILL.md editado).
+- `C:\Users\gabri\.claude\skills\consulta-acervo-prodam\trigger-eval.json` (30 queries criadas).
+
+### Observações
+- **Bug 7 persiste:** medição quantitativa continua zerada (precision=100%, recall=0% em todas 5 iterações). O valor real entregue pela ferramenta é qualitativo — as 4 descriptions geradas pelo Opus 4.7.
+- **Keywords preservadas:** o frontmatter da skill tem um campo `keywords:` com 40 entradas — mantido intacto na edição; só a `description:` foi substituída.
+- **Padrão "Intent → Output → Triggers → Exclusões"** da Proposta 4 é um insight generalizável — define o *output esperado* explicitamente (caminho de PDF, lista de arquivos), não apenas o input. Pode ser reusado em otimizações futuras de descriptions que competem com outras skills.
