@@ -143,3 +143,23 @@ Set-Content -Path "$env:USERPROFILE\.claude\skills\reconhecimento-tacito-hunter\
 ```
 
 Alternativamente, a description original fica registrada neste HISTORICO_SESSOES.md (bloco "ANTES") e pode ser colada de volta em 10 segundos.
+
+### Exclusão do agente-reconhecimento-tacito (E3.4) — 2026-04-24 04:36
+
+**Decisão executada:** a skill-agente `agente-reconhecimento-tacito` (E3.4 do multi-agente) foi **removida** de `C:\Users\gabri\.claude\skills\agente-reconhecimento-tacito\` porque a skill `reconhecimento-tacito-hunter` (com script Python + referências jurídicas validadas + 17 atos catalogados com força probatória) substitui sua função com vantagem — era apenas instrução markdown (SKILL.md, 2600 bytes) sem código executável.
+
+- **Pasta excluída:** `C:\Users\gabri\.claude\skills\agente-reconhecimento-tacito\` (1 arquivo, 2600 bytes)
+- **Backup preservado:** `C:\Users\gabri\Desktop\PROJETO_PRODAM\_BACKUPS\skills_excluidas\agente-reconhecimento-tacito_20260424-043636\`
+  - Dentro do repo git-tracked do projeto, então versionado junto com o HISTORICO
+  - Reversível em 1 comando: `Copy-Item -Path "<backup>\*" -Destination "C:\Users\gabri\.claude\skills\agente-reconhecimento-tacito\" -Recurse -Force` (após recriar a pasta destino)
+- **Confirmação de sumiço no harness:** a lista `available_skills` do sistema **não retorna mais** `agente-reconhecimento-tacito` imediatamente após o `Remove-Item` — o harness re-lê o diretório `.claude/skills/` em tempo real, sem necessidade de restart.
+- **Skills preservadas intactas:** os outros 34 agentes do multi-agente (E1.x, E2.x, E3.1-E3.3, E3.5, E4.x, E5.x, E6.x) continuam ativos. Apenas E3.4 foi removido porque havia sobreposição funcional direta com a hunter.
+
+#### Matriz de decisão — por que só E3.4 e não os outros 34
+
+| Agente multi-agente | Substituto hunter existe? | Decisão |
+|---|---|---|
+| E3.4 (`agente-reconhecimento-tacito`) | ✅ `reconhecimento-tacito-hunter` com Python + refs validados | **EXCLUÍDO** |
+| E1.1-E3.3, E3.5, E4.x, E5.x, E6.x (34 agentes) | ❌ nenhum substituto hunter ainda | **MANTIDOS** |
+
+Se no futuro forem criadas hunters para outros pontos (ex: `prescricional-defensivo-hunter`, `calculador-monetario-hunter`), aplicar o mesmo padrão: backup em `_BACKUPS/skills_excluidas/<nome>_<timestamp>/` + commit isolado + registro em HISTORICO.
