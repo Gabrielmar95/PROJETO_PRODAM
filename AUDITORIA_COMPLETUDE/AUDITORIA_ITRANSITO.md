@@ -1,5 +1,5 @@
 # Auditoria de Completude — ITRANSITO
-**iTransito** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**iTransito** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **36.4%**
 
@@ -48,11 +48,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 38360.67
-- **db_faturas:** 46954.4
-- **delta:** 8593.73
-- **pct:** 22.4%
-
+_Nenhuma divergência significativa detectada_

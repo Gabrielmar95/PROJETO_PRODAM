@@ -1,6 +1,6 @@
 # Dossiê Completo — DPE
 **Defensoria Pública do Estado do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: CNPJ_PENDENTE
+Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -52,8 +52,8 @@ Distribuição por ano:
 | 2015NE00267 | 4/2014 | 10/08/2015 | R$ 180.312,92 | Ativo |
 | 2026NE0000050 | 6/2025 | 05/01/2026 | R$ 128.079,90 | Ativo |
 | 2025NE0000603 | 6/2025 | 27/03/2025 | R$ 99.641,46 | Ativo |
-| 2023NE00717 | 12/2023 | 24/03/2023 | R$ 90.085,17 | Ativo |
 | 2023NE0000717 | 12/2023 | 24/03/2023 | R$ 90.085,17 | Ativo |
+| 2023NE00717 | 12/2023 | 24/03/2023 | R$ 90.085,17 | Ativo |
 | 2024NE0000296 | 12/2023 | 07/02/2024 | R$ 90.085,17 | Ativo |
 
 ## Top 10 Faturas (por valor)
@@ -74,4 +74,4 @@ Incluido via SPCF Mar/2026. Alias: DEFENSOR/DPE. 6 fat aberto (B2-05 R$28.293,15
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

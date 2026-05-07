@@ -1,5 +1,5 @@
 # Auditoria de Completude — SUL AMERICA
-**Sul América Seguros** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**Sul América Seguros** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **36.4%**
 

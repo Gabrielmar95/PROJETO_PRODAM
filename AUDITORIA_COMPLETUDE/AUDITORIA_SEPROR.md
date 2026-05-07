@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEPROR
-**Secretaria de Produção Rural** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Produção Rural** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,11 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (1)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 77960.49143925689
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 56588.49
 - **db_faturas:** 38581.46
-- **delta:** 39379.03143925689
-- **pct:** 50.5%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 15
-- **db:** 3
-- **delta:** 12
+- **delta:** 18007.03
+- **pct:** 31.8%
 

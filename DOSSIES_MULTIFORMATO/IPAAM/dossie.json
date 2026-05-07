@@ -136,14 +136,6 @@
       "descricao": "CONTRATOS PARA SERVIÇOS DE INFORMÁTICA"
     },
     {
-      "numero": "2021NE0000843",
-      "contrato": "",
-      "valor": 19975.87,
-      "situacao": "Ativo",
-      "data_emissao": "29/12/2021",
-      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0253/2021, FACE O ENCERRAMENTO DO EXERCÍCIO DE 2021."
-    },
-    {
       "numero": "2021NE0000842",
       "contrato": "",
       "valor": 2511.79,
@@ -152,17 +144,17 @@
       "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0007/2021, FACE O ENCERRAMENTO DO EXERCÍCIO."
     },
     {
-      "numero": "2016NE01996",
+      "numero": "2021NE0000843",
       "contrato": "",
-      "valor": 17155.51,
+      "valor": 19975.87,
       "situacao": "Ativo",
-      "data_emissao": "29/12/2016",
-      "descricao": "ANULAÇÃO PARCIAL"
+      "data_emissao": "29/12/2021",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0253/2021, FACE O ENCERRAMENTO DO EXERCÍCIO DE 2021."
     },
     {
-      "numero": "2016NE02002",
+      "numero": "2016NE02007",
       "contrato": "",
-      "valor": 8332.77,
+      "valor": 6540.0,
       "situacao": "Ativo",
       "data_emissao": "29/12/2016",
       "descricao": "ANULAÇÃO PARCIAL"
@@ -176,9 +168,17 @@
       "descricao": "ANULAÇÃO PARCIAL"
     },
     {
-      "numero": "2016NE02007",
+      "numero": "2016NE02002",
       "contrato": "",
-      "valor": 6540.0,
+      "valor": 8332.77,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2016NE01996",
+      "contrato": "",
+      "valor": 17155.51,
       "situacao": "Ativo",
       "data_emissao": "29/12/2016",
       "descricao": "ANULAÇÃO PARCIAL"
@@ -208,20 +208,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender a demanda do IPAAM."
     },
     {
-      "numero": "2019NE00814",
-      "contrato": "10/2016",
-      "valor": 6201.7,
-      "situacao": "Ativo",
-      "data_emissao": "28/08/2019",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso gestor conteúdo Web, objetivando a publicação de notícias, vídeos e imagens via Website."
-    },
-    {
       "numero": "2019NE00813",
       "contrato": "",
       "valor": 6201.7,
       "situacao": "Ativo",
       "data_emissao": "28/08/2019",
       "descricao": "ANULAÇÃO TOTAL PARA ACERTO NA MODALIDADE"
+    },
+    {
+      "numero": "2019NE00814",
+      "contrato": "10/2016",
+      "valor": 6201.7,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2019",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso gestor conteúdo Web, objetivando a publicação de notícias, vídeos e imagens via Website."
     },
     {
       "numero": "2020NE00428",
@@ -248,28 +248,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso gestor conteúdo Web, objetivando a publicação de notícias, vídeos e imagens via Website."
     },
     {
-      "numero": "2024NE0000127",
-      "contrato": "7/2021",
-      "valor": 18283.02,
+      "numero": "2024NE0000131",
+      "contrato": "18/2021",
+      "valor": 1730.46,
       "situacao": "Ativo",
       "data_emissao": "27/02/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 03."
-    },
-    {
-      "numero": "2024NE0000128",
-      "contrato": "8/2021",
-      "valor": 3530.7,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 03."
-    },
-    {
-      "numero": "2024NE0000129",
-      "contrato": "10/2021",
-      "valor": 33952.5,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 03."
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
     },
     {
       "numero": "2024NE0000130",
@@ -280,28 +264,28 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
     },
     {
-      "numero": "2024NE0000131",
-      "contrato": "18/2021",
-      "valor": 1730.46,
+      "numero": "2024NE0000129",
+      "contrato": "10/2021",
+      "valor": 33952.5,
       "situacao": "Ativo",
       "data_emissao": "27/02/2024",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 03."
     },
     {
-      "numero": "2024NE0001696",
-      "contrato": "",
-      "valor": 52990.96,
+      "numero": "2024NE0000128",
+      "contrato": "8/2021",
+      "valor": 3530.7,
       "situacao": "Ativo",
-      "data_emissao": "26/12/2024",
-      "descricao": "Anulação do saldo da Nota de Empenho n.º 381 do Contrato n.º 007/21, por ocasião do encerramento do Exercício de 2024."
+      "data_emissao": "27/02/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 03."
     },
     {
-      "numero": "2024NE0001697",
-      "contrato": "",
-      "valor": 41746.33,
+      "numero": "2024NE0000127",
+      "contrato": "7/2021",
+      "valor": 18283.02,
       "situacao": "Ativo",
-      "data_emissao": "26/12/2024",
-      "descricao": "Anulação do saldo da Nota de Empenho n.º 07 do Contrato n.º 007/21 3º Termo Aditivo, por ocasião do encerramento do Exercício de 2024."
+      "data_emissao": "27/02/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 03."
     },
     {
       "numero": "2024NE0001699",
@@ -312,20 +296,20 @@
       "descricao": "Anulação do saldo da Nota de Empenho n.º 10 do Contrato n.º 014/2020 4º Termo Aditivo, por ocasião do encerramento do Exercício de 2024."
     },
     {
-      "numero": "2017NE00885",
+      "numero": "2024NE0001697",
       "contrato": "",
-      "valor": 11269.87,
+      "valor": 41746.33,
       "situacao": "Ativo",
-      "data_emissao": "26/06/2017",
-      "descricao": "ANULAÇÃO TOTAL"
+      "data_emissao": "26/12/2024",
+      "descricao": "Anulação do saldo da Nota de Empenho n.º 07 do Contrato n.º 007/21 3º Termo Aditivo, por ocasião do encerramento do Exercício de 2024."
     },
     {
-      "numero": "2017NE00886",
-      "contrato": "9/2016",
-      "valor": 11269.87,
+      "numero": "2024NE0001696",
+      "contrato": "",
+      "valor": 52990.96,
       "situacao": "Ativo",
-      "data_emissao": "26/06/2017",
-      "descricao": "Contratação de serviços de tecnologia da informação, incluindo aquisição de softwares, licenças, implantação, manutenção, capacitação e suporte técnico."
+      "data_emissao": "26/12/2024",
+      "descricao": "Anulação do saldo da Nota de Empenho n.º 381 do Contrato n.º 007/21, por ocasião do encerramento do Exercício de 2024."
     },
     {
       "numero": "2017NE00882",
@@ -336,12 +320,20 @@
       "descricao": "Contratação de serviços de tecnologia da informação, incluindo aquisição de softwares, licenças, implantação, manutenção, capacitação e suporte técnico."
     },
     {
-      "numero": "2025NE0000332",
-      "contrato": "7/2021",
-      "valor": 4220.39,
+      "numero": "2017NE00886",
+      "contrato": "9/2016",
+      "valor": 11269.87,
       "situacao": "Ativo",
-      "data_emissao": "26/03/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+      "data_emissao": "26/06/2017",
+      "descricao": "Contratação de serviços de tecnologia da informação, incluindo aquisição de softwares, licenças, implantação, manutenção, capacitação e suporte técnico."
+    },
+    {
+      "numero": "2017NE00885",
+      "contrato": "",
+      "valor": 11269.87,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2017",
+      "descricao": "ANULAÇÃO TOTAL"
     },
     {
       "numero": "2025NE0000333",
@@ -350,6 +342,14 @@
       "situacao": "Ativo",
       "data_emissao": "26/03/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0000332",
+      "contrato": "7/2021",
+      "valor": 4220.39,
+      "situacao": "Ativo",
+      "data_emissao": "26/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
     },
     {
       "numero": "2015NE02085",
@@ -376,20 +376,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação virtualizada, para comportar o sistema MTR deste IPAAM."
     },
     {
-      "numero": "2017NE00546",
-      "contrato": "3/2017",
-      "valor": 293640.88,
-      "situacao": "Ativo",
-      "data_emissao": "25/04/2017",
-      "descricao": "Solicitação de cota para desenvolvimento de sistema de informações geográficas com base em plataforma Esri ArcGIS."
-    },
-    {
       "numero": "2017NE00545",
       "contrato": "",
       "valor": 293640.88,
       "situacao": "Ativo",
       "data_emissao": "25/04/2017",
       "descricao": "ANULAÇÃO TOTAL PARA MUDANÇA NA MODALIDADE."
+    },
+    {
+      "numero": "2017NE00546",
+      "contrato": "3/2017",
+      "valor": 293640.88,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2017",
+      "descricao": "Solicitação de cota para desenvolvimento de sistema de informações geográficas com base em plataforma Esri ArcGIS."
     },
     {
       "numero": "2025NE0000311",
@@ -416,20 +416,20 @@
       "descricao": "ANULAÇÃO PARCIAL DA NE Nº 00403/2020"
     },
     {
-      "numero": "2023NE0001284",
-      "contrato": "18/2021",
-      "valor": 865.23,
-      "situacao": "Ativo",
-      "data_emissao": "23/11/2023",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
-    },
-    {
       "numero": "2023NE0001283",
       "contrato": "14/2020",
       "valor": 14033.05,
       "situacao": "Ativo",
       "data_emissao": "23/11/2023",
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
+    },
+    {
+      "numero": "2023NE0001284",
+      "contrato": "18/2021",
+      "valor": 865.23,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2023",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
     },
     {
       "numero": "2022NE0001173",
@@ -456,12 +456,12 @@
       "descricao": "ANULAÇÃO PARCIAL"
     },
     {
-      "numero": "2024NE0000381",
-      "contrato": "7/2021",
-      "valor": 13102.83,
+      "numero": "2024NE0000382",
+      "contrato": "10/2021",
+      "valor": 22635.0,
       "situacao": "Ativo",
       "data_emissao": "23/04/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
     },
     {
       "numero": "2024NE0000380",
@@ -472,28 +472,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
     },
     {
-      "numero": "2024NE0000382",
-      "contrato": "10/2021",
-      "valor": 22635.0,
+      "numero": "2024NE0000381",
+      "contrato": "7/2021",
+      "valor": 13102.83,
       "situacao": "Ativo",
       "data_emissao": "23/04/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
-    },
-    {
-      "numero": "2018NE00376",
-      "contrato": "3/2017",
-      "valor": 293640.88,
-      "situacao": "Ativo",
-      "data_emissao": "23/03/2018",
-      "descricao": "Solicitação de cota para emissão de empenho com regularização da Natureza da Despesa conforme Orientação Técnica n.º 012/2018 SEFAZ. Termo de Contrato 003/2017 1º Termo Aditivo."
-    },
-    {
-      "numero": "2018NE00374",
-      "contrato": "3/2017",
-      "valor": 293640.88,
-      "situacao": "Ativo",
-      "data_emissao": "23/03/2018",
-      "descricao": "Solicitação de cota para emissão de empenho com regularização da Natureza da Despesa conforme Orientação Técnica n.º 012/2018 SEFAZ. Termo de Contrato 003/2017 1º Termo Aditivo."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
     },
     {
       "numero": "2018NE00375",
@@ -504,20 +488,28 @@
       "descricao": "ANULAÇÃO PARA ACERTO NA MODALIDADE"
     },
     {
+      "numero": "2018NE00374",
+      "contrato": "3/2017",
+      "valor": 293640.88,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2018",
+      "descricao": "Solicitação de cota para emissão de empenho com regularização da Natureza da Despesa conforme Orientação Técnica n.º 012/2018 SEFAZ. Termo de Contrato 003/2017 1º Termo Aditivo."
+    },
+    {
+      "numero": "2018NE00376",
+      "contrato": "3/2017",
+      "valor": 293640.88,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2018",
+      "descricao": "Solicitação de cota para emissão de empenho com regularização da Natureza da Despesa conforme Orientação Técnica n.º 012/2018 SEFAZ. Termo de Contrato 003/2017 1º Termo Aditivo."
+    },
+    {
       "numero": "2020NE00820",
       "contrato": "",
       "valor": 1411.34,
       "situacao": "Ativo",
       "data_emissao": "22/12/2020",
       "descricao": "ANULAÇÃO PARCIAL DA NE Nº 010/2020"
-    },
-    {
-      "numero": "2025NE0001340",
-      "contrato": "14/2025",
-      "valor": 65479.2,
-      "situacao": "Ativo",
-      "data_emissao": "22/10/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação, compreendendo a hospedagem de sistemas de informação em ambiente de infraestrutura virtualizada, para comportar o (SISLAM) Sistema de Licenciamento do IPAAM."
     },
     {
       "numero": "2025NE0001339",
@@ -528,44 +520,20 @@
       "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 05."
     },
     {
+      "numero": "2025NE0001340",
+      "contrato": "14/2025",
+      "valor": 65479.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação, compreendendo a hospedagem de sistemas de informação em ambiente de infraestrutura virtualizada, para comportar o (SISLAM) Sistema de Licenciamento do IPAAM."
+    },
+    {
       "numero": "2015NE01264",
       "contrato": "9/2014",
       "valor": 7969.19,
       "situacao": "Ativo",
       "data_emissao": "22/07/2015",
       "descricao": "ANULAÇÃO PARCIAL"
-    },
-    {
-      "numero": "2024NE0000371",
-      "contrato": "18/2021",
-      "valor": 1730.46,
-      "situacao": "Ativo",
-      "data_emissao": "22/04/2024",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
-    },
-    {
-      "numero": "2024NE0000370",
-      "contrato": "14/2020",
-      "valor": 31184.56,
-      "situacao": "Ativo",
-      "data_emissao": "22/04/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
-    },
-    {
-      "numero": "2024NE0000369",
-      "contrato": "10/2021",
-      "valor": 11317.5,
-      "situacao": "Ativo",
-      "data_emissao": "22/04/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 03."
-    },
-    {
-      "numero": "2024NE0000367",
-      "contrato": "7/2021",
-      "valor": 5180.29,
-      "situacao": "Ativo",
-      "data_emissao": "22/04/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 03."
     },
     {
       "numero": "2024NE0000368",
@@ -576,12 +544,36 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 03."
     },
     {
-      "numero": "2021NE0000129",
+      "numero": "2024NE0000367",
       "contrato": "7/2021",
-      "valor": 78510.72,
+      "valor": 5180.29,
       "situacao": "Ativo",
-      "data_emissao": "22/04/2021",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual para atender as necessidades do IPAAM."
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000369",
+      "contrato": "10/2021",
+      "valor": 11317.5,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000370",
+      "contrato": "14/2020",
+      "valor": 31184.56,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000371",
+      "contrato": "18/2021",
+      "valor": 1730.46,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
     },
     {
       "numero": "2021NE0000130",
@@ -590,6 +582,14 @@
       "situacao": "Ativo",
       "data_emissao": "22/04/2021",
       "descricao": "Contratação de empresa especializada na prestação de serviços de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo WEB, para atender as necessidades do IPAAM."
+    },
+    {
+      "numero": "2021NE0000129",
+      "contrato": "7/2021",
+      "valor": 78510.72,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual para atender as necessidades do IPAAM."
     },
     {
       "numero": "2018NE01047",
@@ -624,14 +624,6 @@
       "descricao": "ANULAÇÃO PARCIAL DA NE Nº 00015/2023."
     },
     {
-      "numero": "2023NE0001112",
-      "contrato": "",
-      "valor": 865.23,
-      "situacao": "Ativo",
-      "data_emissao": "20/10/2023",
-      "descricao": "Anulação parcial da NE nº 005 devido a supressão do contrato nº 018/2021, em conformidade com o Decreto Estadual nº 47.925 de 16 de agosto de 2023"
-    },
-    {
       "numero": "2023NE0001111",
       "contrato": "",
       "valor": 16112.0,
@@ -640,17 +632,25 @@
       "descricao": "Anulação parcial da NE nº 001 devido a supressão do contrato 014/2020, em conformidade com o Decreto Estadual nº 47.925 de 16 de agosto de 2023"
     },
     {
-      "numero": "2018NE01334",
+      "numero": "2023NE0001112",
       "contrato": "",
-      "valor": 4500.54,
+      "valor": 865.23,
       "situacao": "Ativo",
-      "data_emissao": "19/12/2018",
-      "descricao": "ANULAÇÃO PARCIAL"
+      "data_emissao": "20/10/2023",
+      "descricao": "Anulação parcial da NE nº 005 devido a supressão do contrato nº 018/2021, em conformidade com o Decreto Estadual nº 47.925 de 16 de agosto de 2023"
     },
     {
       "numero": "2018NE01333",
       "contrato": "",
       "valor": 10000.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL"
+    },
+    {
+      "numero": "2018NE01334",
+      "contrato": "",
+      "valor": 4500.54,
       "situacao": "Ativo",
       "data_emissao": "19/12/2018",
       "descricao": "ANULAÇÃO PARCIAL"
@@ -664,7 +664,7 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de implantação e execução de Sistema de Protocolo em plataforma Web (Sproweb), objetivando o controle e acompanhamento de registro de documentos e processos."
     },
     {
-      "numero": "2015NE01823",
+      "numero": "2015NE01799",
       "contrato": "13/2015",
       "valor": 744.7,
       "situacao": "Ativo",
@@ -680,28 +680,12 @@
       "descricao": "ANULAÇÃO TOTAL PARA ACERTO ."
     },
     {
-      "numero": "2015NE01799",
+      "numero": "2015NE01823",
       "contrato": "13/2015",
       "valor": 744.7,
       "situacao": "Ativo",
       "data_emissao": "19/10/2015",
       "descricao": "DESPESAS DE TELEPROCESSAMENTO"
-    },
-    {
-      "numero": "2023NE0000423",
-      "contrato": "7/2021",
-      "valor": 90602.67,
-      "situacao": "Ativo",
-      "data_emissao": "19/04/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 007/2021 AD: 02."
-    },
-    {
-      "numero": "2023NE0000422",
-      "contrato": "",
-      "valor": 90602.67,
-      "situacao": "Ativo",
-      "data_emissao": "19/04/2023",
-      "descricao": "Anulação total da NE"
     },
     {
       "numero": "2023NE00423",
@@ -712,12 +696,20 @@
       "descricao": "2º TA do Contrato 007/2021 - Serviços de Informática de Forma Eventual."
     },
     {
-      "numero": "2022NE0000351",
-      "contrato": "10/2021",
-      "valor": 157480.91,
+      "numero": "2023NE0000422",
+      "contrato": "",
+      "valor": 90602.67,
       "situacao": "Ativo",
-      "data_emissao": "19/04/2022",
-      "descricao": "Contratação de empresa especializada na prestação de Serviços de Tecnologia da Informação,compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada para atender as necessidades do IPAAM."
+      "data_emissao": "19/04/2023",
+      "descricao": "Anulação total da NE"
+    },
+    {
+      "numero": "2023NE0000423",
+      "contrato": "7/2021",
+      "valor": 90602.67,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 007/2021 AD: 02."
     },
     {
       "numero": "2022NE0000350",
@@ -728,6 +720,14 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual para atender as necessidades do IPAAM."
     },
     {
+      "numero": "2022NE0000351",
+      "contrato": "10/2021",
+      "valor": 157480.91,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2022",
+      "descricao": "Contratação de empresa especializada na prestação de Serviços de Tecnologia da Informação,compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada para atender as necessidades do IPAAM."
+    },
+    {
       "numero": "2026NE0000107",
       "contrato": "2/2026",
       "valor": 32500.0,
@@ -736,20 +736,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação, que consiste no fornecimento de serviço de acesso gerenciado à internet, no modelo de internet dedicada, via rede de governo, pelo período de 12 meses."
     },
     {
-      "numero": "2017NE01592",
-      "contrato": "",
-      "valor": 8.49,
-      "situacao": "Ativo",
-      "data_emissao": "18/12/2017",
-      "descricao": "ANULAÇÃO PARCIAL"
-    },
-    {
       "numero": "2017NE01596",
       "contrato": "",
       "valor": 293640.88,
       "situacao": "Ativo",
       "data_emissao": "18/12/2017",
       "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2017NE01592",
+      "contrato": "",
+      "valor": 8.49,
+      "situacao": "Ativo",
+      "data_emissao": "18/12/2017",
+      "descricao": "ANULAÇÃO PARCIAL"
     },
     {
       "numero": "2018NE00657",
@@ -768,14 +768,6 @@
       "descricao": "Solicitação de cota para emissão de Nota de Empenho com Despesas de Exercício Anterior conforme RD n.º 11."
     },
     {
-      "numero": "2017NE00531",
-      "contrato": "3/2017",
-      "valor": 293640.88,
-      "situacao": "Ativo",
-      "data_emissao": "18/04/2017",
-      "descricao": "Solicitação de cota para desenvolvimento de sistema de informações geográficas com base em plataforma Esri ArcGIS."
-    },
-    {
       "numero": "2017NE00532",
       "contrato": "",
       "valor": 15060.0,
@@ -784,12 +776,12 @@
       "descricao": "ANULAÇÃO TOTAL FACE A RESCISÃO DO CONTRATO 011/2016."
     },
     {
-      "numero": "2023NE0001087",
-      "contrato": "",
-      "valor": 2353.8,
+      "numero": "2017NE00531",
+      "contrato": "3/2017",
+      "valor": 293640.88,
       "situacao": "Ativo",
-      "data_emissao": "17/10/2023",
-      "descricao": "Anulação parcial da NE nº 270, devido a supressão do contrato 008/2021, em conformidade com o Decreto Estadual nº 47.925 de 16 de agosto de 2023"
+      "data_emissao": "18/04/2017",
+      "descricao": "Solicitação de cota para desenvolvimento de sistema de informações geográficas com base em plataforma Esri ArcGIS."
     },
     {
       "numero": "2023NE0001088",
@@ -800,6 +792,14 @@
       "descricao": "Anulação parcial da NE nº 479, devido a supressão do contrato 010/2021, em conformidade com o Decreto Estadual 47.925 de 16 de agosto de 2023"
     },
     {
+      "numero": "2023NE0001087",
+      "contrato": "",
+      "valor": 2353.8,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2023",
+      "descricao": "Anulação parcial da NE nº 270, devido a supressão do contrato 008/2021, em conformidade com o Decreto Estadual nº 47.925 de 16 de agosto de 2023"
+    },
+    {
       "numero": "2019NE01053",
       "contrato": "13/2015",
       "valor": 47743.47,
@@ -808,28 +808,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, 4º Termo Aditivo ao Contrato n.º 013/15."
     },
     {
-      "numero": "2024NE0001123",
-      "contrato": "14/2020",
-      "valor": 31184.56,
+      "numero": "2024NE0001120",
+      "contrato": "7/2021",
+      "valor": 18283.02,
       "situacao": "Ativo",
       "data_emissao": "17/09/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
-    },
-    {
-      "numero": "2024NE0001122",
-      "contrato": "10/2021",
-      "valor": 33952.5,
-      "situacao": "Ativo",
-      "data_emissao": "17/09/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
-    },
-    {
-      "numero": "2024NE0001124",
-      "contrato": "18/2021",
-      "valor": 1730.46,
-      "situacao": "Ativo",
-      "data_emissao": "17/09/2024",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
     },
     {
       "numero": "2024NE0001121",
@@ -840,12 +824,28 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
     },
     {
-      "numero": "2024NE0001120",
-      "contrato": "7/2021",
-      "valor": 18283.02,
+      "numero": "2024NE0001124",
+      "contrato": "18/2021",
+      "valor": 1730.46,
       "situacao": "Ativo",
       "data_emissao": "17/09/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0001122",
+      "contrato": "10/2021",
+      "valor": 33952.5,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0001123",
+      "contrato": "14/2020",
+      "valor": 31184.56,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
     },
     {
       "numero": "2019NE00584",
@@ -912,8 +912,8 @@
       "descricao": "ANULAÇÃO TOTAL"
     },
     {
-      "numero": "2015NE01794",
-      "contrato": "",
+      "numero": "2015NE01796",
+      "contrato": "13/2015",
       "valor": 45000.0,
       "situacao": "Ativo",
       "data_emissao": "15/10/2015",
@@ -928,8 +928,8 @@
       "descricao": "ANULAÇÃO TOTAL PARA ACERTO"
     },
     {
-      "numero": "2015NE01796",
-      "contrato": "13/2015",
+      "numero": "2015NE01794",
+      "contrato": "",
       "valor": 45000.0,
       "situacao": "Ativo",
       "data_emissao": "15/10/2015",
@@ -944,12 +944,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de implantação e execução de Sistema de protocolo em plataforma Web (SPROWeb), objetivando o controle e acompanhamento do registro de todos os documento e processos do IPAAM."
     },
     {
-      "numero": "2016NE01053",
-      "contrato": "",
+      "numero": "2016NE01054",
+      "contrato": "9/2016",
       "valor": 10800.0,
       "situacao": "Ativo",
       "data_emissao": "14/07/2016",
-      "descricao": "anulação"
+      "descricao": "SERVIÇO DE IMPLANTAÇÃO DE SOFTWARE"
     },
     {
       "numero": "2016NE01038",
@@ -960,12 +960,12 @@
       "descricao": "SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO, INCLUINDO AQUISIÇÃO DE SOFTWARES, LICENÇAS, IMPLANTAÇÃO, MANUTENÇÃO, CAPACITAÇÃO E SUPORTE TÉCNICO."
     },
     {
-      "numero": "2016NE01054",
-      "contrato": "9/2016",
+      "numero": "2016NE01053",
+      "contrato": "",
       "valor": 10800.0,
       "situacao": "Ativo",
       "data_emissao": "14/07/2016",
-      "descricao": "SERVIÇO DE IMPLANTAÇÃO DE SOFTWARE"
+      "descricao": "anulação"
     },
     {
       "numero": "2017NE00811",
@@ -1064,28 +1064,12 @@
       "descricao": "Contrato n.º 014/2021 - 1º Termo Aditivo Prodam."
     },
     {
-      "numero": "2025NE0000239",
-      "contrato": "10/2021",
-      "valor": 33952.5,
+      "numero": "2025NE0000238",
+      "contrato": "8/2021",
+      "valor": 3530.7,
       "situacao": "Ativo",
       "data_emissao": "10/03/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0000237",
-      "contrato": "7/2021",
-      "valor": 18283.02,
-      "situacao": "Ativo",
-      "data_emissao": "10/03/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0000240",
-      "contrato": "18/2021",
-      "valor": 1804.18,
-      "situacao": "Ativo",
-      "data_emissao": "10/03/2025",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
     },
     {
       "numero": "2025NE0000241",
@@ -1096,12 +1080,28 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
     },
     {
-      "numero": "2025NE0000238",
-      "contrato": "8/2021",
-      "valor": 3530.7,
+      "numero": "2025NE0000240",
+      "contrato": "18/2021",
+      "valor": 1804.18,
       "situacao": "Ativo",
       "data_emissao": "10/03/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000237",
+      "contrato": "7/2021",
+      "valor": 18283.02,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000239",
+      "contrato": "10/2021",
+      "valor": 33952.5,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
     },
     {
       "numero": "2017NE00787",
@@ -1112,20 +1112,20 @@
       "descricao": "ANULAÇÃO TOTAL PARA ACERTO NA MODALIDADE"
     },
     {
-      "numero": "2016NE00734",
-      "contrato": "",
-      "valor": 18950.43,
-      "situacao": "Ativo",
-      "data_emissao": "09/05/2016",
-      "descricao": "ANULAÇÃO TOTAL"
-    },
-    {
       "numero": "2016NE00733",
       "contrato": "9/2014",
       "valor": 18950.43,
       "situacao": "Ativo",
       "data_emissao": "09/05/2016",
       "descricao": "Contratação de serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados, cuja descrição está contida no anexo que passa a fazer parte integrante do contrato."
+    },
+    {
+      "numero": "2016NE00734",
+      "contrato": "",
+      "valor": 18950.43,
+      "situacao": "Ativo",
+      "data_emissao": "09/05/2016",
+      "descricao": "ANULAÇÃO TOTAL"
     },
     {
       "numero": "2022NE0000087",
@@ -1136,28 +1136,12 @@
       "descricao": "Serviços de tecnologia da informação e comunicação para migração de dados de geoprocessamento do IPAAM. Contrato n.º 012/2021."
     },
     {
-      "numero": "2024NE0000720",
-      "contrato": "8/2021",
-      "valor": 3530.7,
+      "numero": "2024NE0000721",
+      "contrato": "10/2021",
+      "valor": 33952.5,
       "situacao": "Ativo",
       "data_emissao": "08/07/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
-    },
-    {
-      "numero": "2024NE0000719",
-      "contrato": "7/2021",
-      "valor": 18283.02,
-      "situacao": "Ativo",
-      "data_emissao": "08/07/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
-    },
-    {
-      "numero": "2024NE0000718",
-      "contrato": "18/2021",
-      "valor": 1730.46,
-      "situacao": "Ativo",
-      "data_emissao": "08/07/2024",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
     },
     {
       "numero": "2024NE0000717",
@@ -1168,20 +1152,28 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
     },
     {
-      "numero": "2024NE0000721",
-      "contrato": "10/2021",
-      "valor": 33952.5,
+      "numero": "2024NE0000718",
+      "contrato": "18/2021",
+      "valor": 1730.46,
       "situacao": "Ativo",
       "data_emissao": "08/07/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
     },
     {
-      "numero": "2023NE0000479",
-      "contrato": "10/2021",
-      "valor": 165990.0,
+      "numero": "2024NE0000719",
+      "contrato": "7/2021",
+      "valor": 18283.02,
       "situacao": "Ativo",
-      "data_emissao": "08/05/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 010/2021 AD: 02."
+      "data_emissao": "08/07/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000720",
+      "contrato": "8/2021",
+      "valor": 3530.7,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
     },
     {
       "numero": "2023NE00479",
@@ -1192,28 +1184,20 @@
       "descricao": "Fornecimento de Software de comunicação VPN e Hospedagem de Sistema de Informação."
     },
     {
+      "numero": "2023NE0000479",
+      "contrato": "10/2021",
+      "valor": 165990.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 010/2021 AD: 02."
+    },
+    {
       "numero": "2022NE0000085",
       "contrato": "",
       "valor": 19975.87,
       "situacao": "Ativo",
       "data_emissao": "08/02/2022",
       "descricao": "Anulação da Nota de Empenho n.º 74 para correção da Natureza da Despesa."
-    },
-    {
-      "numero": "2022NE0000075",
-      "contrato": "12/2021",
-      "valor": 817.14,
-      "situacao": "Ativo",
-      "data_emissao": "07/02/2022",
-      "descricao": "Serviços de processamento de dados de folha de pagamento especial do mês de setembro de 2021, sem contrato, Parecer Jurídico n.º 135/2021 e termo de Ajuste de Contas n.º 005/2021 publicado no Diário Oficial do Estado do Amazonas em 14/12/2021."
-    },
-    {
-      "numero": "2022NE0000076",
-      "contrato": "12/2021",
-      "valor": 821.7,
-      "situacao": "Ativo",
-      "data_emissao": "07/02/2022",
-      "descricao": "Serviços de processamento de folha de pagamento especial tipo 68 no mês de julho de 2021, sem contrato. Paracer/IPAAM/PAD/N.º 136/2021 Termo de Ajuste de Contas n.º 006/2021 Publicado em 16/12/2021 no Diário Oficial do Estado do Amazonas."
     },
     {
       "numero": "2022NE0000074",
@@ -1224,60 +1208,20 @@
       "descricao": "Serviços de tecnologia da informação e comunicação para migração de dados de geoprocessamento do IPAAM. Contrato n.º 012/2021."
     },
     {
-      "numero": "2025NE0000523",
-      "contrato": "7/2021",
-      "valor": 9739.37,
+      "numero": "2022NE0000076",
+      "contrato": "12/2021",
+      "valor": 821.7,
       "situacao": "Ativo",
-      "data_emissao": "06/05/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+      "data_emissao": "07/02/2022",
+      "descricao": "Serviços de processamento de folha de pagamento especial tipo 68 no mês de julho de 2021, sem contrato. Paracer/IPAAM/PAD/N.º 136/2021 Termo de Ajuste de Contas n.º 006/2021 Publicado em 16/12/2021 no Diário Oficial do Estado do Amazonas."
     },
     {
-      "numero": "2025NE0000522",
-      "contrato": "7/2021",
-      "valor": 5180.29,
+      "numero": "2022NE0000075",
+      "contrato": "12/2021",
+      "valor": 817.14,
       "situacao": "Ativo",
-      "data_emissao": "06/05/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0000529",
-      "contrato": "14/2020",
-      "valor": 32513.02,
-      "situacao": "Ativo",
-      "data_emissao": "06/05/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
-    },
-    {
-      "numero": "2025NE0000528",
-      "contrato": "18/2021",
-      "valor": 1804.18,
-      "situacao": "Ativo",
-      "data_emissao": "06/05/2025",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0000525",
-      "contrato": "8/2021",
-      "valor": 1880.8,
-      "situacao": "Ativo",
-      "data_emissao": "06/05/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 05."
-    },
-    {
-      "numero": "2025NE0000527",
-      "contrato": "10/2021",
-      "valor": 18086.5,
-      "situacao": "Ativo",
-      "data_emissao": "06/05/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
-    },
-    {
-      "numero": "2025NE0000526",
-      "contrato": "10/2021",
-      "valor": 11317.5,
-      "situacao": "Ativo",
-      "data_emissao": "06/05/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
+      "data_emissao": "07/02/2022",
+      "descricao": "Serviços de processamento de dados de folha de pagamento especial do mês de setembro de 2021, sem contrato, Parecer Jurídico n.º 135/2021 e termo de Ajuste de Contas n.º 005/2021 publicado no Diário Oficial do Estado do Amazonas em 14/12/2021."
     },
     {
       "numero": "2025NE0000524",
@@ -1288,44 +1232,68 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
     },
     {
+      "numero": "2025NE0000526",
+      "contrato": "10/2021",
+      "valor": 11317.5,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000527",
+      "contrato": "10/2021",
+      "valor": 18086.5,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0000525",
+      "contrato": "8/2021",
+      "valor": 1880.8,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0000528",
+      "contrato": "18/2021",
+      "valor": 1804.18,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000529",
+      "contrato": "14/2020",
+      "valor": 32513.02,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000522",
+      "contrato": "7/2021",
+      "valor": 5180.29,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000523",
+      "contrato": "7/2021",
+      "valor": 9739.37,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+    },
+    {
       "numero": "2018NE00416",
       "contrato": "",
       "valor": 10414.87,
       "situacao": "Ativo",
       "data_emissao": "06/04/2018",
       "descricao": "ANULAÇÃO PARCIAL"
-    },
-    {
-      "numero": "2024NE0001375",
-      "contrato": "14/2020",
-      "valor": 17151.54,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
-    },
-    {
-      "numero": "2024NE0001376",
-      "contrato": "18/2021",
-      "valor": 865.23,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2024",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
-    },
-    {
-      "numero": "2024NE0001372",
-      "contrato": "7/2021",
-      "valor": 18283.02,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
-    },
-    {
-      "numero": "2024NE0001373",
-      "contrato": "8/2021",
-      "valor": 3530.7,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
     },
     {
       "numero": "2024NE0001374",
@@ -1336,12 +1304,36 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
     },
     {
-      "numero": "2026NE0000008",
-      "contrato": "14/2025",
-      "valor": 130958.4,
+      "numero": "2024NE0001373",
+      "contrato": "8/2021",
+      "valor": 3530.7,
       "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação, compreendendo a hospedagem de sistemas de informação em ambiente de infraestrutura virtualizada, para comportar o (SISLAM) Sistema de Licenciamento do IPAAM."
+      "data_emissao": "05/11/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0001372",
+      "contrato": "7/2021",
+      "valor": 18283.02,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0001376",
+      "contrato": "18/2021",
+      "valor": 865.23,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2024",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0001375",
+      "contrato": "14/2020",
+      "valor": 17151.54,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 04."
     },
     {
       "numero": "2026NE0000007",
@@ -1352,28 +1344,20 @@
       "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 05."
     },
     {
-      "numero": "2015NE00020",
-      "contrato": "1/2011",
-      "valor": 10792.32,
+      "numero": "2026NE0000008",
+      "contrato": "14/2025",
+      "valor": 130958.4,
       "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "ANULAÇÃO TOTAL"
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de Tecnologia da Informação, compreendendo a hospedagem de sistemas de informação em ambiente de infraestrutura virtualizada, para comportar o (SISLAM) Sistema de Licenciamento do IPAAM."
     },
     {
-      "numero": "2015NE00033",
+      "numero": "2015NE00021",
       "contrato": "9/2014",
       "valor": 10792.32,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "Cobertura financeira 2015"
-    },
-    {
-      "numero": "2015NE00032",
-      "contrato": "9/2014",
-      "valor": 10792.32,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "ANULAÇÃO"
+      "descricao": "CONTRATOS PARA SERVIÇOS DE INFORMÁTICA"
     },
     {
       "numero": "2015NE00018",
@@ -1384,12 +1368,28 @@
       "descricao": "CONTRATOS PARA SERVIÇOS DE INFORMATICA"
     },
     {
-      "numero": "2015NE00021",
+      "numero": "2015NE00032",
       "contrato": "9/2014",
       "valor": 10792.32,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "CONTRATOS PARA SERVIÇOS DE INFORMÁTICA"
+      "descricao": "ANULAÇÃO"
+    },
+    {
+      "numero": "2015NE00033",
+      "contrato": "9/2014",
+      "valor": 10792.32,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira 2015"
+    },
+    {
+      "numero": "2015NE00020",
+      "contrato": "1/2011",
+      "valor": 10792.32,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO TOTAL"
     },
     {
       "numero": "2024NE0001612",
@@ -1408,28 +1408,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede , compreendendo o acesso gerenciado à internet, através da Rede do Governo, de forma eventual."
     },
     {
-      "numero": "2025NE0001396",
-      "contrato": "18/2021",
-      "valor": 902.07,
+      "numero": "2025NE0001395",
+      "contrato": "10/2021",
+      "valor": 36173.0,
       "situacao": "Ativo",
       "data_emissao": "04/11/2025",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0001397",
-      "contrato": "14/2020",
-      "valor": 17882.2,
-      "situacao": "Ativo",
-      "data_emissao": "04/11/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
-    },
-    {
-      "numero": "2025NE0001393",
-      "contrato": "7/2021",
-      "valor": 19478.74,
-      "situacao": "Ativo",
-      "data_emissao": "04/11/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
     },
     {
       "numero": "2025NE0001394",
@@ -1440,12 +1424,28 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 05."
     },
     {
-      "numero": "2025NE0001395",
-      "contrato": "10/2021",
-      "valor": 36173.0,
+      "numero": "2025NE0001393",
+      "contrato": "7/2021",
+      "valor": 19478.74,
       "situacao": "Ativo",
       "data_emissao": "04/11/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0001397",
+      "contrato": "14/2020",
+      "valor": 17882.2,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0001396",
+      "contrato": "18/2021",
+      "valor": 902.07,
+      "situacao": "Ativo",
+      "data_emissao": "04/11/2025",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
     },
     {
       "numero": "2016NE01431",
@@ -1462,19 +1462,19 @@
       "situacao": "Ativo",
       "data_emissao": "04/10/2016",
       "descricao": "Contratação de serviços de rede, compreendendo o acesso gerenciado a internet com velocidade de 30 MBPS, através da rede de governo, cuja descrição no projeto básico."
-    },
-    {
-      "numero": "2018NE00397",
-      "contrato": "13/2015",
-      "valor": 120600.0,
-      "situacao": "Ativo",
-      "data_emissao": "04/04/2018",
-      "descricao": "Solicitação de cota para regularização da Natureza da Despesa conforme Orientação Técnica n.º 012/2018 SEFAZ."
     },
     {
       "numero": "2018NE00396",
       "contrato": "10/2016",
       "valor": 8033.19,
+      "situacao": "Ativo",
+      "data_emissao": "04/04/2018",
+      "descricao": "Solicitação de cota para regularização da Natureza da Despesa conforme Orientação Técnica n.º 012/2018 SEFAZ."
+    },
+    {
+      "numero": "2018NE00397",
+      "contrato": "13/2015",
+      "valor": 120600.0,
       "situacao": "Ativo",
       "data_emissao": "04/04/2018",
       "descricao": "Solicitação de cota para regularização da Natureza da Despesa conforme Orientação Técnica n.º 012/2018 SEFAZ."
@@ -1488,14 +1488,6 @@
       "descricao": "Anulação parcial da NE nº 006 devido ao Distrato do Contrato nº 010/2021"
     },
     {
-      "numero": "2021NE0000001",
-      "contrato": "14/2020",
-      "valor": 240810.24,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede do Governo, de forma eventual."
-    },
-    {
       "numero": "2021NE0000007",
       "contrato": "9/2016",
       "valor": 15027.58,
@@ -1504,12 +1496,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de implantação e execução de sistema de protocolo em plataforma Web (SPROweb), objetivando o controle e acompanhamento do registro de todos os documentos e processos do IPAAM."
     },
     {
-      "numero": "2016NE00032",
-      "contrato": "9/2014",
-      "valor": 10758.63,
+      "numero": "2021NE0000001",
+      "contrato": "14/2020",
+      "valor": 240810.24,
       "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "SERVIÇOS DE INFORMATICA"
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede do Governo, de forma eventual."
     },
     {
       "numero": "2016NE00031",
@@ -1518,6 +1510,14 @@
       "situacao": "Ativo",
       "data_emissao": "04/01/2016",
       "descricao": "SERVIÇOS DE INFORMÁTICA"
+    },
+    {
+      "numero": "2016NE00032",
+      "contrato": "9/2014",
+      "valor": 10758.63,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SERVIÇOS DE INFORMATICA"
     },
     {
       "numero": "2020NE00754",
@@ -1536,20 +1536,20 @@
       "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma web (Sproweb) para controle de documentos e processos do IPAAM."
     },
     {
-      "numero": "2025NE0000887",
-      "contrato": "18/2021",
-      "valor": 1804.18,
-      "situacao": "Ativo",
-      "data_emissao": "03/07/2025",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
-    },
-    {
       "numero": "2025NE0000884",
       "contrato": "",
       "valor": 1804.18,
       "situacao": "Ativo",
       "data_emissao": "03/07/2025",
       "descricao": "Anulação da NE de Reforço nº 861 para ajuste na vigência"
+    },
+    {
+      "numero": "2025NE0000887",
+      "contrato": "18/2021",
+      "valor": 1804.18,
+      "situacao": "Ativo",
+      "data_emissao": "03/07/2025",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
     },
     {
       "numero": "2021NE0000184",
@@ -1560,12 +1560,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistema de informação em infraestrutura virtualizada, para comportar o sistema de licenciamento deste IPAAM."
     },
     {
-      "numero": "2022NE0000018",
-      "contrato": "18/2021",
-      "valor": 25173.09,
+      "numero": "2022NE0000016",
+      "contrato": "10/2021",
+      "valor": 87984.03,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de implantação e execução de Sistema de Protocolo em plataforma Web (Sproweb), objetivando o controle e acompanhamento de registro de documentos e processos."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistema de informação em infraestrutura virtualizada, para comportar o sistema de licenciamento deste IPAAM."
     },
     {
       "numero": "2022NE0000014",
@@ -1576,44 +1576,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a disponibilização do Sistema Informatizado de Agendamento via WEB para dá suporte ao agendamento do atendimento do IPAAM."
     },
     {
-      "numero": "2022NE0000016",
-      "contrato": "10/2021",
-      "valor": 87984.03,
+      "numero": "2022NE0000018",
+      "contrato": "18/2021",
+      "valor": 25173.09,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistema de informação em infraestrutura virtualizada, para comportar o sistema de licenciamento deste IPAAM."
-    },
-    {
-      "numero": "2025NE0001280",
-      "contrato": "14/2020",
-      "valor": 32513.02,
-      "situacao": "Ativo",
-      "data_emissao": "02/10/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
-    },
-    {
-      "numero": "2025NE0001279",
-      "contrato": "18/2021",
-      "valor": 1804.18,
-      "situacao": "Ativo",
-      "data_emissao": "02/10/2025",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0001278",
-      "contrato": "10/2021",
-      "valor": 36173.0,
-      "situacao": "Ativo",
-      "data_emissao": "02/10/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
-    },
-    {
-      "numero": "2025NE0001276",
-      "contrato": "7/2021",
-      "valor": 19478.74,
-      "situacao": "Ativo",
-      "data_emissao": "02/10/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de implantação e execução de Sistema de Protocolo em plataforma Web (Sproweb), objetivando o controle e acompanhamento de registro de documentos e processos."
     },
     {
       "numero": "2025NE0001277",
@@ -1624,12 +1592,36 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 05."
     },
     {
-      "numero": "2025NE0000866",
-      "contrato": "",
+      "numero": "2025NE0001276",
+      "contrato": "7/2021",
       "valor": 19478.74,
       "situacao": "Ativo",
-      "data_emissao": "02/07/2025",
-      "descricao": "Anulação para correção da data de vigência"
+      "data_emissao": "02/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0001278",
+      "contrato": "10/2021",
+      "valor": 36173.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0001279",
+      "contrato": "18/2021",
+      "valor": 1804.18,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0001280",
+      "contrato": "14/2020",
+      "valor": 32513.02,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
     },
     {
       "numero": "2025NE0000868",
@@ -1640,20 +1632,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
     },
     {
-      "numero": "2018NE00392",
-      "contrato": "9/2014",
-      "valor": 19969.99,
-      "situacao": "Ativo",
-      "data_emissao": "02/04/2018",
-      "descricao": "Contratação de empresa especializada em serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados pelo período de 12 meses."
-    },
-    {
-      "numero": "2018NE00391",
+      "numero": "2025NE0000866",
       "contrato": "",
-      "valor": 120600.0,
+      "valor": 19478.74,
       "situacao": "Ativo",
-      "data_emissao": "02/04/2018",
-      "descricao": "ANULAÇÃO PARCIAL"
+      "data_emissao": "02/07/2025",
+      "descricao": "Anulação para correção da data de vigência"
     },
     {
       "numero": "2018NE00390",
@@ -1664,20 +1648,20 @@
       "descricao": "ANULAÇÃO PARCIAL"
     },
     {
-      "numero": "2025NE0000009",
-      "contrato": "10/2021",
-      "valor": 33952.5,
+      "numero": "2018NE00391",
+      "contrato": "",
+      "valor": 120600.0,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
+      "data_emissao": "02/04/2018",
+      "descricao": "ANULAÇÃO PARCIAL"
     },
     {
-      "numero": "2025NE0000007",
-      "contrato": "7/2021",
-      "valor": 18283.02,
+      "numero": "2018NE00392",
+      "contrato": "9/2014",
+      "valor": 19969.99,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+      "data_emissao": "02/04/2018",
+      "descricao": "Contratação de empresa especializada em serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados pelo período de 12 meses."
     },
     {
       "numero": "2025NE0000011",
@@ -1688,12 +1672,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
     },
     {
-      "numero": "2024NE0000011",
-      "contrato": "18/2021",
-      "valor": 1730.46,
+      "numero": "2025NE0000007",
+      "contrato": "7/2021",
+      "valor": 18283.02,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000009",
+      "contrato": "10/2021",
+      "valor": 33952.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 04."
     },
     {
       "numero": "2024NE0000007",
@@ -1704,44 +1696,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 03."
     },
     {
-      "numero": "2023NE0000011",
-      "contrato": "8/2021",
-      "valor": 9300.69,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB."
-    },
-    {
-      "numero": "2023NE0000018",
-      "contrato": "7/2021",
-      "valor": 52784.92,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual para atender as necessidades do IPAAM."
-    },
-    {
-      "numero": "2023NE0000015",
-      "contrato": "10/2021",
-      "valor": 100215.18,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação e comunicação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada para atender as necessidades do IPAAM."
-    },
-    {
-      "numero": "2023NE0000017",
-      "contrato": "14/2021",
-      "valor": 20034.37,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a disponibilização do sistema informatizado de agendamento via WEB para dar suporte ao agendamento do atendimento do IPAAM."
-    },
-    {
-      "numero": "2023NE0000005",
+      "numero": "2024NE0000011",
       "contrato": "18/2021",
-      "valor": 12690.04,
+      "valor": 1730.46,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM."
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 03."
     },
     {
       "numero": "2023NE0000001",
@@ -1752,20 +1712,44 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM."
     },
     {
-      "numero": "2020NE00006",
-      "contrato": "9/2016",
-      "valor": 201352.89,
+      "numero": "2023NE0000005",
+      "contrato": "18/2021",
+      "valor": 12690.04,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, para atender as necessidades do IPAAM."
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM."
     },
     {
-      "numero": "2020NE00001",
-      "contrato": "10/2016",
-      "valor": 14280.92,
+      "numero": "2023NE0000017",
+      "contrato": "14/2021",
+      "valor": 20034.37,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso gestor conteúdo Web, objetivando a publicação de informações, notícias, vídeos e imagens via Website."
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a disponibilização do sistema informatizado de agendamento via WEB para dar suporte ao agendamento do atendimento do IPAAM."
+    },
+    {
+      "numero": "2023NE0000015",
+      "contrato": "10/2021",
+      "valor": 100215.18,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação e comunicação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada para atender as necessidades do IPAAM."
+    },
+    {
+      "numero": "2023NE0000018",
+      "contrato": "7/2021",
+      "valor": 52784.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual para atender as necessidades do IPAAM."
+    },
+    {
+      "numero": "2023NE0000011",
+      "contrato": "8/2021",
+      "valor": 9300.69,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB."
     },
     {
       "numero": "2020NE00010",
@@ -1776,44 +1760,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de implantação e execução de sistema de protocolo em plataforma Web (SPROWeb) objetivando o controle e acompanhamento do registro de todos os documentos e processos."
     },
     {
-      "numero": "2019NE00031",
-      "contrato": "",
-      "valor": 12708.14,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "ANULAÇÃO TOTAL PARA ACERTO"
-    },
-    {
-      "numero": "2019NE00032",
-      "contrato": "9/2014",
-      "valor": 12708.14,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação de empresa especializada em serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados, para atender as necessidades do IPAAM."
-    },
-    {
-      "numero": "2019NE00018",
-      "contrato": "9/2014",
-      "valor": 12708.14,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação de empresa especializada em serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados, para atender as necessidades do IPAAM."
-    },
-    {
-      "numero": "2019NE00016",
+      "numero": "2020NE00001",
       "contrato": "10/2016",
-      "valor": 13406.81,
+      "valor": 14280.92,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação de empresa especializada nos serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo Web, para publicação de informações, notícias, vídeos e imagens via Website, para atender o IPAAM."
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso gestor conteúdo Web, objetivando a publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
-      "numero": "2019NE00017",
-      "contrato": "13/2015",
-      "valor": 189026.91,
+      "numero": "2020NE00006",
+      "contrato": "9/2016",
+      "valor": 201352.89,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação de empresa especializada em serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, para atender as necessidades do IPAAM."
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet através da Rede de Governo, para atender as necessidades do IPAAM."
     },
     {
       "numero": "2019NE00015",
@@ -1824,36 +1784,44 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de execução para processamento do sistema de protocolo em plataforma Web (SPROWeb) para controle e acompanhamento de registro de todos os documento e processos do IPAAM."
     },
     {
-      "numero": "2018NE00018",
-      "contrato": "9/2016",
-      "valor": 13536.53,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Contratação de serviços de tecnologia da informação, incluindo aquisição de softwares, licenças, implantação, manutenção, capacitação e suporte técnico."
-    },
-    {
-      "numero": "2018NE00046",
-      "contrato": "3/2017",
-      "valor": 293640.88,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Contratação de empresa especializada em desenvolvimento de sistema de informações geográficas com base em plataforma Esri (ArcGIS) conforme Projeto Básico."
-    },
-    {
-      "numero": "2018NE00025",
-      "contrato": "9/2014",
-      "valor": 12615.49,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Contratação de empresa para prestação de serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados."
-    },
-    {
-      "numero": "2018NE00027",
+      "numero": "2019NE00017",
       "contrato": "13/2015",
-      "valor": 174600.0,
+      "valor": 189026.91,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, para atender as necessidades do IPAAM."
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada em serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, para atender as necessidades do IPAAM."
+    },
+    {
+      "numero": "2019NE00016",
+      "contrato": "10/2016",
+      "valor": 13406.81,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada nos serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo Web, para publicação de informações, notícias, vídeos e imagens via Website, para atender o IPAAM."
+    },
+    {
+      "numero": "2019NE00018",
+      "contrato": "9/2014",
+      "valor": 12708.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada em serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados, para atender as necessidades do IPAAM."
+    },
+    {
+      "numero": "2019NE00032",
+      "contrato": "9/2014",
+      "valor": 12708.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada em serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados, para atender as necessidades do IPAAM."
+    },
+    {
+      "numero": "2019NE00031",
+      "contrato": "",
+      "valor": 12708.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "ANULAÇÃO TOTAL PARA ACERTO"
     },
     {
       "numero": "2018NE00040",
@@ -1864,36 +1832,36 @@
       "descricao": "Contratação de empresa especializada em serviços de licença de uso de sistema de informação, compreendendo a disponibilização de Gestor de Conteúdo WEB ao Instituto de Proteção Ambiental do Amazonas, para publicação de informações e notícias."
     },
     {
-      "numero": "2017NE00027",
-      "contrato": "10/2016",
-      "valor": 12343.26,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "SERVIÇOS DE PROCESSAMENTOS DE DADOS"
-    },
-    {
-      "numero": "2017NE00029",
-      "contrato": "11/2016",
-      "valor": 15060.0,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "SERVIÇOS DE PROCESSAMENTOS DE DADOS"
-    },
-    {
-      "numero": "2017NE00023",
+      "numero": "2018NE00027",
       "contrato": "13/2015",
       "valor": 174600.0,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "DESPESAS DE TELEPROCESSAMENTO"
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, para atender as necessidades do IPAAM."
     },
     {
-      "numero": "2017NE00028",
+      "numero": "2018NE00025",
       "contrato": "9/2014",
-      "valor": 12059.37,
+      "valor": 12615.49,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "DESPESAS DE TELEPROCESSAMENTO"
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa para prestação de serviços de informática de forma eventual, mediante a utilização de pessoal e equipamentos adequados."
+    },
+    {
+      "numero": "2018NE00046",
+      "contrato": "3/2017",
+      "valor": 293640.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada em desenvolvimento de sistema de informações geográficas com base em plataforma Esri (ArcGIS) conforme Projeto Básico."
+    },
+    {
+      "numero": "2018NE00018",
+      "contrato": "9/2016",
+      "valor": 13536.53,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de serviços de tecnologia da informação, incluindo aquisição de softwares, licenças, implantação, manutenção, capacitação e suporte técnico."
     },
     {
       "numero": "2017NE00021",
@@ -1904,20 +1872,44 @@
       "descricao": "OUTROS SERVIÇOS DE TERCEIROS PESSOA JURÍDICA"
     },
     {
+      "numero": "2017NE00028",
+      "contrato": "9/2014",
+      "valor": 12059.37,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "DESPESAS DE TELEPROCESSAMENTO"
+    },
+    {
+      "numero": "2017NE00023",
+      "contrato": "13/2015",
+      "valor": 174600.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "DESPESAS DE TELEPROCESSAMENTO"
+    },
+    {
+      "numero": "2017NE00029",
+      "contrato": "11/2016",
+      "valor": 15060.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SERVIÇOS DE PROCESSAMENTOS DE DADOS"
+    },
+    {
+      "numero": "2017NE00027",
+      "contrato": "10/2016",
+      "valor": 12343.26,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "SERVIÇOS DE PROCESSAMENTOS DE DADOS"
+    },
+    {
       "numero": "2014NE00008",
       "contrato": "1/2011",
       "valor": 2660.0,
       "situacao": "Ativo",
       "data_emissao": "02/01/2014",
       "descricao": "Contrato No. 1/2011 - Serviços Eventuais de Informatica"
-    },
-    {
-      "numero": "2017NE01352",
-      "contrato": "",
-      "valor": 12059.37,
-      "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "ANULAÇÃO DE SALDO"
     },
     {
       "numero": "2017NE01353",
@@ -1928,28 +1920,20 @@
       "descricao": "ANULAÇÃO DE SALDO NÃO UTILIZADO"
     },
     {
-      "numero": "2025NE0000858",
-      "contrato": "7/2021",
-      "valor": 19478.74,
+      "numero": "2017NE01352",
+      "contrato": "",
+      "valor": 12059.37,
       "situacao": "Ativo",
-      "data_emissao": "01/07/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
+      "data_emissao": "01/11/2017",
+      "descricao": "ANULAÇÃO DE SALDO"
     },
     {
-      "numero": "2025NE0000862",
-      "contrato": "14/2021",
-      "valor": 32513.02,
+      "numero": "2025NE0000859",
+      "contrato": "8/2021",
+      "valor": 3761.6,
       "situacao": "Ativo",
       "data_emissao": "01/07/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
-    },
-    {
-      "numero": "2025NE0000861",
-      "contrato": "18/2021",
-      "valor": 1804.18,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2025",
-      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 05."
     },
     {
       "numero": "2025NE0000860",
@@ -1960,12 +1944,28 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de tecnologia da informação, compreendendo a hospedagem de sistemas de informação em infraestrutura virtualizada, para atender as necessidades do IPAAM. Parecer/IPAAM/PAD/DJ n.º 032/2023. TC: 0010/2021 AD: 05."
     },
     {
-      "numero": "2025NE0000859",
-      "contrato": "8/2021",
-      "valor": 3761.6,
+      "numero": "2025NE0000861",
+      "contrato": "18/2021",
+      "valor": 1804.18,
       "situacao": "Ativo",
       "data_emissao": "01/07/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização do gestor de conteúdo WEB, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 020/2023. TC: 0008/2021 AD: 05."
+      "descricao": "Contratação de empresa especializada em serviços de implantação e execução de sistemas de protocolo em plataforma (Sproweb) para controle de documentos e processos do IPAAM. PARECER/IPAAM/PAD/DJ N.º 119/2022. TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000862",
+      "contrato": "14/2021",
+      "valor": 32513.02,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de rede, compreendendo o acesso gerenciado à internet, através da Rede de Governo, de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 149/2022. TC: 0014/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000858",
+      "contrato": "7/2021",
+      "valor": 19478.74,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de informática de forma eventual, para atender as necessidades do IPAAM. PARECER/IPAAM/PAD/DJ N.º 030/2023. TC: 0007/2021 AD: 05."
     }
   ],
   "faturas": [
@@ -2416,7 +2416,7 @@
       "por_ano": {
         "2024": {
           "qtd": 35,
-          "valor": 558795.13
+          "valor": 558795.1300000001
         },
         "2016": {
           "qtd": 18,
@@ -2424,7 +2424,7 @@
         },
         "2018": {
           "qtd": 24,
-          "valor": 2647567.21
+          "valor": 2647567.2100000004
         },
         "2023": {
           "qtd": 22,
@@ -2448,7 +2448,7 @@
         },
         "2019": {
           "qtd": 13,
-          "valor": 342084.88999999996
+          "valor": 342084.8900000001
         },
         "2020": {
           "qtd": 9,

@@ -1,6 +1,6 @@
 # Dossiê Completo — ARSEPAM
 **Agência Reguladora de Serviços Públicos do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: 04.272.727/0001-89
+Data: 2026-05-07 | CNPJ: 04.272.727/0001-89
 
 ## Visão Executiva
 
@@ -59,7 +59,7 @@ Distribuição por ano:
 | 2019NE00165 | 1/2018 | 29/04/2019 | R$ 65.292,12 | Ativo |
 | 2015NE00039 | 6/2014 | 04/05/2015 | R$ 60.840,00 | Ativo |
 | 2021NE0000060 | 1/2018 | 26/02/2021 | R$ 40.519,80 | Ativo |
-| 2020NE00025 |  | 02/01/2020 | R$ 22.499,70 | Ativo |
+| 2020NE00033 | 1/2018 | 02/01/2020 | R$ 22.499,70 | Ativo |
 
 ## Top 10 Faturas (por valor)
 
@@ -88,4 +88,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

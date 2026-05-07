@@ -98,6 +98,14 @@
   },
   "empenhos": [
     {
+      "numero": "2020NE00284",
+      "contrato": "",
+      "valor": 10204.74,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 056/2020 , CONFORME DECRETO Nº 43.042 DE 18 DE NOVEMBRO DE 2020 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DE 2020."
+    },
+    {
       "numero": "2020NE00286",
       "contrato": "",
       "valor": 2566.26,
@@ -106,12 +114,12 @@
       "descricao": "ANULAÇÃO PARCIAL DA NE Nº 055/2020, CONFORME DECRETO Nº 43.042 DE 18 DE NOVEMBRO DE 2020 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DE 2020. OBS: SALDO DE EMPENHO PARA QUITAÇÃO DAS FATURAS EM RESTOS A PAGAR."
     },
     {
-      "numero": "2020NE00284",
-      "contrato": "",
-      "valor": 10204.74,
+      "numero": "2024NE0000484",
+      "contrato": "26/2021",
+      "valor": 41105.36,
       "situacao": "Ativo",
-      "data_emissao": "31/12/2020",
-      "descricao": "ANULAÇÃO TOTAL DA NE Nº 056/2020 , CONFORME DECRETO Nº 43.042 DE 18 DE NOVEMBRO DE 2020 QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DE 2020."
+      "data_emissao": "31/10/2024",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
     },
     {
       "numero": "2023NE0000501",
@@ -122,12 +130,28 @@
       "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 02."
     },
     {
+      "numero": "2024NE0000265",
+      "contrato": "26/2021",
+      "valor": 39593.16,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2024",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 03."
+    },
+    {
       "numero": "2022NE0000572",
       "contrato": "",
       "valor": 4662.74,
       "situacao": "Ativo",
       "data_emissao": "30/11/2022",
       "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
+    },
+    {
+      "numero": "2024NE0000475",
+      "contrato": "26/2021",
+      "valor": 39593.16,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 03."
     },
     {
       "numero": "2023NE0000472",
@@ -138,12 +162,20 @@
       "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 03."
     },
     {
-      "numero": "2021NE0000198",
-      "contrato": "2/2020",
-      "valor": 17681.14,
+      "numero": "2024NE0000318",
+      "contrato": "4/2020",
+      "valor": 4888.3,
       "situacao": "Ativo",
-      "data_emissao": "30/06/2021",
-      "descricao": "1º Termo Aditivo ao Contrato 002.2020 - Serviços de infraestrutura de TI, Internet e Metromao"
+      "data_emissao": "30/09/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000317",
+      "contrato": "2/2020",
+      "valor": 18603.6,
+      "situacao": "Ativo",
+      "data_emissao": "30/09/2024",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 06."
     },
     {
       "numero": "2021NE0000196",
@@ -154,12 +186,28 @@
       "descricao": "Anulação total do saldo da Ne nº. 186/21, para ajustes na descrição."
     },
     {
+      "numero": "2021NE0000198",
+      "contrato": "2/2020",
+      "valor": 17681.14,
+      "situacao": "Ativo",
+      "data_emissao": "30/06/2021",
+      "descricao": "1º Termo Aditivo ao Contrato 002.2020 - Serviços de infraestrutura de TI, Internet e Metromao"
+    },
+    {
       "numero": "2022NE0000363",
       "contrato": "26/2021",
       "valor": 164431.28,
       "situacao": "Ativo",
       "data_emissao": "29/08/2022",
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM INSTALAÇÃO DE LINKS DE INTERNET, PARA QUE POSSA INTERLIGAR NOSSOS ESPAÇOS ESPORTIVOS, DE RESPONSABILIDADE DESTA FUNDAÇÃO."
+    },
+    {
+      "numero": "2025NE0000237",
+      "contrato": "26/2021",
+      "valor": 41105.36,
+      "situacao": "Ativo",
+      "data_emissao": "29/07/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
     },
     {
       "numero": "2021NE0000188",
@@ -186,25 +234,25 @@
       "descricao": "Contratação de empresa especializada para execução do Sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal."
     },
     {
-      "numero": "2022NE00279",
-      "contrato": "3/2020",
-      "valor": 2335.68,
+      "numero": "2025NE0000267",
+      "contrato": "7/2025",
+      "valor": 19852.22,
       "situacao": "Ativo",
-      "data_emissao": "28/06/2022",
-      "descricao": "Cobertura Financeira 2022"
+      "data_emissao": "28/08/2025",
+      "descricao": "Contratação da PRODAM – Processamento de Dados Amazonas S/A, referente a prestação de serviços de METROMAO, incluindo locação de equipamentos e suporte, fornecimento de acesso gerenciado à internet por meio da rede de governo, para a Sedel."
     },
     {
-      "numero": "2022NE0000281",
-      "contrato": "4/2020",
-      "valor": 4880.0,
+      "numero": "2022NE0000283",
+      "contrato": "2/2020",
+      "valor": 20292.6,
       "situacao": "Ativo",
       "data_emissao": "28/06/2022",
-      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
-      "numero": "2022NE00281",
-      "contrato": "4/2020",
-      "valor": 4880.0,
+      "numero": "2022NE00283",
+      "contrato": "2/2020",
+      "valor": 20292.6,
       "situacao": "Ativo",
       "data_emissao": "28/06/2022",
       "descricao": "Cobertura Financeira 2022"
@@ -218,19 +266,43 @@
       "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
     },
     {
-      "numero": "2022NE00283",
-      "contrato": "2/2020",
-      "valor": 20292.6,
+      "numero": "2022NE00281",
+      "contrato": "4/2020",
+      "valor": 4880.0,
       "situacao": "Ativo",
       "data_emissao": "28/06/2022",
       "descricao": "Cobertura Financeira 2022"
     },
     {
-      "numero": "2022NE0000283",
-      "contrato": "2/2020",
-      "valor": 20292.6,
+      "numero": "2022NE0000281",
+      "contrato": "4/2020",
+      "valor": 4880.0,
       "situacao": "Ativo",
       "data_emissao": "28/06/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE00279",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2022",
+      "descricao": "Cobertura Financeira 2022"
+    },
+    {
+      "numero": "2021NE0000187",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2021NE0000186",
+      "contrato": "",
+      "valor": 17681.14,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2021",
       "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
@@ -242,20 +314,84 @@
       "descricao": "1º Termo Aditivo ao Contrato 003/2020 - SPROWEB"
     },
     {
-      "numero": "2021NE0000186",
+      "numero": "2025NE0000505",
       "contrato": "",
-      "valor": 17681.14,
+      "valor": 29778.33,
       "situacao": "Ativo",
-      "data_emissao": "28/06/2021",
-      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação da PRODAM Processamento de Dados Amazonas S/A, referente a prestação de serviços de METROMAO, incluindo locação de equipamentos e suporte, fornecimento de acesso gerenciado à internet por meio da rede de governo, para a Sedel."
     },
     {
-      "numero": "2021NE0000187",
-      "contrato": "3/2020",
-      "valor": 2335.68,
+      "numero": "2025NE0000504",
+      "contrato": "",
+      "valor": 19852.22,
       "situacao": "Ativo",
-      "data_emissao": "28/06/2021",
-      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação da PRODAM Processamento de Dados Amazonas S/A, referente a prestação de serviços de METROMAO, incluindo locação de equipamentos e suporte, fornecimento de acesso gerenciado à internet por meio da rede de governo, para a Sedel."
+    },
+    {
+      "numero": "2025NE0000506",
+      "contrato": "7/2025",
+      "valor": 49630.55,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação da PRODAM – Processamento de Dados Amazonas S/A, referente a prestação de serviços de METROMAO, incluindo locação de equipamentos e suporte, fornecimento de acesso gerenciado à internet por meio da rede de governo, para a Sedel."
+    },
+    {
+      "numero": "2025NE0000515",
+      "contrato": "",
+      "valor": 42350.56,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR."
+    },
+    {
+      "numero": "2025NE0000512",
+      "contrato": "9/2025",
+      "valor": 5497.68,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "contratação, mediante dispensa de licitação, de pessoa jurídica especializada na prestação de serviços de execução e manutenção do sistema SPROWEB."
+    },
+    {
+      "numero": "2025NE0000513",
+      "contrato": "",
+      "valor": 20552.68,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR"
+    },
+    {
+      "numero": "2025NE0000514",
+      "contrato": "26/2021",
+      "valor": 20552.68,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000516",
+      "contrato": "26/2021",
+      "valor": 42350.56,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0000510",
+      "contrato": "",
+      "valor": 1374.42,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Contratação, mediante dispensa de licitação, de pessoa jurídica especializada na prestação de serviços de execução e manutenção do sistema SPROWEB."
+    },
+    {
+      "numero": "2025NE0000511",
+      "contrato": "",
+      "valor": 4123.26,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "contratação, mediante dispensa de licitação, de pessoa jurídica especializada na prestação de serviços de execução e manutenção do sistema SPROWEB"
     },
     {
       "numero": "2023NE0000469",
@@ -274,20 +410,12 @@
       "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 03."
     },
     {
-      "numero": "2021NE0000108",
+      "numero": "2021NE0000107",
       "contrato": "",
-      "valor": 3401.58,
+      "valor": 7660.8,
       "situacao": "Ativo",
       "data_emissao": "27/04/2021",
-      "descricao": "119820 - (ID-119820) HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para prestação de serviço de hospedagem de Website, conforme Projeto Básico. MARCA: sem marca Termo de Contrato Nº 004/2020; Objeto: Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
-    },
-    {
-      "numero": "2021NE0000103",
-      "contrato": "",
-      "valor": 17967.2,
-      "situacao": "Ativo",
-      "data_emissao": "27/04/2021",
-      "descricao": "115752 - (ID-115752) SERVIÇO DE TRANSMISSÃO DE DADOS, Descrição: Contratação de empresa especializada para fornecimento de circuito de transmissão de dados para conexão cliente/fornecedor. MARCA: sem marca"
+      "descricao": "116142 - (ID-116142) EXECUÇÃO DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para execução do Sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal. MARCA: sem marca Termo de Contrato Nº 003/2021; Objeto: Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento;"
     },
     {
       "numero": "2021NE0000106",
@@ -298,20 +426,20 @@
       "descricao": "115747 - (ID-115747) EXECUÇÃO DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para execução de sistema de protocolo web (SPROWEB). MARCA: sem marca Termo de Contrato Nº 003/2020; Objeto: Contratação de empresa especializada em serviços de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB).; Vigência: 01/07/2020 A 30/06/2021; Valor Mensal: R$ 1.483,00; Valor Global: R$ 17.796,00;"
     },
     {
-      "numero": "2021NE0000107",
+      "numero": "2021NE0000103",
       "contrato": "",
-      "valor": 7660.8,
+      "valor": 17967.2,
       "situacao": "Ativo",
       "data_emissao": "27/04/2021",
-      "descricao": "116142 - (ID-116142) EXECUÇÃO DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para execução do Sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal. MARCA: sem marca Termo de Contrato Nº 003/2021; Objeto: Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento;"
+      "descricao": "115752 - (ID-115752) SERVIÇO DE TRANSMISSÃO DE DADOS, Descrição: Contratação de empresa especializada para fornecimento de circuito de transmissão de dados para conexão cliente/fornecedor. MARCA: sem marca"
     },
     {
-      "numero": "2022NE00412",
-      "contrato": "26/2021",
-      "valor": 22625.58,
+      "numero": "2021NE0000108",
+      "contrato": "",
+      "valor": 3401.58,
       "situacao": "Ativo",
-      "data_emissao": "26/10/2022",
-      "descricao": "1º TA ao Contrato 026/2021 - Internet e Link"
+      "data_emissao": "27/04/2021",
+      "descricao": "119820 - (ID-119820) HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO, Descrição: Contratação de empresa especializada para prestação de serviço de hospedagem de Website, conforme Projeto Básico. MARCA: sem marca Termo de Contrato Nº 004/2020; Objeto: Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
     },
     {
       "numero": "2022NE0000412",
@@ -322,28 +450,12 @@
       "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
     },
     {
-      "numero": "2021NE0000094",
-      "contrato": "",
-      "valor": 2966.0,
+      "numero": "2022NE00412",
+      "contrato": "26/2021",
+      "valor": 22625.58,
       "situacao": "Ativo",
-      "data_emissao": "26/04/2021",
-      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 65 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
-    },
-    {
-      "numero": "2021NE0000092",
-      "contrato": "",
-      "valor": 17967.2,
-      "situacao": "Ativo",
-      "data_emissao": "26/04/2021",
-      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 63 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
-    },
-    {
-      "numero": "2021NE0000095",
-      "contrato": "",
-      "valor": 7660.8,
-      "situacao": "Ativo",
-      "data_emissao": "26/04/2021",
-      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 66 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
+      "data_emissao": "26/10/2022",
+      "descricao": "1º TA ao Contrato 026/2021 - Internet e Link"
     },
     {
       "numero": "2021NE0000096",
@@ -354,20 +466,36 @@
       "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 67 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
     },
     {
-      "numero": "2022NE0000551",
-      "contrato": "26/2021",
-      "valor": 22625.58,
+      "numero": "2021NE0000095",
+      "contrato": "",
+      "valor": 7660.8,
       "situacao": "Ativo",
-      "data_emissao": "25/11/2022",
-      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
+      "data_emissao": "26/04/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 66 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
     },
     {
-      "numero": "2022NE0000549",
-      "contrato": "3/2020",
-      "valor": 1167.84,
+      "numero": "2021NE0000092",
+      "contrato": "",
+      "valor": 17967.2,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 63 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
+    },
+    {
+      "numero": "2021NE0000094",
+      "contrato": "",
+      "valor": 2966.0,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2021",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO DE REFORÇO NR 65 EM RAZÃO DA DESCRIÇÃO ESTAR INCOMPLETA."
+    },
+    {
+      "numero": "2022NE0000548",
+      "contrato": "2/2020",
+      "valor": 10146.3,
       "situacao": "Ativo",
       "data_emissao": "25/11/2022",
-      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
       "numero": "2022NE0000550",
@@ -378,12 +506,20 @@
       "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
     },
     {
-      "numero": "2022NE0000548",
-      "contrato": "2/2020",
-      "valor": 10146.3,
+      "numero": "2022NE0000549",
+      "contrato": "3/2020",
+      "valor": 1167.84,
       "situacao": "Ativo",
       "data_emissao": "25/11/2022",
-      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000551",
+      "contrato": "26/2021",
+      "valor": 22625.58,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
     },
     {
       "numero": "2023NE0000031",
@@ -410,14 +546,6 @@
       "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
-      "numero": "2023NE00202",
-      "contrato": "4/2020",
-      "valor": 2444.15,
-      "situacao": "Ativo",
-      "data_emissao": "22/06/2023",
-      "descricao": "Contratação de empresa para prestação de serviço de hospedagem de site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR;"
-    },
-    {
       "numero": "2023NE0000202",
       "contrato": "4/2020",
       "valor": 2444.15,
@@ -426,28 +554,20 @@
       "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 03."
     },
     {
-      "numero": "2021NE0000067",
-      "contrato": "",
-      "valor": 3401.58,
+      "numero": "2023NE00202",
+      "contrato": "4/2020",
+      "valor": 2444.15,
       "situacao": "Ativo",
-      "data_emissao": "22/04/2021",
-      "descricao": "Reforço da Notas de Empenho 2121NE0000004 Termo de Contrato Nº 004/2020; Objeto: Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
+      "data_emissao": "22/06/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem de site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR;"
     },
     {
-      "numero": "2021NE0000063",
-      "contrato": "",
-      "valor": 17967.2,
+      "numero": "2024NE0000107",
+      "contrato": "26/2021",
+      "valor": 39593.16,
       "situacao": "Ativo",
-      "data_emissao": "22/04/2021",
-      "descricao": "Reforço da Notas de Empenho 2121NE0000002 Termo de Contrato Nº 002/2020; Objeto: Contratação de empresa especializada em serviços de infraestrutura de TI para acesso e manutenção através da Rede Metropolitana de Manaus (REPAM/MEtroMao) por meio de fibra ótica, incluindo serviço de Acesso à Internet através da Rede de Governo.;"
-    },
-    {
-      "numero": "2021NE0000066",
-      "contrato": "",
-      "valor": 7660.8,
-      "situacao": "Ativo",
-      "data_emissao": "22/04/2021",
-      "descricao": "Reforço da Notas de Empenho 2121NE0000020 Termo de Contrato Nº 003/2021; Objeto: Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento;"
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 03."
     },
     {
       "numero": "2021NE0000065",
@@ -458,12 +578,28 @@
       "descricao": "Reforço da Notas de Empenho 2121NE0000003 Termo de Contrato Nº 003/2020; Objeto: Contratação de empresa especializada em serviços de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB).;"
     },
     {
-      "numero": "2021NE00434",
-      "contrato": "26/2021",
-      "valor": 43555.02,
+      "numero": "2021NE0000066",
+      "contrato": "",
+      "valor": 7660.8,
       "situacao": "Ativo",
-      "data_emissao": "21/10/2021",
-      "descricao": "Contratação de Serviços de Infraestrutura de TI para acesso e manutenção e serviço de rede."
+      "data_emissao": "22/04/2021",
+      "descricao": "Reforço da Notas de Empenho 2121NE0000020 Termo de Contrato Nº 003/2021; Objeto: Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento;"
+    },
+    {
+      "numero": "2021NE0000063",
+      "contrato": "",
+      "valor": 17967.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Reforço da Notas de Empenho 2121NE0000002 Termo de Contrato Nº 002/2020; Objeto: Contratação de empresa especializada em serviços de infraestrutura de TI para acesso e manutenção através da Rede Metropolitana de Manaus (REPAM/MEtroMao) por meio de fibra ótica, incluindo serviço de Acesso à Internet através da Rede de Governo.;"
+    },
+    {
+      "numero": "2021NE0000067",
+      "contrato": "",
+      "valor": 3401.58,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2021",
+      "descricao": "Reforço da Notas de Empenho 2121NE0000004 Termo de Contrato Nº 004/2020; Objeto: Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
     },
     {
       "numero": "2021NE0000434",
@@ -474,36 +610,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM INSTALAÇÃO DE LINKS DE INTERNET, PARA QUE POSSA INTERLIGAR NOSSOS ESPAÇOS ESPORTIVOS, DE RESPONSABILIDADE DESTA FUNDAÇÃO."
     },
     {
-      "numero": "2022NE0000388",
+      "numero": "2021NE00434",
       "contrato": "26/2021",
-      "valor": 41107.82,
+      "valor": 43555.02,
       "situacao": "Ativo",
-      "data_emissao": "21/09/2022",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM INSTALAÇÃO DE LINKS DE INTERNET, PARA QUE POSSA INTERLIGAR NOSSOS ESPAÇOS ESPORTIVOS, DE RESPONSABILIDADE DESTA FUNDAÇÃO."
-    },
-    {
-      "numero": "2022NE0000387",
-      "contrato": "4/2020",
-      "valor": 4880.0,
-      "situacao": "Ativo",
-      "data_emissao": "21/09/2022",
-      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
-    },
-    {
-      "numero": "2022NE0000386",
-      "contrato": "3/2020",
-      "valor": 2335.68,
-      "situacao": "Ativo",
-      "data_emissao": "21/09/2022",
-      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
-    },
-    {
-      "numero": "2022NE0000385",
-      "contrato": "2/2020",
-      "valor": 20292.6,
-      "situacao": "Ativo",
-      "data_emissao": "21/09/2022",
-      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+      "data_emissao": "21/10/2021",
+      "descricao": "Contratação de Serviços de Infraestrutura de TI para acesso e manutenção e serviço de rede."
     },
     {
       "numero": "2022NE0000384",
@@ -514,12 +626,44 @@
       "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
     },
     {
-      "numero": "2023NE00191",
+      "numero": "2022NE0000385",
       "contrato": "2/2020",
-      "valor": 10631.5,
+      "valor": 20292.6,
       "situacao": "Ativo",
-      "data_emissao": "20/06/2023",
-      "descricao": "Contratação de Empresa especializada em serviços de infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus REPAM\\MetroMao por meio de fibra ótica, incluindo o serviço de acesso à internet."
+      "data_emissao": "21/09/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2022NE0000386",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000387",
+      "contrato": "4/2020",
+      "valor": 4880.0,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000388",
+      "contrato": "26/2021",
+      "valor": 41107.82,
+      "situacao": "Ativo",
+      "data_emissao": "21/09/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM INSTALAÇÃO DE LINKS DE INTERNET, PARA QUE POSSA INTERLIGAR NOSSOS ESPAÇOS ESPORTIVOS, DE RESPONSABILIDADE DESTA FUNDAÇÃO."
+    },
+    {
+      "numero": "2024NE0000080",
+      "contrato": "2/2020",
+      "valor": 18603.6,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2024",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 05."
     },
     {
       "numero": "2023NE0000191",
@@ -530,12 +674,12 @@
       "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 136/2023 – ASSJUR TC: 0002/2020 AD: 03."
     },
     {
-      "numero": "2023NE0000100",
-      "contrato": "3/2020",
-      "valor": 2335.68,
+      "numero": "2023NE00191",
+      "contrato": "2/2020",
+      "valor": 10631.5,
       "situacao": "Ativo",
-      "data_emissao": "20/03/2023",
-      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+      "data_emissao": "20/06/2023",
+      "descricao": "Contratação de Empresa especializada em serviços de infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus REPAM\\MetroMao por meio de fibra ótica, incluindo o serviço de acesso à internet."
     },
     {
       "numero": "2023NE0000101",
@@ -546,28 +690,20 @@
       "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
     },
     {
-      "numero": "2022NE0000210",
-      "contrato": "4/2020",
-      "valor": 4251.98,
-      "situacao": "Ativo",
-      "data_emissao": "19/05/2022",
-      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
-    },
-    {
-      "numero": "2022NE0000209",
+      "numero": "2023NE0000100",
       "contrato": "3/2020",
       "valor": 2335.68,
       "situacao": "Ativo",
-      "data_emissao": "19/05/2022",
+      "data_emissao": "20/03/2023",
       "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
     },
     {
-      "numero": "2022NE0000208",
+      "numero": "2024NE0000205",
       "contrato": "2/2020",
-      "valor": 17681.14,
+      "valor": 9301.8,
       "situacao": "Ativo",
-      "data_emissao": "19/05/2022",
-      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+      "data_emissao": "19/06/2024",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 06."
     },
     {
       "numero": "2022NE0000211",
@@ -578,20 +714,28 @@
       "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
     },
     {
-      "numero": "2021NE0000270",
-      "contrato": "4/2020",
-      "valor": 8503.96,
+      "numero": "2022NE0000208",
+      "contrato": "2/2020",
+      "valor": 17681.14,
       "situacao": "Ativo",
-      "data_emissao": "17/08/2021",
-      "descricao": "1º TERMO ADITIVO OU CONTRATO Nº 004/2020, Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
+      "data_emissao": "19/05/2022",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
-      "numero": "2021NE0000269",
-      "contrato": "2/2020",
-      "valor": 35362.28,
+      "numero": "2022NE0000209",
+      "contrato": "3/2020",
+      "valor": 2335.68,
       "situacao": "Ativo",
-      "data_emissao": "17/08/2021",
-      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 002/2020, contratação de empresa especializada em serviços de infraestrutura de TI para acesso e manutenção através da Rede Metropolitana de Manaus (REPAM/MEtroMao) por meio de fibra ótica, incluindo serviço de Acesso à Internet através da Rede de Governo.;"
+      "data_emissao": "19/05/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000210",
+      "contrato": "4/2020",
+      "valor": 4251.98,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
     },
     {
       "numero": "2021NE0000268",
@@ -602,6 +746,22 @@
       "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 003/2020, Contratação de empresa especializada em serviços de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB).;"
     },
     {
+      "numero": "2021NE0000269",
+      "contrato": "2/2020",
+      "valor": 35362.28,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 002/2020, contratação de empresa especializada em serviços de infraestrutura de TI para acesso e manutenção através da Rede Metropolitana de Manaus (REPAM/MEtroMao) por meio de fibra ótica, incluindo serviço de Acesso à Internet através da Rede de Governo.;"
+    },
+    {
+      "numero": "2021NE0000270",
+      "contrato": "4/2020",
+      "valor": 8503.96,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2021",
+      "descricao": "1º TERMO ADITIVO OU CONTRATO Nº 004/2020, Contratação de empresa especializada em serviços de gestão de conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação).;"
+    },
+    {
       "numero": "2020NE00054",
       "contrato": "2/2020",
       "valor": 53901.6,
@@ -610,12 +770,36 @@
       "descricao": "Serviços de Transmissão de Dados"
     },
     {
-      "numero": "2020NE00056",
-      "contrato": "4/2020",
-      "valor": 10204.74,
+      "numero": "2025NE0000587",
+      "contrato": "",
+      "valor": 9926.11,
       "situacao": "Ativo",
-      "data_emissao": "16/06/2020",
-      "descricao": "Hospedagem de Sistemas - Gestor WEB"
+      "data_emissao": "16/12/2025",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO N° 2025NE0000506 EM VIRTUDE DO DECRETO N° 52.770 DE 21/10/2025 ENCERRAMENTO DA EXECUÇÃO ORÇAMENTARIA, FINANCEIRA, PATRIMONIAL E CONTABIL DO EXERCICIO DE 2025"
+    },
+    {
+      "numero": "2025NE0000322",
+      "contrato": "26/2021",
+      "valor": 42350.56,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 05."
+    },
+    {
+      "numero": "2025NE0000320",
+      "contrato": "",
+      "valor": 29778.33,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "CANCELA NOTA DE EMPENHO Nº 2025NE0000315, PARA CORREÇÃO DE FONTE."
+    },
+    {
+      "numero": "2025NE0000321",
+      "contrato": "7/2025",
+      "valor": 29778.33,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "Contratação da PRODAM – Processamento de Dados Amazonas S/A, referente a prestação de serviços de METROMAO, incluindo locação de equipamentos e suporte, fornecimento de acesso gerenciado à internet por meio da rede de governo, para a Sedel."
     },
     {
       "numero": "2020NE00055",
@@ -626,17 +810,89 @@
       "descricao": "Execução de sistemas - SPROWEB"
     },
     {
-      "numero": "2023NE00031",
-      "contrato": "26/2021",
-      "valor": 45251.16,
+      "numero": "2020NE00056",
+      "contrato": "4/2020",
+      "valor": 10204.74,
       "situacao": "Ativo",
-      "data_emissao": "15/02/2023",
-      "descricao": "Cobertura Financeira"
+      "data_emissao": "16/06/2020",
+      "descricao": "Hospedagem de Sistemas - Gestor WEB"
     },
     {
-      "numero": "2023NE00004",
-      "contrato": "3/2021",
-      "valor": 2331.37,
+      "numero": "2025NE0000150",
+      "contrato": "26/2021",
+      "valor": 41105.36,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000147",
+      "contrato": "2/2020",
+      "valor": 18603.6,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2025",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 06."
+    },
+    {
+      "numero": "2025NE0000149",
+      "contrato": "4/2020",
+      "valor": 4888.3,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000148",
+      "contrato": "3/2020",
+      "valor": 2339.66,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2025",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000319",
+      "contrato": "9/2025",
+      "valor": 4123.26,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "contratação, mediante dispensa de licitação, de pessoa jurídica especializada na prestação de serviços de execução e manutenção do sistema SPROWEB."
+    },
+    {
+      "numero": "2024NE0000332",
+      "contrato": "3/2020",
+      "valor": 3509.49,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2024",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000333",
+      "contrato": "4/2020",
+      "valor": 7332.45,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000331",
+      "contrato": "2/2020",
+      "valor": 27905.4,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2024",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 06."
+    },
+    {
+      "numero": "2023NE0000036",
+      "contrato": "2/2020",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2023",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+    },
+    {
+      "numero": "2023NE00036",
+      "contrato": "2/2020",
+      "valor": 2292.6,
       "situacao": "Ativo",
       "data_emissao": "15/02/2023",
       "descricao": "Cobertura Financeira"
@@ -650,28 +906,108 @@
       "descricao": "Cobertura Financeira"
     },
     {
-      "numero": "2023NE00036",
-      "contrato": "2/2020",
-      "valor": 2292.6,
+      "numero": "2023NE00004",
+      "contrato": "3/2021",
+      "valor": 2331.37,
       "situacao": "Ativo",
       "data_emissao": "15/02/2023",
       "descricao": "Cobertura Financeira"
     },
     {
-      "numero": "2023NE0000036",
-      "contrato": "2/2020",
-      "valor": 20292.6,
+      "numero": "2023NE00031",
+      "contrato": "26/2021",
+      "valor": 45251.16,
       "situacao": "Ativo",
       "data_emissao": "15/02/2023",
-      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+      "descricao": "Cobertura Financeira"
     },
     {
-      "numero": "2022NE0000426",
+      "numero": "2025NE0000315",
+      "contrato": "7/2025",
+      "valor": 29778.33,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2025",
+      "descricao": "Contratação da PRODAM – Processamento de Dados Amazonas S/A, referente a prestação de serviços de METROMAO, incluindo locação de equipamentos e suporte, fornecimento de acesso gerenciado à internet por meio da rede de governo, para a Sedel."
+    },
+    {
+      "numero": "2025NE0000054",
       "contrato": "2/2020",
-      "valor": 10146.3,
+      "valor": 18603.6,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2025",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 06."
+    },
+    {
+      "numero": "2025NE0000055",
+      "contrato": "3/2020",
+      "valor": 2339.66,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2025",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000056",
+      "contrato": "4/2020",
+      "valor": 4888.3,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000057",
+      "contrato": "26/2021",
+      "valor": 41105.36,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000278",
+      "contrato": "9/2025",
+      "valor": 1374.42,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2025",
+      "descricao": "contratação, mediante dispensa de licitação, de pessoa jurídica especializada na prestação de serviços de execução e manutenção do sistema SPROWEB."
+    },
+    {
+      "numero": "2025NE0000277",
+      "contrato": "26/2021",
+      "valor": 20552.68,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000279",
+      "contrato": "10/2025",
+      "valor": 2784.24,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web."
+    },
+    {
+      "numero": "2024NE0000296",
+      "contrato": "3/2020",
+      "valor": 2339.66,
+      "situacao": "Ativo",
+      "data_emissao": "11/09/2024",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000312",
+      "contrato": "10/2025",
+      "valor": 8352.72,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web."
+    },
+    {
+      "numero": "2022NE0000425",
+      "contrato": "3/2020",
+      "valor": 1167.84,
       "situacao": "Ativo",
       "data_emissao": "08/11/2022",
-      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
     },
     {
       "numero": "2022NE0000424",
@@ -682,12 +1018,12 @@
       "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
     },
     {
-      "numero": "2022NE0000425",
-      "contrato": "3/2020",
-      "valor": 1167.84,
+      "numero": "2022NE0000426",
+      "contrato": "2/2020",
+      "valor": 10146.3,
       "situacao": "Ativo",
       "data_emissao": "08/11/2022",
-      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
       "numero": "2021NE0000407",
@@ -706,20 +1042,36 @@
       "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 03."
     },
     {
-      "numero": "2023NE0000212",
+      "numero": "2024NE0000061",
       "contrato": "4/2020",
-      "valor": 2440.0,
+      "valor": 4888.3,
       "situacao": "Ativo",
-      "data_emissao": "05/07/2023",
-      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. PARECER Nº 126/2022 – ASSJUR/FAAR TC: 004/2020 AD: 02."
+      "data_emissao": "07/03/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 04."
     },
     {
-      "numero": "2023NE0000210",
-      "contrato": "2/2020",
-      "valor": 10146.3,
+      "numero": "2024NE0000192",
+      "contrato": "4/2020",
+      "valor": 2444.15,
       "situacao": "Ativo",
-      "data_emissao": "05/07/2023",
-      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao, incluindo o serviço de Acesso à Internet através da Rede de Governo. PARECER Nº 125/2022–ASSJUR TC: 002/2020 AD: 02."
+      "data_emissao": "06/06/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000195",
+      "contrato": "26/2021",
+      "valor": 39593.16,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2024",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000191",
+      "contrato": "4/2020",
+      "valor": 4888.3,
+      "situacao": "Ativo",
+      "data_emissao": "06/06/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 04."
     },
     {
       "numero": "2023NE0000211",
@@ -730,12 +1082,52 @@
       "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB). PARECER Nº 134/2022 – ASSJUR/FAAR TC: 003/2020 AD: 02."
     },
     {
-      "numero": "2022NE00032",
-      "contrato": "3/2021",
-      "valor": 6994.11,
+      "numero": "2023NE0000210",
+      "contrato": "2/2020",
+      "valor": 10146.3,
       "situacao": "Ativo",
-      "data_emissao": "05/01/2022",
-      "descricao": "1º T.A Contrato 003/2021 - Prazo e Reaj. 21,73%"
+      "data_emissao": "05/07/2023",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao, incluindo o serviço de Acesso à Internet através da Rede de Governo. PARECER Nº 125/2022–ASSJUR TC: 002/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000212",
+      "contrato": "4/2020",
+      "valor": 2440.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/07/2023",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. PARECER Nº 126/2022 – ASSJUR/FAAR TC: 004/2020 AD: 02."
+    },
+    {
+      "numero": "2024NE0000058",
+      "contrato": "3/2020",
+      "valor": 2339.66,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2024",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 04."
+    },
+    {
+      "numero": "2026NE0000003",
+      "contrato": "26/2021",
+      "valor": 84701.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 05."
+    },
+    {
+      "numero": "2026NE0000006",
+      "contrato": "10/2025",
+      "valor": 11136.96,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web."
+    },
+    {
+      "numero": "2026NE0000005",
+      "contrato": "9/2025",
+      "valor": 5497.68,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "contratação, mediante dispensa de licitação, de pessoa jurídica especializada na prestação de serviços de execução e manutenção do sistema SPROWEB."
     },
     {
       "numero": "2022NE0000032",
@@ -746,20 +1138,36 @@
       "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
     },
     {
-      "numero": "2021NE0000003",
-      "contrato": "3/2020",
-      "valor": 5932.0,
+      "numero": "2022NE00032",
+      "contrato": "3/2021",
+      "valor": 6994.11,
       "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+      "data_emissao": "05/01/2022",
+      "descricao": "1º T.A Contrato 003/2021 - Prazo e Reaj. 21,73%"
     },
     {
-      "numero": "2021NE0000004",
-      "contrato": "4/2020",
-      "valor": 6803.16,
+      "numero": "2024NE0000189",
+      "contrato": "3/2020",
+      "valor": 1169.83,
       "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+      "data_emissao": "04/06/2024",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000187",
+      "contrato": "2/2020",
+      "valor": 18603.6,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2024",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000188",
+      "contrato": "3/2020",
+      "valor": 2339.66,
+      "situacao": "Ativo",
+      "data_emissao": "04/06/2024",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 04."
     },
     {
       "numero": "2021NE0000002",
@@ -770,20 +1178,28 @@
       "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
-      "numero": "2022NE0000010",
-      "contrato": "3/2020",
-      "valor": 4671.36,
+      "numero": "2021NE0000004",
+      "contrato": "4/2020",
+      "valor": 6803.16,
       "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2021NE0000003",
+      "contrato": "3/2020",
+      "valor": 5932.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
       "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
     },
     {
-      "numero": "2022NE0000012",
-      "contrato": "4/2020",
-      "valor": 8503.96,
+      "numero": "2022NE0000031",
+      "contrato": "",
+      "valor": 1915.2,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
-      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
     },
     {
       "numero": "2022NE0000023",
@@ -794,11 +1210,75 @@
       "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e Manutenção, através da Rede Metropolitana de Manaus REPAM/MetroMao por meio de fibra ótica, incluindo o serviço de Acesso à Internet através da Rede de Governo."
     },
     {
-      "numero": "2022NE0000031",
-      "contrato": "",
-      "valor": 1915.2,
+      "numero": "2022NE0000012",
+      "contrato": "4/2020",
+      "valor": 8503.96,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
+    },
+    {
+      "numero": "2022NE0000010",
+      "contrato": "3/2020",
+      "valor": 4671.36,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2025NE0000003",
+      "contrato": "3/2020",
+      "valor": 2339.66,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000034",
+      "contrato": "26/2021",
+      "valor": 41105.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000004",
+      "contrato": "4/2020",
+      "valor": 4888.3,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 05."
+    },
+    {
+      "numero": "2023NE0000005",
+      "contrato": "26/2021",
+      "valor": 45251.16,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
+    },
+    {
+      "numero": "2023NE0000008",
+      "contrato": "",
+      "valor": 20292.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Anulação total da NE 2023NE0000001, por motivo de data e modalidade informada errada"
+    },
+    {
+      "numero": "2023NE0000003",
+      "contrato": "3/2020",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
+    },
+    {
+      "numero": "2023NE0000004",
+      "contrato": "",
+      "valor": 2331.37,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
       "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
     },
     {
@@ -810,36 +1290,44 @@
       "descricao": "Contratação de empresa especializada no serviço de disponibilização de Gestor de Conteúdo WEB, para publicação de informações via Website, de acordo com o padrão de comunicação visual do Governo do Estado. (Licença de Uso de Sistema de Informação)"
     },
     {
-      "numero": "2023NE0000004",
-      "contrato": "",
-      "valor": 2331.37,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada em Serviço de Execução de sistemas PRODAM-RH, para manter o cadastro dos servidores e Folha de Pagamento de Pessoal, processar folhas de pagamento e fornecer relatórios para efetivação de pagamento."
-    },
-    {
-      "numero": "2023NE0000003",
-      "contrato": "3/2020",
-      "valor": 2335.68,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB. (SPROWEB)."
-    },
-    {
-      "numero": "2023NE0000008",
-      "contrato": "",
-      "valor": 20292.6,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Anulação total da NE 2023NE0000001, por motivo de data e modalidade informada errada"
-    },
-    {
-      "numero": "2023NE0000005",
+      "numero": "2025NE0000302",
       "contrato": "26/2021",
-      "valor": 45251.16,
+      "valor": 20552.68,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta Fundação Amazonas de Alto Rendimento -FAAR"
+      "data_emissao": "01/10/2025",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 04."
+    },
+    {
+      "numero": "2024NE0000019",
+      "contrato": "2/2020",
+      "valor": 18603.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2024",
+      "descricao": "Contratação de empresa especializada em serviços de Infraestrutura de TI para acesso e manutenção, através da Rede Metropolitana de Manaus através de fibra ótica, incluindo o serviço de Acesso à Internet. PARECER N. 394/2023 – ASSJUR/FAAR TC: 0002/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000021",
+      "contrato": "26/2021",
+      "valor": 39593.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2024",
+      "descricao": "Contratação de empresa especializada em instalação de links de internet, para que possa interligar nossos espaços esportivos de responsabilidades desta FAAR. PARECER N. 377/2023 – ASSJUR/FAAR PARECER N. 351/2023 - CONI/FAAR TC: 0026/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000020",
+      "contrato": "4/2020",
+      "valor": 4888.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem do site, compreendendo o armazenamento do site desta FAAR na infraestrutura tecnológica, para atender as necessidades desta FAAR. PARECER Nº 135/2023 – ASSJUR/FAAR TC: 0004/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000022",
+      "contrato": "3/2020",
+      "valor": 2339.66,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2024",
+      "descricao": "Contratação de empresa especializada no serviço de execução de Sistema de Protocolo em plataforma WEB (SPROWEB). PARECER Nº 143/2023 – ASSJUR/FAAR TC: 0003/2020 AD: 04."
     },
     {
       "numero": "2021NE00020",
@@ -1032,6 +1520,36 @@
       "empenhos_vinc": 127
     },
     {
+      "id": "164363",
+      "nf": "59161",
+      "contrato": "358/2025",
+      "valor_bruto": 6500.0,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "164365",
+      "nf": "59165",
+      "contrato": "358/2025",
+      "valor_bruto": 6500.0,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "162783",
+      "nf": "57831",
+      "contrato": "26/2021",
+      "valor_bruto": 6122.1,
+      "competencia": "09/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 28
+    },
+    {
       "id": "139492",
       "nf": "35977",
       "contrato": "26/2021",
@@ -1130,6 +1648,46 @@
       "situacao": "Emitida",
       "cadeia": "FORTE",
       "empenhos_vinc": 28
+    },
+    {
+      "id": "164364",
+      "nf": "59162",
+      "contrato": "358/2025",
+      "valor_bruto": 3426.11,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "164366",
+      "nf": "59164",
+      "contrato": "358/2025",
+      "valor_bruto": 3426.11,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "164102",
+      "nf": "59052",
+      "contrato": "356/2025",
+      "valor_bruto": 2784.24,
+      "competencia": "08/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "164101",
+      "nf": "59053",
+      "contrato": "356/2025",
+      "valor_bruto": 2784.24,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
     },
     {
       "id": "139493",
@@ -1377,6 +1935,26 @@
       "contrato": "26/2023",
       "valor_bruto": 2146.36,
       "competencia": "05/2023",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "164361",
+      "nf": "59160",
+      "contrato": "357/2025",
+      "valor_bruto": 1374.42,
+      "competencia": "07/2025",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 1
+    },
+    {
+      "id": "164362",
+      "nf": "59163",
+      "contrato": "357/2025",
+      "valor_bruto": 1374.42,
+      "competencia": "08/2025",
       "situacao": "Emitida",
       "cadeia": "COMPLETA",
       "empenhos_vinc": 1
@@ -2301,20 +2879,141 @@
       "Corrigido": "0,00",
       "Status": "Suspenso",
       "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "026/2021",
+      "Número": "162783",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/162783/E",
+      "Comp.": "09/2025",
+      "Valor": "6.122,10",
+      "Atraso": "171 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "356/2025",
+      "Número": "164102",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164102/E",
+      "Comp.": "08/2025",
+      "Valor": "2.784,24",
+      "Atraso": "119 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Licença de uso de sistemas de informação",
+      "Contrato": "356/2025",
+      "Número": "164101",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164101/E",
+      "Comp.": "07/2025",
+      "Valor": "2.784,24",
+      "Atraso": "119 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "357/2025",
+      "Número": "164361",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164361/E",
+      "Comp.": "07/2025",
+      "Valor": "1.374,42",
+      "Atraso": "115 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "358/2025",
+      "Número": "164363",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164363/E",
+      "Comp.": "07/2025",
+      "Valor": "6.500,00",
+      "Atraso": "115 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "358/2025",
+      "Número": "164364",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164364/E",
+      "Comp.": "07/2025",
+      "Valor": "3.426,11",
+      "Atraso": "115 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "357/2025",
+      "Número": "164362",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164362/E",
+      "Comp.": "08/2025",
+      "Valor": "1.374,42",
+      "Atraso": "115 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Acesso à MetroMao",
+      "Contrato": "358/2025",
+      "Número": "164366",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164366/E",
+      "Comp.": "08/2025",
+      "Valor": "3.426,11",
+      "Atraso": "115 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "SEDEL",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "358/2025",
+      "Número": "164365",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/164365/E",
+      "Comp.": "08/2025",
+      "Valor": "6.500,00",
+      "Atraso": "115 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
     }
   ],
   "stats": {
     "empenhos": {
-      "qtd": 94,
-      "valor_total": 1272727.86,
+      "qtd": 155,
+      "valor_total": 2446703.48,
       "por_ano": {
         "2020": {
           "qtd": 5,
           "valor": 85775.34000000001
         },
+        "2024": {
+          "qtd": 24,
+          "valor": 394060.5199999999
+        },
         "2023": {
           "qtd": 28,
-          "valor": 334720.07999999996
+          "valor": 334720.0799999999
         },
         "2022": {
           "qtd": 32,
@@ -2323,16 +3022,24 @@
         "2021": {
           "qtd": 29,
           "valor": 361422.6999999999
+        },
+        "2025": {
+          "qtd": 34,
+          "valor": 678579.3400000002
+        },
+        "2026": {
+          "qtd": 3,
+          "valor": 101335.75999999998
         }
       }
     },
     "faturas": {
-      "qtd": 63,
-      "valor_total": 330340.8
+      "qtd": 72,
+      "valor_total": 364632.44
     },
     "cobrancas": {
-      "qtd": 63,
-      "valor_total": 329289.74
+      "qtd": 72,
+      "valor_total": 363581.38
     }
   }
 }

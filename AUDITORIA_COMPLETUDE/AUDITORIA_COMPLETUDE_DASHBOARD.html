@@ -16,15 +16,15 @@ tr:hover{background:#f0f0f0}
 canvas{max-height:400px}
 </style></head><body>
 <h1>Auditoria de Completude — Projeto PRODAM</h1>
-<p>Gerado em 2026-04-17 | 69 devedores analisados</p>
+<p>Gerado em 2026-05-07 | 69 devedores analisados</p>
 
 <div class="grid">
 <div class="card"><div class="label">Score Médio</div>
-<div class="kpi">37.0%</div></div>
+<div class="kpi">37.9%</div></div>
 <div class="card"><div class="label">Gaps Documentais</div>
-<div class="kpi">478</div></div>
+<div class="kpi">471</div></div>
 <div class="card"><div class="label">Divergências</div>
-<div class="kpi">56</div></div>
+<div class="kpi">17</div></div>
 </div>
 
 <div class="card"><canvas id="scoreChart"></canvas></div>
@@ -33,24 +33,24 @@ canvas{max-height:400px}
 <table><tr><th>Devedor</th><th>Categoria</th><th>Score</th><th>Gaps</th><th>Divergências</th></tr>
 <tr><td>ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE</td><td>EMPRESA_PRIVADA</td><td>0.0%</td><td>11</td><td>0</td></tr>
 <tr><td>PSA TECHNOLOGY</td><td>EMPRESA_PRIVADA</td><td>0.0%</td><td>11</td><td>0</td></tr>
-<tr><td>UGPI</td><td>GOV_DIRETA</td><td>0.0%</td><td>11</td><td>0</td></tr>
-<tr><td>FMPES</td><td>GOV_INDIRETA</td><td>0.0%</td><td>11</td><td>0</td></tr>
-<tr><td>FJJA</td><td>GOV_INDIRETA</td><td>0.0%</td><td>11</td><td>0</td></tr>
-<tr><td>SETRAB</td><td>GOV_DIRETA</td><td>9.1%</td><td>10</td><td>0</td></tr>
-<tr><td>AADESAM</td><td>GOV_INDIRETA</td><td>9.1%</td><td>10</td><td>0</td></tr>
+<tr><td>UGPI</td><td>GOV_DIRETA</td><td>9.1%</td><td>10</td><td>0</td></tr>
+<tr><td>FMPES</td><td>GOV_INDIRETA</td><td>9.1%</td><td>10</td><td>0</td></tr>
+<tr><td>FJJA</td><td>GOV_INDIRETA</td><td>9.1%</td><td>10</td><td>0</td></tr>
 <tr><td>BANCO DAYCOVAL</td><td>EMPRESA_PRIVADA</td><td>9.1%</td><td>10</td><td>0</td></tr>
 <tr><td>BRADESCO FINANCIAMENTO</td><td>EMPRESA_PRIVADA</td><td>9.1%</td><td>10</td><td>0</td></tr>
 <tr><td>FUAM/FUHAM</td><td>GOV_INDIRETA</td><td>18.2%</td><td>9</td><td>0</td></tr>
 <tr><td>IKM DE</td><td>EMPRESA_PRIVADA</td><td>18.2%</td><td>9</td><td>0</td></tr>
 <tr><td>B23 TECNOLOGIA</td><td>EMPRESA_PRIVADA</td><td>18.2%</td><td>9</td><td>0</td></tr>
 <tr><td>SEJEL</td><td>GOV_DIRETA</td><td>18.2%</td><td>9</td><td>0</td></tr>
+<tr><td>SETRAB</td><td>GOV_DIRETA</td><td>18.2%</td><td>9</td><td>0</td></tr>
+<tr><td>AADESAM</td><td>GOV_INDIRETA</td><td>18.2%</td><td>9</td><td>0</td></tr>
 <tr><td>COSAMA</td><td>GOV_INDIRETA</td><td>18.2%</td><td>9</td><td>0</td></tr>
-<tr><td>BRADESCO</td><td>EMPRESA_PRIVADA</td><td>18.2%</td><td>9</td><td>0</td></tr>
-<tr><td>SALUX</td><td>EMPRESA_PRIVADA</td><td>18.2%</td><td>9</td><td>0</td></tr>
-<tr><td>POLÍCIA CIVIL</td><td>GOV_DIRETA</td><td>27.3%</td><td>8</td><td>2</td></tr>
+<tr><td>POLÍCIA CIVIL</td><td>GOV_DIRETA</td><td>27.3%</td><td>8</td><td>1</td></tr>
 <tr><td>FAAR/SEDEL</td><td>GOV_INDIRETA</td><td>27.3%</td><td>8</td><td>2</td></tr>
 <tr><td>PROVER</td><td>EMPRESA_PRIVADA</td><td>27.3%</td><td>8</td><td>0</td></tr>
 <tr><td>CETAM</td><td>GOV_INDIRETA</td><td>27.3%</td><td>8</td><td>0</td></tr>
+<tr><td>CGE</td><td>GOV_DIRETA</td><td>27.3%</td><td>8</td><td>0</td></tr>
+<tr><td>CASA MILITAR</td><td>GOV_DIRETA</td><td>27.3%</td><td>8</td><td>0</td></tr>
 </table>
 <script>
 new Chart(document.getElementById('scoreChart'),{
@@ -63,7 +63,7 @@ new Chart(document.getElementById('scoreChart'),{
       backgroundColor:'#1F3864'
     }]
   },
-  options:{responsive:true,plugins:{title:{display:true,text:'Top 30 — Score de Completude'}}}
+  options:{responsive:true,plugins:{title:{display:true,text:'Top 30 - Score de Completude'}}}
 });
 </script>
 </body></html>

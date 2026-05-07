@@ -1,6 +1,6 @@
 # Dossiê Completo — PROVER
 **Prover** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 20.308.187/0001-00
+Data: 2026-05-07 | CNPJ: 20.308.187/0001-00
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 20.308.187/0001-00
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 549.105,70 |
 | Valor atualizado (profile) | R$ 549.105,70 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 48 |
+| Faturas exigíveis | 48 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 82.365,85 |
@@ -65,4 +65,4 @@ Valor original R$ 549,105.70 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

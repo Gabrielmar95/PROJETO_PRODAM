@@ -1,6 +1,6 @@
 # Dossiê Completo — SNPH
 **Secretaria de Navegação Portuária e Hidrovias** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 01.253.690/0001-53
+Data: 2026-05-07 | CNPJ: 01.253.690/0001-53
 
 ## Visão Executiva
 
@@ -53,8 +53,8 @@ Distribuição por ano:
 | 2020NE00278 | 2/2020 | 23/09/2020 | R$ 33.137,70 | Ativo |
 | 2020NE00268 |  | 18/09/2020 | R$ 33.137,70 | Ativo |
 | 2020NE00136 | 2/2020 | 14/05/2020 | R$ 33.137,70 | Ativo |
-| 2026NE0000017 | 2/2025 | 05/01/2026 | R$ 18.534,80 | Ativo |
 | 2026NE0000016 |  | 05/01/2026 | R$ 18.534,80 | Ativo |
+| 2026NE0000017 | 2/2025 | 05/01/2026 | R$ 18.534,80 | Ativo |
 | 2020NE00004 | 4/2019 | 02/01/2020 | R$ 17.991,20 | Ativo |
 | 2021NE0000026 | 2/2020 | 04/01/2021 | R$ 17.595,24 | Ativo |
 | 2021NE0000219 | 2/2020 | 18/08/2021 | R$ 17.579,04 | Ativo |
@@ -88,4 +88,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

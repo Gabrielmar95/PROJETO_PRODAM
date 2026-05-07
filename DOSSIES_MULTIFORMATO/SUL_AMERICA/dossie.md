@@ -1,6 +1,6 @@
 # Dossiê Completo — SUL AMERICA
 **Sul América Seguros** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 01.685.053/0001-56
+Data: 2026-05-07 | CNPJ: 01.685.053/0001-56
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 01.685.053/0001-56
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 18.196,00 |
 | Valor atualizado (profile) | R$ 18.196,00 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 20 |
+| Faturas exigíveis | 20 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 2.729,40 |
@@ -65,4 +65,4 @@ Valor original R$ 18,196.00 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

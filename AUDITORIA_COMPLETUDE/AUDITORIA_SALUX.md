@@ -1,7 +1,7 @@
 # Auditoria de Completude — SALUX
-**Salux Informatização em Saúde S/A** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**Salux Informatização em Saúde S/A** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
-## Score de Completude: **18.2%**
+## Score de Completude: **27.3%**
 
 ## Checklist de Documentos
 
@@ -17,7 +17,7 @@
 | `reconhecimento` | ❌ FALTANDO | Atos de reconhecimento tácito/expresso |
 | `cnd` | ❌ FALTANDO | CNDs / Certidões |
 | `dossie_folder` | ❌ FALTANDO | Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS |
-| `consolidado_folder` | ❌ FALTANDO | Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS |
+| `consolidado_folder` | ✅ OK | Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS |
 
 
 ## Contagens (todas as fontes)
@@ -35,10 +35,10 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | *(AUSENTE)* |
+| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SALUX_CONSOLIDADO |
 | SPCF por_devedor | *(AUSENTE)* |
 
-## Documentos Faltantes (9)
+## Documentos Faltantes (8)
 
 - ❌ contrato: Pelo menos 1 contrato PDF ou ID
 - ❌ empenhos: NEs vinculadas ao contrato
@@ -48,7 +48,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 - ❌ dossie_folder: Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS
-- ❌ consolidado_folder: Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS
 
 ## Divergências (0)
 

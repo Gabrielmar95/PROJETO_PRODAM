@@ -1,6 +1,6 @@
 # Dossiê Completo — IKM DE
 **IKM DE** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 14.968.157/0001-10
+Data: 2026-05-07 | CNPJ: 14.968.157/0001-10
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 14.968.157/0001-10
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 116.263,60 |
 | Valor atualizado (profile) | R$ 116.263,60 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 12 |
+| Faturas exigíveis | 12 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 17.439,54 |
@@ -31,7 +31,7 @@ Distribuição por ano:
 |-----|-----|-------|
 
 ### Faturas: 12 | R$ 116.263,60
-### Cobranças SPCF: 0 | R$ 0,00
+### Cobranças SPCF: 12 | R$ 116.263,60
 
 ## Top 10 Empenhos (por valor)
 
@@ -65,4 +65,4 @@ Valor original R$ 116,263.60 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

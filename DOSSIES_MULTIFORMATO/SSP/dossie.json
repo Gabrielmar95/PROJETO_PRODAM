@@ -695,12 +695,12 @@
   },
   "empenhos": [
     {
-      "numero": "2020NE01200",
+      "numero": "2020NE01202",
       "contrato": "",
-      "valor": 1064.35,
+      "valor": 16195.31,
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
-      "descricao": "Anulação do saldo da 2020NE00438 no valor de R$ 1.064,35, conforme descrito no Memorando nº 062/2020-DOF/SSP de 28 de dezembro de 2020, em razão do encerramento do exercício/2020."
+      "descricao": "Anulação do saldo da 2020NE00919 no valor de R$ 16.195,31, conforme descrito no Memorando nº 062/2020-DOF/SSP, em razão do encerramento do exercício/2020."
     },
     {
       "numero": "2020NE01201",
@@ -711,12 +711,12 @@
       "descricao": "Anulação do saldo da 2020NE00598 no valor de R$ 21.287,04, conforme descrito no Memorando nº 062/2020-DOF/SSP, em razão do encerramento do exercício/2020."
     },
     {
-      "numero": "2020NE01202",
+      "numero": "2020NE01200",
       "contrato": "",
-      "valor": 16195.31,
+      "valor": 1064.35,
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
-      "descricao": "Anulação do saldo da 2020NE00919 no valor de R$ 16.195,31, conforme descrito no Memorando nº 062/2020-DOF/SSP, em razão do encerramento do exercício/2020."
+      "descricao": "Anulação do saldo da 2020NE00438 no valor de R$ 1.064,35, conforme descrito no Memorando nº 062/2020-DOF/SSP de 28 de dezembro de 2020, em razão do encerramento do exercício/2020."
     },
     {
       "numero": "2016NE00901",
@@ -727,17 +727,17 @@
       "descricao": "Anulação de Saldo da Nota de Empenho 2016NE00399, em atendimento a Instrução Normativa Nº 01/2016, de 14/12/2016-SET/SEFAZ (Encerramento do Exercício de 2016)."
     },
     {
-      "numero": "2025NE0001172",
+      "numero": "2025NE0001171",
       "contrato": "22/2025",
-      "valor": 2025526.76,
+      "valor": 1487223.75,
       "situacao": "Ativo",
       "data_emissao": "30/07/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
     },
     {
-      "numero": "2025NE0001171",
+      "numero": "2025NE0001172",
       "contrato": "22/2025",
-      "valor": 1487223.75,
+      "valor": 2025526.76,
       "situacao": "Ativo",
       "data_emissao": "30/07/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
@@ -751,20 +751,12 @@
       "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
     },
     {
-      "numero": "2025NE0002018",
+      "numero": "2025NE0002017",
       "contrato": "22/2025",
-      "valor": 2025526.76,
+      "valor": 1487223.75,
       "situacao": "Ativo",
       "data_emissao": "29/10/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
-    },
-    {
-      "numero": "2025NE0002021",
-      "contrato": "",
-      "valor": 922698.81,
-      "situacao": "Ativo",
-      "data_emissao": "29/10/2025",
-      "descricao": "Anulação parcial da 2025NE0000887 no valor de R$ 922.698,81, conforme execução até 08/2025, nos termos do MEMORANDO Nº 142/2025-DOF/SSP-AM."
     },
     {
       "numero": "2025NE0002020",
@@ -775,9 +767,17 @@
       "descricao": "Anulação parcial da 2025NE0000885 no valor de R$ 1.509.828,59, conforme execução até 08/2025, nos termos do MEMORANDO Nº 142/2025-DOF/SSP-AM."
     },
     {
-      "numero": "2025NE0002017",
+      "numero": "2025NE0002021",
+      "contrato": "",
+      "valor": 922698.81,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "Anulação parcial da 2025NE0000887 no valor de R$ 922.698,81, conforme execução até 08/2025, nos termos do MEMORANDO Nº 142/2025-DOF/SSP-AM."
+    },
+    {
+      "numero": "2025NE0002018",
       "contrato": "22/2025",
-      "valor": 1487223.75,
+      "valor": 2025526.76,
       "situacao": "Ativo",
       "data_emissao": "29/10/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
@@ -799,185 +799,9 @@
       "descricao": "Anulação do saldo da NE0000035/2023, conforme faturamento dos meses de janeiro e fevereiro/2023, bem como Despacho do fiscal do Contrato na fl.16 do MEMO CIRC. Nº 038/2023-GSE/SSP-AM."
     },
     {
-      "numero": "2018NE01137",
+      "numero": "2018NE01140",
       "contrato": "",
-      "valor": 211799.95,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01142",
-      "contrato": "",
-      "valor": 151828.48,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01181",
-      "contrato": "",
-      "valor": 48194.39,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
-    },
-    {
-      "numero": "2018NE01139",
-      "contrato": "",
-      "valor": 151738.93,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01135",
-      "contrato": "",
-      "valor": 509.09,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01156",
-      "contrato": "",
-      "valor": 303477.86,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01148",
-      "contrato": "",
-      "valor": 261005.89,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01191",
-      "contrato": "",
-      "valor": 358916.21,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
-    },
-    {
-      "numero": "2018NE01134",
-      "contrato": "",
-      "valor": 211781.19,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01149",
-      "contrato": "",
-      "valor": 261005.89,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01151",
-      "contrato": "",
-      "valor": 423599.9,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01155",
-      "contrato": "",
-      "valor": 624634.32,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01154",
-      "contrato": "",
-      "valor": 436780.04,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01152",
-      "contrato": "",
-      "valor": 211799.95,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01138",
-      "contrato": "",
-      "valor": 211781.19,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01144",
-      "contrato": "",
-      "valor": 573839.36,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01147",
-      "contrato": "",
-      "valor": 1747120.16,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01153",
-      "contrato": "",
-      "valor": 211799.95,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01146",
-      "contrato": "",
-      "valor": 261005.89,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01150",
-      "contrato": "",
-      "valor": 261005.89,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01141",
-      "contrato": "",
-      "valor": 151828.48,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01143",
-      "contrato": "",
-      "valor": 151828.48,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
-    },
-    {
-      "numero": "2018NE01145",
-      "contrato": "",
-      "valor": 573839.36,
+      "valor": 281919.5,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
@@ -991,9 +815,185 @@
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
     },
     {
-      "numero": "2018NE01140",
+      "numero": "2018NE01145",
       "contrato": "",
-      "valor": 281919.5,
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01143",
+      "contrato": "",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01141",
+      "contrato": "",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01150",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01146",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01153",
+      "contrato": "",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01147",
+      "contrato": "",
+      "valor": 1747120.16,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01144",
+      "contrato": "",
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01138",
+      "contrato": "",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01152",
+      "contrato": "",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01154",
+      "contrato": "",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01155",
+      "contrato": "",
+      "valor": 624634.32,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01151",
+      "contrato": "",
+      "valor": 423599.9,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01149",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01134",
+      "contrato": "",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01191",
+      "contrato": "",
+      "valor": 358916.21,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE01148",
+      "contrato": "",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01156",
+      "contrato": "",
+      "valor": 303477.86,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01135",
+      "contrato": "",
+      "valor": 509.09,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01139",
+      "contrato": "",
+      "valor": 151738.93,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01181",
+      "contrato": "",
+      "valor": 48194.39,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE01142",
+      "contrato": "",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE01137",
+      "contrato": "",
+      "valor": 211799.95,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
@@ -1007,14 +1007,6 @@
       "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
     },
     {
-      "numero": "2023NE0000438",
-      "contrato": "48/2021",
-      "valor": 1071904.52,
-      "situacao": "Ativo",
-      "data_emissao": "28/04/2023",
-      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 048/"
-    },
-    {
       "numero": "2023NE00438",
       "contrato": "48/2021",
       "valor": 1071904.52,
@@ -1023,12 +1015,12 @@
       "descricao": "Cobertura Financeira"
     },
     {
-      "numero": "2024NE0001659",
-      "contrato": "",
-      "valor": 15874.46,
+      "numero": "2023NE0000438",
+      "contrato": "48/2021",
+      "valor": 1071904.52,
       "situacao": "Ativo",
-      "data_emissao": "27/12/2024",
-      "descricao": "Anulação do saldo remanescente da 2023NE0000003 no valor de R$ 15.874,46, conforme orientação contida no Decreto nº 50.522 de 22/10/2024 que trata do enceramento da execução orçamentária, financeira e contábil do exercício de 2024, bem como Despacho do fiscal do Contrato na fl. 23 do MEMO CIRC. Nº 113/2024-GSE/SSP-AM."
+      "data_emissao": "28/04/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 048/"
     },
     {
       "numero": "2024NE0001657",
@@ -1039,6 +1031,14 @@
       "descricao": "Anulação do saldo remanescente da 2023NE0000930 no valor de R$ 7.411,51, conforme orientação contida no Decreto nº 50.522 de 22/10/2024 que trata do enceramento da execução orçamentária, financeira e contábil do exercício de 2024, bem como Despacho do fiscal do Contrato na fl. 23 do MEMO CIRC. Nº 113/2024-GSE/SSP-AM."
     },
     {
+      "numero": "2024NE0001659",
+      "contrato": "",
+      "valor": 15874.46,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "Anulação do saldo remanescente da 2023NE0000003 no valor de R$ 15.874,46, conforme orientação contida no Decreto nº 50.522 de 22/10/2024 que trata do enceramento da execução orçamentária, financeira e contábil do exercício de 2024, bem como Despacho do fiscal do Contrato na fl. 23 do MEMO CIRC. Nº 113/2024-GSE/SSP-AM."
+    },
+    {
       "numero": "2023NE0001607",
       "contrato": "",
       "valor": 139816.94,
@@ -1047,20 +1047,20 @@
       "descricao": "Anulação do saldo da 2023NE0000035 no valor R$ 139.816,94, conforme faturamentos dos meses de março a julho de 2023, bem como Despacho do fiscal do Contrato no MEMO CIRC Nº 172/2023-GSE/SSP-AM."
     },
     {
-      "numero": "2015NE00284",
-      "contrato": "94/2011",
-      "valor": 172111.36,
-      "situacao": "Ativo",
-      "data_emissao": "26/03/2015",
-      "descricao": "Despesa com reconhecimento de divida - Folha de Informação 046/2015 do Contratos 094/2011 ref. a prestação de serviços de implantação de solução tecnológica integrada de monitoramento, comando e controle de operações."
-    },
-    {
       "numero": "2015NE00285",
       "contrato": "67/2012",
       "valor": 776531.03,
       "situacao": "Ativo",
       "data_emissao": "26/03/2015",
       "descricao": "Despesa com reconhecimento de divida Folha de Informação 045/2015 do Contratos 067/2011 ref. a prestação de serviços de desenvolvimento e hospedagem de sistema de segurança pública."
+    },
+    {
+      "numero": "2015NE00284",
+      "contrato": "94/2011",
+      "valor": 172111.36,
+      "situacao": "Ativo",
+      "data_emissao": "26/03/2015",
+      "descricao": "Despesa com reconhecimento de divida - Folha de Informação 046/2015 do Contratos 094/2011 ref. a prestação de serviços de implantação de solução tecnológica integrada de monitoramento, comando e controle de operações."
     },
     {
       "numero": "2022NE0001718",
@@ -1087,20 +1087,20 @@
       "descricao": "Despesa com reconhecimento de divida Folha de Informação 018/2015 do Contratos 068/2011 ref. a prestação de serviços de fornecimento de circuito de transmissão de dados para atender o programa ronda no bairro; desenvolvimento e hospedagem do SISP; implantação de solução tecnológica."
     },
     {
-      "numero": "2021NE0001415",
-      "contrato": "48/2021",
-      "valor": 535952.26,
-      "situacao": "Ativo",
-      "data_emissao": "23/09/2021",
-      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
-    },
-    {
       "numero": "2021NE0001410",
       "contrato": "",
       "valor": 292828.26,
       "situacao": "Ativo",
       "data_emissao": "23/09/2021",
       "descricao": "Anulação parcial da 2021NE0000991 no valor R$ 292.828,26, conforme descrito no Memorando 131/2021-DOF/SSP, Memorando Circular nº 018/2021-GSE/SSP e resposta do fiscal na folha 11 do Memorando Circular nº 018/2021-GSE/SSP."
+    },
+    {
+      "numero": "2021NE0001415",
+      "contrato": "48/2021",
+      "valor": 535952.26,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2021",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
     },
     {
       "numero": "2022NE0001685",
@@ -1111,9 +1111,9 @@
       "descricao": "ANULAÇÃO DO SALDO DA 2022NE0001418, NO VALOR DE R$ 25.476,86, CONFORME DESCRITO NO MEMO CIRC Nº 064/2022-GSE/SSP-AM-FOLHA 11, EM RAZÃO DO FATURAMENTO NO MÊS DE SETEMBRO/2022."
     },
     {
-      "numero": "2025NE0001952",
+      "numero": "2025NE0001953",
       "contrato": "19/2025",
-      "valor": 7617.78,
+      "valor": 5881.12,
       "situacao": "Ativo",
       "data_emissao": "22/10/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
@@ -1127,25 +1127,25 @@
       "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
-      "numero": "2025NE0001953",
+      "numero": "2025NE0001952",
       "contrato": "19/2025",
-      "valor": 5881.12,
+      "valor": 7617.78,
       "situacao": "Ativo",
       "data_emissao": "22/10/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
-      "numero": "2025NE0001639",
+      "numero": "2025NE0001638",
       "contrato": "22/2025",
-      "valor": 1487223.75,
+      "valor": 2025526.76,
       "situacao": "Ativo",
       "data_emissao": "22/09/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
     },
     {
-      "numero": "2025NE0001638",
+      "numero": "2025NE0001639",
       "contrato": "22/2025",
-      "valor": 2025526.76,
+      "valor": 1487223.75,
       "situacao": "Ativo",
       "data_emissao": "22/09/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
@@ -1183,20 +1183,12 @@
       "descricao": "Anulação do saldo da 2021NE0000069 no valor de R$ 89.407,77, conforme descrito no Memorando nº 005/2021-GSE/SSP, em razão dos faturamentos entre meses de janeiro a março de 2021."
     },
     {
-      "numero": "2021NE0000660",
+      "numero": "2021NE0000658",
       "contrato": "",
-      "valor": 360021.56,
+      "valor": 500362.04,
       "situacao": "Ativo",
       "data_emissao": "19/04/2021",
-      "descricao": "Despesa com pagamento de prestação de serviço de internet. NFS-e Nºs 5029; 5030; 5033; 5035 e 5036, referente ao mês de nov/18; oriundo do TC 18/2016-SSP, para atender as necessidades do SSP. Parecer Nº 00064/2019-PA/PGE."
-    },
-    {
-      "numero": "2021NE0000659",
-      "contrato": "",
-      "valor": 502299.07,
-      "situacao": "Ativo",
-      "data_emissao": "19/04/2021",
-      "descricao": "Despesa com pgto de prest. de serviços de informática, NFS-e Nºs. 12196; 12197; 12198; 12199; 12200; 12201; 12202; 12203 e 12204, ref. ao mês de dez/19; oriundo do TC 18/2016-SSP. Parecer Nº 00243/2020-PA/PGE/AM."
+      "descricao": "Despesa com pgto. de prest. de serv. de internet, hospedagem de sistema e manut. de rede, conf. NFS-e Nºs: 5448; 5449; 5450; 5451; 5452; 5453; 5454 e 5455, ref. ao mês de dez/18; oriundo do TC 18/2016-SSP. Parecer Nº 00057/2019-PA/PGE."
     },
     {
       "numero": "2021NE0000661",
@@ -1207,12 +1199,20 @@
       "descricao": "Despesa com pgto de prestação de serviço de informática. NFS-e Nºs. 11658; 11660; 11661; 11663, ref. ao valor líquido (remanescente) do mês de nov/19; oriundo do TC 18/2016-SSP, para atender as necessidades do SSP. Parecer Nº 00293/2020-PA/PGE/AM."
     },
     {
-      "numero": "2021NE0000658",
+      "numero": "2021NE0000659",
       "contrato": "",
-      "valor": 500362.04,
+      "valor": 502299.07,
       "situacao": "Ativo",
       "data_emissao": "19/04/2021",
-      "descricao": "Despesa com pgto. de prest. de serv. de internet, hospedagem de sistema e manut. de rede, conf. NFS-e Nºs: 5448; 5449; 5450; 5451; 5452; 5453; 5454 e 5455, ref. ao mês de dez/18; oriundo do TC 18/2016-SSP. Parecer Nº 00057/2019-PA/PGE."
+      "descricao": "Despesa com pgto de prest. de serviços de informática, NFS-e Nºs. 12196; 12197; 12198; 12199; 12200; 12201; 12202; 12203 e 12204, ref. ao mês de dez/19; oriundo do TC 18/2016-SSP. Parecer Nº 00243/2020-PA/PGE/AM."
+    },
+    {
+      "numero": "2021NE0000660",
+      "contrato": "",
+      "valor": 360021.56,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2021",
+      "descricao": "Despesa com pagamento de prestação de serviço de internet. NFS-e Nºs 5029; 5030; 5033; 5035 e 5036, referente ao mês de nov/18; oriundo do TC 18/2016-SSP, para atender as necessidades do SSP. Parecer Nº 00064/2019-PA/PGE."
     },
     {
       "numero": "2024NE0001311",
@@ -1223,17 +1223,17 @@
       "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 06."
     },
     {
-      "numero": "2025NE0001373",
+      "numero": "2025NE0001374",
       "contrato": "22/2025",
-      "valor": 1487223.75,
+      "valor": 2025526.76,
       "situacao": "Ativo",
       "data_emissao": "18/08/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
     },
     {
-      "numero": "2025NE0001374",
+      "numero": "2025NE0001373",
       "contrato": "22/2025",
-      "valor": 2025526.76,
+      "valor": 1487223.75,
       "situacao": "Ativo",
       "data_emissao": "18/08/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
@@ -1279,180 +1279,12 @@
       "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
     },
     {
-      "numero": "2018NE00676",
-      "contrato": "83/2014",
-      "valor": 261005.89,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00153, REF. AO MÊS DE JULHO/2015 DO CONTRATO Nº 83/2014-SSP/AM."
-    },
-    {
-      "numero": "2018NE00669",
-      "contrato": "94/2011",
-      "valor": 151828.48,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 15484, que corresponde ao mês de agosto/2015."
-    },
-    {
-      "numero": "2018NE00660",
-      "contrato": "P.194/2016",
-      "valor": 509.09,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do serviço de informática prestado da SSP, referente a Nota Fiscal 20207, que corresponde ao mês de setembro/2016."
-    },
-    {
-      "numero": "2018NE00678",
-      "contrato": "P.54/2015",
+      "numero": "2018NE00662",
+      "contrato": "67/2012",
       "valor": 211799.95,
       "situacao": "Ativo",
       "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00151, REF. AO MÊS DE AGOSTO/2015."
-    },
-    {
-      "numero": "2018NE00665",
-      "contrato": "P.193/2015",
-      "valor": 151738.93,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento referente ao serviço de suporte técnico em Sistema de Informação Nota Fiscal 17138 que corresponde ao mês de dez/2015."
-    },
-    {
-      "numero": "2018NE00679",
-      "contrato": "P.54/2015",
-      "valor": 211799.95,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00151, REF. AO MÊS DE JULHO/2015."
-    },
-    {
-      "numero": "2018NE00666",
-      "contrato": "94/2011",
-      "valor": 281919.5,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 14451, que corresponde ao mês de abril/2015."
-    },
-    {
-      "numero": "2018NE00681",
-      "contrato": "P.54/2015",
-      "valor": 624634.32,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2017RD00331, REF. AO MÊS DE JUNHO/2015."
-    },
-    {
-      "numero": "2018NE00682",
-      "contrato": "",
-      "valor": 455216.79,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 664/2018, PARA CORREÇÃO NO VALOR INFORMADO NA RD2017RD00273."
-    },
-    {
-      "numero": "2018NE00668",
-      "contrato": "94/2011",
-      "valor": 151828.48,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 15170, que corresponde ao mês de julho/2015."
-    },
-    {
-      "numero": "2018NE00667",
-      "contrato": "94/2011",
-      "valor": 151828.48,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 14690, que corresponde ao mês de maio/2015."
-    },
-    {
-      "numero": "2018NE00672",
-      "contrato": "68/2012",
-      "valor": 261005.89,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente as Notas Fiscal 14696, 14697, 14698, 14699 e 14700, que corresponde ao mês de maio/2015."
-    },
-    {
-      "numero": "2018NE00664",
-      "contrato": "94/2011",
-      "valor": 455216.79,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 16732, 16724 e 16980, que corresponde aos meses de out, nov e dez/2016."
-    },
-    {
-      "numero": "2018NE00677",
-      "contrato": "P.193/2015",
-      "valor": 423599.9,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00219, REF. AO MÊS DE SETEMBRO/2015 e DEZEMBRO/2015."
-    },
-    {
-      "numero": "2018NE00663",
-      "contrato": "67/2012",
-      "valor": 211781.19,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 067/2015-SSP, referente a Nota Fiscal 14229, que corresponde ao mês de abril/2015."
-    },
-    {
-      "numero": "2018NE00659",
-      "contrato": "67/2012",
-      "valor": 211781.19,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 067/2015-SSP, referente a Nota Fiscal 13800, que corresponde ao mês de março/2015."
-    },
-    {
-      "numero": "2018NE00671",
-      "contrato": "68/2012",
-      "valor": 573839.36,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente a Nota Fiscal 13801, que corresponde ao mês de março/2015."
-    },
-    {
-      "numero": "2018NE00661",
-      "contrato": "P.54/2015",
-      "valor": 945610.24,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto de serviço de informática prestado para Secretaria de Segurança, processo com várias notas fiscais e meses diversos todos anexo no mesmo."
-    },
-    {
-      "numero": "2018NE00673",
-      "contrato": "P.22/2016",
-      "valor": 1747120.16,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2017RD00271, REF. AOS MESES DE JANEIRO/FEVEREIRO/MARÇO E ABRIL/2016."
-    },
-    {
-      "numero": "2018NE00670",
-      "contrato": "68/2012",
-      "valor": 573839.36,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente a Nota Fiscal 14231, que corresponde ao mês de abril/2015."
-    },
-    {
-      "numero": "2018NE00675",
-      "contrato": "83/2014",
-      "valor": 261005.89,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00150, REF. AO MÊS DE AGOSTO/2015 DO CONTRATO Nº 083/2014-SSP/AM."
-    },
-    {
-      "numero": "2018NE00680",
-      "contrato": "18/2016",
-      "valor": 436780.04,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2018",
-      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2018RD00136, REF. AO MÊS DE NOVEMBRO/2017."
+      "descricao": "Despesa para atender pagamento, objeto do serviço de informática prestado a Secretaria de Segurança."
     },
     {
       "numero": "2018NE00674",
@@ -1463,20 +1295,180 @@
       "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00218, REF. AO MÊS DE SETEMBRO/2015 DO CONTRATO Nº 55/2015-SSP/AM."
     },
     {
-      "numero": "2018NE00662",
+      "numero": "2018NE00680",
+      "contrato": "18/2016",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2018RD00136, REF. AO MÊS DE NOVEMBRO/2017."
+    },
+    {
+      "numero": "2018NE00675",
+      "contrato": "83/2014",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00150, REF. AO MÊS DE AGOSTO/2015 DO CONTRATO Nº 083/2014-SSP/AM."
+    },
+    {
+      "numero": "2018NE00670",
+      "contrato": "68/2012",
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente a Nota Fiscal 14231, que corresponde ao mês de abril/2015."
+    },
+    {
+      "numero": "2018NE00673",
+      "contrato": "P.22/2016",
+      "valor": 1747120.16,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2017RD00271, REF. AOS MESES DE JANEIRO/FEVEREIRO/MARÇO E ABRIL/2016."
+    },
+    {
+      "numero": "2018NE00661",
+      "contrato": "P.54/2015",
+      "valor": 945610.24,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto de serviço de informática prestado para Secretaria de Segurança, processo com várias notas fiscais e meses diversos todos anexo no mesmo."
+    },
+    {
+      "numero": "2018NE00671",
+      "contrato": "68/2012",
+      "valor": 573839.36,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente a Nota Fiscal 13801, que corresponde ao mês de março/2015."
+    },
+    {
+      "numero": "2018NE00659",
       "contrato": "67/2012",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 067/2015-SSP, referente a Nota Fiscal 13800, que corresponde ao mês de março/2015."
+    },
+    {
+      "numero": "2018NE00663",
+      "contrato": "67/2012",
+      "valor": 211781.19,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 067/2015-SSP, referente a Nota Fiscal 14229, que corresponde ao mês de abril/2015."
+    },
+    {
+      "numero": "2018NE00677",
+      "contrato": "P.193/2015",
+      "valor": 423599.9,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00219, REF. AO MÊS DE SETEMBRO/2015 e DEZEMBRO/2015."
+    },
+    {
+      "numero": "2018NE00664",
+      "contrato": "94/2011",
+      "valor": 455216.79,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 16732, 16724 e 16980, que corresponde aos meses de out, nov e dez/2016."
+    },
+    {
+      "numero": "2018NE00672",
+      "contrato": "68/2012",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 068/2012-SSP, referente as Notas Fiscal 14696, 14697, 14698, 14699 e 14700, que corresponde ao mês de maio/2015."
+    },
+    {
+      "numero": "2018NE00667",
+      "contrato": "94/2011",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 14690, que corresponde ao mês de maio/2015."
+    },
+    {
+      "numero": "2018NE00668",
+      "contrato": "94/2011",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 15170, que corresponde ao mês de julho/2015."
+    },
+    {
+      "numero": "2018NE00682",
+      "contrato": "",
+      "valor": 455216.79,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 664/2018, PARA CORREÇÃO NO VALOR INFORMADO NA RD2017RD00273."
+    },
+    {
+      "numero": "2018NE00681",
+      "contrato": "P.54/2015",
+      "valor": 624634.32,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2017RD00331, REF. AO MÊS DE JUNHO/2015."
+    },
+    {
+      "numero": "2018NE00666",
+      "contrato": "94/2011",
+      "valor": 281919.5,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 14451, que corresponde ao mês de abril/2015."
+    },
+    {
+      "numero": "2018NE00679",
+      "contrato": "P.54/2015",
       "valor": 211799.95,
       "situacao": "Ativo",
       "data_emissao": "17/07/2018",
-      "descricao": "Despesa para atender pagamento, objeto do serviço de informática prestado a Secretaria de Segurança."
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00151, REF. AO MÊS DE JULHO/2015."
     },
     {
-      "numero": "2020NE00807",
-      "contrato": "",
-      "valor": 20222.69,
+      "numero": "2018NE00665",
+      "contrato": "P.193/2015",
+      "valor": 151738.93,
       "situacao": "Ativo",
-      "data_emissao": "16/10/2020",
-      "descricao": "Anulação parcial do saldo da 2020NE00438 no valor de R$ 20.222,69, conforme descrito no Memorando nº 006/2020-DETEC/SSP de 14 de outubro de 2020."
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento referente ao serviço de suporte técnico em Sistema de Informação Nota Fiscal 17138 que corresponde ao mês de dez/2015."
+    },
+    {
+      "numero": "2018NE00678",
+      "contrato": "P.54/2015",
+      "valor": 211799.95,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00151, REF. AO MÊS DE AGOSTO/2015."
+    },
+    {
+      "numero": "2018NE00660",
+      "contrato": "P.194/2016",
+      "valor": 509.09,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do serviço de informática prestado da SSP, referente a Nota Fiscal 20207, que corresponde ao mês de setembro/2016."
+    },
+    {
+      "numero": "2018NE00669",
+      "contrato": "94/2011",
+      "valor": 151828.48,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "Despesa para atender pagamento, objeto do Contrato nº 94/2011-SSP, referente a Nota Fiscal 15484, que corresponde ao mês de agosto/2015."
+    },
+    {
+      "numero": "2018NE00676",
+      "contrato": "83/2014",
+      "valor": 261005.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2018",
+      "descricao": "DESPESA COM PAGAMENTO DE RECONHECIMENTO DE DÍVIDA - 2016RD00153, REF. AO MÊS DE JULHO/2015 DO CONTRATO Nº 83/2014-SSP/AM."
     },
     {
       "numero": "2020NE00809",
@@ -1487,6 +1479,14 @@
       "descricao": "Anulação parcial do saldo da 2020NE00001 no valor de R$ 22.351,39, conforme descrito no Memorando nº 006/2020-DETEC/SSP de 14 de outubro de 2020."
     },
     {
+      "numero": "2020NE00807",
+      "contrato": "",
+      "valor": 20222.69,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2020",
+      "descricao": "Anulação parcial do saldo da 2020NE00438 no valor de R$ 20.222,69, conforme descrito no Memorando nº 006/2020-DETEC/SSP de 14 de outubro de 2020."
+    },
+    {
       "numero": "2022NE0001345",
       "contrato": "",
       "valor": 31134.98,
@@ -1495,17 +1495,17 @@
       "descricao": "ANULAÇÃO DO SALDO DA 2022NE0000066 NO VALOR DE R$ 31.134,98, CONFORME DESCRITO NO MEMO CIRC Nº 044/2022-GSE/SSP-AM-FOLHA 10, EM RAZÃO DO FATURAMENTO DOS MESES DE JUNHO E JULHO DE 2022."
     },
     {
-      "numero": "2025NE0000887",
+      "numero": "2025NE0000885",
       "contrato": "22/2025",
-      "valor": 945245.82,
+      "valor": 694037.75,
       "situacao": "Ativo",
       "data_emissao": "16/06/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
     },
     {
-      "numero": "2025NE0000885",
+      "numero": "2025NE0000887",
       "contrato": "22/2025",
-      "valor": 694037.75,
+      "valor": 945245.82,
       "situacao": "Ativo",
       "data_emissao": "16/06/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
@@ -1519,20 +1519,20 @@
       "descricao": "Contratação de empresa para prestar serv de especializado em informática, manutenção e suporte a operação, serv técnico em telecomunicações, com fornecimento de circuito de transmissão de dados de links ponto a ponto p/ atender SISP, INFOPOL e SSP."
     },
     {
-      "numero": "2023NE0001326",
-      "contrato": "48/2021",
-      "valor": 250111.05,
-      "situacao": "Ativo",
-      "data_emissao": "15/09/2023",
-      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 04."
-    },
-    {
       "numero": "2023NE0001327",
       "contrato": "48/2021",
       "valor": 214380.91,
       "situacao": "Ativo",
       "data_emissao": "15/09/2023",
       "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
+    },
+    {
+      "numero": "2023NE0001326",
+      "contrato": "48/2021",
+      "valor": 250111.05,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 04."
     },
     {
       "numero": "2024NE0000930",
@@ -1543,14 +1543,6 @@
       "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 06."
     },
     {
-      "numero": "2021NE0000649",
-      "contrato": "",
-      "valor": 701234.12,
-      "situacao": "Ativo",
-      "data_emissao": "15/04/2021",
-      "descricao": "DESPESAS COM SERVIÇOS DE HOSPEDAGEM DE SISTEMAS DE SERVIDORES E OUTROS, NFS-e nºs: 16730, 16731, 16738, 16739, 16725, 16726, 16727, 16728, 16729, 16733, 16734, 16735, 16736, 16737 e PROPOSTA Nº 055/2015 PARA ATENDER NECESSIDADES DO SSP."
-    },
-    {
       "numero": "2021NE0000644",
       "contrato": "",
       "valor": 945610.24,
@@ -1559,12 +1551,12 @@
       "descricao": "Anulação total da 2021NE0000609 no valor R$ 945.610,24 para ajuste no cronograma."
     },
     {
-      "numero": "2016NE00399",
-      "contrato": "18/2016",
-      "valor": 1266662.12,
+      "numero": "2021NE0000649",
+      "contrato": "",
+      "valor": 701234.12,
       "situacao": "Ativo",
-      "data_emissao": "14/06/2016",
-      "descricao": "Cobertura Financeira 2016"
+      "data_emissao": "15/04/2021",
+      "descricao": "DESPESAS COM SERVIÇOS DE HOSPEDAGEM DE SISTEMAS DE SERVIDORES E OUTROS, NFS-e nºs: 16730, 16731, 16738, 16739, 16725, 16726, 16727, 16728, 16729, 16733, 16734, 16735, 16736, 16737 e PROPOSTA Nº 055/2015 PARA ATENDER NECESSIDADES DO SSP."
     },
     {
       "numero": "2016NE00399",
@@ -1575,12 +1567,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
     },
     {
-      "numero": "2025NE0001887",
-      "contrato": "22/2025",
-      "valor": 1487223.75,
+      "numero": "2016NE00399",
+      "contrato": "18/2016",
+      "valor": 1266662.12,
       "situacao": "Ativo",
-      "data_emissao": "13/10/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+      "data_emissao": "14/06/2016",
+      "descricao": "Cobertura Financeira 2016"
     },
     {
       "numero": "2025NE0001888",
@@ -1591,36 +1583,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
     },
     {
-      "numero": "2021NE0000614",
-      "contrato": "",
-      "valor": 436780.04,
+      "numero": "2025NE0001887",
+      "contrato": "22/2025",
+      "valor": 1487223.75,
       "situacao": "Ativo",
-      "data_emissao": "13/04/2021",
-      "descricao": "Despesa de exercício anterior referente a prestação de serviço de Hospedagem de sistema e suporte técnico em sistema de informação, para atender as necessidades do SSP, NFS-e nº 25802, 25803, 25804, 25805, 25806, 25807, 25808 e 25809.Mês:novo/2017."
+      "data_emissao": "13/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
     },
     {
-      "numero": "2021NE0000613",
+      "numero": "2021NE0000611",
       "contrato": "",
-      "valor": 1747120.16,
+      "valor": 151738.93,
       "situacao": "Ativo",
       "data_emissao": "13/04/2021",
-      "descricao": "Despesas com serviços de hospedagem de sistemas de servidores e outros; NFS-e 18092 a 18099; 18100 a 18107; 18109 a 18116; 18699 a 18706; referentes ao período JAN a ABR/2016; oriundos do Contrato 18/2016-SSP; para atender necessidades do SSP."
-    },
-    {
-      "numero": "2021NE0000609",
-      "contrato": "",
-      "valor": 945610.24,
-      "situacao": "Ativo",
-      "data_emissao": "13/04/2021",
-      "descricao": "DESPESAS COM SERVIÇOS DE HOSPEDAGEM DE SISTEMAS DE SERVIDORES E OUTROS, NFS-e nºs: 16730, 16731, 16738, 16739, 16725, 16726, 16727, 16728, 16729, 16733, 16734, 16735, 16736, 16737 e PROPOSTA Nº 055/2015 PARA ATENDER NECESSIDADES DO SSP."
-    },
-    {
-      "numero": "2021NE0000612",
-      "contrato": "",
-      "valor": 509.09,
-      "situacao": "Ativo",
-      "data_emissao": "13/04/2021",
-      "descricao": "Despesa com execução de sistemas, conforme NFS-e Nº 20207, no valor R$ 509,09, referente ao período SET/2016, para atender necessidades do Sistema de Segurança Pública. Parecer 50/2017-AJUR/SSP."
+      "descricao": "DESPESAS COM SERVIÇOS DE SUPORTE TÉCNICO EM SISTEMAS DE INFORMAÇÃO, NFS-e Nº 17138 VALOR R$ 151.738,93, REFERENTE AO MÊS DE DEZEMBRO/2015, PARA ATENDER NECESSIDADES DO SISTEMA DE SEGURANÇA PUBLICA."
     },
     {
       "numero": "2021NE0000610",
@@ -1631,12 +1607,36 @@
       "descricao": "Despesa com pagamento de serviço de suporte técnico em sistema de informação, conforme NFS-e Nºs 16732 e 16724, referente aos meses de OUT e NOV/2015; oriundo do Contrato 94/2011-SSP, para atender as necessidades do SSP. Parecer Nº 677/2016-AJUR/SSP."
     },
     {
-      "numero": "2021NE0000611",
+      "numero": "2021NE0000612",
       "contrato": "",
-      "valor": 151738.93,
+      "valor": 509.09,
       "situacao": "Ativo",
       "data_emissao": "13/04/2021",
-      "descricao": "DESPESAS COM SERVIÇOS DE SUPORTE TÉCNICO EM SISTEMAS DE INFORMAÇÃO, NFS-e Nº 17138 VALOR R$ 151.738,93, REFERENTE AO MÊS DE DEZEMBRO/2015, PARA ATENDER NECESSIDADES DO SISTEMA DE SEGURANÇA PUBLICA."
+      "descricao": "Despesa com execução de sistemas, conforme NFS-e Nº 20207, no valor R$ 509,09, referente ao período SET/2016, para atender necessidades do Sistema de Segurança Pública. Parecer 50/2017-AJUR/SSP."
+    },
+    {
+      "numero": "2021NE0000609",
+      "contrato": "",
+      "valor": 945610.24,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "DESPESAS COM SERVIÇOS DE HOSPEDAGEM DE SISTEMAS DE SERVIDORES E OUTROS, NFS-e nºs: 16730, 16731, 16738, 16739, 16725, 16726, 16727, 16728, 16729, 16733, 16734, 16735, 16736, 16737 e PROPOSTA Nº 055/2015 PARA ATENDER NECESSIDADES DO SSP."
+    },
+    {
+      "numero": "2021NE0000613",
+      "contrato": "",
+      "valor": 1747120.16,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "Despesas com serviços de hospedagem de sistemas de servidores e outros; NFS-e 18092 a 18099; 18100 a 18107; 18109 a 18116; 18699 a 18706; referentes ao período JAN a ABR/2016; oriundos do Contrato 18/2016-SSP; para atender necessidades do SSP."
+    },
+    {
+      "numero": "2021NE0000614",
+      "contrato": "",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "13/04/2021",
+      "descricao": "Despesa de exercício anterior referente a prestação de serviço de Hospedagem de sistema e suporte técnico em sistema de informação, para atender as necessidades do SSP, NFS-e nº 25802, 25803, 25804, 25805, 25806, 25807, 25808 e 25809.Mês:novo/2017."
     },
     {
       "numero": "2021NE0001165",
@@ -1671,17 +1671,17 @@
       "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
     },
     {
-      "numero": "2025NE0000873",
+      "numero": "2025NE0000872",
       "contrato": "19/2025",
-      "valor": 1666.32,
+      "valor": 2158.37,
       "situacao": "Ativo",
       "data_emissao": "11/06/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
-      "numero": "2025NE0000872",
+      "numero": "2025NE0000873",
       "contrato": "19/2025",
-      "valor": 2158.37,
+      "valor": 1666.32,
       "situacao": "Ativo",
       "data_emissao": "11/06/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
@@ -1703,20 +1703,12 @@
       "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
     },
     {
-      "numero": "2020NE00963",
-      "contrato": "18/2016",
-      "valor": 535952.59,
-      "situacao": "Ativo",
-      "data_emissao": "10/11/2020",
-      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
-    },
-    {
-      "numero": "2020NE00963",
+      "numero": "2020NE00962",
       "contrato": "",
       "valor": 535952.59,
       "situacao": "Ativo",
       "data_emissao": "10/11/2020",
-      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+      "descricao": "Anulação total da 2020NE00961, para correção de tipo de empenho."
     },
     {
       "numero": "2020NE00961",
@@ -1727,12 +1719,20 @@
       "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
     },
     {
-      "numero": "2020NE00962",
+      "numero": "2020NE00963",
       "contrato": "",
       "valor": 535952.59,
       "situacao": "Ativo",
       "data_emissao": "10/11/2020",
-      "descricao": "Anulação total da 2020NE00961, para correção de tipo de empenho."
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
+    },
+    {
+      "numero": "2020NE00963",
+      "contrato": "18/2016",
+      "valor": 535952.59,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2020",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto p/ligação das unds. da SSP."
     },
     {
       "numero": "2022NE0001139",
@@ -1783,9 +1783,9 @@
       "descricao": "Contratação de empresa especializada em serviços de acesso à Internet, Desenvolvimento de Sist.de Informação, de Transmissão de dados, de Informática, Hospedagem de Sist.de Informação e de manutenção de Website para SSP/AM."
     },
     {
-      "numero": "2025NE0001607",
+      "numero": "2025NE0001606",
       "contrato": "19/2025",
-      "valor": 2940.56,
+      "valor": 3808.89,
       "situacao": "Ativo",
       "data_emissao": "08/09/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
@@ -1799,9 +1799,9 @@
       "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
-      "numero": "2025NE0001606",
+      "numero": "2025NE0001607",
       "contrato": "19/2025",
-      "valor": 3808.89,
+      "valor": 2940.56,
       "situacao": "Ativo",
       "data_emissao": "08/09/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
@@ -1831,20 +1831,20 @@
       "descricao": "Despesa com prestação de serviços de informática em geral para atender necessidades desta SSP."
     },
     {
-      "numero": "2023NE0001134",
-      "contrato": "48/2021",
-      "valor": 232245.98,
-      "situacao": "Ativo",
-      "data_emissao": "07/08/2023",
-      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 04."
-    },
-    {
       "numero": "2023NE01134",
       "contrato": "48/2021",
       "valor": 232245.98,
       "situacao": "Ativo",
       "data_emissao": "07/08/2023",
       "descricao": "4º T.A Contrato 048/2021 - Prorrogação de Prazo"
+    },
+    {
+      "numero": "2023NE0001134",
+      "contrato": "48/2021",
+      "valor": 232245.98,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2023",
+      "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 04."
     },
     {
       "numero": "2014NE01116",
@@ -1863,9 +1863,9 @@
       "descricao": "Anulação parcial da 2022NE0000066 no valor de R$ 99.663,16, referente ao saldo remanescente do mês de abril/2022."
     },
     {
-      "numero": "2025NE0001854",
+      "numero": "2025NE0001853",
       "contrato": "19/2025",
-      "valor": 2940.56,
+      "valor": 3808.89,
       "situacao": "Ativo",
       "data_emissao": "06/10/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
@@ -1879,25 +1879,25 @@
       "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
-      "numero": "2025NE0001853",
+      "numero": "2025NE0001854",
       "contrato": "19/2025",
-      "valor": 3808.89,
+      "valor": 2940.56,
       "situacao": "Ativo",
       "data_emissao": "06/10/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
-      "numero": "2014NE00768",
+      "numero": "2014NE00750",
       "contrato": "68/2012",
-      "valor": 910.76,
+      "valor": 23983.48,
       "situacao": "Ativo",
       "data_emissao": "06/06/2014",
       "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
     },
     {
-      "numero": "2014NE00750",
+      "numero": "2014NE00768",
       "contrato": "68/2012",
-      "valor": 23983.48,
+      "valor": 910.76,
       "situacao": "Ativo",
       "data_emissao": "06/06/2014",
       "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
@@ -1911,14 +1911,6 @@
       "descricao": "2º TA Contrat0018/2016"
     },
     {
-      "numero": "2019NE01619",
-      "contrato": "18/2016",
-      "valor": 512942.59,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2019",
-      "descricao": "Contratação de emp. especializada em serv de informática, manutenção e suporte a operação,serviço téc. em telecomunicações, fornecimento de circuito de trans. de dados e disponibilização de links ponto a ponto p/ ligação das und SSP.Pgto mês 10/2019."
-    },
-    {
       "numero": "2019NE01591",
       "contrato": "18/2016",
       "valor": 512942.59,
@@ -1927,12 +1919,12 @@
       "descricao": "Contratação de emp especializada em serviço de informática, manutenção e suporte a operação, serviço téc em telecomunicações, fornecimento de circuito de trans de dados e disponibilização de links ponto a ponto p/ ligação das und SSP. Pgto mês set/19"
     },
     {
-      "numero": "2018NE00217",
+      "numero": "2019NE01619",
       "contrato": "18/2016",
-      "valor": 32595.0,
+      "valor": 512942.59,
       "situacao": "Ativo",
-      "data_emissao": "05/03/2018",
-      "descricao": "Contratação de empresa especializada em serviço especializado em informática, com manutenção e suporte a operação, serviço técnico em telecomunicações e fornecimento de circuito de transmissão de dados com disponibilidade de links ponto a ponto."
+      "data_emissao": "05/11/2019",
+      "descricao": "Contratação de emp. especializada em serv de informática, manutenção e suporte a operação,serviço téc. em telecomunicações, fornecimento de circuito de trans. de dados e disponibilização de links ponto a ponto p/ ligação das und SSP.Pgto mês 10/2019."
     },
     {
       "numero": "2018NE00218",
@@ -1943,44 +1935,20 @@
       "descricao": "Contratação de empresa para prestar serv de especializado em informática, manutenção e suporte a operação, serv técnico em telecomunicações, com fornecimento de circuito de transmissão de dados de links ponto a ponto p/ atender SISP, INFOPOL e SSP."
     },
     {
+      "numero": "2018NE00217",
+      "contrato": "18/2016",
+      "valor": 32595.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2018",
+      "descricao": "Contratação de empresa especializada em serviço especializado em informática, com manutenção e suporte a operação, serviço técnico em telecomunicações e fornecimento de circuito de transmissão de dados com disponibilidade de links ponto a ponto."
+    },
+    {
       "numero": "2014NE00155",
       "contrato": "68/2012",
       "valor": 270143.95,
       "situacao": "Ativo",
       "data_emissao": "05/03/2014",
       "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
-    },
-    {
-      "numero": "2026NE0000007",
-      "contrato": "22/2025",
-      "valor": 8102107.04,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
-    },
-    {
-      "numero": "2026NE0000006",
-      "contrato": "22/2025",
-      "valor": 5948895.0,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
-    },
-    {
-      "numero": "2026NE0000004",
-      "contrato": "19/2025",
-      "valor": 11762.24,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
-    },
-    {
-      "numero": "2026NE0000008",
-      "contrato": "19/2025",
-      "valor": 15235.56,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
       "numero": "2026NE0000002",
@@ -1991,36 +1959,44 @@
       "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
+      "numero": "2026NE0000008",
+      "contrato": "19/2025",
+      "valor": 15235.56,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2026NE0000004",
+      "contrato": "19/2025",
+      "valor": 11762.24,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
+    },
+    {
+      "numero": "2026NE0000006",
+      "contrato": "22/2025",
+      "valor": 5948895.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2026NE0000007",
+      "contrato": "22/2025",
+      "valor": 8102107.04,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada na prestação de serviço vinculado ao Sistema Único Integrado de Segurança Pública, para atender às necessidades do Sistema de Segurança Pública do Estado do Amazonas."
+    },
+    {
       "numero": "2022NE0000066",
       "contrato": "48/2021",
       "valor": 2143809.04,
       "situacao": "Ativo",
       "data_emissao": "05/01/2022",
       "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
-    },
-    {
-      "numero": "2015NE00021",
-      "contrato": "12/2012",
-      "valor": 7177.29,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cobertura Financeira 2015"
-    },
-    {
-      "numero": "2015NE00070",
-      "contrato": "28/2011",
-      "valor": 17334.18,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Despesa com 3º TA ao Contrato nº 028/2011-SSP, serviço de geoprocessamento do Programa Ronda no Bairro."
-    },
-    {
-      "numero": "2015NE00071",
-      "contrato": "83/2014",
-      "valor": 26709.6,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Despesa com Contrato nº83/2014-SSP, serviço de Hospedagem do Sistema INFOPOL."
     },
     {
       "numero": "2015NE00023",
@@ -2031,20 +2007,36 @@
       "descricao": "Cobertura financeira 2015"
     },
     {
+      "numero": "2015NE00071",
+      "contrato": "83/2014",
+      "valor": 26709.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Despesa com Contrato nº83/2014-SSP, serviço de Hospedagem do Sistema INFOPOL."
+    },
+    {
+      "numero": "2015NE00070",
+      "contrato": "28/2011",
+      "valor": 17334.18,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Despesa com 3º TA ao Contrato nº 028/2011-SSP, serviço de geoprocessamento do Programa Ronda no Bairro."
+    },
+    {
+      "numero": "2015NE00021",
+      "contrato": "12/2012",
+      "valor": 7177.29,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
       "numero": "2024NE0001476",
       "contrato": "48/2021",
       "valor": 1071904.4,
       "situacao": "Ativo",
       "data_emissao": "04/11/2024",
       "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 06."
-    },
-    {
-      "numero": "2019NE01288",
-      "contrato": "",
-      "valor": 24592.1,
-      "situacao": "Ativo",
-      "data_emissao": "04/10/2019",
-      "descricao": "Anulação parcial do saldo da 2019NE00078, conforme o faturamento do período de vigência do contrato, no valor de R$ 24.592,10."
     },
     {
       "numero": "2019NE01289",
@@ -2055,12 +2047,12 @@
       "descricao": "Anulação parcial do saldo da 2019NE00365, conforme o faturamento do período de vigência do contrato, no valor de R$ 31.736,85."
     },
     {
-      "numero": "2022NE0001548",
+      "numero": "2019NE01288",
       "contrato": "",
-      "valor": 28939.98,
+      "valor": 24592.1,
       "situacao": "Ativo",
-      "data_emissao": "03/11/2022",
-      "descricao": "ANULAÇÃO DO SALDO DA 2022NE0001192 NO VALOR DE R$ 28.939,98, CONFORME DESCRITO NO MEMO CIRC Nº 058/2022-GSE/SSP-AM-FOLHA 19, EM RAZÃO DOS FATURAMENTOS NOS MESES DE AGOSTO E SETEMBRO DE 2022."
+      "data_emissao": "04/10/2019",
+      "descricao": "Anulação parcial do saldo da 2019NE00078, conforme o faturamento do período de vigência do contrato, no valor de R$ 24.592,10."
     },
     {
       "numero": "2022NE0001547",
@@ -2071,12 +2063,12 @@
       "descricao": "ANULAÇÃO DO SALDO DA 2022NE0000066 NO VALOR DE R$ 37.547,26, CONFORME DESCRITO NO MEMO CIRC Nº 058/2022-GSE/SSP-AM-FOLHA 19, EM RAZÃO DOS FATURAMENTOS NO MÊS DE AGOSTO DE 2022."
     },
     {
-      "numero": "2016NE00704",
-      "contrato": "18/2016",
-      "valor": 436780.04,
+      "numero": "2022NE0001548",
+      "contrato": "",
+      "valor": 28939.98,
       "situacao": "Ativo",
-      "data_emissao": "03/10/2016",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
+      "data_emissao": "03/11/2022",
+      "descricao": "ANULAÇÃO DO SALDO DA 2022NE0001192 NO VALOR DE R$ 28.939,98, CONFORME DESCRITO NO MEMO CIRC Nº 058/2022-GSE/SSP-AM-FOLHA 19, EM RAZÃO DOS FATURAMENTOS NOS MESES DE AGOSTO E SETEMBRO DE 2022."
     },
     {
       "numero": "2016NE00704",
@@ -2087,9 +2079,17 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
     },
     {
-      "numero": "2025NE0001081",
+      "numero": "2016NE00704",
+      "contrato": "18/2016",
+      "valor": 436780.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
+    },
+    {
+      "numero": "2025NE0001082",
       "contrato": "19/2025",
-      "valor": 7617.78,
+      "valor": 5881.12,
       "situacao": "Ativo",
       "data_emissao": "03/07/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
@@ -2103,9 +2103,9 @@
       "descricao": "Contratação de empresa especializada em serviço de acesso ao legado do Sistema Sisp, ara atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
     },
     {
-      "numero": "2025NE0001082",
+      "numero": "2025NE0001081",
       "contrato": "19/2025",
-      "valor": 5881.12,
+      "valor": 7617.78,
       "situacao": "Ativo",
       "data_emissao": "03/07/2025",
       "descricao": "Contratação de empresa especializada na prestação de serviço de fornecimento de circuito de transmissão de dados, licença de uso dos Sistemas Gerweb e Intrega, para atender as necessidades da Secretaria de Estado de Segurança Pública do Amazonas."
@@ -2135,20 +2135,20 @@
       "descricao": "Anulação parcial do saldo da 2020NE00001, 6º TA do Contrato nº 18/2016-SSP/AM, referente aos meses de janeiro a abril/2020."
     },
     {
-      "numero": "2022NE0000056",
-      "contrato": "48/2021",
-      "valor": 2143809.04,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
-    },
-    {
       "numero": "2022NE0000061",
       "contrato": "",
       "valor": 2143809.04,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
       "descricao": "Anulação total da 2022NE0000056, no valor de R$ 2.143.809,04 para ajuste do cronograma."
+    },
+    {
+      "numero": "2022NE0000056",
+      "contrato": "48/2021",
+      "valor": 2143809.04,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada em serviços de acesso à internet,desenvolvimento de sistema de informação,serviço de transmissão de dados, serviços de informática,hospedagem de sistema de informação serviços de manutenção de website,para SSP/AM."
     },
     {
       "numero": "2020NE00598",
@@ -2263,36 +2263,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA PARA ATENDER NECESSIDADES DA SSP/AM."
     },
     {
-      "numero": "2014NE00035",
-      "contrato": "68/2012",
-      "valor": 4388613.31,
+      "numero": "2014NE00020",
+      "contrato": "67/2012",
+      "valor": 1634417.25,
       "situacao": "Ativo",
       "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
-    },
-    {
-      "numero": "2014NE00033",
-      "contrato": "12/2012",
-      "valor": 7546.88,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 12/2012 - Hospedagem do Sistema de Gerenciamento de Denúncias"
-    },
-    {
-      "numero": "2014NE00042",
-      "contrato": "72/2011",
-      "valor": 122482.92,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 72/2011 - Serviços Eventuais de Informatica SSP/SEAI"
-    },
-    {
-      "numero": "2014NE00030",
-      "contrato": "28/2011",
-      "valor": 37457.35,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 28/2011 - Locação de Equipamentos Ronda nos Bairros"
+      "descricao": "Contrato No. 67/2012 - Hospedagem do SISP"
     },
     {
       "numero": "2014NE00059",
@@ -2303,12 +2279,36 @@
       "descricao": "Contrato No. 94/2011 - Manutenção de Solução Tecnológica do CIOPS"
     },
     {
-      "numero": "2014NE00020",
-      "contrato": "67/2012",
-      "valor": 1634417.25,
+      "numero": "2014NE00030",
+      "contrato": "28/2011",
+      "valor": 37457.35,
       "situacao": "Ativo",
       "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 67/2012 - Hospedagem do SISP"
+      "descricao": "Contrato No. 28/2011 - Locação de Equipamentos Ronda nos Bairros"
+    },
+    {
+      "numero": "2014NE00042",
+      "contrato": "72/2011",
+      "valor": 122482.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 72/2011 - Serviços Eventuais de Informatica SSP/SEAI"
+    },
+    {
+      "numero": "2014NE00033",
+      "contrato": "12/2012",
+      "valor": 7546.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 12/2012 - Hospedagem do Sistema de Gerenciamento de Denúncias"
+    },
+    {
+      "numero": "2014NE00035",
+      "contrato": "68/2012",
+      "valor": 4388613.31,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 68/2012 - Links (59), Internet e Hospedagem."
     },
     {
       "numero": "2023NE0001706",
@@ -2319,20 +2319,12 @@
       "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
     },
     {
-      "numero": "2015NE00875",
-      "contrato": "72/2011",
-      "valor": 41899.71,
+      "numero": "2015NE00878",
+      "contrato": "12/2012",
+      "valor": 797.98,
       "situacao": "Ativo",
       "data_emissao": "01/10/2015",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00023, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 072/2011-SSP, COM VIGÊNCIA ATÉ OUTUBRO/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
-    },
-    {
-      "numero": "2015NE00876",
-      "contrato": "28/2011",
-      "valor": 17334.18,
-      "situacao": "Ativo",
-      "data_emissao": "01/10/2015",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00070, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 028/2011-SSP, COM VIGÊNCIA ATÉ AGOSTO/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00342, REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2012-SSP, COM VIGÊNCIA ATÉ ABRIL/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
     },
     {
       "numero": "2015NE00877",
@@ -2343,12 +2335,20 @@
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00071, REFERENTE AO CONTRATO Nº 083/2014-SSP, COM VIGÊNCIA ATÉ SETEMBR/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
     },
     {
-      "numero": "2015NE00878",
-      "contrato": "12/2012",
-      "valor": 797.98,
+      "numero": "2015NE00876",
+      "contrato": "28/2011",
+      "valor": 17334.18,
       "situacao": "Ativo",
       "data_emissao": "01/10/2015",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00342, REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2012-SSP, COM VIGÊNCIA ATÉ ABRIL/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00070, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 028/2011-SSP, COM VIGÊNCIA ATÉ AGOSTO/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
+    },
+    {
+      "numero": "2015NE00875",
+      "contrato": "72/2011",
+      "valor": 41899.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2015",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 2015NE00023, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 072/2011-SSP, COM VIGÊNCIA ATÉ OUTUBRO/2015, PROCEDIMENTO PARA ATENDER SOLICITAÇÃO CONTIDA NO OFÍCIO Nº 0442/2015-CEAG, DE 16 DE OUTUBRO DE 2015, DOS SALDOS DE EMPENHOS NÃO LIQUIDADOS NO EXERCÍCIO/2015."
     },
     {
       "numero": "2018NE00698",
@@ -2367,14 +2367,6 @@
       "descricao": "Contrato No. 28/2011 - Locação de Equipamentos Ronda nos Bairros"
     },
     {
-      "numero": "2019NE00798",
-      "contrato": "18/2016",
-      "valor": 50036.2,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
-    },
-    {
       "numero": "2019NE00799",
       "contrato": "18/2016",
       "valor": 1258.05,
@@ -2383,12 +2375,12 @@
       "descricao": "Contratação de empresa especializada para atender o presente Termo Aditivo cujo objeto é inclusão de oito links ponto a ponto para as unidades SEAI, Batalhão de Choque da PM, Perícia Criminal, e mais cinco links de reserva técnica."
     },
     {
-      "numero": "2019NE00365",
+      "numero": "2019NE00798",
       "contrato": "18/2016",
-      "valor": 37741.65,
+      "valor": 50036.2,
       "situacao": "Ativo",
-      "data_emissao": "01/04/2019",
-      "descricao": "Contratação de empresa especializada para atender o presente Termo Aditivo cujo objeto é inclusão de oito links ponto a ponto para as unidades SEAI, Batalhão de Choque da PM, Perícia Criminal, e mais cinco links de reserva técnica."
+      "data_emissao": "01/07/2019",
+      "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
     },
     {
       "numero": "2019NE00376",
@@ -2397,6 +2389,14 @@
       "situacao": "Ativo",
       "data_emissao": "01/04/2019",
       "descricao": "Contratação de empresa especializada em serviço de informática, manutenção e suporte a operação, serviço técnico em telecomunicações, fornecimento de circuito de transmissão de dados e disponibilização de links ponto a ponto p/ ligação das und SSP."
+    },
+    {
+      "numero": "2019NE00365",
+      "contrato": "18/2016",
+      "valor": 37741.65,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "Contratação de empresa especializada para atender o presente Termo Aditivo cujo objeto é inclusão de oito links ponto a ponto para as unidades SEAI, Batalhão de Choque da PM, Perícia Criminal, e mais cinco links de reserva técnica."
     },
     {
       "numero": "2015NE00342",
@@ -2415,20 +2415,20 @@
       "descricao": "Contratação de empresa para serviço de acesso à internet, acesso a MetroMao, circuito de transmissão de dados, licença de sistema, hospedagem, Firewall, Datawarehouse, suporte técnico, desenvolvimento de sistema e licença de uso para SSP/AM. TC: 0048/2021 AD: 05."
     },
     {
-      "numero": "2018NE00207",
-      "contrato": "",
-      "valor": 1790798.16,
-      "situacao": "Ativo",
-      "data_emissao": "01/03/2018",
-      "descricao": "Anulação parcial da Nota de Empenho 2018NE00092 para correção de natureza de despesa conforme orientação repassada pelo Órgão Centralizador."
-    },
-    {
       "numero": "2018NE00208",
       "contrato": "",
       "valor": 32595.0,
       "situacao": "Ativo",
       "data_emissao": "01/03/2018",
       "descricao": "Anulação parcial da Nota de Empenho 2018NE00111 para correção de natureza de despesa conforme orientação repassada pelo Órgão Centralizador."
+    },
+    {
+      "numero": "2018NE00207",
+      "contrato": "",
+      "valor": 1790798.16,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação parcial da Nota de Empenho 2018NE00092 para correção de natureza de despesa conforme orientação repassada pelo Órgão Centralizador."
     },
     {
       "numero": "2019NE00078",

@@ -1,6 +1,6 @@
 # Dossiê Completo — B23 TECNOLOGIA
 **B23 Tecnologia** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 40.402.740/0001-79
+Data: 2026-05-07 | CNPJ: 40.402.740/0001-79
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 40.402.740/0001-79
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 11.892,24 |
 | Valor atualizado (profile) | R$ 11.892,24 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 3 |
+| Faturas exigíveis | 3 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 1.783,84 |
@@ -58,4 +58,4 @@ Valor original R$ 11,892.24 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

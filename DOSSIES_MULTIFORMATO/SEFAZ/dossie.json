@@ -77,20 +77,20 @@
   },
   "empenhos": [
     {
-      "numero": "2025NE0000095",
-      "contrato": "32/2024",
-      "valor": 583.89,
-      "situacao": "Ativo",
-      "data_emissao": "31/10/2025",
-      "descricao": "Contratação para fornecimento de licença de uso, compreendendo a disponibilização de Plataforma de Comunicação e Colaboração em plataforma Web – APLICAÇÃO POWER BI. TC: 0032/2024 AD: 01."
-    },
-    {
       "numero": "2025NE0000096",
       "contrato": "32/2024",
       "valor": 1110.8,
       "situacao": "Ativo",
       "data_emissao": "31/10/2025",
       "descricao": "Contratação para fornecimento de licença de uso, compreendendo a disponibilização de Plataforma de Comunicação e Colaboração em plataforma Web – APLICAÇÃO POWER BI."
+    },
+    {
+      "numero": "2025NE0000095",
+      "contrato": "32/2024",
+      "valor": 583.89,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2025",
+      "descricao": "Contratação para fornecimento de licença de uso, compreendendo a disponibilização de Plataforma de Comunicação e Colaboração em plataforma Web – APLICAÇÃO POWER BI. TC: 0032/2024 AD: 01."
     },
     {
       "numero": "2017NE01120",
@@ -117,17 +117,9 @@
       "descricao": "Anulação do saldo da NE acima descrita devido ao encerramento do exercício, conforme memorando Nº 199/2019-GORF/SEFAZ"
     },
     {
-      "numero": "2016NE01699",
+      "numero": "2016NE01697",
       "contrato": "",
-      "valor": 96598.67,
-      "situacao": "Ativo",
-      "data_emissao": "30/12/2016",
-      "descricao": "ANULAÇÃO DO SALDO DA NE ACIMA DESCRITA EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO 2016."
-    },
-    {
-      "numero": "2016NE01698",
-      "contrato": "",
-      "valor": 318705.8,
+      "valor": 636597.39,
       "situacao": "Ativo",
       "data_emissao": "30/12/2016",
       "descricao": "ANULAÇÃO DO SALDO DA NE ACIMA DESCRITA EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO 2016."
@@ -141,25 +133,33 @@
       "descricao": "ANULAÇÃO DO SALDO DA NE ACIMA DESCRITA EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO 2016."
     },
     {
-      "numero": "2016NE01697",
+      "numero": "2016NE01698",
       "contrato": "",
-      "valor": 636597.39,
+      "valor": 318705.8,
       "situacao": "Ativo",
       "data_emissao": "30/12/2016",
       "descricao": "ANULAÇÃO DO SALDO DA NE ACIMA DESCRITA EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO 2016."
     },
     {
-      "numero": "2016NE01502",
-      "contrato": "3/2015",
-      "valor": 98660.51,
+      "numero": "2016NE01699",
+      "contrato": "",
+      "valor": 96598.67,
       "situacao": "Ativo",
-      "data_emissao": "30/11/2016",
-      "descricao": "4º TACT nº 003/2015-SEFAZ, cujo objeto é a prorrogação da vigência do contrato por mais 06 (seis) meses, referente a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI"
+      "data_emissao": "30/12/2016",
+      "descricao": "ANULAÇÃO DO SALDO DA NE ACIMA DESCRITA EM VIRTUDE DO ENCERRAMENTO DO EXERCÍCIO 2016."
     },
     {
       "numero": "2016NE01501",
       "contrato": "",
       "valor": 1339.49,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "4º TACT nº 003/2015-SEFAZ, cujo objeto é a prorrogação da vigência do contrato por mais 06 (seis) meses, referente a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI"
+    },
+    {
+      "numero": "2016NE01502",
+      "contrato": "3/2015",
+      "valor": 98660.51,
       "situacao": "Ativo",
       "data_emissao": "30/11/2016",
       "descricao": "4º TACT nº 003/2015-SEFAZ, cujo objeto é a prorrogação da vigência do contrato por mais 06 (seis) meses, referente a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI"
@@ -173,12 +173,12 @@
       "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 03."
     },
     {
-      "numero": "2017NE01250",
+      "numero": "2017NE01251",
       "contrato": "",
-      "valor": 1711203.6,
+      "valor": 297176.23,
       "situacao": "Ativo",
       "data_emissao": "29/11/2017",
-      "descricao": "Anulação do saldo da 2017NE00031."
+      "descricao": "Anulação do saldo da 2017NE00317."
     },
     {
       "numero": "2017NE01252",
@@ -189,12 +189,12 @@
       "descricao": "Anulação do saldo da 2017NE00573."
     },
     {
-      "numero": "2017NE01251",
+      "numero": "2017NE01250",
       "contrato": "",
-      "valor": 297176.23,
+      "valor": 1711203.6,
       "situacao": "Ativo",
       "data_emissao": "29/11/2017",
-      "descricao": "Anulação do saldo da 2017NE00317."
+      "descricao": "Anulação do saldo da 2017NE00031."
     },
     {
       "numero": "2018NE01096",
@@ -245,9 +245,9 @@
       "descricao": "Contratação para fornecimento de licença de uso, compreendendo a disponibilização de Plataforma de Comunicação e Colaboração em plataforma Web – APLICAÇÃO POWER BI."
     },
     {
-      "numero": "2018NE01281",
+      "numero": "2018NE01282",
       "contrato": "",
-      "valor": 114367.9,
+      "valor": 94978.78,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "Anulação parcial da NE acima citada em virtude do encerramento do exercício orçamentário 2018."
@@ -261,25 +261,25 @@
       "descricao": "Anulação do saldo da 2018NE00117 em virtude do encerramento do exercício de 2018."
     },
     {
-      "numero": "2018NE01282",
+      "numero": "2018NE01281",
       "contrato": "",
-      "valor": 94978.78,
+      "valor": 114367.9,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "Anulação parcial da NE acima citada em virtude do encerramento do exercício orçamentário 2018."
     },
     {
-      "numero": "2017NE00071",
+      "numero": "2017NE01435",
       "contrato": "",
-      "valor": 1.83,
+      "valor": 58.61,
       "situacao": "Ativo",
       "data_emissao": "28/12/2017",
       "descricao": "Anulação parcial da NE em virtude do encerramento do exercício orçamentário 2017."
     },
     {
-      "numero": "2017NE01435",
+      "numero": "2017NE00071",
       "contrato": "",
-      "valor": 58.61,
+      "valor": 1.83,
       "situacao": "Ativo",
       "data_emissao": "28/12/2017",
       "descricao": "Anulação parcial da NE em virtude do encerramento do exercício orçamentário 2017."
@@ -365,14 +365,6 @@
       "descricao": "Prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI, relativo ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2018NE00579",
-      "contrato": "3/2015",
-      "valor": 591968.04,
-      "situacao": "Ativo",
-      "data_emissao": "25/05/2018",
-      "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
-    },
-    {
       "numero": "2018NE00584",
       "contrato": "",
       "valor": 271717.92,
@@ -381,12 +373,20 @@
       "descricao": "Convênio Nº 05/2015-PRODAM, de forma a contemplar a concessão de gratificação de representação e reenquadramento dos técnicos cedidos para atuarem na área de Tecnologia da Informação da SEFAZ, conforme expediente da PRODAM denominado DIRAF/021-2018"
     },
     {
-      "numero": "2019NE00394",
+      "numero": "2018NE00579",
+      "contrato": "3/2015",
+      "valor": 591968.04,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2018",
+      "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
+    },
+    {
+      "numero": "2019NE00406",
       "contrato": "",
       "valor": 2390426.16,
       "situacao": "Ativo",
       "data_emissao": "25/03/2019",
-      "descricao": "Cancelamento devido a equivoco no numero do processo"
+      "descricao": "Despesa referente à cessão, por disposição, da PRODAM - Processamento de Dados do Amazonas S.A., de técnicos constantes em anexo ao documento DIRAF/199 de 25/09/2018."
     },
     {
       "numero": "2019NE00389",
@@ -397,12 +397,12 @@
       "descricao": "Atender despesa referente à cessão, por disposição, da PRODAM - Processamento de Dados do Amazonas S.A., de técnicos constantes em anexo ao documento DIRAF/199 de 25/09/2018."
     },
     {
-      "numero": "2019NE00406",
+      "numero": "2019NE00394",
       "contrato": "",
       "valor": 2390426.16,
       "situacao": "Ativo",
       "data_emissao": "25/03/2019",
-      "descricao": "Despesa referente à cessão, por disposição, da PRODAM - Processamento de Dados do Amazonas S.A., de técnicos constantes em anexo ao documento DIRAF/199 de 25/09/2018."
+      "descricao": "Cancelamento devido a equivoco no numero do processo"
     },
     {
       "numero": "2015NE00306",
@@ -421,12 +421,12 @@
       "descricao": "Convênio para a Cessão de Técnicos para o exercício de funções para atuar no desenvolvimento, manutenção e suporte técnico dos sistemas da Sefaz."
     },
     {
-      "numero": "2017NE00807",
-      "contrato": "",
+      "numero": "2017NE00808",
+      "contrato": "3/2015",
       "valor": 295984.02,
       "situacao": "Ativo",
       "data_emissao": "24/07/2017",
-      "descricao": "Cancelamento por equivoco na modalidade"
+      "descricao": "Prorrogação do prazo de vigência e supressão, referente a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
     },
     {
       "numero": "2017NE00806",
@@ -437,12 +437,12 @@
       "descricao": "Prorrogação do prazo de vigência e supressão, referente a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
     },
     {
-      "numero": "2017NE00808",
-      "contrato": "3/2015",
+      "numero": "2017NE00807",
+      "contrato": "",
       "valor": 295984.02,
       "situacao": "Ativo",
       "data_emissao": "24/07/2017",
-      "descricao": "Prorrogação do prazo de vigência e supressão, referente a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
+      "descricao": "Cancelamento por equivoco na modalidade"
     },
     {
       "numero": "2019NE00665",
@@ -533,14 +533,6 @@
       "descricao": "Convênio para a Cessão de Técnicos para o exercício de funções para atuar no desenvolvimento, manutenção e suporte técnico dos sistemas da Sefaz."
     },
     {
-      "numero": "2019NE00663",
-      "contrato": "",
-      "valor": 295984.02,
-      "situacao": "Ativo",
-      "data_emissao": "21/06/2019",
-      "descricao": "Anulação Total da NE acima descrita devido equivoco na data de emissão."
-    },
-    {
       "numero": "2019NE00661",
       "contrato": "3/2015",
       "valor": 295984.02,
@@ -549,12 +541,12 @@
       "descricao": "Serviços técnicos especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2021NE0000005",
-      "contrato": "12/2023",
-      "valor": 3425913.4,
+      "numero": "2019NE00663",
+      "contrato": "",
+      "valor": 295984.02,
       "situacao": "Ativo",
-      "data_emissao": "21/01/2021",
-      "descricao": "Anulação total do empenho por erro na data de emissão."
+      "data_emissao": "21/06/2019",
+      "descricao": "Anulação Total da NE acima descrita devido equivoco na data de emissão."
     },
     {
       "numero": "2021NE0000001",
@@ -563,6 +555,14 @@
       "situacao": "Ativo",
       "data_emissao": "21/01/2021",
       "descricao": "Cessão de servidores da PRODAM para prestar serviços na SEFAZ."
+    },
+    {
+      "numero": "2021NE0000005",
+      "contrato": "12/2023",
+      "valor": 3425913.4,
+      "situacao": "Ativo",
+      "data_emissao": "21/01/2021",
+      "descricao": "Anulação total do empenho por erro na data de emissão."
     },
     {
       "numero": "2020NE00867",
@@ -669,36 +669,12 @@
       "descricao": "Serviços técnicos especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2015NE00249",
-      "contrato": "10/2009",
-      "valor": 31835.61,
+      "numero": "2015NE00256",
+      "contrato": "1/2010",
+      "valor": 257473.08,
       "situacao": "Ativo",
       "data_emissao": "18/02/2015",
-      "descricao": "Prestação de serviços especializados em informática em geral. Serviços de hospedagem com infraestrutura para armazenamento do Sistema de Controle de Material e Patrimônio ¿ AJURI, referente ao mês de setembro/2014, relativo ao contrato nº 010/2009 ¿ 5º TA."
-    },
-    {
-      "numero": "2015NE00250",
-      "contrato": "10/2009",
-      "valor": 31835.61,
-      "situacao": "Ativo",
-      "data_emissao": "18/02/2015",
-      "descricao": "Prestação de serviços especializados em informática em geral. Serviços de hospedagem com infraestrutura para armazenamento do Sistema de Controle de Material e Patrimônio ¿ AJURI, referente ao mês de dezembro/2014, relativo ao contrato nº 010/2009 ¿ 5º TA."
-    },
-    {
-      "numero": "2015NE00271",
-      "contrato": "10/2009",
-      "valor": 31835.61,
-      "situacao": "Ativo",
-      "data_emissao": "18/02/2015",
-      "descricao": "Prestação de serviços de informática em geral, referente ao mês de novembro/2014, relativo ao contrato nº 10/2009 ¿ 5º TA."
-    },
-    {
-      "numero": "2015NE00257",
-      "contrato": "2/2010",
-      "valor": 0.0,
-      "situacao": "Ativo",
-      "data_emissao": "18/02/2015",
-      "descricao": "Prestação de serviços técnicos especializados na área da tecnologia da informação - TI, referente ao mês de novembro/2014, relativo ao contrato nº 002/2010 ¿ 4º TA."
+      "descricao": "Prestação de serviços técnicos especializados na área de tecnologia da infformação - TI, referente ao mês de novembro/2014, relativo ao Contrato nº 001/2010."
     },
     {
       "numero": "2015NE00255",
@@ -709,12 +685,36 @@
       "descricao": "CANCELAMENTO DA NE ACIMA DESCRITA DEVIDO A EQUÍVOCO NA FONTE DE RECURSO."
     },
     {
-      "numero": "2015NE00256",
-      "contrato": "1/2010",
-      "valor": 257473.08,
+      "numero": "2015NE00257",
+      "contrato": "2/2010",
+      "valor": 0.0,
       "situacao": "Ativo",
       "data_emissao": "18/02/2015",
-      "descricao": "Prestação de serviços técnicos especializados na área de tecnologia da infformação - TI, referente ao mês de novembro/2014, relativo ao Contrato nº 001/2010."
+      "descricao": "Prestação de serviços técnicos especializados na área da tecnologia da informação - TI, referente ao mês de novembro/2014, relativo ao contrato nº 002/2010 ¿ 4º TA."
+    },
+    {
+      "numero": "2015NE00271",
+      "contrato": "10/2009",
+      "valor": 31835.61,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2015",
+      "descricao": "Prestação de serviços de informática em geral, referente ao mês de novembro/2014, relativo ao contrato nº 10/2009 ¿ 5º TA."
+    },
+    {
+      "numero": "2015NE00250",
+      "contrato": "10/2009",
+      "valor": 31835.61,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2015",
+      "descricao": "Prestação de serviços especializados em informática em geral. Serviços de hospedagem com infraestrutura para armazenamento do Sistema de Controle de Material e Patrimônio ¿ AJURI, referente ao mês de dezembro/2014, relativo ao contrato nº 010/2009 ¿ 5º TA."
+    },
+    {
+      "numero": "2015NE00249",
+      "contrato": "10/2009",
+      "valor": 31835.61,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2015",
+      "descricao": "Prestação de serviços especializados em informática em geral. Serviços de hospedagem com infraestrutura para armazenamento do Sistema de Controle de Material e Patrimônio ¿ AJURI, referente ao mês de setembro/2014, relativo ao contrato nº 010/2009 ¿ 5º TA."
     },
     {
       "numero": "2017NE01199",
@@ -749,20 +749,20 @@
       "descricao": "Prestação de serviços de hospedagem com infraestrutura para armazenamento e execução do Sistema de Controle de Material e Patimônio - AJURI, em plataforma WEB."
     },
     {
-      "numero": "2024NE0001252",
-      "contrato": "",
-      "valor": 1496625.2,
-      "situacao": "Ativo",
-      "data_emissao": "16/12/2024",
-      "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 03."
-    },
-    {
       "numero": "2024NE0001251",
       "contrato": "",
       "valor": 1496625.2,
       "situacao": "Ativo",
       "data_emissao": "16/12/2024",
       "descricao": "ANULAÇÃO PARCIAL DA NE ACIMA DESCRITA PARA CORREÇÃO DO REFORÇO 1103, DEVIDO O REFORÇO ESTAR ASSOCIADO AO TERMO ADITIVO ERRADO."
+    },
+    {
+      "numero": "2024NE0001252",
+      "contrato": "",
+      "valor": 1496625.2,
+      "situacao": "Ativo",
+      "data_emissao": "16/12/2024",
+      "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 03."
     },
     {
       "numero": "2016NE01624",
@@ -773,28 +773,12 @@
       "descricao": "2º Termo Aditivo ao Convênio nº 05/2015, relativo a cessão, por disposição, da PRODAM, de técnicos constantes no anexo 1 do plano de trabalho, de acordo com a DP 842/15."
     },
     {
-      "numero": "2016NE01468",
+      "numero": "2016NE01451",
       "contrato": "",
-      "valor": 5000.0,
+      "valor": 453727.43,
       "situacao": "Ativo",
       "data_emissao": "16/11/2016",
-      "descricao": "Reforço Orçmentário. Prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI, relativo ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
-    },
-    {
-      "numero": "2016NE01450",
-      "contrato": "",
-      "valor": 257813.74,
-      "situacao": "Ativo",
-      "data_emissao": "16/11/2016",
-      "descricao": "Cancelamento parcial da NE nº 1047/2016 conforme despacho autorizativo do Secretario Administrativo no Memorando nº 364/2016-GORF."
-    },
-    {
-      "numero": "2016NE01449",
-      "contrato": "",
-      "valor": 98660.51,
-      "situacao": "Ativo",
-      "data_emissao": "16/11/2016",
-      "descricao": "Cancelamento parcial da NE nº 0943/2016 conforme despacho autorizativo do Secretario Administrativo no Memorando nº 364/2016-GORF."
+      "descricao": "Cancelamento parcial da NE nº 1119/2016 conforme despacho autorizativo do Secretario Administrativo no Memorando nº 364/2016-GORF."
     },
     {
       "numero": "2016NE01452",
@@ -805,12 +789,28 @@
       "descricao": "Cancelamento parcial da NE nº 1139/2016 conforme despacho autorizativo do Secretario Administrativo no Memorando nº 364/2016-GORF."
     },
     {
-      "numero": "2016NE01451",
+      "numero": "2016NE01449",
       "contrato": "",
-      "valor": 453727.43,
+      "valor": 98660.51,
       "situacao": "Ativo",
       "data_emissao": "16/11/2016",
-      "descricao": "Cancelamento parcial da NE nº 1119/2016 conforme despacho autorizativo do Secretario Administrativo no Memorando nº 364/2016-GORF."
+      "descricao": "Cancelamento parcial da NE nº 0943/2016 conforme despacho autorizativo do Secretario Administrativo no Memorando nº 364/2016-GORF."
+    },
+    {
+      "numero": "2016NE01450",
+      "contrato": "",
+      "valor": 257813.74,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2016",
+      "descricao": "Cancelamento parcial da NE nº 1047/2016 conforme despacho autorizativo do Secretario Administrativo no Memorando nº 364/2016-GORF."
+    },
+    {
+      "numero": "2016NE01468",
+      "contrato": "",
+      "valor": 5000.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/11/2016",
+      "descricao": "Reforço Orçmentário. Prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI, relativo ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
       "numero": "2025NE0001206",
@@ -845,12 +845,12 @@
       "descricao": "Contratação para fornecimento de licença de uso, compreendendo a disponibilização de Plataforma de Comunicação e Colaboração em plataforma Web – APLICAÇÃO POWER BI."
     },
     {
-      "numero": "2018NE00319",
-      "contrato": "3/2015",
+      "numero": "2018NE00318",
+      "contrato": "",
       "valor": 394645.36,
       "situacao": "Ativo",
       "data_emissao": "16/03/2018",
-      "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
+      "descricao": "Cancelamento da NE acima citada, devido a equívoco no tipo de licitação."
     },
     {
       "numero": "2018NE00317",
@@ -861,12 +861,12 @@
       "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2018NE00318",
-      "contrato": "",
+      "numero": "2018NE00319",
+      "contrato": "3/2015",
       "valor": 394645.36,
       "situacao": "Ativo",
       "data_emissao": "16/03/2018",
-      "descricao": "Cancelamento da NE acima citada, devido a equívoco no tipo de licitação."
+      "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
       "numero": "2023NE0000015",
@@ -885,20 +885,20 @@
       "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2019NE00659",
-      "contrato": "",
-      "valor": 295984.02,
-      "situacao": "Ativo",
-      "data_emissao": "14/06/2019",
-      "descricao": "Anulação Total da NE acima descrita devido equivoco na data de emissão."
-    },
-    {
       "numero": "2019NE00657",
       "contrato": "3/2015",
       "valor": 295984.02,
       "situacao": "Ativo",
       "data_emissao": "14/06/2019",
       "descricao": "Serviços técnicos especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas a serem prestados de forma contínua para atender as necessidades da SEFAZ."
+    },
+    {
+      "numero": "2019NE00659",
+      "contrato": "",
+      "valor": 295984.02,
+      "situacao": "Ativo",
+      "data_emissao": "14/06/2019",
+      "descricao": "Anulação Total da NE acima descrita devido equivoco na data de emissão."
     },
     {
       "numero": "2014NE00647",
@@ -909,52 +909,12 @@
       "descricao": "Contrato No. 10/2009 - Hospedagem AJURI"
     },
     {
-      "numero": "2018NE00703",
-      "contrato": "3/2015",
-      "valor": 528696.76,
-      "situacao": "Ativo",
-      "data_emissao": "13/07/2018",
-      "descricao": "Despesa para prestação de serviços de informática em geral para atender despesa com o Termo de Contrato nº 003/2015-SEFAZ, cujo objeto é a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
-    },
-    {
-      "numero": "2018NE00710",
-      "contrato": "3/2015",
-      "valor": 528696.76,
-      "situacao": "Ativo",
-      "data_emissao": "13/07/2018",
-      "descricao": "Despesa para prestação de serviços de informática em geral para atender despesa com o Termo de Contrato nº 003/2015-SEFAZ, cujo objeto é a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
-    },
-    {
-      "numero": "2018NE00707",
-      "contrato": "",
-      "valor": 528696.76,
-      "situacao": "Ativo",
-      "data_emissao": "13/07/2018",
-      "descricao": "Cancelamento total da NE para ajuste na natureza de despesa."
-    },
-    {
-      "numero": "2018NE00705",
+      "numero": "2018NE00712",
       "contrato": "",
       "valor": 2.0,
       "situacao": "Ativo",
       "data_emissao": "13/07/2018",
-      "descricao": "Anulação parcial da NE para ajuste no valor da retenção do ISS."
-    },
-    {
-      "numero": "2018NE00704",
-      "contrato": "P.645/2014",
-      "valor": 973267.11,
-      "situacao": "Ativo",
-      "data_emissao": "13/07/2018",
-      "descricao": "Despesa referente à Serviços técnicos especializados na área de tecnologia da informação, com vista a prover suporte à execução das políticas, programas e ações governamentais no que se refere ao processamento de informações, hospedagem e manutenção."
-    },
-    {
-      "numero": "2018NE00711",
-      "contrato": "P.645/2014",
-      "valor": 973267.11,
-      "situacao": "Ativo",
-      "data_emissao": "13/07/2018",
-      "descricao": "Despesa referente à Serviços técnicos especializados na área de tecnologia da informação, com vista a prover suporte à execução das políticas, programas e ações governamentais no que se refere ao processamento de informações, hospedagem e manutenção."
+      "descricao": "Anulação parcial da NE para ajuste no valor total a ser liquidado."
     },
     {
       "numero": "2018NE00706",
@@ -965,12 +925,52 @@
       "descricao": "Cancelamento total da NE para ajuste na natureza de despesa."
     },
     {
-      "numero": "2018NE00712",
+      "numero": "2018NE00711",
+      "contrato": "P.645/2014",
+      "valor": 973267.11,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2018",
+      "descricao": "Despesa referente à Serviços técnicos especializados na área de tecnologia da informação, com vista a prover suporte à execução das políticas, programas e ações governamentais no que se refere ao processamento de informações, hospedagem e manutenção."
+    },
+    {
+      "numero": "2018NE00704",
+      "contrato": "P.645/2014",
+      "valor": 973267.11,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2018",
+      "descricao": "Despesa referente à Serviços técnicos especializados na área de tecnologia da informação, com vista a prover suporte à execução das políticas, programas e ações governamentais no que se refere ao processamento de informações, hospedagem e manutenção."
+    },
+    {
+      "numero": "2018NE00705",
       "contrato": "",
       "valor": 2.0,
       "situacao": "Ativo",
       "data_emissao": "13/07/2018",
-      "descricao": "Anulação parcial da NE para ajuste no valor total a ser liquidado."
+      "descricao": "Anulação parcial da NE para ajuste no valor da retenção do ISS."
+    },
+    {
+      "numero": "2018NE00707",
+      "contrato": "",
+      "valor": 528696.76,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2018",
+      "descricao": "Cancelamento total da NE para ajuste na natureza de despesa."
+    },
+    {
+      "numero": "2018NE00710",
+      "contrato": "3/2015",
+      "valor": 528696.76,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2018",
+      "descricao": "Despesa para prestação de serviços de informática em geral para atender despesa com o Termo de Contrato nº 003/2015-SEFAZ, cujo objeto é a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
+    },
+    {
+      "numero": "2018NE00703",
+      "contrato": "3/2015",
+      "valor": 528696.76,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2018",
+      "descricao": "Despesa para prestação de serviços de informática em geral para atender despesa com o Termo de Contrato nº 003/2015-SEFAZ, cujo objeto é a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
     },
     {
       "numero": "2023NE0000956",
@@ -1045,12 +1045,12 @@
       "descricao": "Contrato para prestação do serviço de informática, com o desenvolvimento de sistemas de informática compreendendo a análise e desenvolvimento de melhorias ao aplicativo Nota Fiscal Amazonense para a Secretaria de Estado da Fazenda - SEFAZ"
     },
     {
-      "numero": "2015NE00200",
-      "contrato": "1/2010",
-      "valor": 257473.08,
+      "numero": "2015NE00206",
+      "contrato": "2/2010",
+      "valor": 1121463.19,
       "situacao": "Ativo",
       "data_emissao": "11/02/2015",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA EM GERAL RELATIVO AO CONTRATO Nº 01/2010, REFERENTE AO MÊS 12/2014"
+      "descricao": "Prestação de serviços especializados na área de tecnologia da informação, referente ao mês de dezembro/2014, relativo ao contrato nº 002/2010"
     },
     {
       "numero": "2015NE00207",
@@ -1061,12 +1061,12 @@
       "descricao": "Prestação de serviços de informática em geral, referente ao mês de novembro/2014, relativo ao contrato nº 001/2010."
     },
     {
-      "numero": "2015NE00206",
-      "contrato": "2/2010",
-      "valor": 1121463.19,
+      "numero": "2015NE00200",
+      "contrato": "1/2010",
+      "valor": 257473.08,
       "situacao": "Ativo",
       "data_emissao": "11/02/2015",
-      "descricao": "Prestação de serviços especializados na área de tecnologia da informação, referente ao mês de dezembro/2014, relativo ao contrato nº 002/2010"
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA EM GERAL RELATIVO AO CONTRATO Nº 01/2010, REFERENTE AO MÊS 12/2014"
     },
     {
       "numero": "2025NE0000060",
@@ -1101,20 +1101,20 @@
       "descricao": "Convênio para a Cessão de Técnicos para o exercício de funções para atuar no desenvolvimento, manutenção e suporte técnico dos sistemas da Sefaz."
     },
     {
-      "numero": "2024NE0000367",
-      "contrato": "",
-      "valor": 2993250.4,
-      "situacao": "Ativo",
-      "data_emissao": "09/04/2024",
-      "descricao": "Anulação devido a equivoco na descrição da NE.Nº 217"
-    },
-    {
       "numero": "2024NE0000368",
       "contrato": "",
       "valor": 2993250.4,
       "situacao": "Ativo",
       "data_emissao": "09/04/2024",
       "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000367",
+      "contrato": "",
+      "valor": 2993250.4,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2024",
+      "descricao": "Anulação devido a equivoco na descrição da NE.Nº 217"
     },
     {
       "numero": "2024NE0000112",
@@ -1149,14 +1149,6 @@
       "descricao": "Cessão de servidores da PRODAM para prestar serviços na SEFAZ."
     },
     {
-      "numero": "2018NE01102",
-      "contrato": "",
-      "valor": 408348.55,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2018",
-      "descricao": "Anulação do saldo parcial da 2018NE00083."
-    },
-    {
       "numero": "2018NE01103",
       "contrato": "",
       "valor": 285919.75,
@@ -1165,12 +1157,12 @@
       "descricao": "Anulação do saldo parcial da 2018NE00702."
     },
     {
-      "numero": "2018NE00596",
+      "numero": "2018NE01102",
       "contrato": "",
-      "valor": 476107.56,
+      "valor": 408348.55,
       "situacao": "Ativo",
-      "data_emissao": "05/06/2018",
-      "descricao": "Anulação parcial da 2018NE00083 em conformidade ao Memo nº 158/2018 - GORF e autorizado pela SEA/DEPAD."
+      "data_emissao": "05/11/2018",
+      "descricao": "Anulação do saldo parcial da 2018NE00083."
     },
     {
       "numero": "2018NE00597",
@@ -1181,12 +1173,20 @@
       "descricao": "cancelamento por equivoco no valor do empenho."
     },
     {
-      "numero": "2017NE00572",
+      "numero": "2018NE00596",
       "contrato": "",
-      "valor": 887952.07,
+      "valor": 476107.56,
+      "situacao": "Ativo",
+      "data_emissao": "05/06/2018",
+      "descricao": "Anulação parcial da 2018NE00083 em conformidade ao Memo nº 158/2018 - GORF e autorizado pela SEA/DEPAD."
+    },
+    {
+      "numero": "2017NE00573",
+      "contrato": "3/2015",
+      "valor": 1331928.09,
       "situacao": "Ativo",
       "data_emissao": "05/05/2017",
-      "descricao": "Anulação parcial da NE acima descrita para atender ao 6º TA ao Contrato nº 003/2015.."
+      "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
       "numero": "2017NE00563",
@@ -1197,12 +1197,12 @@
       "descricao": "5º TA ao Contrato nº 003/2015, cujo objeto é o serviço especializado na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas."
     },
     {
-      "numero": "2017NE00573",
-      "contrato": "3/2015",
-      "valor": 1331928.09,
+      "numero": "2017NE00572",
+      "contrato": "",
+      "valor": 887952.07,
       "situacao": "Ativo",
       "data_emissao": "05/05/2017",
-      "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
+      "descricao": "Anulação parcial da NE acima descrita para atender ao 6º TA ao Contrato nº 003/2015.."
     },
     {
       "numero": "2024NE0000217",
@@ -1221,20 +1221,12 @@
       "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 04."
     },
     {
-      "numero": "2015NE00004",
-      "contrato": "2/2010",
-      "valor": 103959.98,
+      "numero": "2015NE00014",
+      "contrato": "",
+      "valor": 2294854.5,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "SALDO REMANESCENTE AO 4° TA DO CONTRATO N° 02/2010."
-    },
-    {
-      "numero": "2015NE00006",
-      "contrato": "1/2010",
-      "valor": 24381.86,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "SALDO REMANESCENTE AO 4° TA DO CONTRATO N° 01/2010."
+      "descricao": "SALDO REMANESCENTE AO TERMO DE CONVÊNIO Nº 01/2014, CUJO OBJETO É A CESSÃO DE SERVIDORES TÉCNICOS DO QUADRO DE PESSOAL DA PRODAM PARA O EXERCÍCIO DE FUNÇÕES NA SEFAZ/AM, CONFORME PLANO DE TRABALHO."
     },
     {
       "numero": "2015NE00001",
@@ -1245,12 +1237,20 @@
       "descricao": "SALDO REMANESCENTE AO 5° TA DO CONTRATO N° 010/2009."
     },
     {
-      "numero": "2015NE00014",
-      "contrato": "",
-      "valor": 2294854.5,
+      "numero": "2015NE00006",
+      "contrato": "1/2010",
+      "valor": 24381.86,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "SALDO REMANESCENTE AO TERMO DE CONVÊNIO Nº 01/2014, CUJO OBJETO É A CESSÃO DE SERVIDORES TÉCNICOS DO QUADRO DE PESSOAL DA PRODAM PARA O EXERCÍCIO DE FUNÇÕES NA SEFAZ/AM, CONFORME PLANO DE TRABALHO."
+      "descricao": "SALDO REMANESCENTE AO 4° TA DO CONTRATO N° 01/2010."
+    },
+    {
+      "numero": "2015NE00004",
+      "contrato": "2/2010",
+      "valor": 103959.98,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "SALDO REMANESCENTE AO 4° TA DO CONTRATO N° 02/2010."
     },
     {
       "numero": "2024NE0001103",
@@ -1301,7 +1301,15 @@
       "descricao": "Cessão de servidores da PRODAM para prestar serviços na SEFAZ."
     },
     {
-      "numero": "2016NE00091",
+      "numero": "2016NE00039",
+      "contrato": "",
+      "valor": 4637951.94,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "A Cessão, por disposição, da PRODAM, de técnicos constantes no anexo 1 do plano de trabalho, de acordo com a DIRAF/226-14."
+    },
+    {
+      "numero": "2016NE00041",
       "contrato": "3/2015",
       "valor": 986613.41,
       "situacao": "Ativo",
@@ -1317,20 +1325,12 @@
       "descricao": "anulação de empenho por motivo de erro no valor global."
     },
     {
-      "numero": "2016NE00041",
+      "numero": "2016NE00091",
       "contrato": "3/2015",
       "valor": 986613.41,
       "situacao": "Ativo",
       "data_emissao": "04/01/2016",
       "descricao": "serviços técnicos especializados na área de Tecnologia da Informação - TI."
-    },
-    {
-      "numero": "2016NE00039",
-      "contrato": "",
-      "valor": 4637951.94,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "A Cessão, por disposição, da PRODAM, de técnicos constantes no anexo 1 do plano de trabalho, de acordo com a DIRAF/226-14."
     },
     {
       "numero": "2016NE01203",
@@ -1381,20 +1381,20 @@
       "descricao": "Convênio para a Cessão de Técnicos para o exercício de funções para atuar no desenvolvimento, manutenção e suporte técnico dos sistemas da Sefaz."
     },
     {
-      "numero": "2014NE00137",
-      "contrato": "2/2010",
-      "valor": 13353598.3,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2014",
-      "descricao": "Contrato No. 2/2010 - Serviços de TI - Uso de Recurso mainframe e Fabrica Software"
-    },
-    {
       "numero": "2014NE00138",
       "contrato": "1/2010",
       "valor": 3065295.04,
       "situacao": "Ativo",
       "data_emissao": "03/01/2014",
       "descricao": "Contrato No. 1/2010 - Serviços Especializados Informatica - Desenvolvimento e Apoio"
+    },
+    {
+      "numero": "2014NE00137",
+      "contrato": "2/2010",
+      "valor": 13353598.3,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2014",
+      "descricao": "Contrato No. 2/2010 - Serviços de TI - Uso de Recurso mainframe e Fabrica Software"
     },
     {
       "numero": "2018NE00389",
@@ -1413,12 +1413,12 @@
       "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 03."
     },
     {
-      "numero": "2024NE0000012",
-      "contrato": "",
-      "valor": 2721136.72,
+      "numero": "2024NE0000016",
+      "contrato": "12/2023",
+      "valor": 31783.32,
       "situacao": "Ativo",
       "data_emissao": "02/01/2024",
-      "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 02."
+      "descricao": "Contrato para prestação do serviço de informática, com o desenvolvimento de sistemas de informática compreendendo a análise e desenvolvimento de melhorias ao aplicativo Nota Fiscal Amazonense para a Secretaria de Estado da Fazenda - SEFAZ"
     },
     {
       "numero": "2024NE0000010",
@@ -1429,12 +1429,12 @@
       "descricao": "cancelamento por equivoco no lançamento"
     },
     {
-      "numero": "2024NE0000016",
-      "contrato": "12/2023",
-      "valor": 31783.32,
+      "numero": "2024NE0000012",
+      "contrato": "",
+      "valor": 2721136.72,
       "situacao": "Ativo",
       "data_emissao": "02/01/2024",
-      "descricao": "Contrato para prestação do serviço de informática, com o desenvolvimento de sistemas de informática compreendendo a análise e desenvolvimento de melhorias ao aplicativo Nota Fiscal Amazonense para a Secretaria de Estado da Fazenda - SEFAZ"
+      "descricao": "Convênio de cessão de técnicos, por disposição da PRODAM. para o exercício de funções que visam atuar nos diversos projetos de desenvolvimento, manutenção e suporte técnico dos sistemas da SEFAZ. TC: 0002/2021 AD: 02."
     },
     {
       "numero": "2023NE0000094",
@@ -1445,14 +1445,6 @@
       "descricao": "Convênio para a Cessão de Técnicos para o exercício de funções para atuar no desenvolvimento, manutenção e suporte técnico dos sistemas da Sefaz."
     },
     {
-      "numero": "2020NE00036",
-      "contrato": "",
-      "valor": 8564783.5,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Cessão de servidores da PRODAM para prestar serviços na SEFAZ."
-    },
-    {
       "numero": "2020NE00032",
       "contrato": "3/2015",
       "valor": 197322.68,
@@ -1461,11 +1453,11 @@
       "descricao": "Serviços técnicos especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2019NE00001",
+      "numero": "2020NE00036",
       "contrato": "",
-      "valor": 2390426.16,
+      "valor": 8564783.5,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
+      "data_emissao": "02/01/2020",
       "descricao": "Cessão de servidores da PRODAM para prestar serviços na SEFAZ."
     },
     {
@@ -1477,12 +1469,12 @@
       "descricao": "Serviços técnicos especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2018NE00083",
+      "numero": "2019NE00001",
       "contrato": "",
-      "valor": 7905149.3,
+      "valor": 2390426.16,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Cessão de servidores da PRODAM para prestar serviços na Sefaz/AM."
+      "data_emissao": "02/01/2019",
+      "descricao": "Cessão de servidores da PRODAM para prestar serviços na SEFAZ."
     },
     {
       "numero": "2018NE00117",
@@ -1493,20 +1485,12 @@
       "descricao": "Serviços especializados na área de Tecnologia da Informação - TI, no que se refere ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
     },
     {
-      "numero": "2017NE00031",
-      "contrato": "3/2015",
-      "valor": 5027712.42,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Prestação de serviços técnicos especializados n área de tecnologia da informação- TI."
-    },
-    {
-      "numero": "2017NE00044",
+      "numero": "2018NE00083",
       "contrato": "",
-      "valor": 3091967.96,
+      "valor": 7905149.3,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "2º TA CV 05/2015. Cessão de servidores da PRODAM para prestar serviços na Sefaz/AM."
+      "data_emissao": "02/01/2018",
+      "descricao": "Cessão de servidores da PRODAM para prestar serviços na Sefaz/AM."
     },
     {
       "numero": "2017NE00001",
@@ -1517,20 +1501,20 @@
       "descricao": "Contratação de serviços técnicos especializados na área de tecnologia da informação - TI."
     },
     {
-      "numero": "2014NE00070",
-      "contrato": "2/2010",
-      "valor": 103959.98,
+      "numero": "2017NE00044",
+      "contrato": "",
+      "valor": 3091967.96,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 2/2010 - Serviços de TI - Uso de Recurso mainframe e Fabrica Software"
+      "data_emissao": "02/01/2017",
+      "descricao": "2º TA CV 05/2015. Cessão de servidores da PRODAM para prestar serviços na Sefaz/AM."
     },
     {
-      "numero": "2014NE00067",
-      "contrato": "10/2009",
-      "valor": 143260.24,
+      "numero": "2017NE00031",
+      "contrato": "3/2015",
+      "valor": 5027712.42,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 10/2009 - Hospedagem AJURI"
+      "data_emissao": "02/01/2017",
+      "descricao": "Prestação de serviços técnicos especializados n área de tecnologia da informação- TI."
     },
     {
       "numero": "2014NE00069",
@@ -1541,28 +1525,20 @@
       "descricao": "Contrato No. 1/2010 - Serviços Especializados Informatica - Desenvolvimento e Apoio"
     },
     {
-      "numero": "2017NE01319",
-      "contrato": "",
-      "valor": 682123.23,
+      "numero": "2014NE00067",
+      "contrato": "10/2009",
+      "valor": 143260.24,
       "situacao": "Ativo",
-      "data_emissao": "01/12/2017",
-      "descricao": "Sessão de servidores da PRODAM para prestar serviços na SEFAZ/AM."
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 10/2009 - Hospedagem AJURI"
     },
     {
-      "numero": "2017NE01312",
-      "contrato": "",
-      "valor": 682123.23,
+      "numero": "2014NE00070",
+      "contrato": "2/2010",
+      "valor": 103959.98,
       "situacao": "Ativo",
-      "data_emissao": "01/12/2017",
-      "descricao": "Cancelamento da 2017NE01303 para correção do número do processo."
-    },
-    {
-      "numero": "2017NE01303",
-      "contrato": "",
-      "valor": 682123.23,
-      "situacao": "Ativo",
-      "data_emissao": "01/12/2017",
-      "descricao": "Cessão de servidores da PRODAM para prestar serviços na Sefaz/AM."
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 2/2010 - Serviços de TI - Uso de Recurso mainframe e Fabrica Software"
     },
     {
       "numero": "2017NE01304",
@@ -1573,28 +1549,36 @@
       "descricao": "Prorrogação do prazo de vigência e supressão, referente a prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI."
     },
     {
-      "numero": "2016NE01401",
+      "numero": "2017NE01303",
       "contrato": "",
-      "valor": 772991.99,
+      "valor": 682123.23,
       "situacao": "Ativo",
-      "data_emissao": "01/11/2016",
-      "descricao": "Cancelamento da NE acima descrita para ajuste na descrição."
-    },
-    {
-      "numero": "2016NE01391",
-      "contrato": "",
-      "valor": 100000.0,
-      "situacao": "Ativo",
-      "data_emissao": "01/11/2016",
-      "descricao": "Reforço Orçmentário. Prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI, relativo ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
-    },
-    {
-      "numero": "2016NE01344",
-      "contrato": "",
-      "valor": 772991.99,
-      "situacao": "Ativo",
-      "data_emissao": "01/11/2016",
+      "data_emissao": "01/12/2017",
       "descricao": "Cessão de servidores da PRODAM para prestar serviços na Sefaz/AM."
+    },
+    {
+      "numero": "2017NE01312",
+      "contrato": "",
+      "valor": 682123.23,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Cancelamento da 2017NE01303 para correção do número do processo."
+    },
+    {
+      "numero": "2017NE01319",
+      "contrato": "",
+      "valor": 682123.23,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2017",
+      "descricao": "Sessão de servidores da PRODAM para prestar serviços na SEFAZ/AM."
+    },
+    {
+      "numero": "2016NE00088",
+      "contrato": "21/2016",
+      "valor": 64989.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Termo de Contrato nº 021/2016 cujo objeto é a prestação de serviços técnicos especializados na área de Tecnologia da Informação TI Obs.: Reforço da NE 2016NE00053 para atender o mês novembro/2016"
     },
     {
       "numero": "2016NE01402",
@@ -1605,12 +1589,28 @@
       "descricao": "2º Termo Aditivo ao Convênio nº 05/2015, relativo a cessão, por disposição, da PRODAM, de técnicos constantes no anexo 1 do plano de trabalho, de acordo com a DP 842/15."
     },
     {
-      "numero": "2016NE00088",
-      "contrato": "21/2016",
-      "valor": 64989.0,
+      "numero": "2016NE01344",
+      "contrato": "",
+      "valor": 772991.99,
       "situacao": "Ativo",
       "data_emissao": "01/11/2016",
-      "descricao": "Termo de Contrato nº 021/2016 cujo objeto é a prestação de serviços técnicos especializados na área de Tecnologia da Informação TI Obs.: Reforço da NE 2016NE00053 para atender o mês novembro/2016"
+      "descricao": "Cessão de servidores da PRODAM para prestar serviços na Sefaz/AM."
+    },
+    {
+      "numero": "2016NE01391",
+      "contrato": "",
+      "valor": 100000.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Reforço Orçmentário. Prestação de serviços técnicos especializados na área de Tecnologia da Informação - TI, relativo ao processamento das informações, hospedagem e manutenção de sistemas, a serem prestados de forma contínua para atender as necessidades da SEFAZ."
+    },
+    {
+      "numero": "2016NE01401",
+      "contrato": "",
+      "valor": 772991.99,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2016",
+      "descricao": "Cancelamento da NE acima descrita para ajuste na descrição."
     },
     {
       "numero": "2016NE01119",
@@ -1637,7 +1637,47 @@
       "descricao": "Prorrogação do prazo de vigência contratual por 12 (doze) meses, bem como a revisão do valor mensal a ser desembolsado a partir de novembro de 2018, referente à cessão, por disposição, da PRODAM - Processamento de Dados do Amazonas S.A., de técnicos constantes em anexo ao documento DIRAF/199 de 25/09/2018."
     },
     {
-      "numero": "2016NE00939",
+      "numero": "2016NE00053",
+      "contrato": "21/2016",
+      "valor": 220759.24,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "Serviços de BI"
+    },
+    {
+      "numero": "2016NE00942",
+      "contrato": "",
+      "valor": 826584.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "Cancelamento da NE acima para correção do número do processo."
+    },
+    {
+      "numero": "2016NE00903",
+      "contrato": "",
+      "valor": 826584.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "Emissão indevida."
+    },
+    {
+      "numero": "2016NE00901",
+      "contrato": "3/2015",
+      "valor": 826584.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "3º TA ao Contrato nº 003/2015, cujo objeto é a redução do valor mensal do contrato."
+    },
+    {
+      "numero": "2016NE00941",
+      "contrato": "3/2015",
+      "valor": 826584.71,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2016",
+      "descricao": "Prestação de serviços técnicos especializados na área de tecnologia da informação, para prover suporte à execução das políticas, programas e ações governamentais no que se refere ao processamento das informações, hospedagem e manutenção de sistemas."
+    },
+    {
+      "numero": "2016NE00943",
       "contrato": "3/2015",
       "valor": 826584.71,
       "situacao": "Ativo",
@@ -1653,7 +1693,7 @@
       "descricao": "Cancelamento da NE acima descrita devido a equívoco na referência da licitação."
     },
     {
-      "numero": "2016NE00943",
+      "numero": "2016NE00939",
       "contrato": "3/2015",
       "valor": 826584.71,
       "situacao": "Ativo",
@@ -1661,52 +1701,12 @@
       "descricao": "Prestação de serviços técnicos especializados na área de tecnologia da informação, para prover suporte à execução das políticas, programas e ações governamentais no que se refere ao processamento das informações, hospedagem e manutenção de sistemas."
     },
     {
-      "numero": "2016NE00941",
-      "contrato": "3/2015",
-      "valor": 826584.71,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2016",
-      "descricao": "Prestação de serviços técnicos especializados na área de tecnologia da informação, para prover suporte à execução das políticas, programas e ações governamentais no que se refere ao processamento das informações, hospedagem e manutenção de sistemas."
-    },
-    {
-      "numero": "2016NE00901",
-      "contrato": "3/2015",
-      "valor": 826584.71,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2016",
-      "descricao": "3º TA ao Contrato nº 003/2015, cujo objeto é a redução do valor mensal do contrato."
-    },
-    {
-      "numero": "2016NE00903",
+      "numero": "2015NE00592",
       "contrato": "",
-      "valor": 826584.71,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2016",
-      "descricao": "Emissão indevida."
-    },
-    {
-      "numero": "2016NE00942",
-      "contrato": "",
-      "valor": 826584.71,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2016",
-      "descricao": "Cancelamento da NE acima para correção do número do processo."
-    },
-    {
-      "numero": "2016NE00053",
-      "contrato": "21/2016",
-      "valor": 220759.24,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2016",
-      "descricao": "Serviços de BI"
-    },
-    {
-      "numero": "2015NE00595",
-      "contrato": "3/2015",
-      "valor": 10446494.94,
+      "valor": 5354660.5,
       "situacao": "Ativo",
       "data_emissao": "01/04/2015",
-      "descricao": "Cobertura Financeira 2015 - Contrato 003/2015 - Serviços de TI Abril/15 a Dezembro/15 R$ 1.160.721,66 (NE 595 de 01/04/15 no valor de R$ 10.446.494,94"
+      "descricao": "Saldo remanescente ao Termo de Convênio nº 02/2014 de cessão de servidores a ser firmado, celebrado entre o Estado do Amazonas, por intermédio da SEFAZ e a PRODAM. OBJETO: Cessão, por disposição, da PRODAM, de técnicos constantes no anexo 1 do plano de trabalho."
     },
     {
       "numero": "2015NE00596",
@@ -1717,12 +1717,12 @@
       "descricao": "5º Termo Aditivo ao Contrato 10/2009 - Cobertura Financeira abril e 15 dias de maio/15"
     },
     {
-      "numero": "2015NE00592",
-      "contrato": "",
-      "valor": 5354660.5,
+      "numero": "2015NE00595",
+      "contrato": "3/2015",
+      "valor": 10446494.94,
       "situacao": "Ativo",
       "data_emissao": "01/04/2015",
-      "descricao": "Saldo remanescente ao Termo de Convênio nº 02/2014 de cessão de servidores a ser firmado, celebrado entre o Estado do Amazonas, por intermédio da SEFAZ e a PRODAM. OBJETO: Cessão, por disposição, da PRODAM, de técnicos constantes no anexo 1 do plano de trabalho."
+      "descricao": "Cobertura Financeira 2015 - Contrato 003/2015 - Serviços de TI Abril/15 a Dezembro/15 R$ 1.160.721,66 (NE 595 de 01/04/15 no valor de R$ 10.446.494,94"
     }
   ],
   "faturas": [
@@ -1855,7 +1855,7 @@
         },
         "2017": {
           "qtd": 27,
-          "valor": 25278155.180000003
+          "valor": 25278155.18
         },
         "2023": {
           "qtd": 10,
@@ -1875,11 +1875,11 @@
         },
         "2018": {
           "qtd": 28,
-          "valor": 19208729.979999997
+          "valor": 19208729.98
         },
         "2015": {
           "qtd": 21,
-          "valor": 26348442.2
+          "valor": 26348442.200000003
         },
         "2022": {
           "qtd": 6,

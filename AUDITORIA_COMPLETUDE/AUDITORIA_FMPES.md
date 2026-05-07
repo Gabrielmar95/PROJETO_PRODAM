@@ -1,7 +1,7 @@
 # Auditoria de Completude — FMPES
-**Fundação Municipal de Planejamento e Ensino Superior** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação Municipal de Planejamento e Ensino Superior** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
-## Score de Completude: **0.0%**
+## Score de Completude: **9.1%**
 
 ## Checklist de Documentos
 
@@ -17,7 +17,7 @@
 | `reconhecimento` | ❌ FALTANDO | Atos de reconhecimento tácito/expresso |
 | `cnd` | ❌ FALTANDO | CNDs / Certidões |
 | `dossie_folder` | ❌ FALTANDO | Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS |
-| `consolidado_folder` | ❌ FALTANDO | Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS |
+| `consolidado_folder` | ✅ OK | Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS |
 
 
 ## Contagens (todas as fontes)
@@ -35,10 +35,10 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | *(AUSENTE)* |
+| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\FMPES_CONSOLIDADO |
 | SPCF por_devedor | *(AUSENTE)* |
 
-## Documentos Faltantes (11)
+## Documentos Faltantes (10)
 
 - ❌ contrato: Pelo menos 1 contrato PDF ou ID
 - ❌ empenhos: NEs vinculadas ao contrato
@@ -50,7 +50,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 - ❌ dossie_folder: Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS
-- ❌ consolidado_folder: Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS
 
 ## Divergências (0)
 

@@ -1,6 +1,6 @@
 # Dossiê Completo — SSP
 **Secretaria de Segurança Pública** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 01.804.019/0001-53
+Data: 2026-05-07 | CNPJ: 01.804.019/0001-53
 
 ## Visão Executiva
 
@@ -59,7 +59,7 @@ Distribuição por ano:
 | 2018NE00613 | 18/2016 | 02/07/2018 | R$ 2.310.328,16 | Ativo |
 | 2021NE0000069 | 18/2016 | 11/01/2021 | R$ 2.143.810,36 | Ativo |
 | 2022NE0000066 | 48/2021 | 05/01/2022 | R$ 2.143.809,04 | Ativo |
-| 2022NE0000056 | 48/2021 | 03/01/2022 | R$ 2.143.809,04 | Ativo |
+| 2022NE0000061 |  | 03/01/2022 | R$ 2.143.809,04 | Ativo |
 
 ## Top 10 Faturas (por valor)
 
@@ -88,4 +88,4 @@ Marcos interruptivos expiram jul-nov/2026
 - Título executivo: ✅
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

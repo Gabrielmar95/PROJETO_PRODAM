@@ -1,6 +1,6 @@
 # Dossiê Completo — PMAM
 **Polícia Militar do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 63.656.292/0001-35
+Data: 2026-05-07 | CNPJ: 63.656.292/0001-35
 
 ## Visão Executiva
 
@@ -53,9 +53,9 @@ Distribuição por ano:
 | 2020NE00003 | 1/2018 | 02/01/2020 | R$ 75.480,00 | Ativo |
 | 2018NE00069 | 1/2018 | 02/01/2018 | R$ 75.480,00 | Ativo |
 | 2015NE00027 | 14/2012 | 05/01/2015 | R$ 69.239,55 | Ativo |
-| 2018NE00929 |  | 04/06/2018 | R$ 66.150,00 | Ativo |
-| 2018NE00930 | 14/2017 | 04/06/2018 | R$ 66.150,00 | Ativo |
 | 2018NE00927 | 14/2017 | 04/06/2018 | R$ 66.150,00 | Ativo |
+| 2018NE00930 | 14/2017 | 04/06/2018 | R$ 66.150,00 | Ativo |
+| 2018NE00929 |  | 04/06/2018 | R$ 66.150,00 | Ativo |
 | 2020NE00367 | 14/2017 | 01/06/2020 | R$ 66.150,00 | Ativo |
 
 ## Top 10 Faturas (por valor)
@@ -77,4 +77,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

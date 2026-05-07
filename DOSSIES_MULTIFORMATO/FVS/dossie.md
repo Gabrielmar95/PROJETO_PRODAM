@@ -1,6 +1,6 @@
 # Dossiê Completo — FVS
 **Fundação de Vigilância em Saúde** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: 07.141.411/0001-46
+Data: 2026-05-07 | CNPJ: 07.141.411/0001-46
 
 ## Visão Executiva
 
@@ -55,8 +55,8 @@ Distribuição por ano:
 | 2017NE00343 | 15/2016 | 24/02/2017 | R$ 105.003,47 | Ativo |
 | 2014NE00037 | 1/2012 | 02/01/2014 | R$ 98.340,89 | Ativo |
 | 2019NE01068 | 2/2019 | 11/06/2019 | R$ 88.254,78 | Ativo |
-| 2019NE01806 | 15/2016 | 15/08/2019 | R$ 81.830,70 | Ativo |
 | 2019NE01805 |  | 15/08/2019 | R$ 81.830,70 | Ativo |
+| 2019NE01806 | 15/2016 | 15/08/2019 | R$ 81.830,70 | Ativo |
 | 2019NE01765 | 15/2016 | 14/08/2019 | R$ 81.830,70 | Ativo |
 | 2018NE01500 | 15/2016 | 21/06/2018 | R$ 73.610,68 | Ativo |
 | 2016NE01244 | 15/2016 | 15/08/2016 | R$ 73.610,68 | Ativo |
@@ -79,4 +79,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

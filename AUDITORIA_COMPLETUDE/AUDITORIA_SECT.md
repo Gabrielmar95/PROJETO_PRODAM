@@ -1,5 +1,5 @@
 # Auditoria de Completude — SECT
-**Secretaria de Ciência e Tecnologia** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Ciência e Tecnologia** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 258328.5777689927
-- **db_faturas:** 38747.15
-- **delta:** 219581.4277689927
-- **pct:** 85.0%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 35
-- **db:** 8
-- **delta:** 27
-
+_Nenhuma divergência significativa detectada_

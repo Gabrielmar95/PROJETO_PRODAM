@@ -1,6 +1,6 @@
 # Dossiê Completo — SEMIG
 **Secretaria de Mineração** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 51.999.904/0001-03
+Data: 2026-05-07 | CNPJ: 51.999.904/0001-03
 
 ## Visão Executiva
 
@@ -12,10 +12,10 @@ Data: 2026-04-14 | CNPJ: 51.999.904/0001-03
 | Regime de execução | precatorio_rpv |
 | Índice correção | SELIC |
 | Juros mora | Conforme SELIC |
-| Valor exigível (profile) | R$ 0,00 |
+| Valor exigível (profile) | R$ 235.353,15 |
 | Valor atualizado (profile) | R$ 0,00 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 30 |
+| Faturas exigíveis | 30 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 37% |
 | Valor esperado (E[V]) | R$ 0,00 |
@@ -45,8 +45,8 @@ Distribuição por ano:
 | 2026NE0000002 | 3/2024 | 22/01/2026 | R$ 205.875,21 | Ativo |
 | 2025NE0000132 | 3/2024 | 08/05/2025 | R$ 137.250,06 | Ativo |
 | 2025NE0000251 | 3/2024 | 05/08/2025 | R$ 137.250,06 | Ativo |
-| 2025NE0000009 | 3/2024 | 22/01/2025 | R$ 131.054,04 | Ativo |
 | 2025NE0000010 |  | 22/01/2025 | R$ 131.054,04 | Ativo |
+| 2025NE0000009 | 3/2024 | 22/01/2025 | R$ 131.054,04 | Ativo |
 | 2024NE0000159 | 3/2024 | 10/07/2024 | R$ 131.054,04 | Ativo |
 | 2025NE0000013 | 3/2024 | 02/01/2025 | R$ 131.054,04 | Ativo |
 | 2025NE0000075 | 3/2024 | 13/03/2025 | R$ 98.290,55 | Ativo |
@@ -78,4 +78,4 @@ Sem dados no demonstrativo (S/D)
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

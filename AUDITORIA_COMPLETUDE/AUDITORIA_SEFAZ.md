@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEFAZ
-**Secretaria de Fazenda** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Fazenda** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,11 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 198980.4851109561
-- **db_faturas:** 39025.32
-- **delta:** 159955.1651109561
-- **pct:** 80.4%
-
+_Nenhuma divergência significativa detectada_

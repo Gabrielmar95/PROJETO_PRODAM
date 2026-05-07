@@ -1,5 +1,5 @@
 # Auditoria de Completude — AMAZONPREV
-**Instituto de Previdência do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Instituto de Previdência do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 736219.7938469165
-- **db_faturas:** 277932.98
-- **delta:** 458286.8138469165
-- **pct:** 62.2%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 21
-- **db:** 5
-- **delta:** 16
-
+_Nenhuma divergência significativa detectada_

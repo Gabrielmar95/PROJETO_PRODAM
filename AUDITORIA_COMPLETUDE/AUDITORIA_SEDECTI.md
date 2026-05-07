@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEDECTI
-**Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 

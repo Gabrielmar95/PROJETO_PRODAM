@@ -1,6 +1,6 @@
 # Dossiê Completo — DETRAN
 **Departamento Estadual de Trânsito do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: 04.224.028/0001-63
+Data: 2026-05-07 | CNPJ: 04.224.028/0001-63
 
 ## Visão Executiva
 
@@ -10,16 +10,16 @@ Data: 2026-04-14 | CNPJ: 04.224.028/0001-63
 | Próximo passo | PROTOCOLAR_PETICAO |
 | Fase atual | F5 |
 | Regime de execução | penhora_direta |
-| Índice correção | IGPM+1%+2% |
-| Juros mora | 1% a.m. |
-| Valor exigível (profile) | R$ 31.684.739,01 |
-| Valor atualizado (profile) | R$ 37.960.629,19 |
+| Índice correção | Heterogêneo — ver por contrato |
+| Juros mora | Variável por regime: SELIC incorporada (silentes e selic_pura); 1% a.m. apenas nos CTs com cláusula IGPM (22/2014, 25/2014, 27/2014) |
+| Valor exigível (profile) | R$ 0,00 |
+| Valor atualizado (profile) | R$ 0,00 |
 | Faturas total | 233 |
 | Faturas exigíveis | 179 |
 | Faturas prescritas | 54 |
 | Probabilidade recuperação | 95% |
-| Valor esperado (E[V]) | R$ 30.100.502,06 |
-| Honorários esperados | R$ 6.020.100,41 |
+| Valor esperado (E[V]) | R$ 26.786.743,61 |
+| Honorários esperados | R$ 5.357.348,72 |
 
 ## Dados SPCF (prodam.db)
 
@@ -53,8 +53,8 @@ Distribuição por ano:
 | 2026NE0000101 | 10/2021 | 20/01/2026 | R$ 6.066.991,32 | Ativo |
 | 2025NE0001458 | 10/2021 | 22/08/2025 | R$ 5.915.316,55 | Ativo |
 | 2021NE0000462 | 10/2021 | 18/06/2021 | R$ 5.915.316,55 | Ativo |
-| 2022NE0000024 | 10/2021 | 03/01/2022 | R$ 5.005.267,85 | Ativo |
 | 2022NE0000026 |  | 03/01/2022 | R$ 5.005.267,85 | Ativo |
+| 2022NE0000024 | 10/2021 | 03/01/2022 | R$ 5.005.267,85 | Ativo |
 | 2016NE00019 | 22/2014 | 04/01/2016 | R$ 4.792.503,80 | Ativo |
 | 2018NE00050 | 22/2014 | 02/01/2018 | R$ 4.792.503,80 | Ativo |
 | 2017NE00031 | 22/2014 | 02/01/2017 | R$ 4.792.503,80 | Ativo |
@@ -79,7 +79,7 @@ Distribuição por ano:
 
 ## Observações do Profile
 
-Cláusula 11.1, CT 022/2014 (IGPM) + juros 1% a.m. + multa 2%
+Regime jurídico heterogêneo — ver DETRAN.contratos.<num>.regime_aplicavel. Síntese: 3 CTs com cláusula IGPM contratual (22/2014 — original; 25/2014 e 27/2014 — confirmados via OCR como idênticos ao modelo 022/2014); 2 CTs com IPCA contratual (75/2022, 83/2022); 1 CT com IGPM via aditivo (6/2021); 1 CT com IPCA via aditivo (12/2021); 1 CT sob SELIC pura pós-Lei 14.905/2024 (3/2026); demais 10 contratos silentes, aplicando-se Tema 810 STF.
 
 ## Alertas de Prescrição
 
@@ -88,4 +88,4 @@ Cláusula 11.1, CT 022/2014 (IGPM) + juros 1% a.m. + multa 2%
 - Título executivo: ✅
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

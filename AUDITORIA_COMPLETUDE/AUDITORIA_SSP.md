@@ -1,5 +1,5 @@
 # Auditoria de Completude — SSP
-**Secretaria de Segurança Pública** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Segurança Pública** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,11 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 4553230.799761455
-- **db_faturas:** 6290728.66
-- **delta:** 1737497.860238545
-- **pct:** 38.2%
-
+_Nenhuma divergência significativa detectada_

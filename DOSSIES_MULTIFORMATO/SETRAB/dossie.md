@@ -1,6 +1,6 @@
 # Dossiê Completo — SETRAB
 **Secretaria de Estado do Trabalho (extinta, incorporada SEAS/SEJUSC)** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: CNPJ_PENDENTE
+Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -71,4 +71,4 @@ Incluido via SPCF Mar/2026. EXTINTA — incorporada SEAS/SEJUSC. 0 fat aberto. R
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

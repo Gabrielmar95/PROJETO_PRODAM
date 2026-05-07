@@ -1,5 +1,5 @@
 # Auditoria de Completude — IPAAM
-**Instituto de Proteção Ambiental do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Instituto de Proteção Ambiental do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 652339.8873389428
-- **db_faturas:** 233596.95
-- **delta:** 418742.9373389428
-- **pct:** 64.2%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 58
-- **db:** 19
-- **delta:** 39
-
+_Nenhuma divergência significativa detectada_

@@ -1,5 +1,5 @@
 # Auditoria de Completude — PMAM
-**Polícia Militar do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Polícia Militar do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,16 +47,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 27020.90058524942
-- **db_faturas:** 15075.8
-- **delta:** 11945.10058524942
-- **pct:** 44.2%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 8
-- **db:** 2
-- **delta:** 6
-
+_Nenhuma divergência significativa detectada_

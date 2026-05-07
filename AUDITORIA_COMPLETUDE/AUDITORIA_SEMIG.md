@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEMIG
-**Secretaria de Mineração** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Mineração** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 

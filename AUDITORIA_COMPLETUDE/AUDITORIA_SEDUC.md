@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEDUC
-**Secretaria de Educação do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Educação do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,10 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 76
-- **db:** 106
-- **delta:** 30
-
+_Nenhuma divergência significativa detectada_

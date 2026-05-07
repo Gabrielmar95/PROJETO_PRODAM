@@ -1,5 +1,5 @@
 # Auditoria de Completude — SUHAB
-**Superintendência da Zona Franca de Manaus - Habitação** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Superintendência da Zona Franca de Manaus - Habitação** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 840061.1525043402
-- **db_faturas:** 364460.14
-- **delta:** 475601.0125043402
-- **pct:** 56.6%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 87
-- **db:** 13
-- **delta:** 74
-
+_Nenhuma divergência significativa detectada_

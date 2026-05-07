@@ -1,6 +1,6 @@
 # Dossiê Completo — SEJEL
 **Secretaria de Estado de Juventude, Esporte e Lazer** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: CNPJ_PENDENTE
+Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -46,14 +46,14 @@ Distribuição por ano:
 |--------|----------|------|-------|----------|
 | 2014NE00023 | 18/2013 | 02/01/2014 | R$ 95.715,18 | Ativo |
 | 2018NE00334 | 6/2017 | 31/07/2018 | R$ 60.372,90 | Ativo |
-| 2015NE03019 | 18/2013 | 01/04/2015 | R$ 59.800,85 | Ativo |
-| 2015NE00318 | 18/2013 | 01/04/2015 | R$ 59.800,85 | Ativo |
-| 2015NE00302 | 18/2013 | 01/04/2015 | R$ 59.800,85 | Ativo |
 | 2015NE00319 | 18/2013 | 01/04/2015 | R$ 59.800,85 | Ativo |
+| 2015NE00302 | 18/2013 | 01/04/2015 | R$ 59.800,85 | Ativo |
+| 2015NE00318 | 18/2013 | 01/04/2015 | R$ 59.800,85 | Ativo |
+| 2015NE03019 | 18/2013 | 01/04/2015 | R$ 59.800,85 | Ativo |
 | 2020NE00054 | 2/2020 | 17/06/2020 | R$ 53.901,60 | Ativo |
 | 2016NE00026 | 18/2013 | 04/01/2016 | R$ 42.212,40 | Ativo |
-| 2017NE00221 | 6/2017 | 20/04/2017 | R$ 34.498,80 | Ativo |
 | 2017NE00227 |  | 20/04/2017 | R$ 34.498,80 | Ativo |
+| 2017NE00221 | 6/2017 | 20/04/2017 | R$ 34.498,80 | Ativo |
 
 ## Top 10 Faturas (por valor)
 
@@ -72,4 +72,4 @@ Incluido via SPCF Mar/2026. 0 fat aberto (B2-05). R$574K em perdas. 96 fat devid
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

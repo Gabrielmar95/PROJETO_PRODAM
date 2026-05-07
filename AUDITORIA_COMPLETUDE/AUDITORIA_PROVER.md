@@ -1,5 +1,5 @@
 # Auditoria de Completude — PROVER
-**Prover** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**Prover** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **27.3%**
 

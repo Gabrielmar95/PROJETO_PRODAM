@@ -17,7 +17,7 @@ tr:hover{background:#fafafa}
 canvas{max-height:300px}
 </style></head><body>
 <h1>Dossiê Completo — FUAM/FUHAM</h1>
-<p><b>Fundação Universidade Aberta do Amazonas / Fundação Hospitalar de Hematologia e Hemoterapia do Amazonas</b> | GOV_INDIRETA | CNPJ: 02.006.782/0001-00 | Data: 2026-04-14</p>
+<p><b>Fundação Universidade Aberta do Amazonas / Fundação Hospitalar de Hematologia e Hemoterapia do Amazonas</b> | GOV_INDIRETA | CNPJ: 02.006.782/0001-00 | Data: 2026-05-07</p>
 
 <div class="grid">
 <div class="card"><div class="label">Força</div><div class="kpi forte">FORTE</div></div>
@@ -26,7 +26,7 @@ canvas{max-height:300px}
 <div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 356.355,07</div></div>
 <div class="card"><div class="label">Faturas exig.</div><div class="kpi">22</div></div>
 <div class="card"><div class="label">Faturas prescr.</div><div class="kpi">53</div></div>
-<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">0</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">349</div></div>
 <div class="card"><div class="label">Prob. recup.</div><div class="kpi">78%</div></div>
 </div>
 
@@ -35,6 +35,16 @@ canvas{max-height:300px}
 
 <h2>Top 10 Empenhos (por valor)</h2>
 <table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2014NE00033</td><td>15/2013</td><td>02/01/2014</td><td>R$ 414.719,73</td><td>Ativo</td></tr>
+<tr><td>2025NE0000909</td><td>15/2013</td><td>10/12/2025</td><td>R$ 97.581,10</td><td>Ativo</td></tr>
+<tr><td>2025NE0000910</td><td>15/2013</td><td>10/12/2025</td><td>R$ 97.581,10</td><td>Ativo</td></tr>
+<tr><td>2014NE00022</td><td>4/2011</td><td>02/01/2014</td><td>R$ 26.400,00</td><td>Ativo</td></tr>
+<tr><td>2014NE00048</td><td>19/2013</td><td>02/01/2014</td><td>R$ 20.230,57</td><td>Ativo</td></tr>
+<tr><td>2021NE0000529</td><td></td><td>14/10/2021</td><td>R$ 17.580,00</td><td>Ativo</td></tr>
+<tr><td>2016NE00862</td><td></td><td>19/12/2016</td><td>R$ 15.694,14</td><td>Ativo</td></tr>
+<tr><td>2016NE00797</td><td>13/2015</td><td>06/12/2016</td><td>R$ 15.694,14</td><td>Ativo</td></tr>
+<tr><td>2014NE00872</td><td>4/2011</td><td>30/10/2014</td><td>R$ 15.229,44</td><td>Ativo</td></tr>
+<tr><td>2025NE0000758</td><td>13/2020</td><td>31/10/2025</td><td>R$ 14.817,60</td><td>Ativo</td></tr>
 </table>
 <h2>Top 10 Faturas</h2>
 <table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr></table>
@@ -45,9 +55,9 @@ canvas{max-height:300px}
 <script>
 new Chart(document.getElementById('empAno'),{
   type:'bar',
-  data:{labels:[],datasets:[
-    {label:'Qtd',data:[],yAxisID:'y',backgroundColor:'#1F3864'},
-    {label:'Valor R$',data:[],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[16, 16, 22, 12, 28, 16, 42, 29, 28, 18, 26, 91, 5],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[522134.12, 38224.68, 96320.86, 26496.949999999997, 43190.329999999994, 52564.04000000001, 141178.34999999992, 98216.5, 95267.06, 60984.54, 47955.55000000001, 377541.0299999997, 9830.76],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
   ]},
   options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
 });

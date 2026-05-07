@@ -1,5 +1,5 @@
 # Auditoria de Completude — FHAJ
-**Fundação Hospitalar Adriano Jorge** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação Hospitalar Adriano Jorge** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 259910.7790577516
-- **db_faturas:** 28541.6
-- **delta:** 231369.1790577516
-- **pct:** 89.0%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 34
-- **db:** 6
-- **delta:** 28
-
+_Nenhuma divergência significativa detectada_

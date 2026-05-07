@@ -4,10 +4,10 @@ categoria;GOV_INDIRETA
 cnpj;04.224.028/0001-63
 forca_probatoria;FORTE
 proximo_passo;PROTOCOLAR_PETICAO
-val_exig;31684739.01023886
-val_atualizado;37960629.18957764
+val_exig;0
+val_atualizado;0
 faturas_exigiveis;179
 faturas_prescritas;54
 faturas_total;233
 p_recuperacao;0.95
-indice_correcao;IGPM+1%+2%
+indice_correcao;Heterogêneo — ver por contrato

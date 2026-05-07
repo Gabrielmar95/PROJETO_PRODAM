@@ -147,14 +147,2860 @@
     },
     "tem_csv_faturas": false
   },
-  "empenhos": [],
+  "empenhos": [
+    {
+      "numero": "2020NE00753",
+      "contrato": "",
+      "valor": 10448.91,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0005/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00752",
+      "contrato": "",
+      "valor": 4327.22,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0371/2020, EMITIDA EM 20/07/2020."
+    },
+    {
+      "numero": "2020NE00751",
+      "contrato": "",
+      "valor": 929.05,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 00547/2020, EMITIDA EM 14/10/2020."
+    },
+    {
+      "numero": "2025NE0000758",
+      "contrato": "13/2020",
+      "valor": 14817.6,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000757",
+      "contrato": "4/2025",
+      "valor": 5936.7,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2025",
+      "descricao": "SERVIÇOS TÉCNICOS ESPECIALIZADOS EM INFORMÁTICA,FORNECIMENTO DE SERVIÇO DE ACESSO GERENCIADO À INTERNET, NO MODELO DE INTERNET DEDICADA, VIA REDE DE GOVERNO, GARANTINDO CONEXÕES DE ALTA VELOCIDADE COM DISPONIBILIDADE DE ACESSO 24x7 E SEGURANÇA."
+    },
+    {
+      "numero": "2024NE0000599",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2015NE00598",
+      "contrato": "19/2013",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2015",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 459/15, EMITIDA EM 09.07.15, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 019/2013-FUAM, FIRMADO ENTRE A FUNDAÇÃO \"ALFREDO DA MATTA\" E A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S/A, CONFORME PROJETO BÁSICO Nº 71/2014-FUAM, PARECER Nº 243/2014-ASSEJUR/FUAM. HOMOLOGADO NO D.O.E DO DIA 09.01.2015. OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2014NE00606",
+      "contrato": "4/2011",
+      "valor": 5076.48,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2014",
+      "descricao": "Contrato No. 4/2011 - Acesso Internet/Comput.c.banda 1.644Kbps-MetroMao"
+    },
+    {
+      "numero": "2016NE00786",
+      "contrato": "12/2015",
+      "valor": 363.8,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 012/2015-FUAM. FIRMADO COM A EMPRESA PRODAM ¿ PROCESSAMENTO DE DADOS AMAZONAS S.A. OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PROM. VALOR GLOBAL: R$ 43.656,00. VIGÊNCIA: DE 28.12.2016 A 27.12.2017"
+    },
+    {
+      "numero": "2016NE00784",
+      "contrato": "13/2015",
+      "valor": 198.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/11/2016",
+      "descricao": "REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 013/2015. OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA, DE FORMA EVENTUAL, PARA FUAM. FIRMADO COM A EMPRESA PRODAM PROCESSAMENTO DE DADOS S.A. VALOR GLOBAL: R$ 23.839,20 VIGENCIA: DE 28.12.2016 A 27.12.2017. Fundamentação Legal: PARECER Nº 053/2015-ASSEJUR/FUAM, PARECER Nº 955/2015-ASS/CGL, PORTARIA Nº 197/2015-DAF/GDP/FUAM, PUBLICADA NO D.O.E DE 15.12.2015. RDL Nº 006/2015."
+    },
+    {
+      "numero": "2014NE00872",
+      "contrato": "4/2011",
+      "valor": 15229.44,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2014",
+      "descricao": "Contrato No. 4/2011 - Acesso Internet/Comput.c.banda 1.644Kbps-MetroMao"
+    },
+    {
+      "numero": "2025NE0000233",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000234",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2025NE0000232",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2023NE0000630",
+      "contrato": "",
+      "valor": 1576.85,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "Anulação parcial do saldo em decorrência do encerramento do exercício, conforme solicitação do Fundo Estadual de Saúde, Ofício nº nº04081/2023-FES/GAB/SES-AM, Processo SIGED 017101.044467/2023-83."
+    },
+    {
+      "numero": "2022NE0000716",
+      "contrato": "13/2020",
+      "valor": 403.2,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2022NE0000715",
+      "contrato": "12/2020",
+      "valor": 234.59,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2019NE00711",
+      "contrato": "12/2015",
+      "valor": 393.64,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2019NE00712",
+      "contrato": "13/2015",
+      "valor": 216.36,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2022NE0000397",
+      "contrato": "",
+      "valor": 2698.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/07/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0179/2022, emitida em 05/05/2022. O valor a ser anulado refere-se à ECONOMICIDADE ocorrida no Contrato nos meses de Abril e Junho/2022."
+    },
+    {
+      "numero": "2023NE0000291",
+      "contrato": "12/2020",
+      "valor": 2345.87,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 012/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000290",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 007/2019 AD: 03."
+    },
+    {
+      "numero": "2023NE0000292",
+      "contrato": "13/2020",
+      "valor": 4032.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/06/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 013/2020 AD: 02."
+    },
+    {
+      "numero": "2016NE00033",
+      "contrato": "13/2015",
+      "valor": 3973.2,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2016",
+      "descricao": "OBJETO DO CONTRATO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA, DE FORMA EVENTUAL, PARA A FUNDAÇÃO ¿ALFREDO DA MATTA¿. REFERENTE AO TERMO DE CONTRATO Nº 013/2015-FUAM, FIRMADO ENTRE A FUNDAÇÃO ¿ALFREDO DA MATTA¿ E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONFORME PROJETO BÁSICO Nº 041/2015-FUAM, PARECER Nº 053/2015-ASSEJUR/FUAM, PARECER Nº 955/2015-ASS/CGL, PORTARIA Nº 197/2015-DAF/GDP/FUAM PUBLICADA NO D.O.E DE 15.12.2015. RDL Nº 006/2015."
+    },
+    {
+      "numero": "2016NE00035",
+      "contrato": "12/2015",
+      "valor": 7278.0,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2016",
+      "descricao": "OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE TÉCNICOS EM TELECOMUNICAÇÕES, PARA ACESSO À INTERNET AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM PARA A FUNDAÇÃO ¿ALFREDO DA MATTA¿. REFERENTE AO CONTRATO Nº 012/2015-FUAM, FIRMADO ENTRE A FUNDAÇÃO ¿ALFREDO DA MATTA¿ E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONF. PROJETO BÁSICO Nº 040/2015-FUAM, PARECER Nº 056/ASSEJUR/FUAM, PARECER Nº 956/2015-ASS/CGL, RDL Nº 005/2015."
+    },
+    {
+      "numero": "2025NE0000848",
+      "contrato": "13/2015",
+      "valor": 1463.96,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 013/2015. MÊS DE AGOSTO DE 2018. PROCESSO FÍSICO Nº 745/2018."
+    },
+    {
+      "numero": "2022NE0000711",
+      "contrato": "13/2020",
+      "valor": 7661.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2022",
+      "descricao": "REFORÇO DA NE 0180/2022, EMITIDA EM 05/05/2022."
+    },
+    {
+      "numero": "2023NE0000471",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 007/2019 AD: 03."
+    },
+    {
+      "numero": "2023NE0000472",
+      "contrato": "12/2020",
+      "valor": 2345.87,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 012/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000473",
+      "contrato": "13/2020",
+      "valor": 4032.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 013/2020 AD: 02."
+    },
+    {
+      "numero": "2022NE0000557",
+      "contrato": "7/2019",
+      "valor": 2138.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2022",
+      "descricao": "REFORÇO DA NE Nº 0033/2022, EMITIDA EM 03/01/2022."
+    },
+    {
+      "numero": "2022NE0000556",
+      "contrato": "7/2019",
+      "valor": 712.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2014NE00688",
+      "contrato": "4/2011",
+      "valor": 5076.48,
+      "situacao": "Ativo",
+      "data_emissao": "28/08/2014",
+      "descricao": "Contrato No. 4/2011 - Acesso Internet/Comput.c.banda 1.644Kbps-MetroMao"
+    },
+    {
+      "numero": "2018NE00085",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2018NE00084",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2018NE00083",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2025NE0000846",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/20213, MÊS DE MAIO DE 2018. PROC. FÍSICO Nº 411/2018."
+    },
+    {
+      "numero": "2025NE0000847",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/20213, MÊS DE JULHO DE 2018. PROC. FÍSICO Nº 674/2018."
+    },
+    {
+      "numero": "2025NE0000842",
+      "contrato": "",
+      "valor": 817.14,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Execução de sistema de recursos humanos e faturamento da folha, prestados a Fundação Hospitalar “Alfredo da Matta”, faturado no mês de julho de 2021, executados sem a devida cobertura contratual. Conforme Oficio nº 0254/21 - GGP/GDP/FUAM."
+    },
+    {
+      "numero": "2025NE0000840",
+      "contrato": "",
+      "valor": 817.14,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Execução de sistema de recursos humanos e faturamento da folha, prestados a Fundação Hospitalar “Alfredo da Matta”, faturado no mês de setembro de 2021, executados sem a devida cobertura contratual. Conforme Oficio nº 0211/21 - GGP/GDP/FUAM."
+    },
+    {
+      "numero": "2025NE0000841",
+      "contrato": "",
+      "valor": 818.66,
+      "situacao": "Ativo",
+      "data_emissao": "27/11/2025",
+      "descricao": "Execução de sistema de recursos humanos e faturamento da folha, prestados a Fundação Hospitalar “Alfredo da Matta”, faturado no mês de maio de 2021, executados sem a devida cobertura contratual. Conforme Oficio nº 0019/21 - GGP/GDP/FUAM."
+    },
+    {
+      "numero": "2018NE00568",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUAM. Termo: 019/2013. Ad.: 04. Proc. 001039/2017."
+    },
+    {
+      "numero": "2018NE00569",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. Termo: 012/2015. Ad.: 02. Proc.: 001042/2017."
+    },
+    {
+      "numero": "2018NE00570",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUAM. Termo: 013/2015. Ad.: 02. Proc.: 001043/2017."
+    },
+    {
+      "numero": "2017NE00628",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\""
+    },
+    {
+      "numero": "2022NE0000389",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\". REFERENTE AO MÊS DE JUNHO/2022."
+    },
+    {
+      "numero": "2025NE0000833",
+      "contrato": "",
+      "valor": 817.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "MOTIVO DA ANULAÇÃO DA NE 000832/2025: ALTERAÇÃO DE NATUREZA DE DESPESA, CONFORME ORIENTAÇÃO DA INSPETORIA/DATEC/SEFAZ-AM."
+    },
+    {
+      "numero": "2025NE0000832",
+      "contrato": "",
+      "valor": 817.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2025",
+      "descricao": "Execução de sistema de recursos humanos e faturamento da folha, prestados a Fundação Hospitalar “Alfredo da Matta”, faturado no mês de setembro de 2021, executados sem a devida cobertura contratual. Conforme Oficio nº 0211/21 - GGP/GDP/FUAM."
+    },
+    {
+      "numero": "2020NE00585",
+      "contrato": "",
+      "valor": 2163.61,
+      "situacao": "Ativo",
+      "data_emissao": "26/10/2020",
+      "descricao": "REFORÇO DA NE Nº 0005/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2014NE00743",
+      "contrato": "4/2011",
+      "valor": 5076.48,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2014",
+      "descricao": "Contrato No. 4/2011 - Acesso Internet/Comput.c.banda 1.644Kbps-MetroMao"
+    },
+    {
+      "numero": "2014NE00374",
+      "contrato": "3/2012",
+      "valor": 2113.4,
+      "situacao": "Ativo",
+      "data_emissao": "26/05/2014",
+      "descricao": "Contrato No. 3/2012 - Serviços Técnicos em Informatica"
+    },
+    {
+      "numero": "2021NE0000171",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "26/04/2021",
+      "descricao": "REFORÇO DA NE Nº 0032/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2024NE0000739",
+      "contrato": "12/2020",
+      "valor": 3518.8,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000740",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 04."
+    },
+    {
+      "numero": "2022NE0000710",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "REFORÇO DA NE 180/2022, EMITIDA EM 05/05/2022"
+    },
+    {
+      "numero": "2022NE0000709",
+      "contrato": "",
+      "valor": 4377.96,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 179/2022, EMITIDA EM 05/05/2022"
+    },
+    {
+      "numero": "2020NE00671",
+      "contrato": "",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "REFORÇO DA NE Nº 0611/2020, EMITIDA EM 05/11/2020."
+    },
+    {
+      "numero": "2020NE00683",
+      "contrato": "",
+      "valor": 1947.25,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "REFORÇO DA NE Nº 0005/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00677",
+      "contrato": "",
+      "valor": 4327.22,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 005/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00678",
+      "contrato": "13/2020",
+      "valor": 403.24,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2020NE00679",
+      "contrato": "12/2020",
+      "valor": 216.03,
+      "situacao": "Ativo",
+      "data_emissao": "25/11/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2022NE0000381",
+      "contrato": "12/2020",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2022",
+      "descricao": "REFORÇO DA NE Nº 0179/2022, EMITIDA EM 05/05/2022."
+    },
+    {
+      "numero": "2019NE00283",
+      "contrato": "",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2019",
+      "descricao": "REFORÇO DA NE Nº 0025/2019, EMITIDA EM 02/01/2019."
+    },
+    {
+      "numero": "2019NE00284",
+      "contrato": "",
+      "valor": 2163.61,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2019",
+      "descricao": "REFORÇO DA NE Nº 0027/2019, EMITIDA EM 02/01/2019."
+    },
+    {
+      "numero": "2022NE0000249",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "25/05/2022",
+      "descricao": "REFORÇO DA NE Nº 0029/2022, EMITIDA EM 03/01/2022."
+    },
+    {
+      "numero": "2021NE0000725",
+      "contrato": "12/2020",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2021NE0000724",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2023NE0000368",
+      "contrato": "12/2020",
+      "valor": 2345.87,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 012/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000369",
+      "contrato": "13/2020",
+      "valor": 4032.0,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 013/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000367",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 007/2019 AD: 03."
+    },
+    {
+      "numero": "2021NE0000283",
+      "contrato": "",
+      "valor": 12097.11,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2021",
+      "descricao": "REFORÇO DA NE Nº 0032/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2016NE00388",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 033/16, EMITIDA EM 29.01.16. Contratação de empresa para prestação de serviços Técnicos em Informática, de forma eventual, para Fundação ¿Alfredo da Matta¿, firmado com a Empresa Prodam Processamento de Dados Amazonas S.A."
+    },
+    {
+      "numero": "2016NE00387",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "24/06/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 098/16, EMITIDA EM 04.03.16. Contratação de empresa para prestação de serviços de Desenvolvimento, implantação e hospedagem do site da Fundação ¿Alfredo da Matta¿, firmado com a Empresa Prodam Processamento de Dados Amazonas S.A."
+    },
+    {
+      "numero": "2025NE0000714",
+      "contrato": "4/2025",
+      "valor": 296.84,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2025",
+      "descricao": "SERVIÇOS TÉCNICOS ESPECIALIZADOS EM INFORMÁTICA,FORNECIMENTO DE SERVIÇO DE ACESSO GERENCIADO À INTERNET, NO MODELO DE INTERNET DEDICADA, VIA REDE DE GOVERNO, GARANTINDO CONEXÕES DE ALTA VELOCIDADE COM DISPONIBILIDADE DE ACESSO 24x7 E SEGURANÇA."
+    },
+    {
+      "numero": "2025NE0000711",
+      "contrato": "13/2020",
+      "valor": 4032.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 02."
+    },
+    {
+      "numero": "2025NE0000712",
+      "contrato": "",
+      "valor": 296.84,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2025",
+      "descricao": "MOTIVO DA ANULAÇÃO PARCIAL: ECONOMICIDADE OCORRIDA NO 5º TERMO ADITIVO AO CONTRATO Nº 012/2020-FUHAM, NAS COMPETÊNCIAS DE ABRIL E MAIO DE 2025."
+    },
+    {
+      "numero": "2024NE0000586",
+      "contrato": "12/2020",
+      "valor": 175.95,
+      "situacao": "Ativo",
+      "data_emissao": "23/10/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 05."
+    },
+    {
+      "numero": "2016NE00486",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2016",
+      "descricao": "OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA, DE FORMA EVENTUAL, PARA A FUNDAÇÃO ¿ALFREDO DA MATTA¿. REFERENTE AO TERMO DE CONTRATO Nº 013/2015-FUAM, FIRMADO ENTRE A FUNDAÇÃO ¿ALFREDO DA MATTA¿ E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A."
+    },
+    {
+      "numero": "2016NE00485",
+      "contrato": "12/2015",
+      "valor": 3639.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2016",
+      "descricao": "OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À REDE INTERNET E AOS SISTEMAS CONTRATADOS, RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. OBJETO: Referente ao Termos de Contrato nº 012/2015-FUAM. Firmado com a Empresa PRODAM PROCESSAMENTO DE DADOS AMAZONAS SA."
+    },
+    {
+      "numero": "2021NE0000279",
+      "contrato": "",
+      "valor": 2100.24,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2021",
+      "descricao": "REFORÇO DA NE Nº 0019/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2021NE0000278",
+      "contrato": "",
+      "valor": 4320.6,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2021",
+      "descricao": "REFORÇO DA NE Nº 0033/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2016NE00386",
+      "contrato": "13/2015",
+      "valor": 3639.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 035/16, EMITIDA EM 29.01.16. Contratação de empresa para prestação de serviços técnicos em telecomunicações, para acesso à Internet e aos sistemas contratados residentes no computador central da PRODAM, firmado com a Empresa Prodam Processamento de Dados Amazonas S.A. OBJETO: Referente ao Termo de Contrato nº 012/2015-FUAM."
+    },
+    {
+      "numero": "2024NE0000278",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000280",
+      "contrato": "7/2019",
+      "valor": 1069.18,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0007/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000279",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "23/05/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 04."
+    },
+    {
+      "numero": "2018NE00164",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2016NE00893",
+      "contrato": "",
+      "valor": 312.37,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0800/16, EMITIDA EM 07.12.2016. EM VIRTUDE DA INEXISTÊNCIA DE FATURAS PARA PAGAMENTO. CONFORME INSTRUÇÃO NORMATIVA N.º 01/2016, DE 14 DE DEZEMBRO DE 2016 SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE00896",
+      "contrato": "19/2013",
+      "valor": 312.37,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2016",
+      "descricao": "REFORÇO DA NE Nº 0800/16. REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 019/2013-FUAM. FIRMADO COM A EMPRESA PRODAM ¿ PROCESSAMENTO DE DADOS AMAZONAS S.A. OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO ¿ALFREDO DA MATTA¿."
+    },
+    {
+      "numero": "2015NE00851",
+      "contrato": "12/2015",
+      "valor": 363.9,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE TÉCNICOS EM TELECOMUNICAÇÕES, PARA ACESSO À INTERNET AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM PARA A FUNDAÇÃO ALFREDO DA MATTA."
+    },
+    {
+      "numero": "2015NE00852",
+      "contrato": "13/2015",
+      "valor": 198.66,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA, DE FORMA EVENTUAL, PARA A FUNDAÇÃO ALFREDO DA MATTA."
+    },
+    {
+      "numero": "2022NE0000687",
+      "contrato": "7/2019",
+      "valor": 2851.2,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2016NE00719",
+      "contrato": "12/2015",
+      "valor": 10917.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/11/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 035/16, EMITIDA EM 29.01.16. Contratação de empresa para prestação de serviços técnicos em telecomunicações, para acesso à Internet e aos sistemas contratados residentes no computador central da PRODAM, firmado com a Empresa Prodam Processamento de Dados Amazonas S.A. OBJETO: Referente ao Termo de Contrato nº 012/2015-FUAM VALOR GLOBAL: R$ 43.668,00"
+    },
+    {
+      "numero": "2022NE0000374",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2022",
+      "descricao": "REFORÇO DA NE Nº 0180/2022, EMITIDA EM 05/05/2022."
+    },
+    {
+      "numero": "2019NE00357",
+      "contrato": "13/2015",
+      "valor": 1902.88,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERV. TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA. CONF. ORIENTAÇÃO DO FES EM SEUS E-MAIL DO DIA 19/07/19. NC 5884/2019. TROCA DE FONTE. MAIO/2019."
+    },
+    {
+      "numero": "2019NE00356",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "22/07/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERV. TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. CONF. E-MAIL FES DO DIA 19/07/19. NC 5885/2019. TROCA DE FONTE."
+    },
+    {
+      "numero": "2025NE0000270",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000269",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2025NE0000271",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2019NE00206",
+      "contrato": "",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2019",
+      "descricao": "REFORÇO DA NE Nº 0025/2019, EMITIDA EM 02/01/2019."
+    },
+    {
+      "numero": "2019NE00207",
+      "contrato": "",
+      "valor": 2163.61,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2019",
+      "descricao": "REFORÇO DA NE Nº 0027/2019, EMITIDA EM 02/01/2019."
+    },
+    {
+      "numero": "2024NE0000569",
+      "contrato": "",
+      "valor": 1.08,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2024",
+      "descricao": "VALOR A SER ANULADO REFERE-SE AO ENCERRAMENTO DO CONTRATO, OCORRIDA NO CONTRATO Nº 007/2019, NA COMPETÊNCIA DE JUNHO/2024."
+    },
+    {
+      "numero": "2018NE00771",
+      "contrato": "",
+      "valor": 53.91,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 164/2018. DE ACORDO COM O QUE ESTABELECE A INSTRUÇÃO NORMATIVA N.º 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018, SOBRE OS PROCEDIMENTOS PARA O ENCERRAMENTO DO EXERCÍCIO DE 2018."
+    },
+    {
+      "numero": "2018NE00770",
+      "contrato": "",
+      "valor": 6.8,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 131/2018. DE ACORDO COM O QUE ESTABELECE A INSTRUÇÃO NORMATIVA N.º 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018, SOBRE OS PROCEDIMENTOS PARA O ENCERRAMENTO DO EXERCÍCIO DE 2018."
+    },
+    {
+      "numero": "2018NE00782",
+      "contrato": "",
+      "valor": 192.09,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 570/2018. DE ACORDO COM O QUE ESTABELECE A INSTRUÇÃO NORMATIVA N.º 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018, SOBRE OS PROCEDIMENTOS PARA O ENCERRAMENTO DO EXERCÍCIO DE 2018."
+    },
+    {
+      "numero": "2018NE00781",
+      "contrato": "",
+      "valor": 6.8,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 569/2018. DE ACORDO COM O QUE ESTABELECE A INSTRUÇÃO NORMATIVA N.º 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018, SOBRE OS PROCEDIMENTOS PARA O ENCERRAMENTO DO EXERCÍCIO DE 2018."
+    },
+    {
+      "numero": "2018NE00769",
+      "contrato": "",
+      "valor": 53.22,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 084/2018. DE ACORDO COM O QUE ESTABELECE A INSTRUÇÃO NORMATIVA N.º 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018, SOBRE OS PROCEDIMENTOS PARA O ENCERRAMENTO DO EXERCÍCIO DE 2018."
+    },
+    {
+      "numero": "2018NE00768",
+      "contrato": "",
+      "valor": 6.8,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 083/2018. DE ACORDO COM O QUE ESTABELECE A INSTRUÇÃO NORMATIVA N.º 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018, SOBRE OS PROCEDIMENTOS PARA O ENCERRAMENTO DO EXERCÍCIO DE 2018."
+    },
+    {
+      "numero": "2022NE0000629",
+      "contrato": "12/2020",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2022",
+      "descricao": "REFORÇO DA NE Nº 0028/2022, EMITIDA EM 03/01/2022."
+    },
+    {
+      "numero": "2017NE00594",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "20/09/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\""
+    },
+    {
+      "numero": "2017NE00595",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/09/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2020NE00371",
+      "contrato": "13/2015",
+      "valor": 4327.22,
+      "situacao": "Ativo",
+      "data_emissao": "20/07/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2020NE00372",
+      "contrato": "12/2015",
+      "valor": 7872.8,
+      "situacao": "Ativo",
+      "data_emissao": "20/07/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2020NE00373",
+      "contrato": "7/2019",
+      "valor": 2100.24,
+      "situacao": "Ativo",
+      "data_emissao": "20/07/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\""
+    },
+    {
+      "numero": "2024NE0000089",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000085",
+      "contrato": "7/2019",
+      "valor": 1069.18,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0007/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000088",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000857",
+      "contrato": "",
+      "valor": 0.63,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2024",
+      "descricao": "MOTIVO DA ANULAÇÃO PARCIAL DA NE 0023/2024: ECONOMICIDADE, OCORRIDA NO CONTRATO Nº 007/2019, NAS COMPETÊNCIAS DE JANEIRO A OUTUBRO/2024. EM ATENDIMENTO AO OFÍCIO CIRCULAR Nº 004/2024 - SEFES/SES - AM E AO DECRETO Nº 50.522/2024 DE 22/10/2024 - ENCERRAMENTO DO EXERCÍCIO FINANCEIRO DE 2024."
+    },
+    {
+      "numero": "2016NE00862",
+      "contrato": "",
+      "valor": 15694.14,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2016",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 0797/16, EMITIDA EM 06.12.2016. EM VIRTUDE DO SALDO DE EMPENHO NO TÉRMINO DA VIGÊNCIA DO CONTRATO Nº 013/2015-FUAM."
+    },
+    {
+      "numero": "2016NE00866",
+      "contrato": "12/2015",
+      "valor": 3275.1,
+      "situacao": "Ativo",
+      "data_emissao": "19/12/2016",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 813/16, EMITIDA EM 12.12.16. FIRMADO COM A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE TÉCNICOS EM TELECOMUNICAÇÕES, PARA ACESSO À INTERNET AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2019NE00331",
+      "contrato": "",
+      "valor": 1902.88,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2019",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0027/2019, EMITIDA EM 02/01/2019. CONFORME E-MAIL RECEBIDO DO FES NO DIA 19/07/2019 E DESTAQUE ORÇAMENTÁRIO POR MEIO DA NC Nº 5884/2019-FES (TROCA DE FONTE - FTI)."
+    },
+    {
+      "numero": "2019NE00332",
+      "contrato": "",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2019",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0025/2019, EMITIDA EM 02/01/2019. CONFORME E-MAIL RECEBIDO DO FES NO DIA 19/07/2019 E DESTAQUE ORÇAMENTÁRIO POR MEIO DA NC Nº 5885/2019-FES (TROCA DE FONTE - FTI)."
+    },
+    {
+      "numero": "2020NE00262",
+      "contrato": "",
+      "valor": 4480.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0005/2020."
+    },
+    {
+      "numero": "2020NE00262",
+      "contrato": "",
+      "valor": 4480.0,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2020",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0005/2020."
+    },
+    {
+      "numero": "2022NE0000136",
+      "contrato": "7/2019",
+      "valor": 2851.2,
+      "situacao": "Ativo",
+      "data_emissao": "19/04/2022",
+      "descricao": "REFORÇO DA NE Nº 0033/2022, EMITIDA EM 03/01/2022."
+    },
+    {
+      "numero": "2018NE00137",
+      "contrato": "",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 0132/2018, EM VIRTUDE DE INCORREÇÃO NA MODALIDADE INFORMADA."
+    },
+    {
+      "numero": "2020NE00642",
+      "contrato": "",
+      "valor": 3542.76,
+      "situacao": "Ativo",
+      "data_emissao": "18/11/2020",
+      "descricao": "REFORÇO DA NE Nº 00372/2020, EMITIDA EM 20/07/2020."
+    },
+    {
+      "numero": "2024NE0000319",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "18/06/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000318",
+      "contrato": "7/2019",
+      "valor": 1069.18,
+      "situacao": "Ativo",
+      "data_emissao": "18/06/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0007/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000320",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/06/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000554",
+      "contrato": "13/2020",
+      "valor": 302.4,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000683",
+      "contrato": "7/2019",
+      "valor": 534.5,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS). CONTRATO Nº 07/2019 - 4º TERMO ADITIVO. O VALOR É REFERENTE AOS 15 DIAS DO MÊS DE OUTUBRO DE 2023, POIS A VIGÊNCIA INICIOU NO DIA 15.10.2023."
+    },
+    {
+      "numero": "2025NE0000685",
+      "contrato": "",
+      "valor": 5233.54,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2025",
+      "descricao": "MOTIVO DE CANCELAMENTO DA NE Nº 021/2025: ECONOMICIDADE OCORRIDA NO CONTRATO Nº 012/2020 - FUHAM, NA COMPETÊNCIA DE JANEIRO A MARÇO DE 2025."
+    },
+    {
+      "numero": "2021NE0000404",
+      "contrato": "",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2021",
+      "descricao": "REFORÇO DA NE Nº 0019/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2021NE0000406",
+      "contrato": "",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2021",
+      "descricao": "REFORÇO DA NE Nº 0033/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2021NE0000407",
+      "contrato": "",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2021",
+      "descricao": "REFORÇO DA NE Nº 0032/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2023NE0000205",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 007/2019 AD: 03."
+    },
+    {
+      "numero": "2023NE0000206",
+      "contrato": "12/2020",
+      "valor": 2345.87,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 012/2020 AD: 02."
+    },
+    {
+      "numero": "2023NE0000207",
+      "contrato": "13/2020",
+      "valor": 4032.0,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 013/2020 AD: 02."
+    },
+    {
+      "numero": "2019NE00162",
+      "contrato": "13/2015",
+      "valor": 2163.61,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2015NE00194",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 030/2015, EMITIDA EM 05.01.15, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 019/2013-FUAM, firmado entre a Fundação \"Alfredo da Matta\" e a Empresa PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A, Conforme Projeto Básico nº 071/2014, Parecer nº 243/2014-ASSEJUR-FUAM."
+    },
+    {
+      "numero": "2015NE00191",
+      "contrato": "3/2012",
+      "valor": 2113.4,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 031/2015, EMITIDA EM 05.01.15, REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 003/2012-FUAM, firmado entre a Fundação \"Alfredo da Matta\" e a EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A, Conforme Projeto Básico nº 028/2014-FUAM, Parecer nº 88/2014-ASSEJUR/FUAM."
+    },
+    {
+      "numero": "2015NE00192",
+      "contrato": "4/2011",
+      "valor": 5076.48,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 033/2015, EMITIDA EM 05.01.15, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 004/2011-FUAM, firmado entre a Fundação \"Alfredo da Matta\" e a Empresa PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A, Conforme Projeto Básico nº 029/2014-FUAM e Parecer nº 089/2014-ASSEJUR-FUAM."
+    },
+    {
+      "numero": "2025NE0000937",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "15/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE JUNHO DE 2017. PROCESSO FÍSICO Nº 711/2017."
+    },
+    {
+      "numero": "2025NE0000657",
+      "contrato": "13/2020",
+      "valor": 2721.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE ACESSO GERENCIADO À REDE MUNDIAL, COMPEENDENDO O ACESSO GERENCIADO À INTERNET ATRAVÉS DA REDE DE GOVERNO. REFERENTE A 27 DIAS DO MÊS DE DEZEMBRO DE 2023. TERMO DE CONTRATO Nº 013/2020 - 3º TERMO ADITIVO."
+    },
+    {
+      "numero": "2025NE0000655",
+      "contrato": "13/2020",
+      "valor": 4032.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE FORNECIMENTO DE ACESSO GERENCIADO À REDE MUNDIAL (De 1 Ate 30 Mbps - 20.000 x 201.600), COMPREENDENDO O ACESO GERENCIADO À INTERNET ATRAVÉS A REDE DE GOVERNO. CONTRATO Nº 13/2020 - 2º TERMO ADITIVO."
+    },
+    {
+      "numero": "2025NE0000656",
+      "contrato": "13/2020",
+      "valor": 4032.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DO SERVIÇO DE FORNECIMENTO DE ACESSO GERENCIADO À REDE MUNDIAL, COMPREENDENDO O ACESSO GERENCIADO À INTERNET ATRAVÉS DA REDE DE GOVERNO. CONTRATO Nº 013/2020 ADITIVO Nº 02."
+    },
+    {
+      "numero": "2025NE0000653",
+      "contrato": "7/2019",
+      "valor": 1069.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS). CONTRATO Nº 007/2019 - 4º TERMO ADITIVO."
+    },
+    {
+      "numero": "2025NE0000650",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS). CONTRATO Nº 07/2019 - 3º TERMO ADITIVO."
+    },
+    {
+      "numero": "2025NE0000658",
+      "contrato": "13/2020",
+      "valor": 302.4,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE FORNECIMENTO DE ACESSO GERENCIADO À REDE MUNDIAL DA REDE DO GOVERNO. CONTRATO Nº 013/2020 - 4º TERMO ADITIVO. O VALOR REFERE-SE AOS 3 DIAS DO INÍCIO DA VIGÊNCIA DO ADITIVO."
+    },
+    {
+      "numero": "2025NE0000652",
+      "contrato": "7/2019",
+      "valor": 712.8,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS). CONTRATO Nº 007/2019 - 3º TERMO ADITIVO. A VIGÊNCIA DO CONTRATO ENCERROU NO DIA 15/10/2023, O VALOR DE R$ 712,80 É REFERENTE AOS 15 DIAS DO FIM DA VIGÊNCIA."
+    },
+    {
+      "numero": "2025NE0000651",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS). CONTRATO Nº 007/2019 - 3º TERMO ADITIVO."
+    },
+    {
+      "numero": "2025NE0000654",
+      "contrato": "7/2019",
+      "valor": 1069.0,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS). CONTRATO Nº 07/2019 - TERMO ADITIVO Nº 04."
+    },
+    {
+      "numero": "2021NE0000531",
+      "contrato": "7/2019",
+      "valor": 712.8,
+      "situacao": "Ativo",
+      "data_emissao": "15/10/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2016NE00521",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2016",
+      "descricao": "OBJETO: Contratação de empresa para prestação de serviços de Desenvolvimento, implantação e hospedagem de site da Fundação ¿Alfredo da Matta¿. REFERENTE AO 2º TERMO ADITIVO AO TERMO DE CONTRATO Nº 019/2013-FUAM, FIRMADO ENTRE A FUNDAÇÃO ¿ALFREDO DA MATTA¿ E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONF. PROJETO BÁSICO Nº 44/2015-FUAM, LAUDO TÉCNICO Nº 0137/2015-ASCI/FUAM, PARECER Nº 075/2015-ASSEJUR-FUAM E PORTARIA Nº 256/2013-GDP/DAF/FUAM PUBLICADA NO D.O.E EM 17/12/2013"
+    },
+    {
+      "numero": "2014NE00716",
+      "contrato": "3/2012",
+      "valor": 2113.4,
+      "situacao": "Ativo",
+      "data_emissao": "15/09/2014",
+      "descricao": "Contrato No. 3/2012 - Serviços Técnicos em Informatica"
+    },
+    {
+      "numero": "2014NE00517",
+      "contrato": "3/2012",
+      "valor": 2113.4,
+      "situacao": "Ativo",
+      "data_emissao": "15/07/2014",
+      "descricao": "Contrato No. 3/2012 - Serviços Técnicos em Informatica"
+    },
+    {
+      "numero": "2022NE0000269",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/06/2022",
+      "descricao": "REFORÇO DA NE Nº 0033/2022, EMITIDA EM 03/01/2022."
+    },
+    {
+      "numero": "2020NE00259",
+      "contrato": "7/2019",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2020",
+      "descricao": "REFORÇO DA NE Nº 0022/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00258",
+      "contrato": "13/2015",
+      "valor": 2163.61,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2020",
+      "descricao": "REFORÇO DA NE Nº 0005/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00257",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2020",
+      "descricao": "REFORÇO DA NE Nº 0006/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2022NE0000074",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "15/03/2022",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\" EM DEZEMBRO/2021."
+    },
+    {
+      "numero": "2021NE0000530",
+      "contrato": "",
+      "valor": 1147.39,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0033/2021, EMITIDA EM 04/01/2021. O VALOR ANULADO REFERE-SE AO SALDO DECORRENTE DA ECONOMICIDADE OCORRIDA NO CONTRATO."
+    },
+    {
+      "numero": "2021NE0000529",
+      "contrato": "",
+      "valor": 17580.0,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0033/2021, EMITIDA EM 04/01/2021. O VALOR ANULADO REFERE-SE AO SALDO DECORRENTE DA ECONOMICIDADE OCORRIDA NO CONTRATO."
+    },
+    {
+      "numero": "2020NE00547",
+      "contrato": "13/2015",
+      "valor": 2163.61,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2020NE00555",
+      "contrato": "",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2020",
+      "descricao": "REFORÇO DA NE Nº 0006/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00546",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2022NE0000593",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2022",
+      "descricao": "REFORÇO DA NE Nº 0180/2022, EMITIDA EM 05/05/2022."
+    },
+    {
+      "numero": "2014NE00793",
+      "contrato": "3/2012",
+      "valor": 6340.2,
+      "situacao": "Ativo",
+      "data_emissao": "13/10/2014",
+      "descricao": "Contrato No. 3/2012 - Serviços Técnicos em Informatica"
+    },
+    {
+      "numero": "2017NE00361",
+      "contrato": "13/2015",
+      "valor": 3973.2,
+      "situacao": "Ativo",
+      "data_emissao": "13/06/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\""
+    },
+    {
+      "numero": "2017NE00360",
+      "contrato": "12/2015",
+      "valor": 7276.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/06/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2017NE00362",
+      "contrato": "19/2013",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "13/06/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\""
+    },
+    {
+      "numero": "2014NE00425",
+      "contrato": "4/2011",
+      "valor": 2538.24,
+      "situacao": "Ativo",
+      "data_emissao": "13/06/2014",
+      "descricao": "Contrato No. 4/2011 - Acesso Internet/Comput.c.banda 1.644Kbps-MetroMao"
+    },
+    {
+      "numero": "2022NE0000212",
+      "contrato": "",
+      "valor": 6480.9,
+      "situacao": "Ativo",
+      "data_emissao": "13/05/2022",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 0028/2022, EMITIDA EM 03/01/2022."
+    },
+    {
+      "numero": "2018NE00130",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\". Termo: 019/2013. Ad.: 04. Proc.: 001039/2017."
+    },
+    {
+      "numero": "2018NE00132",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\". Termo: 013/2015. Ad.:02. Proc. 001043/2017"
+    },
+    {
+      "numero": "2018NE00131",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. Termo: 012/2015. Ad.: 02. Proc.: 001042/2017."
+    },
+    {
+      "numero": "2024NE0000779",
+      "contrato": "12/2020",
+      "valor": 1583.48,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000778",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000777",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000780",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2024NE0000781",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 05."
+    },
+    {
+      "numero": "2017NE00757",
+      "contrato": "13/2015",
+      "valor": 198.66,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2017NE00755",
+      "contrato": "19/2013",
+      "valor": 312.37,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2017NE00756",
+      "contrato": "12/2015",
+      "valor": 363.8,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2016NE00813",
+      "contrato": "12/2015",
+      "valor": 14556.0,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2025NE0000775",
+      "contrato": "6/2025",
+      "valor": 2579.72,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS DE ASSISTÊNCIA TÉCNICA EM INFORMÁTICA."
+    },
+    {
+      "numero": "2021NE0000687",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2021NE0000693",
+      "contrato": "12/2020",
+      "valor": 216.3,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO \"ALFREDO DA MATA\""
+    },
+    {
+      "numero": "2021NE0000688",
+      "contrato": "7/2019",
+      "valor": 1425.6,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2014NE00714",
+      "contrato": "19/2013",
+      "valor": 2680.53,
+      "situacao": "Ativo",
+      "data_emissao": "12/09/2014",
+      "descricao": "Contrato No. 19/2013 - Desenvolvimento, Implatação e Hospedagem de Site"
+    },
+    {
+      "numero": "2014NE00626",
+      "contrato": "3/2012",
+      "valor": 2113.4,
+      "situacao": "Ativo",
+      "data_emissao": "12/08/2014",
+      "descricao": "Contrato No. 3/2012 - Serviços Técnicos em Informatica"
+    },
+    {
+      "numero": "2021NE0000112",
+      "contrato": "12/2020",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "REFORÇO DA NE Nº 0033/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2021NE0000110",
+      "contrato": "12/2020",
+      "valor": 1646.08,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "PARA ATENDER DESPESAS COM SUPORTE TÉCNICO EM INFORMÁTICA, INCLUSIVE INSTALAÇÃO, CONFIGURAÇÃO E MANUTENÇÃO DE PROGRAMAS DE COMPUTAÇÃO E BANCOS DE DADOS NO MÊS DE DEZEMBRO/2020."
+    },
+    {
+      "numero": "2021NE0000111",
+      "contrato": "7/2019",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2021",
+      "descricao": "REFORÇO DA NE Nº 0019/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2015NE00845",
+      "contrato": "19/2013",
+      "valor": 312.37,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2015",
+      "descricao": "REFERENTE AO 2º TERMO ADITIVO TC Nº019/2013-FUAM, FIRMADO ENTRE A FUNDAÇÃO ALFREDO DA MATTA E A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONFORME MEMO. Nº 012/2015 - GSTI/FUAM, PROJETO BÁSICO Nº 044/2015-FUAM, PARECER Nº 75/2015-ASSEJUR/FUAM. PUBLICADO NO D.O.E NO DIA 24.04.2015."
+    },
+    {
+      "numero": "2014NE00976",
+      "contrato": "19/2013",
+      "valor": 312.37,
+      "situacao": "Ativo",
+      "data_emissao": "11/12/2014",
+      "descricao": "Hospedagem de Site"
+    },
+    {
+      "numero": "2022NE0000422",
+      "contrato": "13/2020",
+      "valor": 4320.6,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "REFORÇO DA NE Nº 0179/2022, EMITIDA EM 05/05/2022."
+    },
+    {
+      "numero": "2022NE0000421",
+      "contrato": "7/2019",
+      "valor": 2851.2,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "REFORÇO DA NE Nº 0389/2022, EMITIDA EM 27/07/2022."
+    },
+    {
+      "numero": "2022NE0000423",
+      "contrato": "13/2020",
+      "valor": 8064.74,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2022",
+      "descricao": "REFORÇO DA NE Nº 0180/2022, EMITIDA EM 05/05/2022."
+    },
+    {
+      "numero": "2025NE0000909",
+      "contrato": "15/2013",
+      "valor": 97581.1,
+      "situacao": "Ativo",
+      "data_emissao": "10/12/2025",
+      "descricao": "DESPESA REFERENTE A PRESTAÇÃO DE SERVIÇOS DE PROJETO E INSTALAÇÃO DE REDE LÓGICA E ELÉTRICA NA FUNDAÇÃO ALFREDO DA MATTA. REFERENTE AO CONTRATO 015/2013 - FUAM, MÊS DE MARÇO DE 2014, PROCESSO FÍSICO Nº 1159/2014."
+    },
+    {
+      "numero": "2025NE0000910",
+      "contrato": "15/2013",
+      "valor": 97581.1,
+      "situacao": "Ativo",
+      "data_emissao": "10/12/2025",
+      "descricao": "DESPESA REFERENTE A PRESTAÇÃO DE SERVIÇOS DE PROJETO E INSTALAÇÃO DE REDE LÓGICA E ELÉTRICA NA FUNDAÇÃO ALFREDO DA MATTA. REFERENTE AO CONTRATO 015/2013 - FUAM, MÊS DE ABRIL DE 2014, PROCESSO FÍSICO Nº 1160/2014."
+    },
+    {
+      "numero": "2021NE0000663",
+      "contrato": "13/2020",
+      "valor": 403.24,
+      "situacao": "Ativo",
+      "data_emissao": "10/11/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2019NE00587",
+      "contrato": "7/2019",
+      "valor": 525.06,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2019",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0576/2019, EMITIDA EM 09/10/2019."
+    },
+    {
+      "numero": "2025NE0000101",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2025NE0000102",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000103",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2020NE00080",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2020",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET, PARA ATENDER AS NECESSIDADES DA FUAM. TERCEIRO TERMO ADITIVO DO CONTRATO 12/2015.REFERENTE A COMPETÊNCIA DE NOVEMBRO/2019."
+    },
+    {
+      "numero": "2020NE00076",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2020",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET, PARA ATENDER AS NECESSIDADES DA FUAM. TERCEIRO TERMO ADITIVO DO CONTRATO 12/2015.REFERENTE A COMPETÊNCIA DE JULHO/2019."
+    },
+    {
+      "numero": "2020NE00078",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2020",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET, PARA ATENDER AS NECESSIDADES DA FUAM. TERCEIRO TERMO ADITIVO DO CONTRATO 12/2015.REFERENTE A COMPETÊNCIA DE SETEMBRO/2019."
+    },
+    {
+      "numero": "2020NE00077",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2020",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET, PARA ATENDER AS NECESSIDADES DA FUAM. TERCEIRO TERMO ADITIVO DO CONTRATO 12/2015.REFERENTE A COMPETÊNCIA DE AGOSTO/2019."
+    },
+    {
+      "numero": "2020NE00079",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2020",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET, PARA ATENDER AS NECESSIDADES DA FUAM. TERCEIRO TERMO ADITIVO DO CONTRATO 12/2015.REFERENTE A COMPETÊNCIA DE OUTUBRO/2019."
+    },
+    {
+      "numero": "2023NE0000563",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 03."
+    },
+    {
+      "numero": "2023NE0000564",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 03."
+    },
+    {
+      "numero": "2020NE00544",
+      "contrato": "7/2019",
+      "valor": 525.06,
+      "situacao": "Ativo",
+      "data_emissao": "09/10/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUAM. Termo: 07/2019. Ad. 1º - Proc.: 000098/2020."
+    },
+    {
+      "numero": "2019NE00576",
+      "contrato": "7/2019",
+      "valor": 3150.36,
+      "situacao": "Ativo",
+      "data_emissao": "09/10/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2020NE00472",
+      "contrato": "",
+      "valor": 7872.8,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2020",
+      "descricao": "REFORÇO DA NE Nº 0006/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00471",
+      "contrato": "",
+      "valor": 4327.22,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2020",
+      "descricao": "REFORÇO DA NE Nº 0005/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00473",
+      "contrato": "",
+      "valor": 2100.24,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2020",
+      "descricao": "REFORÇO DA NE Nº 0022/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2015NE00459",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "REFERENTE AO 1º TERMO ADITIVO AO TERMO DE CONTRATO Nº 019/2013-FUAM, FIRMADO ENTRE A FUNDAÇÃO \"ALFREDO DA MATTA\" E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONFORME PROJETO BÁSICO Nº 71/2014-FUAM E PARECER Nº 243/2014-ASSEJUR-FUAM."
+    },
+    {
+      "numero": "2021NE0000637",
+      "contrato": "7/2019",
+      "valor": 525.06,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2021",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO 00019/2021."
+    },
+    {
+      "numero": "2024NE0000379",
+      "contrato": "7/2019",
+      "valor": 1069.18,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0007/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000378",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2024NE0000377",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 04."
+    },
+    {
+      "numero": "2021NE0000300",
+      "contrato": "",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2021",
+      "descricao": "REFORÇO DA NE Nº 0032/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2021NE0000301",
+      "contrato": "",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2021",
+      "descricao": "REFORÇO DA NE Nº 0033/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2021NE0000302",
+      "contrato": "",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "08/07/2021",
+      "descricao": "REFORÇO DA NE Nº 0019/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2015NE00271",
+      "contrato": "3/2012",
+      "valor": 2113.4,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "cobertura abril 2015"
+    },
+    {
+      "numero": "2015NE00273",
+      "contrato": "4/2011",
+      "valor": 5076.48,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 033/2015, EMITIDA EM 05.01.15, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 004/2011-FUAM, FIRMADO ENTRE A FUNDAÇÃO \"ALFREDO DA MATTA\" E A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A, Conforme Projeto Básico nº 029/2014-FUAM e Parecer nº 089/2014-ASSEJUR-FUAM."
+    },
+    {
+      "numero": "2015NE00270",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "REFERENTE AO 1º TERMO ADITIVO AO TERMO DE CONTRATO Nº 019/2013-FUAM, FIRMADO ENTRE A FUNDAÇÃO \"ALFREDO DA MATTA\" E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONF. PROJETO BÁSICO Nº 071/2014-FUAM, PARECER Nº 243/2014-ASSEJUR-FUAM. HOMOLOGADO NO D.O.E DO DIA 09.01.2015."
+    },
+    {
+      "numero": "2018NE00735",
+      "contrato": "13/2015",
+      "valor": 216.36,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2018NE00734",
+      "contrato": "12/2015",
+      "valor": 393.64,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2016NE00800",
+      "contrato": "19/2013",
+      "valor": 312.37,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "REFERENTE AO 3º TERMO ADITIVO AO TERMO DE CONTRATO Nº 019/2013-FUAM, FIRMADO COM A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO ¿ALFREDO DA MATTA¿ VALOR GLOBAL: R$ 9.371,16."
+    },
+    {
+      "numero": "2024NE0000681",
+      "contrato": "6/2024",
+      "valor": 3742.13,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0007/2019 AD: 04."
+    },
+    {
+      "numero": "2016NE00797",
+      "contrato": "13/2015",
+      "valor": 15694.14,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2016",
+      "descricao": "REFERENTE AO TERMO DE CONTRATO Nº 013/2015-FUAM. FIRMADO COM A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA, DE FORMA EVENTUAL, PARA A FUNDAÇÃO ¿ALFREDO DA MATTA¿. VALOR GLOBAL: R$ 23.839,20"
+    },
+    {
+      "numero": "2016NE00796",
+      "contrato": "19/2013",
+      "valor": 5935.07,
+      "situacao": "Ativo",
+      "data_emissao": "06/12/2016",
+      "descricao": "Referente ao 2º Termo Aditivo ao Contrato nº 019/2013-FUAM. FIRMADO COM A EMPRESA PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ¿ALFREDO DA MATTA¿. VALOR GLOBAL: R$ 9.371,16 VIGENCIA: 19.12.2015 A 18.12.2016."
+    },
+    {
+      "numero": "2020NE00068",
+      "contrato": "12/2015",
+      "valor": 3542.76,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2020",
+      "descricao": "PARA ATENDER DESPESA DE EXERCÍCIO ANTERIOR. PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. REFERENTE AO MÊS DE DEZEMBRO/2019. CONFORME NC 1671/2020-FES."
+    },
+    {
+      "numero": "2020NE00610",
+      "contrato": "",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 0609/2020, EMITIDA EM 05/11/2020. EM VIRTUDE DE INCORREÇÃO NA REFERÊNCIA DA LICITAÇÃO."
+    },
+    {
+      "numero": "2020NE00611",
+      "contrato": "7/2019",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUAM. Termo: 07/2019. Ad. 1º - Proc.: 000098/2020."
+    },
+    {
+      "numero": "2020NE00610",
+      "contrato": "",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 0609/2020, EMITIDA EM 05/11/2020. EM VIRTUDE DE INCORREÇÃO NA REFERÊNCIA DA LICITAÇÃO."
+    },
+    {
+      "numero": "2020NE00609",
+      "contrato": "7/2019",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUAM. Termo: 07/2019. Ad. 1º - Proc.: 000098/2020."
+    },
+    {
+      "numero": "2022NE0000179",
+      "contrato": "12/2020",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO \"ALFREDO DA MATA\""
+    },
+    {
+      "numero": "2022NE0000180",
+      "contrato": "13/2020",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2026NE0000065",
+      "contrato": "",
+      "valor": 1758.9,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS EVENTUAIS DE ASSISTÊNCIA TÉCNICA EM INFORMÁTICA."
+    },
+    {
+      "numero": "2026NE0000063",
+      "contrato": "4/2025",
+      "valor": 2968.35,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2026",
+      "descricao": "SERVIÇOS TÉCNICOS ESPECIALIZADOS EM INFORMÁTICA,FORNECIMENTO DE SERVIÇO DE ACESSO GERENCIADO À INTERNET, NO MODELO DE INTERNET DEDICADA, VIA REDE DE GOVERNO, GARANTINDO CONEXÕES DE ALTA VELOCIDADE COM DISPONIBILIDADE DE ACESSO 24x7 E SEGURANÇA."
+    },
+    {
+      "numero": "2026NE0000064",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "05/03/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2026NE0000017",
+      "contrato": "4/2025",
+      "valor": 2968.35,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "SERVIÇOS TÉCNICOS ESPECIALIZADOS EM INFORMÁTICA,FORNECIMENTO DE SERVIÇO DE ACESSO GERENCIADO À INTERNET, NO MODELO DE INTERNET DEDICADA, VIA REDE DE GOVERNO, GARANTINDO CONEXÕES DE ALTA VELOCIDADE COM DISPONIBILIDADE DE ACESSO 24x7 E SEGURANÇA."
+    },
+    {
+      "numero": "2026NE0000018",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2015NE00029",
+      "contrato": "19/2013",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO TOTAL DA NE 0027/2015, DEVIDO OMISSÃO DE DADOS DO CONTRATO NO CAMPO DESCRIÇÃO."
+    },
+    {
+      "numero": "2015NE00033",
+      "contrato": "4/2011",
+      "valor": 10152.96,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira de 2015, meses: janeiro e fevereiro."
+    },
+    {
+      "numero": "2015NE00030",
+      "contrato": "19/2013",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira de 2015-meses: janeiro e fevereiro."
+    },
+    {
+      "numero": "2015NE00031",
+      "contrato": "3/2012",
+      "valor": 4226.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira de 2015-meses: janeiro e fevereiro."
+    },
+    {
+      "numero": "2015NE00027",
+      "contrato": "19/2013",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Contratação de empresa para prestação de serviços de Desenvolvimento e hospedagem de site da Fundação Alfredo da Matta. Conf. contrato Nº 19/2013, Termo Aditivo Nº 01, com vigência de 19/12/2014 até 18/12/2015, Valor Global R$ 9.371,16."
+    },
+    {
+      "numero": "2025NE0000896",
+      "contrato": "13/2020",
+      "valor": 3639.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "REFERENTE AO ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE OUTUBRO DE 2015, EXECUTADO SEM A DEVIDA COBERTURA CONTRATUAL, CONFORME DEMONSTRA A JUSTIFICATIVA ADMINISTRATIVA NAS FLS. 10 E 11. PROCESSO FÍSICO Nº 1063/2015."
+    },
+    {
+      "numero": "2025NE0000895",
+      "contrato": "13/2020",
+      "valor": 3639.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "REFERENTE AO ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE NOVEMBRO DE 2015, EXECUTADO SEM A DEVIDA COBERTURA CONTRATUAL, CONFORME DEMONSTRA A JUSTIFICATIVA ADMINISTRATIVA NAS FLS. 10 E 11."
+    },
+    {
+      "numero": "2025NE0000897",
+      "contrato": "13/2020",
+      "valor": 3639.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "REFERENTE AO ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE SETEMBRO DE 2015, EXECUTADO SEM A DEVIDA COBERTURA CONTRATUAL, CONFORME DEMONSTRA A JUSTIFICATIVA ADMINISTRATIVA NAS FLS. 10 E 11. PROCESSO FÍSICO Nº 1062/2015."
+    },
+    {
+      "numero": "2025NE0000900",
+      "contrato": "13/2020",
+      "valor": 1819.5,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "REFERENTE AO ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE JUNHO DE 2015 (15 DIAS), EXECUTADO SEM A DEVIDA COBERTURA CONTRATUAL, CONFORME DEMONSTRA A JUSTIFICATIVA ADMINISTRATIVA NAS FLS. 10 E 11. PROCESSO FÍSICO Nº 1059/2015."
+    },
+    {
+      "numero": "2025NE0000890",
+      "contrato": "4/2011",
+      "valor": 5076.48,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS DA PRODAM. REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 004/2011 - FUAM, MÊS DE SETEMBRO DE 2014. PROC. FÍSICO Nº 1121/2014."
+    },
+    {
+      "numero": "2025NE0000888",
+      "contrato": "19/2013",
+      "valor": 468.56,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE DEZEMBRO DE 2015 (18 DIAS, FIM DA VIGÊNCIA). PROC. FÍSICO Nº 01034/2015."
+    },
+    {
+      "numero": "2025NE0000889",
+      "contrato": "12/2015",
+      "valor": 1634.04,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "SERVIÇOS GERENCIADO À REDE MUNDIAL (INTERNET), REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE DEZEMBRO DE 2017 (27 DIAS, FIM DA VIGÊNCIA). PROC. FÍSICO Nº 1145/2017."
+    },
+    {
+      "numero": "2025NE0000885",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE SETEMBRO DE 2015. PROC. FÍSICO Nº 0903/2015."
+    },
+    {
+      "numero": "2025NE0000891",
+      "contrato": "4/2011",
+      "valor": 2538.24,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "DESPESA REFERENTE À EXECUÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, ACESSO À REDE MUNDIAL DE COMPUTADORES E AOS SISTEMAS DA PRODAM COM LARGURA DE BANDA DE 1,644KBPS, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 004/2011 - FUAM, MÊS DE JUNHO DE 2015 (15 DIAS, FIM DA VIGÊNCIA). PROC. FÍSICO Nº 806/2015."
+    },
+    {
+      "numero": "2025NE0000886",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE OUTUBRO DE 2015. PROC. FÍSICO Nº 0904/2015."
+    },
+    {
+      "numero": "2025NE0000898",
+      "contrato": "13/2020",
+      "valor": 3639.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "REFERENTE AO ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE AGOSTO DE 2015, EXECUTADO SEM A DEVIDA COBERTURA CONTRATUAL, CONFORME DEMONSTRA A JUSTIFICATIVA ADMINISTRATIVA NAS FLS. 10 E 11. PROCESSO FÍSICO Nº 1061/2015."
+    },
+    {
+      "numero": "2025NE0000892",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE ABRIL DE 2018. PROCESSO FÍSICO Nº 410/2018."
+    },
+    {
+      "numero": "2025NE0000899",
+      "contrato": "13/2020",
+      "valor": 3639.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "REFERENTE AO ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE JULHO DE 2015, EXECUTADO SEM A DEVIDA COBERTURA CONTRATUAL, CONFORME DEMONSTRA A JUSTIFICATIVA ADMINISTRATIVA NAS FLS. 10 E 11. PROCESSO FÍSICO Nº 1060/2015."
+    },
+    {
+      "numero": "2025NE0000887",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE NOVEMBRO DE 2015. PROC. FÍSICO Nº 0966/2015."
+    },
+    {
+      "numero": "2025NE0000884",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE AGOSTO DE 2015. PROC. FÍSICO Nº 0902/2015."
+    },
+    {
+      "numero": "2022NE0000067",
+      "contrato": "13/2020",
+      "valor": 3629.13,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2022",
+      "descricao": "SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM - PROCESSAMENTO, ARMAZENAMENTO OU HOSPEDAGEM DE DADOS, TEXTOS, IMAGENS, VÍDEOS, PÁGINAS ELETRÔNICAS, APLICATIVOS E SISTEMAS DE INFORMAÇÃO, ENTRE OUTROS FORMATOS, E CONGÊNERES - REFERENTE A 27 DIAS DE DEZEMBRO/2021."
+    },
+    {
+      "numero": "2016NE00097",
+      "contrato": "",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "ANULAÇÃO DA NE 091 DEVIDO A DESCRIÇÃO ESTAR INCORRETA"
+    },
+    {
+      "numero": "2016NE00091",
+      "contrato": "19/2013",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "OBJETO: Contratação de empresa para prestação de serviços de Desenvolvimento, implantação e hospedagem de site da Fundação ¿Alfredo da Matta¿. REFERENTE AO 2º TERMO ADITIVO AO TERMO DE CONTRATO Nº 019/2013-FUAM, FIRMADO ENTRE A FUNDAÇÃO ¿ALFREDO DA MATTA¿ E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONF. PROJETO BÁSICO Nº 44/2015-FUAM, LAUDO TÉCNICO Nº 0137/2015-ASCI/FUAM, PARECER Nº 075/2015-ASSEJUR-FUAM."
+    },
+    {
+      "numero": "2016NE00098",
+      "contrato": "19/2013",
+      "valor": 1561.86,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2016",
+      "descricao": "REFERENTE AO 2º TERMO ADITIVO AO TERMO DE CONTRATO Nº 019/2013-FUAM, FIRMADO ENTRE A FUNDAÇÃO ¿ALFREDO DA MATTA¿ E A PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A. CONF. PROJETO BÁSICO Nº 44/2015-FUAM, LAUDO TÉCNICO Nº 0137/2015-ASCI/FUAM, PARECER Nº 075/2015-ASSEJUR-FUAM E PORTARIA Nº 256/2013-GDP/DAF/FUAM PUBLICADA NO D.O.E EM 17/12/2013"
+    },
+    {
+      "numero": "2021NE0000033",
+      "contrato": "12/2020",
+      "valor": 6480.9,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2021NE0000019",
+      "contrato": "7/2019",
+      "valor": 3150.36,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2021NE0000032",
+      "contrato": "13/2020",
+      "valor": 8064.74,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2025NE0000883",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE JULHO DE 2017. PROC. FÍSICO Nº 823/2017."
+    },
+    {
+      "numero": "2025NE0000882",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE OUTUBRO DE 2017, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 12/2015-FUAM. PROCESSO FÍSICO Nº 1052/2017."
+    },
+    {
+      "numero": "2025NE0000881",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE NOVEMBRO DE 2018. PROC. FÍSICO Nº 947/2018."
+    },
+    {
+      "numero": "2025NE0000880",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE OUTUBRO DE 2018. PROC. FÍSICO Nº 870/2018."
+    },
+    {
+      "numero": "2025NE0000761",
+      "contrato": "",
+      "valor": 7473.06,
+      "situacao": "Ativo",
+      "data_emissao": "03/11/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2025NE0000322",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000321",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000323",
+      "contrato": "6/2024",
+      "valor": 1067.58,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DO SERVIÇO DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O SITE INSTITUCIONAL DA FUNDAÇÃO HOSPITALAR ALFREDO DA MATTA - FUHAM."
+    },
+    {
+      "numero": "2020NE00169",
+      "contrato": "7/2019",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2020",
+      "descricao": "REFORÇO DA NE Nº 0022/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00167",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2020",
+      "descricao": "REFORÇO DA NE Nº 0006/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2020NE00168",
+      "contrato": "13/2015",
+      "valor": 2163.61,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2020",
+      "descricao": "REFORÇO DA NE Nº 0005/2020, EMITIDA EM 02/01/2020."
+    },
+    {
+      "numero": "2019NE00136",
+      "contrato": "12/2015",
+      "valor": 3936.4,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2022NE0000029",
+      "contrato": "13/2020",
+      "valor": 12097.11,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2022NE0000033",
+      "contrato": "7/2019",
+      "valor": 2851.2,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2025NE0000868",
+      "contrato": "12/2015",
+      "valor": 1634.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE DEZEMBRO DE 2018. PROC. FÍSICO Nº 988/2018."
+    },
+    {
+      "numero": "2025NE0000862",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE OUTUBRO DE 2017. PROC. FÍSICO Nº 1051/2017."
+    },
+    {
+      "numero": "2025NE0000866",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "SERVIÇOS DE ACESSO GERENCIADO À REDE MUNDIAL (INTERNET), REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE AGOSTO DE 2017. PROC. FÍSICO Nº 911/2017."
+    },
+    {
+      "numero": "2025NE0000867",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE SETEMBRO DE 2018. PROC. FÍSICO Nº 811/2018."
+    },
+    {
+      "numero": "2025NE0000864",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "SERVIÇOS GERENCIADO À REDE MUNDIAL DE PROVEDORES, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE JUNHO DE 2017. PROC. FÍSICO Nº 712/2017."
+    },
+    {
+      "numero": "2025NE0000865",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "SERVIÇOS DE ACESSO GERENCIADO À REDE MUNDIAL (INTERNET), REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE JULHO DE 2017. PROC. FÍSICO Nº 910/2017."
+    },
+    {
+      "numero": "2025NE0000863",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE NOVEMBRO DE 2017. PROC. FÍSICO Nº 1112/2017."
+    },
+    {
+      "numero": "2025NE0000874",
+      "contrato": "13/2015",
+      "valor": 616.5,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL, INSTALAÇÃO DE REDES ELÉTRICAS E LÓGICAS. REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 013/2015 - FUAM. MÊS DE NOVEMBRO DE 2017. PROCESSO FÍSICO Nº 1124/2017."
+    },
+    {
+      "numero": "2025NE0000872",
+      "contrato": "13/2015",
+      "valor": 1840.93,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL, INSTALAÇÃO DE SOFTWARES. REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 013/2015. MÊS DE OUTUBRO DE 2017. PROCESSO FÍSICO Nº 1053/2017."
+    },
+    {
+      "numero": "2025NE0000871",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "SERVIÇOS DE ACESSO GERENCIADO À REDE MUNDIAL (INTERNET), REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE NOVEMBRO DE 2017. PROC. FÍSICO Nº 1113/2017."
+    },
+    {
+      "numero": "2025NE0000875",
+      "contrato": "4/2011",
+      "valor": 5076.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "DESPESA REFERENTE À EXECUÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, ACESSO À REDE MUNDIAL DE COMPUTADORES E AOS SISTEMAS DA PRODAM C/ LARGURA DE BANDA DE 1.644 KBPS, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 004/2011, MÊS DE MAIO DE 2015. PROC. FÍSICO Nº 807/2015."
+    },
+    {
+      "numero": "2025NE0000870",
+      "contrato": "13/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2015 - FUAM, MÊS DE AGOSTO DE 2018. PROC. FÍSICO Nº 666/2018."
+    },
+    {
+      "numero": "2025NE0000873",
+      "contrato": "13/2015",
+      "valor": 1339.59,
+      "situacao": "Ativo",
+      "data_emissao": "02/12/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL, APOIO A ESPECIFICAÇÃO DE EQUIPAMENTOS E SOFTWARES. REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 013/2015 - FUAM. MÊS DE NOVEMBRO DE 2017. PROCESSO FÍSICO Nº 1123/2017."
+    },
+    {
+      "numero": "2025NE0000642",
+      "contrato": "13/2020",
+      "valor": 2721.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE SERVIÇO DE ACESSO GERENCIADO À REDE MUNDIAL, COMPREENDENDO O ACESSO GERENCIADO À INTERNET ATRAVÉS DA REDE DE GOVERNO. 4º TERMO ADITIVO. PERÍODO 01/10/2024 a 28/10/2024"
+    },
+    {
+      "numero": "2025NE0000641",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. 4º TERMO ADITIVO."
+    },
+    {
+      "numero": "2025NE0000643",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000644",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2020NE00523",
+      "contrato": "",
+      "valor": 525.06,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2020",
+      "descricao": "REFORÇO DA NE Nº 0373/2020, EMITIDA EM 20/07/2020."
+    },
+    {
+      "numero": "2022NE0000487",
+      "contrato": "",
+      "valor": 123.78,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2022",
+      "descricao": "O VALOR ANULADO REFERE-SE AO SALDO DECORRENTE DA ECONOMICIDADE NO CONTRATO NO ATÉ O MÊS DE JUNHO/2022."
+    },
+    {
+      "numero": "2021NE0000243",
+      "contrato": "",
+      "valor": 200.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/06/2021",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 0033/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2025NE0000021",
+      "contrato": "12/2020",
+      "valor": 1759.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 05."
+    },
+    {
+      "numero": "2025NE0000020",
+      "contrato": "13/2020",
+      "valor": 3024.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. TC: 0013/2020 AD: 05."
+    },
+    {
+      "numero": "2024NE0000024",
+      "contrato": "12/2020",
+      "valor": 3518.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\". TC: 0012/2020 AD: 04."
+    },
+    {
+      "numero": "2023NE0000002",
+      "contrato": "7/2019",
+      "valor": 4276.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2023NE0000007",
+      "contrato": "13/2020",
+      "valor": 12096.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2023NE0000003",
+      "contrato": "12/2020",
+      "valor": 7037.61,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUNDAÇÃO HOSPITALAR \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2020NE00006",
+      "contrato": "12/2015",
+      "valor": 11809.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2020NE00005",
+      "contrato": "13/2015",
+      "valor": 6490.83,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2020NE00022",
+      "contrato": "7/2019",
+      "valor": 3150.36,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM DE SERVIDOR EM NUVEM, EM AMBIENTE DEDICADO, PARA COMPORTAR O PORTAL (WEBSITE E SEUS APLICATIVOS INTEGRADOS) DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2019NE00025",
+      "contrato": "12/2015",
+      "valor": 11809.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2019NE00027",
+      "contrato": "13/2015",
+      "valor": 6490.83,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2018NE00038",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2018NE00037",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO À INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2018NE00019",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "REFERENTE AO ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE MAIO/2017."
+    },
+    {
+      "numero": "2018NE00039",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\"."
+    },
+    {
+      "numero": "2018NE00018",
+      "contrato": "13/2015",
+      "valor": 1840.93,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "REFERENTE A PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL. MÊS DE SETEMBRO/2017."
+    },
+    {
+      "numero": "2018NE00020",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "REFERENTE A SERVIÇO DE HOSPEDAGEM DE SITE NO MÊS DE AGOSTO/2017."
+    },
+    {
+      "numero": "2017NE00037",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DE SITE DA FUNDAÇÃO \"ALFREDO DA MATTA\""
+    },
+    {
+      "numero": "2017NE00034",
+      "contrato": "12/2015",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM."
+    },
+    {
+      "numero": "2017NE00035",
+      "contrato": "13/2015",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA A FUNDAÇÃO \"ALFREDO DA MATTA\""
+    },
+    {
+      "numero": "2014NE00048",
+      "contrato": "19/2013",
+      "valor": 20230.57,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 19/2013 - Desenvolvimento, Implatação e Hospedagem de Site"
+    },
+    {
+      "numero": "2014NE00022",
+      "contrato": "4/2011",
+      "valor": 26400.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 4/2011 - Acesso Internet/Comput.c.banda 1.644Kbps-MetroMao"
+    },
+    {
+      "numero": "2014NE00039",
+      "contrato": "3/2012",
+      "valor": 10000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 3/2012 - Serviços Técnicos em Informatica"
+    },
+    {
+      "numero": "2014NE00033",
+      "contrato": "15/2013",
+      "valor": 414719.73,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 15/2013 - Projeto e Instalação de Rede Lógica e Elétrica"
+    },
+    {
+      "numero": "2025NE0000858",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE AGOSTO DE 2018. PROC. FÍSICO Nº 673/2018."
+    },
+    {
+      "numero": "2025NE0000857",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE SETEMBRO DE 2018. PROC. FÍSICO Nº 810/2018."
+    },
+    {
+      "numero": "2025NE0000855",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE OUTUBRO DE 2018. PROCESSO FÍSICO Nº 869/2018."
+    },
+    {
+      "numero": "2025NE0000856",
+      "contrato": "13/2015",
+      "valor": 1362.63,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 013/2015. MÊS DE JULHO DE 2018. PROCESSO FÍSICO Nº 667/2018."
+    },
+    {
+      "numero": "2025NE0000853",
+      "contrato": "19/2013",
+      "valor": 468.56,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/20213, MÊS DE DEZEMBRO DE 2018. PROC. FÍSICO Nº 987/2018."
+    },
+    {
+      "numero": "2025NE0000852",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/20213, MÊS DE NOVEMBRO DE 2018. PROC. FÍSICO Nº 946/2018."
+    },
+    {
+      "numero": "2025NE0000859",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE ACESSO GERENCIADO À REDE MUNDIAL (INTERNET) NO MÊS DE SETEMBRO DE 2015, REFERENTE AO 1º TERMO ADITIVO AO CONTRATO Nº 12/2015-FUAM. PROCESSO FÍSICO Nº 998/2017."
+    },
+    {
+      "numero": "2025NE0000854",
+      "contrato": "12/2015",
+      "valor": 1815.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES PARA ACESSO A INTERNET E AOS SISTEMAS CONTRATADOS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 012/2015, COMPETÊNCIA DE JULHO DE 2018. PROCESSO FÍSICO Nº 665/2018."
+    },
+    {
+      "numero": "2025NE0000860",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 019/2013, COMPETÊNCIA DE AGOSTO DE 2017. PROC. FÍSICO Nº 962/2017."
+    },
+    {
+      "numero": "2025NE0000850",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE DESENVOLVIMENTO, IMPLANTAÇÃO E HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 4º TERMO ADITIVO AO CONTRATO Nº 019/20213, MÊS DE JUNHO DE 2018. PROC. FÍSICO Nº 561/2018."
+    },
+    {
+      "numero": "2025NE0000851",
+      "contrato": "13/2015",
+      "valor": 934.64,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM INFORMÁTICA DE FORMA EVENTUAL PARA FUAM. REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 013/2015. MÊS DE ABRIL DE 2018. PROCESSO FÍSICO Nº 448/2018."
+    },
+    {
+      "numero": "2025NE0000861",
+      "contrato": "19/2013",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2025",
+      "descricao": "SERVIÇOS DE HOSPEDAGEM DO SITE DA FUNDAÇÃO ALFREDO DA MATTA, REFERENTE AO 3º TERMO ADITIVO AO CONTRATO Nº 019/2013, MÊS DE SETEMBRO DE 2017. PROC. FÍSICO Nº 997/2017."
+    },
+    {
+      "numero": "2021NE0000461",
+      "contrato": "",
+      "valor": 2160.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "REFORÇO DA NE Nº 0033/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2021NE0000462",
+      "contrato": "",
+      "valor": 4032.37,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2021",
+      "descricao": "REFORÇO DA NE Nº 0032/2021, EMITIDA EM 04/01/2021."
+    },
+    {
+      "numero": "2018NE00116",
+      "contrato": "",
+      "valor": 3638.0,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE 37/2018 POR SOLICITAÇÃO DA GERÊNCIA DE INSPETORIA DA SEFAZ-AM, CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS, DE 07 DE FEVEREIRO DE 2018."
+    },
+    {
+      "numero": "2018NE00118",
+      "contrato": "",
+      "valor": 780.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE 39/2018 POR SOLICITAÇÃO DA GERÊNCIA DE INSPETORIA DA SEFAZ-AM, CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS, DE 07 DE FEVEREIRO DE 2018."
+    },
+    {
+      "numero": "2018NE00117",
+      "contrato": "",
+      "valor": 1986.6,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE 38/2018 POR SOLICITAÇÃO DA GERÊNCIA DE INSPETORIA DA SEFAZ-AM, CONFORME ORIENTAÇÃO TÉCNICA Nº 12/2018-GINS, DE 07 DE FEVEREIRO DE 2018."
+    }
+  ],
   "faturas": [],
   "cobrancas": [],
   "stats": {
     "empenhos": {
-      "qtd": 0,
-      "valor_total": 0,
-      "por_ano": {}
+      "qtd": 349,
+      "valor_total": 1609904.77,
+      "por_ano": {
+        "2020": {
+          "qtd": 42,
+          "valor": 141178.34999999992
+        },
+        "2025": {
+          "qtd": 91,
+          "valor": 377541.0299999997
+        },
+        "2024": {
+          "qtd": 26,
+          "valor": 47955.55000000001
+        },
+        "2015": {
+          "qtd": 16,
+          "valor": 38224.68
+        },
+        "2014": {
+          "qtd": 16,
+          "valor": 522134.12
+        },
+        "2016": {
+          "qtd": 22,
+          "valor": 96320.86
+        },
+        "2023": {
+          "qtd": 18,
+          "valor": 60984.54
+        },
+        "2022": {
+          "qtd": 28,
+          "valor": 95267.06
+        },
+        "2019": {
+          "qtd": 16,
+          "valor": 52564.04000000001
+        },
+        "2018": {
+          "qtd": 28,
+          "valor": 43190.329999999994
+        },
+        "2017": {
+          "qtd": 12,
+          "valor": 26496.949999999997
+        },
+        "2021": {
+          "qtd": 29,
+          "valor": 98216.5
+        },
+        "2026": {
+          "qtd": 5,
+          "valor": 9830.76
+        }
+      }
     },
     "faturas": {
       "qtd": 0,

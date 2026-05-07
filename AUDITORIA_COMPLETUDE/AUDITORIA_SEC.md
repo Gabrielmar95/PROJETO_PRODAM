@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEC
-**Secretaria de Cultura** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Cultura** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,15 +46,9 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (1)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 99050.70706237933
-- **db_faturas:** 227372.05
-- **delta:** 128321.34293762067
-- **pct:** 129.6%
-
-### Tipo: `faturas_qtd_profile_vs_db`
+### Tipo: `faturas_aberto_qtd_profile_vs_db`
 - **profile:** 11
 - **db:** 18
 - **delta:** 7

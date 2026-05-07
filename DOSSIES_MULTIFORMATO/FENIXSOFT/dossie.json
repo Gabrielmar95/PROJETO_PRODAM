@@ -8,9 +8,9 @@
     "val_exig": "888250.0",
     "val_orig": "888250.0",
     "val_atualizado": "888250.0",
-    "faturas_total": 0,
+    "faturas_total": 7,
     "faturas_prescritas": 0,
-    "faturas_exigiveis": 0,
+    "faturas_exigiveis": 7,
     "indice_correcao": "SELIC",
     "juros_mora": "1% a.m.",
     "multa": "2%",
@@ -190,6 +190,58 @@
       "Corrigido": "0,00",
       "Status": "Pendente",
       "Ações": ""
+    },
+    {
+      "Cliente": "FENIXSOFT2",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2020",
+      "Número": "120028",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/120028/E",
+      "Comp.": "10/2020",
+      "Valor": "20.000,00",
+      "Atraso": "1967 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "FENIXSOFT2",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2020",
+      "Número": "120029",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/120029/E",
+      "Comp.": "10/2020",
+      "Valor": "135.000,00",
+      "Atraso": "1967 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "FENIXSOFT2",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2020",
+      "Número": "120412",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/120412/E",
+      "Comp.": "11/2020",
+      "Valor": "135.000,00",
+      "Atraso": "1942 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "FENIXSOFT2",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2020",
+      "Número": "121733",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/121733/E",
+      "Comp.": "01/2021",
+      "Valor": "300.000,00",
+      "Atraso": "1871 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
     }
   ],
   "stats": {
@@ -203,8 +255,8 @@
       "valor_total": 1405000.0
     },
     "cobrancas": {
-      "qtd": 3,
-      "valor_total": 315000.0
+      "qtd": 7,
+      "valor_total": 905000.0
     }
   }
 }

@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEMA
-**Secretaria de Meio Ambiente** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Meio Ambiente** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,11 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (1)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 38541.1088668302
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 27001.48
 - **db_faturas:** 3919674.15
-- **delta:** 3881133.0411331698
-- **pct:** 10070.1%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 5
-- **db:** 13
-- **delta:** 8
+- **delta:** 3892672.67
+- **pct:** 14416.5%
 

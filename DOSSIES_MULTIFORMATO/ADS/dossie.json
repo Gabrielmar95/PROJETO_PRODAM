@@ -74,14 +74,6 @@
   },
   "empenhos": [
     {
-      "numero": "2024NE0001402",
-      "contrato": "427/2021",
-      "valor": 2067.62,
-      "situacao": "Ativo",
-      "data_emissao": "31/10/2024",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
-    },
-    {
       "numero": "2024NE0001369",
       "contrato": "425/2021",
       "valor": 182.45,
@@ -90,12 +82,12 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 03."
     },
     {
-      "numero": "2023NE0001481",
-      "contrato": "643/2022",
-      "valor": 10473.68,
+      "numero": "2024NE0001402",
+      "contrato": "427/2021",
+      "valor": 2067.62,
       "situacao": "Ativo",
-      "data_emissao": "31/10/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
+      "data_emissao": "31/10/2024",
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
     },
     {
       "numero": "2023NE0001480",
@@ -106,12 +98,12 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 425/2021 AD: 01."
     },
     {
-      "numero": "2022NE0001461",
+      "numero": "2023NE0001481",
       "contrato": "643/2022",
-      "valor": 2618.42,
+      "valor": 10473.68,
       "situacao": "Ativo",
-      "data_emissao": "31/10/2022",
-      "descricao": "reforço da NE 1182/22"
+      "data_emissao": "31/10/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
     },
     {
       "numero": "2022NE0001467",
@@ -120,6 +112,14 @@
       "situacao": "Ativo",
       "data_emissao": "31/10/2022",
       "descricao": "reforço da NE 52"
+    },
+    {
+      "numero": "2022NE0001461",
+      "contrato": "643/2022",
+      "valor": 2618.42,
+      "situacao": "Ativo",
+      "data_emissao": "31/10/2022",
+      "descricao": "reforço da NE 1182/22"
     },
     {
       "numero": "2023NE0001025",
@@ -146,12 +146,12 @@
       "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS."
     },
     {
-      "numero": "2025NE0000775",
-      "contrato": "427/2021",
-      "valor": 8270.48,
+      "numero": "2025NE0000773",
+      "contrato": "643/2022",
+      "valor": 10860.16,
       "situacao": "Ativo",
       "data_emissao": "30/05/2025",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
     },
     {
       "numero": "2025NE0000774",
@@ -162,12 +162,12 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 03."
     },
     {
-      "numero": "2025NE0000773",
-      "contrato": "643/2022",
-      "valor": 10860.16,
+      "numero": "2025NE0000775",
+      "contrato": "427/2021",
+      "valor": 8270.48,
       "situacao": "Ativo",
       "data_emissao": "30/05/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
     },
     {
       "numero": "2022NE0000677",
@@ -178,12 +178,12 @@
       "descricao": "Anulação orçamentária de saldo não utilizado dentro da vigência. (vencido em 08/02/2022)."
     },
     {
-      "numero": "2015NE00257",
-      "contrato": "102/2012",
-      "valor": 0.04,
+      "numero": "2015NE00254",
+      "contrato": "428/2013",
+      "valor": 1348.53,
       "situacao": "Ativo",
       "data_emissao": "30/03/2015",
-      "descricao": "REFERENTE ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2015NE00034, EM VIRTUDE DA ALTERAÇÃO DA UNIDADE GESTORA."
+      "descricao": "REFERENTE ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2015NE00053, EM VIRTUDE DA ALTERAÇÃO DA UNIDADE GESTORA."
     },
     {
       "numero": "2015NE00253",
@@ -194,20 +194,12 @@
       "descricao": "REFERENTE ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2015NE00038, EM VIRTUDE DA ALTERAÇÃO DA UNIDADE GESTORA."
     },
     {
-      "numero": "2015NE00254",
-      "contrato": "428/2013",
-      "valor": 1348.53,
+      "numero": "2015NE00257",
+      "contrato": "102/2012",
+      "valor": 0.04,
       "situacao": "Ativo",
       "data_emissao": "30/03/2015",
-      "descricao": "REFERENTE ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2015NE00053, EM VIRTUDE DA ALTERAÇÃO DA UNIDADE GESTORA."
-    },
-    {
-      "numero": "2015NE00021",
-      "contrato": "274/2010",
-      "valor": 3943.41,
-      "situacao": "Ativo",
-      "data_emissao": "29/04/2015",
-      "descricao": "4º (QUARTO) TERMO ADITIVO AO CONTRATO Nº 274/2010. OBJETO: PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP, CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL. OBJETIVO: PRORROGAR POR MAIS 12 (DOZE) MESES, COM RADEQUAÇÃO FINANCEIRA."
+      "descricao": "REFERENTE ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2015NE00034, EM VIRTUDE DA ALTERAÇÃO DA UNIDADE GESTORA."
     },
     {
       "numero": "2015NE00015",
@@ -218,12 +210,12 @@
       "descricao": "1º (PRIMEIRO) TERMO ADITIVO AO CONTRATO Nº 428/2013. OBJETO: PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). OBJETIVO: PRORROGAR POR MAIS DOZE MESES, COM READEQUAÇÃO FINANCEIRA."
     },
     {
-      "numero": "2018NE00025",
-      "contrato": "3/2017",
-      "valor": 16228.19,
+      "numero": "2015NE00021",
+      "contrato": "274/2010",
+      "valor": 3943.41,
       "situacao": "Ativo",
-      "data_emissao": "29/01/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+      "data_emissao": "29/04/2015",
+      "descricao": "4º (QUARTO) TERMO ADITIVO AO CONTRATO Nº 274/2010. OBJETO: PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP, CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL. OBJETIVO: PRORROGAR POR MAIS 12 (DOZE) MESES, COM RADEQUAÇÃO FINANCEIRA."
     },
     {
       "numero": "2018NE00024",
@@ -234,9 +226,25 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE ACESSO GERENCIADO À REDE MUNDIAL, VIA REDE DE GOVERNO, ESTABELECENDO COMUNICAÇÃO A PARTIR DE CIRCUITO DE DADOS."
     },
     {
-      "numero": "2018NE01589",
+      "numero": "2018NE00025",
+      "contrato": "3/2017",
+      "valor": 16228.19,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2018NE01588",
       "contrato": "",
-      "valor": 1475.29,
+      "valor": 2086.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
+    },
+    {
+      "numero": "2018NE01590",
+      "contrato": "",
+      "valor": 2711.28,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
@@ -250,49 +258,17 @@
       "descricao": "Anulação orçamentária de saldo, referente ao encerramento do exercício financeiro de 2018."
     },
     {
-      "numero": "2018NE01590",
-      "contrato": "",
-      "valor": 2711.28,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
-    },
-    {
-      "numero": "2018NE01588",
-      "contrato": "",
-      "valor": 2086.0,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
-    },
-    {
-      "numero": "2017NE01412",
-      "contrato": "",
-      "valor": 825.42,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2017",
-      "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
-    },
-    {
-      "numero": "2017NE01403",
-      "contrato": "",
-      "valor": 641.44,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2017",
-      "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
-    },
-    {
-      "numero": "2017NE01400",
+      "numero": "2018NE01589",
       "contrato": "",
       "valor": 1475.29,
       "situacao": "Ativo",
-      "data_emissao": "28/12/2017",
-      "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
     },
     {
-      "numero": "2017NE01408",
+      "numero": "2017NE01402",
       "contrato": "",
-      "valor": 3312.24,
+      "valor": 1150.6,
       "situacao": "Ativo",
       "data_emissao": "28/12/2017",
       "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
@@ -306,9 +282,33 @@
       "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
     },
     {
-      "numero": "2017NE01402",
+      "numero": "2017NE01408",
       "contrato": "",
-      "valor": 1150.6,
+      "valor": 3312.24,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2017NE01400",
+      "contrato": "",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2017NE01403",
+      "contrato": "",
+      "valor": 641.44,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2017",
+      "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
+    },
+    {
+      "numero": "2017NE01412",
+      "contrato": "",
+      "valor": 825.42,
       "situacao": "Ativo",
       "data_emissao": "28/12/2017",
       "descricao": "ANULAÇÃO SALDO DE EMPENHO ENCERRAMENTO DO EXERCÍCIO."
@@ -322,20 +322,20 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR."
     },
     {
-      "numero": "2025NE0001217",
-      "contrato": "643/2022",
-      "valor": 2852.42,
-      "situacao": "Ativo",
-      "data_emissao": "28/07/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 03."
-    },
-    {
       "numero": "2025NE0001218",
       "contrato": "425/2021",
       "valor": 195.26,
       "situacao": "Ativo",
       "data_emissao": "28/07/2025",
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0001217",
+      "contrato": "643/2022",
+      "valor": 2852.42,
+      "situacao": "Ativo",
+      "data_emissao": "28/07/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 03."
     },
     {
       "numero": "2020NE00039",
@@ -346,9 +346,9 @@
       "descricao": "Contratação de empresa para prestação de serviços de acesso à rede mundial de computadores (internet), via rede de governo, estabelecendo comunicação a partir de circuito de dados, com velocidade de 10MB, conf. TDR."
     },
     {
-      "numero": "2019NE01638",
+      "numero": "2019NE01640",
       "contrato": "",
-      "valor": 0.02,
+      "valor": 5680.37,
       "situacao": "Ativo",
       "data_emissao": "27/12/2019",
       "descricao": "Anulação Orçamentária de saldo da Nota de Empenho, em atendimento ao Decreto nº 41.554 de 26/11/2019, referente ao encerramento da execução orçamentária, financeira e contábil do exercício de 2019."
@@ -362,9 +362,9 @@
       "descricao": "Anulação Orçamentária de saldo da Nota de Empenho, em atendimento ao Decreto nº 41.554 de 26/11/2019, referente ao encerramento da execução orçamentária, financeira e contábil do exercício de 2019."
     },
     {
-      "numero": "2019NE01640",
+      "numero": "2019NE01638",
       "contrato": "",
-      "valor": 5680.37,
+      "valor": 0.02,
       "situacao": "Ativo",
       "data_emissao": "27/12/2019",
       "descricao": "Anulação Orçamentária de saldo da Nota de Empenho, em atendimento ao Decreto nº 41.554 de 26/11/2019, referente ao encerramento da execução orçamentária, financeira e contábil do exercício de 2019."
@@ -386,17 +386,17 @@
       "descricao": "LINCEÇA DE USO DO GESTOR DE CONTEÚDO WEB (WEBSITE). NFS-e 18176 de 04/12/2020, valor global de R$ 1.474,16. Salda a pagar de R$ 931,74, conforme parecer jurídico n° 080/2021 PJ-ADS"
     },
     {
-      "numero": "2022NE0001892",
+      "numero": "2022NE0001893",
       "contrato": "",
-      "valor": 24.12,
+      "valor": 2871.35,
       "situacao": "Ativo",
       "data_emissao": "26/12/2022",
       "descricao": "ANULAÇÃO TOTAL"
     },
     {
-      "numero": "2022NE0001893",
+      "numero": "2022NE0001892",
       "contrato": "",
-      "valor": 2871.35,
+      "valor": 24.12,
       "situacao": "Ativo",
       "data_emissao": "26/12/2022",
       "descricao": "ANULAÇÃO TOTAL"
@@ -426,12 +426,12 @@
       "descricao": "Contrato No. 274/2010 - CFPP - Cadastro e Folha de Pagamento de Pessoal"
     },
     {
-      "numero": "2022NE0001579",
+      "numero": "2022NE0001577",
       "contrato": "",
-      "valor": 1994.54,
+      "valor": 2618.42,
       "situacao": "Ativo",
       "data_emissao": "23/11/2022",
-      "descricao": "REFORÇO DA NE 1528"
+      "descricao": "REFORÇO DA NE 1182"
     },
     {
       "numero": "2022NE0001578",
@@ -442,20 +442,12 @@
       "descricao": "REFORÇO NE 1453"
     },
     {
-      "numero": "2022NE0001577",
+      "numero": "2022NE0001579",
       "contrato": "",
-      "valor": 2618.42,
+      "valor": 1994.54,
       "situacao": "Ativo",
       "data_emissao": "23/11/2022",
-      "descricao": "REFORÇO DA NE 1182"
-    },
-    {
-      "numero": "2023NE0001441",
-      "contrato": "425/2021",
-      "valor": 356.18,
-      "situacao": "Ativo",
-      "data_emissao": "23/10/2023",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+      "descricao": "REFORÇO DA NE 1528"
     },
     {
       "numero": "2023NE0001440",
@@ -466,12 +458,12 @@
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
     },
     {
-      "numero": "2015NE00934",
-      "contrato": "",
-      "valor": 277.89,
+      "numero": "2023NE0001441",
+      "contrato": "425/2021",
+      "valor": 356.18,
       "situacao": "Ativo",
-      "data_emissao": "22/12/2015",
-      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+      "data_emissao": "23/10/2023",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
     },
     {
       "numero": "2015NE00935",
@@ -482,12 +474,12 @@
       "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
     },
     {
-      "numero": "2017NE01186",
-      "contrato": "294/2016",
-      "valor": 1121.5,
+      "numero": "2015NE00934",
+      "contrato": "",
+      "valor": 277.89,
       "situacao": "Ativo",
-      "data_emissao": "22/11/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER OS CADASTROS DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTOS."
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
     },
     {
       "numero": "2017NE01187",
@@ -498,12 +490,12 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA E CONTABILIDADE GERENCIAL CTBG."
     },
     {
-      "numero": "2016NE00721",
-      "contrato": "295/2016",
-      "valor": 899.02,
+      "numero": "2017NE01186",
+      "contrato": "294/2016",
+      "valor": 1121.5,
       "situacao": "Ativo",
-      "data_emissao": "22/11/2016",
-      "descricao": "À CONTRATAR OBJETO: LICENÇA DE USO DO SISTEMA CTBG - SISTEMA DE CONTABILIDADE GERENCIAL OBJETIVO: PROPORCIONAR A ADS A UTILIZAÇÃO DO SISTEMA DE CONTABILIDADE GERENCIAL, PARA EFETUAR SEUS LANÇAMENTOS CONTÁBEIS."
+      "data_emissao": "22/11/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER OS CADASTROS DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTOS."
     },
     {
       "numero": "2016NE00722",
@@ -514,20 +506,12 @@
       "descricao": "À CONTRATAR OBJETO: PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH. OBJETIVO: MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO."
     },
     {
-      "numero": "2024NE0000480",
-      "contrato": "427/2021",
-      "valor": 1991.54,
+      "numero": "2016NE00721",
+      "contrato": "295/2016",
+      "valor": 899.02,
       "situacao": "Ativo",
-      "data_emissao": "22/04/2024",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
-    },
-    {
-      "numero": "2024NE0000479",
-      "contrato": "643/2022",
-      "valor": 2618.42,
-      "situacao": "Ativo",
-      "data_emissao": "22/04/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
+      "data_emissao": "22/11/2016",
+      "descricao": "À CONTRATAR OBJETO: LICENÇA DE USO DO SISTEMA CTBG - SISTEMA DE CONTABILIDADE GERENCIAL OBJETIVO: PROPORCIONAR A ADS A UTILIZAÇÃO DO SISTEMA DE CONTABILIDADE GERENCIAL, PARA EFETUAR SEUS LANÇAMENTOS CONTÁBEIS."
     },
     {
       "numero": "2024NE0000478",
@@ -538,36 +522,20 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
     },
     {
-      "numero": "2019NE00168",
-      "contrato": "3/2017",
-      "valor": 4903.86,
+      "numero": "2024NE0000479",
+      "contrato": "643/2022",
+      "valor": 2618.42,
       "situacao": "Ativo",
-      "data_emissao": "22/03/2019",
-      "descricao": "Serviço de TIC compreendendo a licença de uso do gestor de conteúdo web."
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
     },
     {
-      "numero": "2019NE00176",
-      "contrato": "351/2017",
-      "valor": 5313.15,
+      "numero": "2024NE0000480",
+      "contrato": "427/2021",
+      "valor": 1991.54,
       "situacao": "Ativo",
-      "data_emissao": "22/03/2019",
-      "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS"
-    },
-    {
-      "numero": "2019NE00174",
-      "contrato": "294/2016",
-      "valor": 4334.7,
-      "situacao": "Ativo",
-      "data_emissao": "22/03/2019",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
-    },
-    {
-      "numero": "2019NE00166",
-      "contrato": "2/2018",
-      "valor": 19290.96,
-      "situacao": "Ativo",
-      "data_emissao": "22/03/2019",
-      "descricao": "Serviço de acesso gerencial a rede mundial via rede de governo (link de internet)."
+      "data_emissao": "22/04/2024",
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
     },
     {
       "numero": "2019NE00175",
@@ -578,28 +546,44 @@
       "descricao": "SERVIÇO DE LICENÇA DO SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
     },
     {
+      "numero": "2019NE00166",
+      "contrato": "2/2018",
+      "valor": 19290.96,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2019",
+      "descricao": "Serviço de acesso gerencial a rede mundial via rede de governo (link de internet)."
+    },
+    {
+      "numero": "2019NE00174",
+      "contrato": "294/2016",
+      "valor": 4334.7,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2019",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2019NE00176",
+      "contrato": "351/2017",
+      "valor": 5313.15,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2019",
+      "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS"
+    },
+    {
+      "numero": "2019NE00168",
+      "contrato": "3/2017",
+      "valor": 4903.86,
+      "situacao": "Ativo",
+      "data_emissao": "22/03/2019",
+      "descricao": "Serviço de TIC compreendendo a licença de uso do gestor de conteúdo web."
+    },
+    {
       "numero": "2020NE03465",
       "contrato": "351/2017",
       "valor": 6375.8,
       "situacao": "Ativo",
       "data_emissao": "21/08/2020",
       "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS."
-    },
-    {
-      "numero": "2025NE0001472",
-      "contrato": "643/2022",
-      "valor": 5704.84,
-      "situacao": "Ativo",
-      "data_emissao": "20/10/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 03."
-    },
-    {
-      "numero": "2025NE0001470",
-      "contrato": "425/2021",
-      "valor": 195.26,
-      "situacao": "Ativo",
-      "data_emissao": "20/10/2025",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 04."
     },
     {
       "numero": "2025NE0001473",
@@ -610,20 +594,28 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 03."
     },
     {
+      "numero": "2025NE0001470",
+      "contrato": "425/2021",
+      "valor": 195.26,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2025",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0001472",
+      "contrato": "643/2022",
+      "valor": 5704.84,
+      "situacao": "Ativo",
+      "data_emissao": "20/10/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 03."
+    },
+    {
       "numero": "2014NE01006",
       "contrato": "428/2013",
       "valor": 1520.15,
       "situacao": "Ativo",
       "data_emissao": "20/09/2014",
       "descricao": "Contrato No. 428/2013 - Processamento do Sistema CTBG"
-    },
-    {
-      "numero": "2024NE0001112",
-      "contrato": "",
-      "valor": 2618.42,
-      "situacao": "Ativo",
-      "data_emissao": "20/08/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
     },
     {
       "numero": "2024NE0001113",
@@ -634,55 +626,15 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
     },
     {
-      "numero": "2018NE00185",
-      "contrato": "2/2018",
-      "valor": 12862.8,
-      "situacao": "Ativo",
-      "data_emissao": "20/03/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE ACESSO GERENCIADO À REDE MUNDIAL, VIA REDE DE GOVERNO, ESTABELECENDO COMUNICAÇÃO A PARTIR DE CIRCUITO DE DADOS."
-    },
-    {
-      "numero": "2018NE00184",
-      "contrato": "3/2017",
-      "valor": 16228.19,
-      "situacao": "Ativo",
-      "data_emissao": "20/03/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEUDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VIDEOS E IMAGENS VIA WEBSITE."
-    },
-    {
-      "numero": "2018NE00183",
-      "contrato": "294/2016",
-      "valor": 10381.15,
-      "situacao": "Ativo",
-      "data_emissao": "20/03/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER OS CADASTROS DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
-    },
-    {
-      "numero": "2018NE00182",
+      "numero": "2024NE0001112",
       "contrato": "",
-      "valor": 10381.15,
+      "valor": 2618.42,
       "situacao": "Ativo",
-      "data_emissao": "20/03/2018",
-      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO POR EQUIVOCO NA DESCRIÇÃO."
+      "data_emissao": "20/08/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
     },
     {
-      "numero": "2018NE00188",
-      "contrato": "",
-      "valor": 10381.15,
-      "situacao": "Ativo",
-      "data_emissao": "20/03/2018",
-      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO Nº 2018NE00183, POR EQUIVOCO NA REFERÊNCIA DA DISPENSA DE LICITAÇÃO."
-    },
-    {
-      "numero": "2018NE00168",
-      "contrato": "351/2017",
-      "valor": 11300.02,
-      "situacao": "Ativo",
-      "data_emissao": "20/03/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb)."
-    },
-    {
-      "numero": "2018NE00173",
+      "numero": "2018NE00189",
       "contrato": "294/2016",
       "valor": 10381.15,
       "situacao": "Ativo",
@@ -698,7 +650,7 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL CTBG.ads"
     },
     {
-      "numero": "2018NE00189",
+      "numero": "2018NE00173",
       "contrato": "294/2016",
       "valor": 10381.15,
       "situacao": "Ativo",
@@ -706,12 +658,52 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER OS CADASTROS DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
     },
     {
-      "numero": "2023NE00616",
-      "contrato": "425/2021",
-      "valor": 356.18,
+      "numero": "2018NE00168",
+      "contrato": "351/2017",
+      "valor": 11300.02,
       "situacao": "Ativo",
-      "data_emissao": "19/05/2023",
-      "descricao": "1º Termo de Aditamento ao Contrato 425/2021 de Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN."
+      "data_emissao": "20/03/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb)."
+    },
+    {
+      "numero": "2018NE00188",
+      "contrato": "",
+      "valor": 10381.15,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2018",
+      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO Nº 2018NE00183, POR EQUIVOCO NA REFERÊNCIA DA DISPENSA DE LICITAÇÃO."
+    },
+    {
+      "numero": "2018NE00182",
+      "contrato": "",
+      "valor": 10381.15,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2018",
+      "descricao": "ANULAÇÃO DE NOTA DE EMPENHO POR EQUIVOCO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2018NE00183",
+      "contrato": "294/2016",
+      "valor": 10381.15,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER OS CADASTROS DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2018NE00184",
+      "contrato": "3/2017",
+      "valor": 16228.19,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEUDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VIDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2018NE00185",
+      "contrato": "2/2018",
+      "valor": 12862.8,
+      "situacao": "Ativo",
+      "data_emissao": "20/03/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE ACESSO GERENCIADO À REDE MUNDIAL, VIA REDE DE GOVERNO, ESTABELECENDO COMUNICAÇÃO A PARTIR DE CIRCUITO DE DADOS."
     },
     {
       "numero": "2023NE0000616",
@@ -722,20 +714,12 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 425/2021 AD: 01."
     },
     {
-      "numero": "2024NE0001212",
-      "contrato": "427/2021",
-      "valor": 1991.54,
-      "situacao": "Ativo",
-      "data_emissao": "17/09/2024",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
-    },
-    {
-      "numero": "2024NE0001211",
+      "numero": "2023NE00616",
       "contrato": "425/2021",
-      "valor": 178.09,
+      "valor": 356.18,
       "situacao": "Ativo",
-      "data_emissao": "17/09/2024",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+      "data_emissao": "19/05/2023",
+      "descricao": "1º Termo de Aditamento ao Contrato 425/2021 de Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN."
     },
     {
       "numero": "2024NE0001210",
@@ -746,20 +730,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
     },
     {
-      "numero": "2023NE0000986",
-      "contrato": "",
-      "valor": 2618.42,
+      "numero": "2024NE0001211",
+      "contrato": "425/2021",
+      "valor": 178.09,
       "situacao": "Ativo",
-      "data_emissao": "17/07/2023",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência."
+      "data_emissao": "17/09/2024",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
     },
     {
-      "numero": "2023NE0000985",
-      "contrato": "",
-      "valor": 356.18,
+      "numero": "2024NE0001212",
+      "contrato": "427/2021",
+      "valor": 1991.54,
       "situacao": "Ativo",
-      "data_emissao": "17/07/2023",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 425/2021 AD: 01."
+      "data_emissao": "17/09/2024",
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
     },
     {
       "numero": "2023NE0000984",
@@ -770,164 +754,20 @@
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 427/2021 AD: 01."
     },
     {
-      "numero": "2017NE00586",
-      "contrato": "295/2016",
-      "valor": 449.51,
+      "numero": "2023NE0000985",
+      "contrato": "",
+      "valor": 356.18,
       "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 14741 - DATADA 10/06/2015, RD Nº 2016RD00192"
+      "data_emissao": "17/07/2023",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 425/2021 AD: 01."
     },
     {
-      "numero": "2017NE00577",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
+      "numero": "2023NE0000986",
+      "contrato": "",
+      "valor": 2618.42,
       "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET. NFS-e Nº16927, 16928 e 16929 - datada 04/12/2015, RD Nº2016RD00212"
-    },
-    {
-      "numero": "2017NE00597",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
-    },
-    {
-      "numero": "2017NE00599",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
-    },
-    {
-      "numero": "2017NE00580",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17022 - DATADA 16/12/2015, RD Nº 2016RD00200"
-    },
-    {
-      "numero": "2017NE00579",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET. NFS-e Nº16924, 16925 e 16926 - datada 04/12/2015, RD Nº2016RD00212"
-    },
-    {
-      "numero": "2017NE00583",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 15385 - DATADA 25/08/2015, RD Nº 2016RD00196"
-    },
-    {
-      "numero": "2017NE00594",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
-    },
-    {
-      "numero": "2017NE00596",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
-    },
-    {
-      "numero": "2017NE00582",
-      "contrato": "295/2016",
-      "valor": 164.82,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17017 - DATADA 16/12/2015, RD Nº 2016RD00197"
-    },
-    {
-      "numero": "2017NE00587",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17021 - DATADA 16/12/2015, RD Nº 2016RD00199"
-    },
-    {
-      "numero": "2017NE00595",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
-    },
-    {
-      "numero": "2017NE00581",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17018 - DATADA 16/12/2015, RD Nº 2016RD00198"
-    },
-    {
-      "numero": "2017NE00588",
-      "contrato": "294/2016",
-      "valor": 1445.26,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17075 - DATADA 23/12/2015, RD Nº 2016RD00205"
-    },
-    {
-      "numero": "2017NE00590",
-      "contrato": "294/2016",
-      "valor": 742.79,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17020 - DATADA 16/12/2015, RD Nº 2016RD00204"
-    },
-    {
-      "numero": "2017NE00592",
-      "contrato": "294/2016",
-      "valor": 742.79,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17016 - DATADA 16/12/2015, RD Nº 2016RD00201"
-    },
-    {
-      "numero": "2017NE00598",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
-    },
-    {
-      "numero": "2017NE00591",
-      "contrato": "294/2016",
-      "valor": 720.11,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17019 - DATADA 16/12/2015, RD Nº 2016RD00203"
-    },
-    {
-      "numero": "2017NE00584",
-      "contrato": "295/2016",
-      "valor": 284.69,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 15680 - DATADA 10/09/2015, RD Nº 2016RD00147"
-    },
-    {
-      "numero": "2017NE00585",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "17/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 15108 - DATADA 10/07/2015, RD Nº 2016RD00209"
+      "data_emissao": "17/07/2023",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência."
     },
     {
       "numero": "2017NE00578",
@@ -938,20 +778,172 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET. NFS-e Nº16936, 16937 e 16938 - datada 04/12/2015, RD Nº2016RD00222"
     },
     {
+      "numero": "2017NE00585",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 15108 - DATADA 10/07/2015, RD Nº 2016RD00209"
+    },
+    {
+      "numero": "2017NE00584",
+      "contrato": "295/2016",
+      "valor": 284.69,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 15680 - DATADA 10/09/2015, RD Nº 2016RD00147"
+    },
+    {
+      "numero": "2017NE00591",
+      "contrato": "294/2016",
+      "valor": 720.11,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17019 - DATADA 16/12/2015, RD Nº 2016RD00203"
+    },
+    {
+      "numero": "2017NE00598",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
+    },
+    {
+      "numero": "2017NE00592",
+      "contrato": "294/2016",
+      "valor": 742.79,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17016 - DATADA 16/12/2015, RD Nº 2016RD00201"
+    },
+    {
+      "numero": "2017NE00590",
+      "contrato": "294/2016",
+      "valor": 742.79,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17020 - DATADA 16/12/2015, RD Nº 2016RD00204"
+    },
+    {
+      "numero": "2017NE00588",
+      "contrato": "294/2016",
+      "valor": 1445.26,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL NFS-e Nº 17075 - DATADA 23/12/2015, RD Nº 2016RD00205"
+    },
+    {
+      "numero": "2017NE00581",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17018 - DATADA 16/12/2015, RD Nº 2016RD00198"
+    },
+    {
+      "numero": "2017NE00595",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
+    },
+    {
+      "numero": "2017NE00587",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17021 - DATADA 16/12/2015, RD Nº 2016RD00199"
+    },
+    {
+      "numero": "2017NE00582",
+      "contrato": "295/2016",
+      "valor": 164.82,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17017 - DATADA 16/12/2015, RD Nº 2016RD00197"
+    },
+    {
+      "numero": "2017NE00596",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
+    },
+    {
+      "numero": "2017NE00594",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
+    },
+    {
+      "numero": "2017NE00583",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 15385 - DATADA 25/08/2015, RD Nº 2016RD00196"
+    },
+    {
+      "numero": "2017NE00579",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET. NFS-e Nº16924, 16925 e 16926 - datada 04/12/2015, RD Nº2016RD00212"
+    },
+    {
+      "numero": "2017NE00580",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 17022 - DATADA 16/12/2015, RD Nº 2016RD00200"
+    },
+    {
+      "numero": "2017NE00599",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
+    },
+    {
+      "numero": "2017NE00597",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET."
+    },
+    {
+      "numero": "2017NE00577",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET. NFS-e Nº16927, 16928 e 16929 - datada 04/12/2015, RD Nº2016RD00212"
+    },
+    {
+      "numero": "2017NE00586",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "17/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL (CTBG). NFS-e Nº 14741 - DATADA 10/06/2015, RD Nº 2016RD00192"
+    },
+    {
       "numero": "2020NE04264",
       "contrato": "294/2016",
       "valor": 1847.25,
       "situacao": "Ativo",
       "data_emissao": "16/11/2020",
       "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH; MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL; PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO, CONF. TDR."
-    },
-    {
-      "numero": "2024NE0001267",
-      "contrato": "425/2021",
-      "valor": 178.09,
-      "situacao": "Ativo",
-      "data_emissao": "16/10/2024",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
     },
     {
       "numero": "2024NE0001268",
@@ -962,20 +954,20 @@
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
     },
     {
-      "numero": "2023NE00571",
-      "contrato": "427/2021",
+      "numero": "2024NE0001267",
+      "contrato": "425/2021",
+      "valor": 178.09,
+      "situacao": "Ativo",
+      "data_emissao": "16/10/2024",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0000571",
+      "contrato": "",
       "valor": 3983.08,
       "situacao": "Ativo",
       "data_emissao": "16/05/2023",
-      "descricao": "1º Termo Aditamento ao Contrato 427/2021 - Prestação de Serviços PRODAM-RH."
-    },
-    {
-      "numero": "2023NE00570",
-      "contrato": "643/2022",
-      "valor": 5236.84,
-      "situacao": "Ativo",
-      "data_emissao": "16/05/2023",
-      "descricao": "Contrato 643/2022 de Prestação de Serviços de Conteúdo Web e Licença de uso de sistema de informação,"
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 427/2021 AD: 01."
     },
     {
       "numero": "2023NE0000570",
@@ -986,12 +978,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência."
     },
     {
-      "numero": "2023NE0000571",
-      "contrato": "",
+      "numero": "2023NE00570",
+      "contrato": "643/2022",
+      "valor": 5236.84,
+      "situacao": "Ativo",
+      "data_emissao": "16/05/2023",
+      "descricao": "Contrato 643/2022 de Prestação de Serviços de Conteúdo Web e Licença de uso de sistema de informação,"
+    },
+    {
+      "numero": "2023NE00571",
+      "contrato": "427/2021",
       "valor": 3983.08,
       "situacao": "Ativo",
       "data_emissao": "16/05/2023",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 427/2021 AD: 01."
+      "descricao": "1º Termo Aditamento ao Contrato 427/2021 - Prestação de Serviços PRODAM-RH."
     },
     {
       "numero": "2024NE0001266",
@@ -1018,31 +1018,39 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
     },
     {
-      "numero": "2017NE00630",
-      "contrato": "P.98/2016",
-      "valor": 6602.34,
+      "numero": "2017NE00574",
+      "contrato": "",
+      "valor": 449.51,
       "situacao": "Ativo",
       "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE MUNDIAL DE INTERNET."
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
     },
     {
-      "numero": "2017NE00639",
+      "numero": "2017NE00638",
       "contrato": "294/2016",
-      "valor": 1950.54,
+      "valor": 694.28,
       "situacao": "Ativo",
       "data_emissao": "14/07/2017",
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS CFPP CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
     },
     {
-      "numero": "2017NE00632",
-      "contrato": "P.178/2015",
-      "valor": 6777.44,
+      "numero": "2017NE00637",
+      "contrato": "294/2016",
+      "valor": 568.28,
       "situacao": "Ativo",
       "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL E COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE MUNDIAL DE INTERNET"
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS CFPP CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
     },
     {
-      "numero": "2017NE00634",
+      "numero": "2017NE00636",
+      "contrato": "294/2016",
+      "valor": 1118.81,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS CFPP CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL"
+    },
+    {
+      "numero": "2017NE00635",
       "contrato": "295/2016",
       "valor": 449.51,
       "situacao": "Ativo",
@@ -1050,15 +1058,119 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
     },
     {
-      "numero": "2017NE00633",
+      "numero": "2017NE00631",
       "contrato": "P.98/2016",
       "valor": 6602.34,
       "situacao": "Ativo",
       "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS DE TELECOMUNICAÇÃO, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWAL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE MUNDIAL DE INTERNET"
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE MUNDIAL DE INTERNET."
     },
     {
-      "numero": "2017NE00626",
+      "numero": "2017NE00575",
+      "contrato": "",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
+    },
+    {
+      "numero": "2017NE00576",
+      "contrato": "",
+      "valor": 6602.34,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
+    },
+    {
+      "numero": "2017NE00565",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20227 DATADA 06/10/2016, CONFORME RD Nº 2017RD00017"
+    },
+    {
+      "numero": "2017NE00570",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20226 DATADA 06/10/2016, CONFORME RD Nº 2017RD00016"
+    },
+    {
+      "numero": "2017NE00572",
+      "contrato": "",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
+    },
+    {
+      "numero": "2017NE00563",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20224 DATADA 06/10/2016, CONFORME RD Nº 2017RD00018"
+    },
+    {
+      "numero": "2017NE00562",
+      "contrato": "P.98/2016",
+      "valor": 6602.34,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET. NFS-e Nº20237, 20238 e 20239 datadas 06/10/2016, RD nº 2017RD00004."
+    },
+    {
+      "numero": "2017NE00625",
+      "contrato": "P.98/2016",
+      "valor": 6602.34,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPITICA, FUREWAL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE"
+    },
+    {
+      "numero": "2017NE00573",
+      "contrato": "",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
+    },
+    {
+      "numero": "2017NE00564",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20225 DATADA 06/10/2016, CONFORME RD Nº 2017RD00015"
+    },
+    {
+      "numero": "2017NE00627",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
+    },
+    {
+      "numero": "2017NE00623",
+      "contrato": "294/2016",
+      "valor": 643.25,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTOS DO SISTEMA CFPP CADASTRO DE FOLHA DE PEGAMENTO DE PESSOAL"
+    },
+    {
+      "numero": "2017NE00629",
+      "contrato": "295/2016",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
+    },
+    {
+      "numero": "2017NE00628",
       "contrato": "295/2016",
       "valor": 449.51,
       "situacao": "Ativo",
@@ -1074,7 +1186,7 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTOS DO SISTEMA CFPP CADASTRO DE FOLHA DE PEGAMENTO DE PESSOAL"
     },
     {
-      "numero": "2017NE00628",
+      "numero": "2017NE00626",
       "contrato": "295/2016",
       "valor": 449.51,
       "situacao": "Ativo",
@@ -1082,164 +1194,44 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
     },
     {
-      "numero": "2017NE00629",
+      "numero": "2017NE00633",
+      "contrato": "P.98/2016",
+      "valor": 6602.34,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS DE TELECOMUNICAÇÃO, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWAL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE MUNDIAL DE INTERNET"
+    },
+    {
+      "numero": "2017NE00634",
       "contrato": "295/2016",
       "valor": 449.51,
       "situacao": "Ativo",
       "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
     },
     {
-      "numero": "2017NE00623",
+      "numero": "2017NE00632",
+      "contrato": "P.178/2015",
+      "valor": 6777.44,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL E COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE MUNDIAL DE INTERNET"
+    },
+    {
+      "numero": "2017NE00639",
       "contrato": "294/2016",
-      "valor": 643.25,
+      "valor": 1950.54,
       "situacao": "Ativo",
       "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTOS DO SISTEMA CFPP CADASTRO DE FOLHA DE PEGAMENTO DE PESSOAL"
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS CFPP CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
     },
     {
-      "numero": "2017NE00627",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
-    },
-    {
-      "numero": "2017NE00564",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20225 DATADA 06/10/2016, CONFORME RD Nº 2017RD00015"
-    },
-    {
-      "numero": "2017NE00573",
-      "contrato": "",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
-    },
-    {
-      "numero": "2017NE00625",
-      "contrato": "P.98/2016",
-      "valor": 6602.34,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÃO, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPITICA, FUREWAL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE"
-    },
-    {
-      "numero": "2017NE00562",
-      "contrato": "P.98/2016",
-      "valor": 6602.34,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E Á REDE MUNDIAL DE INTERNET. NFS-e Nº20237, 20238 e 20239 datadas 06/10/2016, RD nº 2017RD00004."
-    },
-    {
-      "numero": "2017NE00563",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20224 DATADA 06/10/2016, CONFORME RD Nº 2017RD00018"
-    },
-    {
-      "numero": "2017NE00572",
-      "contrato": "",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
-    },
-    {
-      "numero": "2017NE00570",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20226 DATADA 06/10/2016, CONFORME RD Nº 2017RD00016"
-    },
-    {
-      "numero": "2017NE00565",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG. NFS-e Nº 20227 DATADA 06/10/2016, CONFORME RD Nº 2017RD00017"
-    },
-    {
-      "numero": "2017NE00576",
-      "contrato": "",
-      "valor": 6602.34,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
-    },
-    {
-      "numero": "2017NE00575",
-      "contrato": "",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
-    },
-    {
-      "numero": "2017NE00631",
+      "numero": "2017NE00630",
       "contrato": "P.98/2016",
       "valor": 6602.34,
       "situacao": "Ativo",
       "data_emissao": "14/07/2017",
       "descricao": "PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, COMPREENDENDO A DISPONIBILIDADE DE CANAL DE COMUNICAÇÃO VIA FIBRA ÓPTICA, FIREWALL UTM PARA ACESSAR AOS SISTEMAS RESIDENTES NO COMPUTADOR CENTRAL DA PRODAM E A REDE MUNDIAL DE INTERNET."
-    },
-    {
-      "numero": "2017NE00635",
-      "contrato": "295/2016",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
-    },
-    {
-      "numero": "2017NE00636",
-      "contrato": "294/2016",
-      "valor": 1118.81,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS CFPP CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL"
-    },
-    {
-      "numero": "2017NE00637",
-      "contrato": "294/2016",
-      "valor": 568.28,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS CFPP CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
-    },
-    {
-      "numero": "2017NE00638",
-      "contrato": "294/2016",
-      "valor": 694.28,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS CFPP CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
-    },
-    {
-      "numero": "2017NE00574",
-      "contrato": "",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2017",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO POR EQUIVOCO NA FONTE DO RECURSO."
-    },
-    {
-      "numero": "2022NE0001327",
-      "contrato": "425/2021",
-      "valor": 321.76,
-      "situacao": "Ativo",
-      "data_emissao": "13/09/2022",
-      "descricao": "reforço da NE 41/2022"
     },
     {
       "numero": "2022NE0001328",
@@ -1250,20 +1242,20 @@
       "descricao": "REFORÇO DA NE 52/2022"
     },
     {
+      "numero": "2022NE0001327",
+      "contrato": "425/2021",
+      "valor": 321.76,
+      "situacao": "Ativo",
+      "data_emissao": "13/09/2022",
+      "descricao": "reforço da NE 41/2022"
+    },
+    {
       "numero": "2025NE0001256",
       "contrato": "427/2021",
       "valor": 2067.62,
       "situacao": "Ativo",
       "data_emissao": "13/08/2025",
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
-    },
-    {
-      "numero": "2021NE0000900",
-      "contrato": "351/2017",
-      "valor": 6375.8,
-      "situacao": "Ativo",
-      "data_emissao": "12/04/2021",
-      "descricao": "reforço da ne 16/2021"
     },
     {
       "numero": "2021NE0000901",
@@ -1274,12 +1266,12 @@
       "descricao": "reforço da ne 15/2021"
     },
     {
-      "numero": "2021NE0001719",
-      "contrato": "3/2017",
-      "valor": 6940.36,
+      "numero": "2021NE0000900",
+      "contrato": "351/2017",
+      "valor": 6375.8,
       "situacao": "Ativo",
-      "data_emissao": "11/08/2021",
-      "descricao": "REFORÇO DA ne 35/2021"
+      "data_emissao": "12/04/2021",
+      "descricao": "reforço da ne 16/2021"
     },
     {
       "numero": "2021NE0001724",
@@ -1290,20 +1282,12 @@
       "descricao": "reforço da NE 15/2021"
     },
     {
-      "numero": "2020NE02639",
-      "contrato": "",
-      "valor": 2125.26,
+      "numero": "2021NE0001719",
+      "contrato": "3/2017",
+      "valor": 6940.36,
       "situacao": "Ativo",
-      "data_emissao": "11/08/2020",
-      "descricao": "Anulação Orçamentária parcial da NE nº 08/2020, em atendimento ao Decreto nº 42.146 de 31 de março de 2020 que dispõe sobre o plano de contingenciamento de gastos, no âmbito do poder executivo estadual e dá outras providências."
-    },
-    {
-      "numero": "2020NE02637",
-      "contrato": "",
-      "valor": 1640.06,
-      "situacao": "Ativo",
-      "data_emissao": "11/08/2020",
-      "descricao": "Anulação Orçamentária parcial da NE nº 55/2020, em atendimento ao Decreto nº 42.146 de 31 de março de 2020 que dispõe sobre o plano de contingenciamento de gastos, no âmbito do poder executivo estadual e dá outras providências"
+      "data_emissao": "11/08/2021",
+      "descricao": "REFORÇO DA ne 35/2021"
     },
     {
       "numero": "2020NE02638",
@@ -1314,12 +1298,20 @@
       "descricao": "Anulação Orçamentária parcial da NE nº 06/2020, em atendimento ao Decreto nº 42.146 de 31 de março de 2020 que dispõe sobre o plano de contingenciamento de gastos, no âmbito do poder executivo estadual e dá outras providências."
     },
     {
-      "numero": "2024NE0000981",
-      "contrato": "427/2021",
-      "valor": 3983.08,
+      "numero": "2020NE02637",
+      "contrato": "",
+      "valor": 1640.06,
       "situacao": "Ativo",
-      "data_emissao": "11/07/2024",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
+      "data_emissao": "11/08/2020",
+      "descricao": "Anulação Orçamentária parcial da NE nº 55/2020, em atendimento ao Decreto nº 42.146 de 31 de março de 2020 que dispõe sobre o plano de contingenciamento de gastos, no âmbito do poder executivo estadual e dá outras providências"
+    },
+    {
+      "numero": "2020NE02639",
+      "contrato": "",
+      "valor": 2125.26,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2020",
+      "descricao": "Anulação Orçamentária parcial da NE nº 08/2020, em atendimento ao Decreto nº 42.146 de 31 de março de 2020 que dispõe sobre o plano de contingenciamento de gastos, no âmbito do poder executivo estadual e dá outras providências."
     },
     {
       "numero": "2024NE0000978",
@@ -1328,6 +1320,14 @@
       "situacao": "Ativo",
       "data_emissao": "11/07/2024",
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000981",
+      "contrato": "427/2021",
+      "valor": 3983.08,
+      "situacao": "Ativo",
+      "data_emissao": "11/07/2024",
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
     },
     {
       "numero": "2021NE0002403",
@@ -1346,12 +1346,12 @@
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR."
     },
     {
-      "numero": "2024NE0000739",
-      "contrato": "427/2021",
-      "valor": 3983.08,
+      "numero": "2024NE0000737",
+      "contrato": "425/2021",
+      "valor": 356.18,
       "situacao": "Ativo",
       "data_emissao": "09/05/2024",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
     },
     {
       "numero": "2024NE0000738",
@@ -1362,12 +1362,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
     },
     {
-      "numero": "2024NE0000737",
-      "contrato": "425/2021",
-      "valor": 356.18,
+      "numero": "2024NE0000739",
+      "contrato": "427/2021",
+      "valor": 3983.08,
       "situacao": "Ativo",
       "data_emissao": "09/05/2024",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
     },
     {
       "numero": "2017NE00029",
@@ -1402,12 +1402,12 @@
       "descricao": "reforço NE 35/2021"
     },
     {
-      "numero": "2024NE0000091",
-      "contrato": "425/2021",
-      "valor": 178.09,
+      "numero": "2024NE0000090",
+      "contrato": "643/2022",
+      "valor": 2618.42,
       "situacao": "Ativo",
       "data_emissao": "08/03/2024",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
     },
     {
       "numero": "2024NE0000089",
@@ -1418,12 +1418,12 @@
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 02."
     },
     {
-      "numero": "2024NE0000090",
-      "contrato": "643/2022",
-      "valor": 2618.42,
+      "numero": "2024NE0000091",
+      "contrato": "425/2021",
+      "valor": 178.09,
       "situacao": "Ativo",
       "data_emissao": "08/03/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
     },
     {
       "numero": "2021NE0000035",
@@ -1434,28 +1434,12 @@
       "descricao": "Contratação de serviços de TIC compreendendo a licença de uso do gestor de conteúdo WEB (com reajuste de 17,94%)"
     },
     {
-      "numero": "2024NE0001428",
-      "contrato": "",
+      "numero": "2024NE0001445",
+      "contrato": "427/2021",
       "valor": 2067.62,
       "situacao": "Ativo",
       "data_emissao": "07/11/2024",
-      "descricao": "anulação de Empenho."
-    },
-    {
-      "numero": "2024NE0001427",
-      "contrato": "",
-      "valor": 182.45,
-      "situacao": "Ativo",
-      "data_emissao": "07/11/2024",
-      "descricao": "ajustes da célula Orçamentaria"
-    },
-    {
-      "numero": "2024NE0001438",
-      "contrato": "643/2022",
-      "valor": 5430.08,
-      "situacao": "Ativo",
-      "data_emissao": "07/11/2024",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
+      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
     },
     {
       "numero": "2024NE0001442",
@@ -1466,52 +1450,36 @@
       "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 03."
     },
     {
-      "numero": "2024NE0001445",
-      "contrato": "427/2021",
+      "numero": "2024NE0001438",
+      "contrato": "643/2022",
+      "valor": 5430.08,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2024",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0001427",
+      "contrato": "",
+      "valor": 182.45,
+      "situacao": "Ativo",
+      "data_emissao": "07/11/2024",
+      "descricao": "ajustes da célula Orçamentaria"
+    },
+    {
+      "numero": "2024NE0001428",
+      "contrato": "",
       "valor": 2067.62,
       "situacao": "Ativo",
       "data_emissao": "07/11/2024",
-      "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
+      "descricao": "anulação de Empenho."
     },
     {
-      "numero": "2015NE00137",
-      "contrato": "",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "07/05/2015",
-      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 107/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA DE CONTABILIDADE GERENCIAL (CBTG), N.F.S.-e Nº 12491, EMITIDA EM 14/11/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 051/2014-PJ/ADS, DATADO DE 18/07/2014."
-    },
-    {
-      "numero": "2015NE00139",
+      "numero": "2015NE00140",
       "contrato": "",
       "valor": 587.61,
       "situacao": "Ativo",
       "data_emissao": "07/05/2015",
-      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 112/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA CAD/FOLHA DE PAGAMENTO DE PESSOAL - CFPP, N.F.S.-e Nº 12583, EMITIDA EM 26/11/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 052/2014-PJ/ADS, DATADO DE 18/07/2014."
-    },
-    {
-      "numero": "2015NE00138",
-      "contrato": "",
-      "valor": 449.51,
-      "situacao": "Ativo",
-      "data_emissao": "07/05/2015",
-      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 106/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA DE CONTABILIDADE GERENCIAL (CBTG), N.F.S.-e Nº 12685, EMITIDA EM 03/12/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 051/2014-PJ/ADS, DATADO DE 18/07/2014."
-    },
-    {
-      "numero": "2015NE00128",
-      "contrato": "",
-      "valor": 8871.39,
-      "situacao": "Ativo",
-      "data_emissao": "07/05/2015",
-      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXERCICIOS ANTERIORES Nº 109/2015, PRESTAÇÃO DE SERVIÇOS DE DE LINK DE INTERNET, CONFORME N.F.S-e Nº 12489 E 12490, EMITIDAS EM 14/11/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 014/2014-PJ/ADS, DATADO DE 14/03/2014."
-    },
-    {
-      "numero": "2015NE00127",
-      "contrato": "",
-      "valor": 8871.39,
-      "situacao": "Ativo",
-      "data_emissao": "07/05/2015",
-      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXERCICIOS ANTERIORES Nº 108/2015, PRESTAÇÃO DE SERVIÇOS DE DE LINK DE INTERNET, CONFORME N.F.S-e Nº 12686 E 12687, EMITIDAS EM 03/12/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 014/2014-PJ/ADS, DATADO DE 14/03/2014."
+      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 111/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA CAD/FOLHA DE PAGAMENTO DE PESSOAL - CFPP, N.F.S.-e Nº 12269, EMITIDA EM 23/10/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 052/2014-PJ/ADS, DATADO DE 18/07/2014."
     },
     {
       "numero": "2015NE00141",
@@ -1522,12 +1490,44 @@
       "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 110/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA CAD/FOLHA DE PAGAMENTO DE PESSOAL - CFPP, N.F.S.-e Nº 12917, EMITIDA EM 15/12/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 052/2014-PJ/ADS, DATADO DE 18/07/2014."
     },
     {
-      "numero": "2015NE00140",
+      "numero": "2015NE00127",
+      "contrato": "",
+      "valor": 8871.39,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2015",
+      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXERCICIOS ANTERIORES Nº 108/2015, PRESTAÇÃO DE SERVIÇOS DE DE LINK DE INTERNET, CONFORME N.F.S-e Nº 12686 E 12687, EMITIDAS EM 03/12/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 014/2014-PJ/ADS, DATADO DE 14/03/2014."
+    },
+    {
+      "numero": "2015NE00128",
+      "contrato": "",
+      "valor": 8871.39,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2015",
+      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXERCICIOS ANTERIORES Nº 109/2015, PRESTAÇÃO DE SERVIÇOS DE DE LINK DE INTERNET, CONFORME N.F.S-e Nº 12489 E 12490, EMITIDAS EM 14/11/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 014/2014-PJ/ADS, DATADO DE 14/03/2014."
+    },
+    {
+      "numero": "2015NE00138",
+      "contrato": "",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2015",
+      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 106/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA DE CONTABILIDADE GERENCIAL (CBTG), N.F.S.-e Nº 12685, EMITIDA EM 03/12/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 051/2014-PJ/ADS, DATADO DE 18/07/2014."
+    },
+    {
+      "numero": "2015NE00139",
       "contrato": "",
       "valor": 587.61,
       "situacao": "Ativo",
       "data_emissao": "07/05/2015",
-      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 111/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA CAD/FOLHA DE PAGAMENTO DE PESSOAL - CFPP, N.F.S.-e Nº 12269, EMITIDA EM 23/10/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 052/2014-PJ/ADS, DATADO DE 18/07/2014."
+      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 112/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA CAD/FOLHA DE PAGAMENTO DE PESSOAL - CFPP, N.F.S.-e Nº 12583, EMITIDA EM 26/11/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 052/2014-PJ/ADS, DATADO DE 18/07/2014."
+    },
+    {
+      "numero": "2015NE00137",
+      "contrato": "",
+      "valor": 449.51,
+      "situacao": "Ativo",
+      "data_emissao": "07/05/2015",
+      "descricao": "RECONHECIMENTO DA DIVIDA: FOLHA DE INFORMAÇÃO DE DESPESAS DE EXECICIOS ANTERIORES Nº 107/2015, PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS SISTEMA DE CONTABILIDADE GERENCIAL (CBTG), N.F.S.-e Nº 12491, EMITIDA EM 14/11/2014. FUNDAMENTAÇÃO LEGAL: CONFORME PARECER Nº 051/2014-PJ/ADS, DATADO DE 18/07/2014."
     },
     {
       "numero": "2020NE00055",
@@ -1546,14 +1546,6 @@
       "descricao": "Contratação de empresa especializada em prestação de serviços de conteúdo web e licença de uso de sistema de informação, conforme TDR."
     },
     {
-      "numero": "2022NE0000276",
-      "contrato": "425/2021",
-      "valor": 643.52,
-      "situacao": "Ativo",
-      "data_emissao": "05/04/2022",
-      "descricao": "reforço da ne 41/22"
-    },
-    {
       "numero": "2022NE0000277",
       "contrato": "427/2021",
       "valor": 7336.0,
@@ -1562,12 +1554,12 @@
       "descricao": "reforço da ne 52/22"
     },
     {
-      "numero": "2026NE0000016",
+      "numero": "2022NE0000276",
       "contrato": "425/2021",
-      "valor": 1952.6,
+      "valor": 643.52,
       "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 04."
+      "data_emissao": "05/04/2022",
+      "descricao": "reforço da ne 41/22"
     },
     {
       "numero": "2026NE0000015",
@@ -1578,84 +1570,12 @@
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 04."
     },
     {
-      "numero": "2015NE00053",
-      "contrato": "428/2013",
-      "valor": 1348.53,
+      "numero": "2026NE0000016",
+      "contrato": "425/2021",
+      "valor": 1952.6,
       "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cobertura Financeira 2015"
-    },
-    {
-      "numero": "2015NE00034",
-      "contrato": "102/2012",
-      "valor": 26614.21,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cobertura Financeira 2015"
-    },
-    {
-      "numero": "2015NE00036",
-      "contrato": "428/2013",
-      "valor": 1348.53,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 428/2013. OBJETO: PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DO SISTEMA DE CONTABILIDADE GERENCIAL ¿ CTBG. OBJETIVO: PRORROGAR POR MAIS 12 (DOZE) MESES, COM READEQUAÇÃO FINANCEIRA. VALOR GLOBAL: R$ 5.394,12 VALOR MENSAL: R$ 449,51 PRAZO DE VIGÊNCIA: 20/09/2015 FUNDAMENTAÇÃO LEGAL: DISPENSA DE LICITAÇÃO, ART.24, II, C/C O PARÁGRAFO ÚNICO DA LEI Nº 8.666/93. OBS.: O SALDO RESTANTE DE R$ 2.525,44, SERÁ SUPLEMENTADO CONFORME LIBERAÇÃO DA COTA FINANCEIRA."
-    },
-    {
-      "numero": "2015NE00020",
-      "contrato": "102/2012",
-      "valor": 26614.21,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "ANULAÇÃO DE N.E. Nº 2015NE00007, POR EQUIVOCO NA DESCRIÇÃO."
-    },
-    {
-      "numero": "2015NE00051",
-      "contrato": "428/2013",
-      "valor": 1348.53,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "ANULAÇÃO DE NE Nº 2015NE00036, POR EQUIVOCO NA DESCRIÇÃO."
-    },
-    {
-      "numero": "2015NE00038",
-      "contrato": "274/2010",
-      "valor": 1762.83,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cobertura Financeira 2015"
-    },
-    {
-      "numero": "2015NE00024",
-      "contrato": "274/2010",
-      "valor": 1762.83,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "ANULAÇÃO DE N.E. Nº 2015NE00011, POR EQUIVOCO NA DESCRIÇÃO."
-    },
-    {
-      "numero": "2015NE00009",
-      "contrato": "428/2013",
-      "valor": 1348.53,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "REFERENTE AO 1º TERMO ADITIVO PARA PRORROGAR POR MAIS 12 (DOZE) MESES O CONTRATO Nº 428/2013, OBJETO: PRESTAÇÃO DE SERVIÇOS DESISTEMA DE CONTABILIDADE GERENCIAL (CTBG), COM READEQUAÇÃO FINANCEIRA."
-    },
-    {
-      "numero": "2015NE00011",
-      "contrato": "274/2010",
-      "valor": 1762.83,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "REFERENTE AO 4º TERMO ADITIVO PARA PRORROGAÇÃO POR MAIS 12 (DOZE) MESES, COM READEQUAÇÃO FINANCEIRA, O TERMO DE CONTRATO Nº 274/2010, DE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL, PARA ATENDER AS NECESSIDADES DA ADS."
-    },
-    {
-      "numero": "2015NE00022",
-      "contrato": "428/2013",
-      "valor": 1348.53,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "ANULAÇÃO DE N.E. Nº 2015NE00009, POR EQUIVOCO NA DESCRIÇÃO."
+      "data_emissao": "05/01/2026",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 04."
     },
     {
       "numero": "2015NE00007",
@@ -1666,20 +1586,92 @@
       "descricao": "REFERENTE AO 2º TERMO ADITIVO COM O OBJETO DE PRORROGAR POR MAIS DOZE MESES, COM REAJUSTE DE 5,52%, CONFORME IGPM ACUMULADO NO PERÍODO DE VIGÊNCIA E SEGUNDO A CLAUSULA DECIMA PRIMEIRA DO CONTRATO ORIGINAL Nº 102/2012, PERMANECENDO INALTERADAS AS DEMAIS CLAUSULAS CONTRATUAIS."
     },
     {
-      "numero": "2021NE0000015",
-      "contrato": "294/2016",
-      "valor": 5683.84,
+      "numero": "2015NE00022",
+      "contrato": "428/2013",
+      "valor": 1348.53,
       "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH; MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL; PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO, CONF. TDR."
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO DE N.E. Nº 2015NE00009, POR EQUIVOCO NA DESCRIÇÃO."
     },
     {
-      "numero": "2021NE0000006",
-      "contrato": "2/2018",
-      "valor": 6430.32,
+      "numero": "2015NE00011",
+      "contrato": "274/2010",
+      "valor": 1762.83,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "REFERENTE AO 4º TERMO ADITIVO PARA PRORROGAÇÃO POR MAIS 12 (DOZE) MESES, COM READEQUAÇÃO FINANCEIRA, O TERMO DE CONTRATO Nº 274/2010, DE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL, PARA ATENDER AS NECESSIDADES DA ADS."
+    },
+    {
+      "numero": "2015NE00009",
+      "contrato": "428/2013",
+      "valor": 1348.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "REFERENTE AO 1º TERMO ADITIVO PARA PRORROGAR POR MAIS 12 (DOZE) MESES O CONTRATO Nº 428/2013, OBJETO: PRESTAÇÃO DE SERVIÇOS DESISTEMA DE CONTABILIDADE GERENCIAL (CTBG), COM READEQUAÇÃO FINANCEIRA."
+    },
+    {
+      "numero": "2015NE00024",
+      "contrato": "274/2010",
+      "valor": 1762.83,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO DE N.E. Nº 2015NE00011, POR EQUIVOCO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2015NE00038",
+      "contrato": "274/2010",
+      "valor": 1762.83,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00051",
+      "contrato": "428/2013",
+      "valor": 1348.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO DE NE Nº 2015NE00036, POR EQUIVOCO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2015NE00020",
+      "contrato": "102/2012",
+      "valor": 26614.21,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "ANULAÇÃO DE N.E. Nº 2015NE00007, POR EQUIVOCO NA DESCRIÇÃO."
+    },
+    {
+      "numero": "2015NE00036",
+      "contrato": "428/2013",
+      "valor": 1348.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "1º TERMO ADITIVO AO CONTRATO Nº 428/2013. OBJETO: PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DO SISTEMA DE CONTABILIDADE GERENCIAL ¿ CTBG. OBJETIVO: PRORROGAR POR MAIS 12 (DOZE) MESES, COM READEQUAÇÃO FINANCEIRA. VALOR GLOBAL: R$ 5.394,12 VALOR MENSAL: R$ 449,51 PRAZO DE VIGÊNCIA: 20/09/2015 FUNDAMENTAÇÃO LEGAL: DISPENSA DE LICITAÇÃO, ART.24, II, C/C O PARÁGRAFO ÚNICO DA LEI Nº 8.666/93. OBS.: O SALDO RESTANTE DE R$ 2.525,44, SERÁ SUPLEMENTADO CONFORME LIBERAÇÃO DA COTA FINANCEIRA."
+    },
+    {
+      "numero": "2015NE00034",
+      "contrato": "102/2012",
+      "valor": 26614.21,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00053",
+      "contrato": "428/2013",
+      "valor": 1348.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2021NE0000008",
+      "contrato": "3/2017",
+      "valor": 1749.04,
       "situacao": "Ativo",
       "data_emissao": "04/01/2021",
-      "descricao": "Contratação de empresa para prestação de serviços de acesso à rede mundial de computadores (internet), via rede de governo, estabelecendo comunicação a partir de circuito de dados, com velocidade de 10MB, conf. TDR."
+      "descricao": "Serviço de TIC compreendendo a licença de uso do gestor de conteudo web."
     },
     {
       "numero": "2021NE0000016",
@@ -1690,12 +1682,20 @@
       "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS."
     },
     {
-      "numero": "2021NE0000008",
-      "contrato": "3/2017",
-      "valor": 1749.04,
+      "numero": "2021NE0000006",
+      "contrato": "2/2018",
+      "valor": 6430.32,
       "situacao": "Ativo",
       "data_emissao": "04/01/2021",
-      "descricao": "Serviço de TIC compreendendo a licença de uso do gestor de conteudo web."
+      "descricao": "Contratação de empresa para prestação de serviços de acesso à rede mundial de computadores (internet), via rede de governo, estabelecendo comunicação a partir de circuito de dados, com velocidade de 10MB, conf. TDR."
+    },
+    {
+      "numero": "2021NE0000015",
+      "contrato": "294/2016",
+      "valor": 5683.84,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH; MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL; PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO, CONF. TDR."
     },
     {
       "numero": "2025NE0001606",
@@ -1714,12 +1714,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS EM INFORMÁTICA, COMPREENDENDO A DISPONIBILIZAÇÃO DE CLIENTES VPN (VIRTUAL PRIVATE NETWORK)."
     },
     {
-      "numero": "2017NE00399",
-      "contrato": "294/2016",
-      "valor": 4486.0,
+      "numero": "2017NE00398",
+      "contrato": "295/2016",
+      "valor": 1798.04,
       "situacao": "Ativo",
       "data_emissao": "02/05/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE FOLHA DE PAGAMENTO - CFPP."
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL-CTBG."
     },
     {
       "numero": "2017NE00400",
@@ -1730,28 +1730,12 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEUDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VIDEOS E IMAGENS VIA WEBSITE."
     },
     {
-      "numero": "2017NE00398",
-      "contrato": "295/2016",
-      "valor": 1798.04,
+      "numero": "2017NE00399",
+      "contrato": "294/2016",
+      "valor": 4486.0,
       "situacao": "Ativo",
       "data_emissao": "02/05/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL-CTBG."
-    },
-    {
-      "numero": "2025NE0000016",
-      "contrato": "643/2022",
-      "valor": 5430.08,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
-    },
-    {
-      "numero": "2025NE0000017",
-      "contrato": "425/2021",
-      "valor": 364.9,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 03."
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE FOLHA DE PAGAMENTO - CFPP."
     },
     {
       "numero": "2025NE0000018",
@@ -1762,12 +1746,20 @@
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR. TC: 0427/2021 AD: 03."
     },
     {
-      "numero": "2024NE0000029",
+      "numero": "2025NE0000017",
       "contrato": "425/2021",
-      "valor": 356.18,
+      "valor": 364.9,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+      "data_emissao": "02/01/2025",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0000016",
+      "contrato": "643/2022",
+      "valor": 5430.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 02."
     },
     {
       "numero": "2024NE0000030",
@@ -1778,36 +1770,20 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de conteúdo web e licença de uso de sistema de informação, com a disponibilização de Gestor de Conteúdo Web, constante no item 4 deste Termo de Referência. TC: 0643/2022 AD: 01."
     },
     {
+      "numero": "2024NE0000029",
+      "contrato": "425/2021",
+      "valor": 356.18,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Prestação de serviços técnicos especializados em informática, compreendendo a disponibilização de clientes VPN (VIRTUAL PRIVATE NETWORK), para atender à necessidade desta ADS, conforme TDR. TC: 0425/2021 AD: 02."
+    },
+    {
       "numero": "2023NE0000019",
       "contrato": "427/2021",
       "valor": 7966.16,
       "situacao": "Ativo",
       "data_emissao": "02/01/2023",
       "descricao": "Contratação para prestação de serviços de processamento do Sistema CFPP, PRODAM RH; Manter cadastro dos servidores e folha de pagamento pessoal, entre outros, conforme TDR."
-    },
-    {
-      "numero": "2020NE00013",
-      "contrato": "3/2017",
-      "valor": 1634.62,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Serviço de TIC compreendendo a licença de uso do gestor de conteúdo web."
-    },
-    {
-      "numero": "2020NE00008",
-      "contrato": "351/2017",
-      "valor": 14168.4,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS."
-    },
-    {
-      "numero": "2020NE00007",
-      "contrato": "2/2018",
-      "valor": 6430.32,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Serviço de acesso gerencial a rede mundial via rede de governo (link de internet)."
     },
     {
       "numero": "2020NE00006",
@@ -1818,52 +1794,28 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH; MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL; PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO, CONF. TDR."
     },
     {
-      "numero": "2019NE00026",
-      "contrato": "295/2016",
-      "valor": 1484.04,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "SERVIÇO DE LICENÇA DO SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
-    },
-    {
-      "numero": "2019NE00029",
-      "contrato": "3/2017",
-      "valor": 1475.29,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "SERVIÇOS DE TIC COMPREENDENDO A LICENÇA DE USO DO GESTOR DE CONTEÚDO WEB."
-    },
-    {
-      "numero": "2019NE00024",
-      "contrato": "351/2017",
-      "valor": 5313.15,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS"
-    },
-    {
-      "numero": "2019NE00028",
+      "numero": "2020NE00007",
       "contrato": "2/2018",
-      "valor": 6431.4,
+      "valor": 6430.32,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
+      "data_emissao": "02/01/2020",
       "descricao": "Serviço de acesso gerencial a rede mundial via rede de governo (link de internet)."
     },
     {
-      "numero": "2019NE00027",
-      "contrato": "294/2016",
-      "valor": 4334.7,
+      "numero": "2020NE00008",
+      "contrato": "351/2017",
+      "valor": 14168.4,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
+      "data_emissao": "02/01/2020",
+      "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS."
     },
     {
-      "numero": "2019NE00042",
-      "contrato": "",
-      "valor": 1484.04,
+      "numero": "2020NE00013",
+      "contrato": "3/2017",
+      "valor": 1634.62,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Correção na descrição."
+      "data_emissao": "02/01/2020",
+      "descricao": "Serviço de TIC compreendendo a licença de uso do gestor de conteúdo web."
     },
     {
       "numero": "2019NE00043",
@@ -1874,28 +1826,52 @@
       "descricao": "SERVIÇO DE LICENÇA DO SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
     },
     {
-      "numero": "2018NE00017",
-      "contrato": "351/2017",
-      "valor": 13248.92,
+      "numero": "2019NE00042",
+      "contrato": "",
+      "valor": 1484.04,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb)."
+      "data_emissao": "02/01/2019",
+      "descricao": "Correção na descrição."
     },
     {
-      "numero": "2018NE00016",
+      "numero": "2019NE00027",
+      "contrato": "294/2016",
+      "valor": 4334.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH, PARA MANTER O CADASTRO DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2019NE00028",
+      "contrato": "2/2018",
+      "valor": 6431.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Serviço de acesso gerencial a rede mundial via rede de governo (link de internet)."
+    },
+    {
+      "numero": "2019NE00024",
+      "contrato": "351/2017",
+      "valor": 5313.15,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Prestação de serviço de execução de sistema de protocolo em plataforma WEB (SPROWEB), para o controle de acompanhamento de registro de todos os documentos ou processos da ADS"
+    },
+    {
+      "numero": "2019NE00029",
       "contrato": "3/2017",
       "valor": 1475.29,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÃO, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+      "data_emissao": "02/01/2019",
+      "descricao": "SERVIÇOS DE TIC COMPREENDENDO A LICENÇA DE USO DO GESTOR DE CONTEÚDO WEB."
     },
     {
-      "numero": "2018NE00015",
+      "numero": "2019NE00026",
       "contrato": "295/2016",
-      "valor": 4495.1,
+      "valor": 1484.04,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL CTBG."
+      "data_emissao": "02/01/2019",
+      "descricao": "SERVIÇO DE LICENÇA DO SISTEMA DE CONTABILIDADE GERENCIAL - CTBG"
     },
     {
       "numero": "2018NE00014",
@@ -1906,12 +1882,28 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS PRODAM-RH, PARA MANTER OS CADASTROS DOS SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHAS DE PAGAMENTO E FORNECER RELATÓRIOS."
     },
     {
-      "numero": "2017NE00014",
-      "contrato": "294/2016",
-      "valor": 4486.0,
+      "numero": "2018NE00015",
+      "contrato": "295/2016",
+      "valor": 4495.1,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE FOLHA DE PAGAMENTO - CFPP."
+      "data_emissao": "02/01/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL CTBG."
+    },
+    {
+      "numero": "2018NE00016",
+      "contrato": "3/2017",
+      "valor": 1475.29,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEÚDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÃO, NOTÍCIAS, VÍDEOS E IMAGENS VIA WEBSITE."
+    },
+    {
+      "numero": "2018NE00017",
+      "contrato": "351/2017",
+      "valor": 13248.92,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb)."
     },
     {
       "numero": "2017NE00015",
@@ -1922,12 +1914,12 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL-CTBG."
     },
     {
-      "numero": "2014NE00041",
-      "contrato": "102/2012",
-      "valor": 25221.93,
+      "numero": "2017NE00014",
+      "contrato": "294/2016",
+      "valor": 4486.0,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 102/2012 - Ponto-a-ponto 3Mb, Internet 2Mb, Locação Equipamento Firewall"
+      "data_emissao": "02/01/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE FOLHA DE PAGAMENTO - CFPP."
     },
     {
       "numero": "2014NE00010",
@@ -1938,12 +1930,12 @@
       "descricao": "Contrato No. 274/2010 - CFPP - Cadastro e Folha de Pagamento de Pessoal"
     },
     {
-      "numero": "2017NE01181",
-      "contrato": "351/2017",
-      "valor": 1656.12,
+      "numero": "2014NE00041",
+      "contrato": "102/2012",
+      "valor": 25221.93,
       "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb). OBJETIVO: CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DESTA ADS."
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 102/2012 - Ponto-a-ponto 3Mb, Internet 2Mb, Locação Equipamento Firewall"
     },
     {
       "numero": "2017NE01184",
@@ -1954,36 +1946,12 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEUDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VIDEOS E IMAGENS VIA WEBSITE."
     },
     {
-      "numero": "2019NE01380",
-      "contrato": "2/2018",
-      "valor": 19290.96,
+      "numero": "2017NE01181",
+      "contrato": "351/2017",
+      "valor": 1656.12,
       "situacao": "Ativo",
-      "data_emissao": "01/10/2019",
-      "descricao": "reforço da NE 65/2019"
-    },
-    {
-      "numero": "2019NE01381",
-      "contrato": "3/2017",
-      "valor": 4903.86,
-      "situacao": "Ativo",
-      "data_emissao": "01/10/2019",
-      "descricao": "REFORÇO DA NE 66/2019"
-    },
-    {
-      "numero": "2019NE01382",
-      "contrato": "294/2016",
-      "valor": 2456.33,
-      "situacao": "Ativo",
-      "data_emissao": "01/10/2019",
-      "descricao": "REFORÇO DA NE 27/2019."
-    },
-    {
-      "numero": "2019NE01383",
-      "contrato": "295/2016",
-      "valor": 840.96,
-      "situacao": "Ativo",
-      "data_emissao": "01/10/2019",
-      "descricao": "REFORÇO DA NE 43/2019"
+      "data_emissao": "01/11/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb). OBJETIVO: CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DESTA ADS."
     },
     {
       "numero": "2019NE01379",
@@ -1994,28 +1962,36 @@
       "descricao": "REFORÇO DA NE 1110/2019"
     },
     {
-      "numero": "2017NE00921",
-      "contrato": "351/2017",
-      "valor": 3312.24,
-      "situacao": "Ativo",
-      "data_emissao": "01/09/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb). OBJETIVO: CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DESTA ADS."
-    },
-    {
-      "numero": "2017NE01023",
-      "contrato": "294/2016",
-      "valor": 2243.01,
-      "situacao": "Ativo",
-      "data_emissao": "01/09/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE FOLHA DE PAGAMENTO - CFPP."
-    },
-    {
-      "numero": "2017NE01022",
+      "numero": "2019NE01383",
       "contrato": "295/2016",
-      "valor": 899.02,
+      "valor": 840.96,
       "situacao": "Ativo",
-      "data_emissao": "01/09/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL-CTBG."
+      "data_emissao": "01/10/2019",
+      "descricao": "REFORÇO DA NE 43/2019"
+    },
+    {
+      "numero": "2019NE01382",
+      "contrato": "294/2016",
+      "valor": 2456.33,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "REFORÇO DA NE 27/2019."
+    },
+    {
+      "numero": "2019NE01381",
+      "contrato": "3/2017",
+      "valor": 4903.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "REFORÇO DA NE 66/2019"
+    },
+    {
+      "numero": "2019NE01380",
+      "contrato": "2/2018",
+      "valor": 19290.96,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "reforço da NE 65/2019"
     },
     {
       "numero": "2017NE01011",
@@ -2026,36 +2002,28 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE LICENÇA DE USO DE SISTEMA DE INFORMAÇÃO, COMPREENDENDO A DISPONIBILIZAÇÃO DE GESTOR DE CONTEUDO WEB, PARA PUBLICAÇÃO DE INFORMAÇÕES, NOTÍCIAS, VIDEOS E IMAGENS VIA WEBSITE."
     },
     {
-      "numero": "2019NE00937",
-      "contrato": "2/2018",
-      "valor": 19290.96,
+      "numero": "2017NE01022",
+      "contrato": "295/2016",
+      "valor": 899.02,
       "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "link de internet"
+      "data_emissao": "01/09/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE CONTABILIDADE GERENCIAL-CTBG."
     },
     {
-      "numero": "2019NE00938",
+      "numero": "2017NE01023",
+      "contrato": "294/2016",
+      "valor": 2243.01,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE SISTEMA DE FOLHA DE PAGAMENTO - CFPP."
+    },
+    {
+      "numero": "2017NE00921",
       "contrato": "351/2017",
-      "valor": 3542.1,
+      "valor": 3312.24,
       "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "sproweb"
-    },
-    {
-      "numero": "2019NE00940",
-      "contrato": "",
-      "valor": 1484.04,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "sistema de contabilidade gerencial"
-    },
-    {
-      "numero": "2019NE00939",
-      "contrato": "",
-      "valor": 4334.7,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "folha de pagamento"
+      "data_emissao": "01/09/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWeb). OBJETIVO: CONTROLE E ACOMPANHAMENTO DO REGISTRO DE TODOS OS DOCUMENTOS OU PROCESSOS DESTA ADS."
     },
     {
       "numero": "2019NE00936",
@@ -2066,25 +2034,41 @@
       "descricao": "serv. de licença de uso de sistema de informação"
     },
     {
-      "numero": "2018NE00049",
+      "numero": "2019NE00939",
       "contrato": "",
-      "valor": 3596.08,
+      "valor": 4334.7,
       "situacao": "Ativo",
-      "data_emissao": "01/03/2018",
-      "descricao": "Anulação de Nota de Empenho para atender a Portaria Interministerial STN/SOF nº 163, de 2001, com efeitos a partir da execução da Lei Orçamentária de 2018, e Orientação Técnica nº 12/2018-GINS, datada de 07/02/2018."
+      "data_emissao": "01/07/2019",
+      "descricao": "folha de pagamento"
     },
     {
-      "numero": "2018NE00051",
+      "numero": "2019NE00940",
       "contrato": "",
-      "valor": 16228.19,
+      "valor": 1484.04,
       "situacao": "Ativo",
-      "data_emissao": "01/03/2018",
-      "descricao": "Anulação de Nota de Empenho para atender a Portaria Interministerial STN/SOF nº 163, de 2001, com efeitos a partir da execução da Lei Orçamentária de 2018, e Orientação Técnica nº 12/2018-GINS, datada de 07/02/2018."
+      "data_emissao": "01/07/2019",
+      "descricao": "sistema de contabilidade gerencial"
     },
     {
-      "numero": "2018NE00050",
+      "numero": "2019NE00938",
+      "contrato": "351/2017",
+      "valor": 3542.1,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "sproweb"
+    },
+    {
+      "numero": "2019NE00937",
+      "contrato": "2/2018",
+      "valor": 19290.96,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "link de internet"
+    },
+    {
+      "numero": "2018NE00052",
       "contrato": "",
-      "valor": 10381.15,
+      "valor": 12862.8,
       "situacao": "Ativo",
       "data_emissao": "01/03/2018",
       "descricao": "Anulação de Nota de Empenho para atender a Portaria Interministerial STN/SOF nº 163, de 2001, com efeitos a partir da execução da Lei Orçamentária de 2018, e Orientação Técnica nº 12/2018-GINS, datada de 07/02/2018."
@@ -2098,20 +2082,28 @@
       "descricao": "Anulação de Nota de Empenho para atender a Portaria Interministerial STN/SOF nº 163, de 2001, com efeitos a partir da execução da Lei Orçamentária de 2018, e Orientação Técnica nº 12/2018-GINS, datada de 07/02/2018."
     },
     {
-      "numero": "2018NE00052",
+      "numero": "2018NE00050",
       "contrato": "",
-      "valor": 12862.8,
+      "valor": 10381.15,
       "situacao": "Ativo",
       "data_emissao": "01/03/2018",
       "descricao": "Anulação de Nota de Empenho para atender a Portaria Interministerial STN/SOF nº 163, de 2001, com efeitos a partir da execução da Lei Orçamentária de 2018, e Orientação Técnica nº 12/2018-GINS, datada de 07/02/2018."
     },
     {
-      "numero": "2019NE00065",
-      "contrato": "2/2018",
-      "valor": 12860.64,
+      "numero": "2018NE00051",
+      "contrato": "",
+      "valor": 16228.19,
       "situacao": "Ativo",
-      "data_emissao": "01/02/2019",
-      "descricao": "Serviço de acesso gerencial a rede mundial via rede de governo (link de internet)."
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação de Nota de Empenho para atender a Portaria Interministerial STN/SOF nº 163, de 2001, com efeitos a partir da execução da Lei Orçamentária de 2018, e Orientação Técnica nº 12/2018-GINS, datada de 07/02/2018."
+    },
+    {
+      "numero": "2018NE00049",
+      "contrato": "",
+      "valor": 3596.08,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Anulação de Nota de Empenho para atender a Portaria Interministerial STN/SOF nº 163, de 2001, com efeitos a partir da execução da Lei Orçamentária de 2018, e Orientação Técnica nº 12/2018-GINS, datada de 07/02/2018."
     },
     {
       "numero": "2019NE00066",
@@ -2120,6 +2112,14 @@
       "situacao": "Ativo",
       "data_emissao": "01/02/2019",
       "descricao": "Serviço de TIC compreendendo a licença de uso do gestor de conteúdo web."
+    },
+    {
+      "numero": "2019NE00065",
+      "contrato": "2/2018",
+      "valor": 12860.64,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2019",
+      "descricao": "Serviço de acesso gerencial a rede mundial via rede de governo (link de internet)."
     }
   ],
   "faturas": [
@@ -2271,7 +2271,7 @@
       "por_ano": {
         "2024": {
           "qtd": 29,
-          "valor": 59168.44
+          "valor": 59168.44000000001
         },
         "2023": {
           "qtd": 16,
@@ -2283,7 +2283,7 @@
         },
         "2025": {
           "qtd": 15,
-          "valor": 45732.299999999996
+          "valor": 45732.3
         },
         "2019": {
           "qtd": 29,
@@ -2291,7 +2291,7 @@
         },
         "2015": {
           "qtd": 25,
-          "valor": 121379.07
+          "valor": 121379.06999999998
         },
         "2018": {
           "qtd": 24,
@@ -2299,7 +2299,7 @@
         },
         "2017": {
           "qtd": 68,
-          "valor": 171629.64999999994
+          "valor": 171629.6499999999
         },
         "2020": {
           "qtd": 11,

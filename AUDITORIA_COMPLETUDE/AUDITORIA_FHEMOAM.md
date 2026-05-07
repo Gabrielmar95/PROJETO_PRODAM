@@ -1,5 +1,5 @@
 # Auditoria de Completude — FHEMOAM
-**Fundação de Hematologia e Hemoterapia do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação de Hematologia e Hemoterapia do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,11 +47,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 6886.906967936138
-- **db_faturas:** 1688.6100000000001
-- **delta:** 5198.2969679361379
-- **pct:** 75.5%
-
+_Nenhuma divergência significativa detectada_

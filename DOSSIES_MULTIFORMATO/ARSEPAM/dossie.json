@@ -73,20 +73,20 @@
   },
   "empenhos": [
     {
-      "numero": "2020NE00406",
-      "contrato": "",
-      "valor": 7.34,
-      "situacao": "Ativo",
-      "data_emissao": "31/12/2020",
-      "descricao": "ANULAÇÃO DO SALDO DA 2020NE0011, EM ATENÇÃO AO DECRETO Nº 43.042 DE 18/11/2020 REFERENTE AO ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2020."
-    },
-    {
       "numero": "2020NE00407",
       "contrato": "",
       "valor": 8.16,
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
       "descricao": "ANULAÇÃO DO SALDO DA 2020NE0033, EM ATENÇÃO AO DECRETO Nº 43.042 DE 18/11/2020 REFERENTE AO ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2020."
+    },
+    {
+      "numero": "2020NE00406",
+      "contrato": "",
+      "valor": 7.34,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "ANULAÇÃO DO SALDO DA 2020NE0011, EM ATENÇÃO AO DECRETO Nº 43.042 DE 18/11/2020 REFERENTE AO ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2020."
     },
     {
       "numero": "2022NE0000203",
@@ -97,12 +97,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
-      "numero": "2020NE00100",
-      "contrato": "12/2018",
-      "valor": 11693.25,
+      "numero": "2020NE00095",
+      "contrato": "1/2018",
+      "valor": 67499.1,
       "situacao": "Ativo",
       "data_emissao": "31/03/2020",
-      "descricao": "Contratação de Prestação de Serviços de Sistema de Protocolo em Plataforma Web - SPROWEB."
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET) - Contrato nº. 001/2018 (2º Termo Aditivo)"
     },
     {
       "numero": "2020NE00099",
@@ -113,20 +113,12 @@
       "descricao": "Contratação para prestação de serviços de execução do Sistema de Cadastro e Folha de Pagamento de Pessoal - PRODAM-RH."
     },
     {
-      "numero": "2020NE00095",
-      "contrato": "1/2018",
-      "valor": 67499.1,
+      "numero": "2020NE00100",
+      "contrato": "12/2018",
+      "valor": 11693.25,
       "situacao": "Ativo",
       "data_emissao": "31/03/2020",
-      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET) - Contrato nº. 001/2018 (2º Termo Aditivo)"
-    },
-    {
-      "numero": "2020NE00352",
-      "contrato": "",
-      "valor": 1105.59,
-      "situacao": "Ativo",
-      "data_emissao": "30/11/2020",
-      "descricao": "Anulação do Saldo da Nota de Empenho nº. 2020NE00099 Motivo: Tendo em vista que as faturas/notas fiscais referente a prestação de serviços de execução do sistema PRODAM RH, foram emitidas, atestadas e pagas dentro de cada competência. Anula-se o saldo da nota de empenho referente ao Segundo Termo Aditivo ao Contrato nº. 003/2017 - ARSEPAM, tendo em vista o término da vigência em 01/09/2020."
+      "descricao": "Contratação de Prestação de Serviços de Sistema de Protocolo em Plataforma Web - SPROWEB."
     },
     {
       "numero": "2020NE00351",
@@ -137,12 +129,12 @@
       "descricao": "Anulação do Saldo da Nota de Empenho nº. 2020NE00030 Motivo: Tendo em vista que as faturas/notas fiscais referente a prestação de serviços de execução do sistema PRODAM RH, foram emitidas, atestadas e pagas dentro de cada competência."
     },
     {
-      "numero": "2015NE00090",
-      "contrato": "12/2012",
-      "valor": 6285.28,
+      "numero": "2020NE00352",
+      "contrato": "",
+      "valor": 1105.59,
       "situacao": "Ativo",
-      "data_emissao": "30/03/2015",
-      "descricao": "01- ANULAÇÃO TOTAL DA NE Nº 010 MOTIVO EXTINÇÃO DA UG 025201, DATA DE 30/03/2015, SENDO SUBSTITUIDA PELA 11209 CONFORME LEI COMPLEMENTAR Nº 152 DE 09/03/2015."
+      "data_emissao": "30/11/2020",
+      "descricao": "Anulação do Saldo da Nota de Empenho nº. 2020NE00099 Motivo: Tendo em vista que as faturas/notas fiscais referente a prestação de serviços de execução do sistema PRODAM RH, foram emitidas, atestadas e pagas dentro de cada competência. Anula-se o saldo da nota de empenho referente ao Segundo Termo Aditivo ao Contrato nº. 003/2017 - ARSEPAM, tendo em vista o término da vigência em 01/09/2020."
     },
     {
       "numero": "2015NE00089",
@@ -153,12 +145,12 @@
       "descricao": "01- ANULAÇÃO TOTAL DA NE Nº 006 MOTIVO EXTINÇÃO DA UG 025201, DATA DE 30/03/2015, SENDO SUBSTITUIDA PELA 11209 CONFORME LEI COMPLEMENTAR Nº 152 DE 09/03/2015."
     },
     {
-      "numero": "2017NE00426",
-      "contrato": "",
-      "valor": 1477.66,
+      "numero": "2015NE00090",
+      "contrato": "12/2012",
+      "valor": 6285.28,
       "situacao": "Ativo",
-      "data_emissao": "29/12/2017",
-      "descricao": "ANULAÇÃO TOTAL DA NE Nº 383 MOTIVO TÉRMINO DO EXERCÍCIO FINANCEIRO."
+      "data_emissao": "30/03/2015",
+      "descricao": "01- ANULAÇÃO TOTAL DA NE Nº 010 MOTIVO EXTINÇÃO DA UG 025201, DATA DE 30/03/2015, SENDO SUBSTITUIDA PELA 11209 CONFORME LEI COMPLEMENTAR Nº 152 DE 09/03/2015."
     },
     {
       "numero": "2017NE00425",
@@ -169,9 +161,17 @@
       "descricao": "ANULAÇÃO TOTAL DA NE Nº 383 MOTIVO TÉRMINO DO EXERCÍCIO FINANCEIRO."
     },
     {
-      "numero": "2016NE00425",
+      "numero": "2017NE00426",
       "contrato": "",
-      "valor": 355.11,
+      "valor": 1477.66,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 383 MOTIVO TÉRMINO DO EXERCÍCIO FINANCEIRO."
+    },
+    {
+      "numero": "2016NE00424",
+      "contrato": "",
+      "valor": 869.85,
       "situacao": "Ativo",
       "data_emissao": "29/12/2016",
       "descricao": "ANULAÇÃO DE SALDO DE EMPENHO - ENCERRAMENTO DE EXERCÍCIO FINANCEIRO 2016"
@@ -185,20 +185,12 @@
       "descricao": "ANULAÇÃO DE SALDO DE EMPENHO - ENCERRAMENTO DE EXERCÍCIO FINANCEIRO 2016"
     },
     {
-      "numero": "2016NE00424",
+      "numero": "2016NE00425",
       "contrato": "",
-      "valor": 869.85,
+      "valor": 355.11,
       "situacao": "Ativo",
       "data_emissao": "29/12/2016",
       "descricao": "ANULAÇÃO DE SALDO DE EMPENHO - ENCERRAMENTO DE EXERCÍCIO FINANCEIRO 2016"
-    },
-    {
-      "numero": "2022NE0000412",
-      "contrato": "12/2018",
-      "valor": 2335.68,
-      "situacao": "Ativo",
-      "data_emissao": "29/09/2022",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB). REF. MESES DE SETEMBRO E OUTUBRO - CONTRATO N. 012/2018 (3º TA)."
     },
     {
       "numero": "2022NE0000406",
@@ -207,6 +199,14 @@
       "situacao": "Ativo",
       "data_emissao": "29/09/2022",
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
+    },
+    {
+      "numero": "2022NE0000412",
+      "contrato": "12/2018",
+      "valor": 2335.68,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB). REF. MESES DE SETEMBRO E OUTUBRO - CONTRATO N. 012/2018 (3º TA)."
     },
     {
       "numero": "2018NE00355",
@@ -225,12 +225,12 @@
       "descricao": "02-CONTRATO Nº 012/2012-5º TERMO. 03-VALOR MENSAL R$ 848,42 04-VALOR GLOBAL PARA 12 (DOZE), MESES R$10.181,08 05-EMPENHADO NESTA NE DE SETEMBRO A DEZEMBRO DE 2016. 06-FICANDO O RESTANTE PARA O EXERCÍCIO VINDOURO 07-VOGÊNCIA DE 12.09.2016 A 11.09.2017. 08-PUBLICADO NO DOE QUARTO TERMO DATA 11.09.2015. EDIÇÃO Nº 33.123 09-REAJUSTAMENTO A ORDEM DE 11,09% DO IGPM-FGV, CONTRATO CLÁUSULA DÉCIMA PRIMEIRA."
     },
     {
-      "numero": "2019NE00164",
-      "contrato": "3/2017",
-      "valor": 5685.85,
+      "numero": "2019NE00166",
+      "contrato": "12/2018",
+      "valor": 11589.31,
       "situacao": "Ativo",
       "data_emissao": "29/04/2019",
-      "descricao": "Empenho complementar para suprir a despesa Referente a Prestação de Serviço de folha de pagamento pessoal - PRODAM - RH"
+      "descricao": "Contratação de Prestação de Serviços de PROTOCOLO em Sistema de Plataforma SPROWEB."
     },
     {
       "numero": "2019NE00165",
@@ -241,20 +241,12 @@
       "descricao": "CONTRATAÇÃO de Serviços de Acesso a Internet - conexão dedicada a rede mundial de computadores, conforme as especificações descritas no Projeto Básico."
     },
     {
-      "numero": "2019NE00166",
-      "contrato": "12/2018",
-      "valor": 11589.31,
+      "numero": "2019NE00164",
+      "contrato": "3/2017",
+      "valor": 5685.85,
       "situacao": "Ativo",
       "data_emissao": "29/04/2019",
-      "descricao": "Contratação de Prestação de Serviços de PROTOCOLO em Sistema de Plataforma SPROWEB."
-    },
-    {
-      "numero": "2023NE0000438",
-      "contrato": "",
-      "valor": 1.35,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2023",
-      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº. 2023NE000361. EM CUMPRIMENTO AO ESTABELECIDO NO DECRETO Nº. 48.363 DE 27 DE OUTUBRO DE 2023."
+      "descricao": "Empenho complementar para suprir a despesa Referente a Prestação de Serviço de folha de pagamento pessoal - PRODAM - RH"
     },
     {
       "numero": "2023NE0000434",
@@ -265,28 +257,12 @@
       "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº. 2023NE0009. EM CUMPRIMENTO AO ESTABELECIDO NO DECRETO Nº. 48.363 DE 27 DE OUTUBRO DE 2023."
     },
     {
-      "numero": "2022NE0000622",
+      "numero": "2023NE0000438",
       "contrato": "",
-      "valor": 706.89,
+      "valor": 1.35,
       "situacao": "Ativo",
-      "data_emissao": "28/12/2022",
-      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO Nº 2022NE00000517 5º ADITIVO AO CONTRATO Nº 003/2017 - ARSEPAM; OBJETO: CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS REFERENTE A EXECUÇÃO DE SISTEMA DE CADASTRO DE FOLHA DE PAGAMENTO DE PESSOAL - PRODAM/RH COM REAJUSTE DE 10,70% E PRORROGAÇÃO DE VIGÊNCIA POR 12 MESES; MOTIVO DA ANULAÇÃO: ENCERRAMENTO DO EXERCÍCIO 2022; PROCESSO ADMINISTRATIVO Nº 01.06.011209.001044/2022-90."
-    },
-    {
-      "numero": "2022NE0000608",
-      "contrato": "",
-      "valor": 734.5,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2022",
-      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO Nº 2022NE0000130 5º TERMO ADITIVO AO CONTRATO Nº 001/2018 - ARSEPAM; OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE ACESSO À INTERNET BANDA LARGA: 10 MBPS DOWNLOAD E 2MBPS UPLOAD, CONFORME PROJETO BÁSICO. MOTIVO DA ANULAÇÃO: ENCERRAMENTO DO EXERCÍCIO 20222; PROCESSO ADMINISTRATIVO Nº 01.06.011209.001132/2021."
-    },
-    {
-      "numero": "2022NE0000611",
-      "contrato": "",
-      "valor": 38.94,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2022",
-      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO Nº 2022NE00000470 3º ADITIVO AO CONTRATO Nº 012/2018 - ARSEPAM; OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB); MOTIVO DA ANULAÇÃO: ENCERRAMENTO DO EXERCÍCIO 20222; PROCESSO ADMINISTRATIVO Nº 01.06.011209.000940/2021-51."
+      "data_emissao": "28/12/2023",
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº. 2023NE000361. EM CUMPRIMENTO AO ESTABELECIDO NO DECRETO Nº. 48.363 DE 27 DE OUTUBRO DE 2023."
     },
     {
       "numero": "2022NE0000621",
@@ -297,17 +273,33 @@
       "descricao": "ANULAÇÃO DA NOTA DE EMPENHO Nº 2022NE00000517 5º ADITIVO AO CONTRATO Nº 01/2018 - ARSEPAM; OBJETO: CONTRATAÇÃO PARA PRESTAÇÃO DE SERVIÇO DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS (INTERNET); MOTIVO DA ANULAÇÃO: ENCERRAMENTO DO EXERCÍCIO 2022; PROCESSO ADMINISTRATIVO Nº 01.06.011209.001132/2021-01."
     },
     {
-      "numero": "2018NE00478",
+      "numero": "2022NE0000611",
       "contrato": "",
-      "valor": 219.73,
+      "valor": 38.94,
       "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 00018, DE ACORDO COM INSTRUÇÃO NORMATIVA Nº 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018. MOTIVO: ENCERRAMENTO DE EXERCÍCIO DE 2018."
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO Nº 2022NE00000470 3º ADITIVO AO CONTRATO Nº 012/2018 - ARSEPAM; OBJETO: CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB); MOTIVO DA ANULAÇÃO: ENCERRAMENTO DO EXERCÍCIO 20222; PROCESSO ADMINISTRATIVO Nº 01.06.011209.000940/2021-51."
     },
     {
-      "numero": "2018NE00494",
+      "numero": "2022NE0000608",
       "contrato": "",
-      "valor": 1950.18,
+      "valor": 734.5,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO Nº 2022NE0000130 5º TERMO ADITIVO AO CONTRATO Nº 001/2018 - ARSEPAM; OBJETO: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE ACESSO À INTERNET BANDA LARGA: 10 MBPS DOWNLOAD E 2MBPS UPLOAD, CONFORME PROJETO BÁSICO. MOTIVO DA ANULAÇÃO: ENCERRAMENTO DO EXERCÍCIO 20222; PROCESSO ADMINISTRATIVO Nº 01.06.011209.001132/2021."
+    },
+    {
+      "numero": "2022NE0000622",
+      "contrato": "",
+      "valor": 706.89,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2022",
+      "descricao": "ANULAÇÃO DA NOTA DE EMPENHO Nº 2022NE00000517 5º ADITIVO AO CONTRATO Nº 003/2017 - ARSEPAM; OBJETO: CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS REFERENTE A EXECUÇÃO DE SISTEMA DE CADASTRO DE FOLHA DE PAGAMENTO DE PESSOAL - PRODAM/RH COM REAJUSTE DE 10,70% E PRORROGAÇÃO DE VIGÊNCIA POR 12 MESES; MOTIVO DA ANULAÇÃO: ENCERRAMENTO DO EXERCÍCIO 2022; PROCESSO ADMINISTRATIVO Nº 01.06.011209.001044/2022-90."
+    },
+    {
+      "numero": "2018NE00508",
+      "contrato": "",
+      "valor": 5844.7,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "CANCELAMENTO PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
@@ -321,12 +313,20 @@
       "descricao": "CANCELAMENTO PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
     },
     {
-      "numero": "2018NE00508",
+      "numero": "2018NE00494",
       "contrato": "",
-      "valor": 5844.7,
+      "valor": 1950.18,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "CANCELAMENTO PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2018NE00478",
+      "contrato": "",
+      "valor": 219.73,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº 00018, DE ACORDO COM INSTRUÇÃO NORMATIVA Nº 01/2018/SET/SEFAZ, DE 30 DE NOVEMBRO DE 2018. MOTIVO: ENCERRAMENTO DE EXERCÍCIO DE 2018."
     },
     {
       "numero": "2017NE00418",
@@ -345,14 +345,6 @@
       "descricao": "CONTRATAÇÃO PRESTAÇÃO DE SERVIÇO DE ACESSO A INTERNET"
     },
     {
-      "numero": "2022NE0000037",
-      "contrato": "",
-      "valor": 1895.19,
-      "situacao": "Ativo",
-      "data_emissao": "28/01/2022",
-      "descricao": "Anulação da nota de empenho 2022NE0000036 Motivo: Erro formal de processamento."
-    },
-    {
       "numero": "2022NE0000036",
       "contrato": "4/2021",
       "valor": 1895.19,
@@ -361,12 +353,20 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
-      "numero": "2024NE0000687",
+      "numero": "2022NE0000037",
       "contrato": "",
-      "valor": 2169.1,
+      "valor": 1895.19,
+      "situacao": "Ativo",
+      "data_emissao": "28/01/2022",
+      "descricao": "Anulação da nota de empenho 2022NE0000036 Motivo: Erro formal de processamento."
+    },
+    {
+      "numero": "2024NE0000686",
+      "contrato": "",
+      "valor": 2614.39,
       "situacao": "Ativo",
       "data_emissao": "27/12/2024",
-      "descricao": "Anulação de saldo da Nota de Empenho 2024NE0000088; Motivo: Considerando autorização Diretor Administrativo e Financeiro, fl. 8 do Memorando nº 009/2024-DEFIN/ARSEPAM e encerramento do exercício financeiro de 2024, conforme Decreto nº 50.522 de 22.10.2024;"
+      "descricao": "Anulação de saldo da Nota de Empenho 2024NE0000005; Motivo: Considerando autorização Diretor Administrativo e Financeiro, fl. 8 do Memorando nº 009/2024-DEFIN/ARSEPAM e encerramento do exercício financeiro de 2024, conforme Decreto nº 50.522 de 22.10.2024;"
     },
     {
       "numero": "2024NE0000688",
@@ -377,12 +377,12 @@
       "descricao": "Anulação de saldo da Nota de Empenho 2024NE0000239; Motivo: Considerando autorização Diretor Administrativo e Financeiro, fl. 8 do Memorando nº 009/2024-DEFIN/ARSEPAM e encerramento do exercício financeiro de 2024, conforme Decreto nº 50.522 de 22.10.2024;"
     },
     {
-      "numero": "2024NE0000686",
+      "numero": "2024NE0000687",
       "contrato": "",
-      "valor": 2614.39,
+      "valor": 2169.1,
       "situacao": "Ativo",
       "data_emissao": "27/12/2024",
-      "descricao": "Anulação de saldo da Nota de Empenho 2024NE0000005; Motivo: Considerando autorização Diretor Administrativo e Financeiro, fl. 8 do Memorando nº 009/2024-DEFIN/ARSEPAM e encerramento do exercício financeiro de 2024, conforme Decreto nº 50.522 de 22.10.2024;"
+      "descricao": "Anulação de saldo da Nota de Empenho 2024NE0000088; Motivo: Considerando autorização Diretor Administrativo e Financeiro, fl. 8 do Memorando nº 009/2024-DEFIN/ARSEPAM e encerramento do exercício financeiro de 2024, conforme Decreto nº 50.522 de 22.10.2024;"
     },
     {
       "numero": "2020NE00321",
@@ -401,20 +401,20 @@
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
     },
     {
-      "numero": "2025NE0000075",
-      "contrato": "4/2021",
-      "valor": 2215.57,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2025",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
-    },
-    {
       "numero": "2025NE0000074",
       "contrato": "11/2023",
       "valor": 2458.35,
       "situacao": "Ativo",
       "data_emissao": "27/02/2025",
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000075",
+      "contrato": "4/2021",
+      "valor": 2215.57,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
     },
     {
       "numero": "2019NE00346",
@@ -433,12 +433,12 @@
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
-      "numero": "2021NE0000061",
-      "contrato": "12/2018",
-      "valor": 14367.28,
+      "numero": "2021NE0000060",
+      "contrato": "1/2018",
+      "valor": 40519.8,
       "situacao": "Ativo",
       "data_emissao": "26/02/2021",
-      "descricao": "Contratação de Prestação de Serviços de protocolo em sistema de plataforma web - SPROWEB."
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)"
     },
     {
       "numero": "2021NE0000059",
@@ -449,20 +449,12 @@
       "descricao": "Contratação de empresa para prestação de serviços de execução do Sistema de Cadastro e Folha de Pagamento de Pessoal - PRODAM-RH."
     },
     {
-      "numero": "2021NE0000060",
-      "contrato": "1/2018",
-      "valor": 40519.8,
+      "numero": "2021NE0000061",
+      "contrato": "12/2018",
+      "valor": 14367.28,
       "situacao": "Ativo",
       "data_emissao": "26/02/2021",
-      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)"
-    },
-    {
-      "numero": "2022NE0000556",
-      "contrato": "12/2018",
-      "valor": 1268.16,
-      "situacao": "Ativo",
-      "data_emissao": "25/11/2022",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB). Contrato Nº 012/2018 (4º TA)."
+      "descricao": "Contratação de Prestação de Serviços de protocolo em sistema de plataforma web - SPROWEB."
     },
     {
       "numero": "2022NE0000553",
@@ -473,12 +465,12 @@
       "descricao": "Anulação parcial da Nota de empenho - NE nº. 2022NE000517 Motivo: Encerramento do Exercício"
     },
     {
-      "numero": "2025NE0000343",
-      "contrato": "11/2023",
-      "valor": 2458.35,
+      "numero": "2022NE0000556",
+      "contrato": "12/2018",
+      "valor": 1268.16,
       "situacao": "Ativo",
-      "data_emissao": "25/07/2025",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
+      "data_emissao": "25/11/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB). Contrato Nº 012/2018 (4º TA)."
     },
     {
       "numero": "2025NE0000342",
@@ -489,12 +481,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
     },
     {
-      "numero": "2025NE0000561",
-      "contrato": "",
-      "valor": 6.24,
+      "numero": "2025NE0000343",
+      "contrato": "11/2023",
+      "valor": 2458.35,
       "situacao": "Ativo",
-      "data_emissao": "24/11/2025",
-      "descricao": "Anulação do saldo da nota de empenho nº. 0203/2025 Em atenção as normas e procedimentos do Decreto nº. 52.770 de 21/10/2025 - Encerramento da execução orçamentária, financeira, patrimonial e contábil do exercício de 2025."
+      "data_emissao": "25/07/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
       "numero": "2025NE0000555",
@@ -505,12 +497,12 @@
       "descricao": "Anulação do saldo da nota de empenho nº. 0006/2025 Contrato nº. 006/2024 (1ºTA) Em atenção as normas e procedimentos do Decreto nº. 52.770 de 21/10/2025 - Encerramento da execução orçamentária, financeira, patrimonial e contábil do exercício de 2025. O saldo não se constituirá em restos a pagar."
     },
     {
-      "numero": "2022NE0000548",
-      "contrato": "4/2021",
-      "valor": 2175.11,
+      "numero": "2025NE0000561",
+      "contrato": "",
+      "valor": 6.24,
       "situacao": "Ativo",
-      "data_emissao": "24/11/2022",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web. Contrato Nº 004/2021 (1º TA)."
+      "data_emissao": "24/11/2025",
+      "descricao": "Anulação do saldo da nota de empenho nº. 0203/2025 Em atenção as normas e procedimentos do Decreto nº. 52.770 de 21/10/2025 - Encerramento da execução orçamentária, financeira, patrimonial e contábil do exercício de 2025."
     },
     {
       "numero": "2022NE0000541",
@@ -521,12 +513,12 @@
       "descricao": "Contratação de Empresa especializada na prestação de serviços de execução de Sistema de Recursos Humanos e Cadastro de Folha de Pagamento de Pessoal - PRODAM-RH; CT 003/2017 (5º TA)."
     },
     {
-      "numero": "2025NE0000147",
-      "contrato": "11/2023",
-      "valor": 2458.35,
+      "numero": "2022NE0000548",
+      "contrato": "4/2021",
+      "valor": 2175.11,
       "situacao": "Ativo",
-      "data_emissao": "24/04/2025",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
+      "data_emissao": "24/11/2022",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web. Contrato Nº 004/2021 (1º TA)."
     },
     {
       "numero": "2025NE0000148",
@@ -535,6 +527,14 @@
       "situacao": "Ativo",
       "data_emissao": "24/04/2025",
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0000147",
+      "contrato": "11/2023",
+      "valor": 2458.35,
+      "situacao": "Ativo",
+      "data_emissao": "24/04/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
       "numero": "2024NE0000426",
@@ -585,12 +585,12 @@
       "descricao": "Anulação da NE nº 2022NE000086 Motivo: Erro formal de preenchimento."
     },
     {
-      "numero": "2022NE0000319",
+      "numero": "2022NE0000320",
       "contrato": "",
-      "valor": 522.11,
+      "valor": 1895.19,
       "situacao": "Ativo",
       "data_emissao": "19/08/2022",
-      "descricao": "Anulação do Saldo da nota de empenho nº. 2022NE000052. Contrato nº. 001/2018 (5º TA) - ARSEPAM, referente a Contratação de prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET). Motivo: Pagamento da despesa referente os meses de janeiro e fevereiro efetuados."
+      "descricao": "Anulação do Saldo da nota de empenho nº. 2022NE000139. Contrato nº. 004/2021-ARSEPAM. Objeto: Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web. Motivo: Tendo em vista empenho da despesa em duplicidade para o mês de junho."
     },
     {
       "numero": "2022NE0000321",
@@ -601,12 +601,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
-      "numero": "2022NE0000320",
+      "numero": "2022NE0000319",
       "contrato": "",
-      "valor": 1895.19,
+      "valor": 522.11,
       "situacao": "Ativo",
       "data_emissao": "19/08/2022",
-      "descricao": "Anulação do Saldo da nota de empenho nº. 2022NE000139. Contrato nº. 004/2021-ARSEPAM. Objeto: Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web. Motivo: Tendo em vista empenho da despesa em duplicidade para o mês de junho."
+      "descricao": "Anulação do Saldo da nota de empenho nº. 2022NE000052. Contrato nº. 001/2018 (5º TA) - ARSEPAM, referente a Contratação de prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET). Motivo: Pagamento da despesa referente os meses de janeiro e fevereiro efetuados."
     },
     {
       "numero": "2025NE0000203",
@@ -625,20 +625,20 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
     },
     {
-      "numero": "2025NE0000375",
-      "contrato": "4/2021",
-      "valor": 2402.56,
-      "situacao": "Ativo",
-      "data_emissao": "18/08/2025",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
-    },
-    {
       "numero": "2025NE0000376",
       "contrato": "11/2023",
       "valor": 2458.35,
       "situacao": "Ativo",
       "data_emissao": "18/08/2025",
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2025NE0000375",
+      "contrato": "4/2021",
+      "valor": 2402.56,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2025",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
     },
     {
       "numero": "2022NE0000086",
@@ -657,14 +657,6 @@
       "descricao": "Serviços de Acesso a Internet de 4 Mbps"
     },
     {
-      "numero": "2022NE0000517",
-      "contrato": "1/2018",
-      "valor": 20014.47,
-      "situacao": "Ativo",
-      "data_emissao": "17/11/2022",
-      "descricao": "Contratação para prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET) -5º TA CT 001/2018. Obs. Valores destinado a cobrir despesas dos meses de maio, junho e julho de 2022."
-    },
-    {
       "numero": "2022NE0000516",
       "contrato": "12/2018",
       "valor": 718.62,
@@ -673,12 +665,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB).- CELEBRAR 4 TERMO ADITIVO AO CONTRATO Nº.012/2018"
     },
     {
-      "numero": "2021NE0000368",
-      "contrato": "12/2018",
-      "valor": 1790.68,
+      "numero": "2022NE0000517",
+      "contrato": "1/2018",
+      "valor": 20014.47,
       "situacao": "Ativo",
-      "data_emissao": "17/11/2021",
-      "descricao": "Prorrogação por 12meses da vigência do Contrato e SUPRESSÃO de 31,4499% ref. a Prestação de Serviços de Execução de Sistema de Protocolo Virtual - SPROWEB - PRODAM."
+      "data_emissao": "17/11/2022",
+      "descricao": "Contratação para prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET) -5º TA CT 001/2018. Obs. Valores destinado a cobrir despesas dos meses de maio, junho e julho de 2022."
     },
     {
       "numero": "2021NE0000370",
@@ -689,12 +681,12 @@
       "descricao": "Execução do Sistema de Recursos Humanos e Folha de Pagamento do Servidor, no mês de Dezembro de 2018."
     },
     {
-      "numero": "2025NE0000481",
-      "contrato": "",
-      "valor": 2589.14,
+      "numero": "2021NE0000368",
+      "contrato": "12/2018",
+      "valor": 1790.68,
       "situacao": "Ativo",
-      "data_emissao": "17/10/2025",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
+      "data_emissao": "17/11/2021",
+      "descricao": "Prorrogação por 12meses da vigência do Contrato e SUPRESSÃO de 31,4499% ref. a Prestação de Serviços de Execução de Sistema de Protocolo Virtual - SPROWEB - PRODAM."
     },
     {
       "numero": "2025NE0000482",
@@ -705,28 +697,20 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
     },
     {
+      "numero": "2025NE0000481",
+      "contrato": "",
+      "valor": 2589.14,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
+    },
+    {
       "numero": "2019NE00388",
       "contrato": "12/2018",
       "valor": 2442.59,
       "situacao": "Ativo",
       "data_emissao": "17/10/2019",
       "descricao": "Contratação de Prestação de Serviços de Sistema de Protocolo em Plataforma Web - SPROWEB."
-    },
-    {
-      "numero": "2022NE0000055",
-      "contrato": "3/2017",
-      "valor": 1616.14,
-      "situacao": "Ativo",
-      "data_emissao": "17/02/2022",
-      "descricao": "Prorrogação por 12meses da vigência do Contrato e reajuste em 32,02% ref. a Prestação de Serviços de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM RH. Referente o mês de fevereiro."
-    },
-    {
-      "numero": "2022NE0000052",
-      "contrato": "1/2018",
-      "valor": 13130.59,
-      "situacao": "Ativo",
-      "data_emissao": "17/02/2022",
-      "descricao": "Contratação para prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET). CT 01-2018(5ºTA). referente os meses de janeiro e fevereiro de 2022."
     },
     {
       "numero": "2022NE0000072",
@@ -737,12 +721,20 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
-      "numero": "2023NE0000003",
-      "contrato": "3/2017",
-      "valor": 1789.07,
+      "numero": "2022NE0000052",
+      "contrato": "1/2018",
+      "valor": 13130.59,
       "situacao": "Ativo",
-      "data_emissao": "17/01/2023",
-      "descricao": "Prorrogação por mais 12 meses de vigência do Contrato e Reajuste em 10,70%, ref. a Prestação de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM - RH."
+      "data_emissao": "17/02/2022",
+      "descricao": "Contratação para prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET). CT 01-2018(5ºTA). referente os meses de janeiro e fevereiro de 2022."
+    },
+    {
+      "numero": "2022NE0000055",
+      "contrato": "3/2017",
+      "valor": 1616.14,
+      "situacao": "Ativo",
+      "data_emissao": "17/02/2022",
+      "descricao": "Prorrogação por 12meses da vigência do Contrato e reajuste em 32,02% ref. a Prestação de Serviços de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM RH. Referente o mês de fevereiro."
     },
     {
       "numero": "2023NE0000004",
@@ -751,6 +743,14 @@
       "situacao": "Ativo",
       "data_emissao": "17/01/2023",
       "descricao": "Anulação do Empenho 2022NE00003 Objeto: Referente a Prestação de Serviços de Execução de Sistema de Recursos Humanos e Cadastro de Folha de Pagamento de Pessoal - PRODAM/RH; Motivo: erro formal de preenchimento. Processo nº 011209.001044/2022"
+    },
+    {
+      "numero": "2023NE0000003",
+      "contrato": "3/2017",
+      "valor": 1789.07,
+      "situacao": "Ativo",
+      "data_emissao": "17/01/2023",
+      "descricao": "Prorrogação por mais 12 meses de vigência do Contrato e Reajuste em 10,70%, ref. a Prestação de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM - RH."
     },
     {
       "numero": "2021NE0000207",
@@ -777,20 +777,20 @@
       "descricao": "02-REFERENTE AO TERCEIRO TERMO ADITIVO AO CONTRATO Nº 006/2014, SERVIÇO DE ACESSO À INTERNET, OS PREÇOS REAJUSTADOS EM 10,66 COM BASE NO IGP-M E PARECER JURÍDICO Nº 079/2016 E TÉCNICO 042/2016, DE ACORDO COM A PROPOSTA, PASSANDO MENSAL DE R$6.240,00 PARA 6.905,81(seis mil novecentos e cinco reais e oitenta e um centavos), por mais 12 (doze), meses."
     },
     {
-      "numero": "2024NE0000238",
-      "contrato": "4/2021",
-      "valor": 2215.57,
-      "situacao": "Ativo",
-      "data_emissao": "14/05/2024",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 02."
-    },
-    {
       "numero": "2024NE0000239",
       "contrato": "11/2023",
       "valor": 4741.74,
       "situacao": "Ativo",
       "data_emissao": "14/05/2024",
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM."
+    },
+    {
+      "numero": "2024NE0000238",
+      "contrato": "4/2021",
+      "valor": 2215.57,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 02."
     },
     {
       "numero": "2018NE00430",
@@ -865,20 +865,20 @@
       "descricao": "Contrato No. 2/2010 - Acesso Computador Central tecnologia VPN (82,77)"
     },
     {
-      "numero": "2024NE0000579",
-      "contrato": "4/2021",
-      "valor": 2215.57,
-      "situacao": "Ativo",
-      "data_emissao": "08/11/2024",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
-    },
-    {
       "numero": "2024NE0000580",
       "contrato": "11/2023",
       "valor": 2458.35,
       "situacao": "Ativo",
       "data_emissao": "08/11/2024",
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
+    },
+    {
+      "numero": "2024NE0000579",
+      "contrato": "4/2021",
+      "valor": 2215.57,
+      "situacao": "Ativo",
+      "data_emissao": "08/11/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
     },
     {
       "numero": "2020NE00295",
@@ -889,12 +889,12 @@
       "descricao": "Supressão de 50,9% (cinquenta virgula nove por cento) do valor global do contrato 01/2018, referente a prestação de serviços de acesso a rede mundial de computadores (INTERNET)."
     },
     {
-      "numero": "2015NE00146",
+      "numero": "2015NE00132",
       "contrato": "12/2012",
       "valor": 3054.88,
       "situacao": "Ativo",
       "data_emissao": "08/08/2015",
-      "descricao": "ANULAÇÃO TOTAL DA NE Nº 132 MOTIVO ERRO FORMAL DE PREENCHIMENTO."
+      "descricao": "REFERENTE QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 012/2012-ARSAM"
     },
     {
       "numero": "2015NE00148",
@@ -905,12 +905,12 @@
       "descricao": "Cobertura Financeira 2015"
     },
     {
-      "numero": "2015NE00132",
+      "numero": "2015NE00146",
       "contrato": "12/2012",
       "valor": 3054.88,
       "situacao": "Ativo",
       "data_emissao": "08/08/2015",
-      "descricao": "REFERENTE QUARTO TERMO ADITIVO AO TERMO DE CONTRATO Nº 012/2012-ARSAM"
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 132 MOTIVO ERRO FORMAL DE PREENCHIMENTO."
     },
     {
       "numero": "2024NE0000230",
@@ -918,6 +918,14 @@
       "valor": 2215.57,
       "situacao": "Ativo",
       "data_emissao": "08/05/2024",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0000498",
+      "contrato": "4/2021",
+      "valor": 2215.57,
+      "situacao": "Ativo",
+      "data_emissao": "07/10/2024",
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
     },
     {
@@ -929,28 +937,12 @@
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
-      "numero": "2024NE0000498",
-      "contrato": "4/2021",
-      "valor": 2215.57,
-      "situacao": "Ativo",
-      "data_emissao": "07/10/2024",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
-    },
-    {
       "numero": "2020NE00245",
       "contrato": "3/2017",
       "valor": 4896.64,
       "situacao": "Ativo",
       "data_emissao": "07/08/2020",
       "descricao": "Contratação de empresa para prestação de serviços de execução do Sistema de Cadastro e Folha de Pagamento de Pessoal - PRODAM-RH."
-    },
-    {
-      "numero": "2024NE0000568",
-      "contrato": "11/2023",
-      "valor": 2458.35,
-      "situacao": "Ativo",
-      "data_emissao": "06/11/2024",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
       "numero": "2024NE0000569",
@@ -961,12 +953,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
     },
     {
-      "numero": "2023NE0000365",
-      "contrato": "4/2021",
-      "valor": 8700.44,
+      "numero": "2024NE0000568",
+      "contrato": "11/2023",
+      "valor": 2458.35,
       "situacao": "Ativo",
-      "data_emissao": "06/11/2023",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web. Parecer jurídico nº 115/2022-ASJUR/ARSEPAM de 17/05/2022. TC: 004/2021 AD: 01."
+      "data_emissao": "06/11/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
       "numero": "2023NE0000361",
@@ -977,28 +969,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 02."
     },
     {
-      "numero": "2022NE0000130",
-      "contrato": "1/2018",
-      "valor": 13342.98,
+      "numero": "2023NE0000365",
+      "contrato": "4/2021",
+      "valor": 8700.44,
       "situacao": "Ativo",
-      "data_emissao": "06/04/2022",
-      "descricao": "Contratação para prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET). MESES DE MARÇO E ABRIL"
-    },
-    {
-      "numero": "2022NE0000132",
-      "contrato": "12/2018",
-      "valor": 7007.04,
-      "situacao": "Ativo",
-      "data_emissao": "06/04/2022",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
-    },
-    {
-      "numero": "2022NE0000129",
-      "contrato": "3/2017",
-      "valor": 9696.84,
-      "situacao": "Ativo",
-      "data_emissao": "06/04/2022",
-      "descricao": "Prorrogação por 12meses da vigência do Contrato e reajuste em 32,02% ref. a Prestação de Serviços de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM RH."
+      "data_emissao": "06/11/2023",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web. Parecer jurídico nº 115/2022-ASJUR/ARSEPAM de 17/05/2022. TC: 004/2021 AD: 01."
     },
     {
       "numero": "2022NE0000139",
@@ -1009,20 +985,36 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
+      "numero": "2022NE0000129",
+      "contrato": "3/2017",
+      "valor": 9696.84,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2022",
+      "descricao": "Prorrogação por 12meses da vigência do Contrato e reajuste em 32,02% ref. a Prestação de Serviços de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM RH."
+    },
+    {
+      "numero": "2022NE0000132",
+      "contrato": "12/2018",
+      "valor": 7007.04,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2022",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2022NE0000130",
+      "contrato": "1/2018",
+      "valor": 13342.98,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2022",
+      "descricao": "Contratação para prestação de serviço de fornecimento de circuito de transmissão de dados (INTERNET). MESES DE MARÇO E ABRIL"
+    },
+    {
       "numero": "2024NE0000088",
       "contrato": "11/2023",
       "valor": 2370.87,
       "situacao": "Ativo",
       "data_emissao": "06/03/2024",
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM."
-    },
-    {
-      "numero": "2026NE0000003",
-      "contrato": "11/2023",
-      "valor": 10356.56,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
     },
     {
       "numero": "2026NE0000002",
@@ -1033,12 +1025,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
     },
     {
-      "numero": "2015NE00010",
-      "contrato": "12/2012",
-      "valor": 7422.8,
+      "numero": "2026NE0000003",
+      "contrato": "11/2023",
+      "valor": 10356.56,
       "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cobertura Financeira 2015"
+      "data_emissao": "05/01/2026",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
     },
     {
       "numero": "2015NE00006",
@@ -1049,12 +1041,12 @@
       "descricao": "Cobertura Financeira 2015"
     },
     {
-      "numero": "2025NE0000529",
-      "contrato": "11/2023",
-      "valor": 2589.14,
+      "numero": "2015NE00010",
+      "contrato": "12/2012",
+      "valor": 7422.8,
       "situacao": "Ativo",
-      "data_emissao": "04/11/2025",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
     },
     {
       "numero": "2025NE0000535",
@@ -1065,17 +1057,25 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
     },
     {
-      "numero": "2015NE00039",
-      "contrato": "6/2014",
-      "valor": 60840.0,
+      "numero": "2025NE0000529",
+      "contrato": "11/2023",
+      "valor": 2589.14,
       "situacao": "Ativo",
-      "data_emissao": "04/05/2015",
-      "descricao": "Cobertura financeira 2015"
+      "data_emissao": "04/11/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
     },
     {
       "numero": "2015NE00041",
       "contrato": "12/2012",
       "valor": 5853.71,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2015",
+      "descricao": "Cobertura financeira 2015"
+    },
+    {
+      "numero": "2015NE00039",
+      "contrato": "6/2014",
+      "valor": 60840.0,
       "situacao": "Ativo",
       "data_emissao": "04/05/2015",
       "descricao": "Cobertura financeira 2015"
@@ -1089,12 +1089,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 02."
     },
     {
-      "numero": "2021NE0000027",
+      "numero": "2021NE0000019",
       "contrato": "",
-      "valor": 13506.6,
+      "valor": 3407.26,
       "situacao": "Ativo",
       "data_emissao": "04/01/2021",
-      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)"
+      "descricao": "Contratação de Prestação de Serviços de protocolo em sistema de plataforma web - SPROWEB."
     },
     {
       "numero": "2021NE0000018",
@@ -1105,20 +1105,12 @@
       "descricao": "Contratação de empresa para prestação de serviços de execução do Sistema de Cadastro e Folha de Pagamento de Pessoal - PRODAM-RH."
     },
     {
-      "numero": "2021NE0000019",
+      "numero": "2021NE0000027",
       "contrato": "",
-      "valor": 3407.26,
+      "valor": 13506.6,
       "situacao": "Ativo",
       "data_emissao": "04/01/2021",
-      "descricao": "Contratação de Prestação de Serviços de protocolo em sistema de plataforma web - SPROWEB."
-    },
-    {
-      "numero": "2016NE00027",
-      "contrato": "6/2014",
-      "valor": 71968.0,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE ACESSO A INTERNET - PRORROGAÇÃO DE PRAZO POR MAIS 12 MESES"
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)"
     },
     {
       "numero": "2016NE00029",
@@ -1129,12 +1121,12 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DO SISTEMA CAD FOLHA CFPP - PRORROGAÇÃO DE PRAZO 12 MESES E REEQUILÍBRIO FINANCEIRO"
     },
     {
-      "numero": "2025NE0000599",
-      "contrato": "11/2023",
-      "valor": 2589.14,
+      "numero": "2016NE00027",
+      "contrato": "6/2014",
+      "valor": 71968.0,
       "situacao": "Ativo",
-      "data_emissao": "03/12/2025",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
+      "data_emissao": "04/01/2016",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE ACESSO A INTERNET - PRORROGAÇÃO DE PRAZO POR MAIS 12 MESES"
     },
     {
       "numero": "2025NE0000598",
@@ -1145,12 +1137,20 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 04."
     },
     {
-      "numero": "2022NE0000463",
-      "contrato": "3/2017",
-      "valor": 1789.07,
+      "numero": "2025NE0000599",
+      "contrato": "11/2023",
+      "valor": 2589.14,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 02."
+    },
+    {
+      "numero": "2022NE0000472",
+      "contrato": "4/2021",
+      "valor": 2175.11,
       "situacao": "Ativo",
       "data_emissao": "03/11/2022",
-      "descricao": "Contratação de Prestação de Serviços referente a Execução de sistema de cadastro de folha de pagamento de Pessoal - Prodam/RH com reajuste de 10,70% e Prorrogação de vigência por 12 meses."
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
       "numero": "2022NE0000470",
@@ -1161,11 +1161,19 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB). REF. DIAS PROPORCIONAIS NO MÊS DE NOVEMBRO, CONSIDERANDO O FIM DA VIGÊNCIA DO 3º TERMO ADITIVO AO CONTRATO Nº 012/2018"
     },
     {
-      "numero": "2022NE0000472",
-      "contrato": "4/2021",
-      "valor": 2175.11,
+      "numero": "2022NE0000463",
+      "contrato": "3/2017",
+      "valor": 1789.07,
       "situacao": "Ativo",
       "data_emissao": "03/11/2022",
+      "descricao": "Contratação de Prestação de Serviços referente a Execução de sistema de cadastro de folha de pagamento de Pessoal - Prodam/RH com reajuste de 10,70% e Prorrogação de vigência por 12 meses."
+    },
+    {
+      "numero": "2022NE0000045",
+      "contrato": "4/2021",
+      "valor": 1895.19,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
@@ -1177,12 +1185,12 @@
       "descricao": "Prorrogação por 12meses da vigência do Contrato e reajuste em 32,02% ref. a Prestação de Serviços de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM RH."
     },
     {
-      "numero": "2022NE0000045",
-      "contrato": "4/2021",
-      "valor": 1895.19,
+      "numero": "2024NE0000343",
+      "contrato": "11/2023",
+      "valor": 4741.74,
       "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
+      "data_emissao": "02/07/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM."
     },
     {
       "numero": "2024NE0000342",
@@ -1193,28 +1201,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
     },
     {
-      "numero": "2024NE0000343",
-      "contrato": "11/2023",
-      "valor": 4741.74,
-      "situacao": "Ativo",
-      "data_emissao": "02/07/2024",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM."
-    },
-    {
       "numero": "2021NE0000153",
       "contrato": "4/2021",
       "valor": 13266.33,
       "situacao": "Ativo",
       "data_emissao": "02/06/2021",
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
-    },
-    {
-      "numero": "2025NE0000006",
-      "contrato": "11/2023",
-      "valor": 4916.7,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
       "numero": "2025NE0000005",
@@ -1225,12 +1217,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 03."
     },
     {
-      "numero": "2024NE0000005",
+      "numero": "2025NE0000006",
       "contrato": "11/2023",
-      "valor": 4741.74,
+      "valor": 4916.7,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM."
+      "data_emissao": "02/01/2025",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM. TC: 0011/2023 AD: 01."
     },
     {
       "numero": "2024NE0000003",
@@ -1241,20 +1233,12 @@
       "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação Gestor de Conteúdo Web para atender as necessidades da Agência Reguladora de Serviços Públicos Delegados e Contratados do Estado do Amazonas. TC: 0004/2021 AD: 02."
     },
     {
-      "numero": "2023NE0000010",
-      "contrato": "12/2018",
-      "valor": 1268.16,
+      "numero": "2024NE0000005",
+      "contrato": "11/2023",
+      "valor": 4741.74,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
-    },
-    {
-      "numero": "2023NE0000011",
-      "contrato": "4/2021",
-      "valor": 2175.11,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE EXECUÇÃO DO SISTEMA PRODAM-RH PARA O CONTROLE DE CADASTRO DE PESSOAL, PROCESSAMENTO DE FOLHA DE PAGAMENTO E TRANSMISSÃO DE DADOS PARA O E-SOCIAL PARA ATENDER AS NECESSIDADES DA ARSEPAM."
     },
     {
       "numero": "2023NE0000009",
@@ -1265,52 +1249,20 @@
       "descricao": "Prorrogação por mais 12 meses de vigência do Contrato e Reajuste em 10,70%, ref. a Prestação de Execução de Sistema de Cadastro de Folha de Pagamento de Pessoal - PRODAM - RH."
     },
     {
-      "numero": "2020NE00022",
-      "contrato": "",
-      "valor": 3672.48,
+      "numero": "2023NE0000011",
+      "contrato": "4/2021",
+      "valor": 2175.11,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "ANULAÇÃO DA NE: 05 MOTIVO: ERRO FORMAL DE PREENCHIMENTO."
+      "data_emissao": "02/01/2023",
+      "descricao": "Contratação de Empresa Especializada na prestação de serviços de Licença de uso de sistema de informação - GERWEB - Gestor de Conteúdo Web."
     },
     {
-      "numero": "2020NE00025",
-      "contrato": "",
-      "valor": 22499.7,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Anulação da NE nº. 016/2020 Motivo: Erro formal de preenchimento"
-    },
-    {
-      "numero": "2020NE00011",
+      "numero": "2023NE0000010",
       "contrato": "12/2018",
-      "valor": 4677.3,
+      "valor": 1268.16,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Contratação de Prestação de Serviços de Sistema de Protocolo em Plataforma Web - SPROWEB."
-    },
-    {
-      "numero": "2020NE00016",
-      "contrato": "1/2018",
-      "valor": 22499.7,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)."
-    },
-    {
-      "numero": "2020NE00033",
-      "contrato": "1/2018",
-      "valor": 22499.7,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)."
-    },
-    {
-      "numero": "2020NE00030",
-      "contrato": "3/2017",
-      "valor": 3672.48,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL - PRODAM-RH"
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
     },
     {
       "numero": "2020NE00005",
@@ -1321,20 +1273,52 @@
       "descricao": "Contratação para prestação de serviços de execução do Sistema de Cadastro e Folha de Pagamento de Pessoal - PRODAM-RH."
     },
     {
-      "numero": "2019NE00008",
-      "contrato": "1/2018",
-      "valor": 21764.04,
+      "numero": "2020NE00030",
+      "contrato": "3/2017",
+      "valor": 3672.48,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "CONTRATAÇÃO de Serviços de Acesso a Internet - conexão dedicada a rede mundial de computadores, conforme as especificações descritas no Projeto Básico."
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL - PRODAM-RH"
     },
     {
-      "numero": "2019NE00001",
-      "contrato": "3/2017",
-      "valor": 3411.51,
+      "numero": "2020NE00033",
+      "contrato": "1/2018",
+      "valor": 22499.7,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação para prestação de serviço de execução de sistema PRODAM-RH, conforme projeto básico."
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)."
+    },
+    {
+      "numero": "2020NE00016",
+      "contrato": "1/2018",
+      "valor": 22499.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS DE ACESSO A REDE MUNDIAL DE COMPUTADORES (INTERNET)."
+    },
+    {
+      "numero": "2020NE00011",
+      "contrato": "12/2018",
+      "valor": 4677.3,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Contratação de Prestação de Serviços de Sistema de Protocolo em Plataforma Web - SPROWEB."
+    },
+    {
+      "numero": "2020NE00025",
+      "contrato": "",
+      "valor": 22499.7,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Anulação da NE nº. 016/2020 Motivo: Erro formal de preenchimento"
+    },
+    {
+      "numero": "2020NE00022",
+      "contrato": "",
+      "valor": 3672.48,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "ANULAÇÃO DA NE: 05 MOTIVO: ERRO FORMAL DE PREENCHIMENTO."
     },
     {
       "numero": "2019NE00002",
@@ -1345,12 +1329,20 @@
       "descricao": "Contratação de Prestação de Serviços de PROTOCOLO em Sistema de Plataforma SPROWEB."
     },
     {
-      "numero": "2018NE00020",
+      "numero": "2019NE00001",
       "contrato": "3/2017",
-      "valor": 8724.8,
+      "valor": 3411.51,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Prestação de Serviço de Processamento de Dados referente ao sistema PRODAM/ RH."
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação para prestação de serviço de execução de sistema PRODAM-RH, conforme projeto básico."
+    },
+    {
+      "numero": "2019NE00008",
+      "contrato": "1/2018",
+      "valor": 21764.04,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO de Serviços de Acesso a Internet - conexão dedicada a rede mundial de computadores, conforme as especificações descritas no Projeto Básico."
     },
     {
       "numero": "2018NE00018",
@@ -1361,12 +1353,12 @@
       "descricao": "Contratação de Prestação de Serviço de Acesso a Internet"
     },
     {
-      "numero": "2017NE00048",
-      "contrato": "12/2012",
-      "valor": 7635.78,
+      "numero": "2018NE00020",
+      "contrato": "3/2017",
+      "valor": 8724.8,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "REFERENTE AO QUINTO TERMO ADITIVO CONTRATO Nº 012/2012, CFPP CADASTRO E FOLHA DE PAGAMENTO PESSOAL, COM VIGÊNCIA DE 12.09.2016 A 11.09.2017. VALOR MENSAL É R$ 848,42(oitocentos e quarenta e oito reais e quarenta e dois centavos)."
+      "data_emissao": "02/01/2018",
+      "descricao": "Prestação de Serviço de Processamento de Dados referente ao sistema PRODAM/ RH."
     },
     {
       "numero": "2017NE00051",
@@ -1377,12 +1369,20 @@
       "descricao": "REFERENTE AO TERCEIRO TERMO ADITIVO AO CONTRATO 006/2014, SERVIÇO DE ACESSO À REDE MUNDIAL DE COMPUTADORES,ATRAVÉS DO CONTRATO Nº 006/2014. VALOR MENSAL É DE R$ 6.905,81(seis mil novecentos e cinco reais e oitenta e um centavos)"
     },
     {
-      "numero": "2019NE00421",
+      "numero": "2017NE00048",
+      "contrato": "12/2012",
+      "valor": 7635.78,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "REFERENTE AO QUINTO TERMO ADITIVO CONTRATO Nº 012/2012, CFPP CADASTRO E FOLHA DE PAGAMENTO PESSOAL, COM VIGÊNCIA DE 12.09.2016 A 11.09.2017. VALOR MENSAL É R$ 848,42(oitocentos e quarenta e oito reais e quarenta e dois centavos)."
+    },
+    {
+      "numero": "2019NE00420",
       "contrato": "",
-      "valor": 817.95,
+      "valor": 392.12,
       "situacao": "Ativo",
       "data_emissao": "01/11/2019",
-      "descricao": "ANULAÇÃO DO SALDO DA NE Nº. 002/2019 REFERENTE AO CONTRATO Nº. 12/2018 - PROTOCOLO EM SISTEMA DE PLATAFORMA SPROWEB EM ATENÇÃO AO CELEBRAÇÃO DO TERMO ADITIVO E ENCERRAMENTO DO EXERCÍCIO."
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº. 001/2019 REFERENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº. 03/2017 - PRODAM-RH EM ATENÇÃO AO CELEBRAÇÃO DO NOVO ADITIVO E ENCERRAMENTO DO EXERCÍCIO."
     },
     {
       "numero": "2019NE00424",
@@ -1393,12 +1393,12 @@
       "descricao": "ANULAÇÃO DO SALDO DA NE Nº. 00782019 REFERENTE AO CONTRATO N. 001/2018-ARSAM - PRESTAÇÃO DE SERVIÇOS DE ACESSO A INTERNET. MOTIVO SALDO A MENOR PARA COBRIR DESPESAS COM O VALOR MENSAL DO CONTRATO."
     },
     {
-      "numero": "2019NE00420",
+      "numero": "2019NE00421",
       "contrato": "",
-      "valor": 392.12,
+      "valor": 817.95,
       "situacao": "Ativo",
       "data_emissao": "01/11/2019",
-      "descricao": "ANULAÇÃO DO SALDO DA NE Nº. 001/2019 REFERENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº. 03/2017 - PRODAM-RH EM ATENÇÃO AO CELEBRAÇÃO DO NOVO ADITIVO E ENCERRAMENTO DO EXERCÍCIO."
+      "descricao": "ANULAÇÃO DO SALDO DA NE Nº. 002/2019 REFERENTE AO CONTRATO Nº. 12/2018 - PROTOCOLO EM SISTEMA DE PLATAFORMA SPROWEB EM ATENÇÃO AO CELEBRAÇÃO DO TERMO ADITIVO E ENCERRAMENTO DO EXERCÍCIO."
     }
   ],
   "faturas": [
@@ -1872,7 +1872,7 @@
       "por_ano": {
         "2020": {
           "qtd": 17,
-          "valor": 188326.05000000005
+          "valor": 188326.05000000002
         },
         "2022": {
           "qtd": 35,
@@ -1880,7 +1880,7 @@
         },
         "2015": {
           "qtd": 10,
-          "valor": 245358.43000000002
+          "valor": 245358.43
         },
         "2017": {
           "qtd": 7,
@@ -1896,11 +1896,11 @@
         },
         "2019": {
           "qtd": 12,
-          "valor": 121211.25999999998
+          "valor": 121211.26000000001
         },
         "2023": {
           "qtd": 10,
-          "valor": 32161.89
+          "valor": 32161.890000000003
         },
         "2024": {
           "qtd": 21,
@@ -1908,11 +1908,11 @@
         },
         "2025": {
           "qtd": 24,
-          "valor": 67577.07999999997
+          "valor": 67577.07999999999
         },
         "2021": {
           "qtd": 10,
-          "valor": 104252.96000000002
+          "valor": 104252.96
         },
         "2014": {
           "qtd": 3,

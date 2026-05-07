@@ -119,17 +119,17 @@
   },
   "empenhos": [
     {
-      "numero": "2020NE00849",
+      "numero": "2020NE00850",
       "contrato": "",
-      "valor": 107.7,
+      "valor": 1148.11,
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
       "descricao": "Anulação de saldo de empenho que não se constituirá em Restos a Pagar, em atendimento à comunicação nº 14 (DECON/SET/SEFAZ) de 16/11/2020 ANEXO 01 ¿ CALENDÁRIO DE ENCERRAMENTO DO EXERCÍCIO/2020."
     },
     {
-      "numero": "2020NE00850",
+      "numero": "2020NE00849",
       "contrato": "",
-      "valor": 1148.11,
+      "valor": 107.7,
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
       "descricao": "Anulação de saldo de empenho que não se constituirá em Restos a Pagar, em atendimento à comunicação nº 14 (DECON/SET/SEFAZ) de 16/11/2020 ANEXO 01 ¿ CALENDÁRIO DE ENCERRAMENTO DO EXERCÍCIO/2020."
@@ -183,14 +183,6 @@
       "descricao": "PROCESSO DE RECONHECIMENTO DE DÍVIDA REFERENTE AS FATURAS EM ABERTO DE PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA (SERVIÇO DE CONTROLE DE PESSOAL – CPBM) PARA O CBMAM."
     },
     {
-      "numero": "2018NE01192",
-      "contrato": "",
-      "valor": 1210.56,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
-    },
-    {
       "numero": "2018NE01193",
       "contrato": "",
       "valor": 4196.65,
@@ -199,12 +191,12 @@
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
     },
     {
-      "numero": "2016NE00692",
-      "contrato": "5/2016",
-      "valor": 2342.4,
+      "numero": "2018NE01192",
+      "contrato": "",
+      "valor": 1210.56,
       "situacao": "Ativo",
-      "data_emissao": "28/12/2016",
-      "descricao": "serviços de processamento de dados para o CBMAM."
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
     },
     {
       "numero": "2016NE00691",
@@ -215,76 +207,28 @@
       "descricao": "Anulação da Ne nº 687 por incorreção na fonte de recursos"
     },
     {
+      "numero": "2016NE00692",
+      "contrato": "5/2016",
+      "valor": 2342.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2016",
+      "descricao": "serviços de processamento de dados para o CBMAM."
+    },
+    {
+      "numero": "2016NE00520",
+      "contrato": "",
+      "valor": 4684.8,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2016",
+      "descricao": "REFORÇO NE 054"
+    },
+    {
       "numero": "2016NE00520",
       "contrato": "2/2011",
       "valor": 4684.8,
       "situacao": "Ativo",
       "data_emissao": "28/09/2016",
       "descricao": "REFORÇO NE 054"
-    },
-    {
-      "numero": "2016NE00520",
-      "contrato": "",
-      "valor": 4684.8,
-      "situacao": "Ativo",
-      "data_emissao": "28/09/2016",
-      "descricao": "REFORÇO NE 054"
-    },
-    {
-      "numero": "2019NE00234",
-      "contrato": "1/2017",
-      "valor": 2780.74,
-      "situacao": "Ativo",
-      "data_emissao": "28/05/2019",
-      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
-    },
-    {
-      "numero": "2019NE00239",
-      "contrato": "",
-      "valor": 2780.74,
-      "situacao": "Ativo",
-      "data_emissao": "28/05/2019",
-      "descricao": "Cancelamento total do Empenho para inclusão de informação da vigência na descrição do item."
-    },
-    {
-      "numero": "2019NE00232",
-      "contrato": "",
-      "valor": 351.75,
-      "situacao": "Ativo",
-      "data_emissao": "28/05/2019",
-      "descricao": "cancelamento para correção da natureza da despesa"
-    },
-    {
-      "numero": "2019NE00236",
-      "contrato": "5/2016",
-      "valor": 351.75,
-      "situacao": "Ativo",
-      "data_emissao": "28/05/2019",
-      "descricao": "Processo de reconhecimento de dívida do mês de NOV 2018, referente ao 2º Termo Aditivo ao Contrato nº005/2016 pelo serviço de Controle de Pessoal para o CBMAM (CPBM)."
-    },
-    {
-      "numero": "2019NE00240",
-      "contrato": "1/2017",
-      "valor": 2780.74,
-      "situacao": "Ativo",
-      "data_emissao": "28/05/2019",
-      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
-    },
-    {
-      "numero": "2019NE00233",
-      "contrato": "",
-      "valor": 351.75,
-      "situacao": "Ativo",
-      "data_emissao": "28/05/2019",
-      "descricao": "cancelamento para correção da natureza da despesa"
-    },
-    {
-      "numero": "2019NE00235",
-      "contrato": "5/2016",
-      "valor": 351.75,
-      "situacao": "Ativo",
-      "data_emissao": "28/05/2019",
-      "descricao": "Processo de reconhecimento de dívida do mês de OUT 2018, referente ao 2º Termo Aditivo ao Contrato nº005/2016 pelo serviço de Controle de Pessoal para o CBMAM (CPBM)."
     },
     {
       "numero": "2019NE00237",
@@ -295,15 +239,71 @@
       "descricao": "Processo de reconhecimento de dívida do mês de DEZ 2018, referente ao 2º Termo Aditivo ao Contrato nº005/2016 pelo serviço de Controle de Pessoal para o CBMAM (CPBM)."
     },
     {
-      "numero": "2016NE00243",
-      "contrato": "2/2011",
-      "valor": 4212.27,
+      "numero": "2019NE00235",
+      "contrato": "5/2016",
+      "valor": 351.75,
       "situacao": "Ativo",
-      "data_emissao": "28/04/2016",
-      "descricao": "Tal solicitação visa atender demanda oriunda do processo 022104.000227/2014 referente a pagamento de despesas de exercício anteriores."
+      "data_emissao": "28/05/2019",
+      "descricao": "Processo de reconhecimento de dívida do mês de OUT 2018, referente ao 2º Termo Aditivo ao Contrato nº005/2016 pelo serviço de Controle de Pessoal para o CBMAM (CPBM)."
     },
     {
-      "numero": "2016NE00245",
+      "numero": "2019NE00233",
+      "contrato": "",
+      "valor": 351.75,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "cancelamento para correção da natureza da despesa"
+    },
+    {
+      "numero": "2019NE00240",
+      "contrato": "1/2017",
+      "valor": 2780.74,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
+    },
+    {
+      "numero": "2019NE00236",
+      "contrato": "5/2016",
+      "valor": 351.75,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "Processo de reconhecimento de dívida do mês de NOV 2018, referente ao 2º Termo Aditivo ao Contrato nº005/2016 pelo serviço de Controle de Pessoal para o CBMAM (CPBM)."
+    },
+    {
+      "numero": "2019NE00232",
+      "contrato": "",
+      "valor": 351.75,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "cancelamento para correção da natureza da despesa"
+    },
+    {
+      "numero": "2019NE00239",
+      "contrato": "",
+      "valor": 2780.74,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "Cancelamento total do Empenho para inclusão de informação da vigência na descrição do item."
+    },
+    {
+      "numero": "2019NE00234",
+      "contrato": "1/2017",
+      "valor": 2780.74,
+      "situacao": "Ativo",
+      "data_emissao": "28/05/2019",
+      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
+    },
+    {
+      "numero": "2016NE00248",
+      "contrato": "2/2011",
+      "valor": 3369.82,
+      "situacao": "Ativo",
+      "data_emissao": "28/04/2016",
+      "descricao": "Tal solicitação visa atender demanda oriunda do processo 022104.000219/2015 referente a pagamento de despesas de exercício anteriores."
+    },
+    {
+      "numero": "2016NE00247",
       "contrato": "2/2011",
       "valor": 3369.82,
       "situacao": "Ativo",
@@ -319,7 +319,7 @@
       "descricao": "Tal solicitação visa atender demanda oriunda do processo 022104.000227/2014 referente a pagamento de despesas de exercícios anteriores."
     },
     {
-      "numero": "2016NE00247",
+      "numero": "2016NE00245",
       "contrato": "2/2011",
       "valor": 3369.82,
       "situacao": "Ativo",
@@ -327,12 +327,12 @@
       "descricao": "Tal solicitação visa atender demanda oriunda do processo 022104.000219/2015 referente a pagamento de despesas de exercício anteriores."
     },
     {
-      "numero": "2016NE00248",
+      "numero": "2016NE00243",
       "contrato": "2/2011",
-      "valor": 3369.82,
+      "valor": 4212.27,
       "situacao": "Ativo",
       "data_emissao": "28/04/2016",
-      "descricao": "Tal solicitação visa atender demanda oriunda do processo 022104.000219/2015 referente a pagamento de despesas de exercício anteriores."
+      "descricao": "Tal solicitação visa atender demanda oriunda do processo 022104.000227/2014 referente a pagamento de despesas de exercício anteriores."
     },
     {
       "numero": "2022NE0000022",
@@ -368,14 +368,6 @@
     },
     {
       "numero": "2016NE00575",
-      "contrato": "",
-      "valor": 3369.82,
-      "situacao": "Ativo",
-      "data_emissao": "27/10/2016",
-      "descricao": "82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico."
-    },
-    {
-      "numero": "2016NE00575",
       "contrato": "2/2011",
       "valor": 3369.82,
       "situacao": "Ativo",
@@ -383,12 +375,12 @@
       "descricao": "82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico."
     },
     {
-      "numero": "2019NE00220",
+      "numero": "2016NE00575",
       "contrato": "",
-      "valor": 351.75,
+      "valor": 3369.82,
       "situacao": "Ativo",
-      "data_emissao": "27/05/2019",
-      "descricao": "esta solicitação visa atender demanda do processo numero 024/2019."
+      "data_emissao": "27/10/2016",
+      "descricao": "82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico."
     },
     {
       "numero": "2019NE00219",
@@ -399,28 +391,20 @@
       "descricao": "esta solicitação visa atender demanda do processo numero 015/2019."
     },
     {
+      "numero": "2019NE00220",
+      "contrato": "",
+      "valor": 351.75,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2019",
+      "descricao": "esta solicitação visa atender demanda do processo numero 024/2019."
+    },
+    {
       "numero": "2021NE0000654",
       "contrato": "",
       "valor": 820.94,
       "situacao": "Ativo",
       "data_emissao": "26/10/2021",
       "descricao": "CANCELAMENTO DE NOTA DE EMPENHO POR ESTAR FORA DA COBERTURA CONTRATUAL."
-    },
-    {
-      "numero": "2015NE00414",
-      "contrato": "2/2011",
-      "valor": 4212.27,
-      "situacao": "Ativo",
-      "data_emissao": "26/08/2015",
-      "descricao": "Despesas de Teleprocessamento"
-    },
-    {
-      "numero": "2015NE00412",
-      "contrato": "6/2011",
-      "valor": 1241.91,
-      "situacao": "Ativo",
-      "data_emissao": "26/08/2015",
-      "descricao": "Servico de Processamento de Dados"
     },
     {
       "numero": "2015NE00415",
@@ -431,6 +415,22 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE LINK DE COMUNICAÇÃO"
     },
     {
+      "numero": "2015NE00412",
+      "contrato": "6/2011",
+      "valor": 1241.91,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2015",
+      "descricao": "Servico de Processamento de Dados"
+    },
+    {
+      "numero": "2015NE00414",
+      "contrato": "2/2011",
+      "valor": 4212.27,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2015",
+      "descricao": "Despesas de Teleprocessamento"
+    },
+    {
       "numero": "2022NE0001030",
       "contrato": "",
       "valor": 501.42,
@@ -439,20 +439,20 @@
       "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM."
     },
     {
-      "numero": "2015NE00411",
-      "contrato": "",
-      "valor": 16849.1,
-      "situacao": "Ativo",
-      "data_emissao": "24/08/2015",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS"
-    },
-    {
       "numero": "2015NE00413",
       "contrato": "",
       "valor": 16849.1,
       "situacao": "Ativo",
       "data_emissao": "24/08/2015",
       "descricao": "Servico de Processamento"
+    },
+    {
+      "numero": "2015NE00411",
+      "contrato": "",
+      "valor": 16849.1,
+      "situacao": "Ativo",
+      "data_emissao": "24/08/2015",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS"
     },
     {
       "numero": "2024NE0000402",
@@ -479,17 +479,17 @@
       "descricao": "Processo de reconhecimento de dívida das NFS 23093,24802,24803,24804,24805,25074,25073, todas do ano de 2021 referente ao serviço de emissão de folha extra para o CBMAM e sem pagamento no devido ano."
     },
     {
-      "numero": "2015NE00592",
+      "numero": "2015NE00591",
       "contrato": "",
-      "valor": 2483.82,
+      "valor": 8424.54,
       "situacao": "Ativo",
       "data_emissao": "22/12/2015",
       "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
     },
     {
-      "numero": "2015NE00591",
+      "numero": "2015NE00592",
       "contrato": "",
-      "valor": 8424.54,
+      "valor": 2483.82,
       "situacao": "Ativo",
       "data_emissao": "22/12/2015",
       "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
@@ -527,20 +527,12 @@
       "descricao": "Contrato No. 2/2011 - Acesso Computador Central Tecnologia VPN, Internet 1,2 Mbps"
     },
     {
-      "numero": "2015NE00408",
+      "numero": "2015NE00410",
       "contrato": "",
-      "valor": 1241.91,
+      "valor": 4212.27,
       "situacao": "Ativo",
       "data_emissao": "21/08/2015",
-      "descricao": "TAL SOLICITAÇÃO VISA ATENDER PAGAMENTO PARCIAL DE PROCESSO 22104.000116/2015 REFERENTE A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE PROCESSAMENTO DE DADOS - PRODAM"
-    },
-    {
-      "numero": "2015NE00409",
-      "contrato": "",
-      "valor": 1241.91,
-      "situacao": "Ativo",
-      "data_emissao": "21/08/2015",
-      "descricao": "Anulação total na NE por falta de informação na descrição."
+      "descricao": "Anulação total da NE por falta de informação na Descrição."
     },
     {
       "numero": "2015NE00407",
@@ -551,12 +543,20 @@
       "descricao": "Serviço de acesso a internet e ao computador central da PRODAM, com velocidade de 256Kbps. com reajuste de 6,24 do contrato primitivo conforme cláusula décima primeira. Restando 39.033,71 a ser empenhado em 2015"
     },
     {
-      "numero": "2015NE00410",
+      "numero": "2015NE00409",
       "contrato": "",
-      "valor": 4212.27,
+      "valor": 1241.91,
       "situacao": "Ativo",
       "data_emissao": "21/08/2015",
-      "descricao": "Anulação total da NE por falta de informação na Descrição."
+      "descricao": "Anulação total na NE por falta de informação na descrição."
+    },
+    {
+      "numero": "2015NE00408",
+      "contrato": "",
+      "valor": 1241.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/08/2015",
+      "descricao": "TAL SOLICITAÇÃO VISA ATENDER PAGAMENTO PARCIAL DE PROCESSO 22104.000116/2015 REFERENTE A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO SERVIÇO DE PROCESSAMENTO DE DADOS - PRODAM"
     },
     {
       "numero": "2014NE00893",
@@ -575,14 +575,6 @@
       "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM. TC: 0006/2021 AD: 03."
     },
     {
-      "numero": "2018NE00605",
-      "contrato": "5/2016",
-      "valor": 2421.12,
-      "situacao": "Ativo",
-      "data_emissao": "20/07/2018",
-      "descricao": "Serviço de controle de pessoal para o CBMAM(CPBM)."
-    },
-    {
       "numero": "2018NE00607",
       "contrato": "1/2017",
       "valor": 18088.63,
@@ -591,12 +583,12 @@
       "descricao": "Serviço de execução de sistemas de informação de protocolo em plataforma web (sproweb)."
     },
     {
-      "numero": "2021NE0000003",
-      "contrato": "",
-      "valor": 2621.34,
+      "numero": "2018NE00605",
+      "contrato": "5/2016",
+      "valor": 2421.12,
       "situacao": "Ativo",
-      "data_emissao": "20/01/2021",
-      "descricao": "Anulação para correção da Data de emissão para 04/01/2020."
+      "data_emissao": "20/07/2018",
+      "descricao": "Serviço de controle de pessoal para o CBMAM(CPBM)."
     },
     {
       "numero": "2021NE0000002",
@@ -607,12 +599,12 @@
       "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
     },
     {
-      "numero": "2019NE00402",
-      "contrato": "1/2017",
-      "valor": 5168.18,
+      "numero": "2021NE0000003",
+      "contrato": "",
+      "valor": 2621.34,
       "situacao": "Ativo",
-      "data_emissao": "19/07/2019",
-      "descricao": "Serviço de execução de sistemas de informação de protocolo em plataforma web (sproweb)"
+      "data_emissao": "20/01/2021",
+      "descricao": "Anulação para correção da Data de emissão para 04/01/2020."
     },
     {
       "numero": "2019NE00401",
@@ -621,6 +613,14 @@
       "situacao": "Ativo",
       "data_emissao": "19/07/2019",
       "descricao": "Serviço de controle de pessoal para o CBMAM(CPBM)."
+    },
+    {
+      "numero": "2019NE00402",
+      "contrato": "1/2017",
+      "valor": 5168.18,
+      "situacao": "Ativo",
+      "data_emissao": "19/07/2019",
+      "descricao": "Serviço de execução de sistemas de informação de protocolo em plataforma web (sproweb)"
     },
     {
       "numero": "2024NE0000005",
@@ -671,20 +671,12 @@
       "descricao": "82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico. MARCA: null 5º Termo aditivo ao contrato nº 002/2011 Processo nº 219/2015. Vigencia 08/10/2015 a 08/10/2016. Valor mensal: R$ 3.369,82 Valor Global R$ 40.437,84 NE de reforço ref. ao mes de Agosto de 2016. Fundamento Legal: Art. 24; XVI; Lei 8.666/93"
     },
     {
-      "numero": "2020NE00427",
+      "numero": "2020NE00432",
       "contrato": "1/2017",
-      "valor": 19465.18,
+      "valor": 2780.74,
       "situacao": "Ativo",
       "data_emissao": "18/09/2020",
       "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
-    },
-    {
-      "numero": "2020NE00431",
-      "contrato": "5/2016",
-      "valor": 873.78,
-      "situacao": "Ativo",
-      "data_emissao": "18/09/2020",
-      "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
     },
     {
       "numero": "2020NE00426",
@@ -695,20 +687,20 @@
       "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
     },
     {
-      "numero": "2020NE00432",
+      "numero": "2020NE00431",
+      "contrato": "5/2016",
+      "valor": 873.78,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2020",
+      "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
+    },
+    {
+      "numero": "2020NE00427",
       "contrato": "1/2017",
-      "valor": 2780.74,
+      "valor": 19465.18,
       "situacao": "Ativo",
       "data_emissao": "18/09/2020",
       "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
-    },
-    {
-      "numero": "2019NE00559",
-      "contrato": "1/2017",
-      "valor": 9418.37,
-      "situacao": "Ativo",
-      "data_emissao": "17/10/2019",
-      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB)"
     },
     {
       "numero": "2019NE00560",
@@ -719,20 +711,12 @@
       "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
     },
     {
-      "numero": "2016NE00571",
-      "contrato": "",
-      "valor": 3369.82,
+      "numero": "2019NE00559",
+      "contrato": "1/2017",
+      "valor": 9418.37,
       "situacao": "Ativo",
-      "data_emissao": "17/10/2016",
-      "descricao": "Reforço da Ne 054 para liquidação dos serviços do mes de Julho de 2016"
-    },
-    {
-      "numero": "2016NE00571",
-      "contrato": "2/2011",
-      "valor": 3369.82,
-      "situacao": "Ativo",
-      "data_emissao": "17/10/2016",
-      "descricao": "Reforço da Ne 054 para liquidação dos serviços do mes de Julho de 2016"
+      "data_emissao": "17/10/2019",
+      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB)"
     },
     {
       "numero": "2016NE00570",
@@ -751,12 +735,20 @@
       "descricao": "ANULAÇÃO NE 556 POR ESTAR COMO REFORÇAR E O MESMO NÃO O SER."
     },
     {
-      "numero": "2018NE00235",
+      "numero": "2016NE00571",
       "contrato": "2/2011",
-      "valor": 11220.0,
+      "valor": 3369.82,
       "situacao": "Ativo",
-      "data_emissao": "17/04/2018",
-      "descricao": "PROCESSO DE RECONHECIMENTO DE DÍVIDA DO PAGAMENTO DE FATURAS REFERENTE AO SERVIÇO DE ACESSO A INTERNET DOS MESES DE OUTUBRO A DEZEMBRO."
+      "data_emissao": "17/10/2016",
+      "descricao": "Reforço da Ne 054 para liquidação dos serviços do mes de Julho de 2016"
+    },
+    {
+      "numero": "2016NE00571",
+      "contrato": "",
+      "valor": 3369.82,
+      "situacao": "Ativo",
+      "data_emissao": "17/10/2016",
+      "descricao": "Reforço da Ne 054 para liquidação dos serviços do mes de Julho de 2016"
     },
     {
       "numero": "2018NE00236",
@@ -767,6 +759,14 @@
       "descricao": "PROCESSO DE RECONHECIMENTO DE DÍVIDA DO PAGAMENTO DE FATURAS REFERENTE AO SERVIÇO DE ACESSO A INTERNET DOS MESES DE JANEIRO A AGOSTO DE 2017."
     },
     {
+      "numero": "2018NE00235",
+      "contrato": "2/2011",
+      "valor": 11220.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/04/2018",
+      "descricao": "PROCESSO DE RECONHECIMENTO DE DÍVIDA DO PAGAMENTO DE FATURAS REFERENTE AO SERVIÇO DE ACESSO A INTERNET DOS MESES DE OUTUBRO A DEZEMBRO."
+    },
+    {
       "numero": "2020NE00420",
       "contrato": "",
       "valor": 19465.18,
@@ -775,9 +775,9 @@
       "descricao": "Anulação de saldo de empenho para permuta de fonte de recurso conforme orientação da Secretaria Executiva de Orçamento/SEFAZ. Fonte a ser substituída: 145 bloqueada pelo Órgão Central por frustração de receita."
     },
     {
-      "numero": "2020NE00419",
+      "numero": "2020NE00416",
       "contrato": "",
-      "valor": 2621.34,
+      "valor": 1085.76,
       "situacao": "Ativo",
       "data_emissao": "16/09/2020",
       "descricao": "Anulação de saldo de empenho para permuta de fonte de recurso conforme orientação da Secretaria Executiva de Orçamento/SEFAZ. Fonte a ser substituída: 145 bloqueada pelo Órgão Central por frustração de receita."
@@ -791,9 +791,9 @@
       "descricao": "Anulação de saldo de empenho para permuta de fonte de recurso conforme orientação da Secretaria Executiva de Orçamento/SEFAZ. Fonte a ser substituída: 145 bloqueada pelo Órgão Central por frustração de receita."
     },
     {
-      "numero": "2020NE00416",
+      "numero": "2020NE00419",
       "contrato": "",
-      "valor": 1085.76,
+      "valor": 2621.34,
       "situacao": "Ativo",
       "data_emissao": "16/09/2020",
       "descricao": "Anulação de saldo de empenho para permuta de fonte de recurso conforme orientação da Secretaria Executiva de Orçamento/SEFAZ. Fonte a ser substituída: 145 bloqueada pelo Órgão Central por frustração de receita."
@@ -839,22 +839,6 @@
       "descricao": "CANCELAMENTO DE EMPENHO PARA REFORÇAR EM OUTRO CONTRATO VIGENTE."
     },
     {
-      "numero": "2016NE00555",
-      "contrato": "",
-      "valor": 4684.8,
-      "situacao": "Ativo",
-      "data_emissao": "14/10/2016",
-      "descricao": "ANULAÇÃO PARCIAL DA NE 054 POR VALOR MENSAL ESTAR ACIMA DO DESCRITO NO CONTRATO (ERRO DO REFORÇO NE 520)"
-    },
-    {
-      "numero": "2016NE00555",
-      "contrato": "",
-      "valor": 4684.8,
-      "situacao": "Ativo",
-      "data_emissao": "14/10/2016",
-      "descricao": "ANULAÇÃO PARCIAL DA NE 054 POR VALOR MENSAL ESTAR ACIMA DO DESCRITO NO CONTRATO (ERRO DO REFORÇO NE 520)"
-    },
-    {
       "numero": "2016NE00556",
       "contrato": "2/2011",
       "valor": 3369.82,
@@ -869,6 +853,22 @@
       "situacao": "Ativo",
       "data_emissao": "14/10/2016",
       "descricao": "5º Termo aditivo ao contrato nº 002/2011 Processo nº 219/2015. Vigencia 08/10/2015 a 08/10/2016. Valor mensal: R$ 3.369,82 Valor Global R$ 40.437,84 NE ref. reforço NE 054 para Julho/2016. Fundamento Legal: Art. 24; XVI; Lei 8.666/93"
+    },
+    {
+      "numero": "2016NE00555",
+      "contrato": "",
+      "valor": 4684.8,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 054 POR VALOR MENSAL ESTAR ACIMA DO DESCRITO NO CONTRATO (ERRO DO REFORÇO NE 520)"
+    },
+    {
+      "numero": "2016NE00555",
+      "contrato": "",
+      "valor": 4684.8,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2016",
+      "descricao": "ANULAÇÃO PARCIAL DA NE 054 POR VALOR MENSAL ESTAR ACIMA DO DESCRITO NO CONTRATO (ERRO DO REFORÇO NE 520)"
     },
     {
       "numero": "2016NE00544",
@@ -967,20 +967,20 @@
       "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM. TC: 0006/2021 AD: 04."
     },
     {
-      "numero": "2018NE00039",
-      "contrato": "5/2016",
-      "valor": 2421.12,
-      "situacao": "Ativo",
-      "data_emissao": "09/02/2018",
-      "descricao": "PRESTAÇÃO DE SERVIÇO DE MANUTENÇÃO DO SISTEMA DE PROCESSAMENTO DE CONTROLE DE PESSOAL DA DIRETORIA DE RECURSOS HUMANOS DO CBMAM"
-    },
-    {
       "numero": "2018NE00040",
       "contrato": "1/2017",
       "valor": 12920.45,
       "situacao": "Ativo",
       "data_emissao": "09/02/2018",
       "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE INFORMAÇÃO PARA DISPONIBILIZAÇÃO DOS SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
+      "numero": "2018NE00039",
+      "contrato": "5/2016",
+      "valor": 2421.12,
+      "situacao": "Ativo",
+      "data_emissao": "09/02/2018",
+      "descricao": "PRESTAÇÃO DE SERVIÇO DE MANUTENÇÃO DO SISTEMA DE PROCESSAMENTO DE CONTROLE DE PESSOAL DA DIRETORIA DE RECURSOS HUMANOS DO CBMAM"
     },
     {
       "numero": "2022NE0000564",
@@ -991,17 +991,9 @@
       "descricao": "Anulação de Empenho para corrreção no Programa de Trabalho."
     },
     {
-      "numero": "2018NE01179",
+      "numero": "2018NE01177",
       "contrato": "",
-      "valor": 6366.47,
-      "situacao": "Ativo",
-      "data_emissao": "07/12/2018",
-      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO POR FIM DO EXERCÍCIO FINANCEIRO DE 2018."
-    },
-    {
-      "numero": "2018NE01178",
-      "contrato": "",
-      "valor": 7147.07,
+      "valor": 159.16,
       "situacao": "Ativo",
       "data_emissao": "07/12/2018",
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO POR FIM DO EXERCÍCIO FINANCEIRO DE 2018."
@@ -1015,20 +1007,20 @@
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO POR FIM DO EXERCÍCIO FINANCEIRO DE 2018."
     },
     {
-      "numero": "2018NE01177",
+      "numero": "2018NE01178",
       "contrato": "",
-      "valor": 159.16,
+      "valor": 7147.07,
       "situacao": "Ativo",
       "data_emissao": "07/12/2018",
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO POR FIM DO EXERCÍCIO FINANCEIRO DE 2018."
     },
     {
-      "numero": "2017NE01557",
-      "contrato": "1/2017",
-      "valor": 2584.09,
+      "numero": "2018NE01179",
+      "contrato": "",
+      "valor": 6366.47,
       "situacao": "Ativo",
-      "data_emissao": "07/12/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE INFORMAÇÃO PARA DISPONIBILIZAÇÃO DOS SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+      "data_emissao": "07/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO POR FIM DO EXERCÍCIO FINANCEIRO DE 2018."
     },
     {
       "numero": "2017NE01556",
@@ -1039,6 +1031,14 @@
       "descricao": "PRESTAÇÃO DE SERVIÇO DE MANUTENÇÃO DO SISTEMA DE PROCESSAMENTO DE CONTROLE DE PESSOAL DA DIRETORIA DE RECURSOS HUMANOS DO CBMAM"
     },
     {
+      "numero": "2017NE01557",
+      "contrato": "1/2017",
+      "valor": 2584.09,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE INFORMAÇÃO PARA DISPONIBILIZAÇÃO DOS SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+    },
+    {
       "numero": "2023NE0000870",
       "contrato": "6/2021",
       "valor": 766.12,
@@ -1047,20 +1047,20 @@
       "descricao": "3º TERM0 ADITIVO AO CONTRATO N.º 006/2021 PARA SUPRESSÃO DE VALOR EM 25%, REFERENTE À PRESTAÇÃO DE SERVIÇO ESPECIALIZADO PARA O FUNCIONAMENTO E MANUTENÇÃO DO SISTEMA DE PROCESSAMENTO E CONTROLE DE PESSOAL DA DRH. TC: 0006/2021 AD: 03."
     },
     {
-      "numero": "2020NE00270",
-      "contrato": "1/2017",
-      "valor": 19465.18,
-      "situacao": "Ativo",
-      "data_emissao": "07/07/2020",
-      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
-    },
-    {
       "numero": "2020NE00271",
       "contrato": "5/2016",
       "valor": 2621.34,
       "situacao": "Ativo",
       "data_emissao": "07/07/2020",
       "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
+    },
+    {
+      "numero": "2020NE00270",
+      "contrato": "1/2017",
+      "valor": 19465.18,
+      "situacao": "Ativo",
+      "data_emissao": "07/07/2020",
+      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
     },
     {
       "numero": "2024NE0000076",
@@ -1095,12 +1095,12 @@
       "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM. TC: 0006/2021 AD: 04."
     },
     {
-      "numero": "2015NE00033",
+      "numero": "2015NE00038",
       "contrato": "6/2011",
       "valor": 1241.91,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "ref. ao 3º Termo Aditivo ao Contrato nº 06/2011, com valor Global de R$ 4.967,64 e valor mensal de R$ 413,97 com vigência de 12 meses Fundamentado pelo Art.24; II; Lei 8.666/93"
+      "descricao": "Cobertura financeira 2015-meses: janeiro a março."
     },
     {
       "numero": "2015NE00025",
@@ -1111,12 +1111,12 @@
       "descricao": "Cobertura Financeira 2015-meses: janeiro a março."
     },
     {
-      "numero": "2015NE00038",
+      "numero": "2015NE00033",
       "contrato": "6/2011",
       "valor": 1241.91,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "Cobertura financeira 2015-meses: janeiro a março."
+      "descricao": "ref. ao 3º Termo Aditivo ao Contrato nº 06/2011, com valor Global de R$ 4.967,64 e valor mensal de R$ 413,97 com vigência de 12 meses Fundamentado pelo Art.24; II; Lei 8.666/93"
     },
     {
       "numero": "2024NE0000963",
@@ -1135,14 +1135,6 @@
       "descricao": "prestação de serviços de processamento de dados"
     },
     {
-      "numero": "2021NE0000026",
-      "contrato": "5/2016",
-      "valor": 2621.34,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
-    },
-    {
       "numero": "2021NE0000027",
       "contrato": "1/2017",
       "valor": 13903.7,
@@ -1151,12 +1143,20 @@
       "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
     },
     {
-      "numero": "2016NE00046",
+      "numero": "2021NE0000026",
+      "contrato": "5/2016",
+      "valor": 2621.34,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
+    },
+    {
+      "numero": "2016NE00054",
       "contrato": "2/2011",
       "valor": 20218.92,
       "situacao": "Ativo",
       "data_emissao": "04/01/2016",
-      "descricao": "82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico."
+      "descricao": "SERVIÇO DE ACESSO A INTERNET"
     },
     {
       "numero": "2016NE00053",
@@ -1167,12 +1167,12 @@
       "descricao": "anulação por erro"
     },
     {
-      "numero": "2016NE00054",
+      "numero": "2016NE00046",
       "contrato": "2/2011",
       "valor": 20218.92,
       "situacao": "Ativo",
       "data_emissao": "04/01/2016",
-      "descricao": "SERVIÇO DE ACESSO A INTERNET"
+      "descricao": "82363 - SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: SERVIÇO DE LINK DE COMUNICAÇÃO, Descrição: Contratação de serviços técnicos especializados em telecomunicações para disponibilização de link de dados dedicado para acesso à rede mundial de computadores, conforme Projeto Básico."
     },
     {
       "numero": "2021NE0000479",
@@ -1191,16 +1191,16 @@
       "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM. TC: 0006/2021 AD: 04."
     },
     {
-      "numero": "2024NE0000010",
-      "contrato": "6/2021",
+      "numero": "2024NE0000008",
+      "contrato": "",
       "valor": 1021.5,
       "situacao": "Ativo",
       "data_emissao": "02/01/2024",
       "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM. TC: 0006/2021 AD: 02."
     },
     {
-      "numero": "2024NE0000008",
-      "contrato": "",
+      "numero": "2024NE0000010",
+      "contrato": "6/2021",
       "valor": 1021.5,
       "situacao": "Ativo",
       "data_emissao": "02/01/2024",
@@ -1215,14 +1215,6 @@
       "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM."
     },
     {
-      "numero": "2020NE00004",
-      "contrato": "1/2017",
-      "valor": 13903.7,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
-    },
-    {
       "numero": "2020NE00003",
       "contrato": "5/2016",
       "valor": 2621.34,
@@ -1231,12 +1223,12 @@
       "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
     },
     {
-      "numero": "2019NE00004",
+      "numero": "2020NE00004",
       "contrato": "1/2017",
-      "valor": 7752.27,
+      "valor": 13903.7,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Serviço de execução de sistemas de informação de protocolo em plataforma web (sproweb)."
+      "data_emissao": "02/01/2020",
+      "descricao": "Serviço de execução de sistema de informação para a disponibilização do sistema de protocolo em plataforma web (SPROWEB), para controle e acompanhamento do registro de todos os documentos ou processos."
     },
     {
       "numero": "2019NE00003",
@@ -1247,12 +1239,12 @@
       "descricao": "Serviço de controle de pessoal para o CBMAM(CPBM)."
     },
     {
-      "numero": "2014NE00030",
-      "contrato": "6/2011",
-      "valor": 1957.1,
+      "numero": "2019NE00004",
+      "contrato": "1/2017",
+      "valor": 7752.27,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 6/2011 - Sistema Controle de Pessoal - CPBM"
+      "data_emissao": "02/01/2019",
+      "descricao": "Serviço de execução de sistemas de informação de protocolo em plataforma web (sproweb)."
     },
     {
       "numero": "2014NE00028",
@@ -1263,12 +1255,12 @@
       "descricao": "Contrato No. 2/2011 - Acesso Computador Central Tecnologia VPN, Internet 1,2 Mbps"
     },
     {
-      "numero": "2017NE01534",
-      "contrato": "1/2017",
-      "valor": 2584.09,
+      "numero": "2014NE00030",
+      "contrato": "6/2011",
+      "valor": 1957.1,
       "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE INFORMAÇÃO PARA DISPONIBILIZAÇÃO DOS SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 6/2011 - Sistema Controle de Pessoal - CPBM"
     },
     {
       "numero": "2017NE01535",
@@ -1277,6 +1269,14 @@
       "situacao": "Ativo",
       "data_emissao": "01/11/2017",
       "descricao": "PRESTAÇÃO DE SERVIÇO DE MANUTENÇÃO DO SISTEMA DE PROCESSAMENTO DE CONTROLE DE PESSOAL DA DIRETORIA DE RECURSOS HUMANOS DO CBMAM"
+    },
+    {
+      "numero": "2017NE01534",
+      "contrato": "1/2017",
+      "valor": 2584.09,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMA DE INFORMAÇÃO PARA DISPONIBILIZAÇÃO DOS SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB)."
     },
     {
       "numero": "2022NE0000556",
@@ -1303,20 +1303,20 @@
       "descricao": "Serviço de processamento do Sistema de Controle de pessoal para o CBMAM (CPBM)."
     },
     {
-      "numero": "2023NE0000452",
-      "contrato": "6/2021",
-      "valor": 510.75,
-      "situacao": "Ativo",
-      "data_emissao": "01/06/2023",
-      "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM. TC: 0006/2021 AD: 02."
-    },
-    {
       "numero": "2023NE00452",
       "contrato": "6/2021",
       "valor": 510.75,
       "situacao": "Ativo",
       "data_emissao": "01/06/2023",
       "descricao": "1º TA Contrato 006/2021 - Processamento do Controle de Pessoal"
+    },
+    {
+      "numero": "2023NE0000452",
+      "contrato": "6/2021",
+      "valor": 510.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/06/2023",
+      "descricao": "1º Termo aditivo ao contrato 006/2021 de prorrogação de prazo por 12 meses e reajuste de valor de 14,77%. Serviços especializados para o funcionamento e manutenção do sistema do processamento do controle de pessoal da DRH/CBMAM. TC: 0006/2021 AD: 02."
     }
   ],
   "faturas": [
@@ -1400,7 +1400,7 @@
         },
         "2019": {
           "qtd": 18,
-          "valor": 45887.41
+          "valor": 45887.40999999999
         },
         "2022": {
           "qtd": 9,

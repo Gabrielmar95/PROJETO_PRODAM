@@ -1,9 +1,9 @@
 ﻿numero;contrato;data_emissao;valor;situacao;descricao
-2020NE00361;;31/12/2020;3856,14;Ativo;Cancelamento por força do Decreto de nº 43.042 de 18 de Novembro de 2020.
 2020NE00363;;31/12/2020;9000,0;Ativo;Cancelamento por força do Decreto de nº 43.042 de 18 de Novembro de 2020.
+2020NE00361;;31/12/2020;3856,14;Ativo;Cancelamento por força do Decreto de nº 43.042 de 18 de Novembro de 2020.
 2021NE00221;9/2019;31/05/2021;247000,0;Ativo;3º Termo Aditivo ao Contrato 009/2019 - PRODAM RH
-2017NE00270;10/2014;31/05/2017;174000,0;Ativo;4º Termo Aditivo ao Contrato 10/2014 - CFPP - Prorrogação de prazo por 12 meses.
 2017NE00270;10/2014;31/05/2017;174000,0;Ativo;NE 270 DE 31/05/2017 NO VALOR DE R$ 174.000,00 4º TERMO ADITIVO AO CONTRATO 10/2014 - CFPP SUPRESSÃO DE 12,99%
+2017NE00270;10/2014;31/05/2017;174000,0;Ativo;4º Termo Aditivo ao Contrato 10/2014 - CFPP - Prorrogação de prazo por 12 meses.
 2016NE00238;10/2014;31/05/2016;150000,0;Ativo;NE 238 DE 31/05/2016 R$ 150.000,00 - 2º Termo Aditivo ao Contrato 10/2014 - CFPP
 2014NE00038;2/2014;31/01/2014;22000,0;Ativo;Contrato No. 2/2014 - Serviços Eventuais
 2019NE00535;;30/12/2019;3646,7;Ativo;ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2019NE00018, CONFORME ESTABELECIDO PELO DECRETO Nº 41.554, DE 26 DE NOVEMBRO DE 2019, EM SEU ARTIGO. 3º.- ANEXO ÚNICO.
@@ -15,19 +15,19 @@
 2024NE01142;13/2021;29/11/2024;5598,05;Ativo;Cobertura Contratual 3º TA
 2015NE00355;3/2015;29/10/2015;6186,27;Ativo;Cobertura Financeira 2015 Contrato 003/2015 - Serviços de Rede NE 355 de 29/10/15 R$ 6.186,27
 2017NE00466;6/2016;29/09/2017;12000,0;Ativo;Prestação de serviços de forma eventual.
-2023NE0000325;;29/06/2023;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2023NE0000324;;29/06/2023;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
-2022NE0000583;;28/12/2022;2456,76;Ativo;Anulação do Saldo da Nota de Empenho Nº 0020/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022.
-2022NE0000583;;28/12/2022;2456,76;Ativo;Anulação do Saldo da Nota de Empenho Nº 0020/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022.
+2023NE0000325;;29/06/2023;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2022NE0000585;;28/12/2022;5600,0;Ativo;Anulação do Saldo da Nota de Empenho Nº 0029/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022.
 2022NE0000585;;28/12/2022;5600,0;Ativo;Anulação do Saldo da Nota de Empenho Nº 0029/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022.
-2018NE00435;;28/12/2018;8462,67;Ativo;ANULAÇÃO
-2018NE00463;;28/12/2018;31,12;Ativo;CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL.
-2018NE00442;;28/12/2018;7906,8;Ativo;ANULAÇÃO
-2018NE00440;;28/12/2018;267,75;Ativo;ANULAÇÃO
-2018NE00466;;28/12/2018;4744,08;Ativo;CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL.
-2018NE00436;;28/12/2018;613,95;Ativo;ANULAÇÃO
+2022NE0000583;;28/12/2022;2456,76;Ativo;Anulação do Saldo da Nota de Empenho Nº 0020/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022.
+2022NE0000583;;28/12/2022;2456,76;Ativo;Anulação do Saldo da Nota de Empenho Nº 0020/2022, em atendimento ao Decreto Nº 46.621, de 11 de novembro de 2022.
 2018NE00465;;28/12/2018;8032,5;Ativo;CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL.
+2018NE00436;;28/12/2018;613,95;Ativo;ANULAÇÃO
+2018NE00466;;28/12/2018;4744,08;Ativo;CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL.
+2018NE00440;;28/12/2018;267,75;Ativo;ANULAÇÃO
+2018NE00442;;28/12/2018;7906,8;Ativo;ANULAÇÃO
+2018NE00463;;28/12/2018;31,12;Ativo;CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL.
+2018NE00435;;28/12/2018;8462,67;Ativo;ANULAÇÃO
 2025NE0000372;5/2021;28/08/2025;169,57;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2025NE0000140;5/2021;28/04/2025;339,14;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2017NE00107;4/2013;28/03/2017;357,0;Ativo;REFORÇO
@@ -36,229 +36,229 @@
 2021NE00565;9/2021;27/10/2021;76800,0;Ativo;Serviço de Licença de uso de Sistema de Informação
 2025NE0000370;2/2025;27/08/2025;1374,42;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2020NE00123;2/2020;27/04/2020;14741,52;Ativo;CONTRATAÇÃO VISANDO A PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE PROTOCOLO EM PLATAFORMA WEB (SPROWEB), PARA ACESSO A LOCALIZAÇÃO E DISPONIBILIZAÇÃO DO HISTÓRICO DE TRÂMITES DE DOCUMENTOS E PROCESSOS EXPEDID
-2015NE00103;4/2013;27/02/2015;12242,26;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NESTA SDS NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12274/14.
-2015NE00104;22/2014;27/02/2015;1989,0;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET DO PARQUE SUMAÚMA NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 22/14, CONFORME NFS-E N.º. 12712/14
-2015NE00111;2/2014;27/02/2015;1609,88;Ativo;DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 02/14, CONFORME NFS-E N.º. 12515/14.
-2015NE00102;4/2013;27/02/2015;12242,26;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NESTA SDS NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12711/14
-2015NE00101;4/2013;27/02/2015;12242,26;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NA SDS NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12514/14.
-2015NE00109;2/2014;27/02/2015;3773,48;Ativo;DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º02/14, CONFORME NFS-E N.º. 12710/12709/14
-2015NE00107;6/2011;27/02/2015;1500,0;Ativo;DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO VIA WEB (SPROWEB) NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12958/14.
-2015NE00108;6/2011;27/02/2015;1500,0;Ativo;DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO VIA WEB (SPROWEB) NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12275/14.
-2015NE00110;2/2014;27/02/2015;1986,48;Ativo;DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 02/14, CONFORME NFS-E N.º. 12273/14.
-2015NE00105;22/2014;27/02/2015;33799,53;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET DO PARQUE SUMAÚMA NOS MESES DE SETEMBRO, OUTUBRO E NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 22/14, CONFORME NFS-E N.º. 12516/1251
 2015NE00106;6/2011;27/02/2015;1500,0;Ativo;DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12573/14.
-2024NE0000315;;26/08/2024;2879,46;Ativo;Anulação da Nota de Empenho Nº 314, para alteração do valor empenhado.
+2015NE00105;22/2014;27/02/2015;33799,53;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET DO PARQUE SUMAÚMA NOS MESES DE SETEMBRO, OUTUBRO E NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 22/14, CONFORME NFS-E N.º. 12516/1251
+2015NE00110;2/2014;27/02/2015;1986,48;Ativo;DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 02/14, CONFORME NFS-E N.º. 12273/14.
+2015NE00108;6/2011;27/02/2015;1500,0;Ativo;DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO VIA WEB (SPROWEB) NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12275/14.
+2015NE00107;6/2011;27/02/2015;1500,0;Ativo;DESPESA RELATIVA AO SERVIÇO DE SISTEMA DE PROTOCOLO VIA WEB (SPROWEB) NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 06/11, CONFORME NFS-E N.º. 12958/14.
+2015NE00109;2/2014;27/02/2015;3773,48;Ativo;DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º02/14, CONFORME NFS-E N.º. 12710/12709/14
+2015NE00101;4/2013;27/02/2015;12242,26;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NA SDS NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12514/14.
+2015NE00102;4/2013;27/02/2015;12242,26;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NESTA SDS NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12711/14
+2015NE00111;2/2014;27/02/2015;1609,88;Ativo;DESPESA RELATIVA AO SERVIÇO DE MANUTENÇÃO PREVENTIVA E CORRETIVA NO MÊS DE NOVEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 02/14, CONFORME NFS-E N.º. 12515/14.
+2015NE00104;22/2014;27/02/2015;1989,0;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET DO PARQUE SUMAÚMA NO MÊS DE DEZEMBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 22/14, CONFORME NFS-E N.º. 12712/14
+2015NE00103;4/2013;27/02/2015;12242,26;Ativo;DESPESA RELATIVA AO SERVIÇO DE TRANSMISSÃO DE ACESSO A INTERNET NESTA SDS NO MÊS DE OUTUBRO/14, REFERENTE AO TERMO DE CONTRATO N.º 04/13, CONFORME NFS-E N.º. 12274/14.
 2024NE0000314;2/2020;26/08/2024;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
-2023NE00181;5/2021;26/04/2023;317,76;Ativo;Serviço de VPN
-2023NE0000181;5/2021;26/04/2023;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
-2023NE0000182;2/2020;26/04/2023;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
+2024NE0000315;;26/08/2024;2879,46;Ativo;Anulação da Nota de Empenho Nº 314, para alteração do valor empenhado.
 2023NE00182;2/2020;26/04/2023;2879,46;Ativo;Execução de Sistema SPROWEB
+2023NE0000182;2/2020;26/04/2023;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
+2023NE0000181;5/2021;26/04/2023;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
+2023NE00181;5/2021;26/04/2023;317,76;Ativo;Serviço de VPN
 2026NE00068;1/2026;26/01/2026;161559,68;Ativo;Prestação de serviços de suporte técnico e tecnológico para recadastramento de servidores.
 2015NE00121;10/2014;26/01/2015;305181,38;Ativo;Cobertura Financeira Contrato 10/2014 NE 121 DE 26/01/15 R$ 305.181,38
-2020NE00324;;25/11/2020;8032,5;Ativo;Despesa de Exercícios Anteriores referente ao serviço de Acesso Gerenciado a Rede Mundial , CT. 12/2018, mês de dezembro/2018.
-2020NE00323;;25/11/2020;1581,36;Ativo;Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de outubro/2018.
-2020NE00327;;25/11/2020;1632,01;Ativo;Pagamento a PRODAM Processamento de Dados Amazonas S/A, pelos serviços prestados no Sistema de Protocolo WEB, conforme Nota Fiscal 12505 - mês de dezembro/2019 - RD 003/2020.
-2020NE00328;;25/11/2020;1581,36;Ativo;Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de DEZEMBRO/2018.
-2020NE00326;;25/11/2020;1581,36;Ativo;Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de novembro/2018.
-2020NE00315;;25/11/2020;3424,34;Ativo;Indenização da despesa sem cobertura contratual referente aos serviços prestados de licença de uso de VPN para atender o processamento da Folha de Pagamento desta SEMA, nos meses de abril à setembro/2
 2020NE00325;;25/11/2020;31,12;Ativo;Despesa de Exercícios Anteriores referente ao serviço de e sistemas de Protocolo-SPPROWEB) CT. 01/2017, mês de dezembro/2018.
+2020NE00315;;25/11/2020;3424,34;Ativo;Indenização da despesa sem cobertura contratual referente aos serviços prestados de licença de uso de VPN para atender o processamento da Folha de Pagamento desta SEMA, nos meses de abril à setembro/2
+2020NE00326;;25/11/2020;1581,36;Ativo;Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de novembro/2018.
+2020NE00328;;25/11/2020;1581,36;Ativo;Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de DEZEMBRO/2018.
+2020NE00327;;25/11/2020;1632,01;Ativo;Pagamento a PRODAM Processamento de Dados Amazonas S/A, pelos serviços prestados no Sistema de Protocolo WEB, conforme Nota Fiscal 12505 - mês de dezembro/2019 - RD 003/2020.
+2020NE00323;;25/11/2020;1581,36;Ativo;Despesa de Exercícios Anteriores referente ao serviço de licenças de uso de sistemas de informação-Gestor de Conteudo WEB, CT. 05/2018, mês de outubro/2018.
+2020NE00324;;25/11/2020;8032,5;Ativo;Despesa de Exercícios Anteriores referente ao serviço de Acesso Gerenciado a Rede Mundial , CT. 12/2018, mês de dezembro/2018.
 2024NE0000125;5/2021;25/04/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2025NE0000699;;23/12/2025;55925,37;Ativo;Anulação do saldo remanescente da Nota de Empenho Nº 2025NE0000044 emitida em 02/01/2025, em atendimento ao DECRETO Nº 52.770, de 21 de outubro de 2025, que dispõe sobre o encerramento da execução orç
 2022NE0000519;;23/11/2022;150,67;Ativo;Reforço a Nota de Empenho nº 2022NE000149, contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que
 2024NE0000265;2/2020;23/07/2024;1439,73;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2023NE01034;13/2021;22/11/2023;5509,2;Ativo;NE 1034 Cobertura Financeira
 2024NE0000264;5/2021;22/07/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
-2015NE00236;3/2015;22/07/2015;4124,18;Ativo;Complemento cobertura financeira 2015
 2015NE00241;10/2014;22/07/2015;320000,0;Ativo;Complemento Cobertura Financeira 2015
+2015NE00236;3/2015;22/07/2015;4124,18;Ativo;Complemento cobertura financeira 2015
 2024NE00468;7/2023;21/05/2024;448265,08;Ativo;Cobertura Financeira
-2018NE00083;;21/02/2018;11015,49;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
-2018NE00094;1/2017;21/02/2018;613,95;Ativo;SPROWEB
-2018NE00084;1/2017;21/02/2018;19478,96;Ativo;contratação de serviço de acesso ao protocolo SPROWEB
-2018NE00089;;21/02/2018;19478,96;Ativo;SEMA
-2018NE00093;1/2017;21/02/2018;19478,96;Ativo;SPROWEB
-2018NE00090;;21/02/2018;21152,25;Ativo;ANULAÇÃO
-2018NE00088;;21/02/2018;11015,49;Ativo;anulação
-2018NE00095;1/2017;21/02/2018;11015,49;Ativo;CONTRATO N.º 15/2017, SERVIÇO DE SITE
-2018NE00082;1/2017;21/02/2018;613,95;Ativo;contratação de serviço de acesso ao SPROWEB, sistema de protocolo.
-2018NE00091;;21/02/2018;613,95;Ativo;ANULAÇÃO
-2018NE00081;4/2013;21/02/2018;21152,25;Ativo;Contratação de Serviço de acesso a rede de internet.
 2018NE00092;4/2013;21/02/2018;21152,25;Ativo;Internet
-2021NE0000018;;21/01/2021;7370,76;Ativo;ANULAÇÃO DA NOTA DE EMPENHO No. 2021NE0000002, PARA CORREÇÃO NA DATA DA EMISSÃO.
+2018NE00081;4/2013;21/02/2018;21152,25;Ativo;Contratação de Serviço de acesso a rede de internet.
+2018NE00091;;21/02/2018;613,95;Ativo;ANULAÇÃO
+2018NE00082;1/2017;21/02/2018;613,95;Ativo;contratação de serviço de acesso ao SPROWEB, sistema de protocolo.
+2018NE00095;1/2017;21/02/2018;11015,49;Ativo;CONTRATO N.º 15/2017, SERVIÇO DE SITE
+2018NE00088;;21/02/2018;11015,49;Ativo;anulação
+2018NE00090;;21/02/2018;21152,25;Ativo;ANULAÇÃO
+2018NE00093;1/2017;21/02/2018;19478,96;Ativo;SPROWEB
+2018NE00089;;21/02/2018;19478,96;Ativo;SEMA
+2018NE00084;1/2017;21/02/2018;19478,96;Ativo;contratação de serviço de acesso ao protocolo SPROWEB
+2018NE00094;1/2017;21/02/2018;613,95;Ativo;SPROWEB
+2018NE00083;;21/02/2018;11015,49;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
 2021NE0000002;2/2020;21/01/2021;7370,76;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites d
-2019NE00510;;19/12/2019;3162,72;Ativo;ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2019NE0001, POR ENCERRAMENTO DA VIGÊNCIA DO TERMO DE CONTRATO.
+2021NE0000018;;21/01/2021;7370,76;Ativo;ANULAÇÃO DA NOTA DE EMPENHO No. 2021NE0000002, PARA CORREÇÃO NA DATA DA EMISSÃO.
 2019NE00516;;19/12/2019;3,42;Ativo;ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2019NE00136, POR ENCERRAMENTO DO EXERCÍCIO, CONFORME ESTABELECIDO NO DECRETO Nº 41.554, DE 26 DE NOVEMBRO DE 2019, EM SEU ANEXO ÚNICO.
+2019NE00510;;19/12/2019;3162,72;Ativo;ANULAÇÃO DO SALDO DA NOTA DE EMPENHO Nº 2019NE0001, POR ENCERRAMENTO DA VIGÊNCIA DO TERMO DE CONTRATO.
 2022NE0000345;;19/08/2022;301,34;Ativo;Reforço a Nota de Empenho nº 2022NE000149, contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que
 2021NE0000075;5/2021;19/04/2021;1299,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma.
 2024NE0000070;38/2023;19/03/2024;70284,84;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2019NE00086;10/2014;19/02/2019;39,6;Ativo;Reforço da NE00029
 2025NE01466;22/2025;18/12/2025;10000,0;Ativo;Serviço de envelopamento
-2017NE00452;;18/12/2017;8851,74;Ativo;ANULAÇÃO
-2017NE00438;;18/12/2017;1246,55;Ativo;ANULAÇÃO
 2017NE00439;;18/12/2017;2677,5;Ativo;ANULAÇÃO
+2017NE00438;;18/12/2017;1246,55;Ativo;ANULAÇÃO
+2017NE00452;;18/12/2017;8851,74;Ativo;ANULAÇÃO
 2024NE0000476;38/2023;18/11/2024;11714,14;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2022NE0000344;;18/08/2022;2730,64;Ativo;Reforço a Nota de Empenho Nº 2022NE000166, Parte do Saldo do 2º Termo Aditivo ao Contrato n.º 002/2020, serviços de Sistema de Protocolo em Plataforma Web (Sproweb), para atender as necessidades de re
 2016NE00167;4/2013;18/03/2016;43468,8;Ativo;Cobertura Financeira 2016
 2017NE00243;1/2017;17/07/2017;2950,58;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
-2024NE0000524;38/2023;16/12/2024;8455,69;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2024NE0000525;;16/12/2024;2717,66;Ativo;Anulação total da Nota de Empenho Nº 502, emitida em 26/11/2024, devido a celebração do 1º termo aditivo do termo de Contrato Nº 38/2023 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S A, no mês de Dezembr
-2016NE00395;4/2013;16/12/2016;10187,39;Ativo;REFORÇO REFERENTE AO MÊS DE DEZEMBRO/16
+2024NE0000524;38/2023;16/12/2024;8455,69;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2016NE00396;6/2011;16/12/2016;1860,46;Ativo;REFORÇO REFERENTE AO MÊS DE DEZEMBRO/16
+2016NE00395;4/2013;16/12/2016;10187,39;Ativo;REFORÇO REFERENTE AO MÊS DE DEZEMBRO/16
 2024NE0000339;38/2023;16/09/2024;11714,14;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2021NE0000241;;16/09/2021;654,6;Ativo;Despesa por indenização através de Reconhecimento de Dívida - RD Nº 003/2021, por serviços prestados de licença de uso de VPN no mês de outubro/2020 - NF Nº 18649 - TAC Nº 002/2021.
 2021NE0000065;;16/04/2021;1042,0;Ativo;Anulação da Nota de Empenho Nº 2021NE000035, para ajuste no cronograma de desembolso visando a contratação dos serviços.
 2015NE00002;85/2011;16/01/2015;8000,0;Ativo;Cobertura Financeira 2015
-2017NE00158;;15/05/2017;42840,0;Ativo;ANULAÇÃO
 2017NE00159;;15/05/2017;42840,0;Ativo;REFORÇO
+2017NE00158;;15/05/2017;42840,0;Ativo;ANULAÇÃO
 2025NE0000636;38/2023;13/11/2025;8455,69;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
-2024NE0000064;5/2021;13/03/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2024NE0000063;2/2020;13/03/2024;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
+2024NE0000064;5/2021;13/03/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2021NE0000329;36/2021;12/11/2021;1400,0;Ativo;Contratação de empresa especializada para execução do Sistema PRODAMRH – Cadastro e Folha de Pagamento de Pessoal, somente para a execução de folhas extras não contempladas pelo contrato da SEAD.
 2021NE0000035;;12/02/2021;1042,0;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma.
-2017NE00025;1/2017;12/01/2017;6759,67;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
-2017NE00026;;12/01/2017;6759,67;Ativo;ANULAÇÃO PARA CORREÇÃO NA MODALIDADE
 2017NE00027;1/2017;12/01/2017;6759,67;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
+2017NE00026;;12/01/2017;6759,67;Ativo;ANULAÇÃO PARA CORREÇÃO NA MODALIDADE
+2017NE00025;1/2017;12/01/2017;6759,67;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
 2023NE0000658;38/2023;11/12/2023;16212,38;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2025NE0000635;;11/11/2025;8455,69;Ativo;Anulação Parcial do Saldo Remanescente do valor mensal estimado da Nota de Empenho Nº 2025NE0000044, serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web 
 2012NE00432;10/2014;11/09/2018;111157,34;Ativo;Contrato 10/2014 - Processamento de folha de pagamento
 2024NE0000242;38/2023;11/07/2024;23428,28;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2019NE00018;1/2017;11/01/2019;4914,12;Ativo;Contratação de serviço do Sistema Sproweb
-2023NE0000639;2/2020;10/11/2023;1439,73;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
-2023NE0000631;5/2021;10/11/2023;158,88;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2023NE0000630;5/2021;10/11/2023;158,88;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
+2023NE0000631;5/2021;10/11/2023;158,88;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
+2023NE0000639;2/2020;10/11/2023;1439,73;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2018NE00498;6/2016;10/10/2018;8000,0;Ativo;Serviços Eventuais de Informatica - 2º TA ao Contrato 006/2016
 2016NE00403;6/2016;10/10/2016;16000,0;Ativo;NE 403 DE 10/10/2016 R$ 16.000,00
 2021NE00664;13/2021;09/12/2021;8000,0;Ativo;Sistema de Informação, Desenvolvimento, impressão e envelopamento.
-2021NE0000223;5/2021;09/09/2021;515,52;Ativo;Reforço a Nota de Empenho Nº 2021NE000075, complemento do Contrato nº 05/2021 - Prestação de serviços de VPN (Virtual Private Network), necessário para acessar sistemas específicos do Estado, no caso 
 2021NE0000220;2/2020;09/09/2021;9265,8;Ativo;Reforço a Nota de Empenho Nº 2021NE000089, do 1º Termo Aditivo ao Termo de Contrato Nº 002/2020, para prorrogação do prazo pelo período de 12 (doze) meses + reequilíbrio financeiro, referente a presta
+2021NE0000223;5/2021;09/09/2021;515,52;Ativo;Reforço a Nota de Empenho Nº 2021NE000075, complemento do Contrato nº 05/2021 - Prestação de serviços de VPN (Virtual Private Network), necessário para acessar sistemas específicos do Estado, no caso 
 2015NE00565;2/2014;09/09/2015;213,0;Ativo;ANULAÇÃO TOTAL PARA AJUSTE ORÇAMENTÁRIO TENDO EM VISTA O ENCERRAMENTO DO EXERCÍCIO FINANCEIRO DE 2015.
 2024NE0000371;;08/10/2024;11714,14;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2020NE00517;6/2016;08/10/2020;8000,0;Ativo;Quarto Termo Aditivo ao Contrato 006/20216 - Serviço Eventuais
-2019NE00406;1/2017;08/10/2019;5528,07;Ativo;REFORÇO A NOTA DE EMPENHO 2019NE00018, DESEMBOLSO DE OUTUBRO, NOVEMBRO E DEZEMBRO DO 3º TERMO ADITIVO AO CONTRATO 001/2017.
 2019NE00411;4/2018;08/10/2019;25917,06;Ativo;Reforço referente Saldo do 1º Termo Aditivo ao Termo de Contrato nº 004/2018, referente serviços de sistema de rede, contemplando o acesso a rede mundial de internet.
+2019NE00406;1/2017;08/10/2019;5528,07;Ativo;REFORÇO A NOTA DE EMPENHO 2019NE00018, DESEMBOLSO DE OUTUBRO, NOVEMBRO E DEZEMBRO DO 3º TERMO ADITIVO AO CONTRATO 001/2017.
 2025NE0000284;38/2023;08/07/2025;16911,38;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2020NE00174;;08/07/2020;26206,74;Ativo;Anulação do Saldo da Nota de Empenho Nº 2020NE00005, pelo Distrato do Termo de Contrato Nº 004/2018, a contar do dia 07/02/2020, por mútuo acordo dos Contratantes, conforme Termo de Distrato Nº 001/20
 2020NE00095;1/2020;08/04/2020;3856,14;Ativo;CONTRATAÇÃO PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS DE INFORMÁTICA, COMPREENDENDO A DISPONIBILIDADE DE CLIENTES VPN (VIRTUAL PRIVATE NETWORK), PARA ACESSO A SISTEMA ESPECÍFICO DO ESTADO DE FOLHA DE PAGAME
 2026NE0000040;38/2023;08/01/2026;26250,48;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
-2024NE0000461;2/2020;07/11/2024;1439,73;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
-2024NE0000443;2/2020;07/11/2024;1439,73;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2024NE0000444;5/2021;07/11/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
+2024NE0000443;2/2020;07/11/2024;1439,73;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
+2024NE0000461;2/2020;07/11/2024;1439,73;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2025NE0000347;5/2021;07/08/2025;339,14;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2014NE00579;22/2014;07/08/2014;37777,53;Ativo;Contrato No. 22/2014
 2021NE0000089;2/2020;07/05/2021;9265,8;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites d
 2022NE0000118;36/2021;07/04/2022;2800,0;Ativo;Reforço a Nota de Empenho nº 2022NE000029, parte do saldo do Termo de Contrato Nº 036/2021 - SEMA-PRODAM, para execução do Sistema PRODAMRH, Cadastro e Folha de Pagamento de Pessoal, somente para a ex
-2025NE0000078;5/2021;07/03/2025;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
-2025NE0000077;2/2020;07/03/2025;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2025NE0000079;38/2023;07/03/2025;16911,38;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
+2025NE0000077;2/2020;07/03/2025;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
+2025NE0000078;5/2021;07/03/2025;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2017NE00070;4/2013;07/03/2017;14280,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
-2024NE0000440;5/2021;06/11/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2024NE0000439;2/2020;06/11/2024;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
-2025NE01088;17/2025;06/10/2025;713425,66;Ativo;Implantação, manutenção evolutiva e corretiva, suporte técnico, gestão e treinamento do Sistema Eletrônico de Informações - SEI
+2024NE0000440;5/2021;06/11/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2025NE0000443;38/2023;06/10/2025;8455,69;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
-2023NE0000536;2/2020;06/10/2023;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
+2025NE01088;17/2025;06/10/2025;713425,66;Ativo;Implantação, manutenção evolutiva e corretiva, suporte técnico, gestão e treinamento do Sistema Eletrônico de Informações - SEI
 2023NE0000537;5/2021;06/10/2023;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
+2023NE0000536;2/2020;06/10/2023;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2025NE0000344;2/2025;06/08/2025;2748,84;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2025NE0000165;38/2023;06/05/2025;16911,38;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2022NE0000166;2/2020;06/05/2022;5461,28;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites d
 2025NE0000673;38/2023;05/12/2025;6562,62;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
-2015NE00045;6/2011;05/01/2015;6624,45;Ativo;ANULAÇÃO TOTAL PARA ACERTO QUANTO AO REAJUSTE COM BASE NO IGPM.
-2015NE00017;6/2011;05/01/2015;6624,45;Ativo;3º TERMO DE ADITAMENTO AO CONTRATO Nº 006/2011, POR MAIS 12 MESES COM REAJUSTE DE 4,88% NO VALOR, ENTRE ESTA SDS E A EMPRESA PRODAM PROCESSAMENTO DE DADOS PARA O SERVIÇO DE PROTOCOLO DIGITAL (SPROWEB)
-2015NE00009;22/2014;05/01/2015;5967,0;Ativo;Cobertura Financeira 2015
-2015NE00011;2/2014;05/01/2015;2000,0;Ativo;Cobertura Financeira 2015
-2015NE00046;6/2011;05/01/2015;6566,31;Ativo;Cobertura Financeira 2015
 2015NE00018;4/2013;05/01/2015;24484,52;Ativo;Cobertura Financeira 2015
+2015NE00046;6/2011;05/01/2015;6566,31;Ativo;Cobertura Financeira 2015
+2015NE00011;2/2014;05/01/2015;2000,0;Ativo;Cobertura Financeira 2015
+2015NE00009;22/2014;05/01/2015;5967,0;Ativo;Cobertura Financeira 2015
+2015NE00017;6/2011;05/01/2015;6624,45;Ativo;3º TERMO DE ADITAMENTO AO CONTRATO Nº 006/2011, POR MAIS 12 MESES COM REAJUSTE DE 4,88% NO VALOR, ENTRE ESTA SDS E A EMPRESA PRODAM PROCESSAMENTO DE DADOS PARA O SERVIÇO DE PROTOCOLO DIGITAL (SPROWEB)
+2015NE00045;6/2011;05/01/2015;6624,45;Ativo;ANULAÇÃO TOTAL PARA ACERTO QUANTO AO REAJUSTE COM BASE NO IGPM.
 2019NE00517;6/2016;04/10/2019;47410,49;Ativo;Prestação de Serviços Eventuais
 2025NE00608;7/2023;04/06/2025;1613757,18;Ativo;Cobertura Financeira
 2021NE0000020;2/2020;04/01/2021;7370,76;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites d
-2016NE00028;6/2011;04/01/2016;11162,76;Ativo;CONTRATAÇÃO DE SERVIÇO DO SISTEMA DE PROTOCOLO INFORMATIZADO EM PLATAFORMA WEB (SPROWEB).
 2016NE00015;4/2013;04/01/2016;19587,62;Ativo;CONTRATAÇÃO DE SERVIÇO DE TELECOMUNICAÇÃO, PARA PROVER SERVIÇOS DE CONEXÃO DEDICADOS E EXCLUSIVOS A REDE DE INTERNET VIA FIBRA ÓTICA EM DIVERSAS VELOCIDADES, COM SUPRESSÃO DE 20%.
-2015NE00662;;03/12/2015;7387,73;Ativo;ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015
+2016NE00028;6/2011;04/01/2016;11162,76;Ativo;CONTRATAÇÃO DE SERVIÇO DO SISTEMA DE PROTOCOLO INFORMATIZADO EM PLATAFORMA WEB (SPROWEB).
 2015NE00661;;03/12/2015;9883,63;Ativo;ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015
-2025NE0000610;5/2021;03/11/2025;339,14;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
+2015NE00662;;03/12/2015;7387,73;Ativo;ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015
 2025NE0000609;2/2025;03/11/2025;2748,84;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
-2022NE0000459;5/2021;03/11/2022;150,67;Ativo;Reforço a Nota de Empenho nº 2022NE000149, contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que
+2025NE0000610;5/2021;03/11/2025;339,14;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2022NE0000458;2/2020;03/11/2022;1365,32;Ativo;Reforço a Nota de Empenho Nº 2022NE000166, Parte do Saldo do 2º Termo Aditivo ao Contrato n.º 002/2020, serviços de Sistema de Protocolo em Plataforma Web (Sproweb), para atender as necessidades de re
-2025NE0000442;5/2021;03/10/2025;169,57;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
+2022NE0000459;5/2021;03/11/2022;150,67;Ativo;Reforço a Nota de Empenho nº 2022NE000149, contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que
 2025NE0000441;2/2025;03/10/2025;1374,42;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
-2016NE00355;6/2011;03/10/2016;1860,46;Ativo;REFORÇO DO MÊS DE OUTUBRO/2016
-2016NE00353;4/2013;03/10/2016;10867,2;Ativo;REFORÇO MÊS DE OUTUBRO/16
-2016NE00355;;03/10/2016;1860,46;Ativo;REFORÇO DO MÊS DE OUTUBRO/2016
+2025NE0000442;5/2021;03/10/2025;169,57;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2016NE00353;;03/10/2016;10867,2;Ativo;REFORÇO MÊS DE OUTUBRO/16
+2016NE00355;;03/10/2016;1860,46;Ativo;REFORÇO DO MÊS DE OUTUBRO/2016
+2016NE00353;4/2013;03/10/2016;10867,2;Ativo;REFORÇO MÊS DE OUTUBRO/16
+2016NE00355;6/2011;03/10/2016;1860,46;Ativo;REFORÇO DO MÊS DE OUTUBRO/2016
 2018NE00466;10/2018;03/09/2018;59726,26;Ativo;Serviço de Capacitação e implantação de Software.
-2015NE00537;6/2011;03/09/2015;1888,11;Ativo;ANULAÇÃO TOTAL PARA AJUSTE ORÇAMENTÁRIO
 2015NE00539;22/2014;03/09/2015;3580,2;Ativo;REFORÇO da ne 326/15 A FIM DE COBRIR O SALDO DESCOBERTO DO TERMO DE CONTRATO, CONSIDERANDO DP/ 565-15 EMITIDO PELA PRODAM PROCESSAMENTO DE DADOS ÀS FLS. 37 E NOTA TÉCNICA Nº 02/15-GETI/SEMA ÀS FLS. 38
-2019NE00300;9/2019;03/06/2019;814458,0;Ativo;Serviço de Execução de Sistemas PRODAM-RH
+2015NE00537;6/2011;03/09/2015;1888,11;Ativo;ANULAÇÃO TOTAL PARA AJUSTE ORÇAMENTÁRIO
 2019NE00300;9/2019;03/06/2019;814458,0;Ativo;NE 300 DE 03/06/2019 NO VALOR DE R$ 814.458,00 - REFERENTE AO CONTRATO 009/2019 - PRODAM RH - SEMAD
-2022NE0000021;5/2021;03/01/2022;515,52;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma.
-2022NE0000029;36/2021;03/01/2022;2800,0;Ativo;Contratação de empresa especializada para execução do Sistema PRODAMRH – Cadastro e Folha de Pagamento de Pessoal, somente para a execução de folhas extras não contempladas pelo contrato da SEAD.
+2019NE00300;9/2019;03/06/2019;814458,0;Ativo;Serviço de Execução de Sistemas PRODAM-RH
 2022NE0000020;2/2020;03/01/2022;9265,8;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites d
+2022NE0000029;36/2021;03/01/2022;2800,0;Ativo;Contratação de empresa especializada para execução do Sistema PRODAMRH – Cadastro e Folha de Pagamento de Pessoal, somente para a execução de folhas extras não contempladas pelo contrato da SEAD.
+2022NE0000021;5/2021;03/01/2022;515,52;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma.
 2025NE0000379;38/2023;02/09/2025;8455,69;Ativo;Contratação de Empresa esp. em serviços de Uso de Sist. de Informação, compreendendo a disponibilização de Gestor de Conteúdo Web para publicação de informações, notícias, vídeos e imagens via website
 2019NE00492;10/2018;02/09/2019;32000,0;Ativo;NE 492 DE 02/09/2019 - COBERTURA FINANCEIRA DO CONTRATO 010/2018 - PRORROGAÇÃO DE PRAZO E REAJUSTE DE 6,4113%
 2023NE00583;7/2023;02/06/2023;2689595,3;Ativo;Cobertura Financeira
 2024NE0000131;2/2020;02/05/2024;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
 2022NE0000149;5/2021;02/05/2022;602,68;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma.
-2018NE00166;4/2018;02/05/2018;64260,0;Ativo;contratação de serviço de gerenciamento e acesso a internet.
 2018NE00169;5/2018;02/05/2018;12650,88;Ativo;SERVIÇO DE CONTRATAÇÃO DO SITE DESTA SEMA
-2017NE00141;4/2013;02/05/2017;42840,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
+2018NE00166;4/2018;02/05/2018;64260,0;Ativo;contratação de serviço de gerenciamento e acesso a internet.
 2017NE00140;;02/05/2017;7441,84;Ativo;E SPROWEB
-2015NE00144;2/2014;02/03/2015;4146,0;Ativo;ANULAÇÃO TOTAL TENDO EM VISTA QUE ESTA SECRETARIA NÃO MANIFESTOU INTERESSE EM PRORROGAR O CONTRATO Nº 002/14.
+2017NE00141;4/2013;02/05/2017;42840,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
 2015NE00145;4/2013;02/03/2015;12691,55;Ativo;Cobertura Financeira 2015 - Março
+2015NE00144;2/2014;02/03/2015;4146,0;Ativo;ANULAÇÃO TOTAL TENDO EM VISTA QUE ESTA SECRETARIA NÃO MANIFESTOU INTERESSE EM PRORROGAR O CONTRATO Nº 002/14.
 2015NE00070;2/2014;02/02/2015;4146,0;Ativo;1º TERMO DE ADITAMENTO AO CONTRATO Nº 002/2014, PRAZO E VALOR, COM REAJUSTE DE 3,65%, A SER FIRMADO ENTRE ESTA SDS E A EMPRESA PRODAM PROCESSAMENTO DE DADOS PARA SERVIÇOS EVENTUAIS EM MANUTENÇÃO DOS E
 2015NE00125;85/2011;02/02/2015;40000,0;Ativo;Complemento cobertura financeira 2015
 2025NE0000039;5/2021;02/01/2025;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
-2024NE0000006;5/2021;02/01/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2024NE0000005;2/2020;02/01/2024;2879,46;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB(SPROWEB), p/ atender as necessidades de registro eletrônico, acesso a localização e disp. de histórico de trâmites de doc. e proce
-2023NE0000003;;02/01/2023;602,68;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma.
+2024NE0000006;5/2021;02/01/2024;317,76;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma, Parece
 2023NE0000002;;02/01/2023;5461,28;Ativo;Contratação para prestação de serviços de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmites d
-2020NE00005;4/2018;02/01/2020;34844,05;Ativo;Serviços de sistema de rede, contemplando o acesso a gerenciamento a rede mundial de internet através da rede de Governo.
+2023NE0000003;;02/01/2023;602,68;Ativo;Contratação para prestação de serviços de VPN (Virtual Private Network), para acessar sistemas específicos do Estado, no caso em tela Folha de Pagamento, que é armazenado no mainframe da mesma.
 2020NE00001;1/2017;02/01/2020;613,95;Ativo;Execução de Sistema de Informação - Serviço de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades de registro eletrônico, acesso a localização e disponibilização de histórico de trâmi
-2019NE00077;10/2014;02/01/2019;640000,0;Ativo;CFPP
-2019NE00078;6/2016;02/01/2019;8000,0;Ativo;Serviços Eventuais
-2019NE00029;10/2014;02/01/2019;339162,4;Ativo;Cobertura Financeira do 6 º Termo Aditivo
-2019NE00001;5/2018;02/01/2019;4744,08;Ativo;SERVIÇO DE CONTRATAÇÃO DO SITE DESTA SEMA
-2019NE00004;4/2018;02/01/2019;24097,5;Ativo;contratação de serviço de gerenciamento e acesso a internet.
+2020NE00005;4/2018;02/01/2020;34844,05;Ativo;Serviços de sistema de rede, contemplando o acesso a gerenciamento a rede mundial de internet através da rede de Governo.
 2019NE00005;1/2017;02/01/2019;613,96;Ativo;contratação de serviço de acesso ao protocolo SPROWEB
-2018NE00047;;02/01/2018;11015,49;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
-2018NE00043;1/2017;02/01/2018;613,95;Ativo;contratação de serviço de acesso ao SPROWEB, sistema de protocolo.
-2018NE00048;1/2017;02/01/2018;19478,96;Ativo;contratação de serviço de acesso ao protocolo SPROWEB
+2019NE00004;4/2018;02/01/2019;24097,5;Ativo;contratação de serviço de gerenciamento e acesso a internet.
+2019NE00001;5/2018;02/01/2019;4744,08;Ativo;SERVIÇO DE CONTRATAÇÃO DO SITE DESTA SEMA
+2019NE00029;10/2014;02/01/2019;339162,4;Ativo;Cobertura Financeira do 6 º Termo Aditivo
+2019NE00078;6/2016;02/01/2019;8000,0;Ativo;Serviços Eventuais
+2019NE00077;10/2014;02/01/2019;640000,0;Ativo;CFPP
 2018NE00042;4/2013;02/01/2018;21152,25;Ativo;Contratação de Serviço de acesso a rede de internet.
+2018NE00048;1/2017;02/01/2018;19478,96;Ativo;contratação de serviço de acesso ao protocolo SPROWEB
+2018NE00043;1/2017;02/01/2018;613,95;Ativo;contratação de serviço de acesso ao SPROWEB, sistema de protocolo.
+2018NE00047;;02/01/2018;11015,49;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
 2017NE00001;4/2013;02/01/2017;21734,4;Ativo;contratação de serviço de telecomunicação para prover serviços de conexão a internet via fibra ótica em diversas velocidades.
-2017NE00126;10/2014;02/01/2017;584000,0;Ativo;Cobertura Financeira 2017 - Contrato 10/2014
 2017NE00098;10/2014;02/01/2017;373940,6;Ativo;Cobertura Financeira 2017 - Contrato 10/2014
+2017NE00126;10/2014;02/01/2017;584000,0;Ativo;Cobertura Financeira 2017 - Contrato 10/2014
 2015NE00122;10/2014;02/01/2015;865000,0;Ativo;Cobertura Financeira 2015 Contrato 10/2014 - CFPP NE 122 DE 02/01/2015 R$ 865.000,00
-2014NE00004;4/2013;02/01/2014;23203,68;Ativo;Contrato No. 4/2013 - Acesso a rede Internet com banda de 4Mbps
 2014NE00024;6/2011;02/01/2014;25264,8;Ativo;Contrato No. 6/2011 - Cessão de Uso do SproWeb
-2017NE00391;;01/12/2017;1860,46;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
-2017NE00379;;01/12/2017;13387,5;Ativo;ANULAÇÃO DE EMPENHO PARA AJUSTE.
-2017NE00378;;01/12/2017;9120,44;Ativo;ANULAÇÃO DE EMPENHO PARA AJUSTE.
-2017NE00394;;01/12/2017;10710,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
+2014NE00004;4/2013;02/01/2014;23203,68;Ativo;Contrato No. 4/2013 - Acesso a rede Internet com banda de 4Mbps
 2017NE00393;;01/12/2017;1475,29;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
+2017NE00394;;01/12/2017;10710,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
+2017NE00378;;01/12/2017;9120,44;Ativo;ANULAÇÃO DE EMPENHO PARA AJUSTE.
+2017NE00379;;01/12/2017;13387,5;Ativo;ANULAÇÃO DE EMPENHO PARA AJUSTE.
+2017NE00391;;01/12/2017;1860,46;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
 2024NE01044;9/2021;01/11/2024;35305,88;Ativo;3º TA Contrato 009/2021, prorrogação de prazo e reajuste de 4,53%
-2017NE00346;1/2017;01/11/2017;1860,46;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
-2017NE00344;;01/11/2017;10710,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
 2017NE00345;;01/11/2017;1475,29;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
-2016NE00360;6/2011;01/11/2016;1860,46;Ativo;REFORÇO DO MÊS DE NOVEMBRO/16
+2017NE00344;;01/11/2017;10710,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
+2017NE00346;1/2017;01/11/2017;1860,46;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
 2016NE00361;4/2013;01/11/2016;10867,2;Ativo;REFORÇO DO MÊS DE NOVEMBRO/16
-2017NE00290;;01/09/2017;3720,92;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
-2017NE00289;;01/09/2017;2950,58;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
+2016NE00360;6/2011;01/11/2016;1860,46;Ativo;REFORÇO DO MÊS DE NOVEMBRO/16
 2017NE00291;;01/09/2017;21420,0;Ativo;CONTRATAÇÃO DE SERVIÇO DE CONEXÃO DA INTERNET
-2016NE00312;6/2011;01/08/2016;5581,38;Ativo;REFORÇO A NOTA DE EMPENHO Nº 2016NE00028, CORRESPONDENTE AO CONTRATO Nº 006/2011, EM SEU 5º TERMO ADITIVO.
+2017NE00289;;01/09/2017;2950,58;Ativo;CONTRATAÇÃO DE SERVIÇO PARA CRIAÇÃO DO SITE BILÍNGUE
+2017NE00290;;01/09/2017;3720,92;Ativo;CONTRATAÇÃO DE SERVIÇO ESPECIALIZADO NA EXECUÇÃO DO SISTEMA SPROWEB.
 2016NE00311;4/2013;01/08/2016;32601,6;Ativo;REFORÇO DA NOTA DE EMPENHO Nº 2016NE00167, REFERENTE AO CONTRATO Nº 004/2013.
-2019NE00294;;01/07/2019;25917,06;Ativo;REFORÇO
+2016NE00312;6/2011;01/08/2016;5581,38;Ativo;REFORÇO A NOTA DE EMPENHO Nº 2016NE00028, CORRESPONDENTE AO CONTRATO Nº 006/2011, EM SEU 5º TERMO ADITIVO.
 2019NE00293;;01/07/2019;5528,07;Ativo;REFORÇO
+2019NE00294;;01/07/2019;25917,06;Ativo;REFORÇO
 2022NE00552;9/2019;01/06/2022;1155263,49;Ativo;4º Termo Aditivo ao Contrato 009/2019 - PRODAM RH
 2020NE00265;9/2019;01/06/2020;72000,0;Ativo;Execução de Sistema PRODAM-RH
 2015NE00188;10/2014;01/06/2015;179000,0;Ativo;Contrato 10/2014 - 1º Termo Aditivo NE 188 DE 01/06/2015 R$ 179.000,00 Junho - R$ 179.000,00
-2019NE00089;;01/04/2019;5528,07;Ativo;Contratação de serviço do Sistema Sproweb
 2019NE00088;;01/04/2019;8300,25;Ativo;contratação de serviço de gerenciamento e acesso a internet.
-2015NE00272;4/2013;01/04/2015;449,29;Ativo;Cobertura Financeira abril 2015
-2015NE00325;4/2013;01/04/2015;88144,29;Ativo;Cobertura Financeira 2015
-2015NE00326;22/2014;01/04/2015;6364,8;Ativo;1º TERMO DE ADITAMENTO AO CONTRATO Nº 22/2014, COM SUPRESSÃO DE 20% NO VALOR, FIRMADO ENTRE ESTA SECRETARIA DE ESTADO DO MEIO SEMA E A EMPRESA PRODAM PROCESSAMENTO DE DADOS, COM O OBJETIVO DE PROVER S
+2019NE00089;;01/04/2019;5528,07;Ativo;Contratação de serviço do Sistema Sproweb
 2015NE00327;6/2011;01/04/2015;16744,13;Ativo;Cobertura Financeira 2015
+2015NE00326;22/2014;01/04/2015;6364,8;Ativo;1º TERMO DE ADITAMENTO AO CONTRATO Nº 22/2014, COM SUPRESSÃO DE 20% NO VALOR, FIRMADO ENTRE ESTA SECRETARIA DE ESTADO DO MEIO SEMA E A EMPRESA PRODAM PROCESSAMENTO DE DADOS, COM O OBJETIVO DE PROVER S
+2015NE00325;4/2013;01/04/2015;88144,29;Ativo;Cobertura Financeira 2015
+2015NE00272;4/2013;01/04/2015;449,29;Ativo;Cobertura Financeira abril 2015
 2018NE00096;;01/03/2018;11015,49;Ativo;anulação para formalização de novo contrato
-2018NE00059;;01/02/2018;11015,49;Ativo;ANULAÇÃO
-2018NE00057;;01/02/2018;613,95;Ativo;ANULAÇÃO
-2018NE00056;;01/02/2018;21152,25;Ativo;anulação
 2018NE00058;;01/02/2018;19478,96;Ativo;ANULAÇÃO
-2016NE00049;4/2013;01/02/2016;3118,8;Ativo;SERVIÇO DE INTERNET MESES DE OUT E NOV/15
-2016NE00047;4/2013;01/02/2016;9793,81;Ativo;SERVIÇO DE INTERNET MÊS DE 12/15
+2018NE00056;;01/02/2018;21152,25;Ativo;anulação
+2018NE00057;;01/02/2018;613,95;Ativo;ANULAÇÃO
+2018NE00059;;01/02/2018;11015,49;Ativo;ANULAÇÃO
 2016NE00051;4/2013;01/02/2016;1559,4;Ativo;SERVIÇO DE INTERNET MÊS DE DEZEMBRO/15
+2016NE00047;4/2013;01/02/2016;9793,81;Ativo;SERVIÇO DE INTERNET MÊS DE 12/15
+2016NE00049;4/2013;01/02/2016;3118,8;Ativo;SERVIÇO DE INTERNET MESES DE OUT E NOV/15

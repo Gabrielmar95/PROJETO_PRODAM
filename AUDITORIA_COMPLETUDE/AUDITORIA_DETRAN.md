@@ -1,5 +1,5 @@
 # Auditoria de Completude — DETRAN
-**Departamento Estadual de Trânsito do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Departamento Estadual de Trânsito do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -27,7 +27,7 @@
 | Contratos SPCF | 0 | — |
 | Contratos no DB | 0 | — |
 | Empenhos no DB | 470 | R$ 250.316.057,30 |
-| Faturas no DB | 149 | R$ 22.448.434,53 |
+| Faturas no DB | 113 | R$ 17.802.420,55 |
 | Cobranças SPCF | 113 | — |
 
 ## Paths no Projeto
@@ -46,11 +46,16 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (2)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 31684739.01023886
-- **db_faturas:** 22448434.53
-- **delta:** 9236304.48023886
-- **pct:** 29.2%
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 22448434.53
+- **db_faturas:** 17802420.55
+- **delta:** 4646013.98
+- **pct:** 20.7%
+
+### Tipo: `faturas_aberto_qtd_profile_vs_db`
+- **profile:** 149
+- **db:** 113
+- **delta:** 36
 

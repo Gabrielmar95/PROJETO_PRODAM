@@ -1,5 +1,5 @@
 # Auditoria de Completude — BANCO DAYCOVAL
-**** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **9.1%**
 

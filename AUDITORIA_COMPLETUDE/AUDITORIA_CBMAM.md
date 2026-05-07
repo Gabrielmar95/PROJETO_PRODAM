@@ -1,5 +1,5 @@
 # Auditoria de Completude — CBMAM
-**Corpo de Bombeiros Militar do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Corpo de Bombeiros Militar do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,11 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 3134.027944080676
-- **db_faturas:** 1398.6
-- **delta:** 1735.427944080676
-- **pct:** 55.4%
-
+_Nenhuma divergência significativa detectada_

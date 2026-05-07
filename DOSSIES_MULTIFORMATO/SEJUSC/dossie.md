@@ -1,6 +1,6 @@
 # Dossiê Completo — SEJUSC
 **Secretaria de Estado da Justiça, Direitos Humanos e Cidadania** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 04.312.401/0001-38
+Data: 2026-05-07 | CNPJ: 04.312.401/0001-38
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Documentação fraca (5,15% da carteira)
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

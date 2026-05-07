@@ -40,7 +40,12 @@
     "reconciliacao_status": "CRITICAL",
     "reconciliacao_data": "2026-04-01",
     "reconciliacao_divergencia_pct": 100.0,
-    "tem_csv_faturas": false
+    "tem_csv_faturas": false,
+    "cnpj": "04.406.195/0001-25",
+    "fonte_cnpj": "cosama.am.gov.br — sociedade de economia mista",
+    "faturas_exigiveis": 0,
+    "faturas_total": 0,
+    "faturas_prescritas": 0
   },
   "empenhos": [],
   "faturas": [],

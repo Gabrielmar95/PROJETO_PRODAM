@@ -1,5 +1,5 @@
 # Auditoria de Completude — IKM DE
-**IKM DE** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**IKM DE** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **18.2%**
 

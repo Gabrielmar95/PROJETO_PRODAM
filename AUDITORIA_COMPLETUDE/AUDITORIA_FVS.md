@@ -1,5 +1,5 @@
 # Auditoria de Completude — FVS
-**Fundação de Vigilância em Saúde** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação de Vigilância em Saúde** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 321372.9594133031
-- **db_faturas:** 14638.55
-- **delta:** 306734.4094133031
-- **pct:** 95.4%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 23
-- **db:** 1
-- **delta:** 22
-
+_Nenhuma divergência significativa detectada_

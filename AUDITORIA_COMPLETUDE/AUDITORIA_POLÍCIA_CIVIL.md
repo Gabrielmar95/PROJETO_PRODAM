@@ -1,5 +1,5 @@
 # Auditoria de Completude — POLÍCIA CIVIL
-**Polícia Civil do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Polícia Civil do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **27.3%**
 
@@ -49,16 +49,11 @@
 - ❌ dossie_folder: Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS
 - ❌ consolidado_folder: Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS
 
-## Divergências (2)
+## Divergências (1)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 960481.713334285
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 566237.37
 - **db_faturas:** 625567.97
-- **delta:** 334913.743334285
-- **pct:** 34.9%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 32
-- **db:** 18
-- **delta:** 14
+- **delta:** 59330.60
+- **pct:** 10.5%
 

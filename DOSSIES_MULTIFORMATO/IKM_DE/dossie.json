@@ -8,9 +8,9 @@
     "val_exig": "116263.6",
     "val_orig": "116263.6",
     "val_atualizado": "116263.6",
-    "faturas_total": 0,
+    "faturas_total": 12,
     "faturas_prescritas": 0,
-    "faturas_exigiveis": 0,
+    "faturas_exigiveis": 12,
     "indice_correcao": "SELIC",
     "juros_mora": "1% a.m.",
     "multa": "2%",
@@ -199,7 +199,164 @@
       "empenhos_vinc": 376
     }
   ],
-  "cobrancas": [],
+  "cobrancas": [
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "115135",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/115135/E",
+      "Comp.": "01/2020",
+      "Valor": "10.284,00",
+      "Atraso": "2248 dias",
+      "Corrigido": "11.202,70",
+      "Status": "Protestado",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "115657",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/115657/E",
+      "Comp.": "02/2020",
+      "Valor": "10.284,00",
+      "Atraso": "2215 dias",
+      "Corrigido": "10.284,00",
+      "Status": "Calculado",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "116167",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/116167/E",
+      "Comp.": "03/2020",
+      "Valor": "10.284,00",
+      "Atraso": "2187 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "116676",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/116676/E",
+      "Comp.": "04/2020",
+      "Valor": "10.284,00",
+      "Atraso": "2157 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "117157",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/117157/E",
+      "Comp.": "05/2020",
+      "Valor": "10.284,00",
+      "Atraso": "2127 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "117673",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/117673/E",
+      "Comp.": "06/2020",
+      "Valor": "10.284,00",
+      "Atraso": "2096 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "118187",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/118187/E",
+      "Comp.": "07/2020",
+      "Valor": "3.085,20",
+      "Atraso": "2066 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "118336",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/118336/E",
+      "Comp.": "07/2020",
+      "Valor": "7.666,40",
+      "Atraso": "2064 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "118647",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/118647/E",
+      "Comp.": "08/2020",
+      "Valor": "10.952,00",
+      "Atraso": "2033 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "119104",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/119104/E",
+      "Comp.": "09/2020",
+      "Valor": "10.952,00",
+      "Atraso": "2004 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "119765",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/119765/E",
+      "Comp.": "10/2020",
+      "Valor": "10.952,00",
+      "Atraso": "1974 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "IKM DE LIMA-ME",
+      "Serviços": "Fornecimento de circuito de transmissão de dados",
+      "Contrato": "001/2018",
+      "Número": "120359",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/120359/E",
+      "Comp.": "11/2020",
+      "Valor": "10.952,00",
+      "Atraso": "1942 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    }
+  ],
   "stats": {
     "empenhos": {
       "qtd": 0,
@@ -211,8 +368,8 @@
       "valor_total": 116263.6
     },
     "cobrancas": {
-      "qtd": 0,
-      "valor_total": 0.0
+      "qtd": 12,
+      "valor_total": 116263.6
     }
   }
 }

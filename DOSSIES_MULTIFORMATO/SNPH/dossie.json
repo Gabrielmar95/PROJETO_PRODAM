@@ -77,9 +77,9 @@
   },
   "empenhos": [
     {
-      "numero": "2020NE00446",
+      "numero": "2020NE00449",
       "contrato": "",
-      "valor": 1929.07,
+      "valor": 1805.81,
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
       "descricao": "ANULAÇÃO TOTAL DEVIDO AO ENCERRAMENTO DO EXERCÍCIO DE 2020 E O CALENDÁRIO DE COMUNICAÇÃO Nº 14 DE 16/11/2020 SEFAZ"
@@ -93,9 +93,9 @@
       "descricao": "ANULAÇÃO TOTAL DEVIDO AO ENCERRAMENTO DO EXERCÍCIO DE 2020 E O CALENDÁRIO DE COMUNICAÇÃO Nº 14 DE 16/11/2020 SEFAZ"
     },
     {
-      "numero": "2020NE00449",
+      "numero": "2020NE00446",
       "contrato": "",
-      "valor": 1805.81,
+      "valor": 1929.07,
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
       "descricao": "ANULAÇÃO TOTAL DEVIDO AO ENCERRAMENTO DO EXERCÍCIO DE 2020 E O CALENDÁRIO DE COMUNICAÇÃO Nº 14 DE 16/11/2020 SEFAZ"
@@ -109,20 +109,20 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
-      "numero": "2020NE00219",
-      "contrato": "4/2019",
-      "valor": 12704.68,
-      "situacao": "Ativo",
-      "data_emissao": "31/07/2020",
-      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO COM A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA ( CADASTRO DE PAGAMENTO DE PESSOAL - CFPP ) PARA ATENDER A NECESSIDADE DA SNPH, PERÍODO DE 12 (DOZE)MESES"
-    },
-    {
       "numero": "2020NE00218",
       "contrato": "5/2020",
       "valor": 2571.4,
       "situacao": "Ativo",
       "data_emissao": "31/07/2020",
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO (PORTAL DE TRANSPARÊNCIA), NO PERÍODO DE 12 (DOZE) MESES."
+    },
+    {
+      "numero": "2020NE00219",
+      "contrato": "4/2019",
+      "valor": 12704.68,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO COM A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA ( CADASTRO DE PAGAMENTO DE PESSOAL - CFPP ) PARA ATENDER A NECESSIDADE DA SNPH, PERÍODO DE 12 (DOZE)MESES"
     },
     {
       "numero": "2019NE00497",
@@ -133,14 +133,6 @@
       "descricao": "ANULAÇÃO DE SALDO DEVIDO ENCERRAMENTO DE EXERCÍCIO ORÇAMENTÁRIO."
     },
     {
-      "numero": "2024NE0000346",
-      "contrato": "2/2020",
-      "valor": 4634.31,
-      "situacao": "Ativo",
-      "data_emissao": "30/10/2024",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
-    },
-    {
       "numero": "2024NE0000345",
       "contrato": "5/2020",
       "valor": 521.23,
@@ -149,27 +141,19 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
+      "numero": "2024NE0000346",
+      "contrato": "2/2020",
+      "valor": 4634.31,
+      "situacao": "Ativo",
+      "data_emissao": "30/10/2024",
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
+    },
+    {
       "numero": "2025NE0000303",
       "contrato": "2/2025",
       "valor": 4633.7,
       "situacao": "Ativo",
       "data_emissao": "30/09/2025",
-      "descricao": "Prestação de serviço, de forma dedicada, de acesso à internet por fibra óptica com garantia de 100% em download e upload e serviço de transmissão de circuito de transmissão de dados para conexão cliente/fornecedor."
-    },
-    {
-      "numero": "2025NE0000192",
-      "contrato": "5/2020",
-      "valor": 1042.46,
-      "situacao": "Ativo",
-      "data_emissao": "30/06/2025",
-      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
-    },
-    {
-      "numero": "2025NE0000193",
-      "contrato": "2/2025",
-      "valor": 9267.4,
-      "situacao": "Ativo",
-      "data_emissao": "30/06/2025",
       "descricao": "Prestação de serviço, de forma dedicada, de acesso à internet por fibra óptica com garantia de 100% em download e upload e serviço de transmissão de circuito de transmissão de dados para conexão cliente/fornecedor."
     },
     {
@@ -181,20 +165,20 @@
       "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
     },
     {
-      "numero": "2025NE0000126",
-      "contrato": "5/2024",
-      "valor": 5678.26,
+      "numero": "2025NE0000193",
+      "contrato": "2/2025",
+      "valor": 9267.4,
       "situacao": "Ativo",
-      "data_emissao": "30/04/2025",
-      "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
+      "data_emissao": "30/06/2025",
+      "descricao": "Prestação de serviço, de forma dedicada, de acesso à internet por fibra óptica com garantia de 100% em download e upload e serviço de transmissão de circuito de transmissão de dados para conexão cliente/fornecedor."
     },
     {
-      "numero": "2025NE0000123",
-      "contrato": "2/2020",
-      "valor": 9268.62,
+      "numero": "2025NE0000192",
+      "contrato": "5/2020",
+      "valor": 1042.46,
       "situacao": "Ativo",
-      "data_emissao": "30/04/2025",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
+      "data_emissao": "30/06/2025",
+      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
       "numero": "2025NE0000127",
@@ -205,6 +189,22 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
+      "numero": "2025NE0000123",
+      "contrato": "2/2020",
+      "valor": 9268.62,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000126",
+      "contrato": "5/2024",
+      "valor": 5678.26,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
+    },
+    {
       "numero": "2024NE0000344",
       "contrato": "5/2024",
       "valor": 3123.04,
@@ -213,12 +213,12 @@
       "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
     },
     {
-      "numero": "2022NE0000132",
+      "numero": "2022NE0000130",
       "contrato": "",
-      "valor": 2050.88,
+      "valor": 1598.44,
       "situacao": "Ativo",
       "data_emissao": "29/04/2022",
-      "descricao": "REFERENTE SERVIÇO DE ACESSO À INTRNET E SERVIÇO DE TRANSMISSÃO DE DADOS DA SNPH."
+      "descricao": "REFERENTE PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA DA SNPH."
     },
     {
       "numero": "2022NE0000131",
@@ -229,12 +229,12 @@
       "descricao": "REFEREMTE SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH-FOLHA DE PESSOAL DA SNPH."
     },
     {
-      "numero": "2022NE0000130",
+      "numero": "2022NE0000132",
       "contrato": "",
-      "valor": 1598.44,
+      "valor": 2050.88,
       "situacao": "Ativo",
       "data_emissao": "29/04/2022",
-      "descricao": "REFERENTE PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO - PORTAL DA TRANSPARÊNCIA DA SNPH."
+      "descricao": "REFERENTE SERVIÇO DE ACESSO À INTRNET E SERVIÇO DE TRANSMISSÃO DE DADOS DA SNPH."
     },
     {
       "numero": "2022NE0000417",
@@ -261,14 +261,6 @@
       "descricao": "REFERENTE A ANULAÇÃO TOTAL DO CONTRATO DEVIDO AO TERMINO DO EXERCÍCIO DE 2017, CONFORME INSTRUÇÃO NORMATIVA Nº 001/2017 GSEFAZ."
     },
     {
-      "numero": "2022NE0000229",
-      "contrato": "4/2019",
-      "valor": 2472.72,
-      "situacao": "Ativo",
-      "data_emissao": "28/07/2022",
-      "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
-    },
-    {
       "numero": "2022NE0000228",
       "contrato": "5/2020",
       "valor": 486.48,
@@ -277,12 +269,12 @@
       "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
     },
     {
-      "numero": "2016NE00264",
-      "contrato": "6/2015",
-      "valor": 976.04,
+      "numero": "2022NE0000229",
+      "contrato": "4/2019",
+      "valor": 2472.72,
       "situacao": "Ativo",
-      "data_emissao": "28/07/2016",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA"
+      "data_emissao": "28/07/2022",
+      "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
     },
     {
       "numero": "2016NE00263",
@@ -293,12 +285,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO PARA SNPH."
     },
     {
-      "numero": "2023NE0000251",
-      "contrato": "4/2019",
-      "valor": 2643.26,
+      "numero": "2016NE00264",
+      "contrato": "6/2015",
+      "valor": 976.04,
       "situacao": "Ativo",
-      "data_emissao": "28/06/2023",
-      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 029/2022-PROJU/SNPH, em 11/07/2022. TC: 004/2019 AD: 03."
+      "data_emissao": "28/07/2016",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA"
     },
     {
       "numero": "2023NE0000250",
@@ -309,20 +301,12 @@
       "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 027/2022-PROJU/SNPH, em 05/07/2022. TC: 005/2020 AD: 02."
     },
     {
-      "numero": "2019NE00298",
-      "contrato": "5/2014",
-      "valor": 1747.47,
+      "numero": "2023NE0000251",
+      "contrato": "4/2019",
+      "valor": 2643.26,
       "situacao": "Ativo",
-      "data_emissao": "28/06/2019",
-      "descricao": "SERVIÇOS DE PROCESSAMENTOS DE DADOS."
-    },
-    {
-      "numero": "2019NE00294",
-      "contrato": "6/2015",
-      "valor": 554.93,
-      "situacao": "Ativo",
-      "data_emissao": "28/06/2019",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM DESENVOLVIMENTO DE WEBSITE - PORTAL DE TRANSPARENCIA DA SNPH."
+      "data_emissao": "28/06/2023",
+      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 029/2022-PROJU/SNPH, em 11/07/2022. TC: 004/2019 AD: 03."
     },
     {
       "numero": "2019NE00301",
@@ -333,12 +317,20 @@
       "descricao": "Contratação de empresa especializada em desenvolvimento de Website Institucional - Portal de transparencia da SNPH."
     },
     {
-      "numero": "2023NE0000185",
-      "contrato": "5/2020",
-      "valor": 1042.46,
+      "numero": "2019NE00294",
+      "contrato": "6/2015",
+      "valor": 554.93,
       "situacao": "Ativo",
-      "data_emissao": "28/04/2023",
-      "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
+      "data_emissao": "28/06/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM DESENVOLVIMENTO DE WEBSITE - PORTAL DE TRANSPARENCIA DA SNPH."
+    },
+    {
+      "numero": "2019NE00298",
+      "contrato": "5/2014",
+      "valor": 1747.47,
+      "situacao": "Ativo",
+      "data_emissao": "28/06/2019",
+      "descricao": "SERVIÇOS DE PROCESSAMENTOS DE DADOS."
     },
     {
       "numero": "2023NE0000190",
@@ -349,12 +341,12 @@
       "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
     },
     {
-      "numero": "2018NE00075",
-      "contrato": "6/2015",
-      "valor": 3156.18,
+      "numero": "2023NE0000185",
+      "contrato": "5/2020",
+      "valor": 1042.46,
       "situacao": "Ativo",
-      "data_emissao": "28/02/2018",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA, REAJUSTE DE 3,36% REF. AO ÍNDICE DO IPGM NO PERÍODO."
+      "data_emissao": "28/04/2023",
+      "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
     },
     {
       "numero": "2018NE00074",
@@ -365,20 +357,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH. REAJUSTE DE 3,36 DO IGPM DO PERÍODO DO CONTRATO."
     },
     {
-      "numero": "2023NE0000357",
-      "contrato": "4/2019",
-      "valor": 2557.99,
+      "numero": "2018NE00075",
+      "contrato": "6/2015",
+      "valor": 3156.18,
       "situacao": "Ativo",
-      "data_emissao": "27/09/2023",
-      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
-    },
-    {
-      "numero": "2023NE0000355",
-      "contrato": "5/2020",
-      "valor": 521.23,
-      "situacao": "Ativo",
-      "data_emissao": "27/09/2023",
-      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
+      "data_emissao": "28/02/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA, REAJUSTE DE 3,36% REF. AO ÍNDICE DO IPGM NO PERÍODO."
     },
     {
       "numero": "2023NE0000356",
@@ -389,20 +373,20 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
     },
     {
-      "numero": "2019NE00374",
-      "contrato": "4/2019",
-      "valor": 7673.97,
+      "numero": "2023NE0000355",
+      "contrato": "5/2020",
+      "valor": 521.23,
       "situacao": "Ativo",
-      "data_emissao": "27/09/2019",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA, SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO (CFPP)"
+      "data_emissao": "27/09/2023",
+      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
     },
     {
-      "numero": "2019NE00377",
-      "contrato": "",
-      "valor": 7673.97,
+      "numero": "2023NE0000357",
+      "contrato": "4/2019",
+      "valor": 2557.99,
       "situacao": "Ativo",
-      "data_emissao": "27/09/2019",
-      "descricao": "ANULAÇÃO DEVIDO DADOS EQUIVOCADOS."
+      "data_emissao": "27/09/2023",
+      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
     },
     {
       "numero": "2019NE00378",
@@ -413,28 +397,20 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA, SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO (CFPP)."
     },
     {
-      "numero": "2023NE0000285",
-      "contrato": "5/2020",
-      "valor": 486.48,
+      "numero": "2019NE00377",
+      "contrato": "",
+      "valor": 7673.97,
       "situacao": "Ativo",
-      "data_emissao": "27/07/2023",
-      "descricao": "Contratação de empresa para prestação de serviço de hospedagem de Sistema de Informação - Portal de Transparência da SNPH."
+      "data_emissao": "27/09/2019",
+      "descricao": "ANULAÇÃO DEVIDO DADOS EQUIVOCADOS."
     },
     {
-      "numero": "2023NE0000284",
+      "numero": "2019NE00374",
       "contrato": "4/2019",
-      "valor": 2472.72,
+      "valor": 7673.97,
       "situacao": "Ativo",
-      "data_emissao": "27/07/2023",
-      "descricao": "Contratação de empresa para execução do sistema PRODAMRH Cadastro e Folha de Pagamento de Pessoal da SNPH."
-    },
-    {
-      "numero": "2023NE00285",
-      "contrato": "5/2020",
-      "valor": 486.48,
-      "situacao": "Ativo",
-      "data_emissao": "27/07/2023",
-      "descricao": "3ºT Termo Aditivo, prorrogação de prazo"
+      "data_emissao": "27/09/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA, SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO (CFPP)"
     },
     {
       "numero": "2023NE00284",
@@ -445,12 +421,36 @@
       "descricao": "4º Termo Aditivo ao Contrato 004/2019 - Prorrogação de prazo"
     },
     {
-      "numero": "2018NE00067",
-      "contrato": "6/2015",
-      "valor": 520.25,
+      "numero": "2023NE00285",
+      "contrato": "5/2020",
+      "valor": 486.48,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2023",
+      "descricao": "3ºT Termo Aditivo, prorrogação de prazo"
+    },
+    {
+      "numero": "2023NE0000284",
+      "contrato": "4/2019",
+      "valor": 2472.72,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2023",
+      "descricao": "Contratação de empresa para execução do sistema PRODAMRH Cadastro e Folha de Pagamento de Pessoal da SNPH."
+    },
+    {
+      "numero": "2023NE0000285",
+      "contrato": "5/2020",
+      "valor": 486.48,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de hospedagem de Sistema de Informação - Portal de Transparência da SNPH."
+    },
+    {
+      "numero": "2018NE00062",
+      "contrato": "",
+      "valor": 3676.43,
       "situacao": "Ativo",
       "data_emissao": "27/02/2018",
-      "descricao": "Cota para empenhamento de serviço de hospedagem de web site, no periodo de setembro/17."
+      "descricao": "Anulação total conforme Orientação Técnica nº 12/2018-GINS que trata das naturezas de despesas 339040.XX."
     },
     {
       "numero": "2018NE00061",
@@ -461,12 +461,12 @@
       "descricao": "Anulação total conforme Orientação Técnica nº 12/2018-GINS que trata das naturezas de despesas 339040.XX."
     },
     {
-      "numero": "2018NE00062",
-      "contrato": "",
-      "valor": 3676.43,
+      "numero": "2018NE00067",
+      "contrato": "6/2015",
+      "valor": 520.25,
       "situacao": "Ativo",
       "data_emissao": "27/02/2018",
-      "descricao": "Anulação total conforme Orientação Técnica nº 12/2018-GINS que trata das naturezas de despesas 339040.XX."
+      "descricao": "Cota para empenhamento de serviço de hospedagem de web site, no periodo de setembro/17."
     },
     {
       "numero": "2025NE0000369",
@@ -485,14 +485,6 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
     },
     {
-      "numero": "2018NE00224",
-      "contrato": "6/2015",
-      "valor": 2566.57,
-      "situacao": "Ativo",
-      "data_emissao": "26/07/2018",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA."
-    },
-    {
       "numero": "2018NE00223",
       "contrato": "",
       "valor": 2566.57,
@@ -501,20 +493,12 @@
       "descricao": "anulação total devido a erro na modalidade de pagamento"
     },
     {
-      "numero": "2025NE0000062",
-      "contrato": "2/2020",
-      "valor": 9268.62,
+      "numero": "2018NE00224",
+      "contrato": "6/2015",
+      "valor": 2566.57,
       "situacao": "Ativo",
-      "data_emissao": "26/02/2025",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
-    },
-    {
-      "numero": "2025NE0000064",
-      "contrato": "5/2024",
-      "valor": 5678.26,
-      "situacao": "Ativo",
-      "data_emissao": "26/02/2025",
-      "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
+      "data_emissao": "26/07/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA."
     },
     {
       "numero": "2025NE0000063",
@@ -525,20 +509,28 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
+      "numero": "2025NE0000064",
+      "contrato": "5/2024",
+      "valor": 5678.26,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2025",
+      "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
+    },
+    {
+      "numero": "2025NE0000062",
+      "contrato": "2/2020",
+      "valor": 9268.62,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2025",
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
+    },
+    {
       "numero": "2020NE00314",
       "contrato": "5/2020",
       "valor": 2571.4,
       "situacao": "Ativo",
       "data_emissao": "25/09/2020",
       "descricao": "REFERENTE SERVIÇO DE WEBSITE PARA A SNPH. CONTRATO 005/2020. ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
-    },
-    {
-      "numero": "2018NE00218",
-      "contrato": "6/2015",
-      "valor": 2566.57,
-      "situacao": "Ativo",
-      "data_emissao": "25/07/2018",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA."
     },
     {
       "numero": "2018NE00217",
@@ -549,6 +541,14 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH."
     },
     {
+      "numero": "2018NE00218",
+      "contrato": "6/2015",
+      "valor": 2566.57,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA."
+    },
+    {
       "numero": "2022NE0000052",
       "contrato": "4/2019",
       "valor": 10231.96,
@@ -557,12 +557,12 @@
       "descricao": "REFERENTE AO 2º TERMO ADITIVO DO CONTRATO Nº 004/2019, EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA (CFPP) PARA ATENDER A NECESSIDADE DA SNPH."
     },
     {
-      "numero": "2022NE0000352",
-      "contrato": "5/2020",
-      "valor": 521.23,
+      "numero": "2022NE0000353",
+      "contrato": "2/2020",
+      "valor": 4394.76,
       "situacao": "Ativo",
       "data_emissao": "24/11/2022",
-      "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
+      "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
     },
     {
       "numero": "2022NE0000354",
@@ -573,12 +573,12 @@
       "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
     },
     {
-      "numero": "2022NE0000353",
-      "contrato": "2/2020",
-      "valor": 4394.76,
+      "numero": "2022NE0000352",
+      "contrato": "5/2020",
+      "valor": 521.23,
       "situacao": "Ativo",
       "data_emissao": "24/11/2022",
-      "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
+      "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
     },
     {
       "numero": "2020NE00289",
@@ -597,14 +597,6 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
     },
     {
-      "numero": "2015NE00599",
-      "contrato": "",
-      "valor": 4546.44,
-      "situacao": "Ativo",
-      "data_emissao": "23/12/2015",
-      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
-    },
-    {
       "numero": "2015NE00600",
       "contrato": "",
       "valor": 1363.38,
@@ -613,36 +605,12 @@
       "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
     },
     {
-      "numero": "2020NE00274",
-      "contrato": "6/2015",
-      "valor": 2296.04,
+      "numero": "2015NE00599",
+      "contrato": "",
+      "valor": 4546.44,
       "situacao": "Ativo",
-      "data_emissao": "23/09/2020",
-      "descricao": "SERVIÇO DE WEBSITE PARA SNPH. 4º TERMO ADITIVO DO CONTRATO 06/2015. REFEITO O EMPENHO DEVIDO A FRUSTRAÇÃO NA RECEITA DA FONTE 145, EMPENHADO NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ"
-    },
-    {
-      "numero": "2020NE00280",
-      "contrato": "5/2020",
-      "valor": 2571.4,
-      "situacao": "Ativo",
-      "data_emissao": "23/09/2020",
-      "descricao": "REFERENTE AO SISTEMA DE WEBSITE PARA A SNPH. CONTRATO 005/2020. REFEITO O EMPENHO DEVIDO A FRUSTRAÇÃO NA RECEITA DA FONTE 145, EMPENHADO NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
-    },
-    {
-      "numero": "2020NE00273",
-      "contrato": "4/2019",
-      "valor": 1929.07,
-      "situacao": "Ativo",
-      "data_emissao": "23/09/2020",
-      "descricao": "CONTRATO DO SISTEMA DO SISTEMA CFPP DA FOLHA DE PAGAMENTO. CONTRATO 04/2019"
-    },
-    {
-      "numero": "2020NE00279",
-      "contrato": "4/2019",
-      "valor": 12704.68,
-      "situacao": "Ativo",
-      "data_emissao": "23/09/2020",
-      "descricao": "REFERENTE AO SISTEMA CFPP DA FOLHA DE PAGAMENTO DA SNPH. 1º TERMO ADITIVO DO CONTRATO Nº 004/2019."
+      "data_emissao": "23/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
     },
     {
       "numero": "2020NE00278",
@@ -653,12 +621,36 @@
       "descricao": "REFERENTE A SERVIÇO DE INTERNET PARA SNPH. CONTRATO 02/2020. REFEITO O EMPENHO DEVIDO A FRUSTRAÇÃO NA RECEITA DA FONTE 145, EMPENHADO NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
     },
     {
-      "numero": "2016NE00368",
-      "contrato": "6/2015",
-      "valor": 504.86,
+      "numero": "2020NE00279",
+      "contrato": "4/2019",
+      "valor": 12704.68,
       "situacao": "Ativo",
-      "data_emissao": "22/11/2016",
-      "descricao": "SERVIÇO DE WEBSITE PARA A SNPH DO MES DE NOV/2016."
+      "data_emissao": "23/09/2020",
+      "descricao": "REFERENTE AO SISTEMA CFPP DA FOLHA DE PAGAMENTO DA SNPH. 1º TERMO ADITIVO DO CONTRATO Nº 004/2019."
+    },
+    {
+      "numero": "2020NE00273",
+      "contrato": "4/2019",
+      "valor": 1929.07,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2020",
+      "descricao": "CONTRATO DO SISTEMA DO SISTEMA CFPP DA FOLHA DE PAGAMENTO. CONTRATO 04/2019"
+    },
+    {
+      "numero": "2020NE00280",
+      "contrato": "5/2020",
+      "valor": 2571.4,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2020",
+      "descricao": "REFERENTE AO SISTEMA DE WEBSITE PARA A SNPH. CONTRATO 005/2020. REFEITO O EMPENHO DEVIDO A FRUSTRAÇÃO NA RECEITA DA FONTE 145, EMPENHADO NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
+    },
+    {
+      "numero": "2020NE00274",
+      "contrato": "6/2015",
+      "valor": 2296.04,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2020",
+      "descricao": "SERVIÇO DE WEBSITE PARA SNPH. 4º TERMO ADITIVO DO CONTRATO 06/2015. REFEITO O EMPENHO DEVIDO A FRUSTRAÇÃO NA RECEITA DA FONTE 145, EMPENHADO NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ"
     },
     {
       "numero": "2016NE00369",
@@ -669,20 +661,12 @@
       "descricao": "REFERENTE A SERVIÇO DE PROCESSAMENTOS DAS FOLHAS DE PAGAMENTO DO MES DE NOV/16."
     },
     {
-      "numero": "2023NE0000415",
-      "contrato": "2/2020",
-      "valor": 4634.31,
+      "numero": "2016NE00368",
+      "contrato": "6/2015",
+      "valor": 504.86,
       "situacao": "Ativo",
-      "data_emissao": "21/11/2023",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
-    },
-    {
-      "numero": "2023NE0000414",
-      "contrato": "4/2019",
-      "valor": 2557.99,
-      "situacao": "Ativo",
-      "data_emissao": "21/11/2023",
-      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
+      "data_emissao": "22/11/2016",
+      "descricao": "SERVIÇO DE WEBSITE PARA A SNPH DO MES DE NOV/2016."
     },
     {
       "numero": "2023NE0000413",
@@ -693,20 +677,20 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
     },
     {
-      "numero": "2015NE00350",
-      "contrato": "6/2015",
-      "valor": 9492.19,
+      "numero": "2023NE0000414",
+      "contrato": "4/2019",
+      "valor": 2557.99,
       "situacao": "Ativo",
-      "data_emissao": "21/07/2015",
-      "descricao": "Desenvolvimento de WEBSITE"
+      "data_emissao": "21/11/2023",
+      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
     },
     {
-      "numero": "2015NE00349",
-      "contrato": "6/2015",
-      "valor": 9492.19,
+      "numero": "2023NE0000415",
+      "contrato": "2/2020",
+      "valor": 4634.31,
       "situacao": "Ativo",
-      "data_emissao": "21/07/2015",
-      "descricao": "ANULAÇÃO TOTAL DEVIDO EQUIVOCO DE LICITAÇÃO."
+      "data_emissao": "21/11/2023",
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
     },
     {
       "numero": "2015NE00351",
@@ -717,6 +701,22 @@
       "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
     },
     {
+      "numero": "2015NE00349",
+      "contrato": "6/2015",
+      "valor": 9492.19,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2015",
+      "descricao": "ANULAÇÃO TOTAL DEVIDO EQUIVOCO DE LICITAÇÃO."
+    },
+    {
+      "numero": "2015NE00350",
+      "contrato": "6/2015",
+      "valor": 9492.19,
+      "situacao": "Ativo",
+      "data_emissao": "21/07/2015",
+      "descricao": "Desenvolvimento de WEBSITE"
+    },
+    {
       "numero": "2019NE00052",
       "contrato": "5/2014",
       "valor": 1747.47,
@@ -725,20 +725,20 @@
       "descricao": "REFERENTE SERVIÇO DE EXECUÇÃO DO SISTEMA DE CFPP PARA SNPH, NO PERIODO DE DEZ/2018. PARECER Nº 005/2019 - PROJU/SNPH."
     },
     {
-      "numero": "2024NE0000292",
-      "contrato": "5/2020",
-      "valor": 521.23,
-      "situacao": "Ativo",
-      "data_emissao": "19/09/2024",
-      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
-    },
-    {
       "numero": "2024NE0000291",
       "contrato": "",
       "valor": 522.0,
       "situacao": "Ativo",
       "data_emissao": "19/09/2024",
       "descricao": "Anulação devido encerramento de contrato."
+    },
+    {
+      "numero": "2024NE0000292",
+      "contrato": "5/2020",
+      "valor": 521.23,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2024",
+      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
       "numero": "2019NE00306",
@@ -757,25 +757,9 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
     },
     {
-      "numero": "2020NE00269",
+      "numero": "2020NE00268",
       "contrato": "",
-      "valor": 2571.4,
-      "situacao": "Ativo",
-      "data_emissao": "18/09/2020",
-      "descricao": "ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
-    },
-    {
-      "numero": "2020NE00270",
-      "contrato": "",
-      "valor": 12704.68,
-      "situacao": "Ativo",
-      "data_emissao": "18/09/2020",
-      "descricao": "ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
-    },
-    {
-      "numero": "2020NE00257",
-      "contrato": "",
-      "valor": 1929.07,
+      "valor": 33137.7,
       "situacao": "Ativo",
       "data_emissao": "18/09/2020",
       "descricao": "ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
@@ -789,20 +773,36 @@
       "descricao": "ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
     },
     {
-      "numero": "2020NE00268",
+      "numero": "2020NE00257",
       "contrato": "",
-      "valor": 33137.7,
+      "valor": 1929.07,
       "situacao": "Ativo",
       "data_emissao": "18/09/2020",
       "descricao": "ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
     },
     {
-      "numero": "2021NE0000219",
-      "contrato": "2/2020",
-      "valor": 17579.04,
+      "numero": "2020NE00270",
+      "contrato": "",
+      "valor": 12704.68,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2020",
+      "descricao": "ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
+    },
+    {
+      "numero": "2020NE00269",
+      "contrato": "",
+      "valor": 2571.4,
+      "situacao": "Ativo",
+      "data_emissao": "18/09/2020",
+      "descricao": "ANULAÇÃO TOTAL DEVIDO A FRUSTRAÇÃO DA RECEITA DA FONTE 145, SERÁ EMPENHADA E LIQUIDADA NA FONTE 121, CONFORME ORIENTAÇÃO DA SEFAZ."
+    },
+    {
+      "numero": "2021NE0000218",
+      "contrato": "4/2019",
+      "valor": 10231.96,
       "situacao": "Ativo",
       "data_emissao": "18/08/2021",
-      "descricao": "REFERENTE AO CONTRATO DE SERVIÇO DE INTERNET PARA A SNPH"
+      "descricao": "REFERENTE AO CONTRATO DO SISTEMA DE FOLHA DE PAGAMENTO DA SNPH"
     },
     {
       "numero": "2021NE0000220",
@@ -813,12 +813,12 @@
       "descricao": "REFERENTE AO CONTRATO DE WEBSITE PARA A SNPH"
     },
     {
-      "numero": "2021NE0000218",
-      "contrato": "4/2019",
-      "valor": 10231.96,
+      "numero": "2021NE0000219",
+      "contrato": "2/2020",
+      "valor": 17579.04,
       "situacao": "Ativo",
       "data_emissao": "18/08/2021",
-      "descricao": "REFERENTE AO CONTRATO DO SISTEMA DE FOLHA DE PAGAMENTO DA SNPH"
+      "descricao": "REFERENTE AO CONTRATO DE SERVIÇO DE INTERNET PARA A SNPH"
     },
     {
       "numero": "2017NE00118",
@@ -893,12 +893,12 @@
       "descricao": "REFERENTE A CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS, PARA A SEDE DA SNPH, COM READEQUAÇÃO CONTRATUAL COM DIMINUIÇÃO DE 0,092% DO VALOR DO CONTRATO."
     },
     {
-      "numero": "2024NE0000058",
-      "contrato": "2/2020",
-      "valor": 9268.62,
+      "numero": "2024NE0000059",
+      "contrato": "5/2020",
+      "valor": 1042.46,
       "situacao": "Ativo",
       "data_emissao": "13/03/2024",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
+      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
     },
     {
       "numero": "2024NE0000060",
@@ -909,12 +909,12 @@
       "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
     },
     {
-      "numero": "2024NE0000059",
-      "contrato": "5/2020",
-      "valor": 1042.46,
+      "numero": "2024NE0000058",
+      "contrato": "2/2020",
+      "valor": 9268.62,
       "situacao": "Ativo",
       "data_emissao": "13/03/2024",
-      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
     },
     {
       "numero": "2023NE0000258",
@@ -933,12 +933,12 @@
       "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
     },
     {
-      "numero": "2023NE0000322",
-      "contrato": "5/2020",
-      "valor": 521.23,
+      "numero": "2023NE0000324",
+      "contrato": "4/2019",
+      "valor": 2557.99,
       "situacao": "Ativo",
       "data_emissao": "11/09/2023",
-      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
+      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
     },
     {
       "numero": "2023NE0000323",
@@ -949,20 +949,12 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
     },
     {
-      "numero": "2023NE0000324",
-      "contrato": "4/2019",
-      "valor": 2557.99,
+      "numero": "2023NE0000322",
+      "contrato": "5/2020",
+      "valor": 521.23,
       "situacao": "Ativo",
       "data_emissao": "11/09/2023",
-      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
-    },
-    {
-      "numero": "2017NE00104",
-      "contrato": "6/2015",
-      "valor": 1548.26,
-      "situacao": "Ativo",
-      "data_emissao": "11/04/2017",
-      "descricao": "1º TACT AO CONTRATO 006/2015 REFERENTE SERVIÇO DE HOSPEDAGEM DE WEBSITE DO PORTAL DE TRANSPARÊNCIA DA SNPH."
+      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
     },
     {
       "numero": "2017NE00108",
@@ -973,20 +965,12 @@
       "descricao": "2º TACT Nº 005/2014 REFERENTE SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO E FOLHA DE PESSOAL PARA A SNPH."
     },
     {
-      "numero": "2016NE00327",
-      "contrato": "5/2014",
-      "valor": 1690.66,
+      "numero": "2017NE00104",
+      "contrato": "6/2015",
+      "valor": 1548.26,
       "situacao": "Ativo",
-      "data_emissao": "10/10/2016",
-      "descricao": "SERVIÇO DE FOLHA DE PAGAMENTO DO SISTEMA CFPP DA PRODAM"
-    },
-    {
-      "numero": "2016NE00327",
-      "contrato": "5/2014",
-      "valor": 1690.66,
-      "situacao": "Ativo",
-      "data_emissao": "10/10/2016",
-      "descricao": "SERVIÇO DE FOLHA DE PAGAMENTO DO SISTEMA CFPP DA PRODAM"
+      "data_emissao": "11/04/2017",
+      "descricao": "1º TACT AO CONTRATO 006/2015 REFERENTE SERVIÇO DE HOSPEDAGEM DE WEBSITE DO PORTAL DE TRANSPARÊNCIA DA SNPH."
     },
     {
       "numero": "2016NE00326",
@@ -1003,6 +987,22 @@
       "situacao": "Ativo",
       "data_emissao": "10/10/2016",
       "descricao": "REFERENTE SERVIÇO DE WEBSITE PARA A SNPH"
+    },
+    {
+      "numero": "2016NE00327",
+      "contrato": "5/2014",
+      "valor": 1690.66,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2016",
+      "descricao": "SERVIÇO DE FOLHA DE PAGAMENTO DO SISTEMA CFPP DA PRODAM"
+    },
+    {
+      "numero": "2016NE00327",
+      "contrato": "5/2014",
+      "valor": 1690.66,
+      "situacao": "Ativo",
+      "data_emissao": "10/10/2016",
+      "descricao": "SERVIÇO DE FOLHA DE PAGAMENTO DO SISTEMA CFPP DA PRODAM"
     },
     {
       "numero": "2024NE0000276",
@@ -1013,12 +1013,12 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
-      "numero": "2024NE0000192",
-      "contrato": "4/2019",
-      "valor": 2643.26,
+      "numero": "2024NE0000191",
+      "contrato": "5/2020",
+      "valor": 555.98,
       "situacao": "Ativo",
       "data_emissao": "10/07/2024",
-      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
+      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
     },
     {
       "numero": "2024NE0000193",
@@ -1029,12 +1029,12 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
     },
     {
-      "numero": "2024NE0000191",
-      "contrato": "5/2020",
-      "valor": 555.98,
+      "numero": "2024NE0000192",
+      "contrato": "4/2019",
+      "valor": 2643.26,
       "situacao": "Ativo",
       "data_emissao": "10/07/2024",
-      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
+      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
     },
     {
       "numero": "2022NE0000147",
@@ -1045,20 +1045,12 @@
       "descricao": "ANULAÇÃO DEVIDO ERRO NA INSTRUÇÃO DO PROCESSO."
     },
     {
-      "numero": "2016NE00099",
-      "contrato": "5/2014",
-      "valor": 1515.48,
+      "numero": "2016NE00098",
+      "contrato": "6/2015",
+      "valor": 454.46,
       "situacao": "Ativo",
       "data_emissao": "10/03/2016",
-      "descricao": "REFERENTE SERVIÇO DE CAD/FOLHA DE PAGAMENTO DOS SERVIDORES DA SNPH NO PERIODO DE NOVEMBRO/2015."
-    },
-    {
-      "numero": "2016NE00101",
-      "contrato": "5/2014",
-      "valor": 1515.48,
-      "situacao": "Ativo",
-      "data_emissao": "10/03/2016",
-      "descricao": "REFERENTE SERVIÇO DE CAD/FOLHA DE PAGAMENTO DOS SERVIDORES DA SNPH NO PERIODO DE OUTUBRO/2015."
+      "descricao": "REFERENTE SERVIÇO DE HOSPEDAGEM DO PORTAL DE TRANSPARENCIA DA SNPH NO PERIODO DE DEZEMBRO/2015."
     },
     {
       "numero": "2016NE00100",
@@ -1069,28 +1061,20 @@
       "descricao": "REFERENTE SERVIÇO DE CAD/FOLHA DE PAGAMENTO DOS SERVIDORES DA SNPH NO PERIODO DE DEZEMBRO/2015."
     },
     {
-      "numero": "2016NE00098",
-      "contrato": "6/2015",
-      "valor": 454.46,
+      "numero": "2016NE00101",
+      "contrato": "5/2014",
+      "valor": 1515.48,
       "situacao": "Ativo",
       "data_emissao": "10/03/2016",
-      "descricao": "REFERENTE SERVIÇO DE HOSPEDAGEM DO PORTAL DE TRANSPARENCIA DA SNPH NO PERIODO DE DEZEMBRO/2015."
+      "descricao": "REFERENTE SERVIÇO DE CAD/FOLHA DE PAGAMENTO DOS SERVIDORES DA SNPH NO PERIODO DE OUTUBRO/2015."
     },
     {
-      "numero": "2021NE0000101",
-      "contrato": "4/2019",
-      "valor": 7759.24,
+      "numero": "2016NE00099",
+      "contrato": "5/2014",
+      "valor": 1515.48,
       "situacao": "Ativo",
-      "data_emissao": "09/04/2021",
-      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO COM A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA ( CADASTRO DE PAGAMENTO DE PESSOAL - CFPP ) PARA ATENDER A NECESSIDADE DA SNPH, PERÍODO DE 12 (DOZE)MESES"
-    },
-    {
-      "numero": "2021NE0000102",
-      "contrato": "2/2020",
-      "valor": 2052.78,
-      "situacao": "Ativo",
-      "data_emissao": "09/04/2021",
-      "descricao": "Prestação de serviços de acesso a internet com link dedicado de 10 (dez) Mbps, pelo periodo de 12 meses."
+      "data_emissao": "10/03/2016",
+      "descricao": "REFERENTE SERVIÇO DE CAD/FOLHA DE PAGAMENTO DOS SERVIDORES DA SNPH NO PERIODO DE NOVEMBRO/2015."
     },
     {
       "numero": "2021NE0000103",
@@ -1101,12 +1085,20 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO (PORTAL DE TRANSPARÊNCIA), NO PERÍODO DE 12 (DOZE) MESES."
     },
     {
-      "numero": "2025NE0000274",
-      "contrato": "2/2025",
-      "valor": 4633.7,
+      "numero": "2021NE0000102",
+      "contrato": "2/2020",
+      "valor": 2052.78,
       "situacao": "Ativo",
-      "data_emissao": "08/09/2025",
-      "descricao": "Prestação de serviço, de forma dedicada, de acesso à internet por fibra óptica com garantia de 100% em download e upload e serviço de transmissão de circuito de transmissão de dados para conexão cliente/fornecedor."
+      "data_emissao": "09/04/2021",
+      "descricao": "Prestação de serviços de acesso a internet com link dedicado de 10 (dez) Mbps, pelo periodo de 12 meses."
+    },
+    {
+      "numero": "2021NE0000101",
+      "contrato": "4/2019",
+      "valor": 7759.24,
+      "situacao": "Ativo",
+      "data_emissao": "09/04/2021",
+      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO COM A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA ( CADASTRO DE PAGAMENTO DE PESSOAL - CFPP ) PARA ATENDER A NECESSIDADE DA SNPH, PERÍODO DE 12 (DOZE)MESES"
     },
     {
       "numero": "2025NE0000273",
@@ -1117,20 +1109,12 @@
       "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
     },
     {
-      "numero": "2022NE0000257",
-      "contrato": "4/2019",
-      "valor": 5115.98,
+      "numero": "2025NE0000274",
+      "contrato": "2/2025",
+      "valor": 4633.7,
       "situacao": "Ativo",
-      "data_emissao": "08/09/2022",
-      "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
-    },
-    {
-      "numero": "2022NE0000259",
-      "contrato": "2/2020",
-      "valor": 8789.52,
-      "situacao": "Ativo",
-      "data_emissao": "08/09/2022",
-      "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
+      "data_emissao": "08/09/2025",
+      "descricao": "Prestação de serviço, de forma dedicada, de acesso à internet por fibra óptica com garantia de 100% em download e upload e serviço de transmissão de circuito de transmissão de dados para conexão cliente/fornecedor."
     },
     {
       "numero": "2022NE0000258",
@@ -1141,12 +1125,20 @@
       "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
     },
     {
-      "numero": "2018NE00230",
-      "contrato": "5/2014",
-      "valor": 1747.47,
+      "numero": "2022NE0000259",
+      "contrato": "2/2020",
+      "valor": 8789.52,
       "situacao": "Ativo",
-      "data_emissao": "08/08/2018",
-      "descricao": "REFERENTE A PAGAMENTO POR INDENIZAÇÃO DA PRODAM NOTA FISCAL Nº 3141, FOLHA DE PAGAMENTO."
+      "data_emissao": "08/09/2022",
+      "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
+    },
+    {
+      "numero": "2022NE0000257",
+      "contrato": "4/2019",
+      "valor": 5115.98,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2022",
+      "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
     },
     {
       "numero": "2018NE00229",
@@ -1157,12 +1149,20 @@
       "descricao": "RECONHECIMENTO INDENIZATÓRIO DA PRODAM NOTA FISCAL Nº 2900"
     },
     {
-      "numero": "2024NE0000352",
-      "contrato": "",
-      "valor": 2839.13,
+      "numero": "2018NE00230",
+      "contrato": "5/2014",
+      "valor": 1747.47,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2018",
+      "descricao": "REFERENTE A PAGAMENTO POR INDENIZAÇÃO DA PRODAM NOTA FISCAL Nº 3141, FOLHA DE PAGAMENTO."
+    },
+    {
+      "numero": "2024NE0000354",
+      "contrato": "2/2020",
+      "valor": 4634.31,
       "situacao": "Ativo",
       "data_emissao": "07/11/2024",
-      "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
     },
     {
       "numero": "2024NE0000353",
@@ -1173,12 +1173,12 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
-      "numero": "2024NE0000354",
-      "contrato": "2/2020",
-      "valor": 4634.31,
+      "numero": "2024NE0000352",
+      "contrato": "",
+      "valor": 2839.13,
       "situacao": "Ativo",
       "data_emissao": "07/11/2024",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
+      "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
     },
     {
       "numero": "2022NE0000105",
@@ -1197,14 +1197,6 @@
       "descricao": "ANULAÇÃO TOTAL DEVIDO AO TERMINO DO CONTRATO."
     },
     {
-      "numero": "2017NE00207",
-      "contrato": "5/2014",
-      "valor": 1747.47,
-      "situacao": "Ativo",
-      "data_emissao": "06/07/2017",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH. REAJUSTE DE 3,36 DO IGPM DO PERÍODO DO CONTRATO."
-    },
-    {
       "numero": "2017NE00206",
       "contrato": "6/2015",
       "valor": 485.57,
@@ -1213,36 +1205,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARENCIA. REAJUSTE DE 3,36% REF. AO ÍNDICE DO IGPM NO PERÍODO."
     },
     {
-      "numero": "2020NE00361",
-      "contrato": "5/2020",
-      "valor": 564.6,
+      "numero": "2017NE00207",
+      "contrato": "5/2014",
+      "valor": 1747.47,
       "situacao": "Ativo",
-      "data_emissao": "05/11/2020",
-      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em jul/20, conforme a nf nº 15698."
-    },
-    {
-      "numero": "2020NE00360",
-      "contrato": "5/2020",
-      "valor": 564.6,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2020",
-      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em jun/20, conforme a nf nº 15182."
-    },
-    {
-      "numero": "2020NE00359",
-      "contrato": "5/2020",
-      "valor": 564.6,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2020",
-      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em maio/20, conforme a nf nº 14730."
-    },
-    {
-      "numero": "2020NE00358",
-      "contrato": "5/2020",
-      "valor": 564.6,
-      "situacao": "Ativo",
-      "data_emissao": "05/11/2020",
-      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em abril/20, conforme a nf nº 14280."
+      "data_emissao": "06/07/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH. REAJUSTE DE 3,36 DO IGPM DO PERÍODO DO CONTRATO."
     },
     {
       "numero": "2020NE00362",
@@ -1253,20 +1221,44 @@
       "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em ago/20 (02 dias em agosto), conforme a nf nº 16010."
     },
     {
+      "numero": "2020NE00358",
+      "contrato": "5/2020",
+      "valor": 564.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em abril/20, conforme a nf nº 14280."
+    },
+    {
+      "numero": "2020NE00359",
+      "contrato": "5/2020",
+      "valor": 564.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em maio/20, conforme a nf nº 14730."
+    },
+    {
+      "numero": "2020NE00360",
+      "contrato": "5/2020",
+      "valor": 564.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em jun/20, conforme a nf nº 15182."
+    },
+    {
+      "numero": "2020NE00361",
+      "contrato": "5/2020",
+      "valor": 564.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/11/2020",
+      "descricao": "Referente pagamento indenizatorio devido a frustração de receita na fonte 145, do serviço de hospedagem de site da SNPH em jul/20, conforme a nf nº 15698."
+    },
+    {
       "numero": "2023NE0000253",
       "contrato": "",
       "valor": 9268.62,
       "situacao": "Ativo",
       "data_emissao": "05/07/2023",
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
-    },
-    {
-      "numero": "2025NE0000129",
-      "contrato": "",
-      "valor": 9268.62,
-      "situacao": "Ativo",
-      "data_emissao": "05/05/2025",
-      "descricao": "Anulação devido valores incorretos."
     },
     {
       "numero": "2025NE0000130",
@@ -1277,28 +1269,20 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
     },
     {
+      "numero": "2025NE0000129",
+      "contrato": "",
+      "valor": 9268.62,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2025",
+      "descricao": "Anulação devido valores incorretos."
+    },
+    {
       "numero": "2026NE0000039",
       "contrato": "5/2024",
       "valor": 11356.52,
       "situacao": "Ativo",
       "data_emissao": "05/02/2026",
       "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
-    },
-    {
-      "numero": "2026NE0000017",
-      "contrato": "2/2025",
-      "valor": 18534.8,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Prestação de serviço, de forma dedicada, de acesso à internet por fibra óptica com garantia de 100% em download e upload e serviço de transmissão de circuito de transmissão de dados para conexão cliente/fornecedor."
-    },
-    {
-      "numero": "2026NE0000016",
-      "contrato": "",
-      "valor": 18534.8,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "ANULAÇÃO DEVIDO INFORMAÇÃO INCORRETA."
     },
     {
       "numero": "2026NE0000006",
@@ -1309,6 +1293,22 @@
       "descricao": "Contratação de serviço de hospedagem do Portal da Transparência da SNPH, - licença de uso do sistema gestor de conteúdo web - GERWEB."
     },
     {
+      "numero": "2026NE0000016",
+      "contrato": "",
+      "valor": 18534.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "ANULAÇÃO DEVIDO INFORMAÇÃO INCORRETA."
+    },
+    {
+      "numero": "2026NE0000017",
+      "contrato": "2/2025",
+      "valor": 18534.8,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Prestação de serviço, de forma dedicada, de acesso à internet por fibra óptica com garantia de 100% em download e upload e serviço de transmissão de circuito de transmissão de dados para conexão cliente/fornecedor."
+    },
+    {
       "numero": "2015NE00005",
       "contrato": "5/2014",
       "valor": 5348.76,
@@ -1317,12 +1317,12 @@
       "descricao": "Contratação de empresa especializada em implantação e processamento do sistema CFPP - cadastro e folha de pessoal para a SNPH."
     },
     {
-      "numero": "2022NE0000308",
-      "contrato": "4/2019",
-      "valor": 2557.99,
+      "numero": "2022NE0000309",
+      "contrato": "5/2020",
+      "valor": 521.23,
       "situacao": "Ativo",
       "data_emissao": "04/11/2022",
-      "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
+      "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
     },
     {
       "numero": "2022NE0000310",
@@ -1333,12 +1333,12 @@
       "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
     },
     {
-      "numero": "2022NE0000309",
-      "contrato": "5/2020",
-      "valor": 521.23,
+      "numero": "2022NE0000308",
+      "contrato": "4/2019",
+      "valor": 2557.99,
       "situacao": "Ativo",
       "data_emissao": "04/11/2022",
-      "descricao": "Segunda prorrogação de prazo do contrato de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH."
+      "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
     },
     {
       "numero": "2025NE0000159",
@@ -1357,12 +1357,12 @@
       "descricao": "REFERENTE SERVIÇO DE HOSPEDAGEM DO PORTAL DE TRANSPARENCIA DA SNPH NO PERIODO DE NOVEMBRO/2015."
     },
     {
-      "numero": "2021NE0000025",
-      "contrato": "4/2019",
-      "valor": 10231.96,
+      "numero": "2021NE0000026",
+      "contrato": "2/2020",
+      "valor": 17595.24,
       "situacao": "Ativo",
       "data_emissao": "04/01/2021",
-      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO COM A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA ( CADASTRO DE PAGAMENTO DE PESSOAL - CFPP ) PARA ATENDER A NECESSIDADE DA SNPH, PERÍODO DE 12 (DOZE)MESES"
+      "descricao": "Prestação de serviços de acesso a internet com link dedicado de 10 (dez) Mbps, pelo periodo de 12 meses."
     },
     {
       "numero": "2021NE0000027",
@@ -1373,36 +1373,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMAÇÃO (PORTAL DE TRANSPARÊNCIA), NO PERÍODO DE 12 (DOZE) MESES."
     },
     {
-      "numero": "2021NE0000026",
-      "contrato": "2/2020",
-      "valor": 17595.24,
+      "numero": "2021NE0000025",
+      "contrato": "4/2019",
+      "valor": 10231.96,
       "situacao": "Ativo",
       "data_emissao": "04/01/2021",
-      "descricao": "Prestação de serviços de acesso a internet com link dedicado de 10 (dez) Mbps, pelo periodo de 12 meses."
-    },
-    {
-      "numero": "2016NE00012",
-      "contrato": "6/2015",
-      "valor": 2726.76,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "SERVIÇO DE DESENVOLVIMENTO E HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS."
-    },
-    {
-      "numero": "2016NE00034",
-      "contrato": "",
-      "valor": 2726.76,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "ANULAÇÃO TOTAL DEVIDO A ERRO NA FONTE"
-    },
-    {
-      "numero": "2016NE00033",
-      "contrato": "5/2014",
-      "valor": 9092.88,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP PARA FOLHA DE PAGAMENTO DESTA AUTARQUIA"
+      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO COM A EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA ( CADASTRO DE PAGAMENTO DE PESSOAL - CFPP ) PARA ATENDER A NECESSIDADE DA SNPH, PERÍODO DE 12 (DOZE)MESES"
     },
     {
       "numero": "2016NE00035",
@@ -1413,44 +1389,36 @@
       "descricao": "SERVIÇO DE DESENVOLVIMENTO E HOSPEDAGEM DE WEBSITE PARA A SNPH"
     },
     {
+      "numero": "2016NE00033",
+      "contrato": "5/2014",
+      "valor": 9092.88,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP PARA FOLHA DE PAGAMENTO DESTA AUTARQUIA"
+    },
+    {
+      "numero": "2016NE00034",
+      "contrato": "",
+      "valor": 2726.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "ANULAÇÃO TOTAL DEVIDO A ERRO NA FONTE"
+    },
+    {
+      "numero": "2016NE00012",
+      "contrato": "6/2015",
+      "valor": 2726.76,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SERVIÇO DE DESENVOLVIMENTO E HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS."
+    },
+    {
       "numero": "2020NE00398",
       "contrato": "",
       "valor": 615.0,
       "situacao": "Ativo",
       "data_emissao": "03/12/2020",
       "descricao": "REFERENTE CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM CERTIFICAÇÃO DIGITAL, PESSOA FÍSICA."
-    },
-    {
-      "numero": "2015NE00378",
-      "contrato": "6/2015",
-      "valor": 9037.73,
-      "situacao": "Ativo",
-      "data_emissao": "03/08/2015",
-      "descricao": "DESENVOLVEDOR DE WEBSITE"
-    },
-    {
-      "numero": "2015NE00385",
-      "contrato": "6/2015",
-      "valor": 9037.73,
-      "situacao": "Ativo",
-      "data_emissao": "03/08/2015",
-      "descricao": "ANULAÇÃO TOTAL DEVIDO A ERRO NA MODALIDADE."
-    },
-    {
-      "numero": "2015NE00381",
-      "contrato": "6/2015",
-      "valor": 9037.73,
-      "situacao": "Ativo",
-      "data_emissao": "03/08/2015",
-      "descricao": "AQUISIÇÃO DE WEBSITE"
-    },
-    {
-      "numero": "2015NE00380",
-      "contrato": "6/2015",
-      "valor": 9037.73,
-      "situacao": "Ativo",
-      "data_emissao": "03/08/2015",
-      "descricao": "ANULAÇÃO TOTAL DEVIDO A AJUSTE DA DESCRIÇÃO DO EMPENHO"
     },
     {
       "numero": "2015NE00386",
@@ -1461,12 +1429,36 @@
       "descricao": "SERVIÇO DE WEBSITE"
     },
     {
-      "numero": "2016NE00207",
-      "contrato": "5/2014",
-      "valor": 1515.48,
+      "numero": "2015NE00380",
+      "contrato": "6/2015",
+      "valor": 9037.73,
       "situacao": "Ativo",
-      "data_emissao": "03/06/2016",
-      "descricao": "REFERENTE A SERVIÇO DO SISTEMA CFPP DE FOLHA DE PAGAMENTO"
+      "data_emissao": "03/08/2015",
+      "descricao": "ANULAÇÃO TOTAL DEVIDO A AJUSTE DA DESCRIÇÃO DO EMPENHO"
+    },
+    {
+      "numero": "2015NE00381",
+      "contrato": "6/2015",
+      "valor": 9037.73,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "AQUISIÇÃO DE WEBSITE"
+    },
+    {
+      "numero": "2015NE00385",
+      "contrato": "6/2015",
+      "valor": 9037.73,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "ANULAÇÃO TOTAL DEVIDO A ERRO NA MODALIDADE."
+    },
+    {
+      "numero": "2015NE00378",
+      "contrato": "6/2015",
+      "valor": 9037.73,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "DESENVOLVEDOR DE WEBSITE"
     },
     {
       "numero": "2016NE00206",
@@ -1477,12 +1469,12 @@
       "descricao": "REFERENTE A DESENVOLVIMENTO DO WEBSITE"
     },
     {
-      "numero": "2024NE0000124",
-      "contrato": "",
-      "valor": 1042.46,
+      "numero": "2016NE00207",
+      "contrato": "5/2014",
+      "valor": 1515.48,
       "situacao": "Ativo",
-      "data_emissao": "03/05/2024",
-      "descricao": "Anulação devido dados incorretos."
+      "data_emissao": "03/06/2016",
+      "descricao": "REFERENTE A SERVIÇO DO SISTEMA CFPP DE FOLHA DE PAGAMENTO"
     },
     {
       "numero": "2024NE0000126",
@@ -1493,20 +1485,12 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
     },
     {
-      "numero": "2022NE0000060",
+      "numero": "2024NE0000124",
       "contrato": "",
-      "valor": 10231.96,
+      "valor": 1042.46,
       "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "ANULAÇÃO DEVIDO DATA INCORRETA."
-    },
-    {
-      "numero": "2022NE0000053",
-      "contrato": "5/2020",
-      "valor": 2084.92,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO Nº 005/2021, EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMÁTICA (PORTAL DE TRANSPARÊNCIA), PERÍODO DE 12 MESES."
+      "data_emissao": "03/05/2024",
+      "descricao": "Anulação devido dados incorretos."
     },
     {
       "numero": "2022NE0000061",
@@ -1517,20 +1501,28 @@
       "descricao": "REFERENTE AO 2º TERMO ADITIVO DO CONTRATO Nº 004/2019, EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA (CFPP) PARA ATENDER A NECESSIDADE DA SNPH."
     },
     {
+      "numero": "2022NE0000053",
+      "contrato": "5/2020",
+      "valor": 2084.92,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO Nº 005/2021, EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMÁTICA (PORTAL DE TRANSPARÊNCIA), PERÍODO DE 12 MESES."
+    },
+    {
+      "numero": "2022NE0000060",
+      "contrato": "",
+      "valor": 10231.96,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "ANULAÇÃO DEVIDO DATA INCORRETA."
+    },
+    {
       "numero": "2019NE00383",
       "contrato": "",
       "valor": 1693.8,
       "situacao": "Ativo",
       "data_emissao": "02/10/2019",
       "descricao": "SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA A SNPH."
-    },
-    {
-      "numero": "2021NE0000210",
-      "contrato": "4/2019",
-      "valor": 2472.72,
-      "situacao": "Ativo",
-      "data_emissao": "02/08/2021",
-      "descricao": "REFERENTE AO 2º TERMO ADITIVO DO CONTRATO Nº 004/2019, EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA (CFPP) PARA ATENDER A NECESSIDADE DA SNPH."
     },
     {
       "numero": "2021NE0000212",
@@ -1541,28 +1533,20 @@
       "descricao": "REFERENTE AO 1º ADITIVO DO CONTRATO Nº 005/2021, EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE HOSPEDAGEM DE SISTEMA DE INFORMÁTICA (PORTAL DE TRANSPARÊNCIA), PERÍODO DE 12 MESES."
     },
     {
+      "numero": "2021NE0000210",
+      "contrato": "4/2019",
+      "valor": 2472.72,
+      "situacao": "Ativo",
+      "data_emissao": "02/08/2021",
+      "descricao": "REFERENTE AO 2º TERMO ADITIVO DO CONTRATO Nº 004/2019, EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA (CFPP) PARA ATENDER A NECESSIDADE DA SNPH."
+    },
+    {
       "numero": "2019NE00327",
       "contrato": "4/2019",
       "valor": 5030.71,
       "situacao": "Ativo",
       "data_emissao": "02/08/2019",
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA, SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO (CFPP)"
-    },
-    {
-      "numero": "2024NE0000120",
-      "contrato": "2/2020",
-      "valor": 2317.15,
-      "situacao": "Ativo",
-      "data_emissao": "02/05/2024",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
-    },
-    {
-      "numero": "2024NE0000121",
-      "contrato": "4/2019",
-      "valor": 5115.98,
-      "situacao": "Ativo",
-      "data_emissao": "02/05/2024",
-      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
     },
     {
       "numero": "2024NE0000122",
@@ -1573,28 +1557,28 @@
       "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 03."
     },
     {
+      "numero": "2024NE0000121",
+      "contrato": "4/2019",
+      "valor": 5115.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2024",
+      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
+    },
+    {
+      "numero": "2024NE0000120",
+      "contrato": "2/2020",
+      "valor": 2317.15,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2024",
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
+    },
+    {
       "numero": "2023NE0000191",
       "contrato": "4/2019",
       "valor": 5115.98,
       "situacao": "Ativo",
       "data_emissao": "02/05/2023",
       "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
-    },
-    {
-      "numero": "2025NE0000005",
-      "contrato": "2/2020",
-      "valor": 9268.62,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
-    },
-    {
-      "numero": "2025NE0000004",
-      "contrato": "5/2020",
-      "valor": 1042.46,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
     },
     {
       "numero": "2025NE0000003",
@@ -1605,12 +1589,20 @@
       "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
     },
     {
-      "numero": "2024NE0000004",
-      "contrato": "4/2019",
-      "valor": 5115.98,
+      "numero": "2025NE0000004",
+      "contrato": "5/2020",
+      "valor": 1042.46,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de prestação de serviço de informática - WEBSITE - Portal da Transparência da SNPH. Parecer nº 038/2023-PROJU/SNPH. TC: 0005/2020 AD: 04."
+    },
+    {
+      "numero": "2025NE0000005",
+      "contrato": "2/2020",
+      "valor": 9268.62,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 04."
     },
     {
       "numero": "2024NE0000003",
@@ -1621,12 +1613,12 @@
       "descricao": "REFERENTE SERVIÇOS DE ACESSO À INTERNET POR FIBRA ÓPTICA E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS PARA CONEXÃO CLIENTE/FORNECEDOR PARA SNPH. PARECER Nº 023/2023-PROJU/SNPH. TC: 0002/2020 AD: 03."
     },
     {
-      "numero": "2023NE0000013",
-      "contrato": "2/2020",
-      "valor": 17579.04,
+      "numero": "2024NE0000004",
+      "contrato": "4/2019",
+      "valor": 5115.98,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
+      "data_emissao": "02/01/2024",
+      "descricao": "Serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH. Parecer nº 040/2023-PRUJU/SNPH. TC: 0004/2019 AD: 04."
     },
     {
       "numero": "2023NE0000007",
@@ -1637,12 +1629,12 @@
       "descricao": "Terceira prorrogação de prazo do Contrato nº 0004/2019 do serviço de execução do Sistema PRODAMRH- Cadastro e Folha de Pagamento de Pessoal da SNPH."
     },
     {
-      "numero": "2020NE00004",
-      "contrato": "4/2019",
-      "valor": 17991.2,
+      "numero": "2023NE0000013",
+      "contrato": "2/2020",
+      "valor": 17579.04,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA, SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO (CFPP)"
+      "data_emissao": "02/01/2023",
+      "descricao": "REFERENTE A SEGUNDA RENOVAÇÃO DA CONTRATAÇÃO DE INTERNET COM LINK DEDICADO DE 10 (DEZ) MBPS PARA A SEDE DA SNPH."
     },
     {
       "numero": "2020NE00002",
@@ -1653,12 +1645,12 @@
       "descricao": "4ª PRORROGAÇÃO DO CONTRATO Nº 006/2015 DA PRESTAÇÃO DE SERVIÇO DE INFORMATICA (WEB SITE - PORTAL DE TRANSPARÊNCIA) PARA ATENDER AS NECESSIDADES DA SNPH."
     },
     {
-      "numero": "2019NE00005",
-      "contrato": "5/2014",
-      "valor": 5242.41,
+      "numero": "2020NE00004",
+      "contrato": "4/2019",
+      "valor": 17991.2,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH."
+      "data_emissao": "02/01/2020",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA, SISTEMA DE CADASTRO E FOLHA DE PAGAMENTO (CFPP)"
     },
     {
       "numero": "2019NE00003",
@@ -1669,12 +1661,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA."
     },
     {
-      "numero": "2018NE00028",
-      "contrato": "6/2015",
-      "valor": 3676.43,
+      "numero": "2019NE00005",
+      "contrato": "5/2014",
+      "valor": 5242.41,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA, REAJUSTE DE 3,36% REF. AO ÍNDICE DO IPGM NO PERÍODO."
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH."
     },
     {
       "numero": "2018NE00029",
@@ -1685,12 +1677,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH. REAJUSTE DE 3,36 DO IGPM DO PERÍODO DO CONTRATO."
     },
     {
-      "numero": "2017NE00003",
+      "numero": "2018NE00028",
       "contrato": "6/2015",
-      "valor": 2019.44,
+      "valor": 3676.43,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "REFERENTE A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM GERENCIAMENTO DE WEBSITE PARA SNPH"
+      "data_emissao": "02/01/2018",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA, REAJUSTE DE 3,36% REF. AO ÍNDICE DO IPGM NO PERÍODO."
     },
     {
       "numero": "2017NE00002",
@@ -1701,12 +1693,12 @@
       "descricao": "REFERENTE A EMPRESA ESPECIALIZADA NA EXECUÇÃO DA FOLHA DE PAGAMENTO NO SISTEMA CFPP."
     },
     {
-      "numero": "2016NE00410",
-      "contrato": "",
-      "valor": 504.86,
+      "numero": "2017NE00003",
+      "contrato": "6/2015",
+      "valor": 2019.44,
       "situacao": "Ativo",
-      "data_emissao": "01/12/2016",
-      "descricao": "SERVIÇO DE WEBSITE DA PRODAM, PERÍODO DE DEZEMBRO/2016."
+      "data_emissao": "02/01/2017",
+      "descricao": "REFERENTE A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM GERENCIAMENTO DE WEBSITE PARA SNPH"
     },
     {
       "numero": "2016NE00409",
@@ -1717,28 +1709,12 @@
       "descricao": "SERVIÇO DE FOLHA DE PAGAMENTO NO SISTEMA CFPP, PERÍODO DE DEZEMBRO/2016."
     },
     {
-      "numero": "2017NE00312",
-      "contrato": "6/2015",
-      "valor": 520.25,
-      "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARENCIA. REAJUSTE DE 3,36% REF. AO ÍNDICE DO IGPM NO PERÍODO."
-    },
-    {
-      "numero": "2017NE00307",
-      "contrato": "6/2015",
-      "valor": 520.25,
-      "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARENCIA. REAJUSTE DE 3,36% REF. AO ÍNDICE DO IGPM NO PERÍODO."
-    },
-    {
-      "numero": "2017NE00310",
+      "numero": "2016NE00410",
       "contrato": "",
-      "valor": 520.25,
+      "valor": 504.86,
       "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "ANULAÇÃO DEVIDO EQUIVOCO NA MODALIDADE."
+      "data_emissao": "01/12/2016",
+      "descricao": "SERVIÇO DE WEBSITE DA PRODAM, PERÍODO DE DEZEMBRO/2016."
     },
     {
       "numero": "2017NE00318",
@@ -1749,20 +1725,36 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH. REAJUSTE DE 3,36 DO IGPM DO PERÍODO DO CONTRATO."
     },
     {
+      "numero": "2017NE00310",
+      "contrato": "",
+      "valor": 520.25,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "ANULAÇÃO DEVIDO EQUIVOCO NA MODALIDADE."
+    },
+    {
+      "numero": "2017NE00307",
+      "contrato": "6/2015",
+      "valor": 520.25,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARENCIA. REAJUSTE DE 3,36% REF. AO ÍNDICE DO IGPM NO PERÍODO."
+    },
+    {
+      "numero": "2017NE00312",
+      "contrato": "6/2015",
+      "valor": 520.25,
+      "situacao": "Ativo",
+      "data_emissao": "01/11/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARENCIA. REAJUSTE DE 3,36% REF. AO ÍNDICE DO IGPM NO PERÍODO."
+    },
+    {
       "numero": "2025NE0000306",
       "contrato": "5/2024",
       "valor": 2555.22,
       "situacao": "Ativo",
       "data_emissao": "01/10/2025",
       "descricao": "Serviço de execução do sistema PRODAMRH - Cadastro e Folha de Pagamento de Pessoal, para atender as necessidades da SNPH."
-    },
-    {
-      "numero": "2017NE00240",
-      "contrato": "",
-      "valor": 1040.5,
-      "situacao": "Ativo",
-      "data_emissao": "01/08/2017",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARENCIA. REAJUSTE DE 3,36% REF. AO ÍNDICE DO IGPM NO PERÍODO."
     },
     {
       "numero": "2017NE00239",
@@ -1773,12 +1765,20 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH. REAJUSTE DE 3,36 DO IGPM DO PERÍODO DO CONTRATO."
     },
     {
-      "numero": "2015NE00375",
+      "numero": "2017NE00240",
+      "contrato": "",
+      "valor": 1040.5,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2017",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARENCIA. REAJUSTE DE 3,36% REF. AO ÍNDICE DO IGPM NO PERÍODO."
+    },
+    {
+      "numero": "2015NE00377",
       "contrato": "6/2015",
-      "valor": 9492.19,
+      "valor": 9037.73,
       "situacao": "Ativo",
       "data_emissao": "01/08/2015",
-      "descricao": "anulação total devido a mudança de data do inicio do contrato de 01/07 passado para 01/08/2015."
+      "descricao": "erro na descrição"
     },
     {
       "numero": "2015NE00376",
@@ -1789,12 +1789,12 @@
       "descricao": "desenvolvimento de website"
     },
     {
-      "numero": "2015NE00377",
+      "numero": "2015NE00375",
       "contrato": "6/2015",
-      "valor": 9037.73,
+      "valor": 9492.19,
       "situacao": "Ativo",
       "data_emissao": "01/08/2015",
-      "descricao": "erro na descrição"
+      "descricao": "anulação total devido a mudança de data do inicio do contrato de 01/07 passado para 01/08/2015."
     },
     {
       "numero": "2014NE00426",
@@ -1813,14 +1813,6 @@
       "descricao": "EMPRESA CONTRATADA PARA DESENVOLVIMENTO DE WEBSITE - PORTAL DE TRANSPARENCIA DA SNPH."
     },
     {
-      "numero": "2019NE00093",
-      "contrato": "6/2015",
-      "valor": 1560.75,
-      "situacao": "Ativo",
-      "data_emissao": "01/04/2019",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA."
-    },
-    {
       "numero": "2019NE00094",
       "contrato": "5/2014",
       "valor": 5242.41,
@@ -1829,7 +1821,31 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE PROCESSAMENTO DO SISTEMA DE CFPP - CADASTRO DE FOLHA DE PAGAMENTO, PARA A SNPH."
     },
     {
-      "numero": "2015NE00156",
+      "numero": "2019NE00093",
+      "contrato": "6/2015",
+      "valor": 1560.75,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇO DE HOSPEDAGEM DE WEBSITE PARA ARMAZENAMENTO DE DADOS NA INFRAESTRUTURA TECNOLÓGICA DA PRODAM EM ATENDIMENTO A LEI DE TRANSPARÊNCIA."
+    },
+    {
+      "numero": "2015NE00182",
+      "contrato": "5/2014",
+      "valor": 7131.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAÇÃO TOTAL POR MODALIDADE NA NOTA DE EMPENHO INCORRETA."
+    },
+    {
+      "numero": "2015NE00188",
+      "contrato": "5/2014",
+      "valor": 7131.68,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "ANULAÇÃO PARA CORREÇÃO DE MODALIDADE."
+    },
+    {
+      "numero": "2015NE00189",
       "contrato": "5/2014",
       "valor": 7131.68,
       "situacao": "Ativo",
@@ -1845,28 +1861,12 @@
       "descricao": "Contratação de empresa especializada em implantação e processamento do sistema CFPP - cadastro e folha de pessoal para a SNPH."
     },
     {
-      "numero": "2015NE00189",
+      "numero": "2015NE00156",
       "contrato": "5/2014",
       "valor": 7131.68,
       "situacao": "Ativo",
       "data_emissao": "01/04/2015",
       "descricao": "Contratação de empresa especializada em implantação e processamento do sistema CFPP - cadastro e folha de pessoal para a SNPH."
-    },
-    {
-      "numero": "2015NE00188",
-      "contrato": "5/2014",
-      "valor": 7131.68,
-      "situacao": "Ativo",
-      "data_emissao": "01/04/2015",
-      "descricao": "ANULAÇÃO PARA CORREÇÃO DE MODALIDADE."
-    },
-    {
-      "numero": "2015NE00182",
-      "contrato": "5/2014",
-      "valor": 7131.68,
-      "situacao": "Ativo",
-      "data_emissao": "01/04/2015",
-      "descricao": "ANULAÇÃO TOTAL POR MODALIDADE NA NOTA DE EMPENHO INCORRETA."
     }
   ],
   "faturas": [
@@ -2203,7 +2203,7 @@
         },
         "2017": {
           "qtd": 14,
-          "valor": 25509.34
+          "valor": 25509.339999999997
         },
         "2016": {
           "qtd": 21,
@@ -2223,7 +2223,7 @@
         },
         "2026": {
           "qtd": 4,
-          "valor": 54793.35999999999
+          "valor": 54793.36
         },
         "2014": {
           "qtd": 1,

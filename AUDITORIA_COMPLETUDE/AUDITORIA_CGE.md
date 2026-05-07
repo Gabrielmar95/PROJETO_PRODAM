@@ -1,5 +1,5 @@
 # Auditoria de Completude — CGE
-**Controladoria Geral do Estado do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Controladoria Geral do Estado do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **27.3%**
 

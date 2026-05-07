@@ -1,6 +1,6 @@
 # Dossiê Completo — BRADESCO
 **Banco Bradesco S.A.** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 60.746.948/0001-12
+Data: 2026-05-07 | CNPJ: 60.746.948/0001-12
 
 ## Visão Executiva
 
@@ -31,7 +31,7 @@ Distribuição por ano:
 |-----|-----|-------|
 
 ### Faturas: 115 | R$ 2.226.517,80
-### Cobranças SPCF: 0 | R$ 0,00
+### Cobranças SPCF: 43 | R$ 2.031.734,00
 
 ## Top 10 Empenhos (por valor)
 
@@ -65,4 +65,4 @@ Cadastrado em 14/04/2026 após auditoria — 43 faturas com R$ 2M em cobrancas.j
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

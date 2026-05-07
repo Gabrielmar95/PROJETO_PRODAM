@@ -40,7 +40,12 @@
     "reconciliacao_status": "CRITICAL",
     "reconciliacao_data": "2026-04-01",
     "reconciliacao_divergencia_pct": 100.0,
-    "tem_csv_faturas": false
+    "tem_csv_faturas": false,
+    "cnpj": "04.312.369/0001-90",
+    "fonte_cnpj": "SEDE DO GOVERNO AM (Casa Militar sem CNPJ próprio — órgão subordinado)",
+    "faturas_exigiveis": 0,
+    "faturas_total": 0,
+    "faturas_prescritas": 0
   },
   "empenhos": [
     {
@@ -220,20 +225,20 @@
       "descricao": "Contratação de Serviço licença de sistema de informação, disponibilização de Gestor de Conteúdo WEB - GERWEB, publ de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado do Amazonas"
     },
     {
-      "numero": "2025NE0000490",
-      "contrato": "3/2025",
-      "valor": 11136.96,
-      "situacao": "Ativo",
-      "data_emissao": "03/09/2025",
-      "descricao": "Contratação de Serviço licença de sistema de informação, disponibilização de Gestor de Conteúdo WEB - GERWEB, publ de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado do Amazonas"
-    },
-    {
       "numero": "2025NE00490",
       "contrato": "3/2025",
       "valor": 11136.96,
       "situacao": "Ativo",
       "data_emissao": "03/09/2025",
       "descricao": "Serviço de Licença de Uso de Sistema de Informação a disponibilização de Gestor de Conteúdo Web. Contrato 003/2025."
+    },
+    {
+      "numero": "2025NE0000490",
+      "contrato": "3/2025",
+      "valor": 11136.96,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2025",
+      "descricao": "Contratação de Serviço licença de sistema de informação, disponibilização de Gestor de Conteúdo WEB - GERWEB, publ de informações, notícias, vídeos e imagens via Website, de acordo com o padrão de comunicação visual do Governo do Estado do Amazonas"
     },
     {
       "numero": "2022NE0000008",

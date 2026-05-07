@@ -1,5 +1,5 @@
 # Auditoria de Completude — SNPH
-**Secretaria de Navegação Portuária e Hidrovias** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Navegação Portuária e Hidrovias** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,11 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 25117.34434577535
-- **db_faturas:** 19802.66
-- **delta:** 5314.68434577535
-- **pct:** 21.2%
-
+_Nenhuma divergência significativa detectada_

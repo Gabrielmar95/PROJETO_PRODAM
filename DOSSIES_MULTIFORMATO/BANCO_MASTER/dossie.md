@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO MASTER
 **Banco Master** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 33.884.941/0001-94
+Data: 2026-05-07 | CNPJ: 33.884.941/0001-94
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 33.884.941/0001-94
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 889.270,87 |
 | Valor atualizado (profile) | R$ 889.270,87 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 51 |
+| Faturas exigíveis | 51 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 133.390,63 |
@@ -31,7 +31,7 @@ Distribuição por ano:
 |-----|-----|-------|
 
 ### Faturas: 51 | R$ 893.374,87
-### Cobranças SPCF: 0 | R$ 0,00
+### Cobranças SPCF: 51 | R$ 893.374,87
 
 ## Top 10 Empenhos (por valor)
 
@@ -65,4 +65,4 @@ Valor original R$ 889,270.87 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

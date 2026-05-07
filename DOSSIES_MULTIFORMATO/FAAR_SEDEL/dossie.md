@@ -1,6 +1,6 @@
 # Dossiê Completo — FAAR/SEDEL
 **Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: 35.933.557/0001-60
+Data: 2026-05-07 | CNPJ: 35.933.557/0001-60
 
 ## Visão Executiva
 
@@ -23,7 +23,7 @@ Data: 2026-04-14 | CNPJ: 35.933.557/0001-60
 
 ## Dados SPCF (prodam.db)
 
-### Empenhos: 94 NEs | R$ 1.272.727,86
+### Empenhos: 155 NEs | R$ 2.446.703,48
 
 Distribuição por ano:
 
@@ -33,24 +33,27 @@ Distribuição por ano:
 | 2021 | 29 | R$ 361.422,70 |
 | 2022 | 32 | R$ 490.809,74 |
 | 2023 | 28 | R$ 334.720,08 |
+| 2024 | 24 | R$ 394.060,52 |
+| 2025 | 34 | R$ 678.579,34 |
+| 2026 | 3 | R$ 101.335,76 |
 
-### Faturas: 63 | R$ 330.340,80
-### Cobranças SPCF: 63 | R$ 329.289,74
+### Faturas: 72 | R$ 364.632,44
+### Cobranças SPCF: 72 | R$ 363.581,38
 
 ## Top 10 Empenhos (por valor)
 
 | Número | Contrato | Data | Valor | Situação |
 |--------|----------|------|-------|----------|
 | 2022NE0000363 | 26/2021 | 29/08/2022 | R$ 164.431,28 | Ativo |
+| 2026NE0000003 | 26/2021 | 05/01/2026 | R$ 84.701,12 | Ativo |
 | 2020NE00054 | 2/2020 | 17/06/2020 | R$ 53.901,60 | Ativo |
+| 2025NE0000506 | 7/2025 | 27/11/2025 | R$ 49.630,55 | Ativo |
 | 2023NE0000031 | 26/2021 | 25/01/2023 | R$ 45.251,16 | Ativo |
 | 2023NE0000011 |  | 24/01/2023 | R$ 45.251,16 | Ativo |
 | 2023NE00031 | 26/2021 | 15/02/2023 | R$ 45.251,16 | Ativo |
 | 2023NE0000005 | 26/2021 | 02/01/2023 | R$ 45.251,16 | Ativo |
-| 2021NE00434 | 26/2021 | 21/10/2021 | R$ 43.555,02 | Ativo |
 | 2021NE0000434 |  | 21/10/2021 | R$ 43.555,02 | Ativo |
-| 2022NE0000388 | 26/2021 | 21/09/2022 | R$ 41.107,82 | Ativo |
-| 2021NE0000002 | 2/2020 | 04/01/2021 | R$ 35.934,40 | Ativo |
+| 2021NE00434 | 26/2021 | 21/10/2021 | R$ 43.555,02 | Ativo |
 
 ## Top 10 Faturas (por valor)
 
@@ -79,4 +82,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

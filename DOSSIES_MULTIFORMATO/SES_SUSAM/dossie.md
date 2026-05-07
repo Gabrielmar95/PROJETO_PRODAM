@@ -1,6 +1,6 @@
 # Dossiê Completo — SES/SUSAM
 **Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 00.697.295/0001-05
+Data: 2026-05-07 | CNPJ: 00.697.295/0001-05
 
 ## Visão Executiva
 
@@ -44,7 +44,7 @@ Distribuição por ano:
 | 2026 | 61 | R$ 10.824.276,74 |
 
 ### Faturas: 111 | R$ 6.752.583,41
-### Cobranças SPCF: 110 | R$ 6.660.692,00
+### Cobranças SPCF: 111 | R$ 6.660.907,15
 
 ## Top 10 Empenhos (por valor)
 
@@ -88,4 +88,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

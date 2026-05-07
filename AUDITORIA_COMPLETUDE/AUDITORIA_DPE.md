@@ -1,5 +1,5 @@
 # Auditoria de Completude — DPE
-**Defensoria Pública do Estado do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Defensoria Pública do Estado do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,16 +47,11 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (1)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 28060.05
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 28293.15
 - **db_faturas:** 4662.12
-- **delta:** 23397.93
-- **pct:** 83.4%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 7
-- **db:** 1
-- **delta:** 6
+- **delta:** 23631.03
+- **pct:** 83.5%
 

@@ -1,6 +1,6 @@
 # Dossiê Completo — SEDUC
 **Secretaria de Educação do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 04.312.419/0001-30
+Data: 2026-05-07 | CNPJ: 04.312.419/0001-30
 
 ## Visão Executiva
 
@@ -55,8 +55,8 @@ Distribuição por ano:
 | 2020NE05432 | 14/2018 | 31/12/2020 | R$ 9.428.517,00 | Ativo |
 | 2019NE07578 | 14/2018 | 30/12/2019 | R$ 9.428.517,00 | Ativo |
 | 2018NE09098 | 14/2018 | 28/12/2018 | R$ 9.428.517,00 | Ativo |
-| 2023NE0000008 |  | 20/01/2023 | R$ 9.428.517,00 | Ativo |
 | 2023NE0000006 | 14/2018 | 20/01/2023 | R$ 9.428.517,00 | Ativo |
+| 2023NE0000008 |  | 20/01/2023 | R$ 9.428.517,00 | Ativo |
 | 2023NE0000013 | 14/2018 | 02/01/2023 | R$ 9.428.517,00 | Ativo |
 | 2017NE00211 | 161/2016 | 02/01/2017 | R$ 7.443.106,40 | Ativo |
 | 2022NE0001503 | 20/2022 | 21/03/2022 | R$ 6.606.733,25 | Ativo |
@@ -88,4 +88,4 @@ Requer prova documental robusta. Negativa expressa para cobrança.
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

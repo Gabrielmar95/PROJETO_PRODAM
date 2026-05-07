@@ -6,7 +6,7 @@
     "fonte": "SPCF_EXAUSTIVO_ABR2026",
     "data_inclusao": "2026-04-01",
     "val_orig": "0",
-    "val_exig": "0",
+    "val_exig": 99481.64,
     "categoria": "EMPRESA_PRIVADA",
     "forca_probatoria": "FRACA",
     "proximo_passo": "CLASSIFICAR",
@@ -31,7 +31,17 @@
     "a_empenhar_2026": 0.0,
     "nes_sem_cobertura_qtd": 0,
     "nes_sem_cobertura_valor": 0,
-    "tem_csv_faturas": false
+    "tem_csv_faturas": false,
+    "cnpj": "62.232.889/0001-90",
+    "fonte_cnpj": "Portal Transparência — Banco Daycoval S.A. Matriz",
+    "faturas_total": 4,
+    "faturas_exigiveis": 4,
+    "faturas_prescritas": 0,
+    "ultima_reconciliacao_orfao": "2026-04-14",
+    "matches_db_fatura": [
+      "BANCO DAYCOVAL"
+    ],
+    "matches_db_empenho": []
   },
   "empenhos": [],
   "faturas": [

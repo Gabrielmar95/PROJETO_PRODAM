@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEJEL
-**Secretaria de Estado de Juventude, Esporte e Lazer** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Estado de Juventude, Esporte e Lazer** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **18.2%**
 

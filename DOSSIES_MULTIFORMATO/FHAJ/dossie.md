@@ -1,6 +1,6 @@
 # Dossiê Completo — FHAJ
 **Fundação Hospitalar Adriano Jorge** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: 06.168.092/0001-08
+Data: 2026-05-07 | CNPJ: 06.168.092/0001-08
 
 ## Visão Executiva
 
@@ -58,8 +58,8 @@ Distribuição por ano:
 | 2024NE0001864 | 8/2022 | 12/12/2024 | R$ 18.512,20 | Ativo |
 | 2017NE01184 |  | 18/12/2017 | R$ 17.000,00 | Ativo |
 | 2019NE00013 | 9/2017 | 02/01/2019 | R$ 16.400,00 | Ativo |
-| 2021NE0000025 |  | 20/01/2021 | R$ 16.358,55 | Ativo |
 | 2021NE0000021 | 9/2017 | 20/01/2021 | R$ 16.358,55 | Ativo |
+| 2021NE0000025 |  | 20/01/2021 | R$ 16.358,55 | Ativo |
 
 ## Top 10 Faturas (por valor)
 
@@ -84,4 +84,4 @@ Informes de RD efetuados, aguardando liberação
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

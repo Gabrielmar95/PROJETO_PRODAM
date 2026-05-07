@@ -1,6 +1,6 @@
 # Dossiê Completo — SEMA
 **Secretaria de Meio Ambiente** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 05.562.326/0001-26
+Data: 2026-05-07 | CNPJ: 05.562.326/0001-26
 
 ## Visão Executiva
 
@@ -44,7 +44,7 @@ Distribuição por ano:
 | 2026 | 2 | R$ 187.810,16 |
 
 ### Faturas: 13 | R$ 3.919.674,15
-### Cobranças SPCF: 2 | R$ 14.934,45
+### Cobranças SPCF: 11 | R$ 3.853.703,95
 
 ## Top 10 Empenhos (por valor)
 
@@ -88,4 +88,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

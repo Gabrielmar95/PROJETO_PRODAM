@@ -1,5 +1,5 @@
 # Auditoria de Completude — BANCO SAFRA
-**Banco Safra** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**Banco Safra** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **36.4%**
 
@@ -48,11 +48,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 9310.0
-- **db_faturas:** 12102.0
-- **delta:** 2792.0
-- **pct:** 30.0%
-
+_Nenhuma divergência significativa detectada_

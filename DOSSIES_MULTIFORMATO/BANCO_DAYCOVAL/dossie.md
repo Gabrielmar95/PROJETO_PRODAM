@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO DAYCOVAL
 **** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: —
+Data: 2026-05-07 | CNPJ: 62.232.889/0001-90
 
 ## Visão Executiva
 
@@ -12,10 +12,10 @@ Data: 2026-04-14 | CNPJ: —
 | Regime de execução | — |
 | Índice correção | — |
 | Juros mora | — |
-| Valor exigível (profile) | R$ 0,00 |
+| Valor exigível (profile) | R$ 99.481,64 |
 | Valor atualizado (profile) | R$ 0,00 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 4 |
+| Faturas exigíveis | 4 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 0% |
 | Valor esperado (E[V]) | R$ 0,00 |
@@ -59,4 +59,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

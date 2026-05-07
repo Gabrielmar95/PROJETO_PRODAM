@@ -1,6 +1,6 @@
 # Dossiê Completo — FMT
 **Fundação de Medicina Tropical do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: 04.534.053/0001-43
+Data: 2026-05-07 | CNPJ: 04.534.053/0001-43
 
 ## Visão Executiva
 
@@ -44,7 +44,7 @@ Distribuição por ano:
 | 2026 | 26 | R$ 193.806,92 |
 
 ### Faturas: 3 | R$ 23.228,19
-### Cobranças SPCF: 0 | R$ 0,00
+### Cobranças SPCF: 2 | R$ 1.468,47
 
 ## Top 10 Empenhos (por valor)
 
@@ -81,4 +81,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

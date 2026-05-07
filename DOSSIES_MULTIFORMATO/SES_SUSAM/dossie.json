@@ -665,14 +665,6 @@
       "descricao": "=CONTRATO 018/2021 - 2º TA;=VIGÊNCIA: 14/06/2023 a 13/06/2024=SERVIÇO DE DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇAO, DE ACESSO, CONSULTORIA/ASSESSORIA E PRODUCAO DE REPOSITORIOS E ARMAZENS DE DADOS (DATAWAREHOUSE);=LOCAL : SES-AM; =PERÍODO: NOVEMBRO DE 2023;"
     },
     {
-      "numero": "2022NE0003583",
-      "contrato": "",
-      "valor": 51901.56,
-      "situacao": "Ativo",
-      "data_emissao": "31/08/2022",
-      "descricao": "=ANULAÇÃO PARCIAL =MOTIVO: SALDO DE EMPENHO"
-    },
-    {
       "numero": "2022NE0003608",
       "contrato": "",
       "valor": 675286.06,
@@ -681,12 +673,12 @@
       "descricao": "=ANULAÇÃO PARCIAL; =SALDO DE EMPENHO"
     },
     {
-      "numero": "2026NE0001323",
-      "contrato": "21/2021",
-      "valor": 289705.28,
+      "numero": "2022NE0003583",
+      "contrato": "",
+      "valor": 51901.56,
       "situacao": "Ativo",
-      "data_emissao": "31/03/2026",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
+      "data_emissao": "31/08/2022",
+      "descricao": "=ANULAÇÃO PARCIAL =MOTIVO: SALDO DE EMPENHO"
     },
     {
       "numero": "2026NE0001322",
@@ -697,20 +689,20 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
     },
     {
-      "numero": "2024NE0007168",
+      "numero": "2026NE0001323",
+      "contrato": "21/2021",
+      "valor": 289705.28,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2026",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
+    },
+    {
+      "numero": "2024NE0007167",
       "contrato": "",
-      "valor": 8782.22,
+      "valor": 11391.98,
       "situacao": "Ativo",
       "data_emissao": "30/12/2024",
       "descricao": "ANULAÇÃO PARCIAL MOTIVO: SALDO DE EMPENHO"
-    },
-    {
-      "numero": "2024NE0007164",
-      "contrato": "",
-      "valor": 3102.7,
-      "situacao": "Ativo",
-      "data_emissao": "30/12/2024",
-      "descricao": "=ANULAÇÃO PARCIAL =MOTIVO: SALDO DED EMPENHO"
     },
     {
       "numero": "2024NE0007218",
@@ -721,9 +713,17 @@
       "descricao": "=ANULAÇAO PARCIAL DA NE =MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2024NE0007167",
+      "numero": "2024NE0007164",
       "contrato": "",
-      "valor": 11391.98,
+      "valor": 3102.7,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2024",
+      "descricao": "=ANULAÇÃO PARCIAL =MOTIVO: SALDO DED EMPENHO"
+    },
+    {
+      "numero": "2024NE0007168",
+      "contrato": "",
+      "valor": 8782.22,
       "situacao": "Ativo",
       "data_emissao": "30/12/2024",
       "descricao": "ANULAÇÃO PARCIAL MOTIVO: SALDO DE EMPENHO"
@@ -769,14 +769,6 @@
       "descricao": "=DESPESA SEM COBERTURA CONTRATUAL; =RI: 00384/2020; =SERVIÇO DE FIREWALL, TRANSMISSÃO DE DADOS E ACESSO GERENCIADO A REDE MUNDIAL; =ICAM, PSC ZONA OESTE E ZONA SUL, CENTRAL DE REGULAÇÃO, 28 DE AGOSTO, POLICLINICA CODAJAS, PRODAM E SECRETARIA/SES-AM; =PERÍODO: 05/01/2020 A 31/01/2020."
     },
     {
-      "numero": "2015NE02922",
-      "contrato": "116/2013",
-      "valor": 154015.78,
-      "situacao": "Ativo",
-      "data_emissao": "30/07/2015",
-      "descricao": "=ANULAÇÃO TOTAL DA NOTA DE EMPENHO =MOTIVO: AJUSTE ORÇAMENTARIO"
-    },
-    {
       "numero": "2015NE02920",
       "contrato": "116/2013",
       "valor": 154015.78,
@@ -785,12 +777,12 @@
       "descricao": "2º Termo Aditivo ao Contrato 116/2013 NE 2920 DE 30/07/2015 R$ 154.015,78"
     },
     {
-      "numero": "2014NE02177",
-      "contrato": "52/2008",
-      "valor": 296355.56,
+      "numero": "2015NE02922",
+      "contrato": "116/2013",
+      "valor": 154015.78,
       "situacao": "Ativo",
-      "data_emissao": "30/06/2014",
-      "descricao": "Contrato No. 52/2008 - Instalação de Links nas unidades de Saíde"
+      "data_emissao": "30/07/2015",
+      "descricao": "=ANULAÇÃO TOTAL DA NOTA DE EMPENHO =MOTIVO: AJUSTE ORÇAMENTARIO"
     },
     {
       "numero": "2014NE02164",
@@ -801,12 +793,12 @@
       "descricao": "Contrato No. 51/2008 - Complexo Regulador"
     },
     {
-      "numero": "2025NE0003009",
-      "contrato": "",
-      "valor": 370149.81,
+      "numero": "2014NE02177",
+      "contrato": "52/2008",
+      "valor": 296355.56,
       "situacao": "Ativo",
-      "data_emissao": "30/05/2025",
-      "descricao": "=ANULAÇÃO PARCIAL DA NE 0008/25 =MOTIVO: SALDO DE EMPENHO"
+      "data_emissao": "30/06/2014",
+      "descricao": "Contrato No. 52/2008 - Instalação de Links nas unidades de Saíde"
     },
     {
       "numero": "2025NE0003011",
@@ -817,12 +809,12 @@
       "descricao": "=ANULAÇÃO PARCIAL DA NE 0014/25 =MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2025NE0002175",
-      "contrato": "5/2021",
-      "valor": 36112.42,
+      "numero": "2025NE0003009",
+      "contrato": "",
+      "valor": 370149.81,
       "situacao": "Ativo",
-      "data_emissao": "30/04/2025",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
+      "data_emissao": "30/05/2025",
+      "descricao": "=ANULAÇÃO PARCIAL DA NE 0008/25 =MOTIVO: SALDO DE EMPENHO"
     },
     {
       "numero": "2025NE0002172",
@@ -833,12 +825,12 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2014NE01496",
-      "contrato": "52/2008",
-      "valor": 296355.56,
+      "numero": "2025NE0002175",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
-      "data_emissao": "30/04/2014",
-      "descricao": "Contrato No. 52/2008 - Instalação de Links nas unidades de Saíde"
+      "data_emissao": "30/04/2025",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
       "numero": "2014NE01495",
@@ -849,49 +841,17 @@
       "descricao": "Contrato No. 51/2008 - Complexo Regulador"
     },
     {
-      "numero": "2022NE0006065",
-      "contrato": "",
-      "valor": 9611.4,
+      "numero": "2014NE01496",
+      "contrato": "52/2008",
+      "valor": 296355.56,
       "situacao": "Ativo",
-      "data_emissao": "29/12/2022",
-      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
+      "data_emissao": "30/04/2014",
+      "descricao": "Contrato No. 52/2008 - Instalação de Links nas unidades de Saíde"
     },
     {
-      "numero": "2022NE0006081",
+      "numero": "2022NE0006062",
       "contrato": "",
-      "valor": 17028.37,
-      "situacao": "Ativo",
-      "data_emissao": "29/12/2022",
-      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
-    },
-    {
-      "numero": "2022NE0006077",
-      "contrato": "",
-      "valor": 8183.52,
-      "situacao": "Ativo",
-      "data_emissao": "29/12/2022",
-      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
-    },
-    {
-      "numero": "2022NE0006069",
-      "contrato": "",
-      "valor": 7689.12,
-      "situacao": "Ativo",
-      "data_emissao": "29/12/2022",
-      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
-    },
-    {
-      "numero": "2022NE0006071",
-      "contrato": "",
-      "valor": 8054.42,
-      "situacao": "Ativo",
-      "data_emissao": "29/12/2022",
-      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
-    },
-    {
-      "numero": "2022NE0006079",
-      "contrato": "",
-      "valor": 2819.34,
+      "valor": 13455.96,
       "situacao": "Ativo",
       "data_emissao": "29/12/2022",
       "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
@@ -905,15 +865,55 @@
       "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
     },
     {
-      "numero": "2022NE0006062",
+      "numero": "2022NE0006079",
       "contrato": "",
-      "valor": 13455.96,
+      "valor": 2819.34,
       "situacao": "Ativo",
       "data_emissao": "29/12/2022",
       "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
     },
     {
-      "numero": "2017NE04136",
+      "numero": "2022NE0006071",
+      "contrato": "",
+      "valor": 8054.42,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2022NE0006069",
+      "contrato": "",
+      "valor": 7689.12,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2022NE0006077",
+      "contrato": "",
+      "valor": 8183.52,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2022NE0006081",
+      "contrato": "",
+      "valor": 17028.37,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2022NE0006065",
+      "contrato": "",
+      "valor": 9611.4,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2022",
+      "descricao": "=ANULAÇÃO PARCIAL; =ENCERRAMENTO DO EXERCÍCIO, CONFORME DECRETO Nº 46.621 DE 11/11/2022."
+    },
+    {
+      "numero": "2017NE04135",
       "contrato": "",
       "valor": 6485.3,
       "situacao": "Ativo",
@@ -929,7 +929,7 @@
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INFORMÁTICA COMUNICAÇÃO DE DADOS E REDES"
     },
     {
-      "numero": "2017NE04135",
+      "numero": "2017NE04136",
       "contrato": "",
       "valor": 6485.3,
       "situacao": "Ativo",
@@ -937,20 +937,12 @@
       "descricao": "=ANULAÇÃO TOTAL; =EM DECORRÊNCIA DO ENCERRAMENTO DO EXERCÍCIO FINANCEIRO."
     },
     {
-      "numero": "2025NE0006419",
-      "contrato": "5/2021",
-      "valor": 36112.42,
+      "numero": "2025NE0006407",
+      "contrato": "21/2021",
+      "valor": 304085.45,
       "situacao": "Ativo",
       "data_emissao": "29/10/2025",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 005/2021;=VIGÊNCIA: 08/02/2023 A 07/02/2024; =SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTES DE MÁQUNAS ESPECIALIZADAS VIRTUAIS EM NUVEM, AFIM DE ATENDER AS NECESSIDADES DE AMPLIAÇÃO, ATUALIZAÇÃO E PADRONIZAÇÃO DO AMBIENTE DE TECNOLOGIA DA INFORMAÇÃO DA SECRETARIA DE ESTADO DO AMAZONAS. =SES-AM; =PERÍODO: NOVEMBRO/2023"
-    },
-    {
-      "numero": "2025NE0006408",
-      "contrato": "18/2021",
-      "valor": 544872.49,
-      "situacao": "Ativo",
-      "data_emissao": "29/10/2025",
-      "descricao": "=CONTRATO 018/2021 - 2º TA;=VIGÊNCIA: 14/06/2023 a 13/06/2024=SERVIÇO DE DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇAO, DE ACESSO, CONSULTORIA/ASSESSORIA E PRODUCAO DE REPOSITORIOS E ARMAZENS DE DADOS (DATAWAREHOUSE); =LOCAL : SES-AM; =PERÍODO: DEZEMBRO DE 2023;"
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA: 12/08/2023 A 11/08/2024; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: DEZEMBRO/2023"
     },
     {
       "numero": "2025NE0006429",
@@ -961,12 +953,20 @@
       "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 005/2021;=VIGÊNCIA: 08/02/2023 A 07/02/2024; =SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTE DE MÁQUINAS VIRTUAIS EM NUVEM; =SES/AM; =PERÍODO: 01/12/2023 A 31/12/2023"
     },
     {
-      "numero": "2025NE0006407",
-      "contrato": "21/2021",
-      "valor": 304085.45,
+      "numero": "2025NE0006408",
+      "contrato": "18/2021",
+      "valor": 544872.49,
       "situacao": "Ativo",
       "data_emissao": "29/10/2025",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA: 12/08/2023 A 11/08/2024; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: DEZEMBRO/2023"
+      "descricao": "=CONTRATO 018/2021 - 2º TA;=VIGÊNCIA: 14/06/2023 a 13/06/2024=SERVIÇO DE DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇAO, DE ACESSO, CONSULTORIA/ASSESSORIA E PRODUCAO DE REPOSITORIOS E ARMAZENS DE DADOS (DATAWAREHOUSE); =LOCAL : SES-AM; =PERÍODO: DEZEMBRO DE 2023;"
+    },
+    {
+      "numero": "2025NE0006419",
+      "contrato": "5/2021",
+      "valor": 36112.42,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2025",
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 005/2021;=VIGÊNCIA: 08/02/2023 A 07/02/2024; =SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTES DE MÁQUNAS ESPECIALIZADAS VIRTUAIS EM NUVEM, AFIM DE ATENDER AS NECESSIDADES DE AMPLIAÇÃO, ATUALIZAÇÃO E PADRONIZAÇÃO DO AMBIENTE DE TECNOLOGIA DA INFORMAÇÃO DA SECRETARIA DE ESTADO DO AMAZONAS. =SES-AM; =PERÍODO: NOVEMBRO/2023"
     },
     {
       "numero": "2022NE0004104",
@@ -985,14 +985,6 @@
       "descricao": "Contrato No. 81/2010 - CFPP - Cadastro e Folha de Pagamento de Pessoal"
     },
     {
-      "numero": "2025NE0002967",
-      "contrato": "18/2021",
-      "valor": 663084.71,
-      "situacao": "Ativo",
-      "data_emissao": "29/05/2025",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
-    },
-    {
       "numero": "2025NE0002978",
       "contrato": "18/2024",
       "valor": 146012.35,
@@ -1001,20 +993,20 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2025NE0002114",
-      "contrato": "21/2021",
-      "valor": 315103.97,
-      "situacao": "Ativo",
-      "data_emissao": "29/04/2025",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
-    },
-    {
-      "numero": "2025NE0002120",
+      "numero": "2025NE0002967",
       "contrato": "18/2021",
       "valor": 663084.71,
       "situacao": "Ativo",
-      "data_emissao": "29/04/2025",
+      "data_emissao": "29/05/2025",
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0002066",
+      "contrato": "",
+      "valor": 721621.43,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2025",
+      "descricao": "=ANULAÇAO PARCIAL DA NE 0008/2025; =MOTIVO: SALDO DE EMPENHO"
     },
     {
       "numero": "2025NE0002068",
@@ -1025,12 +1017,20 @@
       "descricao": "=ANULAÇAO PARCIAL DA NE 0014/2025; =MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2025NE0002066",
-      "contrato": "",
-      "valor": 721621.43,
+      "numero": "2025NE0002120",
+      "contrato": "18/2021",
+      "valor": 663084.71,
       "situacao": "Ativo",
       "data_emissao": "29/04/2025",
-      "descricao": "=ANULAÇAO PARCIAL DA NE 0008/2025; =MOTIVO: SALDO DE EMPENHO"
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
+    },
+    {
+      "numero": "2025NE0002114",
+      "contrato": "21/2021",
+      "valor": 315103.97,
+      "situacao": "Ativo",
+      "data_emissao": "29/04/2025",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
       "numero": "2022NE0000903",
@@ -1057,17 +1057,17 @@
       "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 005/2021;=VIGÊNCIA: 08/02/2023 A 07/02/2024; =SERVIÇO DE HOSPEDAGEM DE SERVIDORES EM AMBIENTE DE MAQUINAS VIRTUAIS EM NUVEM, A FIM DE ATENDER AS NECESSIDADES DE AMPLIAÇÃO, ATUALIZAÇÃO E PADRONIZAÇÃO DO AMBIENTE DE TECNOLOGIA DA INFORMAÇÃO DA SECRETARIA DE ESTADO DE SAÚDE DO AMAZONAS. =SES-AM; =PERÍODO: AGOSTO/2023"
     },
     {
-      "numero": "2018NE05988",
+      "numero": "2018NE05951",
       "contrato": "",
-      "valor": 34621.28,
+      "valor": 191268.1,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
-      "descricao": "=ANULAÇÃO DO SALDO, PARA AJUSTE ORÇAMENTÁRIO E EM CUMPRIMENTO AO ART. 42 DA LRF."
+      "descricao": "ANULAÇÃO DO SALDO DE EMPENHO, PARA AJUSTE ORÇAMENTARIO E EM CUMPRIMENTO AO ART. 42 DA LRF."
     },
     {
-      "numero": "2018NE05950",
+      "numero": "2018NE05953",
       "contrato": "",
-      "valor": 1049.88,
+      "valor": 33572.35,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "=ANULAÇÃO DO SALDO, PARA AJUSTE ORÇAMENTÁRIO E EM CUMPRIMENTO AO ART 42 DA LRF."
@@ -1081,20 +1081,20 @@
       "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI FEDERAL Nº 101/2000 (LEI DE RESPONSABILIDADE FISCAL."
     },
     {
-      "numero": "2018NE05953",
+      "numero": "2018NE05950",
       "contrato": "",
-      "valor": 33572.35,
+      "valor": 1049.88,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "=ANULAÇÃO DO SALDO, PARA AJUSTE ORÇAMENTÁRIO E EM CUMPRIMENTO AO ART 42 DA LRF."
     },
     {
-      "numero": "2018NE05951",
+      "numero": "2018NE05988",
       "contrato": "",
-      "valor": 191268.1,
+      "valor": 34621.28,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
-      "descricao": "ANULAÇÃO DO SALDO DE EMPENHO, PARA AJUSTE ORÇAMENTARIO E EM CUMPRIMENTO AO ART. 42 DA LRF."
+      "descricao": "=ANULAÇÃO DO SALDO, PARA AJUSTE ORÇAMENTÁRIO E EM CUMPRIMENTO AO ART. 42 DA LRF."
     },
     {
       "numero": "2017NE04057",
@@ -1105,14 +1105,6 @@
       "descricao": "=ANULAÇÃO TOTAL; =AJUSTE ORÇAMENTÁRIO (FONTE)"
     },
     {
-      "numero": "2016NE03494",
-      "contrato": "",
-      "valor": 11873.5,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2016",
-      "descricao": "=ANULAÇÃO TOTAL DA NOTA DE EMPENHO =MOTIVO:ENCERRAMENTO DO EXERCICIO"
-    },
-    {
       "numero": "2016NE03497",
       "contrato": "",
       "valor": 4599.03,
@@ -1121,12 +1113,12 @@
       "descricao": "=ANULAÇÃO TOTAL DA NOTA DE EMPENHO =MOTIVO:ENCERRAMENTO DO EXERCICIO"
     },
     {
-      "numero": "2025NE0007414",
-      "contrato": "5/2021",
-      "valor": 34245.6,
+      "numero": "2016NE03494",
+      "contrato": "",
+      "valor": 11873.5,
       "situacao": "Ativo",
-      "data_emissao": "28/11/2025",
-      "descricao": "= TERMO ADITIVO AO CONTRATO 005/2021;=VIGÊNCIA: 08/02/2021 A 07/02/2022;=SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTE DE MÁQUINAS VIRTUAIS EM NUVEM;=SES/AM; =PERÍODO: DEZEMBRO /2021"
+      "data_emissao": "28/12/2016",
+      "descricao": "=ANULAÇÃO TOTAL DA NOTA DE EMPENHO =MOTIVO:ENCERRAMENTO DO EXERCICIO"
     },
     {
       "numero": "2025NE0007413",
@@ -1137,9 +1129,17 @@
       "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 021/2021;=VIGÊNCIA: 12/08/2023 A 11/08/2024;=FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE;=UNIDADES DA SES-AM;=PERÍODO: 01 A 31 DE OUTUBRO DE 2023."
     },
     {
-      "numero": "2022NE0005297",
+      "numero": "2025NE0007414",
+      "contrato": "5/2021",
+      "valor": 34245.6,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2025",
+      "descricao": "= TERMO ADITIVO AO CONTRATO 005/2021;=VIGÊNCIA: 08/02/2021 A 07/02/2022;=SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTE DE MÁQUINAS VIRTUAIS EM NUVEM;=SES/AM; =PERÍODO: DEZEMBRO /2021"
+    },
+    {
+      "numero": "2022NE0005298",
       "contrato": "",
-      "valor": 131397.32,
+      "valor": 282357.31,
       "situacao": "Ativo",
       "data_emissao": "28/11/2022",
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
@@ -1153,9 +1153,9 @@
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2022NE0005298",
+      "numero": "2022NE0005297",
       "contrato": "",
-      "valor": 282357.31,
+      "valor": 131397.32,
       "situacao": "Ativo",
       "data_emissao": "28/11/2022",
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
@@ -1169,20 +1169,12 @@
       "descricao": "=DESPESA SEM COBERTURA CONTRATUAL; =RI: 2020RI00448; =SERVIÇOS DE FIREWALL, ACESSO GERENCIADO À REDE MUNDIAL E FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SECRETARIA DE SAÚDE E DEMAIS UNIDADES; =PERÍODO: 01 A 31/05/2020."
     },
     {
-      "numero": "2023NE0004066",
-      "contrato": "21/2021",
-      "valor": 325367.97,
+      "numero": "2023NE0004065",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
       "data_emissao": "28/09/2023",
-      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
-    },
-    {
-      "numero": "2023NE0004067",
-      "contrato": "18/2021",
-      "valor": 663281.42,
-      "situacao": "Ativo",
-      "data_emissao": "28/09/2023",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 005/2021 AD: 02."
     },
     {
       "numero": "2023NE0004064",
@@ -1193,12 +1185,20 @@
       "descricao": "Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 054/2018 AD: 04."
     },
     {
-      "numero": "2023NE0004065",
-      "contrato": "5/2021",
-      "valor": 36112.42,
+      "numero": "2023NE0004067",
+      "contrato": "18/2021",
+      "valor": 663281.42,
       "situacao": "Ativo",
       "data_emissao": "28/09/2023",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 005/2021 AD: 02."
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0004066",
+      "contrato": "21/2021",
+      "valor": 325367.97,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2023",
+      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
     },
     {
       "numero": "2021NE0003377",
@@ -1225,14 +1225,6 @@
       "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO MOTIVO: COMPENTENCIA INCORRETA"
     },
     {
-      "numero": "2022NE0001176",
-      "contrato": "5/2021",
-      "valor": 34245.6,
-      "situacao": "Ativo",
-      "data_emissao": "28/04/2022",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de ampliação, atualização e padronização do ambiente de Tecnologia da Informação da Secretaria de Saúde"
-    },
-    {
       "numero": "2022NE0001169",
       "contrato": "18/2021",
       "valor": 567989.81,
@@ -1241,28 +1233,12 @@
       "descricao": "Contratação de pessoa jurídica especializada em serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do governo de estado, e serviço de modelag"
     },
     {
-      "numero": "2024NE0000853",
-      "contrato": "21/2021",
-      "valor": 304085.45,
-      "situacao": "Ativo",
-      "data_emissao": "28/02/2024",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA : 12/08/2023 A 11/08/2024; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: SETEMBRO/2023."
-    },
-    {
-      "numero": "2024NE0000851",
+      "numero": "2022NE0001176",
       "contrato": "5/2021",
-      "valor": 36112.42,
+      "valor": 34245.6,
       "situacao": "Ativo",
-      "data_emissao": "28/02/2024",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 05/2021;=VIGÊNCIA: 08/02/2023 A 07/02/2024; =SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTES DE MÁQUNAS ESPECIALIZADAS VIRTUAIS EM NUVEM, AFIM DE ATENDER AS NECESSIDADES DE AMPLIAÇÃO, ATUALIZAÇÃO E PADRONIZAÇÃO DO AMBIENTE DE TECNOLOGIA DA INFORMAÇÃO DA SECRETARIA DE ESTADO DO AMAZONAS. =SES-AM; =PERÍODO: SETEMBRO/2023"
-    },
-    {
-      "numero": "2024NE0000849",
-      "contrato": "21/2021",
-      "valor": 111498.0,
-      "situacao": "Ativo",
-      "data_emissao": "28/02/2024",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA : 12/08/2023 A 11/08/2024; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: AGOSTO/2023."
+      "data_emissao": "28/04/2022",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de ampliação, atualização e padronização do ambiente de Tecnologia da Informação da Secretaria de Saúde"
     },
     {
       "numero": "2024NE0000850",
@@ -1273,12 +1249,36 @@
       "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 018/2021;=VIGÊNCIA: 14/06/2023 A 13/06/2024; =SERVIÇOS DE DESENVOLVIMENTO DE DISTEMAS DE INFORMAÇÃO. DE ACESSO, CONSULTORIA/ASSESSORIA E PRODUÇÃO DE REPOSITORIOS E ARMAZENS DE DADOS (DATAWAREHOUSE); =SES-AM =PERÍODO: SETEMBRO/2023"
     },
     {
-      "numero": "2023NE0000705",
+      "numero": "2024NE0000849",
       "contrato": "21/2021",
-      "valor": 325367.97,
+      "valor": 111498.0,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2024",
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA : 12/08/2023 A 11/08/2024; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: AGOSTO/2023."
+    },
+    {
+      "numero": "2024NE0000851",
+      "contrato": "5/2021",
+      "valor": 36112.42,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2024",
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 05/2021;=VIGÊNCIA: 08/02/2023 A 07/02/2024; =SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTES DE MÁQUNAS ESPECIALIZADAS VIRTUAIS EM NUVEM, AFIM DE ATENDER AS NECESSIDADES DE AMPLIAÇÃO, ATUALIZAÇÃO E PADRONIZAÇÃO DO AMBIENTE DE TECNOLOGIA DA INFORMAÇÃO DA SECRETARIA DE ESTADO DO AMAZONAS. =SES-AM; =PERÍODO: SETEMBRO/2023"
+    },
+    {
+      "numero": "2024NE0000853",
+      "contrato": "21/2021",
+      "valor": 304085.45,
+      "situacao": "Ativo",
+      "data_emissao": "28/02/2024",
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA : 12/08/2023 A 11/08/2024; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: SETEMBRO/2023."
+    },
+    {
+      "numero": "2023NE0000688",
+      "contrato": "54/2018",
+      "valor": 146012.35,
       "situacao": "Ativo",
       "data_emissao": "28/02/2023",
-      "descricao": "=REFORCO DA 301/2023 AO PRIMEIRO TERMO DE CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA Nº 021/2021 SES-AM;"
+      "descricao": "=CONTRATO Nº 54/2018"
     },
     {
       "numero": "2023NE0000706",
@@ -1289,12 +1289,12 @@
       "descricao": "=REFORÇO DA NE 531/23 AO SEGUNDO TERMO ADITIVO AO CONTRATO 005/21 =MES: FEVEREIRO/2023"
     },
     {
-      "numero": "2023NE0000688",
-      "contrato": "54/2018",
-      "valor": 146012.35,
+      "numero": "2023NE0000705",
+      "contrato": "21/2021",
+      "valor": 325367.97,
       "situacao": "Ativo",
       "data_emissao": "28/02/2023",
-      "descricao": "=CONTRATO Nº 54/2018"
+      "descricao": "=REFORCO DA 301/2023 AO PRIMEIRO TERMO DE CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA Nº 021/2021 SES-AM;"
     },
     {
       "numero": "2022NE0000240",
@@ -1313,14 +1313,6 @@
       "descricao": "=SEM COBERTURA CONTRATUAL; =RI: 2020RI00517 =SERVIÇOS DE FIREWALL, ACESSO GERENCIADO À REDE MUNDIAL, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SEDE SES-AM E DEMAIS UNIDADES DE SAÚDE; =PERÍODO: 01/06/2020 A 30/06/2020;"
     },
     {
-      "numero": "2022NE0004011",
-      "contrato": "18/2021",
-      "valor": 57050.28,
-      "situacao": "Ativo",
-      "data_emissao": "27/09/2022",
-      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 1169/2022"
-    },
-    {
       "numero": "2022NE0004010",
       "contrato": "18/2021",
       "valor": 129819.09,
@@ -1329,12 +1321,12 @@
       "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 123/2022"
     },
     {
-      "numero": "2022NE0001733",
-      "contrato": "21/2021",
-      "valor": 293907.41,
+      "numero": "2022NE0004011",
+      "contrato": "18/2021",
+      "valor": 57050.28,
       "situacao": "Ativo",
-      "data_emissao": "27/05/2022",
-      "descricao": "=REFORCO DA NE 0127/2022 AO TERMO DE CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA Nº 021/2021 SES-AM;"
+      "data_emissao": "27/09/2022",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 1169/2022"
     },
     {
       "numero": "2022NE0001673",
@@ -1343,6 +1335,14 @@
       "situacao": "Ativo",
       "data_emissao": "27/05/2022",
       "descricao": "=REFORCO DA NE 0055/2022 AO TERCEIRO TERMO ADITIVO AO CONTRATO Nº 054/2018 - SES/AM;"
+    },
+    {
+      "numero": "2022NE0001733",
+      "contrato": "21/2021",
+      "valor": 293907.41,
+      "situacao": "Ativo",
+      "data_emissao": "27/05/2022",
+      "descricao": "=REFORCO DA NE 0127/2022 AO TERMO DE CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA Nº 021/2021 SES-AM;"
     },
     {
       "numero": "2022NE0001156",
@@ -1361,15 +1361,23 @@
       "descricao": "=RECONHECIMENTO DE DÍVIDA; =RD Nº 541/2020; =QUINTO TERMO ADITIVO AO CONTRATO Nº 002/15; =VIGÊNCIA: 05/01/2019 A 04/01/2020 =FORNECIMENTO DE TRANSMISSÃO DE DADOS, FIREWALL E INTERNET; =LOCAL: DIVERSAS UNIDADES; =PERÍODO: 01 A 31/12/2019 (NOTA DE EMPENHO COMPLEMENTAR A NE 03921/2019)."
     },
     {
-      "numero": "2026NE0000850",
-      "contrato": "",
-      "valor": 36112.42,
+      "numero": "2026NE0000839",
+      "contrato": "18/2024",
+      "valor": 146012.35,
       "situacao": "Ativo",
       "data_emissao": "27/02/2026",
-      "descricao": "ANULAÇÃO DE NE MOTIVO: NATUREZA INCORRETA"
+      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2026NE0000852",
+      "numero": "2026NE0000830",
+      "contrato": "18/2021",
+      "valor": 532472.98,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000826",
       "contrato": "5/2021",
       "valor": 36112.42,
       "situacao": "Ativo",
@@ -1377,7 +1385,47 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2026NE0000849",
+      "numero": "2026NE0000838",
+      "contrato": "21/2021",
+      "valor": 289705.28,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
+    },
+    {
+      "numero": "2026NE0000829",
+      "contrato": "18/2021",
+      "valor": 278783.02,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000840",
+      "contrato": "18/2024",
+      "valor": 146012.35,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
+    },
+    {
+      "numero": "2026NE0000841",
+      "contrato": "18/2024",
+      "valor": 146012.35,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
+    },
+    {
+      "numero": "2026NE0000837",
+      "contrato": "18/2021",
+      "valor": 259366.87,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2026",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000827",
       "contrato": "5/2021",
       "valor": 36112.42,
       "situacao": "Ativo",
@@ -1385,15 +1433,7 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2026NE0000828",
-      "contrato": "5/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2026",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
-    },
-    {
-      "numero": "2026NE0000842",
+      "numero": "2026NE0000843",
       "contrato": "18/2024",
       "valor": 146012.35,
       "situacao": "Ativo",
@@ -1409,7 +1449,7 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2026NE0000843",
+      "numero": "2026NE0000842",
       "contrato": "18/2024",
       "valor": 146012.35,
       "situacao": "Ativo",
@@ -1417,7 +1457,7 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2026NE0000827",
+      "numero": "2026NE0000828",
       "contrato": "5/2021",
       "valor": 36112.42,
       "situacao": "Ativo",
@@ -1425,47 +1465,7 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2026NE0000837",
-      "contrato": "18/2021",
-      "valor": 259366.87,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2026",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
-    },
-    {
-      "numero": "2026NE0000841",
-      "contrato": "18/2024",
-      "valor": 146012.35,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2026",
-      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
-    },
-    {
-      "numero": "2026NE0000840",
-      "contrato": "18/2024",
-      "valor": 146012.35,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2026",
-      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
-    },
-    {
-      "numero": "2026NE0000829",
-      "contrato": "18/2021",
-      "valor": 278783.02,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2026",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
-    },
-    {
-      "numero": "2026NE0000838",
-      "contrato": "21/2021",
-      "valor": 289705.28,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2026",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
-    },
-    {
-      "numero": "2026NE0000826",
+      "numero": "2026NE0000849",
       "contrato": "5/2021",
       "valor": 36112.42,
       "situacao": "Ativo",
@@ -1473,20 +1473,20 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2026NE0000830",
-      "contrato": "18/2021",
-      "valor": 532472.98,
+      "numero": "2026NE0000852",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
       "data_emissao": "27/02/2026",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2026NE0000839",
-      "contrato": "18/2024",
-      "valor": 146012.35,
+      "numero": "2026NE0000850",
+      "contrato": "",
+      "valor": 36112.42,
       "situacao": "Ativo",
       "data_emissao": "27/02/2026",
-      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
+      "descricao": "ANULAÇÃO DE NE MOTIVO: NATUREZA INCORRETA"
     },
     {
       "numero": "2022NE0004810",
@@ -1497,14 +1497,6 @@
       "descricao": "=REFORÇO DA NE 2453/22 AO QUARTO TERMO ADITIVO DO CONTRATO 054/2018"
     },
     {
-      "numero": "2022NE0003974",
-      "contrato": "",
-      "valor": 103090.37,
-      "situacao": "Ativo",
-      "data_emissao": "26/09/2022",
-      "descricao": "=ANULAÇÃO PARCIAL; =SALDO DE EMPENHO."
-    },
-    {
       "numero": "2022NE0003977",
       "contrato": "",
       "valor": 129819.09,
@@ -1513,9 +1505,17 @@
       "descricao": "=ANULAÇÃO PARCIAL; =SALDO DE EMPENHO."
     },
     {
-      "numero": "2025NE0003605",
+      "numero": "2022NE0003974",
+      "contrato": "",
+      "valor": 103090.37,
+      "situacao": "Ativo",
+      "data_emissao": "26/09/2022",
+      "descricao": "=ANULAÇÃO PARCIAL; =SALDO DE EMPENHO."
+    },
+    {
+      "numero": "2025NE0003607",
       "contrato": "18/2021",
-      "valor": 255638.19,
+      "valor": 407446.52,
       "situacao": "Ativo",
       "data_emissao": "26/06/2025",
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
@@ -1529,20 +1529,12 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
     },
     {
-      "numero": "2025NE0003607",
+      "numero": "2025NE0003605",
       "contrato": "18/2021",
-      "valor": 407446.52,
+      "valor": 255638.19,
       "situacao": "Ativo",
       "data_emissao": "26/06/2025",
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
-    },
-    {
-      "numero": "2025NE0002697",
-      "contrato": "21/2021",
-      "valor": 315103.97,
-      "situacao": "Ativo",
-      "data_emissao": "26/05/2025",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
       "numero": "2025NE0002711",
@@ -1553,12 +1545,12 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2026NE0000813",
-      "contrato": "18/2024",
-      "valor": 146012.35,
+      "numero": "2025NE0002697",
+      "contrato": "21/2021",
+      "valor": 315103.97,
       "situacao": "Ativo",
-      "data_emissao": "26/02/2026",
-      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
+      "data_emissao": "26/05/2025",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
       "numero": "2026NE0000812",
@@ -1567,6 +1559,14 @@
       "situacao": "Ativo",
       "data_emissao": "26/02/2026",
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000813",
+      "contrato": "18/2024",
+      "valor": 146012.35,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2026",
+      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
       "numero": "2024NE0000810",
@@ -1609,14 +1609,6 @@
       "descricao": "=SEM COBERTURA CONTRATUAL; =RI Nº 338/2020 =SERVIÇOS DE FIREWALL, TRANSMISSÃO DE DADOS, ACESSO À REDE MUNDIAL; =SES-AM SEDE E DEMAIS UNIDADES; =PERÍODO: 01 A 29/02/2020."
     },
     {
-      "numero": "2021NE0002813",
-      "contrato": "5/2021",
-      "valor": 34245.6,
-      "situacao": "Ativo",
-      "data_emissao": "25/08/2021",
-      "descricao": "=CONTRATO Nº 005/2021"
-    },
-    {
       "numero": "2021NE0002851",
       "contrato": "18/2021",
       "valor": 567989.81,
@@ -1625,28 +1617,12 @@
       "descricao": "=CONTRATO Nº 018/2021"
     },
     {
-      "numero": "2022NE0002690",
-      "contrato": "18/2021",
-      "valor": 1050.12,
-      "situacao": "Ativo",
-      "data_emissao": "25/07/2022",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado, e serviço de modelagem de processos de negócios"
-    },
-    {
-      "numero": "2022NE0002675",
-      "contrato": "",
+      "numero": "2021NE0002813",
+      "contrato": "5/2021",
       "valor": 34245.6,
       "situacao": "Ativo",
-      "data_emissao": "25/07/2022",
-      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 1176/2022"
-    },
-    {
-      "numero": "2022NE0002696",
-      "contrato": "",
-      "valor": 293907.41,
-      "situacao": "Ativo",
-      "data_emissao": "25/07/2022",
-      "descricao": "=REFORÇO DA NE 1156/22 AO TERMO DO CONTRATO Nº 021/2021 =MES: JUNHO/2022"
+      "data_emissao": "25/08/2021",
+      "descricao": "=CONTRATO Nº 005/2021"
     },
     {
       "numero": "2022NE0002687",
@@ -1657,12 +1633,28 @@
       "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 2259/2022"
     },
     {
-      "numero": "2021NE0004276",
-      "contrato": "21/2021",
-      "valor": 249812.65,
+      "numero": "2022NE0002696",
+      "contrato": "",
+      "valor": 293907.41,
       "situacao": "Ativo",
-      "data_emissao": "24/11/2021",
-      "descricao": "=SEM COBERTURA CONTRATUAL; =ACESSO GERENCIADO A REDE MUNDIAL POR MBPS, ACESSO A METROMAO, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS E GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL. =REDE SES-AM; =PERÍODO: 01 A 30/06/2021."
+      "data_emissao": "25/07/2022",
+      "descricao": "=REFORÇO DA NE 1156/22 AO TERMO DO CONTRATO Nº 021/2021 =MES: JUNHO/2022"
+    },
+    {
+      "numero": "2022NE0002675",
+      "contrato": "",
+      "valor": 34245.6,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2022",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 1176/2022"
+    },
+    {
+      "numero": "2022NE0002690",
+      "contrato": "18/2021",
+      "valor": 1050.12,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2022",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado, e serviço de modelagem de processos de negócios"
     },
     {
       "numero": "2021NE0004272",
@@ -1671,6 +1663,14 @@
       "situacao": "Ativo",
       "data_emissao": "24/11/2021",
       "descricao": "=SEM COBERTURA CONTRATUAL;=FORNECIMENTO E CIRCUITO DE TRANSMISSÃO DE DADOS, ACESSO GERENCIADO À REDE MUNDIAL, ACESSO À METROMAO, GESTÃO DE SEGURANÇA E ATIVOS DE REDE; =REDE SES-AM; =PERÍODO: 01 A 31/07/2021."
+    },
+    {
+      "numero": "2021NE0004276",
+      "contrato": "21/2021",
+      "valor": 249812.65,
+      "situacao": "Ativo",
+      "data_emissao": "24/11/2021",
+      "descricao": "=SEM COBERTURA CONTRATUAL; =ACESSO GERENCIADO A REDE MUNDIAL POR MBPS, ACESSO A METROMAO, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS E GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL. =REDE SES-AM; =PERÍODO: 01 A 30/06/2021."
     },
     {
       "numero": "2020NE03941",
@@ -1702,7 +1702,7 @@
       "valor": 104884.8,
       "situacao": "Ativo",
       "data_emissao": "24/09/2015",
-      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO 081/10"
+      "descricao": "Cobertura Financeira do 5º TA"
     },
     {
       "numero": "2015NE03540",
@@ -1710,7 +1710,7 @@
       "valor": 104884.8,
       "situacao": "Ativo",
       "data_emissao": "24/09/2015",
-      "descricao": "Cobertura Financeira do 5º TA"
+      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO 081/10"
     },
     {
       "numero": "2024NE0003988",
@@ -1745,28 +1745,12 @@
       "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
-      "numero": "2021NE0004189",
-      "contrato": "54/2018",
-      "valor": 131871.28,
-      "situacao": "Ativo",
-      "data_emissao": "23/11/2021",
-      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 054/2018; =SERVIÇOS EM PRESTAÇÃO E SERVIÇOS PRODAM-RH; =LOCAL: SEDE; =PERÍODO: NOVEMBRO/2021."
-    },
-    {
-      "numero": "2021NE0004069",
+      "numero": "2021NE0004220",
       "contrato": "5/2021",
       "valor": 34245.6,
       "situacao": "Ativo",
       "data_emissao": "23/11/2021",
-      "descricao": "=TERMO DE CONTRATO 005/2021; =SERVIÇOS EM SERVIDORES EM NUVEM; =LOCAL: REDE SUS/AM; =PERÍODO: OUTUBRO/2021."
-    },
-    {
-      "numero": "2021NE0004191",
-      "contrato": "18/2021",
-      "valor": 567989.81,
-      "situacao": "Ativo",
-      "data_emissao": "23/11/2021",
-      "descricao": "=TERMO DE CONTRATO 018/2021; =SERVIÇOS EM DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO; =LOCAL: REDE SUS-AM; =PERÍODO: NOVEMBRO/2021."
+      "descricao": "=TERMO DE CONTRATO 005/2021; =SERVIÇOS EM SERVIDORES DE NUVEM; =LOCAL: REDE SUS/AM; =PERÍODO: NOVEMBRO/2021."
     },
     {
       "numero": "2021NE0004183",
@@ -1777,20 +1761,28 @@
       "descricao": "=TERMO DE CONTRATO 021/2021; =SERVIÇOS EM FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK; =LOCAL: SESAM SEDE; =PERÍODO: NOVEMBRO/2021."
     },
     {
-      "numero": "2021NE0004220",
+      "numero": "2021NE0004191",
+      "contrato": "18/2021",
+      "valor": 567989.81,
+      "situacao": "Ativo",
+      "data_emissao": "23/11/2021",
+      "descricao": "=TERMO DE CONTRATO 018/2021; =SERVIÇOS EM DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO; =LOCAL: REDE SUS-AM; =PERÍODO: NOVEMBRO/2021."
+    },
+    {
+      "numero": "2021NE0004069",
       "contrato": "5/2021",
       "valor": 34245.6,
       "situacao": "Ativo",
       "data_emissao": "23/11/2021",
-      "descricao": "=TERMO DE CONTRATO 005/2021; =SERVIÇOS EM SERVIDORES DE NUVEM; =LOCAL: REDE SUS/AM; =PERÍODO: NOVEMBRO/2021."
+      "descricao": "=TERMO DE CONTRATO 005/2021; =SERVIÇOS EM SERVIDORES EM NUVEM; =LOCAL: REDE SUS/AM; =PERÍODO: OUTUBRO/2021."
     },
     {
-      "numero": "2025NE0005378",
-      "contrato": "18/2024",
-      "valor": 146012.35,
+      "numero": "2021NE0004189",
+      "contrato": "54/2018",
+      "valor": 131871.28,
       "situacao": "Ativo",
-      "data_emissao": "23/09/2025",
-      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
+      "data_emissao": "23/11/2021",
+      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 054/2018; =SERVIÇOS EM PRESTAÇÃO E SERVIÇOS PRODAM-RH; =LOCAL: SEDE; =PERÍODO: NOVEMBRO/2021."
     },
     {
       "numero": "2025NE0005377",
@@ -1801,28 +1793,12 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2023NE0003203",
-      "contrato": "21/2021",
-      "valor": 325367.97,
+      "numero": "2025NE0005378",
+      "contrato": "18/2024",
+      "valor": 146012.35,
       "situacao": "Ativo",
-      "data_emissao": "23/08/2023",
-      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
-    },
-    {
-      "numero": "2023NE0003201",
-      "contrato": "18/2021",
-      "valor": 13880.58,
-      "situacao": "Ativo",
-      "data_emissao": "23/08/2023",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 018/2021 AD: 01."
-    },
-    {
-      "numero": "2023NE0003200",
-      "contrato": "5/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "23/08/2023",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 005/2021 AD: 02."
+      "data_emissao": "23/09/2025",
+      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
       "numero": "2023NE0003202",
@@ -1833,12 +1809,28 @@
       "descricao": "Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 054/2018 AD: 04."
     },
     {
-      "numero": "2021NE0002053",
-      "contrato": "",
-      "valor": 321860.89,
+      "numero": "2023NE0003200",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
-      "data_emissao": "23/06/2021",
-      "descricao": "=ANULAÇAO TOTAL DA NE =MOTIVO DESCRIÇÃO INCORRETA"
+      "data_emissao": "23/08/2023",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 005/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0003201",
+      "contrato": "18/2021",
+      "valor": 13880.58,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2023",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 018/2021 AD: 01."
+    },
+    {
+      "numero": "2023NE0003203",
+      "contrato": "21/2021",
+      "valor": 325367.97,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2023",
+      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
     },
     {
       "numero": "2021NE0002058",
@@ -1847,6 +1839,14 @@
       "situacao": "Ativo",
       "data_emissao": "23/06/2021",
       "descricao": "Contratação de pessoa jurídica especializada em serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do governo de estado, e serviço de modelag"
+    },
+    {
+      "numero": "2021NE0002053",
+      "contrato": "",
+      "valor": 321860.89,
+      "situacao": "Ativo",
+      "data_emissao": "23/06/2021",
+      "descricao": "=ANULAÇAO TOTAL DA NE =MOTIVO DESCRIÇÃO INCORRETA"
     },
     {
       "numero": "2026NE0001203",
@@ -1865,17 +1865,17 @@
       "descricao": "COBERTURA FINANCEIRA 2014"
     },
     {
-      "numero": "2025NE0006315",
+      "numero": "2025NE0006314",
       "contrato": "54/2018",
-      "valor": 2567.39,
+      "valor": 33917.28,
       "situacao": "Ativo",
       "data_emissao": "22/10/2025",
       "descricao": "=CONTRATO 054/2018 - 5º TA;=VIGÊNCIA: 09/07/2023 a 08/07/2024 =SERVIÇO: PRESTAÇÃO E SERVIÇOS PRODAM-RH; =LOCAL : SES-AM; =PERÍODO: DEZEMBRO DE 2023;"
     },
     {
-      "numero": "2025NE0006314",
+      "numero": "2025NE0006315",
       "contrato": "54/2018",
-      "valor": 33917.28,
+      "valor": 2567.39,
       "situacao": "Ativo",
       "data_emissao": "22/10/2025",
       "descricao": "=CONTRATO 054/2018 - 5º TA;=VIGÊNCIA: 09/07/2023 a 08/07/2024 =SERVIÇO: PRESTAÇÃO E SERVIÇOS PRODAM-RH; =LOCAL : SES-AM; =PERÍODO: DEZEMBRO DE 2023;"
@@ -1889,20 +1889,20 @@
       "descricao": "=DESPESA SEM COBERTURA CONTRATUAL; =RI: 2018RI00225; =PRESTAÇÃO DE SERVIÇO DE EXECUÇÃO DE SISTEMAS; =SUS/AM; =JANEIRO/2018."
     },
     {
-      "numero": "2025NE0005296",
-      "contrato": "18/2021",
-      "valor": 433592.36,
-      "situacao": "Ativo",
-      "data_emissao": "22/09/2025",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
-    },
-    {
       "numero": "2025NE0005295",
       "contrato": "18/2024",
       "valor": 146012.35,
       "situacao": "Ativo",
       "data_emissao": "22/09/2025",
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
+    },
+    {
+      "numero": "2025NE0005296",
+      "contrato": "18/2021",
+      "valor": 433592.36,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2025",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
     },
     {
       "numero": "2020NE02816",
@@ -1929,20 +1929,12 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado, e serviço de modelagem de processos de negócios"
     },
     {
-      "numero": "2024NE0002487",
-      "contrato": "5/2021",
-      "valor": 36112.42,
+      "numero": "2024NE0002496",
+      "contrato": "21/2021",
+      "valor": 325367.97,
       "situacao": "Ativo",
       "data_emissao": "22/05/2024",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
-    },
-    {
-      "numero": "2024NE0002486",
-      "contrato": "54/2018",
-      "valor": 146012.35,
-      "situacao": "Ativo",
-      "data_emissao": "22/05/2024",
-      "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
     },
     {
       "numero": "2024NE0002488",
@@ -1953,20 +1945,20 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
     },
     {
-      "numero": "2024NE0002496",
-      "contrato": "21/2021",
-      "valor": 325367.97,
+      "numero": "2024NE0002486",
+      "contrato": "54/2018",
+      "valor": 146012.35,
       "situacao": "Ativo",
       "data_emissao": "22/05/2024",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
+      "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
     },
     {
-      "numero": "2022NE0004748",
-      "contrato": "18/2021",
-      "valor": 638786.27,
+      "numero": "2024NE0002487",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
-      "data_emissao": "21/10/2022",
-      "descricao": "=CONTRATO Nº 018/2021"
+      "data_emissao": "22/05/2024",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
     },
     {
       "numero": "2022NE0004736",
@@ -1975,6 +1967,14 @@
       "situacao": "Ativo",
       "data_emissao": "21/10/2022",
       "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM, SES-AM e a PRODAM."
+    },
+    {
+      "numero": "2022NE0004748",
+      "contrato": "18/2021",
+      "valor": 638786.27,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2022",
+      "descricao": "=CONTRATO Nº 018/2021"
     },
     {
       "numero": "2021NE0002397",
@@ -1993,14 +1993,6 @@
       "descricao": "="
     },
     {
-      "numero": "2016NE03234",
-      "contrato": "116/2013",
-      "valor": 462047.34,
-      "situacao": "Ativo",
-      "data_emissao": "20/12/2016",
-      "descricao": "=REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 116/13, SISTEMA DE GESTÃO EM SAÚDE, PERÍODO DE MAIO A JULHO DE 2016."
-    },
-    {
       "numero": "2016NE03235",
       "contrato": "81/2010",
       "valor": 143255.62,
@@ -2009,12 +2001,20 @@
       "descricao": "=REFORÇO DA NOTA DE EMPENHO Nº 3137/16, REFERENTE AO QUINTO TERMO ADITIVO AO CONTRATO Nº 081/10, CADASTRO E FOLHA DE PAGAMENTO, PERÍODO DE JULHO (INTEGRAL) A AGOSTO (PARCIAL) DE 2016."
     },
     {
-      "numero": "2020NE03807",
+      "numero": "2016NE03234",
+      "contrato": "116/2013",
+      "valor": 462047.34,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2016",
+      "descricao": "=REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 116/13, SISTEMA DE GESTÃO EM SAÚDE, PERÍODO DE MAIO A JULHO DE 2016."
+    },
+    {
+      "numero": "2020NE03809",
       "contrato": "",
-      "valor": 79423.09,
+      "valor": 263742.56,
       "situacao": "Ativo",
       "data_emissao": "20/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA; =RD Nº 1046/2020; =SEM COBERTURA CONTRATUAL; =SERVIÇOS DE EXECUÇÃO DE SISTEMAS DE RECURSOS HUMANOS; =LOCAL: SUSAM E UNIDADES DE SAÚDE; =PERÍODO: 01 A 31/05/2018;"
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 054/2018; =SERVIÇOS EM PRODAM-RH E PROCESSAMENTO DE DADOS; =PERÍODO: DEZEMBRO/2020; =LOCAL: RH SES-AM."
     },
     {
       "numero": "2020NE03808",
@@ -2025,12 +2025,12 @@
       "descricao": "=RECONHECIMENTO DE DÍVIDA =RD Nº 00973/2020; =SEM COBERTURA CONTRATUAL; =SERVIÇOS DE SIST. DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO; =LOCAL: SUSAM SEDE E UNIDADES DE SAÚDE; =PERÍODO: 01 A 30/06/2018."
     },
     {
-      "numero": "2020NE03809",
+      "numero": "2020NE03807",
       "contrato": "",
-      "valor": 263742.56,
+      "valor": 79423.09,
       "situacao": "Ativo",
       "data_emissao": "20/11/2020",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 054/2018; =SERVIÇOS EM PRODAM-RH E PROCESSAMENTO DE DADOS; =PERÍODO: DEZEMBRO/2020; =LOCAL: RH SES-AM."
+      "descricao": "=RECONHECIMENTO DE DÍVIDA; =RD Nº 1046/2020; =SEM COBERTURA CONTRATUAL; =SERVIÇOS DE EXECUÇÃO DE SISTEMAS DE RECURSOS HUMANOS; =LOCAL: SUSAM E UNIDADES DE SAÚDE; =PERÍODO: 01 A 31/05/2018;"
     },
     {
       "numero": "2021NE0003120",
@@ -2049,12 +2049,12 @@
       "descricao": "=REFORÇO DA NE 2058 AO TERMO DE CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA Nº 018/2021 SES-AM"
     },
     {
-      "numero": "2026NE0001177",
-      "contrato": "2/2015",
-      "valor": 285858.38,
+      "numero": "2026NE0001178",
+      "contrato": "116/2013",
+      "valor": 154015.78,
       "situacao": "Ativo",
       "data_emissao": "20/03/2026",
-      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 002/2015; VIGÊNCIA: 05/01/2017 A 04/01/2018=REDE DE DADOS - 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FARMÁCIAS POPULARES NA CAPITAL; LOCAL: UNIDADES DE SAUDE =PERIODO: DEZEMBRO /2017"
+      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 116/2013;=VIGÊNCIA: 01/08/2016 A 31/07/2017=REDE DE DADOS - 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FARMÁCIAS POPULARES NA CAPITAL.=LOCAL: SEDE=PERIODO: OUTUBRO/2016"
     },
     {
       "numero": "2026NE0001179",
@@ -2065,20 +2065,12 @@
       "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 002/2015;=VIGÊNCIA: 05/01/2017 A 04/01/2018 =PRESTAÇÃO DE SERVIÇOS DE FORECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS. =LOCAL: SES/AM; =PERIODO: OUTUBRO/2017"
     },
     {
-      "numero": "2026NE0001178",
-      "contrato": "116/2013",
-      "valor": 154015.78,
+      "numero": "2026NE0001177",
+      "contrato": "2/2015",
+      "valor": 285858.38,
       "situacao": "Ativo",
       "data_emissao": "20/03/2026",
-      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 116/2013;=VIGÊNCIA: 01/08/2016 A 31/07/2017=REDE DE DADOS - 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FARMÁCIAS POPULARES NA CAPITAL.=LOCAL: SEDE=PERIODO: OUTUBRO/2016"
-    },
-    {
-      "numero": "2025NE0005251",
-      "contrato": "21/2021",
-      "valor": 314505.49,
-      "situacao": "Ativo",
-      "data_emissao": "19/09/2025",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
+      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 002/2015; VIGÊNCIA: 05/01/2017 A 04/01/2018=REDE DE DADOS - 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FARMÁCIAS POPULARES NA CAPITAL; LOCAL: UNIDADES DE SAUDE =PERIODO: DEZEMBRO /2017"
     },
     {
       "numero": "2025NE0005253",
@@ -2089,28 +2081,12 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2024NE0001019",
-      "contrato": "54/2018",
-      "valor": 146012.35,
+      "numero": "2025NE0005251",
+      "contrato": "21/2021",
+      "valor": 314505.49,
       "situacao": "Ativo",
-      "data_emissao": "19/03/2024",
-      "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
-    },
-    {
-      "numero": "2024NE0001017",
-      "contrato": "18/2021",
-      "valor": 663281.42,
-      "situacao": "Ativo",
-      "data_emissao": "19/03/2024",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
-    },
-    {
-      "numero": "2024NE0001020",
-      "contrato": "5/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "19/03/2024",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+      "data_emissao": "19/09/2025",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
       "numero": "2024NE0001018",
@@ -2121,6 +2097,30 @@
       "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
     },
     {
+      "numero": "2024NE0001020",
+      "contrato": "5/2021",
+      "valor": 36112.42,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2024",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0001017",
+      "contrato": "18/2021",
+      "valor": 663281.42,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2024",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0001019",
+      "contrato": "54/2018",
+      "valor": 146012.35,
+      "situacao": "Ativo",
+      "data_emissao": "19/03/2024",
+      "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
+    },
+    {
       "numero": "2020NE00906",
       "contrato": "54/2018",
       "valor": 122306.88,
@@ -2129,28 +2129,28 @@
       "descricao": "=REFORÇO DA NE 96/2020 REFERENTE AO PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 054/2018 - SUSAM"
     },
     {
+      "numero": "2022NE0003262",
+      "contrato": "18/2021",
+      "valor": 638786.27,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2022",
+      "descricao": "=REFORÇO DA NE 2259/22 AO PRIMEIRO TERMO DO CONTRATO 018/21"
+    },
+    {
+      "numero": "2022NE0003262",
+      "contrato": "18/2021",
+      "valor": 638786.27,
+      "situacao": "Ativo",
+      "data_emissao": "18/08/2022",
+      "descricao": "=REFORÇO DA NE 2259/22 AO PRIMEIRO TERMO DO CONTRATO 018/21"
+    },
+    {
       "numero": "2022NE0003293",
       "contrato": "5/2021",
       "valor": 68491.2,
       "situacao": "Ativo",
       "data_emissao": "18/08/2022",
       "descricao": "=REFORÇO DA NE 1176/22 AO PRIMEIRO TERMO DO CONTRATO 005/21"
-    },
-    {
-      "numero": "2022NE0003262",
-      "contrato": "18/2021",
-      "valor": 638786.27,
-      "situacao": "Ativo",
-      "data_emissao": "18/08/2022",
-      "descricao": "=REFORÇO DA NE 2259/22 AO PRIMEIRO TERMO DO CONTRATO 018/21"
-    },
-    {
-      "numero": "2022NE0003262",
-      "contrato": "18/2021",
-      "valor": 638786.27,
-      "situacao": "Ativo",
-      "data_emissao": "18/08/2022",
-      "descricao": "=REFORÇO DA NE 2259/22 AO PRIMEIRO TERMO DO CONTRATO 018/21"
     },
     {
       "numero": "2025NE0003986",
@@ -2177,36 +2177,12 @@
       "descricao": "REFERENTE AO CT002/2015 - PARCELA DE ABRIL/2015."
     },
     {
-      "numero": "2025NE0007150",
+      "numero": "2025NE0007148",
       "contrato": "54/2018",
       "valor": 146012.35,
       "situacao": "Ativo",
       "data_emissao": "17/11/2025",
-      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO Nº 054/2018;=VIGÊNCIA: 09/07/2023 A 08/07/2024; =SERVIÇOS PRODAM-RH VISANDO MANTER O CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO; =UNIDADES DA SES-AM; =PERÍODO: OUTUBRO/2023."
-    },
-    {
-      "numero": "2025NE0007146",
-      "contrato": "21/2021",
-      "valor": 281933.72,
-      "situacao": "Ativo",
-      "data_emissao": "17/11/2025",
-      "descricao": "=DESPESA SEM COBERTURA CONTRATUAL;=PRESTAÇÃO DE SERVIÇOS DE FIREWALL, ACESSO GERENCIADO À REDE MUNDIAL, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SUSAM SEDE E DEMAIS UNIDADES DE SAÚDE; =PERÍODO: 01 A 30/09/2020."
-    },
-    {
-      "numero": "2025NE0007151",
-      "contrato": "18/2021",
-      "valor": 605520.97,
-      "situacao": "Ativo",
-      "data_emissao": "17/11/2025",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 018/2021;=VIGÊNCIA: 14/06/2023 A 13/06/2024;=SERVIÇOS DE DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO, SERVIÇO DE ACESSO, CONSULTORIA/ASSESSORIA E PRODUÇÃO DE REPOSITÓRIOS E ARMAZENS DE DADOS (DATAWAREHOUSE); =UNIDADES DA SES-AM; =PERÍODO: 01 A 31 DE OUTUBRO DE 2023."
-    },
-    {
-      "numero": "2025NE0007144",
-      "contrato": "21/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "17/11/2025",
-      "descricao": "=SEGUNDO TERMO ADITIVO DO CONTRATO 021/2021=VIGÊNCIA: 08/02/2023 A 07/02/2024;=SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTE DE MÁQUINAS VIRTUAIS EM NUVEM; =SES-AM =PERÍODO: OUTUBRO/2023"
+      "descricao": "QUINTO TERMO ADITIVO AO CONTRATO 054/2018;VIGÊNCIA: 09/07/2023 A 08/07/2024;PRESTAÇÃO DE SERVIÇOS DE MANTER CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO - SES/AMPERIODO: SETEMBRO/2023"
     },
     {
       "numero": "2025NE0007143",
@@ -2217,12 +2193,36 @@
       "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO 054/2018;=VIGÊNCIA: 09/07/2023 A 08/07/2024;=SERVIÇOS PRODAM-RH, VISANDO MANTER O CADASTRO DE SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL,PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO; =SES/AM; =PERÍODO: 01 A 30 DE NOVEMBRO DE 2023."
     },
     {
-      "numero": "2025NE0007148",
+      "numero": "2025NE0007144",
+      "contrato": "21/2021",
+      "valor": 36112.42,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2025",
+      "descricao": "=SEGUNDO TERMO ADITIVO DO CONTRATO 021/2021=VIGÊNCIA: 08/02/2023 A 07/02/2024;=SERVIÇOS DE HOSPEDAGEM DE SERVIDORES EM AMBIENTE DE MÁQUINAS VIRTUAIS EM NUVEM; =SES-AM =PERÍODO: OUTUBRO/2023"
+    },
+    {
+      "numero": "2025NE0007151",
+      "contrato": "18/2021",
+      "valor": 605520.97,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2025",
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO 018/2021;=VIGÊNCIA: 14/06/2023 A 13/06/2024;=SERVIÇOS DE DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO, SERVIÇO DE ACESSO, CONSULTORIA/ASSESSORIA E PRODUÇÃO DE REPOSITÓRIOS E ARMAZENS DE DADOS (DATAWAREHOUSE); =UNIDADES DA SES-AM; =PERÍODO: 01 A 31 DE OUTUBRO DE 2023."
+    },
+    {
+      "numero": "2025NE0007146",
+      "contrato": "21/2021",
+      "valor": 281933.72,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2025",
+      "descricao": "=DESPESA SEM COBERTURA CONTRATUAL;=PRESTAÇÃO DE SERVIÇOS DE FIREWALL, ACESSO GERENCIADO À REDE MUNDIAL, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SUSAM SEDE E DEMAIS UNIDADES DE SAÚDE; =PERÍODO: 01 A 30/09/2020."
+    },
+    {
+      "numero": "2025NE0007150",
       "contrato": "54/2018",
       "valor": 146012.35,
       "situacao": "Ativo",
       "data_emissao": "17/11/2025",
-      "descricao": "QUINTO TERMO ADITIVO AO CONTRATO 054/2018;VIGÊNCIA: 09/07/2023 A 08/07/2024;PRESTAÇÃO DE SERVIÇOS DE MANTER CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO - SES/AMPERIODO: SETEMBRO/2023"
+      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO Nº 054/2018;=VIGÊNCIA: 09/07/2023 A 08/07/2024; =SERVIÇOS PRODAM-RH VISANDO MANTER O CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO; =UNIDADES DA SES-AM; =PERÍODO: OUTUBRO/2023."
     },
     {
       "numero": "2025NE0006119",
@@ -2257,20 +2257,12 @@
       "descricao": "=REFORÇO DA NE 01057 AO TERMO AO CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA Nº 005/2021 - SES-AM"
     },
     {
-      "numero": "2023NE0001765",
-      "contrato": "21/2021",
-      "valor": 650735.94,
+      "numero": "2023NE0001764",
+      "contrato": "5/2021",
+      "valor": 72224.84,
       "situacao": "Ativo",
       "data_emissao": "17/05/2023",
-      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
-    },
-    {
-      "numero": "2023NE0001772",
-      "contrato": "54/2018",
-      "valor": 292024.7,
-      "situacao": "Ativo",
-      "data_emissao": "17/05/2023",
-      "descricao": "Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 054/2018 AD: 04."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 005/2021 AD: 02."
     },
     {
       "numero": "2023NE0001766",
@@ -2281,12 +2273,20 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 018/2021 AD: 01."
     },
     {
-      "numero": "2023NE0001764",
-      "contrato": "5/2021",
-      "valor": 72224.84,
+      "numero": "2023NE0001772",
+      "contrato": "54/2018",
+      "valor": 292024.7,
       "situacao": "Ativo",
       "data_emissao": "17/05/2023",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 005/2021 AD: 02."
+      "descricao": "Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 054/2018 AD: 04."
+    },
+    {
+      "numero": "2023NE0001765",
+      "contrato": "21/2021",
+      "valor": 650735.94,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2023",
+      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
     },
     {
       "numero": "2019NE01422",
@@ -2297,12 +2297,12 @@
       "descricao": "REFORÇO"
     },
     {
-      "numero": "2026NE0001130",
-      "contrato": "54/2018",
-      "valor": 81848.55,
+      "numero": "2026NE0001125",
+      "contrato": "2/2015",
+      "valor": 285858.38,
       "situacao": "Ativo",
       "data_emissao": "17/03/2026",
-      "descricao": "=SEM COBERTURA CONTRATUAL;=SISTEMA DE RECURSOS HUMANOS PARA FOLHA DE PAGAMENTO;=LOCAL: SUSAM AM ; =PERÍODO: FEVEREIRO /2018; =PARECER Nº 2044/2018 -ASJUR"
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0002/2015 AD: 03"
     },
     {
       "numero": "2026NE0001126",
@@ -2313,12 +2313,12 @@
       "descricao": "=SEM COBERTURA CONTRATUAL;=SERVIÇO DE HOSPEDAGEM DE SISTREMA, MANUTENÇÃO EVOLUTIVA E CONSULTORIA;=LOCAL: SES-AM ;=PERÍODO: FEVEREIRO /2017;=PARECER NORMATIVO Nº 068/2019-PA/PGE DE 24/06/2019"
     },
     {
-      "numero": "2026NE0001125",
-      "contrato": "2/2015",
-      "valor": 285858.38,
+      "numero": "2026NE0001130",
+      "contrato": "54/2018",
+      "valor": 81848.55,
       "situacao": "Ativo",
       "data_emissao": "17/03/2026",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0002/2015 AD: 03"
+      "descricao": "=SEM COBERTURA CONTRATUAL;=SISTEMA DE RECURSOS HUMANOS PARA FOLHA DE PAGAMENTO;=LOCAL: SUSAM AM ; =PERÍODO: FEVEREIRO /2018; =PARECER Nº 2044/2018 -ASJUR"
     },
     {
       "numero": "2025NE0008182",
@@ -2337,14 +2337,6 @@
       "descricao": "=RI: 2020RI00627; =SEM COBERTURA CONTRATUAL; =SERVIÇOS DE FIREWALL, TRANSMISSÃO DE DADOS, ACESSO À REDE MUNDIAL; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/08/2020."
     },
     {
-      "numero": "2024NE0005214",
-      "contrato": "",
-      "valor": 78160.91,
-      "situacao": "Ativo",
-      "data_emissao": "16/10/2024",
-      "descricao": "=ANULAÇÃO PARCIAL NE 2488/24 =MOTIVO: SALDO DE EMPENHO"
-    },
-    {
       "numero": "2024NE0005216",
       "contrato": "",
       "valor": 51077.24,
@@ -2353,20 +2345,12 @@
       "descricao": "=ANULAÇÃO PARCIAL NE 0054/24 =MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2022NE0003156",
+      "numero": "2024NE0005214",
       "contrato": "",
-      "valor": 239997.99,
+      "valor": 78160.91,
       "situacao": "Ativo",
-      "data_emissao": "16/08/2022",
-      "descricao": "=RECONHECIMENTO DE DIVIDA;=SEM COBERTURA CONTRATUAL;=PRESTAÇÃO DE SERVIÇOS DE ACESSO GERENCIADO A REDE MUNDIAL POR MPBS, ACESSO A METROMAO, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL; =REDE SES/AM; =PERÍODO: 01 A 28/02/2021."
-    },
-    {
-      "numero": "2022NE0003178",
-      "contrato": "21/2021",
-      "valor": 30770.62,
-      "situacao": "Ativo",
-      "data_emissao": "16/08/2022",
-      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM, SES-AM e a PRODAM."
+      "data_emissao": "16/10/2024",
+      "descricao": "=ANULAÇÃO PARCIAL NE 2488/24 =MOTIVO: SALDO DE EMPENHO"
     },
     {
       "numero": "2022NE0003177",
@@ -2377,12 +2361,20 @@
       "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM, SES-AM e a PRODAM."
     },
     {
-      "numero": "2015NE01706",
-      "contrato": "2/2015",
-      "valor": 335861.68,
+      "numero": "2022NE0003178",
+      "contrato": "21/2021",
+      "valor": 30770.62,
       "situacao": "Ativo",
-      "data_emissao": "16/04/2015",
-      "descricao": "=REFORÇO DA NOTA DE EMPENHO N° 511/2015."
+      "data_emissao": "16/08/2022",
+      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM, SES-AM e a PRODAM."
+    },
+    {
+      "numero": "2022NE0003156",
+      "contrato": "",
+      "valor": 239997.99,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2022",
+      "descricao": "=RECONHECIMENTO DE DIVIDA;=SEM COBERTURA CONTRATUAL;=PRESTAÇÃO DE SERVIÇOS DE ACESSO GERENCIADO A REDE MUNDIAL POR MPBS, ACESSO A METROMAO, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL; =REDE SES/AM; =PERÍODO: 01 A 28/02/2021."
     },
     {
       "numero": "2015NE01708",
@@ -2393,12 +2385,20 @@
       "descricao": "=REFORÇO DA NOTA DE EMPENHO N° 316/2015."
     },
     {
-      "numero": "2026NE0001079",
-      "contrato": "55/2018",
-      "valor": 154015.81,
+      "numero": "2015NE01706",
+      "contrato": "2/2015",
+      "valor": 335861.68,
+      "situacao": "Ativo",
+      "data_emissao": "16/04/2015",
+      "descricao": "=REFORÇO DA NOTA DE EMPENHO N° 511/2015."
+    },
+    {
+      "numero": "2026NE0001076",
+      "contrato": "2/2015",
+      "valor": 249802.28,
       "situacao": "Ativo",
       "data_emissao": "16/03/2026",
-      "descricao": "=SEM COBERTURA CONTRATUAL=SISTEMA HYGIA, SUSAM - SEDE=PERÍODO ABRIL /2017 = PARECER Nº 2268/2017 - ASJUR"
+      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 002/2015;=VIGÊNCIA: 05/01/2017 A 04/01/2018 =PRESTAÇÃO DE SERVIÇOS DE FORECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS. =LOCAL: SES/AM; =PERIODO: SETEMBRO/2017"
     },
     {
       "numero": "2026NE0001075",
@@ -2409,12 +2409,12 @@
       "descricao": "=3º TERMO ADITIVO AO CONTRATO Nº 116/2013=VIGÊNCIA:01/08/2015 A 31/07/2016;=SUPORTE TÉCNICO AO SISTEMA GESTÃO DE REDE PUBLICA DE SAÚDE - SGRPS=UNIDADES DE SAÚDE/SES-AM.=PERIODO: AGOSTO /2016"
     },
     {
-      "numero": "2026NE0001076",
-      "contrato": "2/2015",
-      "valor": 249802.28,
+      "numero": "2026NE0001079",
+      "contrato": "55/2018",
+      "valor": 154015.81,
       "situacao": "Ativo",
       "data_emissao": "16/03/2026",
-      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 002/2015;=VIGÊNCIA: 05/01/2017 A 04/01/2018 =PRESTAÇÃO DE SERVIÇOS DE FORECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS. =LOCAL: SES/AM; =PERIODO: SETEMBRO/2017"
+      "descricao": "=SEM COBERTURA CONTRATUAL=SISTEMA HYGIA, SUSAM - SEDE=PERÍODO ABRIL /2017 = PARECER Nº 2268/2017 - ASJUR"
     },
     {
       "numero": "2016NE00880",
@@ -2441,12 +2441,12 @@
       "descricao": "=REFORÇO DA NE 123/22 AO CONTRATO Nº 018/2021"
     },
     {
-      "numero": "2017NE03655",
-      "contrato": "2/2015",
-      "valor": 292343.68,
+      "numero": "2017NE03730",
+      "contrato": "P.248/2016",
+      "valor": 154015.81,
       "situacao": "Ativo",
       "data_emissao": "14/12/2017",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INFORMÁTICA COMUNICAÇÃO DE DADOS E REDES"
+      "descricao": "=REFERENTE AOS SERVIÇOS DO SISTEMA HYGIA; =SEM COBERTURA CONTRATUAL; =PARECER Nº 2263/2017 ASJUR =LOCAL: SUSAM - SEDE; =PERÍODO: JANEIRO/2017 =NOTA FISCAL Nº 21746, 21747 E 21748/2017 =RI Nº 42, 49 E 50/2017 RELATIVO A UMA COMPETÊNCIA DO PASSIVO DE 2017 EM ACORDO FIRMADO COM AS EMPRESAS."
     },
     {
       "numero": "2017NE03731",
@@ -2457,76 +2457,12 @@
       "descricao": "=REFERENTE AOS SERVIÇOS DE SISTEMA DE RECURSOS HUMANOS E FOLHA; =SEM COBERTURA CONTRATUAL; =LOCAL: SUSAM - SEDE; =NOTA FISCAL Nº 21745/2017 =PERÍODO: JANEIRO/2017 =PARECER Nº 3654/2017 =RI Nº 110/2017 RELATIVO A UMA COMPETÊNCIA DO PASSIVO DE 2017 EM ACORDO FIRMADO COM AS EMPRESAS."
     },
     {
-      "numero": "2017NE03730",
-      "contrato": "P.248/2016",
-      "valor": 154015.81,
+      "numero": "2017NE03655",
+      "contrato": "2/2015",
+      "valor": 292343.68,
       "situacao": "Ativo",
       "data_emissao": "14/12/2017",
-      "descricao": "=REFERENTE AOS SERVIÇOS DO SISTEMA HYGIA; =SEM COBERTURA CONTRATUAL; =PARECER Nº 2263/2017 ASJUR =LOCAL: SUSAM - SEDE; =PERÍODO: JANEIRO/2017 =NOTA FISCAL Nº 21746, 21747 E 21748/2017 =RI Nº 42, 49 E 50/2017 RELATIVO A UMA COMPETÊNCIA DO PASSIVO DE 2017 EM ACORDO FIRMADO COM AS EMPRESAS."
-    },
-    {
-      "numero": "2025NE0006948",
-      "contrato": "18/2021",
-      "valor": 240960.18,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=TERMO DE CONTRATO N. 018/2021;=VIGÊNCIA DO TERMO: 14/06/2021 A 13/06/2021; =SERVICO DE DESENVOLVIMENTO DE INFORMACAO, SERVICO DE ACESSO,CONSULTORIA/ASSESSEORIA E PRODUCAO DE REPOSITORIOS E ARMAZENS DE DADOS (DATAWAREHOUSE)DO GOVERNO DO ESTADO E SERVICO DE MODELAGEM DE PROCESSO DE NEGOCIOS, A SER ENTREGUE NO MUNICIPIO DE MANAUS. =SUSAM; =PERÍODO: DEZEMBRO/2021."
-    },
-    {
-      "numero": "2025NE0006947",
-      "contrato": "18/2021",
-      "valor": 510171.69,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 018/2021, VIGÊNCIA 14/06/2022 A 13/06/2023;=SERVIÇO EM ARMAZEM DE INFORMAÇÕES CONSULTORIA EM ARMAZEM DE INFORMAÇÃO; =SES/AM; =PERÍODO: NOVEMBRO/2022"
-    },
-    {
-      "numero": "2025NE0006940",
-      "contrato": "54/2018",
-      "valor": 131871.28,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=3º TERMO ADITIVO AO CONTRATO N. 054/18;=VIGÊNCIA: 09/07/2021 A 08/07/2022; =PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMAS - SIST. DE RECURSOS HUMANOS E FOLHA; =PERÍODO: DEZEMBRO/2021."
-    },
-    {
-      "numero": "2025NE0006952",
-      "contrato": "18/2021",
-      "valor": 478347.33,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 018/2021, VIGÊNCIA 14/06/2022 A 13/06/2023;=SERVIÇO EM ARMAZÉM DE INFORMAÇÕES CONSULTORIA EM ARMAZÉM DE INFORMAÇÃO;=SES/AM; =PERÍODO: DEZEMBRO/2022"
-    },
-    {
-      "numero": "2025NE0006897",
-      "contrato": "54/2018",
-      "valor": 109527.68,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=CONTRATO 054/2018 - 5º TA;=VIGÊNCIA: 09/07/2023 a 08/07/2024 =SERVIÇO: PRESTAÇÃO E SERVIÇOS PRODAM-RH; =LOCAL : SES-AM; =PERÍODO: DEZEMBRO DE 2023;"
-    },
-    {
-      "numero": "2025NE0006939",
-      "contrato": "21/2021",
-      "valor": 316853.75,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA DO TERMO: 12/08/2022 A 11/08/2023; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: DEZEMBRO/2022."
-    },
-    {
-      "numero": "2025NE0006950",
-      "contrato": "21/2021",
-      "valor": 316853.75,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 021/2021, =VIGÊNCIA 12/08/2022 A 11/08/2023; =SERVIÇOS DE ACESSO GERENCIADO A REDE MUNDIAL,GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, ACESSO A MATROMAO =SES/AM; =PERÍODO: NOVEMBRO/2022"
-    },
-    {
-      "numero": "2025NE0006951",
-      "contrato": "54/2018",
-      "valor": 146012.35,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2025",
-      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO Nº 054/2018, VIGÊNCIA 09/07/2022 A 08/07/2023;=SERVIÇOS PRODAM-RH VISANDO MANTER O CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO. =SES/AM. =PERIODO: DEZEMBRO/2022"
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INFORMÁTICA COMUNICAÇÃO DE DADOS E REDES"
     },
     {
       "numero": "2025NE0006938",
@@ -2537,25 +2473,73 @@
       "descricao": "=TERMO DE CONTRATO N. 021/2021;=VIGÊNCIA DO TERMO: 12/08/2021 A 11/08/2022; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: DEZEMBRO/2021."
     },
     {
-      "numero": "2023NE0004896",
+      "numero": "2025NE0006951",
+      "contrato": "54/2018",
+      "valor": 146012.35,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO Nº 054/2018, VIGÊNCIA 09/07/2022 A 08/07/2023;=SERVIÇOS PRODAM-RH VISANDO MANTER O CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO. =SES/AM. =PERIODO: DEZEMBRO/2022"
+    },
+    {
+      "numero": "2025NE0006950",
+      "contrato": "21/2021",
+      "valor": 316853.75,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 021/2021, =VIGÊNCIA 12/08/2022 A 11/08/2023; =SERVIÇOS DE ACESSO GERENCIADO A REDE MUNDIAL,GESTÃO DE SEGURANÇA E ATIVOS DE REDE PACOTE ESSENCIAL, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, ACESSO A MATROMAO =SES/AM; =PERÍODO: NOVEMBRO/2022"
+    },
+    {
+      "numero": "2025NE0006939",
+      "contrato": "21/2021",
+      "valor": 316853.75,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO N. 021/2021;=VIGÊNCIA DO TERMO: 12/08/2022 A 11/08/2023; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: DEZEMBRO/2022."
+    },
+    {
+      "numero": "2025NE0006897",
+      "contrato": "54/2018",
+      "valor": 109527.68,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=CONTRATO 054/2018 - 5º TA;=VIGÊNCIA: 09/07/2023 a 08/07/2024 =SERVIÇO: PRESTAÇÃO E SERVIÇOS PRODAM-RH; =LOCAL : SES-AM; =PERÍODO: DEZEMBRO DE 2023;"
+    },
+    {
+      "numero": "2025NE0006952",
+      "contrato": "18/2021",
+      "valor": 478347.33,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 018/2021, VIGÊNCIA 14/06/2022 A 13/06/2023;=SERVIÇO EM ARMAZÉM DE INFORMAÇÕES CONSULTORIA EM ARMAZÉM DE INFORMAÇÃO;=SES/AM; =PERÍODO: DEZEMBRO/2022"
+    },
+    {
+      "numero": "2025NE0006940",
+      "contrato": "54/2018",
+      "valor": 131871.28,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=3º TERMO ADITIVO AO CONTRATO N. 054/18;=VIGÊNCIA: 09/07/2021 A 08/07/2022; =PRESTAÇÃO DE SERVIÇOS DE EXECUÇÃO DE SISTEMAS - SIST. DE RECURSOS HUMANOS E FOLHA; =PERÍODO: DEZEMBRO/2021."
+    },
+    {
+      "numero": "2025NE0006947",
+      "contrato": "18/2021",
+      "valor": 510171.69,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 018/2021, VIGÊNCIA 14/06/2022 A 13/06/2023;=SERVIÇO EM ARMAZEM DE INFORMAÇÕES CONSULTORIA EM ARMAZEM DE INFORMAÇÃO; =SES/AM; =PERÍODO: NOVEMBRO/2022"
+    },
+    {
+      "numero": "2025NE0006948",
+      "contrato": "18/2021",
+      "valor": 240960.18,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2025",
+      "descricao": "=TERMO DE CONTRATO N. 018/2021;=VIGÊNCIA DO TERMO: 14/06/2021 A 13/06/2021; =SERVICO DE DESENVOLVIMENTO DE INFORMACAO, SERVICO DE ACESSO,CONSULTORIA/ASSESSEORIA E PRODUCAO DE REPOSITORIOS E ARMAZENS DE DADOS (DATAWAREHOUSE)DO GOVERNO DO ESTADO E SERVICO DE MODELAGEM DE PROCESSO DE NEGOCIOS, A SER ENTREGUE NO MUNICIPIO DE MANAUS. =SUSAM; =PERÍODO: DEZEMBRO/2021."
+    },
+    {
+      "numero": "2023NE0004900",
       "contrato": "",
       "valor": 21282.52,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2023",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
-    },
-    {
-      "numero": "2023NE0004892",
-      "contrato": "",
-      "valor": 161406.31,
-      "situacao": "Ativo",
-      "data_emissao": "14/11/2023",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
-    },
-    {
-      "numero": "2023NE0004889",
-      "contrato": "",
-      "valor": 115776.19,
       "situacao": "Ativo",
       "data_emissao": "14/11/2023",
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
@@ -2569,7 +2553,23 @@
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2023NE0004900",
+      "numero": "2023NE0004889",
+      "contrato": "",
+      "valor": 115776.19,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2023",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
+    },
+    {
+      "numero": "2023NE0004892",
+      "contrato": "",
+      "valor": 161406.31,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2023",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO MOTIVO: SALDO DE EMPENHO"
+    },
+    {
+      "numero": "2023NE0004896",
       "contrato": "",
       "valor": 21282.52,
       "situacao": "Ativo",
@@ -2585,17 +2585,9 @@
       "descricao": "=REFORÇO DA NE 2636 AO TERMO DE CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA Nº 021/2021 SES-AM,"
     },
     {
-      "numero": "2023NE0003854",
+      "numero": "2023NE0003845",
       "contrato": "",
-      "valor": 25540.64,
-      "situacao": "Ativo",
-      "data_emissao": "14/09/2023",
-      "descricao": "=ANULAÇÃO TOTAL =MOTIVO SALDO DE EMPENHO"
-    },
-    {
-      "numero": "2023NE0003847",
-      "contrato": "",
-      "valor": 57780.01,
+      "valor": 39590.28,
       "situacao": "Ativo",
       "data_emissao": "14/09/2023",
       "descricao": "=ANULAÇÃO TOTAL =MOTIVO SALDO DE EMPENHO"
@@ -2609,20 +2601,28 @@
       "descricao": "=ANULAÇÃO TOTAL =MOTIVO SALDO DE EMPENHO"
     },
     {
-      "numero": "2023NE0003845",
+      "numero": "2023NE0003847",
       "contrato": "",
-      "valor": 39590.28,
+      "valor": 57780.01,
       "situacao": "Ativo",
       "data_emissao": "14/09/2023",
       "descricao": "=ANULAÇÃO TOTAL =MOTIVO SALDO DE EMPENHO"
     },
     {
-      "numero": "2024NE0003044",
-      "contrato": "5/2021",
-      "valor": 36112.42,
+      "numero": "2023NE0003854",
+      "contrato": "",
+      "valor": 25540.64,
+      "situacao": "Ativo",
+      "data_emissao": "14/09/2023",
+      "descricao": "=ANULAÇÃO TOTAL =MOTIVO SALDO DE EMPENHO"
+    },
+    {
+      "numero": "2024NE0003045",
+      "contrato": "21/2021",
+      "valor": 325367.97,
       "situacao": "Ativo",
       "data_emissao": "14/06/2024",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
     },
     {
       "numero": "2024NE0003046",
@@ -2633,12 +2633,12 @@
       "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
     },
     {
-      "numero": "2024NE0003045",
-      "contrato": "21/2021",
-      "valor": 325367.97,
+      "numero": "2024NE0003044",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
       "data_emissao": "14/06/2024",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
     },
     {
       "numero": "2021NE0001849",
@@ -2657,25 +2657,25 @@
       "descricao": "=RECONHECIMENTO DE DIVIDA;=SEM COBERTURA CONTRATUAL;=PRESTAÇÃO DE SERVIÇOS DE ACESSO GERENCIADO A REDE MUNDIAL POR MPBS, ACESSO A METROMAO, FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =REDE SES/AM; =PERÍODO: JANEIRO/2021."
     },
     {
-      "numero": "2024NE0006832",
-      "contrato": "21/2021",
-      "valor": 215911.98,
+      "numero": "2024NE0006846",
+      "contrato": "5/2021",
+      "valor": 108337.26,
       "situacao": "Ativo",
       "data_emissao": "13/12/2024",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
     },
     {
-      "numero": "2024NE0006835",
-      "contrato": "21/2021",
-      "valor": 34840.28,
+      "numero": "2024NE0006845",
+      "contrato": "5/2021",
+      "valor": 72224.84,
       "situacao": "Ativo",
       "data_emissao": "13/12/2024",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
     },
     {
-      "numero": "2024NE0006848",
+      "numero": "2024NE0006847",
       "contrato": "21/2021",
-      "valor": 89250.7,
+      "valor": 108455.99,
       "situacao": "Ativo",
       "data_emissao": "13/12/2024",
       "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
@@ -2689,28 +2689,28 @@
       "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
     },
     {
-      "numero": "2024NE0006847",
+      "numero": "2024NE0006848",
       "contrato": "21/2021",
-      "valor": 108455.99,
+      "valor": 89250.7,
       "situacao": "Ativo",
       "data_emissao": "13/12/2024",
       "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
     },
     {
-      "numero": "2024NE0006845",
-      "contrato": "5/2021",
-      "valor": 72224.84,
+      "numero": "2024NE0006835",
+      "contrato": "21/2021",
+      "valor": 34840.28,
       "situacao": "Ativo",
       "data_emissao": "13/12/2024",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
-      "numero": "2024NE0006846",
-      "contrato": "5/2021",
-      "valor": 108337.26,
+      "numero": "2024NE0006832",
+      "contrato": "21/2021",
+      "valor": 215911.98,
       "situacao": "Ativo",
       "data_emissao": "13/12/2024",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
       "numero": "2022NE0005674",
@@ -2721,12 +2721,12 @@
       "descricao": "=ANULAÇÃO PARCIAL =MOTIVO?: SALDO DE EMPENHO"
     },
     {
-      "numero": "2023NE0003646",
-      "contrato": "",
-      "valor": 21282.52,
+      "numero": "2023NE0003580",
+      "contrato": "54/2018",
+      "valor": 146012.35,
       "situacao": "Ativo",
       "data_emissao": "13/09/2023",
-      "descricao": "ANULAÇAO PARCIAL DA NOTA DE EMPENHO N. 1765/2023 MOTIVO: SALDO DE EMPENHO"
+      "descricao": "Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 054/2018 AD: 04."
     },
     {
       "numero": "2023NE0003645",
@@ -2737,20 +2737,12 @@
       "descricao": "ANULAÇAO DA NOTA DE EMPENHO N. 1765/2023 MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2023NE0003580",
-      "contrato": "54/2018",
-      "valor": 146012.35,
+      "numero": "2023NE0003646",
+      "contrato": "",
+      "valor": 21282.52,
       "situacao": "Ativo",
       "data_emissao": "13/09/2023",
-      "descricao": "Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 054/2018 AD: 04."
-    },
-    {
-      "numero": "2023NE0002679",
-      "contrato": "21/2021",
-      "valor": 325367.97,
-      "situacao": "Ativo",
-      "data_emissao": "13/07/2023",
-      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
+      "descricao": "ANULAÇAO PARCIAL DA NOTA DE EMPENHO N. 1765/2023 MOTIVO: SALDO DE EMPENHO"
     },
     {
       "numero": "2023NE0002678",
@@ -2761,20 +2753,20 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 005/2021 AD: 02."
     },
     {
+      "numero": "2023NE0002679",
+      "contrato": "21/2021",
+      "valor": 325367.97,
+      "situacao": "Ativo",
+      "data_emissao": "13/07/2023",
+      "descricao": "serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 021/2021 AD: 01."
+    },
+    {
       "numero": "2021NE0002261",
       "contrato": "",
       "valor": 33906.15,
       "situacao": "Ativo",
       "data_emissao": "13/07/2021",
       "descricao": "=ANULAÇÃO PARCIAL DA NE 2175/2021 =MOTIVO: PARECER DESFAVORÁVEL AO ACRÉSCIMO CONFORME PARECER Nº 1.474/2021 ¿ ASJUR/SES-AM DE 08/07/2021 NA FL. 247."
-    },
-    {
-      "numero": "2025NE0003394",
-      "contrato": "18/2021",
-      "valor": 1000.0,
-      "situacao": "Ativo",
-      "data_emissao": "13/06/2025",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
     },
     {
       "numero": "2025NE0003379",
@@ -2785,52 +2777,20 @@
       "descricao": "ANULAÇÃO PARCIAL SALDO DE EMPENHO"
     },
     {
+      "numero": "2025NE0003394",
+      "contrato": "18/2021",
+      "valor": 1000.0,
+      "situacao": "Ativo",
+      "data_emissao": "13/06/2025",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+    },
+    {
       "numero": "2024NE0003037",
       "contrato": "18/2021",
       "valor": 23000.0,
       "situacao": "Ativo",
       "data_emissao": "13/06/2024",
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
-    },
-    {
-      "numero": "2026NE0001051",
-      "contrato": "2/2015",
-      "valor": 249802.28,
-      "situacao": "Ativo",
-      "data_emissao": "13/03/2026",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0002/2015 AD: 03"
-    },
-    {
-      "numero": "2026NE0001043",
-      "contrato": "2/2015",
-      "valor": 249802.28,
-      "situacao": "Ativo",
-      "data_emissao": "13/03/2026",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0002/2015 AD: 03"
-    },
-    {
-      "numero": "2026NE0001050",
-      "contrato": "",
-      "valor": 154015.81,
-      "situacao": "Ativo",
-      "data_emissao": "13/03/2026",
-      "descricao": "=SEM COBERTURA CONTRATUAL=SERVIÇO DE HOSPEDAGEM DE SISTEMAS, MANUTENÇÃO EVOLUTIVA E CONSULTORIA, =PERÍODO DE DEZEMBRO/2016 =PARECER Nº 2261/2017 - ASJUR =Autorizo SECEXEC - 10/03/2026"
-    },
-    {
-      "numero": "2026NE0001048",
-      "contrato": "55/2018",
-      "valor": 154015.81,
-      "situacao": "Ativo",
-      "data_emissao": "13/03/2026",
-      "descricao": "=SEM COBERTURA CONTRATUAL;=SISTEMA HYGIA, SUSAM - SEDE;=LOCAL: SUSAM - SEDE =PERÍODO: MARÇO/2017; =PARECER Nº 2265/2017 - ASJUR Autorizo SECEXEC - 10/03/2026"
-    },
-    {
-      "numero": "2026NE0001067",
-      "contrato": "116/2013",
-      "valor": 154015.78,
-      "situacao": "Ativo",
-      "data_emissao": "13/03/2026",
-      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 116/2013;=VIGÊNCIA: 01/08/2016 A 31/07/2017=SUPORTE TÉCNICO AO SISTEMA GESTÃO DE REDE PUBLICA DE SAÚDE - SGRPS =LOCAL: SEDE=PERIODO: SET/2016"
     },
     {
       "numero": "2026NE0001049",
@@ -2841,12 +2801,44 @@
       "descricao": "=3º TERMO ADITIVO AO CONTRATO Nº 116/2013=VIGÊNCIA:01/08/2015 A 31/07/2016;=SUPORTE TÉCNICO AO SISTEMA GESTÃO DE REDE PUBLICA DE SAÚDE - SGRPS=UNIDADES DE SAÚDE/SES-AM.=PERIODO: AGOSTO /2016"
     },
     {
-      "numero": "2024NE0006756",
-      "contrato": "18/2021",
-      "valor": 663281.42,
+      "numero": "2026NE0001067",
+      "contrato": "116/2013",
+      "valor": 154015.78,
       "situacao": "Ativo",
-      "data_emissao": "12/12/2024",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
+      "data_emissao": "13/03/2026",
+      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO 116/2013;=VIGÊNCIA: 01/08/2016 A 31/07/2017=SUPORTE TÉCNICO AO SISTEMA GESTÃO DE REDE PUBLICA DE SAÚDE - SGRPS =LOCAL: SEDE=PERIODO: SET/2016"
+    },
+    {
+      "numero": "2026NE0001048",
+      "contrato": "55/2018",
+      "valor": 154015.81,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "=SEM COBERTURA CONTRATUAL;=SISTEMA HYGIA, SUSAM - SEDE;=LOCAL: SUSAM - SEDE =PERÍODO: MARÇO/2017; =PARECER Nº 2265/2017 - ASJUR Autorizo SECEXEC - 10/03/2026"
+    },
+    {
+      "numero": "2026NE0001050",
+      "contrato": "",
+      "valor": 154015.81,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "=SEM COBERTURA CONTRATUAL=SERVIÇO DE HOSPEDAGEM DE SISTEMAS, MANUTENÇÃO EVOLUTIVA E CONSULTORIA, =PERÍODO DE DEZEMBRO/2016 =PARECER Nº 2261/2017 - ASJUR =Autorizo SECEXEC - 10/03/2026"
+    },
+    {
+      "numero": "2026NE0001043",
+      "contrato": "2/2015",
+      "valor": 249802.28,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0002/2015 AD: 03"
+    },
+    {
+      "numero": "2026NE0001051",
+      "contrato": "2/2015",
+      "valor": 249802.28,
+      "situacao": "Ativo",
+      "data_emissao": "13/03/2026",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0002/2015 AD: 03"
     },
     {
       "numero": "2024NE0006754",
@@ -2857,12 +2849,12 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
     },
     {
-      "numero": "2019NE03921",
-      "contrato": "2/2015",
-      "valor": 1315253.4,
+      "numero": "2024NE0006756",
+      "contrato": "18/2021",
+      "valor": 663281.42,
       "situacao": "Ativo",
-      "data_emissao": "12/12/2019",
-      "descricao": "CONTRATAÇÃO Serviços de empresa especializada para implementação de melhorias qualitativas e disponibilidade, confiabilidade , escalabilidade e manutenção da rede de dados e ainda atender as necessidades de comunicação de dados da rede corporativa SA"
+      "data_emissao": "12/12/2024",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
     },
     {
       "numero": "2019NE03920",
@@ -2871,6 +2863,14 @@
       "situacao": "Ativo",
       "data_emissao": "12/12/2019",
       "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
+    },
+    {
+      "numero": "2019NE03921",
+      "contrato": "2/2015",
+      "valor": 1315253.4,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2019",
+      "descricao": "CONTRATAÇÃO Serviços de empresa especializada para implementação de melhorias qualitativas e disponibilidade, confiabilidade , escalabilidade e manutenção da rede de dados e ainda atender as necessidades de comunicação de dados da rede corporativa SA"
     },
     {
       "numero": "2020NE03574",
@@ -2913,14 +2913,6 @@
       "descricao": "Serviços de Fornecimento de Circuito de Transmissão de Dados com Link ponto a ponto entre as Unidades da SES-AM, SES-AM e a PRODAM, para acesso aos serviços contratados residentes no Data Center do Estado, compreendendo a disponibilidade de Acesso Ge"
     },
     {
-      "numero": "2023NE0002623",
-      "contrato": "",
-      "valor": 262926.8,
-      "situacao": "Ativo",
-      "data_emissao": "12/07/2023",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 018/2021 AD: 01."
-    },
-    {
       "numero": "2023NE0002622",
       "contrato": "",
       "valor": 638786.27,
@@ -2929,12 +2921,12 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 018/2021 AD: 01."
     },
     {
-      "numero": "2023NE02221",
-      "contrato": "18/2021",
-      "valor": 375859.47,
+      "numero": "2023NE0002623",
+      "contrato": "",
+      "valor": 262926.8,
       "situacao": "Ativo",
-      "data_emissao": "12/06/2023",
-      "descricao": "Prestação de Serviço de Manutenção de Software, Serviços de Informática e Serviços de Gestão Administrativa e Desenvolvimento de Sistema de Informação."
+      "data_emissao": "12/07/2023",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 018/2021 AD: 01."
     },
     {
       "numero": "2023NE0002221",
@@ -2943,6 +2935,14 @@
       "situacao": "Ativo",
       "data_emissao": "12/06/2023",
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE02221",
+      "contrato": "18/2021",
+      "valor": 375859.47,
+      "situacao": "Ativo",
+      "data_emissao": "12/06/2023",
+      "descricao": "Prestação de Serviço de Manutenção de Software, Serviços de Informática e Serviços de Gestão Administrativa e Desenvolvimento de Sistema de Informação."
     },
     {
       "numero": "2026NE0001029",
@@ -2969,20 +2969,12 @@
       "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO 054/2018;=VIGÊNCIA: 09/07/2023 A 08/07/2024;=PRESTAÇÃO DE SERVIÇOS DE MANTER CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO; =SES/AM =PERIODO: AGOSTO/2023"
     },
     {
-      "numero": "2020NE03413",
-      "contrato": "",
-      "valor": 120844.39,
+      "numero": "2020NE03422",
+      "contrato": "54/2018",
+      "valor": 122306.88,
       "situacao": "Ativo",
       "data_emissao": "11/11/2020",
-      "descricao": "=SEM COBERTURA CONTRATUAL; =RD: 2020RD00974; =SISTEMA DE RECURSOS HUMANOS PARA FOLHA DE PAGAMENTO ; =SUSAM SEDE; =PERÍODO: 01 A 30/04/2018."
-    },
-    {
-      "numero": "2020NE03411",
-      "contrato": "",
-      "valor": 86855.4,
-      "situacao": "Ativo",
-      "data_emissao": "11/11/2020",
-      "descricao": "=SEM COBERTURA CONTRATUAL; =RD: 00975/2020; =SISTEMA DE RECURSOS HUMANOS PARA FOLHA DE PAGAMENTO ; =SUSAM SEDE; =PERÍODO: 01 A 31/03/2018."
+      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00956; =CONTRATO N. 054/18; =SERVIÇOS DE EXECUÇÃO DE SISTEMAS DE RECURSOS HUMANOS; =SUSAM; =PERÍODO: 01 A 31/12/2019."
     },
     {
       "numero": "2020NE03421",
@@ -2993,20 +2985,20 @@
       "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00721; =CONTRATO N. 054/18; =SERVIÇOS DE EXECUÇÃO DE SISTEMAS - SIST. RECURSOS HUMANOS E FOLHA; =SUSAM; =PERÍODO: 01 A 30/09/2019."
     },
     {
-      "numero": "2020NE03422",
-      "contrato": "54/2018",
-      "valor": 122306.88,
+      "numero": "2020NE03411",
+      "contrato": "",
+      "valor": 86855.4,
       "situacao": "Ativo",
       "data_emissao": "11/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00956; =CONTRATO N. 054/18; =SERVIÇOS DE EXECUÇÃO DE SISTEMAS DE RECURSOS HUMANOS; =SUSAM; =PERÍODO: 01 A 31/12/2019."
+      "descricao": "=SEM COBERTURA CONTRATUAL; =RD: 00975/2020; =SISTEMA DE RECURSOS HUMANOS PARA FOLHA DE PAGAMENTO ; =SUSAM SEDE; =PERÍODO: 01 A 31/03/2018."
     },
     {
-      "numero": "2016NE02361",
-      "contrato": "116/2013",
-      "valor": 154015.78,
+      "numero": "2020NE03413",
+      "contrato": "",
+      "valor": 120844.39,
       "situacao": "Ativo",
-      "data_emissao": "11/08/2016",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N° 116/13-SUSAM"
+      "data_emissao": "11/11/2020",
+      "descricao": "=SEM COBERTURA CONTRATUAL; =RD: 2020RD00974; =SISTEMA DE RECURSOS HUMANOS PARA FOLHA DE PAGAMENTO ; =SUSAM SEDE; =PERÍODO: 01 A 30/04/2018."
     },
     {
       "numero": "2016NE02417",
@@ -3015,6 +3007,14 @@
       "situacao": "Ativo",
       "data_emissao": "11/08/2016",
       "descricao": "=REFORÇO DO QUINTO TERMO ADITIVO AO CONTRATO N. 081/2010-SUSAM E PRODAM."
+    },
+    {
+      "numero": "2016NE02361",
+      "contrato": "116/2013",
+      "valor": 154015.78,
+      "situacao": "Ativo",
+      "data_emissao": "11/08/2016",
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO N° 116/13-SUSAM"
     },
     {
       "numero": "2017NE02052",
@@ -3033,12 +3033,12 @@
       "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO 021/2021;=VIGÊNCIA: 12/08/2024 A 12/08/2025 =PRESTAÇÃO DE SERVIÇOS DE FORECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO ENTRE AS UNIDADES DA SES-AM, SES-AM E A PRODAM. =LOCAL: SES/AM; =PERIODO: AGOSTO/2025"
     },
     {
-      "numero": "2025NE0000836",
-      "contrato": "18/2021",
-      "valor": 663084.71,
+      "numero": "2025NE0000832",
+      "contrato": "21/2021",
+      "valor": 325367.97,
       "situacao": "Ativo",
       "data_emissao": "11/03/2025",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
       "numero": "2025NE0000839",
@@ -3049,12 +3049,12 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2025NE0000832",
-      "contrato": "21/2021",
-      "valor": 325367.97,
+      "numero": "2025NE0000836",
+      "contrato": "18/2021",
+      "valor": 663084.71,
       "situacao": "Ativo",
       "data_emissao": "11/03/2025",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
     },
     {
       "numero": "2021NE0003956",
@@ -3065,12 +3065,12 @@
       "descricao": "Contratação de pessoa jurídica especializada em serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do governo de estado, e serviço de modelag"
     },
     {
-      "numero": "2020NE03382",
-      "contrato": "54/2018",
-      "valor": 131871.28,
+      "numero": "2020NE03379",
+      "contrato": "",
+      "valor": 277606.06,
       "situacao": "Ativo",
       "data_emissao": "10/11/2020",
-      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 1897/2020"
+      "descricao": "=ANULAÇÃO TOTAL NE 3371/2020 =MOTIVO: RD DESCRITIVO DA NF INCORRETO"
     },
     {
       "numero": "2020NE03378",
@@ -3081,12 +3081,12 @@
       "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00967; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 31/10/2018."
     },
     {
-      "numero": "2020NE03379",
-      "contrato": "",
-      "valor": 277606.06,
+      "numero": "2020NE03382",
+      "contrato": "54/2018",
+      "valor": 131871.28,
       "situacao": "Ativo",
       "data_emissao": "10/11/2020",
-      "descricao": "=ANULAÇÃO TOTAL NE 3371/2020 =MOTIVO: RD DESCRITIVO DA NF INCORRETO"
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 1897/2020"
     },
     {
       "numero": "2020NE02696",
@@ -3129,28 +3129,12 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2022NE0005496",
-      "contrato": "",
-      "valor": 68491.2,
+      "numero": "2022NE0005495",
+      "contrato": "5/2021",
+      "valor": 34245.6,
       "situacao": "Ativo",
       "data_emissao": "09/12/2022",
-      "descricao": "=REFORÇO DA NE 1176/2022 AO PRIMEIRO TERMO ADITIVO AO CONTRATO 005/21"
-    },
-    {
-      "numero": "2022NE0005498",
-      "contrato": "",
-      "valor": 638786.27,
-      "situacao": "Ativo",
-      "data_emissao": "09/12/2022",
-      "descricao": "=REFORÇO DA NE 2690/22 AO PRIMEIRO TERMO ADITIVO AO CONTRATO 018/21"
-    },
-    {
-      "numero": "2022NE0005497",
-      "contrato": "",
-      "valor": 325367.9,
-      "situacao": "Ativo",
-      "data_emissao": "09/12/2022",
-      "descricao": "=REFORÇO DA NE 4736/22 AO PRIMEIRO TERMO ADITIVO AO CONTRATO 021/21"
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de ampliação, atualização e padronização do ambiente de Tecnologia da Informação da Secretaria de Saúde"
     },
     {
       "numero": "2022NE0005499",
@@ -3161,116 +3145,28 @@
       "descricao": "=REFORÇO DA NE 4104/22 AO QUARTO TERMO ADITIVO AO CONTRATO 051/18"
     },
     {
-      "numero": "2022NE0005495",
-      "contrato": "5/2021",
-      "valor": 34245.6,
+      "numero": "2022NE0005497",
+      "contrato": "",
+      "valor": 325367.9,
       "situacao": "Ativo",
       "data_emissao": "09/12/2022",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de ampliação, atualização e padronização do ambiente de Tecnologia da Informação da Secretaria de Saúde"
+      "descricao": "=REFORÇO DA NE 4736/22 AO PRIMEIRO TERMO ADITIVO AO CONTRATO 021/21"
     },
     {
-      "numero": "2020NE03369",
+      "numero": "2022NE0005498",
       "contrato": "",
-      "valor": 122306.88,
+      "valor": 638786.27,
       "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00977; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 31/12/2018."
+      "data_emissao": "09/12/2022",
+      "descricao": "=REFORÇO DA NE 2690/22 AO PRIMEIRO TERMO ADITIVO AO CONTRATO 018/21"
     },
     {
-      "numero": "2020NE03364",
-      "contrato": "2/2015",
-      "valor": 279769.89,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO N. 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RI: 2020RD00961; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/12/2018."
-    },
-    {
-      "numero": "2020NE03368",
+      "numero": "2022NE0005496",
       "contrato": "",
-      "valor": 122306.88,
+      "valor": 68491.2,
       "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA; =RD Nº 00963/2020; =TERMO DE CONTRATO Nº 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 31/07/2018."
-    },
-    {
-      "numero": "2020NE03370",
-      "contrato": "",
-      "valor": 277606.06,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA, =RD Nº 00961/2020 =TERMO DE CONTRATO Nº 002/2015-SUSAM =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =REDE DE DADOS; =LOCAL: 69 UNIDADES DE SAÚDE,CEMA, COMPLEXO REGULADOR E FARMÁCIA POPULARES ; =PERÍODO: 01 A 30/06/2018."
-    },
-    {
-      "numero": "2020NE03372",
-      "contrato": "",
-      "valor": 277606.06,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA; =TERMO DE CONTRATO Nº 002/2015-SUSAM =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/2015; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD Nº 0966/2020; =REDE DE DADOS; =LOCAL: 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FÁRMACIAS POPULARES NA CAPITAL; =PERÍODO: 01 A 30/09/2018."
-    },
-    {
-      "numero": "2020NE03371",
-      "contrato": "",
-      "valor": 277606.06,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO N. 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RI: 2020RD00969; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/08/2018."
-    },
-    {
-      "numero": "2020NE03373",
-      "contrato": "",
-      "valor": 105746.41,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00976; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 31/08/2018."
-    },
-    {
-      "numero": "2020NE03374",
-      "contrato": "",
-      "valor": 78352.26,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00972; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 30/09/2018."
-    },
-    {
-      "numero": "2020NE03375",
-      "contrato": "",
-      "valor": 277606.06,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA; =RD Nº 965/2020; =TERMO DE CONTRATO Nº 002/2015-SUSAM =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =REDE DE DADOS; =LOCAL: 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FÁRMACIAS POPULARES DA CAPITAL; ; =PERÍODO: 01 A 31/07/2018."
-    },
-    {
-      "numero": "2020NE03376",
-      "contrato": "",
-      "valor": 279769.89,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA; =TERMO DE CONTRATO Nº 002/2015-SUSAM; =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD Nº 00962/2020; =REDE DE DADOS; =LOCAL:69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FÁRMACIAS POPULARES DA CAPITAL; =PERÍODO: 01 A 30/11/2018;"
-    },
-    {
-      "numero": "2020NE03367",
-      "contrato": "54/2018",
-      "valor": 79988.82,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00968; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 30/11/2018."
-    },
-    {
-      "numero": "2020NE03377",
-      "contrato": "",
-      "valor": 277606.06,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO N. 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD: 2020RD00964; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/05/2018."
-    },
-    {
-      "numero": "2020NE03365",
-      "contrato": "2/2015",
-      "valor": 277606.06,
-      "situacao": "Ativo",
-      "data_emissao": "09/11/2020",
-      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO Nº 002/2015; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD: 2020RD00960; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/10/2018."
+      "data_emissao": "09/12/2022",
+      "descricao": "=REFORÇO DA NE 1176/2022 AO PRIMEIRO TERMO ADITIVO AO CONTRATO 005/21"
     },
     {
       "numero": "2020NE03366",
@@ -3281,20 +3177,116 @@
       "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00970; =TERMO DE CONTRATO N. 055/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 06/10/2018; =PRESTAÇÃO E SERVIÇOS DE TREINAMENTO EM SISTEMAS DE INFORMAÇÃO; =01 A 30/09/2018."
     },
     {
+      "numero": "2020NE03365",
+      "contrato": "2/2015",
+      "valor": 277606.06,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO Nº 002/2015; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD: 2020RD00960; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/10/2018."
+    },
+    {
+      "numero": "2020NE03377",
+      "contrato": "",
+      "valor": 277606.06,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO N. 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD: 2020RD00964; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/05/2018."
+    },
+    {
+      "numero": "2020NE03367",
+      "contrato": "54/2018",
+      "valor": 79988.82,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00968; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 30/11/2018."
+    },
+    {
+      "numero": "2020NE03376",
+      "contrato": "",
+      "valor": 279769.89,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA; =TERMO DE CONTRATO Nº 002/2015-SUSAM; =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD Nº 00962/2020; =REDE DE DADOS; =LOCAL:69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FÁRMACIAS POPULARES DA CAPITAL; =PERÍODO: 01 A 30/11/2018;"
+    },
+    {
+      "numero": "2020NE03375",
+      "contrato": "",
+      "valor": 277606.06,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA; =RD Nº 965/2020; =TERMO DE CONTRATO Nº 002/2015-SUSAM =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =REDE DE DADOS; =LOCAL: 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FÁRMACIAS POPULARES DA CAPITAL; ; =PERÍODO: 01 A 31/07/2018."
+    },
+    {
+      "numero": "2020NE03374",
+      "contrato": "",
+      "valor": 78352.26,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00972; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 30/09/2018."
+    },
+    {
+      "numero": "2020NE03373",
+      "contrato": "",
+      "valor": 105746.41,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00976; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 31/08/2018."
+    },
+    {
+      "numero": "2020NE03371",
+      "contrato": "",
+      "valor": 277606.06,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO N. 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RI: 2020RD00969; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/08/2018."
+    },
+    {
+      "numero": "2020NE03372",
+      "contrato": "",
+      "valor": 277606.06,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA; =TERMO DE CONTRATO Nº 002/2015-SUSAM =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/2015; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RD Nº 0966/2020; =REDE DE DADOS; =LOCAL: 69 UNIDADES DE SAÚDE, CEMA, COMPLEXO REGULADOR E FÁRMACIAS POPULARES NA CAPITAL; =PERÍODO: 01 A 30/09/2018."
+    },
+    {
+      "numero": "2020NE03370",
+      "contrato": "",
+      "valor": 277606.06,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA, =RD Nº 00961/2020 =TERMO DE CONTRATO Nº 002/2015-SUSAM =QUARTO TERMO ADITIVO AO CONTRATO Nº 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =REDE DE DADOS; =LOCAL: 69 UNIDADES DE SAÚDE,CEMA, COMPLEXO REGULADOR E FARMÁCIA POPULARES ; =PERÍODO: 01 A 30/06/2018."
+    },
+    {
+      "numero": "2020NE03368",
+      "contrato": "",
+      "valor": 122306.88,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA; =RD Nº 00963/2020; =TERMO DE CONTRATO Nº 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 31/07/2018."
+    },
+    {
+      "numero": "2020NE03364",
+      "contrato": "2/2015",
+      "valor": 279769.89,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO N. 002/15; =VIGÊNCIA: 05/01/2018 A 04/01/2019; =RI: 2020RD00961; =REDE DE DADOS; =DIVERSAS UNIDADES; =PERÍODO: 01 A 31/12/2018."
+    },
+    {
+      "numero": "2020NE03369",
+      "contrato": "",
+      "valor": 122306.88,
+      "situacao": "Ativo",
+      "data_emissao": "09/11/2020",
+      "descricao": "=RECONHECIMENTO DE DÍVIDA 2020RD00977; =TERMO DE CONTRATO N. 054/18-SUSAM; =VIGÊNCIA: 09/07/2018 A 08/07/2019; =PRESTAÇÃO DE SERVIÇOS DE SISTEMA DE RECUSOS HUMANOS PARA FOLHA DE PAGAMENTO; =01 A 31/12/2018."
+    },
+    {
       "numero": "2022NE0002975",
       "contrato": "54/2018",
       "valor": 131871.28,
       "situacao": "Ativo",
       "data_emissao": "09/08/2022",
       "descricao": "=REFORÇO DA NJE 1328 REF AO TERCEIRO TERMO ADITIVO AO CONTRATO 054/2018"
-    },
-    {
-      "numero": "2018NE02573",
-      "contrato": "54/2018",
-      "valor": 191268.1,
-      "situacao": "Ativo",
-      "data_emissao": "09/07/2018",
-      "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
     },
     {
       "numero": "2018NE02638",
@@ -3305,12 +3297,12 @@
       "descricao": "CONTRATAÇÃO Serviços de TI, compreendendo a capacitação e treinamento par até 15 colaboradores desta SUSAM para implantação, suporte e uso dos sistemas de informação da SAÚDE - HYGIA"
     },
     {
-      "numero": "2015NE02792",
-      "contrato": "116/2013",
-      "valor": 219646.0,
+      "numero": "2018NE02573",
+      "contrato": "54/2018",
+      "valor": 191268.1,
       "situacao": "Ativo",
-      "data_emissao": "09/07/2015",
-      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 116/2013, PROCESSAMENTO DE DADOS"
+      "data_emissao": "09/07/2018",
+      "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
     },
     {
       "numero": "2015NE02794",
@@ -3319,6 +3311,14 @@
       "situacao": "Ativo",
       "data_emissao": "09/07/2015",
       "descricao": "NE 2794 DE 09/07/2015 R$ 335.861,68"
+    },
+    {
+      "numero": "2015NE02792",
+      "contrato": "116/2013",
+      "valor": 219646.0,
+      "situacao": "Ativo",
+      "data_emissao": "09/07/2015",
+      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO Nº 116/2013, PROCESSAMENTO DE DADOS"
     },
     {
       "numero": "2025NE0003174",
@@ -3393,20 +3393,20 @@
       "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO Nº 002/2015 CELEBRADO ENTRE O ESTADO DO AMAZONAS, POR INTERMEDIO DA SECRETARIA DE ESTADO DE SA¿DE E A PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A; =OBJETO: PRORROGAR O PRAZO DE VIGENCIA DO CONTRATO PRIMITIVO POR 12 MESES, A CONTAR DE 05/01/2017 A 04/01/2018; =A) REAJUSTAR OS VALORES DOS SERVIÇOS PELO PERCENTUAL DE 8,79% REFERENTE AO IGP-M DO PERIODO, A PARTIR DE 05/01/2017 =VALOR MENSAL: R$ 292.343,68; =VALOR TOTAL: R$ 3.508.124,16; =MEMO 175/2016-GCC; = ATA DE DESPENSA DE LICITAÇAO RDL N. 105/2014; =PARECER N. 023/2017-ASJUR; =NAD N. 0031/2017 =PARCELA: FEVEREIRO/2017 =LOCAL: UNIDADES DE SAUDE CEMA, PREDIO DO COMPLEXO REGULADOR E UNIDADES DA FARMACIA POPULAR NA CAPITAL. =JUNTADA DOS PROCESSOS Nº 024516/2016 E 002146/2017 =SALDO PARA O PRÓXIMO EXERCÍCIO R$ 37.721,77"
     },
     {
-      "numero": "2015NE02027",
-      "contrato": "116/2013",
-      "valor": 219646.0,
-      "situacao": "Ativo",
-      "data_emissao": "08/05/2015",
-      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO N° 116/2013-SUSAM"
-    },
-    {
       "numero": "2015NE02025",
       "contrato": "81/2010",
       "valor": 104884.8,
       "situacao": "Ativo",
       "data_emissao": "08/05/2015",
       "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO N° 081/2010-SUSAM."
+    },
+    {
+      "numero": "2015NE02027",
+      "contrato": "116/2013",
+      "valor": 219646.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/05/2015",
+      "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO N° 116/2013-SUSAM"
     },
     {
       "numero": "2026NE0001375",
@@ -3417,20 +3417,20 @@
       "descricao": "=SEM COBERTURA CONTRATUAL=SERVIÇO DE EXECUÇÃO DE SISTEMA PRODAM-RH, SISTEMA DE RECURSOS HUMANOS=PERÍODO:MAIO/2017 =PARECER Nº 2391/2018"
     },
     {
-      "numero": "2021NE0001057",
-      "contrato": "5/2021",
-      "valor": 68491.2,
-      "situacao": "Ativo",
-      "data_emissao": "08/04/2021",
-      "descricao": "=TERMO DE CONTRATO 005/2021; =SERVIÇO DE FORNECIMENTO DE SERVIDORES EM NUVEM; =LOCAL: SUS/AM; =PERÍODO: MARÇO E ABRIL/2021."
-    },
-    {
       "numero": "2021NE0001056",
       "contrato": "54/2018",
       "valor": 131871.28,
       "situacao": "Ativo",
       "data_emissao": "08/04/2021",
       "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 199/2021"
+    },
+    {
+      "numero": "2021NE0001057",
+      "contrato": "5/2021",
+      "valor": 68491.2,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2021",
+      "descricao": "=TERMO DE CONTRATO 005/2021; =SERVIÇO DE FORNECIMENTO DE SERVIDORES EM NUVEM; =LOCAL: SUS/AM; =PERÍODO: MARÇO E ABRIL/2021."
     },
     {
       "numero": "2021NE0000443",
@@ -3441,20 +3441,12 @@
       "descricao": "Contratação de pessoa jurídica especializada em serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de ampliação, atualização e padronização do ambiente de Tecnologia da Informação da Secretaria"
     },
     {
-      "numero": "2016NE03114",
-      "contrato": "81/2010",
+      "numero": "2016NE03136",
+      "contrato": "",
       "valor": 314654.4,
       "situacao": "Ativo",
       "data_emissao": "07/12/2016",
-      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO 081/10 CELEBRADO ENTRE O ESTADO DO AMAZONAS POR INTERMÉDIO DA SECRETARIA DE ESTADO DE SAÚDE E A PRODAM. =OBJETO: PRORROGAR O PRAZO DE VIGÊNCIA DO CONTRATO PRIMITIVO POR 12 (DOZE) MESES, A CONTAR DE 01/10/2015 À 30/09/2016. =MEMO Nº 159/2015-GCC =VALOR MENSAL: 104.884,80 =VALOR TOTAL R$ 1.258.617,60 =NAD Nº 1049/2015 =DESPACHO Nº 923/2015-ASJUR =ATA DE REGISTRO DE DISPENSA DE LICITAÇÃO Nº 013/2010, PUB. NO DOE DE 28/09/10. =PERÍODO EMPENHADO: MAIO, JUNHO E JULHO/2016 =LOCAL: SEDE E UNIDADES DE SAÚDE VINCULADAS"
-    },
-    {
-      "numero": "2016NE03116",
-      "contrato": "2/2015",
-      "valor": 2149783.44,
-      "situacao": "Ativo",
-      "data_emissao": "07/12/2016",
-      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO Nº 002/2015 CELEBRADO ENTRE O ESTADO DO AMAZONAS, POR INTERMÉDIO DA SECRETARIA DE ESTADO DE SAÚDE E A PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A; =OBJETO: PRORROGAR O PRAZO DE VIGÊNCIA DO CONTRATO PRIMITIVO POR 12 MESES, A CONTAR DE 05/01/2016 A 04/01/2017; =VALOR MENSAL: R$ 268.722,93; =VALOR TOTAL: R$ 3.224.675,16; =MEMO 275/2015-GCC; = ATA DE DESPENSA DE LICITAÇÃO RDL N° 105/2014; =DESPACHO 1650/2015-ASJUR; =NAD N° 0029 =PARCELA: MAIO A DEZEMBRO/2016 =LOCAL: UNIDADES DE SAÚDE, CEMA, PRÉDIO DO COMPLEXO REGULADOR E UNIDADES DA FARMÁCIA POPULAR NA CAPITAL."
+      "descricao": "=ANULAÇAO TOTAL DA NOTA DE EMPENHO. =MOTIVO: AJUSTE ORÇAMENTARIO."
     },
     {
       "numero": "2016NE03137",
@@ -3465,25 +3457,33 @@
       "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO N° 081/10-SUSAM,"
     },
     {
-      "numero": "2016NE03136",
-      "contrato": "",
+      "numero": "2016NE03116",
+      "contrato": "2/2015",
+      "valor": 2149783.44,
+      "situacao": "Ativo",
+      "data_emissao": "07/12/2016",
+      "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO Nº 002/2015 CELEBRADO ENTRE O ESTADO DO AMAZONAS, POR INTERMÉDIO DA SECRETARIA DE ESTADO DE SAÚDE E A PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A; =OBJETO: PRORROGAR O PRAZO DE VIGÊNCIA DO CONTRATO PRIMITIVO POR 12 MESES, A CONTAR DE 05/01/2016 A 04/01/2017; =VALOR MENSAL: R$ 268.722,93; =VALOR TOTAL: R$ 3.224.675,16; =MEMO 275/2015-GCC; = ATA DE DESPENSA DE LICITAÇÃO RDL N° 105/2014; =DESPACHO 1650/2015-ASJUR; =NAD N° 0029 =PARCELA: MAIO A DEZEMBRO/2016 =LOCAL: UNIDADES DE SAÚDE, CEMA, PRÉDIO DO COMPLEXO REGULADOR E UNIDADES DA FARMÁCIA POPULAR NA CAPITAL."
+    },
+    {
+      "numero": "2016NE03114",
+      "contrato": "81/2010",
       "valor": 314654.4,
       "situacao": "Ativo",
       "data_emissao": "07/12/2016",
-      "descricao": "=ANULAÇAO TOTAL DA NOTA DE EMPENHO. =MOTIVO: AJUSTE ORÇAMENTARIO."
-    },
-    {
-      "numero": "2025NE0004343",
-      "contrato": "",
-      "valor": 332374.3,
-      "situacao": "Ativo",
-      "data_emissao": "07/08/2025",
-      "descricao": "ANULAÇÃO PARCIAL MOTIVO: SALDO DE EMPENHO"
+      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO 081/10 CELEBRADO ENTRE O ESTADO DO AMAZONAS POR INTERMÉDIO DA SECRETARIA DE ESTADO DE SAÚDE E A PRODAM. =OBJETO: PRORROGAR O PRAZO DE VIGÊNCIA DO CONTRATO PRIMITIVO POR 12 (DOZE) MESES, A CONTAR DE 01/10/2015 À 30/09/2016. =MEMO Nº 159/2015-GCC =VALOR MENSAL: 104.884,80 =VALOR TOTAL R$ 1.258.617,60 =NAD Nº 1049/2015 =DESPACHO Nº 923/2015-ASJUR =ATA DE REGISTRO DE DISPENSA DE LICITAÇÃO Nº 013/2010, PUB. NO DOE DE 28/09/10. =PERÍODO EMPENHADO: MAIO, JUNHO E JULHO/2016 =LOCAL: SEDE E UNIDADES DE SAÚDE VINCULADAS"
     },
     {
       "numero": "2025NE0004345",
       "contrato": "",
       "valor": 407446.52,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2025",
+      "descricao": "ANULAÇÃO PARCIAL MOTIVO: SALDO DE EMPENHO"
+    },
+    {
+      "numero": "2025NE0004343",
+      "contrato": "",
+      "valor": 332374.3,
       "situacao": "Ativo",
       "data_emissao": "07/08/2025",
       "descricao": "ANULAÇÃO PARCIAL MOTIVO: SALDO DE EMPENHO"
@@ -3529,20 +3529,20 @@
       "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar para a CONTRATANTE os Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento, cuja"
     },
     {
-      "numero": "2026NE0000939",
-      "contrato": "5/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "06/03/2026",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
-    },
-    {
       "numero": "2026NE0000945",
       "contrato": "21/2021",
       "valor": 289705.28,
       "situacao": "Ativo",
       "data_emissao": "06/03/2026",
       "descricao": "=TERMO DE CONTRATO 021/2021;=VIGÊNCIA: 12/08/2024 A 12/08/2025; =SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SES/AM; =PERÍODO: SETEMBRO/2025"
+    },
+    {
+      "numero": "2026NE0000939",
+      "contrato": "5/2021",
+      "valor": 36112.42,
+      "situacao": "Ativo",
+      "data_emissao": "06/03/2026",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
       "numero": "2020NE00742",
@@ -3585,14 +3585,6 @@
       "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar para a CONTRATANTE os Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento, cuja"
     },
     {
-      "numero": "2025NE0003168",
-      "contrato": "21/2021",
-      "valor": 315103.97,
-      "situacao": "Ativo",
-      "data_emissao": "05/06/2025",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
-    },
-    {
       "numero": "2025NE0003167",
       "contrato": "18/2024",
       "valor": 146012.35,
@@ -3601,12 +3593,20 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2016NE01600",
-      "contrato": "81/2010",
-      "valor": 104884.8,
+      "numero": "2025NE0003168",
+      "contrato": "21/2021",
+      "valor": 315103.97,
+      "situacao": "Ativo",
+      "data_emissao": "05/06/2025",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
+    },
+    {
+      "numero": "2016NE01603",
+      "contrato": "116/2013",
+      "valor": 154015.78,
       "situacao": "Ativo",
       "data_emissao": "05/05/2016",
-      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO Nº 081/10, PERÍODO MARÇO DE 2016."
+      "descricao": "=REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 116/13, PERÍODO MARÇO DE 2016."
     },
     {
       "numero": "2016NE01785",
@@ -3617,12 +3617,12 @@
       "descricao": "=REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 002/15, PERÍODO DE MARÇO DE 2016."
     },
     {
-      "numero": "2016NE01603",
-      "contrato": "116/2013",
-      "valor": 154015.78,
+      "numero": "2016NE01600",
+      "contrato": "81/2010",
+      "valor": 104884.8,
       "situacao": "Ativo",
       "data_emissao": "05/05/2016",
-      "descricao": "=REFERENTE AO SEGUNDO TERMO ADITIVO AO CONTRATO Nº 116/13, PERÍODO MARÇO DE 2016."
+      "descricao": "=QUINTO TERMO ADITIVO AO CONTRATO Nº 081/10, PERÍODO MARÇO DE 2016."
     },
     {
       "numero": "2026NE0000923",
@@ -3641,12 +3641,12 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
     },
     {
-      "numero": "2026NE0000073",
-      "contrato": "5/2021",
-      "valor": 36112.42,
+      "numero": "2026NE0000053",
+      "contrato": "21/2021",
+      "valor": 315103.83,
       "situacao": "Ativo",
       "data_emissao": "05/01/2026",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
     },
     {
       "numero": "2026NE0000055",
@@ -3657,20 +3657,20 @@
       "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2026NE0000053",
-      "contrato": "21/2021",
-      "valor": 315103.83,
+      "numero": "2026NE0000073",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
       "data_emissao": "05/01/2026",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2015NE00511",
-      "contrato": "2/2015",
-      "valor": 628386.37,
+      "numero": "2015NE00283",
+      "contrato": "81/2010",
+      "valor": 209769.6,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
+      "descricao": "cobertura financeira 2015"
     },
     {
       "numero": "2015NE00316",
@@ -3681,12 +3681,12 @@
       "descricao": "Cobertura financeira 2015"
     },
     {
-      "numero": "2015NE00283",
-      "contrato": "81/2010",
-      "valor": 209769.6,
+      "numero": "2015NE00511",
+      "contrato": "2/2015",
+      "valor": 628386.37,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "cobertura financeira 2015"
+      "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
     },
     {
       "numero": "2024NE0006301",
@@ -3705,28 +3705,12 @@
       "descricao": "=ANULAÇÃO PARCIAL DA NE 2697/2025 =MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2024NE0003457",
-      "contrato": "18/2021",
-      "valor": 287421.95,
+      "numero": "2024NE0003459",
+      "contrato": "21/2021",
+      "valor": 325367.97,
       "situacao": "Ativo",
       "data_emissao": "04/07/2024",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
-    },
-    {
-      "numero": "2024NE0003458",
-      "contrato": "18/2021",
-      "valor": 352859.47,
-      "situacao": "Ativo",
-      "data_emissao": "04/07/2024",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
-    },
-    {
-      "numero": "2024NE0003456",
-      "contrato": "5/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "04/07/2024",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
     },
     {
       "numero": "2024NE0003460",
@@ -3737,12 +3721,28 @@
       "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
     },
     {
-      "numero": "2024NE0003459",
-      "contrato": "21/2021",
-      "valor": 325367.97,
+      "numero": "2024NE0003456",
+      "contrato": "5/2021",
+      "valor": 36112.42,
       "situacao": "Ativo",
       "data_emissao": "04/07/2024",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0003458",
+      "contrato": "18/2021",
+      "valor": 352859.47,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2024",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0003457",
+      "contrato": "18/2021",
+      "valor": 287421.95,
+      "situacao": "Ativo",
+      "data_emissao": "04/07/2024",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
     },
     {
       "numero": "2023NE0002442",
@@ -3753,14 +3753,6 @@
       "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
     },
     {
-      "numero": "2015NE02152",
-      "contrato": "2/2015",
-      "valor": 27835.86,
-      "situacao": "Ativo",
-      "data_emissao": "04/05/2015",
-      "descricao": "=ANULAÇÃO PARCIAL DA NE 511/15 =MOTIVO: SALDO DE EMPENHO"
-    },
-    {
       "numero": "2015NE02153",
       "contrato": "116/2013",
       "valor": 22215.58,
@@ -3769,36 +3761,12 @@
       "descricao": "=ANULAÇÃO PARCIAL DA NE 316/15 =MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2026NE0000899",
-      "contrato": "18/2021",
-      "valor": 254521.65,
+      "numero": "2015NE02152",
+      "contrato": "2/2015",
+      "valor": 27835.86,
       "situacao": "Ativo",
-      "data_emissao": "04/03/2026",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
-    },
-    {
-      "numero": "2026NE0000897",
-      "contrato": "18/2021",
-      "valor": 153026.53,
-      "situacao": "Ativo",
-      "data_emissao": "04/03/2026",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
-    },
-    {
-      "numero": "2026NE0000886",
-      "contrato": "21/2021",
-      "valor": 183480.02,
-      "situacao": "Ativo",
-      "data_emissao": "04/03/2026",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
-    },
-    {
-      "numero": "2026NE0000885",
-      "contrato": "21/2021",
-      "valor": 291695.42,
-      "situacao": "Ativo",
-      "data_emissao": "04/03/2026",
-      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO 021/2021;=VIGÊNCIA: 12/08/2024 A 12/08/2025; =SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SES/AM; =PERÍODO: JULHO/2025"
+      "data_emissao": "04/05/2015",
+      "descricao": "=ANULAÇÃO PARCIAL DA NE 511/15 =MOTIVO: SALDO DE EMPENHO"
     },
     {
       "numero": "2026NE0000900",
@@ -3809,12 +3777,36 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
     },
     {
-      "numero": "2021NE0000412",
-      "contrato": "",
-      "valor": 198620.68,
+      "numero": "2026NE0000885",
+      "contrato": "21/2021",
+      "valor": 291695.42,
       "situacao": "Ativo",
-      "data_emissao": "04/02/2021",
-      "descricao": "=RD: 2021RD0000188; =SEM COBERTURA CONTRATUAL; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, LINK PONTO A PONTO 3MB, ACESSO À REDE, FIREWALL; =SUSAM; =DEZEMBRO/2014."
+      "data_emissao": "04/03/2026",
+      "descricao": "=QUARTO TERMO ADITIVO AO CONTRATO 021/2021;=VIGÊNCIA: 12/08/2024 A 12/08/2025; =SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SES/AM; =PERÍODO: JULHO/2025"
+    },
+    {
+      "numero": "2026NE0000886",
+      "contrato": "21/2021",
+      "valor": 183480.02,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2026",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
+    },
+    {
+      "numero": "2026NE0000897",
+      "contrato": "18/2021",
+      "valor": 153026.53,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2026",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000899",
+      "contrato": "18/2021",
+      "valor": 254521.65,
+      "situacao": "Ativo",
+      "data_emissao": "04/03/2026",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
     },
     {
       "numero": "2021NE0000411",
@@ -3823,6 +3815,14 @@
       "situacao": "Ativo",
       "data_emissao": "04/02/2021",
       "descricao": "=RD: 2021RD0000187; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, COM LINK PONTO A PONTO 3MB, ACESSO À REDE, FIREWALL; =SUSAM; =SETEMBRO A DEZEMBRO/2014."
+    },
+    {
+      "numero": "2021NE0000412",
+      "contrato": "",
+      "valor": 198620.68,
+      "situacao": "Ativo",
+      "data_emissao": "04/02/2021",
+      "descricao": "=RD: 2021RD0000188; =SEM COBERTURA CONTRATUAL; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS, LINK PONTO A PONTO 3MB, ACESSO À REDE, FIREWALL; =SUSAM; =DEZEMBRO/2014."
     },
     {
       "numero": "2021NE0000199",
@@ -3841,14 +3841,6 @@
       "descricao": "=SEGUNDO TERMO ADITIVO AO CONTRATO Nº 021/2021;=VIGÊNCIA: 12/08/2023 A 11/08/2024; =FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS COM LINK PONTO A PONTO, ACESSO GERENCIADO À REDE MUNDIAL, SERVIÇO DE MANUTENÇÃO DE ACESSO À REDE METRO-MAO E SERVIÇOS DE GESTÃO DE SEGURANÇA DE ATIVOS DA REDE; =UNIDADES DA SES-AM; =PERÍODO: NOVEMBRO/2023"
     },
     {
-      "numero": "2024NE0003435",
-      "contrato": "",
-      "valor": 38378.37,
-      "situacao": "Ativo",
-      "data_emissao": "03/07/2024",
-      "descricao": "=ANULAÇAO PARCIAL =MOTIVO: SALDO DE EMPENHO"
-    },
-    {
       "numero": "2024NE0003437",
       "contrato": "",
       "valor": 42565.04,
@@ -3857,12 +3849,12 @@
       "descricao": "=ANULAÇAO PARCIAL =MOTIVO: SALDO DE EMPENHO"
     },
     {
-      "numero": "2019NE01920",
+      "numero": "2024NE0003435",
       "contrato": "",
-      "valor": 122306.88,
+      "valor": 38378.37,
       "situacao": "Ativo",
-      "data_emissao": "03/06/2019",
-      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 207/2019"
+      "data_emissao": "03/07/2024",
+      "descricao": "=ANULAÇAO PARCIAL =MOTIVO: SALDO DE EMPENHO"
     },
     {
       "numero": "2019NE01923",
@@ -3873,44 +3865,12 @@
       "descricao": "=REFORÇO DA NE 579, QUINTO TERMO ADITIVO AO CONTRATO Nº 002/2015"
     },
     {
-      "numero": "2026NE0000871",
-      "contrato": "21/2021",
-      "valor": 289705.28,
+      "numero": "2019NE01920",
+      "contrato": "",
+      "valor": 122306.88,
       "situacao": "Ativo",
-      "data_emissao": "03/03/2026",
-      "descricao": "=TERMO DE CONTRATO 021/2021;=VIGÊNCIA: 12/08/2025 A 12/08/2026; =SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SES/AM; =PERÍODO: OUTUBRO/2025"
-    },
-    {
-      "numero": "2026NE0000870",
-      "contrato": "5/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "03/03/2026",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
-    },
-    {
-      "numero": "2026NE0000873",
-      "contrato": "21/2021",
-      "valor": 289705.28,
-      "situacao": "Ativo",
-      "data_emissao": "03/03/2026",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
-    },
-    {
-      "numero": "2026NE0000877",
-      "contrato": "21/2021",
-      "valor": 291695.42,
-      "situacao": "Ativo",
-      "data_emissao": "03/03/2026",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03"
-    },
-    {
-      "numero": "2026NE0000867",
-      "contrato": "18/2021",
-      "valor": 251454.45,
-      "situacao": "Ativo",
-      "data_emissao": "03/03/2026",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+      "data_emissao": "03/06/2019",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 207/2019"
     },
     {
       "numero": "2026NE0000866",
@@ -3921,20 +3881,52 @@
       "descricao": "ANULAÇÃO TOTAL"
     },
     {
+      "numero": "2026NE0000867",
+      "contrato": "18/2021",
+      "valor": 251454.45,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000877",
+      "contrato": "21/2021",
+      "valor": 291695.42,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03"
+    },
+    {
+      "numero": "2026NE0000873",
+      "contrato": "21/2021",
+      "valor": 289705.28,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
+    },
+    {
+      "numero": "2026NE0000870",
+      "contrato": "5/2021",
+      "valor": 36112.42,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
+    },
+    {
+      "numero": "2026NE0000871",
+      "contrato": "21/2021",
+      "valor": 289705.28,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "=TERMO DE CONTRATO 021/2021;=VIGÊNCIA: 12/08/2025 A 12/08/2026; =SERVIÇOS DE FORNECIMENTO DE CIRCUITO DE TRANSMISSÃO DE DADOS; =SES/AM; =PERÍODO: OUTUBRO/2025"
+    },
+    {
       "numero": "2023NE0000807",
       "contrato": "18/2021",
       "valor": 638786.27,
       "situacao": "Ativo",
       "data_emissao": "03/03/2023",
       "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 269/2023"
-    },
-    {
-      "numero": "2014NE00726",
-      "contrato": "51/2008",
-      "valor": 66633.93,
-      "situacao": "Ativo",
-      "data_emissao": "03/02/2014",
-      "descricao": "Contrato No. 51/2008 - Complexo Regulador"
     },
     {
       "numero": "2014NE00727",
@@ -3945,28 +3937,12 @@
       "descricao": "Contrato No. 52/2008 - Instalação de Links nas unidades de Saíde"
     },
     {
-      "numero": "2022NE0000055",
-      "contrato": "54/2018",
-      "valor": 395613.84,
+      "numero": "2014NE00726",
+      "contrato": "51/2008",
+      "valor": 66633.93,
       "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Contratação dos os Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornece relatórios para efetivação de pagamento"
-    },
-    {
-      "numero": "2022NE0000127",
-      "contrato": "21/2021",
-      "valor": 881722.23,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Serviços de Fornecimento de Circuito de Transmissão de Dados com Link ponto a ponto entre as Unidades da SES-AM, SES-AM e a PRODAM, para acesso aos serviços contratados residentes no Data Center do Estado, compreendendo a disponibilidade de Acesso Ge"
-    },
-    {
-      "numero": "2022NE0000123",
-      "contrato": "18/2021",
-      "valor": 1703969.43,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Contratação de pessoa jurídica especializada em serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do governo de estado, e serviço de modelag"
+      "data_emissao": "03/02/2014",
+      "descricao": "Contrato No. 51/2008 - Complexo Regulador"
     },
     {
       "numero": "2022NE0000148",
@@ -3977,9 +3953,33 @@
       "descricao": "Contratação de pessoa jurídica especializada em serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de ampliação, atualização e padronização do ambiente de Tecnologia da Informação da Secretaria"
     },
     {
-      "numero": "2024NE0001872",
+      "numero": "2022NE0000123",
+      "contrato": "18/2021",
+      "valor": 1703969.43,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de pessoa jurídica especializada em serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do governo de estado, e serviço de modelag"
+    },
+    {
+      "numero": "2022NE0000127",
+      "contrato": "21/2021",
+      "valor": 881722.23,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Serviços de Fornecimento de Circuito de Transmissão de Dados com Link ponto a ponto entre as Unidades da SES-AM, SES-AM e a PRODAM, para acesso aos serviços contratados residentes no Data Center do Estado, compreendendo a disponibilidade de Acesso Ge"
+    },
+    {
+      "numero": "2022NE0000055",
+      "contrato": "54/2018",
+      "valor": 395613.84,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação dos os Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornece relatórios para efetivação de pagamento"
+    },
+    {
+      "numero": "2024NE0001875",
       "contrato": "",
-      "valor": 226930.65,
+      "valor": 21282.52,
       "situacao": "Ativo",
       "data_emissao": "02/05/2024",
       "descricao": "=ANULAÇÃO PARCIAL DA NOTA DE EMPENHO =MOTIVO: SALDO DE EMPENHO"
@@ -3993,28 +3993,12 @@
       "descricao": "=ANULAÇÃO PACIAL =MOTIVO: SALDO DE EMPENO"
     },
     {
-      "numero": "2024NE0001875",
+      "numero": "2024NE0001872",
       "contrato": "",
-      "valor": 21282.52,
+      "valor": 226930.65,
       "situacao": "Ativo",
       "data_emissao": "02/05/2024",
       "descricao": "=ANULAÇÃO PARCIAL DA NOTA DE EMPENHO =MOTIVO: SALDO DE EMPENHO"
-    },
-    {
-      "numero": "2019NE01641",
-      "contrato": "",
-      "valor": 122306.88,
-      "situacao": "Ativo",
-      "data_emissao": "02/05/2019",
-      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 207/2018"
-    },
-    {
-      "numero": "2019NE01654",
-      "contrato": "",
-      "valor": 122306.88,
-      "situacao": "Ativo",
-      "data_emissao": "02/05/2019",
-      "descricao": "=ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 0207/2019; =MOTIVO: DESCRIÇÃO INCORRETA"
     },
     {
       "numero": "2019NE01669",
@@ -4025,12 +4009,20 @@
       "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 207/2019, REFERENTE AO TERMO DE CONTRATO Nº 054/2018 - SUSAM; =OBJETO: POR FORÇA DESTE CONTRATO A CONTRATADA OBRIGA-SE A PRESTAR PARA A CONTRATANTE OS SERVIÇOS PRODAM-RH VISANDO MANTER O CADASTRO SERVIDORES E FOLHA DE PAGAMENTO DE PESSOAL, PROCESSAR FOLHA DE PAGAMENTO E FORNECER RELATÓRIOS PARA EFETIVAÇÃO DE PAGAMENTO, CUJA DESCRIÇÃO ESTÁ CONTIDA NO PROJETO BÁSICO E PORTARIA DE DISPENSA DE LICITAÇÃO; =VIGÊNCIA: PRAZO DE 12 (DOZE) MESES, A CONTAR DE 09/07/2018 À 08/07/2019; =VALOR TOTAL: R$ 1.467.682,56; =VALOR MENSAL: R$ 122.306,88; =FUNDAMENTO LEGAL: REGISTRO DE DISPENSA DE LICITAÇÃO Nº 234/2018 E PORTARIA Nº 0480/2018 - SUSAM, PUBLICADA NO DOE DE 21/06/2018; =MÊS: MAIO/2019"
     },
     {
-      "numero": "2026NE0000859",
-      "contrato": "21/2021",
-      "valor": 289705.28,
+      "numero": "2019NE01654",
+      "contrato": "",
+      "valor": 122306.88,
       "situacao": "Ativo",
-      "data_emissao": "02/03/2026",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
+      "data_emissao": "02/05/2019",
+      "descricao": "=ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº 0207/2019; =MOTIVO: DESCRIÇÃO INCORRETA"
+    },
+    {
+      "numero": "2019NE01641",
+      "contrato": "",
+      "valor": 122306.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2019",
+      "descricao": "REFORÇO DA NOTA DE EMPENHO Nº 207/2018"
     },
     {
       "numero": "2026NE0000861",
@@ -4041,28 +4033,12 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 04."
     },
     {
-      "numero": "2025NE0000014",
+      "numero": "2026NE0000859",
       "contrato": "21/2021",
-      "valor": 325367.97,
+      "valor": 289705.28,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
-    },
-    {
-      "numero": "2025NE0000011",
-      "contrato": "18/2024",
-      "valor": 146012.35,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
-    },
-    {
-      "numero": "2025NE0000009",
-      "contrato": "5/2021",
-      "valor": 36112.42,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
+      "data_emissao": "02/03/2026",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 05."
     },
     {
       "numero": "2025NE0000008",
@@ -4073,28 +4049,28 @@
       "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 03."
     },
     {
-      "numero": "2024NE0000061",
+      "numero": "2025NE0000009",
       "contrato": "5/2021",
       "valor": 36112.42,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 02."
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 03."
     },
     {
-      "numero": "2024NE0000059",
-      "contrato": "18/2021",
-      "valor": 1326562.84,
+      "numero": "2025NE0000011",
+      "contrato": "18/2024",
+      "valor": 146012.35,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviços PRODAM-RH a fim de atender as necessidades da Secretaria de Estado de Saúde – SES/AM"
     },
     {
-      "numero": "2024NE0000060",
-      "contrato": "54/2018",
-      "valor": 292024.7,
+      "numero": "2025NE0000014",
+      "contrato": "21/2021",
+      "valor": 325367.97,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
       "numero": "2024NE0000054",
@@ -4105,12 +4081,28 @@
       "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 02."
     },
     {
-      "numero": "2023NE0000138",
+      "numero": "2024NE0000060",
       "contrato": "54/2018",
-      "valor": 146012.35,
+      "valor": 292024.7,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação da Prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento TC: 0054/2018 AD: 05."
+    },
+    {
+      "numero": "2024NE0000059",
+      "contrato": "18/2021",
+      "valor": 1326562.84,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "restação de serviços de desenvolvimento de sistemas de informação, serviço de acesso, consultoria/assessoria e produção de repositórios e armazéns de dados (DataWarehouse) do Governo de Estado TC: 0018/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000061",
+      "contrato": "5/2021",
+      "valor": 36112.42,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de Tecnologia da Informação da Secretaria de Saúde. TC: 0005/2021 AD: 02."
     },
     {
       "numero": "2023NE0000182",
@@ -4121,7 +4113,23 @@
       "descricao": "Contratação da prestação de serviço de hospedagem de servidores em ambiente de máquinas virtuais em nuvem, a fim de atender às necessidades de ampliação, atualização e padronização do ambiente de Tecnologia da Informação da Secretaria de Saúde"
     },
     {
-      "numero": "2020NE00075",
+      "numero": "2023NE0000138",
+      "contrato": "54/2018",
+      "valor": 146012.35,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "prestação de Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
+    },
+    {
+      "numero": "2020NE00122",
+      "contrato": "",
+      "valor": 37774.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "=ANULAÇÃO TOTAL =MOTIVO:DESCRIÇÃO INCORRETA"
+    },
+    {
+      "numero": "2020NE00201",
       "contrato": "2/2015",
       "valor": 37774.56,
       "situacao": "Ativo",
@@ -4137,44 +4145,12 @@
       "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar para a CONTRATANTE os Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
     },
     {
-      "numero": "2020NE00201",
+      "numero": "2020NE00075",
       "contrato": "2/2015",
       "valor": 37774.56,
       "situacao": "Ativo",
       "data_emissao": "02/01/2020",
       "descricao": "Por força deste Contrato a CONTRATADA obriga-se a prestar para a CONTRATANTE os Serviços de empresa especializada para implementação de melhorias qualitativas e disponibilidade, confiabilidade , escalabilidade e manutenção da rede de dados e ainda atender"
-    },
-    {
-      "numero": "2020NE00122",
-      "contrato": "",
-      "valor": 37774.56,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "=ANULAÇÃO TOTAL =MOTIVO:DESCRIÇÃO INCORRETA"
-    },
-    {
-      "numero": "2019NE00247",
-      "contrato": "2/2015",
-      "valor": 37774.56,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA IMPLEMENTAÇÃO DE MELHORIAS QUALITATIVAS E DISPONIBILIDADE. CONFIABILIDADE, ESCALABILIDADE E MANUTENÇÃO DA REDE DE DADOS"
-    },
-    {
-      "numero": "2019NE00283",
-      "contrato": "2/2015",
-      "valor": 37774.56,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA IMPLEMENTAÇÃO DE MELHORIAS QUALITATIVAS E DISPONIBILIDADE. CONFIABILIDADE, ESCALABILIDADE E MANUTENÇÃO DA REDE DE DADOS"
-    },
-    {
-      "numero": "2019NE00282",
-      "contrato": "",
-      "valor": 37774.56,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "=ANULAÇÃO TOTAL; =DESCRIÇÃO INCORRETA"
     },
     {
       "numero": "2019NE00207",
@@ -4185,39 +4161,31 @@
       "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
     },
     {
-      "numero": "2018NE00394",
-      "contrato": "2/2015",
-      "valor": 285858.38,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "=DESPESAS DE EXERCÍCIOS ANTERIORES; =REFERENTE AO 3º T AD DO CONTRATO Nº 002/2015; =SERVIÇO DE ACESSO GERENCIADO A REDE MUNDIAL; =NAS UNIDADES DE SAUDE DA CAPITAL -AM; =PERÍODO DE NOVEMBRO/2017."
-    },
-    {
-      "numero": "2018NE00430",
-      "contrato": "2/2015",
-      "valor": 37721.77,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO N° 002/2015"
-    },
-    {
-      "numero": "2018NE00576",
-      "contrato": "P.125/2016",
-      "valor": 72561.32,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "=DESPESAS DE EXERCÍCIOS ANTERIORES; =SEM COBERTURA CONTRATUAL; =SISTEMA DE RECURSOS HUMANOS E FOLHA; =SUSAM - SEDE; =PERÍODO DE JUNHO/2017."
-    },
-    {
-      "numero": "2018NE00639",
+      "numero": "2019NE00282",
       "contrato": "",
-      "valor": 254978.31,
+      "valor": 37774.56,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "=ANULAÇÃO TOTAL DA NE 610/18 =CORREÇÃO DA REFERÊNCIA DE LICITAÇÃO"
+      "data_emissao": "02/01/2019",
+      "descricao": "=ANULAÇÃO TOTAL; =DESCRIÇÃO INCORRETA"
     },
     {
-      "numero": "2018NE00610",
+      "numero": "2019NE00283",
+      "contrato": "2/2015",
+      "valor": 37774.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA IMPLEMENTAÇÃO DE MELHORIAS QUALITATIVAS E DISPONIBILIDADE. CONFIABILIDADE, ESCALABILIDADE E MANUTENÇÃO DA REDE DE DADOS"
+    },
+    {
+      "numero": "2019NE00247",
+      "contrato": "2/2015",
+      "valor": 37774.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA IMPLEMENTAÇÃO DE MELHORIAS QUALITATIVAS E DISPONIBILIDADE. CONFIABILIDADE, ESCALABILIDADE E MANUTENÇÃO DA REDE DE DADOS"
+    },
+    {
+      "numero": "2018NE00643",
       "contrato": "2/2015",
       "valor": 254978.31,
       "situacao": "Ativo",
@@ -4233,12 +4201,44 @@
       "descricao": "=DESPESAS DE EXERCÍCIOS ANTERIORES; =SEM COBERTURA CONTRATUAL; =SISTEMA HYGIA; =SUSAM - SEDE; =PERÍODO DE JUNHO/2017."
     },
     {
-      "numero": "2018NE00643",
+      "numero": "2018NE00610",
       "contrato": "2/2015",
       "valor": 254978.31,
       "situacao": "Ativo",
       "data_emissao": "02/01/2018",
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA IMPLEMENTAÇÃO DE MELHORIAS QUALITATIVAS E DISPONIBILIDADE. CONFIABILIDADE, ESCALABILIDADE E MANUTENÇÃO DA REDE DE DADOS"
+    },
+    {
+      "numero": "2018NE00639",
+      "contrato": "",
+      "valor": 254978.31,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "=ANULAÇÃO TOTAL DA NE 610/18 =CORREÇÃO DA REFERÊNCIA DE LICITAÇÃO"
+    },
+    {
+      "numero": "2018NE00576",
+      "contrato": "P.125/2016",
+      "valor": 72561.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "=DESPESAS DE EXERCÍCIOS ANTERIORES; =SEM COBERTURA CONTRATUAL; =SISTEMA DE RECURSOS HUMANOS E FOLHA; =SUSAM - SEDE; =PERÍODO DE JUNHO/2017."
+    },
+    {
+      "numero": "2018NE00430",
+      "contrato": "2/2015",
+      "valor": 37721.77,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "=TERCEIRO TERMO ADITIVO AO CONTRATO N° 002/2015"
+    },
+    {
+      "numero": "2018NE00394",
+      "contrato": "2/2015",
+      "valor": 285858.38,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "=DESPESAS DE EXERCÍCIOS ANTERIORES; =REFERENTE AO 3º T AD DO CONTRATO Nº 002/2015; =SERVIÇO DE ACESSO GERENCIADO A REDE MUNDIAL; =NAS UNIDADES DE SAUDE DA CAPITAL -AM; =PERÍODO DE NOVEMBRO/2017."
     },
     {
       "numero": "2017NE00219",
@@ -4249,20 +4249,12 @@
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE INFORMÁTICA COMUNICAÇÃO DE DADOS E REDES"
     },
     {
-      "numero": "2014NE00173",
-      "contrato": "52/2008",
-      "valor": 296355.56,
+      "numero": "2014NE00182",
+      "contrato": "51/2008",
+      "valor": 22211.31,
       "situacao": "Ativo",
       "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 52/2008 - Instalação de Links nas unidades de Saíde"
-    },
-    {
-      "numero": "2014NE00241",
-      "contrato": "81/2010",
-      "valor": 900000.0,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 81/2010 - CFPP - Cadastro e Folha de Pagamento de Pessoal"
+      "descricao": "Contrato No. 51/2008 - Complexo Regulador"
     },
     {
       "numero": "2014NE00181",
@@ -4273,12 +4265,20 @@
       "descricao": "Contrato No. 116/2013 - Gestão da Saúde Pública nas unidades de saída"
     },
     {
-      "numero": "2014NE00182",
-      "contrato": "51/2008",
-      "valor": 22211.31,
+      "numero": "2014NE00241",
+      "contrato": "81/2010",
+      "valor": 900000.0,
       "situacao": "Ativo",
       "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 51/2008 - Complexo Regulador"
+      "descricao": "Contrato No. 81/2010 - CFPP - Cadastro e Folha de Pagamento de Pessoal"
+    },
+    {
+      "numero": "2014NE00173",
+      "contrato": "52/2008",
+      "valor": 296355.56,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 52/2008 - Instalação de Links nas unidades de Saíde"
     },
     {
       "numero": "2016NE03075",
@@ -4297,12 +4297,12 @@
       "descricao": "Contratação da prestação de serviços de fornecimento de circuito de transmissão de dados com link ponto a ponto entre as unidades da SES-AM TC: 0021/2021 AD: 03."
     },
     {
-      "numero": "2019NE03167",
-      "contrato": "54/2018",
+      "numero": "2019NE03217",
+      "contrato": "",
       "valor": 122306.88,
       "situacao": "Ativo",
       "data_emissao": "01/10/2019",
-      "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
+      "descricao": "=ANULAÇÃO TOTAL DA NE 03167/2019 =MOTIVO : DESCRIÇÃO INCORRETA"
     },
     {
       "numero": "2019NE03218",
@@ -4313,12 +4313,12 @@
       "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
     },
     {
-      "numero": "2019NE03217",
-      "contrato": "",
+      "numero": "2019NE03167",
+      "contrato": "54/2018",
       "valor": 122306.88,
       "situacao": "Ativo",
       "data_emissao": "01/10/2019",
-      "descricao": "=ANULAÇÃO TOTAL DA NE 03167/2019 =MOTIVO : DESCRIÇÃO INCORRETA"
+      "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
     },
     {
       "numero": "2014NE03960",
@@ -4329,7 +4329,7 @@
       "descricao": "Contrato No. 116/2013 - Gestão da Saúde Pública nas unidades de saída"
     },
     {
-      "numero": "2017NE02975",
+      "numero": "2017NE02977",
       "contrato": "",
       "valor": 6485.3,
       "situacao": "Ativo",
@@ -4337,7 +4337,7 @@
       "descricao": "=ANULAÇÃO TOTAL =MOTIVO: PRA AJUSTE ORÇAMENTARIO"
     },
     {
-      "numero": "2017NE02977",
+      "numero": "2017NE02975",
       "contrato": "",
       "valor": 6485.3,
       "situacao": "Ativo",
@@ -4361,20 +4361,20 @@
       "descricao": "=ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
     },
     {
-      "numero": "2019NE00952",
-      "contrato": "54/2018",
-      "valor": 122306.88,
-      "situacao": "Ativo",
-      "data_emissao": "01/04/2019",
-      "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
-    },
-    {
       "numero": "2019NE01138",
       "contrato": "",
       "valor": 292752.87,
       "situacao": "Ativo",
       "data_emissao": "01/04/2019",
       "descricao": "REF"
+    },
+    {
+      "numero": "2019NE00952",
+      "contrato": "54/2018",
+      "valor": 122306.88,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "CONTRATAÇÃO Serviços PRODAM-RH visando manter o cadastro servidores e folha de pagamento de pessoal, processar folha de pagamento e fornecer relatórios para efetivação de pagamento"
     },
     {
       "numero": "2016NE01332",
@@ -4393,20 +4393,20 @@
       "descricao": "=NOTA DE EMPENHO COMPLEMENTAR A NE N° 283/2015."
     },
     {
-      "numero": "2018NE00921",
-      "contrato": "2/2015",
-      "valor": 37721.77,
-      "situacao": "Ativo",
-      "data_emissao": "01/03/2018",
-      "descricao": "=3º ADITIVO AO CONTRATO 002/2015, CONTRATAÇÃO DOS SERVIÇOS DE INFORMÁTICA COMUNICAÇÃO DE DADOS E REDES, (DE ACORDO COM OT 012/2018)"
-    },
-    {
       "numero": "2018NE00923",
       "contrato": "2/2015",
       "valor": 547731.18,
       "situacao": "Ativo",
       "data_emissao": "01/03/2018",
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA IMPLEMENTAÇÃO DE MELHORIAS QUALITATIVAS E DISPONIBILIDADE. CONFIABILIDADE, ESCALABILIDADE E MANUTENÇÃO DA REDE DE DADOS"
+    },
+    {
+      "numero": "2018NE00921",
+      "contrato": "2/2015",
+      "valor": 37721.77,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "=3º ADITIVO AO CONTRATO 002/2015, CONTRATAÇÃO DOS SERVIÇOS DE INFORMÁTICA COMUNICAÇÃO DE DADOS E REDES, (DE ACORDO COM OT 012/2018)"
     },
     {
       "numero": "2019NE00579",
@@ -4417,14 +4417,6 @@
       "descricao": "CONTRATAÇÃO Serviços de empresa especializada para implementação de melhorias qualitativas e disponibilidade, confiabilidade , escalabilidade e manutenção da rede de dados e ainda atender as necessidades de comunicação de dados da rede corporativa SA"
     },
     {
-      "numero": "2018NE00768",
-      "contrato": "",
-      "valor": 254978.31,
-      "situacao": "Ativo",
-      "data_emissao": "01/02/2018",
-      "descricao": "ANULAÇÃO TOTAL DA NE 643/2018; MOTIVO: ORIENTAÇÃO TÉCNICA N° 12/2018 - GINS/SEFAZ;"
-    },
-    {
       "numero": "2018NE00770",
       "contrato": "",
       "valor": 37721.77,
@@ -4433,12 +4425,20 @@
       "descricao": "ANULAÇÃO TOTAL DA NE 430/2018; MOTIVO: ORIENTAÇÃO TÉCNICA N° 12/2018 - GINS/SEFAZ;"
     },
     {
-      "numero": "2016NE00605",
-      "contrato": "116/2013",
-      "valor": 308031.56,
+      "numero": "2018NE00768",
+      "contrato": "",
+      "valor": 254978.31,
+      "situacao": "Ativo",
+      "data_emissao": "01/02/2018",
+      "descricao": "ANULAÇÃO TOTAL DA NE 643/2018; MOTIVO: ORIENTAÇÃO TÉCNICA N° 12/2018 - GINS/SEFAZ;"
+    },
+    {
+      "numero": "2016NE00604",
+      "contrato": "2/2015",
+      "valor": 502722.93,
       "situacao": "Ativo",
       "data_emissao": "01/02/2016",
-      "descricao": "Serviços especializados em informática, para implantação de um sistema que efetue a Gestão da Saúde Pública nas unidades de saúde do Estado do Amazonas, auxiliando no registro e controle de entrada e internação de pacientes nas Unidades de Saúde, bem"
+      "descricao": "CONTRATO Nº 002/2015, 2º ADITIVO. SERVIÇOS DE MANUTENÇÃO E MELHORIA DA REDE DE DADOS DAS UNIDADES DE SAÚDE, CEMA E COMPLEXO E FARMÁCIAS POPULARES NA CAPITAL. REF. JAN E FEV/2016."
     },
     {
       "numero": "2016NE00603",
@@ -4449,12 +4449,12 @@
       "descricao": "=PRIMEIRO TERMO ADITIVO AO CONTRATO N° 002/2015-SUSAM, CELEBRADO ENTRE O ESTADO DO AMAZONAS, POR INTERMEDIO DA SECRETARIA DE ESTADO DE SAUDE E A PRODAM - PROCESSAMENTO DE DADOS AMAZONAS S.A"
     },
     {
-      "numero": "2016NE00604",
-      "contrato": "2/2015",
-      "valor": 502722.93,
+      "numero": "2016NE00605",
+      "contrato": "116/2013",
+      "valor": 308031.56,
       "situacao": "Ativo",
       "data_emissao": "01/02/2016",
-      "descricao": "CONTRATO Nº 002/2015, 2º ADITIVO. SERVIÇOS DE MANUTENÇÃO E MELHORIA DA REDE DE DADOS DAS UNIDADES DE SAÚDE, CEMA E COMPLEXO E FARMÁCIAS POPULARES NA CAPITAL. REF. JAN E FEV/2016."
+      "descricao": "Serviços especializados em informática, para implantação de um sistema que efetue a Gestão da Saúde Pública nas unidades de saúde do Estado do Amazonas, auxiliando no registro e controle de entrada e internação de pacientes nas Unidades de Saúde, bem"
     }
   ],
   "faturas": [
@@ -5570,6 +5570,19 @@
     }
   ],
   "cobrancas": [
+    {
+      "Cliente": "MEGA DESPACHANTE E ASSESSORIA EMPRESARIA",
+      "Serviços": "Software como Serviço",
+      "Contrato": "001/2023",
+      "Número": "165763",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/165763/E",
+      "Comp.": "01/2026",
+      "Valor": "215,15",
+      "Atraso": "55 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
     {
       "Cliente": "SES",
       "Serviços": "Execução de sistemas",
@@ -7012,11 +7025,11 @@
         },
         "2022": {
           "qtd": 59,
-          "valor": 14080047.92
+          "valor": 14080047.919999996
         },
         "2026": {
           "qtd": 61,
-          "valor": 10824276.739999996
+          "valor": 10824276.739999995
         },
         "2024": {
           "qtd": 55,
@@ -7032,7 +7045,7 @@
         },
         "2020": {
           "qtd": 45,
-          "valor": 8020406.849999994
+          "valor": 8020406.849999995
         },
         "2015": {
           "qtd": 18,
@@ -7044,7 +7057,7 @@
         },
         "2017": {
           "qtd": 13,
-          "valor": 2208831.51
+          "valor": 2208831.5099999993
         },
         "2018": {
           "qtd": 21,
@@ -7056,7 +7069,7 @@
         },
         "2023": {
           "qtd": 41,
-          "valor": 9044050.559999999
+          "valor": 9044050.559999997
         }
       }
     },
@@ -7065,8 +7078,8 @@
       "valor_total": 6752583.41
     },
     "cobrancas": {
-      "qtd": 110,
-      "valor_total": 6660692.0
+      "qtd": 111,
+      "valor_total": 6660907.15
     }
   }
 }

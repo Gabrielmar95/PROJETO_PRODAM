@@ -6,8 +6,8 @@ forca_probatoria;FRACA
 proximo_passo;ANALISAR_DOCUMENTACAO
 val_exig;38360.67
 val_atualizado;38360.67
-faturas_exigiveis;0
+faturas_exigiveis;12
 faturas_prescritas;0
-faturas_total;0
+faturas_total;12
 p_recuperacao;0.15
 indice_correcao;SELIC

@@ -1,6 +1,6 @@
 # Dossiê Completo — CPA
 **CPA** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 18.206.900/0001-55
+Data: 2026-05-07 | CNPJ: 18.206.900/0001-55
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 18.206.900/0001-55
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 165.830,96 |
 | Valor atualizado (profile) | R$ 165.830,96 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 6 |
+| Faturas exigíveis | 6 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 24.874,64 |
@@ -61,4 +61,4 @@ Valor original R$ 165,830.96 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

@@ -1,6 +1,6 @@
 # Dossiê Completo — CASA MILITAR
 **** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: —
+Data: 2026-05-07 | CNPJ: 04.312.369/0001-90
 
 ## Visão Executiva
 
@@ -48,8 +48,8 @@ Distribuição por ano:
 | 2015NE00077 |  | 17/04/2015 | R$ 21.437,58 | Ativo |
 | 2015NE00232 |  | 14/12/2015 | R$ 21.437,58 | Ativo |
 | 2026NE0000007 | 3/2025 | 05/01/2026 | R$ 11.136,96 | Ativo |
-| 2025NE0000490 | 3/2025 | 03/09/2025 | R$ 11.136,96 | Ativo |
 | 2025NE00490 | 3/2025 | 03/09/2025 | R$ 11.136,96 | Ativo |
+| 2025NE0000490 | 3/2025 | 03/09/2025 | R$ 11.136,96 | Ativo |
 | 2025NE0000061 | 6/2020 | 27/02/2025 | R$ 10.204,74 | Ativo |
 | 2022NE0000095 | 6/2020 | 31/03/2022 | R$ 6.803,16 | Ativo |
 | 2020NE00568 |  | 18/09/2020 | R$ 6.803,16 | Ativo |
@@ -73,4 +73,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

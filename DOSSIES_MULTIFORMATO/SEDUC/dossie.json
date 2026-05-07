@@ -527,20 +527,20 @@
       "descricao": "PARA ATENDER DESPESAS DO 3º TA AO CT-054/2017-SEDUC-CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO. PROC. 028101.6652/2021-24"
     },
     {
-      "numero": "2020NE02645",
-      "contrato": "14/2018",
-      "valor": 3771406.8,
-      "situacao": "Ativo",
-      "data_emissao": "31/07/2020",
-      "descricao": "ATENDER AO CONTRATO Nº 14/2018, REFERENTE PRESTAÇÃO DE SERVIÇOS TÉCNICOS PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM."
-    },
-    {
       "numero": "2020NE02643",
       "contrato": "2/2015",
       "valor": 407376.7,
       "situacao": "Ativo",
       "data_emissao": "31/07/2020",
       "descricao": "ATENDER AO CONTRATO Nº 02/2015, REFERENTE PRESTAÇÃO DE SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2020NE02645",
+      "contrato": "14/2018",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "ATENDER AO CONTRATO Nº 14/2018, REFERENTE PRESTAÇÃO DE SERVIÇOS TÉCNICOS PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM."
     },
     {
       "numero": "2023NE0004433",
@@ -567,12 +567,12 @@
       "descricao": "PARA ATENDER DESPESAS PARCIAIS DO CT Nº 0054/2017-SEDUC, REF. A CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
     },
     {
-      "numero": "2017NE00580",
+      "numero": "2017NE00578",
       "contrato": "2/2015",
       "valor": 1135000.0,
       "situacao": "Ativo",
       "data_emissao": "31/01/2017",
-      "descricao": "SERV. PROCESSAMENTO DE DADOS"
+      "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
       "numero": "2017NE00579",
@@ -583,20 +583,12 @@
       "descricao": "ANULAÇÃO"
     },
     {
-      "numero": "2017NE00578",
+      "numero": "2017NE00580",
       "contrato": "2/2015",
       "valor": 1135000.0,
       "situacao": "Ativo",
       "data_emissao": "31/01/2017",
-      "descricao": "PROCESSAMENTO DE DADOS"
-    },
-    {
-      "numero": "2019NE07576",
-      "contrato": "2/2015",
-      "valor": 244426.02,
-      "situacao": "Ativo",
-      "data_emissao": "30/12/2019",
-      "descricao": "ATENDER AO CT. 02/2015"
+      "descricao": "SERV. PROCESSAMENTO DE DADOS"
     },
     {
       "numero": "2019NE07578",
@@ -607,6 +599,14 @@
       "descricao": "ATENDER AO CT. 14/2018"
     },
     {
+      "numero": "2019NE07576",
+      "contrato": "2/2015",
+      "valor": 244426.02,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ATENDER AO CT. 02/2015"
+    },
+    {
       "numero": "2014NE10962",
       "contrato": "235/2010",
       "valor": 1485253.11,
@@ -615,12 +615,12 @@
       "descricao": "Cobertura Financeira 2015"
     },
     {
-      "numero": "2024NE0009311",
-      "contrato": "20/2022",
-      "valor": 3358031.83,
+      "numero": "2024NE0009310",
+      "contrato": "23/2021",
+      "valor": 5835123.56,
       "situacao": "Ativo",
       "data_emissao": "30/10/2024",
-      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
     },
     {
       "numero": "2024NE0009309",
@@ -631,12 +631,12 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
     },
     {
-      "numero": "2024NE0009310",
-      "contrato": "23/2021",
-      "valor": 5835123.56,
+      "numero": "2024NE0009311",
+      "contrato": "20/2022",
+      "valor": 3358031.83,
       "situacao": "Ativo",
       "data_emissao": "30/10/2024",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
     },
     {
       "numero": "2021NE0004781",
@@ -679,12 +679,12 @@
       "descricao": "5º TERMO ADITIVO AO CONTRATO Nº 02/2015 REFERENTE A PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA - SISTEMA CFPP DE FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES."
     },
     {
-      "numero": "2025NE0011395",
+      "numero": "2025NE0011398",
       "contrato": "",
-      "valor": 251.86,
+      "valor": 12.28,
       "situacao": "Ativo",
       "data_emissao": "29/12/2025",
-      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE0000648,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE000497702812,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
     },
     {
       "numero": "2025NE0011396",
@@ -695,12 +695,12 @@
       "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE0000824,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
     },
     {
-      "numero": "2025NE0011398",
+      "numero": "2025NE0011395",
       "contrato": "",
-      "valor": 12.28,
+      "valor": 251.86,
       "situacao": "Ativo",
       "data_emissao": "29/12/2025",
-      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE000497702812,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
+      "descricao": "ANULAÇÃO DO SALDO DA NOTA DE EMPENHO 2025NE0000648,EM ATENDIMENTO AO DECRETO DE ENCERRAMENTO Nº 52770 DE 21 DE OUTUBRO DE 2025."
     },
     {
       "numero": "2017NE08739",
@@ -719,20 +719,20 @@
       "descricao": "SERV. PROC. DADOS"
     },
     {
-      "numero": "2023NE0008924",
-      "contrato": "14/2018",
-      "valor": 83395.57,
-      "situacao": "Ativo",
-      "data_emissao": "29/11/2023",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
-    },
-    {
       "numero": "2023NE0008923",
       "contrato": "2/2021",
       "valor": 296020.56,
       "situacao": "Ativo",
       "data_emissao": "29/11/2023",
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0008924",
+      "contrato": "14/2018",
+      "valor": 83395.57,
+      "situacao": "Ativo",
+      "data_emissao": "29/11/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
     },
     {
       "numero": "2022NE0008511",
@@ -751,14 +751,6 @@
       "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO 2024NE0003955"
     },
     {
-      "numero": "2017NE06887",
-      "contrato": "161/2016",
-      "valor": 944083.62,
-      "situacao": "Ativo",
-      "data_emissao": "29/09/2017",
-      "descricao": "Para atender no aditivo do contrato nº 161/2016 que tem como objeto: serviços de desenvolvimento e implantação de software (SIGEAM) em atendimento as Escolas Estaduais da Rede Publica de Ensino."
-    },
-    {
       "numero": "2017NE06884",
       "contrato": "",
       "valor": 944083.62,
@@ -767,9 +759,17 @@
       "descricao": "ANULAÇÃO"
     },
     {
-      "numero": "2016NE05112",
+      "numero": "2017NE06887",
+      "contrato": "161/2016",
+      "valor": 944083.62,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2017",
+      "descricao": "Para atender no aditivo do contrato nº 161/2016 que tem como objeto: serviços de desenvolvimento e implantação de software (SIGEAM) em atendimento as Escolas Estaduais da Rede Publica de Ensino."
+    },
+    {
+      "numero": "2016NE05111",
       "contrato": "235/2010",
-      "valor": 485253.11,
+      "valor": 1000000.0,
       "situacao": "Ativo",
       "data_emissao": "29/06/2016",
       "descricao": "PROCESSAMENTO DE DADOS"
@@ -783,9 +783,9 @@
       "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2016NE05111",
+      "numero": "2016NE05112",
       "contrato": "235/2010",
-      "valor": 1000000.0,
+      "valor": 485253.11,
       "situacao": "Ativo",
       "data_emissao": "29/06/2016",
       "descricao": "PROCESSAMENTO DE DADOS"
@@ -815,20 +815,20 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 02."
     },
     {
-      "numero": "2021NE0000372",
-      "contrato": "2/2021",
-      "valor": 888061.68,
-      "situacao": "Ativo",
-      "data_emissao": "29/01/2021",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA - FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC."
-    },
-    {
       "numero": "2021NE0000408",
       "contrato": "54/2017",
       "valor": 6003.06,
       "situacao": "Ativo",
       "data_emissao": "29/01/2021",
       "descricao": "ATENDER DESPESAS DO 1º TRIMESTRE DE 2021 DO CT 054/2017 - CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
+    },
+    {
+      "numero": "2021NE0000372",
+      "contrato": "2/2021",
+      "valor": 888061.68,
+      "situacao": "Ativo",
+      "data_emissao": "29/01/2021",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA - FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC."
     },
     {
       "numero": "2022NE0009834",
@@ -847,20 +847,20 @@
       "descricao": "PARA ATENDER NOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO - SIGEAM, DESTINADOS AS ESCOLAS ESTADUAIS DA CAPITAL E INTERIOR"
     },
     {
-      "numero": "2022NE0008504",
-      "contrato": "54/2017",
-      "valor": 935.58,
-      "situacao": "Ativo",
-      "data_emissao": "28/11/2022",
-      "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2022NE0004479, PARA ATENDER DESPESAS DO CONTRATO Nº CT-00054/2017-SEDUC, REFERENTE A SERVIÇOS PARA CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SIGPRO."
-    },
-    {
       "numero": "2022NE0008505",
       "contrato": "54/2017",
       "valor": 170000.0,
       "situacao": "Ativo",
       "data_emissao": "28/11/2022",
       "descricao": "ATENDER DESPESAS CONTRATUAIS DO CT 054/2017-SEDUC, REFERENTE A CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
+    },
+    {
+      "numero": "2022NE0008504",
+      "contrato": "54/2017",
+      "valor": 935.58,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2022",
+      "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2022NE0004479, PARA ATENDER DESPESAS DO CONTRATO Nº CT-00054/2017-SEDUC, REFERENTE A SERVIÇOS PARA CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SIGPRO."
     },
     {
       "numero": "2020NE04051",
@@ -879,20 +879,20 @@
       "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;COMPLEMENTO DE QB;2022NE3827;CT 23/2021;1° TERMO;R$ 17.505.370,65"
     },
     {
-      "numero": "2021NE0004733",
-      "contrato": "23/2021",
-      "valor": 5835123.56,
-      "situacao": "Ativo",
-      "data_emissao": "28/09/2021",
-      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇOS DE CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO A CENTRAL DA SEDUC;COMPLEMENTO DE QB;2021NE1504;CT 23/2021;;R$ 17.505.370,65"
-    },
-    {
       "numero": "2021NE0004730",
       "contrato": "14/2018",
       "valor": 3771406.8,
       "situacao": "Ativo",
       "data_emissao": "28/09/2021",
       "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM;COMPLEMENTO DE QB;2021NE1456;CT 14/2018;3° TERMO ADITIVO ;R$ 22.628.440,80"
+    },
+    {
+      "numero": "2021NE0004733",
+      "contrato": "23/2021",
+      "valor": 5835123.56,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2021",
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇOS DE CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO A CENTRAL DA SEDUC;COMPLEMENTO DE QB;2021NE1504;CT 23/2021;;R$ 17.505.370,65"
     },
     {
       "numero": "2021NE0002000",
@@ -919,28 +919,12 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 05."
     },
     {
-      "numero": "2024NE0011455",
+      "numero": "2024NE0011462",
       "contrato": "",
       "valor": 0.01,
       "situacao": "Ativo",
       "data_emissao": "27/12/2024",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0003799, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
-    },
-    {
-      "numero": "2024NE0011468",
-      "contrato": "",
-      "valor": 1.32,
-      "situacao": "Ativo",
-      "data_emissao": "27/12/2024",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0009310, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
-    },
-    {
-      "numero": "2024NE0011465",
-      "contrato": "",
-      "valor": 0.01,
-      "situacao": "Ativo",
-      "data_emissao": "27/12/2024",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0009311, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0008475, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
     },
     {
       "numero": "2024NE0011459",
@@ -951,12 +935,28 @@
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0003959, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
     },
     {
-      "numero": "2024NE0011462",
+      "numero": "2024NE0011465",
       "contrato": "",
       "valor": 0.01,
       "situacao": "Ativo",
       "data_emissao": "27/12/2024",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0008475, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0009311, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+    },
+    {
+      "numero": "2024NE0011468",
+      "contrato": "",
+      "valor": 1.32,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0009310, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
+    },
+    {
+      "numero": "2024NE0011455",
+      "contrato": "",
+      "valor": 0.01,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE0003799, EM ATENDIMENTO AO DECRETO Nº 50.522, PUBLICADO NO DIÁRIO OFICIAL DO ESTADO DO AMAZONAS NO DIA 22 DE OUTUBRO DE 2024, QUE DISPÕE SOBRE NORMAS E PROCEDIMENTOS A SEREM ADOTADOS PELOS ÓRGÃOS E ENTIDADES DA ADMINISTRAÇÃO PÚBLICA ESTADUAL PARA O ENCERRAMENTO DA EXECUÇÃO ORÇAMENTÁRIA, FINANCEIRA E CONTÁBIL DO EXERCÍCIO DE 2024."
     },
     {
       "numero": "2022NE0009684",
@@ -967,20 +967,12 @@
       "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO ;2022NE0007459;,"
     },
     {
-      "numero": "2019NE07442",
+      "numero": "2019NE07445",
       "contrato": "",
-      "valor": 244426.02,
+      "valor": 733271.42,
       "situacao": "Ativo",
       "data_emissao": "27/12/2019",
-      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 019/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
-    },
-    {
-      "numero": "2019NE07443",
-      "contrato": "",
-      "valor": 227725.18,
-      "situacao": "Ativo",
-      "data_emissao": "27/12/2019",
-      "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 01963/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 05779/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
     },
     {
       "numero": "2019NE07444",
@@ -991,20 +983,20 @@
       "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 03862/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
     },
     {
-      "numero": "2019NE07445",
+      "numero": "2019NE07443",
       "contrato": "",
-      "valor": 733271.42,
+      "valor": 227725.18,
       "situacao": "Ativo",
       "data_emissao": "27/12/2019",
-      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 05779/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
+      "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 01963/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
     },
     {
-      "numero": "2016NE09727",
-      "contrato": "P.180/2016",
-      "valor": 1283878.25,
+      "numero": "2019NE07442",
+      "contrato": "",
+      "valor": 244426.02,
       "situacao": "Ativo",
-      "data_emissao": "27/12/2016",
-      "descricao": "indenização"
+      "data_emissao": "27/12/2019",
+      "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 019/2019 PARA FINS DE REPROGRAMAÇÃO DO CRONOGRAMA FINANCEIRO DO EXERCÍCIO DE 2019, REFERENTE A SALDO DE EMPENHOS, ATENDENDO O DECRETO DE ENCERRAMENTO DO EXERCÍCIO."
     },
     {
       "numero": "2016NE09744",
@@ -1015,12 +1007,20 @@
       "descricao": "INDENIZAÇÃO"
     },
     {
-      "numero": "2023NE0008864",
+      "numero": "2016NE09727",
+      "contrato": "P.180/2016",
+      "valor": 1283878.25,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2016",
+      "descricao": "indenização"
+    },
+    {
+      "numero": "2023NE0008866",
       "contrato": "",
-      "valor": 83395.57,
+      "valor": 296020.56,
       "situacao": "Ativo",
       "data_emissao": "27/11/2023",
-      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006095, PARA AJUSTE DE FONTE"
+      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006096, PARA AJUSTE DE FONTE"
     },
     {
       "numero": "2023NE0008889",
@@ -1031,12 +1031,12 @@
       "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006118, PARA AJUSTE DE FONTE"
     },
     {
-      "numero": "2023NE0008866",
+      "numero": "2023NE0008864",
       "contrato": "",
-      "valor": 296020.56,
+      "valor": 83395.57,
       "situacao": "Ativo",
       "data_emissao": "27/11/2023",
-      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006096, PARA AJUSTE DE FONTE"
+      "descricao": "ANULAÇÃO DO SALDO ORÇAMENTÁRIO DA NOTA DE EMPENHO 2023NE0006095, PARA AJUSTE DE FONTE"
     },
     {
       "numero": "2021NE0001504",
@@ -1055,17 +1055,17 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
     },
     {
-      "numero": "2021NE0003529",
+      "numero": "2021NE0003528",
       "contrato": "54/2021",
-      "valor": 369600.0,
+      "valor": 2731200.25,
       "situacao": "Ativo",
       "data_emissao": "26/08/2021",
       "descricao": "OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA;CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE IMPLANTAÇÃO DE REPOSITÓRIO ARQUIVÍSTICO CONFIÁVEL MEDIANTE TRATAMENTO ARQUIVÍSTICO DE DOCUMENTOS PÚBLICOS ;;;;;R$ 6.904.768,32"
     },
     {
-      "numero": "2021NE0003528",
+      "numero": "2021NE0003529",
       "contrato": "54/2021",
-      "valor": 2731200.25,
+      "valor": 369600.0,
       "situacao": "Ativo",
       "data_emissao": "26/08/2021",
       "descricao": "OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA;CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE IMPLANTAÇÃO DE REPOSITÓRIO ARQUIVÍSTICO CONFIÁVEL MEDIANTE TRATAMENTO ARQUIVÍSTICO DE DOCUMENTOS PÚBLICOS ;;;;;R$ 6.904.768,32"
@@ -1079,14 +1079,6 @@
       "descricao": "PARA ATENDER EM DESPESAS COM DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE, SIGEAM, QUE ATENDE AS NECESSIDADES DAS ESCOLAS ESTADUAIS."
     },
     {
-      "numero": "2025NE0006225",
-      "contrato": "23/2021",
-      "valor": 1635948.77,
-      "situacao": "Ativo",
-      "data_emissao": "26/06/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 05."
-    },
-    {
       "numero": "2025NE0006209",
       "contrato": "20/2022",
       "valor": 1450847.54,
@@ -1095,12 +1087,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
     },
     {
-      "numero": "2018NE04045",
-      "contrato": "91/2016",
-      "valor": 2493794.69,
+      "numero": "2025NE0006225",
+      "contrato": "23/2021",
+      "valor": 1635948.77,
       "situacao": "Ativo",
-      "data_emissao": "26/06/2018",
-      "descricao": "PARA ATENDER EM DESPESAS COM O CONTRATO N. 91/2016. OBJETO: SERVIÇOS DE CONSULTORIA, TREINAMENTO E MANUTENÇÃO DO SIGEAM, QUE ATENDE AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
+      "data_emissao": "26/06/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 05."
     },
     {
       "numero": "2018NE04044",
@@ -1109,6 +1101,14 @@
       "situacao": "Ativo",
       "data_emissao": "26/06/2018",
       "descricao": "ANULAÇÃO TOTAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 3554/2018 POR TER SIDO IMPRESSA SEM HISTÓRICO"
+    },
+    {
+      "numero": "2018NE04045",
+      "contrato": "91/2016",
+      "valor": 2493794.69,
+      "situacao": "Ativo",
+      "data_emissao": "26/06/2018",
+      "descricao": "PARA ATENDER EM DESPESAS COM O CONTRATO N. 91/2016. OBJETO: SERVIÇOS DE CONSULTORIA, TREINAMENTO E MANUTENÇÃO DO SIGEAM, QUE ATENDE AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
     },
     {
       "numero": "2022NE0003102",
@@ -1128,7 +1128,7 @@
     },
     {
       "numero": "2016NE08596",
-      "contrato": "161/2016",
+      "contrato": "",
       "valor": 3721553.2,
       "situacao": "Ativo",
       "data_emissao": "25/10/2016",
@@ -1136,7 +1136,7 @@
     },
     {
       "numero": "2016NE08596",
-      "contrato": "",
+      "contrato": "161/2016",
       "valor": 3721553.2,
       "situacao": "Ativo",
       "data_emissao": "25/10/2016",
@@ -1151,44 +1151,12 @@
       "descricao": "RENOVAÇÃO DO CONTRATO DE N. 14/2018, A SER FIRMADO COM ESTA SECRETARIA.OBJETO: SERVIÇOS DE MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SISTEMA DE GESTÃO EDUCACIONAL - SIGEAM, QUE ATENDE AS NECESSIDADES DESTA SECRETARIA"
     },
     {
-      "numero": "2025NE0002282",
+      "numero": "2025NE0002276",
       "contrato": "20/2022",
-      "valor": 1333679.43,
+      "valor": 725439.59,
       "situacao": "Ativo",
       "data_emissao": "25/03/2025",
-      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional"
-    },
-    {
-      "numero": "2025NE0002281",
-      "contrato": "20/2022",
-      "valor": 1090274.23,
-      "situacao": "Ativo",
-      "data_emissao": "25/03/2025",
-      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívida, referentes aos serviços prestados sem cobertura contratual,sendo eles, técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, que atendeu as necessidades da Secretaria de Estado de Educação e Desporto Escolar; Período: Mês de agosto de 2024; Conforme Notas Fiscais de Serviços Eletrônicas – NFSes: 48208, 48209, 48210, 48211 e 48212, Fatura de nº 152863 . Despesa amparada pelo parecer 4458/2024-ASSJUR, fl 498 a 510, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
-    },
-    {
-      "numero": "2025NE0002280",
-      "contrato": "20/2022",
-      "valor": 989631.47,
-      "situacao": "Ativo",
-      "data_emissao": "25/03/2025",
-      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM"
-    },
-    {
-      "numero": "2025NE0002277",
-      "contrato": "20/2022",
-      "valor": 1013254.78,
-      "situacao": "Ativo",
-      "data_emissao": "25/03/2025",
-      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional"
-    },
-    {
-      "numero": "2025NE0002279",
-      "contrato": "20/2022",
-      "valor": 734682.26,
-      "situacao": "Ativo",
-      "data_emissao": "25/03/2025",
-      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívida, referentes aos serviços prestados sem cobertura contratual,sendo eles, técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, que atendeu as necessidades da Secretaria de Estado de Educação e Desporto Escolar; Período: Mês de julho de 2024; Conforme Notas Fiscais de Serviços Eletrônicas – NFSes: 47477, 47478, 47479 e 47480, Fatura de nº 152128 . Despesa amparada pelo parecer 4456/2024-ASSJUR, fl 237 a 249, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
+      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívidas, referentes aos serviços de técnicosespecializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall para atender as necessidades da Secretaria de Estado de Educação e Desporto Escolar, prestados sem cobertura contratual; Período: Mês de junho de 2024; Conforme Notas Fiscais de Serviços Eletrônicas emitidas e atestadas em pela Gerência de Sistemas de. Informação – GESIN/DEINFRA/SEDUC. Despesa amparada pelo parecer 4358/2024-ASSJUR, fl 359 a 371, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
     },
     {
       "numero": "2025NE0002283",
@@ -1199,12 +1167,44 @@
       "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, referente ao período de DEZEMBRO/2024, para atender as necessidades da Secretaria de Estado de Educação e Desporto Escolar"
     },
     {
-      "numero": "2025NE0002276",
+      "numero": "2025NE0002279",
       "contrato": "20/2022",
-      "valor": 725439.59,
+      "valor": 734682.26,
       "situacao": "Ativo",
       "data_emissao": "25/03/2025",
-      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívidas, referentes aos serviços de técnicosespecializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall para atender as necessidades da Secretaria de Estado de Educação e Desporto Escolar, prestados sem cobertura contratual; Período: Mês de junho de 2024; Conforme Notas Fiscais de Serviços Eletrônicas emitidas e atestadas em pela Gerência de Sistemas de. Informação – GESIN/DEINFRA/SEDUC. Despesa amparada pelo parecer 4358/2024-ASSJUR, fl 359 a 371, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
+      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívida, referentes aos serviços prestados sem cobertura contratual,sendo eles, técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, que atendeu as necessidades da Secretaria de Estado de Educação e Desporto Escolar; Período: Mês de julho de 2024; Conforme Notas Fiscais de Serviços Eletrônicas – NFSes: 47477, 47478, 47479 e 47480, Fatura de nº 152128 . Despesa amparada pelo parecer 4456/2024-ASSJUR, fl 237 a 249, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
+    },
+    {
+      "numero": "2025NE0002277",
+      "contrato": "20/2022",
+      "valor": 1013254.78,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional"
+    },
+    {
+      "numero": "2025NE0002280",
+      "contrato": "20/2022",
+      "valor": 989631.47,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM"
+    },
+    {
+      "numero": "2025NE0002281",
+      "contrato": "20/2022",
+      "valor": 1090274.23,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Tratam os autos de solicitação de pagamento de reconhecimento de dívida, referentes aos serviços prestados sem cobertura contratual,sendo eles, técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional, acesso gerenciado à rede mundial internet fornecimento de circuitos de transmissão de dados, hospedagem de servidores e serviço de Firewall, que atendeu as necessidades da Secretaria de Estado de Educação e Desporto Escolar; Período: Mês de agosto de 2024; Conforme Notas Fiscais de Serviços Eletrônicas – NFSes: 48208, 48209, 48210, 48211 e 48212, Fatura de nº 152863 . Despesa amparada pelo parecer 4458/2024-ASSJUR, fl 498 a 510, com o acolho da Senhora Secretaria Executiva de Educação e Deporto escolar."
+    },
+    {
+      "numero": "2025NE0002282",
+      "contrato": "20/2022",
+      "valor": 1333679.43,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2025",
+      "descricao": "Trata-se os autos de solicitação de pagamento sem cobertura contratual referente aos prestação de serviços técnicos especializados para a manutenção operacional, corretiva e evolutiva do SIGEAM - Sistema de Gestão Educacional"
     },
     {
       "numero": "2023NE0000553",
@@ -1311,20 +1311,20 @@
       "descricao": "ATENDER DESPESAS DO CONTRATO Nº 0064/2017-SEDUC, REF. A SERV. DE CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA SIGPRO, PELA SEDUC."
     },
     {
-      "numero": "2024NE0004403",
-      "contrato": "",
-      "valor": 95691.2,
-      "situacao": "Ativo",
-      "data_emissao": "21/05/2024",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE000011, CONSIDERANDO O TÉRMINO DA VIGÊNCIA DO 2º TERMO ADITIVO AO CONTRATO Nº 02/2021. EM ATENDIMENTO AO DESPACHO EXARADO PELA GERÊNCIA DE SISTEMAS DE INFORMAÇÃO - GESIN (FLS. 317-318)."
-    },
-    {
       "numero": "2024NE0004405",
       "contrato": "",
       "valor": 1155815.42,
       "situacao": "Ativo",
       "data_emissao": "21/05/2024",
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE002014, CONSIDERANDO O TÉRMINO DA VIGÊNCIA DO 2º TERMO ADITIVO AO CONTRATO Nº 02/2021. EM ATENDIMENTO AO DESPACHO EXARADO PELA GERÊNCIA DE SISTEMAS DE INFORMAÇÃO - GESIN (FLS. 317-318)."
+    },
+    {
+      "numero": "2024NE0004403",
+      "contrato": "",
+      "valor": 95691.2,
+      "situacao": "Ativo",
+      "data_emissao": "21/05/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO 2024NE000011, CONSIDERANDO O TÉRMINO DA VIGÊNCIA DO 2º TERMO ADITIVO AO CONTRATO Nº 02/2021. EM ATENDIMENTO AO DESPACHO EXARADO PELA GERÊNCIA DE SISTEMAS DE INFORMAÇÃO - GESIN (FLS. 317-318)."
     },
     {
       "numero": "2018NE02790",
@@ -1335,14 +1335,6 @@
       "descricao": "PARA ATENDER EM CONTRATAÇÃO DE SERVIÇOS DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM, TRANSMISSÃO DE DADOS/INTERNET SERVIÇOS FIREWALL, HOSPEDAGEM DE DADOS, NAS UNIDADES EDUCACIONAIS DESTA SEDUC"
     },
     {
-      "numero": "2022NE0001493",
-      "contrato": "14/2018",
-      "valor": 5531396.64,
-      "situacao": "Ativo",
-      "data_emissao": "21/03/2022",
-      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE0241;CT 14/2018;3° TERMO;R$ 22.628.440,80"
-    },
-    {
       "numero": "2022NE0001503",
       "contrato": "20/2022",
       "valor": 6606733.25,
@@ -1351,17 +1343,25 @@
       "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E GESTÃO DE P;R$ 19.963.695,60"
     },
     {
-      "numero": "2017NE01521",
-      "contrato": "54/2017",
-      "valor": 6720.47,
+      "numero": "2022NE0001493",
+      "contrato": "14/2018",
+      "valor": 5531396.64,
       "situacao": "Ativo",
-      "data_emissao": "21/03/2017",
-      "descricao": "Serviços"
+      "data_emissao": "21/03/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE0241;CT 14/2018;3° TERMO;R$ 22.628.440,80"
     },
     {
       "numero": "2017NE01520",
       "contrato": "54/2017",
       "valor": 60483.79,
+      "situacao": "Ativo",
+      "data_emissao": "21/03/2017",
+      "descricao": "Serviços"
+    },
+    {
+      "numero": "2017NE01521",
+      "contrato": "54/2017",
+      "valor": 6720.47,
       "situacao": "Ativo",
       "data_emissao": "21/03/2017",
       "descricao": "Serviços"
@@ -1375,17 +1375,9 @@
       "descricao": "COMPLEMENTAÇÃO DOS RECURSOS DA NOTA DE EMPENHO DE N. 580/2017"
     },
     {
-      "numero": "2022NE0008950",
+      "numero": "2022NE0008947",
       "contrato": "",
-      "valor": 135565.31,
-      "situacao": "Ativo",
-      "data_emissao": "20/12/2022",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
-    },
-    {
-      "numero": "2022NE0008949",
-      "contrato": "",
-      "valor": 94933.91,
+      "valor": 5375559.49,
       "situacao": "Ativo",
       "data_emissao": "20/12/2022",
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
@@ -1399,9 +1391,17 @@
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
     },
     {
-      "numero": "2022NE0008947",
+      "numero": "2022NE0008949",
       "contrato": "",
-      "valor": 5375559.49,
+      "valor": 94933.91,
+      "situacao": "Ativo",
+      "data_emissao": "20/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
+    },
+    {
+      "numero": "2022NE0008950",
+      "contrato": "",
+      "valor": 135565.31,
       "situacao": "Ativo",
       "data_emissao": "20/12/2022",
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO"
@@ -1423,12 +1423,12 @@
       "descricao": "PARA ATENDER EM DESPESAS COM SERVIÇOS PRESTADOS SEM COBERTURA CONTRATUAL NO PERÍODO DE ABRIL DE 2018, DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE - SIGEAM, QUE ATENDEU AS ESCOLAS ESTADUAIS DA CAPITAL E INTERIOR DO ESTADO DO AMAZONAS/SEDUC."
     },
     {
-      "numero": "2020NE01548",
-      "contrato": "14/2018",
+      "numero": "2020NE01550",
+      "contrato": "",
       "valor": 1885703.4,
       "situacao": "Ativo",
       "data_emissao": "20/05/2020",
-      "descricao": "RENOVAÇÃO AO CONTRATO 14/2018"
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO"
     },
     {
       "numero": "2020NE01551",
@@ -1439,12 +1439,12 @@
       "descricao": "RENOVAÇÃO AO CONTRATO 14/2018"
     },
     {
-      "numero": "2020NE01550",
-      "contrato": "",
+      "numero": "2020NE01548",
+      "contrato": "14/2018",
       "valor": 1885703.4,
       "situacao": "Ativo",
       "data_emissao": "20/05/2020",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO"
+      "descricao": "RENOVAÇÃO AO CONTRATO 14/2018"
     },
     {
       "numero": "2026NE0002267",
@@ -1455,20 +1455,20 @@
       "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 2026NE0001902, PARA CORREÇÃO DA AÇÃO DO PROGRAMA DE TRABALHO."
     },
     {
-      "numero": "2023NE0000008",
-      "contrato": "",
-      "valor": 9428517.0,
-      "situacao": "Ativo",
-      "data_emissao": "20/01/2023",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 2023NE00000006, PARA CORREÇÃO DA DATA DE EMISSÃO"
-    },
-    {
       "numero": "2023NE0000006",
       "contrato": "14/2018",
       "valor": 9428517.0,
       "situacao": "Ativo",
       "data_emissao": "20/01/2023",
       "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM REF AO 4º TERMO ADITIVO AO CONTRATO Nº 14/2018, FIRMADO COM ESTA SECRETARIA PELO PERÍODO DE 12 (DOZE) MESES, ;;;;; R$ 22.628.440,80"
+    },
+    {
+      "numero": "2023NE0000008",
+      "contrato": "",
+      "valor": 9428517.0,
+      "situacao": "Ativo",
+      "data_emissao": "20/01/2023",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO 2023NE00000006, PARA CORREÇÃO DA DATA DE EMISSÃO"
     },
     {
       "numero": "2015NE07056",
@@ -1479,12 +1479,12 @@
       "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2016NE06984",
-      "contrato": "128/2016",
+      "numero": "2016NE06983",
+      "contrato": "",
       "valor": 46405.44,
       "situacao": "Ativo",
       "data_emissao": "19/08/2016",
-      "descricao": "LOCAÇÃO DE SOFTWARE"
+      "descricao": "ANULAÇÃO"
     },
     {
       "numero": "2016NE07015",
@@ -1495,20 +1495,12 @@
       "descricao": "PARA ATENDER NO PAGAMENTO DE EXERCICIOS ANTERIORES DOS SERVIÇOS DE EXECUÇÃO DE SISTEMAS CADASTRO/FOLHA DE PAGAMENTO DO ANO 2014"
     },
     {
-      "numero": "2016NE06983",
-      "contrato": "",
+      "numero": "2016NE06984",
+      "contrato": "128/2016",
       "valor": 46405.44,
       "situacao": "Ativo",
       "data_emissao": "19/08/2016",
-      "descricao": "ANULAÇÃO"
-    },
-    {
-      "numero": "2025NE0001095",
-      "contrato": "23/2021",
-      "valor": 2774901.44,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2025",
-      "descricao": "SALDO REMANESCENTE DO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, DESTINADO À CENTRAL DE ATENDIMENTO DA SEDUC."
+      "descricao": "LOCAÇÃO DE SOFTWARE"
     },
     {
       "numero": "2025NE0001094",
@@ -1517,6 +1509,14 @@
       "situacao": "Ativo",
       "data_emissao": "19/02/2025",
       "descricao": "SALDO REMANESCENTE DO CONTRATO Nº 02/2021. OBJETO: SERVIÇOS DE INFORMÁTICA PARA EXECUÇÃO DO SISTEMA PRODAM RH - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL."
+    },
+    {
+      "numero": "2025NE0001095",
+      "contrato": "23/2021",
+      "valor": 2774901.44,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2025",
+      "descricao": "SALDO REMANESCENTE DO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, DESTINADO À CENTRAL DE ATENDIMENTO DA SEDUC."
     },
     {
       "numero": "2020NE00385",
@@ -1551,14 +1551,6 @@
       "descricao": "Para atender no aditivo do contrato nº 161/2016 que tem como objeto: serviços de desenvolvimento e implantação de software (SIGEAM) em atendimento as Escolas Estaduais da Rede Publica de Ensino."
     },
     {
-      "numero": "2025NE0007845",
-      "contrato": "2/2021",
-      "valor": 624814.08,
-      "situacao": "Ativo",
-      "data_emissao": "18/08/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
-    },
-    {
       "numero": "2025NE0007857",
       "contrato": "23/2021",
       "valor": 2917741.06,
@@ -1567,12 +1559,12 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 05."
     },
     {
-      "numero": "2016NE05695",
-      "contrato": "91/2016",
-      "valor": 1068769.15,
+      "numero": "2025NE0007845",
+      "contrato": "2/2021",
+      "valor": 624814.08,
       "situacao": "Ativo",
-      "data_emissao": "18/07/2016",
-      "descricao": "TECNOLOGIA DA INFORMAÇÃO"
+      "data_emissao": "18/08/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
     },
     {
       "numero": "2016NE05694",
@@ -1583,12 +1575,12 @@
       "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO DE N. 5396/2016 POR TER SIDO EMPENHADO A MAIOR"
     },
     {
-      "numero": "2024NE0003352",
-      "contrato": "23/2021",
-      "valor": 1458870.53,
+      "numero": "2016NE05695",
+      "contrato": "91/2016",
+      "valor": 1068769.15,
       "situacao": "Ativo",
-      "data_emissao": "18/04/2024",
-      "descricao": "SALDO REMANESCENTE DO 3º TERMO ADITIVO AO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER, COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, UTILIZANDO MODELO OMNICHANNEL."
+      "data_emissao": "18/07/2016",
+      "descricao": "TECNOLOGIA DA INFORMAÇÃO"
     },
     {
       "numero": "2024NE0003351",
@@ -1599,28 +1591,12 @@
       "descricao": "SALDO REMANESCENTE DO 5º TERMO ADITIVO AO CONTRATO Nº 14/2018. OBJETO: SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL DA SEDUC."
     },
     {
-      "numero": "2020NE00350",
-      "contrato": "54/2017",
-      "valor": 4000.0,
+      "numero": "2024NE0003352",
+      "contrato": "23/2021",
+      "valor": 1458870.53,
       "situacao": "Ativo",
-      "data_emissao": "18/02/2020",
-      "descricao": "ATENDER SALDO DO CT.00054/2017 - REF CUSTOMIZAÇÃO IMPLANTAÇÃO E HOSPEDAGEM DO SIGPRO."
-    },
-    {
-      "numero": "2020NE00364",
-      "contrato": "",
-      "valor": 222660.24,
-      "situacao": "Ativo",
-      "data_emissao": "18/02/2020",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 2020NE00126, CORRESPONDENTE AO CT.00091/2016-SEDUC, PARA PERMUTA DE FONTE."
-    },
-    {
-      "numero": "2020NE00349",
-      "contrato": "",
-      "valor": 206245.7,
-      "situacao": "Ativo",
-      "data_emissao": "18/02/2020",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 2020NE00130, CORRESPONDENTE AO CT.00054/2017-SEDUC, PARA PERMUTA DE FONTE."
+      "data_emissao": "18/04/2024",
+      "descricao": "SALDO REMANESCENTE DO 3º TERMO ADITIVO AO CONTRATO Nº 23/2021. OBJETO: SERVIÇOS DE CONTACT CENTER, COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO, UTILIZANDO MODELO OMNICHANNEL."
     },
     {
       "numero": "2020NE00365",
@@ -1631,12 +1607,28 @@
       "descricao": "ATENDER CT.00091/2016-SEDUC - DESENVOLVIMENTO E IMPLANTAÇÃO DO SIGEAM"
     },
     {
-      "numero": "2015NE07822",
-      "contrato": "235/2010",
-      "valor": 1485253.11,
+      "numero": "2020NE00349",
+      "contrato": "",
+      "valor": 206245.7,
       "situacao": "Ativo",
-      "data_emissao": "17/11/2015",
-      "descricao": "NE 7822 DE 17/11/2015 R$ 1.485.253,11 Contrato 235/2010 - SIGEAM ON LINE"
+      "data_emissao": "18/02/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 2020NE00130, CORRESPONDENTE AO CT.00054/2017-SEDUC, PARA PERMUTA DE FONTE."
+    },
+    {
+      "numero": "2020NE00364",
+      "contrato": "",
+      "valor": 222660.24,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2020",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 2020NE00126, CORRESPONDENTE AO CT.00091/2016-SEDUC, PARA PERMUTA DE FONTE."
+    },
+    {
+      "numero": "2020NE00350",
+      "contrato": "54/2017",
+      "valor": 4000.0,
+      "situacao": "Ativo",
+      "data_emissao": "18/02/2020",
+      "descricao": "ATENDER SALDO DO CT.00054/2017 - REF CUSTOMIZAÇÃO IMPLANTAÇÃO E HOSPEDAGEM DO SIGPRO."
     },
     {
       "numero": "2015NE07822",
@@ -1645,6 +1637,14 @@
       "situacao": "Ativo",
       "data_emissao": "17/11/2015",
       "descricao": "SER. PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE07822",
+      "contrato": "235/2010",
+      "valor": 1485253.11,
+      "situacao": "Ativo",
+      "data_emissao": "17/11/2015",
+      "descricao": "NE 7822 DE 17/11/2015 R$ 1.485.253,11 Contrato 235/2010 - SIGEAM ON LINE"
     },
     {
       "numero": "2022NE0004619",
@@ -1671,28 +1671,12 @@
       "descricao": "TOTALIDADE"
     },
     {
-      "numero": "2017NE01364",
-      "contrato": "54/2017",
-      "valor": 68548.3,
-      "situacao": "Ativo",
-      "data_emissao": "17/03/2017",
-      "descricao": "Serviços customização."
-    },
-    {
-      "numero": "2017NE01518",
-      "contrato": "",
-      "valor": 68548.3,
-      "situacao": "Ativo",
-      "data_emissao": "17/03/2017",
-      "descricao": "Anulação"
-    },
-    {
-      "numero": "2017NE01519",
-      "contrato": "",
+      "numero": "2017NE01365",
+      "contrato": "91/2016",
       "valor": 7616.48,
       "situacao": "Ativo",
       "data_emissao": "17/03/2017",
-      "descricao": "Anulação"
+      "descricao": "serviços customização."
     },
     {
       "numero": "2017NE01280",
@@ -1703,12 +1687,28 @@
       "descricao": "Consultoria"
     },
     {
-      "numero": "2017NE01365",
-      "contrato": "91/2016",
+      "numero": "2017NE01519",
+      "contrato": "",
       "valor": 7616.48,
       "situacao": "Ativo",
       "data_emissao": "17/03/2017",
-      "descricao": "serviços customização."
+      "descricao": "Anulação"
+    },
+    {
+      "numero": "2017NE01518",
+      "contrato": "",
+      "valor": 68548.3,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2017",
+      "descricao": "Anulação"
+    },
+    {
+      "numero": "2017NE01364",
+      "contrato": "54/2017",
+      "valor": 68548.3,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2017",
+      "descricao": "Serviços customização."
     },
     {
       "numero": "2018NE07102",
@@ -1727,20 +1727,20 @@
       "descricao": "Contrato No. 235/2010 - SIGEAM"
     },
     {
-      "numero": "2018NE01512",
-      "contrato": "",
-      "valor": 2444260.2,
-      "situacao": "Ativo",
-      "data_emissao": "16/03/2018",
-      "descricao": "ANULAÇÃO"
-    },
-    {
       "numero": "2018NE01513",
       "contrato": "2/2015",
       "valor": 2444260.2,
       "situacao": "Ativo",
       "data_emissao": "16/03/2018",
       "descricao": "ADITIVO CT- 02/2015"
+    },
+    {
+      "numero": "2018NE01512",
+      "contrato": "",
+      "valor": 2444260.2,
+      "situacao": "Ativo",
+      "data_emissao": "16/03/2018",
+      "descricao": "ANULAÇÃO"
     },
     {
       "numero": "2017NE08003",
@@ -1775,14 +1775,6 @@
       "descricao": "REFORÇO À NOTA DE EMPENHO Nº 2022NE0004137, PARA ATENDER DESPESAS DO CONTRATO Nº CT-00054/2017-SEDUC, REFERENTE A SERVIÇOS PARA CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SIGPRO"
     },
     {
-      "numero": "2018NE03554",
-      "contrato": "91/2016",
-      "valor": 2493794.69,
-      "situacao": "Ativo",
-      "data_emissao": "15/06/2018",
-      "descricao": "PARA ATENDER EM DESPESAS COM O CONTRATO N. 91/2016. OBJETO: SERVIÇOS DE CONSULTORIA, TREINAMENTO E MANUTENÇÃO DO SIGEAM, QUE ATENDE AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
-    },
-    {
       "numero": "2018NE03573",
       "contrato": "161/2016",
       "valor": 1010600.98,
@@ -1791,12 +1783,12 @@
       "descricao": "PARA ATENDER A PAGAMENTO/EXERCÍCIOS ANTERIORES, PERÍODO NOVEMBRO DE 2017, DE SERVIÇOS DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE (SIGEAM) QUE ATENDEU AS NECESSIDADES DESTA SECRETARIA JUNTO AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
     },
     {
-      "numero": "2023NE0004028",
-      "contrato": "14/2018",
-      "valor": 2019297.86,
+      "numero": "2018NE03554",
+      "contrato": "91/2016",
+      "valor": 2493794.69,
       "situacao": "Ativo",
-      "data_emissao": "15/05/2023",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+      "data_emissao": "15/06/2018",
+      "descricao": "PARA ATENDER EM DESPESAS COM O CONTRATO N. 91/2016. OBJETO: SERVIÇOS DE CONSULTORIA, TREINAMENTO E MANUTENÇÃO DO SIGEAM, QUE ATENDE AS ESCOLAS DA REDE ESTADUAL DE ENSINO."
     },
     {
       "numero": "2023NE04028",
@@ -1807,6 +1799,14 @@
       "descricao": "5º Termo Aditivo, prorrogação de prazo."
     },
     {
+      "numero": "2023NE0004028",
+      "contrato": "14/2018",
+      "valor": 2019297.86,
+      "situacao": "Ativo",
+      "data_emissao": "15/05/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
       "numero": "2020NE01533",
       "contrato": "2/2015",
       "valor": 407376.7,
@@ -1815,20 +1815,20 @@
       "descricao": "RENOVAÇÃO DO CONTRATO Nº 02/2015. OBJETO: PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA - FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC."
     },
     {
-      "numero": "2024NE0008473",
-      "contrato": "2/2021",
-      "valor": 296019.94,
-      "situacao": "Ativo",
-      "data_emissao": "14/10/2024",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
-    },
-    {
       "numero": "2024NE0008475",
       "contrato": "20/2022",
       "valor": 1934977.0,
       "situacao": "Ativo",
       "data_emissao": "14/10/2024",
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
+    },
+    {
+      "numero": "2024NE0008473",
+      "contrato": "2/2021",
+      "valor": 296019.94,
+      "situacao": "Ativo",
+      "data_emissao": "14/10/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
     },
     {
       "numero": "2016NE05396",
@@ -1847,14 +1847,6 @@
       "descricao": "SERV. PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2025NE0003892",
-      "contrato": "2/2021",
-      "valor": 624814.08,
-      "situacao": "Ativo",
-      "data_emissao": "14/05/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
-    },
-    {
       "numero": "2025NE0003893",
       "contrato": "23/2021",
       "valor": 1410154.86,
@@ -1863,20 +1855,20 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
     },
     {
-      "numero": "2024NE0003958",
-      "contrato": "23/2021",
-      "valor": 1458870.53,
+      "numero": "2025NE0003892",
+      "contrato": "2/2021",
+      "valor": 624814.08,
       "situacao": "Ativo",
-      "data_emissao": "14/05/2024",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 03."
+      "data_emissao": "14/05/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
     },
     {
-      "numero": "2024NE0003955",
-      "contrato": "14/2018",
-      "valor": 1752108.94,
+      "numero": "2024NE0003956",
+      "contrato": "2/2021",
+      "valor": 296019.94,
       "situacao": "Ativo",
       "data_emissao": "14/05/2024",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
     },
     {
       "numero": "2024NE0003959",
@@ -1887,12 +1879,20 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
     },
     {
-      "numero": "2024NE0003956",
-      "contrato": "2/2021",
-      "valor": 296019.94,
+      "numero": "2024NE0003955",
+      "contrato": "14/2018",
+      "valor": 1752108.94,
       "situacao": "Ativo",
       "data_emissao": "14/05/2024",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+    },
+    {
+      "numero": "2024NE0003958",
+      "contrato": "23/2021",
+      "valor": 1458870.53,
+      "situacao": "Ativo",
+      "data_emissao": "14/05/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 03."
     },
     {
       "numero": "2014NE03313",
@@ -1911,20 +1911,20 @@
       "descricao": "Cobertura Financeira 2015 Contrato 235/2010 - 6 TA NE 2634 de 14/04/2015 R$ 3.960.674,94 Abril a Junho/15"
     },
     {
-      "numero": "2024NE0002483",
-      "contrato": "23/2021",
-      "valor": 3771406.8,
-      "situacao": "Ativo",
-      "data_emissao": "14/03/2024",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
-    },
-    {
       "numero": "2024NE0002485",
       "contrato": "23/2021",
       "valor": 2917741.06,
       "situacao": "Ativo",
       "data_emissao": "14/03/2024",
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 03."
+    },
+    {
+      "numero": "2024NE0002483",
+      "contrato": "23/2021",
+      "valor": 3771406.8,
+      "situacao": "Ativo",
+      "data_emissao": "14/03/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
     },
     {
       "numero": "2022NE0006115",
@@ -1935,12 +1935,12 @@
       "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;COMPLEMENTO DE QB;2022NE5752;CT 23/2021;1° TERMO;R$ 17.505.370,65"
     },
     {
-      "numero": "2022NE0004038",
-      "contrato": "54/2021",
-      "valor": 543424.01,
+      "numero": "2022NE0004032",
+      "contrato": "14/2018",
+      "valor": 1885703.4,
       "situacao": "Ativo",
       "data_emissao": "13/07/2022",
-      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE IMPLANTAÇÃO DE REPOSITRÓRIO ARQUIVÍSTICO CONFIÁVEL, MANTIDA NA ESTRUTURA DE DATA CENTER PRÓPRIA. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE2608;CT 54/2021;;R$ 6.904.768,32"
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE2921;CT 14/2018;4° TERMO;R$ 22.628.440,80"
     },
     {
       "numero": "2022NE0004024",
@@ -1951,12 +1951,12 @@
       "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE2776;CT 2/2021;1° TERMO;R$ 3.552.246,72"
     },
     {
-      "numero": "2022NE0004032",
-      "contrato": "14/2018",
-      "valor": 1885703.4,
+      "numero": "2022NE0004038",
+      "contrato": "54/2021",
+      "valor": 543424.01,
       "situacao": "Ativo",
       "data_emissao": "13/07/2022",
-      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE2921;CT 14/2018;4° TERMO;R$ 22.628.440,80"
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE IMPLANTAÇÃO DE REPOSITRÓRIO ARQUIVÍSTICO CONFIÁVEL, MANTIDA NA ESTRUTURA DE DATA CENTER PRÓPRIA. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE2608;CT 54/2021;;R$ 6.904.768,32"
     },
     {
       "numero": "2021NE0001219",
@@ -1967,20 +1967,20 @@
       "descricao": "PARA ATENDER DESPESAS DO CT 0054/2017 - SEDUC - CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO DE PROJETOS - SIGPRO."
     },
     {
-      "numero": "2020NE00126",
-      "contrato": "91/2016",
-      "valor": 222660.24,
-      "situacao": "Ativo",
-      "data_emissao": "13/01/2020",
-      "descricao": "ATENDER CT.091/2016-SEDUC, DESENVOLVIMENTO E IMPLANTAÇÃO DO SIGEAM."
-    },
-    {
       "numero": "2020NE00130",
       "contrato": "54/2017",
       "valor": 206245.7,
       "situacao": "Ativo",
       "data_emissao": "13/01/2020",
       "descricao": "ATENDER CT.054/2017-SEDUC, FIRMADO COM A PRODAM, REF. CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM DO SIGPRO."
+    },
+    {
+      "numero": "2020NE00126",
+      "contrato": "91/2016",
+      "valor": 222660.24,
+      "situacao": "Ativo",
+      "data_emissao": "13/01/2020",
+      "descricao": "ATENDER CT.091/2016-SEDUC, DESENVOLVIMENTO E IMPLANTAÇÃO DO SIGEAM."
     },
     {
       "numero": "2015NE05162",
@@ -1999,20 +1999,20 @@
       "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE1018;CT 2/2021;1° TERMO;R$ 3.552.246,72"
     },
     {
-      "numero": "2022NE0007459",
-      "contrato": "20/2022",
-      "valor": 1885703.4,
-      "situacao": "Ativo",
-      "data_emissao": "11/11/2022",
-      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE6242;CT 14/2018;4° TERMO;R$ 22.628.440,80"
-    },
-    {
       "numero": "2022NE0007460",
       "contrato": "23/2021",
       "valor": 1458780.89,
       "situacao": "Ativo",
       "data_emissao": "11/11/2022",
       "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS;COMPLEMENTO DE QB;2022NE6115;CT 23/2021;1° TERMO;R$ 17.505.370,65"
+    },
+    {
+      "numero": "2022NE0007459",
+      "contrato": "20/2022",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2022",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO TÉCNICO ESPECIALIZADO PARA MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM. SALDO REMANESCENTE;COMPLEMENTO DE QB;2022NE6242;CT 14/2018;4° TERMO;R$ 22.628.440,80"
     },
     {
       "numero": "2023NE0006118",
@@ -2047,17 +2047,17 @@
       "descricao": "SERV, DE PROCESSAMENTO DA FOLHA DE PESSOAL"
     },
     {
-      "numero": "2015NE08556",
+      "numero": "2015NE08558",
       "contrato": "P.222/2014",
-      "valor": 850603.66,
+      "valor": 7635.8,
       "situacao": "Ativo",
       "data_emissao": "10/12/2015",
       "descricao": "INDENIZAÇÃO"
     },
     {
-      "numero": "2015NE08558",
+      "numero": "2015NE08556",
       "contrato": "P.222/2014",
-      "valor": 7635.8,
+      "valor": 850603.66,
       "situacao": "Ativo",
       "data_emissao": "10/12/2015",
       "descricao": "INDENIZAÇÃO"
@@ -2079,20 +2079,20 @@
       "descricao": "PARA ATENDER DESPESAS DO CT 054/2017-SEDUC, REFERENTE A SERVIÇOS DE CUSTOMIZAÇÃO, IMPLANTAÇÃO, HOSPEDAGEM E MANUTENÇÃO DO SISTEMA SIGPRO, PARA UTILIZAÇÃO PELA SEDUC/AM."
     },
     {
-      "numero": "2023NE0004983",
-      "contrato": "",
-      "valor": 619380.18,
-      "situacao": "Ativo",
-      "data_emissao": "10/07/2023",
-      "descricao": "ANULAÇÃO PARCIAL DE SALDO DA NOTA DE EMPENHO DE 2023NE000013"
-    },
-    {
       "numero": "2023NE0004984",
       "contrato": "",
       "valor": 1759989.84,
       "situacao": "Ativo",
       "data_emissao": "10/07/2023",
       "descricao": "ANULAÇÃO TOTAL DE SALDO DA NOTA DE EMPENHO DE 2023NE0003892"
+    },
+    {
+      "numero": "2023NE0004983",
+      "contrato": "",
+      "valor": 619380.18,
+      "situacao": "Ativo",
+      "data_emissao": "10/07/2023",
+      "descricao": "ANULAÇÃO PARCIAL DE SALDO DA NOTA DE EMPENHO DE 2023NE000013"
     },
     {
       "numero": "2015NE03781",
@@ -2103,14 +2103,6 @@
       "descricao": "Cobertura Financeira 2015 NE 3781 DE 10/06/2015 R$ 1.485.253,72 Contrato 235/2010- 6 TA Junho a Julho/15"
     },
     {
-      "numero": "2025NE0002812",
-      "contrato": "23/2021",
-      "valor": 2917561.76,
-      "situacao": "Ativo",
-      "data_emissao": "10/04/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
-    },
-    {
       "numero": "2025NE0002818",
       "contrato": "20/2022",
       "valor": 434317.06,
@@ -2119,12 +2111,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
     },
     {
-      "numero": "2018NE01832",
-      "contrato": "",
-      "valor": 1837735.26,
+      "numero": "2025NE0002812",
+      "contrato": "23/2021",
+      "valor": 2917561.76,
       "situacao": "Ativo",
-      "data_emissao": "10/04/2018",
-      "descricao": "ANULAÇÃO"
+      "data_emissao": "10/04/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
     },
     {
       "numero": "2018NE01800",
@@ -2135,12 +2127,12 @@
       "descricao": "Pagamento de indenização referente ao Mês de Fevereiro/2018, NF´S: 751 A 756, dos serviços de processamento de dados contratado sem a cobertura contratual"
     },
     {
-      "numero": "2025NE0000824",
-      "contrato": "23/2021",
-      "valor": 1458780.88,
+      "numero": "2018NE01832",
+      "contrato": "",
+      "valor": 1837735.26,
       "situacao": "Ativo",
-      "data_emissao": "10/02/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+      "data_emissao": "10/04/2018",
+      "descricao": "ANULAÇÃO"
     },
     {
       "numero": "2025NE0000821",
@@ -2151,17 +2143,25 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 03."
     },
     {
-      "numero": "2025NE0008389",
+      "numero": "2025NE0000824",
       "contrato": "23/2021",
-      "valor": 1333371.64,
+      "valor": 1458780.88,
       "situacao": "Ativo",
-      "data_emissao": "09/09/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
+      "data_emissao": "10/02/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
     },
     {
       "numero": "2025NE0008390",
       "contrato": "23/2021",
       "valor": 1390799.16,
+      "situacao": "Ativo",
+      "data_emissao": "09/09/2025",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0008389",
+      "contrato": "23/2021",
+      "valor": 1333371.64,
       "situacao": "Ativo",
       "data_emissao": "09/09/2025",
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DE GESTÃO DE ATENDIMENTO DA SEDUC/AM. TC: 0023/2021 AD: 04."
@@ -2199,17 +2199,9 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 002/2021 AD: 02."
     },
     {
-      "numero": "2015NE03176",
-      "contrato": "P.222/2014",
-      "valor": 488337.2,
-      "situacao": "Ativo",
-      "data_emissao": "08/05/2015",
-      "descricao": "INDENIZAÇÃO"
-    },
-    {
-      "numero": "2015NE03177",
+      "numero": "2015NE03175",
       "contrato": "",
-      "valor": 83822.44,
+      "valor": 488337.2,
       "situacao": "Ativo",
       "data_emissao": "08/05/2015",
       "descricao": "ANULAÇÃO"
@@ -2223,20 +2215,20 @@
       "descricao": "INDENIZAÇÃO E RESTITUIÇÃO"
     },
     {
-      "numero": "2015NE03175",
+      "numero": "2015NE03177",
       "contrato": "",
-      "valor": 488337.2,
+      "valor": 83822.44,
       "situacao": "Ativo",
       "data_emissao": "08/05/2015",
       "descricao": "ANULAÇÃO"
     },
     {
-      "numero": "2015NE02403",
+      "numero": "2015NE03176",
       "contrato": "P.222/2014",
-      "valor": 83822.44,
+      "valor": 488337.2,
       "situacao": "Ativo",
-      "data_emissao": "08/04/2015",
-      "descricao": "DESP DE EXERC. ANTERIORES"
+      "data_emissao": "08/05/2015",
+      "descricao": "INDENIZAÇÃO"
     },
     {
       "numero": "2015NE02402",
@@ -2245,6 +2237,14 @@
       "situacao": "Ativo",
       "data_emissao": "08/04/2015",
       "descricao": "DESPESAS EXERCICIOS ANTERIOS"
+    },
+    {
+      "numero": "2015NE02403",
+      "contrato": "P.222/2014",
+      "valor": 83822.44,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2015",
+      "descricao": "DESP DE EXERC. ANTERIORES"
     },
     {
       "numero": "2024NE0002322",
@@ -2303,20 +2303,20 @@
       "descricao": "ANULAÇÃO PARCIAL DOS RECURSOS DA NOTA DE EMPENHO DE N. 2022NE0001493"
     },
     {
-      "numero": "2023NE0006095",
-      "contrato": "14/2018",
-      "valor": 1885703.4,
-      "situacao": "Ativo",
-      "data_emissao": "05/09/2023",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
-    },
-    {
       "numero": "2023NE0006096",
       "contrato": "2/2021",
       "valor": 296020.56,
       "situacao": "Ativo",
       "data_emissao": "05/09/2023",
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 002/2021 AD: 02."
+    },
+    {
+      "numero": "2023NE0006095",
+      "contrato": "14/2018",
+      "valor": 1885703.4,
+      "situacao": "Ativo",
+      "data_emissao": "05/09/2023",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
     },
     {
       "numero": "2026NE0000176",
@@ -2335,20 +2335,20 @@
       "descricao": "Cobertura financeira 2015 - meses: janeiro a março"
     },
     {
-      "numero": "2015NE08490",
-      "contrato": "235/2010",
-      "valor": 600000.0,
-      "situacao": "Ativo",
-      "data_emissao": "04/12/2015",
-      "descricao": "TOTALIDADE DA NE 8489/2015"
-    },
-    {
       "numero": "2015NE08489",
       "contrato": "235/2010",
       "valor": 2370506.22,
       "situacao": "Ativo",
       "data_emissao": "04/12/2015",
       "descricao": "COMPLEMENTAÇÃO DA NE 7822/2015"
+    },
+    {
+      "numero": "2015NE08490",
+      "contrato": "235/2010",
+      "valor": 600000.0,
+      "situacao": "Ativo",
+      "data_emissao": "04/12/2015",
+      "descricao": "TOTALIDADE DA NE 8489/2015"
     },
     {
       "numero": "2021NE0005967",
@@ -2359,17 +2359,17 @@
       "descricao": "SALDO REMANESCENTE DO 3º T. AD. AO CONTRATO 14/2018DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM;COMPLEMENTO DE QB;2021NE1456;CT 14/2018;3° TERMO ADITIVO ;R$ 22.628.440,80 ;;;;;;"
     },
     {
-      "numero": "2019NE04862",
+      "numero": "2019NE04861",
       "contrato": "14/2018",
-      "valor": 1865628.52,
+      "valor": 3791481.68,
       "situacao": "Ativo",
       "data_emissao": "04/09/2019",
       "descricao": "ATENDER AO CONTRATO DE Nº 14/2018"
     },
     {
-      "numero": "2019NE04861",
+      "numero": "2019NE04862",
       "contrato": "14/2018",
-      "valor": 3791481.68,
+      "valor": 1865628.52,
       "situacao": "Ativo",
       "data_emissao": "04/09/2019",
       "descricao": "ATENDER AO CONTRATO DE Nº 14/2018"
@@ -2415,14 +2415,6 @@
       "descricao": "PARA ATENDER EM PAGAMENTO/INDENIZAÇÃO, PERÍODO: MARÇO DE 2018, DE MANUTENÇÃO OPERACIONAL CORRETIVA E EVOLUTIVA DO SIGEAM -SISTEMA INTEGRADO DE GESTÃO EDUCACIONAL DA SECRETARIA DE ESTADO DE EDUCAÇÃO JUNTO AS ESCOLAS ESTADUAIS"
     },
     {
-      "numero": "2016NE00400",
-      "contrato": "235/2010",
-      "valor": 4406250.89,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "PROCESSAMENTO DE DADOS"
-    },
-    {
       "numero": "2016NE00410",
       "contrato": "2/2015",
       "valor": 185019.85,
@@ -2431,12 +2423,12 @@
       "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2019NE06792",
-      "contrato": "14/2018",
-      "valor": 3680635.32,
+      "numero": "2016NE00400",
+      "contrato": "235/2010",
+      "valor": 4406250.89,
       "situacao": "Ativo",
-      "data_emissao": "03/12/2019",
-      "descricao": "ATENDER AO CONTRATO DE N. 14/2018"
+      "data_emissao": "04/01/2016",
+      "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
       "numero": "2019NE06791",
@@ -2447,25 +2439,41 @@
       "descricao": "ATENDER AO CONTRATO DE N. 14/2018"
     },
     {
-      "numero": "2015NE08488",
-      "contrato": "",
+      "numero": "2019NE06792",
+      "contrato": "14/2018",
+      "valor": 3680635.32,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2019",
+      "descricao": "ATENDER AO CONTRATO DE N. 14/2018"
+    },
+    {
+      "numero": "2015NE08457",
+      "contrato": "235/2010",
       "valor": 600000.0,
       "situacao": "Ativo",
       "data_emissao": "03/12/2015",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO DE N. 8457/2015"
+      "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2015NE08487",
-      "contrato": "",
-      "valor": 2370506.22,
+      "numero": "2015NE08449",
+      "contrato": "2/2015",
+      "valor": 1000000.0,
       "situacao": "Ativo",
       "data_emissao": "03/12/2015",
-      "descricao": "ANULAÇÃO TOTAL DA NE 8455/2015"
+      "descricao": "PROC. DE DADOS"
     },
     {
-      "numero": "2015NE08455",
+      "numero": "2015NE08472",
+      "contrato": "P.219/2014",
+      "valor": 167074.3,
+      "situacao": "Ativo",
+      "data_emissao": "03/12/2015",
+      "descricao": "INDENIZAÇÃO"
+    },
+    {
+      "numero": "2015NE08448",
       "contrato": "235/2010",
-      "valor": 2370506.22,
+      "valor": 990168.17,
       "situacao": "Ativo",
       "data_emissao": "03/12/2015",
       "descricao": "PROCESSAMENTO DE DADOS"
@@ -2479,36 +2487,28 @@
       "descricao": "SERV. PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2015NE08448",
+      "numero": "2015NE08455",
       "contrato": "235/2010",
-      "valor": 990168.17,
+      "valor": 2370506.22,
       "situacao": "Ativo",
       "data_emissao": "03/12/2015",
       "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2015NE08472",
-      "contrato": "P.219/2014",
-      "valor": 167074.3,
+      "numero": "2015NE08487",
+      "contrato": "",
+      "valor": 2370506.22,
       "situacao": "Ativo",
       "data_emissao": "03/12/2015",
-      "descricao": "INDENIZAÇÃO"
+      "descricao": "ANULAÇÃO TOTAL DA NE 8455/2015"
     },
     {
-      "numero": "2015NE08449",
-      "contrato": "2/2015",
-      "valor": 1000000.0,
-      "situacao": "Ativo",
-      "data_emissao": "03/12/2015",
-      "descricao": "PROC. DE DADOS"
-    },
-    {
-      "numero": "2015NE08457",
-      "contrato": "235/2010",
+      "numero": "2015NE08488",
+      "contrato": "",
       "valor": 600000.0,
       "situacao": "Ativo",
       "data_emissao": "03/12/2015",
-      "descricao": "PROCESSAMENTO DE DADOS"
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO DE N. 8457/2015"
     },
     {
       "numero": "2024NE0003799",
@@ -2519,20 +2519,20 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
     },
     {
-      "numero": "2023NE0003892",
-      "contrato": "14/2018",
-      "valor": 1759989.84,
-      "situacao": "Ativo",
-      "data_emissao": "03/05/2023",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS PARA A MANUNTENÇÃO OPERACIONAL DO SIGEAM DA SEDUC/AM TC: 014/2018 AD: 04."
-    },
-    {
       "numero": "2023NE0003893",
       "contrato": "23/2021",
       "valor": 2868935.74,
       "situacao": "Ativo",
       "data_emissao": "03/05/2023",
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 023/2021 AD: 01."
+    },
+    {
+      "numero": "2023NE0003892",
+      "contrato": "14/2018",
+      "valor": 1759989.84,
+      "situacao": "Ativo",
+      "data_emissao": "03/05/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS PARA A MANUNTENÇÃO OPERACIONAL DO SIGEAM DA SEDUC/AM TC: 014/2018 AD: 04."
     },
     {
       "numero": "2021NE0001063",
@@ -2543,20 +2543,20 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇO DE INFORMÁTICA - FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC. CT 2/2021"
     },
     {
-      "numero": "2023NE03350",
-      "contrato": "54/2017",
-      "valor": 8866.14,
-      "situacao": "Ativo",
-      "data_emissao": "03/04/2023",
-      "descricao": "6º Termo Aditivo ao Contrato 054/2027"
-    },
-    {
       "numero": "2023NE0003350",
       "contrato": "54/2017",
       "valor": 8866.14,
       "situacao": "Ativo",
       "data_emissao": "03/04/2023",
       "descricao": "ATENDER DESPESAS DO 6º TA AO CT-0054/2017-SEDUC, REF. A SERVIÇOS DE CUSTOMIZAÇÃO, IMPLANTAÇÃO E HOSPEDAGEM PARA USO E MANUTENÇÃO DO SISTEMA DE GESTÃO E PROJETOS - SIGPRO PROC. ADM. 01.01.028101.010886/2023-38 (SIGED)"
+    },
+    {
+      "numero": "2023NE03350",
+      "contrato": "54/2017",
+      "valor": 8866.14,
+      "situacao": "Ativo",
+      "data_emissao": "03/04/2023",
+      "descricao": "6º Termo Aditivo ao Contrato 054/2027"
     },
     {
       "numero": "2014NE02307",
@@ -2575,12 +2575,12 @@
       "descricao": "Contratação de empresa especializada p/prestação de serviços de TIC, compreendendo a disponibilização de uma solução tecnológica abrangendo os serviços de Software como Serviço (SAAS)–Sistema de Gestão Educacional e Fornecimento de Circuito de Dados."
     },
     {
-      "numero": "2022NE0000246",
-      "contrato": "23/2021",
-      "valor": 5835123.53,
+      "numero": "2022NE0000243",
+      "contrato": "2/2021",
+      "valor": 296020.56,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
-      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE1504;CT 23/2021;;R$ 17.505.370,65"
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE372;CT 2/2021;;R$ 3.552.246,72"
     },
     {
       "numero": "2022NE0000238",
@@ -2591,12 +2591,12 @@
       "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE IMPLANTAÇÃO DE REPOSITRÓRIO ARQUIVÍSTICO CONFIÁVEL, MANTIDA NA ESTRUTURA DE DATA CENTER PRÓPRIA. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE3528;CT 54/2021;;R$ 6.904.768,32"
     },
     {
-      "numero": "2022NE0000243",
-      "contrato": "2/2021",
-      "valor": 296020.56,
+      "numero": "2022NE0000246",
+      "contrato": "23/2021",
+      "valor": 5835123.53,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
-      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE372;CT 2/2021;;R$ 3.552.246,72"
+      "descricao": "SERVICOS TÉCNICOS PROFISSIONAIS DE TIC;SERVIÇO DE OPERAÇÃO E GESTÃO DE CENTRAL DE ATENDIMENTO MULTICANAIS. SALDO REMANESCENTE;COMPLEMENTO DE QB;2021NE1504;CT 23/2021;;R$ 17.505.370,65"
     },
     {
       "numero": "2025NE0006283",
@@ -2639,12 +2639,12 @@
       "descricao": "Empenho de contrato: importado manualmente em 21/09/2015"
     },
     {
-      "numero": "2025NE0000648",
-      "contrato": "23/2021",
-      "valor": 1458780.89,
+      "numero": "2025NE0000367",
+      "contrato": "2/2021",
+      "valor": 312407.04,
       "situacao": "Ativo",
       "data_emissao": "02/01/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
     },
     {
       "numero": "2025NE0000412",
@@ -2655,28 +2655,12 @@
       "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A SOLUÇÃO DE SISTEMA DE GESTÃO EDUCACIONAL QUE PROPORCIONE A INFORMATIZAÇÃO DOS PROCESSOS ADMINISTRATIVOS, PEDAGÓGICOS, MATRÍCULA ONLINE E DE GESTÃO DE PESSOAS DA SEDUC/AM."
     },
     {
-      "numero": "2025NE0000367",
-      "contrato": "2/2021",
-      "valor": 312407.04,
+      "numero": "2025NE0000648",
+      "contrato": "23/2021",
+      "valor": 1458780.89,
       "situacao": "Ativo",
       "data_emissao": "02/01/2025",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 04."
-    },
-    {
-      "numero": "2024NE0000011",
-      "contrato": "2/2021",
-      "valor": 296020.56,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 02."
-    },
-    {
-      "numero": "2024NE0000010",
-      "contrato": "14/2018",
-      "valor": 3771406.8,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 04."
     },
     {
       "numero": "2024NE0000469",
@@ -2687,20 +2671,20 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM CONTACT CENTER COM ADOÇÃO DE PLATAFORMA DE INTEGRAÇÃO DE MULTICANAIS E MODULO DES GESTÃO DE ATENDIMENTO DA SEDUC/AM TC: 0023/2021 AD: 03."
     },
     {
-      "numero": "2023NE0000013",
+      "numero": "2024NE0000010",
       "contrato": "14/2018",
-      "valor": 9428517.0,
+      "valor": 3771406.8,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM REF AO 4º TERMO ADITIVO AO CONTRATO Nº 14/2018, FIRMADO COM ESTA SECRETARIA PELO PERÍODO DE 12 (DOZE) MESES, ;;;;; R$ 22.628.440,80"
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM - SISTEMA DE GESTÃO EDUCACIONAL. TC: 0014/2018 AD: 05."
     },
     {
-      "numero": "2023NE0000001",
+      "numero": "2024NE0000011",
       "contrato": "2/2021",
-      "valor": 1480102.8,
+      "valor": 296020.56,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE4619;CT 2/2021;1° TERMO;R$ 3.552.246,72"
+      "data_emissao": "02/01/2024",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS ESPECIALIZADOS EM INFORMÁTICA-FOLHA DE PAGAMENTO DE PESSOAL E CADASTRO DE SERVIDORES DA SEDUC/AM TC: 0002/2021 AD: 02."
     },
     {
       "numero": "2023NE0000011",
@@ -2711,20 +2695,20 @@
       "descricao": "CONTRATAÇÃO DE SERVIÇOS DE CONTACT CENTER, COM ADOÇÃO DE INTEGRAÇÃO DE MULTICANAIS E MÓDULO DE GESTÃO DE ATENDIMENTO REF AO 1º TERMO ADITIVO AO CONTRATO Nº 23/2021, A SER FIRMADO COM ESTA SECRETARIA PELO PERÍODO DE 12 MESES;;;;;R$ 17.505.370,65"
     },
     {
-      "numero": "2019NE00003",
-      "contrato": "",
-      "valor": 488852.12,
+      "numero": "2023NE0000001",
+      "contrato": "2/2021",
+      "valor": 1480102.8,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 001/2019"
+      "data_emissao": "02/01/2023",
+      "descricao": "DESENVOLVIMENTO E MANUTENÇÃO DE SOFTWARE;SERVIÇO DE EXECUÇÃO DO SISTEMA PRODAMRH - FOLHA DE PESSOAL E CADASTRO DE SERVIDOR;COMPLEMENTO DE QB;2022NE4619;CT 2/2021;1° TERMO;R$ 3.552.246,72"
     },
     {
-      "numero": "2019NE00001",
-      "contrato": "2/2015",
-      "valor": 488852.12,
+      "numero": "2023NE0000013",
+      "contrato": "14/2018",
+      "valor": 9428517.0,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL DA SEDUC."
+      "data_emissao": "02/01/2023",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS PARA A MANUTENÇÃO OPERACIONAL, CORRETIVA E EVOLUTIVA DO SIGEAM REF AO 4º TERMO ADITIVO AO CONTRATO Nº 14/2018, FIRMADO COM ESTA SECRETARIA PELO PERÍODO DE 12 (DOZE) MESES, ;;;;; R$ 22.628.440,80"
     },
     {
       "numero": "2019NE00019",
@@ -2735,20 +2719,20 @@
       "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL DA SEDUC."
     },
     {
-      "numero": "2017NE00116",
+      "numero": "2019NE00001",
       "contrato": "2/2015",
-      "valor": 244425.99,
+      "valor": 488852.12,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "PARA ATENDER NOS SERVIÇOS DE PROCESSAMENTO DE DADOS DAS FOLHAS DE PAGAMENTO DE PESSOAL E CADASTRO DOS SERVIDORES DESTA SECRETARIA"
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE PROCESSAMENTO DO SISTEMA CFPP - CADASTRO E FOLHA DE PAGAMENTO DE PESSOAL DA SEDUC."
     },
     {
-      "numero": "2017NE00192",
-      "contrato": "128/2016",
-      "valor": 92810.82,
+      "numero": "2019NE00003",
+      "contrato": "",
+      "valor": 488852.12,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE PARA ATENDER A SECRETARIA DE ESTADO DE EDUCAÇÃO E QUALIDADE DO ENSINO"
+      "data_emissao": "02/01/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO Nº 001/2019"
     },
     {
       "numero": "2017NE00211",
@@ -2759,12 +2743,20 @@
       "descricao": "PROCESSAMENTO DE DADOS"
     },
     {
-      "numero": "2014NE00478",
-      "contrato": "156/2013",
-      "valor": 2400000.0,
+      "numero": "2017NE00192",
+      "contrato": "128/2016",
+      "valor": 92810.82,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 156/2013 - Serviços de Implantação da Rede de Comunicação sem fio WI FI"
+      "data_emissao": "02/01/2017",
+      "descricao": "CONTRATAÇÃO DOS SERVIÇOS DE DESENVOLVIMENTO E IMPLANTAÇÃO DE SOFTWARE PARA ATENDER A SECRETARIA DE ESTADO DE EDUCAÇÃO E QUALIDADE DO ENSINO"
+    },
+    {
+      "numero": "2017NE00116",
+      "contrato": "2/2015",
+      "valor": 244425.99,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "PARA ATENDER NOS SERVIÇOS DE PROCESSAMENTO DE DADOS DAS FOLHAS DE PAGAMENTO DE PESSOAL E CADASTRO DOS SERVIDORES DESTA SECRETARIA"
     },
     {
       "numero": "2014NE00458",
@@ -2773,6 +2765,14 @@
       "situacao": "Ativo",
       "data_emissao": "02/01/2014",
       "descricao": "Contrato No. 235/2010 - SIGEAM"
+    },
+    {
+      "numero": "2014NE00478",
+      "contrato": "156/2013",
+      "valor": 2400000.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 156/2013 - Serviços de Implantação da Rede de Comunicação sem fio WI FI"
     },
     {
       "numero": "2019NE03862",
@@ -5247,11 +5247,11 @@
         },
         "2022": {
           "qtd": 39,
-          "valor": 59828161.82000001
+          "valor": 59828161.820000015
         },
         "2017": {
           "qtd": 23,
-          "valor": 27912412.58
+          "valor": 27912412.580000002
         },
         "2019": {
           "qtd": 18,
@@ -5263,7 +5263,7 @@
         },
         "2024": {
           "qtd": 30,
-          "valor": 51769469.87000001
+          "valor": 51769469.87
         },
         "2018": {
           "qtd": 20,
@@ -5279,7 +5279,7 @@
         },
         "2025": {
           "qtd": 32,
-          "valor": 37122222.730000004
+          "valor": 37122222.73
         },
         "2015": {
           "qtd": 29,

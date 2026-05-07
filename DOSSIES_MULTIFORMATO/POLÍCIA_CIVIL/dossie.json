@@ -101,22 +101,1704 @@
     "d_plus_prescricao": -20,
     "tem_csv_faturas": false
   },
-  "empenhos": [],
-  "faturas": [],
-  "cobrancas": [],
+  "empenhos": [
+    {
+      "numero": "2017NE00652",
+      "contrato": "4/2017",
+      "valor": 170357.1,
+      "situacao": "Ativo",
+      "data_emissao": "31/08/2017",
+      "descricao": "PRESTAÇÃO DE SERV.DE INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DOS SIST.DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS CCCA, SIST.DE PROTOCOLO SPROWEB, SIST.DE PESSOAL DA PC SPPC, PREST.DE SERV.TÉCN.EM TELECOMUN.E SERV. EVENTUAIS DE INFORM.PARA ATENDER A PC."
+    },
+    {
+      "numero": "2014NE01164",
+      "contrato": "2/2011",
+      "valor": 212379.42,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2014",
+      "descricao": "Contrato No. 2/2011 - Process Sist CCCA - Cadastro Civil do Amazonas"
+    },
+    {
+      "numero": "2014NE00432",
+      "contrato": "2/2011",
+      "valor": 131953.68,
+      "situacao": "Ativo",
+      "data_emissao": "31/03/2014",
+      "descricao": "Contrato No. 2/2011 - Process Sist CCCA - Cadastro Civil do Amazonas"
+    },
+    {
+      "numero": "2019NE00911",
+      "contrato": "",
+      "valor": 0.55,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2019NE00913",
+      "contrato": "4/2017",
+      "valor": 1.1,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2019NE00910",
+      "contrato": "4/2017",
+      "valor": 1.65,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2019",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2018NE01040",
+      "contrato": "4/2017",
+      "valor": 22294.66,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01039",
+      "contrato": "8/2007",
+      "valor": 2302.86,
+      "situacao": "Ativo",
+      "data_emissao": "30/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2025NE0000347",
+      "contrato": "2/2022",
+      "valor": 215739.02,
+      "situacao": "Ativo",
+      "data_emissao": "30/04/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA P/ TENDER A PC/AM. TC: 0002/2022 AD: 03."
+    },
+    {
+      "numero": "2015NE01163",
+      "contrato": "2/2011",
+      "valor": 70793.42,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2015",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE01154",
+      "contrato": "7/2011",
+      "valor": 3477.7,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2015",
+      "descricao": "REF. PROCESSAMENTO DE DADOS."
+    },
+    {
+      "numero": "2015NE01159",
+      "contrato": "6/2011",
+      "valor": 7593.9,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2015",
+      "descricao": "PROCESSAMENTOS DE DADOS"
+    },
+    {
+      "numero": "2015NE01162",
+      "contrato": "16/2013",
+      "valor": 18492.51,
+      "situacao": "Ativo",
+      "data_emissao": "29/09/2015",
+      "descricao": "PROCESSAMENTOS DE DADOS"
+    },
+    {
+      "numero": "2018NE01586",
+      "contrato": "",
+      "valor": 22294.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "CANCELAMENTO DE SALDO DE EMPENHO A LIQUIDAR PARA AJUSTE ORÇAMENTÁRIO DE ENCERRAMENTO DO EXERCÍCIO DE 2018, EM CUMPRIMENTO AO ART. 42 DA LEI COMPLEMENTAR FEDERAL 101/2000 ( LEI DE RESPONSABILIDADE FISCAL)."
+    },
+    {
+      "numero": "2017NE00788",
+      "contrato": "4/2017",
+      "valor": 85178.55,
+      "situacao": "Ativo",
+      "data_emissao": "28/11/2017",
+      "descricao": "PRESTAÇÃO DE SERV.DE INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DOS SIST.DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS CCCA, SIST.DE PROTOCOLO SPROWEB, SIST.DE PESSOAL DA PC SPPC, PREST.DE SERV.TÉCN.EM TELECOMUN.E SERV. EVENTUAIS DE INFORM.PARA ATENDER A PC."
+    },
+    {
+      "numero": "2017NE00968",
+      "contrato": "",
+      "valor": 25558.81,
+      "situacao": "Ativo",
+      "data_emissao": "27/12/2017",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2023NE0000787",
+      "contrato": "2/2022",
+      "valor": 39783.95,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2023",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. PARECER Nº 131/202-AJ/PCAM TC: 002/2022 AD: 01."
+    },
+    {
+      "numero": "2023NE0000789",
+      "contrato": "2/2022",
+      "valor": 138391.91,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2023",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. PARECER Nº 131/202-AJ/PCAM TC: 002/2022 AD: 01."
+    },
+    {
+      "numero": "2018NE01025",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01028",
+      "contrato": "6/2011",
+      "valor": 2368.8,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01027",
+      "contrato": "7/2011",
+      "valor": 761.84,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01024",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01026",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2024NE0000105",
+      "contrato": "2/2022",
+      "valor": 46130.51,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. PARECER Nº 131/202-AJ/PCAM TC: 0002/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0001320",
+      "contrato": "",
+      "valor": 27802.8,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 235/2024, REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 02/2022, EM ATENDIMENTO AO DECRETO Nº 50.522, DE 22 DE OUTUBRO DE 2024, POR NÃO UTILIZAÇÃO DE SALDO PARA AJUSTE DO ENCERRAMENTO DO EXERCÍCIO 2024."
+    },
+    {
+      "numero": "2024NE0001321",
+      "contrato": "",
+      "valor": 4699.65,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2024",
+      "descricao": "ANULAÇÃO PARCIAL DA NE Nº 995/2024, REFERENTE AO 2º TERMO ADITIVO AO CONTRATO Nº 02/2022, EM ATENDIMENTO AO DECRETO Nº 50.522, DE 22 DE OUTUBRO DE 2024, POR NÃO UTILIZAÇÃO DE SALDO PARA AJUSTE DO ENCERRAMENTO DO EXERCÍCIO 2024."
+    },
+    {
+      "numero": "2018NE01555",
+      "contrato": "",
+      "valor": 5.4,
+      "situacao": "Ativo",
+      "data_emissao": "26/12/2018",
+      "descricao": "ANULAÇÃO PARCIAL."
+    },
+    {
+      "numero": "2019NE00781",
+      "contrato": "4/2017",
+      "valor": 92623.16,
+      "situacao": "Ativo",
+      "data_emissao": "26/11/2019",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWEB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2022NE0000886",
+      "contrato": "2/2022",
+      "valor": 415175.73,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2022",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS A EXECUÇÃO DOS SISTEMAS AM-CCCA, DE PROTOCOLO-SPROWEB, DE PESSOAL DA PC-SPPC, TÉCNICOS EM TELECOMUNICAÇÕES E DE INFORMATICA. PARA ATENDER AOS MESES DE JUN/JUL/AGO, REF. AO CONTRATO Nº 002/2022."
+    },
+    {
+      "numero": "2023NE0000786",
+      "contrato": "2/2022",
+      "valor": 39783.95,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2023",
+      "descricao": "ANULAÇÃO PARCIAL POR NÃO UTILIZAÇÃO DO SALDO DEVIDO AO TERMINO DO CONTRATO PRIMITIVO N° 02/2022."
+    },
+    {
+      "numero": "2018NE01014",
+      "contrato": "6/2011",
+      "valor": 66899.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00998",
+      "contrato": "6/2011",
+      "valor": 2557.25,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01018",
+      "contrato": "2/2011",
+      "valor": 66899.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01016",
+      "contrato": "2/2011",
+      "valor": 66899.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01002",
+      "contrato": "16/2013",
+      "valor": 18492.17,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01013",
+      "contrato": "2/2011",
+      "valor": 66899.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01019",
+      "contrato": "2/2011",
+      "valor": 66899.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01015",
+      "contrato": "2/2011",
+      "valor": 66899.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01005",
+      "contrato": "6/2011",
+      "valor": 5362.58,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01012",
+      "contrato": "P.238/2015",
+      "valor": 13008.48,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01009",
+      "contrato": "P.238/2015",
+      "valor": 12839.43,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01011",
+      "contrato": "P.238/2015",
+      "valor": 13126.77,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01000",
+      "contrato": "7/2011",
+      "valor": 3477.7,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01017",
+      "contrato": "2/2011",
+      "valor": 66899.52,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01007",
+      "contrato": "P.238/2015",
+      "valor": 91734.8,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01008",
+      "contrato": "2/2011",
+      "valor": 13091.17,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01010",
+      "contrato": "P.238/2015",
+      "valor": 13547.01,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01004",
+      "contrato": "6/2011",
+      "valor": 7593.9,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01006",
+      "contrato": "7/2011",
+      "valor": 5689.97,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01001",
+      "contrato": "16/2013",
+      "valor": 3130.14,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE01003",
+      "contrato": "P.238/2015",
+      "valor": 18492.17,
+      "situacao": "Ativo",
+      "data_emissao": "26/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00990",
+      "contrato": "7/2011",
+      "valor": 7313.51,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00982",
+      "contrato": "7/2007",
+      "valor": 63581.96,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados nos exercícios de 2010,2013,2014,2015 e 2016."
+    },
+    {
+      "numero": "2018NE00991",
+      "contrato": "6/2011",
+      "valor": 14750.04,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00992",
+      "contrato": "19/2014",
+      "valor": 460.55,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00984",
+      "contrato": "16/2013",
+      "valor": 18492.17,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00994",
+      "contrato": "16/2013",
+      "valor": 63687.03,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00986",
+      "contrato": "7/2011",
+      "valor": 1346.9,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2018NE00993",
+      "contrato": "2/2011",
+      "valor": 169392.65,
+      "situacao": "Ativo",
+      "data_emissao": "25/07/2018",
+      "descricao": "Exercícios anteriores em favor da PRODAM referente a serviços contratuais de processamento de dados."
+    },
+    {
+      "numero": "2025NE0000514",
+      "contrato": "2/2022",
+      "valor": 215739.02,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA P/ TENDER A PC/AM. TC: 0002/2022 AD: 03."
+    },
+    {
+      "numero": "2024NE0000758",
+      "contrato": "2/2022",
+      "valor": 269053.08,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2023NE0000384",
+      "contrato": "2/2022",
+      "valor": 276783.82,
+      "situacao": "Ativo",
+      "data_emissao": "25/04/2023",
+      "descricao": "CONTRATAÇÃO DE UMA EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA, PARA ATENDER A PC/AM."
+    },
+    {
+      "numero": "2024NE0000374",
+      "contrato": "2/2022",
+      "valor": 138391.91,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2024",
+      "descricao": "SERV. DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - SPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, CONF. 1°TA CT 02/2022, REF. AO MÊS DE OUTUBRO/2023. PARECER Nº 103/2024-AJ/PC/AM AS FLS. 56 A 62, DO PROCESSO Nº 01.01.022102.020953/2023-36."
+    },
+    {
+      "numero": "2024NE0000424",
+      "contrato": "",
+      "valor": 269053.08,
+      "situacao": "Ativo",
+      "data_emissao": "24/04/2024",
+      "descricao": "ANULAÇÃO PARCIAL PARA AJUSTE NA DESCRIÇÃO DOS ITENS."
+    },
+    {
+      "numero": "2024NE0000433",
+      "contrato": "2/2022",
+      "valor": 269053.08,
+      "situacao": "Ativo",
+      "data_emissao": "24/04/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2025NE0000074",
+      "contrato": "2/2022",
+      "valor": 44842.18,
+      "situacao": "Ativo",
+      "data_emissao": "24/02/2025",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2015NE00416",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2015",
+      "descricao": "CADASTRO CIVIL E CRIMINAL"
+    },
+    {
+      "numero": "2015NE00414",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2015",
+      "descricao": "CADASTRO CIVIL E CRIMINAL"
+    },
+    {
+      "numero": "2015NE00413",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2015",
+      "descricao": "SISTEMAS DE CADASTRO CIVIL"
+    },
+    {
+      "numero": "2015NE00415",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "23/03/2015",
+      "descricao": "CADASTRO CIVIL E CRIMINAL"
+    },
+    {
+      "numero": "2022NE0001435",
+      "contrato": "",
+      "valor": 27762.29,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL REFERENTE AO 5º TERMO ADITIVO AO CONTRATO Nº 004/2017 POR NÃO UTILIZAÇÃO DO SALDO."
+    },
+    {
+      "numero": "2015NE01331",
+      "contrato": "",
+      "valor": 18492.51,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01328",
+      "contrato": "",
+      "valor": 7593.9,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01302",
+      "contrato": "",
+      "valor": 18491.83,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01289",
+      "contrato": "",
+      "valor": 1387.9,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01292",
+      "contrato": "",
+      "valor": 286.05,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01326",
+      "contrato": "",
+      "valor": 3477.7,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01290",
+      "contrato": "",
+      "valor": 2100.49,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01291",
+      "contrato": "",
+      "valor": 830.71,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2025NE0000806",
+      "contrato": "2/2022",
+      "valor": 106307.77,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA P/ TENDER A PC/AM. TC: 0002/2022 AD: 03."
+    },
+    {
+      "numero": "2019NE00631",
+      "contrato": "4/2017",
+      "valor": 92623.16,
+      "situacao": "Ativo",
+      "data_emissao": "22/10/2019",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWEB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2023NE0000919",
+      "contrato": "2/2022",
+      "valor": 276783.82,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2023",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. PARECER Nº 131/202-AJ/PCAM TC: 002/2022 AD: 01."
+    },
+    {
+      "numero": "2018NE01134",
+      "contrato": "4/2017",
+      "valor": 713198.33,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2018",
+      "descricao": "CONTRATAÃ‡ÃƒO DE PRESTAÃ‡ÃƒO DE SERV.DE INFORM., COMPREENDENDO A EXECUÃ‡ÃƒO DOS SIST.DE CONTROLE DE CADSTRO CIVIL DO AM-CCCA,SIDT.DE PROTOCOLO-SPROWEB,SIST.DE PESSOAL DA PC-SPPC,PREST.DE SERV.TÃ‰CN.EM TELECOMUN.E SERV.EVENTUAIS DE INFORM.PARA ATENDER A PC"
+    },
+    {
+      "numero": "2018NE01133",
+      "contrato": "4/2017",
+      "valor": 195909.59,
+      "situacao": "Ativo",
+      "data_emissao": "22/08/2018",
+      "descricao": "PRESTAÃ‡ÃƒO DE SERV.DE INFORMÃTICA, COMPREENDENDO A EXECUÃ‡ÃƒO DOS SIST.DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS CCCA, SIST.DE PROTOCOLO SPROWEB, SIST.DE PESSOAL DA PC SPPC, PREST.DE SERV.TÃ‰CN.EM TELECOMUN.E SERV. EVENTUAIS DE INFORM.PARA ATENDER A PC."
+    },
+    {
+      "numero": "2024NE0000417",
+      "contrato": "2/2022",
+      "valor": 269053.08,
+      "situacao": "Ativo",
+      "data_emissao": "22/04/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2021NE0000504",
+      "contrato": "",
+      "valor": 29541.28,
+      "situacao": "Ativo",
+      "data_emissao": "21/10/2021",
+      "descricao": "ANULAÇÃO PARCIAL REFERENTE AO TÉRMINO DE VIGÊNCIA DO 3º TERMO ADITIVO AO CONTRATO Nº 005/2017."
+    },
+    {
+      "numero": "2022NE0000731",
+      "contrato": "2/2022",
+      "valor": 138391.91,
+      "situacao": "Ativo",
+      "data_emissao": "21/06/2022",
+      "descricao": "CONTRATAÇÃO DE UMA EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AM-CCCA, SISTEMA DE PROTOCOLO-SPROWEB, SISTEMA DE PESSOAL DA PC-SPPC, PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES E SERVIÇOS EVENTUAIS DE INFORMATICA ATENDER AS NECESSIDADES DA PC/AM."
+    },
+    {
+      "numero": "2021NE0000577",
+      "contrato": "",
+      "valor": 85.86,
+      "situacao": "Ativo",
+      "data_emissao": "19/11/2021",
+      "descricao": "ANULAÇÃO PARCIAL EM ATENDIMENTO AO 5º TERMO ADITIVO AO CONTRATO Nº 004/2017, QUE TRATA DO REALINHAMENTO E SUPRESÃO DO MESMO."
+    },
+    {
+      "numero": "2014NE00685",
+      "contrato": "16/2013",
+      "valor": 35116.14,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2014",
+      "descricao": "Contrato No. 16/2013 - Acesso Comp Central/Internet em 5 Mbps e Firewall AKER"
+    },
+    {
+      "numero": "2014NE00686",
+      "contrato": "7/2011",
+      "valor": 6750.24,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2014",
+      "descricao": "Contrato No. 7/2011 - Processamento Sistema Controle de Pessoal - CPPC"
+    },
+    {
+      "numero": "2014NE00659",
+      "contrato": "6/2011",
+      "valor": 6263.4,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2014",
+      "descricao": "Contrato No. 6/2011 - Cessão de uso do Sistema de Protocolo-SPROWEB (06/11)"
+    },
+    {
+      "numero": "2014NE00666",
+      "contrato": "2/2011",
+      "valor": 65976.84,
+      "situacao": "Ativo",
+      "data_emissao": "19/05/2014",
+      "descricao": "Contrato No. 2/2011 - Process Sist CCCA - Cadastro Civil do Amazonas"
+    },
+    {
+      "numero": "2018NE01095",
+      "contrato": "",
+      "valor": 2302.86,
+      "situacao": "Ativo",
+      "data_emissao": "17/08/2018",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2024NE0000510",
+      "contrato": "2/2022",
+      "valor": 138391.91,
+      "situacao": "Ativo",
+      "data_emissao": "17/05/2024",
+      "descricao": "SERV. DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS -CCCA, SISTEMAS DE PROTOCOLO - SPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, CONF. 1°TA CT 02/2022, REF. AO MÊS DE DEZEMBRO/2023. PARECER N° 139/2024-AJ/PC, ÀS FLS. 50 A 55. PROCESSO N° 01.01.022102.002389/2024-50"
+    },
+    {
+      "numero": "2015NE00539",
+      "contrato": "16/2013",
+      "valor": 36984.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/04/2015",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE00537",
+      "contrato": "2/2011",
+      "valor": 141586.0,
+      "situacao": "Ativo",
+      "data_emissao": "17/04/2015",
+      "descricao": "processamento de dados"
+    },
+    {
+      "numero": "2025NE0000234",
+      "contrato": "2/2022",
+      "valor": 129826.89,
+      "situacao": "Ativo",
+      "data_emissao": "17/03/2025",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM."
+    },
+    {
+      "numero": "2014NE01139",
+      "contrato": "19/2014",
+      "valor": 15657.26,
+      "situacao": "Ativo",
+      "data_emissao": "15/07/2014",
+      "descricao": "Contrato No. 19/2014"
+    },
+    {
+      "numero": "2019NE00737",
+      "contrato": "4/2017",
+      "valor": 92623.16,
+      "situacao": "Ativo",
+      "data_emissao": "14/11/2019",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWEB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2018NE01079",
+      "contrato": "",
+      "valor": 195909.59,
+      "situacao": "Ativo",
+      "data_emissao": "14/08/2018",
+      "descricao": "anulação total do saldo da NE 00078/2018 de 02/01/2018, para - Regularização contábil para correção da natureza de despesa empenhada. (Orientação Técnica GINS n° 12/2018 e Portaria Conjunta n°2 STN que altera da Portaria Interministerial STN/SOF n° 163/2001)"
+    },
+    {
+      "numero": "2018NE01094",
+      "contrato": "",
+      "valor": 713198.33,
+      "situacao": "Ativo",
+      "data_emissao": "14/08/2018",
+      "descricao": "Anulação Total da NE 306/18 de 10/03/2018 para Regularização contábil para correção da natureza de despesa empenhada. (Orientação Técnica GINS n° 12/2018 e Portaria Conjunta n°2 STN que altera da Portaria Interministerial STN/SOF n° 163/2001)"
+    },
+    {
+      "numero": "2017NE00873",
+      "contrato": "4/2017",
+      "valor": 85178.55,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2017",
+      "descricao": "PRESTAÇÃO DE SERV.DE INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DOS SIST.DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS CCCA, SIST.DE PROTOCOLO SPROWEB, SIST.DE PESSOAL DA PC SPPC, PREST.DE SERV.TÉCN.EM TELECOMUN.E SERV. EVENTUAIS DE INFORM.PARA ATENDER A PC."
+    },
+    {
+      "numero": "2016NE00563",
+      "contrato": "2/2011",
+      "valor": 334497.6,
+      "situacao": "Ativo",
+      "data_emissao": "12/12/2016",
+      "descricao": "REFERENTE PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2021NE0000543",
+      "contrato": "4/2017",
+      "valor": 92623.16,
+      "situacao": "Ativo",
+      "data_emissao": "11/11/2021",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - EPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESATÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2021NE0000409",
+      "contrato": "4/2017",
+      "valor": 185246.32,
+      "situacao": "Ativo",
+      "data_emissao": "10/09/2021",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - EPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESATÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2016NE00283",
+      "contrato": "",
+      "valor": 334497.6,
+      "situacao": "Ativo",
+      "data_emissao": "10/06/2016",
+      "descricao": "ANALAÇÃO TOTAL"
+    },
+    {
+      "numero": "2025NE0000118",
+      "contrato": "2/2022",
+      "valor": 179782.52,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA P/ TENDER A PC/AM. TC: 0002/2022 AD: 03."
+    },
+    {
+      "numero": "2023NE0000103",
+      "contrato": "2/2022",
+      "valor": 230653.31,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2023",
+      "descricao": "PARA ATENDER AO 1º TA AO CT 02/2022, VIGÊNCIA 10/03/2023 A 10/03/2024, REF. CONTRATAÇÃO DE UMA EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA, PARA ATENDER A PC/AM."
+    },
+    {
+      "numero": "2018NE00306",
+      "contrato": "4/2017",
+      "valor": 713198.33,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2018",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERV.DE INFORM., COMPREENDENDO A EXECUÇÃO DOS SIST.DE CONTROLE DE CADSTRO CIVIL DO AM-CCCA,SIDT.DE PROTOCOLO-SPROWEB,SIST.DE PESSOAL DA PC-SPPC,PREST.DE SERV.TÉCN.EM TELECOMUN.E SERV.EVENTUAIS DE INFORM.PARA ATENDER A PC"
+    },
+    {
+      "numero": "2017NE00173",
+      "contrato": "4/2017",
+      "valor": 170357.1,
+      "situacao": "Ativo",
+      "data_emissao": "10/03/2017",
+      "descricao": "PRESTAÇÃO DE SERV.DE INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DOS SIST.DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS CCCA, SIST.DE PROTOCOLO SPROWEB, SIST.DE PESSOAL DA PC SPPC, PREST.DE SERV.TÉCN.EM TELECOMUN.E SERV. EVENTUAIS DE INFORM.PARA ATENDER A PC."
+    },
+    {
+      "numero": "2025NE0000758",
+      "contrato": "2/2022",
+      "valor": 107869.51,
+      "situacao": "Ativo",
+      "data_emissao": "09/10/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA P/ TENDER A PC/AM. TC: 0002/2022 AD: 03."
+    },
+    {
+      "numero": "2022NE0000150",
+      "contrato": "2/2022",
+      "valor": 92261.4,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2022",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - SPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2021NE0000081",
+      "contrato": "4/2017",
+      "valor": 157459.37,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2021",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - EPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESATÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2020NE00100",
+      "contrato": "4/2017",
+      "valor": 898444.65,
+      "situacao": "Ativo",
+      "data_emissao": "09/03/2020",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWEB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EME TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2025NE0000755",
+      "contrato": "",
+      "valor": 108178.94,
+      "situacao": "Ativo",
+      "data_emissao": "08/10/2025",
+      "descricao": "ANULAÇÃO TOTAL DA NOTA DE EMPENHO N°005/2025, REFERENTE AO TÉRMINO DE VIGÊNCIA DO 2° TERMO ADITIVO AO CONTRATO 002/2022."
+    },
+    {
+      "numero": "2019NE00447",
+      "contrato": "",
+      "valor": 277869.48,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2019",
+      "descricao": "ANULAÇÃO TOTAL DA NE 445/19 - ERRO NA REFERÊNCIA."
+    },
+    {
+      "numero": "2019NE00448",
+      "contrato": "4/2017",
+      "valor": 277869.48,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2019",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWEB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2014NE01183",
+      "contrato": "16/2013",
+      "valor": 51348.42,
+      "situacao": "Ativo",
+      "data_emissao": "08/08/2014",
+      "descricao": "Contrato No. 16/2013 - Acesso Comp Central/Internet em 5 Mbps e Firewall AKER"
+    },
+    {
+      "numero": "2019NE00445",
+      "contrato": "4/2017",
+      "valor": 277869.48,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2019",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWEB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2016NE00282",
+      "contrato": "2/2011",
+      "valor": 334497.6,
+      "situacao": "Ativo",
+      "data_emissao": "07/06/2016",
+      "descricao": "CONTRATAÇÃO DE SERVIÇOS DE PROCESSAMENTO DE DADOS EM SISTEMA DE CONTROLE DE CADASTRO CIVIL E CRIMINAL, 5º TERMO ADITIVO AO CONTRATO Nº 02/11, MESES DE JANEIRO A MAIO/2016"
+    },
+    {
+      "numero": "2024NE0000235",
+      "contrato": "2/2022",
+      "valor": 224210.9,
+      "situacao": "Ativo",
+      "data_emissao": "07/03/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2021NE0000459",
+      "contrato": "4/2017",
+      "valor": 92623.16,
+      "situacao": "Ativo",
+      "data_emissao": "06/10/2021",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - EPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESATÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2018NE01045",
+      "contrato": "",
+      "valor": 1.1,
+      "situacao": "Ativo",
+      "data_emissao": "06/08/2018",
+      "descricao": "ANULAÇÃO TOTAL"
+    },
+    {
+      "numero": "2021NE0000292",
+      "contrato": "4/2017",
+      "valor": 185246.32,
+      "situacao": "Ativo",
+      "data_emissao": "06/07/2021",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - EPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESATÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2024NE0000478",
+      "contrato": "2/2022",
+      "valor": 138391.91,
+      "situacao": "Ativo",
+      "data_emissao": "06/05/2024",
+      "descricao": "SERV. DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - SPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES, CONF. 1°TA CT 02/2022, REF. AO MÊS DE NOVEMBRO/2023. PARECER N° 349/2024-AJ/PC, ÀS FLS. 70 A 77. PROCESSO N° 01.01.022102.022561/2023-01."
+    },
+    {
+      "numero": "2021NE0000195",
+      "contrato": "4/2017",
+      "valor": 185246.32,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2021",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - EPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESATÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2022NE0000481",
+      "contrato": "2/2022",
+      "valor": 138391.91,
+      "situacao": "Ativo",
+      "data_emissao": "05/04/2022",
+      "descricao": "CONTRATAÇÃO DE UMA EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AM-CCCA, SISTEMA DE PROTOCOLO-SPROWEB, SISTEMA DE PESSOAL DA PC-SPPC, PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES E SERVIÇOS EVENTUAIS DE INFORMATICA ATENDER AS NECESSIDADES DA PC/AM."
+    },
+    {
+      "numero": "2015NE00020",
+      "contrato": "16/2013",
+      "valor": 18492.17,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2015NE00013",
+      "contrato": "19/2014",
+      "valor": 2500.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Ref. a serviços de processamentos de dados."
+    },
+    {
+      "numero": "2015NE00012",
+      "contrato": "19/2014",
+      "valor": 1387.9,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Ref. a serviços de processamento de dados"
+    },
+    {
+      "numero": "2015NE00023",
+      "contrato": "7/2011",
+      "valor": 3539.82,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2015NE00014",
+      "contrato": "2/2011",
+      "valor": 70793.14,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "PROCESSAMENTO DE DADOS"
+    },
+    {
+      "numero": "2015NE00017",
+      "contrato": "6/2011",
+      "valor": 3284.53,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
+    },
+    {
+      "numero": "2022NE0001059",
+      "contrato": "2/2022",
+      "valor": 276783.82,
+      "situacao": "Ativo",
+      "data_emissao": "04/10/2022",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS A EXECUÇÃO DOS SISTEMAS AM-CCCA, DE PROTOCOLO-SPROWEB, DE PESSOAL DA PC-SPPC, TÉCNICOS EM TELECOMUNICAÇÕES E DE INFORMATICA. PARA ATENDER AOS MESES DE SET E OUT/2022."
+    },
+    {
+      "numero": "2024NE0000995",
+      "contrato": "2/2022",
+      "valor": 134526.54,
+      "situacao": "Ativo",
+      "data_emissao": "04/09/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2021NE0000001",
+      "contrato": "4/2017",
+      "valor": 213033.27,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWEB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EME TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2026NE0000084",
+      "contrato": "2/2022",
+      "valor": 179782.52,
+      "situacao": "Ativo",
+      "data_emissao": "03/03/2026",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA P/ TENDER A PC/AM. TC: 0002/2022 AD: 04."
+    },
+    {
+      "numero": "2022NE0000042",
+      "contrato": "4/2017",
+      "valor": 212835.79,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "SERVIÇO DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - SPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES"
+    },
+    {
+      "numero": "2025NE0000669",
+      "contrato": "2/2022",
+      "valor": 107869.51,
+      "situacao": "Ativo",
+      "data_emissao": "02/09/2025",
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA P/ TENDER A PC/AM. TC: 0002/2022 AD: 03."
+    },
+    {
+      "numero": "2022NE0000621",
+      "contrato": "2/2022",
+      "valor": 4612.86,
+      "situacao": "Ativo",
+      "data_emissao": "02/06/2022",
+      "descricao": "PRESTAÇÃO DE SERVIÇOS A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AM-CCCA, SISTEMA DE PROTOCOLO-SPROWEB, SISTEMA DE PESSOAL DA PC-SPPC, PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES E SERVIÇOS EVENTUAIS DE INFORMATICA ATENDER AS NECESSIDADES DA PC/AM."
+    },
+    {
+      "numero": "2017NE00271",
+      "contrato": "4/2017",
+      "valor": 340714.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/05/2017",
+      "descricao": "REFERENTE SERVIÇOS DE INFORMÁTICA"
+    },
+    {
+      "numero": "2025NE0000005",
+      "contrato": "2/2022",
+      "valor": 269053.08,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2024NE0000049",
+      "contrato": "2/2022",
+      "valor": 276783.82,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. PARECER Nº 131/202-AJ/PCAM TC: 0002/2022 AD: 01."
+    },
+    {
+      "numero": "2024NE0000048",
+      "contrato": "",
+      "valor": 207588.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 004/2024, EM ATENDIMENTO AO PARECER Nº 97/2024 ? PJ/PC/AM, ÀS FLS. 177 A 180 DO PROCESSO SIGED Nº 016449/2023-31."
+    },
+    {
+      "numero": "2024NE0000004",
+      "contrato": "2/2022",
+      "valor": 207588.88,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "SERV. DE INFORMÁTICA, EXEC. DOS SIST. DE CONTROLE DE CADASTRO CIVIL DO AM; SIST. DE PROT SPROWEB, SIST. DE PESSOAL DA PC SPPC, PREST. DE SERV. TÉC. EM TELEC. E SERV. EVENTUAIS DE INFORMÁTICA, PARA ATENDER A PC/AM. TC: 0002/2022 AD: 02."
+    },
+    {
+      "numero": "2023NE0000014",
+      "contrato": "2/2022",
+      "valor": 322914.33,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2023",
+      "descricao": "SERV. DE INFORMÁTICA COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO ESTADO DO AMAZONAS - CCCA, SISTEMAS DE PROTOCOLO - SPROWEB, SISTEMAS DE PESSOAL DA POLICIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2020NE00001",
+      "contrato": "4/2017",
+      "valor": 213033.27,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2019NE00001",
+      "contrato": "4/2017",
+      "valor": 213033.27,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "CONTRATAÇÃO DE PRESTAÇÃO DE SERV.DE INFORM., COMPREENDENDO A EXECUÇÃO DOS SIST.DE CONTROLE DE CADSTRO CIVIL DO AM-CCCA,SIDT.DE PROTOCOLO-SPROWEB,SIST.DE PESSOAL DA PC-SPPC,PREST.DE SERV.TÉCN.EM TELECOMUN.E SERV.EVENTUAIS DE INFORM.PARA ATENDER A PC"
+    },
+    {
+      "numero": "2018NE00078",
+      "contrato": "4/2017",
+      "valor": 195910.69,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "PRESTAÇÃO DE SERV.DE INFORMÁTICA, COMPREENDENDO A EXECUÇÃO DOS SIST.DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS CCCA, SIST.DE PROTOCOLO SPROWEB, SIST.DE PESSOAL DA PC SPPC, PREST.DE SERV.TÉCN.EM TELECOMUN.E SERV. EVENTUAIS DE INFORM.PARA ATENDER A PC."
+    },
+    {
+      "numero": "2014NE00065",
+      "contrato": "2/2011",
+      "valor": 131953.68,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 2/2011 - Process Sist CCCA - Cadastro Civil do Amazonas"
+    },
+    {
+      "numero": "2014NE00035",
+      "contrato": "6/2011",
+      "valor": 6263.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 6/2011 - Cessão de uso do Sistema de Protocolo-SPROWEB (06/11)"
+    },
+    {
+      "numero": "2014NE00034",
+      "contrato": "7/2011",
+      "valor": 6750.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 7/2011 - Processamento Sistema Controle de Pessoal - CPPC"
+    },
+    {
+      "numero": "2014NE00036",
+      "contrato": "16/2013",
+      "valor": 35116.14,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 16/2013 - Acesso Comp Central/Internet em 5 Mbps e Firewall AKER"
+    },
+    {
+      "numero": "2015NE01259",
+      "contrato": "",
+      "valor": 70792.86,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2015NE01264",
+      "contrato": "",
+      "valor": 70793.42,
+      "situacao": "Ativo",
+      "data_emissao": "01/12/2015",
+      "descricao": "ANULAÇÃO DE EMPENHO PARA AJUSTE ORÇAMENTÁRIO NO EXERCÍCIO DE 2015"
+    },
+    {
+      "numero": "2014NE01205",
+      "contrato": "23/2014",
+      "valor": 6169.59,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2014",
+      "descricao": "Contrato No. 23/2014"
+    },
+    {
+      "numero": "2019NE00163",
+      "contrato": "4/2017",
+      "valor": 277869.48,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2019",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    },
+    {
+      "numero": "2019NE00123",
+      "contrato": "4/2017",
+      "valor": 64836.21,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2019",
+      "descricao": "SERVIÇOS DE INFORMÁTICAS COMPREENDENDO A EXECUÇÃO DOS SISTEMAS DE CONTROLE DE CADASTRO CIVIL DO AMAZONAS - CCCA, SISTEMA DE PROTOCOLO - SPROWB, SISTEMA DE PESSOAL DA POLÍCIA CIVIL - SPPC E PRESTAÇÃO DE SERVIÇOS TÉCNICOS EM TELECOMUNICAÇÕES."
+    }
+  ],
+  "faturas": [
+    {
+      "id": "137923",
+      "nf": "34482",
+      "contrato": "2/2022",
+      "valor_bruto": 115821.4,
+      "competencia": "12/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "137170",
+      "nf": "33692",
+      "contrato": "2/2022",
+      "valor_bruto": 115703.2,
+      "competencia": "11/2022",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "155102",
+      "nf": "50245",
+      "contrato": "2/2022",
+      "valor_bruto": 83477.38,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "107937",
+      "nf": "5881",
+      "contrato": "4/2017",
+      "valor_bruto": 71298.16,
+      "competencia": "12/2018",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 143
+    },
+    {
+      "id": "107292",
+      "nf": "5303",
+      "contrato": "4/2017",
+      "valor_bruto": 71190.44,
+      "competencia": "11/2018",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 143
+    },
+    {
+      "id": "156047",
+      "nf": "51233",
+      "contrato": "2/2022",
+      "valor_bruto": 70129.59,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "167388",
+      "nf": "1670",
+      "contrato": "2/2022",
+      "valor_bruto": 52391.54,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "154904",
+      "nf": "50244",
+      "contrato": "2/2022",
+      "valor_bruto": 10136.76,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "155437",
+      "nf": "51237",
+      "contrato": "2/2022",
+      "valor_bruto": 10136.76,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "154905",
+      "nf": "50248",
+      "contrato": "2/2022",
+      "valor_bruto": 6360.23,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "155438",
+      "nf": "51236",
+      "contrato": "2/2022",
+      "valor_bruto": 6360.23,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "167390",
+      "nf": "1669",
+      "contrato": "2/2022",
+      "valor_bruto": 4641.0,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "155987",
+      "nf": "51234",
+      "contrato": "2/2022",
+      "valor_bruto": 1653.5,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "154805",
+      "nf": "50246",
+      "contrato": "2/2022",
+      "valor_bruto": 1634.04,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "167387",
+      "nf": "1671",
+      "contrato": "2/2022",
+      "valor_bruto": 1425.39,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "154906",
+      "nf": "50247",
+      "contrato": "2/2022",
+      "valor_bruto": 1167.84,
+      "competencia": "11/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "155439",
+      "nf": "51235",
+      "contrato": "2/2022",
+      "valor_bruto": 1167.84,
+      "competencia": "12/2024",
+      "situacao": "Emitida",
+      "cadeia": "COMPLETA",
+      "empenhos_vinc": 59
+    },
+    {
+      "id": "167389",
+      "nf": "1672",
+      "contrato": "2/2022",
+      "valor_bruto": 872.67,
+      "competencia": "03/2026",
+      "situacao": "Emitida",
+      "cadeia": "FORTE",
+      "empenhos_vinc": 59
+    }
+  ],
+  "cobrancas": [
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "004/2017",
+      "Número": "107292",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/107292/E",
+      "Comp.": "11/2018",
+      "Valor": "71.190,44",
+      "Atraso": "2661 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "004/2017",
+      "Número": "107937",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/107937/E",
+      "Comp.": "12/2018",
+      "Valor": "71.298,16",
+      "Atraso": "2632 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "137170",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137170/E",
+      "Comp.": "11/2022",
+      "Valor": "115.703,20",
+      "Atraso": "1203 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "137923",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/137923/E",
+      "Comp.": "12/2022",
+      "Valor": "115.821,40",
+      "Atraso": "1172 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2022",
+      "Número": "154904",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154904/E",
+      "Comp.": "11/2024",
+      "Valor": "10.136,76",
+      "Atraso": "472 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "155102",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155102/E",
+      "Comp.": "11/2024",
+      "Valor": "83.477,38",
+      "Atraso": "472 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "154805",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154805/E",
+      "Comp.": "11/2024",
+      "Valor": "1.634,04",
+      "Atraso": "472 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "002/2022",
+      "Número": "154905",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154905/E",
+      "Comp.": "11/2024",
+      "Valor": "6.360,23",
+      "Atraso": "472 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "154906",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/154906/E",
+      "Comp.": "11/2024",
+      "Valor": "1.167,84",
+      "Atraso": "472 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "155987",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155987/E",
+      "Comp.": "12/2024",
+      "Valor": "1.653,50",
+      "Atraso": "441 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "155439",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155439/E",
+      "Comp.": "12/2024",
+      "Valor": "1.167,84",
+      "Atraso": "441 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Gestão de Segurança e Ativos de Rede",
+      "Contrato": "002/2022",
+      "Número": "155438",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155438/E",
+      "Comp.": "12/2024",
+      "Valor": "6.360,23",
+      "Atraso": "441 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "002/2022",
+      "Número": "156047",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/156047/E",
+      "Comp.": "12/2024",
+      "Valor": "70.129,59",
+      "Atraso": "441 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    },
+    {
+      "Cliente": "POLICIA CIVIL",
+      "Serviços": "Acesso Gerenciado à Rede Mundial",
+      "Contrato": "002/2022",
+      "Número": "155437",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/155437/E",
+      "Comp.": "12/2024",
+      "Valor": "10.136,76",
+      "Atraso": "441 dias",
+      "Corrigido": "0,00",
+      "Status": "Suspenso",
+      "Ações": "TramitarReverter Status"
+    }
+  ],
   "stats": {
     "empenhos": {
-      "qtd": 0,
-      "valor_total": 0,
-      "por_ano": {}
+      "qtd": 158,
+      "valor_total": 18307206.98,
+      "por_ano": {
+        "2017": {
+          "qtd": 6,
+          "valor": 877344.31
+        },
+        "2014": {
+          "qtd": 13,
+          "valor": 711698.4500000001
+        },
+        "2019": {
+          "qtd": 12,
+          "valor": 1667220.18
+        },
+        "2018": {
+          "qtd": 46,
+          "valor": 4021501.4499999997
+        },
+        "2025": {
+          "qtd": 10,
+          "valor": 1485208.4400000002
+        },
+        "2015": {
+          "qtd": 26,
+          "valor": 856345.0200000003
+        },
+        "2023": {
+          "qtd": 7,
+          "valor": 1325095.09
+        },
+        "2024": {
+          "qtd": 15,
+          "valor": 2620720.03
+        },
+        "2022": {
+          "qtd": 8,
+          "valor": 1306215.7100000002
+        },
+        "2021": {
+          "qtd": 9,
+          "valor": 1141105.06
+        },
+        "2016": {
+          "qtd": 3,
+          "valor": 1003492.7999999999
+        },
+        "2020": {
+          "qtd": 2,
+          "valor": 1111477.92
+        },
+        "2026": {
+          "qtd": 1,
+          "valor": 179782.52
+        }
+      }
     },
     "faturas": {
-      "qtd": 0,
-      "valor_total": 0
+      "qtd": 18,
+      "valor_total": 625567.97
     },
     "cobrancas": {
-      "qtd": 0,
-      "valor_total": 0.0
+      "qtd": 14,
+      "valor_total": 566237.37
     }
   }
 }

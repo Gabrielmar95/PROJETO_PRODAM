@@ -17,7 +17,7 @@ tr:hover{background:#fafafa}
 canvas{max-height:300px}
 </style></head><body>
 <h1>Dossiê Completo — FAAR/SEDEL</h1>
-<p><b>Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico</b> | GOV_INDIRETA | CNPJ: 35.933.557/0001-60 | Data: 2026-04-14</p>
+<p><b>Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico</b> | GOV_INDIRETA | CNPJ: 35.933.557/0001-60 | Data: 2026-05-07</p>
 
 <div class="grid">
 <div class="card"><div class="label">Força</div><div class="kpi fraca">FRACA</div></div>
@@ -26,7 +26,7 @@ canvas{max-height:300px}
 <div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 1.472.879,25</div></div>
 <div class="card"><div class="label">Faturas exig.</div><div class="kpi">113</div></div>
 <div class="card"><div class="label">Faturas prescr.</div><div class="kpi">108</div></div>
-<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">94</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">155</div></div>
 <div class="card"><div class="label">Prob. recup.</div><div class="kpi">30%</div></div>
 </div>
 
@@ -36,15 +36,15 @@ canvas{max-height:300px}
 <h2>Top 10 Empenhos (por valor)</h2>
 <table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
 <tr><td>2022NE0000363</td><td>26/2021</td><td>29/08/2022</td><td>R$ 164.431,28</td><td>Ativo</td></tr>
+<tr><td>2026NE0000003</td><td>26/2021</td><td>05/01/2026</td><td>R$ 84.701,12</td><td>Ativo</td></tr>
 <tr><td>2020NE00054</td><td>2/2020</td><td>17/06/2020</td><td>R$ 53.901,60</td><td>Ativo</td></tr>
+<tr><td>2025NE0000506</td><td>7/2025</td><td>27/11/2025</td><td>R$ 49.630,55</td><td>Ativo</td></tr>
 <tr><td>2023NE0000031</td><td>26/2021</td><td>25/01/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
 <tr><td>2023NE0000011</td><td></td><td>24/01/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
 <tr><td>2023NE00031</td><td>26/2021</td><td>15/02/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
 <tr><td>2023NE0000005</td><td>26/2021</td><td>02/01/2023</td><td>R$ 45.251,16</td><td>Ativo</td></tr>
-<tr><td>2021NE00434</td><td>26/2021</td><td>21/10/2021</td><td>R$ 43.555,02</td><td>Ativo</td></tr>
 <tr><td>2021NE0000434</td><td></td><td>21/10/2021</td><td>R$ 43.555,02</td><td>Ativo</td></tr>
-<tr><td>2022NE0000388</td><td>26/2021</td><td>21/09/2022</td><td>R$ 41.107,82</td><td>Ativo</td></tr>
-<tr><td>2021NE0000002</td><td>2/2020</td><td>04/01/2021</td><td>R$ 35.934,40</td><td>Ativo</td></tr>
+<tr><td>2021NE00434</td><td>26/2021</td><td>21/10/2021</td><td>R$ 43.555,02</td><td>Ativo</td></tr>
 </table>
 <h2>Top 10 Faturas</h2>
 <table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>139491</td><td>35978</td><td>26/2021</td><td>03/2023</td><td>R$ 14.017,20</td><td>Emitida</td><td>COMPLETA</td></tr>
@@ -65,9 +65,9 @@ canvas{max-height:300px}
 <script>
 new Chart(document.getElementById('empAno'),{
   type:'bar',
-  data:{labels:["2020", "2021", "2022", "2023"],datasets:[
-    {label:'Qtd',data:[5, 29, 32, 28],yAxisID:'y',backgroundColor:'#1F3864'},
-    {label:'Valor R$',data:[85775.34000000001, 361422.6999999999, 490809.73999999993, 334720.07999999996],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  data:{labels:["2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[5, 29, 32, 28, 24, 34, 3],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[85775.34000000001, 361422.6999999999, 490809.73999999993, 334720.0799999999, 394060.5199999999, 678579.3400000002, 101335.75999999998],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
   ]},
   options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
 });

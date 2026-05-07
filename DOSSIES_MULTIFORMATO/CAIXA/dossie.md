@@ -1,6 +1,6 @@
 # Dossiê Completo — CAIXA
 **Caixa Econômica Federal** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 00.360.305/0001-04
+Data: 2026-05-07 | CNPJ: 00.360.305/0001-04
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 00.360.305/0001-04
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 844.328,88 |
 | Valor atualizado (profile) | R$ 844.328,88 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 60 |
+| Faturas exigíveis | 60 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 126.649,33 |
@@ -65,4 +65,4 @@ Valor original R$ 844,328.88 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

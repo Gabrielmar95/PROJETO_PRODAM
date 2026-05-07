@@ -1,5 +1,5 @@
 # Auditoria de Completude — ARSEPAM
-**Agência Reguladora de Serviços Públicos do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Agência Reguladora de Serviços Públicos do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,11 +47,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 49618.85205354253
-- **db_faturas:** 30809.93
-- **delta:** 18808.92205354253
-- **pct:** 37.9%
-
+_Nenhuma divergência significativa detectada_

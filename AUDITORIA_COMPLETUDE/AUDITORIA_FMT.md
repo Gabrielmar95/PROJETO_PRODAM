@@ -1,5 +1,5 @@
 # Auditoria de Completude — FMT
-**Fundação de Medicina Tropical do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação de Medicina Tropical do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,11 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (1)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 272130.6793465254
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 37113.10
 - **db_faturas:** 23228.19
-- **delta:** 248902.4893465254
-- **pct:** 91.5%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 41
-- **db:** 3
-- **delta:** 38
+- **delta:** 13884.91
+- **pct:** 37.4%
 

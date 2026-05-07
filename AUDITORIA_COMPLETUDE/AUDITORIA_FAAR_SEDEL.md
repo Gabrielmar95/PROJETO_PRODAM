@@ -1,5 +1,5 @@
 # Auditoria de Completude — FAAR/SEDEL
-**Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **27.3%**
 
@@ -51,14 +51,14 @@
 
 ## Divergências (2)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 734498.9430028957
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 104811.74
 - **db_faturas:** 364632.44
-- **delta:** 369866.5030028957
-- **pct:** 50.4%
+- **delta:** 259820.70
+- **pct:** 247.9%
 
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 113
+### Tipo: `faturas_aberto_qtd_profile_vs_db`
+- **profile:** 23
 - **db:** 72
-- **delta:** 41
+- **delta:** 49
 

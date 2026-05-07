@@ -1,5 +1,5 @@
 # Auditoria de Completude — FCECON
-**Fundação Centro de Educação Tecnológica do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação Centro de Educação Tecnológica do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 637106.6794919234
-- **db_faturas:** 68362.95
-- **delta:** 568743.7294919234
-- **pct:** 89.3%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 85
-- **db:** 11
-- **delta:** 74
-
+_Nenhuma divergência significativa detectada_

@@ -1,5 +1,5 @@
 # Auditoria de Completude — ADAF
-**Agência de Defesa Agropecuária e Florestal do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Agência de Defesa Agropecuária e Florestal do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,10 +47,16 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (2)
 
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 44
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 150294.16
+- **db_faturas:** 122182.04
+- **delta:** 28112.12
+- **pct:** 18.7%
+
+### Tipo: `faturas_aberto_qtd_profile_vs_db`
+- **profile:** 39
 - **db:** 27
-- **delta:** 17
+- **delta:** 12
 

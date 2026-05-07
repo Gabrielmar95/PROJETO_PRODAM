@@ -6,7 +6,7 @@
     "fonte": "SPCF_EXAUSTIVO_ABR2026",
     "data_inclusao": "2026-04-01",
     "val_orig": "0",
-    "val_exig": "0",
+    "val_exig": 20927.09,
     "categoria": "GOV_DIRETA",
     "forca_probatoria": "FRACA",
     "proximo_passo": "CLASSIFICAR",
@@ -40,17 +40,21 @@
     "reconciliacao_status": "CRITICAL",
     "reconciliacao_data": "2026-04-01",
     "reconciliacao_divergencia_pct": 100.0,
-    "tem_csv_faturas": false
+    "tem_csv_faturas": false,
+    "cnpj": "19.371.471/0001-34",
+    "fonte_cnpj": "consultacnpj.com — Casa Civil do Governo do AM",
+    "faturas_total": 4,
+    "faturas_exigiveis": 4,
+    "faturas_prescritas": 0,
+    "ultima_reconciliacao_orfao": "2026-04-14",
+    "matches_db_fatura": [
+      "CASA CIVIL"
+    ],
+    "matches_db_empenho": [
+      "CASA CIVIL"
+    ]
   },
   "empenhos": [
-    {
-      "numero": "2020NE00721",
-      "contrato": "",
-      "valor": 7712.31,
-      "situacao": "Ativo",
-      "data_emissao": "31/12/2020",
-      "descricao": "Anulação da NE nº 00020/2020, referente ao saldo do Convênio nº 001/2016 do ( Quarto Termo Aditivo), de acordo com o Decreto nº43.042 de 18.11.2020, em virtude do encerramento do exercício 2020."
-    },
     {
       "numero": "2020NE00723",
       "contrato": "",
@@ -58,6 +62,14 @@
       "situacao": "Ativo",
       "data_emissao": "31/12/2020",
       "descricao": "Anulação da NE nº 00021/2020, referente ao saldo do Convênio nº 001/2016 do ( Quinto Termo Aditivo), de acordo com o Decreto nº 43.042 de 18.11.2020, em virtude do encerramento do exercício 2020."
+    },
+    {
+      "numero": "2020NE00721",
+      "contrato": "",
+      "valor": 7712.31,
+      "situacao": "Ativo",
+      "data_emissao": "31/12/2020",
+      "descricao": "Anulação da NE nº 00020/2020, referente ao saldo do Convênio nº 001/2016 do ( Quarto Termo Aditivo), de acordo com o Decreto nº43.042 de 18.11.2020, em virtude do encerramento do exercício 2020."
     },
     {
       "numero": "2022NE0001161",
@@ -84,20 +96,20 @@
       "descricao": "SERVIÇOS DE TERCEIROS PESSOA JURÍDICA / ASSESSORIA TÉCNICA"
     },
     {
-      "numero": "2024NE0000579",
-      "contrato": "3/2023",
-      "valor": 1157.51,
-      "situacao": "Ativo",
-      "data_emissao": "31/07/2024",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
-    },
-    {
       "numero": "2024NE0000578",
       "contrato": "",
       "valor": 1157.51,
       "situacao": "Ativo",
       "data_emissao": "31/07/2024",
       "descricao": "ANULAÇÃO TOTAL DA NE Nº 0000533, DEVIDO DESCRIÇÃO INDEVIDA."
+    },
+    {
+      "numero": "2024NE0000579",
+      "contrato": "3/2023",
+      "valor": 1157.51,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2024",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
       "numero": "2022NE0000681",
@@ -108,12 +120,12 @@
       "descricao": "Contratação de empresa especializada na prestação de serviços de firewall, compreendendo a disponibilização e administração de equipamentos; serviços de Rede, compreendendo o acesso gerenciado à Rede Mundial e SPROWEB."
     },
     {
-      "numero": "2019NE01223",
+      "numero": "2019NE01214",
       "contrato": "",
-      "valor": 24594.18,
+      "valor": 1209.7,
       "situacao": "Ativo",
       "data_emissao": "30/12/2019",
-      "descricao": "Anulação parcial da NE nº00014, de acordo com o calendário de encerramento do exercício de 2019 ¿ Anexo I do Decreto nº41.554 de 26.11.2019."
+      "descricao": "Anulação parcial"
     },
     {
       "numero": "2019NE01224",
@@ -124,36 +136,20 @@
       "descricao": "Anulação parcial da NE nº00208, de acordo com o calendário de encerramento do exercício de 2019 / Anexo I do Decreto nº41.554 de 26.11.2019."
     },
     {
-      "numero": "2019NE01214",
+      "numero": "2019NE01223",
       "contrato": "",
-      "valor": 1209.7,
+      "valor": 24594.18,
       "situacao": "Ativo",
       "data_emissao": "30/12/2019",
-      "descricao": "Anulação parcial"
+      "descricao": "Anulação parcial da NE nº00014, de acordo com o calendário de encerramento do exercício de 2019 ¿ Anexo I do Decreto nº41.554 de 26.11.2019."
     },
     {
-      "numero": "2016NE00570",
+      "numero": "2016NE00569",
       "contrato": "",
-      "valor": 31401.92,
+      "valor": 6498.1,
       "situacao": "Ativo",
       "data_emissao": "30/12/2016",
       "descricao": "Anulação parcial em virtude do valor do consumo ter sido menor que o valor planejado, e de acordo com a Instrução Normativa nº01/2016-SET/SEFAZ."
-    },
-    {
-      "numero": "2016NE00560",
-      "contrato": "",
-      "valor": 3336.17,
-      "situacao": "Ativo",
-      "data_emissao": "30/12/2016",
-      "descricao": "Anulação total, tendo em vista o término do 3º T.A. ao Contrato nº003/2012."
-    },
-    {
-      "numero": "2016NE00561",
-      "contrato": "",
-      "valor": 10290.93,
-      "situacao": "Ativo",
-      "data_emissao": "30/12/2016",
-      "descricao": "Anulação total de acordo com o calendário de encerramento do exercício, conforme Instrução Normativa nº01/2016-SET/SEFAZ."
     },
     {
       "numero": "2016NE00568",
@@ -164,9 +160,25 @@
       "descricao": "Anulação parcial tendo em vista o término do Contrato nº001/2015, Instrução Normativa nº01/2016-SEF/SEFAZ."
     },
     {
-      "numero": "2016NE00569",
+      "numero": "2016NE00561",
       "contrato": "",
-      "valor": 6498.1,
+      "valor": 10290.93,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "Anulação total de acordo com o calendário de encerramento do exercício, conforme Instrução Normativa nº01/2016-SET/SEFAZ."
+    },
+    {
+      "numero": "2016NE00560",
+      "contrato": "",
+      "valor": 3336.17,
+      "situacao": "Ativo",
+      "data_emissao": "30/12/2016",
+      "descricao": "Anulação total, tendo em vista o término do 3º T.A. ao Contrato nº003/2012."
+    },
+    {
+      "numero": "2016NE00570",
+      "contrato": "",
+      "valor": 31401.92,
       "situacao": "Ativo",
       "data_emissao": "30/12/2016",
       "descricao": "Anulação parcial em virtude do valor do consumo ter sido menor que o valor planejado, e de acordo com a Instrução Normativa nº01/2016-SET/SEFAZ."
@@ -196,12 +208,12 @@
       "descricao": "O presente Termo Aditivo tem por objeto a prorrogação do prazo de vigência do Termo de Convênio nº001/2016, assim como a cessão, por disposição, de técnicos detentores de empregos do Quadro de Técnicos da Prodam, pelo prazo de 12 meses."
     },
     {
-      "numero": "2017NE00973",
+      "numero": "2017NE00972",
       "contrato": "",
-      "valor": 61071.83,
+      "valor": 68753.81,
       "situacao": "Ativo",
       "data_emissao": "29/12/2017",
-      "descricao": "Anulação parcial."
+      "descricao": "Anulação parcial"
     },
     {
       "numero": "2017NE00974",
@@ -212,20 +224,12 @@
       "descricao": "Anulação parcial"
     },
     {
-      "numero": "2017NE00972",
+      "numero": "2017NE00973",
       "contrato": "",
-      "valor": 68753.81,
+      "valor": 61071.83,
       "situacao": "Ativo",
       "data_emissao": "29/12/2017",
-      "descricao": "Anulação parcial"
-    },
-    {
-      "numero": "2024NE0000792",
-      "contrato": "3/2023",
-      "valor": 4536.02,
-      "situacao": "Ativo",
-      "data_emissao": "29/10/2024",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
+      "descricao": "Anulação parcial."
     },
     {
       "numero": "2024NE0000794",
@@ -236,6 +240,14 @@
       "descricao": "Correspondente à cessão por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM, referente novembro e dezembro/2024."
     },
     {
+      "numero": "2024NE0000792",
+      "contrato": "3/2023",
+      "valor": 4536.02,
+      "situacao": "Ativo",
+      "data_emissao": "29/10/2024",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
+    },
+    {
       "numero": "2018NE00528",
       "contrato": "7/2018",
       "valor": 258874.44,
@@ -244,12 +256,12 @@
       "descricao": "Contratação de empresa especializada para prestar serviços de desenvolvimento de sistemas de informação, compreendendo a análise e desenvolvimento de funcionalidades, hospedagem de sistemas e suporte técnico para o protejo \"Meu Amazonas\"."
     },
     {
-      "numero": "2016NE00291",
-      "contrato": "3/2012",
-      "valor": 57450.3,
+      "numero": "2016NE00292",
+      "contrato": "",
+      "valor": 32744.42,
       "situacao": "Ativo",
       "data_emissao": "29/07/2016",
-      "descricao": "Contratação de empresa especializada de prestação de serviços técnicos em telecomunicações de disponibilidade de acesso remoto à rede mundial internet"
+      "descricao": "Indenizações do Ressarcimento de despesas decorrentes do Convênio nº01/2015- celebrado entre Secretaria de Estado da Casa Civil e Prodam/AM, ficando o mês de abril de 2016 sem a devida cobertura."
     },
     {
       "numero": "2016NE00287",
@@ -260,12 +272,12 @@
       "descricao": "Contratação de empresa especializada em prestação de serviços de informática em geral."
     },
     {
-      "numero": "2016NE00292",
-      "contrato": "",
-      "valor": 32744.42,
+      "numero": "2016NE00291",
+      "contrato": "3/2012",
+      "valor": 57450.3,
       "situacao": "Ativo",
       "data_emissao": "29/07/2016",
-      "descricao": "Indenizações do Ressarcimento de despesas decorrentes do Convênio nº01/2015- celebrado entre Secretaria de Estado da Casa Civil e Prodam/AM, ficando o mês de abril de 2016 sem a devida cobertura."
+      "descricao": "Contratação de empresa especializada de prestação de serviços técnicos em telecomunicações de disponibilidade de acesso remoto à rede mundial internet"
     },
     {
       "numero": "2021NE0000515",
@@ -300,28 +312,12 @@
       "descricao": "SÉTIMO TERMO ADITIVO AO CONVÊNIO Nº001/2016 - O presente contrato tem por objeto a prorrogação por 12 (doze) meses, assim como a cessão por disposição de técnicos da PRODAM para o órgão. Período de 01.05.2020 a 31.12.2020 - R$585.400,72"
     },
     {
-      "numero": "2018NE00843",
+      "numero": "2018NE00828",
       "contrato": "",
-      "valor": 35108.52,
+      "valor": 43251.13,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "Anulação parcial"
-    },
-    {
-      "numero": "2018NE00851",
-      "contrato": "",
-      "valor": 258874.44,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação parcial"
-    },
-    {
-      "numero": "2018NE00824",
-      "contrato": "",
-      "valor": 60451.66,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação do saldo, para ajuste orçamento e em cumprimento ao art.42 da LRF e Instrução Normativa Nº 01/2018/SET/SEFAZ de 30.11.18."
     },
     {
       "numero": "2018NE00816",
@@ -332,9 +328,25 @@
       "descricao": "Anulação Parcial"
     },
     {
-      "numero": "2018NE00828",
+      "numero": "2018NE00824",
       "contrato": "",
-      "valor": 43251.13,
+      "valor": 60451.66,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação do saldo, para ajuste orçamento e em cumprimento ao art.42 da LRF e Instrução Normativa Nº 01/2018/SET/SEFAZ de 30.11.18."
+    },
+    {
+      "numero": "2018NE00851",
+      "contrato": "",
+      "valor": 258874.44,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação parcial"
+    },
+    {
+      "numero": "2018NE00843",
+      "contrato": "",
+      "valor": 35108.52,
       "situacao": "Ativo",
       "data_emissao": "28/12/2018",
       "descricao": "Anulação parcial"
@@ -364,12 +376,12 @@
       "descricao": "Contratação de empresa especializada, cuja finalidade tem por objeto a cessão, por disposição da Prodam, dos técnicos constantes do Anexo 1."
     },
     {
-      "numero": "2019NE00139",
+      "numero": "2019NE00152",
       "contrato": "",
       "valor": 58043.5,
       "situacao": "Ativo",
       "data_emissao": "28/02/2019",
-      "descricao": "Anulação total do empenho."
+      "descricao": "Convênio tem por objeto a Cessão , por disposição de técnicos detentores de empregos do Quadro de Técnicos da Prodam/AM, mês de dezembro/2018, ref. ao Segundo T. A. ao Convênio nº001/2016."
     },
     {
       "numero": "2019NE00138",
@@ -380,12 +392,12 @@
       "descricao": "Convênio tem por objeto a Cessão , por disposição de técnicos detentores de empregos do Quadro de Técnicos da Prodam/AM, mês de dezembro/2018, ref. ao Segundo T. A. ao Convênio nº001/2016."
     },
     {
-      "numero": "2019NE00152",
+      "numero": "2019NE00139",
       "contrato": "",
       "valor": 58043.5,
       "situacao": "Ativo",
       "data_emissao": "28/02/2019",
-      "descricao": "Convênio tem por objeto a Cessão , por disposição de técnicos detentores de empregos do Quadro de Técnicos da Prodam/AM, mês de dezembro/2018, ref. ao Segundo T. A. ao Convênio nº001/2016."
+      "descricao": "Anulação total do empenho."
     },
     {
       "numero": "2016NE00546",
@@ -404,20 +416,20 @@
       "descricao": "Cessão por disposição, de técnicos detentores de empregos do Quadro de Técnicos da PRODAM."
     },
     {
-      "numero": "2023NE0000615",
-      "contrato": "3/2023",
-      "valor": 4340.69,
-      "situacao": "Ativo",
-      "data_emissao": "27/09/2023",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
-    },
-    {
       "numero": "2023NE0000613",
       "contrato": "",
       "valor": 111889.43,
       "situacao": "Ativo",
       "data_emissao": "27/09/2023",
       "descricao": "O presente Termo Aditivo tem por objeto a prorrogação do prazo de vigência do Termo de Convênio nº001/2021, cujo objeto é a cessão, por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM ¿ Processamento de Dados Amazonas S.A para a Secretaria de Estado da Casa Civil, pelo período de 12 (doze) meses."
+    },
+    {
+      "numero": "2023NE0000615",
+      "contrato": "3/2023",
+      "valor": 4340.69,
+      "situacao": "Ativo",
+      "data_emissao": "27/09/2023",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
       "numero": "2018NE00225",
@@ -428,6 +440,14 @@
       "descricao": "Contratação de empresa especializada. O presente Termo Aditivo tem por objeto a prorrogação do prazo de vigência do Termo de Convênio nº001/2016, assim como a cessão, por disposição, de técnicos detentores de empregos do Quadro de Técnicos da Prodam."
     },
     {
+      "numero": "2024NE0000099",
+      "contrato": "3/2023",
+      "valor": 8681.38,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2024",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
+    },
+    {
       "numero": "2024NE0000100",
       "contrato": "",
       "valor": 223778.86,
@@ -436,11 +456,11 @@
       "descricao": "Cessão, por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM"
     },
     {
-      "numero": "2024NE0000099",
+      "numero": "2023NE0000657",
       "contrato": "3/2023",
       "valor": 8681.38,
       "situacao": "Ativo",
-      "data_emissao": "27/02/2024",
+      "data_emissao": "26/10/2023",
       "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
@@ -450,14 +470,6 @@
       "situacao": "Ativo",
       "data_emissao": "26/10/2023",
       "descricao": "Cessão, por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM ¿ Processamento de Dados Amazonas S.A para a Secretaria de Estado da Casa Civil."
-    },
-    {
-      "numero": "2023NE0000657",
-      "contrato": "3/2023",
-      "valor": 8681.38,
-      "situacao": "Ativo",
-      "data_emissao": "26/10/2023",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
       "numero": "2015NE00558",
@@ -484,14 +496,6 @@
       "descricao": "reforço da NE nº00030 de 04/01/2021 ao Segundo Termo Aditivo ao Contrato nº004/2018"
     },
     {
-      "numero": "2025NE0000638",
-      "contrato": "3/2023",
-      "valor": 4784.6,
-      "situacao": "Ativo",
-      "data_emissao": "25/08/2025",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 02."
-    },
-    {
       "numero": "2025NE0000639",
       "contrato": "",
       "valor": 104467.15,
@@ -500,12 +504,12 @@
       "descricao": "Cessão por disposição, de 05(cinco) Técnicos detentores de empregos, do Quadro da PRODAM."
     },
     {
-      "numero": "2025NE0000418",
+      "numero": "2025NE0000638",
       "contrato": "3/2023",
-      "valor": 3024.02,
+      "valor": 4784.6,
       "situacao": "Ativo",
-      "data_emissao": "25/06/2025",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
+      "data_emissao": "25/08/2025",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 02."
     },
     {
       "numero": "2025NE0000415",
@@ -514,6 +518,14 @@
       "situacao": "Ativo",
       "data_emissao": "25/06/2025",
       "descricao": "Cessão, por disposição, de 05 (cinco) Técnicos detentores de empregos do Quadro da PRODAM-Processamento de Dados Amazonas S.A., para a Casa Civil, pelo período de 12 (doze) meses."
+    },
+    {
+      "numero": "2025NE0000418",
+      "contrato": "3/2023",
+      "valor": 3024.02,
+      "situacao": "Ativo",
+      "data_emissao": "25/06/2025",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
     },
     {
       "numero": "2017NE00238",
@@ -532,20 +544,20 @@
       "descricao": "Reforço da NE Nº 0031/2021, como complementação ao valor mensal dos meses de Janeiro a Abril de 2021."
     },
     {
-      "numero": "2025NE0000091",
-      "contrato": "3/2023",
-      "valor": 9072.04,
-      "situacao": "Ativo",
-      "data_emissao": "25/02/2025",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
-    },
-    {
       "numero": "2025NE0000092",
       "contrato": "",
       "valor": 223778.86,
       "situacao": "Ativo",
       "data_emissao": "25/02/2025",
       "descricao": "Cessão, por disposição, de 06(seis) técnicos detentores de empregos do Quadro da PRODAM."
+    },
+    {
+      "numero": "2025NE0000091",
+      "contrato": "3/2023",
+      "valor": 9072.04,
+      "situacao": "Ativo",
+      "data_emissao": "25/02/2025",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
     },
     {
       "numero": "2022NE0001220",
@@ -596,17 +608,17 @@
       "descricao": "REFORÇO DA NE 000553"
     },
     {
-      "numero": "2015NE00602",
+      "numero": "2015NE00604",
       "contrato": "11/2013",
-      "valor": 34138.41,
+      "valor": 6334.43,
       "situacao": "Ativo",
       "data_emissao": "23/10/2015",
       "descricao": "ANULAÇÃO PARCIAL, CONFORME OFÍCIO Nº0446/2015-CEAG."
     },
     {
-      "numero": "2015NE00604",
+      "numero": "2015NE00602",
       "contrato": "11/2013",
-      "valor": 6334.43,
+      "valor": 34138.41,
       "situacao": "Ativo",
       "data_emissao": "23/10/2015",
       "descricao": "ANULAÇÃO PARCIAL, CONFORME OFÍCIO Nº0446/2015-CEAG."
@@ -620,20 +632,20 @@
       "descricao": "Cessão por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM, para a Secretaria de Estado da Casa Civil."
     },
     {
-      "numero": "2022NE0001040",
-      "contrato": "",
-      "valor": 138503.52,
-      "situacao": "Ativo",
-      "data_emissao": "23/08/2022",
-      "descricao": "Contratação de empresa especializada , por disposição da Prodam, dos técnicos detentores de empregos, conforme Projeto Básico."
-    },
-    {
       "numero": "2022NE0001035",
       "contrato": "4/2018",
       "valor": 53392.86,
       "situacao": "Ativo",
       "data_emissao": "23/08/2022",
       "descricao": "Contratação de empresa especializada, para prestação de serviços de firewall, com acesso à Rede local, etc, conforme Projeto Básico."
+    },
+    {
+      "numero": "2022NE0001040",
+      "contrato": "",
+      "valor": 138503.52,
+      "situacao": "Ativo",
+      "data_emissao": "23/08/2022",
+      "descricao": "Contratação de empresa especializada , por disposição da Prodam, dos técnicos detentores de empregos, conforme Projeto Básico."
     },
     {
       "numero": "2020NE00292",
@@ -660,14 +672,6 @@
       "descricao": "Estamos emitindo esta Nota de Empenho, em substituição a Nota de Empenho nº 00211/29.04.2020, tendo em vista a necessidade de correção da modalidade."
     },
     {
-      "numero": "2022NE0001265",
-      "contrato": "",
-      "valor": 18109.3,
-      "situacao": "Ativo",
-      "data_emissao": "22/12/2022",
-      "descricao": "ANULAÇÃO PARCIAL DO SALDO DO TERMO DE CONVÊNIO Nº001/2021,"
-    },
-    {
       "numero": "2022NE0001266",
       "contrato": "",
       "valor": 15292.5,
@@ -676,12 +680,20 @@
       "descricao": "ANULAÇÃO PÁRCIAL DA NE Nº000027, TENDO EM VISTA O ENCERRAMENTO DO TERCEIRO TERMO ADITIVO, AO CONTRATO Nº004/2018."
     },
     {
-      "numero": "2016NE00428",
-      "contrato": "3/2012",
-      "valor": 19150.1,
+      "numero": "2022NE0001265",
+      "contrato": "",
+      "valor": 18109.3,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2022",
+      "descricao": "ANULAÇÃO PARCIAL DO SALDO DO TERMO DE CONVÊNIO Nº001/2021,"
+    },
+    {
+      "numero": "2016NE00437",
+      "contrato": "",
+      "valor": 65741.71,
       "situacao": "Ativo",
       "data_emissao": "22/11/2016",
-      "descricao": "Serviço técnicos de telecomunicação de disponibilidade de acesso remoto a rede mundial de internet, gestão de redes locais e uso do SPROWEB, na Sede do Governo."
+      "descricao": "Referente a cessão por disposição da Prodam S.A. dos técnicos constantes no anexo 1 Convênio."
     },
     {
       "numero": "2016NE00431",
@@ -692,12 +704,12 @@
       "descricao": "PRESTAÇÃO DE SERVIÇOS EVENTUAIS EM EQUIPAMENTOS DE INFORMÁTICA NA SEDE DO GOVERNO DO AMAZONAS."
     },
     {
-      "numero": "2016NE00437",
-      "contrato": "",
-      "valor": 65741.71,
+      "numero": "2016NE00428",
+      "contrato": "3/2012",
+      "valor": 19150.1,
       "situacao": "Ativo",
       "data_emissao": "22/11/2016",
-      "descricao": "Referente a cessão por disposição da Prodam S.A. dos técnicos constantes no anexo 1 Convênio."
+      "descricao": "Serviço técnicos de telecomunicação de disponibilidade de acesso remoto a rede mundial de internet, gestão de redes locais e uso do SPROWEB, na Sede do Governo."
     },
     {
       "numero": "2024NE0000594",
@@ -732,7 +744,7 @@
       "descricao": "Contratação de empresa especializada que tem por objeto a Cessão, por disposição da PRODAM, dos técnicos detentores de empregos."
     },
     {
-      "numero": "2019NE00208",
+      "numero": "2019NE00195",
       "contrato": "",
       "valor": 44921.89,
       "situacao": "Ativo",
@@ -748,7 +760,7 @@
       "descricao": "Anulação total da NE nº00195, de 22.03.2019, tendo em vista a descrição do objeto incorreta."
     },
     {
-      "numero": "2019NE00195",
+      "numero": "2019NE00208",
       "contrato": "",
       "valor": 44921.89,
       "situacao": "Ativo",
@@ -820,20 +832,20 @@
       "descricao": "Serviços de assessoria técnica."
     },
     {
-      "numero": "2023NE0000572",
-      "contrato": "",
-      "valor": 30850.29,
-      "situacao": "Ativo",
-      "data_emissao": "19/09/2023",
-      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº000005, EM RAZÃO DO TÉRMINO DO SEGUNDO TERMO ADITIVO AO CONVÊNIO Nº001/2021, ENCERRADO EM 01.05.2023."
-    },
-    {
       "numero": "2023NE0000571",
       "contrato": "",
       "valor": 17757.62,
       "situacao": "Ativo",
       "data_emissao": "19/09/2023",
       "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº000004, EM RAZÃO DO TÉRMINO DO QUARTO TERMO ADITIVO AO CONTRATO Nº004/2018, ENCERRADO EM 12.06.2023."
+    },
+    {
+      "numero": "2023NE0000572",
+      "contrato": "",
+      "valor": 30850.29,
+      "situacao": "Ativo",
+      "data_emissao": "19/09/2023",
+      "descricao": "ANULAÇÃO PARCIAL DA NOTA DE EMPENHO Nº000005, EM RAZÃO DO TÉRMINO DO SEGUNDO TERMO ADITIVO AO CONVÊNIO Nº001/2021, ENCERRADO EM 01.05.2023."
     },
     {
       "numero": "2024NE0000664",
@@ -852,20 +864,20 @@
       "descricao": "Referente ao pagto das RD´S nº21 e 24, meses de jan,fev e mar/2015."
     },
     {
-      "numero": "2024NE0000591",
-      "contrato": "3/2023",
-      "valor": 1157.51,
-      "situacao": "Ativo",
-      "data_emissao": "16/08/2024",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
-    },
-    {
       "numero": "2024NE0000592",
       "contrato": "",
       "valor": 1157.51,
       "situacao": "Ativo",
       "data_emissao": "16/08/2024",
       "descricao": "Anulação total da Nota de Empenho: 579/2024, para ajustes na fonte de recurso."
+    },
+    {
+      "numero": "2024NE0000591",
+      "contrato": "3/2023",
+      "valor": 1157.51,
+      "situacao": "Ativo",
+      "data_emissao": "16/08/2024",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
       "numero": "2015NE00393",
@@ -884,17 +896,17 @@
       "descricao": "Anulação total da Nota de Empenho nº2019NE0005, emitida em 02.01.2019, e Reforço na Nota de Empenho nº2019NE00224, emitida em 04.04.2019."
     },
     {
-      "numero": "2015NE00115",
+      "numero": "2015NE00123",
       "contrato": "",
-      "valor": 1594.14,
+      "valor": 1929.73,
       "situacao": "Ativo",
       "data_emissao": "15/01/2015",
       "descricao": "serviços de informática"
     },
     {
-      "numero": "2015NE00123",
+      "numero": "2015NE00115",
       "contrato": "",
-      "valor": 1929.73,
+      "valor": 1594.14,
       "situacao": "Ativo",
       "data_emissao": "15/01/2015",
       "descricao": "serviços de informática"
@@ -908,20 +920,20 @@
       "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 02."
     },
     {
-      "numero": "2023NE0000442",
-      "contrato": "3/2023",
-      "valor": 1591.59,
-      "situacao": "Ativo",
-      "data_emissao": "14/07/2023",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
-    },
-    {
       "numero": "2023NE00442",
       "contrato": "3/2023",
       "valor": 1591.59,
       "situacao": "Ativo",
       "data_emissao": "14/07/2023",
       "descricao": "Prestação de Serviços Gestor de Conteúdo Web, SPROWEB e Hospedagem de Servidor."
+    },
+    {
+      "numero": "2023NE0000442",
+      "contrato": "3/2023",
+      "valor": 1591.59,
+      "situacao": "Ativo",
+      "data_emissao": "14/07/2023",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
       "numero": "2024NE0000847",
@@ -1068,14 +1080,6 @@
       "descricao": "Anulação parcial da Nota de Empenho nº00304, referente a exclusão de 01(um) técnico cedido Casa Civil, por disposição da Prodam."
     },
     {
-      "numero": "2026NE0000004",
-      "contrato": "3/2023",
-      "valor": 19138.4,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 02."
-    },
-    {
       "numero": "2026NE0000003",
       "contrato": "",
       "valor": 438762.04,
@@ -1084,17 +1088,25 @@
       "descricao": "Correspondente a cessão por disposição de 05(cinco) Técnicos detentores de empregos do Quadro da PRODAM."
     },
     {
-      "numero": "2015NE00011",
-      "contrato": "3/2012",
-      "valor": 59133.84,
+      "numero": "2026NE0000004",
+      "contrato": "3/2023",
+      "valor": 19138.4,
       "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cobertura Financeira 2015"
+      "data_emissao": "05/01/2026",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 02."
     },
     {
       "numero": "2015NE00012",
       "contrato": "11/2013",
       "valor": 18197.01,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura Financeira 2015"
+    },
+    {
+      "numero": "2015NE00011",
+      "contrato": "3/2012",
+      "valor": 59133.84,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
       "descricao": "Cobertura Financeira 2015"
@@ -1116,14 +1128,6 @@
       "descricao": "Anulação Parcial da Nota de Empenho nº00293/2020, referente à exclusão de 01(um) técnico, cedido à Casa Civil, por disposição do Quadro de Pessoal da Prodam."
     },
     {
-      "numero": "2023NE0000537",
-      "contrato": "3/2023",
-      "valor": 4340.69,
-      "situacao": "Ativo",
-      "data_emissao": "04/09/2023",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
-    },
-    {
       "numero": "2023NE0000536",
       "contrato": "",
       "valor": 101717.66,
@@ -1132,12 +1136,12 @@
       "descricao": "TERCEIRO TERMO ADITIVO AO CONVÊNIO Nº001/2021 OBJETO: O presente Termo Aditivo tem por objeto a prorrogação do prazo de vigência do Termo de Convênio nº001/2021, cujo objeto é a cessão, por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM ¿ Processamento de Dados Amazonas S.A para a Secretaria de Estado da Casa Civil, pelo período de 12 (doze) meses. SETEMBRO/2023"
     },
     {
-      "numero": "2023NE0000276",
-      "contrato": "",
-      "valor": 203435.32,
+      "numero": "2023NE0000537",
+      "contrato": "3/2023",
+      "valor": 4340.69,
       "situacao": "Ativo",
-      "data_emissao": "04/05/2023",
-      "descricao": "Contratação de empresa espécializada, cujo pbjeto a cessão, por disposição, de 06(seis) técnicos detentores do Quadro da PRODAM, para atender as necessidade da Casa Civil."
+      "data_emissao": "04/09/2023",
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
       "numero": "2023NE00276",
@@ -1146,6 +1150,14 @@
       "situacao": "Ativo",
       "data_emissao": "04/05/2023",
       "descricao": "Cobertura Financeira do 3º Termo Aditivo ao Convênio 001/2021"
+    },
+    {
+      "numero": "2023NE0000276",
+      "contrato": "",
+      "valor": 203435.32,
+      "situacao": "Ativo",
+      "data_emissao": "04/05/2023",
+      "descricao": "Contratação de empresa espécializada, cujo pbjeto a cessão, por disposição, de 06(seis) técnicos detentores do Quadro da PRODAM, para atender as necessidade da Casa Civil."
     },
     {
       "numero": "2021NE0000298",
@@ -1164,14 +1176,6 @@
       "descricao": "Anulação total considerando o disposto no Decreto nº35.616, de 26 de fevereiro de 2015, publicado no Diário Oficial da mesma data, que determinou a redução dos contratos administrativos, firmados pelos Órgãos, Fundos e Entidades do Poder Executivo."
     },
     {
-      "numero": "2019NE00224",
-      "contrato": "7/2018",
-      "valor": 39701.28,
-      "situacao": "Ativo",
-      "data_emissao": "04/04/2019",
-      "descricao": "Prestação de serviços de desenvolvimento de sistemas de informação, compreendendo a análise e desenvolvimento de funcionalidades, hospedagem de sistemas e suporte técnico para o protejo \"Meu Amazonas, ref. ao Contrato nº007/2018."
-    },
-    {
       "numero": "2019NE00223",
       "contrato": "4/2018",
       "valor": 45198.26,
@@ -1180,12 +1184,12 @@
       "descricao": "Contratação de empresa especializada, por força deste Contrato a contratada obriga-se a prestar a Contratante os serviços de firewall, com disponibilização e administração de equipamentos; serviços de Rede, acesso gerenciado a Rede Mundial, SPROWeb."
     },
     {
-      "numero": "2021NE0000030",
-      "contrato": "4/2018",
-      "valor": 81560.28,
+      "numero": "2019NE00224",
+      "contrato": "7/2018",
+      "valor": 39701.28,
       "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Contratação de empresa especializada, por força deste Contrato a Contratada obriga-se a prestar a Contratante os serviços de firewall, c/disponib.e administ.equipamentos,serviços de rede, acesso gerenciado a Rede Mundial SPROWeb."
+      "data_emissao": "04/04/2019",
+      "descricao": "Prestação de serviços de desenvolvimento de sistemas de informação, compreendendo a análise e desenvolvimento de funcionalidades, hospedagem de sistemas e suporte técnico para o protejo \"Meu Amazonas, ref. ao Contrato nº007/2018."
     },
     {
       "numero": "2021NE0000031",
@@ -1196,28 +1200,12 @@
       "descricao": "Para atender despesas com o Convênio Nº 001/2016, ref. a cessão de técnicos do quadro de técnicos da PRODAM pelo período de 4(quatro) meses."
     },
     {
-      "numero": "2016NE00063",
-      "contrato": "11/2013",
-      "valor": 37886.16,
+      "numero": "2021NE0000030",
+      "contrato": "4/2018",
+      "valor": 81560.28,
       "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "SERVIÇOS DE INFORMÁTICA"
-    },
-    {
-      "numero": "2016NE00049",
-      "contrato": "3/2012",
-      "valor": 49434.06,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "Prestação dos serviços técnicos, em telecomunicações de disponibilidade de acesso remoto a rede mundial internet, com a velocidade dedicada de 5,5Mbps, gestão de redes locais(firewall UTM0 e a cessão de uso do sistema de Protocolo - SPROWEB."
-    },
-    {
-      "numero": "2016NE00024",
-      "contrato": "3/2012",
-      "valor": 66409.21,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "Contratos para Serviços de Informática"
+      "data_emissao": "04/01/2021",
+      "descricao": "Contratação de empresa especializada, por força deste Contrato a Contratada obriga-se a prestar a Contratante os serviços de firewall, c/disponib.e administ.equipamentos,serviços de rede, acesso gerenciado a Rede Mundial SPROWeb."
     },
     {
       "numero": "2016NE00034",
@@ -1228,20 +1216,36 @@
       "descricao": "Cessão, por disposição, da Prodam, dos técnicos constantes no Anexo I do Convênio nº001/2015."
     },
     {
+      "numero": "2016NE00024",
+      "contrato": "3/2012",
+      "valor": 66409.21,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Contratos para Serviços de Informática"
+    },
+    {
+      "numero": "2016NE00049",
+      "contrato": "3/2012",
+      "valor": 49434.06,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "Prestação dos serviços técnicos, em telecomunicações de disponibilidade de acesso remoto a rede mundial internet, com a velocidade dedicada de 5,5Mbps, gestão de redes locais(firewall UTM0 e a cessão de uso do sistema de Protocolo - SPROWEB."
+    },
+    {
+      "numero": "2016NE00063",
+      "contrato": "11/2013",
+      "valor": 37886.16,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2016",
+      "descricao": "SERVIÇOS DE INFORMÁTICA"
+    },
+    {
       "numero": "2021NE0000740",
       "contrato": "",
       "valor": 281202.75,
       "situacao": "Ativo",
       "data_emissao": "03/09/2021",
       "descricao": "Reforço da ne nº000298/2021"
-    },
-    {
-      "numero": "2015NE00524",
-      "contrato": "11/2013",
-      "valor": 4516.91,
-      "situacao": "Ativo",
-      "data_emissao": "03/08/2015",
-      "descricao": "Anulação parcial tendo em vista o valor do consumo ter sido menor que o valor programado."
     },
     {
       "numero": "2015NE00521",
@@ -1252,6 +1256,14 @@
       "descricao": "Anulação parcial tendo em vista o término do Contrato nº003/2012."
     },
     {
+      "numero": "2015NE00524",
+      "contrato": "11/2013",
+      "valor": 4516.91,
+      "situacao": "Ativo",
+      "data_emissao": "03/08/2015",
+      "descricao": "Anulação parcial tendo em vista o valor do consumo ter sido menor que o valor programado."
+    },
+    {
       "numero": "2022NE0000553",
       "contrato": "",
       "valor": 265106.4,
@@ -1260,20 +1272,20 @@
       "descricao": "Termo de Convênio de cessão por disposição da PRODAM - Processamento de Dados do Amazonas SA dos técnicos detentores de empregos pelo período de 4 (quatro) meses."
     },
     {
-      "numero": "2022NE0000027",
-      "contrato": "4/2018",
-      "valor": 91960.84,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Contratação de empresa especializada, por força deste Contrato a Contratada obriga-se a prestar a Contratante os serviços de firewall, c/disponib.e administ.equipamentos,serviços de rede, acesso gerenciado a Rede Mundial SPROWeb."
-    },
-    {
       "numero": "2022NE0000038",
       "contrato": "",
       "valor": 288012.0,
       "situacao": "Ativo",
       "data_emissao": "03/01/2022",
       "descricao": "Correspondente a cessão por disposição da Prodam, dos Técnicos detentores de empregos, conforme Termo de Convênio nº001/2021."
+    },
+    {
+      "numero": "2022NE0000027",
+      "contrato": "4/2018",
+      "valor": 91960.84,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada, por força deste Contrato a Contratada obriga-se a prestar a Contratante os serviços de firewall, c/disponib.e administ.equipamentos,serviços de rede, acesso gerenciado a Rede Mundial SPROWeb."
     },
     {
       "numero": "2023NE0000269",
@@ -1316,20 +1328,20 @@
       "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
     },
     {
-      "numero": "2024NE0000006",
-      "contrato": "",
-      "valor": 223778.86,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "Cessão, por disposição, de 06(seis) técnicos detentores de empregos do Quadro da PRODAM, referente aos meses de janeiro de fevereiro/2024.(3ºTA ao Convenio nº001/2021)"
-    },
-    {
       "numero": "2024NE0000004",
       "contrato": "3/2023",
       "valor": 8681.38,
       "situacao": "Ativo",
       "data_emissao": "02/01/2024",
       "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
+    },
+    {
+      "numero": "2024NE0000006",
+      "contrato": "",
+      "valor": 223778.86,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Cessão, por disposição, de 06(seis) técnicos detentores de empregos do Quadro da PRODAM, referente aos meses de janeiro de fevereiro/2024.(3ºTA ao Convenio nº001/2021)"
     },
     {
       "numero": "2023NE0000005",
@@ -1340,12 +1352,12 @@
       "descricao": "Termo de Convênio tem por objeto a Cessão, por disposição da PRODAM/AM, dos técnicos detentores de empregos."
     },
     {
-      "numero": "2020NE00020",
-      "contrato": "",
-      "valor": 255391.4,
+      "numero": "2020NE00018",
+      "contrato": "4/2018",
+      "valor": 110106.38,
       "situacao": "Ativo",
       "data_emissao": "02/01/2020",
-      "descricao": "Correspondente a cessão, por disposição, de técnicos detentores de empregos do Quadro de Técnicos da PRODAM - (Quarto Termo Aditivo ao Termo de Convênio nº001/2016."
+      "descricao": "Contratação de empresa especializada, por força deste Contrato a Contratada obriga-se a prestar a Contratante os serviços de firewall, com disponibilização e administração de equipamentos; serviços de rede, acesso gerenciado a Rede Mundial, SPROWeb."
     },
     {
       "numero": "2020NE00021",
@@ -1356,28 +1368,12 @@
       "descricao": "Correspondente a cessão por disposição, de mais um 01(um) técnico, detentores de empregos do Quadro de Técnicos da PRODAM - (Quinto Termo Aditivo ao Termo de Convênio nº001/2016)."
     },
     {
-      "numero": "2020NE00018",
-      "contrato": "4/2018",
-      "valor": 110106.38,
+      "numero": "2020NE00020",
+      "contrato": "",
+      "valor": 255391.4,
       "situacao": "Ativo",
       "data_emissao": "02/01/2020",
-      "descricao": "Contratação de empresa especializada, por força deste Contrato a Contratada obriga-se a prestar a Contratante os serviços de firewall, com disponibilização e administração de equipamentos; serviços de rede, acesso gerenciado a Rede Mundial, SPROWeb."
-    },
-    {
-      "numero": "2019NE00005",
-      "contrato": "7/2018",
-      "valor": 154798.92,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação de empresa especializada para prestar serviços de desenvolvimento de sistemas de informação, compreendendo a análise e desenvolvimento de funcionalidades, hospedagem de sistemas e suporte técnico para o protejo \"Meu Amazonas\"."
-    },
-    {
-      "numero": "2019NE00017",
-      "contrato": "4/2018",
-      "valor": 56497.83,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação de empresa especializada, por força deste Contrato a contratada obriga-se a prestar a Contratante os serviços de firewall, com disponibilização e administração de equipamentos; serviços de Rede, acesso gerenciado a Rede Mundial, SPROWeb."
+      "descricao": "Correspondente a cessão, por disposição, de técnicos detentores de empregos do Quadro de Técnicos da PRODAM - (Quarto Termo Aditivo ao Termo de Convênio nº001/2016."
     },
     {
       "numero": "2019NE00014",
@@ -1388,28 +1384,20 @@
       "descricao": "O Presente Termo Aditivo tem por objeto a prorrogação do prazo de vigência do termo de Convênio nº001/2016, assim como a cessão, por disposição de técnicos detentores de empregos do Quadro de Técnicos da PRODAM."
     },
     {
-      "numero": "2018NE00066",
-      "contrato": "",
-      "valor": 256317.05,
+      "numero": "2019NE00017",
+      "contrato": "4/2018",
+      "valor": 56497.83,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Correspondente aos serviços prestados, por disposição (cessão), dos técnicos constantes no anexo 1 (um) deste Convênio."
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada, por força deste Contrato a contratada obriga-se a prestar a Contratante os serviços de firewall, com disponibilização e administração de equipamentos; serviços de Rede, acesso gerenciado a Rede Mundial, SPROWeb."
     },
     {
-      "numero": "2018NE00075",
-      "contrato": "",
-      "valor": 73408.72,
+      "numero": "2019NE00005",
+      "contrato": "7/2018",
+      "valor": 154798.92,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Anulação total da NE nº00073, por ter informado o Programa de Trabalho incorreto."
-    },
-    {
-      "numero": "2018NE00076",
-      "contrato": "3/2012",
-      "valor": 73408.72,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Contratação de empresa especializada para prestação de serviços técnicos em telecomunicações de disponibilidade de acesso remoto à rede mundial internet, com velocidade 4,5 mbps, gestão de redes locais e cessão de uso do Sistema de Protocolo."
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa especializada para prestar serviços de desenvolvimento de sistemas de informação, compreendendo a análise e desenvolvimento de funcionalidades, hospedagem de sistemas e suporte técnico para o protejo \"Meu Amazonas\"."
     },
     {
       "numero": "2018NE00073",
@@ -1420,52 +1408,28 @@
       "descricao": "Contratação de empresa especializada para prestação de serviços técnicos em telecomunicações de disponibilidade de acesso remoto à rede mundial internet, com velocidade 4,5 mbps, gestão de redes locais e cessão de uso do Sistema de Protocolo."
     },
     {
-      "numero": "2017NE00034",
+      "numero": "2018NE00076",
       "contrato": "3/2012",
-      "valor": 72770.38,
+      "valor": 73408.72,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Contratação de prestação de serviços técnicos em telecomunicações de disponibilidade de acesso remoto à rede mundial internet, com velocidade 4,5 mbps, gestão de redes locais e a cessão de uso do Sistema de Protocolo, para Sede do Governo."
+      "data_emissao": "02/01/2018",
+      "descricao": "Contratação de empresa especializada para prestação de serviços técnicos em telecomunicações de disponibilidade de acesso remoto à rede mundial internet, com velocidade 4,5 mbps, gestão de redes locais e cessão de uso do Sistema de Protocolo."
     },
     {
-      "numero": "2017NE00027",
-      "contrato": "9/2016",
-      "valor": 17506.76,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Contratação de prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web ao Fundo de Promoção Social, para publicação de informação, notícias, vídeos e imagens via website, de acordo"
-    },
-    {
-      "numero": "2017NE00031",
-      "contrato": "9/2016",
-      "valor": 16523.4,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Contratação para prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web ao FPS, para publicação de informações, notícias, vídeos e imagens via website, de acordo com o padrão."
-    },
-    {
-      "numero": "2017NE00037",
+      "numero": "2018NE00075",
       "contrato": "",
-      "valor": 17506.76,
+      "valor": 73408.72,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "ANULAÇÃO TOTAL DA NE Nº 0027 POR TER INSERIDO DESCRIÇÃO INCORRETA."
+      "data_emissao": "02/01/2018",
+      "descricao": "Anulação total da NE nº00073, por ter informado o Programa de Trabalho incorreto."
     },
     {
-      "numero": "2017NE00033",
-      "contrato": "11/2013",
-      "valor": 50935.84,
+      "numero": "2018NE00066",
+      "contrato": "",
+      "valor": 256317.05,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Contratação de prestação de serviços eventuais de informática, para a Sede do Governo do Estado do Amazonas e Prédio Anexo, pelo período de 12 meses, cuja descrição está contida no Projeto Básico que passa a fazer parte integrante deste contrato."
-    },
-    {
-      "numero": "2017NE00038",
-      "contrato": "10/2016",
-      "valor": 17506.76,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Contratação de prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web da Casa Civil, para publicação de informação, notícias, vídeos e imagens via website."
+      "data_emissao": "02/01/2018",
+      "descricao": "Correspondente aos serviços prestados, por disposição (cessão), dos técnicos constantes no anexo 1 (um) deste Convênio."
     },
     {
       "numero": "2017NE00025",
@@ -1476,20 +1440,52 @@
       "descricao": "O presente CONVÊNIO tem por objeto a CESSÃO, por disposição da PRODAM - Processamento de Dados Amazonas S/A, dos técnicos constantes no Anexo 1 deste documento"
     },
     {
-      "numero": "2014NE00034",
-      "contrato": "11/2013",
-      "valor": 45675.2,
+      "numero": "2017NE00038",
+      "contrato": "10/2016",
+      "valor": 17506.76,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 11/2013 - Serviços Eventuais em Informatica"
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web da Casa Civil, para publicação de informação, notícias, vídeos e imagens via website."
     },
     {
-      "numero": "2014NE00033",
-      "contrato": "10/2013",
-      "valor": 362606.32,
+      "numero": "2017NE00033",
+      "contrato": "11/2013",
+      "valor": 50935.84,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 10/2013"
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de prestação de serviços eventuais de informática, para a Sede do Governo do Estado do Amazonas e Prédio Anexo, pelo período de 12 meses, cuja descrição está contida no Projeto Básico que passa a fazer parte integrante deste contrato."
+    },
+    {
+      "numero": "2017NE00037",
+      "contrato": "",
+      "valor": 17506.76,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "ANULAÇÃO TOTAL DA NE Nº 0027 POR TER INSERIDO DESCRIÇÃO INCORRETA."
+    },
+    {
+      "numero": "2017NE00031",
+      "contrato": "9/2016",
+      "valor": 16523.4,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação para prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web ao FPS, para publicação de informações, notícias, vídeos e imagens via website, de acordo com o padrão."
+    },
+    {
+      "numero": "2017NE00027",
+      "contrato": "9/2016",
+      "valor": 17506.76,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de prestação de serviços de licença de uso de sistema de informação, compreendendo a disponibilização de gestor de conteúdo web ao Fundo de Promoção Social, para publicação de informação, notícias, vídeos e imagens via website, de acordo"
+    },
+    {
+      "numero": "2017NE00034",
+      "contrato": "3/2012",
+      "valor": 72770.38,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Contratação de prestação de serviços técnicos em telecomunicações de disponibilidade de acesso remoto à rede mundial internet, com velocidade 4,5 mbps, gestão de redes locais e a cessão de uso do Sistema de Protocolo, para Sede do Governo."
     },
     {
       "numero": "2014NE00005",
@@ -1500,12 +1496,28 @@
       "descricao": "Contrato No. 3/2012 - Acesso Internet, Firewall UTM, Sistema Protocolo - SPROWEB"
     },
     {
-      "numero": "2016NE00501",
-      "contrato": "",
-      "valor": 65741.71,
+      "numero": "2014NE00033",
+      "contrato": "10/2013",
+      "valor": 362606.32,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 10/2013"
+    },
+    {
+      "numero": "2014NE00034",
+      "contrato": "11/2013",
+      "valor": 45675.2,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 11/2013 - Serviços Eventuais em Informatica"
+    },
+    {
+      "numero": "2016NE00499",
+      "contrato": "3/2012",
+      "valor": 19150.1,
       "situacao": "Ativo",
       "data_emissao": "01/12/2016",
-      "descricao": "Correspondente a cessão, por disposição da Prodam S/A, dos técnicos constante no anexo 1 do convênio."
+      "descricao": "Serviço técnicos de telecomunicação de disponibilidade de acesso remoto a rede mundial de internet, gestão de redes locais e uso do SPROWEB, na Sede do Governo."
     },
     {
       "numero": "2016NE00481",
@@ -1516,12 +1528,12 @@
       "descricao": "Contratação de empresa especializada, cuja finalidade é prorrogar o Termo de Contrato nº011/2013-Casa Civil, para a prestação de serviços eventuais em equipamentos de informática na Sede do Governo do Estado do Amazonas."
     },
     {
-      "numero": "2016NE00499",
-      "contrato": "3/2012",
-      "valor": 19150.1,
+      "numero": "2016NE00501",
+      "contrato": "",
+      "valor": 65741.71,
       "situacao": "Ativo",
       "data_emissao": "01/12/2016",
-      "descricao": "Serviço técnicos de telecomunicação de disponibilidade de acesso remoto a rede mundial de internet, gestão de redes locais e uso do SPROWEB, na Sede do Governo."
+      "descricao": "Correspondente a cessão, por disposição da Prodam S/A, dos técnicos constante no anexo 1 do convênio."
     },
     {
       "numero": "2019NE00794",
@@ -1540,12 +1552,12 @@
       "descricao": "Contrato No. 11/2013 - Serviços Eventuais em Informatica"
     },
     {
-      "numero": "2024NE0000445",
-      "contrato": "",
-      "valor": 203435.32,
+      "numero": "2024NE0000448",
+      "contrato": "3/2023",
+      "valor": 1512.0,
       "situacao": "Ativo",
       "data_emissao": "01/07/2024",
-      "descricao": "Cessão, por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM"
+      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
     },
     {
       "numero": "2024NE0000446",
@@ -1556,12 +1568,12 @@
       "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website."
     },
     {
-      "numero": "2024NE0000448",
-      "contrato": "3/2023",
-      "valor": 1512.0,
+      "numero": "2024NE0000445",
+      "contrato": "",
+      "valor": 203435.32,
       "situacao": "Ativo",
       "data_emissao": "01/07/2024",
-      "descricao": "Contratação de empresa especializada, para fornecimento de licença de uso de Sistema de Informação, disponibilizando o Gestor de Conteúdo Web - GERWEB para publicação de informações, notícias, vídeos e imagens via Website. TC: 0003/2023 AD: 01."
+      "descricao": "Cessão, por disposição, de 06 (seis) Técnicos detentores de empregos do Quadro da PRODAM"
     },
     {
       "numero": "2019NE00460",
@@ -1580,20 +1592,20 @@
       "descricao": "Correspondente a cessão, por disposição da Prodam S/A, dos técnicos constante no anexo 1 do convênio."
     },
     {
-      "numero": "2015NE00352",
-      "contrato": "3/2012",
-      "valor": 16426.07,
-      "situacao": "Ativo",
-      "data_emissao": "01/04/2015",
-      "descricao": "Cobertura Financeira 2015. Proporcional a 24 dias de abril"
-    },
-    {
       "numero": "2015NE00354",
       "contrato": "11/2013",
       "valor": 30732.66,
       "situacao": "Ativo",
       "data_emissao": "01/04/2015",
       "descricao": "reforço do empenho"
+    },
+    {
+      "numero": "2015NE00352",
+      "contrato": "3/2012",
+      "valor": 16426.07,
+      "situacao": "Ativo",
+      "data_emissao": "01/04/2015",
+      "descricao": "Cobertura Financeira 2015. Proporcional a 24 dias de abril"
     }
   ],
   "faturas": [
@@ -1676,7 +1688,7 @@
         },
         "2024": {
           "qtd": 22,
-          "valor": 1408145.73
+          "valor": 1408145.7300000002
         },
         "2019": {
           "qtd": 21,
@@ -1692,19 +1704,19 @@
         },
         "2017": {
           "qtd": 12,
-          "valor": 1222371.84
+          "valor": 1222371.8399999999
         },
         "2018": {
           "qtd": 15,
-          "valor": 1996201.26
+          "valor": 1996201.2599999998
         },
         "2023": {
           "qtd": 17,
-          "valor": 1553795.32
+          "valor": 1553795.3199999998
         },
         "2014": {
           "qtd": 5,
-          "valor": 664099.88
+          "valor": 664099.8799999999
         },
         "2026": {
           "qtd": 2,

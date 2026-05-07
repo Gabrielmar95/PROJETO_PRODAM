@@ -1,5 +1,5 @@
 # Auditoria de Completude — COSAMA
-**** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **18.2%**
 

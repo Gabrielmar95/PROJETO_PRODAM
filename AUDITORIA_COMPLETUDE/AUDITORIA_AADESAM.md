@@ -1,7 +1,7 @@
 # Auditoria de Completude — AADESAM
-**Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
-## Score de Completude: **9.1%**
+## Score de Completude: **18.2%**
 
 ## Checklist de Documentos
 
@@ -17,7 +17,7 @@
 | `reconhecimento` | ❌ FALTANDO | Atos de reconhecimento tácito/expresso |
 | `cnd` | ❌ FALTANDO | CNDs / Certidões |
 | `dossie_folder` | ❌ FALTANDO | Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS |
-| `consolidado_folder` | ❌ FALTANDO | Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS |
+| `consolidado_folder` | ✅ OK | Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS |
 
 
 ## Contagens (todas as fontes)
@@ -35,10 +35,10 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | *(AUSENTE)* |
+| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\AADESAM_CONSOLIDADO |
 | SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\AADESAM |
 
-## Documentos Faltantes (10)
+## Documentos Faltantes (9)
 
 - ❌ contrato: Pelo menos 1 contrato PDF ou ID
 - ❌ nls: Notas de Liquidação
@@ -49,7 +49,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 - ❌ dossie_folder: Pasta <DEVEDOR>_DOSSIE/ no PRODAM_DOCS
-- ❌ consolidado_folder: Pasta <DEVEDOR>_CONSOLIDADO/ no PRODAM_DOCS
 
 ## Divergências (0)
 

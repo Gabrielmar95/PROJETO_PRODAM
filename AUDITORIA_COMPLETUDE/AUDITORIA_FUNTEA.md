@@ -1,5 +1,5 @@
 # Auditoria de Completude — FUNTEA
-**Fundação de Tecnologia do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Fundação de Tecnologia do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,16 +47,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 34186.18707715725
-- **db_faturas:** 6346.65
-- **delta:** 27839.53707715725
-- **pct:** 81.4%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 11
-- **db:** 3
-- **delta:** 8
-
+_Nenhuma divergência significativa detectada_

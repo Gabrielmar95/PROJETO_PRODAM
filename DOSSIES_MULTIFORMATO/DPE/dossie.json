@@ -70,14 +70,6 @@
   },
   "empenhos": [
     {
-      "numero": "2023NE02004",
-      "contrato": "32/2023",
-      "valor": 25746.74,
-      "situacao": "Ativo",
-      "data_emissao": "31/07/2023",
-      "descricao": "PRODAM RH - ESTAGIARIOS"
-    },
-    {
       "numero": "2023NE0002004",
       "contrato": "32/2023",
       "valor": 25746.74,
@@ -86,12 +78,12 @@
       "descricao": "Contrato nº 32/2023, a ser celebrado entre Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A. Controle de cadastro de pessoal (Estagiários)."
     },
     {
-      "numero": "2014NE00120",
-      "contrato": "5/2014",
-      "valor": 29410.75,
+      "numero": "2023NE02004",
+      "contrato": "32/2023",
+      "valor": 25746.74,
       "situacao": "Ativo",
-      "data_emissao": "31/03/2014",
-      "descricao": "Contrato No. 5/2014 - CFPP - Cad.e Folha de Pagto. De Pessoal"
+      "data_emissao": "31/07/2023",
+      "descricao": "PRODAM RH - ESTAGIARIOS"
     },
     {
       "numero": "2014NE00121",
@@ -102,12 +94,12 @@
       "descricao": "Contrato No. 4/2014 - Hospedagem de servidor, Internet, Firewall e Transmis. De dados"
     },
     {
-      "numero": "2023NE0002338",
-      "contrato": "",
-      "valor": 25746.74,
+      "numero": "2014NE00120",
+      "contrato": "5/2014",
+      "valor": 29410.75,
       "situacao": "Ativo",
-      "data_emissao": "30/08/2023",
-      "descricao": "CANCELAMENTO DA NOTA DE EMPENHO Nº 2004/2023 EM RAZÃO DE AJUSTE NO CRONOGRAMA DE PAGAMENTO DO CONTRATO Nº 32/2023. CONFORME DESPACHO Nº 2061/2023-DACC-DPE/AM - PROC. SEI Nº 5556-5/23."
+      "data_emissao": "31/03/2014",
+      "descricao": "Contrato No. 5/2014 - CFPP - Cad.e Folha de Pagto. De Pessoal"
     },
     {
       "numero": "2023NE0002341",
@@ -116,6 +108,14 @@
       "situacao": "Ativo",
       "data_emissao": "30/08/2023",
       "descricao": "Contratação de empresa para prestação de Serviço de Implantação de Sistemas de Informação e Execução de Sistemas PRODAM-RH."
+    },
+    {
+      "numero": "2023NE0002338",
+      "contrato": "",
+      "valor": 25746.74,
+      "situacao": "Ativo",
+      "data_emissao": "30/08/2023",
+      "descricao": "CANCELAMENTO DA NOTA DE EMPENHO Nº 2004/2023 EM RAZÃO DE AJUSTE NO CRONOGRAMA DE PAGAMENTO DO CONTRATO Nº 32/2023. CONFORME DESPACHO Nº 2061/2023-DACC-DPE/AM - PROC. SEI Nº 5556-5/23."
     },
     {
       "numero": "2021NE0000265",
@@ -190,14 +190,6 @@
       "descricao": "Contratação dos serviços de execução e desenvolvimento de sistemas, contemplando a execução de sistema de informação para disponibilização do Sistema de Controle de Material e Patrimônio - AJURI, em plataforma WEB."
     },
     {
-      "numero": "2025NE0000712",
-      "contrato": "17/2024",
-      "valor": 22378.72,
-      "situacao": "Ativo",
-      "data_emissao": "24/04/2025",
-      "descricao": "Contratação dos serviços de execução e desenvolvimento de sistemas, contemplando a execução de sistema de informação para disponibilização do Sistema de Controle de Material e Patrimônio - AJURI, em plataforma WEB; Contrato nº 17/2024, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A. TERMO DE REFERÊNCIA N.º 211/2024-DACC/DPE/AM; PARECER N°: 508/2024/DAJAI; Despacho nº 316/2024-GDPG/DPE/AM. Vigência: vigência da contrat"
-    },
-    {
       "numero": "2025NE0000719",
       "contrato": "32/2023",
       "valor": 18534.8,
@@ -206,12 +198,12 @@
       "descricao": "Atender despesas com 1º Termo Aditivo ao contrato nº Contrato nº 32/2023, a ser celebrado entre Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A."
     },
     {
-      "numero": "2023NE00717",
-      "contrato": "12/2023",
-      "valor": 90085.17,
+      "numero": "2025NE0000712",
+      "contrato": "17/2024",
+      "valor": 22378.72,
       "situacao": "Ativo",
-      "data_emissao": "24/03/2023",
-      "descricao": "Execução de Sistema PRODAM RH"
+      "data_emissao": "24/04/2025",
+      "descricao": "Contratação dos serviços de execução e desenvolvimento de sistemas, contemplando a execução de sistema de informação para disponibilização do Sistema de Controle de Material e Patrimônio - AJURI, em plataforma WEB; Contrato nº 17/2024, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A. TERMO DE REFERÊNCIA N.º 211/2024-DACC/DPE/AM; PARECER N°: 508/2024/DAJAI; Despacho nº 316/2024-GDPG/DPE/AM. Vigência: vigência da contrat"
     },
     {
       "numero": "2023NE0000717",
@@ -222,12 +214,12 @@
       "descricao": "Contrato nº 12/2023-DPE-AM, a ser celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM, e a Empresa Prodam Processamento de Dados Amazonas-Prodam/AM; Sistemas PRODAM-RH."
     },
     {
-      "numero": "2015NE00149",
-      "contrato": "4/2014",
-      "valor": 336177.15,
+      "numero": "2023NE00717",
+      "contrato": "12/2023",
+      "valor": 90085.17,
       "situacao": "Ativo",
-      "data_emissao": "23/04/2015",
-      "descricao": "SERVIÇOS DE ACESSO À INTERNET, Descrição: Contratação de Pessoa Jurídica especializada em serviço de banda larga de acesso a internet e circuito de comunicação de dados via fibra óptica, com locação todos os roteadores, firewall e servidores necessários à habilitação dos serviços"
+      "data_emissao": "24/03/2023",
+      "descricao": "Execução de Sistema PRODAM RH"
     },
     {
       "numero": "2015NE00152",
@@ -238,44 +230,12 @@
       "descricao": "contratação de empresa especializada na prestação de serviço de informática para implantação de Sistema de Controle de Material e Patrimônio - AJURI, conforme projeto básico MARCA: prodam Contrato nº 013/2014, Contratação de Empresa Especializada em Serviço de Licença de Uso de Sistemas de Informação, Implantação do Sistema de Controle de Material e Patrimônio - AJURI,"
     },
     {
-      "numero": "2026NE0000163",
-      "contrato": "18/2025",
-      "valor": 6647.45,
+      "numero": "2015NE00149",
+      "contrato": "4/2014",
+      "valor": 336177.15,
       "situacao": "Ativo",
-      "data_emissao": "23/01/2026",
-      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0001270, referente ao período de novembro e dezembro/2025."
-    },
-    {
-      "numero": "2026NE0000139",
-      "contrato": "17/2024",
-      "valor": 3421.42,
-      "situacao": "Ativo",
-      "data_emissao": "23/01/2026",
-      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0000048, referente ao período de novembro/2025."
-    },
-    {
-      "numero": "2026NE0000143",
-      "contrato": "17/2024",
-      "valor": 3421.42,
-      "situacao": "Ativo",
-      "data_emissao": "23/01/2026",
-      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0000048, referente ao período de novembro/2025."
-    },
-    {
-      "numero": "2026NE0000238",
-      "contrato": "",
-      "valor": 3421.42,
-      "situacao": "Ativo",
-      "data_emissao": "23/01/2026",
-      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0001975."
-    },
-    {
-      "numero": "2026NE0000206",
-      "contrato": "6/2025",
-      "valor": 47601.64,
-      "situacao": "Ativo",
-      "data_emissao": "23/01/2026",
-      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0000603."
+      "data_emissao": "23/04/2015",
+      "descricao": "SERVIÇOS DE ACESSO À INTERNET, Descrição: Contratação de Pessoa Jurídica especializada em serviço de banda larga de acesso a internet e circuito de comunicação de dados via fibra óptica, com locação todos os roteadores, firewall e servidores necessários à habilitação dos serviços"
     },
     {
       "numero": "2026NE0000142",
@@ -286,33 +246,49 @@
       "descricao": "Anulação erro da natureza"
     },
     {
-      "numero": "2025NE0002401",
-      "contrato": "",
-      "valor": 6737.83,
+      "numero": "2026NE0000206",
+      "contrato": "6/2025",
+      "valor": 47601.64,
       "situacao": "Ativo",
-      "data_emissao": "22/12/2025",
-      "descricao": "Em virtude do encerramento do exercício de 2025."
+      "data_emissao": "23/01/2026",
+      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0000603."
     },
     {
-      "numero": "2025NE0002350",
-      "contrato": "",
-      "valor": 36122.03,
-      "situacao": "Ativo",
-      "data_emissao": "22/12/2025",
-      "descricao": "Em virtude do encerramento do exercício de 2025."
-    },
-    {
-      "numero": "2025NE0002426",
+      "numero": "2026NE0000238",
       "contrato": "",
       "valor": 3421.42,
       "situacao": "Ativo",
-      "data_emissao": "22/12/2025",
-      "descricao": "Em virtude do encerramento do exercício de 2025."
+      "data_emissao": "23/01/2026",
+      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0001975."
     },
     {
-      "numero": "2025NE0002424",
+      "numero": "2026NE0000143",
+      "contrato": "17/2024",
+      "valor": 3421.42,
+      "situacao": "Ativo",
+      "data_emissao": "23/01/2026",
+      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0000048, referente ao período de novembro/2025."
+    },
+    {
+      "numero": "2026NE0000139",
+      "contrato": "17/2024",
+      "valor": 3421.42,
+      "situacao": "Ativo",
+      "data_emissao": "23/01/2026",
+      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0000048, referente ao período de novembro/2025."
+    },
+    {
+      "numero": "2026NE0000163",
+      "contrato": "18/2025",
+      "valor": 6647.45,
+      "situacao": "Ativo",
+      "data_emissao": "23/01/2026",
+      "descricao": "Atender despesas de exercício anterior, decorrente da anulação do empenho original nº 2025NE0001270, referente ao período de novembro e dezembro/2025."
+    },
+    {
+      "numero": "2025NE0002427",
       "contrato": "",
-      "valor": 4249.7,
+      "valor": 3421.42,
       "situacao": "Ativo",
       "data_emissao": "22/12/2025",
       "descricao": "Em virtude do encerramento do exercício de 2025."
@@ -326,9 +302,33 @@
       "descricao": "ENCERRAMENTO DO EXERCÍCIO"
     },
     {
-      "numero": "2025NE0002427",
+      "numero": "2025NE0002424",
+      "contrato": "",
+      "valor": 4249.7,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2025",
+      "descricao": "Em virtude do encerramento do exercício de 2025."
+    },
+    {
+      "numero": "2025NE0002426",
       "contrato": "",
       "valor": 3421.42,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2025",
+      "descricao": "Em virtude do encerramento do exercício de 2025."
+    },
+    {
+      "numero": "2025NE0002350",
+      "contrato": "",
+      "valor": 36122.03,
+      "situacao": "Ativo",
+      "data_emissao": "22/12/2025",
+      "descricao": "Em virtude do encerramento do exercício de 2025."
+    },
+    {
+      "numero": "2025NE0002401",
+      "contrato": "",
+      "valor": 6737.83,
       "situacao": "Ativo",
       "data_emissao": "22/12/2025",
       "descricao": "Em virtude do encerramento do exercício de 2025."
@@ -350,12 +350,12 @@
       "descricao": "Considerando o decreto nº 44.751 de 27/10/2021, anula-se saldo parcial referente ao termo do contrato n° 002/2018 - PRODAM PROCESSAMENTO DE DADOS AMAZONAS S.A, conf. Despacho 1628/2021/DACC-DPE/AM do processo Próton 20000.006692/2021-40 páginas 9, 10 e 11."
     },
     {
-      "numero": "2015NE00351",
-      "contrato": "13/2014",
-      "valor": 17676.84,
+      "numero": "2015NE00343",
+      "contrato": "5/2014",
+      "valor": 532.79,
       "situacao": "Ativo",
       "data_emissao": "22/10/2015",
-      "descricao": "ANULAÇÃO PARCIAL DA NE N° 49/15, REFERENTE AO SALDO DO CONTRATO N° 013/2014 ¿ PRODAM - AJURI, CONFORME DESPACHO DO MEMORANDO N° 32/15 ¿ DF/DPE ¿ AM."
+      "descricao": "ANULAÇÃO PARCIAL DA NE N° 26/15, REFERENTE A SALDO DE CONTRATO N° 005/2014 ¿ PRODAM, CONFORME DESPACHO DO MEMORANDO N° 32/15 ¿ DF/DPE ¿ AM."
     },
     {
       "numero": "2015NE00344",
@@ -366,12 +366,12 @@
       "descricao": "ANULAÇÃO PARCIAL DA NE N° 98/15, REFERENTE À SALDO DO 1° TA - CONTRATO N° 005/2014 ¿ PRODAM, CONFORME DESPACHO DO MEMORANDO N° 32/15 ¿ DF/DPE ¿ AM."
     },
     {
-      "numero": "2015NE00343",
-      "contrato": "5/2014",
-      "valor": 532.79,
+      "numero": "2015NE00351",
+      "contrato": "13/2014",
+      "valor": 17676.84,
       "situacao": "Ativo",
       "data_emissao": "22/10/2015",
-      "descricao": "ANULAÇÃO PARCIAL DA NE N° 26/15, REFERENTE A SALDO DE CONTRATO N° 005/2014 ¿ PRODAM, CONFORME DESPACHO DO MEMORANDO N° 32/15 ¿ DF/DPE ¿ AM."
+      "descricao": "ANULAÇÃO PARCIAL DA NE N° 49/15, REFERENTE AO SALDO DO CONTRATO N° 013/2014 ¿ PRODAM - AJURI, CONFORME DESPACHO DO MEMORANDO N° 32/15 ¿ DF/DPE ¿ AM."
     },
     {
       "numero": "2025NE0001270",
@@ -486,20 +486,20 @@
       "descricao": "Prorrogar o prazo de vigência do contrato original por mais 12 (doze) meses e o reajuste de 10,06% conforme índice IPCA acumulado no período de janeiro/2021 a dezembro/2021 no valor global do contrato."
     },
     {
-      "numero": "2023NE0000307",
-      "contrato": "2/2018",
-      "valor": 7202.0,
-      "situacao": "Ativo",
-      "data_emissao": "08/02/2023",
-      "descricao": "Pagamento indenizatório referente a prestação de serviço de desenvolvimento de rotina automatizada para extração de dados do sistema PRODAMRH."
-    },
-    {
       "numero": "2023NE0000308",
       "contrato": "",
       "valor": 7202.0,
       "situacao": "Ativo",
       "data_emissao": "08/02/2023",
       "descricao": "Anulação devido o pagamento ter sido efetuado através de contrato."
+    },
+    {
+      "numero": "2023NE0000307",
+      "contrato": "2/2018",
+      "valor": 7202.0,
+      "situacao": "Ativo",
+      "data_emissao": "08/02/2023",
+      "descricao": "Pagamento indenizatório referente a prestação de serviço de desenvolvimento de rotina automatizada para extração de dados do sistema PRODAMRH."
     },
     {
       "numero": "2024NE0000296",
@@ -518,20 +518,12 @@
       "descricao": "2° TERMO DE APOSTILAMENTO AO CONTRATO N.º 12/2023-DPE/AM, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM, e a Empresa PROCESSAMENTO DE DADOS AMAZONAS S/A-PRODAM."
     },
     {
-      "numero": "2026NE0000050",
-      "contrato": "6/2025",
-      "valor": 128079.9,
+      "numero": "2026NE0000062",
+      "contrato": "17/2024",
+      "valor": 37635.62,
       "situacao": "Ativo",
       "data_emissao": "05/01/2026",
-      "descricao": "Contrato n.º 06/2025 celebrado entre a Defensoria Pública do Estado do Amazonas e a empresa PRODAM - Processamento de Dados Amazonas S.A."
-    },
-    {
-      "numero": "2026NE0000077",
-      "contrato": "1/2026",
-      "valor": 62764.0,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2026",
-      "descricao": "Contrato n.º 01/2026 celebrado entre a Defensoria Pública do Estado do Amazonas e Processamento de Dados Amazonas S.A - PRODAM."
+      "descricao": "Contrato nº 17/2024 celebrado entre a Defensoria Pública do Estado do Amazonas e a empresa Prodam - Processamento de Dados Amazonas S.A, referente a contratação dos serviços de execução e desenvolvimento de sistemas, contemplando a execução de sistema de informação para disponibilização do Sistema de Controle de Material e Patrimônio - AJURI, em plataforma WEB."
     },
     {
       "numero": "2026NE0000036",
@@ -542,17 +534,25 @@
       "descricao": "Contrato n.º 18/2025 celebrado entre a Defensoria Pública do Estado do Amazonas e Processamento de Dados Amazonas S.A - PRODAM, referente a contratação de empresa especializada para fornecimento de software como serviço - PRODAM RH - compreendendo a disponibilização de uma solução abrangente, projetada para oferecer suporte aos processos de Recursos Humanos (RH) para os Residentes Jurídicos da DPE/AM."
     },
     {
-      "numero": "2026NE0000062",
-      "contrato": "17/2024",
-      "valor": 37635.62,
+      "numero": "2026NE0000077",
+      "contrato": "1/2026",
+      "valor": 62764.0,
       "situacao": "Ativo",
       "data_emissao": "05/01/2026",
-      "descricao": "Contrato nº 17/2024 celebrado entre a Defensoria Pública do Estado do Amazonas e a empresa Prodam - Processamento de Dados Amazonas S.A, referente a contratação dos serviços de execução e desenvolvimento de sistemas, contemplando a execução de sistema de informação para disponibilização do Sistema de Controle de Material e Patrimônio - AJURI, em plataforma WEB."
+      "descricao": "Contrato n.º 01/2026 celebrado entre a Defensoria Pública do Estado do Amazonas e Processamento de Dados Amazonas S.A - PRODAM."
     },
     {
-      "numero": "2015NE00049",
-      "contrato": "13/2014",
-      "valor": 9784.56,
+      "numero": "2026NE0000050",
+      "contrato": "6/2025",
+      "valor": 128079.9,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2026",
+      "descricao": "Contrato n.º 06/2025 celebrado entre a Defensoria Pública do Estado do Amazonas e a empresa PRODAM - Processamento de Dados Amazonas S.A."
+    },
+    {
+      "numero": "2015NE00036",
+      "contrato": "4/2014",
+      "valor": 268941.72,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
       "descricao": "Cobertura Financeira 2015"
@@ -566,28 +566,12 @@
       "descricao": "Cobertura Financeira 2015"
     },
     {
-      "numero": "2015NE00036",
-      "contrato": "4/2014",
-      "valor": 268941.72,
+      "numero": "2015NE00049",
+      "contrato": "13/2014",
+      "valor": 9784.56,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
       "descricao": "Cobertura Financeira 2015"
-    },
-    {
-      "numero": "2022NE0001860",
-      "contrato": "11/2019",
-      "valor": 2628.77,
-      "situacao": "Ativo",
-      "data_emissao": "03/10/2022",
-      "descricao": "3º Termo de Apostilamento ao Contrato nº 011/2019, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM -Processamento de Dados Amazonas S.A que tem como objeto a prorrogação do prazo de vigência do contrato original por mais 12 (doze) meses, com base na Cláusula Oitava do Contrato primitivo, a contar de 02/12/2022 a 02/12/2023, e reajuste de 10,08% no valor global do contrato;"
-    },
-    {
-      "numero": "2022NE0001858",
-      "contrato": "P.57/2022",
-      "valor": 1416.35,
-      "situacao": "Ativo",
-      "data_emissao": "03/10/2022",
-      "descricao": "Contratação de Serviços de Criação/Renovação de Registro de Domínio/Subdomínio DNS assegurando a configuração do DNSSEC para domínios/subdomínios DEF.BR para atender as necessidades da Defensoria Pública do Estado do Amazonas."
     },
     {
       "numero": "2022NE01858",
@@ -598,12 +582,20 @@
       "descricao": "Cobertura Financeira"
     },
     {
-      "numero": "2022NE0000035",
-      "contrato": "11/2019",
-      "valor": 26268.57,
+      "numero": "2022NE0001858",
+      "contrato": "P.57/2022",
+      "valor": 1416.35,
       "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Contratação de empresa especializada na prestação de serviço de Licença de uso de sistema de informação para a disponibilização do Sistema de Controle de Material e Patrimônio - AJURI."
+      "data_emissao": "03/10/2022",
+      "descricao": "Contratação de Serviços de Criação/Renovação de Registro de Domínio/Subdomínio DNS assegurando a configuração do DNSSEC para domínios/subdomínios DEF.BR para atender as necessidades da Defensoria Pública do Estado do Amazonas."
+    },
+    {
+      "numero": "2022NE0001860",
+      "contrato": "11/2019",
+      "valor": 2628.77,
+      "situacao": "Ativo",
+      "data_emissao": "03/10/2022",
+      "descricao": "3º Termo de Apostilamento ao Contrato nº 011/2019, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM -Processamento de Dados Amazonas S.A que tem como objeto a prorrogação do prazo de vigência do contrato original por mais 12 (doze) meses, com base na Cláusula Oitava do Contrato primitivo, a contar de 02/12/2022 a 02/12/2023, e reajuste de 10,08% no valor global do contrato;"
     },
     {
       "numero": "2022NE0000052",
@@ -614,28 +606,20 @@
       "descricao": "Atender despesas com o 4º Termo Aditivo ao Contrato nº 002/2018¿DPE-AM, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a empresa Prodam Processamento de Dados Amazonas-Prodam/AM"
     },
     {
+      "numero": "2022NE0000035",
+      "contrato": "11/2019",
+      "valor": 26268.57,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Contratação de empresa especializada na prestação de serviço de Licença de uso de sistema de informação para a disponibilização do Sistema de Controle de Material e Patrimônio - AJURI."
+    },
+    {
       "numero": "2025NE0001496",
       "contrato": "17/2024",
       "valor": 1346.76,
       "situacao": "Ativo",
       "data_emissao": "02/10/2025",
       "descricao": "1º Termo De Apostilamento ao Contrato N.º 17/2024 a ser celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM -Processamento de Dados Amazonas S.A."
-    },
-    {
-      "numero": "2025NE0000073",
-      "contrato": "32/2023",
-      "valor": 18534.8,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Atender despesas com 1º Termo Aditivo ao contrato nº Contrato nº 32/2023, a ser celebrado entre Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A Contratação de empresa para prestação de Serviço de Implantação de Sistemas de Informação e Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal (Estagiários), processamento de folha de pagamento de estagiários, transmissão dos dados referentes ao atendimento do e-Social, serviço d"
-    },
-    {
-      "numero": "2025NE0000048",
-      "contrato": "17/2024",
-      "valor": 12787.84,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2025",
-      "descricao": "Contratação dos serviços de execução e desenvolvimento de sistemas, contemplando a execução de sistema de informação para disponibilização do Sistema de Controle de Material e Patrimônio - AJURI, em plataforma WEB. Contrato n.º 17/2024, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A."
     },
     {
       "numero": "2025NE0000028",
@@ -646,12 +630,20 @@
       "descricao": "1º Termo Aditivo ao Contrato nº 12/2023-DPE-AM, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM, e a Empresa Prodam Processamento de Dados Amazonas-Prodam/AM."
     },
     {
-      "numero": "2024NE0000020",
-      "contrato": "32/2023",
-      "valor": 37069.6,
+      "numero": "2025NE0000048",
+      "contrato": "17/2024",
+      "valor": 12787.84,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2024",
-      "descricao": "Contrato nº 32/2023, a ser celebrado entre Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A."
+      "data_emissao": "02/01/2025",
+      "descricao": "Contratação dos serviços de execução e desenvolvimento de sistemas, contemplando a execução de sistema de informação para disponibilização do Sistema de Controle de Material e Patrimônio - AJURI, em plataforma WEB. Contrato n.º 17/2024, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A."
+    },
+    {
+      "numero": "2025NE0000073",
+      "contrato": "32/2023",
+      "valor": 18534.8,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2025",
+      "descricao": "Atender despesas com 1º Termo Aditivo ao contrato nº Contrato nº 32/2023, a ser celebrado entre Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A Contratação de empresa para prestação de Serviço de Implantação de Sistemas de Informação e Execução de Sistemas PRODAM-RH para controle de cadastro de pessoal (Estagiários), processamento de folha de pagamento de estagiários, transmissão dos dados referentes ao atendimento do e-Social, serviço d"
     },
     {
       "numero": "2024NE0000046",
@@ -662,6 +654,14 @@
       "descricao": "Contrato nº 12/2023-DPE-AM, celebrado entre a Defensoria Pública do Estado do Amazonas-DPE/AM, e a Empresa Prodam Processamento de Dados Amazonas-Prodam/AM;"
     },
     {
+      "numero": "2024NE0000020",
+      "contrato": "32/2023",
+      "valor": 37069.6,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2024",
+      "descricao": "Contrato nº 32/2023, a ser celebrado entre Defensoria Pública do Estado do Amazonas-DPE/AM e a PRODAM - Processamento de Dados Amazonas S.A."
+    },
+    {
       "numero": "2025NE0002029",
       "contrato": "",
       "valor": 4288.3,
@@ -670,20 +670,12 @@
       "descricao": "Em razão do encerramento do exercício de 2025, bem como em atenção ao Despacho nº 2541/2025-DCC-DPE/AM (Processo nº 15.835-9), cancelamos o saldo existente da referida nota de empenho."
     },
     {
-      "numero": "2015NE00223",
-      "contrato": "4/2014",
-      "valor": 51228.37,
+      "numero": "2015NE00219",
+      "contrato": "13/2014",
+      "valor": 5000.0,
       "situacao": "Ativo",
       "data_emissao": "01/07/2015",
-      "descricao": "Cancelamento da Nota de Empenho n° 0036/2015 - PRODAM do 2º Termo Aditivo ao Contrato nº 004/2014-DPE/AM, referente a Contratação de Pessoa Jurídica especializada em serviço de banda larga de acesso a internet e circuito de comunicação de dados via fibra óptica, com locação todos os roteadores, firewall e servidores necessários à habilitação dos serviços, conforme Parecer n° 217/2015-ASSJUR-GDPG/DPE/AM ¿ Transposição Saldos Remanescentes dos Contratos da Defensoria Pública-DPE/AM, p"
-    },
-    {
-      "numero": "2015NE00224",
-      "contrato": "5/2014",
-      "valor": 22466.36,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2015",
-      "descricao": "Cancelamento da Nota de Empenho n°0098/2015 ¿ PRODAM do 1º Termo Aditivo ao Contrato nº 005/2014 - DPE/AM, referente a Contratação de empresa especializada na prestação de serviços de processamento do Sistema CFPP - Cadastro e Folha de Pagamento de Pessoal, conforme Parecer n° 217/2015-ASSJUR-GDPG/DPE/AM ¿ Transposição Saldos Remanescentes dos Contratos da Defensoria Pública-DPE/AM, para o Fundo Especial da Defensoria-FUNDPAM ."
+      "descricao": "Cancelamento da Nota de Empenho n° 0049/15, do Contrato n° 013/2014 ¿ PRODAM, referente à Contratação de Empresa Especializada na Prestação de Serviço de Informática para Implantação de Sistema de Controle de Material e Patrimônio - AJURI, em Plataforma Web, objetivando o controle de Material de consumo (Controle de Estoque) e do Material Permanente (Controle de Patrimônio). Parecer n° 217/2015-ASSJUR-GDPG/DPE/AM ¿ Transposição Saldos Remanescentes dos Contratos da Defensoria Pública-"
     },
     {
       "numero": "2015NE00199",
@@ -694,12 +686,20 @@
       "descricao": "Empenho de contrato: importado manualmente em 18/09/2015"
     },
     {
-      "numero": "2015NE00219",
-      "contrato": "13/2014",
-      "valor": 5000.0,
+      "numero": "2015NE00224",
+      "contrato": "5/2014",
+      "valor": 22466.36,
       "situacao": "Ativo",
       "data_emissao": "01/07/2015",
-      "descricao": "Cancelamento da Nota de Empenho n° 0049/15, do Contrato n° 013/2014 ¿ PRODAM, referente à Contratação de Empresa Especializada na Prestação de Serviço de Informática para Implantação de Sistema de Controle de Material e Patrimônio - AJURI, em Plataforma Web, objetivando o controle de Material de consumo (Controle de Estoque) e do Material Permanente (Controle de Patrimônio). Parecer n° 217/2015-ASSJUR-GDPG/DPE/AM ¿ Transposição Saldos Remanescentes dos Contratos da Defensoria Pública-"
+      "descricao": "Cancelamento da Nota de Empenho n°0098/2015 ¿ PRODAM do 1º Termo Aditivo ao Contrato nº 005/2014 - DPE/AM, referente a Contratação de empresa especializada na prestação de serviços de processamento do Sistema CFPP - Cadastro e Folha de Pagamento de Pessoal, conforme Parecer n° 217/2015-ASSJUR-GDPG/DPE/AM ¿ Transposição Saldos Remanescentes dos Contratos da Defensoria Pública-DPE/AM, para o Fundo Especial da Defensoria-FUNDPAM ."
+    },
+    {
+      "numero": "2015NE00223",
+      "contrato": "4/2014",
+      "valor": 51228.37,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2015",
+      "descricao": "Cancelamento da Nota de Empenho n° 0036/2015 - PRODAM do 2º Termo Aditivo ao Contrato nº 004/2014-DPE/AM, referente a Contratação de Pessoa Jurídica especializada em serviço de banda larga de acesso a internet e circuito de comunicação de dados via fibra óptica, com locação todos os roteadores, firewall e servidores necessários à habilitação dos serviços, conforme Parecer n° 217/2015-ASSJUR-GDPG/DPE/AM ¿ Transposição Saldos Remanescentes dos Contratos da Defensoria Pública-DPE/AM, p"
     }
   ],
   "faturas": [
@@ -764,7 +764,7 @@
         },
         "2022": {
           "qtd": 9,
-          "valor": 97728.40999999999
+          "valor": 97728.41
         }
       }
     },

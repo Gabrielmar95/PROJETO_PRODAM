@@ -1,5 +1,5 @@
 # Auditoria de Completude — CASA MILITAR
-**** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **27.3%**
 

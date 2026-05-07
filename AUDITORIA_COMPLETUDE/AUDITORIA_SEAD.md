@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEAD
-**Secretaria de Administração** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Administração** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 2339702.19897373
-- **db_faturas:** 4941372.73
-- **delta:** 2601670.53102627
-- **pct:** 111.2%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 25
-- **db:** 56
-- **delta:** 31
-
+_Nenhuma divergência significativa detectada_

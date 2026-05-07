@@ -1,6 +1,6 @@
 # Dossiê Completo — ITRANSITO
 **iTransito** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 23.792.780/0001-55
+Data: 2026-05-07 | CNPJ: 23.792.780/0001-55
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 23.792.780/0001-55
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 38.360,67 |
 | Valor atualizado (profile) | R$ 38.360,67 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 12 |
+| Faturas exigíveis | 12 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 5.754,10 |
@@ -65,4 +65,4 @@ Valor original R$ 38,360.67 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

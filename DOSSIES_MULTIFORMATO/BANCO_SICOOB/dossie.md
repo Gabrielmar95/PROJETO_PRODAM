@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO SICOOB
 **Banco Sicoob** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 02.038.232/0001-64
+Data: 2026-05-07 | CNPJ: 02.038.232/0001-64
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 02.038.232/0001-64
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 30.290,00 |
 | Valor atualizado (profile) | R$ 30.290,00 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 21 |
+| Faturas exigíveis | 21 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 4.543,50 |
@@ -65,4 +65,4 @@ Valor original R$ 30,290.00 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

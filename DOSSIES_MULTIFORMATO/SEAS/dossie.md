@@ -1,6 +1,6 @@
 # Dossiê Completo — SEAS
 **Secretaria de Assuntos Estratégicos** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 01.742.414/0001-59
+Data: 2026-05-07 | CNPJ: 01.742.414/0001-59
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Em trâmite de reconhecimento de Dívida
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

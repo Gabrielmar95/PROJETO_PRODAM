@@ -1,5 +1,5 @@
 # Auditoria de Completude — IDAM
-**Instituto de Desenvolvimento Agropecuário do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Instituto de Desenvolvimento Agropecuário do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,10 +47,6 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 30
-- **db:** 7
-- **delta:** 23
-
+_Nenhuma divergência significativa detectada_

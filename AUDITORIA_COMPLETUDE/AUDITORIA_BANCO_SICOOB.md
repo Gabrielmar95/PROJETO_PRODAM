@@ -1,5 +1,5 @@
 # Auditoria de Completude — BANCO SICOOB
-**Banco Sicoob** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**Banco Sicoob** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **36.4%**
 

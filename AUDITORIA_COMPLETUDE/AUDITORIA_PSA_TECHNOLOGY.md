@@ -1,5 +1,5 @@
 # Auditoria de Completude — PSA TECHNOLOGY
-**PSA Technology** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**PSA Technology** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **0.0%**
 

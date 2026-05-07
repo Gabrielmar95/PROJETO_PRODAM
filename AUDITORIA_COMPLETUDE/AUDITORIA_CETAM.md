@@ -1,5 +1,5 @@
 # Auditoria de Completude — CETAM
-**Centro de Educação Tecnológica do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Centro de Educação Tecnológica do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **27.3%**
 

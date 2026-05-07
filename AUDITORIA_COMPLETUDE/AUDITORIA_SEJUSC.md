@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEJUSC
-**Secretaria de Estado da Justiça, Direitos Humanos e Cidadania** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Estado da Justiça, Direitos Humanos e Cidadania** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 

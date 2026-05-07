@@ -1,6 +1,6 @@
 # Dossiê Completo — ADS
 **Agência de Desenvolvimento Sustentável do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: CNPJ_PENDENTE
+Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -52,9 +52,9 @@ Distribuição por ano:
 |--------|----------|------|-------|----------|
 | 2014NE00113 | 102/2012 | 25/03/2014 | R$ 79.842,51 | Ativo |
 | 2020NE00039 | 2/2018 | 28/01/2020 | R$ 70.733,52 | Ativo |
-| 2015NE00034 | 102/2012 | 05/01/2015 | R$ 26.614,21 | Ativo |
-| 2015NE00020 | 102/2012 | 05/01/2015 | R$ 26.614,21 | Ativo |
 | 2015NE00007 | 102/2012 | 05/01/2015 | R$ 26.614,21 | Ativo |
+| 2015NE00020 | 102/2012 | 05/01/2015 | R$ 26.614,21 | Ativo |
+| 2015NE00034 | 102/2012 | 05/01/2015 | R$ 26.614,21 | Ativo |
 | 2014NE00041 | 102/2012 | 02/01/2014 | R$ 25.221,93 | Ativo |
 | 2026NE0000015 | 427/2021 | 05/01/2026 | R$ 21.288,20 | Ativo |
 | 2019NE00166 | 2/2018 | 22/03/2019 | R$ 19.290,96 | Ativo |
@@ -84,4 +84,4 @@ Incluido via SPCF Mar/2026. So 8 fat aberto (B2-05 R$13.278,28). R$342K em perda
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEAS
-**Secretaria de Assuntos Estratégicos** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Assuntos Estratégicos** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -48,14 +48,14 @@
 
 ## Divergências (2)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 651041.089737987
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 362026.30
 - **db_faturas:** 219783.61000000002
-- **delta:** 431257.47973798698
-- **pct:** 66.2%
+- **delta:** 142242.68999999998
+- **pct:** 39.3%
 
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 63
+### Tipo: `faturas_aberto_qtd_profile_vs_db`
+- **profile:** 38
 - **db:** 25
-- **delta:** 38
+- **delta:** 13
 

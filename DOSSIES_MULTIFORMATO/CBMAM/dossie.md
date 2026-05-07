@@ -1,6 +1,6 @@
 # Dossiê Completo — CBMAM
 **Corpo de Bombeiros Militar do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 02.963.980/0001-53
+Data: 2026-05-07 | CNPJ: 02.963.980/0001-53
 
 ## Visão Executiva
 
@@ -52,9 +52,9 @@ Distribuição por ano:
 |--------|----------|------|-------|----------|
 | 2014NE00028 | 2/2011 | 02/01/2014 | R$ 39.648,70 | Ativo |
 | 2018NE00236 | 2/2011 | 17/04/2018 | R$ 29.920,00 | Ativo |
-| 2016NE00046 | 2/2011 | 04/01/2016 | R$ 20.218,92 | Ativo |
-| 2016NE00053 |  | 04/01/2016 | R$ 20.218,92 | Ativo |
 | 2016NE00054 | 2/2011 | 04/01/2016 | R$ 20.218,92 | Ativo |
+| 2016NE00053 |  | 04/01/2016 | R$ 20.218,92 | Ativo |
+| 2016NE00046 | 2/2011 | 04/01/2016 | R$ 20.218,92 | Ativo |
 | 2020NE00427 | 1/2017 | 18/09/2020 | R$ 19.465,18 | Ativo |
 | 2020NE00420 |  | 16/09/2020 | R$ 19.465,18 | Ativo |
 | 2020NE00420 |  | 16/09/2020 | R$ 19.465,18 | Ativo |
@@ -80,4 +80,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

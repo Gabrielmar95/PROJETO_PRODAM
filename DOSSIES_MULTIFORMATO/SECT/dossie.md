@@ -1,6 +1,6 @@
 # Dossiê Completo — SECT
 **Secretaria de Ciência e Tecnologia** | Categoria: **GOV_DIRETA**
-Data: 2026-04-14 | CNPJ: 05.558.639/0001-00
+Data: 2026-05-07 | CNPJ: 05.558.639/0001-00
 
 ## Visão Executiva
 
@@ -86,4 +86,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

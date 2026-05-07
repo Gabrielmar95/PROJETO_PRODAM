@@ -1,5 +1,5 @@
 # Auditoria de Completude — ADS
-**Agência de Desenvolvimento Sustentável do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-04-17
+**Agência de Desenvolvimento Sustentável do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **45.5%**
 
@@ -47,16 +47,11 @@
 - ❌ reconhecimento: Atos de reconhecimento tácito/expresso
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (1)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 211657.47
+### Tipo: `valor_aberto_vs_db_faturas`
+- **profile:** 13278.28
 - **db_faturas:** 10230.6
-- **delta:** 201426.87
-- **pct:** 95.2%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 119
-- **db:** 6
-- **delta:** 113
+- **delta:** 3047.68
+- **pct:** 23.0%
 

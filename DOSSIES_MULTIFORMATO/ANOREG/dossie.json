@@ -8,9 +8,9 @@
     "val_exig": "102267.91",
     "val_orig": "102267.91",
     "val_atualizado": "102267.91",
-    "faturas_total": 0,
+    "faturas_total": 12,
     "faturas_prescritas": 0,
-    "faturas_exigiveis": 0,
+    "faturas_exigiveis": 12,
     "indice_correcao": "SELIC",
     "juros_mora": "1% a.m.",
     "multa": "2%",
@@ -199,7 +199,164 @@
       "empenhos_vinc": 171
     }
   ],
-  "cobrancas": [],
+  "cobrancas": [
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "138022",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/138022/E",
+      "Comp.": "12/2022",
+      "Valor": "8.613,83",
+      "Atraso": "1164 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "138743",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/138743/E",
+      "Comp.": "01/2023",
+      "Valor": "9.875,84",
+      "Atraso": "1134 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "139423",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/139423/E",
+      "Comp.": "02/2023",
+      "Valor": "7.517,12",
+      "Atraso": "1102 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "140091",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140091/E",
+      "Comp.": "03/2023",
+      "Valor": "10.192,00",
+      "Atraso": "1072 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "140799",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/140799/E",
+      "Comp.": "04/2023",
+      "Valor": "7.675,20",
+      "Atraso": "1044 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "141578",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/141578/E",
+      "Comp.": "05/2023",
+      "Valor": "9.380,80",
+      "Atraso": "1014 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "142347",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/142347/E",
+      "Comp.": "06/2023",
+      "Valor": "8.315,84",
+      "Atraso": "980 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "143094",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143094/E",
+      "Comp.": "07/2023",
+      "Valor": "9.409,92",
+      "Atraso": "952 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "143867",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/143867/E",
+      "Comp.": "08/2023",
+      "Valor": "9.376,64",
+      "Atraso": "920 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "144609",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/144609/E",
+      "Comp.": "09/2023",
+      "Valor": "6.830,72",
+      "Atraso": "890 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "145346",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/145346/E",
+      "Comp.": "10/2023",
+      "Valor": "7.770,88",
+      "Atraso": "857 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    },
+    {
+      "Cliente": "ANOREG/AM",
+      "Serviços": "Execução de sistemas",
+      "Contrato": "001/2016",
+      "Número": "146081",
+      "Número_link": "https://spcf.prodam.am.gov.br/index.php/faturas/view/146081/E",
+      "Comp.": "11/2023",
+      "Valor": "7.309,12",
+      "Atraso": "832 dias",
+      "Corrigido": "0,00",
+      "Status": "Pendente",
+      "Ações": ""
+    }
+  ],
   "stats": {
     "empenhos": {
       "qtd": 0,
@@ -211,8 +368,8 @@
       "valor_total": 102286.08
     },
     "cobrancas": {
-      "qtd": 0,
-      "valor_total": 0.0
+      "qtd": 12,
+      "valor_total": 102267.91
     }
   }
 }

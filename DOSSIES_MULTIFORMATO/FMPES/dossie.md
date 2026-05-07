@@ -1,6 +1,6 @@
 # Dossiê Completo — FMPES
 **Fundação Municipal de Planejamento e Ensino Superior** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: CNPJ_PENDENTE
+Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -55,4 +55,4 @@ Incluido via SPCF Mar/2026. 2 fat aberto (B2-05 R$27.264,57). Emp 2026 R$110K (4
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

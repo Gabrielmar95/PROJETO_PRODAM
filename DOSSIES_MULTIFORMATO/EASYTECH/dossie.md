@@ -1,6 +1,6 @@
 # Dossiê Completo — EASYTECH
 **Easytech** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-04-14 | CNPJ: 14.379.210/0001-47
+Data: 2026-05-07 | CNPJ: 14.379.210/0001-47
 
 ## Visão Executiva
 
@@ -14,8 +14,8 @@ Data: 2026-04-14 | CNPJ: 14.379.210/0001-47
 | Juros mora | 1% a.m. |
 | Valor exigível (profile) | R$ 6.927,16 |
 | Valor atualizado (profile) | R$ 6.927,16 |
-| Faturas total | 0 |
-| Faturas exigíveis | 0 |
+| Faturas total | 10 |
+| Faturas exigíveis | 10 |
 | Faturas prescritas | 0 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 1.039,07 |
@@ -65,4 +65,4 @@ Valor original R$ 6,927.16 — fonte: relatorio_devedores.xls. Análise massiva 
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

@@ -1,5 +1,5 @@
 # Auditoria de Completude — PGE
-**Procuradoria-Geral do Estado** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Procuradoria-Geral do Estado** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,11 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (1)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 680239.7715611592
-- **db_faturas:** 1083736.85
-- **delta:** 403497.0784388408
-- **pct:** 59.3%
-
+_Nenhuma divergência significativa detectada_

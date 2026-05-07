@@ -83,20 +83,12 @@
   },
   "empenhos": [
     {
-      "numero": "2022NE0002069",
-      "contrato": "41/2021",
-      "valor": 1292.8,
+      "numero": "2022NE0002066",
+      "contrato": "6/2018",
+      "valor": 5879.68,
       "situacao": "Ativo",
       "data_emissao": "31/10/2022",
-      "descricao": "CT.041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades desta SEINFRA."
-    },
-    {
-      "numero": "2022NE0002070",
-      "contrato": "42/2021",
-      "valor": 20914.51,
-      "situacao": "Ativo",
-      "data_emissao": "31/10/2022",
-      "descricao": "Parte do Saldo do CT. nº042-2021-SEINFRA, destinados para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus-SEINFRA"
+      "descricao": "Parte do Saldo do CT. n°006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamentos de Segurança para a Rede interna desta SEINFRA."
     },
     {
       "numero": "2022NE0002067",
@@ -107,44 +99,28 @@
       "descricao": "Parte do Saldo do CT.019/2019-SEINFRA, destinados a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2022NE0002066",
-      "contrato": "6/2018",
-      "valor": 5879.68,
+      "numero": "2022NE0002070",
+      "contrato": "42/2021",
+      "valor": 20914.51,
       "situacao": "Ativo",
       "data_emissao": "31/10/2022",
-      "descricao": "Parte do Saldo do CT. n°006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamentos de Segurança para a Rede interna desta SEINFRA."
+      "descricao": "Parte do Saldo do CT. nº042-2021-SEINFRA, destinados para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus-SEINFRA"
     },
     {
-      "numero": "2020NE00748",
-      "contrato": "",
-      "valor": 7933.35,
+      "numero": "2022NE0002069",
+      "contrato": "41/2021",
+      "valor": 1292.8,
       "situacao": "Ativo",
-      "data_emissao": "31/07/2020",
-      "descricao": "Anulação total da NE n° 747/2020, em virtude de erro no Sistema AFI."
+      "data_emissao": "31/10/2022",
+      "descricao": "CT.041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades desta SEINFRA."
     },
     {
-      "numero": "2020NE00746",
-      "contrato": "",
-      "valor": 7933.35,
-      "situacao": "Ativo",
-      "data_emissao": "31/07/2020",
-      "descricao": "Anulação Total da NE N. 744/2020 - SEINFRA, em virtude de descrição indevida."
-    },
-    {
-      "numero": "2020NE00759",
-      "contrato": "11/2016",
-      "valor": 12729.59,
-      "situacao": "Ativo",
-      "data_emissao": "31/07/2020",
-      "descricao": "4º Termo Aditivo ao Contrato nº 011/2016-SEINFRA - Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
-    },
-    {
-      "numero": "2020NE00744",
+      "numero": "2020NE00749",
       "contrato": "19/2019",
       "valor": 7933.35,
       "situacao": "Ativo",
       "data_emissao": "31/07/2020",
-      "descricao": "1ª Termo aditivo ao CT. N°019/2019-SEINFRA - Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA"
+      "descricao": "Termo aditivo ao CT. N° 019/2019-SEINFRA, Prestação de serviços de uso do Sistema de Gestão de Conteúdo Web para esta SEINFRA."
     },
     {
       "numero": "2020NE00747",
@@ -155,12 +131,36 @@
       "descricao": "Termo aditivo ao Contrato N°019/2020-SEINFRA - Prestação de serviços de uso do Sistema de Gestão de Conteúdo Web, para esta SEINFRA."
     },
     {
-      "numero": "2020NE00749",
+      "numero": "2020NE00744",
       "contrato": "19/2019",
       "valor": 7933.35,
       "situacao": "Ativo",
       "data_emissao": "31/07/2020",
-      "descricao": "Termo aditivo ao CT. N° 019/2019-SEINFRA, Prestação de serviços de uso do Sistema de Gestão de Conteúdo Web para esta SEINFRA."
+      "descricao": "1ª Termo aditivo ao CT. N°019/2019-SEINFRA - Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA"
+    },
+    {
+      "numero": "2020NE00759",
+      "contrato": "11/2016",
+      "valor": 12729.59,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "4º Termo Aditivo ao Contrato nº 011/2016-SEINFRA - Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
+    },
+    {
+      "numero": "2020NE00746",
+      "contrato": "",
+      "valor": 7933.35,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "Anulação Total da NE N. 744/2020 - SEINFRA, em virtude de descrição indevida."
+    },
+    {
+      "numero": "2020NE00748",
+      "contrato": "",
+      "valor": 7933.35,
+      "situacao": "Ativo",
+      "data_emissao": "31/07/2020",
+      "descricao": "Anulação total da NE n° 747/2020, em virtude de erro no Sistema AFI."
     },
     {
       "numero": "2017NE00101",
@@ -203,20 +203,20 @@
       "descricao": "1° Termo Aditivo ao Contrato nº 029/2014 - SEINFRA - Sistema Sproweb."
     },
     {
-      "numero": "2016NE01172",
-      "contrato": "",
-      "valor": 1250.66,
-      "situacao": "Ativo",
-      "data_emissao": "29/12/2016",
-      "descricao": "Anulação parcial da NE N°00053/2016, conforme Instrução Normativa N°01/2016, de 14 de Dezembro de 2016-SET/SEFAZ."
-    },
-    {
       "numero": "2016NE01166",
       "contrato": "9/2016",
       "valor": 7577.32,
       "situacao": "Ativo",
       "data_emissao": "29/12/2016",
       "descricao": "Parte do Saldo do CT. N°009/2016 - Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras - SICOP ao Sistema de Administração Financeira Integrada - AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
+    },
+    {
+      "numero": "2016NE01172",
+      "contrato": "",
+      "valor": 1250.66,
+      "situacao": "Ativo",
+      "data_emissao": "29/12/2016",
+      "descricao": "Anulação parcial da NE N°00053/2016, conforme Instrução Normativa N°01/2016, de 14 de Dezembro de 2016-SET/SEFAZ."
     },
     {
       "numero": "2016NE00845",
@@ -243,14 +243,6 @@
       "descricao": "Saldo do CT. N°011/2016 - SEINFRA, destinados a Contratação de empresa especializada para a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
-      "numero": "2023NE0000770",
-      "contrato": "19/2019",
-      "valor": 4803.62,
-      "situacao": "Ativo",
-      "data_emissao": "29/05/2023",
-      "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 019/2019 AD: 02."
-    },
-    {
       "numero": "2023NE0000767",
       "contrato": "4/2023",
       "valor": 14242.04,
@@ -259,84 +251,12 @@
       "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA."
     },
     {
-      "numero": "2018NE01500",
-      "contrato": "",
-      "valor": 5185.28,
+      "numero": "2023NE0000770",
+      "contrato": "19/2019",
+      "valor": 4803.62,
       "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação parcial da NE N° 215/2018, referente ao Contrato n° 006/2018-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01507",
-      "contrato": "",
-      "valor": 8506.68,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação total da NE N° 869/2018, referente ao Contrato n° 059/2018-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01498",
-      "contrato": "",
-      "valor": 5550.23,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação parcial da NE N° 210/2018, referente ao Contrato n° 011/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01480",
-      "contrato": "",
-      "valor": 8807.39,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação total da NE N°1124/2018, referente ao CT-00021/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01488",
-      "contrato": "",
-      "valor": 2950.58,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação total da NE N° 207/2018, referente ao Contrato n°001/2017-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01490",
-      "contrato": "",
-      "valor": 27444.03,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação parcial da NE N° 208/2018, referente ao Contrato n°009/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01506",
-      "contrato": "",
-      "valor": 6862.4,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação parcial da NE N° 801/2018, referente ao Contrato n° 011/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01503",
-      "contrato": "",
-      "valor": 26364.03,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação parcial da NE N° 411/2018, referente ao Contrato n° 009/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01476",
-      "contrato": "",
-      "valor": 615.7,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação total da NE N°1042/2018, referente ao Contrato nº 009/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
-    },
-    {
-      "numero": "2018NE01485",
-      "contrato": "",
-      "valor": 5470.32,
-      "situacao": "Ativo",
-      "data_emissao": "28/12/2018",
-      "descricao": "Anulação parcial da NE N° 206/2018, referente ao Contrato n°021/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
+      "data_emissao": "29/05/2023",
+      "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 019/2019 AD: 02."
     },
     {
       "numero": "2018NE01499",
@@ -347,44 +267,92 @@
       "descricao": "Anulação parcial da NE N° 211/2018, referente ao Contrato n° 001/2017-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
     },
     {
-      "numero": "2020NE01091",
-      "contrato": "9/2016",
-      "valor": 5797.1,
+      "numero": "2018NE01485",
+      "contrato": "",
+      "valor": 5470.32,
       "situacao": "Ativo",
-      "data_emissao": "28/09/2020",
-      "descricao": "Saldo do Contrato N°009/2016-SEINFRA - Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação parcial da NE N° 206/2018, referente ao Contrato n°021/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
     },
     {
-      "numero": "2020NE01089",
-      "contrato": "9/2016",
-      "valor": 45353.4,
+      "numero": "2018NE01476",
+      "contrato": "",
+      "valor": 615.7,
       "situacao": "Ativo",
-      "data_emissao": "28/09/2020",
-      "descricao": "Saldo do 4° Termo Aditivo ao Contrato N°009/2016-SEINFRA - Prestação de Serviços de Hospedagem do Sistema Integrado° de Controle e Gestão de Obras - SICOP."
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação total da NE N°1042/2018, referente ao Contrato nº 009/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
     },
     {
-      "numero": "2020NE01084",
-      "contrato": "11/2016",
-      "valor": 5024.11,
+      "numero": "2018NE01503",
+      "contrato": "",
+      "valor": 26364.03,
       "situacao": "Ativo",
-      "data_emissao": "28/09/2020",
-      "descricao": "Saldo do Contrato N°011/2016-SEINFRA-Prestação de serviços para aquisição do Programa de execução de sistema de Protocolo em Plataforma WEB (sproweb) para Secretaria de Estado de Infraestrutura - SEINFRA."
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação parcial da NE N° 411/2018, referente ao Contrato n° 009/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
     },
     {
-      "numero": "2020NE01090",
-      "contrato": "19/2019",
-      "valor": 7933.35,
+      "numero": "2018NE01506",
+      "contrato": "",
+      "valor": 6862.4,
       "situacao": "Ativo",
-      "data_emissao": "28/09/2020",
-      "descricao": "Em substituição a NE nº 749/2020, referente ao 1º T.A. do Contrato nº 019/2019-SEINFRA para a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA"
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação parcial da NE N° 801/2018, referente ao Contrato n° 011/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
     },
     {
-      "numero": "2020NE01086",
-      "contrato": "6/2018",
-      "valor": 2659.04,
+      "numero": "2018NE01490",
+      "contrato": "",
+      "valor": 27444.03,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação parcial da NE N° 208/2018, referente ao Contrato n°009/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
+    },
+    {
+      "numero": "2018NE01488",
+      "contrato": "",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação total da NE N° 207/2018, referente ao Contrato n°001/2017-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
+    },
+    {
+      "numero": "2018NE01480",
+      "contrato": "",
+      "valor": 8807.39,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação total da NE N°1124/2018, referente ao CT-00021/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
+    },
+    {
+      "numero": "2018NE01498",
+      "contrato": "",
+      "valor": 5550.23,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação parcial da NE N° 210/2018, referente ao Contrato n° 011/2016-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
+    },
+    {
+      "numero": "2018NE01507",
+      "contrato": "",
+      "valor": 8506.68,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação total da NE N° 869/2018, referente ao Contrato n° 059/2018-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
+    },
+    {
+      "numero": "2018NE01500",
+      "contrato": "",
+      "valor": 5185.28,
+      "situacao": "Ativo",
+      "data_emissao": "28/12/2018",
+      "descricao": "Anulação parcial da NE N° 215/2018, referente ao Contrato n° 006/2018-SEINFRA, em virtude do encerramento do exercício, conforme Instrução Normativa N°01/2018/SET/SEFAZ publicado no D.O.E em 30/11/2018."
+    },
+    {
+      "numero": "2020NE01087",
+      "contrato": "21/2016",
+      "valor": 35229.56,
       "situacao": "Ativo",
       "data_emissao": "28/09/2020",
-      "descricao": "Saldo do CT. N°006/2018-SEINFRA - Prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
+      "descricao": "Saldo do Contrato N°021/2016-SEINFRA - Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS."
     },
     {
       "numero": "2020NE01088",
@@ -395,12 +363,44 @@
       "descricao": "Saldo 2º Termo Aditivo ao Contato Nº 006/2018-SEINFRA - Prestação de Serviços de Locação de Equipamento de Segurança para a Rede Interna desta Secretaria de Estado de Infraestrutura SEINFRA."
     },
     {
-      "numero": "2020NE01087",
-      "contrato": "21/2016",
-      "valor": 35229.56,
+      "numero": "2020NE01086",
+      "contrato": "6/2018",
+      "valor": 2659.04,
       "situacao": "Ativo",
       "data_emissao": "28/09/2020",
-      "descricao": "Saldo do Contrato N°021/2016-SEINFRA - Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS."
+      "descricao": "Saldo do CT. N°006/2018-SEINFRA - Prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
+    },
+    {
+      "numero": "2020NE01090",
+      "contrato": "19/2019",
+      "valor": 7933.35,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2020",
+      "descricao": "Em substituição a NE nº 749/2020, referente ao 1º T.A. do Contrato nº 019/2019-SEINFRA para a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA"
+    },
+    {
+      "numero": "2020NE01084",
+      "contrato": "11/2016",
+      "valor": 5024.11,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2020",
+      "descricao": "Saldo do Contrato N°011/2016-SEINFRA-Prestação de serviços para aquisição do Programa de execução de sistema de Protocolo em Plataforma WEB (sproweb) para Secretaria de Estado de Infraestrutura - SEINFRA."
+    },
+    {
+      "numero": "2020NE01089",
+      "contrato": "9/2016",
+      "valor": 45353.4,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2020",
+      "descricao": "Saldo do 4° Termo Aditivo ao Contrato N°009/2016-SEINFRA - Prestação de Serviços de Hospedagem do Sistema Integrado° de Controle e Gestão de Obras - SICOP."
+    },
+    {
+      "numero": "2020NE01091",
+      "contrato": "9/2016",
+      "valor": 5797.1,
+      "situacao": "Ativo",
+      "data_emissao": "28/09/2020",
+      "descricao": "Saldo do Contrato N°009/2016-SEINFRA - Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
     },
     {
       "numero": "2021NE0000816",
@@ -435,20 +435,12 @@
       "descricao": "Saldo do CT.051/2021-SEINRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta SEINFRA"
     },
     {
-      "numero": "2015NE00986",
-      "contrato": "80/2009",
-      "valor": 116551.88,
+      "numero": "2015NE00988",
+      "contrato": "61/2012",
+      "valor": 13519.72,
       "situacao": "Ativo",
       "data_emissao": "27/07/2015",
-      "descricao": "T. Aditivo de Redução do Contrato nº 080/2009-SEINFRA-Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP."
-    },
-    {
-      "numero": "2015NE00993",
-      "contrato": "80/2009",
-      "valor": 116551.88,
-      "situacao": "Ativo",
-      "data_emissao": "27/07/2015",
-      "descricao": "11º Termo Aditivo de Redução do Contrato nº 080/2009-SEINFRA-Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP."
+      "descricao": "Saldo do Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
     },
     {
       "numero": "2015NE00992",
@@ -459,12 +451,20 @@
       "descricao": "Anulação Total da Nota de Empenho nº 0986/2015, referente ao 11º Termo Aditivo do Contrato nº 0080/2009-SEINFRA, devido descrição da vigência incorreta."
     },
     {
-      "numero": "2015NE00988",
-      "contrato": "61/2012",
-      "valor": 13519.72,
+      "numero": "2015NE00993",
+      "contrato": "80/2009",
+      "valor": 116551.88,
       "situacao": "Ativo",
       "data_emissao": "27/07/2015",
-      "descricao": "Saldo do Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
+      "descricao": "11º Termo Aditivo de Redução do Contrato nº 080/2009-SEINFRA-Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP."
+    },
+    {
+      "numero": "2015NE00986",
+      "contrato": "80/2009",
+      "valor": 116551.88,
+      "situacao": "Ativo",
+      "data_emissao": "27/07/2015",
+      "descricao": "T. Aditivo de Redução do Contrato nº 080/2009-SEINFRA-Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP."
     },
     {
       "numero": "2023NE0000848",
@@ -483,20 +483,12 @@
       "descricao": "Anulação Parcial da Nota de Empenho nº 006/2020, referente ao Contrato nº 006/2018-SEINFRA, em virtude do encerramento da vigência contratual em 12/03/2020."
     },
     {
-      "numero": "2018NE00166",
-      "contrato": "9/2016",
-      "valor": 36952.04,
+      "numero": "2018NE00167",
+      "contrato": "11/2016",
+      "valor": 20186.95,
       "situacao": "Ativo",
       "data_emissao": "27/02/2018",
-      "descricao": "Anulação Total da Nota de Empenho nº. 053/2018, referente ao Contrato nº 009/2016-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI datado de 07 de fevereiro de 2018."
-    },
-    {
-      "numero": "2018NE00164",
-      "contrato": "21/2016",
-      "valor": 102740.99,
-      "situacao": "Ativo",
-      "data_emissao": "27/02/2018",
-      "descricao": "Anulação Total da Nota de Empenho nº. 057/2018, referente ao Contrato n° 021/2016-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI de 07 de fevereiro de 2018."
+      "descricao": "Anulação Total da Nota de Empenho nº. 055/2018, referente ao Contrato nº 011/2016-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI datado de 07 de fevereiro de 2018."
     },
     {
       "numero": "2018NE00165",
@@ -507,20 +499,20 @@
       "descricao": "Anulação Total da Nota de Empenho nº. 0105/2018, referente ao Contrato n° 001/2017-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI de 07 de fevereiro de 2018."
     },
     {
-      "numero": "2018NE00167",
-      "contrato": "11/2016",
-      "valor": 20186.95,
+      "numero": "2018NE00164",
+      "contrato": "21/2016",
+      "valor": 102740.99,
       "situacao": "Ativo",
       "data_emissao": "27/02/2018",
-      "descricao": "Anulação Total da Nota de Empenho nº. 055/2018, referente ao Contrato nº 011/2016-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI datado de 07 de fevereiro de 2018."
+      "descricao": "Anulação Total da Nota de Empenho nº. 057/2018, referente ao Contrato n° 021/2016-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI de 07 de fevereiro de 2018."
     },
     {
-      "numero": "2015NE00269",
-      "contrato": "30/2011",
-      "valor": 1238.23,
+      "numero": "2018NE00166",
+      "contrato": "9/2016",
+      "valor": 36952.04,
       "situacao": "Ativo",
-      "data_emissao": "27/02/2015",
-      "descricao": "D.E.A ao Cont. 030/2011-SEINFRA, referente a despesa com serviços para esta SEINFRA"
+      "data_emissao": "27/02/2018",
+      "descricao": "Anulação Total da Nota de Empenho nº. 053/2018, referente ao Contrato nº 009/2016-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI datado de 07 de fevereiro de 2018."
     },
     {
       "numero": "2015NE00268",
@@ -531,20 +523,20 @@
       "descricao": "D.E.A ao Cont. 030/2011 - Serviços de informática para esta SEINFRA"
     },
     {
+      "numero": "2015NE00269",
+      "contrato": "30/2011",
+      "valor": 1238.23,
+      "situacao": "Ativo",
+      "data_emissao": "27/02/2015",
+      "descricao": "D.E.A ao Cont. 030/2011-SEINFRA, referente a despesa com serviços para esta SEINFRA"
+    },
+    {
       "numero": "2022NE0001785",
       "contrato": "19/2019",
       "valor": 2401.81,
       "situacao": "Ativo",
       "data_emissao": "26/09/2022",
       "descricao": "Parte do Saldo do CT.019/2019-SEINFRA, destinados a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
-    },
-    {
-      "numero": "2016NE00825",
-      "contrato": "9/2016",
-      "valor": 87430.28,
-      "situacao": "Ativo",
-      "data_emissao": "26/08/2016",
-      "descricao": "Parte do Saldo do CT. N°009/2016 - Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras ¿ SICOP ao Sistema de Administração Financeira Integrada ¿ AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
     },
     {
       "numero": "2016NE00823",
@@ -555,20 +547,20 @@
       "descricao": "Saldo Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
     },
     {
+      "numero": "2016NE00825",
+      "contrato": "9/2016",
+      "valor": 87430.28,
+      "situacao": "Ativo",
+      "data_emissao": "26/08/2016",
+      "descricao": "Parte do Saldo do CT. N°009/2016 - Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras ¿ SICOP ao Sistema de Administração Financeira Integrada ¿ AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
+    },
+    {
       "numero": "2021NE0000813",
       "contrato": "21/2016",
       "valor": 26762.12,
       "situacao": "Ativo",
       "data_emissao": "26/07/2021",
       "descricao": "Termo Aditivo ao CT. Nº021-2016-SEINFRA, destinados ao Acesso a Internet com Link dedicado 100 (cem) MBPS e Circuito de Transmissão de Dados pontos de 100 MBPS para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus."
-    },
-    {
-      "numero": "2023NE0000840",
-      "contrato": "19/2019",
-      "valor": 2687.37,
-      "situacao": "Ativo",
-      "data_emissao": "26/06/2023",
-      "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 0019/2019 AD: 04."
     },
     {
       "numero": "2023NE0000836",
@@ -579,12 +571,12 @@
       "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 019/2019 AD: 02."
     },
     {
-      "numero": "2023NE0000682",
-      "contrato": "51/2021",
-      "valor": 51146.86,
+      "numero": "2023NE0000840",
+      "contrato": "19/2019",
+      "valor": 2687.37,
       "situacao": "Ativo",
-      "data_emissao": "26/05/2023",
-      "descricao": "Contratação de empresa para Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta SEINFRA. TC: 051/2021 AD: 01."
+      "data_emissao": "26/06/2023",
+      "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 0019/2019 AD: 04."
     },
     {
       "numero": "2023NE0000683",
@@ -595,28 +587,12 @@
       "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 042/2021 AD: 01."
     },
     {
-      "numero": "2025NE0000259",
+      "numero": "2023NE0000682",
       "contrato": "51/2021",
-      "valor": 25573.43,
+      "valor": 51146.86,
       "situacao": "Ativo",
-      "data_emissao": "26/02/2025",
-      "descricao": "D.E.A. ao CT. Nº051/2021-SEINFRA, tendo como objeto: Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA - Dez/2024."
-    },
-    {
-      "numero": "2025NE0000265",
-      "contrato": "11/2024",
-      "valor": 2418.63,
-      "situacao": "Ativo",
-      "data_emissao": "26/02/2025",
-      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor deconteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
-    },
-    {
-      "numero": "2025NE0000260",
-      "contrato": "42/2021",
-      "valor": 20914.51,
-      "situacao": "Ativo",
-      "data_emissao": "26/02/2025",
-      "descricao": "D.E.A. ao CT. Nº042/2021-SEINFRA, tendo como objeto: Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras-E-Obras para a SEINFRA - Dez/2024."
+      "data_emissao": "26/05/2023",
+      "descricao": "Contratação de empresa para Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta SEINFRA. TC: 051/2021 AD: 01."
     },
     {
       "numero": "2025NE0000258",
@@ -627,20 +603,28 @@
       "descricao": "D.E.A. referente ao CT. Nº004/2023-SEINFRA, tendo como objeto: Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus-SEINFRA - Dez/2024."
     },
     {
-      "numero": "2024NE0000282",
+      "numero": "2025NE0000260",
+      "contrato": "42/2021",
+      "valor": 20914.51,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2025",
+      "descricao": "D.E.A. ao CT. Nº042/2021-SEINFRA, tendo como objeto: Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras-E-Obras para a SEINFRA - Dez/2024."
+    },
+    {
+      "numero": "2025NE0000265",
+      "contrato": "11/2024",
+      "valor": 2418.63,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2025",
+      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor deconteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
+    },
+    {
+      "numero": "2025NE0000259",
       "contrato": "51/2021",
       "valor": 25573.43,
       "situacao": "Ativo",
-      "data_emissao": "26/02/2024",
-      "descricao": "DEA ao CT.51/2021-SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus - SEINFR"
-    },
-    {
-      "numero": "2024NE0000291",
-      "contrato": "19/2019",
-      "valor": 2687.37,
-      "situacao": "Ativo",
-      "data_emissao": "26/02/2024",
-      "descricao": "D.E.A ao C.T n°019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para a Secretaria de Estado de Infraestrutura-SEINFRA. Período: Dezembro/2023-Nota Fiscal: 42553 Emissão:28/12/23"
+      "data_emissao": "26/02/2025",
+      "descricao": "D.E.A. ao CT. Nº051/2021-SEINFRA, tendo como objeto: Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA - Dez/2024."
     },
     {
       "numero": "2024NE0000280",
@@ -651,6 +635,22 @@
       "descricao": "DEA ao CT nº 042/2021-SEINFRA, destinados a Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras-E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA."
     },
     {
+      "numero": "2024NE0000291",
+      "contrato": "19/2019",
+      "valor": 2687.37,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2024",
+      "descricao": "D.E.A ao C.T n°019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para a Secretaria de Estado de Infraestrutura-SEINFRA. Período: Dezembro/2023-Nota Fiscal: 42553 Emissão:28/12/23"
+    },
+    {
+      "numero": "2024NE0000282",
+      "contrato": "51/2021",
+      "valor": 25573.43,
+      "situacao": "Ativo",
+      "data_emissao": "26/02/2024",
+      "descricao": "DEA ao CT.51/2021-SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus - SEINFR"
+    },
+    {
       "numero": "2018NE00163",
       "contrato": "",
       "valor": 16228.19,
@@ -659,20 +659,20 @@
       "descricao": "Anulação Total da Nota de Empenho nº. 065/2018, referente ao Contrato n° 001/2017-SEINFRA, conforme ORIENTAÇÃO TÉCNICA Nº 12/2018-GISNS-SEFAZ-ALTERAÇÃO NO PLANO DE CONTAS DO SISTEMA AFI de 07 de fevereiro de 2018."
     },
     {
-      "numero": "2022NE0000022",
-      "contrato": "51/2021",
-      "valor": 94202.24,
-      "situacao": "Ativo",
-      "data_emissao": "26/01/2022",
-      "descricao": "Parte do Saldo do CT. n° 051/2021-SEINFRA, destinados ao acesso à internet com link dedicado de 100Mbps e circuito de transmissão de dados pontos de 100Mbps para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus/AM."
-    },
-    {
       "numero": "2022NE0000023",
       "contrato": "",
       "valor": 94202.24,
       "situacao": "Ativo",
       "data_emissao": "26/01/2022",
       "descricao": "Anulação total referente ao CT. Nº051/2021-SEINFRA, em virtude da data incorreta"
+    },
+    {
+      "numero": "2022NE0000022",
+      "contrato": "51/2021",
+      "valor": 94202.24,
+      "situacao": "Ativo",
+      "data_emissao": "26/01/2022",
+      "descricao": "Parte do Saldo do CT. n° 051/2021-SEINFRA, destinados ao acesso à internet com link dedicado de 100Mbps e circuito de transmissão de dados pontos de 100Mbps para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus/AM."
     },
     {
       "numero": "2016NE01011",
@@ -707,12 +707,12 @@
       "descricao": "D.E.A referente a PARTE NOVEMBRO/2025 do CT. n°011/2024-SEINFRA, tendo como objeto: Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a SEINFRA."
     },
     {
-      "numero": "2021NE0000186",
-      "contrato": "11/2016",
-      "valor": 3006.99,
+      "numero": "2021NE0000187",
+      "contrato": "21/2016",
+      "valor": 8807.39,
       "situacao": "Ativo",
       "data_emissao": "25/03/2021",
-      "descricao": "Parte do Saldo do CT. 011/2016-SEINFRA, Contratação de empresa especializada para a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
+      "descricao": "Saldo do CT. 021/2016- SEINFRA, Contratação de empresa para Acesso à Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus"
     },
     {
       "numero": "2021NE0000189",
@@ -723,44 +723,20 @@
       "descricao": "Parte do Saldo CT. 009/2016- SEINFRA, Contratação de empresa para serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras – SICOP"
     },
     {
-      "numero": "2021NE0000187",
-      "contrato": "21/2016",
-      "valor": 8807.39,
+      "numero": "2021NE0000186",
+      "contrato": "11/2016",
+      "valor": 3006.99,
       "situacao": "Ativo",
       "data_emissao": "25/03/2021",
-      "descricao": "Saldo do CT. 021/2016- SEINFRA, Contratação de empresa para Acesso à Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus"
+      "descricao": "Parte do Saldo do CT. 011/2016-SEINFRA, Contratação de empresa especializada para a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
-      "numero": "2019NE00198",
-      "contrato": "11/2016",
-      "valor": 9020.97,
+      "numero": "2019NE00193",
+      "contrato": "9/2016",
+      "valor": 19016.02,
       "situacao": "Ativo",
       "data_emissao": "25/03/2019",
-      "descricao": "Parte do Saldo do Contrato nº 011/2016-SEINFRA - Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
-    },
-    {
-      "numero": "2019NE00194",
-      "contrato": "6/2018",
-      "valor": 12150.63,
-      "situacao": "Ativo",
-      "data_emissao": "25/03/2019",
-      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA - Serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
-    },
-    {
-      "numero": "2019NE00196",
-      "contrato": "1/2017",
-      "valor": 4760.01,
-      "situacao": "Ativo",
-      "data_emissao": "25/03/2019",
-      "descricao": "Parte do Saldo do Contrato nº 001/2017-SEINFRA. Objeto: Contratação do Serviço de licença de uso do Sistema Gestor de Conteúdo WEB para a Secretaria de Estado de Infraestrutura SEINFRA."
-    },
-    {
-      "numero": "2019NE00195",
-      "contrato": "21/2016",
-      "valor": 26422.17,
-      "situacao": "Ativo",
-      "data_emissao": "25/03/2019",
-      "descricao": "Parte do Saldo do CT. N°021/2016 - SEINFRA, destinados a Contratação de empresa para Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS."
+      "descricao": "Saldo do Contrato nº 009/2016-SEINFRA, destinado a Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
     },
     {
       "numero": "2019NE00192",
@@ -771,12 +747,36 @@
       "descricao": "Parte do Saldo do Contrato nº 059/2018-SEINFRA - Contratação de empresa para a Prestação de Serviços Técnicos em informática de forma eventual para atender da necessidade da Secretaria de Estado de Infraestrutura SEINFRA."
     },
     {
-      "numero": "2019NE00193",
-      "contrato": "9/2016",
-      "valor": 19016.02,
+      "numero": "2019NE00195",
+      "contrato": "21/2016",
+      "valor": 26422.17,
       "situacao": "Ativo",
       "data_emissao": "25/03/2019",
-      "descricao": "Saldo do Contrato nº 009/2016-SEINFRA, destinado a Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
+      "descricao": "Parte do Saldo do CT. N°021/2016 - SEINFRA, destinados a Contratação de empresa para Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS."
+    },
+    {
+      "numero": "2019NE00196",
+      "contrato": "1/2017",
+      "valor": 4760.01,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2019",
+      "descricao": "Parte do Saldo do Contrato nº 001/2017-SEINFRA. Objeto: Contratação do Serviço de licença de uso do Sistema Gestor de Conteúdo WEB para a Secretaria de Estado de Infraestrutura SEINFRA."
+    },
+    {
+      "numero": "2019NE00194",
+      "contrato": "6/2018",
+      "valor": 12150.63,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2019",
+      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA - Serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
+    },
+    {
+      "numero": "2019NE00198",
+      "contrato": "11/2016",
+      "valor": 9020.97,
+      "situacao": "Ativo",
+      "data_emissao": "25/03/2019",
+      "descricao": "Parte do Saldo do Contrato nº 011/2016-SEINFRA - Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
       "numero": "2016NE01009",
@@ -827,14 +827,6 @@
       "descricao": "Saldo co Contrato n° 021/2016, tendo como objeto: Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de dados pontos de 10 MBPS."
     },
     {
-      "numero": "2016NE01005",
-      "contrato": "61/2012",
-      "valor": 13519.72,
-      "situacao": "Ativo",
-      "data_emissao": "23/11/2016",
-      "descricao": "Saldo do Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
-    },
-    {
       "numero": "2016NE01004",
       "contrato": "61/2012",
       "valor": 6759.86,
@@ -843,28 +835,12 @@
       "descricao": "Saldo do Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
     },
     {
-      "numero": "2022NE0001782",
-      "contrato": "41/2021",
-      "valor": 1167.84,
+      "numero": "2016NE01005",
+      "contrato": "61/2012",
+      "valor": 13519.72,
       "situacao": "Ativo",
-      "data_emissao": "23/09/2022",
-      "descricao": "Saldo do CT.041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
-    },
-    {
-      "numero": "2022NE0001777",
-      "contrato": "6/2018",
-      "valor": 5879.68,
-      "situacao": "Ativo",
-      "data_emissao": "23/09/2022",
-      "descricao": "Parte do Saldo do CT. n°006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamentos de Segurança para a Rede interna desta SEINFRA."
-    },
-    {
-      "numero": "2022NE0001781",
-      "contrato": "51/2021",
-      "valor": 23550.56,
-      "situacao": "Ativo",
-      "data_emissao": "23/09/2022",
-      "descricao": "Parte do Saldo do CT. n°051/2021 - SEINFRA destinados a acesso à internet com link dedicado de 100Mbps e circuito de transmissão de dados pontos de 100Mbps para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus/AM."
+      "data_emissao": "23/11/2016",
+      "descricao": "Saldo do Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
     },
     {
       "numero": "2022NE0001778",
@@ -875,12 +851,28 @@
       "descricao": "Saldo do CT. n°042/2021 - SEINFRA, prestação de serviços de hospedagem do Sistema Integrado de Controle de Obras Públicas - SICOP (e-Obras), para atender as necessidades desta SEINFRA."
     },
     {
-      "numero": "2019NE00856",
-      "contrato": "19/2019",
-      "valor": 1586.67,
+      "numero": "2022NE0001781",
+      "contrato": "51/2021",
+      "valor": 23550.56,
       "situacao": "Ativo",
-      "data_emissao": "23/09/2019",
-      "descricao": "Indenização para Serviços de licença de uso do sistema gestor de Conteúdo WEB, para a Secretaria de Estado de Infraestrutura - SEINFRA, no período de Julho/2019, conforme NF N°9645 emitida em 25/07/2019."
+      "data_emissao": "23/09/2022",
+      "descricao": "Parte do Saldo do CT. n°051/2021 - SEINFRA destinados a acesso à internet com link dedicado de 100Mbps e circuito de transmissão de dados pontos de 100Mbps para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus/AM."
+    },
+    {
+      "numero": "2022NE0001777",
+      "contrato": "6/2018",
+      "valor": 5879.68,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2022",
+      "descricao": "Parte do Saldo do CT. n°006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamentos de Segurança para a Rede interna desta SEINFRA."
+    },
+    {
+      "numero": "2022NE0001782",
+      "contrato": "41/2021",
+      "valor": 1167.84,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2022",
+      "descricao": "Saldo do CT.041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
       "numero": "2019NE00855",
@@ -891,9 +883,17 @@
       "descricao": "Anulação Total da Nota de Empenho nº 823, referente RI - Reconhecimento Indenizatório nº 005/2019, destinado à Prestação de Serviços de Licença de uso de Sistemas de Informação - Gestor de conteúdo WEB, compreendendo ao Gerenciamento do Site da SEINFRA, devido o Fundamento Legal incorreto."
     },
     {
-      "numero": "2016NE00810",
+      "numero": "2019NE00856",
+      "contrato": "19/2019",
+      "valor": 1586.67,
+      "situacao": "Ativo",
+      "data_emissao": "23/09/2019",
+      "descricao": "Indenização para Serviços de licença de uso do sistema gestor de Conteúdo WEB, para a Secretaria de Estado de Infraestrutura - SEINFRA, no período de Julho/2019, conforme NF N°9645 emitida em 25/07/2019."
+    },
+    {
+      "numero": "2016NE00816",
       "contrato": "11/2016",
-      "valor": 5767.7,
+      "valor": 11535.4,
       "situacao": "Ativo",
       "data_emissao": "23/08/2016",
       "descricao": "CT. N°011/2016 - SEINFRA, destinados a Prestação de Serviços para a Aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)"
@@ -907,9 +907,9 @@
       "descricao": "Anulação total da NE N°810/2016 em virtude de permuta de ação."
     },
     {
-      "numero": "2016NE00816",
+      "numero": "2016NE00810",
       "contrato": "11/2016",
-      "valor": 11535.4,
+      "valor": 5767.7,
       "situacao": "Ativo",
       "data_emissao": "23/08/2016",
       "descricao": "CT. N°011/2016 - SEINFRA, destinados a Prestação de Serviços para a Aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)"
@@ -923,84 +923,12 @@
       "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 03."
     },
     {
-      "numero": "2024NE0000088",
-      "contrato": "4/2023",
-      "valor": 7121.02,
+      "numero": "2024NE0000091",
+      "contrato": "41/2021",
+      "valor": 1034.2,
       "situacao": "Ativo",
       "data_emissao": "23/02/2024",
-      "descricao": "D.E.A ao Contrato nº 004/2023-SEINFRA, destinados a Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Estado de Infraestrutura – SEINFRA. - Período: Novembro/2023 - Nfs.: 41800 Emissão: 27/11/2023."
-    },
-    {
-      "numero": "2024NE0000077",
-      "contrato": "51/2021",
-      "valor": 5967.13,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "DEA ao CT.51/2021-SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus-SEINFRA"
-    },
-    {
-      "numero": "2024NE0000099",
-      "contrato": "19/2019",
-      "valor": 2687.37,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "D.E.A ao CT. n°019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura-SEINFRA. Período: Novembro/2023. Nfs: 41796 Emissão: 27/11/2023"
-    },
-    {
-      "numero": "2024NE0000095",
-      "contrato": "19/2019",
-      "valor": 2687.37,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "D.E.A ao CT. n°019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura-SEINFRA. Período: Outubro/2023. Nfs: 41123 Emissão: 25/10/2023."
-    },
-    {
-      "numero": "2024NE0000098",
-      "contrato": "19/2019",
-      "valor": 2687.37,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "D.E.A ao CT. nº 019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura-SEINFRA. Período: Setembro/2023. Nfs: 40460 Emissão: 25/09/2023"
-    },
-    {
-      "numero": "2024NE0000072",
-      "contrato": "51/2021",
-      "valor": 25573.43,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "DEA ao CT n°051/2021-SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs,para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus-SEIFRA"
-    },
-    {
-      "numero": "2024NE0000075",
-      "contrato": "51/2021",
-      "valor": 19606.3,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "DEA ao CT.051/2021-SEINFRA destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus-SEINFRA"
-    },
-    {
-      "numero": "2024NE0000069",
-      "contrato": "42/2021",
-      "valor": 20914.51,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "DEA ao Contrato nº 042/2021-SEINFRA, destinados a Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão deObras-E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus-SEINFRA."
-    },
-    {
-      "numero": "2024NE0000082",
-      "contrato": "4/2023",
-      "valor": 7121.02,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "PROC.025101.5856/2023-11 - Referente ao Contrato nº 004/2023-SEINFRA, destinados a Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. - Período: Outubro/2023 - Nfs.: 41128 Emissão: 25/10/2023."
-    },
-    {
-      "numero": "2024NE0000085",
-      "contrato": "4/2023",
-      "valor": 7121.02,
-      "situacao": "Ativo",
-      "data_emissao": "23/02/2024",
-      "descricao": "D.E.A ao Contrato nº 004/2023-SEINFRA, destinados a Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. - Período: Setembro/2023 - Nfs.: 40465 Emissão:25/09/23"
+      "descricao": "D.E.A. ao Contrato nº 041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades da SEINFRA - Período: Set/2023"
     },
     {
       "numero": "2024NE0000073",
@@ -1011,12 +939,84 @@
       "descricao": "DEA ao CT.051/2021-SEINFRA, destinados Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus-SEINFRA"
     },
     {
-      "numero": "2024NE0000091",
-      "contrato": "41/2021",
-      "valor": 1034.2,
+      "numero": "2024NE0000085",
+      "contrato": "4/2023",
+      "valor": 7121.02,
       "situacao": "Ativo",
       "data_emissao": "23/02/2024",
-      "descricao": "D.E.A. ao Contrato nº 041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades da SEINFRA - Período: Set/2023"
+      "descricao": "D.E.A ao Contrato nº 004/2023-SEINFRA, destinados a Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. - Período: Setembro/2023 - Nfs.: 40465 Emissão:25/09/23"
+    },
+    {
+      "numero": "2024NE0000082",
+      "contrato": "4/2023",
+      "valor": 7121.02,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "PROC.025101.5856/2023-11 - Referente ao Contrato nº 004/2023-SEINFRA, destinados a Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. - Período: Outubro/2023 - Nfs.: 41128 Emissão: 25/10/2023."
+    },
+    {
+      "numero": "2024NE0000069",
+      "contrato": "42/2021",
+      "valor": 20914.51,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "DEA ao Contrato nº 042/2021-SEINFRA, destinados a Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão deObras-E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus-SEINFRA."
+    },
+    {
+      "numero": "2024NE0000075",
+      "contrato": "51/2021",
+      "valor": 19606.3,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "DEA ao CT.051/2021-SEINFRA destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus-SEINFRA"
+    },
+    {
+      "numero": "2024NE0000072",
+      "contrato": "51/2021",
+      "valor": 25573.43,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "DEA ao CT n°051/2021-SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs,para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus-SEIFRA"
+    },
+    {
+      "numero": "2024NE0000098",
+      "contrato": "19/2019",
+      "valor": 2687.37,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "D.E.A ao CT. nº 019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura-SEINFRA. Período: Setembro/2023. Nfs: 40460 Emissão: 25/09/2023"
+    },
+    {
+      "numero": "2024NE0000095",
+      "contrato": "19/2019",
+      "valor": 2687.37,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "D.E.A ao CT. n°019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura-SEINFRA. Período: Outubro/2023. Nfs: 41123 Emissão: 25/10/2023."
+    },
+    {
+      "numero": "2024NE0000099",
+      "contrato": "19/2019",
+      "valor": 2687.37,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "D.E.A ao CT. n°019/2019-SEINFRA, referente a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura-SEINFRA. Período: Novembro/2023. Nfs: 41796 Emissão: 27/11/2023"
+    },
+    {
+      "numero": "2024NE0000077",
+      "contrato": "51/2021",
+      "valor": 5967.13,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "DEA ao CT.51/2021-SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus-SEINFRA"
+    },
+    {
+      "numero": "2024NE0000088",
+      "contrato": "4/2023",
+      "valor": 7121.02,
+      "situacao": "Ativo",
+      "data_emissao": "23/02/2024",
+      "descricao": "D.E.A ao Contrato nº 004/2023-SEINFRA, destinados a Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Estado de Infraestrutura – SEINFRA. - Período: Novembro/2023 - Nfs.: 41800 Emissão: 27/11/2023."
     },
     {
       "numero": "2024NE0000003",
@@ -1043,12 +1043,12 @@
       "descricao": "Saldo do CT. nº 001/2017-SEINFRA-Serviços de licença de uso do Sistema Gestor de Conteúdo Web para Secretaria de Estado de Infraestrutura - SEINFRA"
     },
     {
-      "numero": "2024NE0001550",
-      "contrato": "4/2023",
-      "valor": 14242.04,
+      "numero": "2024NE0001552",
+      "contrato": "42/2021",
+      "valor": 36948.96,
       "situacao": "Ativo",
       "data_emissao": "22/10/2024",
-      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 03."
     },
     {
       "numero": "2024NE0001551",
@@ -1059,60 +1059,12 @@
       "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 02."
     },
     {
-      "numero": "2024NE0001552",
-      "contrato": "42/2021",
-      "valor": 36948.96,
+      "numero": "2024NE0001550",
+      "contrato": "4/2023",
+      "valor": 14242.04,
       "situacao": "Ativo",
       "data_emissao": "22/10/2024",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 03."
-    },
-    {
-      "numero": "2020NE01013",
-      "contrato": "",
-      "valor": 7933.35,
-      "situacao": "Ativo",
-      "data_emissao": "22/09/2020",
-      "descricao": "Anulação total da NE N°749/2020, referente ao CT. N°019/2019 - SEINFRA, em virtude de troca de fonte."
-    },
-    {
-      "numero": "2020NE00998",
-      "contrato": "",
-      "valor": 5797.1,
-      "situacao": "Ativo",
-      "data_emissao": "22/09/2020",
-      "descricao": "Anulação parcial da NE N°004/2020, referente ao CT. N°009/2016 - SEINFRA, em virtude de troca de fonte."
-    },
-    {
-      "numero": "2020NE01001",
-      "contrato": "",
-      "valor": 2659.04,
-      "situacao": "Ativo",
-      "data_emissao": "22/09/2020",
-      "descricao": "Anulação parcial da NE N°006/2020, referente ao CT. N°006/2018 - SEINFRA, em virtude de troca de fonte."
-    },
-    {
-      "numero": "2020NE01000",
-      "contrato": "",
-      "valor": 5024.11,
-      "situacao": "Ativo",
-      "data_emissao": "22/09/2020",
-      "descricao": "Anulação parcial da NE N°005/2020, referente ao CT. N°011/2016 - SEINFRA, em virtude de troca de fonte."
-    },
-    {
-      "numero": "2020NE01003",
-      "contrato": "",
-      "valor": 35229.56,
-      "situacao": "Ativo",
-      "data_emissao": "22/09/2020",
-      "descricao": "Anulação parcial da NE N°018/2020, referente ao CT. N°021/2016 - SEINFRA, em virtude de troca de fonte."
-    },
-    {
-      "numero": "2020NE01005",
-      "contrato": "",
-      "valor": 18765.97,
-      "situacao": "Ativo",
-      "data_emissao": "22/09/2020",
-      "descricao": "Anulação parcial da NE N°326/2020, referente ao CT. N°006/2018 - SEINFRA, em virtude de troca de fonte."
+      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
     },
     {
       "numero": "2020NE01012",
@@ -1123,6 +1075,54 @@
       "descricao": "Anulação parcial da NE N°510/2020, referente ao CT. N°009/2016 - SEINFRA, em virtude de troca de fonte."
     },
     {
+      "numero": "2020NE01005",
+      "contrato": "",
+      "valor": 18765.97,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2020",
+      "descricao": "Anulação parcial da NE N°326/2020, referente ao CT. N°006/2018 - SEINFRA, em virtude de troca de fonte."
+    },
+    {
+      "numero": "2020NE01003",
+      "contrato": "",
+      "valor": 35229.56,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2020",
+      "descricao": "Anulação parcial da NE N°018/2020, referente ao CT. N°021/2016 - SEINFRA, em virtude de troca de fonte."
+    },
+    {
+      "numero": "2020NE01000",
+      "contrato": "",
+      "valor": 5024.11,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2020",
+      "descricao": "Anulação parcial da NE N°005/2020, referente ao CT. N°011/2016 - SEINFRA, em virtude de troca de fonte."
+    },
+    {
+      "numero": "2020NE01001",
+      "contrato": "",
+      "valor": 2659.04,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2020",
+      "descricao": "Anulação parcial da NE N°006/2020, referente ao CT. N°006/2018 - SEINFRA, em virtude de troca de fonte."
+    },
+    {
+      "numero": "2020NE00998",
+      "contrato": "",
+      "valor": 5797.1,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2020",
+      "descricao": "Anulação parcial da NE N°004/2020, referente ao CT. N°009/2016 - SEINFRA, em virtude de troca de fonte."
+    },
+    {
+      "numero": "2020NE01013",
+      "contrato": "",
+      "valor": 7933.35,
+      "situacao": "Ativo",
+      "data_emissao": "22/09/2020",
+      "descricao": "Anulação total da NE N°749/2020, referente ao CT. N°019/2019 - SEINFRA, em virtude de troca de fonte."
+    },
+    {
       "numero": "2019NE00770",
       "contrato": "11/2016",
       "valor": 12027.96,
@@ -1131,20 +1131,20 @@
       "descricao": "Termo Aditivo ao Contrato N° 011/2016-SEINFRA, Contratação de empresa para Prestação de serviços para aquisição do Programa de execução de sistema de Protocolo em Plataforma WEB (sproweb) para Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2017NE00486",
-      "contrato": "9/2016",
-      "valor": 7198.43,
-      "situacao": "Ativo",
-      "data_emissao": "22/05/2017",
-      "descricao": "1° Termo Aditivo ao Contrato nº 009/2016-SEINFRA, tendo como objeto: Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras - SICOP."
-    },
-    {
       "numero": "2017NE00485",
       "contrato": "",
       "valor": 10287.63,
       "situacao": "Ativo",
       "data_emissao": "22/05/2017",
       "descricao": "Anulação Total da NE n° 303/2017 em virtude de ter sido empenhado a maior."
+    },
+    {
+      "numero": "2017NE00486",
+      "contrato": "9/2016",
+      "valor": 7198.43,
+      "situacao": "Ativo",
+      "data_emissao": "22/05/2017",
+      "descricao": "1° Termo Aditivo ao Contrato nº 009/2016-SEINFRA, tendo como objeto: Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras - SICOP."
     },
     {
       "numero": "2019NE00092",
@@ -1195,12 +1195,12 @@
       "descricao": "Saldo Contrato nº 030/2011-SEINFRA-Prestação de Serviços de Informática de forma eventual , mediante utilização de pessoal e equipamentos adequados para esta SEINFRA"
     },
     {
-      "numero": "2022NE0002011",
-      "contrato": "19/2019",
-      "valor": 2401.81,
+      "numero": "2022NE0002009",
+      "contrato": "6/2018",
+      "valor": 5879.68,
       "situacao": "Ativo",
       "data_emissao": "20/10/2022",
-      "descricao": "Parte do Saldo do CT.019/2019-SEINFRA, destinados a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
+      "descricao": "Parte do Saldo do CT. n°006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamentos de Segurança para a Rede interna desta SEINFRA."
     },
     {
       "numero": "2022NE0002020",
@@ -1211,20 +1211,20 @@
       "descricao": "Saldo do CT. n°051/2021 - SEINFRA destinados a acesso à internet com link dedicado de 100Mbps e circuito de transmissão de dados pontos de 100Mbps para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus/AM."
     },
     {
-      "numero": "2022NE0002009",
-      "contrato": "6/2018",
-      "valor": 5879.68,
+      "numero": "2022NE0002011",
+      "contrato": "19/2019",
+      "valor": 2401.81,
       "situacao": "Ativo",
       "data_emissao": "20/10/2022",
-      "descricao": "Parte do Saldo do CT. n°006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamentos de Segurança para a Rede interna desta SEINFRA."
+      "descricao": "Parte do Saldo do CT.019/2019-SEINFRA, destinados a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2021NE0001358",
-      "contrato": "19/2019",
-      "valor": 6284.16,
+      "numero": "2021NE0001357",
+      "contrato": "21/2016",
+      "valor": 23639.75,
       "situacao": "Ativo",
       "data_emissao": "20/10/2021",
-      "descricao": "Parte do Saldo do Contrato nº 019/2019-SEINFRA, tendo como objeto: Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
+      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados a Contratação de empresa para Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS para a SEINFRA."
     },
     {
       "numero": "2021NE0001359",
@@ -1235,12 +1235,12 @@
       "descricao": "Saldo do CT. N°006/2018 - SEINFRA, destinados a Contratação de empresa para Prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
     },
     {
-      "numero": "2021NE0001357",
-      "contrato": "21/2016",
-      "valor": 23639.75,
+      "numero": "2021NE0001358",
+      "contrato": "19/2019",
+      "valor": 6284.16,
       "situacao": "Ativo",
       "data_emissao": "20/10/2021",
-      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados a Contratação de empresa para Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS para a SEINFRA."
+      "descricao": "Parte do Saldo do Contrato nº 019/2019-SEINFRA, tendo como objeto: Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
       "numero": "2026NE0000460",
@@ -1267,68 +1267,12 @@
       "descricao": "D.E.A referente ao CT. 006/2015-SRMM, em favor da empresa Prodam Processamento de Dados da Amazonia S/A, destinados serviços de execução de sistema Prodam-AM, para manter o cadastro dos servidores e folha de pagamento, competencia da despesa 2015"
     },
     {
-      "numero": "2020NE00245",
+      "numero": "2020NE00242",
       "contrato": "",
       "valor": 1586.67,
       "situacao": "Ativo",
       "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°004/2017 - SRMM, destinados a Licença de uso de sistema de informação Sistema Gestor de Conteudo Web, referente a Dezembro/2019."
-    },
-    {
-      "numero": "2020NE00251",
-      "contrato": "",
-      "valor": 1586.67,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°004/2017 - SRMM, destinados à Licença de uso de sistema de informação Sistema Gestor de Conteudo Web., referente ao mês de Novembro/2019."
-    },
-    {
-      "numero": "2020NE00255",
-      "contrato": "",
-      "valor": 653.91,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°009/2016 - SEINFRA, destinados ao Serviço de Hospedagem de Sistemas, referente ao mês de Dezembro/2019."
-    },
-    {
-      "numero": "2020NE00257",
-      "contrato": "",
-      "valor": 8376.48,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°002/2016 - SRMM, destinados à Serviço de Acesso à Rede Mundial de Computadores, referente ao mês de Dezembro/2019."
-    },
-    {
-      "numero": "2020NE00258",
-      "contrato": "",
-      "valor": 8376.48,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°002/2016 - SRMM, destinados à Serviço de Acesso à Rede Mundial de Computadores, referente ao mês de Outubro/2019."
-    },
-    {
-      "numero": "2020NE00260",
-      "contrato": "",
-      "valor": 8376.48,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°002/2016 - SRMM, destinados à Serviço de Acesso à Rede Mundial de Computadores, referente ao mês de Novembro/2019."
-    },
-    {
-      "numero": "2020NE00233",
-      "contrato": "",
-      "valor": 1106.93,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°007/2015 - SRMM, destinados à Sistema de Sproweb, referente ao mês de Dezembro/2019."
-    },
-    {
-      "numero": "2020NE00236",
-      "contrato": "",
-      "valor": 1025.51,
-      "situacao": "Ativo",
-      "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°007/2015 - SRMM, destinados à Sistema de Sproweb, referente ao mês de Setembro/2019."
+      "descricao": "D.E.A ao CT. N°004/2017 - SRMM, destinados à Licença de uso de sistema de informação Sistema Gestor de Conteudo Web., referente ao mês de Outubro/2019."
     },
     {
       "numero": "2020NE00238",
@@ -1339,12 +1283,68 @@
       "descricao": "D.E.A ao CT. N°007/2015 -SRMM, destinados aos Serviços de Sistema de Sproweb, referente ao mês de Novembro/2019."
     },
     {
-      "numero": "2020NE00242",
+      "numero": "2020NE00236",
+      "contrato": "",
+      "valor": 1025.51,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "D.E.A ao CT. N°007/2015 - SRMM, destinados à Sistema de Sproweb, referente ao mês de Setembro/2019."
+    },
+    {
+      "numero": "2020NE00233",
+      "contrato": "",
+      "valor": 1106.93,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "D.E.A ao CT. N°007/2015 - SRMM, destinados à Sistema de Sproweb, referente ao mês de Dezembro/2019."
+    },
+    {
+      "numero": "2020NE00260",
+      "contrato": "",
+      "valor": 8376.48,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "D.E.A ao CT. N°002/2016 - SRMM, destinados à Serviço de Acesso à Rede Mundial de Computadores, referente ao mês de Novembro/2019."
+    },
+    {
+      "numero": "2020NE00258",
+      "contrato": "",
+      "valor": 8376.48,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "D.E.A ao CT. N°002/2016 - SRMM, destinados à Serviço de Acesso à Rede Mundial de Computadores, referente ao mês de Outubro/2019."
+    },
+    {
+      "numero": "2020NE00257",
+      "contrato": "",
+      "valor": 8376.48,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "D.E.A ao CT. N°002/2016 - SRMM, destinados à Serviço de Acesso à Rede Mundial de Computadores, referente ao mês de Dezembro/2019."
+    },
+    {
+      "numero": "2020NE00255",
+      "contrato": "",
+      "valor": 653.91,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "D.E.A ao CT. N°009/2016 - SEINFRA, destinados ao Serviço de Hospedagem de Sistemas, referente ao mês de Dezembro/2019."
+    },
+    {
+      "numero": "2020NE00251",
       "contrato": "",
       "valor": 1586.67,
       "situacao": "Ativo",
       "data_emissao": "19/02/2020",
-      "descricao": "D.E.A ao CT. N°004/2017 - SRMM, destinados à Licença de uso de sistema de informação Sistema Gestor de Conteudo Web., referente ao mês de Outubro/2019."
+      "descricao": "D.E.A ao CT. N°004/2017 - SRMM, destinados à Licença de uso de sistema de informação Sistema Gestor de Conteudo Web., referente ao mês de Novembro/2019."
+    },
+    {
+      "numero": "2020NE00245",
+      "contrato": "",
+      "valor": 1586.67,
+      "situacao": "Ativo",
+      "data_emissao": "19/02/2020",
+      "descricao": "D.E.A ao CT. N°004/2017 - SRMM, destinados a Licença de uso de sistema de informação Sistema Gestor de Conteudo Web, referente a Dezembro/2019."
     },
     {
       "numero": "2017NE01234",
@@ -1427,14 +1427,6 @@
       "descricao": "D.E.A ao Cont. 080/2009-SEINFRA, referente a despesa com serviços de Hospedagem de Home-Page para esta SEINFRA."
     },
     {
-      "numero": "2023NE0000136",
-      "contrato": "6/2018",
-      "valor": 4705.93,
-      "situacao": "Ativo",
-      "data_emissao": "18/01/2023",
-      "descricao": "PROC.025101.007220/2022-23 - Referente ao Contrato nº 006/2018-SEINFRA, destinados Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA - Periodo: Dezembro/2022 - Nfs.: 33995 Emissao: 02/12/2022."
-    },
-    {
       "numero": "2023NE0000080",
       "contrato": "19/2019",
       "valor": 2401.81,
@@ -1443,12 +1435,12 @@
       "descricao": "PROC.025101.007221/2022-78 - Referente ao Contrato nº 019/2019-SEINFRA, destinados a Prestacao de Servicos de Uso de Sistema de Gestao de Conteudo Web - Periodo: Dezembro/2022 - Nfs.: 33996 Emissao: 02/12/2022."
     },
     {
-      "numero": "2020NE00972",
-      "contrato": "21/2016",
-      "valor": 8807.39,
+      "numero": "2023NE0000136",
+      "contrato": "6/2018",
+      "valor": 4705.93,
       "situacao": "Ativo",
-      "data_emissao": "17/09/2020",
-      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados à Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS."
+      "data_emissao": "18/01/2023",
+      "descricao": "PROC.025101.007220/2022-23 - Referente ao Contrato nº 006/2018-SEINFRA, destinados Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA - Periodo: Dezembro/2022 - Nfs.: 33995 Emissao: 02/12/2022."
     },
     {
       "numero": "2020NE00978",
@@ -1457,6 +1449,14 @@
       "situacao": "Ativo",
       "data_emissao": "17/09/2020",
       "descricao": "Termo aditivo ao Contrato N° 009/2016- SEINFRA, Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
+    },
+    {
+      "numero": "2020NE00972",
+      "contrato": "21/2016",
+      "valor": 8807.39,
+      "situacao": "Ativo",
+      "data_emissao": "17/09/2020",
+      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados à Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS."
     },
     {
       "numero": "2023NE0000882",
@@ -1475,20 +1475,12 @@
       "descricao": "Saldo do CT. Nº041/2021-SEINFRA, destinados para Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)"
     },
     {
-      "numero": "2023NE0000004",
+      "numero": "2023NE0000005",
       "contrato": "",
-      "valor": 13915.25,
+      "valor": 9607.24,
       "situacao": "Ativo",
       "data_emissao": "17/01/2023",
-      "descricao": "Anulação total da NE n°001/2023, referente ao CT. n°006/2018 - SEINFRA, em virtude do ajuste na data de emissão."
-    },
-    {
-      "numero": "2023NE0000001",
-      "contrato": "6/2018",
-      "valor": 13915.25,
-      "situacao": "Ativo",
-      "data_emissao": "17/01/2023",
-      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA, tendo como objeto: Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA (Serviços de Firewall, compreendendo os Serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilidade de Appliance - Conjunto de Equipamentos e Softwares)."
+      "descricao": "Anulação total da NE n°002/2023, referente ao CT. n°019/2019 - SEINFRA, em virtude do ajuste na data de emissão."
     },
     {
       "numero": "2023NE0000002",
@@ -1499,12 +1491,20 @@
       "descricao": "Parte do Saldo do CT. n°019/2019 - SEINFRA, destinados a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2023NE0000005",
-      "contrato": "",
-      "valor": 9607.24,
+      "numero": "2023NE0000001",
+      "contrato": "6/2018",
+      "valor": 13915.25,
       "situacao": "Ativo",
       "data_emissao": "17/01/2023",
-      "descricao": "Anulação total da NE n°002/2023, referente ao CT. n°019/2019 - SEINFRA, em virtude do ajuste na data de emissão."
+      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA, tendo como objeto: Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA (Serviços de Firewall, compreendendo os Serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilidade de Appliance - Conjunto de Equipamentos e Softwares)."
+    },
+    {
+      "numero": "2023NE0000004",
+      "contrato": "",
+      "valor": 13915.25,
+      "situacao": "Ativo",
+      "data_emissao": "17/01/2023",
+      "descricao": "Anulação total da NE n°001/2023, referente ao CT. n°006/2018 - SEINFRA, em virtude do ajuste na data de emissão."
     },
     {
       "numero": "2020NE01611",
@@ -1531,20 +1531,20 @@
       "descricao": "Indenização para Serviços de licença de uso do sistema gestor de Conteúdo WEB, para a Secretaria de Estado de Infraestrutura - SEINFRA, no período de Julho/2019, conforme NF N°9645 emitida em 25/07/2019."
     },
     {
-      "numero": "2026NE0000004",
-      "contrato": "11/2024",
-      "valor": 11222.2,
-      "situacao": "Ativo",
-      "data_emissao": "16/01/2026",
-      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA. TC: 0011/2024 AD: 01."
-    },
-    {
       "numero": "2026NE0000003",
       "contrato": "4/2023",
       "valor": 26335.47,
       "situacao": "Ativo",
       "data_emissao": "16/01/2026",
       "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 02."
+    },
+    {
+      "numero": "2026NE0000004",
+      "contrato": "11/2024",
+      "valor": 11222.2,
+      "situacao": "Ativo",
+      "data_emissao": "16/01/2026",
+      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA. TC: 0011/2024 AD: 01."
     },
     {
       "numero": "2015NE01240",
@@ -1571,36 +1571,12 @@
       "descricao": "NE 954 DE 15/07/2015 R$ 16.899,65 4º Termo Aditivo ao Contrato 061/2012"
     },
     {
-      "numero": "2021NE0000072",
-      "contrato": "11/2016",
-      "valor": 2734.15,
+      "numero": "2021NE0000073",
+      "contrato": "1/2017",
+      "valor": 1475.29,
       "situacao": "Ativo",
       "data_emissao": "15/02/2021",
-      "descricao": "D.E.A ao CT. 011/2016-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)"
-    },
-    {
-      "numero": "2021NE0000074",
-      "contrato": "6/2018",
-      "valor": 3794.11,
-      "situacao": "Ativo",
-      "data_emissao": "15/02/2021",
-      "descricao": "D.E.A ao CT. 006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamento de Segurança para a Rede Interna desta Secretaria de Estado de Infraestrutura SEINFRA."
-    },
-    {
-      "numero": "2021NE0000070",
-      "contrato": "",
-      "valor": 34965.64,
-      "situacao": "Ativo",
-      "data_emissao": "15/02/2021",
-      "descricao": "D.E.A ao CT. 080/2009, destinados a Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas."
-    },
-    {
-      "numero": "2021NE0000071",
-      "contrato": "9/2016",
-      "valor": 9508.01,
-      "situacao": "Ativo",
-      "data_emissao": "15/02/2021",
-      "descricao": "D.E.A ao CT. 09/2016-SEINFRA, destinados a Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras SICOP ao Sistema de Administração Financeira Integrada AFI ao Sistema de Gestão PROSAMIM/SIGPRO"
+      "descricao": "D.E.A ao CT. 01/2017-SEINFRA, destinados a Contratação do Serviço de licença de uso do Sistema Gestor de Conteúdo WEB para a Secretaria de Estado de Infraestrutura-SEINFRA"
     },
     {
       "numero": "2021NE0000075",
@@ -1611,12 +1587,36 @@
       "descricao": "D.E.A ao CT. 021/2016-SEINFRA, destinados ao Acesso a Internet com link dedicado 06 (seis) MBPS e circuito de transmissão de dados pontos de 10 MBPS"
     },
     {
-      "numero": "2021NE0000073",
-      "contrato": "1/2017",
-      "valor": 1475.29,
+      "numero": "2021NE0000071",
+      "contrato": "9/2016",
+      "valor": 9508.01,
       "situacao": "Ativo",
       "data_emissao": "15/02/2021",
-      "descricao": "D.E.A ao CT. 01/2017-SEINFRA, destinados a Contratação do Serviço de licença de uso do Sistema Gestor de Conteúdo WEB para a Secretaria de Estado de Infraestrutura-SEINFRA"
+      "descricao": "D.E.A ao CT. 09/2016-SEINFRA, destinados a Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras SICOP ao Sistema de Administração Financeira Integrada AFI ao Sistema de Gestão PROSAMIM/SIGPRO"
+    },
+    {
+      "numero": "2021NE0000070",
+      "contrato": "",
+      "valor": 34965.64,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2021",
+      "descricao": "D.E.A ao CT. 080/2009, destinados a Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas."
+    },
+    {
+      "numero": "2021NE0000074",
+      "contrato": "6/2018",
+      "valor": 3794.11,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2021",
+      "descricao": "D.E.A ao CT. 006/2018-SEINFRA, destinados a Prestação de Serviços de Locação de Equipamento de Segurança para a Rede Interna desta Secretaria de Estado de Infraestrutura SEINFRA."
+    },
+    {
+      "numero": "2021NE0000072",
+      "contrato": "11/2016",
+      "valor": 2734.15,
+      "situacao": "Ativo",
+      "data_emissao": "15/02/2021",
+      "descricao": "D.E.A ao CT. 011/2016-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)"
     },
     {
       "numero": "2020NE01212",
@@ -1651,20 +1651,12 @@
       "descricao": "Anulação parcial da NE N° 005/2020 em virtude da formalização do 4º Termo Aditivo ao CT. 11/2016 - SEINFRA."
     },
     {
-      "numero": "2025NE0000348",
-      "contrato": "51/2021",
-      "valor": 51146.86,
+      "numero": "2025NE0000337",
+      "contrato": "4/2023",
+      "valor": 7121.02,
       "situacao": "Ativo",
       "data_emissao": "14/03/2025",
-      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
-    },
-    {
-      "numero": "2025NE0000344",
-      "contrato": "42/2021",
-      "valor": 25794.57,
-      "situacao": "Ativo",
-      "data_emissao": "14/03/2025",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 03."
+      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
     },
     {
       "numero": "2025NE0000339",
@@ -1675,28 +1667,20 @@
       "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
     },
     {
-      "numero": "2025NE0000337",
-      "contrato": "4/2023",
-      "valor": 7121.02,
+      "numero": "2025NE0000344",
+      "contrato": "42/2021",
+      "valor": 25794.57,
       "situacao": "Ativo",
       "data_emissao": "14/03/2025",
-      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 03."
     },
     {
-      "numero": "2017NE01185",
-      "contrato": "11/2016",
-      "valor": 2883.85,
+      "numero": "2025NE0000348",
+      "contrato": "51/2021",
+      "valor": 51146.86,
       "situacao": "Ativo",
-      "data_emissao": "13/12/2017",
-      "descricao": "Parte do Saldo do CT. nº 011/2016-SEINFRA, tendo como objeto: Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
-    },
-    {
-      "numero": "2017NE01180",
-      "contrato": "9/2016",
-      "valor": 70323.1,
-      "situacao": "Ativo",
-      "data_emissao": "13/12/2017",
-      "descricao": "Saldo do Contrato nº 009/2016-SEINFRA. Objeto: Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras SICOP ao Sistema de Administração Financeira Integrada AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
+      "data_emissao": "14/03/2025",
+      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
     },
     {
       "numero": "2017NE01184",
@@ -1707,12 +1691,20 @@
       "descricao": "Saldo do CT. nº 001/2017-SEINFRA-Serviços de licença de uso do Sistema Gestor de Conteúdo Web."
     },
     {
-      "numero": "2025NE0001046",
-      "contrato": "51/2021",
-      "valor": 19606.28,
+      "numero": "2017NE01180",
+      "contrato": "9/2016",
+      "valor": 70323.1,
       "situacao": "Ativo",
-      "data_emissao": "13/08/2025",
-      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
+      "data_emissao": "13/12/2017",
+      "descricao": "Saldo do Contrato nº 009/2016-SEINFRA. Objeto: Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras SICOP ao Sistema de Administração Financeira Integrada AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
+    },
+    {
+      "numero": "2017NE01185",
+      "contrato": "11/2016",
+      "valor": 2883.85,
+      "situacao": "Ativo",
+      "data_emissao": "13/12/2017",
+      "descricao": "Parte do Saldo do CT. nº 011/2016-SEINFRA, tendo como objeto: Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
       "numero": "2025NE0001045",
@@ -1723,17 +1715,25 @@
       "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 02."
     },
     {
-      "numero": "2021NE0001608",
+      "numero": "2025NE0001046",
       "contrato": "51/2021",
-      "valor": 17107.14,
+      "valor": 19606.28,
       "situacao": "Ativo",
-      "data_emissao": "12/11/2021",
-      "descricao": "Contrato nº 051/2021-SEINFRA. Objeto: Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus ¿ SEINFRA."
+      "data_emissao": "13/08/2025",
+      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
     },
     {
       "numero": "2021NE0001610",
       "contrato": "",
       "valor": 11153.54,
+      "situacao": "Ativo",
+      "data_emissao": "12/11/2021",
+      "descricao": "Contrato nº 051/2021-SEINFRA. Objeto: Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus ¿ SEINFRA."
+    },
+    {
+      "numero": "2021NE0001608",
+      "contrato": "51/2021",
+      "valor": 17107.14,
       "situacao": "Ativo",
       "data_emissao": "12/11/2021",
       "descricao": "Contrato nº 051/2021-SEINFRA. Objeto: Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus ¿ SEINFRA."
@@ -1747,20 +1747,20 @@
       "descricao": "Parte do Saldo do CT. n°051/2021 - SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta SEINFRA."
     },
     {
-      "numero": "2017NE00314",
-      "contrato": "",
-      "valor": 10139.79,
-      "situacao": "Ativo",
-      "data_emissao": "12/04/2017",
-      "descricao": "Anulação total da NE N° 304/2017, referente ao Contrato n° 061/2012-SEINFRA em virtude de Referência incorreta."
-    },
-    {
       "numero": "2017NE00315",
       "contrato": "61/2012",
       "valor": 10139.79,
       "situacao": "Ativo",
       "data_emissao": "12/04/2017",
       "descricao": "Saldo do Contrato nº 061/2012-SEINFRA, tendo como objeto: Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM tipo 6 para até 250 usuários Manaus/AM"
+    },
+    {
+      "numero": "2017NE00314",
+      "contrato": "",
+      "valor": 10139.79,
+      "situacao": "Ativo",
+      "data_emissao": "12/04/2017",
+      "descricao": "Anulação total da NE N° 304/2017, referente ao Contrato n° 061/2012-SEINFRA em virtude de Referência incorreta."
     },
     {
       "numero": "2019NE00135",
@@ -1803,12 +1803,12 @@
       "descricao": "Anulação Parcial da Nota de Empenho nº 018/2020, referente ao Contrato nº 021/2016-SEINFRA, em virtude de troca de fonte."
     },
     {
-      "numero": "2021NE0000947",
-      "contrato": "21/2016",
-      "valor": 13381.06,
+      "numero": "2021NE0000943",
+      "contrato": "19/2019",
+      "valor": 2094.72,
       "situacao": "Ativo",
       "data_emissao": "11/08/2021",
-      "descricao": "Parte do Saldo do CT. Nº021-2016-SEINFRA, destinados ao Acesso a Internet com Link dedicado 100 (cem) MBPS e Circuito de Transmissão de Dados pontos de 100 MBPS para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus."
+      "descricao": "Parte do Saldo do CT. N°019/2019 - SEINFRA, destinados a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
       "numero": "2021NE0000939",
@@ -1819,28 +1819,20 @@
       "descricao": "Parte do Saldo do Contrato nº 024/2021-SEINFRA, destinados a Prestação de serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP (e-Obras)."
     },
     {
-      "numero": "2021NE0000943",
-      "contrato": "19/2019",
-      "valor": 2094.72,
+      "numero": "2021NE0000947",
+      "contrato": "21/2016",
+      "valor": 13381.06,
       "situacao": "Ativo",
       "data_emissao": "11/08/2021",
-      "descricao": "Parte do Saldo do CT. N°019/2019 - SEINFRA, destinados a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
+      "descricao": "Parte do Saldo do CT. Nº021-2016-SEINFRA, destinados ao Acesso a Internet com Link dedicado 100 (cem) MBPS e Circuito de Transmissão de Dados pontos de 100 MBPS para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus."
     },
     {
-      "numero": "2024NE0000994",
-      "contrato": "4/2023",
-      "valor": 14242.04,
+      "numero": "2024NE0000972",
+      "contrato": "42/2021",
+      "valor": 41829.02,
       "situacao": "Ativo",
       "data_emissao": "11/07/2024",
-      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
-    },
-    {
-      "numero": "2024NE0000986",
-      "contrato": "51/2021",
-      "valor": 51146.86,
-      "situacao": "Ativo",
-      "data_emissao": "11/07/2024",
-      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 02."
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
     },
     {
       "numero": "2024NE0000971",
@@ -1851,12 +1843,20 @@
       "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 0019/2019 AD: 04."
     },
     {
-      "numero": "2024NE0000972",
-      "contrato": "42/2021",
-      "valor": 41829.02,
+      "numero": "2024NE0000986",
+      "contrato": "51/2021",
+      "valor": 51146.86,
       "situacao": "Ativo",
       "data_emissao": "11/07/2024",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
+      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 02."
+    },
+    {
+      "numero": "2024NE0000994",
+      "contrato": "4/2023",
+      "valor": 14242.04,
+      "situacao": "Ativo",
+      "data_emissao": "11/07/2024",
+      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
     },
     {
       "numero": "2023NE0000650",
@@ -1955,20 +1955,20 @@
       "descricao": "Contrato nº 042/2021-SEINFRA. Objeto: Prestação de serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP (e-Obras), para atender as necessidades da Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus ¿ SEINFRA."
     },
     {
-      "numero": "2025NE0001167",
-      "contrato": "51/2021",
-      "valor": 51146.86,
-      "situacao": "Ativo",
-      "data_emissao": "08/09/2025",
-      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
-    },
-    {
       "numero": "2025NE0001171",
       "contrato": "11/2024",
       "valor": 5374.74,
       "situacao": "Ativo",
       "data_emissao": "08/09/2025",
       "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
+    },
+    {
+      "numero": "2025NE0001167",
+      "contrato": "51/2021",
+      "valor": 51146.86,
+      "situacao": "Ativo",
+      "data_emissao": "08/09/2025",
+      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
     },
     {
       "numero": "2025NE0000450",
@@ -1979,20 +1979,12 @@
       "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 02."
     },
     {
-      "numero": "2021NE0000251",
-      "contrato": "11/2016",
-      "valor": 6013.98,
+      "numero": "2021NE0000250",
+      "contrato": "21/2016",
+      "valor": 17614.78,
       "situacao": "Ativo",
       "data_emissao": "08/04/2021",
-      "descricao": "Parte do Saldo do CT. 011/2016- SEINFRA, Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
-    },
-    {
-      "numero": "2021NE0000253",
-      "contrato": "6/2018",
-      "valor": 9974.86,
-      "situacao": "Ativo",
-      "data_emissao": "08/04/2021",
-      "descricao": "Parte do Saldo do CT. 006/2018-SEINFRA, Contratação de empresa para Prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
+      "descricao": "Parte do Saldo do CT. 021/2016 - SEINFRA, Acesso à Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus"
     },
     {
       "numero": "2021NE0000252",
@@ -2003,12 +1995,20 @@
       "descricao": "Parte do Saldo do CT. 019/2019-SEINFRA, Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2021NE0000250",
-      "contrato": "21/2016",
-      "valor": 17614.78,
+      "numero": "2021NE0000253",
+      "contrato": "6/2018",
+      "valor": 9974.86,
       "situacao": "Ativo",
       "data_emissao": "08/04/2021",
-      "descricao": "Parte do Saldo do CT. 021/2016 - SEINFRA, Acesso à Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus"
+      "descricao": "Parte do Saldo do CT. 006/2018-SEINFRA, Contratação de empresa para Prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
+    },
+    {
+      "numero": "2021NE0000251",
+      "contrato": "11/2016",
+      "valor": 6013.98,
+      "situacao": "Ativo",
+      "data_emissao": "08/04/2021",
+      "descricao": "Parte do Saldo do CT. 011/2016- SEINFRA, Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
       "numero": "2018NE01124",
@@ -2019,12 +2019,12 @@
       "descricao": "3º Termo Aditivo - Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS."
     },
     {
-      "numero": "2024NE0001433",
-      "contrato": "",
+      "numero": "2024NE0001432",
+      "contrato": "42/2021",
       "valor": 16034.45,
       "situacao": "Ativo",
       "data_emissao": "07/10/2024",
-      "descricao": "Anulação total da NE n°1432/2024, em virtude de ajuste no cronograma."
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 03."
     },
     {
       "numero": "2024NE0001431",
@@ -2035,12 +2035,12 @@
       "descricao": "Anulação parcial da NE n° 1306/2024, referente ao CT. 042/2021-SEINFRA, em virtude de readequação no cronograma."
     },
     {
-      "numero": "2024NE0001432",
-      "contrato": "42/2021",
+      "numero": "2024NE0001433",
+      "contrato": "",
       "valor": 16034.45,
       "situacao": "Ativo",
       "data_emissao": "07/10/2024",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 03."
+      "descricao": "Anulação total da NE n°1432/2024, em virtude de ajuste no cronograma."
     },
     {
       "numero": "2021NE0001266",
@@ -2051,20 +2051,20 @@
       "descricao": "Contrato N°041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)"
     },
     {
-      "numero": "2018NE00801",
-      "contrato": "11/2016",
-      "valor": 14419.25,
-      "situacao": "Ativo",
-      "data_emissao": "07/08/2018",
-      "descricao": "1º Termo Aditivo Contrato nº 011/2016-SEINFRA - Prest. de serviços para aquisição do (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos para SEINFRA"
-    },
-    {
       "numero": "2018NE00800",
       "contrato": "21/2016",
       "valor": 2179.35,
       "situacao": "Ativo",
       "data_emissao": "07/08/2018",
       "descricao": "D.E.A ao CT. N°021/2016 - Prestação de Serviços de Gerenciamento de rede no mes de Dezembro/2016."
+    },
+    {
+      "numero": "2018NE00801",
+      "contrato": "11/2016",
+      "valor": 14419.25,
+      "situacao": "Ativo",
+      "data_emissao": "07/08/2018",
+      "descricao": "1º Termo Aditivo Contrato nº 011/2016-SEINFRA - Prest. de serviços para aquisição do (SPROWEB), objetivando o controle e acompanhamento do registro de todos os documentos ou processos para SEINFRA"
     },
     {
       "numero": "2022NE0001258",
@@ -2083,20 +2083,12 @@
       "descricao": "Parte do Saldo do CT. N°006/2018 - SEINFRA, destinados a Contratação de empresa para Prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
     },
     {
-      "numero": "2015NE00595",
+      "numero": "2015NE00591",
       "contrato": "29/2014",
       "valor": 23391.0,
       "situacao": "Ativo",
       "data_emissao": "07/05/2015",
-      "descricao": "Anulação total da NE N°591/2015, referente ao CT. N° 029/2014, em virtude do ítem Referência incorreto."
-    },
-    {
-      "numero": "2015NE00596",
-      "contrato": "29/2014",
-      "valor": 23391.0,
-      "situacao": "Ativo",
-      "data_emissao": "07/05/2015",
-      "descricao": "NE 596 DE 07/05/2015 R$ 23.391,00 MAIO - R$ 5.198,00 JUNHO Á DEZEMBRO - 2.599,00 2º Termo Aditivo ao Contrato 029/2014 Reajuste de 3,96%"
+      "descricao": "2º Termo Aditivo ao Contrato nº 029/2014 - SEINFRA - Serviço de Utilização de Protocolo em Plataforma WEB para Uso Exclusivo desta SEINFRA."
     },
     {
       "numero": "2015NE00584",
@@ -2107,20 +2099,20 @@
       "descricao": "Anulação total da Nota de Empenho nº 574/2015, descrição incorreta."
     },
     {
-      "numero": "2015NE00591",
+      "numero": "2015NE00596",
       "contrato": "29/2014",
       "valor": 23391.0,
       "situacao": "Ativo",
       "data_emissao": "07/05/2015",
-      "descricao": "2º Termo Aditivo ao Contrato nº 029/2014 - SEINFRA - Serviço de Utilização de Protocolo em Plataforma WEB para Uso Exclusivo desta SEINFRA."
+      "descricao": "NE 596 DE 07/05/2015 R$ 23.391,00 MAIO - R$ 5.198,00 JUNHO Á DEZEMBRO - 2.599,00 2º Termo Aditivo ao Contrato 029/2014 Reajuste de 3,96%"
     },
     {
-      "numero": "2024NE0000410",
-      "contrato": "42/2021",
-      "valor": 41829.02,
+      "numero": "2015NE00595",
+      "contrato": "29/2014",
+      "valor": 23391.0,
       "situacao": "Ativo",
-      "data_emissao": "07/03/2024",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
+      "data_emissao": "07/05/2015",
+      "descricao": "Anulação total da NE N°591/2015, referente ao CT. N° 029/2014, em virtude do ítem Referência incorreto."
     },
     {
       "numero": "2024NE0000413",
@@ -2131,36 +2123,12 @@
       "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 02."
     },
     {
-      "numero": "2022NE0000067",
-      "contrato": "P.286/2021",
-      "valor": 818.66,
+      "numero": "2024NE0000410",
+      "contrato": "42/2021",
+      "valor": 41829.02,
       "situacao": "Ativo",
-      "data_emissao": "07/02/2022",
-      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 63, GRUPO 459 - SEM CONTRATO - MÊS DE AGOSTO/2021. PARECER JURÍDICO Nº 1149/2021-AJUR."
-    },
-    {
-      "numero": "2022NE0000068",
-      "contrato": "P.254/2021",
-      "valor": 819.42,
-      "situacao": "Ativo",
-      "data_emissao": "07/02/2022",
-      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 65, GRUPO 459 - SEM CONTRATO - MÊS DE JULHO/2021. PARECER JURÍDICO Nº 1145/2021-AJUR."
-    },
-    {
-      "numero": "2022NE0000066",
-      "contrato": "P.323/2021",
-      "valor": 817.9,
-      "situacao": "Ativo",
-      "data_emissao": "07/02/2022",
-      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 68, GRUPO 459 - SEM CONTRATO - MÊS DE SETEMBRO/2021. PARECER JURÍDICO Nº 1151/2021-AJUR."
-    },
-    {
-      "numero": "2022NE0000069",
-      "contrato": "P.198/2021",
-      "valor": 819.42,
-      "situacao": "Ativo",
-      "data_emissao": "07/02/2022",
-      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 63, GRUPO 459 - SEM CONTRATO - MÊS DE MAIO/2021. PARECER JURÍDICO Nº 01087/2021-AJUR."
+      "data_emissao": "07/03/2024",
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
     },
     {
       "numero": "2022NE0000065",
@@ -2171,28 +2139,44 @@
       "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 68, GRUPO 459 - SEM CONTRATO - MÊS DE JULHO/2021. PARECER JURÍDICO Nº 1150/2021-AJUR."
     },
     {
+      "numero": "2022NE0000069",
+      "contrato": "P.198/2021",
+      "valor": 819.42,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2022",
+      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 63, GRUPO 459 - SEM CONTRATO - MÊS DE MAIO/2021. PARECER JURÍDICO Nº 01087/2021-AJUR."
+    },
+    {
+      "numero": "2022NE0000066",
+      "contrato": "P.323/2021",
+      "valor": 817.9,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2022",
+      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 68, GRUPO 459 - SEM CONTRATO - MÊS DE SETEMBRO/2021. PARECER JURÍDICO Nº 1151/2021-AJUR."
+    },
+    {
+      "numero": "2022NE0000068",
+      "contrato": "P.254/2021",
+      "valor": 819.42,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2022",
+      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 65, GRUPO 459 - SEM CONTRATO - MÊS DE JULHO/2021. PARECER JURÍDICO Nº 1145/2021-AJUR."
+    },
+    {
+      "numero": "2022NE0000067",
+      "contrato": "P.286/2021",
+      "valor": 818.66,
+      "situacao": "Ativo",
+      "data_emissao": "07/02/2022",
+      "descricao": "EXECUÇÃO DE SISTEMAS SISTEMA: SISTEMA DE RECURSOS HUMANOS E FOLHA DE PAGAMENTO ESPECIAL TIPO 63, GRUPO 459 - SEM CONTRATO - MÊS DE AGOSTO/2021. PARECER JURÍDICO Nº 1149/2021-AJUR."
+    },
+    {
       "numero": "2024NE0001635",
       "contrato": "51/2021",
       "valor": 5967.15,
       "situacao": "Ativo",
       "data_emissao": "06/11/2024",
       "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
-    },
-    {
-      "numero": "2023NE0001303",
-      "contrato": "42/2021",
-      "valor": 16034.45,
-      "situacao": "Ativo",
-      "data_emissao": "06/10/2023",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
-    },
-    {
-      "numero": "2023NE0001302",
-      "contrato": "42/2021",
-      "valor": 15061.15,
-      "situacao": "Ativo",
-      "data_emissao": "06/10/2023",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 042/2021 AD: 01."
     },
     {
       "numero": "2023NE0001301",
@@ -2203,28 +2187,20 @@
       "descricao": "Contratação de empresa para Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades desta SEINFRA. TC: 041/2021 AD: 02."
     },
     {
-      "numero": "2017NE00304",
-      "contrato": "61/2012",
-      "valor": 10139.79,
+      "numero": "2023NE0001302",
+      "contrato": "42/2021",
+      "valor": 15061.15,
       "situacao": "Ativo",
-      "data_emissao": "06/04/2017",
-      "descricao": "Saldo do Contrato nº 061/2012-SEINFRA, Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM tipo 6 para até 250 usuários Manaus/AM"
+      "data_emissao": "06/10/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 042/2021 AD: 01."
     },
     {
-      "numero": "2017NE00305",
-      "contrato": "21/2016",
-      "valor": 37360.36,
+      "numero": "2023NE0001303",
+      "contrato": "42/2021",
+      "valor": 16034.45,
       "situacao": "Ativo",
-      "data_emissao": "06/04/2017",
-      "descricao": "Saldo do Contrato nº 021/2016-SEINFRA, tendo como objeto: Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, Parecer Jurídico nº 0625/2016-AJUR."
-    },
-    {
-      "numero": "2017NE00303",
-      "contrato": "9/2016",
-      "valor": 10287.63,
-      "situacao": "Ativo",
-      "data_emissao": "06/04/2017",
-      "descricao": "Saldo do Contrato nº 009/2016-SEINFRA. Objeto: Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras SICOP ao Sistema de Administração Financeira Integrada AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
+      "data_emissao": "06/10/2023",
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
     },
     {
       "numero": "2017NE00312",
@@ -2235,12 +2211,28 @@
       "descricao": "Saldo do CT. N°011/2016 - Aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
-      "numero": "2020NE00328",
-      "contrato": "",
-      "valor": 1080.05,
+      "numero": "2017NE00303",
+      "contrato": "9/2016",
+      "valor": 10287.63,
       "situacao": "Ativo",
-      "data_emissao": "06/03/2020",
-      "descricao": "Anulação Parcial da Nota de Empenho nº 006/2020, referente ao Contrato nº 006/2018-SEINFRA, em virtude do encerramento da vigência contratual em 12/03/2020."
+      "data_emissao": "06/04/2017",
+      "descricao": "Saldo do Contrato nº 009/2016-SEINFRA. Objeto: Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras SICOP ao Sistema de Administração Financeira Integrada AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
+    },
+    {
+      "numero": "2017NE00305",
+      "contrato": "21/2016",
+      "valor": 37360.36,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2017",
+      "descricao": "Saldo do Contrato nº 021/2016-SEINFRA, tendo como objeto: Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, Parecer Jurídico nº 0625/2016-AJUR."
+    },
+    {
+      "numero": "2017NE00304",
+      "contrato": "61/2012",
+      "valor": 10139.79,
+      "situacao": "Ativo",
+      "data_emissao": "06/04/2017",
+      "descricao": "Saldo do Contrato nº 061/2012-SEINFRA, Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM tipo 6 para até 250 usuários Manaus/AM"
     },
     {
       "numero": "2020NE00326",
@@ -2251,12 +2243,12 @@
       "descricao": "2º Termo Aditivo ao Contato Nº 006/2018-SEINFRA - Prestação de Serviços de Locação de Equipamento de Segurança para a Rede Interna desta Secretaria de Estado de Infraestrutura SEINFRA."
     },
     {
-      "numero": "2022NE0001886",
-      "contrato": "42/2021",
-      "valor": 16034.45,
+      "numero": "2020NE00328",
+      "contrato": "",
+      "valor": 1080.05,
       "situacao": "Ativo",
-      "data_emissao": "05/10/2022",
-      "descricao": "Termo Aditivo ao CT.042/2021-SEINFRA, destinados a Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras-E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFR"
+      "data_emissao": "06/03/2020",
+      "descricao": "Anulação Parcial da Nota de Empenho nº 006/2020, referente ao Contrato nº 006/2018-SEINFRA, em virtude do encerramento da vigência contratual em 12/03/2020."
     },
     {
       "numero": "2022NE0001885",
@@ -2267,20 +2259,12 @@
       "descricao": "Termo Aditivo ao CT.041/2021-SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades desta SEINFRA."
     },
     {
-      "numero": "2024NE0000774",
-      "contrato": "51/2021",
-      "valor": 51146.86,
+      "numero": "2022NE0001886",
+      "contrato": "42/2021",
+      "valor": 16034.45,
       "situacao": "Ativo",
-      "data_emissao": "05/06/2024",
-      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 02."
-    },
-    {
-      "numero": "2024NE0000772",
-      "contrato": "19/2019",
-      "valor": 5374.74,
-      "situacao": "Ativo",
-      "data_emissao": "05/06/2024",
-      "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 0019/2019 AD: 04."
+      "data_emissao": "05/10/2022",
+      "descricao": "Termo Aditivo ao CT.042/2021-SEINFRA, destinados a Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras-E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFR"
     },
     {
       "numero": "2024NE0000773",
@@ -2291,20 +2275,28 @@
       "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
     },
     {
-      "numero": "2022NE0000788",
+      "numero": "2024NE0000772",
       "contrato": "19/2019",
-      "valor": 6284.16,
+      "valor": 5374.74,
       "situacao": "Ativo",
-      "data_emissao": "05/05/2022",
-      "descricao": "Saldo do CT. N°019/2019 - SEINFRA, destinados a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
+      "data_emissao": "05/06/2024",
+      "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 0019/2019 AD: 04."
     },
     {
-      "numero": "2022NE0000790",
-      "contrato": "41/2021",
-      "valor": 4671.36,
+      "numero": "2024NE0000774",
+      "contrato": "51/2021",
+      "valor": 51146.86,
+      "situacao": "Ativo",
+      "data_emissao": "05/06/2024",
+      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 02."
+    },
+    {
+      "numero": "2022NE0000791",
+      "contrato": "42/2021",
+      "valor": 75588.68,
       "situacao": "Ativo",
       "data_emissao": "05/05/2022",
-      "descricao": "Parte do Saldo do CT. n°041/2021 - SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades da Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
+      "descricao": "Parte do Saldo do CT. n°042/2021 - SEINFRA, destinados a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP (e-Obras) , para atender as necessidades da SEINFRA."
     },
     {
       "numero": "2022NE0000787",
@@ -2315,12 +2307,20 @@
       "descricao": "Parte do Saldo do Contrato nº 006/2018-SEINFRA, tendo como objeto: Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA (Serviços de Firewall, compreendendo os Serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilidade de Appliance - Conjunto de Equipamentos e Softwares)."
     },
     {
-      "numero": "2022NE0000791",
-      "contrato": "42/2021",
-      "valor": 75588.68,
+      "numero": "2022NE0000790",
+      "contrato": "41/2021",
+      "valor": 4671.36,
       "situacao": "Ativo",
       "data_emissao": "05/05/2022",
-      "descricao": "Parte do Saldo do CT. n°042/2021 - SEINFRA, destinados a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP (e-Obras) , para atender as necessidades da SEINFRA."
+      "descricao": "Parte do Saldo do CT. n°041/2021 - SEINFRA, destinados a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades da Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
+    },
+    {
+      "numero": "2022NE0000788",
+      "contrato": "19/2019",
+      "valor": 6284.16,
+      "situacao": "Ativo",
+      "data_emissao": "05/05/2022",
+      "descricao": "Saldo do CT. N°019/2019 - SEINFRA, destinados a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
       "numero": "2024NE0000397",
@@ -2339,92 +2339,12 @@
       "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 04."
     },
     {
-      "numero": "2015NE00035",
+      "numero": "2015NE00042",
       "contrato": "80/2009",
       "valor": 104896.92,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
-      "descricao": "Saldo do Contrato nº 080/2009-SEINFRA, tendo como objeto: Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas., conforme Parecer Jurídico nº 1358/2013-AJUR/SEINFRA."
-    },
-    {
-      "numero": "2015NE00072",
-      "contrato": "30/2011",
-      "valor": 5193.6,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
       "descricao": "Cobertura financeira 2015: janeiro a março"
-    },
-    {
-      "numero": "2015NE00063",
-      "contrato": "61/2012",
-      "valor": 3379.93,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Reconhecimento de dívida do exercício de 2014"
-    },
-    {
-      "numero": "2015NE00046",
-      "contrato": "29/2014",
-      "valor": 7500.0,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cancelamento da NE 0038/2015, em função de descrição incompleta."
-    },
-    {
-      "numero": "2015NE00031",
-      "contrato": "30/2011",
-      "valor": 5193.6,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Saldo do Contrato nº 030/2011 - Serviços de Informática de Forma Eventual para SEINFRA."
-    },
-    {
-      "numero": "2015NE00048",
-      "contrato": "29/2014",
-      "valor": 7500.0,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Cobertura financeira 2015: janeiro a março"
-    },
-    {
-      "numero": "2015NE00041",
-      "contrato": "80/2009",
-      "valor": 104896.92,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Anulação total da NE nº 0035/2015, devido descrição incompleta."
-    },
-    {
-      "numero": "2015NE00038",
-      "contrato": "29/2014",
-      "valor": 7500.0,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Contrato nº029/2014-SEINFRA - Prestação de Serv. do Sistema SPROWEB desta SEINFRA/AM"
-    },
-    {
-      "numero": "2015NE00071",
-      "contrato": "30/2011",
-      "valor": 5193.6,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Anulação total da NE 031/15, em função de descrição incompleta."
-    },
-    {
-      "numero": "2015NE00093",
-      "contrato": "29/2014",
-      "valor": 2516.25,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Reconhecimento de dívida do exercício de 2014"
-    },
-    {
-      "numero": "2015NE00094",
-      "contrato": "29/2014",
-      "valor": 2051.4,
-      "situacao": "Ativo",
-      "data_emissao": "05/01/2015",
-      "descricao": "Reconhecimento de dívida do exercício de 2014"
     },
     {
       "numero": "2015NE00033",
@@ -2435,12 +2355,92 @@
       "descricao": "Cobertura financeira 2015: janeiro a março"
     },
     {
-      "numero": "2015NE00042",
+      "numero": "2015NE00094",
+      "contrato": "29/2014",
+      "valor": 2051.4,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Reconhecimento de dívida do exercício de 2014"
+    },
+    {
+      "numero": "2015NE00093",
+      "contrato": "29/2014",
+      "valor": 2516.25,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Reconhecimento de dívida do exercício de 2014"
+    },
+    {
+      "numero": "2015NE00071",
+      "contrato": "30/2011",
+      "valor": 5193.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Anulação total da NE 031/15, em função de descrição incompleta."
+    },
+    {
+      "numero": "2015NE00038",
+      "contrato": "29/2014",
+      "valor": 7500.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Contrato nº029/2014-SEINFRA - Prestação de Serv. do Sistema SPROWEB desta SEINFRA/AM"
+    },
+    {
+      "numero": "2015NE00041",
       "contrato": "80/2009",
       "valor": 104896.92,
       "situacao": "Ativo",
       "data_emissao": "05/01/2015",
+      "descricao": "Anulação total da NE nº 0035/2015, devido descrição incompleta."
+    },
+    {
+      "numero": "2015NE00048",
+      "contrato": "29/2014",
+      "valor": 7500.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
       "descricao": "Cobertura financeira 2015: janeiro a março"
+    },
+    {
+      "numero": "2015NE00031",
+      "contrato": "30/2011",
+      "valor": 5193.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Saldo do Contrato nº 030/2011 - Serviços de Informática de Forma Eventual para SEINFRA."
+    },
+    {
+      "numero": "2015NE00046",
+      "contrato": "29/2014",
+      "valor": 7500.0,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cancelamento da NE 0038/2015, em função de descrição incompleta."
+    },
+    {
+      "numero": "2015NE00063",
+      "contrato": "61/2012",
+      "valor": 3379.93,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Reconhecimento de dívida do exercício de 2014"
+    },
+    {
+      "numero": "2015NE00072",
+      "contrato": "30/2011",
+      "valor": 5193.6,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Cobertura financeira 2015: janeiro a março"
+    },
+    {
+      "numero": "2015NE00035",
+      "contrato": "80/2009",
+      "valor": 104896.92,
+      "situacao": "Ativo",
+      "data_emissao": "05/01/2015",
+      "descricao": "Saldo do Contrato nº 080/2009-SEINFRA, tendo como objeto: Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas., conforme Parecer Jurídico nº 1358/2013-AJUR/SEINFRA."
     },
     {
       "numero": "2024NE0001609",
@@ -2475,12 +2475,12 @@
       "descricao": "2º T.A ao Contrato nº 009/2016-SEINFRA-Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
     },
     {
-      "numero": "2024NE0000394",
-      "contrato": "4/2023",
-      "valor": 7121.02,
+      "numero": "2024NE0000392",
+      "contrato": "42/2021",
+      "valor": 10733.42,
       "situacao": "Ativo",
       "data_emissao": "04/03/2024",
-      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
+      "descricao": "DEA ao CT nº 042/2021-SEINFRA, destinados a Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão deObras-E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA."
     },
     {
       "numero": "2024NE0000393",
@@ -2491,76 +2491,12 @@
       "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA."
     },
     {
-      "numero": "2024NE0000392",
-      "contrato": "42/2021",
-      "valor": 10733.42,
+      "numero": "2024NE0000394",
+      "contrato": "4/2023",
+      "valor": 7121.02,
       "situacao": "Ativo",
       "data_emissao": "04/03/2024",
-      "descricao": "DEA ao CT nº 042/2021-SEINFRA, destinados a Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão deObras-E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA."
-    },
-    {
-      "numero": "2021NE0000006",
-      "contrato": "21/2016",
-      "valor": 26422.17,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Saldo do CT. 021/2016-SEINFRA, Acesso à Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus."
-    },
-    {
-      "numero": "2021NE0000021",
-      "contrato": "6/2018",
-      "valor": 8100.42,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Parte do Saldo do Contato Nº 006/2018-SEINFRA - Prestação de Serviços de Locação de Equipamento de Segurança para a Rede Interna desta Secretaria de Estado de Infraestrutura SEINFRA."
-    },
-    {
-      "numero": "2021NE0000023",
-      "contrato": "19/2019",
-      "valor": 4760.01,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Parte do Saldo do Contrato n° 019/2019-SEINFRA, Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
-    },
-    {
-      "numero": "2021NE0000028",
-      "contrato": "",
-      "valor": 8100.42,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Anulação Total da NE N. 021/2021, referente ao CT. 006/2018 - SEINFRA, em virtude de alteração no Cronograma."
-    },
-    {
-      "numero": "2021NE0000033",
-      "contrato": "6/2018",
-      "valor": 9585.5,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Saldo do CT. N°006/2018 - Contratação de empresa para serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilidade de appliance (conjunto de equipamentos e softwares"
-    },
-    {
-      "numero": "2021NE0000032",
-      "contrato": "9/2016",
-      "valor": 38352.42,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Parte do Saldo do CT. N°009/2016 - SEINFRA, destinados a Contratação de empresa para serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras – SICOP."
-    },
-    {
-      "numero": "2021NE0000002",
-      "contrato": "6/2018",
-      "valor": 38292.42,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Saldo do CT. N° 009/2016-SEINFRA -Contratação de empresa para Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
-    },
-    {
-      "numero": "2021NE0000005",
-      "contrato": "11/2016",
-      "valor": 9020.97,
-      "situacao": "Ativo",
-      "data_emissao": "04/01/2021",
-      "descricao": "Parte do Saldo do CT. 011/2016-SEINFRA, destinados a Contratação de empresa especializada para a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
+      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
     },
     {
       "numero": "2021NE0000027",
@@ -2571,12 +2507,68 @@
       "descricao": "Anulação Total da NE N. 002/2021, referente ao CT. 009/2016 - SEINFRA, em virtude de alteração no Cronograma."
     },
     {
-      "numero": "2016NE00053",
-      "contrato": "29/2014",
-      "valor": 10396.0,
+      "numero": "2021NE0000005",
+      "contrato": "11/2016",
+      "valor": 9020.97,
       "situacao": "Ativo",
-      "data_emissao": "04/01/2016",
-      "descricao": "Contratação de Prestação de Serviços de utilização de sistema Protocolo em Plataforma Wel para Controle e acompanhamento de Documentos Registrados em meio Virtual para uso exclusivo da SEINFRA."
+      "data_emissao": "04/01/2021",
+      "descricao": "Parte do Saldo do CT. 011/2016-SEINFRA, destinados a Contratação de empresa especializada para a Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
+    },
+    {
+      "numero": "2021NE0000002",
+      "contrato": "6/2018",
+      "valor": 38292.42,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Saldo do CT. N° 009/2016-SEINFRA -Contratação de empresa para Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
+    },
+    {
+      "numero": "2021NE0000032",
+      "contrato": "9/2016",
+      "valor": 38352.42,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Parte do Saldo do CT. N°009/2016 - SEINFRA, destinados a Contratação de empresa para serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras – SICOP."
+    },
+    {
+      "numero": "2021NE0000033",
+      "contrato": "6/2018",
+      "valor": 9585.5,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Saldo do CT. N°006/2018 - Contratação de empresa para serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilidade de appliance (conjunto de equipamentos e softwares"
+    },
+    {
+      "numero": "2021NE0000028",
+      "contrato": "",
+      "valor": 8100.42,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Anulação Total da NE N. 021/2021, referente ao CT. 006/2018 - SEINFRA, em virtude de alteração no Cronograma."
+    },
+    {
+      "numero": "2021NE0000023",
+      "contrato": "19/2019",
+      "valor": 4760.01,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Parte do Saldo do Contrato n° 019/2019-SEINFRA, Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
+    },
+    {
+      "numero": "2021NE0000021",
+      "contrato": "6/2018",
+      "valor": 8100.42,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Parte do Saldo do Contato Nº 006/2018-SEINFRA - Prestação de Serviços de Locação de Equipamento de Segurança para a Rede Interna desta Secretaria de Estado de Infraestrutura SEINFRA."
+    },
+    {
+      "numero": "2021NE0000006",
+      "contrato": "21/2016",
+      "valor": 26422.17,
+      "situacao": "Ativo",
+      "data_emissao": "04/01/2021",
+      "descricao": "Saldo do CT. 021/2016-SEINFRA, Acesso à Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS, para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus."
     },
     {
       "numero": "2016NE00057",
@@ -2587,12 +2579,12 @@
       "descricao": "Saldo Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
     },
     {
-      "numero": "2025NE0001451",
-      "contrato": "11/2024",
-      "valor": 5330.55,
+      "numero": "2016NE00053",
+      "contrato": "29/2014",
+      "valor": 10396.0,
       "situacao": "Ativo",
-      "data_emissao": "03/11/2025",
-      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA. TC: 0011/2024 AD: 01."
+      "data_emissao": "04/01/2016",
+      "descricao": "Contratação de Prestação de Serviços de utilização de sistema Protocolo em Plataforma Wel para Controle e acompanhamento de Documentos Registrados em meio Virtual para uso exclusivo da SEINFRA."
     },
     {
       "numero": "2025NE0001462",
@@ -2603,12 +2595,12 @@
       "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 04."
     },
     {
-      "numero": "2024NE0001304",
-      "contrato": "4/2023",
-      "valor": 7121.02,
+      "numero": "2025NE0001451",
+      "contrato": "11/2024",
+      "valor": 5330.55,
       "situacao": "Ativo",
-      "data_emissao": "03/09/2024",
-      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
+      "data_emissao": "03/11/2025",
+      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA. TC: 0011/2024 AD: 01."
     },
     {
       "numero": "2024NE0001306",
@@ -2619,28 +2611,20 @@
       "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 02."
     },
     {
+      "numero": "2024NE0001304",
+      "contrato": "4/2023",
+      "valor": 7121.02,
+      "situacao": "Ativo",
+      "data_emissao": "03/09/2024",
+      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
+    },
+    {
       "numero": "2023NE0001063",
       "contrato": "",
       "valor": 0.01,
       "situacao": "Ativo",
       "data_emissao": "03/08/2023",
       "descricao": "Anulação parcial da NE n°32/2023, referente ao CT. n°006/2018-SEINFRA, destinados a Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA, em virtude de encerramento contratual."
-    },
-    {
-      "numero": "2025NE0000858",
-      "contrato": "42/2021",
-      "valor": 4880.06,
-      "situacao": "Ativo",
-      "data_emissao": "03/07/2025",
-      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0000859",
-      "contrato": "51/2021",
-      "valor": 51146.86,
-      "situacao": "Ativo",
-      "data_emissao": "03/07/2025",
-      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
     },
     {
       "numero": "2025NE0000861",
@@ -2651,28 +2635,20 @@
       "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 02."
     },
     {
-      "numero": "2025NE0000677",
-      "contrato": "4/2023",
-      "valor": 14767.58,
+      "numero": "2025NE0000859",
+      "contrato": "51/2021",
+      "valor": 51146.86,
       "situacao": "Ativo",
-      "data_emissao": "03/06/2025",
-      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 02."
+      "data_emissao": "03/07/2025",
+      "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
     },
     {
-      "numero": "2025NE0000679",
+      "numero": "2025NE0000858",
       "contrato": "42/2021",
-      "valor": 41829.02,
+      "valor": 4880.06,
       "situacao": "Ativo",
-      "data_emissao": "03/06/2025",
+      "data_emissao": "03/07/2025",
       "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 04."
-    },
-    {
-      "numero": "2025NE0000678",
-      "contrato": "11/2024",
-      "valor": 5374.74,
-      "situacao": "Ativo",
-      "data_emissao": "03/06/2025",
-      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
     },
     {
       "numero": "2025NE0000675",
@@ -2683,36 +2659,36 @@
       "descricao": "Contratação de empresa para a prestação de serviços de acesso dedicado à internet com link de 100 Mbps e circuito de transmissão de dados ponto a ponto de 100 Mbps para esta SEINFRA. TC: 0051/2021 AD: 03."
     },
     {
+      "numero": "2025NE0000678",
+      "contrato": "11/2024",
+      "valor": 5374.74,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
+    },
+    {
+      "numero": "2025NE0000679",
+      "contrato": "42/2021",
+      "valor": 41829.02,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 04."
+    },
+    {
+      "numero": "2025NE0000677",
+      "contrato": "4/2023",
+      "valor": 14767.58,
+      "situacao": "Ativo",
+      "data_emissao": "03/06/2025",
+      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 02."
+    },
+    {
       "numero": "2020NE00510",
       "contrato": "9/2016",
       "valor": 76043.7,
       "situacao": "Ativo",
       "data_emissao": "03/06/2020",
       "descricao": "4° T.A ao CT. N°009/2016 - SEINFRA, destinados à Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado° de Controle e Gestão de Obras - SICOP."
-    },
-    {
-      "numero": "2022NE0000021",
-      "contrato": "6/2018",
-      "valor": 11969.55,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Saldo do CT. n° 006/2018-SEINFRA, destinados a Prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
-    },
-    {
-      "numero": "2022NE0000030",
-      "contrato": "51/2021",
-      "valor": 94202.24,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Parte do Saldo do CT. Nº051/2021-SEINFRA, destinados para acesso à internet com link dedicado de 100Mbps e circuito de transmissão de dados pontos de 100Mbps para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus/AM."
-    },
-    {
-      "numero": "2022NE0000033",
-      "contrato": "19/2019",
-      "valor": 8378.88,
-      "situacao": "Ativo",
-      "data_emissao": "03/01/2022",
-      "descricao": "Parte do Saldo do CT. Nº 019/2019-SEINFRA, destinados para Contratação de Empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA"
     },
     {
       "numero": "2022NE0000037",
@@ -2723,12 +2699,28 @@
       "descricao": "Parte do Saldo do CT. Nº 042/2021-SEINFRA, destinados para prestação de serviços de hospedagem do Sistema Integrado de Controle de Obras Públicas - SICOP (e-Obras), para atender as necessidades desta SEINFRA."
     },
     {
-      "numero": "2019NE00942",
-      "contrato": "",
-      "valor": 12150.63,
+      "numero": "2022NE0000033",
+      "contrato": "19/2019",
+      "valor": 8378.88,
       "situacao": "Ativo",
-      "data_emissao": "02/10/2019",
-      "descricao": "Anulação da NE 00919 - em virtude da referência incorreta."
+      "data_emissao": "03/01/2022",
+      "descricao": "Parte do Saldo do CT. Nº 019/2019-SEINFRA, destinados para Contratação de Empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA"
+    },
+    {
+      "numero": "2022NE0000030",
+      "contrato": "51/2021",
+      "valor": 94202.24,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Parte do Saldo do CT. Nº051/2021-SEINFRA, destinados para acesso à internet com link dedicado de 100Mbps e circuito de transmissão de dados pontos de 100Mbps para a Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus/AM."
+    },
+    {
+      "numero": "2022NE0000021",
+      "contrato": "6/2018",
+      "valor": 11969.55,
+      "situacao": "Ativo",
+      "data_emissao": "03/01/2022",
+      "descricao": "Saldo do CT. n° 006/2018-SEINFRA, destinados a Prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus - SEINFRA."
     },
     {
       "numero": "2019NE00943",
@@ -2737,6 +2729,14 @@
       "situacao": "Ativo",
       "data_emissao": "02/10/2019",
       "descricao": "Parte Saldo do CT. N°006/2018, destinados à Prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
+    },
+    {
+      "numero": "2019NE00942",
+      "contrato": "",
+      "valor": 12150.63,
+      "situacao": "Ativo",
+      "data_emissao": "02/10/2019",
+      "descricao": "Anulação da NE 00919 - em virtude da referência incorreta."
     },
     {
       "numero": "2018NE00754",
@@ -2779,12 +2779,12 @@
       "descricao": "Anulação parcial da NE N° 206/2018 referente ao contrato n° 021/2016-SEINFRA, em virtude de supressão do contrato conforme Parecer Jurídico 0173/2018-AJUR/SEINFRA."
     },
     {
-      "numero": "2025NE0000003",
-      "contrato": "11/2024",
-      "valor": 5374.74,
+      "numero": "2025NE0000004",
+      "contrato": "4/2023",
+      "valor": 14242.04,
       "situacao": "Ativo",
       "data_emissao": "02/01/2025",
-      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
+      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
     },
     {
       "numero": "2025NE0000001",
@@ -2795,12 +2795,12 @@
       "descricao": "Contratação de empresa para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras–E-Obras para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA TC: 0042/2021 AD: 03."
     },
     {
-      "numero": "2025NE0000004",
-      "contrato": "4/2023",
-      "valor": 14242.04,
+      "numero": "2025NE0000003",
+      "contrato": "11/2024",
+      "valor": 5374.74,
       "situacao": "Ativo",
       "data_emissao": "02/01/2025",
-      "descricao": "Contratação de empresa para prestação dos serviços de Firewall para a Secretaria de Infraestrutura e Região Metropolitana de Manaus – SEINFRA. TC: 0004/2023 AD: 01."
+      "descricao": "Contratação de empresa especializada para prestação de serviço de licença de uso do sistema gestor de conteúdo web, para atender a Secretaria de Estado de Infraestrutura- SEINFRA."
     },
     {
       "numero": "2024NE0000002",
@@ -2811,28 +2811,12 @@
       "descricao": "Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA. TC: 0019/2019 AD: 04."
     },
     {
-      "numero": "2023NE0000012",
-      "contrato": "51/2021",
-      "valor": 102293.72,
+      "numero": "2023NE0000031",
+      "contrato": "41/2021",
+      "valor": 5171.2,
       "situacao": "Ativo",
       "data_emissao": "02/01/2023",
-      "descricao": "Parte do Saldo do CT. Nº051/2021-SEINFRA, destinados para serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta SEINFRA."
-    },
-    {
-      "numero": "2023NE0000007",
-      "contrato": "42/2021",
-      "valor": 83658.04,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Parte do Saldo do CT. Nº042/2021-SEINFRA, destinados para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras (E-Obras) para atender as necessidades da SEINFRA."
-    },
-    {
-      "numero": "2023NE0000032",
-      "contrato": "6/2018",
-      "valor": 13915.25,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2023",
-      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA, tendo como objeto: Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA (Serviços de Firewall, compreendendo os Serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilidade de Appliance - Conjunto de Equipamentos e Softwares)."
+      "descricao": "Parte do Saldo do CT. Nº041/2021-SEINFRA, destinados para prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades desta SEINFRA."
     },
     {
       "numero": "2023NE0000033",
@@ -2843,44 +2827,28 @@
       "descricao": "Parte do Saldo do CT. n°019/2019 - SEINFRA, destinados a Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2023NE0000031",
-      "contrato": "41/2021",
-      "valor": 5171.2,
+      "numero": "2023NE0000032",
+      "contrato": "6/2018",
+      "valor": 13915.25,
       "situacao": "Ativo",
       "data_emissao": "02/01/2023",
-      "descricao": "Parte do Saldo do CT. Nº041/2021-SEINFRA, destinados para prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB), para atender as necessidades desta SEINFRA."
+      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA, tendo como objeto: Prestação de Serviços de locação de equipamentos de segurança para a rede interna desta SEINFRA (Serviços de Firewall, compreendendo os Serviços de gestão continuada em Segurança de Tecnologia da Informação, com a disponibilidade de Appliance - Conjunto de Equipamentos e Softwares)."
     },
     {
-      "numero": "2020NE00009",
-      "contrato": "19/2019",
-      "valor": 11106.69,
+      "numero": "2023NE0000007",
+      "contrato": "42/2021",
+      "valor": 83658.04,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Saldo do CT. N°019/2019 - SEINFRA, destinados à Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
+      "data_emissao": "02/01/2023",
+      "descricao": "Parte do Saldo do CT. Nº042/2021-SEINFRA, destinados para prestação de serviço de Hospedagem do Sistema Integrado de Controle e Gestão de Obras (E-Obras) para atender as necessidades da SEINFRA."
     },
     {
-      "numero": "2020NE00018",
-      "contrato": "21/2016",
-      "valor": 96881.29,
+      "numero": "2023NE0000012",
+      "contrato": "51/2021",
+      "valor": 102293.72,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados à Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS."
-    },
-    {
-      "numero": "2020NE00006",
-      "contrato": "6/2018",
-      "valor": 12150.63,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Saldo do CT. N°006/2018 - SEINFRA, destinados à Prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
-    },
-    {
-      "numero": "2020NE00005",
-      "contrato": "11/2016",
-      "valor": 24055.92,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2020",
-      "descricao": "Saldo do CT. N°011/2016 - SEINFRA, destinados a Contratação de empresa para Prestação de serviços para aquisição do Programa de execução de sistema de Protocolo em Plataforma WEB (sproweb) para Secretaria de Estado de Infraestrutura - SEINFRA."
+      "data_emissao": "02/01/2023",
+      "descricao": "Parte do Saldo do CT. Nº051/2021-SEINFRA, destinados para serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta SEINFRA."
     },
     {
       "numero": "2020NE00004",
@@ -2891,60 +2859,36 @@
       "descricao": "Saldo do CT. N°009/2016 - SEINFRA, destinados à Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
     },
     {
-      "numero": "2019NE00007",
-      "contrato": "1/2017",
-      "valor": 2950.58,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Saldo do Contrato nº 001/2017-SEINFRA - Serviços de licença de uso do Sistema Gestor de Conteúdo WEB, para a Secretaria de Estado de Infraestrutura - SEINFRA."
-    },
-    {
-      "numero": "2019NE00014",
-      "contrato": "6/2018",
-      "valor": 11382.33,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA - Prestação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
-    },
-    {
-      "numero": "2019NE00005",
-      "contrato": "21/2016",
-      "valor": 26422.17,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Saldo do Contrato nº 021/2016-SEINFRA - Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS."
-    },
-    {
-      "numero": "2019NE00009",
-      "contrato": "59/2018",
-      "valor": 6380.01,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Contratação de empresa para Prestação de Serviços Técnicos em informática de forma eventual para atender a necessidade da Secretaria de Estado de Infraestrutura - SEINFRA."
-    },
-    {
-      "numero": "2019NE00011",
+      "numero": "2020NE00005",
       "contrato": "11/2016",
-      "valor": 9020.97,
+      "valor": 24055.92,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Parte do Saldo do CT. nº 011/2016-SEINFRA, tendo como objeto: Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
+      "data_emissao": "02/01/2020",
+      "descricao": "Saldo do CT. N°011/2016 - SEINFRA, destinados a Contratação de empresa para Prestação de serviços para aquisição do Programa de execução de sistema de Protocolo em Plataforma WEB (sproweb) para Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2019NE00008",
+      "numero": "2020NE00006",
       "contrato": "6/2018",
-      "valor": 11382.33,
+      "valor": 12150.63,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA - Prestação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
+      "data_emissao": "02/01/2020",
+      "descricao": "Saldo do CT. N°006/2018 - SEINFRA, destinados à Prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
     },
     {
-      "numero": "2019NE00013",
-      "contrato": "",
-      "valor": 11382.33,
+      "numero": "2020NE00018",
+      "contrato": "21/2016",
+      "valor": 96881.29,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2019",
-      "descricao": "Anulação Total da NE N. 008/2019-SEINFRA, referente ao CT. 006/2018 em virtude de modalidade incorreta."
+      "data_emissao": "02/01/2020",
+      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados à Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de Dados pontos de 10 MBPS."
+    },
+    {
+      "numero": "2020NE00009",
+      "contrato": "19/2019",
+      "valor": 11106.69,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2020",
+      "descricao": "Saldo do CT. N°019/2019 - SEINFRA, destinados à Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
       "numero": "2019NE00001",
@@ -2955,28 +2899,60 @@
       "descricao": "Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
     },
     {
-      "numero": "2018NE00055",
-      "contrato": "11/2016",
-      "valor": 20186.95,
+      "numero": "2019NE00013",
+      "contrato": "",
+      "valor": 11382.33,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
+      "data_emissao": "02/01/2019",
+      "descricao": "Anulação Total da NE N. 008/2019-SEINFRA, referente ao CT. 006/2018 em virtude de modalidade incorreta."
+    },
+    {
+      "numero": "2019NE00008",
+      "contrato": "6/2018",
+      "valor": 11382.33,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA - Prestação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
+    },
+    {
+      "numero": "2019NE00011",
+      "contrato": "11/2016",
+      "valor": 9020.97,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
       "descricao": "Parte do Saldo do CT. nº 011/2016-SEINFRA, tendo como objeto: Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
-      "numero": "2018NE00057",
-      "contrato": "21/2016",
-      "valor": 102740.99,
+      "numero": "2019NE00009",
+      "contrato": "59/2018",
+      "valor": 6380.01,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Saldo co Contrato n° 021/2016, tendo como objeto: Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de dados pontos de 10 MBPS.."
+      "data_emissao": "02/01/2019",
+      "descricao": "Contratação de empresa para Prestação de Serviços Técnicos em informática de forma eventual para atender a necessidade da Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2018NE00065",
-      "contrato": "1/2017",
-      "valor": 16228.19,
+      "numero": "2019NE00005",
+      "contrato": "21/2016",
+      "valor": 26422.17,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2018",
-      "descricao": "Termo Aditivo ao Contrato n° 001/2017 - Serviços de licença de uso do Sistema Gestor de Conteúdo WEB, para a Secretaria de Estado de Infraestrutura - SEINFRA."
+      "data_emissao": "02/01/2019",
+      "descricao": "Saldo do Contrato nº 021/2016-SEINFRA - Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS."
+    },
+    {
+      "numero": "2019NE00014",
+      "contrato": "6/2018",
+      "valor": 11382.33,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Saldo do Contrato nº 006/2018-SEINFRA - Prestação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
+    },
+    {
+      "numero": "2019NE00007",
+      "contrato": "1/2017",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2019",
+      "descricao": "Saldo do Contrato nº 001/2017-SEINFRA - Serviços de licença de uso do Sistema Gestor de Conteúdo WEB, para a Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
       "numero": "2018NE00053",
@@ -2987,28 +2963,28 @@
       "descricao": "Saldo do Contrato nº 009/2016-SEINFRA. Objeto: Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras SICOP ao Sistema de Administração Financeira Integrada AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
     },
     {
-      "numero": "2017NE00021",
-      "contrato": "9/2016",
-      "valor": 69944.24,
+      "numero": "2018NE00065",
+      "contrato": "1/2017",
+      "valor": 16228.19,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Parte do Saldo do CT. N°009/2016 - Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras - SICOP."
+      "data_emissao": "02/01/2018",
+      "descricao": "Termo Aditivo ao Contrato n° 001/2017 - Serviços de licença de uso do Sistema Gestor de Conteúdo WEB, para a Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
-      "numero": "2017NE00017",
-      "contrato": "61/2012",
-      "valor": 13519.72,
-      "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Saldo do CT. N°061/2012 - SEINFRA, destinados a Contratação de serviços de locação de bens referente a equipamentos de informática, compreendendo a instalação e configuração de um Firewall UTM tipo 6, para até 250 usuários."
-    },
-    {
-      "numero": "2017NE00020",
+      "numero": "2018NE00057",
       "contrato": "21/2016",
-      "valor": 37360.36,
+      "valor": 102740.99,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2017",
-      "descricao": "Parte Saldo Contrato nº 021/2016-SEINFRA-Acesso a Internet SEINFRA"
+      "data_emissao": "02/01/2018",
+      "descricao": "Saldo co Contrato n° 021/2016, tendo como objeto: Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de dados pontos de 10 MBPS.."
+    },
+    {
+      "numero": "2018NE00055",
+      "contrato": "11/2016",
+      "valor": 20186.95,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2018",
+      "descricao": "Parte do Saldo do CT. nº 011/2016-SEINFRA, tendo como objeto: Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
       "numero": "2017NE00027",
@@ -3019,20 +2995,28 @@
       "descricao": "Saldo do CT. N°011/2016 - Aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
-      "numero": "2014NE00379",
-      "contrato": "80/2009",
-      "valor": 333372.0,
+      "numero": "2017NE00020",
+      "contrato": "21/2016",
+      "valor": 37360.36,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 80/2009 - SICOP (Hospedagem, Acesso Internet, Suport Técnico)"
+      "data_emissao": "02/01/2017",
+      "descricao": "Parte Saldo Contrato nº 021/2016-SEINFRA-Acesso a Internet SEINFRA"
     },
     {
-      "numero": "2014NE00380",
+      "numero": "2017NE00017",
       "contrato": "61/2012",
-      "valor": 21910.98,
+      "valor": 13519.72,
       "situacao": "Ativo",
-      "data_emissao": "02/01/2014",
-      "descricao": "Contrato No. 61/2012 - Locação de Firewall UTM Tipo 6 para at‚ 250 usuarios"
+      "data_emissao": "02/01/2017",
+      "descricao": "Saldo do CT. N°061/2012 - SEINFRA, destinados a Contratação de serviços de locação de bens referente a equipamentos de informática, compreendendo a instalação e configuração de um Firewall UTM tipo 6, para até 250 usuários."
+    },
+    {
+      "numero": "2017NE00021",
+      "contrato": "9/2016",
+      "valor": 69944.24,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2017",
+      "descricao": "Parte do Saldo do CT. N°009/2016 - Prestação de Serviços para Hospedagem e Suporte ao Sistema Integrado de Controle de Gestão de Obras - SICOP."
     },
     {
       "numero": "2014NE00383",
@@ -3043,28 +3027,28 @@
       "descricao": "Contrato No. 30/2011 - Serviços Eventuais de Informatica"
     },
     {
+      "numero": "2014NE00380",
+      "contrato": "61/2012",
+      "valor": 21910.98,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 61/2012 - Locação de Firewall UTM Tipo 6 para at‚ 250 usuarios"
+    },
+    {
+      "numero": "2014NE00379",
+      "contrato": "80/2009",
+      "valor": 333372.0,
+      "situacao": "Ativo",
+      "data_emissao": "02/01/2014",
+      "descricao": "Contrato No. 80/2009 - SICOP (Hospedagem, Acesso Internet, Suport Técnico)"
+    },
+    {
       "numero": "2024NE0001608",
       "contrato": "",
       "valor": 1308.23,
       "situacao": "Ativo",
       "data_emissao": "01/11/2024",
       "descricao": "Anulação parcial da NE 1551/2024, referente ao CT. 051/2021-SEINFRA, destinados a Serviços de acesso dedicado à Internet com link de 100Mbps e Circuito de Transmissão de Dados Ponto a Ponto de 100Mpbs, para esta Secretaria de Estado de Infraestrutura e Região Metropolitana de Manaus - SEINFRA, em virtude de ajuste orçamentário."
-    },
-    {
-      "numero": "2017NE01082",
-      "contrato": "61/2012",
-      "valor": 414.18,
-      "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "Complementação do Saldo da NE n° 315/2017 referente ao CT nº 061/2012-SEINFRA, Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM tipo 6 para até 250 usuários Manaus/AM."
-    },
-    {
-      "numero": "2017NE01083",
-      "contrato": "",
-      "valor": 414.18,
-      "situacao": "Ativo",
-      "data_emissao": "01/11/2017",
-      "descricao": "Anulação Total da NE N° 1082/2017 referente ao Contrato N° 061/2012 em virtude de evento incorreto."
     },
     {
       "numero": "2017NE01084",
@@ -3075,28 +3059,20 @@
       "descricao": "Complementação do Saldo da NE n° 315/2017 referente ao Contrato nº 061/2012-SEINFRA, Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM tipo 6 para até 250 usuários Manaus/AM"
     },
     {
-      "numero": "2019NE00917",
-      "contrato": "19/2019",
-      "valor": 4760.01,
+      "numero": "2017NE01083",
+      "contrato": "",
+      "valor": 414.18,
       "situacao": "Ativo",
-      "data_emissao": "01/10/2019",
-      "descricao": "Saldo do CT. N°019/2019 - SEINFRA, destinados a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
+      "data_emissao": "01/11/2017",
+      "descricao": "Anulação Total da NE N° 1082/2017 referente ao Contrato N° 061/2012 em virtude de evento incorreto."
     },
     {
-      "numero": "2019NE00921",
-      "contrato": "9/2016",
-      "valor": 30690.3,
+      "numero": "2017NE01082",
+      "contrato": "61/2012",
+      "valor": 414.18,
       "situacao": "Ativo",
-      "data_emissao": "01/10/2019",
-      "descricao": "Saldo do CT. N°009/2016 - SEINFRA, destinados à Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
-    },
-    {
-      "numero": "2019NE00920",
-      "contrato": "21/2016",
-      "valor": 17614.78,
-      "situacao": "Ativo",
-      "data_emissao": "01/10/2019",
-      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados à Contratação de empresa para Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS, nesta SEINFRA."
+      "data_emissao": "01/11/2017",
+      "descricao": "Complementação do Saldo da NE n° 315/2017 referente ao CT nº 061/2012-SEINFRA, Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM tipo 6 para até 250 usuários Manaus/AM."
     },
     {
       "numero": "2019NE00919",
@@ -3107,12 +3083,28 @@
       "descricao": "Saldo do CT. N°006/2018, destinados à Prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance (Conjunto de equipamento e software)."
     },
     {
-      "numero": "2016NE00850",
-      "contrato": "",
-      "valor": 3379.93,
+      "numero": "2019NE00920",
+      "contrato": "21/2016",
+      "valor": 17614.78,
       "situacao": "Ativo",
-      "data_emissao": "01/09/2016",
-      "descricao": "Anulação total NE N°845/2016, referente ao Contrato N°061/2012, em virtude de descrição incompleta."
+      "data_emissao": "01/10/2019",
+      "descricao": "Saldo do CT. N°021/2016 - SEINFRA, destinados à Contratação de empresa para Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS, nesta SEINFRA."
+    },
+    {
+      "numero": "2019NE00921",
+      "contrato": "9/2016",
+      "valor": 30690.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Saldo do CT. N°009/2016 - SEINFRA, destinados à Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
+    },
+    {
+      "numero": "2019NE00917",
+      "contrato": "19/2019",
+      "valor": 4760.01,
+      "situacao": "Ativo",
+      "data_emissao": "01/10/2019",
+      "descricao": "Saldo do CT. N°019/2019 - SEINFRA, destinados a Contratação de empresa para Prestação de Serviços de Uso do Sistema Gestão de Conteúdo Web, para esta Secretaria de Estado de Infraestrutura - SEINFRA."
     },
     {
       "numero": "2016NE00851",
@@ -3123,28 +3115,20 @@
       "descricao": "Apostilamento ao Contrato nº 061/2012-SEINFRA-Serviços de locação de bens, compreendendo a instalação e configuração de firewall UTM."
     },
     {
+      "numero": "2016NE00850",
+      "contrato": "",
+      "valor": 3379.93,
+      "situacao": "Ativo",
+      "data_emissao": "01/09/2016",
+      "descricao": "Anulação total NE N°845/2016, referente ao Contrato N°061/2012, em virtude de descrição incompleta."
+    },
+    {
       "numero": "2019NE00689",
       "contrato": "19/2019",
       "valor": 1586.67,
       "situacao": "Ativo",
       "data_emissao": "01/08/2019",
       "descricao": "Indenização destinados a Prestação de Serviços de Licença de uso de Sistema de Informação, compreendendo a disponibilização de Gestor de conteúdo WEB a essa SEINFRA, realizados no mês de Junho/2019."
-    },
-    {
-      "numero": "2018NE00755",
-      "contrato": "9/2016",
-      "valor": 34965.64,
-      "situacao": "Ativo",
-      "data_emissao": "01/08/2018",
-      "descricao": "D.E.A ao CT. N°080/2009 - SEINFRA, destinados a Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas, referente ao período de Julho/2015."
-    },
-    {
-      "numero": "2018NE00756",
-      "contrato": "80/2009",
-      "valor": 34965.64,
-      "situacao": "Ativo",
-      "data_emissao": "01/08/2018",
-      "descricao": "D.E.A ao CT. N°080/2009 - SEINFRA, destinados a Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas, referente ao período de Junho/2015."
     },
     {
       "numero": "2018NE00753",
@@ -3155,36 +3139,20 @@
       "descricao": "D.E.A ao CT. N°080/2009 - SEINFRA, destinados a Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas, referente ao período de Dezembro/2015 a Abril/2016."
     },
     {
-      "numero": "2019NE00550",
+      "numero": "2018NE00756",
+      "contrato": "80/2009",
+      "valor": 34965.64,
+      "situacao": "Ativo",
+      "data_emissao": "01/08/2018",
+      "descricao": "D.E.A ao CT. N°080/2009 - SEINFRA, destinados a Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas, referente ao período de Junho/2015."
+    },
+    {
+      "numero": "2018NE00755",
       "contrato": "9/2016",
-      "valor": 30690.3,
+      "valor": 34965.64,
       "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "Saldo do Contrato N° 009/2019-SEINFRA, Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
-    },
-    {
-      "numero": "2019NE00554",
-      "contrato": "6/2018",
-      "valor": 12150.63,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "Saldo do CT. N°006/18-SEINFRA, Contratação de empresa para prestação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance"
-    },
-    {
-      "numero": "2019NE00555",
-      "contrato": "59/2018",
-      "valor": 4253.34,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "Saldo do CT. N° 059/2018-SEINFRA, Contratação de empresa para Prestação de Serviços Técnicos em informática de forma eventual para atender a necessidade da Secretaria de Estado de Infraestrutura - SEINFRA."
-    },
-    {
-      "numero": "2019NE00552",
-      "contrato": "21/2016",
-      "valor": 26422.17,
-      "situacao": "Ativo",
-      "data_emissao": "01/07/2019",
-      "descricao": "Saldo CT. 021/2016-SEINFRA - Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS, nesta SEINFRA."
+      "data_emissao": "01/08/2018",
+      "descricao": "D.E.A ao CT. N°080/2009 - SEINFRA, destinados a Implantação e Manutenção do Sistema Integrado e Gestão de Obras Públicas SICOP, no Estado do Amazonas, referente ao período de Julho/2015."
     },
     {
       "numero": "2019NE00551",
@@ -3195,36 +3163,44 @@
       "descricao": "Saldo Contrato n° 011/2016-SEINFRA - Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
-      "numero": "2018NE00207",
-      "contrato": "1/2017",
-      "valor": 2950.58,
-      "situacao": "Ativo",
-      "data_emissao": "01/03/2018",
-      "descricao": "Saldo Contrato nº 001/2017-SEINFRA-Serviços de licença de uso do Sistema Gestor de Conteúdo Web para Secretaria de Estado de Infraestrutura - SEINFRA"
-    },
-    {
-      "numero": "2018NE00211",
-      "contrato": "1/2017",
-      "valor": 16228.19,
-      "situacao": "Ativo",
-      "data_emissao": "01/03/2018",
-      "descricao": "1º Termo Aditivo Contrato n° 001/2017-SEINFRA-Serviços de licença de uso do Sistema Gestor de Conteúdo WEB, para SEINFRA."
-    },
-    {
-      "numero": "2018NE00208",
-      "contrato": "9/2016",
-      "valor": 36952.04,
-      "situacao": "Ativo",
-      "data_emissao": "01/03/2018",
-      "descricao": "Saldo Contrato nº 009/2016-SEINFRA-Prestação de Serviços para Hospedagem e Suporte do SICOP ao AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
-    },
-    {
-      "numero": "2018NE00212",
+      "numero": "2019NE00552",
       "contrato": "21/2016",
-      "valor": 9340.09,
+      "valor": 26422.17,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Saldo CT. 021/2016-SEINFRA - Acesso a Internet com link dedicado 06 MEGAS MBPS e Circuito de Tramissão de Dados ponto de 10 MBPS, nesta SEINFRA."
+    },
+    {
+      "numero": "2019NE00555",
+      "contrato": "59/2018",
+      "valor": 4253.34,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Saldo do CT. N° 059/2018-SEINFRA, Contratação de empresa para Prestação de Serviços Técnicos em informática de forma eventual para atender a necessidade da Secretaria de Estado de Infraestrutura - SEINFRA."
+    },
+    {
+      "numero": "2019NE00554",
+      "contrato": "6/2018",
+      "valor": 12150.63,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Saldo do CT. N°006/18-SEINFRA, Contratação de empresa para prestação de serviços de Firewall, compreendendo a prestação de serviços de gestão continuada em Segurança de Tecnologia da Informação, com disponibilidade de Appliance"
+    },
+    {
+      "numero": "2019NE00550",
+      "contrato": "9/2016",
+      "valor": 30690.3,
+      "situacao": "Ativo",
+      "data_emissao": "01/07/2019",
+      "descricao": "Saldo do Contrato N° 009/2019-SEINFRA, Contratação de empresa para a Prestação de Serviços de Hospedagem do Sistema Integrado de Controle e Gestão de Obras - SICOP."
+    },
+    {
+      "numero": "2018NE00206",
+      "contrato": "21/2016",
+      "valor": 102740.99,
       "situacao": "Ativo",
       "data_emissao": "01/03/2018",
-      "descricao": "Anulação Parcial da Nota de Empenho nº 206/2017 referente Contrato nº 021/2016-SEINFRA, devido ter sido empenhado a maior."
+      "descricao": "Saldo Contrato n°021/2016-SEINFRA-Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de dados pontos de 10 MBPS."
     },
     {
       "numero": "2018NE00210",
@@ -3235,12 +3211,36 @@
       "descricao": "Parte Saldo Contrato nº 011/2016-SEINFRA-Prestação de serviços para aquisição do Programa de Execução de Sistema de Protocolo em Plataforma WEB (SPROWEB)."
     },
     {
-      "numero": "2018NE00206",
+      "numero": "2018NE00212",
       "contrato": "21/2016",
-      "valor": 102740.99,
+      "valor": 9340.09,
       "situacao": "Ativo",
       "data_emissao": "01/03/2018",
-      "descricao": "Saldo Contrato n°021/2016-SEINFRA-Acesso a Internet com Link dedicado 06 (seis) MBPS e Circuito de Transmissão de dados pontos de 10 MBPS."
+      "descricao": "Anulação Parcial da Nota de Empenho nº 206/2017 referente Contrato nº 021/2016-SEINFRA, devido ter sido empenhado a maior."
+    },
+    {
+      "numero": "2018NE00208",
+      "contrato": "9/2016",
+      "valor": 36952.04,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Saldo Contrato nº 009/2016-SEINFRA-Prestação de Serviços para Hospedagem e Suporte do SICOP ao AFI ao Sistema de Gestão PROSAMIM/SIGPRO."
+    },
+    {
+      "numero": "2018NE00211",
+      "contrato": "1/2017",
+      "valor": 16228.19,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "1º Termo Aditivo Contrato n° 001/2017-SEINFRA-Serviços de licença de uso do Sistema Gestor de Conteúdo WEB, para SEINFRA."
+    },
+    {
+      "numero": "2018NE00207",
+      "contrato": "1/2017",
+      "valor": 2950.58,
+      "situacao": "Ativo",
+      "data_emissao": "01/03/2018",
+      "descricao": "Saldo Contrato nº 001/2017-SEINFRA-Serviços de licença de uso do Sistema Gestor de Conteúdo Web para Secretaria de Estado de Infraestrutura - SEINFRA"
     }
   ],
   "faturas": [
@@ -3530,15 +3530,15 @@
       "por_ano": {
         "2022": {
           "qtd": 37,
-          "valor": 760809.05
+          "valor": 760809.0499999999
         },
         "2020": {
           "qtd": 50,
-          "valor": 713256.53
+          "valor": 713256.5299999999
         },
         "2017": {
           "qtd": 25,
-          "valor": 456268.79
+          "valor": 456268.7899999999
         },
         "2014": {
           "qtd": 6,
@@ -3546,7 +3546,7 @@
         },
         "2019": {
           "qtd": 36,
-          "valor": 398145.4899999999
+          "valor": 398145.48999999993
         },
         "2015": {
           "qtd": 29,
@@ -3562,15 +3562,15 @@
         },
         "2021": {
           "qtd": 46,
-          "valor": 639176.39
+          "valor": 639176.3900000001
         },
         "2018": {
           "qtd": 40,
-          "valor": 1045334.6599999999
+          "valor": 1045334.6599999998
         },
         "2024": {
           "qtd": 45,
-          "valor": 758013.82
+          "valor": 758013.8200000001
         },
         "2025": {
           "qtd": 29,

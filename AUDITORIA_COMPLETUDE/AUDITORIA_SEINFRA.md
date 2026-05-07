@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEINFRA
-**Secretaria de Infraestrutura** | Categoria: **GOV_DIRETA** | Data: 2026-04-17
+**Secretaria de Infraestrutura** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
 
 ## Score de Completude: **54.5%**
 
@@ -46,16 +46,6 @@
 - ❌ oficios: Ofícios de cobrança
 - ❌ cnd: CNDs / Certidões
 
-## Divergências (2)
+## Divergências (0)
 
-### Tipo: `valor_exig_vs_db_faturas`
-- **profile:** 379631.5477448804
-- **db_faturas:** 71805.43000000001
-- **delta:** 307826.11774488039
-- **pct:** 81.1%
-
-### Tipo: `faturas_qtd_profile_vs_db`
-- **profile:** 38
-- **db:** 12
-- **delta:** 26
-
+_Nenhuma divergência significativa detectada_

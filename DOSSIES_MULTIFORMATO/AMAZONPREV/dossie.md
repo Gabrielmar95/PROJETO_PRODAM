@@ -1,6 +1,6 @@
 # Dossiê Completo — AMAZONPREV
 **Instituto de Previdência do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-04-14 | CNPJ: 04.986.163/0001-46
+Data: 2026-05-07 | CNPJ: 04.986.163/0001-46
 
 ## Visão Executiva
 
@@ -54,12 +54,12 @@ Distribuição por ano:
 | 2021NE0000025 | 10/2019 | 04/01/2021 | R$ 1.526.090,72 | Ativo |
 | 2020NE00025 | 10/2019 | 02/01/2020 | R$ 1.526.090,72 | Ativo |
 | 2019NE00009 | 14/2014 | 02/01/2019 | R$ 1.002.036,08 | Ativo |
-| 2015NE00053 | 14/2014 | 14/01/2015 | R$ 985.383,12 | Ativo |
 | 2015NE00065 | 14/2014 | 14/01/2015 | R$ 985.383,12 | Ativo |
+| 2015NE00053 | 14/2014 | 14/01/2015 | R$ 985.383,12 | Ativo |
 | 2015NE00018 | 14/2014 | 05/01/2015 | R$ 985.383,12 | Ativo |
 | 2016NE00066 | 14/2014 | 04/01/2016 | R$ 985.383,12 | Ativo |
 | 2018NE00033 | 14/2014 | 02/01/2018 | R$ 985.383,12 | Ativo |
-| 2017NE00064 | 14/2014 | 02/01/2017 | R$ 985.383,12 | Ativo |
+| 2017NE00048 |  | 02/01/2017 | R$ 985.383,12 | Ativo |
 
 ## Top 10 Faturas (por valor)
 
@@ -83,4 +83,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-04-14_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_

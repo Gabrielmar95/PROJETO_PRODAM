@@ -1,5 +1,5 @@
 # Auditoria de Completude — BMC
-**BMC** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-04-17
+**BMC** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
 
 ## Score de Completude: **36.4%**
 
