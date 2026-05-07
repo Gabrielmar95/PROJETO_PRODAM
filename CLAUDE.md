@@ -1,402 +1,198 @@
 # PROJETO PRODAM — Recuperação de Créditos
-
-**Última atualização:** 20/04/2026 (noite — limpeza de disco +53 GB + automação FIM_SESSAO)
-**Contrato:** 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-**Status:** DETRAN notificação v5 gerada (aguarda Dr. Fábio) + TRD v2 + Anexos II/III · Sistema Multi-Agente S3 concluído + S3-bis patch renomeador v2 · Infraestrutura estabilizada: +53 GB liberados (disco 494→547 GB), junction PRODAM_DOCS recriada, automação FIM_SESSAO.ps1 funcionando · próximos devedores: SES/SUSAM, SSP, SEDUC, SEAD
-
----
-
-## 1. IDENTIDADE
-
-- **Advogado:** Gabriel Mar — OAB/AM 15.697 (Gabriel Mar Sociedade Individual de Advocacia)
-- **Contratante:** Brandão Ozores Advogados
-- **Cliente:** PRODAM S.A. — Processamento de Dados Amazonas (CNPJ 04.407.920/0001-80, sociedade de economia mista estadual, Lei AM 941/1970 e Lei 13.303/2016)
-- **Objeto do contrato 002/2026:** recuperação extrajudicial e judicial de créditos contra os devedores em carteira
-- **Fee:** 20% sobre créditos efetivamente recuperados
-- **Obrigações contratuais:**
-  - Relatórios quinzenais (multa R$ 500/dia de atraso)
-  - Multa de 10% do crédito por prescrição perdida por omissão
-
----
-
-## 2. VISÃO GERAL DO PORTFÓLIO
-
-### Números-chave (consolidados em 17/04/2026)
-
-- **69 devedores** em carteira (não 51, não 70 — a chave `_metadata` em `profiles.json` não é devedor)
-- **~R$ 121 M exigível · ~R$ 199 M atualizado** (data-base 17/04/2026)
-- **~3.500 faturas** (parte prescrita, parte exigível)
-
-### Composição do portfólio (69 devedores)
-
-| Categoria | Qtd | Exemplos |
-|---|---:|---|
-| **Administração Direta / Autarquias / Fundações** | **52** | SES/SUSAM, SSP, DETRAN, SEDUC, SEAD, SEJUSC, FUAM/FUHAM, PMAM, FHAJ, FHEMOAM, SEFAZ, SUHAB, CETAM, ADS, COSAMA... |
-| **Bancos** | **6** | CAIXA, Banco Master (em liquidação), Banco Sicoob, Banco BMG, Banco Safra, Banco Daycoval, Bradesco |
-| **Seguradoras / Previdência privada** | **2** | Prover, Sul América |
-| **Empresas privadas (tech/serviços)** | **10** | B23 Tecnologia, PSA Technology, FenixSoft, Itransito, EasyTech, SALUX, CPA, BMC, Anoreg, Odontomed |
-
-### 5 devedores prioritários
-
-| # | Devedor | Status atual | Próxima ação |
-|---|---|---|---|
-| 1 | **DETRAN** | ✅ Concluído (organização + jurídico) | Protocolar ofícios; aguardar resposta 20 dias |
-| 2 | **SES/SUSAM** | Pendente | Próximo na fila — iniciar organização |
-| 3 | **SSP** | Pendente | Após SES/SUSAM |
-| 4 | **SEDUC** | Pendente | Após SSP |
-| 5 | **SEAD** | Pendente | Após SEDUC |
-
----
-
-## 3. WORKFLOW PADRÃO POR DEVEDOR (6 ETAPAS)
-
-Modelo validado com DETRAN em 17/04/2026. Replicar para próximos devedores:
-
-### Etapa 1 — Criar pasta-devedor
-```
-C:\Users\gabri\Desktop\{DEVEDOR}_AUDITORIA_COMPLETA\
-```
-Com 18 subpastas oficiais (00_VISAO_GERAL a 18_RELATORIOS_EXECUTIVOS) + auxiliares (_TEMP_ANALISE, _LIXEIRA).
-
-### Etapa 2 — Organizar em Fases A/B/C/D
-- **Fase A:** Limpeza segura (backups/WIP/duplicatas óbvias → `_LIXEIRA/`)
-- **Fase B:** Reorganização da raiz em pastas temáticas
-- **Fase C:** Consolidação de pastas redundantes (com análise de nome+tamanho)
-- **Fase D:** Deduplicação por SHA-256 (arquivos > 100 KB)
-
-Cada fase gera `_LIXEIRA/_LOG_FASE_X.csv` + `_LIXEIRA/_REVERTER_FASE_X.py` (reversão em 1 comando).
-
-### Etapa 3 — Reestruturar profiles.json
-- Verificar se cláusulas específicas de um contrato foram propagadas indevidamente a outros
-- Classificar cada contrato por regime: `contratual_igpm`, `contratual_ipca`, `igpm_aditivo`, `ipca_aditivo`, `selic_pura`, `silente_administrativo` (Tema 810)
-- Adicionar contratos faltantes (ex: DETRAN tinha 14 no profile mas 18 no memorial)
-- Backup antes de cada modificação
-
-### Etapa 4 — Investigar faturas flagadas
-- Consultar `16_BANCOS_DADOS/prodam.db` (tabelas: spcf_contratos, spcf_empenhos, spcf_faturas, spcf_nfs)
-- Cruzar com `15_CONSOLIDADOS_JSON/consolidado_*.json`
-- Classificar cadeia documental (TRIO / FORTE / MÉDIA / FRACA)
-- Identificar marcos interruptivos (Art. 202 CC) para faturas potencialmente prescritas
-
-### Etapa 5 — Baixar PDFs oficiais do SPCF
-**Credenciais:** CPF `02542720290` / senha `GMS2026` (VPN PRODAM necessária)
-**Endpoints descobertos:**
-- Contrato (proposta): `/index.php/propostas/imprimir/{id_proposta}`
-- Fatura individual: `/index.php/contratos/fatura/{id_fatura}` (renderiza RPS/NFS-e — usar Chrome printToPDF)
-- Relatório de faturas do contrato: `POST /index.php/contratos/relatorioFaturas` (data[ContratoRelatorio][...])
-
-Estratégia: Selenium headless para login + requests com cookies para GET de páginas + Chrome CDP `Page.printToPDF` para converter HTML em PDF individual.
-
-### Etapa 6 — Gerar peças jurídicas
-- Notificação extrajudicial (modelo Brandão Ozores: Garamond + azul #1F3864 + dourado #B8963E + rodapé institucional)
-- Memorial de cálculo fatura-a-fatura (docx + xlsx + csv + json + md)
-- TRD (Termo de Reconhecimento de Dívida) quando aplicável
-- Dossiê comprobatório
-- Ofícios (LAI, Art. 38 §2º Lei 8.666/93, Lei 4.320/64 arts. 63-65)
-
----
-
-## 4. ARQUIVOS E PASTAS DE REFERÊNCIA
-
-| Objetivo | Caminho |
-|---|---|
-| **Profile SSOT** (69 devedores, todos os contratos) | `DETRAN_AUDITORIA_COMPLETA/11_PROFILES_BACKUPS/ativo/profiles.json` |
-| **Banco SQLite** (dados SPCF consolidados) | `DETRAN_AUDITORIA_COMPLETA/16_BANCOS_DADOS/prodam.db` |
-| **Base bruta de documentos PRODAM** (25,2 GB) | `DETRAN_AUDITORIA_COMPLETA/PRODAM_DOCS/` (INTOCÁVEL) |
-| **Referência jurídica** (jurisprudência, estudos, knowledge base) | `DETRAN_AUDITORIA_COMPLETA/PRODAM_DOCS/REFERENCIA_JURIDICA/` |
-| Projeto DETRAN (case concluído, referência) | `C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\` |
-| Resumo do case DETRAN | `DETRAN_AUDITORIA_COMPLETA/18_RELATORIOS_EXECUTIVOS/__RESUMO_SESSAO_17_04_2026.md` |
-| Extração SPCF (histórico) | `C:\Users\gabri\Desktop\SPCF_EXTRACAO\` |
-
----
-
-## 5. REGRAS OBRIGATÓRIAS
-
-### Financeiras
-- **Fee:** 20% sobre créditos recuperados
-- **RPV AM:** teto de **20 salários mínimos** (Lei AM 2.478/2002)
-- **Precatório vs RPV:** se valor ≤ 20 SM → RPV (pagamento em 60 dias); > 20 SM → precatório (anos)
-- **Valores BRL:** SEMPRE `Decimal`, NUNCA `float`
-- **CSV:** separador `;` (ponto-e-vírgula), encoding `UTF-8 com BOM` (`utf-8-sig`)
-
-### Jurídicas
-- **`profiles.json` é fonte autoritativa** de valores/regimes/status — nunca o Demonstrativo Excel
-- **Consultar `PRODAM_DOCS/REFERENCIA_JURIDICA/`** antes de qualquer análise/parecer
-- **Prescrição quinquenal** (Art. 206 §5º I CC + Decreto 20.910/1932 + Súmula 85/STJ) — contada do vencimento, por fatura individual
-- **Marcos interruptivos** taxativos (Art. 202 CC): NL emitida pelo devedor, pagamento parcial, proposta de acordo, reconhecimento documentado
-- **Lei 14.905/2024** — marco 30/08/2024: contratos silentes celebrados após essa data → **SELIC pura** (Art. 406 CC)
-- **Tema 810 STF** (RE 870.947/SE, 20/09/2017): contratos silentes de Fazenda Pública → IPCA-E + poupança até 29/08/2024; SELIC pura a partir de 30/08/2024
-- **REsp 793.969/RJ + Art. 784 III CPC:** cadeia de 5 elos (contrato + NE + NL + NF + aceite) = título executivo extrajudicial
-
-### Operacionais
-- **PDFs são provas jurídicas:** nunca apagar, sempre manter originais
-- **PRODAM_DOCS/** é intocável (fonte bruta)
-- **01_CONTRATOS/PDF/** é intocável em cada pasta-devedor
-- **Rate limiting SPCF:** `time.sleep(1.5)` entre requisições
-- **Backup antes de modificar** qualquer JSON/DB crítico (padrão: `profiles_BACKUP_ANTES_{operacao}.json`)
-
----
-
-## 6. CREDENCIAIS E ACESSOS
-
-### SPCF (Sistema de Processamento de Contratos e Faturas — PRODAM)
-- **URL:** `https://spcf.prodam.am.gov.br/` (via SGTI SSO: `https://sgti.prodam.am.gov.br/`)
-- **VPN PRODAM necessária** (domínio resolve apenas em intranet 10.20.0.x)
-- **Credenciais:** carregar de `PROJETO_PRODAM/.env` (variáveis `SPCF_USER`, `SPCF_PASS`, `SPCF_URL`). Arquivo listado em `.gitignore`. Usar `python-dotenv` ou equivalente nos scripts.
-- **Fluxo de login:** `POST /index.php/usuarios/login` com `data[Usuario][login]` e `data[Usuario][senha]`, depois `GET /index.php/spcf` para estabelecer cookie SPCF
-
-### Rede interna PRODAM
-- `spcf.prodam.am.gov.br` → 10.20.0.29
-- `sgti.prodam.am.gov.br` → 10.20.0.29
-- Sessão CAKEPHP (path `.prodam.am.gov.br`, secure)
-
----
-
-## 7. FERRAMENTAS E STACK TÉCNICO
-
-### Python (ambiente principal)
-- **Python 3.12** com venv local
-- **Bibliotecas principais:**
-  - `pandas` · `polars` (dataframes; polars para >50K linhas)
-  - `pytesseract` · `pdf2image` (OCR de PDFs)
-  - `pdfplumber` · `PyMuPDF (fitz)` (extração texto de PDFs)
-  - `python-docx` (geração de .docx com estilo Brandão Ozores)
-  - `openpyxl` (geração de .xlsx)
-  - `requests` · `selenium` (acesso SPCF; usar ambos em conjunto)
-  - `beautifulsoup4` (parsing HTML)
-  - `sqlite3` (prodam.db)
-
-### Shell
-- **PowerShell 7.6** (Windows 11) — padrão do usuário
-- **Git Bash** (disponível para comandos Unix)
-
-### IDE/Agent
-- **Claude Code Opus 4.6+** (usar Opus 4.7 quando disponível — 1M contexto)
-- Habilitar skills: `atualizacao-monetaria-sob-demanda`, `classificacao-forca-probatoria`, `validador-cadeia-documental-fatura`, `blindagem-pre-execucao`
-
----
-
-## 8. PENDÊNCIAS ATIVAS (17/04/2026)
-
-| # | Pendência | Prazo / Gatilho |
-|---|---|---|
-| 1 | **Iniciar organização SES/SUSAM** (2º devedor prioritário) | A partir de 18/04/2026 |
-| 2 | Protocolar 2 ofícios DETRAN ao DETRAN-AM | Imediato |
-| 3 | Aguardar resposta DETRAN (20 dias úteis) | ~15/05/2026 |
-| 4 | Revisar `_LIXEIRA/` DETRAN (400 MB · 1.265 arquivos) | 24/04/2026 |
-| 5 | Monitorar cutoff NF 110654 (marco 19/08/2021 + 5a) | **19/08/2026** |
-| 6 | Complementar documentação 5 NFs antigas CT 8/2021 | Após resposta DETRAN |
-
----
-
-## 9. ESTILO VISUAL (peças jurídicas)
-
-Padrão Brandão Ozores (extraído do PDF modelo em 16/04/2026):
-- **Fonte:** Garamond
-- **Cores:** Azul #1F3864 (títulos) · Dourado #B8963E (separadores) · Carvão #2D2D2D (texto) · Cinza #595959 (rodapé)
-- **Rodapé institucional** (em toda página):
-  - Linha 1: `BRANDÃO OZORES ADVOGADOS • Av. Via Láctea, nº 1374 – Morada do Sol/Aleixo – Manaus/AM – CEP 69.060-085`
-  - Linha 2: `Tel. (92) 3347-8115 • fsandrade@ozoresadv.com.br • ozoresadv.com.br`
-- **Títulos em letras espaçadas** (spacing 20): `N O T I F I C A Ç Ã O   E X T R A J U D I C I A L   ...`
-- **Formato A4 retrato**, margens 2,5 cm
-
----
-
-## 10. HISTÓRICO DE SESSÕES IMPORTANTES
-
-| Data | Devedor | Ação principal |
-|---|---|---|
-| 14/04/2026 | Portfólio | Snapshot de 70 devedores (pré-consolidação) |
-| 16/04/2026 | DETRAN | Notificação v1-v3 · memorial v1 (185 faturas) |
-| **17/04/2026** | **DETRAN** | **Organização Fases A/B/C/D · memorial v202 · 4 PDFs SPCF · marco NF 110654 · 2 ofícios · concluído** |
-| **19/04/2026** | **DETRAN + arquitetura** | **Sistema Multi-Agente v2 aprovado (35 agentes, 11 sessões, DETRAN-only até S10) · Gate S0 5/5 ✅ em `DETRAN_AUDITORIA_COMPLETA/19_ESTADO_AGENTES/00_PREREQS/` · skill `atualizacao-monetaria-creditos` v2.0→v2.1 (nova flag `perspectiva={credor\|devedor}`) · backup SHA-256 `CCA29E8B...C7EA` (60.513 arquivos, 34,84 GB) · Lei AM RPV confirmada 2.748/2002 (não 2.478) · Playwright oficial (não Selenium)** |
-| **19/04/2026 (noite)** | **DETRAN — pós-notificação** | **Notificação assinada (SHA-256 `c4f05236...`) arquivada em `_NOTIFICACAO_ASSINADA/` com `hash_protocolo.txt` · conteúdo extraído (18 cts × 202 NFs × R$ 28.142.624,30) em `CONTEUDO_NOTIFICACAO_EXTRAIDO.json` · validação cruzada com prodam.db (`VALIDACAO_CRUZADA_BANCO_19_04_2026.md`) · gap analysis vs 4 fontes (`GAP_ANALYSIS_NOTIFICACAO_vs_FONTES.md` — 18 cts classificados A-OK/A/B · 5 ausentes do DB confirmados no profile · 4 (`8/2021`,`14/2019`,`23/2014`,`179/2018`) removidos do profile em 16/04 e re-adicionados em 17/04 14:36 pós-assinatura) · marco NF 110654 (CT 179/2018) totalmente documentado: NL 2021NL0001165 + OB 2021OB0001606 + PD 2021PD0001589 (19/08/2021 · José Maria Pinto GerFin DETRAN · cutoff 19/08/2026) · briefing `BRIEFING_REUNIAO_DR_FABIO.txt` com 3 decisões (4 cts sem PDF · redação Art. 202 VI CC na pág. 3 · divergência CSV vs profile para NF 110654) · inventário de lacunas: **5 cts + 85 NFs + 28 NEs** p/ download SPCF/SGTI + **646 HTMLs** p/ converter (`INVENTARIO_DOWNLOADS_E_CONVERSOES.md` + `LACUNAS_PARA_DOWNLOAD.csv` + `HTMLS_PARA_CONVERTER.csv`) · rascunho do pipeline `baixar_lacunas_spcf.py` (Playwright+dotenv) · `.env` criado e populado em `PROJETO_PRODAM/.env` (SPCF_USER/PASS/URL) + `.gitignore` com `.env` + credenciais removidas do §6** |
-| **20/04/2026 (tarde)** | **DETRAN — reconciliação profile + notificação v5 + anexos II/III + TRD + auditoria forense** | **Profile.json DETRAN reconciliado: `valor_canonico = R$ 28.196.572,22` criado como SSOT, `val_exig` e `val_atualizado` zerados como RESÍDUO (preservados em `_residuos_zerados_2026_04_20`), `correcao_monetaria_passo7` marcado SUPERADO, campos derivados (`ev_valor_esperado`, `ev_honorarios`) recalculados via Opção B; espelho `PRODAM_DOCS/profiles.json` sincronizado com `_sync_meta`. Laudo de auditoria forense v4 em 5 camadas concluído: veredito CORRETA COM RESSALVAS (`13_PECAS_JURIDICAS/auditorias/AUDITORIA_NOTIFICACAO_v4_2026-04-20.md`). Notificação v5 gerada (R$ 28.196.572,22 · CT 075/2022 corrigido com fator 1,0950 · nova Seção IV.A de ressalva CT 8/2021 · REsp 1.089.720/RS + AREsp 1.503.902 como reforço · regime precatório explicitado · 9 alterações rastreadas em `CHANGELOG_v4_para_v5.md`). Anexo II — Certidão Técnica de Cálculo BCB gerada com séries reais 189/433/4390/196. Anexo III v3 — cadeia 5 elos das 202 NFs com reconciliação 4 fontes, casamento 151/202 = 75% (vs 36/202 v2). Minuta TRD v2 (10 cláusulas · à vista 5% desc R$ 26.786.743,61 · 24 parcelas de R$ 1.174.857,18). Investigação dos Ofícios 001/002 no sistema PRODAM concluiu: **Ofício 001 pode ser reduzido em escopo** (CT 003/2026 já em `spcf_contratos` + `dados_completos.json` + PDF físico), **Ofício 002 indispensável** (aceites das 12 NFs CT 8/2021 ausentes em `05_ACEITES`). Commit `PRODAM_DOCS`: `9492ac4` pushed para GitHub.** |
-| **20/04/2026 (noite)** | **Infraestrutura — limpeza de disco +53 GB + automação FIM_SESSAO** | **Disco passou de 494 GB para 547 GB livres (+53 GB). Apagados: (1) cópia física duplicada de `PRODAM_DOCS` dentro de `DETRAN_AUDITORIA_COMPLETA` (25 GB) — criada por restauração da Lixeira (Recycle Bin não restaura junctions corretamente); junction recriada apontando para `PROJETO_PRODAM/PRODAM_DOCS`; (2) `_Inventarios_Antigos`, `_Scripts_Antigos`, `_backup_skills_20260417_1712` do Desktop (24 MB total) — backup ZIP em `C:\Users\gabri\_BACKUPS_EMERGENCIA\20260420_103450_3_pastas_antigas.zip`; (3) `_LIXO_NAO_USAR\DETRAN_PRODAM_DOCS_ANTES_JUNCTION` (25 GB) — snapshot obsoleto, conteúdo 100% coberto por `PRODAM_DOCS` oficial + GitHub (`github.com/Gabrielmar95/PRODAM_DOCS`, último commit `e80efe1`); inventário em `_BACKUPS_EMERGENCIA\20260420_104506_INVENTARIO_antes_de_apagar.txt`; (4) `DETRAN_AUDITORIA_COMPLETA_OLD_17-04-2026` (7 GB) movida para Lixeira — obsoleta (CLAUDE.md OLD 04:12 vs ATIVA 08:22) · inventário `_BACKUPS_EMERGENCIA\20260420_110145_INVENTARIO_DETRAN_OLD.txt` · aguardando esvaziamento definitivo. **Automação de fim de sessão criada:** `FIM_SESSAO.ps1` (4 etapas: checagem junction · git status · commit+push · espaço em disco) · `_LANCADOR_FIM_SESSAO.ps1` (GUI InputBox) · ícone "Fim de Sessao PRODAM.lnk" na área de trabalho apontando para o lançador · 3 execuções bem-sucedidas hoje. **Regra arquitetural reforçada:** junction `PRODAM_DOCS` dentro de `DETRAN_AUDITORIA_COMPLETA` é frágil contra operações de Lixeira do Windows — `FIM_SESSAO.ps1` valida automaticamente se ela continua sendo junction (alerta vermelho se virou pasta física de novo).** |
-| **20/04/2026 (madrugada→manhã)** | **DETRAN — incidente de infra + restauração + git inicial** | **Pasta `Desktop\DETRAN_AUDITORIA_COMPLETA` apagada às 03:07 (provável agente automático — possivelmente confundido pela existência do backup `_BACKUP_PRE_AGENTES_20260419_024647` criado por `robocopy /MIR` em 19/04 02:46). Restaurada da Lixeira via Shell.Application `Verbs().Item(0).DoIt()` em 13 s — **36.500 arquivos / 7,07 GB** recuperados (casco correto, sem `PRODAM_DOCS` físico — junction NTFS preservada apontando para `PROJETO_PRODAM\PRODAM_DOCS`). **Decisão:** NÃO usar o backup gordo de 32,46 GB (era enganoso — robocopy seguiu a junction e duplicou `PRODAM_DOCS` dentro). Backup `_BACKUP_PRE_AGENTES_20260419_024647` mantido como redundância **até 05/05/2026** (15 dias), depois pode apagar. **REGRA arquitetural fixada** em `DETRAN_AUDITORIA_COMPLETA/CLAUDE.md` (topo do arquivo): pasta filha = ~7 GB de análise, **nunca** duplicar `PRODAM_DOCS` dentro; se subir para 30+ GB, algum script copiou em vez de seguir a junction — investigar antes que a pasta seja apagada de novo. **Para futuros backups com robocopy:** usar `/XJ` (exclude junctions). **Git:** `PROJETO_PRODAM` inicializado como repo (`main`) com remote bare local em `C:\Users\gabri\git-backups\PROJETO_PRODAM.git` (mesmo padrão do SEDUC). **Commit inicial `47e6645` — 1.242 arquivos / 25,75 MB** (snapshot pós-restauração; bare comprimido = 5,64 MB). Inclui `DOSSIES_MULTIFORMATO/` (71 devedores × 5 formatos) + `AUDITORIA_COMPLETUDE/` (70 MDs por devedor) — tirados do `.gitignore` por terem alto valor de versionamento. `.gitignore` ampliado para excluir `PRODAM_DOCS/` (25,4 GB), `SPCF_EXTRACAO/` (6,9 GB), `_BACKUP_*/`, `*.sqlite`. Próximo push: `git -C "...\PROJETO_PRODAM" push` (tracking já configurado para `backup/main`). Ver §12 para detalhes de restauração.** |
-
----
-
-## 11. SISTEMA MULTI-AGENTE — STATE (19/04/2026)
-
-Plano consolidado: `C:\Users\gabri\.claude\plans\estou-querendo-fazer-um-fluffy-wall.md`.
-
-**Gate S0 (5/5 ✅ VALIDADO):**
-- `00_PREREQS/lei_am_rpv.md` — Lei AM 2.748/2002, RPV Fazenda Estadual 20 SM = R$ 32.420 (SM 2026 R$ 1.621)
-- `00_PREREQS/spcf_health.md` — VPN + SSO + Playwright OK; caveat: não fazer page.goto() direto pós-login
-- `00_PREREQS/backup_hash.md` — backup DETRAN em `_BACKUP_PRE_AGENTES_20260419_024647/` · hash `CCA29E8BD87AA24DCA12670CA3FEF7F74E1F918A99E42C04409B78D94000C7EA`
-- `00_PREREQS/patch_monetario.md` — skill patchada v2.0 → v2.1 · hash `5599ae7ea35de67847e38613860693d97b343663a244a8170f045a24fcb52af4` · backup em `SKILL.md.BAK_20260419` (hash `6fff91e446d41f2cfe064097ce86d42cfc88a2e7003163220f2ed82cfa182bdb`)
-- `00_PREREQS/skill_marcos_confirmada.md` — `marcos-interruptivos-prescricao` v2.1 instalada (hash `ff15a1cfca72f3f4fbd716ec2d5c3e2824ac8b7342921d6cf473f79b6d0ce997`)
-
-**S1 Maestro (E6.1) ✅ implementado:** `~/.claude/skills/agente-maestro-prodam/SKILL.md` + `10_SCRIPTS_PYTHON/agentes/esquadrao_6_qa/maestro_gate_s0.py` (testado: Gate OK 5/5 em prod, Gate FAIL em dir vazio emite `_GATE_FALHA_*`).
-
-**S2 E1-E6 — 35/35 skills criadas em 2026-04-19 (MVP):**
-- **E1 Ingestão (7):** agente-renomeador-inteligente (✅ testado 93% precisão) · agente-conversor-formatos · agente-scanner-pdf-ocr (✅ testado) · agente-downloader-spcf · agente-inventariador-documental · agente-extrator-dados-pdf · agente-consolidador-ssot.
-- **E2 Cadeia (3):** agente-verificador-elo-5 · agente-detector-faltantes · agente-classificador-procedencia.
-- **E3 Jurídico defensivo (5):** agente-classificador-regime · agente-calculador-monetario · agente-prescricional-defensivo · agente-reconhecimento-tacito · agente-forca-probatoria.
-- **E4 Adversarial (11):** auditor-orquestrador-dossie · auditor-adversarial-prescricional · -cadeia · -monetario · -tributario (GATED, S11) · -processual · -contratual · -legitimidade · -sintetizador · -blindagem-reversa · -revisor-meta.
-- **E5 Geração (5):** agente-gerador-notificacao · -trd · -memorial · -oficios · -dossie.
-- **E6 QA (4):** agente-maestro-prodam (S1 ✅) · agente-guardrails-multiagente · agente-testing-qa-multiagente · agente-sla-alertas-multiagente.
-
-**Scripts Python MVP (3):** `maestro_gate_s0.py` (S1 ✅) · `renomeador_inteligente.py` (✅ testado 93%) · `scanner_pdf_ocr.py` (✅ testado 100%).
-
-**Status agentes:** 3 funcionais + testados (maestro, renomeador, scanner) · 32 skills com lógica documentada, execução real virá sessão-a-sessão conforme S2-S11 do cronograma.
-
-**S3 — E1.1+E1.3 em produção (DETRAN, 19/04/2026 tarde → 20/04/2026 madrugada):**
-- ✅ Gate S0 revalidado 5/5
-- ✅ E1.1 Renomeador sample (200): 197 ALTA / 2 MÉD / 1 BAIXA · CSV: `19_ESTADO_AGENTES/S3_E1.1_renomeacao_proposta.csv`
-- ⚠️ E1.1 full **DIAGNÓSTICO BUGADO** — 3.435 suspeitos (67% dos PDFs DETRAN) · 860 casos (25%) com PRODAM como devedora · 274 (8%) sem devedor. CSV: `S3_E1.1_DIAGNOSTICO_BUGADO_NAO_APLICAR.csv` (gitignored, NÃO aplicar).
-- ✅ E1.3 Scanner sample (200 PDFs): 144 OK / 56 OCR (28%) · 1.130 páginas · 262 MB · CSV: `S3_E1.3_relatorio_ocr_SAMPLE.csv`.
-- ❌ **E1.3 full ABORTADO** após 8h36min (Python >2 GB RAM, CSV nunca criado). Hipótese: memory leak ou PDF corrompido. **Task #21 S3-bis-2** criada para investigar. Sample vira baseline.
-
-**S3-bis — Patch renomeador v2 (20/04/2026 madrugada):**
-- ✅ Backup v1: `renomeador_inteligente.py.BAK_v1_20260420`
-- ✅ v2 criado: `renomeador_inteligente_v2.py` com R1+R2+R3 + flag `--assert-no-prodam-devedora`
-- ✅ Sample 200 com v2: **Gate B (PRODAM=0) OK** — R1 100% eficaz · Gates A e C violaram (mas BENIGNO: os 5 casos PRODAM-errados viraram "sem devedor/MÉDIA" = conservação de massa).
-- 📋 **Gate humano pendente:** autorizar relaxamento de Gates A (>5%) e C (>5 p.p.) p/ próxima iteração. Ver `S3-bis_ABORT_A_C_BENIGNO.md` e `S3-bis_RELATORIO.md`.
-- 📋 **Apply físico do renomeador:** BLOQUEADO até autorização.
-
-**Achado crítico — sessão 20/04/2026:** `03_NOTAS_LIQUIDACAO/` DETRAN tem **ZERO PDFs**. NL é marco interruptivo do Art. 202 CC — gap preocupante para prescrição. Investigar em S4.
-
-**Sessão autônoma parcial (19/04 tarde → 20/04 02:38):** 4 etapas concluídas (Checkpoint S3 · S3-bis patch · S3-bis re-teste · S3-bis relatório). Etapa 5 (E1.5 Inventariador) iniciada com mapeamento das 4 fontes (profiles: 18 contratos DETRAN · prodam.db: 13c+470e+149f · consolidados OK · físico: NL ausente), pausada pelo usuário.
-
-**S3-bis — Patch Renomeador (3 REGRAS NÃO-NEGOCIÁVEIS):**
-
-**REGRA 1 — PRODAM NUNCA é DEVEDORA.** No Contrato 002/2026, PRODAM é sempre a CREDORA. Se o extrator identificar PRODAM como parte devedora em qualquer linha, descartar o match e relançar a análise ignorando essa string. **Teste automatizado:** se full run propuser PRODAM como devedora em 1+ linha, script ABORTA com exit code não-zero.
-
-**REGRA 2 — STRIP DE BOILERPLATE ANTES DO REGEX.** PDFs gerados a partir de HTML do SPCF trazem menu lateral, breadcrumbs e cabeçalho do sistema como texto. Antes de aplicar regex de extração: remover blocos de menu/navegação/breadcrumb · ignorar cabeçalho "Sistema PRODAM" e rodapé institucional · preferir PDF original do pen drive (`PRODAM_DOCS/*/ORIGINAIS/`) sobre HTML-to-PDF.
-
-**REGRA 3 — DATA DE TRAMITAÇÃO ≠ DATA DO CONTRATO.** Data extraída do SPCF web é data de processamento no sistema, não data de assinatura. Buscar data do contrato APENAS no texto do documento (cláusula de foro, rodapé, etc.), nunca nos metadados da página HTML.
-
-**Próximo passo:** S3-bis (corrigir renomeador respeitando as 3 regras) → revalidar amostra DETRAN → só então rodar full apply.
-
-**Cronograma REVISADO 2026-04-19 tarde (Leitura B confirmada — 14 sessões):**
-
-| Sessão | Foco | Status |
-|---|---|---|
-| **S0** | Gate Pré-Requisitos (5 PRs) | ✅ |
-| **S1** | E6.1 Maestro esqueleto | ✅ |
-| **S2** | Scaffolding 35 skills + 3 scripts testados | ✅ |
-| **S3** | E1 parcial em produção (E1.1+E1.3 DETRAN) | 🔄 |
-| **S3-bis** | Patch renomeador (3 regras não-negociáveis) | 📋 next |
-| **S4** | E1 restante DETRAN (E1.2+E1.4+E1.5+E1.6+E1.7) | 📋 |
-| **S5** | E2 completo (3 agentes: cadeia/faltantes/procedência) | 📋 |
-| **S6** | E3 completo (5 agentes: regime/monetário/prescrição/reconhecimento/força) | 📋 |
-| **S7** | E4.0 + E4.1 + E4.10 (orquestrador + adversarial-prescricional + revisor-meta) | 📋 |
-| **S8** | E4.2 + E4.3 (cadeia + monetário; E4.4 GATED → S13) | 📋 |
-| **S9** | E4.5 + E4.6 + E4.7 (processual + contratual + legitimidade) | 📋 |
-| **S10** | E4.8 + E4.9 (sintetizador + blindagem-reversa) | 📋 |
-| **S11** | E5 completo (5 agentes geradores) | 📋 |
-| **S12** | E6 restantes + end-to-end DETRAN | 📋 |
-| **S13** | Generalização SES/SUSAM + E4.4 com parecer humano | 📋 |
-
-**Por que revisado:** plano original previa S2 = E1 produção. Realidade: S2 entregou só scaffolding. S3 atual rodou E1.1+E1.3 e expôs 3 bugs sistêmicos no renomeador. Leitura B isola fix em S3-bis e fecha E1 restante em S4. Cronograma desliza ~2 sessões. Razão: rodar E2/E3 com E1 quebrado = corromper memorial DETRAN (ground truth do sistema). Detalhes em `~/.claude/plans/estou-querendo-fazer-um-fluffy-wall.md`.
-
-**Descobertas colaterais a aplicar eventualmente** (não bloqueantes):
-- Skill `blindagem-pre-execucao` v1.1 tem referências incorretas: "RPV máx ≈ 60 SM" (teto federal, inaplicável AM) e SM R$ 1.618 desatualizado — patchar para 20 SM + R$ 1.621.
-- Skill `proximo-passo-advisor` linha 184 e `protocolo-juridico-prodam` linha 235 citam "20 SM = R$ 32.420" sem mencionar Lei 2.748/2002 explicitamente.
-- CLAUDE.md §3 Etapa 5 menciona Selenium; Playwright é a ferramenta preferida agora.
-
-**Regra permanente do Gate:** o Maestro (E6.1) recusa executar qualquer esquadrão se algum arquivo do `00_PREREQS/` estiver ausente ou com hash inválido.
-
----
-
-## 12. VERSIONAMENTO E BACKUP (git, desde 20/04/2026)
-
-**Working repo:** `C:\Users\gabri\Desktop\PROJETO_PRODAM\.git` · branch `main` · tracking `backup/main`
-**Bare backup:** `C:\Users\gabri\git-backups\PROJETO_PRODAM.git` (mesmo padrão do `SEDUC_AUDITORIA_COMPLETA.git` ao lado)
-
-### Ciclo padrão a cada sessão
-
-**Opção 1 — Automatizado (recomendado a partir de 20/04/2026):**
+## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
+**Atualizado automaticamente em 07/05/2026 11:59 via auto_update_claude_md.py**
+
+## IDENTIDADE
+- **Advogado**: Gabriel Mar (OAB/AM 15.697)
+- **Escritório**: Gabriel Mar Sociedade Individual de Advocacia
+- **Contratante**: Brandão Ozores Advogados
+- **Cliente**: PRODAM S.A. (CNPJ 04.407.920/0001-80, economia mista, Lei 13.303/2016)
+- **Fee**: 20% sobre créditos recuperados
+- **Obrigações**: Relatórios quinzenais (R$500/dia atraso | 10% do crédito por prescrição perdida)
+
+## MÉTRICAS DO PORTFÓLIO
+- 70 devedores (26 Gov Direta, 21 Gov Indireta, 22 Privadas)
+- R$ 93.632.770,88 exigível | R$ 160.936.948,41 atualizado
+- 3497 faturas (2412 exigíveis, 1085 prescritas)
+- Força: 12 FORTE, 15 MÉDIA, 42 FRACA
+
+## PIPELINE POR PRÓXIMO PASSO
+- ANALISAR_DOCUMENTACAO: 36 devedores
+- CLASSIFICAR: 17 devedores
+- ENVIAR_TRD: 9 devedores
+- PROTOCOLAR_PETICAO: 5 devedores
+- HABILITAÇÃO DE CRÉDITO: 1 devedores
+- N/A: 1 devedores
+- AVALIAR_SUCESSAO: 1 devedores
+
+## TOP 10 DEVEDORES (por valor exigível)
+- SEDUC: R$ 49.215.512,48 | FORTE | ANALISAR_DOCUMENTACAO
+- SES/SUSAM: R$ 14.748.048,96 | FORTE | ENVIAR_TRD
+- SSP: R$ 4.553.230,80 | FORTE | PROTOCOLAR_PETICAO
+- SEJUSC: R$ 2.589.660,12 | MÉDIA | ANALISAR_DOCUMENTACAO
+- SEAD: R$ 2.339.702,20 | FORTE | ENVIAR_TRD
+- BRADESCO: R$ 2.226.517,80 | FRACA | CLASSIFICAR
+- CETAM: R$ 1.256.564,28 | FRACA | CLASSIFICAR
+- SEDECTI: R$ 1.249.203,13 | MÉDIA | ANALISAR_DOCUMENTACAO
+- SALUX: R$ 1.027.949,15 | FRACA | CLASSIFICAR
+- POLÍCIA CIVIL: R$ 960.481,71 | MÉDIA | ANALISAR_DOCUMENTACAO
+
+## ALERTAS DE PRESCRIÇÃO (<90 dias)
+- 🔴 SES/SUSAM: 2026-05-13 (6 dias) — R$ 14.748.048,96
+
+## ESTRUTURA DO PROJETO
+- `PRODAM_DOCS/_ANALISE/prodam.db` — DB **canônico** (gerado por `PRODAM_DOCS/build_sqlite.py`)
+- `prodam.db` (raiz) — cópia derivada, atualizada por `scripts/atualizar_db.py` (é a que `scripts/consultas.py` lê)
+- `PRODAM_DOCS/profiles.json` — SSOT dos devedores (fonte autoritativa)
+- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (20 subpastas; consultar ANTES de qualquer parecer)
+- `PRODAM_DOCS/_SKILLS/` — skills jurídicas pareadas
+- `SPCF_EXTRACAO/` — web scraping SPCF (rate-limit `time.sleep(1.5)` entre requisições)
+- `scripts/` — scripts Python principais (consultas, pipeline, dossiês, sync, auto-update)
+- `tests/test_prodam_utils.py` — testes unitários (pytest)
+- `.github/workflows/tests.yml` — CI: pytest + compileall + valida `profiles.json` em push/PR
+
+## SQLITE prodam.db
+Tabelas: spcf_contratos (362), spcf_empenhos (16.789), spcf_faturas (1.837), spcf_nfs (52.998), pendrive_docs (3.699), devedores (81), reclassificacao (1.261), cruzamento_spcf_pendrive (1.460)
+Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_por_devedor, v_cruzamento_nf
+
+## REGRAS JURÍDICAS OBRIGATÓRIAS
+1. **Decreto Estadual nº 53.464/2026** (substitui 51.084/2025) — verificar 4 exceções antes de qualquer ação contra Gov AM
+2. Silêncio do devedor **NÃO** interrompe prescrição — exige ato inequívoco (Art. 202 CC taxativo)
+3. Juros pós-**Lei 14.905/2024** — NÃO presumir 1% a.m.; verificar arts. 404-406 CC
+4. Índices: consultar `config_prodam.py` — SELIC padrão, FUHAM=IGPM, DETRAN=IGPM+1%+2% (PRESUMIDO)
+5. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF)
+6. NFs do credor **NÃO** são marcos interruptivos (exige ato do devedor)
+7. Prescrição é por **FATURA individual** (Art. 189 + 206 §5º I CC), contada do **VENCIMENTO**
+8. FUHAM = Fund. Alfredo da Matta | FHAJ = Fund. Hosp. Adriano Jorge — **NUNCA** inverter
+9. Empenho (NE) = reconhecimento tácito (Art. 202 VI CC) — interrompe prescrição
+10. SELIC já inclui correção + juros — **NÃO** somar separado. IGPM = só correção (juros à parte)
+11. Art. 202 CC: interrupção ocorre **UMA VEZ** (unicidade — REsp 1.963.067/MS). Fazenda reinicia por metade (Decreto 20.910/1932 = 2,5 anos)
+12. Tema 1.109/STJ: gestor público **NÃO** renuncia tacitamente a prescrição
+13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator)
+14. Fee: **20%** sobre créditos recuperados (não 30%). RPV AM estadual = 20 salários mínimos (~R$ 32.420)
+15. `profiles.json` é a SSOT — NUNCA usar Demonstrativo Excel antigo
+16. Valores monetários: **Decimal**, nunca float. Formato BRL: `R$ 1.234,56`
+17. `PRECEDENTES_VERIFICADOS.md` é a única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos listados em references/)
+18. NUNCA emita opinião jurídica sem consultar `REFERENCIA_JURIDICA/` antes
+
+## HIERARQUIA DE FONTES JURÍDICAS (consultar nessa ordem)
+1. **Nota Metodológica** (`PRODAM_DOCS/REFERENCIA_JURIDICA/01_NOTA_METODOLOGICA/`) — corrige todos os demais
+2. **Estudo Consolidado** (002/2026) — adaptado ao contrato atual
+3. **Estudo Exaustivo** — matriz genérica com minutas
+4. **Pesquisa Jurisprudencial** — STJ/STF/TJAM (usar só precedentes verificados)
+5. **Extração Contratual** — cláusula a cláusula dos contratos dos devedores
+6. `REFERENCIA_JURIDICA/` (20 subpastas) — SSOT jurídica, ANTES de qualquer tarefa
+
+## BENCHMARK AUDITORIA — DETRAN/AM (referência A+)
+- **Score composto:** 94,0/100 → A+ (EXCEPCIONAL)
+- **Pasta consolidada:** `Desktop\DETRAN_AUDITORIA_COMPLETA\` (3,2 GB, **8.210 arquivos**)
+- **Estrutura:** 13 pastas tipo × 14 formatos (PDF/JSON/CSV/MD/HTML/XLSX/DOCX/TXT/PY/JSONL/PNG/LOG)
+- **Contratos ingeridos DB:** 13 (12 PDFs + 1 vigente)
+- **Índices mapeados:** IGPM (7 contratos) + IPCA (3 contratos)
+- **Valor contratual total:** R$ 244,46M | Exigível: R$ 31,7M
+
+### Distribuição DETRAN por formato
+| Formato | Arquivos | Uso |
+|---------|----------|-----|
+| PDF | 3.631 | Documentos originais (contratos, NEs, faturas, cobranças) |
+| JSON | 1.698 | Textos extraídos + campos estruturados p/ LLM |
+| HTML | 1.428 | Scraping SPCF + dashboards |
+| CSV | 861 | Dados tabulares (prescrição, inadimplentes, pagamentos) |
+| MD | 222 | Relatórios + documentação |
+| TXT | 209 | Texto bruto + logs |
+| XLSX | 90 | Planilhas auditoria |
+| PY | 34 | Scripts reutilizáveis |
+| DOCX | 17 | Cartas + minutas |
+| JSONL | 8 | Corpora RAG/LLM |
+
+## PLAYBOOK REPLICÁVEL (outros órgãos)
+Ver `PLAYBOOK_ORGAOS_V2.md` (passo-a-passo completo)
+
+### Comando único
 ```powershell
-# Usar o icone "Fim de Sessao PRODAM" na area de trabalho
-# OU executar diretamente:
-cd C:\Users\gabri\Desktop\PROJETO_PRODAM
-./FIM_SESSAO.ps1 "descricao curta da sessao"
-# Roda 4 etapas: (1) valida junction PRODAM_DOCS em DETRAN, (2) git status,
-# (3) commit + push para backup/main, (4) exibe espaco em disco.
+py -3.12 scripts\orgao_pipeline_completa.py --orgao SEDUC
 ```
 
-**Opção 2 — Manual:**
+### TOP 5 próximos órgãos (por valor exigível)
+1. SEDUC (R$ 49,2M) | FORTE | F0 — ANALISAR_DOCUMENTACAO
+2. DETRAN (R$ 31,7M) ✅ A+ | Petição pronta F5 — PROTOCOLAR
+3. SES/SUSAM (R$ 14,7M) | FORTE | F3 — ENVIAR_TRD
+4. SSP (R$ 4,6M) | FORTE | F5 — PROTOCOLAR
+5. SEAD (R$ 2,3M) | FORTE | F3 — ENVIAR_TRD
+
+## SCRIPTS PRINCIPAIS (em `scripts/` — fix 2026-04-22)
+| Script | Função |
+|--------|--------|
+| `scripts/prodam_utils.py` | `norm()` unidecode + `brl()` + datas + `match_flex` |
+| `scripts/orgao_pipeline_completa.py` | **Pipeline genérica `--orgao`** (PDF→JSON, OCR, ingestão DB, score) |
+| `scripts/sincronizar_prodam.py` | Comando mestre (rebuild DB + auditoria + dossiês + valida skills) |
+| `scripts/atualizar_db.py` | Rebuild `prodam.db` (chama `PRODAM_DOCS/build_sqlite.py`) |
+| `scripts/consultas.py` | 15 queries forenses (CLI + export CSV em `_ANALISE/consultas_csv/`) |
+| `scripts/detran/*.py` | Templates DETRAN (copiar e adaptar para outros órgãos) |
+| `scripts/auditoria_completude_devedor.py` | Checklist 11 itens (69 devedores) |
+| `scripts/dossie_multiformato_devedor.py` | 5 formatos por devedor |
+| `scripts/reconciliar_orfaos_reversos.py` | Popular devedores sem faturas via `norm()` |
+| `scripts/auto_update_claude_md.py` | Regenera este `CLAUDE.md` a partir de `profiles.json` |
+
+## SCORE COMPOSTO — 12 dimensões (peso%)
+1. Integridade de Dados (10%)
+2. Cadeia Documental 5 elos (15%) — REsp 793.969/RJ
+3. Prescrição & Marcos Interruptivos (15%) — Art. 202 VI CC
+4. Blindagem Pré-Execução (10%) — 22/22 itens
+5. Compliance Jurídico (10%) — regime/índice/título/modelo
+6. Evidências Documentais (8%)
+7. Reconhecimento Tácito (8%) — Art. 202 VI CC (empenhos)
+8. Atualização Monetária (6%) — IGPM/IPCA/SELIC via BCB
+9. Priorização (6%)
+10. Risco Processual (5%) — p_recuperação
+11. Valor Recuperável E[V] (4%)
+12. Urgência/Prazo (3%)
+
+**Classificação:** A+ ≥90 | A ≥85 | A- ≥80 | B+ ≥75 | B ≥70
+
+## COMANDOS ÚTEIS (PowerShell)
 ```powershell
-# Após editar arquivos e querer salvar
-cd C:\Users\gabri\Desktop\PROJETO_PRODAM
-git add -A
-git status                              # conferir o que entrou
-git commit -m "<descricao curta>"
-git push                                # tracking ja vai para backup/main
+py -3.12 scripts\consultas.py --lista              # ver todas as queries
+py -3.12 scripts\consultas.py resumo_geral         # visão geral
+py -3.12 scripts\consultas.py top_devedores        # ranking por valor
+py -3.12 scripts\orgao_pipeline_completa.py --orgao SEDUC  # audita novo órgão
+py -3.12 scripts\auto_update_claude_md.py          # regenerar este CLAUDE.md
+py -3.12 scripts\sincronizar_prodam.py             # sincronização completa
+py -3.12 -m pytest tests\ -v                       # testes unitários
 ```
+Slash command equivalente: `/sincronizar-prodam` (definido em `.claude\commands\sincronizar-prodam.md`).
 
-### ⚠️ Junction `PRODAM_DOCS` dentro de `DETRAN_AUDITORIA_COMPLETA` (regra arquitetural, 20/04/2026)
+## DESENVOLVIMENTO
+- **Plataforma:** Windows + PowerShell (não usar bash). Python via launcher `py -3.12` (sem venv).
+- **Dependências:** `py -3.12 -m pip install -r requirements.txt` (essenciais: `openpyxl`, `polars`, `requests`; OCR/scraping são opt-in comentado).
+- **Testes:** `py -3.12 -m pytest tests\ -v` — cobre `prodam_utils` (BRL, normalização, datas, prescrição).
+- **CI:** `.github\workflows\tests.yml` em push/PR para `main` — pytest + `compileall` (sintaxe) + valida `profiles.json` (≥50 devedores, todos com CNPJ, `_metadata` presente) + smoke test do `sincronizar_prodam.py`.
+- **Convenções de dados (críticas):**
+  - Valores monetários: **`Decimal`**, nunca `float`. Formato BRL `R$ 1.234,56` via `prodam_utils.fmt_brl`.
+  - CSV: separador **`;`** + encoding **`utf-8-sig`** (BOM) — abre direto no Excel.
+  - Salvar extrações em **JSON + XLSX + CSV** no mesmo script. JSON é a SSOT; XLSX/CSV são derivados.
+  - PDFs são prova jurídica — **nunca apagar originais**; backup em `_BACKUPS/` ou `_ARQUIVO_DRIFT/`.
+  - SPCF: `time.sleep(1.5)` entre requisições (rate limit obrigatório).
+  - Contratos têm 3 formatos coexistindo (`006/2021` em `spcf_contratos`/PDFs, `6/2021` em `profiles.json`, `2021/006` em outras fontes) — usar skill `normalizador-contratos-prodam` ANTES de qualquer JOIN.
 
-A pasta `DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS\` **DEVE SER** uma junction NTFS apontando para `PROJETO_PRODAM\PRODAM_DOCS\` — nunca uma cópia física.
-
-**Por que isso importa:**
-- Se virar cópia física: duplica 25 GB em disco (incidente 19-20/04: backup robocopy seguiu junction e gerou backup gordo de 32 GB; Lixeira do Windows restaurou como pasta física gerando outros 25 GB duplicados).
-- A **Lixeira do Windows** não restaura junctions corretamente — restaura como pasta física. Se `PRODAM_DOCS` for restaurado da Lixeira, **a junction precisa ser recriada manualmente**.
-
-**Verificação:**
+## ABRIR O prodam.db SEM CÓDIGO
 ```powershell
-fsutil reparsepoint query "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS"
-# Se retornar "Print Name: C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS" → junction OK
-# Se retornar erro "nao e um ponto de nova analise" → virou pasta fisica (ERRO)
+# Datasette (web UI):
+datasette serve "PRODAM_DOCS\_ANALISE\prodam.db" --open
+
+# DuckDB (SQL no terminal):
+duckdb -c "SELECT * FROM spcf_faturas WHERE cliente='SEDUC' LIMIT 10" "PRODAM_DOCS\_ANALISE\prodam.db"
 ```
+Beekeeper Studio: File → Open → escolher `PRODAM_DOCS\_ANALISE\prodam.db`.
 
-**Recriação:**
-```powershell
-# 1. Remover pasta fisica (apos confirmar que nao tem dados exclusivos)
-Remove-Item -Recurse -Force "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS"
-# 2. Recriar junction
-New-Item -ItemType Junction `
-  -Path "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS" `
-  -Target "C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS"
-```
+## OUTROS MAPAS DO PROJETO (consultar quando relevante)
+| Arquivo | O que cobre |
+|---------|-------------|
+| `LEIAME.md` | Mapa de navegação curto: 3 pastas ativas, fontes canônicas, comandos para abrir o DB |
+| `PRODAM_DOCS\CLAUDE.md` | Detalhe OCR v4 + 78 pastas `_CONSOLIDADO` + dossiês multi-formato + reorganização Desktop |
+| `PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |
+| `.claude\napkin.md` | Regras priorizadas (curated runbook re-priorizado a cada leitura) |
+| `HISTORICO_SESSOES.md` | Decisões recentes — **histórico, pode estar desatualizado** |
+| `PRODAM_DOCS\REFERENCIA_JURIDICA\01_NOTA_METODOLOGICA\` | Corrige todos os demais estudos jurídicos |
+| `PRODAM_DOCS\REFERENCIA_JURIDICA\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |
 
-`FIM_SESSAO.ps1` valida isso automaticamente a cada sessão (Etapa 1).
-
-### O que está versionado (1.242 arq / 25,75 MB no commit inicial)
-
-- Todos os scripts Python (`scripts/`, `tests/`, raiz)
-- `CLAUDE.md`, `LEIAME.md`, `requirements.txt`
-- `DETRAN_AUDITORIA/`, `DETRAN_CONSOLIDADO_JSON/`, `DETRAN_CONTRATOS_JSON/`
-- `DOSSIES_MULTIFORMATO/` (71 devedores × html+json+md+xlsx + 4 csvs)
-- `AUDITORIA_COMPLETUDE/` (70 MDs de auditoria por devedor)
-- `dados/`, `relatorios/`
-- `.claude/`, `.github/`
-
-### O que NÃO está versionado (precisa restaurar manualmente após clone)
-
-| Item | Tamanho | Como recuperar |
-|---|---:|---|
-| `PRODAM_DOCS/` (fonte bruta) | 25,4 GB | Pen drive · OneDrive · `_BACKUP_PRE_AGENTES_20260419_024647/` (até 05/05/2026) |
-| `SPCF_EXTRACAO/` (cache) | 6,9 GB | Re-executar `baixar_lacunas_spcf.py` (precisa VPN + `.env`) |
-| `prodam.db` | 91 MB | `python scripts/atualizar_db.py` (regenera de PRODAM_DOCS) |
-| `.env` (credenciais SPCF) | <1 KB | Recriar manual: `SPCF_USER=02542720290` + `SPCF_PASS=GMS2026` + `SPCF_URL=https://spcf.prodam.am.gov.br/` |
-| Junction `DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS` | 0 (link) | `New-Item -ItemType Junction -Path "C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\PRODAM_DOCS" -Target "C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS"` |
-
-### Restauração em caso de desastre
-
-```powershell
-# Cenario 1: perdi PROJETO_PRODAM inteira
-cd C:\Users\gabri\Desktop
-git clone "C:\Users\gabri\git-backups\PROJETO_PRODAM.git" PROJETO_PRODAM
-# (depois recriar PRODAM_DOCS, .env, prodam.db, junction — tabela acima)
-
-# Cenario 2: perdi o bare backup (mas working copy intacta)
-git init --bare "C:\Users\gabri\git-backups\PROJETO_PRODAM.git"
-git -C "C:\Users\gabri\Desktop\PROJETO_PRODAM" push backup main
-
-# Cenario 3: inspecionar snapshot historico em outro local
-git clone "C:\Users\gabri\git-backups\PROJETO_PRODAM.git" C:\Temp\snapshot_inspecao
-```
-
-### Cuidados ao versionar
-
-- **Nunca** adicionar `PRODAM_DOCS/`, `SPCF_EXTRACAO/`, `_BACKUP_*/`, `.env`, `prodam.db` ao staging — `.gitignore` protege, mas `git add -f` ignora o `.gitignore`. Não usar `-f`.
-- Antes de commits grandes, conferir tamanho: `git status --short | wc -l` e listar top maiores.
-- Para futuros backups com `robocopy` da pasta DETRAN, usar `/XJ` (exclude junctions) — senão o robocopy segue o link e duplica `PRODAM_DOCS` (gera o "backup gordo" de 32 GB que originou o incidente de 19-20/04).
-
----
-
-_Leitura prioritária em toda nova sessão do projeto. Mantenha sincronizado com o estado real._

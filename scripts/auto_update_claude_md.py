@@ -11,7 +11,10 @@ from datetime import datetime, date
 from decimal import Decimal
 from pathlib import Path
 
-BASE = Path(__file__).parent
+# fix 2026-04-22: script movido para scripts/, BASE precisa subir 1 nivel se necessario
+BASE = Path(__file__).resolve().parent
+if BASE.name == "scripts":
+    BASE = BASE.parent
 PROFILES = BASE / "PRODAM_DOCS" / "profiles.json"
 DB = BASE / "prodam.db"
 OUTPUT = BASE / "CLAUDE.md"
@@ -131,12 +134,15 @@ def generate_claude_md(m):
     
     # === ESTRUTURA ===
     lines.append("## ESTRUTURA DO PROJETO")
-    lines.append("- `prodam.db` — SQLite (8 tabelas, 80k+ registros)")
+    lines.append("- `PRODAM_DOCS/_ANALISE/prodam.db` — DB **canônico** (gerado por `PRODAM_DOCS/build_sqlite.py`)")
+    lines.append("- `prodam.db` (raiz) — cópia derivada, atualizada por `scripts/atualizar_db.py` (é a que `scripts/consultas.py` lê)")
     lines.append("- `PRODAM_DOCS/profiles.json` — SSOT dos devedores (fonte autoritativa)")
-    lines.append("- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (20 subpastas)")
+    lines.append("- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (20 subpastas; consultar ANTES de qualquer parecer)")
     lines.append("- `PRODAM_DOCS/_SKILLS/` — skills jurídicas pareadas")
-    lines.append("- `SPCF_EXTRACAO/` — web scraping SPCF")
-    lines.append("- `consultas.py` — 15 queries forenses (CLI)")
+    lines.append("- `SPCF_EXTRACAO/` — web scraping SPCF (rate-limit `time.sleep(1.5)` entre requisições)")
+    lines.append("- `scripts/` — scripts Python principais (consultas, pipeline, dossiês, sync, auto-update)")
+    lines.append("- `tests/test_prodam_utils.py` — testes unitários (pytest)")
+    lines.append("- `.github/workflows/tests.yml` — CI: pytest + compileall + valida `profiles.json` em push/PR")
     lines.append("")
     
     # === SQLITE ===
@@ -159,7 +165,7 @@ def generate_claude_md(m):
     lines.append("10. SELIC já inclui correção + juros — **NÃO** somar separado. IGPM = só correção (juros à parte)")
     lines.append("11. Art. 202 CC: interrupção ocorre **UMA VEZ** (unicidade — REsp 1.963.067/MS). Fazenda reinicia por metade (Decreto 20.910/1932 = 2,5 anos)")
     lines.append("12. Tema 1.109/STJ: gestor público **NÃO** renuncia tacitamente a prescrição")
-    lines.append("13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. Teori Zavascki)")
+    lines.append("13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator)")
     lines.append("14. Fee: **20%** sobre créditos recuperados (não 30%). RPV AM estadual = 20 salários mínimos (~R$ 32.420)")
     lines.append("15. `profiles.json` é a SSOT — NUNCA usar Demonstrativo Excel antigo")
     lines.append("16. Valores monetários: **Decimal**, nunca float. Formato BRL: `R$ 1.234,56`")
@@ -206,8 +212,8 @@ def generate_claude_md(m):
     lines.append("Ver `PLAYBOOK_ORGAOS_V2.md` (passo-a-passo completo)")
     lines.append("")
     lines.append("### Comando único")
-    lines.append("```bash")
-    lines.append("py -3.12 orgao_pipeline_completa.py --orgao SEDUC")
+    lines.append("```powershell")
+    lines.append("py -3.12 scripts\\orgao_pipeline_completa.py --orgao SEDUC")
     lines.append("```")
     lines.append("")
     lines.append("### TOP 5 próximos órgãos (por valor exigível)")
@@ -219,17 +225,19 @@ def generate_claude_md(m):
     lines.append("")
 
     # === SCRIPTS ===
-    lines.append("## SCRIPTS PRINCIPAIS (PROJETO_PRODAM/)")
+    lines.append("## SCRIPTS PRINCIPAIS (em `scripts/` — fix 2026-04-22)")
     lines.append("| Script | Função |")
     lines.append("|--------|--------|")
-    lines.append("| `prodam_utils.py` | norm() unidecode + brl() + datas + match_flex |")
-    lines.append("| `orgao_pipeline_completa.py` | **Pipeline genérica `--orgao`** |")
-    lines.append("| `sincronizar_prodam.py` | Comando mestre (rebuild + audit + dossiês) |")
-    lines.append("| `atualizar_db.py` | Rebuild prodam.db |")
-    lines.append("| `detran_*.py` | Templates DETRAN (copiar e adaptar) |")
-    lines.append("| `auditoria_completude_devedor.py` | Checklist 11 itens (69 devedores) |")
-    lines.append("| `dossie_multiformato_devedor.py` | 5 formatos por devedor |")
-    lines.append("| `reconciliar_orfaos_reversos.py` | Popular via `norm()` |")
+    lines.append("| `scripts/prodam_utils.py` | `norm()` unidecode + `brl()` + datas + `match_flex` |")
+    lines.append("| `scripts/orgao_pipeline_completa.py` | **Pipeline genérica `--orgao`** (PDF→JSON, OCR, ingestão DB, score) |")
+    lines.append("| `scripts/sincronizar_prodam.py` | Comando mestre (rebuild DB + auditoria + dossiês + valida skills) |")
+    lines.append("| `scripts/atualizar_db.py` | Rebuild `prodam.db` (chama `PRODAM_DOCS/build_sqlite.py`) |")
+    lines.append("| `scripts/consultas.py` | 15 queries forenses (CLI + export CSV em `_ANALISE/consultas_csv/`) |")
+    lines.append("| `scripts/detran/*.py` | Templates DETRAN (copiar e adaptar para outros órgãos) |")
+    lines.append("| `scripts/auditoria_completude_devedor.py` | Checklist 11 itens (69 devedores) |")
+    lines.append("| `scripts/dossie_multiformato_devedor.py` | 5 formatos por devedor |")
+    lines.append("| `scripts/reconciliar_orfaos_reversos.py` | Popular devedores sem faturas via `norm()` |")
+    lines.append("| `scripts/auto_update_claude_md.py` | Regenera este `CLAUDE.md` a partir de `profiles.json` |")
     lines.append("")
 
     # === 12 DIMENSÕES SCORE ===
@@ -251,15 +259,58 @@ def generate_claude_md(m):
     lines.append("")
 
     # === USO ===
-    lines.append("## COMANDOS ÚTEIS")
+    lines.append("## COMANDOS ÚTEIS (PowerShell)")
+    lines.append("```powershell")
+    lines.append("py -3.12 scripts\\consultas.py --lista              # ver todas as queries")
+    lines.append("py -3.12 scripts\\consultas.py resumo_geral         # visão geral")
+    lines.append("py -3.12 scripts\\consultas.py top_devedores        # ranking por valor")
+    lines.append("py -3.12 scripts\\orgao_pipeline_completa.py --orgao SEDUC  # audita novo órgão")
+    lines.append("py -3.12 scripts\\auto_update_claude_md.py          # regenerar este CLAUDE.md")
+    lines.append("py -3.12 scripts\\sincronizar_prodam.py             # sincronização completa")
+    lines.append("py -3.12 -m pytest tests\\ -v                       # testes unitários")
     lines.append("```")
-    lines.append("py -3.12 consultas.py --lista              # ver todas as queries")
-    lines.append("py -3.12 consultas.py resumo_geral         # visão geral")
-    lines.append("py -3.12 consultas.py top_devedores        # ranking por valor")
-    lines.append("py -3.12 orgao_pipeline_completa.py --orgao SEDUC  # audita novo órgão")
-    lines.append("py -3.12 auto_update_claude_md.py          # regenerar este arquivo")
-    lines.append("py -3.12 sincronizar_prodam.py             # sincronização completa")
+    lines.append("Slash command equivalente: `/sincronizar-prodam` (definido em `.claude\\commands\\sincronizar-prodam.md`).")
+    lines.append("")
+
+    # === DESENVOLVIMENTO ===
+    lines.append("## DESENVOLVIMENTO")
+    lines.append("- **Plataforma:** Windows + PowerShell (não usar bash). Python via launcher `py -3.12` (sem venv).")
+    lines.append("- **Dependências:** `py -3.12 -m pip install -r requirements.txt` (essenciais: `openpyxl`, `polars`, `requests`; OCR/scraping são opt-in comentado).")
+    lines.append("- **Testes:** `py -3.12 -m pytest tests\\ -v` — cobre `prodam_utils` (BRL, normalização, datas, prescrição).")
+    lines.append("- **CI:** `.github\\workflows\\tests.yml` em push/PR para `main` — pytest + `compileall` (sintaxe) + valida `profiles.json` (≥50 devedores, todos com CNPJ, `_metadata` presente) + smoke test do `sincronizar_prodam.py`.")
+    lines.append("- **Convenções de dados (críticas):**")
+    lines.append("  - Valores monetários: **`Decimal`**, nunca `float`. Formato BRL `R$ 1.234,56` via `prodam_utils.fmt_brl`.")
+    lines.append("  - CSV: separador **`;`** + encoding **`utf-8-sig`** (BOM) — abre direto no Excel.")
+    lines.append("  - Salvar extrações em **JSON + XLSX + CSV** no mesmo script. JSON é a SSOT; XLSX/CSV são derivados.")
+    lines.append("  - PDFs são prova jurídica — **nunca apagar originais**; backup em `_BACKUPS/` ou `_ARQUIVO_DRIFT/`.")
+    lines.append("  - SPCF: `time.sleep(1.5)` entre requisições (rate limit obrigatório).")
+    lines.append("  - Contratos têm 3 formatos coexistindo (`006/2021` em `spcf_contratos`/PDFs, `6/2021` em `profiles.json`, `2021/006` em outras fontes) — usar skill `normalizador-contratos-prodam` ANTES de qualquer JOIN.")
+    lines.append("")
+
+    # === ABRIR O DB ===
+    lines.append("## ABRIR O prodam.db SEM CÓDIGO")
+    lines.append("```powershell")
+    lines.append("# Datasette (web UI):")
+    lines.append("datasette serve \"PRODAM_DOCS\\_ANALISE\\prodam.db\" --open")
+    lines.append("")
+    lines.append("# DuckDB (SQL no terminal):")
+    lines.append("duckdb -c \"SELECT * FROM spcf_faturas WHERE cliente='SEDUC' LIMIT 10\" \"PRODAM_DOCS\\_ANALISE\\prodam.db\"")
     lines.append("```")
+    lines.append("Beekeeper Studio: File → Open → escolher `PRODAM_DOCS\\_ANALISE\\prodam.db`.")
+    lines.append("")
+
+    # === OUTROS MAPAS ===
+    lines.append("## OUTROS MAPAS DO PROJETO (consultar quando relevante)")
+    lines.append("| Arquivo | O que cobre |")
+    lines.append("|---------|-------------|")
+    lines.append("| `LEIAME.md` | Mapa de navegação curto: 3 pastas ativas, fontes canônicas, comandos para abrir o DB |")
+    lines.append("| `PRODAM_DOCS\\CLAUDE.md` | Detalhe OCR v4 + 78 pastas `_CONSOLIDADO` + dossiês multi-formato + reorganização Desktop |")
+    lines.append("| `PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |")
+    lines.append("| `.claude\\napkin.md` | Regras priorizadas (curated runbook re-priorizado a cada leitura) |")
+    lines.append("| `HISTORICO_SESSOES.md` | Decisões recentes — **histórico, pode estar desatualizado** |")
+    lines.append("| `PRODAM_DOCS\\REFERENCIA_JURIDICA\\01_NOTA_METODOLOGICA\\` | Corrige todos os demais estudos jurídicos |")
+    lines.append("| `PRODAM_DOCS\\REFERENCIA_JURIDICA\\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |")
+    lines.append("")
 
     return "\n".join(lines) + "\n"
 
@@ -275,9 +326,9 @@ def main():
     # Escreve diretamente (sem backup — evita PermissionError em sandbox)
     OUTPUT.write_text(content, encoding="utf-8")
     print(f"CLAUDE.md atualizado: {OUTPUT}")
-    print(f"  {m['total']} devedores, {fmt_brl(m['val_exig'])} exigivel")
     if m["prescricao_urgente"]:
-        print(f"  ALERTA: {len(m['prescricao_urgente'])} devedores com prescricao <90 dias")
+        print(f"  {len(m['prescricao_urgente'])} devedor(es) com prescricao urgente (<90 dias)")
+
 
 if __name__ == "__main__":
     main()

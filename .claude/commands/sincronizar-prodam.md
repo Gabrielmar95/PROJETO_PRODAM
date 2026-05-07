@@ -4,11 +4,11 @@ description: Roda sincronização completa do Projeto PRODAM (rebuild DB + audit
 
 Execute o comando mestre de sincronização do Projeto PRODAM.
 
-Rode no bash:
+Rode no PowerShell:
 
-```bash
+```powershell
 cd "C:\Users\gabri\Desktop\PROJETO_PRODAM"
-py -3.12 sincronizar_prodam.py $ARGUMENTS
+py -3.12 scripts\sincronizar_prodam.py $ARGUMENTS
 ```
 
 Flags disponíveis (passe como $ARGUMENTS):

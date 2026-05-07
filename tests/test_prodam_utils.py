@@ -14,7 +14,7 @@ from pathlib import Path
 from decimal import Decimal
 from datetime import date
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 from prodam_utils import (
     brl, fmt_brl, pct_diff,
     norm, norm_variants, match_flex,
