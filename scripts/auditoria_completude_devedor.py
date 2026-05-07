@@ -173,29 +173,39 @@ def _localizar_pastas(sigla: str) -> dict:
     }
 
 def _detectar_divergencias(profile: dict, contagens: dict, cobr_dev: list) -> list:
-    """Compara profile × DB para detectar divergências de valor/contagem."""
+    """Compara profile × DB para detectar divergências de valor/contagem.
+
+    fix 2026-04-22: escopo corrigido. Antes comparava val_exig (SSOT, só não-prescritas)
+    contra SUM(spcf_faturas) (DB, todas abertas). Escopos diferentes → falso-positivos.
+    Agora compara spcf_fat_aberto_* (SSOT, faturas em aberto) contra DB (que só traz
+    Emitida + Parcialmente Paga, ou seja, também em aberto). Escopos equivalentes.
+    Tolerância subiu para 10% em valor / 15% em qtd (snapshots podem diferir dias).
+    """
     divs = []
-    val_exig_profile = Decimal(str(profile.get("val_exig") or 0))
+    # --- Valor em aberto ---
+    val_aberto_profile = Decimal(str(profile.get("spcf_fat_aberto_val") or 0))
     val_spcf_fat = Decimal(str(contagens.get("faturas_valor", 0) or 0))
-    if val_exig_profile > 0 and val_spcf_fat > 0:
-        delta = abs(val_exig_profile - val_spcf_fat)
-        pct = (delta / val_exig_profile * 100) if val_exig_profile else Decimal(0)
-        if pct > Decimal(20):
+    if val_aberto_profile > 0 and val_spcf_fat > 0:
+        delta = abs(val_aberto_profile - val_spcf_fat)
+        pct = (delta / val_aberto_profile * 100) if val_aberto_profile else Decimal(0)
+        if pct > Decimal(10):
             divs.append({
-                "tipo": "valor_exig_vs_db_faturas",
-                "profile": str(val_exig_profile),
+                "tipo": "valor_aberto_vs_db_faturas",
+                "profile": str(val_aberto_profile),
                 "db_faturas": str(val_spcf_fat),
                 "delta": str(delta),
                 "pct": f"{pct:.1f}%",
             })
-    fat_exig_profile = profile.get("faturas_exigiveis", 0) or 0
+    # --- Quantidade em aberto ---
+    fat_aberto_profile = profile.get("spcf_fat_aberto_qtd", 0) or 0
     fat_db = contagens.get("faturas_db", 0)
-    if fat_exig_profile > 0 and fat_db > 0:
-        delta_qtd = abs(fat_exig_profile - fat_db)
-        if delta_qtd > max(5, fat_exig_profile * 0.3):
+    if fat_aberto_profile > 0 and fat_db > 0:
+        delta_qtd = abs(fat_aberto_profile - fat_db)
+        tol = max(5, fat_aberto_profile * 0.15)
+        if delta_qtd > tol:
             divs.append({
-                "tipo": "faturas_qtd_profile_vs_db",
-                "profile": fat_exig_profile,
+                "tipo": "faturas_aberto_qtd_profile_vs_db",
+                "profile": fat_aberto_profile,
                 "db": fat_db,
                 "delta": delta_qtd,
             })
@@ -438,16 +448,16 @@ new Chart(document.getElementById('scoreChart'),{{
       backgroundColor:'#1F3864'
     }}]
   }},
-  options:{{responsive:true,plugins:{{title:{{display:true,text:'Top 30 — Score de Completude'}}}}}}
+  options:{{responsive:true,plugins:{{title:{{display:true,text:'Top 30 - Score de Completude'}}}}}}
 }});
 </script>
 </body></html>"""
 (OUT / "AUDITORIA_COMPLETUDE_DASHBOARD.html").write_text(html, encoding="utf-8")
 
-print(f"\n✅ Relatórios em {OUT}")
+print(f"\nRelatorios em {OUT}")
 print(f"   - {len(resumo)} AUDITORIA_<DEVEDOR>.md")
 print(f"   - AUDITORIA_COMPLETUDE_RESUMO.json")
 print(f"   - AUDITORIA_COMPLETUDE_DASHBOARD.html")
-print(f"\n📊 Total gaps documentais: {total_gaps}")
-print(f"⚠️  Total divergências:     {total_divergencias}")
-print(f"📈 Score médio:             {round(sum(a['score_completude_pct'] for a in resumo.values()) / len(resumo), 1)}%")
+print(f"\nTotal gaps documentais: {total_gaps}")
+print(f"Total divergencias:     {total_divergencias}")
+print(f"Score medio:            {round(sum(a['score_completude_pct'] for a in resumo.values()) / len(resumo), 1)}%")

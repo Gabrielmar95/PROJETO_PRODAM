@@ -23,7 +23,8 @@ from datetime import datetime
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS_DIR = Path(__file__).resolve().parent  # fix 2026-04-22: scripts agora vivem em scripts/
 
 ETAPAS = {
     "db":       ("atualizar_db.py",                 "Rebuild prodam.db"),
@@ -37,7 +38,10 @@ def run_etapa(nome: str, script: str, descr: str, extra_args: list = None) -> bo
     print(f"  [{nome.upper()}] {descr}")
     print(f"  Script: {script}")
     print(f"{'='*70}")
-    path = ROOT / script
+    # fix 2026-04-22: procura primeiro em scripts/, depois no ROOT (fallback legado)
+    path = SCRIPTS_DIR / script
+    if not path.exists():
+        path = ROOT / script
     if not path.exists():
         print(f"  ⚠️  {script} não encontrado — pulando.")
         return False
@@ -137,11 +141,14 @@ def main():
     else:
         print(f"  ✅ Todos os paths estão atualizados.")
 
+
     # Resumo final
     dt = datetime.now() - t0
-    print(f"\n{'='*70}\n🏁 SINCRONIZAÇÃO COMPLETA em {dt.total_seconds():.0f}s\n{'='*70}")
+    print(f"\n{'='*70}")
+    print(f"SINCRONIZACAO COMPLETA em {dt.total_seconds():.0f}s")
+    print(f"{'='*70}")
     for etapa, ok in resultados.items():
-        print(f"  {'✅' if ok else '❌'} {etapa}")
+        print(f"  {'[OK]' if ok else '[X]'} {etapa}")
     print(f"\nSkills com paths desatualizados: {len(issues)}")
 
 if __name__ == "__main__":
