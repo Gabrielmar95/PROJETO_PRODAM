@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-**Atualizado automaticamente em 07/05/2026 11:59 via auto_update_claude_md.py**
+**Atualizado automaticamente em 08/05/2026 23:25 via auto_update_claude_md.py**
 
 ## IDENTIDADE
 - **Advogado**: Gabriel Mar (OAB/AM 15.697)
@@ -38,7 +38,7 @@
 - POLÍCIA CIVIL: R$ 960.481,71 | MÉDIA | ANALISAR_DOCUMENTACAO
 
 ## ALERTAS DE PRESCRIÇÃO (<90 dias)
-- 🔴 SES/SUSAM: 2026-05-13 (6 dias) — R$ 14.748.048,96
+- 🔴 SES/SUSAM: 2026-05-13 (5 dias) — R$ 14.748.048,96
 
 ## ESTRUTURA DO PROJETO
 - `PRODAM_DOCS/_ANALISE/prodam.db` — DB **canônico** (gerado por `PRODAM_DOCS/build_sqlite.py`)
@@ -174,6 +174,35 @@ Slash command equivalente: `/sincronizar-prodam` (definido em `.claude\commands\
   - PDFs são prova jurídica — **nunca apagar originais**; backup em `_BACKUPS/` ou `_ARQUIVO_DRIFT/`.
   - SPCF: `time.sleep(1.5)` entre requisições (rate limit obrigatório).
   - Contratos têm 3 formatos coexistindo (`006/2021` em `spcf_contratos`/PDFs, `6/2021` em `profiles.json`, `2021/006` em outras fontes) — usar skill `normalizador-contratos-prodam` ANTES de qualquer JOIN.
+
+## PLUGINS INSTALADOS (Claude Code)
+
+### Inventário
+**Local ao PROJETO_PRODAM** (`.claude\settings.local.json`):
+- `superpowers@claude-plugins-official` v5.1.0 — instalado 08/05/2026 (source: `github.com/obra/superpowers.git`). 14 skills `superpowers:*`. Sem hooks.
+
+**Global ao usuário** (`~\.claude\`):
+- `get-shit-done-cc` (GSD) v1.41.0 — 66 skills `gsd-*`, 33 agents `gsd-*`, 12 hooks, statusline override, bundle CommonJS em `~\.claude\get-shit-done\bin\`.
+- `context-mode@context-mode` v1.0.111 — ~11 skills `context-mode:*` + MCP server `mcp__plugin_context-mode_*` (ctx_execute, ctx_batch_execute, ctx_doctor) + 2 hooks (PreToolUse + SessionStart).
+- 5 plugins user-scope habilitados em `enabledPlugins`: `commit-commands`, `claude-md-management`, `claude-code-setup`, `context7`, `pyright-lsp`.
+
+### ⚠️ Modo manual obrigatório em arquivos jurídicos
+Regra agnóstica de plugin — vale para **qualquer skill, atual ou futura**, independente de qual marketplace ou plugin a tenha instalado.
+
+**Não auto-acionar skill** quando o trabalho tocar em:
+- TRDs, notificações extrajudiciais, memoriais, ofícios, petições, dossiês
+- `profiles.json`, `KNOWLEDGE_BASE_JURIDICO.md`, `PRECEDENTES_VERIFICADOS.md`
+- Qualquer arquivo em `DOCUMENTOS_GERADOS/`, `PRODAM_DOCS/REFERENCIA_JURIDICA/`, `DETRAN_AUDITORIA_COMPLETA/`, `DOSSIES/`
+
+**Padrão exigido**: mostrar diff antes de salvar; aguardar 'aplicar' explícito; respeitar `protocolo-juridico-prodam` quando aplicável.
+
+**Sinais de gatilho amplo** que exigem cautela (independente do plugin de origem): descrições contendo 'use whenever', 'use before any response', 'requires Skill tool invocation before', 'automatically', 'autonomous', 'use SEMPRE', 'must use'. Esses verbetes **não** dão licença para pular o gate manual no escopo jurídico.
+
+**Exceção**: skills em `~/.claude/skills/` curadas pelo advogado e que seguem `protocolo-juridico-prodam` — essas são o próprio gate manual, não o objeto da cautela.
+
+Fundamento: memórias persistentes `feedback_modo_manual_juridico` + `feedback_parecer_humano_areas_nao_curadas`.
+
+**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; hook `backup-claude-md.ps1` cria snapshot adicional pré-edição como safety net intra-sessão).
 
 ## ABRIR O prodam.db SEM CÓDIGO
 ```powershell
