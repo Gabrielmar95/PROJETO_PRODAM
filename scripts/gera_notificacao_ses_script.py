@@ -14,6 +14,18 @@ from pathlib import Path
 from datetime import datetime
 from decimal import Decimal
 
+if os.environ.get("PRODAM_FREEZE_EMISSAO"):
+    import sys; sys.exit("[FREEZE] Emissão de peças bloqueada durante auditoria DE. Remover PRODAM_FREEZE_EMISSAO para destravar.")
+# ============================================================
+# BLOQUEIO MANUAL — adicionado em 2026-05-10
+# Motivo: numeração "NOT/001/2026" hardcoded colide com a NE 001/2026
+# DETRAN já protocolada via ICP-Brasil em 20/04/2026.
+# Para destravar: substituir todas as ocorrências de "NOT/001/2026"
+# por numeração SES não conflitante e remover este bloqueio.
+# ============================================================
+import sys
+sys.exit("[BLOQUEADO] Numeração NOT/001/2026 colide com NE DETRAN. Ver bloco de comentário no topo do arquivo.")
+
 # Configurações
 TEMPLATE_PATH = Path(r"C:\Users\gabri\AppData\Roaming\Claude\local-agent-mode-sessions\ca3c1d7d-30ad-43bd-aa7d-43e556ee3c2f\3efad0a3-b9bb-4019-a643-63925c649af6\local_4dcc6802-8b8f-4f7a-8796-e5fcc556cd5f\uploads\Papel Timbrado Brandao Ozores.docx")
 OUTPUT_DIR = Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\_SKILLS\dossie-juridico-prodam-workspace\iteration-1\eval-2-notificacao-ses\with_skill\outputs")
@@ -227,7 +239,7 @@ def gerar_notificacao():
     body_parts.append(secao("Fundamentos Jurídicos"))
     body_parts.append(alinea("I.", "A notificação fundamenta-se no art. 784 do Código de Processo Civil, que admite execução extrajudicial contra devedor que reconhece a dívida, bem como no reconhecimento tácito evidenciado por empenhos, notas de liquidação e aceites técnicos."))
     body_parts.append(alinea("II.", "O valor referido encontra-se devidamente atualizado conforme índice SELIC, em conformidade com a Lei 14.905/2024 e os arts. 404 a 406 do Código Civil."))
-    body_parts.append(alinea("III.", "A composição documental (contrato + empenho + nota de liquidação + aceite) constitui título executivo extrajudicial, conforme jurisprudência consolidada (REsp 793.969/RJ, Min. Teori Zavascski)."))
+    body_parts.append(alinea("III.", "A composição documental (contrato + empenho + nota de liquidação + aceite) constitui título executivo extrajudicial, conforme jurisprudência consolidada (REsp 793.969/RJ, Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido)."))
 
     body_parts.append(secao("Prazo para Pagamento"))
     body_parts.append(corpo_destacado([
@@ -250,7 +262,7 @@ def gerar_notificacao():
 
     body_parts.append(secao("Consequências do Não Pagamento"))
     body_parts.append(alinea("1.", "Sem resposta em 15 dias úteis: ajuizamento de ação executiva perante o Tribunal de Justiça do Estado do Amazonas, com todos os ônus processuais (custas, honorários, multa de 10%)."))
-    body_parts.append(alinea("2.", "Perda da prescrição: caso o prazo de prescrição se complete (13/05/2026), PRODAM perderia todo e qualquer direito de cobrança, sem direito a regressão."))
+    body_parts.append(alinea("2.", "Perda da prescrição: caso o prazo de prescrição se complete (31/08/2026), PRODAM perderia todo e qualquer direito de cobrança, sem direito a regressão."))
     body_parts.append(alinea("3.", "Regime de execução: como entidade da administração direta, a execução se dará via precatório ou Requisição de Pequeno Valor (RPV), conforme art. 100 CF."))
 
     body_parts.append(secao("Possibilidade de Acordo"))

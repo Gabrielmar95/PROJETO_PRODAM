@@ -22,6 +22,10 @@ sys.stdout.reconfigure(encoding='utf-8')
 import pytesseract
 from pdf2image import convert_from_path
 from PIL import Image
+ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from logging_config import get_logger
+_logger = get_logger(__name__)
 
 ROOT = Path(__file__).parent.parent.parent
 SRC = ROOT / "PRODAM_DOCS" / "DETRAN_CONSOLIDADO" / "01_CONTRATOS"
@@ -234,7 +238,7 @@ for folder in OUT.iterdir():
     for json_file in folder.glob("*.json"):
         try:
             all_data.append(json.loads(json_file.read_text(encoding="utf-8")))
-        except: pass
+        except Exception as exc: _logger.warning("JSON corrompido %s: %s", json_file.name, exc)
 
 # Agrupa por contrato
 from collections import defaultdict

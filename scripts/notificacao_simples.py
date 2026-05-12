@@ -10,6 +10,19 @@ from docx import Document
 from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
+import os
+if os.environ.get("PRODAM_FREEZE_EMISSAO"):
+    import sys; sys.exit("[FREEZE] Emissão de peças bloqueada durante auditoria DE. Remover PRODAM_FREEZE_EMISSAO para destravar.")
+# ============================================================
+# BLOQUEIO MANUAL — adicionado em 2026-05-10
+# Motivo: numeração "NOT/001/2026" hardcoded colide com a NE 001/2026
+# DETRAN já protocolada via ICP-Brasil em 20/04/2026.
+# Para destravar: substituir todas as ocorrências de "NOT/001/2026"
+# por numeração SES não conflitante e remover este bloqueio.
+# ============================================================
+import sys
+sys.exit("[BLOQUEADO] Numeração NOT/001/2026 colide com NE DETRAN. Ver bloco de comentário no topo do arquivo.")
+
 # Caminhos
 PROFILES_PATH = Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\profiles.json")
 OUTPUT_DIR = Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\_SKILLS\dossie-juridico-prodam-workspace\iteration-1\eval-2-notificacao-ses\with_skill\outputs")
@@ -152,7 +165,7 @@ p.paragraph_format.space_after = Pt(6)
 items = [
     ("I.", "A notificação fundamenta-se no art. 784 do Código de Processo Civil, que admite execução extrajudicial contra devedor que reconhece a dívida, bem como no reconhecimento tácito evidenciado por empenhos, notas de liquidação e aceites técnicos."),
     ("II.", "O valor referido encontra-se devidamente atualizado conforme índice SELIC, em conformidade com a Lei 14.905/2024 e os arts. 404 a 406 do Código Civil."),
-    ("III.", "A composição documental (contrato + empenho + nota de liquidação + aceite) constitui título executivo extrajudicial, conforme jurisprudência consolidada (REsp 793.969/RJ, Min. Teori Zavascski)."),
+    ("III.", "A composição documental (contrato + empenho + nota de liquidação + aceite) constitui título executivo extrajudicial, conforme jurisprudência consolidada (REsp 793.969/RJ, Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido)."),
 ]
 
 for letra, texto in items:
@@ -214,7 +227,7 @@ p.paragraph_format.space_after = Pt(6)
 
 conseqs = [
     ("1.", "Sem resposta em 15 dias úteis: ajuizamento de ação executiva perante o Tribunal de Justiça do Estado do Amazonas, com todos os ônus processuais (custas, honorários, multa de 10%)."),
-    ("2.", "Perda da prescrição: caso o prazo de prescrição se complete (13/05/2026), PRODAM perderia todo e qualquer direito de cobrança, sem direito a regressão."),
+    ("2.", "Perda da prescrição: caso o prazo de prescrição se complete (31/08/2026), PRODAM perderia todo e qualquer direito de cobrança, sem direito a regressão."),
     ("3.", "Regime de execução: como entidade da administração direta, a execução se dará via precatório ou Requisição de Pequeno Valor (RPV), conforme art. 100 CF."),
 ]
 

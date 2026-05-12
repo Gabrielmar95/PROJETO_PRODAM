@@ -17,19 +17,23 @@ Uso:
   py -3.12 dossie_multiformato_devedor.py                # todos devedores
   py -3.12 dossie_multiformato_devedor.py --devedor SES  # um devedor
 """
+
 from __future__ import annotations
 import json, sys, sqlite3, csv, re, argparse
 from pathlib import Path
 from datetime import date
 from decimal import Decimal
 
-sys.stdout.reconfigure(encoding='utf-8')
+sys.stdout.reconfigure(encoding="utf-8")
 
 # Helpers compartilhados — norm() resolve POLÍCIA CIVIL vs POLICIA CIVIL
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 from prodam_utils import norm, norm_variants
+import os
+if os.environ.get("PRODAM_FREEZE_EMISSAO"):
+    sys.exit("[FREEZE] Emissão de peças bloqueada durante auditoria DE. Remover PRODAM_FREEZE_EMISSAO para destravar.")
 
 DB = sqlite3.connect(str(ROOT / "prodam.db"))
 DOCS = ROOT / "PRODAM_DOCS"
@@ -39,18 +43,26 @@ OUT.mkdir(exist_ok=True)
 
 HOJE = date.today()
 
+
 def brl(s) -> Decimal:
-    if s is None or s == "": return Decimal(0)
+    if s is None or s == "":
+        return Decimal(0)
     s = str(s).replace("R$", "").replace("\xa0", "").strip()
-    if "," in s: s = s.replace(".", "").replace(",", ".")
-    try: return Decimal(s)
-    except: return Decimal(0)
+    if "," in s:
+        s = s.replace(".", "").replace(",", ".")
+    try:
+        return Decimal(s)
+    except:
+        return Decimal(0)
+
 
 def fmt_brl(v) -> str:
     return f"R$ {float(v):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
+
 def sigla_to_folder(sigla: str) -> str:
     return re.sub(r"[^\w]", "_", sigla).strip("_")
+
 
 # ============================================================
 # CARREGA FONTES
@@ -59,7 +71,10 @@ print("Carregando fontes...")
 profiles = json.load(open(DOCS / "profiles.json", encoding="utf-8"))
 con_f = json.load(open(DADOS / "consolidado_faturas.json", encoding="utf-8"))
 cobrancas = json.load(open(DADOS / "cobrancas.json", encoding="utf-8"))
-print(f"  {len(profiles)} devedores, {len(con_f)} faturas SPCF, {len(cobrancas)} cobranças")
+print(
+    f"  {len(profiles)} devedores, {len(con_f)} faturas SPCF, {len(cobrancas)} cobranças"
+)
+
 
 # ============================================================
 # DADOS POR DEVEDOR
@@ -67,8 +82,19 @@ print(f"  {len(profiles)} devedores, {len(con_f)} faturas SPCF, {len(cobrancas)}
 def _match_clientes(sigla: str) -> list:
     """Retorna lista de clientes do DB que casam com a sigla via norm()."""
     variantes = norm_variants(sigla)
-    all_clients = [r[0] for r in DB.execute("SELECT DISTINCT cliente FROM spcf_empenhos UNION SELECT DISTINCT cliente FROM spcf_faturas").fetchall() if r[0]]
-    return [c for c in all_clients if norm(c) in variantes or any(v in norm(c) for v in variantes)]
+    all_clients = [
+        r[0]
+        for r in DB.execute(
+            "SELECT DISTINCT cliente FROM spcf_empenhos UNION SELECT DISTINCT cliente FROM spcf_faturas"
+        ).fetchall()
+        if r[0]
+    ]
+    return [
+        c
+        for c in all_clients
+        if norm(c) in variantes or any(v in norm(c) for v in variantes)
+    ]
+
 
 def coletar_dados(sigla: str, profile: dict) -> dict:
     # Use norm() para pegar todas as variantes do cliente (POLÍCIA CIVIL vs POLICIA CIVIL)
@@ -78,51 +104,67 @@ def coletar_dados(sigla: str, profile: dict) -> dict:
         sigla_q = sigla.upper()
         sigla_base = sigla_q.split("/")[0]
         placeholders = (f"%{sigla_q}%", f"%{sigla_base}%")
-        empenhos = DB.execute("""
+        empenhos = DB.execute(
+            """
             SELECT numero, contrato_ref, valor, situacao, data_emissao,
                    json_extract(dados_base, '$.Descrição') as descricao
             FROM spcf_empenhos
             WHERE UPPER(cliente) LIKE ? OR UPPER(cliente) LIKE ?
             ORDER BY data_emissao DESC
-        """, placeholders).fetchall()
-        faturas = DB.execute("""
+        """,
+            placeholders,
+        ).fetchall()
+        faturas = DB.execute(
+            """
             SELECT id, nf, contrato_num, valor_bruto, competencia, situacao,
                    cadeia_completude, total_empenhos_vinculados
             FROM spcf_faturas
             WHERE UPPER(cliente) LIKE ? OR UPPER(cliente) LIKE ?
             ORDER BY valor_bruto DESC
-        """, placeholders).fetchall()
+        """,
+            placeholders,
+        ).fetchall()
     else:
         # Busca exata pelos clientes casados via norm()
         cond = " OR ".join("cliente = ?" for _ in clientes_matched)
-        empenhos = DB.execute(f"""
+        empenhos = DB.execute(
+            f"""
             SELECT numero, contrato_ref, valor, situacao, data_emissao,
                    json_extract(dados_base, '$.Descrição') as descricao
             FROM spcf_empenhos WHERE {cond}
             ORDER BY data_emissao DESC
-        """, clientes_matched).fetchall()
-        faturas = DB.execute(f"""
+        """,
+            clientes_matched,
+        ).fetchall()
+        faturas = DB.execute(
+            f"""
             SELECT id, nf, contrato_num, valor_bruto, competencia, situacao,
                    cadeia_completude, total_empenhos_vinculados
             FROM spcf_faturas WHERE {cond}
             ORDER BY valor_bruto DESC
-        """, clientes_matched).fetchall()
+        """,
+            clientes_matched,
+        ).fetchall()
 
     # 3. Cobranças (em cobrancas.json) — usa norm()
     variantes_cob = norm_variants(sigla)
-    cobr = [r for r in cobrancas if norm(r.get("Cliente","")) in variantes_cob
-            or any(v in norm(r.get("Cliente","")) for v in variantes_cob)]
+    cobr = [
+        r
+        for r in cobrancas
+        if norm(r.get("Cliente", "")) in variantes_cob
+        or any(v in norm(r.get("Cliente", "")) for v in variantes_cob)
+    ]
 
     # 4. Agregações
     emp_stats = {
         "qtd": len(empenhos),
         "valor_total": sum(float(e[2] or 0) for e in empenhos),
-        "por_ano": {}
+        "por_ano": {},
     }
     for e in empenhos:
         data = e[4] or ""
         ano = data[-4:] if len(data) >= 10 else "?"
-        emp_stats["por_ano"].setdefault(ano, {"qtd":0, "valor":0})
+        emp_stats["por_ano"].setdefault(ano, {"qtd": 0, "valor": 0})
         emp_stats["por_ano"][ano]["qtd"] += 1
         emp_stats["por_ano"][ano]["valor"] += float(e[2] or 0)
 
@@ -133,21 +175,40 @@ def coletar_dados(sigla: str, profile: dict) -> dict:
 
     cobr_stats = {
         "qtd": len(cobr),
-        "valor_total": float(sum(brl(c.get("Valor","0")) for c in cobr)),
+        "valor_total": float(sum(brl(c.get("Valor", "0")) for c in cobr)),
     }
 
     return {
         "sigla": sigla,
         "profile": profile,
-        "empenhos": [{"numero":e[0],"contrato":e[1],"valor":float(e[2] or 0),
-                      "situacao":e[3],"data_emissao":e[4],"descricao":e[5]}
-                     for e in empenhos],
-        "faturas": [{"id":f[0],"nf":f[1],"contrato":f[2],"valor_bruto":float(f[3] or 0),
-                     "competencia":f[4],"situacao":f[5],"cadeia":f[6],"empenhos_vinc":f[7]}
-                    for f in faturas],
+        "empenhos": [
+            {
+                "numero": e[0],
+                "contrato": e[1],
+                "valor": float(e[2] or 0),
+                "situacao": e[3],
+                "data_emissao": e[4],
+                "descricao": e[5],
+            }
+            for e in empenhos
+        ],
+        "faturas": [
+            {
+                "id": f[0],
+                "nf": f[1],
+                "contrato": f[2],
+                "valor_bruto": float(f[3] or 0),
+                "competencia": f[4],
+                "situacao": f[5],
+                "cadeia": f[6],
+                "empenhos_vinc": f[7],
+            }
+            for f in faturas
+        ],
         "cobrancas": cobr,
-        "stats": {"empenhos":emp_stats, "faturas":fat_stats, "cobrancas":cobr_stats},
+        "stats": {"empenhos": emp_stats, "faturas": fat_stats, "cobrancas": cobr_stats},
     }
+
 
 # ============================================================
 # GERADORES DE FORMATO
@@ -223,6 +284,7 @@ _Gerado por `dossie_multiformato_devedor.py` em {HOJE.isoformat()}_
 """
     (pasta / "dossie.md").write_text(md, encoding="utf-8")
 
+
 def gerar_html(dados: dict, pasta: Path):
     p = dados["profile"]
     por_ano = dados["stats"]["empenhos"]["por_ano"]
@@ -294,9 +356,11 @@ new Chart(document.getElementById('empAno'),{{
 </body></html>"""
     (pasta / "dossie.html").write_text(html, encoding="utf-8")
 
+
 def gerar_json(dados: dict, pasta: Path):
     with open(pasta / "dossie.json", "w", encoding="utf-8") as fh:
         json.dump(dados, fh, ensure_ascii=False, indent=2, default=str)
+
 
 def gerar_csv(dados: dict, pasta: Path):
     csv_dir = pasta / "csv"
@@ -305,29 +369,70 @@ def gerar_csv(dados: dict, pasta: Path):
     # Resumo
     with open(csv_dir / "resumo.csv", "w", encoding="utf-8-sig", newline="") as fh:
         w = csv.writer(fh, delimiter=";")
-        w.writerow(["campo","valor"])
+        w.writerow(["campo", "valor"])
         p = dados["profile"]
-        for k in ["nome_completo","categoria","cnpj","forca_probatoria","proximo_passo",
-                  "val_exig","val_atualizado","faturas_exigiveis","faturas_prescritas",
-                  "faturas_total","p_recuperacao","indice_correcao"]:
-            w.writerow([k, p.get(k,"")])
+        for k in [
+            "nome_completo",
+            "categoria",
+            "cnpj",
+            "forca_probatoria",
+            "proximo_passo",
+            "val_exig",
+            "val_atualizado",
+            "faturas_exigiveis",
+            "faturas_prescritas",
+            "faturas_total",
+            "p_recuperacao",
+            "indice_correcao",
+        ]:
+            w.writerow([k, p.get(k, "")])
 
     # Empenhos
     with open(csv_dir / "empenhos.csv", "w", encoding="utf-8-sig", newline="") as fh:
         w = csv.writer(fh, delimiter=";")
-        w.writerow(["numero","contrato","data_emissao","valor","situacao","descricao"])
+        w.writerow(
+            ["numero", "contrato", "data_emissao", "valor", "situacao", "descricao"]
+        )
         for e in dados["empenhos"]:
-            w.writerow([e["numero"], e["contrato"], e["data_emissao"],
-                       str(e["valor"]).replace(".",","), e["situacao"], (e["descricao"] or "")[:200]])
+            w.writerow(
+                [
+                    e["numero"],
+                    e["contrato"],
+                    e["data_emissao"],
+                    str(e["valor"]).replace(".", ","),
+                    e["situacao"],
+                    (e["descricao"] or "")[:200],
+                ]
+            )
 
     # Faturas
     with open(csv_dir / "faturas.csv", "w", encoding="utf-8-sig", newline="") as fh:
         w = csv.writer(fh, delimiter=";")
-        w.writerow(["id","nf","contrato","competencia","valor_bruto","situacao","cadeia","empenhos_vinc"])
+        w.writerow(
+            [
+                "id",
+                "nf",
+                "contrato",
+                "competencia",
+                "valor_bruto",
+                "situacao",
+                "cadeia",
+                "empenhos_vinc",
+            ]
+        )
         for f in dados["faturas"]:
-            w.writerow([f["id"], f["nf"], f["contrato"], f["competencia"],
-                       str(f["valor_bruto"]).replace(".",","), f["situacao"],
-                       f["cadeia"], f["empenhos_vinc"]])
+            w.writerow(
+                [
+                    f["id"],
+                    f["nf"],
+                    f["contrato"],
+                    f["competencia"],
+                    str(f["valor_bruto"]).replace(".", ","),
+                    f["situacao"],
+                    f["cadeia"],
+                    f["empenhos_vinc"],
+                ]
+            )
 
     # Cobranças
     with open(csv_dir / "cobrancas.csv", "w", encoding="utf-8-sig", newline="") as fh:
@@ -336,7 +441,8 @@ def gerar_csv(dados: dict, pasta: Path):
             keys = [k for k in dados["cobrancas"][0] if not k.endswith("_link")]
             w.writerow(keys)
             for c in dados["cobrancas"]:
-                w.writerow([c.get(k,"") for k in keys])
+                w.writerow([c.get(k, "") for k in keys])
+
 
 def gerar_xlsx(dados: dict, pasta: Path):
     try:
@@ -345,35 +451,79 @@ def gerar_xlsx(dados: dict, pasta: Path):
         return False
     wb = Workbook()
     ws = wb.active
+    if ws is None:
+    ws = wb.create_sheet("Cenarios")
     ws.title = "Resumo"
     p = dados["profile"]
     ws.append(["Campo", "Valor"])
-    for k in ["sigla","nome_completo","categoria","cnpj","forca_probatoria","proximo_passo",
-              "val_exig","val_atualizado","faturas_exigiveis","faturas_prescritas",
-              "p_recuperacao","indice_correcao","data_prescricao_proxima"]:
-        ws.append([k, str(p.get(k,"") if k != "sigla" else dados["sigla"])])
+    for k in [
+        "sigla",
+        "nome_completo",
+        "categoria",
+        "cnpj",
+        "forca_probatoria",
+        "proximo_passo",
+        "val_exig",
+        "val_atualizado",
+        "faturas_exigiveis",
+        "faturas_prescritas",
+        "p_recuperacao",
+        "indice_correcao",
+        "data_prescricao_proxima",
+    ]:
+        ws.append([k, str(p.get(k, "") if k != "sigla" else dados["sigla"])])
 
     ws2 = wb.create_sheet("Empenhos")
-    ws2.append(["Numero","Contrato","Data","Valor","Situacao","Descricao"])
+    ws2.append(["Numero", "Contrato", "Data", "Valor", "Situacao", "Descricao"])
     for e in dados["empenhos"]:
-        ws2.append([e["numero"], e["contrato"], e["data_emissao"],
-                   float(e["valor"]), e["situacao"], (e["descricao"] or "")[:200]])
+        ws2.append(
+            [
+                e["numero"],
+                e["contrato"],
+                e["data_emissao"],
+                float(e["valor"]),
+                e["situacao"],
+                (e["descricao"] or "")[:200],
+            ]
+        )
 
     ws3 = wb.create_sheet("Faturas")
-    ws3.append(["ID","NF","Contrato","Competencia","ValorBruto","Situacao","Cadeia","EmpenhosVinc"])
+    ws3.append(
+        [
+            "ID",
+            "NF",
+            "Contrato",
+            "Competencia",
+            "ValorBruto",
+            "Situacao",
+            "Cadeia",
+            "EmpenhosVinc",
+        ]
+    )
     for f in dados["faturas"]:
-        ws3.append([f["id"], f["nf"], f["contrato"], f["competencia"],
-                   float(f["valor_bruto"]), f["situacao"], f["cadeia"], f["empenhos_vinc"]])
+        ws3.append(
+            [
+                f["id"],
+                f["nf"],
+                f["contrato"],
+                f["competencia"],
+                float(f["valor_bruto"]),
+                f["situacao"],
+                f["cadeia"],
+                f["empenhos_vinc"],
+            ]
+        )
 
     ws4 = wb.create_sheet("Cobrancas")
     if dados["cobrancas"]:
         keys = [k for k in dados["cobrancas"][0] if not k.endswith("_link")]
         ws4.append(keys)
         for c in dados["cobrancas"]:
-            ws4.append([str(c.get(k,""))[:500] for k in keys])
+            ws4.append([str(c.get(k, ""))[:500] for k in keys])
 
     wb.save(pasta / "dossie.xlsx")
     return True
+
 
 # ============================================================
 # MAIN
@@ -387,9 +537,13 @@ def gerar_devedor(sigla: str, profile: dict):
     gerar_json(dados, pasta)
     gerar_csv(dados, pasta)
     xlsx_ok = gerar_xlsx(dados, pasta)
-    return {"pasta": str(pasta), "xlsx": xlsx_ok,
-            "empenhos": dados["stats"]["empenhos"]["qtd"],
-            "faturas": dados["stats"]["faturas"]["qtd"]}
+    return {
+        "pasta": str(pasta),
+        "xlsx": xlsx_ok,
+        "empenhos": dados["stats"]["empenhos"]["qtd"],
+        "faturas": dados["stats"]["faturas"]["qtd"],
+    }
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
@@ -402,19 +556,24 @@ if __name__ == "__main__":
     if args.devedor:
         if args.devedor not in devedores_validos:
             print(f"Devedor '{args.devedor}' não encontrado. Disponíveis:")
-            for s in sorted(devedores_validos.keys()): print(f"  - {s}")
+            for s in sorted(devedores_validos.keys()):
+                print(f"  - {s}")
             sys.exit(1)
         r = gerar_devedor(args.devedor, devedores_validos[args.devedor])
         print(f"✅ {args.devedor}: {r}")
     else:
         total = len(devedores_validos)
-        print(f"Gerando dossiês para {total} devedores ({len(profiles)-total} entradas _metadata ignoradas)...")
+        print(
+            f"Gerando dossiês para {total} devedores ({len(profiles)-total} entradas _metadata ignoradas)..."
+        )
         ok = 0
         for sigla, p in devedores_validos.items():
             try:
                 r = gerar_devedor(sigla, p)
                 ok += 1
-                print(f"  [{ok}/{total}] {sigla}: {r['empenhos']} NEs, {r['faturas']} fat")
+                print(
+                    f"  [{ok}/{total}] {sigla}: {r['empenhos']} NEs, {r['faturas']} fat"
+                )
             except Exception as e:
                 print(f"  ERRO {sigla}: {e}")
         print(f"\n✅ {ok}/{total} dossiês gerados em {OUT}")

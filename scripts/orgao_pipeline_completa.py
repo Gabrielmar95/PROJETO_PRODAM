@@ -32,6 +32,11 @@ ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 from prodam_utils import norm, norm_variants, fmt_brl, parse_br_date, parse_comp, esta_prescrita
+from logging_config import get_logger
+_logger = get_logger(__name__)
+import os
+if os.environ.get("PRODAM_FREEZE_EMISSAO"):
+    sys.exit("[FREEZE] Emissão de peças bloqueada durante auditoria DE. Remover PRODAM_FREEZE_EMISSAO para destravar.")
 
 DOCS = ROOT / "PRODAM_DOCS"
 DB_PATH = ROOT / "prodam.db"
@@ -484,7 +489,8 @@ def fase3_ingest_contratos(out: Path, orgao: str) -> dict:
             try:
                 vn = float(str(v).replace(".","").replace(",","."))
                 if 10_000 <= vn <= 100_000_000: valores_num.append(vn)
-            except: pass
+            except Exception as e:
+                _logger.warning("parse valor contrato %s: %s", ref, e)
         valor_max = max(valores_num) if valores_num else None
         datas_ord = sorted(info["datas"])
         dados_base = {
@@ -574,7 +580,7 @@ def main():
         if folder.is_dir():
             for jf in folder.glob("*.json"):
                 try: all_jsons.append(json.loads(jf.read_text(encoding="utf-8")))
-                except: pass
+                except Exception as e: _logger.warning("JSON corrompido %s: %s", jf.name, e)
     por_cat = Counter(d.get("categoria","?") for d in all_jsons)
     por_ext = Counter(d.get("extensao") or Path(d.get("filename","")).suffix.lower() for d in all_jsons)
     por_tipo = Counter(d.get("campos_estruturados",{}).get("tipo_doc") or d.get("tipo_doc","?") for d in all_jsons)

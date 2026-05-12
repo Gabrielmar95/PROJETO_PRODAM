@@ -19,6 +19,10 @@ from collections import defaultdict
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from logging_config import get_logger
+_logger = get_logger(__name__)
+ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 import fitz
@@ -160,7 +164,7 @@ def processar_csv(csv_path, json_out):
         rows = []
         with open(csv_path, encoding="utf-8", errors="ignore") as f:
             try: rows = list(csv.DictReader(f, delimiter=";"))
-            except: pass
+            except Exception as exc: _logger.debug("CSV fallback para delimitador padrao %s: %s", csv_path.name, exc)
         if not rows:
             with open(csv_path, encoding="utf-8", errors="ignore") as f:
                 rows = list(csv.DictReader(f))
@@ -243,7 +247,7 @@ for folder in OUT.iterdir():
     if folder.is_dir():
         for jf in folder.glob("*.json"):
             try: all_jsons.append(json.loads(jf.read_text(encoding="utf-8")))
-            except: pass
+            except Exception as exc: _logger.warning("JSON corrompido %s: %s", jf.name, exc)
 
 master = {
     "data": date.today().isoformat(),

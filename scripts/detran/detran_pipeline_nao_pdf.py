@@ -25,6 +25,8 @@ ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 from prodam_utils import norm
+from logging_config import get_logger
+_logger = get_logger(__name__)
 
 SRC = ROOT / "PRODAM_DOCS" / "DETRAN_CONSOLIDADO"
 OUT = ROOT / "DETRAN_CONSOLIDADO_JSON"
@@ -323,7 +325,7 @@ for folder in OUT.iterdir():
     if folder.is_dir():
         for jf in folder.glob("*.json"):
             try: all_jsons.append(json.loads(jf.read_text(encoding="utf-8")))
-            except: pass
+            except Exception as exc: _logger.warning("JSON corrompido %s: %s", jf.name, exc)
 
 master["total_arquivos"] = len(all_jsons)
 master["data_atualizacao"] = date.today().isoformat()

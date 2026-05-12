@@ -32,6 +32,9 @@ from collections import defaultdict
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from logging_config import get_logger
+_logger = get_logger(__name__)
 
 DB_PATH = ROOT / "prodam.db"
 JSON_DIR = ROOT / "DETRAN_CONSOLIDADO_JSON" / "01_CONTRATOS"
@@ -147,7 +150,8 @@ for ref, info in sorted(agregado.items()):
             vn = float(str(v).replace(".","").replace(",","."))
             if 10_000 <= vn <= 100_000_000:  # filtro sanity
                 valores_num.append(vn)
-        except: pass
+        except Exception as exc:
+            _logger.warning("parse valor contrato: %s", exc)
     valor_max = max(valores_num) if valores_num else None
 
     # Datas
