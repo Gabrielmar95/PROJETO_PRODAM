@@ -44,7 +44,7 @@
 - `PRODAM_DOCS/_ANALISE/prodam.db` — DB **canônico** (gerado por `PRODAM_DOCS/build_sqlite.py`)
 - `prodam.db` (raiz) — cópia derivada, atualizada por `scripts/atualizar_db.py` (é a que `scripts/consultas.py` lê)
 - `PRODAM_DOCS/profiles.json` — SSOT dos devedores (fonte autoritativa)
-- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (20 subpastas; consultar ANTES de qualquer parecer)
+- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (18 subpastas; consultar ANTES de qualquer parecer)
 - `PRODAM_DOCS/_SKILLS/` — skills jurídicas pareadas
 - `SPCF_EXTRACAO/` — web scraping SPCF (rate-limit `time.sleep(1.5)` entre requisições)
 - `scripts/` — scripts Python principais (consultas, pipeline, dossiês, sync, auto-update)
@@ -69,7 +69,7 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 10. SELIC já inclui correção + juros — **NÃO** somar separado. IGPM = só correção (juros à parte)
 11. Art. 202 CC: interrupção ocorre **UMA VEZ** (unicidade — REsp 1.963.067/MS). Fazenda reinicia por metade (Decreto 20.910/1932 = 2,5 anos)
 12. Tema 1.109/STJ: gestor público **NÃO** renuncia tacitamente a prescrição
-13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator) <!-- auditado 2026-05-12: cascata propagada em 7 arquivos (11 ocorrências); regra #13 sem citações errôneas remanescentes em .md/.py do projeto -->
+13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator)
 
 14. Fee: **20%** sobre créditos recuperados (não 30%). RPV AM estadual = 20 salários mínimos (~R$ 32.420)
 15. `profiles.json` é a SSOT — NUNCA usar Demonstrativo Excel antigo
@@ -78,12 +78,12 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 18. NUNCA emita opinião jurídica sem consultar `REFERENCIA_JURIDICA/` antes
 
 ## HIERARQUIA DE FONTES JURÍDICAS (consultar nessa ordem)
-1. **Nota Metodológica** (`PRODAM_DOCS/REFERENCIA_JURIDICA/01_NOTA_METODOLOGICA/`) — corrige todos os demais
+1. **Nota Metodológica** (`PRODAM_DOCS/REFERENCIA_JURIDICA/09_NOTA_METODOLOGICA/`) — corrige todos os demais
 2. **Estudo Consolidado** (002/2026) — adaptado ao contrato atual
 3. **Estudo Exaustivo** — matriz genérica com minutas
 4. **Pesquisa Jurisprudencial** — STJ/STF/TJAM (usar só precedentes verificados)
 5. **Extração Contratual** — cláusula a cláusula dos contratos dos devedores
-6. `REFERENCIA_JURIDICA/` (20 subpastas) — SSOT jurídica, ANTES de qualquer tarefa
+6. `REFERENCIA_JURIDICA/` (18 subpastas) — SSOT jurídica, ANTES de qualquer tarefa
 
 ## BENCHMARK AUDITORIA — DETRAN/AM (referência A+)
 - **Score composto:** 94,0/100 → A+ (EXCEPCIONAL)
@@ -93,22 +93,8 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 - **Índices mapeados:** IGPM (7 contratos) + IPCA (3 contratos)
 - **Valor contratual total:** R$ 244,46M | Exigível: R$ 31,7M
 
-### Distribuição DETRAN por formato
-| Formato | Arquivos | Uso |
-|---------|----------|-----|
-| PDF | 3.631 | Documentos originais (contratos, NEs, faturas, cobranças) |
-| JSON | 1.698 | Textos extraídos + campos estruturados p/ LLM |
-| HTML | 1.428 | Scraping SPCF + dashboards |
-| CSV | 861 | Dados tabulares (prescrição, inadimplentes, pagamentos) |
-| MD | 222 | Relatórios + documentação |
-| TXT | 209 | Texto bruto + logs |
-| XLSX | 90 | Planilhas auditoria |
-| PY | 34 | Scripts reutilizáveis |
-| DOCX | 17 | Cartas + minutas |
-| JSONL | 8 | Corpora RAG/LLM |
-
 ## PLAYBOOK REPLICÁVEL (outros órgãos)
-Ver `PLAYBOOK_ORGAOS_V2.md` (passo-a-passo completo)
+Ver `relatorios\PLAYBOOK_ORGAOS_V2.md` (passo-a-passo completo)
 
 ### Comando único
 ```powershell
@@ -122,7 +108,7 @@ py -3.12 scripts\orgao_pipeline_completa.py --orgao SEDUC
 4. SSP (R$ 4,6M) | FORTE | F5 — PROTOCOLAR
 5. SEAD (R$ 2,3M) | FORTE | F3 — ENVIAR_TRD
 
-## SCRIPTS PRINCIPAIS (em `scripts/` — fix 2026-04-22)
+## SCRIPTS PRINCIPAIS (em `scripts/`)
 | Script | Função |
 |--------|--------|
 | `scripts/prodam_utils.py` | `norm()` unidecode + `brl()` + datas + `match_flex` |
@@ -204,8 +190,6 @@ Regra agnóstica de plugin — vale para **qualquer skill, atual ou futura**, in
 
 Fundamento: memórias persistentes `feedback_modo_manual_juridico` + `feedback_parecer_humano_areas_nao_curadas`.
 
-**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; hook `backup-claude-md.ps1` cria snapshot adicional pré-edição como safety net intra-sessão).
-
 ## ABRIR O prodam.db SEM CÓDIGO
 ```powershell
 # Datasette (web UI):
@@ -243,9 +227,9 @@ Inspecionar `Projeto_PRODAM__config_prodam__from_Projeto_PRODAM.py` antes de A/B
 |---------|-------------|
 | `LEIAME.md` | Mapa de navegação curto: 3 pastas ativas, fontes canônicas, comandos para abrir o DB |
 | `PRODAM_DOCS\CLAUDE.md` | Detalhe OCR v4 + 78 pastas `_CONSOLIDADO` + dossiês multi-formato + reorganização Desktop |
-| `PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |
+| `relatorios\PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |
 | `.claude\napkin.md` | Regras priorizadas (curated runbook re-priorizado a cada leitura) |
 | `HISTORICO_SESSOES.md` | Decisões recentes — **histórico, pode estar desatualizado** |
-| `PRODAM_DOCS\REFERENCIA_JURIDICA\01_NOTA_METODOLOGICA\` | Corrige todos os demais estudos jurídicos |
-| `PRODAM_DOCS\REFERENCIA_JURIDICA\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |
+| `PRODAM_DOCS\REFERENCIA_JURIDICA\09_NOTA_METODOLOGICA\` | Corrige todos os demais estudos jurídicos |
+| `PRODAM_DOCS\REFERENCIA_JURIDICA\11_PESQUISAS_ORIGINAIS\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |
 
