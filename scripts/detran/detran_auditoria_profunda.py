@@ -25,7 +25,7 @@ from datetime import date, datetime, timedelta
 from decimal import Decimal
 from collections import defaultdict, Counter
 
-sys.stdout.reconfigure(encoding='utf-8')
+sys.stdout.reconfigure(encoding='utf-8')  # type: ignore[attr-defined]
 ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -33,6 +33,8 @@ from prodam_utils import (
     norm, norm_variants, brl, fmt_brl, parse_br_date, parse_comp,
     esta_prescrita, load_profiles
 )
+from logging_config import get_logger
+_logger = get_logger(__name__)
 
 DB = sqlite3.connect(str(ROOT / "prodam.db"))
 DB.row_factory = sqlite3.Row
@@ -103,7 +105,8 @@ for e in empenhos:
         try:
             dbase = _j.loads(DB.execute("SELECT dados_base FROM spcf_empenhos WHERE id=?", (e["id"],)).fetchone()["dados_base"])
             contrato = (dbase.get("Contrato") or dbase.get("Convenio") or "").strip()
-        except: pass
+        except Exception as exc:
+            _logger.warning("parse dados_base empenho %s: %s", e.get("id", "?"), exc)
     if not contrato: contrato = "(sem contrato)"
 
     data = parse_br_date(e.get("data_emissao"))
@@ -222,7 +225,6 @@ atualizacoes = []
 for f in sorted(faturas, key=lambda x: -(float(x["valor_bruto"] or 0)))[:30]:
     upd = atualizar_detran(float(f["valor_bruto"] or 0), f["competencia"])
     upd["id"] = f["id"]
-    upd["comp"] = f["competencia"]
     atualizacoes.append(upd)
 
 total_bruto = sum(float(f["valor_bruto"] or 0) for f in faturas)
