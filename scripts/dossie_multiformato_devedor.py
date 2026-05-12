@@ -452,7 +452,7 @@ def gerar_xlsx(dados: dict, pasta: Path):
     wb = Workbook()
     ws = wb.active
     if ws is None:
-    ws = wb.create_sheet("Cenarios")
+        ws = wb.create_sheet("Cenarios")
     ws.title = "Resumo"
     p = dados["profile"]
     ws.append(["Campo", "Valor"])
