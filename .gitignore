@@ -34,6 +34,9 @@ ses_susam_faturas_cruzamento.json
 ses_susam_exigiveis_drill.json
 SKILLS_PATHS_DESATUALIZADOS.md
 
+# Triagem prescricional — sigilo OAB Art. 7º XIX
+PRODAM_DOCS/_QUESTOES_CRITICAS/auditoria_DE_2026-05-12/
+
 # Backups
 *.bak
 *.bkp
@@ -122,3 +125,7 @@ node_modules/
 *.bak-*
 *.bak.*
 _AUDITORIA_FISICA/
+
+token.txt
+*.token
+*.secret

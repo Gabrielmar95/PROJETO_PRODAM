@@ -12,6 +12,9 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from datetime import datetime
 import os
+import sys
+if os.environ.get("PRODAM_FREEZE_EMISSAO"):
+    sys.exit("[FREEZE] Emissão de peças bloqueada durante auditoria DE. Remover PRODAM_FREEZE_EMISSAO para destravar.")
 
 # ============================================================================
 # CONFIGURAÇÃO

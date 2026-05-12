@@ -121,7 +121,7 @@ A interrupção da prescrição só pode ocorrer **UMA VEZ** (Art. 202, caput, C
 | Via | Faturas | Valor | Fundamento |
 |-----|---------|-------|------------|
 | **EXECUÇÃO A** (Contrato PDF + NE PDF) | 5 | R$ 1.106.363,69 | Art. 784, II/III CPC — título executivo pleno |
-| **EXECUÇÃO B** (Composição documental) | 188 | R$ 22.613.291,69 | REsp 793.969/RJ (Rel. Teori Zavascki) — NE+NL+Fatura |
+| **EXECUÇÃO B** (Composição documental) | 188 | R$ 22.613.291,69 | REsp 793.969/RJ (Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido) — NE+NL+Fatura |
 | **MONITÓRIA** (Sem NE) | 8 | R$ 3.534.778,82 | Art. 700 CPC + Súmula 339/STJ |
 | *Prescritas excluídas* | 1 | — | *Não executável* |
 | **TOTAL** | **201** | **R$ 27.254.434,20** | — |
@@ -189,7 +189,7 @@ A interrupção da prescrição só pode ocorrer **UMA VEZ** (Art. 202, caput, C
 | **"Prescrição"** | 179 faturas exigíveis dentro do prazo. 54 prescritas já excluídas. Memorial de cálculo separado. |
 | **"Serviço não prestado"** | 284 pagamentos parciais demonstram aceitação dos serviços. Contratos com aditivos de prorrogação confirmam continuidade. |
 | **"Excesso de execução"** | Índice IGPM + 1% + 2% previsto no CT 022/2014, cláusula 11.1. Cálculo com API BCB (séries oficiais). |
-| **"Ausência de título"** | REsp 793.969/RJ (Rel. Teori Zavascki): composição NE+Fatura forma título. Art. 784, §4º CPC: documentos eletrônicos ICP-Brasil dispensam testemunhas. |
+| **"Ausência de título"** | REsp 793.969/RJ (Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido): composição NE+Fatura forma título. Art. 784, §4º CPC: documentos eletrônicos ICP-Brasil dispensam testemunhas. |
 | **"Compensação com valores pagos"** | Memorial já deduz R$ 1.263.717,76 de pagamentos parciais. Saldo real = R$ 21.434.211,45. |
 | **"Nulidade contratual/licitação"** | 16 contratos com 31 aditivos de prorrogação celebrados pelo próprio DETRAN = venire contra factum proprium (Art. 422 CC). |
 
@@ -310,7 +310,7 @@ A interrupção da prescrição só pode ocorrer **UMA VEZ** (Art. 202, caput, C
 
 ### 10.2. Fundamentação
 
-- **Título:** Art. 784, II e III, CPC + REsp 793.969/RJ (Rel. Teori Zavascki) — composição documental (NE + Fatura atestada)
+- **Título:** Art. 784, II e III, CPC + REsp 793.969/RJ (Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido) — composição documental (NE + Fatura atestada)
 - **Regime:** Art. 910, CPC — execução contra Fazenda
 - **Correção:** IGPM + 1% a.m. + 2% multa — Cláusula 11.1, CT 022/2014
 - **Reconhecimento:** 286 evidências (284 pagamentos parciais + 2 RAP) — Art. 202, VI, CC
@@ -345,7 +345,7 @@ A interrupção da prescrição só pode ocorrer **UMA VEZ** (Art. 202, caput, C
 - **REFERENCIA_JURIDICA/01_TITULO_EXECUTIVO/** — Consolidado 53 docs
 - **REFERENCIA_JURIDICA/02_PRESCRICAO/** — Consolidado 45 docs
 - **REFERENCIA_JURIDICA/04_EXECUCAO_FAZENDA/** — Consolidado 37 docs
-- **PRECEDENTES VERIFICADOS:** REsp 793.969/RJ (Rel. Teori Zavascki), Súmula 339/STJ, Art. 784 §4º CPC (Lei 14.620/2023)
+- **PRECEDENTES VERIFICADOS:** REsp 793.969/RJ (Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido), Súmula 339/STJ, Art. 784 §4º CPC (Lei 14.620/2023)
 - **API BCB:** Séries 4390 (SELIC) e 189 (IGPM) — cálculo em 08/04/2026
 
 ---

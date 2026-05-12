@@ -1,5 +1,32 @@
 # Histórico de Sessões — PROJETO PRODAM
 
+## 2026-05-11 — Ciclo de 3 edits no KNOWLEDGE_BASE_JURIDICO.md (errata jurídica + RPV auto-atualizável + config_prodam.py fantasma)
+
+### Resumo
+- **Edit 1** — REsp 793.969/RJ corrigido em **6 linhas** (37, 48, 303, 335, 371, 434). Padrão canônico adotado: `Rel. Min. Teori Zavascki (vencido), Rel. p/ acórdão Min. José Delgado`. Anti-alucinação ativa (que sugeria "Teori venceu") resolvida.
+- **Edit 2** — Teto RPV-AM convertido de valor fixo (R$ 32.420) para fórmula auto-atualizável (`20 × SM vigente`) em **6 trechos** (3 callouts via `replace_all` + tabela + bullet canônica + errata). Documento agora resistente a reajuste anual do SM. Lei AM 2.748/2002 mantida como anchor legal.
+- **Edit 3** — DETRAN "IGPM+1%+2%" endurecido como `(a confirmar); carece de auditoria contratual antes de citar em peça`. `config_prodam.py` documentado in-loco como **fantasma documental** (~232 referências no ecossistema, **NÃO EXISTE no disco**). SSOTs reais declaradas: `normalizador.py` (mapa contrato/ano → regime) e `gerar_memorial.py` (taxas vivas API BCB).
+
+### Métricas
+- Arquivo: 28.795 → 30.184 bytes (+1.389; +4,82%); 470 → 476 linhas.
+- 15 trechos corrigidos em 10 operações de Edit.
+- 3 backups granulares preservados (rollback por bloco).
+
+### Backups preservados em `PRODAM_DOCS/REFERENCIA_JURIDICA/00_KNOWLEDGE_BASE/`
+- `KNOWLEDGE_BASE_JURIDICO.md.bak-20260511-edit1` — 28.795 bytes — pré-todas-as-edições
+- `KNOWLEDGE_BASE_JURIDICO.md.bak-20260511-edit2` — 29.262 bytes — pós-Edit 1 / pré-Edit 2
+- `KNOWLEDGE_BASE_JURIDICO.md.bak-20260511-edit3` — 29.560 bytes — pós-Edit 2 / pré-Edit 3
+
+### Pendências em aberto
+- **`auto_update_claude_md.py` adiado** para próximo ciclo natural. Script é all-or-nothing — apagaria o bloco "DECISÃO PENDENTE config_prodam.py" do CLAUDE.md gerado. Antes de rodar: implementar `--preserve-manual-blocks` ou migrar o bloco para `_QUESTOES_CRITICAS/`.
+- **`config_prodam.py`** — decisão definitiva A/B/C/X pendente (criar com auditoria vs deprecar formalmente as ~232 referências). KNOWLEDGE_BASE já não cita como SSOT; falta decisão estratégica.
+- **Padronizar frase do gate** — divergência: SAFEGUARD global (`~/.claude/CLAUDE.md` topo) usa **"OK, prosseguir"**; Gate jurídico do projeto (mesma `~/.claude/CLAUDE.md`, seção mais abaixo) usa **"OK, salvar"**. Padronizar em sessão futura.
+
+### Detalhe completo
+`relatorios/CHANGELOG_SESSAO_2026-05-11_kb_juridico_3edits.md`
+
+---
+
 ## 2026-04-24 — Otimização da description da skill `extracao-clausulas-contratuais`
 
 ### O que foi feito

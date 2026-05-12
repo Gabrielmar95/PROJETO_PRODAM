@@ -107,7 +107,7 @@ Para executar um crédito judicialmente, cada fatura precisa de 5 elos:
 | MÉDIA | 75 | R$ 731.958,27 | MONITÓRIA |
 | FRACA | 2 | ~R$ 0 | COBRANÇA extrajudicial |
 
-**Referência jurídica**: REsp 793.969/RJ (Min. Teori Zavascki — NÃO Luiz Fux)
+**Referência jurídica**: REsp 793.969/RJ (Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido — NÃO Luiz Fux)
 → NE + NF + Atesto = composição de título executivo extrajudicial.
 
 ---
@@ -221,7 +221,7 @@ Aplicá-las é **obrigatório** — contradizê-las é erro.
 |------|--------|---------|
 | Fee | 30% | **20%** |
 | RPV AM estadual | 60 SM (federal) | **20 SM = R$ 32.420** |
-| REsp 793.969/RJ relator | Luiz Fux | **Teori Zavascki** |
+| REsp 793.969/RJ relator | Luiz Fux | **José Delgado p/ acórdão (Teori Zavascki foi vencido)** |
 | Interrupção prescrição | Múltiplas vezes | **UMA VEZ (Art. 202 caput CC)** |
 | Tema 1.109/STJ | Gestor renuncia tacitamente | **NÃO renuncia** |
 | Decreto substituição | 51.084/2025 | **53.464/2026** (NÃO CONFIRMADO — não usar sem verificar) |

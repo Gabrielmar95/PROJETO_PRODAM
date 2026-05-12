@@ -79,11 +79,12 @@ Distribuição por ano:
 
 ## Observações do Profile
 
-102 evidências reconhecimento. Of. 129/2021 expira ~13/05/2026
+<!-- corrigido 2026-05-10 via cascata profiles.json — fundamento PASSO6 (Of. 129/2021 reclassificado: ato do credor não interrompe prescrição) -->
+102 evidências reconhecimento. Of. 129/2021 reclassificado em PASSO6 (Sessão 52, 05/04/2026): ato do credor não interrompe prescrição (Art. 202 VI CC; REsp 793.969/RJ; KB v2.1). Próxima prescrição real = 2026-08-31 (5 faturas, D+113 base 10/05/2026).
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-05-13**
+- Data próxima prescrição: **2026-08-31** <!-- corrigido 2026-05-10 via cascata profiles.json — fundamento PASSO6 -->
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 

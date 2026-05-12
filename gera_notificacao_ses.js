@@ -3,6 +3,15 @@ const fs = require('fs');
 const path = require('path');
 const { Document, Packer, Paragraph, TextRun, AlignmentType, HeadingLevel } = require('docx');
 
+// ============================================================
+// BLOQUEIO MANUAL — adicionado em 2026-05-10
+// Motivo: numeração "NOT/001/2026" hardcoded colide com a NE 001/2026
+// DETRAN já protocolada via ICP-Brasil em 20/04/2026.
+// Para destravar: substituir todas as ocorrências de "NOT/001/2026"
+// por numeração SES não conflitante e remover este bloqueio.
+// ============================================================
+throw new Error("[BLOQUEADO] Numeração NOT/001/2026 colide com NE DETRAN. Ver bloco de comentário no topo do arquivo.");
+
 const profilesPath = "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\profiles.json";
 const outputDir = "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_SKILLS\\dossie-juridico-prodam-workspace\\iteration-1\\eval-2-notificacao-ses\\with_skill\\outputs";
 const outputFile = path.join(outputDir, "NOT_SES_SUSAM_001_2026.docx");
@@ -219,7 +228,7 @@ const paragrafos = [
   new Paragraph({
     children: [
       new TextRun({ text: "2. ", bold: true }),
-      new TextRun("Perda da prescrição: caso o prazo de prescrição se complete (13/05/2026), PRODAM perderia todo e qualquer direito de cobrança, sem direito a regressão.")
+      new TextRun("Perda da prescrição: caso o prazo de prescrição se complete (31/08/2026), PRODAM perderia todo e qualquer direito de cobrança, sem direito a regressão.")
     ],
     spacing: { after: 150 },
     alignment: AlignmentType.JUSTIFIED,

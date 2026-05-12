@@ -18,7 +18,7 @@
     "regime_execucao": "precatorio_rpv",
     "titulo_executivo": false,
     "status": "TRD pronto",
-    "observacoes": "102 evidências reconhecimento. Of. 129/2021 expira ~13/05/2026",
+    "observacoes": "102 evidências reconhecimento. Of. 129/2021 reclassificado em PASSO6 (Sessão 52, 05/04/2026): ato do credor não interrompe prescrição (Art. 202 VI CC; REsp 793.969/RJ; KB v2.1). Próxima prescrição real = 2026-08-31 (5 faturas, D+113 base 10/05/2026). Correção 2026-05-10 via cascata profiles.json — fundamento PASSO6.",
     "forca_probatoria": "FORTE",
     "modelo_notificacao": "A",
     "reconhecimento_revisado": {
@@ -51,7 +51,7 @@
     "cenario_monte_carlo_p50": "7796515.65",
     "valor_recuperado": "0",
     "data_protocolo": null,
-    "data_prescricao_proxima": "2026-05-13",
+    "data_prescricao_proxima": "2026-08-31",
     "prioridade_rank": 3,
     "blindagem_resultado": {
       "data": "2026-03-27",

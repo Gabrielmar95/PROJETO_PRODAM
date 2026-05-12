@@ -38,7 +38,7 @@
 - POLÍCIA CIVIL: R$ 960.481,71 | MÉDIA | ANALISAR_DOCUMENTACAO
 
 ## ALERTAS DE PRESCRIÇÃO (<90 dias)
-- 🔴 SES/SUSAM: 2026-05-13 (5 dias) — R$ 14.748.048,96
+- 🟡 SES/SUSAM: 2026-08-31 (113 dias) — R$ 14.748.048,96 <!-- corrigido 2026-05-10 via cascata profiles.json — fundamento PASSO6 (Of. 129/2021 reclassificado: ato do credor não interrompe prescrição) -->
 
 ## ESTRUTURA DO PROJETO
 - `PRODAM_DOCS/_ANALISE/prodam.db` — DB **canônico** (gerado por `PRODAM_DOCS/build_sqlite.py`)
@@ -60,6 +60,7 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 2. Silêncio do devedor **NÃO** interrompe prescrição — exige ato inequívoco (Art. 202 CC taxativo)
 3. Juros pós-**Lei 14.905/2024** — NÃO presumir 1% a.m.; verificar arts. 404-406 CC
 4. Índices: consultar `config_prodam.py` — SELIC padrão, FUHAM=IGPM, DETRAN=IGPM+1%+2% (PRESUMIDO)
+   ⚠️ `config_prodam.py` referenciado em ~30 lugares mas NÃO EXISTE no disco em 2026-05-10. NÃO criar sem auditoria prévia (issue aberta).
 5. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF)
 6. NFs do credor **NÃO** são marcos interruptivos (exige ato do devedor)
 7. Prescrição é por **FATURA individual** (Art. 189 + 206 §5º I CC), contada do **VENCIMENTO**
@@ -68,7 +69,8 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 10. SELIC já inclui correção + juros — **NÃO** somar separado. IGPM = só correção (juros à parte)
 11. Art. 202 CC: interrupção ocorre **UMA VEZ** (unicidade — REsp 1.963.067/MS). Fazenda reinicia por metade (Decreto 20.910/1932 = 2,5 anos)
 12. Tema 1.109/STJ: gestor público **NÃO** renuncia tacitamente a prescrição
-13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator)
+13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator) <!-- auditado 2026-05-12: cascata propagada em 7 arquivos (11 ocorrências); regra #13 sem citações errôneas remanescentes em .md/.py do projeto -->
+
 14. Fee: **20%** sobre créditos recuperados (não 30%). RPV AM estadual = 20 salários mínimos (~R$ 32.420)
 15. `profiles.json` é a SSOT — NUNCA usar Demonstrativo Excel antigo
 16. Valores monetários: **Decimal**, nunca float. Formato BRL: `R$ 1.234,56`
@@ -213,6 +215,28 @@ datasette serve "PRODAM_DOCS\_ANALISE\prodam.db" --open
 duckdb -c "SELECT * FROM spcf_faturas WHERE cliente='SEDUC' LIMIT 10" "PRODAM_DOCS\_ANALISE\prodam.db"
 ```
 Beekeeper Studio: File → Open → escolher `PRODAM_DOCS\_ANALISE\prodam.db`.
+
+## DECISÃO PENDENTE — `config_prodam.py` (aberto 2026-05-11)
+> Bloco manual. Será sobrescrito se `auto_update_claude_md.py` rodar — replicar no gerador após decisão final.
+
+### Inventário (Investigação D — 2026-05-11)
+- **Escopo do ghost**: 232 arquivos em `~/.claude` referenciam `config_prodam.py` (~40 skills + scripts de sync/test). Arquivo **nunca criado**.
+- **Salvaguardas durables já aplicadas**: Regra 4 acima + `scripts/auto_update_claude_md.py` linhas 159/169 (2026-05-11).
+- **SSOT real descoberta**:
+  - **Tipo de índice por contrato** → `~/.claude/skills/.../normalizador.py`
+  - **Tipo de índice por devedor** → `profiles.json` campo `indice_correcao`
+  - **Taxas vivas (SELIC/IGPM/IPCA/INPC)** → BCB live API via `~/.claude/skills/memorial-calculo-prodam/scripts/gerar_memorial.py` (cache 24h, Decimal, fail-fast)
+  - **Valores absolutos (SM/RPV/custas)** → sem SSOT consolidada; hoje inline em scripts (SM 1.621 em `corrigir_skills_prodam.py`)
+- **Achado lateral**: `PRODAM_DOCS/_SCRIPTS_IMPORTADOS/Projeto_PRODAM__config_prodam__from_Projeto_PRODAM.py` (legado, sem callers — pode ser esqueleto importado ou lixo).
+
+### Opções formalizadas
+- **A — Criar** `config_prodam.py` com valores verificados (SELIC, IGPM, RPV/AM, custas). Resolve 232 deps em 1 ação. **Risco**: 2º ponto de manutenção (já existem normalizador.py + profiles.json + BCB live).
+- **B — Apontar** as 232 referências para a SSOT real. Trabalhoso (mesmo só ~40 skills ativas + 2 scripts críticos). Sessão dedicada.
+- **C — Deletar** as referências. Cada skill consulta `normalizador.py` inline. Custo similar a B.
+- **X — Status quo formalizado**. Não criar; manter como contra-exemplo. Salvaguarda já está em Regra 4 + `auto_update_claude_md.py`.
+
+### Pré-decisão pendente
+Inspecionar `Projeto_PRODAM__config_prodam__from_Projeto_PRODAM.py` antes de A/B/C/X — pode mudar o peso A vs B/C/X se for esqueleto reaproveitável.
 
 ## OUTROS MAPAS DO PROJETO (consultar quando relevante)
 | Arquivo | O que cobre |

@@ -27,7 +27,7 @@ Isso garante que métricas, alertas e pipeline estejam atualizados.
 REGRA 4 — CORREÇÕES VERIFICADAS:
 - Fee: 20% (não 30%)
 - RPV AM estadual: 20 SM / R$ 32.420 (não 60 SM federal)
-- REsp 793.969/RJ relator: Teori Zavascki (não Luiz Fux)
+- REsp 793.969/RJ relator: José Delgado p/ acórdão (Teori Zavascki foi vencido, não Luiz Fux)
 - Tema 1.109/STJ: gestor NÃO renuncia tacitamente a prescrição
 - Art. 202 CC: interrupção só ocorre UMA VEZ (unicidade)
 - Decreto 53.464/2026 (NÃO CONFIRMADO — não usar sem verificar)

@@ -92,7 +92,7 @@
 | MÉDIA | 0 | 0% |
 | FRACA | 0 | 0% |
 
-> **Implicação:** **100% das 113 faturas do DB** têm cadeia executável (FORTE ou COMPLETA), configurando título executivo extrajudicial nos termos do REsp 793.969/RJ (Min. Teori Zavascki).
+> **Implicação:** **100% das 113 faturas do DB** têm cadeia executável (FORTE ou COMPLETA), configurando título executivo extrajudicial nos termos do REsp 793.969/RJ (Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido).
 
 ---
 

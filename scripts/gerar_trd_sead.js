@@ -1,3 +1,7 @@
+if (process.env.PRODAM_FREEZE_EMISSAO) {
+    console.error("[FREEZE] Emissão de peças bloqueada durante auditoria DE. Remover PRODAM_FREEZE_EMISSAO para destravar.");
+    process.exit(1);
+}
 const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell,
          AlignmentType, WidthType, BorderStyle, ShadingType, PageBreak, HeadingLevel } = require('docx');
 const fs = require('fs');
