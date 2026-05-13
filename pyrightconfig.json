@@ -1,0 +1,20 @@
+{
+    "include": [
+        "skills/atualizacao-monetaria-creditos/**",
+        "skills/normalizador-valores-brl/**",
+        "pipeline_integrada_prodam.py"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "**/.venv",
+        "**/_ARCHIVE/**"
+    ],
+    "typeCheckingMode": "standard",
+    "reportGeneralTypeIssues": "error",
+    "reportOptionalMemberAccess": "error",
+    "reportMissingImports": "error",
+    "reportMissingTypeStubs": "none",
+    "pythonVersion": "3.12",
+    "pythonPlatform": "Windows"
+}
