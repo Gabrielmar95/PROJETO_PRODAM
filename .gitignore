@@ -129,3 +129,39 @@ _AUDITORIA_FISICA/
 token.txt
 *.token
 *.secret
+
+# === Acréscimos 13/05/2026 — pós-instalação Git ===
+# Pasta _BACKUPS (plural) — snapshots locais
+_BACKUPS/
+
+# Pastas de trabalho interno e sessão
+_ARQUIVO_*/
+_SESSAO/
+_SKILLS_NOVAS_*/
+_QUESTOES_CRITICAS/
+_DIAGNOSTICO_*.md
+.continue-here.md
+
+# Backups de bancos e profiles
+prodam_BAK_*.db
+profiles_PRE-*.json
+
+# Scripts temporários e lixo do Windows
+_tmp_*.py
+*.untracked-bak-*
+nul
+
+# Outputs regeneráveis
+DIAGNOSTICO_PASTA_MAE.*
+profile_pasta_mae.json
+insights_consolidados.json
+insights_devedores.csv
+profiles_resumo.csv
+
+# Pastas pesadas e com dados sensíveis (revisar depois com calma)
+DOCUMENTOS_GERADOS/DETRAN/
+DETALHAMENTO_FATURAS/
+DETRAN_AUDITORIA_COMPLETA/
+OCR_PESQUISAVEL_CONSOLIDADO/
+detran_dashboard/
+docs/
