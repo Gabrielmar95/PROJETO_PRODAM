@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-**Atualizado automaticamente em 08/05/2026 23:25 via auto_update_claude_md.py**
+**Atualizado automaticamente em 13/05/2026 00:25 via auto_update_claude_md.py**
 
 ## IDENTIDADE
 - **Advogado**: Gabriel Mar (OAB/AM 15.697)
@@ -12,8 +12,8 @@
 
 ## MÉTRICAS DO PORTFÓLIO
 - 70 devedores (26 Gov Direta, 21 Gov Indireta, 22 Privadas)
-- R$ 93.632.770,88 exigível | R$ 160.936.948,41 atualizado
-- 3497 faturas (2412 exigíveis, 1085 prescritas)
+- R$ 83.668.078,44 exigível | R$ 125.245.390,64 atualizado
+- 3477 faturas (2326 exigíveis, 1082 prescritas)
 - Força: 12 FORTE, 15 MÉDIA, 42 FRACA
 
 ## PIPELINE POR PRÓXIMO PASSO
@@ -27,7 +27,7 @@
 
 ## TOP 10 DEVEDORES (por valor exigível)
 - SEDUC: R$ 49.215.512,48 | FORTE | ANALISAR_DOCUMENTACAO
-- SES/SUSAM: R$ 14.748.048,96 | FORTE | ENVIAR_TRD
+- SES/SUSAM: R$ 4.783.356,52 | FORTE | ENVIAR_TRD
 - SSP: R$ 4.553.230,80 | FORTE | PROTOCOLAR_PETICAO
 - SEJUSC: R$ 2.589.660,12 | MÉDIA | ANALISAR_DOCUMENTACAO
 - SEAD: R$ 2.339.702,20 | FORTE | ENVIAR_TRD
@@ -38,13 +38,13 @@
 - POLÍCIA CIVIL: R$ 960.481,71 | MÉDIA | ANALISAR_DOCUMENTACAO
 
 ## ALERTAS DE PRESCRIÇÃO (<90 dias)
-- 🟡 SES/SUSAM: 2026-08-31 (113 dias) — R$ 14.748.048,96 <!-- corrigido 2026-05-10 via cascata profiles.json — fundamento PASSO6 (Of. 129/2021 reclassificado: ato do credor não interrompe prescrição) -->
+- 🟠 SSP: 2026-06-30 (48 dias) — R$ 4.553.230,80
 
 ## ESTRUTURA DO PROJETO
 - `PRODAM_DOCS/_ANALISE/prodam.db` — DB **canônico** (gerado por `PRODAM_DOCS/build_sqlite.py`)
 - `prodam.db` (raiz) — cópia derivada, atualizada por `scripts/atualizar_db.py` (é a que `scripts/consultas.py` lê)
 - `PRODAM_DOCS/profiles.json` — SSOT dos devedores (fonte autoritativa)
-- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (18 subpastas; consultar ANTES de qualquer parecer)
+- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (20 subpastas; consultar ANTES de qualquer parecer)
 - `PRODAM_DOCS/_SKILLS/` — skills jurídicas pareadas
 - `SPCF_EXTRACAO/` — web scraping SPCF (rate-limit `time.sleep(1.5)` entre requisições)
 - `scripts/` — scripts Python principais (consultas, pipeline, dossiês, sync, auto-update)
@@ -59,8 +59,7 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 1. **Decreto Estadual nº 53.464/2026** (substitui 51.084/2025) — verificar 4 exceções antes de qualquer ação contra Gov AM
 2. Silêncio do devedor **NÃO** interrompe prescrição — exige ato inequívoco (Art. 202 CC taxativo)
 3. Juros pós-**Lei 14.905/2024** — NÃO presumir 1% a.m.; verificar arts. 404-406 CC
-4. Índices: consultar `config_prodam.py` — SELIC padrão, FUHAM=IGPM, DETRAN=IGPM+1%+2% (PRESUMIDO)
-   ⚠️ `config_prodam.py` referenciado em ~30 lugares mas NÃO EXISTE no disco em 2026-05-10. NÃO criar sem auditoria prévia (issue aberta).
+4. Índices por contrato: consultar `normalizador.py` (mapa contrato/ano → regime, SSOT real). ⚠️ Valores absolutos (SM vigente, teto RPV, custas, honorários) NÃO têm SSOT consolidada — hoje inline em scripts de cálculo. NÃO criar `config_prodam.py` sem auditoria prévia.
 5. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF)
 6. NFs do credor **NÃO** são marcos interruptivos (exige ato do devedor)
 7. Prescrição é por **FATURA individual** (Art. 189 + 206 §5º I CC), contada do **VENCIMENTO**
@@ -69,21 +68,20 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 10. SELIC já inclui correção + juros — **NÃO** somar separado. IGPM = só correção (juros à parte)
 11. Art. 202 CC: interrupção ocorre **UMA VEZ** (unicidade — REsp 1.963.067/MS). Fazenda reinicia por metade (Decreto 20.910/1932 = 2,5 anos)
 12. Tema 1.109/STJ: gestor público **NÃO** renuncia tacitamente a prescrição
-13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator)
-
-14. Fee: **20%** sobre créditos recuperados (não 30%). RPV AM estadual = 20 salários mínimos (~R$ 32.420)
+13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator) <!-- auditado 2026-05-12: cascata propagada em 7 arquivos (11 ocorrências); regra #13 sem citações errôneas remanescentes em .md/.py do projeto -->
+14. Fee: **20%** sobre créditos recuperados (não 30%). RPV AM estadual = 20 × SM vigente (Lei AM 2.748/2002)
 15. `profiles.json` é a SSOT — NUNCA usar Demonstrativo Excel antigo
 16. Valores monetários: **Decimal**, nunca float. Formato BRL: `R$ 1.234,56`
 17. `PRECEDENTES_VERIFICADOS.md` é a única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos listados em references/)
 18. NUNCA emita opinião jurídica sem consultar `REFERENCIA_JURIDICA/` antes
 
 ## HIERARQUIA DE FONTES JURÍDICAS (consultar nessa ordem)
-1. **Nota Metodológica** (`PRODAM_DOCS/REFERENCIA_JURIDICA/09_NOTA_METODOLOGICA/`) — corrige todos os demais
+1. **Nota Metodológica** (`PRODAM_DOCS/REFERENCIA_JURIDICA/01_NOTA_METODOLOGICA/`) — corrige todos os demais
 2. **Estudo Consolidado** (002/2026) — adaptado ao contrato atual
 3. **Estudo Exaustivo** — matriz genérica com minutas
 4. **Pesquisa Jurisprudencial** — STJ/STF/TJAM (usar só precedentes verificados)
 5. **Extração Contratual** — cláusula a cláusula dos contratos dos devedores
-6. `REFERENCIA_JURIDICA/` (18 subpastas) — SSOT jurídica, ANTES de qualquer tarefa
+6. `REFERENCIA_JURIDICA/` (20 subpastas) — SSOT jurídica, ANTES de qualquer tarefa
 
 ## BENCHMARK AUDITORIA — DETRAN/AM (referência A+)
 - **Score composto:** 94,0/100 → A+ (EXCEPCIONAL)
@@ -93,8 +91,22 @@ Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_p
 - **Índices mapeados:** IGPM (7 contratos) + IPCA (3 contratos)
 - **Valor contratual total:** R$ 244,46M | Exigível: R$ 31,7M
 
+### Distribuição DETRAN por formato
+| Formato | Arquivos | Uso |
+|---------|----------|-----|
+| PDF | 3.631 | Documentos originais (contratos, NEs, faturas, cobranças) |
+| JSON | 1.698 | Textos extraídos + campos estruturados p/ LLM |
+| HTML | 1.428 | Scraping SPCF + dashboards |
+| CSV | 861 | Dados tabulares (prescrição, inadimplentes, pagamentos) |
+| MD | 222 | Relatórios + documentação |
+| TXT | 209 | Texto bruto + logs |
+| XLSX | 90 | Planilhas auditoria |
+| PY | 34 | Scripts reutilizáveis |
+| DOCX | 17 | Cartas + minutas |
+| JSONL | 8 | Corpora RAG/LLM |
+
 ## PLAYBOOK REPLICÁVEL (outros órgãos)
-Ver `relatorios\PLAYBOOK_ORGAOS_V2.md` (passo-a-passo completo)
+Ver `PLAYBOOK_ORGAOS_V2.md` (passo-a-passo completo)
 
 ### Comando único
 ```powershell
@@ -108,7 +120,7 @@ py -3.12 scripts\orgao_pipeline_completa.py --orgao SEDUC
 4. SSP (R$ 4,6M) | FORTE | F5 — PROTOCOLAR
 5. SEAD (R$ 2,3M) | FORTE | F3 — ENVIAR_TRD
 
-## SCRIPTS PRINCIPAIS (em `scripts/`)
+## SCRIPTS PRINCIPAIS (em `scripts/` — fix 2026-04-22)
 | Script | Função |
 |--------|--------|
 | `scripts/prodam_utils.py` | `norm()` unidecode + `brl()` + datas + `match_flex` |
@@ -190,6 +202,8 @@ Regra agnóstica de plugin — vale para **qualquer skill, atual ou futura**, in
 
 Fundamento: memórias persistentes `feedback_modo_manual_juridico` + `feedback_parecer_humano_areas_nao_curadas`.
 
+**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; hook `backup-claude-md.ps1` cria snapshot adicional pré-edição como safety net intra-sessão).
+
 ## ABRIR O prodam.db SEM CÓDIGO
 ```powershell
 # Datasette (web UI):
@@ -200,36 +214,14 @@ duckdb -c "SELECT * FROM spcf_faturas WHERE cliente='SEDUC' LIMIT 10" "PRODAM_DO
 ```
 Beekeeper Studio: File → Open → escolher `PRODAM_DOCS\_ANALISE\prodam.db`.
 
-## DECISÃO PENDENTE — `config_prodam.py` (aberto 2026-05-11)
-> Bloco manual. Será sobrescrito se `auto_update_claude_md.py` rodar — replicar no gerador após decisão final.
-
-### Inventário (Investigação D — 2026-05-11)
-- **Escopo do ghost**: 232 arquivos em `~/.claude` referenciam `config_prodam.py` (~40 skills + scripts de sync/test). Arquivo **nunca criado**.
-- **Salvaguardas durables já aplicadas**: Regra 4 acima + `scripts/auto_update_claude_md.py` linhas 159/169 (2026-05-11).
-- **SSOT real descoberta**:
-  - **Tipo de índice por contrato** → `~/.claude/skills/.../normalizador.py`
-  - **Tipo de índice por devedor** → `profiles.json` campo `indice_correcao`
-  - **Taxas vivas (SELIC/IGPM/IPCA/INPC)** → BCB live API via `~/.claude/skills/memorial-calculo-prodam/scripts/gerar_memorial.py` (cache 24h, Decimal, fail-fast)
-  - **Valores absolutos (SM/RPV/custas)** → sem SSOT consolidada; hoje inline em scripts (SM 1.621 em `corrigir_skills_prodam.py`)
-- **Achado lateral**: `PRODAM_DOCS/_SCRIPTS_IMPORTADOS/Projeto_PRODAM__config_prodam__from_Projeto_PRODAM.py` (legado, sem callers — pode ser esqueleto importado ou lixo).
-
-### Opções formalizadas
-- **A — Criar** `config_prodam.py` com valores verificados (SELIC, IGPM, RPV/AM, custas). Resolve 232 deps em 1 ação. **Risco**: 2º ponto de manutenção (já existem normalizador.py + profiles.json + BCB live).
-- **B — Apontar** as 232 referências para a SSOT real. Trabalhoso (mesmo só ~40 skills ativas + 2 scripts críticos). Sessão dedicada.
-- **C — Deletar** as referências. Cada skill consulta `normalizador.py` inline. Custo similar a B.
-- **X — Status quo formalizado**. Não criar; manter como contra-exemplo. Salvaguarda já está em Regra 4 + `auto_update_claude_md.py`.
-
-### Pré-decisão pendente
-Inspecionar `Projeto_PRODAM__config_prodam__from_Projeto_PRODAM.py` antes de A/B/C/X — pode mudar o peso A vs B/C/X se for esqueleto reaproveitável.
-
 ## OUTROS MAPAS DO PROJETO (consultar quando relevante)
 | Arquivo | O que cobre |
 |---------|-------------|
 | `LEIAME.md` | Mapa de navegação curto: 3 pastas ativas, fontes canônicas, comandos para abrir o DB |
 | `PRODAM_DOCS\CLAUDE.md` | Detalhe OCR v4 + 78 pastas `_CONSOLIDADO` + dossiês multi-formato + reorganização Desktop |
-| `relatorios\PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |
+| `PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |
 | `.claude\napkin.md` | Regras priorizadas (curated runbook re-priorizado a cada leitura) |
 | `HISTORICO_SESSOES.md` | Decisões recentes — **histórico, pode estar desatualizado** |
-| `PRODAM_DOCS\REFERENCIA_JURIDICA\09_NOTA_METODOLOGICA\` | Corrige todos os demais estudos jurídicos |
-| `PRODAM_DOCS\REFERENCIA_JURIDICA\11_PESQUISAS_ORIGINAIS\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |
+| `PRODAM_DOCS\REFERENCIA_JURIDICA\01_NOTA_METODOLOGICA\` | Corrige todos os demais estudos jurídicos |
+| `PRODAM_DOCS\REFERENCIA_JURIDICA\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |
 

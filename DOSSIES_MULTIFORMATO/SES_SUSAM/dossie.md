@@ -1,6 +1,6 @@
 # Dossiê Completo — SES/SUSAM
 **Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 00.697.295/0001-05
+Data: 2026-05-12 | CNPJ: 00.697.295/0001-05
 
 ## Visão Executiva
 
@@ -12,14 +12,14 @@ Data: 2026-05-07 | CNPJ: 00.697.295/0001-05
 | Regime de execução | precatorio_rpv |
 | Índice correção | SELIC |
 | Juros mora | Conforme SELIC |
-| Valor exigível (profile) | R$ 14.748.048,96 |
-| Valor atualizado (profile) | R$ 43.921.619,17 |
+| Valor exigível (profile) | R$ 4.783.356,52 |
+| Valor atualizado (profile) | R$ 8.135.935,19 |
 | Faturas total | 324 |
-| Faturas exigíveis | 144 |
+| Faturas exigíveis | 82 |
 | Faturas prescritas | 180 |
 | Probabilidade recuperação | 75% |
-| Valor esperado (E[V]) | R$ 11.061.036,72 |
-| Honorários esperados | R$ 2.212.207,34 |
+| Valor esperado (E[V]) | R$ 6.101.951,39 |
+| Honorários esperados | R$ 1.220.390,28 |
 
 ## Dados SPCF (prodam.db)
 
@@ -79,14 +79,13 @@ Distribuição por ano:
 
 ## Observações do Profile
 
-<!-- corrigido 2026-05-10 via cascata profiles.json — fundamento PASSO6 (Of. 129/2021 reclassificado: ato do credor não interrompe prescrição) -->
-102 evidências reconhecimento. Of. 129/2021 reclassificado em PASSO6 (Sessão 52, 05/04/2026): ato do credor não interrompe prescrição (Art. 202 VI CC; REsp 793.969/RJ; KB v2.1). Próxima prescrição real = 2026-08-31 (5 faturas, D+113 base 10/05/2026).
+102 evidências reconhecimento. Of. 129/2021 reclassificado em PASSO6 (Sessão 52, 05/04/2026): ato do credor não interrompe prescrição (Art. 202 VI CC; REsp 793.969/RJ; KB v2.1). Próxima prescrição real = 2026-08-31 (5 faturas, D+148 base 05/04/2026). Correção 2026-05-10 via cascata profiles.json — fundamento PASSO6.
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-08-31** <!-- corrigido 2026-05-10 via cascata profiles.json — fundamento PASSO6 -->
+- Data próxima prescrição: **2028-09-30**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-05-12_
