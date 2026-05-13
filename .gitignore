@@ -165,3 +165,9 @@ DETRAN_AUDITORIA_COMPLETA/
 OCR_PESQUISAVEL_CONSOLIDADO/
 detran_dashboard/
 docs/
+
+# === Acréscimo 13/05/2026 — ignorar CLAUDE.md de subpastas ===
+# Logs auto-gerados pelo plugin claude-mem (não são instruções curadas).
+# Manter apenas o CLAUDE.md raiz canônico (regenerado por auto_update_claude_md.py).
+**/CLAUDE.md
+!/CLAUDE.md
