@@ -1,6 +1,10 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-**Atualizado automaticamente em 13/05/2026 00:25 via auto_update_claude_md.py**
+**Atualizado automaticamente em 13/05/2026 13:09 via auto_update_claude_md.py**
+
+> ⚠️ **NÃO editar este arquivo manualmente.** Conteúdo regenerado a cada `/sincronizar-prodam`.
+> Para mudar **regras/seções fixas** → editar `scripts/auto_update_claude_md.py`.
+> Para mudar **métricas/devedores** → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\auto_update_claude_md.py`.
 
 ## IDENTIDADE
 - **Advogado**: Gabriel Mar (OAB/AM 15.697)
@@ -52,8 +56,8 @@
 - `.github/workflows/tests.yml` — CI: pytest + compileall + valida `profiles.json` em push/PR
 
 ## SQLITE prodam.db
-Tabelas: spcf_contratos (362), spcf_empenhos (16.789), spcf_faturas (1.837), spcf_nfs (52.998), pendrive_docs (3.699), devedores (81), reclassificacao (1.261), cruzamento_spcf_pendrive (1.460)
-Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_por_devedor, v_cruzamento_nf
+Tabelas: cruzamento_spcf_pendrive (1.460), devedores (81), pendrive_docs (3.699), reclassificacao (1.261), spcf_contratos (362), spcf_empenhos (16.789), spcf_faturas (1.837), spcf_nfs (52.998)
+Views: v_cruzamento_nf, v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_por_devedor
 
 ## REGRAS JURÍDICAS OBRIGATÓRIAS
 1. **Decreto Estadual nº 53.464/2026** (substitui 51.084/2025) — verificar 4 exceções antes de qualquer ação contra Gov AM
@@ -159,6 +163,7 @@ py -3.12 scripts\orgao_pipeline_completa.py --orgao SEDUC  # audita novo órgão
 py -3.12 scripts\auto_update_claude_md.py          # regenerar este CLAUDE.md
 py -3.12 scripts\sincronizar_prodam.py             # sincronização completa
 py -3.12 -m pytest tests\ -v                       # testes unitários
+py -3.12 -m pytest tests\test_prodam_utils.py::test_fmt_brl -v  # rodar UM teste único
 ```
 Slash command equivalente: `/sincronizar-prodam` (definido em `.claude\commands\sincronizar-prodam.md`).
 
@@ -174,6 +179,12 @@ Slash command equivalente: `/sincronizar-prodam` (definido em `.claude\commands\
   - PDFs são prova jurídica — **nunca apagar originais**; backup em `_BACKUPS/` ou `_ARQUIVO_DRIFT/`.
   - SPCF: `time.sleep(1.5)` entre requisições (rate limit obrigatório).
   - Contratos têm 3 formatos coexistindo (`006/2021` em `spcf_contratos`/PDFs, `6/2021` em `profiles.json`, `2021/006` em outras fontes) — usar skill `normalizador-contratos-prodam` ANTES de qualquer JOIN.
+
+## SAFEGUARDS (instalados 2026-05-12, commit a27c429)
+- **Pre-commit hook** (`.pre-commit-config.yaml`): `ruff-check` + validador `profiles.json`. Instalar local com `pre-commit install`.
+- **`.gitignore`**: `PRODAM_DOCS/` inteiro fora do repo (25,4 GB de PDFs + `profiles.json` privado, não versionado).
+- **Hook anti-delete PDF** (`.claude\hooks\block_pdf_delete.ps1`): bloqueia `rm`/`Remove-Item` em arquivos `*.pdf` (PDFs = prova jurídica).
+- **Gate jurídico manual**: ver `~\.claude\CLAUDE.md` (regras pessoais) — aguardar 'OK aplicar' explícito antes de Edit/Write em TRDs, notificações, `profiles.json`, `PRECEDENTES_VERIFICADOS.md` e diretórios sensíveis.
 
 ## PLUGINS INSTALADOS (Claude Code)
 
@@ -202,7 +213,7 @@ Regra agnóstica de plugin — vale para **qualquer skill, atual ou futura**, in
 
 Fundamento: memórias persistentes `feedback_modo_manual_juridico` + `feedback_parecer_humano_areas_nao_curadas`.
 
-**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; hook `backup-claude-md.ps1` cria snapshot adicional pré-edição como safety net intra-sessão).
+**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; gerado por `scripts/auto_update_claude_md.py` — ver seção SAFEGUARDS acima).
 
 ## ABRIR O prodam.db SEM CÓDIGO
 ```powershell
@@ -218,9 +229,11 @@ Beekeeper Studio: File → Open → escolher `PRODAM_DOCS\_ANALISE\prodam.db`.
 | Arquivo | O que cobre |
 |---------|-------------|
 | `LEIAME.md` | Mapa de navegação curto: 3 pastas ativas, fontes canônicas, comandos para abrir o DB |
+| `.claude\napkin.md` | **Runbook curado** — regras priorizadas, atualizado a cada leitura (gotchas PowerShell, Decimal, regex Select-String, comando literal) |
+| `.claude\skills\INDEX.md` | **Índice das skills do projeto** (versionado; gerado por `auto_update_claude_md.py` lendo `PRODAM_DOCS/_SKILLS/`) — nome + descrição curta |
+| `~\.claude\projects\C--Users-gabri-Desktop-PROJETO-PRODAM\memory\MEMORY.md` | **Memória persistente entre sessões** — feedback do advogado, projeto, referências, decisões de tolerância |
 | `PRODAM_DOCS\CLAUDE.md` | Detalhe OCR v4 + 78 pastas `_CONSOLIDADO` + dossiês multi-formato + reorganização Desktop |
 | `PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |
-| `.claude\napkin.md` | Regras priorizadas (curated runbook re-priorizado a cada leitura) |
 | `HISTORICO_SESSOES.md` | Decisões recentes — **histórico, pode estar desatualizado** |
 | `PRODAM_DOCS\REFERENCIA_JURIDICA\01_NOTA_METODOLOGICA\` | Corrige todos os demais estudos jurídicos |
 | `PRODAM_DOCS\REFERENCIA_JURIDICA\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |

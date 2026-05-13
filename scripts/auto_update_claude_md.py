@@ -5,6 +5,7 @@ Roda no inicio de cada sessao Cowork para manter CLAUDE.md sincronizado.
 Gera metricas atualizadas automaticamente.
 """
 import json
+import re
 import sqlite3
 import os
 from datetime import datetime, date
@@ -32,6 +33,156 @@ def query_db(sql):
         return [dict(r) for r in conn.execute(sql).fetchall()]
     finally:
         conn.close()
+
+
+def _query_db_counts():
+    """Lê contagens vivas do prodam.db. Retorna dict com ok=True/False + conteúdo ou reason.
+    Fallback robusto para que /sincronizar-prodam nunca quebre se o DB estiver lockado/ausente."""
+    if not DB.exists():
+        return {"ok": False, "reason": "DB nao encontrado"}
+    try:
+        conn = sqlite3.connect(str(DB), timeout=2.0)
+        try:
+            tables = conn.execute(
+                "SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name"
+            ).fetchall()
+            views = conn.execute(
+                "SELECT name FROM sqlite_master WHERE type='view' ORDER BY name"
+            ).fetchall()
+            parts = []
+            for (name,) in tables:
+                try:
+                    n = conn.execute(f'SELECT COUNT(*) FROM "{name}"').fetchone()[0]
+                    parts.append(f"{name} ({n:,})".replace(",", "."))
+                except sqlite3.Error:
+                    parts.append(f"{name} (?)")
+            return {
+                "ok": True,
+                "tables": ", ".join(parts),
+                "views": ", ".join(v[0] for v in views) or "(nenhuma)",
+            }
+        finally:
+            conn.close()
+    except sqlite3.Error as e:
+        return {"ok": False, "reason": f"sqlite3.Error: {e}"}
+
+
+SKILLS_SRC = None  # PRODAM_DOCS/_SKILLS/ (onde moram as skills)
+SKILLS_INDEX = None  # .claude/skills/INDEX.md (versionado)
+
+
+def generate_skills_index():
+    """Varre PRODAM_DOCS/_SKILLS/ em 2 padroes (*_SKILL.md flat + */SKILL.md em pasta),
+    extrai nome + 1a frase de description, escreve .claude/skills/INDEX.md.
+    INDEX.md fica versionado no git (rastreia *quais* skills existem); fontes sao privadas."""
+    global SKILLS_SRC, SKILLS_INDEX
+    if SKILLS_SRC is None:
+        SKILLS_SRC = BASE / "PRODAM_DOCS" / "_SKILLS"
+        SKILLS_INDEX = BASE / ".claude" / "skills" / "INDEX.md"
+    if not SKILLS_SRC.exists():
+        return 0
+    SKILLS_INDEX.parent.mkdir(parents=True, exist_ok=True)
+
+    entries = []
+    seen_names = set()
+
+    # Padrao 1: pasta com SKILL.md dentro (formato novo)
+    for skill_md in sorted(SKILLS_SRC.glob("*/SKILL.md")):
+        name = skill_md.parent.name
+        if name in seen_names or re.search(r"\s*\(\d+\)$", name):
+            continue
+        seen_names.add(name)
+        entries.append(_parse_skill(skill_md, name))
+
+    # Padrao 2: arquivo *_SKILL.md flat na raiz (formato legado)
+    for skill_md in sorted(SKILLS_SRC.glob("*_SKILL.md")):
+        name = skill_md.stem.removesuffix("_SKILL")
+        if name in seen_names or re.search(r"\s*\(\d+\)$", name):
+            continue
+        seen_names.add(name)
+        entries.append(_parse_skill(skill_md, name))
+
+    entries.sort(key=lambda x: x[0])
+    if not entries:
+        return 0
+
+    out = ["# Índice de Skills do Projeto (`PRODAM_DOCS/_SKILLS/`)", ""]
+    out.append("_Gerado por `scripts/auto_update_claude_md.py` — não editar manualmente._")
+    out.append("")
+    out.append("_Skills moram em `PRODAM_DOCS/_SKILLS/` (não versionado). Este índice é versionado para rastrear quais skills existem ao longo do tempo._")
+    out.append("")
+    out.append("| Skill | Descrição curta |")
+    out.append("|-------|------------------|")
+    for name, desc in entries:
+        out.append(f"| `{name}` | {desc or '_(sem description)_'} |")
+    SKILLS_INDEX.write_text("\n".join(out) + "\n", encoding="utf-8")
+    return len(entries)
+
+
+def _parse_skill(skill_md, name):
+    """Le frontmatter YAML de um SKILL.md, extrai 1a frase de description.
+    Cobre 2 formatos:
+      - inline:        'description: Foo bar.'
+      - folded/literal: 'description: >' (ou |, >-, |-, >+, |+, '> # comment')
+                        seguido de bloco indentado, com linhas vazias virando
+                        separadores de paragrafo (nao terminam o bloco).
+    Bloco termina por: (a) linha nao-vazia com indent < base, (b) linha '---',
+    (c) outra chave YAML top-level (indent 0 matching r'^[A-Za-z_][\\w-]*:').
+    Retorna (name, desc)."""
+    try:
+        lines = skill_md.read_text(encoding="utf-8", errors="replace").splitlines()
+    except OSError:
+        return (name, "(erro ao ler SKILL.md)")
+
+    yaml_key_re = re.compile(r"^[A-Za-z_][\w-]*:")
+    desc = ""
+    in_fm = False
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if i == 0 and line.strip() == "---":
+            in_fm = True
+            i += 1
+            continue
+        if in_fm and line.strip() == "---":
+            break
+        if in_fm and line.startswith("description:"):
+            rest = line.split(":", 1)[1].strip()
+            if rest.startswith((">", "|")):
+                block = []
+                base_indent = None
+                j = i + 1
+                while j < len(lines):
+                    nxt = lines[j]
+                    if nxt.strip() == "":
+                        if block:
+                            block.append("")
+                        j += 1
+                        continue
+                    if nxt.strip() == "---":
+                        break
+                    cur_indent = len(nxt) - len(nxt.lstrip())
+                    if base_indent is None:
+                        base_indent = cur_indent
+                    if cur_indent < base_indent:
+                        break
+                    if cur_indent == 0 and yaml_key_re.match(nxt.strip()):
+                        break
+                    block.append(nxt.strip())
+                    j += 1
+                desc = " ".join(b for b in block if b).strip()
+            else:
+                desc = rest.strip('"').strip("'")
+            break
+        i += 1
+
+    if desc:
+        for sep in [". ", ".\n", " — ", " - "]:
+            if sep in desc:
+                desc = desc.split(sep, 1)[0] + ("." if sep.startswith(".") else "")
+                break
+        desc = desc[:200]
+    return (name, desc)
 
 def compute_metrics(data):
     m = {
@@ -93,6 +244,10 @@ def generate_claude_md(m):
     lines.append(f"## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados")
     lines.append(f"**Atualizado automaticamente em {now} via auto_update_claude_md.py**")
     lines.append("")
+    lines.append("> ⚠️ **NÃO editar este arquivo manualmente.** Conteúdo regenerado a cada `/sincronizar-prodam`.")
+    lines.append("> Para mudar **regras/seções fixas** → editar `scripts/auto_update_claude_md.py`.")
+    lines.append("> Para mudar **métricas/devedores** → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\\auto_update_claude_md.py`.")
+    lines.append("")
 
     # === IDENTIDADE (ESTÁTICO) ===
     lines.append("## IDENTIDADE")
@@ -147,8 +302,14 @@ def generate_claude_md(m):
     
     # === SQLITE ===
     lines.append("## SQLITE prodam.db")
-    lines.append("Tabelas: spcf_contratos (362), spcf_empenhos (16.789), spcf_faturas (1.837), spcf_nfs (52.998), pendrive_docs (3.699), devedores (81), reclassificacao (1.261), cruzamento_spcf_pendrive (1.460)")
-    lines.append("Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_por_devedor, v_cruzamento_nf")
+    db_counts = _query_db_counts()
+    if db_counts["ok"]:
+        lines.append(f"Tabelas: {db_counts['tables']}")
+        lines.append(f"Views: {db_counts['views']}")
+    else:
+        lines.append("Tabelas: spcf_contratos (362), spcf_empenhos (16.789), spcf_faturas (1.837), spcf_nfs (52.998), pendrive_docs (3.699), devedores (81), reclassificacao (1.261), cruzamento_spcf_pendrive (1.460)")
+        lines.append("Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_por_devedor, v_cruzamento_nf")
+        lines.append(f"> ⚠️ Contagens estáticas — `prodam.db` indisponível no momento da geração ({db_counts['reason']}).")
     lines.append("")
     
     # === REGRAS ===
@@ -268,6 +429,7 @@ def generate_claude_md(m):
     lines.append("py -3.12 scripts\\auto_update_claude_md.py          # regenerar este CLAUDE.md")
     lines.append("py -3.12 scripts\\sincronizar_prodam.py             # sincronização completa")
     lines.append("py -3.12 -m pytest tests\\ -v                       # testes unitários")
+    lines.append("py -3.12 -m pytest tests\\test_prodam_utils.py::test_fmt_brl -v  # rodar UM teste único")
     lines.append("```")
     lines.append("Slash command equivalente: `/sincronizar-prodam` (definido em `.claude\\commands\\sincronizar-prodam.md`).")
     lines.append("")
@@ -285,6 +447,14 @@ def generate_claude_md(m):
     lines.append("  - PDFs são prova jurídica — **nunca apagar originais**; backup em `_BACKUPS/` ou `_ARQUIVO_DRIFT/`.")
     lines.append("  - SPCF: `time.sleep(1.5)` entre requisições (rate limit obrigatório).")
     lines.append("  - Contratos têm 3 formatos coexistindo (`006/2021` em `spcf_contratos`/PDFs, `6/2021` em `profiles.json`, `2021/006` em outras fontes) — usar skill `normalizador-contratos-prodam` ANTES de qualquer JOIN.")
+    lines.append("")
+
+    # === SAFEGUARDS ===
+    lines.append("## SAFEGUARDS (instalados 2026-05-12, commit a27c429)")
+    lines.append("- **Pre-commit hook** (`.pre-commit-config.yaml`): `ruff-check` + validador `profiles.json`. Instalar local com `pre-commit install`.")
+    lines.append("- **`.gitignore`**: `PRODAM_DOCS/` inteiro fora do repo (25,4 GB de PDFs + `profiles.json` privado, não versionado).")
+    lines.append("- **Hook anti-delete PDF** (`.claude\\hooks\\block_pdf_delete.ps1`): bloqueia `rm`/`Remove-Item` em arquivos `*.pdf` (PDFs = prova jurídica).")
+    lines.append("- **Gate jurídico manual**: ver `~\\.claude\\CLAUDE.md` (regras pessoais) — aguardar 'OK aplicar' explícito antes de Edit/Write em TRDs, notificações, `profiles.json`, `PRECEDENTES_VERIFICADOS.md` e diretórios sensíveis.")
     lines.append("")
 
     # === PLUGINS / SKILLS / HOOKS EXTERNOS ===
@@ -315,7 +485,7 @@ def generate_claude_md(m):
     lines.append("")
     lines.append("Fundamento: memórias persistentes `feedback_modo_manual_juridico` + `feedback_parecer_humano_areas_nao_curadas`.")
     lines.append("")
-    lines.append("**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; hook `backup-claude-md.ps1` cria snapshot adicional pré-edição como safety net intra-sessão).")
+    lines.append("**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; gerado por `scripts/auto_update_claude_md.py` — ver seção SAFEGUARDS acima).")
     lines.append("")
 
     # === ABRIR O DB ===
@@ -335,9 +505,11 @@ def generate_claude_md(m):
     lines.append("| Arquivo | O que cobre |")
     lines.append("|---------|-------------|")
     lines.append("| `LEIAME.md` | Mapa de navegação curto: 3 pastas ativas, fontes canônicas, comandos para abrir o DB |")
+    lines.append("| `.claude\\napkin.md` | **Runbook curado** — regras priorizadas, atualizado a cada leitura (gotchas PowerShell, Decimal, regex Select-String, comando literal) |")
+    lines.append("| `.claude\\skills\\INDEX.md` | **Índice das skills do projeto** (versionado; gerado por `auto_update_claude_md.py` lendo `PRODAM_DOCS/_SKILLS/`) — nome + descrição curta |")
+    lines.append("| `~\\.claude\\projects\\C--Users-gabri-Desktop-PROJETO-PRODAM\\memory\\MEMORY.md` | **Memória persistente entre sessões** — feedback do advogado, projeto, referências, decisões de tolerância |")
     lines.append("| `PRODAM_DOCS\\CLAUDE.md` | Detalhe OCR v4 + 78 pastas `_CONSOLIDADO` + dossiês multi-formato + reorganização Desktop |")
     lines.append("| `PLAYBOOK_ORGAOS_V2.md` | Passo-a-passo replicável (13 passos para auditar novo órgão; validado no DETRAN A+ 94/100) |")
-    lines.append("| `.claude\\napkin.md` | Regras priorizadas (curated runbook re-priorizado a cada leitura) |")
     lines.append("| `HISTORICO_SESSOES.md` | Decisões recentes — **histórico, pode estar desatualizado** |")
     lines.append("| `PRODAM_DOCS\\REFERENCIA_JURIDICA\\01_NOTA_METODOLOGICA\\` | Corrige todos os demais estudos jurídicos |")
     lines.append("| `PRODAM_DOCS\\REFERENCIA_JURIDICA\\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |")
@@ -349,11 +521,15 @@ def main():
     if not PROFILES.exists():
         print(f"ERRO: {PROFILES} nao encontrado")
         return
-    
+
+    n_skills = generate_skills_index()
+    if n_skills:
+        print(f"INDEX.md atualizado: {SKILLS_INDEX} ({n_skills} skills)")
+
     data = load_profiles()
     m = compute_metrics(data)
     content = generate_claude_md(m)
-    
+
     # Escreve diretamente (sem backup — evita PermissionError em sandbox)
     OUTPUT.write_text(content, encoding="utf-8")
     print(f"CLAUDE.md atualizado: {OUTPUT}")
