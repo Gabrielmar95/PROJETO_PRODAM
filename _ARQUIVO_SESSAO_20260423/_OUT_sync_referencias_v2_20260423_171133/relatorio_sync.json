@@ -1,0 +1,91 @@
+{
+  "data": "2026-04-23T17:11:33.405286",
+  "modo": "DRY-RUN",
+  "versao": "v2",
+  "fontes_mapa": {
+    "rename": {
+      "log": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_rename_inplace_20260423_141648\\log_renomeacao.csv",
+      "pares": 2473
+    },
+    "limpar_suspeitos": {
+      "log": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_limpar_suspeitos_20260423_155914\\log_limpar_suspeitos.csv",
+      "pares": 196
+    },
+    "unificado_pares": 2669,
+    "colisoes": 0,
+    "colisoes_amostra": [],
+    "inseguros_removidos": 525,
+    "inseguros_amostra": [
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10000.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10000.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10012.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10012.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10001.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10001.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10009.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10009.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10014.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10014.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10659.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10659.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10363.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10363.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10663.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10663.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10077.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10077.pdf"
+      },
+      {
+        "caminho": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\SPCF_EXTRACAO\\DETRAN_DOCUMENTACAO\\03_EMPENHOS\\htmls_brutos\\empenho_DETRAN_view_10664.pdf",
+        "novo": "INDEFINIDO_empenho_DETRAN_view_10664.pdf"
+      }
+    ]
+  },
+  "mapa_size": 2144,
+  "json": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\profiles.json",
+      "exists": true,
+      "refs": 0,
+      "detalhe": {},
+      "tamanho_bytes": 338473
+    }
+  ],
+  "db": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\prodam.db",
+      "exists": true,
+      "refs": 0,
+      "ocorrencias": {}
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_ANALISE\\prodam.db",
+      "exists": true,
+      "refs": 0,
+      "ocorrencias": {}
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\detran_dashboard\\data-real\\prodam.db",
+      "exists": true,
+      "refs": 0,
+      "ocorrencias": {}
+    }
+  ]
+}

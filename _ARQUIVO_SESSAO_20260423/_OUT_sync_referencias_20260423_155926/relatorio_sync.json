@@ -1,0 +1,55 @@
+{
+  "data": "2026-04-23T15:59:26.048006",
+  "modo": "DRY-RUN",
+  "mapa_size": 1858,
+  "json": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\profiles.json",
+      "exists": true,
+      "refs": 0,
+      "detalhe": {},
+      "tamanho_bytes": 338473
+    }
+  ],
+  "db": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\prodam.db",
+      "exists": true,
+      "refs": 3,
+      "tabelas": {
+        "pendrive_docs": {
+          "refs": 3,
+          "amostra": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 3
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_ANALISE\\prodam.db",
+      "exists": true,
+      "refs": 3,
+      "tabelas": {
+        "pendrive_docs": {
+          "refs": 3,
+          "amostra": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 3
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\detran_dashboard\\data-real\\prodam.db",
+      "exists": true,
+      "refs": 3,
+      "tabelas": {
+        "pendrive_docs": {
+          "refs": 3,
+          "amostra": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 3
+          }
+        }
+      }
+    }
+  ]
+}

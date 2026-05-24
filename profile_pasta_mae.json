@@ -1,0 +1,7255 @@
+{
+  "gerado_em": "2026-04-22 02:34:09",
+  "pasta_raiz": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM",
+  "n_devedores_pastas": 78,
+  "devedores": [
+    "ADAF",
+    "ADS",
+    "ALEAM",
+    "AMAZONASTUR",
+    "AMAZONPREV",
+    "ANOREG",
+    "ARSEPAM",
+    "ASSOC_SAUDE",
+    "B23",
+    "BANCO_BMG",
+    "BANCO_MASTER",
+    "BANCO_SAFRA",
+    "BANCO_SICOOB",
+    "BMC",
+    "CAIXA",
+    "CASA_CIVIL",
+    "CASA_MILITAR",
+    "CBMAM",
+    "CETAM",
+    "CGE",
+    "CIAMA",
+    "COSAMA",
+    "CPA",
+    "DEFESA_CIVIL",
+    "DETRAN",
+    "DPE",
+    "EASYTECH",
+    "FAAR",
+    "FAPEAM",
+    "FCECON",
+    "FENIXSOFT",
+    "FEPIAM",
+    "FHAJ",
+    "FHEMOAM",
+    "FMT",
+    "FUAM",
+    "FUHAM",
+    "FUNTEA",
+    "FVS",
+    "IDAM",
+    "IKM",
+    "IMPRENSA_OFICIAL",
+    "IPAAM",
+    "ITRANSITO",
+    "JUCEA",
+    "ODONTOMED",
+    "PGE",
+    "PGJ",
+    "PMAM",
+    "POLICIA_CIVIL",
+    "PROCON",
+    "PROVER",
+    "PSA",
+    "SEAD",
+    "SEAS",
+    "SEC",
+    "SECOM",
+    "SECT",
+    "SEDECTI",
+    "SEDEL",
+    "SEDUC",
+    "SEDURB",
+    "SEFAZ",
+    "SEINFRA",
+    "SEJUSC",
+    "SEMA",
+    "SEMIG",
+    "SEPA",
+    "SEPROR",
+    "SES",
+    "SNPH",
+    "SSP",
+    "SUBCOMADEC",
+    "SUHAB",
+    "SUL_AMERICA",
+    "TCE",
+    "UEA",
+    "UGPE"
+  ],
+  "pastas_topo": {
+    "AUDITORIA_COMPLETUDE": {
+      "files": 72,
+      "size_mb": 0.15,
+      "ext_top10": {
+        ".md": 70,
+        ".html": 1,
+        ".json": 1
+      },
+      "walk_sec": 0.03
+    },
+    "DETRAN_AUDITORIA": {
+      "files": 10,
+      "size_mb": 0.24,
+      "ext_top10": {
+        ".md": 4,
+        ".csv": 3,
+        ".json": 2,
+        ".html": 1
+      },
+      "walk_sec": 0.01
+    },
+    "DETRAN_CONSOLIDADO_JSON": {
+      "files": 460,
+      "size_mb": 12.91,
+      "ext_top10": {
+        ".json": 456,
+        ".md": 3,
+        ".txt": 1
+      },
+      "walk_sec": 0.24
+    },
+    "DETRAN_CONTRATOS_JSON": {
+      "files": 70,
+      "size_mb": 1.92,
+      "ext_top10": {
+        ".json": 69,
+        ".md": 1
+      },
+      "walk_sec": 0.11
+    },
+    "DOSSIES": {
+      "files": 1,
+      "size_mb": 0.0,
+      "ext_top10": {
+        ".md": 1
+      },
+      "walk_sec": 0.01
+    },
+    "DOSSIES_MULTIFORMATO": {
+      "files": 565,
+      "size_mb": 9.77,
+      "ext_top10": {
+        ".csv": 281,
+        ".html": 71,
+        ".json": 71,
+        ".md": 71,
+        ".xlsx": 71
+      },
+      "walk_sec": 1.04
+    },
+    "_legado": {
+      "files": 3,
+      "size_mb": 0.04,
+      "ext_top10": {
+        ".plugin": 1,
+        ".bak": 1,
+        ".pyc": 1
+      },
+      "walk_sec": 0.02
+    },
+    "dados": {
+      "files": 13,
+      "size_mb": 0.5,
+      "ext_top10": {
+        ".json": 10,
+        ".txt": 2,
+        ".csv": 1
+      },
+      "walk_sec": 0.01
+    },
+    "relatorios": {
+      "files": 15,
+      "size_mb": 0.15,
+      "ext_top10": {
+        ".md": 15
+      },
+      "walk_sec": 0.01
+    },
+    "scripts": {
+      "files": 25,
+      "size_mb": 0.33,
+      "ext_top10": {
+        ".py": 22,
+        ".js": 1,
+        ".ps1": 1,
+        ".pyc": 1
+      },
+      "walk_sec": 0.02
+    },
+    "tests": {
+      "files": 1,
+      "size_mb": 0.01,
+      "ext_top10": {
+        ".py": 1
+      },
+      "walk_sec": 0.0
+    }
+  },
+  "prodam_db": {
+    "tamanho_mb": 91.46,
+    "tabelas": {
+      "spcf_contratos": {
+        "count": 374,
+        "cols": 6,
+        "schema": [
+          {
+            "col": "id",
+            "tipo": "TEXT",
+            "pk": true
+          },
+          {
+            "col": "numero",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "cliente",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "dados_base",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "detalhes",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "tem_tramite_pdf",
+            "tipo": "BOOLEAN",
+            "pk": false
+          }
+        ]
+      },
+      "spcf_empenhos": {
+        "count": 16789,
+        "cols": 11,
+        "schema": [
+          {
+            "col": "id",
+            "tipo": "TEXT",
+            "pk": true
+          },
+          {
+            "col": "numero",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "cliente",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "contrato_ref",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "valor",
+            "tipo": "REAL",
+            "pk": false
+          },
+          {
+            "col": "situacao",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "data_emissao",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "dados_base",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "detalhes",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "tem_pdf",
+            "tipo": "BOOLEAN",
+            "pk": false
+          },
+          {
+            "col": "pdf_path",
+            "tipo": "TEXT",
+            "pk": false
+          }
+        ]
+      },
+      "spcf_faturas": {
+        "count": 1927,
+        "cols": 13,
+        "schema": [
+          {
+            "col": "id",
+            "tipo": "TEXT",
+            "pk": true
+          },
+          {
+            "col": "nf",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "cliente",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "contrato_id",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "contrato_num",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "valor_bruto",
+            "tipo": "REAL",
+            "pk": false
+          },
+          {
+            "col": "competencia",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "situacao",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "cadeia_completude",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "cadeia_elos",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "total_empenhos_vinculados",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "tem_pdf",
+            "tipo": "BOOLEAN",
+            "pk": false
+          },
+          {
+            "col": "fatura_parsed",
+            "tipo": "JSON",
+            "pk": false
+          }
+        ]
+      },
+      "spcf_nfs": {
+        "count": 52998,
+        "cols": 4,
+        "schema": [
+          {
+            "col": "numero_nf",
+            "tipo": "TEXT",
+            "pk": true
+          },
+          {
+            "col": "liquidacao",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "pagamento",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "tem_pagamento",
+            "tipo": "BOOLEAN",
+            "pk": false
+          }
+        ]
+      },
+      "pendrive_docs": {
+        "count": 3699,
+        "cols": 14,
+        "schema": [
+          {
+            "col": "hash",
+            "tipo": "TEXT",
+            "pk": true
+          },
+          {
+            "col": "arquivo",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "caminho",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "devedor_pasta",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "extensao",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "periodo_pasta",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "metodo_extracao",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "paginas",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "caracteres",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "precisou_ocr",
+            "tipo": "BOOLEAN",
+            "pk": false
+          },
+          {
+            "col": "ocr_score",
+            "tipo": "REAL",
+            "pk": false
+          },
+          {
+            "col": "tipo_documento",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "confidence",
+            "tipo": "REAL",
+            "pk": false
+          },
+          {
+            "col": "texto_preview",
+            "tipo": "TEXT",
+            "pk": false
+          }
+        ]
+      },
+      "devedores": {
+        "count": 81,
+        "cols": 10,
+        "schema": [
+          {
+            "col": "sigla",
+            "tipo": "TEXT",
+            "pk": true
+          },
+          {
+            "col": "total_documentos",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "total_paginas",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "total_nes",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "total_nls",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "total_nfs",
+            "tipo": "INTEGER",
+            "pk": false
+          },
+          {
+            "col": "score",
+            "tipo": "REAL",
+            "pk": false
+          },
+          {
+            "col": "estatisticas",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "cadeia_documental",
+            "tipo": "JSON",
+            "pk": false
+          },
+          {
+            "col": "alertas",
+            "tipo": "JSON",
+            "pk": false
+          }
+        ]
+      },
+      "reclassificacao": {
+        "count": 1261,
+        "cols": 6,
+        "schema": [
+          {
+            "col": "hash",
+            "tipo": "TEXT",
+            "pk": true
+          },
+          {
+            "col": "tipo_original",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "tipo_reclassif",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "confianca_nova",
+            "tipo": "REAL",
+            "pk": false
+          },
+          {
+            "col": "razao",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "payload",
+            "tipo": "JSON",
+            "pk": false
+          }
+        ]
+      },
+      "cruzamento_spcf_pendrive": {
+        "count": 1460,
+        "cols": 8,
+        "schema": [
+          {
+            "col": "id",
+            "tipo": "INTEGER",
+            "pk": true
+          },
+          {
+            "col": "numero_nf",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "hash_pendrive",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "arquivo",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "devedor",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "match_tipo",
+            "tipo": "TEXT",
+            "pk": false
+          },
+          {
+            "col": "score",
+            "tipo": "REAL",
+            "pk": false
+          },
+          {
+            "col": "payload",
+            "tipo": "JSON",
+            "pk": false
+          }
+        ]
+      },
+      "sqlite_sequence": {
+        "count": 1,
+        "cols": 2,
+        "schema": [
+          {
+            "col": "name",
+            "tipo": "",
+            "pk": false
+          },
+          {
+            "col": "seq",
+            "tipo": "",
+            "pk": false
+          }
+        ]
+      }
+    },
+    "views": [
+      "v_fatura_sem_empenho",
+      "v_fatura_completa",
+      "v_nf_sem_pagamento",
+      "v_pendrive_por_devedor",
+      "v_cruzamento_nf"
+    ]
+  },
+  "profiles_json": {
+    "n_devedores": 70,
+    "campos_sample": [
+      "nome_completo",
+      "sigla",
+      "natureza",
+      "categoria",
+      "val_exig",
+      "val_orig",
+      "val_atualizado",
+      "faturas_total",
+      "faturas_prescritas",
+      "faturas_exigiveis",
+      "indice_correcao",
+      "juros_mora",
+      "multa",
+      "n_contratos",
+      "regime_execucao",
+      "titulo_executivo",
+      "status",
+      "observacoes",
+      "forca_probatoria",
+      "modelo_notificacao",
+      "reconhecimento_revisado",
+      "cnpj",
+      "evidencias_reconhecimento",
+      "evidencias_por_tipo",
+      "classificacao_reconhecimento",
+      "tipo",
+      "score_composto",
+      "proximo_passo",
+      "p_recuperacao",
+      "ev_valor_esperado",
+      "ev_honorarios",
+      "esforco_estimado",
+      "cenario_monte_carlo_p50",
+      "valor_recuperado",
+      "data_protocolo",
+      "data_prescricao_proxima",
+      "prioridade_rank",
+      "blindagem_resultado",
+      "ultima_interacao",
+      "fase_atual",
+      "data_fase_atual",
+      "historico_fases",
+      "elegivel_cprac",
+      "via_transacao_referendada",
+      "em_liquidacao",
+      "situacao_cadastral",
+      "grupo_economico",
+      "prazo_habilitacao",
+      "apagao_canetas_risco",
+      "nome",
+      "spcf_total_receber",
+      "spcf_fat_devidas_qtd",
+      "spcf_fat_devidas_val",
+      "spcf_fat_aberto_qtd",
+      "spcf_fat_aberto_val",
+      "spcf_perdas",
+      "emp_2026",
+      "emp_2026_qtd",
+      "contratos_vigentes",
+      "fonte_spcf",
+      "data_spcf",
+      "fat_canceladas_qtd",
+      "fat_canceladas_val_bruto",
+      "fat_canceladas_val_liquido",
+      "faturamento_total_2019_2026",
+      "recebimento_total_2019_2026",
+      "taxa_pagamento_pct",
+      "padrao_inadimplencia",
+      "meses_com_faturamento",
+      "faturamento_pico_mes",
+      "faturamento_pico_valor",
+      "inicio_inadimplencia",
+      "ultimo_faturamento",
+      "cancelada_em_devidas",
+      "cancelada_em_perdas",
+      "empenho_historico_total",
+      "empenho_historico_qtd",
+      "empenho_valor_global_contratos",
+      "empenho_2026_gerencial",
+      "a_empenhar_2026",
+      "nes_sem_cobertura_qtd",
+      "nes_sem_cobertura_valor",
+      "val_servicos_spcf_mar2026",
+      "val_liquido_spcf_mar2026",
+      "num_faturas_spcf_mar2026",
+      "reconciliacao_status",
+      "reconciliacao_data",
+      "reconciliacao_divergencia_pct",
+      "pipeline_reconciliacao",
+      "pipeline_ultima_execucao",
+      "pipeline_versao",
+      "cruzamento_empenho_completo",
+      "cruzamento_data",
+      "faturas_abertas_com_empenho",
+      "faturas_abertas_sem_empenho",
+      "faturas_forca_forte",
+      "faturas_forca_media_alta",
+      "faturas_forca_media",
+      "faturas_forca_fraca",
+      "valor_forca_forte",
+      "valor_forca_media_alta",
+      "valor_forca_media",
+      "valor_forca_fraca",
+      "pct_com_empenho",
+      "contratos_com_gap",
+      "liquidadas_historicas_total",
+      "liquidadas_historicas_valor",
+      "faturas_abertas_exigiveis",
+      "reconciliacao_6_6",
+      "correcao_monetaria_passo7",
+      "dados_5devs_varredura",
+      "dossie_classificacao_passo8",
+      "contratos_spcf",
+      "nes_raspadas_spcf",
+      "reconciliacao_spcf",
+      "saldo_devedor_spcf",
+      "total_pago_historico",
+      "total_liquidadas",
+      "total_empenhos_spcf",
+      "total_contratos_spcf",
+      "referencia_juridica",
+      "status_consolidado",
+      "urgencia_prescricao",
+      "d_plus_prescricao",
+      "via_processual_recomendada",
+      "tem_csv_faturas"
+    ],
+    "regimes": {
+      "": 70
+    },
+    "forca_probatoria": {
+      "FRACA": 42,
+      "MÉDIA": 15,
+      "FORTE": 12,
+      "": 1
+    },
+    "proximo_passo": {
+      "ANALISAR_DOCUMENTACAO": 36,
+      "CLASSIFICAR": 17,
+      "ENVIAR_TRD": 9,
+      "PROTOCOLAR_PETICAO": 5,
+      "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário.": 1,
+      "": 1,
+      "AVALIAR_SUCESSAO": 1
+    },
+    "campos_faltantes": {
+      "regime": 70,
+      "valor_exigivel": 70,
+      "valor_atualizado": 70,
+      "cnpj": 1,
+      "forca_probatoria": 1,
+      "proximo_passo": 1
+    },
+    "valor_exigivel_total": 0.0,
+    "valor_atualizado_total": 0.0
+  },
+  "cobertura_consolidado": {
+    "ADAF": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.08,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 50,
+          "size_mb": 615.24,
+          "ext_top10": {
+            ".pdf": 48,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 4,
+          "size_mb": 0.0,
+          "ext_top10": {
+            ".md": 4
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 56
+    },
+    "ADS": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.18,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 46,
+          "size_mb": 350.66,
+          "ext_top10": {
+            ".pdf": 43,
+            ".docx": 2,
+            ".md": 1
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 48
+    },
+    "ALEAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 12,
+          "size_mb": 3.34,
+          "ext_top10": {
+            ".pdf": 10,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 13
+    },
+    "AMAZONASTUR": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.09,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 24,
+          "size_mb": 12.13,
+          "ext_top10": {
+            ".pdf": 22,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 26
+    },
+    "AMAZONPREV": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 1,
+          "size_mb": 0.21,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 12,
+          "size_mb": 2.72,
+          "ext_top10": {
+            ".pdf": 12
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 5,
+          "size_mb": 0.29,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 26,
+          "size_mb": 9.09,
+          "ext_top10": {
+            ".pdf": 24,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 9,
+          "size_mb": 2.33,
+          "ext_top10": {
+            ".pdf": 9
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        }
+      },
+      "cobertura_pct": 55.6,
+      "total_arquivos": 53
+    },
+    "ANOREG": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 18,
+          "size_mb": 4.1,
+          "ext_top10": {
+            ".pdf": 18
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 18
+    },
+    "ARSEPAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 19,
+          "size_mb": 3.64,
+          "ext_top10": {
+            ".pdf": 19
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.09,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 35,
+          "size_mb": 16.59,
+          "ext_top10": {
+            ".pdf": 33,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 9,
+          "size_mb": 4.32,
+          "ext_top10": {
+            ".pdf": 9
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 65
+    },
+    "ASSOC_SAUDE": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 6,
+          "size_mb": 1.36,
+          "ext_top10": {
+            ".pdf": 6
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 6
+    },
+    "B23": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 3,
+          "size_mb": 0.68,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 3
+    },
+    "BANCO_BMG": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 10,
+          "size_mb": 2.27,
+          "ext_top10": {
+            ".pdf": 10
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 10
+    },
+    "BANCO_MASTER": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 50,
+          "size_mb": 11.34,
+          "ext_top10": {
+            ".pdf": 50
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 50
+    },
+    "BANCO_SAFRA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 5,
+          "size_mb": 1.14,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 5
+    },
+    "BANCO_SICOOB": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 19,
+          "size_mb": 4.32,
+          "ext_top10": {
+            ".pdf": 19
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 19
+    },
+    "BMC": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 6,
+          "size_mb": 1.36,
+          "ext_top10": {
+            ".pdf": 6
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 6
+    },
+    "CAIXA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 59,
+          "size_mb": 13.43,
+          "ext_top10": {
+            ".pdf": 59
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 59
+    },
+    "CASA_CIVIL": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 2,
+          "size_mb": 2.9,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.05,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 33,
+          "size_mb": 41.68,
+          "ext_top10": {
+            ".pdf": 31,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 36
+    },
+    "CASA_MILITAR": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 2,
+          "size_mb": 25.81,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 2
+    },
+    "CBMAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 3,
+          "size_mb": 1.6,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 5,
+          "size_mb": 0.32,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 29,
+          "size_mb": 23.8,
+          "ext_top10": {
+            ".pdf": 27,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 2,
+          "size_mb": 1.85,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.02
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 39
+    },
+    "CETAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.04
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 26,
+          "size_mb": 12.09,
+          "ext_top10": {
+            ".pdf": 24,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 27
+    },
+    "CGE": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 3,
+          "size_mb": 0.08,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 11,
+          "size_mb": 4.1,
+          "ext_top10": {
+            ".pdf": 9,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 14
+    },
+    "CIAMA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 7,
+          "size_mb": 5.86,
+          "ext_top10": {
+            ".pdf": 5,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 7
+    },
+    "COSAMA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.08,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 23,
+          "size_mb": 16.19,
+          "ext_top10": {
+            ".pdf": 21,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 25
+    },
+    "CPA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 3,
+          "size_mb": 0.91,
+          "ext_top10": {
+            ".pdf": 2,
+            ".docx": 1
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 7,
+          "size_mb": 2.2,
+          "ext_top10": {
+            ".pdf": 7
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 10
+    },
+    "DEFESA_CIVIL": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 7,
+          "size_mb": 2.21,
+          "ext_top10": {
+            ".pdf": 5,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 7
+    },
+    "DETRAN": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 70,
+          "size_mb": 250.58,
+          "ext_top10": {
+            ".pdf": 70
+          },
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 111,
+          "size_mb": 61.88,
+          "ext_top10": {
+            ".pdf": 111
+          },
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 121,
+          "size_mb": 27.19,
+          "ext_top10": {
+            ".pdf": 121
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 17,
+          "size_mb": 5.81,
+          "ext_top10": {
+            ".pdf": 17
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 91,
+          "size_mb": 702.9,
+          "ext_top10": {
+            ".pdf": 80,
+            ".docx": 8,
+            ".png": 1,
+            ".xls": 1,
+            ".db": 1
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 8,
+          "size_mb": 0.1,
+          "ext_top10": {
+            ".csv": 8
+          },
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 24,
+          "size_mb": 7.76,
+          "ext_top10": {
+            ".pdf": 24
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 13,
+          "size_mb": 1.09,
+          "ext_top10": {
+            ".py": 4,
+            ".md": 3,
+            ".xlsx": 2,
+            ".html": 2,
+            ".pdf": 1,
+            ".json": 1
+          },
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 88.9,
+      "total_arquivos": 455
+    },
+    "DPE": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 15,
+          "size_mb": 5.64,
+          "ext_top10": {
+            ".pdf": 13,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 16
+    },
+    "EASYTECH": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 4,
+          "size_mb": 1.94,
+          "ext_top10": {
+            ".docx": 2,
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 9,
+          "size_mb": 2.05,
+          "ext_top10": {
+            ".pdf": 9
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 13
+    },
+    "FAAR": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 2,
+          "size_mb": 5.9,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 58,
+          "size_mb": 11.33,
+          "ext_top10": {
+            ".pdf": 58
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 4,
+          "size_mb": 1.22,
+          "ext_top10": {
+            ".pdf": 4
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 57,
+          "size_mb": 34.17,
+          "ext_top10": {
+            ".pdf": 55,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 18,
+          "size_mb": 14.99,
+          "ext_top10": {
+            ".pdf": 18
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 55.6,
+      "total_arquivos": 139
+    },
+    "FAPEAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 5,
+          "size_mb": 3.43,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 5
+    },
+    "FCECON": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.14,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 63,
+          "size_mb": 467.25,
+          "ext_top10": {
+            ".pdf": 61,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 65
+    },
+    "FENIXSOFT": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 14,
+          "size_mb": 3.19,
+          "ext_top10": {
+            ".pdf": 14
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 14
+    },
+    "FEPIAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 4,
+          "size_mb": 0.18,
+          "ext_top10": {
+            ".pdf": 4
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 29,
+          "size_mb": 8.67,
+          "ext_top10": {
+            ".pdf": 27,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 33
+    },
+    "FHAJ": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.07,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 73,
+          "size_mb": 548.34,
+          "ext_top10": {
+            ".pdf": 71,
+            ".docx": 2
+          },
+          "walk_sec": 0.02
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 74
+    },
+    "FHEMOAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 4,
+          "size_mb": 1.23,
+          "ext_top10": {
+            ".pdf": 4
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 29,
+          "size_mb": 18.32,
+          "ext_top10": {
+            ".pdf": 27,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 2,
+          "size_mb": 0.17,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 36
+    },
+    "FMT": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.06,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 51,
+          "size_mb": 67.13,
+          "ext_top10": {
+            ".pdf": 47,
+            ".docx": 2,
+            ".xls": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 52
+    },
+    "FUAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 20,
+          "size_mb": 18.01,
+          "ext_top10": {
+            ".pdf": 20
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.04
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 20
+    },
+    "FUHAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.16,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 28,
+          "size_mb": 211.04,
+          "ext_top10": {
+            ".pdf": 26,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 30
+    },
+    "FUNTEA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 2,
+          "size_mb": 0.23,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.02
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.08,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 17,
+          "size_mb": 9.49,
+          "ext_top10": {
+            ".pdf": 15,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 21
+    },
+    "FVS": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 4,
+          "size_mb": 4.59,
+          "ext_top10": {
+            ".pdf": 4
+          },
+          "walk_sec": 0.01
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 38,
+          "size_mb": 172.56,
+          "ext_top10": {
+            ".pdf": 34,
+            ".docx": 2,
+            ".xls": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 43
+    },
+    "IDAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 1,
+          "size_mb": 1.65,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 8,
+          "size_mb": 1.75,
+          "ext_top10": {
+            ".pdf": 8
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.09,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 30,
+          "size_mb": 15.2,
+          "ext_top10": {
+            ".pdf": 28,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 1,
+          "size_mb": 0.48,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 55.6,
+      "total_arquivos": 42
+    },
+    "IKM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 19,
+          "size_mb": 4.31,
+          "ext_top10": {
+            ".pdf": 19
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 19
+    },
+    "IMPRENSA_OFICIAL": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 18,
+          "size_mb": 6.76,
+          "ext_top10": {
+            ".pdf": 16,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 18
+    },
+    "IPAAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 1,
+          "size_mb": 1.0,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 23,
+          "size_mb": 3.33,
+          "ext_top10": {
+            ".pdf": 22,
+            ".xlsx": 1
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 1,
+          "size_mb": 0.02,
+          "ext_top10": {
+            ".docx": 1
+          },
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 8,
+          "size_mb": 0.65,
+          "ext_top10": {
+            ".pdf": 7,
+            ".xls": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 36,
+          "size_mb": 23.43,
+          "ext_top10": {
+            ".pdf": 34,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 14,
+          "size_mb": 1.35,
+          "ext_top10": {
+            ".pdf": 14
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 66.7,
+      "total_arquivos": 83
+    },
+    "ITRANSITO": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 2,
+          "size_mb": 0.87,
+          "ext_top10": {
+            ".docx": 1,
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 10,
+          "size_mb": 2.27,
+          "ext_top10": {
+            ".pdf": 10
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 12
+    },
+    "JUCEA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 16,
+          "size_mb": 9.2,
+          "ext_top10": {
+            ".pdf": 14,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 16
+    },
+    "ODONTOMED": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 15,
+          "size_mb": 3.42,
+          "ext_top10": {
+            ".pdf": 15
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 15
+    },
+    "PGE": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 3,
+          "size_mb": 0.12,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 47,
+          "size_mb": 36.27,
+          "ext_top10": {
+            ".pdf": 44,
+            ".docx": 3
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 50
+    },
+    "PGJ": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 10,
+          "size_mb": 2.63,
+          "ext_top10": {
+            ".pdf": 10
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 11
+    },
+    "PMAM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 3,
+          "size_mb": 1.58,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 3,
+          "size_mb": 0.16,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 27,
+          "size_mb": 13.96,
+          "ext_top10": {
+            ".pdf": 25,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 3,
+          "size_mb": 1.95,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 36
+    },
+    "POLICIA_CIVIL": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 22,
+          "size_mb": 5.06,
+          "ext_top10": {
+            ".pdf": 22
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 4,
+          "size_mb": 1.09,
+          "ext_top10": {
+            ".pdf": 4
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 41,
+          "size_mb": 18.31,
+          "ext_top10": {
+            ".pdf": 38,
+            ".docx": 3
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 18,
+          "size_mb": 2.4,
+          "ext_top10": {
+            ".pdf": 18
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 85
+    },
+    "PROCON": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 26,
+          "size_mb": 8.58,
+          "ext_top10": {
+            ".pdf": 24,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 27
+    },
+    "PROVER": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 46,
+          "size_mb": 10.46,
+          "ext_top10": {
+            ".pdf": 46
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 46
+    },
+    "PSA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 1,
+          "size_mb": 0.23,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 1
+    },
+    "SEAD": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.16,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 108,
+          "size_mb": 232.45,
+          "ext_top10": {
+            ".pdf": 97,
+            ".docx": 7,
+            ".xls": 4
+          },
+          "walk_sec": 0.02
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 110
+    },
+    "SEAS": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.1,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 41,
+          "size_mb": 345.58,
+          "ext_top10": {
+            ".pdf": 39,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 1,
+          "size_mb": 0.0,
+          "ext_top10": {
+            ".md": 1
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 44
+    },
+    "SEC": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 1,
+          "size_mb": 0.22,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 5,
+          "size_mb": 0.22,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.01
+        },
+        "06_COBRANCAS": {
+          "files": 81,
+          "size_mb": 156.68,
+          "ext_top10": {
+            ".pdf": 73,
+            ".docx": 7,
+            ".md": 1
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 87
+    },
+    "SECOM": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.01
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.04,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 14,
+          "size_mb": 7.16,
+          "ext_top10": {
+            ".pdf": 12,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 15
+    },
+    "SECT": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 13,
+          "size_mb": 1.8,
+          "ext_top10": {
+            ".pdf": 13
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 5,
+          "size_mb": 0.21,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 36,
+          "size_mb": 13.03,
+          "ext_top10": {
+            ".pdf": 33,
+            ".docx": 3
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 8,
+          "size_mb": 2.23,
+          "ext_top10": {
+            ".pdf": 8
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 62
+    },
+    "SEDECTI": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 1,
+          "size_mb": 1.69,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 21,
+          "size_mb": 5.18,
+          "ext_top10": {
+            ".pdf": 21
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 6,
+          "size_mb": 0.75,
+          "ext_top10": {
+            ".pdf": 6
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 131,
+          "size_mb": 175.25,
+          "ext_top10": {
+            ".pdf": 125,
+            ".docx": 4,
+            ".xls": 2
+          },
+          "walk_sec": 0.02
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 2,
+          "size_mb": 0.45,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 55.6,
+      "total_arquivos": 161
+    },
+    "SEDEL": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 19,
+          "size_mb": 3.8,
+          "ext_top10": {
+            ".pdf": 17,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 19
+    },
+    "SEDUC": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 4,
+          "size_mb": 7.08,
+          "ext_top10": {
+            ".pdf": 3,
+            ".docx": 1
+          },
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 6,
+          "size_mb": 0.37,
+          "ext_top10": {
+            ".pdf": 3,
+            ".xls": 3
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 76,
+          "size_mb": 629.65,
+          "ext_top10": {
+            ".pdf": 69,
+            ".docx": 6,
+            ".xls": 1
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 27,
+          "size_mb": 766.7,
+          "ext_top10": {
+            ".pdf": 25,
+            ".md": 2
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 113
+    },
+    "SEDURB": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 7,
+          "size_mb": 2.13,
+          "ext_top10": {
+            ".pdf": 5,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 7
+    },
+    "SEFAZ": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.08,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 19,
+          "size_mb": 24.69,
+          "ext_top10": {
+            ".pdf": 17,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 9,
+          "size_mb": 4.92,
+          "ext_top10": {
+            ".pdf": 9
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 30
+    },
+    "SEINFRA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 3,
+          "size_mb": 0.68,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 33,
+          "size_mb": 18.28,
+          "ext_top10": {
+            ".pdf": 31,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 36
+    },
+    "SEJUSC": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 9,
+          "size_mb": 5.18,
+          "ext_top10": {
+            ".pdf": 9
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 7,
+          "size_mb": 4.39,
+          "ext_top10": {
+            ".pdf": 7
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 42,
+          "size_mb": 152.57,
+          "ext_top10": {
+            ".pdf": 39,
+            ".docx": 3
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 27,
+          "size_mb": 24.85,
+          "ext_top10": {
+            ".pdf": 27
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 85
+    },
+    "SEMA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 3,
+          "size_mb": 0.55,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.08,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 39,
+          "size_mb": 13.5,
+          "ext_top10": {
+            ".pdf": 34,
+            ".docx": 5
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 4,
+          "size_mb": 1.81,
+          "ext_top10": {
+            ".pdf": 4
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 48
+    },
+    "SEMIG": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 1,
+          "size_mb": 0.24,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.48,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 9,
+          "size_mb": 12.26,
+          "ext_top10": {
+            ".pdf": 7,
+            ".docx": 2
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 3,
+          "size_mb": 1.01,
+          "ext_top10": {
+            ".pdf": 3
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 14
+    },
+    "SEPA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 5,
+          "size_mb": 0.21,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 58,
+          "size_mb": 19.33,
+          "ext_top10": {
+            ".pdf": 53,
+            ".docx": 4,
+            ".crdownload": 1
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 63
+    },
+    "SEPROR": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.05,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 33,
+          "size_mb": 27.0,
+          "ext_top10": {
+            ".pdf": 28,
+            ".docx": 3,
+            ".png": 1,
+            ".db": 1
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 34
+    },
+    "SES": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 9,
+          "size_mb": 20.61,
+          "ext_top10": {
+            ".pdf": 9
+          },
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.18,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 129,
+          "size_mb": 1130.69,
+          "ext_top10": {
+            ".pdf": 120,
+            ".docx": 9
+          },
+          "walk_sec": 0.02
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 12,
+          "size_mb": 101.24,
+          "ext_top10": {
+            ".pdf": 12
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 151
+    },
+    "SNPH": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 16,
+          "size_mb": 4.75,
+          "ext_top10": {
+            ".pdf": 16
+          },
+          "walk_sec": 0.01
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 5,
+          "size_mb": 0.43,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 23,
+          "size_mb": 21.61,
+          "ext_top10": {
+            ".pdf": 21,
+            ".docx": 2
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 9,
+          "size_mb": 0.59,
+          "ext_top10": {
+            ".pdf": 9
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 53
+    },
+    "SSP": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 1,
+          "size_mb": 0.12,
+          "ext_top10": {
+            ".pdf": 1
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 330,
+          "size_mb": 1795.52,
+          "ext_top10": {
+            ".pdf": 325,
+            ".md": 3,
+            ".docx": 2
+          },
+          "walk_sec": 0.04
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 6,
+          "size_mb": 0.01,
+          "ext_top10": {
+            ".md": 6
+          },
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 33.3,
+      "total_arquivos": 337
+    },
+    "SUBCOMADEC": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 5,
+          "size_mb": 2.76,
+          "ext_top10": {
+            ".pdf": 5
+          },
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 5
+    },
+    "SUHAB": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 8,
+          "size_mb": 1.23,
+          "ext_top10": {
+            ".pdf": 8
+          },
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.22,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 31,
+          "size_mb": 28.47,
+          "ext_top10": {
+            ".pdf": 28,
+            ".docx": 2,
+            ".htm": 1
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 8,
+          "size_mb": 3.01,
+          "ext_top10": {
+            ".pdf": 8
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 44.4,
+      "total_arquivos": 49
+    },
+    "SUL_AMERICA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 19,
+          "size_mb": 4.31,
+          "ext_top10": {
+            ".pdf": 19
+          },
+          "walk_sec": 0.01
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 19
+    },
+    "TCE": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 17.95,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 62,
+          "size_mb": 88.74,
+          "ext_top10": {
+            ".pdf": 52,
+            ".xls": 7,
+            ".docx": 3
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 64
+    },
+    "UEA": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 2,
+          "size_mb": 0.11,
+          "ext_top10": {
+            ".pdf": 2
+          },
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 29,
+          "size_mb": 17.55,
+          "ext_top10": {
+            ".pdf": 26,
+            ".docx": 3
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 22.2,
+      "total_arquivos": 31
+    },
+    "UGPE": {
+      "existe": true,
+      "subpastas": {
+        "01_CONTRATOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "02_EMPENHOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "03_FATURAS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "04_NOTAS_LIQUIDACAO": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "05_ACEITES": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "06_COBRANCAS": {
+          "files": 27,
+          "size_mb": 92.53,
+          "ext_top10": {
+            ".pdf": 24,
+            ".docx": 3
+          },
+          "walk_sec": 0.01
+        },
+        "07_SCRAPING_SPCF": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "08_PDFS_ORIGINAIS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        },
+        "09_RELATORIOS": {
+          "files": 0,
+          "size_mb": 0.0,
+          "ext_top10": {},
+          "walk_sec": 0.0
+        }
+      },
+      "cobertura_pct": 11.1,
+      "total_arquivos": 27
+    }
+  },
+  "cobertura_dossie": {
+    "ADAF": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "ADS": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "ALEAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "AMAZONASTUR": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "AMAZONPREV": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "ANOREG": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "ARSEPAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "ASSOC_SAUDE": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "B23": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "BANCO_BMG": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "BANCO_MASTER": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "BANCO_SAFRA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "BANCO_SICOOB": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "BMC": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CAIXA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CASA_CIVIL": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CASA_MILITAR": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CBMAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CETAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CGE": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CIAMA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "COSAMA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "CPA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "DEFESA_CIVIL": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "DETRAN": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "DPE": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "EASYTECH": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FAAR": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FAPEAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FCECON": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FENIXSOFT": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FEPIAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FHAJ": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FHEMOAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FMT": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FUAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FUHAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FUNTEA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "FVS": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "IDAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "IKM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "IMPRENSA_OFICIAL": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "IPAAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "ITRANSITO": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "JUCEA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "ODONTOMED": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "PGE": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "PGJ": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "PMAM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "POLICIA_CIVIL": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "PROCON": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "PROVER": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "PSA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEAD": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEAS": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEC": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SECOM": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SECT": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEDECTI": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEDEL": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEDUC": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEDURB": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEFAZ": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEINFRA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEJUSC": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEMA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEMIG": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEPA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SEPROR": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SES": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SNPH": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SSP": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SUBCOMADEC": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SUHAB": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "SUL_AMERICA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "TCE": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "UEA": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    },
+    "UGPE": {
+      "existe": true,
+      "artefatos": {
+        "AUDITORIA.md": true,
+        "AUDITORIA.html": true,
+        "dados_completos.json": true,
+        "dashboard.html": true,
+        "INVENTARIO.xlsx": true,
+        "README.md": true,
+        "RESUMO_EXECUTIVO.md": true,
+        "csv": true,
+        "llm": true
+      },
+      "cobertura_pct": 100.0,
+      "total_arquivos": 20
+    }
+  }
+}

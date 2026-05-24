@@ -1,0 +1,798 @@
+{
+  "gerado_em": "2026-04-22T03:48:25",
+  "estatisticas": {
+    "ssot_total": 70,
+    "cons_total": 78,
+    "dossie_total": 82,
+    "db_total": 81,
+    "divergencias_total": 57,
+    "por_causa": {
+      "A_COMPOSITE_SPLIT": 7,
+      "C_SSOT_SEM_PASTA": 12,
+      "D_PASTA_ORFA_CONS": 18,
+      "D_PASTA_ORFA_DOS": 20
+    },
+    "por_severidade": {
+      "ALTA": 36,
+      "BAIXA": 1,
+      "MEDIA": 20
+    }
+  },
+  "divergencias": [
+    {
+      "causa": "A_COMPOSITE_SPLIT",
+      "ssot_sigla": "SES/SUSAM",
+      "pastas_afetadas": [
+        "SES"
+      ],
+      "acao_recomendada": "Consolidar pastas [SES] em única canonical 'SESSUSAM' (ou manter como filhas e fazer profiles.json apontar para múltiplas)",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "A_COMPOSITE_SPLIT",
+      "ssot_sigla": "FUAM/FUHAM",
+      "pastas_afetadas": [
+        "FUAM",
+        "FUHAM"
+      ],
+      "acao_recomendada": "Consolidar pastas [FUAM, FUHAM] em única canonical 'FUAMFUHAM' (ou manter como filhas e fazer profiles.json apontar para múltiplas)",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "A_COMPOSITE_SPLIT",
+      "ssot_sigla": "FAAR/SEDEL",
+      "pastas_afetadas": [
+        "SEDEL",
+        "FAAR"
+      ],
+      "acao_recomendada": "Consolidar pastas [FAAR, SEDEL] em única canonical 'FAARSEDEL' (ou manter como filhas e fazer profiles.json apontar para múltiplas)",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "A_COMPOSITE_SPLIT",
+      "ssot_sigla": "BANCO MASTER",
+      "pastas_afetadas": [
+        "MASTER"
+      ],
+      "acao_recomendada": "Consolidar pastas [MASTER] em única canonical 'BANCOMASTER' (ou manter como filhas e fazer profiles.json apontar para múltiplas)",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "A_COMPOSITE_SPLIT",
+      "ssot_sigla": "IKM DE",
+      "pastas_afetadas": [
+        "IKM"
+      ],
+      "acao_recomendada": "Consolidar pastas [IKM] em única canonical 'IKMDE' (ou manter como filhas e fazer profiles.json apontar para múltiplas)",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "A_COMPOSITE_SPLIT",
+      "ssot_sigla": "B23 TECNOLOGIA",
+      "pastas_afetadas": [
+        "B23"
+      ],
+      "acao_recomendada": "Consolidar pastas [B23] em única canonical 'B23TECNOLOGIA' (ou manter como filhas e fazer profiles.json apontar para múltiplas)",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "A_COMPOSITE_SPLIT",
+      "ssot_sigla": "PSA TECHNOLOGY",
+      "pastas_afetadas": [
+        "PSA"
+      ],
+      "acao_recomendada": "Consolidar pastas [PSA] em única canonical 'PSATECHNOLOGY' (ou manter como filhas e fazer profiles.json apontar para múltiplas)",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "_metadata",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "UGPI",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "FMPES",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "SEJEL",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": true,
+        "tem_no_db": true
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "BAIXA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "SETRAB",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "AADESAM",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "FJJA",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "BANCO DAYCOVAL",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "BRADESCO",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "SALUX",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "C_SSOT_SEM_PASTA",
+      "ssot_sigla": "BRADESCO FINANCIAMENTO",
+      "pastas_afetadas": [],
+      "contexto": {
+        "tem_dossie": false,
+        "tem_no_db": false
+      },
+      "acao_recomendada": "Criar pasta _CONSOLIDADO vazia (com 9 subpastas) OU marcar sigla como inativa no profiles.json",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "ALEAM_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'ALEAM' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "AMAZONASTUR_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'AMAZONASTUR' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "ASSOC_SAUDE_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'ASSOC_SAUDE' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "CIAMA_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'CIAMA' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "DEFESA_CIVIL_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'DEFESA_CIVIL' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "FAPEAM_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'FAPEAM' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "FEPIAM_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'FEPIAM' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "IMPRENSA_OFICIAL_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'IMPRENSA_OFICIAL' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "JUCEA_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'JUCEA' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "PGJ_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'PGJ' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "PROCON_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'PROCON' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SECOM_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'SECOM' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SEDURB_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'SEDURB' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SEPA_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'SEPA' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SUBCOMADEC_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'SUBCOMADEC' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "TCE_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'TCE' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "UEA_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'UEA' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_CONS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "UGPE_CONSOLIDADO"
+      ],
+      "acao_recomendada": "Decisão: (1) adicionar 'UGPE' ao profiles.json, (2) renomear para sigla SSOT existente, ou (3) arquivar em _ARQUIVO_ORFA/",
+      "severidade": "ALTA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "ALEAM_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/ALEAM_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "AMAZONASTUR_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/AMAZONASTUR_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "ASSOC_SAUDE_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/ASSOC_SAUDE_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "CIAMA_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/CIAMA_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "DEFESA_CIVIL_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/DEFESA_CIVIL_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "DESCONHECIDO_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/DESCONHECIDO_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "FAPEAM_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/FAPEAM_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "FEPIAM_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/FEPIAM_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "IMPRENSA_OFICIAL_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/IMPRENSA_OFICIAL_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "JUCEA_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/JUCEA_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "PGJ_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/PGJ_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "PROCON_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/PROCON_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SECOM_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/SECOM_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SEDURB_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/SEDURB_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SEPA_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/SEPA_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SRMM_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/SRMM_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "SUBCOMADEC_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/SUBCOMADEC_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "TCE_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/TCE_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "UEA_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/UEA_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    },
+    {
+      "causa": "D_PASTA_ORFA_DOS",
+      "ssot_sigla": null,
+      "pastas_afetadas": [
+        "UGPE_DOSSIE"
+      ],
+      "acao_recomendada": "Decisão: arquivar em _ARQUIVO_ORFA/UGPE_DOSSIE ou remapear",
+      "severidade": "MEDIA"
+    }
+  ],
+  "ssot_siglas": [
+    "SES/SUSAM",
+    "SSP",
+    "DETRAN",
+    "SEDUC",
+    "SEAD",
+    "SEJUSC",
+    "FUAM/FUHAM",
+    "POLÍCIA CIVIL",
+    "SEC",
+    "SEINFRA",
+    "FAAR/SEDEL",
+    "IPAAM",
+    "FMT",
+    "SEDECTI",
+    "CBMAM",
+    "SEAS",
+    "FHAJ",
+    "FHEMOAM",
+    "SEFAZ",
+    "SEPROR",
+    "SUHAB",
+    "ARSEPAM",
+    "SNPH",
+    "FCECON",
+    "AMAZONPREV",
+    "SEMA",
+    "PGE",
+    "SECT",
+    "IDAM",
+    "PMAM",
+    "FVS",
+    "FUNTEA",
+    "SEMIG",
+    "CAIXA",
+    "BANCO MASTER",
+    "PROVER",
+    "BANCO SICOOB",
+    "IKM DE",
+    "SUL AMERICA",
+    "ANOREG",
+    "ODONTOMED",
+    "BANCO BMG",
+    "FENIXSOFT",
+    "ITRANSITO",
+    "EASYTECH",
+    "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+    "BMC",
+    "CPA",
+    "BANCO SAFRA",
+    "B23 TECNOLOGIA",
+    "PSA TECHNOLOGY",
+    "_metadata",
+    "CETAM",
+    "UGPI",
+    "ADAF",
+    "CGE",
+    "FMPES",
+    "DPE",
+    "SEJEL",
+    "ADS",
+    "SETRAB",
+    "AADESAM",
+    "FJJA",
+    "CASA CIVIL",
+    "COSAMA",
+    "CASA MILITAR",
+    "BANCO DAYCOVAL",
+    "BRADESCO",
+    "SALUX",
+    "BRADESCO FINANCIAMENTO"
+  ],
+  "pastas_consolidado": [
+    "ADAF",
+    "ADS",
+    "ALEAM",
+    "AMAZONASTUR",
+    "AMAZONPREV",
+    "ANOREG",
+    "ARSEPAM",
+    "ASSOC_SAUDE",
+    "B23",
+    "BANCO_BMG",
+    "BANCO_MASTER",
+    "BANCO_SAFRA",
+    "BANCO_SICOOB",
+    "BMC",
+    "CAIXA",
+    "CASA_CIVIL",
+    "CASA_MILITAR",
+    "CBMAM",
+    "CETAM",
+    "CGE",
+    "CIAMA",
+    "COSAMA",
+    "CPA",
+    "DEFESA_CIVIL",
+    "DETRAN",
+    "DPE",
+    "EASYTECH",
+    "FAAR",
+    "FAPEAM",
+    "FCECON",
+    "FENIXSOFT",
+    "FEPIAM",
+    "FHAJ",
+    "FHEMOAM",
+    "FMT",
+    "FUAM",
+    "FUHAM",
+    "FUNTEA",
+    "FVS",
+    "IDAM",
+    "IKM",
+    "IMPRENSA_OFICIAL",
+    "IPAAM",
+    "ITRANSITO",
+    "JUCEA",
+    "ODONTOMED",
+    "PGE",
+    "PGJ",
+    "PMAM",
+    "POLICIA_CIVIL",
+    "PROCON",
+    "PROVER",
+    "PSA",
+    "SEAD",
+    "SEAS",
+    "SECOM",
+    "SECT",
+    "SEC",
+    "SEDECTI",
+    "SEDEL",
+    "SEDUC",
+    "SEDURB",
+    "SEFAZ",
+    "SEINFRA",
+    "SEJUSC",
+    "SEMA",
+    "SEMIG",
+    "SEPA",
+    "SEPROR",
+    "SES",
+    "SNPH",
+    "SSP",
+    "SUBCOMADEC",
+    "SUHAB",
+    "SUL_AMERICA",
+    "TCE",
+    "UEA",
+    "UGPE"
+  ],
+  "pastas_dossie": [
+    "ADAF",
+    "ADS",
+    "ALEAM",
+    "AMAZONASTUR",
+    "AMAZONPREV",
+    "ANOREG",
+    "ARSEPAM",
+    "ASSOC_SAUDE",
+    "B23",
+    "BANCO_BMG",
+    "BANCO_MASTER",
+    "BANCO_SAFRA",
+    "BANCO_SICOOB",
+    "BMC",
+    "CAIXA",
+    "CASA_CIVIL",
+    "CASA_MILITAR",
+    "CBMAM",
+    "CETAM",
+    "CGE",
+    "CIAMA",
+    "COSAMA",
+    "CPA",
+    "DEFESA_CIVIL",
+    "DESCONHECIDO",
+    "DETRAN",
+    "DPE",
+    "EASYTECH",
+    "FAAR",
+    "FAPEAM",
+    "FCECON",
+    "FENIXSOFT",
+    "FEPIAM",
+    "FHAJ",
+    "FHEMOAM",
+    "FMT",
+    "FUAM",
+    "FUHAM",
+    "FUNTEA",
+    "FVS",
+    "IDAM",
+    "IKM",
+    "IMPRENSA_OFICIAL",
+    "IPAAM",
+    "ITRANSITO",
+    "JUCEA",
+    "MASTER",
+    "ODONTOMED",
+    "PGE",
+    "PGJ",
+    "PMAM",
+    "POLICIA_CIVIL",
+    "PROCON",
+    "PROVER",
+    "PSA",
+    "SEAD",
+    "SEAS",
+    "SECOM",
+    "SECT",
+    "SEC",
+    "SEDECTI",
+    "SEDEL",
+    "SEDUC",
+    "SEDURB",
+    "SEFAZ",
+    "SEINFRA",
+    "SEJEL",
+    "SEJUSC",
+    "SEMA",
+    "SEMIG",
+    "SEPA",
+    "SEPROR",
+    "SES",
+    "SNPH",
+    "SRMM",
+    "SSP",
+    "SUBCOMADEC",
+    "SUHAB",
+    "SUL_AMERICA",
+    "TCE",
+    "UEA",
+    "UGPE"
+  ]
+}

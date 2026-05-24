@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sqlite-prodam": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_ANALISE\\prodam.db"
+      ]
+    }
+  }
+}

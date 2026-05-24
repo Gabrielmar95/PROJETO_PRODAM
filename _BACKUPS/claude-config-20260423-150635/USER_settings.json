@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "CLAUDE_CODE_USE_POWERSHELL_TOOL": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip *)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(node *)",
+      "Bash(npm *)",
+      "Read",
+      "Write",
+      "Edit",
+      "Bash",
+      "Deny Bash(git push *)",
+      "Allow MCP",
+      "PowerShell",
+      "Allow Bash",
+      "Allow Write",
+      "Bash(tasklist *)",
+      "Bash(where.exe *)",
+      "WebSearch",
+      "WebFetch(domain:www.agenciaamazonas.am.gov.br)",
+      "WebFetch(domain:radaramazonico.com.br)",
+      "WebFetch(domain:www.detran.am.gov.br)",
+      "mcp__plugin_serena_serena__initial_instructions",
+      "mcp__plugin_serena_serena__check_onboarding_performed",
+      "mcp__plugin_serena_serena__onboarding",
+      "mcp__plugin_serena_serena__list_dir",
+      "mcp__plugin_serena_serena__get_symbols_overview",
+      "mcp__plugin_serena_serena__read_file",
+      "mcp__plugin_serena_serena__write_memory",
+      "Bash([ -s \"$LOG\" ])"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Deny Bash(git push *)"
+    ],
+    "defaultMode": "dontAsk"
+  },
+  "defaultShell": "powershell",
+  "enabledPlugins": {
+    "github@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "explanatory-output-style@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "remember@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "semgrep@claude-plugins-official": false,
+    "serena@claude-plugins-official": true
+  },
+  "language": "pt-BR",
+  "effortLevel": "high",
+  "autoUpdatesChannel": "latest",
+  "skipAutoPermissionPrompt": true
+}

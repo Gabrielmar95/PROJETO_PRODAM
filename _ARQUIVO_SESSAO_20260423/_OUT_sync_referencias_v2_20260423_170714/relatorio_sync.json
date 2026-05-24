@@ -1,0 +1,93 @@
+{
+  "data": "2026-04-23T17:07:14.071639",
+  "modo": "DRY-RUN",
+  "versao": "v2",
+  "fontes_mapa": {
+    "rename": {
+      "log": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_rename_inplace_20260423_141648\\log_renomeacao.csv",
+      "pares": 2473
+    },
+    "limpar_suspeitos": {
+      "log": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_limpar_suspeitos_20260423_155914\\log_limpar_suspeitos.csv",
+      "pares": 196
+    },
+    "unificado_pares": 2669,
+    "colisoes": 0,
+    "colisoes_amostra": []
+  },
+  "mapa_size": 2669,
+  "json": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\profiles.json",
+      "exists": true,
+      "refs": 0,
+      "detalhe": {},
+      "tamanho_bytes": 338473
+    }
+  ],
+  "db": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\prodam.db",
+      "exists": true,
+      "refs": 6,
+      "ocorrencias": {
+        "pendrive_docs": {
+          "arquivo": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          },
+          "caminho": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          },
+          "texto_preview": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_ANALISE\\prodam.db",
+      "exists": true,
+      "refs": 6,
+      "ocorrencias": {
+        "pendrive_docs": {
+          "arquivo": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          },
+          "caminho": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          },
+          "texto_preview": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\detran_dashboard\\data-real\\prodam.db",
+      "exists": true,
+      "refs": 6,
+      "ocorrencias": {
+        "pendrive_docs": {
+          "arquivo": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          },
+          "caminho": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          },
+          "texto_preview": {
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN\\AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\DETRAN_CONSOLIDADO\\09_RELATORIOS\\AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          }
+        }
+      }
+    }
+  ]
+}

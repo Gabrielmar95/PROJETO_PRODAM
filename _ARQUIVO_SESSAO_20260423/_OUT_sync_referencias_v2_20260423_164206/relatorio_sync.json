@@ -1,0 +1,288 @@
+{
+  "data": "2026-04-23T16:42:06.512086",
+  "modo": "DRY-RUN",
+  "versao": "v2",
+  "fontes_mapa": {
+    "rename": {
+      "log": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_rename_inplace_20260423_141648\\log_renomeacao.csv",
+      "pares": 1858
+    },
+    "limpar_suspeitos": {
+      "log": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_limpar_suspeitos_20260423_155914\\log_limpar_suspeitos.csv",
+      "pares": 99
+    },
+    "unificado_pares": 1957,
+    "colisoes": 0,
+    "colisoes_amostra": []
+  },
+  "mapa_size": 1957,
+  "json": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\profiles.json",
+      "exists": true,
+      "refs": 0,
+      "detalhe": {},
+      "tamanho_bytes": 338473
+    }
+  ],
+  "db": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\prodam.db",
+      "exists": true,
+      "refs": 67,
+      "ocorrencias": {
+        "spcf_empenhos": {
+          "pdf_path": {
+            "NE-2018-00264_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00256_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00257_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00024_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-01377_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00225_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00571_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00245_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00010_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00006_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00013_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00055_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00025_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-01393_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00679_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-01094_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-01095_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00090_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000801_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000802_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00759_CT-021.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00760_CT-026.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000993_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0000027_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0001031_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00627_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0001731_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00547_CT-026.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2023-0001078_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2023-0001722_CT-078.2022-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00055_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00875_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00994_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00874_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00996_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00314_CT-024.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00429_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00501_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00427_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00658_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00656_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00390_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00834_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00812_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00811_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00660_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00524_CT-017.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00222_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00846_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00564_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00896_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00967_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00971_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00044_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00045_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00043_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00249_CT-017.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00253_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00051_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00247_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00246_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00245_CT-023.2014-SUSPEITO_Ordinario.pdf": 1
+          }
+        },
+        "pendrive_docs": {
+          "arquivo": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "NE-2022-0001911_CT-078.2022-SUSPEITO_Cobertura-Financeira_dup-02.pdf": 1
+          },
+          "caminho": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "NE-2022-0001911_CT-078.2022-SUSPEITO_Cobertura-Financeira_dup-02.pdf": 1
+          },
+          "texto_preview": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_ANALISE\\prodam.db",
+      "exists": true,
+      "refs": 67,
+      "ocorrencias": {
+        "spcf_empenhos": {
+          "pdf_path": {
+            "NE-2018-00264_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00256_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00257_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00024_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-01377_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00225_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00571_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00245_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00010_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00006_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00013_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00055_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00025_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-01393_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00679_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-01094_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-01095_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00090_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000801_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000802_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00759_CT-021.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00760_CT-026.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000993_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0000027_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0001031_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00627_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0001731_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00547_CT-026.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2023-0001078_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2023-0001722_CT-078.2022-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00055_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00875_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00994_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00874_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00996_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00314_CT-024.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00429_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00501_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00427_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00658_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00656_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00390_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00834_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00812_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00811_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00660_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00524_CT-017.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00222_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00846_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00564_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00896_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00967_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00971_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00044_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00045_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00043_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00249_CT-017.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00253_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00051_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00247_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00246_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00245_CT-023.2014-SUSPEITO_Ordinario.pdf": 1
+          }
+        },
+        "pendrive_docs": {
+          "arquivo": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "NE-2022-0001911_CT-078.2022-SUSPEITO_Cobertura-Financeira_dup-02.pdf": 1
+          },
+          "caminho": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "NE-2022-0001911_CT-078.2022-SUSPEITO_Cobertura-Financeira_dup-02.pdf": 1
+          },
+          "texto_preview": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\detran_dashboard\\data-real\\prodam.db",
+      "exists": true,
+      "refs": 67,
+      "ocorrencias": {
+        "spcf_empenhos": {
+          "pdf_path": {
+            "NE-2018-00264_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00256_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00257_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00024_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-01377_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00225_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00571_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-00245_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00010_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00006_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00013_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00055_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00025_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2019-01393_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-00679_CT-014.2019-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-01094_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2020-01095_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00090_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000801_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000802_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00759_CT-021.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00760_CT-026.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2021-0000993_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0000027_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0001031_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00627_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2022-0001731_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00547_CT-026.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2023-0001078_CT-008.2021-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2023-0001722_CT-078.2022-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00055_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00875_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00994_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00874_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2015-00996_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00314_CT-024.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00429_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00501_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00427_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00658_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00656_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00390_CT-001.2011-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00834_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00812_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00811_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00660_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00524_CT-017.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00222_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2016-00846_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00564_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00896_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00967_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2017-00971_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00044_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00045_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00043_CT-023.2014-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00249_CT-017.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00253_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00051_CT-028.2012-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00247_CT-005.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00246_CT-011.2016-SUSPEITO_Ordinario.pdf": 1,
+            "NE-2018-00245_CT-023.2014-SUSPEITO_Ordinario.pdf": 1
+          }
+        },
+        "pendrive_docs": {
+          "arquivo": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "NE-2022-0001911_CT-078.2022-SUSPEITO_Cobertura-Financeira_dup-02.pdf": 1
+          },
+          "caminho": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1,
+            "NE-2022-0001911_CT-078.2022-SUSPEITO_Cobertura-Financeira_dup-02.pdf": 1
+          },
+          "texto_preview": {
+            "AUDITORIA_DETRAN_COMPLETA.pdf": 1
+          }
+        }
+      }
+    }
+  ]
+}

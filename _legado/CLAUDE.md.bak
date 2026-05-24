@@ -1,0 +1,65 @@
+# PROJETO PRODAM — Recuperação de Créditos
+## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
+**Atualizado automaticamente em 14/04/2026 16:05 via auto_update_claude_md.py**
+
+## MÉTRICAS DO PORTFÓLIO
+- 67 devedores (26 Gov Direta, 21 Gov Indireta, 19 Privadas)
+- R$ 121.512.497,26 exigível | R$ 195.448.326,85 atualizado
+- 2958 faturas (1873 exigíveis, 1085 prescritas)
+- Força: 12 FORTE, 15 MÉDIA, 39 FRACA
+
+## PIPELINE POR PRÓXIMO PASSO
+- ANALISAR_DOCUMENTACAO: 36 devedores
+- CLASSIFICAR: 14 devedores
+- ENVIAR_TRD: 9 devedores
+- PROTOCOLAR_PETICAO: 5 devedores
+- HABILITAÇÃO DE CRÉDITO: 1 devedores
+- N/A: 1 devedores
+- AVALIAR_SUCESSAO: 1 devedores
+
+## TOP 10 DEVEDORES (por valor exigível)
+- SEDUC: R$ 49.215.512,48 | FORTE | ANALISAR_DOCUMENTACAO
+- DETRAN: R$ 31.684.739,01 | FORTE | PROTOCOLAR_PETICAO
+- SES/SUSAM: R$ 14.748.048,96 | FORTE | ENVIAR_TRD
+- SSP: R$ 4.553.230,80 | FORTE | PROTOCOLAR_PETICAO
+- SEJUSC: R$ 2.589.660,12 | MÉDIA | ANALISAR_DOCUMENTACAO
+- SEAD: R$ 2.339.702,20 | FORTE | ENVIAR_TRD
+- CETAM: R$ 1.256.564,28 | FRACA | CLASSIFICAR
+- SEDECTI: R$ 1.249.203,13 | MÉDIA | ANALISAR_DOCUMENTACAO
+- POLÍCIA CIVIL: R$ 960.481,71 | MÉDIA | ANALISAR_DOCUMENTACAO
+- BANCO MASTER: R$ 889.270,87 | FRACA | HABILITAÇÃO DE CRÉDITO
+
+## ALERTAS DE PRESCRIÇÃO (<90 dias)
+- 🔴 SES/SUSAM: 2026-05-13 (29 dias) — R$ 14.748.048,96
+
+## ESTRUTURA DO PROJETO
+- `prodam.db` — SQLite (8 tabelas, 80k+ registros)
+- `PRODAM_DOCS/profiles.json` — SSOT dos devedores (fonte autoritativa)
+- `PRODAM_DOCS/REFERENCIA_JURIDICA/` — base jurídica (20 subpastas)
+- `PRODAM_DOCS/_SKILLS/` — skills jurídicas pareadas
+- `SPCF_EXTRACAO/` — web scraping SPCF
+- `consultas.py` — 15 queries forenses (CLI)
+
+## SQLITE prodam.db
+Tabelas: spcf_contratos (362), spcf_empenhos (16.789), spcf_faturas (1.837), spcf_nfs (52.998), pendrive_docs (3.699), devedores (81), reclassificacao (1.261), cruzamento_spcf_pendrive (1.460)
+Views: v_fatura_completa, v_fatura_sem_empenho, v_nf_sem_pagamento, v_pendrive_por_devedor, v_cruzamento_nf
+
+## REGRAS OBRIGATÓRIAS
+1. NUNCA emita opinião jurídica sem consultar REFERENCIA_JURIDICA/
+2. NUNCA invente jurisprudência, artigos de lei ou precedentes
+3. profiles.json é a SSOT — NÃO usar Demonstrativo Excel
+4. Valores monetários: Decimal, nunca float. Formato BRL: R$ 1.234,56
+5. Índices: SELIC para todos, exceto FUHAM=IGPM e DETRAN=IGPM+1%+2%
+6. Fee: 20% (não 30%). RPV AM estadual: 20 SM (R$ 32.420)
+7. Art. 202 CC: interrupção só ocorre UMA VEZ (unicidade)
+8. Tema 1.109/STJ: gestor NÃO renuncia tacitamente a prescrição
+9. PRECEDENTES_VERIFICADOS.md é a única fonte de jurisprudência verificada
+10. Consultar skills relevantes antes de tarefas jurídicas
+
+## COMANDOS ÚTEIS
+```
+py -3.12 consultas.py --lista              # ver todas as queries
+py -3.12 consultas.py resumo_geral         # visão geral
+py -3.12 consultas.py top_devedores        # ranking por valor
+py -3.12 auto_update_claude_md.py          # regenerar este arquivo
+```

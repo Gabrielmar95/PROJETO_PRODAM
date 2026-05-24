@@ -1,0 +1,113 @@
+# ===========================================================
+# .gitignore — Projeto PRODAM
+# Gerado em 14/04/2026 durante auditoria global
+# ===========================================================
+
+# Banco SQLite (gerado por build_sqlite.py)
+prodam.db
+prodam.db-journal
+prodam.db-wal
+prodam.db-shm
+*.db.bak
+PRODAM_DOCS/_ANALISE/prodam.db
+
+# JSONs consolidados gigantes (>50 MB, regeneráveis)
+DOSSIE_COMPLETO.json
+DOSSIE_COMPLETO_SLIM.json
+PRODAM_DOCS/DOSSIE_COMPLETO.json
+PRODAM_DOCS/DOSSIE_COMPLETO_SLIM.json
+PRODAM_DOCS/_ANALISE/ANALISE_COMPLETA.json
+PRODAM_DOCS/_ANALISE/ANALISE_COMPLETA_v4.json
+PRODAM_DOCS/MASTER_DOSSIE/corpus_consolidado.jsonl
+MASTER_DOSSIE/corpus_consolidado.jsonl
+
+# Saídas geradas por scripts (regeneráveis)
+# AUDITORIA_COMPLETUDE/    -- versionada desde 20/04/2026 (70 MDs de auditoria por devedor, 0,15 MB)
+# DOSSIES_MULTIFORMATO/    -- versionada desde 20/04/2026 (71 devedores x 5 formatos, 9,77 MB)
+ses_reconciliacao.json
+ses_reconciliacao.csv
+ses_reconciliacao_summary.md
+reconciliacao_4_fontes_DADOS.json
+reconciliacao_4_fontes_RELATORIO.md
+ses_geral_faturas_all_years.json
+ses_susam_faturas_cruzamento.json
+ses_susam_exigiveis_drill.json
+SKILLS_PATHS_DESATUALIZADOS.md
+
+# Backups
+*.bak
+*.bkp
+*.bkp.*
+.*.bak
+CLAUDE.md.bak
+profiles.json.bak*
+profiles.json.lock
+profiles.json.sha256
+
+# Artefatos do sistema de arquivos
+.fuse_hidden*
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Evidências — pasta pesada de PDFs (opt-in por subpasta se preciso)
+# PRODAM_DOCS/Evid*/
+PRODAM_DOCS/_WORKFLOW_IMPORTADO/
+
+# PDFs de cobrança duplicados (SSP e SEDUC têm 200MB+ cada)
+PRODAM_DOCS/*_CONSOLIDADO/06_COBRANCAS/*.pdf
+
+# Temp
+*.tmp
+*.log
+temp/
+tmp/
+
+# Diagnósticos bugados do pipeline multi-agente — NUNCA commitar
+# (ver CLAUDE.md §11 "S3-bis" para 3 regras de patch obrigatórias)
+19_ESTADO_AGENTES/*DIAGNOSTICO_BUGADO*
+**/19_ESTADO_AGENTES/*DIAGNOSTICO_BUGADO*
+
+.env
+
+# ===========================================================
+# Acrescimos 20/04/2026 - pre commit inicial
+# ===========================================================
+
+# Pastas-monstro (>1 GB): fonte bruta + cache de extracao
+# PRODAM_DOCS = 25,4 GB (24038 arq) - pasta-mae intocavel
+# SPCF_EXTRACAO = 6,9 GB (56127 arq) - cache regeneravel via scripts SPCF
+PRODAM_DOCS/
+SPCF_EXTRACAO/
+
+# Backups locais e snapshots de restauracao
+_BACKUP_*/
+*_BACKUP_*/
+_backup_*/
+
+# Bancos de dados (extensoes alem de prodam.db)
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# node_modules
+node_modules/

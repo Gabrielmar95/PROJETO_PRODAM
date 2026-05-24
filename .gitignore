@@ -1,173 +1,43 @@
-# ===========================================================
-# .gitignore — Projeto PRODAM
-# Gerado em 14/04/2026 durante auditoria global
-# ===========================================================
+# Banco de dados (fica so local)
+*.db
+*.sqlite
+*.sqlite3
 
-# Banco SQLite (gerado por build_sqlite.py)
-prodam.db
-prodam.db-journal
-prodam.db-wal
-prodam.db-shm
-*.db.bak
-PRODAM_DOCS/_ANALISE/prodam.db
+# PDFs e documentos pesados (fica so local)
+*.pdf
+*.PDF
 
-# JSONs consolidados gigantes (>50 MB, regeneráveis)
-DOSSIE_COMPLETO.json
-DOSSIE_COMPLETO_SLIM.json
-PRODAM_DOCS/DOSSIE_COMPLETO.json
-PRODAM_DOCS/DOSSIE_COMPLETO_SLIM.json
-PRODAM_DOCS/_ANALISE/ANALISE_COMPLETA.json
-PRODAM_DOCS/_ANALISE/ANALISE_COMPLETA_v4.json
-PRODAM_DOCS/MASTER_DOSSIE/corpus_consolidado.jsonl
-MASTER_DOSSIE/corpus_consolidado.jsonl
-
-# Saídas geradas por scripts (regeneráveis)
-# AUDITORIA_COMPLETUDE/    -- versionada desde 20/04/2026 (70 MDs de auditoria por devedor, 0,15 MB)
-# DOSSIES_MULTIFORMATO/    -- versionada desde 20/04/2026 (71 devedores x 5 formatos, 9,77 MB)
-ses_reconciliacao.json
-ses_reconciliacao.csv
-ses_reconciliacao_summary.md
-reconciliacao_4_fontes_DADOS.json
-reconciliacao_4_fontes_RELATORIO.md
-ses_geral_faturas_all_years.json
-ses_susam_faturas_cruzamento.json
-ses_susam_exigiveis_drill.json
-SKILLS_PATHS_DESATUALIZADOS.md
-
-# Triagem prescricional — sigilo OAB Art. 7º XIX
-PRODAM_DOCS/_QUESTOES_CRITICAS/auditoria_DE_2026-05-12/
-
-# Backups
-*.bak
-*.bkp
-*.bkp.*
-.*.bak
-CLAUDE.md.bak
-profiles.json.bak*
-profiles.json.lock
-profiles.json.sha256
-
-# Artefatos do sistema de arquivos
-.fuse_hidden*
-*~
-.DS_Store
-Thumbs.db
-desktop.ini
+# Subrepositorios com vida propria (ficam de fora)
+PRODAM_DOCS/
+SPCF_EXTRACAO/
+detran_dashboard/
 
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
 .venv/
 venv/
 env/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Evidências — pasta pesada de PDFs (opt-in por subpasta se preciso)
-# PRODAM_DOCS/Evid*/
-PRODAM_DOCS/_WORKFLOW_IMPORTADO/
-
-# PDFs de cobrança duplicados (SSP e SEDUC têm 200MB+ cada)
-PRODAM_DOCS/*_CONSOLIDADO/06_COBRANCAS/*.pdf
-
-# Temp
-*.tmp
-*.log
-temp/
-tmp/
-
-# Diagnósticos bugados do pipeline multi-agente — NUNCA commitar
-# (ver CLAUDE.md §11 "S3-bis" para 3 regras de patch obrigatórias)
-19_ESTADO_AGENTES/*DIAGNOSTICO_BUGADO*
-**/19_ESTADO_AGENTES/*DIAGNOSTICO_BUGADO*
-
+# Segredos e ambiente
 .env
+*.key
+credentials.json
+token.json
 
-# ===========================================================
-# Acrescimos 20/04/2026 - pre commit inicial
-# ===========================================================
-
-# Pastas-monstro (>1 GB): fonte bruta + cache de extracao
-# PRODAM_DOCS = 25,4 GB (24038 arq) - pasta-mae intocavel
-# SPCF_EXTRACAO = 6,9 GB (56127 arq) - cache regeneravel via scripts SPCF
-PRODAM_DOCS/
-SPCF_EXTRACAO/
-
-# Backups locais e snapshots de restauracao
-_BACKUP_*/
-*_BACKUP_*/
-_backup_*/
-
-# Bancos de dados (extensoes alem de prodam.db)
-*.sqlite
-*.sqlite3
-*.db-journal
-
-# node_modules
+# Lixo temporario de sistema
+.fuse_hidden*
+nul
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
 node_modules/
 
-# Claude Code - arquivos locais pessoais (não versionar)
-.claude/settings.local.json
+# Backups de banco de dados (qualquer .BAK de .db)
+*.db.BAK
+*.db_*.BAK
+*.BAK
 
-# === auditoria-fisica 2026-05-10 ===
-# (node_modules/ e *.bak já cobertos acima — mantidos aqui apenas como referência da seção)
-*.backup
-*.backup-*
-*.bak-*
-*.bak.*
-_AUDITORIA_FISICA/
-
-token.txt
-*.token
-*.secret
-
-# === Acréscimos 13/05/2026 — pós-instalação Git ===
-# Pasta _BACKUPS (plural) — snapshots locais
-_BACKUPS/
-
-# Pastas de trabalho interno e sessão
-_ARQUIVO_*/
-_SESSAO/
-_SKILLS_NOVAS_*/
-_QUESTOES_CRITICAS/
-_DIAGNOSTICO_*.md
-.continue-here.md
-
-# Backups de bancos e profiles
-prodam_BAK_*.db
-profiles_PRE-*.json
-
-# Scripts temporários e lixo do Windows
-_tmp_*.py
-*.untracked-bak-*
-nul
-
-# Outputs regeneráveis
-DIAGNOSTICO_PASTA_MAE.*
-profile_pasta_mae.json
-insights_consolidados.json
-insights_devedores.csv
-profiles_resumo.csv
-
-# Pastas pesadas e com dados sensíveis (revisar depois com calma)
-DOCUMENTOS_GERADOS/DETRAN/
-DETALHAMENTO_FATURAS/
-DETRAN_AUDITORIA_COMPLETA/
-OCR_PESQUISAVEL_CONSOLIDADO/
-detran_dashboard/
-docs/
-
-# === Acréscimo 13/05/2026 — ignorar CLAUDE.md de subpastas ===
-# Logs auto-gerados pelo plugin claude-mem (não são instruções curadas).
-# Manter apenas o CLAUDE.md raiz canônico (regenerado por auto_update_claude_md.py).
-**/CLAUDE.md
-!/CLAUDE.md
+# Pastas de saida de sessoes antigas (pesadas)
+_ARQUIVO_SESSAO_*/_OUT_*/

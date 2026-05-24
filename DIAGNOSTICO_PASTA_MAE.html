@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Diagnóstico Pasta-Mãe PROJETO_PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --azul: #1F3864;
+    --azul-claro: #2E5090;
+    --dourado: #B8963E;
+    --carvao: #2D2D2D;
+    --cinza: #777777;
+    --cinza-claro: #F2F2F2;
+    --vermelho: #C0392B;
+    --verde: #27AE60;
+    --laranja: #E67E22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #FAFAFA;
+    color: var(--carvao);
+    line-height: 1.5;
+  }
+  header {
+    background: linear-gradient(135deg, var(--azul), var(--azul-claro));
+    color: white;
+    padding: 30px 40px;
+    border-bottom: 4px solid var(--dourado);
+  }
+  header h1 {
+    font-size: 26px;
+    margin-bottom: 6px;
+  }
+  header .sub {
+    font-size: 13px;
+    opacity: 0.85;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  header .meta {
+    margin-top: 10px;
+    font-size: 11px;
+    opacity: 0.7;
+  }
+  .container { max-width: 1400px; margin: 0 auto; padding: 30px; }
+  section { margin-bottom: 40px; }
+  h2 {
+    color: var(--azul);
+    font-size: 20px;
+    border-bottom: 2px solid var(--dourado);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  h3 { color: var(--azul); font-size: 15px; margin-bottom: 10px; }
+  .grid-kpi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 16px;
+  }
+  .kpi {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    border-left: 5px solid var(--azul);
+  }
+  .kpi.dourado { border-left-color: var(--dourado); }
+  .kpi.verde { border-left-color: var(--verde); }
+  .kpi.vermelho { border-left-color: var(--vermelho); }
+  .kpi.laranja { border-left-color: var(--laranja); }
+  .kpi .label { font-size: 11px; color: var(--cinza); text-transform: uppercase; letter-spacing: 1px; }
+  .kpi .valor { font-size: 26px; font-weight: bold; color: var(--azul); margin-top: 4px; }
+  .kpi .extra { font-size: 11px; color: var(--cinza); margin-top: 4px; }
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .chart-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  }
+  .chart-box canvas { max-height: 300px; }
+  @media (max-width: 900px) { .charts-grid { grid-template-columns: 1fr; } }
+  .tabela-wrap {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    overflow-x: auto;
+  }
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    background: var(--azul);
+    color: white;
+    padding: 10px 8px;
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  tbody td { padding: 8px; border-bottom: 1px solid var(--cinza-claro); font-size: 13px; }
+  tbody tr:nth-child(even) { background: #FAFAFA; }
+  tbody tr:hover { background: #FFF8E5; }
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .b-forte { background: #D4EDDA; color: #1E6B2E; }
+  .b-media { background: #FFF3CD; color: #7A5C00; }
+  .b-fraca { background: #F8D7DA; color: #7A1E25; }
+  .b-zero  { background: #EEE; color: #666; }
+  .filtros { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  .filtros input, .filtros select {
+    padding: 8px 12px;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: inherit;
+  }
+  .filtros input { flex: 1; min-width: 200px; }
+  .heatmap-cell {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    padding: 4px;
+    min-width: 40px;
+  }
+  .legenda {
+    font-size: 11px;
+    color: var(--cinza);
+    margin-top: 10px;
+    font-style: italic;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: var(--cinza);
+    border-top: 1px solid #DDD;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Diagnóstico Técnico — Pasta-Mãe PROJETO_PRODAM</h1>
+  <div class="sub">Análise de cientista de dados | Contrato 002/2026</div>
+  <div class="meta">Gabriel Mar Sociedade Individual de Advocacia | OAB/AM 15.697 | Gerado em <span id="data-ger"></span></div>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>Visão geral — KPIs</h2>
+    <div class="grid-kpi" id="kpis"></div>
+  </section>
+
+  <section>
+    <h2>Distribuição de cobertura documental</h2>
+    <div class="charts-grid">
+      <div class="chart-box"><h3>Cobertura dos devedores (_CONSOLIDADO)</h3><canvas id="chartCobertura"></canvas></div>
+      <div class="chart-box"><h3>Subpastas com maiores lacunas</h3><canvas id="chartGaps"></canvas></div>
+      <div class="chart-box"><h3>Força probatória do portfólio</h3><canvas id="chartForca"></canvas></div>
+      <div class="chart-box"><h3>Faturas: exigíveis × prescritas</h3><canvas id="chartFaturas"></canvas></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Benchmark DETRAN × Top-10 devedores</h2>
+    <div class="chart-box"><canvas id="chartBenchmark" style="max-height:380px"></canvas></div>
+    <div class="legenda">DETRAN é a única pasta-filha com cobertura ≥80% (score 94/100 A+). Os demais precisam de execução da pipeline orgao_pipeline_completa.py.</div>
+  </section>
+
+  <section>
+    <h2>Heatmap de cobertura por subpasta (todos os 78 devedores)</h2>
+    <div class="tabela-wrap" id="heatmap-wrap"></div>
+    <div class="legenda">Verde = tem arquivos; cinza = vazio. Ler linhas esquerda→direita: 01_CONTRATOS, 02_EMPENHOS, ..., 09_RELATORIOS.</div>
+  </section>
+
+  <section>
+    <h2>Tabela completa de devedores (filtre e ordene)</h2>
+    <div class="filtros">
+      <input id="busca" placeholder="🔍  Busca por nome...">
+      <select id="ordenar">
+        <option value="arquivos">Ordenar por: arquivos ↓</option>
+        <option value="cobertura">Ordenar por: cobertura ↓</option>
+        <option value="nome">Ordenar por: nome A→Z</option>
+      </select>
+    </div>
+    <div class="tabela-wrap"><table><thead><tr>
+      <th>#</th><th>Devedor</th><th>Arquivos</th><th>Cobertura</th><th>Dossiê</th><th>Status</th>
+    </tr></thead><tbody id="tabela-dev"></tbody></table></div>
+  </section>
+
+  <section>
+    <h2>Tabelas da base prodam.db</h2>
+    <div class="tabela-wrap"><table><thead><tr>
+      <th>Tabela</th><th>Registros</th>
+    </tr></thead><tbody id="tabela-db"></tbody></table></div>
+  </section>
+
+</div>
+
+<footer>
+  Relatório gerado automaticamente a partir de profile_pasta_mae.py.<br>
+  Para regenerar: <code>python3 profile_pasta_mae.py &amp;&amp; python3 gerar_dashboard.py</code>
+</footer>
+
+<script>
+const DATA = {"kpis": {"n_devedores_pastas": 78, "n_devedores_profiles": 70, "valor_exigivel": 93632770.88, "valor_atualizado": 160936948.41, "valor_original": 123225824.59, "fat_total": 3497, "fat_exigiveis": 2412, "fat_prescritas": 1085, "pct_prescritas": 31.0, "db_mb": 91.46, "db_registros": 78590, "n_forte": 12, "n_media": 15, "n_fraca": 42, "gap_por_sub": {"01_CONTRATOS": 72, "02_EMPENHOS": 75, "03_FATURAS": 58, "04_NOTAS_LIQUIDACAO": 75, "05_ACEITES": 30, "06_COBRANCAS": 15, "07_SCRAPING_SPCF": 77, "08_PDFS_ORIGINAIS": 37, "09_RELATORIOS": 77}, "bins_cobertura": {"100%": 0, "80-99%": 1, "50-79%": 5, "20-49%": 46, "0-19%": 26}, "detran_arqs": 455, "detran_cov": 88.9}, "devedores": [{"nome": "ADAF", "arquivos": 56, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 50, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 4, "09_RELATORIOS": 0}}, {"nome": "ADS", "arquivos": 48, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 46, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "ALEAM", "arquivos": 13, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 12, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "AMAZONASTUR", "arquivos": 26, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 24, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "AMAZONPREV", "arquivos": 53, "cobertura": 55.6, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 1, "03_FATURAS": 12, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 5, "06_COBRANCAS": 26, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 9, "09_RELATORIOS": 0}}, {"nome": "ANOREG", "arquivos": 18, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 18, "09_RELATORIOS": 0}}, {"nome": "ARSEPAM", "arquivos": 65, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 19, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 35, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 9, "09_RELATORIOS": 0}}, {"nome": "ASSOC_SAUDE", "arquivos": 6, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 6, "09_RELATORIOS": 0}}, {"nome": "B23", "arquivos": 3, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 3, "09_RELATORIOS": 0}}, {"nome": "BANCO_BMG", "arquivos": 10, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 10, "09_RELATORIOS": 0}}, {"nome": "BANCO_MASTER", "arquivos": 50, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 50, "09_RELATORIOS": 0}}, {"nome": "BANCO_SAFRA", "arquivos": 5, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 5, "09_RELATORIOS": 0}}, {"nome": "BANCO_SICOOB", "arquivos": 19, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 19, "09_RELATORIOS": 0}}, {"nome": "BMC", "arquivos": 6, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 6, "09_RELATORIOS": 0}}, {"nome": "CAIXA", "arquivos": 59, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 59, "09_RELATORIOS": 0}}, {"nome": "CASA_CIVIL", "arquivos": 36, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 2, "05_ACEITES": 1, "06_COBRANCAS": 33, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "CASA_MILITAR", "arquivos": 2, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 2, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "CBMAM", "arquivos": 39, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 3, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 5, "06_COBRANCAS": 29, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 2, "09_RELATORIOS": 0}}, {"nome": "CETAM", "arquivos": 27, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 26, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "CGE", "arquivos": 14, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 3, "06_COBRANCAS": 11, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "CIAMA", "arquivos": 7, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 7, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "COSAMA", "arquivos": 25, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 23, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "CPA", "arquivos": 10, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 3, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 7, "09_RELATORIOS": 0}}, {"nome": "DEFESA_CIVIL", "arquivos": 7, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 7, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "DETRAN", "arquivos": 455, "cobertura": 88.9, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 70, "02_EMPENHOS": 111, "03_FATURAS": 121, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 17, "06_COBRANCAS": 91, "07_SCRAPING_SPCF": 8, "08_PDFS_ORIGINAIS": 24, "09_RELATORIOS": 13}}, {"nome": "DPE", "arquivos": 16, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 15, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "EASYTECH", "arquivos": 13, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 4, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 9, "09_RELATORIOS": 0}}, {"nome": "FAAR", "arquivos": 139, "cobertura": 55.6, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 2, "02_EMPENHOS": 0, "03_FATURAS": 58, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 4, "06_COBRANCAS": 57, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 18, "09_RELATORIOS": 0}}, {"nome": "FAPEAM", "arquivos": 5, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 5, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FCECON", "arquivos": 65, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 63, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FENIXSOFT", "arquivos": 14, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 14, "09_RELATORIOS": 0}}, {"nome": "FEPIAM", "arquivos": 33, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 4, "06_COBRANCAS": 29, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FHAJ", "arquivos": 74, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 73, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FHEMOAM", "arquivos": 36, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 4, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 29, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 2, "09_RELATORIOS": 0}}, {"nome": "FMT", "arquivos": 52, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 51, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FUAM", "arquivos": 20, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 20, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FUHAM", "arquivos": 30, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 28, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FUNTEA", "arquivos": 21, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 2, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 17, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "FVS", "arquivos": 43, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 4, "05_ACEITES": 1, "06_COBRANCAS": 38, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "IDAM", "arquivos": 42, "cobertura": 55.6, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 1, "02_EMPENHOS": 0, "03_FATURAS": 8, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 30, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 1, "09_RELATORIOS": 0}}, {"nome": "IKM", "arquivos": 19, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 19, "09_RELATORIOS": 0}}, {"nome": "IMPRENSA_OFICIAL", "arquivos": 18, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 18, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "IPAAM", "arquivos": 83, "cobertura": 66.7, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 1, "03_FATURAS": 23, "04_NOTAS_LIQUIDACAO": 1, "05_ACEITES": 8, "06_COBRANCAS": 36, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 14, "09_RELATORIOS": 0}}, {"nome": "ITRANSITO", "arquivos": 12, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 2, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 10, "09_RELATORIOS": 0}}, {"nome": "JUCEA", "arquivos": 16, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 16, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "ODONTOMED", "arquivos": 15, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 15, "09_RELATORIOS": 0}}, {"nome": "PGE", "arquivos": 50, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 3, "06_COBRANCAS": 47, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "PGJ", "arquivos": 11, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 10, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "PMAM", "arquivos": 36, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 3, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 3, "06_COBRANCAS": 27, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 3, "09_RELATORIOS": 0}}, {"nome": "POLICIA_CIVIL", "arquivos": 85, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 22, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 4, "06_COBRANCAS": 41, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 18, "09_RELATORIOS": 0}}, {"nome": "PROCON", "arquivos": 27, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 26, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "PROVER", "arquivos": 46, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 46, "09_RELATORIOS": 0}}, {"nome": "PSA", "arquivos": 1, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 1, "09_RELATORIOS": 0}}, {"nome": "SEAD", "arquivos": 110, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 108, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SEAS", "arquivos": 44, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 41, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 1, "09_RELATORIOS": 0}}, {"nome": "SEC", "arquivos": 87, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 1, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 5, "06_COBRANCAS": 81, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SECOM", "arquivos": 15, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 14, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SECT", "arquivos": 62, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 13, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 5, "06_COBRANCAS": 36, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 8, "09_RELATORIOS": 0}}, {"nome": "SEDECTI", "arquivos": 161, "cobertura": 55.6, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 1, "02_EMPENHOS": 0, "03_FATURAS": 21, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 6, "06_COBRANCAS": 131, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 2, "09_RELATORIOS": 0}}, {"nome": "SEDEL", "arquivos": 19, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 19, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SEDUC", "arquivos": 113, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 4, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 6, "06_COBRANCAS": 76, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 27, "09_RELATORIOS": 0}}, {"nome": "SEDURB", "arquivos": 7, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 7, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SEFAZ", "arquivos": 30, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 19, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 9, "09_RELATORIOS": 0}}, {"nome": "SEINFRA", "arquivos": 36, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 3, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 33, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SEJUSC", "arquivos": 85, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 9, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 7, "06_COBRANCAS": 42, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 27, "09_RELATORIOS": 0}}, {"nome": "SEMA", "arquivos": 48, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 3, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 39, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 4, "09_RELATORIOS": 0}}, {"nome": "SEMIG", "arquivos": 14, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 1, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 9, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 3, "09_RELATORIOS": 0}}, {"nome": "SEPA", "arquivos": 63, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 5, "06_COBRANCAS": 58, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SEPROR", "arquivos": 34, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 33, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SES", "arquivos": 151, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 9, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 129, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 12, "09_RELATORIOS": 0}}, {"nome": "SNPH", "arquivos": 53, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 16, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 5, "06_COBRANCAS": 23, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 9, "09_RELATORIOS": 0}}, {"nome": "SSP", "arquivos": 337, "cobertura": 33.3, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 1, "06_COBRANCAS": 330, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 6, "09_RELATORIOS": 0}}, {"nome": "SUBCOMADEC", "arquivos": 5, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 5, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "SUHAB", "arquivos": 49, "cobertura": 44.4, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 8, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 31, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 8, "09_RELATORIOS": 0}}, {"nome": "SUL_AMERICA", "arquivos": 19, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 0, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 19, "09_RELATORIOS": 0}}, {"nome": "TCE", "arquivos": 64, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 62, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "UEA", "arquivos": 31, "cobertura": 22.2, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 2, "06_COBRANCAS": 29, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}, {"nome": "UGPE", "arquivos": 27, "cobertura": 11.1, "dossie_cobertura": 100.0, "subpastas": {"01_CONTRATOS": 0, "02_EMPENHOS": 0, "03_FATURAS": 0, "04_NOTAS_LIQUIDACAO": 0, "05_ACEITES": 0, "06_COBRANCAS": 27, "07_SCRAPING_SPCF": 0, "08_PDFS_ORIGINAIS": 0, "09_RELATORIOS": 0}}], "tabelas_db": [{"nome": "spcf_contratos", "registros": 374}, {"nome": "spcf_empenhos", "registros": 16789}, {"nome": "spcf_faturas", "registros": 1927}, {"nome": "spcf_nfs", "registros": 52998}, {"nome": "pendrive_docs", "registros": 3699}, {"nome": "devedores", "registros": 81}, {"nome": "reclassificacao", "registros": 1261}, {"nome": "cruzamento_spcf_pendrive", "registros": 1460}], "gerado_em": "2026-04-22 02:34:09"};
+
+// Helpers
+const brl = v => 'R$ ' + v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const fmt = n => n.toLocaleString('pt-BR');
+
+// Data
+document.getElementById('data-ger').textContent = DATA.gerado_em;
+
+// KPIs
+const kpi = DATA.kpis;
+const kpiConfigs = [
+  { label: 'Devedores (pastas)', valor: kpi.n_devedores_pastas, extra: kpi.n_devedores_profiles + ' no profiles.json', cls: '' },
+  { label: 'Valor exigível', valor: brl(kpi.valor_exigivel), extra: 'Original: ' + brl(kpi.valor_original), cls: 'dourado' },
+  { label: 'Valor atualizado', valor: brl(kpi.valor_atualizado), extra: '+72% vs exigível', cls: 'dourado' },
+  { label: 'Faturas totais', valor: fmt(kpi.fat_total), extra: fmt(kpi.fat_exigiveis) + ' exigíveis | ' + fmt(kpi.fat_prescritas) + ' prescritas', cls: '' },
+  { label: 'Prescrição', valor: kpi.pct_prescritas.toFixed(1) + '%', extra: fmt(kpi.fat_prescritas) + ' faturas perdidas', cls: 'vermelho' },
+  { label: 'prodam.db', valor: kpi.db_mb + ' MB', extra: fmt(kpi.db_registros) + ' registros em 8 tabelas', cls: '' },
+  { label: 'Benchmark DETRAN', valor: kpi.detran_cov + '%', extra: fmt(kpi.detran_arqs) + ' arquivos | A+ 94/100', cls: 'verde' },
+  { label: 'Força FORTE', valor: kpi.n_forte, extra: kpi.n_media + ' MÉDIA | ' + kpi.n_fraca + ' FRACA', cls: 'laranja' },
+];
+document.getElementById('kpis').innerHTML = kpiConfigs.map(k =>
+  `<div class="kpi ${k.cls}"><div class="label">${k.label}</div><div class="valor">${k.valor}</div><div class="extra">${k.extra}</div></div>`
+).join('');
+
+// Chart colors
+const C_AZUL = '#1F3864';
+const C_DOURADO = '#B8963E';
+const C_VERDE = '#27AE60';
+const C_VERMELHO = '#C0392B';
+const C_LARANJA = '#E67E22';
+
+// Cobertura bins
+new Chart(document.getElementById('chartCobertura'), {
+  type: 'doughnut',
+  data: {
+    labels: Object.keys(kpi.bins_cobertura),
+    datasets: [{
+      data: Object.values(kpi.bins_cobertura),
+      backgroundColor: [C_VERDE, '#7FB77E', C_LARANJA, '#E88C56', C_VERMELHO],
+      borderWidth: 2, borderColor: '#fff'
+    }]
+  },
+  options: { responsive: true, plugins: { legend: { position: 'right' } } }
+});
+
+// Gaps
+const gapsEntries = Object.entries(kpi.gap_por_sub).sort((a,b) => b[1]-a[1]);
+new Chart(document.getElementById('chartGaps'), {
+  type: 'bar',
+  data: {
+    labels: gapsEntries.map(e => e[0]),
+    datasets: [{
+      label: 'Devedores sem arquivos',
+      data: gapsEntries.map(e => e[1]),
+      backgroundColor: C_VERMELHO,
+      borderRadius: 4
+    }]
+  },
+  options: { indexAxis: 'y', responsive: true, plugins: { legend: { display: false } } }
+});
+
+// Força
+new Chart(document.getElementById('chartForca'), {
+  type: 'pie',
+  data: {
+    labels: ['FORTE (execução)', 'MÉDIA (monitória)', 'FRACA (cobrança)'],
+    datasets: [{
+      data: [kpi.n_forte, kpi.n_media, kpi.n_fraca],
+      backgroundColor: [C_VERDE, C_LARANJA, C_VERMELHO],
+      borderWidth: 2, borderColor: '#fff'
+    }]
+  },
+  options: { responsive: true, plugins: { legend: { position: 'right' } } }
+});
+
+// Faturas
+new Chart(document.getElementById('chartFaturas'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Exigíveis', 'Prescritas'],
+    datasets: [{
+      data: [kpi.fat_exigiveis, kpi.fat_prescritas],
+      backgroundColor: [C_VERDE, C_VERMELHO],
+      borderWidth: 2, borderColor: '#fff'
+    }]
+  },
+  options: { responsive: true, plugins: { legend: { position: 'right' } } }
+});
+
+// Benchmark
+const topNomes = ['DETRAN','SSP','SEDECTI','SES','FAAR','SEDUC','SEAD','SEC','POLICIA_CIVIL','SEJUSC','IPAAM'];
+const topArqs = topNomes.map(n => {
+  const d = DATA.devedores.find(x => x.nome === n);
+  return d ? d.arquivos : 0;
+});
+const topCov = topNomes.map(n => {
+  const d = DATA.devedores.find(x => x.nome === n);
+  return d ? d.cobertura : 0;
+});
+new Chart(document.getElementById('chartBenchmark'), {
+  type: 'bar',
+  data: {
+    labels: topNomes,
+    datasets: [
+      { label: 'Arquivos', data: topArqs, backgroundColor: C_AZUL, borderRadius: 4, yAxisID: 'y' },
+      { label: 'Cobertura %', data: topCov, backgroundColor: C_DOURADO, borderRadius: 4, yAxisID: 'y1', type: 'line', tension: 0.3 },
+    ]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: { position: 'left', title: { display: true, text: 'Arquivos' } },
+      y1: { position: 'right', title: { display: true, text: 'Cobertura %' }, min: 0, max: 100, grid: { display: false } }
+    }
+  }
+});
+
+// Heatmap
+const subs = ['01_CONTRATOS','02_EMPENHOS','03_FATURAS','04_NOTAS_LIQUIDACAO','05_ACEITES','06_COBRANCAS','07_SCRAPING_SPCF','08_PDFS_ORIGINAIS','09_RELATORIOS'];
+function heatColor(files) {
+  if (files === 0) return '#EEE';
+  if (files < 5) return '#F5B041';
+  if (files < 20) return '#F4D03F';
+  if (files < 50) return '#82E0AA';
+  return '#27AE60';
+}
+let heatHTML = '<table><thead><tr><th>Devedor</th>';
+subs.forEach(s => { heatHTML += `<th style="font-size:9px">${s.slice(0,7)}</th>`; });
+heatHTML += '<th>Total</th></tr></thead><tbody>';
+[...DATA.devedores].sort((a,b)=>b.arquivos-a.arquivos).forEach(d => {
+  heatHTML += `<tr><td style="font-weight:600">${d.nome}</td>`;
+  subs.forEach(s => {
+    const v = d.subpastas[s] || 0;
+    heatHTML += `<td class="heatmap-cell" style="background:${heatColor(v)}; color:${v===0?'#999':'#000'}">${v || '—'}</td>`;
+  });
+  heatHTML += `<td style="font-weight:600">${d.arquivos}</td></tr>`;
+});
+heatHTML += '</tbody></table>';
+document.getElementById('heatmap-wrap').innerHTML = heatHTML;
+
+// Tabela devedores
+function renderTabela() {
+  const q = document.getElementById('busca').value.toLowerCase();
+  const ord = document.getElementById('ordenar').value;
+  let lista = DATA.devedores.filter(d => d.nome.toLowerCase().includes(q));
+  if (ord === 'arquivos') lista.sort((a,b)=>b.arquivos-a.arquivos);
+  else if (ord === 'cobertura') lista.sort((a,b)=>b.cobertura-a.cobertura);
+  else lista.sort((a,b)=>a.nome.localeCompare(b.nome));
+  const html = lista.map((d,i) => {
+    let status = '<span class="badge b-zero">0-19%</span>';
+    if (d.cobertura >= 80) status = '<span class="badge b-forte">80-100%</span>';
+    else if (d.cobertura >= 50) status = '<span class="badge b-media">50-79%</span>';
+    else if (d.cobertura >= 20) status = '<span class="badge b-fraca">20-49%</span>';
+    return `<tr><td>${i+1}</td><td><strong>${d.nome}</strong></td><td>${fmt(d.arquivos)}</td><td>${d.cobertura}%</td><td>${d.dossie_cobertura}%</td><td>${status}</td></tr>`;
+  }).join('');
+  document.getElementById('tabela-dev').innerHTML = html;
+}
+document.getElementById('busca').oninput = renderTabela;
+document.getElementById('ordenar').onchange = renderTabela;
+renderTabela();
+
+// Tabela DB
+document.getElementById('tabela-db').innerHTML = DATA.tabelas_db
+  .sort((a,b)=>b.registros-a.registros)
+  .map(t => `<tr><td><strong>${t.nome}</strong></td><td>${fmt(t.registros)}</td></tr>`)
+  .join('');
+</script>
+</body>
+</html>

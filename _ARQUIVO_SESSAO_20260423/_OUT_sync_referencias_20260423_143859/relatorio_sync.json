@@ -1,0 +1,127 @@
+{
+  "data": "2026-04-23T14:38:59.468374",
+  "modo": "DRY-RUN",
+  "mapa_size": 1858,
+  "json": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\profiles.json",
+      "exists": true,
+      "refs": 0,
+      "detalhe": {},
+      "tamanho_bytes": 338473
+    }
+  ],
+  "db": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\prodam.db",
+      "exists": true,
+      "refs": 1892,
+      "tabelas": {
+        "spcf_empenhos": {
+          "refs": 228,
+          "amostra": {
+            "empenho_10001_DETRAN.pdf": 1,
+            "empenho_10022_DETRAN.pdf": 1,
+            "empenho_10659_DETRAN.pdf": 1,
+            "empenho_10012_DETRAN.pdf": 1,
+            "empenho_10000_DETRAN.pdf": 1
+          }
+        },
+        "pendrive_docs": {
+          "refs": 1488,
+          "amostra": {
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - ASSINADO.pdf": 2,
+            "006.2021 - PRODAM VPN - QUARTO TERMO ADITIVO - NE.pdf": 4,
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf": 2,
+            "1º TA ao Contrato 25.14-SUPRESSAO.pdf": 2,
+            "1º TA Contrato 075.2022 - Prorrogação de Prazo.pdf": 2
+          }
+        },
+        "cruzamento_spcf_pendrive": {
+          "refs": 176,
+          "amostra": {
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf": 1,
+            "1º TA Contrato 075.2022 - Prorrogação de Prazo.pdf": 1,
+            "2º TA Contrato 010.2021 - Prazo.pdf": 1,
+            "3º TA Contrato 010.2021 - Prazo.pdf": 1,
+            "2º TA Contrato 083.2022 - Prazo e reajuste 4,24% IPCA.pdf": 1
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_ANALISE\\prodam.db",
+      "exists": true,
+      "refs": 1892,
+      "tabelas": {
+        "spcf_empenhos": {
+          "refs": 228,
+          "amostra": {
+            "empenho_10001_DETRAN.pdf": 1,
+            "empenho_10022_DETRAN.pdf": 1,
+            "empenho_10659_DETRAN.pdf": 1,
+            "empenho_10012_DETRAN.pdf": 1,
+            "empenho_10000_DETRAN.pdf": 1
+          }
+        },
+        "pendrive_docs": {
+          "refs": 1488,
+          "amostra": {
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - ASSINADO.pdf": 2,
+            "006.2021 - PRODAM VPN - QUARTO TERMO ADITIVO - NE.pdf": 4,
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf": 2,
+            "1º TA ao Contrato 25.14-SUPRESSAO.pdf": 2,
+            "1º TA Contrato 075.2022 - Prorrogação de Prazo.pdf": 2
+          }
+        },
+        "cruzamento_spcf_pendrive": {
+          "refs": 176,
+          "amostra": {
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf": 1,
+            "1º TA Contrato 075.2022 - Prorrogação de Prazo.pdf": 1,
+            "2º TA Contrato 010.2021 - Prazo.pdf": 1,
+            "3º TA Contrato 010.2021 - Prazo.pdf": 1,
+            "2º TA Contrato 083.2022 - Prazo e reajuste 4,24% IPCA.pdf": 1
+          }
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\detran_dashboard\\data-real\\prodam.db",
+      "exists": true,
+      "refs": 1892,
+      "tabelas": {
+        "spcf_empenhos": {
+          "refs": 228,
+          "amostra": {
+            "empenho_10001_DETRAN.pdf": 1,
+            "empenho_10022_DETRAN.pdf": 1,
+            "empenho_10659_DETRAN.pdf": 1,
+            "empenho_10012_DETRAN.pdf": 1,
+            "empenho_10000_DETRAN.pdf": 1
+          }
+        },
+        "pendrive_docs": {
+          "refs": 1488,
+          "amostra": {
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - ASSINADO.pdf": 2,
+            "006.2021 - PRODAM VPN - QUARTO TERMO ADITIVO - NE.pdf": 4,
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf": 2,
+            "1º TA ao Contrato 25.14-SUPRESSAO.pdf": 2,
+            "1º TA Contrato 075.2022 - Prorrogação de Prazo.pdf": 2
+          }
+        },
+        "cruzamento_spcf_pendrive": {
+          "refs": 176,
+          "amostra": {
+            "075.2022 - PRODAM - TERCEIRO TERMO ADITIVO - DOE.pdf": 1,
+            "1º TA Contrato 075.2022 - Prorrogação de Prazo.pdf": 1,
+            "2º TA Contrato 010.2021 - Prazo.pdf": 1,
+            "3º TA Contrato 010.2021 - Prazo.pdf": 1,
+            "2º TA Contrato 083.2022 - Prazo e reajuste 4,24% IPCA.pdf": 1
+          }
+        }
+      }
+    }
+  ]
+}

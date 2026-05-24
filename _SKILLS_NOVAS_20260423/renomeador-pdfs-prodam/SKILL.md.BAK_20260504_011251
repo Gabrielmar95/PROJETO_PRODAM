@@ -1,0 +1,327 @@
+---
+name: renomeador-pdfs-prodam
+description: Renomeia PDFs do Projeto PRODAM (Contrato 002/2026) com padrão canônico baseado em conteúdo OCR. Cobre 10 tipos — Contrato-Base, TA, Proposta, NE (nota de empenho), NL (nota de liquidação), NF (nota fiscal), Fatura, Aceite técnico, Cobrança e Certidão. Use quando precisar "renomear pdfs", "padronizar nomes de arquivos", "aplicar nome canônico", "organizar PDFs após OCR", "renomear contratos", "renomear notas de empenho", "renomear notas fiscais", "renomear faturas pdf", "padronização de filenames pdf prodam", "canonizar pdfs do devedor", "consumir renomear_proposto.csv", "rodar renomeador em pasta do devedor", "validar mapeamento antes de aplicar rename". Gera CSV de mapeamento UTF-8 BOM com SHA-256, modo cópia (seguro) ou in-place (com confirmação), integra com classificador-conteudo e inventário global. PDFs são provas jurídicas — a skill NUNCA apaga, apenas renomeia.
+type: workflow
+version: 1.0
+updated: 2026-04-23
+triggers:
+  - renomear pdfs
+  - padronizar nomes pdf
+  - renomeacao canonica
+  - organizar pdfs apos ocr
+  - aplicar nome canonico
+  - renomear contratos
+  - renomear notas de empenho
+  - renomear notas fiscais
+  - canonizar filenames devedor
+  - consumir renomear_proposto.csv
+---
+
+# SKILL — Renomeador de PDFs PRODAM
+
+> **Versão:** 1.0 — 23/04/2026
+> **Origem:** generalização de `rename_contratos_formal.py` (DETRAN, 89 PDFs testados, benchmark A+ em 22/04/2026).
+> **Objetivo:** aplicar nome canônico a **qualquer** PDF do Projeto PRODAM, independentemente do devedor, reaproveitando a cascata OCR da skill `ocr-pdfs-prodam`.
+
+## Por que renomear
+
+PDFs do projeto chegam com nomes **inúteis**: `Scan_2023_05_12_0047.pdf`, `IMG_20240914.pdf`, `document (12).pdf`. Esses nomes:
+
+1. **Não se comunicam** com `prodam.db` (nenhum JOIN possível por filename).
+2. **Não servem a uma petição** (o juiz precisa do número do contrato e da competência no nome do anexo).
+3. **Duplicam trabalho**: sem canônico, 3 cópias do mesmo aceite técnico parecem 3 documentos distintos.
+4. **Perdem em auditoria**: `auditoria-paridade-db-csv` falha em 40% dos cruzamentos quando o nome não carrega o contrato.
+
+O nome do arquivo é um **metadado primário** no Projeto PRODAM — ele entra na petição, no dossiê probatório, no memorial de cálculo e no relatório quinzenal. Um nome bem feito:
+
+- Carrega contrato de referência (`CT-006.2021`).
+- Carrega tipo (`Contrato-Base`, `NE`, `NF`, etc).
+- Carrega competência (`2024-09`) quando relevante.
+- É **ASCII puro** — atravessa Windows, WSL, Git, e-mail, PDF merge sem quebrar.
+
+Esta skill é o **braço operacional** do pipeline OCR → Classificação → Renomeação. Ela consome o output da skill `ocr-pdfs-prodam` (e do script `inventario_classificacao_global.py`) e entrega PDFs com filename utilizável pelas outras 80+ skills do projeto.
+
+## Princípios
+
+1. **Nunca apagar o original.** PDFs são provas jurídicas (CLAUDE.md §16). Modo `copia` mantém a pasta original intocada. Modo `in_place` **renomeia**, não deleta — a regra `Path.rename` não perde bytes.
+2. **Conteúdo > filename.** O classificador OCR (`classificador_conteudo.py`) tem a palavra final sobre o tipo. Quando o filename diz "Contrato" mas o texto é "Nota de Empenho", o tipo é NE.
+3. **Canônico > bonito.** Nomes são ASCII puros, sem espaços, sem acentos, sem `/`. `Supressão Contratual` vira `Supressao-Contratual`. O humano lê melhor um nome previsível do que um nome estético.
+4. **Dedup determinístico.** Duas cópias idênticas do mesmo PDF → mesmo nome canônico. Se já existe um nome igual (por coincidência semântica), sufixa `_dup-02`, `_dup-03`. Nunca sobrescreve silenciosamente.
+5. **Log obrigatório antes de aplicar.** O CSV de mapeamento é gerado **antes** de qualquer rename/cópia. Se algo der errado, o CSV é o roll-back manual. Sem CSV não há execução.
+
+## Padrão canônico por tipo
+
+Todos os nomes são **ASCII puros**: sem acentos, sem espaços (vira `-`), sem `/` (vira `.` em contrato).
+
+| Tipo | Padrão canônico | Exemplo |
+|------|-----------------|---------|
+| **Contrato-Base** | `CT-{NNN}.{AAAA}_Contrato-Base_{Objeto}_Regime-{Regime}.pdf` | `CT-006.2021_Contrato-Base_Rede-VPN-Firewall-MetroMao-Assessoria_Regime-IGPM-via-4TA.pdf` |
+| **TA** | `CT-{NNN}.{AAAA}_TA-{XX}_{Objeto}.pdf` | `CT-006.2021_TA-04_Reajuste-IGPM-6.54pct.pdf` |
+| **Proposta** | `CT-{NNN}.{AAAA}_Proposta-Comercial.pdf` | `CT-003.2026_Proposta-Comercial.pdf` |
+| **NE** | `NE-{AAAA}-{NNNNN}_CT-{NNN}.{AAAA}_{TipoNE}.pdf` | `NE-2024-00471_CT-006.2021_Cobertura-Financeira.pdf` |
+| **NL** | `NL-{AAAA}-{NNNNN}_CT-{NNN}.{AAAA}_Refs-{NE1+NE2}.pdf` | `NL-2024-00123_CT-006.2021_Refs-2024NE00471+2024NE00480.pdf` |
+| **NF** | `NF-{NNNNN}_CT-{NNN}.{AAAA}_{Orgao}_{Competencia-AAAA-MM}.pdf` | `NF-00012345_CT-006.2021_DETRAN_2024-09.pdf` |
+| **Fatura** | `FAT-{NNN}-{AAAA}_CT-{NNN}.{AAAA}_{Competencia}.pdf` | `FAT-047-2024_CT-006.2021_2024-09.pdf` |
+| **Aceite** | `ACEITE-{NFref}_CT-{NNN}.{AAAA}_Fiscal-{NomeAbreviado}.pdf` | `ACEITE-00012345_CT-006.2021_Fiscal-JOAO-SILVA.pdf` |
+| **Cobranca** | `COBRANCA-{OficioNum}-{AAAA}_CT-{NNN}.{AAAA}_{Data-AAAA-MM-DD}.pdf` | `COBRANCA-337-2021_CT-006.2021_2024-11-15.pdf` |
+| **Certidao** | `CERTIDAO-{Tipo}_{Orgao}_{Data-AAAA-MM-DD}.pdf` | `CERTIDAO-CND-Federal_DETRAN_2024-11-15.pdf` |
+
+### Valores especiais
+
+**Tipo `Oficio-DIRAF`** (ofício interno PRODAM) → fora de escopo contratual:
+```
+OFICIO-DIRAF_FORA-DE-ESCOPO.pdf
+```
+
+**Tipo `Extracao-SPCF`** (scraping duplicado do SPCF) → marca como duplicata:
+```
+CT-003.2026_Extracao-SPCF_HIST-V3-HTML-Bruto_DUPLICATA.pdf
+```
+
+**Campo `Regime`** vem do mapa `REGIME[(NNN, AAAA)]` em `scripts/padroes.py`. Exemplos reais DETRAN:
+- `IGPM+1pct+2pct` (CT 022/2014, 025/2014, 027/2014)
+- `IGPM-via-4TA` (CT 006/2021 — IGPM introduzido pelo 4º TA)
+- `IPCA-via-5TA` (CT 012/2021 — IPCA no 5º TA)
+- `SELIC-Lei-14905` (CT 003/2026 — pós-Lei 14.905/2024)
+- `Silente` (sem cláusula de reajuste)
+
+**Campo `Objeto`** do TA é extraído por regex especializado (ver `objeto_ta` em `padroes.py`). Cobre:
+- `Reajuste-IGPM-6.54pct` (reajuste percentual por índice)
+- `Supressao-Contratual`, `Suplementacao-20pct` (redução/aumento de escopo)
+- `Prorrogacao-12meses`, `Prorrogacao-Prazo` (prazo)
+- `Realinhamento` (realinhamento de preços)
+- `Reducao-25pct-Decreto` (redução por decreto)
+- `Of-337-2021` (ofício citado)
+- Status: `Assinado`, `DOE`, `Pre-Assinatura`, `Comprimido`
+
+## Decisão de tipo (cascata de 13 regras)
+
+A função `parse_tipo_doc(nome, texto_ocr)` aplica **13 regras em ordem**. Para no primeiro match:
+
+| Ordem | Regra | Match → tipo |
+|:-:|---|---|
+| 1 | `DIRAF` no nome | **Oficio-DIRAF** (fora de escopo) |
+| 2 | Prefixos SPCF (`htmls_brutos`, `pdfs_convertidos`, `HIST__`) | **Extracao-SPCF** |
+| 3 | `ACEITE`, `ATESTO`, `ATESTADO` | **Aceite** (antes de NF — aceite referencia NF mas NÃO é NF) |
+| 4 | `NL 123`, `NOTA DE LIQUIDACAO`, `2024NL00123` | **NL** (antes de NE — NL referencia NEs) |
+| 5 | `NE 123`, `NOTA DE EMPENHO`, `2024NE00471` | **NE** |
+| 6 | `NF 123`, `NF-e 000012345`, `NOTA FISCAL` | **NF** |
+| 7 | `FATURA`, `BOLETO`, `DUPLICATA` (e NÃO bate 6) | **Fatura** |
+| 8 | `COBRANCA`, `CARTA DE COBRAN` | **Cobranca** |
+| 9 | `CERTIDAO`, `CND`, `CPEN`, `FGTS`, `CNDT` | **Certidao** |
+| 10 | `PROPOSTA` (e não tem ` TA `) | **Proposta** |
+| 11 | `TERMO ADITIVO`, `Nº TA`, ` TA ` | **TA** |
+| 12 | `CONTRATO`, `CT_NNN`, `CT-NNN` | **Contrato-Base** |
+| 13 | Nenhum match | **Indefinido** (fallback) |
+
+### Por que essa ordem?
+
+- **DIRAF primeiro**: ofícios internos NÃO são contratos. Se deixássemos o Contrato-Base na frente, um "Ofício DIRAF sobre CT 006/2021" seria classificado como Contrato.
+- **SPCF antes de NE/NL/NF**: uma extração SPCF pode ser de NE, NL ou NF — mas como é scraping duplicado de um PDF oficial, deve ser marcado como duplicata e não como documento primário.
+- **Aceite antes de NF**: um "ACEITE TECNICO NF 12345.pdf" é um aceite que referencia a NF 12345; NÃO é uma NF. Se deixássemos NF na frente, perderíamos a semântica do documento (elo 5 da cadeia, não elo 4).
+- **NL antes de NE**: uma NL costuma referenciar NEs no nome (ex: `2024NL00123_refs_2024NE00471.pdf`). Se deixássemos NE na frente, a NL seria classificada como NE.
+- **NE antes de NF**: muitos nomes misturam ambos ("Contrato X - NE 471 e NF 12345"). O NE é quase sempre o foco principal do arquivo; a NF é referência posterior.
+- **NF antes de Fatura**: toda NF é uma "fatura" em sentido amplo, mas a NF é documento fiscal e a Fatura é documento financeiro. Distinção importante para o elo 4 da cadeia (REsp 793.969/RJ).
+- **Proposta antes de TA**: "Proposta para TA" é Proposta, não TA.
+- **Contrato-Base por último antes de Indefinido**: palavra "CONTRATO" é muito genérica; só chega aqui se nenhum tipo mais específico bateu.
+
+## Dedup
+
+Função `Renomeador._deduplicate(nome)`:
+
+```python
+def _deduplicate(self, nome: str) -> str:
+    if nome not in self._nomes_usados:
+        self._nomes_usados.add(nome)
+        return nome
+    stem, ext = nome.rsplit(".", 1)
+    i = 2
+    while True:
+        cand = f"{stem}_dup-{i:02d}.{ext}"
+        if cand not in self._nomes_usados:
+            self._nomes_usados.add(cand)
+            return cand
+        i += 1
+```
+
+**Duas regras críticas:**
+
+1. **Dedup NUNCA é por número de documento apenas** — seria falso positivo (duas NFs diferentes com número 12345 de meses diferentes seriam iguais). Dedup é pelo **nome canônico completo**, que inclui contrato + competência.
+2. **Sufixo `_dup-XX`**, não `_2` ou `_copy`. Preserva a ordem lexicográfica e é óbvio para o humano que é duplicata.
+
+## Log de mapeamento (CSV)
+
+O CSV é **UTF-8 BOM + separador `;`** (regra CLAUDE.md). 13 campos fixos:
+
+| Campo | Descrição | Exemplo |
+|---|---|---|
+| `caminho_original` | Path absoluto pré-rename | `C:\...\DETRAN\CT_006_2021.pdf` |
+| `nome_original` | Filename pré-rename | `CT_006_2021.pdf` |
+| `nome_canonico` | Filename pós-rename | `CT-006.2021_Contrato-Base_Rede-VPN-...pdf` |
+| `caminho_novo` | Path absoluto pós-rename | `C:\...\DETRAN\_RENOMEADO\CT-006.2021_...pdf` |
+| `tipo` | Um dos 13 tipos | `Contrato-Base` |
+| `contrato` | Forma humana `NNN/AAAA` | `006/2021` |
+| `numero` | Número do documento (varia por tipo) | `NE 2024-00471` |
+| `objeto` | Objeto específico do doc | `Rede-VPN-Firewall-MetroMao-Assessoria` |
+| `sha256` | SHA-256 do arquivo original | `a1b2c3...` |
+| `tamanho_bytes` | Size em bytes | `342567` |
+| `confianca` | Score 0.0–1.0 | `0.95` |
+| `data_renomeacao` | ISO-8601 do processamento | `2026-04-23T10:15:30` |
+| `modo` | `copia` ou `in_place` | `copia` |
+
+**Por que SHA-256 e não MD5?** Este projeto lida com evidências jurídicas. MD5 tem colisão demonstrada — SHA-256 não. Ligeiramente mais lento, mas irrelevante no volume do projeto (3 500 PDFs em minutos).
+
+## Modo in-place vs cópia
+
+### Modo `copia` (default, seguro)
+
+- Mantém a pasta original **intocada**.
+- Cria subpasta `<pasta>/_RENOMEADO/`.
+- Usa `shutil.copy2` (preserva `mtime`, `ctime`, perms).
+- Verifica SHA-256 pós-cópia (detecta corrupção de I/O).
+- **Recomendado para 95% dos casos.**
+
+### Modo `in_place` (avançado, exige confirmação)
+
+- Renomeia o arquivo original via `Path.rename`.
+- **Obrigatoriamente** grava o CSV **antes** de tocar em qualquer arquivo.
+- Exige CLI arg `--confirm` (salvaguarda contra execução acidental).
+- SHA-256 conferido antes e depois de cada rename.
+- Uso típico: pastas enormes onde não se tem disco para duplicar.
+
+```bash
+# Cópia (seguro)
+py -3.12 renomeador.py --pasta "C:\...\SEDUC" --devedor SEDUC --modo copia
+
+# In-place (avançado, com confirmação)
+py -3.12 renomeador.py --pasta "C:\...\DETRAN" --devedor DETRAN --modo in_place --confirm
+```
+
+**Dica de segurança:** sempre rodar `--dry-run` antes de qualquer execução real. O dry-run gera o CSV sem tocar em disco — é a única forma de inspecionar o plano.
+
+## Integração com outras skills
+
+| Skill | Relação |
+|---|---|
+| `ocr-pdfs-prodam` | **Pré-requisito obrigatório**. A classificação por conteúdo só funciona se o OCR rodou antes. Esta skill consome `classificador_conteudo.classificar_conteudo()`. |
+| `normalizador-contratos-prodam` | Forma canônica de contratos usada aqui: `CT-NNN.AAAA` (esta skill) corresponde a `NNN/AAAA` (normalizador). |
+| `nota-empenho-classificador` | Classifica subtipos de NE (Ordinário, Estimativo, Global, RAP). Popula o campo `TipoNE` do nome canônico. |
+| `nota-liquidacao-extrator` | Extrai NEs referenciadas pela NL. Popula o campo `Refs-{NE1+NE2}` do nome canônico. |
+| `aceite-tecnico-catalogador` | Identifica fiscal responsável. Popula `Fiscal-{Nome}` no aceite. |
+| `validador-cadeia-documental-fatura` | **Consumidor downstream**. Valida os 5 elos (Contrato→NE→NL→NF→Aceite) e DEPENDE dos nomes canônicos para fazer o JOIN. |
+| `auditoria-paridade-db-csv` | **Consumidor downstream**. Cruza `prodam.db` × filesystem. Sem nomes canônicos, o cruzamento falha. |
+| `pipeline-integrada-prodam` | A fase 3 (scanner+OCR+classificação+renomeação) invoca esta skill. |
+
+## Anti-padrões (não fazer)
+
+1. **Renomear sem OCR primeiro.** Se o PDF ainda não tem texto extraível, a classificação por conteúdo falha silenciosamente e produz nome canônico incorreto. Rode `ocr-pdfs-prodam` primeiro, sempre.
+2. **`in_place` sem log.** Rename sem CSV = impossível reverter. A skill bloqueia: `--modo in_place` sem `--confirm` retorna exit code 2.
+3. **Usar nome como chave primária em banco de dados.** O nome é metadado, não PK. A PK continua sendo `sha256` + caminho. Duas cópias idênticas terão o mesmo nome canônico — isso é feature, não bug.
+4. **Rodar em pasta compartilhada/OneDrive enquanto sincroniza.** OneDrive/Google Drive detectam rename como delete+create e podem duplicar arquivos no servidor. Pause sync, rode, depois reabilite.
+5. **Dedup apenas por número do documento.** `NF 12345` de setembro ≠ `NF 12345` de outubro. Dedup deve ser pelo nome canônico completo (que inclui competência e contrato).
+
+## Estrutura da skill
+
+```
+renomeador-pdfs-prodam/
+├── SKILL.md              (este arquivo)
+└── scripts/
+    ├── padroes.py        (regex + mapas + parsers, ~500 linhas)
+    └── renomeador.py     (classe Renomeador + CLI, ~500 linhas)
+```
+
+### `scripts/padroes.py`
+
+Contém:
+- Constante `TIPOS_DOCUMENTO` (13 tipos em ordem de precedência).
+- Dataclass `MapaDevedor` com 4 dicionários (spcf_id_para_ct, filename_typo_para_ct, objeto_contrato, regime).
+- Registry `MAPAS_POR_DEVEDOR` com DETRAN populado e SES/SSP como templates vazios.
+- ~15 regex compilados e nomeados.
+- Parsers: `parse_ct_num`, `parse_ta_ordinal`, `parse_tipo_doc`, `objeto_ta`, `parse_ne_num`, `parse_nl_num`, `parse_nf_num`, `parse_competencia`, `parse_valor_brl`, `parse_data_br`, `parse_oficio_cobranca`, `tipo_certidao`, `subtipo_extracao_spcf`, `asciificar`.
+- Sanity-check executável: `python padroes.py` roda bateria de 15 asserts.
+
+### `scripts/renomeador.py`
+
+Contém:
+- Dataclass `Mapeamento` (13 campos = 13 colunas do CSV).
+- Função `gerar_nome_canonico(nome, mapa, ...)` — despacha por tipo.
+- Classe `Renomeador` com métodos:
+  - `varrer_pdfs()` — enumera PDFs com dedup case-insensitive (Windows).
+  - `renomear_lote(lista, hints)` — gera mapeamento (sem tocar em disco, exceto SHA-256).
+  - `aplicar_mudancas(mapeamento, confirmado)` — cópia ou rename in-place.
+  - `gerar_csv_mapeamento(path, mapeamento)` — salva CSV UTF-8 BOM.
+  - `relatorio(mapeamento)` — resumo no stdout.
+- CLI `main()` com argparse: `--pasta`, `--modo`, `--devedor`, `--dry-run`, `--confirm`, `--input-csv`, `--output-csv`.
+- Exit codes: 0 (ok), 1 (erro parcial), 2 (erro fatal de argumento/FS).
+
+## Como usar (cookbook)
+
+### Caso 1: rodar sobre pasta de devedor com OCR já feito
+
+```powershell
+# Passo 1 — dry-run para ver o plano
+py -3.12 C:\Users\gabri\.claude\skills\renomeador-pdfs-prodam\scripts\renomeador.py `
+    --pasta "C:\Users\gabri\Desktop\SEDUC_AUDITORIA" `
+    --devedor SEDUC `
+    --dry-run
+
+# Passo 2 — revisar _MAPEAMENTO_SEDUC_YYYYMMDD.csv no Excel
+
+# Passo 3 — aplicar modo cópia (seguro)
+py -3.12 C:\Users\gabri\.claude\skills\renomeador-pdfs-prodam\scripts\renomeador.py `
+    --pasta "C:\Users\gabri\Desktop\SEDUC_AUDITORIA" `
+    --devedor SEDUC `
+    --modo copia
+```
+
+### Caso 2: consumir output do `inventario_classificacao_global.py`
+
+```powershell
+py -3.12 C:\Users\gabri\.claude\skills\renomeador-pdfs-prodam\scripts\renomeador.py `
+    --input-csv "C:\...\__OUT_inventario_global_20260422\renomear_proposto.csv" `
+    --devedor DETRAN `
+    --modo copia
+```
+
+### Caso 3: popular mapa de um novo devedor
+
+Antes do primeiro uso com SEDUC, por exemplo, editar `scripts/padroes.py`:
+
+```python
+MAPA_SEDUC = MapaDevedor(
+    nome="SEDUC",
+    spcf_id_para_ct={
+        "15234": ("042", "2023"),  # exemplo — extrair do profile
+    },
+    filename_typo_para_ct={},
+    objeto_contrato={
+        ("042", "2023"): "Portal-SIGEDUC",
+        # ... popular dos profiles.json
+    },
+    regime={
+        ("042", "2023"): "IPCA",
+        # ... popular conforme cláusula contratual
+    },
+)
+MAPAS_POR_DEVEDOR["SEDUC"] = MAPA_SEDUC
+```
+
+## Checklist pré-execução
+
+- [ ] OCR já rodou na pasta (`ocr-pdfs-prodam` finalizou OK)
+- [ ] Mapa do devedor populado em `MAPAS_POR_DEVEDOR` (se não for DETRAN)
+- [ ] Pasta origem existe e tem PDFs
+- [ ] Espaço em disco = **2×** tamanho da pasta (modo cópia)
+- [ ] Dry-run rodou e CSV foi revisado no Excel
+- [ ] Confiança média no CSV ≥ 0.7 (se menor, revisar casos baixos antes)
+
+## Referências
+
+- `rename_contratos_formal.py` (DETRAN, 22/04/2026) — fonte da lógica original
+- `inventario_classificacao_global.py` — gera `renomear_proposto.csv`
+- `classificador_conteudo.py` (skill `ocr-pdfs-prodam`) — classificação por conteúdo OCR
+- Skill `normalizador-contratos-prodam` — forma canônica de contratos
+- CLAUDE.md §16 (valores Decimal, CSV UTF-8 BOM, PDFs são provas)
+- CLAUDE.md §BENCHMARK DETRAN — A+ 94.0/100 (22/04/2026)
+- REsp 793.969/RJ (Min. Teori Zavascki) — composição documental como título
+- `PRODAM_DOCS/_SKILLS/` — demais skills pareadas do projeto

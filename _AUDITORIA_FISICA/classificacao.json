@@ -1,0 +1,1026 @@
+{
+  "generated_at": "2026-05-10T05:20:53.443281",
+  "source_inventario": "_AUDITORIA_FISICA\\inventario.json",
+  "items": [
+    {
+      "kind": "loose_root_script",
+      "path": "analisar_indefinidos.py",
+      "size": 6790,
+      "mtime": "2026-04-23T14:36:39.609113",
+      "label": "MOVE_TO_SCRIPTS_AD_HOC",
+      "reason": "Script one-shot identificado por prefixo (ad-hoc)"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "aplicar_renomeacao_inplace.py",
+      "size": 8331,
+      "mtime": "2026-04-23T14:16:08.343549",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "baixar_lacunas_spcf.py",
+      "size": 13692,
+      "mtime": "2026-04-19T19:51:17.390952",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "classificar_e_renomear_por_conteudo.py",
+      "size": 13678,
+      "mtime": "2026-04-23T13:37:18.854750",
+      "label": "MOVE_TO_SCRIPTS_AD_HOC",
+      "reason": "Script one-shot identificado por prefixo (ad-hoc)"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "gera_notificacao_ses_script.py",
+      "size": 13289,
+      "mtime": "2026-05-10T02:24:25.807974",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "gerar_dashboard.py",
+      "size": 16406,
+      "mtime": "2026-04-21T22:52:31.723629",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "gerar_relatorio_docx.py",
+      "size": 23144,
+      "mtime": "2026-05-10T02:23:58.412544",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "insights_pasta_mae.py",
+      "size": 6439,
+      "mtime": "2026-04-21T22:52:31.739995",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "inventario_detran_externo.py",
+      "size": 15240,
+      "mtime": "2026-04-23T11:06:20.680701",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "limpar_suspeitos.py",
+      "size": 6855,
+      "mtime": "2026-04-23T15:05:47.027968",
+      "label": "MOVE_TO_SCRIPTS_AD_HOC",
+      "reason": "Script one-shot identificado por prefixo (ad-hoc)"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "notificacao_simples.py",
+      "size": 10959,
+      "mtime": "2026-05-10T02:24:21.909529",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "ocr_lote_sem_texto_externo.py",
+      "size": 5750,
+      "mtime": "2026-04-23T11:39:15.799369",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "profile_pasta_mae.py",
+      "size": 8604,
+      "mtime": "2026-04-21T22:52:31.643486",
+      "label": "MOVE_TO_SCRIPTS_AD_HOC",
+      "reason": "Script one-shot identificado por prefixo (ad-hoc)"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "reclassificar_por_path.py",
+      "size": 19195,
+      "mtime": "2026-04-23T11:43:56.911113",
+      "label": "MOVE_TO_SCRIPTS_AD_HOC",
+      "reason": "Script one-shot identificado por prefixo (ad-hoc)"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "sincronizar_referencias.py",
+      "size": 10543,
+      "mtime": "2026-04-23T14:38:55.540445",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "sincronizar_referencias_v2.py",
+      "size": 16942,
+      "mtime": "2026-04-23T17:11:23.956528",
+      "label": "MOVE_TO_SCRIPTS",
+      "reason": "Script canônico identificado por prefixo"
+    },
+    {
+      "kind": "loose_root_script",
+      "path": "triar_suspeitos.py",
+      "size": 5328,
+      "mtime": "2026-04-23T14:36:08.450732",
+      "label": "MOVE_TO_SCRIPTS_AD_HOC",
+      "reason": "Script one-shot identificado por prefixo (ad-hoc)"
+    },
+    {
+      "kind": "root_bak_file",
+      "path": ".gitignore.backup-20260423-153153",
+      "size": 2613,
+      "mtime": "2026-04-20T04:28:42.314513",
+      "label": "ARCHIVE_TO_LEGACY",
+      "reason": "Arquivo .bak/.backup na raiz não pertence ao tracking ativo"
+    },
+    {
+      "kind": "root_bak_file",
+      "path": ".mcp.json.bak-20260508-234719",
+      "size": 239,
+      "mtime": "2026-05-07T14:41:42.183008",
+      "label": "ARCHIVE_TO_LEGACY",
+      "reason": "Arquivo .bak/.backup na raiz não pertence ao tracking ativo"
+    },
+    {
+      "kind": "root_bak_file",
+      "path": "CLAUDE.md.bak.20260510_022119",
+      "size": 14381,
+      "mtime": "2026-05-08T23:25:06.764313",
+      "label": "ARCHIVE_TO_LEGACY",
+      "reason": "Arquivo .bak/.backup na raiz não pertence ao tracking ativo"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T02:24:02.482265",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "dados/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T03:58:17.910018",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "DETRAN_AUDITORIA/CLAUDE.md",
+      "size": 262,
+      "mtime": "2026-05-10T01:17:16.465490",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "DOSSIES_MULTIFORMATO/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T01:01:01.569679",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/CLAUDE.md",
+      "size": 3394,
+      "mtime": "2026-05-07T14:53:05.952254",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "relatorios/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T03:57:34.071518",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "scripts/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T04:50:00.563697",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "SPCF_EXTRACAO/CLAUDE.md",
+      "size": 7222,
+      "mtime": "2026-05-07T14:55:43.584479",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "tests/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T04:50:00.578382",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/worktrees/auditoria-fisica-2026-05-10/CLAUDE.md",
+      "size": 14381,
+      "mtime": "2026-05-10T04:56:53.195850",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/worktrees/auditoria-fisica-2026-05-10/tests/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T04:58:08.118593",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/worktrees/auditoria-fisica-2026-05-10/_AUDITORIA_FISICA/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T05:03:44.154819",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/worktrees/auditoria-fisica-2026-05-10/docs/superpowers/plans/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T05:10:48.321964",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/worktrees/auditoria-fisica-2026-05-10/scripts/ad_hoc/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T05:03:16.742672",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/worktrees/auditoria-fisica-2026-05-10/scripts/auditoria_fisica/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T05:11:37.236046",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": ".claude/worktrees/auditoria-fisica-2026-05-10/tests/auditoria_fisica/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T05:11:37.241598",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "detran_dashboard/server/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:59:41.779135",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "docs/superpowers/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T04:49:50.808920",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "docs/superpowers/plans/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T04:53:36.302883",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "DOSSIES_MULTIFORMATO/SES_SUSAM/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T02:21:44.279592",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:14:41.622382",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_DOCUMENTOS_JURIDICOS/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:58:39.884964",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_SCRIPTS_IMPORTADOS/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:58:53.162611",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_SKILLS/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:14:41.607332",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/00_KNOWLEDGE_BASE/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T03:57:03.563144",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/04_EXECUCAO_FAZENDA/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T21:01:12.105670",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/07_CONTRATO_PRODAM/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T21:01:12.056448",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/10_ESTUDOS_CONSOLIDADOS/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:14:41.638113",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/11_PESQUISAS_ORIGINAIS/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:14:41.622382",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/14_ANALISES_INDIVIDUAIS_API/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T01:11:29.440029",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/17_ERRATA_CORRECOES/CLAUDE.md",
+      "size": 263,
+      "mtime": "2026-05-10T03:57:03.553011",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/REFERENCIA_JURIDICA/14_ANALISES_INDIVIDUAIS_API/VALIDACAO_COWORK/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:10:49.012352",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_SKILLS/dossie-juridico-prodam/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:10:24.140369",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_SKILLS/sincronizacao-referencias-pdf/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:10:24.190278",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_WORKFLOW_IMPORTADO/DOCUMENTOS/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T01:01:09.885425",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_WORKFLOW_IMPORTADO/NEs_por_Orgao/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T01:11:19.749572",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_WORKFLOW_IMPORTADO/REFERENCES/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:59:41.583084",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_WORKFLOW_IMPORTADO/DETRAN_DADOS_SPCF/JSON/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:59:41.701505",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_WORKFLOW_IMPORTADO/DETRAN_DADOS_SPCF/TXT/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:58:53.112721",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_WORKFLOW_IMPORTADO/DOCUMENTOS/_templates_iniciais/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:46:34.153878",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "PRODAM_DOCS/_WORKFLOW_IMPORTADO/REFERENCES/_arquivo/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:58:53.098594",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "scripts/detran/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T00:34:43.441077",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "SPCF_EXTRACAO/por_devedor/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T01:01:05.991469",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "SPCF_EXTRACAO/por_formato/json/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:59:41.816478",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "SPCF_EXTRACAO/SPCF_FINAL/cobrancas/listagem/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-09T20:59:41.796142",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "_BACKUPS/correcao-ses-susam-prescricao-20260510-021419/CLAUDE.md",
+      "size": 14381,
+      "mtime": "2026-05-08T23:25:06.764313",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "scattered_claude_md",
+      "path": "_BACKUPS/correcao-ses-susam-prescricao-20260510-021419/PRODAM_DOCS/CLAUDE.md",
+      "size": 43,
+      "mtime": "2026-05-10T03:56:12.301637",
+      "label": "NEEDS_HUMAN_DECISION",
+      "reason": "30+ CLAUDE.md exigem política unificada (sessão futura)"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_ARQUIVO_DRIFT",
+      "mtime": "2026-04-22T00:03:06.452160",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_ARQUIVO_SESSAO_20260423",
+      "mtime": "2026-05-02T07:46:14.605684",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_BACKUP_RECONCILIACAO_20260421_235945",
+      "mtime": "2026-04-22T00:00:18.742635",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_BACKUPS",
+      "mtime": "2026-05-10T02:14:19.677329",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_legado",
+      "mtime": "2026-04-15T01:14:22.969582",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_QUESTOES_CRITICAS",
+      "mtime": "2026-04-21T23:52:42.990782",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_SESSAO",
+      "mtime": "2026-05-08T15:33:20.410049",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "legacy_top_dir",
+      "path": "_SKILLS_NOVAS_20260423",
+      "mtime": "2026-04-23T11:21:04.381316",
+      "label": "KEEP",
+      "reason": "Pasta legada já isolada por convenção"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/body-parser/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/cytoscape-fcose/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/d3-dsv/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/d3-sankey/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/express/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/finalhandler/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/hast-util-from-html/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/hast-util-raw/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/jsdom/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/mysql2/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/node-abi/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/parse-entities/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/postcss/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/prop-types/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/recharts/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/send/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/streamdown/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/tsx/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/vite/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/vite-node/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/vitest/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@aws-crypto/sha1-browser/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@aws-crypto/sha256-browser/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@aws-crypto/util/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@esbuild-kit/core-utils/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-alert-dialog/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-aspect-ratio/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-avatar/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-collection/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-dialog/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-label/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-menu/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-popover/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-primitive/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-progress/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-select/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-separator/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@radix-ui/react-tooltip/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@vitest/runner/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/@vitest/snapshot/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules/cross-spawn/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules/minipass-flush/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules/minipass-pipeline/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules/minipass-sized/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules/string-width-cjs/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules/strip-ansi-cjs/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/pnpm/dist/node_modules/wrap-ansi-cjs/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "node_modules",
+      "path": "detran_dashboard/node_modules/send/node_modules/debug/node_modules",
+      "label": "GITIGNORE",
+      "reason": "node_modules não deve estar tracked"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "_AUDITORIA_FISICA",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "AUDITORIA_COMPLETUDE",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "dados",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DETALHAMENTO_FATURAS",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DETRAN_AUDITORIA",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DETRAN_AUDITORIA_COMPLETA",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DETRAN_CONSOLIDADO_JSON",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DETRAN_CONTRATOS_JSON",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "detran_dashboard",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "docs",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DOCUMENTOS_GERADOS",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DOSSIES",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "DOSSIES_MULTIFORMATO",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "logs",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "OCR_PESQUISAVEL_CONSOLIDADO",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "PRODAM_DOCS",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "relatorios",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "scripts",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    },
+    {
+      "kind": "juridical_dir",
+      "path": "SPCF_EXTRACAO",
+      "label": "KEEP",
+      "reason": "Pasta jurídica fora do escopo de mutação automática"
+    },
+    {
+      "kind": "active_top_dir",
+      "path": "tests",
+      "label": "KEEP",
+      "reason": "Pasta ativa do projeto"
+    }
+  ],
+  "summary": {
+    "MOVE_TO_SCRIPTS_AD_HOC": 6,
+    "MOVE_TO_SCRIPTS": 11,
+    "ARCHIVE_TO_LEGACY": 3,
+    "NEEDS_HUMAN_DECISION": 47,
+    "KEEP": 28,
+    "GITIGNORE": 50
+  }
+}

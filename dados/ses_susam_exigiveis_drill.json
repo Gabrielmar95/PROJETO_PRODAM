@@ -1,0 +1,400 @@
+{
+  "exigiveis_fora_db": [
+    {
+      "id": "165763",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "215.15",
+      "comp": "01/2026",
+      "contrato": "C.1/2023",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166662",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "160469.55",
+      "comp": "02/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166663",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "66565.09",
+      "comp": "02/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166664",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "30166.20",
+      "comp": "02/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166665",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "32504.44",
+      "comp": "02/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166666",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "121.96",
+      "comp": "02/2026",
+      "contrato": "C.5/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166667",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "35990.46",
+      "comp": "02/2026",
+      "contrato": "C.5/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166730",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "146012.35",
+      "comp": "02/2026",
+      "contrato": "C.18/2024",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166731",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "46446.85",
+      "comp": "02/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166732",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "66814.65",
+      "comp": "02/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166733",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "114100.00",
+      "comp": "02/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166734",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "4477.62",
+      "comp": "02/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166735",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "11207.02",
+      "comp": "02/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "166736",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "20888.40",
+      "comp": "02/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167201",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "121.96",
+      "comp": "03/2026",
+      "contrato": "C.5/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167202",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "35990.46",
+      "comp": "03/2026",
+      "contrato": "C.5/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167203",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "11207.02",
+      "comp": "03/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167204",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "20888.40",
+      "comp": "03/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167205",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "158160.62",
+      "comp": "03/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167206",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "66565.09",
+      "comp": "03/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167207",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "30166.20",
+      "comp": "03/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167208",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "32504.44",
+      "comp": "03/2026",
+      "contrato": "C.21/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167245",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "146012.35",
+      "comp": "03/2026",
+      "contrato": "C.18/2024",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167273",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "4477.62",
+      "comp": "03/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167274",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "114100.00",
+      "comp": "03/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167275",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "67238.87",
+      "comp": "03/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    },
+    {
+      "id": "167276",
+      "fontes": [
+        "XLS_ABERTO",
+        "XLS_GERAL_2026"
+      ],
+      "n_fontes": 2,
+      "classificacao": "CONFIRMADA",
+      "valor": "35938.98",
+      "comp": "03/2026",
+      "contrato": "C.18/2021",
+      "prescrita": false,
+      "has_pdf": false
+    }
+  ],
+  "prescritas_fora_db": [
+    {
+      "id": "89454",
+      "fontes": [
+        "XLS_ABERTO"
+      ],
+      "n_fontes": 1,
+      "classificacao": "PARCIAL",
+      "valor": "53926.00",
+      "comp": "08/2015",
+      "contrato": "C.116/2013",
+      "prescrita": true,
+      "has_pdf": false
+    }
+  ],
+  "db_exigiveis_count": 47,
+  "db_exigiveis_valor": "2378318.84",
+  "db_prescritas_count": 63
+}

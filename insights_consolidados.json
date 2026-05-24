@@ -1,0 +1,418 @@
+{
+  "bins_cobertura": {
+    "100%": 0,
+    "80-99%": 1,
+    "50-79%": 5,
+    "20-49%": 46,
+    "0-19%": 26
+  },
+  "gap_por_subpasta": {
+    "01_CONTRATOS": 72,
+    "02_EMPENHOS": 75,
+    "03_FATURAS": 58,
+    "04_NOTAS_LIQUIDACAO": 75,
+    "05_ACEITES": 30,
+    "06_COBRANCAS": 15,
+    "07_SCRAPING_SPCF": 77,
+    "08_PDFS_ORIGINAIS": 37,
+    "09_RELATORIOS": 77
+  },
+  "ranking_arquivos": [
+    {
+      "devedor": "DETRAN",
+      "arquivos": 455,
+      "cobertura": 88.9
+    },
+    {
+      "devedor": "SSP",
+      "arquivos": 337,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "SEDECTI",
+      "arquivos": 161,
+      "cobertura": 55.6
+    },
+    {
+      "devedor": "SES",
+      "arquivos": 151,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "FAAR",
+      "arquivos": 139,
+      "cobertura": 55.6
+    },
+    {
+      "devedor": "SEDUC",
+      "arquivos": 113,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "SEAD",
+      "arquivos": 110,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "SEC",
+      "arquivos": 87,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "POLICIA_CIVIL",
+      "arquivos": 85,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "SEJUSC",
+      "arquivos": 85,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "IPAAM",
+      "arquivos": 83,
+      "cobertura": 66.7
+    },
+    {
+      "devedor": "FHAJ",
+      "arquivos": 74,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "ARSEPAM",
+      "arquivos": 65,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "FCECON",
+      "arquivos": 65,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "TCE",
+      "arquivos": 64,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "SEPA",
+      "arquivos": 63,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "SECT",
+      "arquivos": 62,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "CAIXA",
+      "arquivos": 59,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "ADAF",
+      "arquivos": 56,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "AMAZONPREV",
+      "arquivos": 53,
+      "cobertura": 55.6
+    },
+    {
+      "devedor": "SNPH",
+      "arquivos": 53,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "FMT",
+      "arquivos": 52,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "BANCO_MASTER",
+      "arquivos": 50,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "PGE",
+      "arquivos": 50,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "SUHAB",
+      "arquivos": 49,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "ADS",
+      "arquivos": 48,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "SEMA",
+      "arquivos": 48,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "PROVER",
+      "arquivos": 46,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "SEAS",
+      "arquivos": 44,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "FVS",
+      "arquivos": 43,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "IDAM",
+      "arquivos": 42,
+      "cobertura": 55.6
+    },
+    {
+      "devedor": "CBMAM",
+      "arquivos": 39,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "CASA_CIVIL",
+      "arquivos": 36,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "FHEMOAM",
+      "arquivos": 36,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "PMAM",
+      "arquivos": 36,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "SEINFRA",
+      "arquivos": 36,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "SEPROR",
+      "arquivos": 34,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "FEPIAM",
+      "arquivos": 33,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "UEA",
+      "arquivos": 31,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "FUHAM",
+      "arquivos": 30,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "SEFAZ",
+      "arquivos": 30,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "CETAM",
+      "arquivos": 27,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "PROCON",
+      "arquivos": 27,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "UGPE",
+      "arquivos": 27,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "AMAZONASTUR",
+      "arquivos": 26,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "COSAMA",
+      "arquivos": 25,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "FUNTEA",
+      "arquivos": 21,
+      "cobertura": 33.3
+    },
+    {
+      "devedor": "FUAM",
+      "arquivos": 20,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "BANCO_SICOOB",
+      "arquivos": 19,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "IKM",
+      "arquivos": 19,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "SEDEL",
+      "arquivos": 19,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "SUL_AMERICA",
+      "arquivos": 19,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "ANOREG",
+      "arquivos": 18,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "IMPRENSA_OFICIAL",
+      "arquivos": 18,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "DPE",
+      "arquivos": 16,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "JUCEA",
+      "arquivos": 16,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "ODONTOMED",
+      "arquivos": 15,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "SECOM",
+      "arquivos": 15,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "CGE",
+      "arquivos": 14,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "FENIXSOFT",
+      "arquivos": 14,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "SEMIG",
+      "arquivos": 14,
+      "cobertura": 44.4
+    },
+    {
+      "devedor": "ALEAM",
+      "arquivos": 13,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "EASYTECH",
+      "arquivos": 13,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "ITRANSITO",
+      "arquivos": 12,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "PGJ",
+      "arquivos": 11,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "BANCO_BMG",
+      "arquivos": 10,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "CPA",
+      "arquivos": 10,
+      "cobertura": 22.2
+    },
+    {
+      "devedor": "CIAMA",
+      "arquivos": 7,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "DEFESA_CIVIL",
+      "arquivos": 7,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "SEDURB",
+      "arquivos": 7,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "ASSOC_SAUDE",
+      "arquivos": 6,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "BMC",
+      "arquivos": 6,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "BANCO_SAFRA",
+      "arquivos": 5,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "FAPEAM",
+      "arquivos": 5,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "SUBCOMADEC",
+      "arquivos": 5,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "B23",
+      "arquivos": 3,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "CASA_MILITAR",
+      "arquivos": 2,
+      "cobertura": 11.1
+    },
+    {
+      "devedor": "PSA",
+      "arquivos": 1,
+      "cobertura": 11.1
+    }
+  ],
+  "dossies": {
+    "total": 78,
+    "com_dashboard": 78,
+    "com_auditoria": 78,
+    "com_llm": 78
+  }
+}

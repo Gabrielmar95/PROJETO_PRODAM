@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Arquivo Atual",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONIOENCODING": "utf-8",
+                "PYTHONUTF8": "1"
+            }
+        },
+        {
+            "name": "Python: Pipeline Integrada (--ocr)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/pipeline_integrada_prodam.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--ocr"
+            ],
+            "justMyCode": false,
+            "env": {
+                "PYTHONIOENCODING": "utf-8",
+                "PYTHONUTF8": "1"
+            }
+        },
+        {
+            "name": "Python: Sincronizador (--corpus + --pattern)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/skills/sincronizador-juridico-matriz/sincronizador.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--corpus",
+                "${workspaceFolder}/corpus",
+                "--pattern",
+                "**/*.md"
+            ],
+            "cwd": "${workspaceFolder}/skills/sincronizador-juridico-matriz",
+            "justMyCode": false
+        }
+    ]
+}

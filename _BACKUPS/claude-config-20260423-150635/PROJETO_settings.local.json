@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"/c/Users/gabri/.claude/skills/pipeline-devedor-completo\" \"/c/Users/gabri/.claude/skills/auditoria-completude-devedor\")",
+      "Bash(cp \"/c/Users/gabri/Desktop/PROJETO_PRODAM/PRODAM_DOCS/_SKILLS/pipeline-devedor-completo_SKILL.md\" \"/c/Users/gabri/.claude/skills/pipeline-devedor-completo/SKILL.md\")",
+      "Bash(cp \"/c/Users/gabri/Desktop/PROJETO_PRODAM/PRODAM_DOCS/_SKILLS/auditoria-completude-devedor_SKILL.md\" \"/c/Users/gabri/.claude/skills/auditoria-completude-devedor/SKILL.md\")",
+      "Read(//c/Users/gabri/.claude/skills//**)",
+      "WebSearch",
+      "Bash(cp \"/c/Users/gabri/Desktop/PROJETO_PRODAM/PRODAM_DOCS/_SKILLS/orgao-auditoria-completa_SKILL.md\" \"/c/Users/gabri/.claude/skills/orgao-auditoria-completa/SKILL.md\")",
+      "Bash(mkdir -p \"/c/Users/gabri/.claude/skills/orgao-auditoria-completa\")",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:sapl.al.am.leg.br)",
+      "WebFetch(domain:www.pge.am.gov.br)"
+    ]
+  }
+}

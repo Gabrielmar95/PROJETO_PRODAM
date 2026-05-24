@@ -1,0 +1,401 @@
+"""
+Sincroniza referencias aos PDFs renomeados no profiles.json e nos prodam.db.
+
+VERSAO 2 - OTIMIZADA + MAPA UNIFICADO:
+  - Fase 1 (deteccao): scan por coluna identifica triplos (tabela, coluna, par_antigo)
+    que realmente batem.
+  - Fase 2 (apply): executa UPDATE SO nos triplos detectados.
+
+  Reducao esperada: de ~44k queries (1858 pares x N tabelas x M colunas) para
+  ~N queries (apenas onde ha match real).
+
+MAPA UNIFICADO (carrega 2 fontes):
+  1. _OUT_rename_inplace_*/log_renomeacao.csv  -> (nome_original -> nome_canonico)
+  2. _OUT_limpar_suspeitos_*/log_limpar_suspeitos.csv  -> (nome_com_SUSPEITO -> nome_sem_SUSPEITO)
+
+Mantem compatibilidade com v1:
+  - argparse (--apply, --incluir-detran-auditoria)
+  - backup .BAK antes de qualquer escrita
+  - estrutura de output (_OUT_sync_referencias_v2_<ts>/)
+  - relatorio JSON + MD
+
+Uso:
+  py -3.12 sincronizar_referencias_v2.py              # dry-run
+  py -3.12 sincronizar_referencias_v2.py --apply      # aplica
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import shutil
+import sqlite3
+import sys
+import traceback
+from datetime import datetime
+from pathlib import Path
+
+RAIZ = Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM")
+
+ALVOS_JSON = [
+    Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\profiles.json"),
+]
+
+ALVOS_DB = [
+    Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM\prodam.db"),
+    Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\_ANALISE\prodam.db"),
+    Path(r"C:\Users\gabri\Desktop\PROJETO_PRODAM\detran_dashboard\data-real\prodam.db"),
+]
+
+ALVOS_DB_DETRAN_AUD = [
+    Path(r"C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\16_BANCOS_DADOS\prodam.db"),
+    Path(r"C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\detran_dashboard\data-real\prodam.db"),
+]
+
+
+def acha_log_rename() -> Path:
+    cand = sorted(
+        RAIZ.glob("_OUT_rename_inplace_*/log_renomeacao.csv"),
+        key=lambda p: p.stat().st_mtime, reverse=True,
+    )
+    if not cand:
+        print("[ERRO] log_renomeacao.csv nao encontrado", file=sys.stderr)
+        sys.exit(1)
+    return cand[0]
+
+
+def acha_log_limpar_suspeitos() -> Path | None:
+    """Retorna o log mais recente de limpar_suspeitos, ou None se nao existir."""
+    cand = sorted(
+        RAIZ.glob("_OUT_limpar_suspeitos_*/log_limpar_suspeitos.csv"),
+        key=lambda p: p.stat().st_mtime, reverse=True,
+    )
+    return cand[0] if cand else None
+
+
+def carregar_mapa_rename(log: Path) -> dict[str, str]:
+    """Retorna {nome_original: nome_canonico} do log_renomeacao.csv."""
+    m = {}
+    with open(log, "r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f, delimiter=";"):
+            if row.get("status") not in ("OK", "OK_SEM_HASH"):
+                continue
+            nome_antigo = row["nome_original"]
+            nome_novo = row["nome_novo"]
+            if nome_antigo and nome_novo and nome_antigo != nome_novo:
+                m[nome_antigo] = nome_novo
+    return m
+
+
+def carregar_mapa_limpar_suspeitos(log: Path) -> dict[str, str]:
+    """Retorna {nome_com_SUSPEITO: nome_limpo} do log_limpar_suspeitos.csv."""
+    m = {}
+    with open(log, "r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f, delimiter=";"):
+            if row.get("status") != "OK":
+                continue
+            nome_antigo = row["nome_atual"]
+            nome_novo = row["nome_limpo"]
+            if nome_antigo and nome_novo and nome_antigo != nome_novo:
+                m[nome_antigo] = nome_novo
+    return m
+
+
+def unificar_mapas(m_rename: dict[str, str],
+                   m_limpar: dict[str, str]) -> tuple[dict[str, str], list[str]]:
+    """
+    Mescla os dois mapas. Em caso de colisao (mesma chave em ambos),
+    prevalece o mapa de limpar_suspeitos (mais recente). Retorna (mapa, colisoes).
+    """
+    colisoes = sorted(set(m_rename) & set(m_limpar))
+    unificado = {**m_rename, **m_limpar}
+    return unificado, colisoes
+
+
+def contar_refs_json(path: Path, mapa: dict[str, str]) -> dict:
+    """Le JSON como texto, conta quantas vezes cada nome_antigo aparece."""
+    if not path.exists():
+        return {"path": str(path), "exists": False, "refs": 0, "detalhe": {}}
+    try:
+        texto = path.read_text(encoding="utf-8")
+    except Exception as e:
+        return {"path": str(path), "exists": True, "erro": str(e)}
+    detalhe = {}
+    total = 0
+    for antigo in mapa:
+        c = texto.count(antigo)
+        if c > 0:
+            detalhe[antigo] = c
+            total += c
+    return {"path": str(path), "exists": True, "refs": total, "detalhe": detalhe,
+            "tamanho_bytes": path.stat().st_size}
+
+
+def detectar_ocorrencias_db(path: Path, mapa: dict[str, str]) -> dict:
+    """
+    Scan por coluna TEXT identificando triplos (tabela, coluna, antigo) com match.
+    Retorna estrutura `ocorrencias[tabela][coluna] = {antigo: count}` alem do total.
+    """
+    if not path.exists():
+        return {"path": str(path), "exists": False, "refs": 0, "ocorrencias": {}}
+    try:
+        con = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+        cur = con.cursor()
+    except Exception as e:
+        return {"path": str(path), "exists": True, "erro": str(e)}
+
+    tabelas = [r[0] for r in cur.execute(
+        "SELECT name FROM sqlite_master WHERE type='table' "
+        "AND name NOT LIKE 'sqlite_%'"
+    ).fetchall()]
+
+    ocorrencias: dict[str, dict[str, dict[str, int]]] = {}
+    total = 0
+
+    for t in tabelas:
+        try:
+            cols = [r[1] for r in cur.execute(f"PRAGMA table_info({t})").fetchall()
+                    if r[2].upper() in ("TEXT", "")]
+        except Exception:
+            continue
+        if not cols:
+            continue
+        for col in cols:
+            try:
+                rows = cur.execute(
+                    f"SELECT COALESCE(CAST({col} AS TEXT), '') FROM {t}"
+                ).fetchall()
+                col_data = " ".join(r[0] for r in rows if r[0])
+            except Exception:
+                continue
+            if not col_data:
+                continue
+            for antigo in mapa:
+                c = col_data.count(antigo)
+                if c > 0:
+                    ocorrencias.setdefault(t, {}).setdefault(col, {})[antigo] = c
+                    total += c
+
+    con.close()
+    return {
+        "path": str(path),
+        "exists": True,
+        "refs": total,
+        "ocorrencias": ocorrencias,
+    }
+
+
+def aplicar_json(path: Path, mapa: dict[str, str], backup_dir: Path) -> dict:
+    """Substitui nomes antigos por novos em arquivo JSON (modo texto)."""
+    if not path.exists():
+        return {"path": str(path), "status": "NAO_EXISTE"}
+    bak = backup_dir / f"{path.name}.BAK"
+    shutil.copy2(path, bak)
+    texto = path.read_text(encoding="utf-8")
+    subs = 0
+    for antigo, novo in mapa.items():
+        if antigo in texto:
+            c = texto.count(antigo)
+            texto = texto.replace(antigo, novo)
+            subs += c
+    path.write_text(texto, encoding="utf-8")
+    return {"path": str(path), "status": "OK", "substituicoes": subs,
+            "backup": str(bak)}
+
+
+def aplicar_db_otimizado(path: Path, mapa: dict[str, str],
+                         ocorrencias: dict, backup_dir: Path) -> dict:
+    """
+    Executa UPDATE SO nos triplos (tabela, coluna, antigo) detectados pela fase 1.
+    """
+    if not path.exists():
+        return {"path": str(path), "status": "NAO_EXISTE"}
+    bak = backup_dir / f"{path.name}.BAK"
+    shutil.copy2(path, bak)
+
+    con = sqlite3.connect(path)
+    cur = con.cursor()
+    total_subs = 0
+    n_queries = 0
+    por_tabela = {}
+
+    for t, cols_map in ocorrencias.items():
+        sub_t = 0
+        for col, pares in cols_map.items():
+            for antigo in pares:
+                novo = mapa[antigo]
+                try:
+                    r = cur.execute(
+                        f"UPDATE {t} SET {col} = REPLACE({col}, ?, ?) "
+                        f"WHERE {col} LIKE '%' || ? || '%'",
+                        (antigo, novo, antigo)
+                    )
+                    sub_t += r.rowcount if r.rowcount else 0
+                    n_queries += 1
+                except Exception:
+                    pass
+        if sub_t > 0:
+            por_tabela[t] = sub_t
+            total_subs += sub_t
+
+    con.commit()
+    con.close()
+    return {
+        "path": str(path), "status": "OK",
+        "substituicoes": total_subs, "tabelas": por_tabela,
+        "queries_executadas": n_queries, "backup": str(bak),
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--apply", action="store_true", help="Aplica substituicao")
+    parser.add_argument("--incluir-detran-auditoria", action="store_true",
+                        help="Inclui DBs em DETRAN_AUDITORIA_COMPLETA (cuidado)")
+    args = parser.parse_args()
+
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    modo = "APPLY" if args.apply else "DRY-RUN"
+
+    saida = RAIZ / f"_OUT_sync_referencias_v2_{ts}"
+    saida.mkdir(parents=True, exist_ok=True)
+    log_path = saida / "progresso.log"
+    backup_dir = saida / "backups"
+    backup_dir.mkdir(exist_ok=True)
+
+    def log(m):
+        linha = f"[{datetime.now().strftime('%H:%M:%S')}] {m}"
+        with open(log_path, "a", encoding="utf-8") as f:
+            f.write(linha + "\n")
+        print(linha, flush=True)
+
+    log(f"Modo: {modo} (v2 - com pre-filtro + mapa unificado)")
+
+    # Carrega mapa 1: log_renomeacao (rename generico -> canonico)
+    log_rename = acha_log_rename()
+    mapa_rename = carregar_mapa_rename(log_rename)
+    log(f"Mapa rename ({log_rename.parent.name}): {len(mapa_rename)} pares")
+
+    # Carrega mapa 2: log_limpar_suspeitos (com-SUSPEITO -> sem-SUSPEITO)
+    log_limpar = acha_log_limpar_suspeitos()
+    if log_limpar:
+        mapa_limpar = carregar_mapa_limpar_suspeitos(log_limpar)
+        log(f"Mapa limpar_suspeitos ({log_limpar.parent.name}): {len(mapa_limpar)} pares")
+    else:
+        mapa_limpar = {}
+        log("Mapa limpar_suspeitos: nenhum log encontrado (pulando)")
+
+    # Unifica
+    mapa, colisoes = unificar_mapas(mapa_rename, mapa_limpar)
+    log(f"Mapa UNIFICADO: {len(mapa)} pares | colisoes: {len(colisoes)}")
+    if colisoes:
+        log(f"  (primeiras 3 colisoes) {colisoes[:3]}")
+
+    dbs_alvo = list(ALVOS_DB)
+    if args.incluir_detran_auditoria:
+        dbs_alvo.extend(ALVOS_DB_DETRAN_AUD)
+
+    relatorio = {
+        "data": datetime.now().isoformat(),
+        "modo": modo,
+        "versao": "v2",
+        "fontes_mapa": {
+            "rename": {"log": str(log_rename), "pares": len(mapa_rename)},
+            "limpar_suspeitos": {
+                "log": str(log_limpar) if log_limpar else None,
+                "pares": len(mapa_limpar),
+            },
+            "unificado_pares": len(mapa),
+            "colisoes": len(colisoes),
+            "colisoes_amostra": colisoes[:10],
+        },
+        "mapa_size": len(mapa),
+        "json": [],
+        "db": [],
+    }
+
+    # JSON
+    log("=== PROCESSANDO JSON ===")
+    for path in ALVOS_JSON:
+        r = contar_refs_json(path, mapa)
+        log(f"  {path}: refs={r.get('refs', 0)}")
+        if args.apply and r.get("refs", 0) > 0:
+            r_apply = aplicar_json(path, mapa, backup_dir)
+            r.update(r_apply)
+            log(f"    APLICADO: {r_apply.get('substituicoes')} substituicoes | "
+                f"backup={r_apply.get('backup')}")
+        relatorio["json"].append(r)
+
+    # DBs - FASE 1: detectar ocorrencias
+    log("=== FASE 1: DETECTAR OCORRENCIAS (scan por coluna) ===")
+    for path in dbs_alvo:
+        r = detectar_ocorrencias_db(path, mapa)
+        n_triplos = sum(
+            len(cols_map.get(col, {}))
+            for cols_map in r.get("ocorrencias", {}).values()
+            for col in cols_map
+        )
+        log(f"  {path}: refs={r.get('refs', 0)} | "
+            f"triplos_unicos={n_triplos} | "
+            f"tabelas={list(r.get('ocorrencias', {}).keys())}")
+        relatorio["db"].append(r)
+
+    # DBs - FASE 2: aplicar so nos triplos detectados
+    if args.apply:
+        log("=== FASE 2: APLICAR UPDATES (otimizado) ===")
+        for r in relatorio["db"]:
+            path = Path(r["path"])
+            if r.get("refs", 0) > 0:
+                r_apply = aplicar_db_otimizado(
+                    path, mapa, r["ocorrencias"], backup_dir
+                )
+                r.update(r_apply)
+                log(f"  {path}: {r_apply.get('substituicoes')} UPDATEs | "
+                    f"{r_apply.get('queries_executadas')} queries | "
+                    f"backup={r_apply.get('backup')}")
+
+    # Salvar relatorio
+    out_json = saida / "relatorio_sync.json"
+    out_json.write_text(json.dumps(relatorio, ensure_ascii=False, indent=2),
+                        encoding="utf-8")
+    log(f"Relatorio: {out_json}")
+
+    # Resumo MD
+    total_json_refs = sum(j.get("refs", 0) for j in relatorio["json"])
+    total_db_refs = sum(d.get("refs", 0) for d in relatorio["db"])
+    total_queries = sum(d.get("queries_executadas", 0) for d in relatorio["db"])
+    md = [
+        f"# Sync Referencias v2 - {ts} ({modo})",
+        "",
+        f"**Mapa unificado:** {len(mapa)} pares "
+        f"(rename: {len(mapa_rename)} + limpar_suspeitos: {len(mapa_limpar)} "
+        f"- colisoes: {len(colisoes)})",
+        f"**Total refs em JSON:** {total_json_refs}",
+        f"**Total refs em DBs:** {total_db_refs}",
+    ]
+    if args.apply:
+        md.append(f"**Queries SQL executadas:** {total_queries} "
+                  f"(v1 faria ~{len(mapa) * 3 * 8} = "
+                  f"~{len(mapa) * 3 * 8 // 1000}k)")
+    md.extend(["", "## JSON"])
+    for j in relatorio["json"]:
+        md.append(f"- `{j['path']}`: {j.get('refs', 0)} refs")
+    md.append("\n## DBs")
+    for d in relatorio["db"]:
+        md.append(f"- `{d['path']}`: {d.get('refs', 0)} refs")
+        for t, cols_map in (d.get("ocorrencias") or {}).items():
+            for col, pares in cols_map.items():
+                md.append(f"  - `{t}.{col}`: {len(pares)} pares distintos, "
+                          f"{sum(pares.values())} ocorrencias")
+    out_md = saida / "relatorio_sync.md"
+    out_md.write_text("\n".join(md), encoding="utf-8")
+    log(f"MD: {out_md}")
+    log("TERMINOU")
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception:
+        traceback.print_exc()
+        sys.exit(1)

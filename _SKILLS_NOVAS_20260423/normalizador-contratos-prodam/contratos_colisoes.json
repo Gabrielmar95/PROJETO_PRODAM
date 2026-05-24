@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "descricao": "Mapa de contratos fisicamente o mesmo documento com 2 numeracoes. Atualizar quando detectar nova colisao.",
+    "atualizado_em": "2026-04-23"
+  },
+  "DETRAN": [
+    {
+      "numeros": ["296/2025", "3/2026"],
+      "pdf_base": "01_CONTRATOS/PDF/CT_003_2026_DETRAN.pdf",
+      "motivo": "Renumeracao entre anos orcamentarios"
+    }
+  ]
+}

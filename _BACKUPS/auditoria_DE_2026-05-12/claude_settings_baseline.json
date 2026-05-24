@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "skillListingBudgetFraction": 0.03,
+  "env": {
+    "CLAUDE_CODE_USE_POWERSHELL_TOOL": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip *)",
+      "Bash(git status)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git branch *)",
+      "Bash(git checkout *)",
+      "Bash(git pull *)",
+      "Bash(gh *)",
+      "Bash(node *)",
+      "Bash(npm *)",
+      "Bash(tasklist *)",
+      "Bash(where.exe *)",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(git push *)",
+      "Bash(rm -rf *)",
+      "Bash(Remove-Item -Recurse *)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
+    ],
+    "defaultMode": "default"
+  },
+  "model": "claude-opus-4-6[1m]",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "& 'C:\\Users\\gabri\\.claude\\hooks\\backup-claude-md.ps1'",
+            "shell": "powershell",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pwsh -NoProfile -File \"C:\\Users\\gabri\\.claude\\hooks\\long_cmd_router.ps1\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"C:/Users/gabri/.claude/hooks/gsd-validate-commit.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/gabri/.claude/hooks/gsd-check-update.js\""
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"C:/Users/gabri/.claude/hooks/gsd-session-state.sh\""
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/gabri/.claude/hooks/context-mode-cache-heal.mjs\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash|Edit|Write|MultiEdit|Agent|Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/gabri/.claude/hooks/gsd-context-monitor.js\"",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/gabri/.claude/hooks/gsd-read-injection-scanner.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "defaultShell": "powershell",
+  "statusLine": {
+    "type": "command",
+    "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/gabri/.claude/statusline-prodam.cjs\""
+  },
+  "enabledPlugins": {
+    "commit-commands@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "context-mode@context-mode": true,
+    "superpowers@claude-plugins-official": true,
+    "caveman@caveman": false,
+    "skill-creator@claude-plugins-official": true,
+    "claude-api@anthropic-agent-skills": false,
+    "document-skills@anthropic-agent-skills": false,
+    "example-skills@anthropic-agent-skills": false,
+    "claude-mem@thedotmack": true,
+    "frontend-design@claude-plugins-official": true,
+    "github@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      }
+    },
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    },
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    }
+  },
+  "language": "pt-BR",
+  "fastMode": true,
+  "autoUpdatesChannel": "latest",
+  "theme": "auto",
+  "verbose": true,
+  "remoteControlAtStartup": true,
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true,
+  "skipAutoPermissionPrompt": true
+}

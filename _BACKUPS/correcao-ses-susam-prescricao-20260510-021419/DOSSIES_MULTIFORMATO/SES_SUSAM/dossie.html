@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Dossiê SES/SUSAM — Projeto PRODAM</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:1400px;margin:20px auto;padding:20px;background:#f5f5f5}
+h1,h2{color:#1F3864} h1{border-bottom:3px solid #B8963E}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.card{background:white;padding:14px;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.08)}
+.kpi{font-size:22px;color:#1F3864;font-weight:700}
+.label{color:#777;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+table{width:100%;border-collapse:collapse;background:white;margin:10px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #eee;text-align:left;font-size:13px}
+th{background:#1F3864;color:white}
+tr:hover{background:#fafafa}
+.forte{color:green;font-weight:bold} .media{color:orange;font-weight:bold} .fraca{color:red}
+canvas{max-height:300px}
+</style></head><body>
+<h1>Dossiê Completo — SES/SUSAM</h1>
+<p><b>Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical</b> | GOV_DIRETA | CNPJ: 00.697.295/0001-05 | Data: 2026-05-07</p>
+
+<div class="grid">
+<div class="card"><div class="label">Força</div><div class="kpi forte">FORTE</div></div>
+<div class="card"><div class="label">Próximo passo</div><div class="kpi" style="font-size:15px">ENVIAR_TRD</div></div>
+<div class="card"><div class="label">Val. exigível</div><div class="kpi">R$ 14.748.048,96</div></div>
+<div class="card"><div class="label">Val. atualizado</div><div class="kpi">R$ 43.921.619,17</div></div>
+<div class="card"><div class="label">Faturas exig.</div><div class="kpi">144</div></div>
+<div class="card"><div class="label">Faturas prescr.</div><div class="kpi">180</div></div>
+<div class="card"><div class="label">Empenhos (DB)</div><div class="kpi">475</div></div>
+<div class="card"><div class="label">Prob. recup.</div><div class="kpi">75%</div></div>
+</div>
+
+<h2>Empenhos por Ano</h2>
+<div class="card"><canvas id="empAno"></canvas></div>
+
+<h2>Top 10 Empenhos (por valor)</h2>
+<table><tr><th>Número</th><th>Contrato</th><th>Data</th><th>Valor</th><th>Situação</th></tr>
+<tr><td>2016NE03116</td><td>2/2015</td><td>07/12/2016</td><td>R$ 2.149.783,44</td><td>Ativo</td></tr>
+<tr><td>2022NE0000123</td><td>18/2021</td><td>03/01/2022</td><td>R$ 1.703.969,43</td><td>Ativo</td></tr>
+<tr><td>2014NE00181</td><td>116/2013</td><td>02/01/2014</td><td>R$ 1.459.767,46</td><td>Ativo</td></tr>
+<tr><td>2024NE0000059</td><td>18/2021</td><td>02/01/2024</td><td>R$ 1.326.562,84</td><td>Ativo</td></tr>
+<tr><td>2019NE03921</td><td>2/2015</td><td>12/12/2019</td><td>R$ 1.315.253,40</td><td>Ativo</td></tr>
+<tr><td>2023NE0001766</td><td>18/2021</td><td>17/05/2023</td><td>R$ 1.277.572,54</td><td>Ativo</td></tr>
+<tr><td>2021NE0000411</td><td></td><td>04/02/2021</td><td>R$ 1.105.046,04</td><td>Ativo</td></tr>
+<tr><td>2014NE00241</td><td>81/2010</td><td>02/01/2014</td><td>R$ 900.000,00</td><td>Ativo</td></tr>
+<tr><td>2014NE00727</td><td>52/2008</td><td>03/02/2014</td><td>R$ 889.066,68</td><td>Ativo</td></tr>
+<tr><td>2022NE0000127</td><td>21/2021</td><td>03/01/2022</td><td>R$ 881.722,23</td><td>Ativo</td></tr>
+</table>
+<h2>Top 10 Faturas</h2>
+<table><tr><th>ID</th><th>NF</th><th>Contrato</th><th>Comp.</th><th>Valor</th><th>Situação</th><th>Cadeia</th></tr><tr><td>93732</td><td>19539</td><td>24/2016</td><td>07/2016</td><td>R$ 238.723,03</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>161532</td><td>56524</td><td>18/2021</td><td>07/2025</td><td>R$ 185.399,50</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>127265</td><td>24146</td><td>54/2018</td><td>09/2021</td><td>R$ 165.777,43</td><td>Parcialmente Paga</td><td>COMPLETA</td></tr>
+<tr><td>163045</td><td>58034</td><td>21/2021</td><td>09/2025</td><td>R$ 160.469,55</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>163914</td><td>58880</td><td>21/2021</td><td>10/2025</td><td>R$ 160.469,55</td><td>Emitida</td><td>FORTE</td></tr>
+<tr><td>161534</td><td>56526</td><td>18/2021</td><td>07/2025</td><td>R$ 151.234,43</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>137096</td><td>33688</td><td>54/2018</td><td>11/2022</td><td>R$ 146.012,35</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>98319</td><td>23827</td><td>2/2015</td><td>06/2017</td><td>R$ 142.812,78</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>98745</td><td>24324</td><td>2/2015</td><td>07/2017</td><td>R$ 142.812,78</td><td>Emitida</td><td>COMPLETA</td></tr>
+<tr><td>99269</td><td>24703</td><td>2/2015</td><td>08/2017</td><td>R$ 142.812,78</td><td>Emitida</td><td>COMPLETA</td></tr>
+</table>
+
+<h2>Observações</h2>
+<div class="card"><p>102 evidências reconhecimento. Of. 129/2021 expira ~13/05/2026</p></div>
+
+<script>
+new Chart(document.getElementById('empAno'),{
+  type:'bar',
+  data:{labels:["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"],datasets:[
+    {label:'Qtd',data:[14, 18, 19, 13, 21, 20, 45, 37, 59, 41, 55, 72, 61],yAxisID:'y',backgroundColor:'#1F3864'},
+    {label:'Valor R$',data:[5034991.4799999995, 3764418.92, 6277766.709999998, 2208831.5099999993, 3350664.7300000004, 5184807.639999999, 8020406.849999995, 9584967.040000001, 14080047.919999996, 9044050.559999997, 12112856.639999995, 17588719.75, 10824276.739999995],yAxisID:'y1',type:'line',borderColor:'#B8963E'}
+  ]},
+  options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}
+});
+</script>
+</body></html>

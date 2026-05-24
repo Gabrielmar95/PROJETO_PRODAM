@@ -515,6 +515,15 @@ def generate_claude_md(m):
     lines.append("| `PRODAM_DOCS\\REFERENCIA_JURIDICA\\PRECEDENTES_VERIFICADOS.md` | Única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados) |")
     lines.append("")
 
+    # === AGENT SKILLS (setup-matt-pocock-skills) ===
+    lines.append("## AGENT SKILLS (skills de engenharia)")
+    lines.append("Convenções que skills genéricas (`to-issues`, `triage`, `to-prd`, `tdd`, `diagnose`, `grill-with-docs`) consomem neste repo. Detalhes em `docs/agents/*.md`.")
+    lines.append("")
+    lines.append("- **Issue tracker** → `_QUESTOES_CRITICAS/` (arquivos `NN_TITULO.md` numerados). Ver `docs/agents/issue-tracker.md`.")
+    lines.append("- **Triage labels** → 5 canônicos (`needs-triage`/`needs-info`/`ready-for-agent`/`ready-for-human`/`wontfix`), aplicados como linha `Status:` no topo do arquivo. Ver `docs/agents/triage-labels.md`.")
+    lines.append("- **Domain docs** → single-context: `CONTEXT.md` + `docs/adr/` no root (criados sob demanda por `grill-with-docs`). Ver `docs/agents/domain.md`.")
+    lines.append("")
+
     return "\n".join(lines) + "\n"
 
 def main():

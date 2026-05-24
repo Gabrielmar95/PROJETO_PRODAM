@@ -1,0 +1,202 @@
+{
+  "gerado_em": "2026-04-22T03:51:16",
+  "estatisticas": {
+    "total_scripts_analisados": 362,
+    "grupos_duplicados": 5,
+    "por_tipo": {
+      "IDENTICOS": 2,
+      "DRIFT_LEVE": 3
+    },
+    "scripts_criticos_duplicados": [
+      {
+        "nome": "auto_update_claude_md.py",
+        "tipo": "IDENTICOS",
+        "locais": [
+          "auto_update_claude_md.py",
+          "PRODAM_DOCS/auto_update_claude_md.py",
+          "scripts/auto_update_claude_md.py"
+        ],
+        "canonical": "auto_update_claude_md.py"
+      },
+      {
+        "nome": "consultas.py",
+        "tipo": "DRIFT_LEVE",
+        "locais": [
+          "scripts/consultas.py",
+          "PRODAM_DOCS/consultas.py"
+        ],
+        "canonical": "scripts/consultas.py"
+      },
+      {
+        "nome": "orgao_pipeline_completa.py",
+        "tipo": "DRIFT_LEVE",
+        "locais": [
+          "scripts/orgao_pipeline_completa.py",
+          "PRODAM_DOCS/orgao_pipeline_completa.py"
+        ],
+        "canonical": "scripts/orgao_pipeline_completa.py"
+      },
+      {
+        "nome": "prodam_utils.py",
+        "tipo": "IDENTICOS",
+        "locais": [
+          "PRODAM_DOCS/prodam_utils.py",
+          "scripts/prodam_utils.py"
+        ],
+        "canonical": "PRODAM_DOCS/prodam_utils.py"
+      }
+    ]
+  },
+  "grupos": {
+    "auto_update_claude_md.py": {
+      "tipo": "IDENTICOS",
+      "canonical": "auto_update_claude_md.py",
+      "canonical_mtime": "2026-04-20T17:36:00",
+      "versoes": [
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/auto_update_claude_md.py",
+          "rel": "auto_update_claude_md.py",
+          "basename": "auto_update_claude_md.py",
+          "size": 14774,
+          "mtime": 1776706560.8921611,
+          "mtime_iso": "2026-04-20T17:36:00",
+          "lines": 283,
+          "md5": "cde5f1bcf4f9794453bc222ee0709cb1"
+        },
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/PRODAM_DOCS/auto_update_claude_md.py",
+          "rel": "PRODAM_DOCS/auto_update_claude_md.py",
+          "basename": "auto_update_claude_md.py",
+          "size": 14774,
+          "mtime": 1776201064.0608282,
+          "mtime_iso": "2026-04-14T21:11:04",
+          "lines": 283,
+          "md5": "cde5f1bcf4f9794453bc222ee0709cb1"
+        },
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/scripts/auto_update_claude_md.py",
+          "rel": "scripts/auto_update_claude_md.py",
+          "basename": "auto_update_claude_md.py",
+          "size": 14774,
+          "mtime": 1776201050.1123328,
+          "mtime_iso": "2026-04-14T21:10:50",
+          "lines": 283,
+          "md5": "cde5f1bcf4f9794453bc222ee0709cb1"
+        }
+      ],
+      "n_versoes": 3
+    },
+    "consultas.py": {
+      "tipo": "DRIFT_LEVE",
+      "canonical": "scripts/consultas.py",
+      "canonical_mtime": "2026-04-14T14:37:23",
+      "versoes": [
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/scripts/consultas.py",
+          "rel": "scripts/consultas.py",
+          "basename": "consultas.py",
+          "size": 14715,
+          "mtime": 1776177443.5409782,
+          "mtime_iso": "2026-04-14T14:37:23",
+          "lines": 391,
+          "md5": "46a82f4d9aa5021b2e719f354179c59a"
+        },
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/PRODAM_DOCS/consultas.py",
+          "rel": "PRODAM_DOCS/consultas.py",
+          "basename": "consultas.py",
+          "size": 14728,
+          "mtime": 1776176280.2076497,
+          "mtime_iso": "2026-04-14T14:18:00",
+          "lines": 391,
+          "md5": "4fd153c695471e1be7e0d025397dc708"
+        }
+      ],
+      "n_versoes": 2
+    },
+    "orgao_pipeline_completa.py": {
+      "tipo": "DRIFT_LEVE",
+      "canonical": "scripts/orgao_pipeline_completa.py",
+      "canonical_mtime": "2026-04-15T05:16:32",
+      "versoes": [
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/scripts/orgao_pipeline_completa.py",
+          "rel": "scripts/orgao_pipeline_completa.py",
+          "basename": "orgao_pipeline_completa.py",
+          "size": 26259,
+          "mtime": 1776230192.7819695,
+          "mtime_iso": "2026-04-15T05:16:32",
+          "lines": 606,
+          "md5": "abef10e6dc50db9c7deab08d20e1fb6c"
+        },
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/PRODAM_DOCS/orgao_pipeline_completa.py",
+          "rel": "PRODAM_DOCS/orgao_pipeline_completa.py",
+          "basename": "orgao_pipeline_completa.py",
+          "size": 26210,
+          "mtime": 1776198754.685683,
+          "mtime_iso": "2026-04-14T20:32:34",
+          "lines": 605,
+          "md5": "a528c48a9842206cffa0a8872abd492a"
+        }
+      ],
+      "n_versoes": 2
+    },
+    "prodam_utils.py": {
+      "tipo": "IDENTICOS",
+      "canonical": "PRODAM_DOCS/prodam_utils.py",
+      "canonical_mtime": "2026-04-14T20:32:34",
+      "versoes": [
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/PRODAM_DOCS/prodam_utils.py",
+          "rel": "PRODAM_DOCS/prodam_utils.py",
+          "basename": "prodam_utils.py",
+          "size": 6862,
+          "mtime": 1776198754.763386,
+          "mtime_iso": "2026-04-14T20:32:34",
+          "lines": 212,
+          "md5": "5d40a7fad3f4feafe451b635f6cbd160"
+        },
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/scripts/prodam_utils.py",
+          "rel": "scripts/prodam_utils.py",
+          "basename": "prodam_utils.py",
+          "size": 6862,
+          "mtime": 1776190506.3687718,
+          "mtime_iso": "2026-04-14T18:15:06",
+          "lines": 212,
+          "md5": "5d40a7fad3f4feafe451b635f6cbd160"
+        }
+      ],
+      "n_versoes": 2
+    },
+    "gerar_trd_sead.py": {
+      "tipo": "DRIFT_LEVE",
+      "canonical": "PRODAM_DOCS/_SKILLS/dossie-juridico-prodam-workspace/iteration-1/eval-3-trd-sead/gerar_trd_sead.py",
+      "canonical_mtime": "2026-04-17T21:30:31",
+      "versoes": [
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/PRODAM_DOCS/_SKILLS/dossie-juridico-prodam-workspace/iteration-1/eval-3-trd-sead/gerar_trd_sead.py",
+          "rel": "PRODAM_DOCS/_SKILLS/dossie-juridico-prodam-workspace/iteration-1/eval-3-trd-sead/gerar_trd_sead.py",
+          "basename": "gerar_trd_sead.py",
+          "size": 21091,
+          "mtime": 1776461431.0744345,
+          "mtime_iso": "2026-04-17T21:30:31",
+          "lines": 509,
+          "md5": "033dd8ed013b0ae617d582557fe8da02"
+        },
+        {
+          "path": "/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/scripts/gerar_trd_sead.py",
+          "rel": "scripts/gerar_trd_sead.py",
+          "basename": "gerar_trd_sead.py",
+          "size": 20133,
+          "mtime": 1776284250.7624855,
+          "mtime_iso": "2026-04-15T20:17:30",
+          "lines": 625,
+          "md5": "fdfa86415c88b0cab5c9c8b29f446403"
+        }
+      ],
+      "n_versoes": 2
+    }
+  }
+}

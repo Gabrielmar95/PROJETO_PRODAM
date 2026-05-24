@@ -1,0 +1,90 @@
+﻿contrato;numero_fatura;competencia;data_vencimento;valor_original;regime;regime_label;prescricao;existe_no_db;decisao_juridica;observacao_advogado
+10/2021;135058;08/2022;25/09/2022;14644.47;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;135862;09/2022;28/10/2022;10132.54;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;136424;10/2022;26/11/2022;9976.35;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;166854;02/2026;29/03/2026;85841.14;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;166855;02/2026;29/03/2026;712150.80;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;166858;02/2026;29/03/2026;434315.49;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;167282;03/2026;26/04/2026;8033.17;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;167283;03/2026;26/04/2026;650290.00;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+10/2021;167284;03/2026;26/04/2026;428463.69;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+12/2021;137296;11/2022;30/12/2022;12155.72;ipca_aditivo;IPCA (aditivo);Vigente;NAO;;
+12/2021;138012;12/2022;29/01/2023;14508.44;ipca_aditivo;IPCA (aditivo);Vigente;NAO;;
+12/2021;166851;02/2026;29/03/2026;77860.44;ipca_aditivo;IPCA (aditivo);Vigente;NAO;;
+12/2021;167157;03/2026;23/04/2026;3295.68;ipca_aditivo;IPCA (aditivo);Vigente;NAO;;
+14/2019;128143;02/2021;26/11/2021;1128.84;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;INVESTIGAR;Pre-preenchido: contrato ausente do prodam.db, verificar PDFs
+14/2019;128161;03/2021;26/11/2021;1104.45;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;INVESTIGAR;Pre-preenchido: contrato ausente do prodam.db, verificar PDFs
+17/2015;128141;02/2021;26/11/2021;10798.76;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+17/2015;128163;03/2021;26/11/2021;10798.76;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+179/2018;110654;05/2019;26/06/2019;3169.53;silente_administrativo;INPC + SELIC (Lei 14.905/24);potencialmente_prescrita;NAO;INVESTIGAR;Pre-preenchido: ausente do DB E potencialmente prescrita - revisar
+22/2014;128086;01/2021;26/11/2021;2487.27;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+22/2014;128146;02/2021;26/11/2021;1832.12;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+22/2014;128170;03/2021;26/11/2021;1618.34;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+23/2014;128153;02/2021;26/11/2021;1563.71;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;INVESTIGAR;Pre-preenchido: contrato ausente do prodam.db, verificar PDFs
+23/2014;128164;03/2021;26/11/2021;2020.66;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;INVESTIGAR;Pre-preenchido: contrato ausente do prodam.db, verificar PDFs
+25/2014;128162;04/2021;26/11/2021;15714.06;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;127754;01/2021;26/11/2021;1534.08;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;127755;02/2021;26/11/2021;1534.08;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128076;01/2021;26/11/2021;4066.91;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128136;02/2021;26/11/2021;2550.68;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128137;02/2021;26/11/2021;4066.91;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128139;02/2021;26/11/2021;745.00;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128154;03/2021;26/11/2021;745.00;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128155;03/2021;26/11/2021;1534.08;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128157;03/2021;26/11/2021;4066.91;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+27/2014;128158;03/2021;26/11/2021;2550.68;contratual_igpm;IGPM + 1%/m + 2% (contratual);Vigente;NAO;;
+3/2026;166661;02/2026;25/03/2026;630582.35;selic_pura;SELIC pura (Art. 406 CC);Vigente;NAO;;
+3/2026;167160;03/2026;23/04/2026;630582.35;selic_pura;SELIC pura (Art. 406 CC);Vigente;NAO;;
+6/2021;130271;01/2022;02/03/2022;26634.00;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;134800;08/2022;15/09/2022;3607.60;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;134803;08/2022;15/09/2022;6964.94;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;134805;08/2022;15/09/2022;537.76;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;134806;08/2022;15/09/2022;1534.08;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;135486;09/2022;15/10/2022;3607.60;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;135489;09/2022;15/10/2022;6964.94;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;135491;09/2022;15/10/2022;537.76;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;135492;09/2022;15/10/2022;1534.08;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136191;10/2022;16/11/2022;3607.60;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136194;10/2022;16/11/2022;6964.94;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136196;10/2022;16/11/2022;537.76;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136197;10/2022;16/11/2022;1534.08;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136862;11/2022;17/12/2022;3607.60;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136865;11/2022;17/12/2022;6964.94;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136867;11/2022;17/12/2022;537.76;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;136868;11/2022;17/12/2022;1534.08;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;137473;12/2022;01/01/2023;3607.60;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;137476;12/2022;01/01/2023;6964.94;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;137478;12/2022;01/01/2023;537.76;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;137479;12/2022;01/01/2023;1534.08;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166601;02/2026;29/03/2026;38506.00;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166602;02/2026;29/03/2026;1723.49;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166603;02/2026;29/03/2026;27338.34;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166604;02/2026;29/03/2026;7824.86;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166605;02/2026;29/03/2026;604.16;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166606;02/2026;29/03/2026;16933.66;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166607;02/2026;29/03/2026;4052.80;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166852;02/2026;29/03/2026;29922.00;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;166853;02/2026;29/03/2026;44883.00;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167062;03/2026;23/04/2026;38506.00;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167063;03/2026;23/04/2026;1723.49;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167064;03/2026;23/04/2026;27338.34;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167065;03/2026;23/04/2026;7824.86;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167066;03/2026;23/04/2026;604.16;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167067;03/2026;23/04/2026;16933.66;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167068;03/2026;23/04/2026;4052.80;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167158;03/2026;23/04/2026;29922.00;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+6/2021;167159;03/2026;23/04/2026;44883.00;igpm_aditivo;IGPM (aditivo);Vigente;NAO;;
+60/2022;136505;10/2022;26/11/2022;12095.00;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+75/2022;166609;02/2026;25/03/2026;283936.40;contratual_ipca;IPCA (contratual);Vigente;NAO;INVESTIGAR;Pre-preenchido: contrato ausente do prodam.db, verificar PDFs
+75/2022;167070;03/2026;15/04/2026;283936.40;contratual_ipca;IPCA (contratual);Vigente;NAO;INVESTIGAR;Pre-preenchido: contrato ausente do prodam.db, verificar PDFs
+8/2021;129365;12/2021;21/01/2022;1144.76;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;129512;12/2021;21/01/2022;2552.30;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;137106;11/2022;28/12/2022;2024.85;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;137480;12/2022;01/01/2023;1167.84;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;137915;12/2022;22/01/2023;3605.68;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;166608;02/2026;29/03/2026;984.02;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;166859;02/2026;29/03/2026;3022.13;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;167069;03/2026;26/04/2026;984.02;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+8/2021;167285;03/2026;26/04/2026;3501.28;silente_administrativo;INPC + SELIC (Lei 14.905/24);Vigente;NAO;;
+83/2022;166610;02/2026;25/03/2026;32329.00;contratual_ipca;IPCA (contratual);Vigente;NAO;;
+83/2022;167071;03/2026;15/04/2026;32329.00;contratual_ipca;IPCA (contratual);Vigente;NAO;;

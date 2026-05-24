@@ -1,0 +1,6 @@
+basename;tipo;n_versoes;canonical;canonical_mtime;locais
+auto_update_claude_md.py;IDENTICOS;3;auto_update_claude_md.py;2026-04-20T17:36:00;"auto_update_claude_md.py|PRODAM_DOCS/auto_update_claude_md.py|scripts/auto_update_claude_md.py"
+consultas.py;DRIFT_LEVE;2;scripts/consultas.py;2026-04-14T14:37:23;"scripts/consultas.py|PRODAM_DOCS/consultas.py"
+gerar_trd_sead.py;DRIFT_LEVE;2;PRODAM_DOCS/_SKILLS/dossie-juridico-prodam-workspace/iteration-1/eval-3-trd-sead/gerar_trd_sead.py;2026-04-17T21:30:31;"PRODAM_DOCS/_SKILLS/dossie-juridico-prodam-workspace/iteration-1/eval-3-trd-sead/gerar_trd_sead.py|scripts/gerar_trd_sead.py"
+orgao_pipeline_completa.py;DRIFT_LEVE;2;scripts/orgao_pipeline_completa.py;2026-04-15T05:16:32;"scripts/orgao_pipeline_completa.py|PRODAM_DOCS/orgao_pipeline_completa.py"
+prodam_utils.py;IDENTICOS;2;PRODAM_DOCS/prodam_utils.py;2026-04-14T20:32:34;"PRODAM_DOCS/prodam_utils.py|scripts/prodam_utils.py"

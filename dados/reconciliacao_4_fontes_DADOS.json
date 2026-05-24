@@ -1,0 +1,4853 @@
+{
+  "SEDUC": {
+    "sigla": "SEDUC",
+    "profiles": {
+      "val_exig": "49215512.48334964",
+      "val_orig": "38705633.18000001",
+      "val_atualizado": "50263263.55696253",
+      "faturas_total": 84,
+      "faturas_exigiveis": 76,
+      "faturas_prescritas": 8,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEDUC"
+      ],
+      "faturas_qtd": 106,
+      "faturas_total": "54535717.29",
+      "empenhos_qtd": 286,
+      "empenhos_total": "482690583.05000025"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 106,
+      "consolidado_faturas_total": "51827578.06",
+      "cobrancas_qtd": 105,
+      "cobrancas_total": "51827578.06",
+      "empenhos_qtd": 288,
+      "empenhos_total": "484872307.01",
+      "contratos_qtd": 3,
+      "pasta": "SEDUC"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 113,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 275,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 275,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEDUC",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 84,
+        "db": 106,
+        "diff": 22,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "38705633.18000001",
+        "db_total_bruto": "54535717.29",
+        "diff_pct": 40.9,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "DETRAN": {
+    "sigla": "DETRAN",
+    "profiles": {
+      "val_exig": "31684739.01023886",
+      "val_orig": "22745276.48",
+      "val_atualizado": "37960629.18957764",
+      "faturas_total": 233,
+      "faturas_exigiveis": 179,
+      "faturas_prescritas": 54,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "PROTOCOLAR_PETICAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "DETRAN"
+      ],
+      "faturas_qtd": 113,
+      "faturas_total": "17802420.549999997",
+      "empenhos_qtd": 470,
+      "empenhos_total": "250316057.29999992"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 113,
+      "consolidado_faturas_total": "16561585.39",
+      "cobrancas_qtd": 113,
+      "cobrancas_total": "16561585.39",
+      "empenhos_qtd": 480,
+      "empenhos_total": "255373288.56",
+      "contratos_qtd": 1,
+      "pasta": "DETRAN"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 449,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 190,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 190,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "DETRAN",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 233,
+        "db": 113,
+        "diff": 120,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "22745276.48",
+        "db_total_bruto": "17802420.549999997",
+        "diff_pct": 21.7,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SES/SUSAM": {
+    "sigla": "SES/SUSAM",
+    "profiles": {
+      "val_exig": "14748048.9572181",
+      "val_orig": "22406424.64000001",
+      "val_atualizado": "43921619.17034938",
+      "faturas_total": 324,
+      "faturas_exigiveis": 144,
+      "faturas_prescritas": 180,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SES"
+      ],
+      "faturas_qtd": 110,
+      "faturas_total": "6752368.259999998",
+      "empenhos_qtd": 475,
+      "empenhos_total": "107076806.49000017"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 110,
+      "consolidado_faturas_total": "6660692.00",
+      "cobrancas_qtd": 110,
+      "cobrancas_total": "6660692.00",
+      "empenhos_qtd": 478,
+      "empenhos_total": "108853000.76",
+      "contratos_qtd": 5,
+      "pasta": "SES_SUSAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 105,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 68,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 68,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SES",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 324,
+        "db": 110,
+        "diff": 214,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "22406424.64000001",
+        "db_total_bruto": "6752368.259999998",
+        "diff_pct": 69.9,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SSP": {
+    "sigla": "SSP",
+    "profiles": {
+      "val_exig": "4553230.799761455",
+      "val_orig": "12532319.37999999",
+      "val_atualizado": "29034062.62695501",
+      "faturas_total": 196,
+      "faturas_exigiveis": 81,
+      "faturas_prescritas": 115,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "PROTOCOLAR_PETICAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SSP"
+      ],
+      "faturas_qtd": 82,
+      "faturas_total": "6290728.660000002",
+      "empenhos_qtd": 218,
+      "empenhos_total": "136963244.94000006"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 84,
+      "consolidado_faturas_total": "6697257.65",
+      "cobrancas_qtd": 81,
+      "cobrancas_total": "6697257.65",
+      "empenhos_qtd": 751,
+      "empenhos_total": "172564111.12",
+      "contratos_qtd": 6,
+      "pasta": "SSP"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 789,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 59,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 59,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SSP",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 196,
+        "db": 82,
+        "diff": 114,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "12532319.37999999",
+        "db_total_bruto": "6290728.660000002",
+        "diff_pct": 49.8,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      },
+      {
+        "tipo": "QTD_FATURAS_SPCF_VS_DB",
+        "fontes": "SPCF_JSON vs prodam.db",
+        "spcf_json": 84,
+        "db": 82,
+        "diff": 2
+      }
+    ]
+  },
+  "SEJUSC": {
+    "sigla": "SEJUSC",
+    "profiles": {
+      "val_exig": "2589660.118313503",
+      "val_orig": "3025777.730000001",
+      "val_atualizado": "5262537.822174589",
+      "faturas_total": 165,
+      "faturas_exigiveis": 65,
+      "faturas_prescritas": 100,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEJUSC"
+      ],
+      "faturas_qtd": 58,
+      "faturas_total": "2434441.6100000003",
+      "empenhos_qtd": 322,
+      "empenhos_total": "10930205.100000009"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 58,
+      "consolidado_faturas_total": "2434441.61",
+      "cobrancas_qtd": 58,
+      "cobrancas_total": "2434441.61",
+      "empenhos_qtd": 476,
+      "empenhos_total": "12694079.55",
+      "contratos_qtd": 2,
+      "pasta": "SEJUSC"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 86,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 13,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 13,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEJUSC",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 165,
+        "db": 58,
+        "diff": 107,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "3025777.730000001",
+        "db_total_bruto": "2434441.6100000003",
+        "diff_pct": 19.5,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SEAD": {
+    "sigla": "SEAD",
+    "profiles": {
+      "val_exig": "2339702.19897373",
+      "val_orig": "2772731.09",
+      "val_atualizado": "4296278.763058392",
+      "faturas_total": 69,
+      "faturas_exigiveis": 25,
+      "faturas_prescritas": 44,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEAD"
+      ],
+      "faturas_qtd": 56,
+      "faturas_total": "4941372.73",
+      "empenhos_qtd": 693,
+      "empenhos_total": "91267344.84999996"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 56,
+      "consolidado_faturas_total": "4549420.78",
+      "cobrancas_qtd": 47,
+      "cobrancas_total": "4549420.78",
+      "empenhos_qtd": 707,
+      "empenhos_total": "93953487.15",
+      "contratos_qtd": 6,
+      "pasta": "SEAD"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 88,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 5,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 5,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEAD",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 69,
+        "db": 56,
+        "diff": 13,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "2772731.09",
+        "db_total_bruto": "4941372.73",
+        "diff_pct": 78.2,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "CETAM": {
+    "sigla": "CETAM",
+    "profiles": {
+      "val_exig": "1256564.28",
+      "val_orig": "1256564.28",
+      "val_atualizado": "1256564.28",
+      "faturas_total": 16,
+      "faturas_exigiveis": 16,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "CETAM"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 276,
+      "empenhos_total": "62549005.64000001"
+    },
+    "spcf_json": {
+      "empenhos_qtd": 279,
+      "empenhos_total": "64027850.88",
+      "contratos_qtd": 4,
+      "pasta": "CETAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 27,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "CETAM",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "SEDECTI": {
+    "sigla": "SEDECTI",
+    "profiles": {
+      "val_exig": "1249203.13232546",
+      "val_orig": "2012035.99",
+      "val_atualizado": "4007244.346947853",
+      "faturas_total": 228,
+      "faturas_exigiveis": 52,
+      "faturas_prescritas": 176,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEDECTI"
+      ],
+      "faturas_qtd": 42,
+      "faturas_total": "1319548.2899999993",
+      "empenhos_qtd": 524,
+      "empenhos_total": "22052502.439999983"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 42,
+      "consolidado_faturas_total": "1319548.29",
+      "cobrancas_qtd": 42,
+      "cobrancas_total": "1319548.29",
+      "empenhos_qtd": 528,
+      "empenhos_total": "22191780.64",
+      "contratos_qtd": 6,
+      "pasta": "SEDECTI"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 145,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 23,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 23,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEDECTI",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 228,
+        "db": 42,
+        "diff": 186,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "2012035.99",
+        "db_total_bruto": "1319548.2899999993",
+        "diff_pct": 34.4,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "POLÍCIA CIVIL": {
+    "sigla": "POLÍCIA CIVIL",
+    "profiles": {
+      "val_exig": "960481.713334285",
+      "val_orig": "1066717.79",
+      "val_atualizado": "1908089.754340274",
+      "faturas_total": 56,
+      "faturas_exigiveis": 32,
+      "faturas_prescritas": 24,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "POLICIA CIVIL"
+      ],
+      "faturas_qtd": 18,
+      "faturas_total": "625567.97",
+      "empenhos_qtd": 158,
+      "empenhos_total": "18307206.980000008"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 18,
+      "consolidado_faturas_total": "566237.37",
+      "cobrancas_qtd": 14,
+      "cobrancas_total": "566237.37",
+      "empenhos_qtd": 160,
+      "empenhos_total": "18783848.94",
+      "contratos_qtd": 1,
+      "pasta": "POLÍCIA CIVIL"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 86,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "POLICIA_CIVIL",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 56,
+        "db": 18,
+        "diff": 38,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "1066717.79",
+        "db_total_bruto": "625567.97",
+        "diff_pct": 41.4,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "BANCO MASTER": {
+    "sigla": "BANCO MASTER",
+    "profiles": {
+      "val_exig": "889270.87",
+      "val_orig": "889270.87",
+      "val_atualizado": "889270.87",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário."
+    },
+    "db": {
+      "siglas_usadas": [
+        "BANCO MASTER S/A",
+        "BANCO MASTER"
+      ],
+      "faturas_qtd": 51,
+      "faturas_total": "893374.8700000001",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 51,
+      "consolidado_faturas_total": "893374.87",
+      "cobrancas_qtd": 51,
+      "cobrancas_total": "893374.87",
+      "contratos_qtd": 3,
+      "pasta": "BANCO MASTER"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 51,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "BANCO_MASTER",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "FENIXSOFT": {
+    "sigla": "FENIXSOFT",
+    "profiles": {
+      "val_exig": "888250.0",
+      "val_orig": "888250.0",
+      "val_atualizado": "888250.0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FENIXSOFT",
+        "FENIXSOFT2"
+      ],
+      "faturas_qtd": 7,
+      "faturas_total": "1405000.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 7,
+      "consolidado_faturas_total": "905000.00",
+      "cobrancas_qtd": 7,
+      "cobrancas_total": "905000.00",
+      "pasta": "FENIXSOFT"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 15,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FENIXSOFT",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "888250.0",
+        "db_total_bruto": "1405000.0",
+        "diff_pct": 58.2,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "CAIXA": {
+    "sigla": "CAIXA",
+    "profiles": {
+      "val_exig": "844328.88",
+      "val_orig": "844328.88",
+      "val_atualizado": "844328.88",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "CAIXA"
+      ],
+      "faturas_qtd": 60,
+      "faturas_total": "920891.3400000001",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 60,
+      "consolidado_faturas_total": "920891.34",
+      "cobrancas_qtd": 60,
+      "cobrancas_total": "920891.34",
+      "contratos_qtd": 6,
+      "pasta": "CAIXA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 60,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "CAIXA",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "844328.88",
+        "db_total_bruto": "920891.3400000001",
+        "diff_pct": 9.1,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SUHAB": {
+    "sigla": "SUHAB",
+    "profiles": {
+      "val_exig": "840061.1525043402",
+      "val_orig": "710644.0000000003",
+      "val_atualizado": "1210268.549392809",
+      "faturas_total": 123,
+      "faturas_exigiveis": 87,
+      "faturas_prescritas": 36,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SUHAB"
+      ],
+      "faturas_qtd": 13,
+      "faturas_total": "364460.1400000001",
+      "empenhos_qtd": 322,
+      "empenhos_total": "9193518.199999997"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 13,
+      "consolidado_faturas_total": "363678.71",
+      "cobrancas_qtd": 13,
+      "cobrancas_total": "363678.71",
+      "empenhos_qtd": 324,
+      "empenhos_total": "9200105.27",
+      "contratos_qtd": 5,
+      "pasta": "SUHAB"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 50,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SUHAB",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 123,
+        "db": 13,
+        "diff": 110,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "710644.0000000003",
+        "db_total_bruto": "364460.1400000001",
+        "diff_pct": 48.7,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "AMAZONPREV": {
+    "sigla": "AMAZONPREV",
+    "profiles": {
+      "val_exig": "736219.7938469165",
+      "val_orig": "777884.59",
+      "val_atualizado": "1142951.735849928",
+      "faturas_total": 23,
+      "faturas_exigiveis": 21,
+      "faturas_prescritas": 2,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "AMAZONPREV"
+      ],
+      "faturas_qtd": 5,
+      "faturas_total": "277932.98",
+      "empenhos_qtd": 174,
+      "empenhos_total": "34894367.81999999"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 5,
+      "consolidado_faturas_total": "277932.98",
+      "cobrancas_qtd": 5,
+      "cobrancas_total": "277932.98",
+      "empenhos_qtd": 177,
+      "empenhos_total": "34974836.91",
+      "contratos_qtd": 2,
+      "pasta": "AMAZONPREV"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 54,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 2,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 2,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "AMAZONPREV",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 23,
+        "db": 5,
+        "diff": 18,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "777884.59",
+        "db_total_bruto": "277932.98",
+        "diff_pct": 64.3,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "FAAR/SEDEL": {
+    "sigla": "FAAR/SEDEL",
+    "profiles": {
+      "val_exig": "734498.9430028957",
+      "val_orig": "877764.1999999997",
+      "val_atualizado": "1472879.245464368",
+      "faturas_total": 221,
+      "faturas_exigiveis": 113,
+      "faturas_prescritas": 108,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FAAR - EXTINTA LEI 6.225 INCP PELA SEDEL",
+        "SEDEL",
+        "FAAR"
+      ],
+      "faturas_qtd": 72,
+      "faturas_total": "364632.44",
+      "empenhos_qtd": 155,
+      "empenhos_total": "2446703.4800000009"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 72,
+      "consolidado_faturas_total": "363581.38",
+      "cobrancas_qtd": 72,
+      "cobrancas_total": "363581.38",
+      "empenhos_qtd": 157,
+      "empenhos_total": "2450958.34",
+      "contratos_qtd": 4,
+      "pasta": "FAAR_SEDEL"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 140,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FAAR",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 221,
+        "db": 72,
+        "diff": 149,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "877764.1999999997",
+        "db_total_bruto": "364632.44",
+        "diff_pct": 58.5,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "PGE": {
+    "sigla": "PGE",
+    "profiles": {
+      "val_exig": "680239.7715611592",
+      "val_orig": "849643.14",
+      "val_atualizado": "1603066.411500305",
+      "faturas_total": 47,
+      "faturas_exigiveis": 41,
+      "faturas_prescritas": 6,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "PGE"
+      ],
+      "faturas_qtd": 46,
+      "faturas_total": "1083736.8500000003",
+      "empenhos_qtd": 428,
+      "empenhos_total": "17569995.939999986"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 46,
+      "consolidado_faturas_total": "925868.94",
+      "cobrancas_qtd": 40,
+      "cobrancas_total": "925868.94",
+      "empenhos_qtd": 443,
+      "empenhos_total": "18196830.28",
+      "contratos_qtd": 2,
+      "pasta": "PGE"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 48,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 4,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 4,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "PGE",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 47,
+        "db": 46,
+        "diff": 1,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "849643.14",
+        "db_total_bruto": "1083736.8500000003",
+        "diff_pct": 27.6,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "IPAAM": {
+    "sigla": "IPAAM",
+    "profiles": {
+      "val_exig": "652339.8873389428",
+      "val_orig": "465482.7199999997",
+      "val_atualizado": "652339.8873389428",
+      "faturas_total": 58,
+      "faturas_exigiveis": 58,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "IPAAM"
+      ],
+      "faturas_qtd": 19,
+      "faturas_total": "233596.94999999998",
+      "empenhos_qtd": 235,
+      "empenhos_total": "9934556.14"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 19,
+      "consolidado_faturas_total": "203066.62",
+      "cobrancas_qtd": 19,
+      "cobrancas_total": "203066.62",
+      "empenhos_qtd": 241,
+      "empenhos_total": "10173417.27",
+      "contratos_qtd": 4,
+      "pasta": "IPAAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 84,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "IPAAM",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 58,
+        "db": 19,
+        "diff": 39,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "465482.7199999997",
+        "db_total_bruto": "233596.94999999998",
+        "diff_pct": 49.8,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SEAS": {
+    "sigla": "SEAS",
+    "profiles": {
+      "val_exig": "651041.089737987",
+      "val_orig": "474659.7699999997",
+      "val_atualizado": "651041.089737987",
+      "faturas_total": 63,
+      "faturas_exigiveis": 63,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "PROTOCOLAR_PETICAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEAS"
+      ],
+      "faturas_qtd": 25,
+      "faturas_total": "219783.61000000004",
+      "empenhos_qtd": 415,
+      "empenhos_total": "11691051.780000001"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 25,
+      "consolidado_faturas_total": "219783.61",
+      "cobrancas_qtd": 25,
+      "cobrancas_total": "219783.61",
+      "empenhos_qtd": 420,
+      "empenhos_total": "11988778.14",
+      "contratos_qtd": 3,
+      "pasta": "SEAS"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 45,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 31,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 31,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEAS",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 63,
+        "db": 25,
+        "diff": 38,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "474659.7699999997",
+        "db_total_bruto": "219783.61000000004",
+        "diff_pct": 53.7,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "FCECON": {
+    "sigla": "FCECON",
+    "profiles": {
+      "val_exig": "637106.6794919234",
+      "val_orig": "581141.44",
+      "val_atualizado": "828620.6325084443",
+      "faturas_total": 113,
+      "faturas_exigiveis": 85,
+      "faturas_prescritas": 28,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FCECON"
+      ],
+      "faturas_qtd": 11,
+      "faturas_total": "68362.95000000001",
+      "empenhos_qtd": 386,
+      "empenhos_total": "2844079.069999999"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 11,
+      "consolidado_faturas_total": "64608.21",
+      "cobrancas_qtd": 11,
+      "cobrancas_total": "64608.21",
+      "empenhos_qtd": 389,
+      "empenhos_total": "2869272.50",
+      "contratos_qtd": 5,
+      "pasta": "FCECON"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 66,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 11,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 11,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FCECON",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 113,
+        "db": 11,
+        "diff": 102,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "581141.44",
+        "db_total_bruto": "68362.95000000001",
+        "diff_pct": 88.2,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "PROVER": {
+    "sigla": "PROVER",
+    "profiles": {
+      "val_exig": "549105.7",
+      "val_orig": "549105.7",
+      "val_atualizado": "549105.7",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "PROVER PROMOÇÃO DE VENDAS LTDA.",
+        "PROVER"
+      ],
+      "faturas_qtd": 48,
+      "faturas_total": "600636.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "contratos_qtd": 3,
+      "pasta": "PROVER"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 47,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "PROVER",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "549105.7",
+        "db_total_bruto": "600636.0",
+        "diff_pct": 9.4,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SETRAB": {
+    "sigla": "SETRAB",
+    "profiles": {
+      "val_exig": "505961.79",
+      "val_orig": "505961.79",
+      "val_atualizado": "505961.79",
+      "faturas_total": 81,
+      "faturas_exigiveis": 81,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "AVALIAR_SUCESSAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SETRAB EXTINTA - LEI D. 122/19 - INC PELA SEDECTI",
+        "SETRAB"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 176,
+      "empenhos_total": "2076190.080000001"
+    },
+    "spcf_json": {
+      "empenhos_qtd": 176,
+      "empenhos_total": "2076190.08",
+      "pasta": "SETRAB"
+    },
+    "dossie": {
+      "encontrado": false
+    },
+    "divergencias": [
+      {
+        "tipo": "SEM_DOSSIE",
+        "fontes": "PRODAM_DOCS",
+        "nota": "Nenhuma pasta *_DOSSIE encontrada para SETRAB"
+      }
+    ]
+  },
+  "SEINFRA": {
+    "sigla": "SEINFRA",
+    "profiles": {
+      "val_exig": "379631.5477448804",
+      "val_orig": "294139.13",
+      "val_atualizado": "379631.5477448804",
+      "faturas_total": 38,
+      "faturas_exigiveis": 38,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEINFRA"
+      ],
+      "faturas_qtd": 12,
+      "faturas_total": "71805.43000000001",
+      "empenhos_qtd": 395,
+      "empenhos_total": "7754214.44"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 12,
+      "consolidado_faturas_total": "71805.43",
+      "cobrancas_qtd": 12,
+      "cobrancas_total": "71805.43",
+      "empenhos_qtd": 399,
+      "empenhos_total": "7807374.41",
+      "contratos_qtd": 3,
+      "pasta": "SEINFRA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 37,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 35,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 35,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEINFRA",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 38,
+        "db": 12,
+        "diff": 26,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "294139.13",
+        "db_total_bruto": "71805.43000000001",
+        "diff_pct": 75.6,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "UGPI": {
+    "sigla": "UGPI",
+    "profiles": {
+      "val_exig": "353473.42",
+      "val_orig": "353473.42",
+      "val_atualizado": "353473.42",
+      "faturas_total": 18,
+      "faturas_exigiveis": 18,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "UGPE - UNIDADE GESTORA DE PROJETOS ESPECIAIS",
+        "UGPADEAM",
+        "UGPI"
+      ],
+      "faturas_qtd": 4,
+      "faturas_total": "234247.4",
+      "empenhos_qtd": 407,
+      "empenhos_total": "13812630.079999996"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 3,
+      "consolidado_faturas_total": "162977.81",
+      "cobrancas_qtd": 3,
+      "cobrancas_total": "162977.81",
+      "empenhos_qtd": 418,
+      "empenhos_total": "13916184.30",
+      "contratos_qtd": 4,
+      "pasta": "UGPI"
+    },
+    "dossie": {
+      "encontrado": false
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 18,
+        "db": 4,
+        "diff": 14,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "353473.42",
+        "db_total_bruto": "234247.4",
+        "diff_pct": 33.7,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      },
+      {
+        "tipo": "QTD_FATURAS_SPCF_VS_DB",
+        "fontes": "SPCF_JSON vs prodam.db",
+        "spcf_json": 3,
+        "db": 4,
+        "diff": 1
+      },
+      {
+        "tipo": "SEM_DOSSIE",
+        "fontes": "PRODAM_DOCS",
+        "nota": "Nenhuma pasta *_DOSSIE encontrada para UGPI"
+      }
+    ]
+  },
+  "IDAM": {
+    "sigla": "IDAM",
+    "profiles": {
+      "val_exig": "328735.506557344",
+      "val_orig": "505375.1699999998",
+      "val_atualizado": "892277.9349171629",
+      "faturas_total": 35,
+      "faturas_exigiveis": 30,
+      "faturas_prescritas": 5,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "IDAM"
+      ],
+      "faturas_qtd": 7,
+      "faturas_total": "268974.18",
+      "empenhos_qtd": 414,
+      "empenhos_total": "7108383.880000001"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 7,
+      "consolidado_faturas_total": "268974.18",
+      "cobrancas_qtd": 7,
+      "cobrancas_total": "268974.18",
+      "empenhos_qtd": 419,
+      "empenhos_total": "7331536.63",
+      "contratos_qtd": 4,
+      "pasta": "IDAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 43,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "IDAM",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 35,
+        "db": 7,
+        "diff": 28,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "505375.1699999998",
+        "db_total_bruto": "268974.18",
+        "diff_pct": 46.8,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "FVS": {
+    "sigla": "FVS",
+    "profiles": {
+      "val_exig": "321372.9594133031",
+      "val_orig": "253753.07",
+      "val_atualizado": "321372.9594133031",
+      "faturas_total": 23,
+      "faturas_exigiveis": 23,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FVS"
+      ],
+      "faturas_qtd": 1,
+      "faturas_total": "14638.55",
+      "empenhos_qtd": 517,
+      "empenhos_total": "7501889.399999986"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 1,
+      "consolidado_faturas_total": "970.87",
+      "cobrancas_qtd": 1,
+      "cobrancas_total": "970.87",
+      "empenhos_qtd": 734,
+      "empenhos_total": "12558713.44",
+      "contratos_qtd": 5,
+      "pasta": "FVS"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 40,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FVS",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 23,
+        "db": 1,
+        "diff": 22,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "253753.07",
+        "db_total_bruto": "14638.55",
+        "diff_pct": 94.2,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SEJEL": {
+    "sigla": "SEJEL",
+    "profiles": {
+      "val_exig": "280242.25",
+      "val_orig": "280242.25",
+      "val_atualizado": "280242.25",
+      "faturas_total": 96,
+      "faturas_exigiveis": 96,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEJEL - EXTINTA LEI 122/2019",
+        "SEJEL"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 101,
+      "empenhos_total": "1218094.7500000002"
+    },
+    "spcf_json": {
+      "empenhos_qtd": 101,
+      "empenhos_total": "1218094.75",
+      "pasta": "SEJEL"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 51,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEJEL",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "FMT": {
+    "sigla": "FMT",
+    "profiles": {
+      "val_exig": "272130.6793465254",
+      "val_orig": "390275.52",
+      "val_atualizado": "693107.3755040537",
+      "faturas_total": 83,
+      "faturas_exigiveis": 41,
+      "faturas_prescritas": 42,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FMT-HVD",
+        "FMT"
+      ],
+      "faturas_qtd": 3,
+      "faturas_total": "23228.190000000002",
+      "empenhos_qtd": 480,
+      "empenhos_total": "3370864.470000004"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 3,
+      "consolidado_faturas_total": "1468.47",
+      "cobrancas_qtd": 2,
+      "cobrancas_total": "1468.47",
+      "empenhos_qtd": 482,
+      "empenhos_total": "3398681.38",
+      "contratos_qtd": 4,
+      "pasta": "FMT"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 50,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 9,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 9,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FMT",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 83,
+        "db": 3,
+        "diff": 80,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "390275.52",
+        "db_total_bruto": "23228.190000000002",
+        "diff_pct": 94.0,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "FHAJ": {
+    "sigla": "FHAJ",
+    "profiles": {
+      "val_exig": "259910.7790577516",
+      "val_orig": "304898.4199999998",
+      "val_atualizado": "493519.1295001625",
+      "faturas_total": 75,
+      "faturas_exigiveis": 34,
+      "faturas_prescritas": 41,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "PROTOCOLAR_PETICAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FHAJ"
+      ],
+      "faturas_qtd": 6,
+      "faturas_total": "28541.600000000002",
+      "empenhos_qtd": 297,
+      "empenhos_total": "1453289.6800000025"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 6,
+      "consolidado_faturas_total": "8147.74",
+      "cobrancas_qtd": 4,
+      "cobrancas_total": "8147.74",
+      "empenhos_qtd": 297,
+      "empenhos_total": "1453289.68",
+      "contratos_qtd": 2,
+      "pasta": "FHAJ"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 75,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 7,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 7,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FHAJ",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 75,
+        "db": 6,
+        "diff": 69,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "304898.4199999998",
+        "db_total_bruto": "28541.600000000002",
+        "diff_pct": 90.6,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SECT": {
+    "sigla": "SECT",
+    "profiles": {
+      "val_exig": "258328.5777689927",
+      "val_orig": "222910.14",
+      "val_atualizado": "296246.9739695273",
+      "faturas_total": 44,
+      "faturas_exigiveis": 35,
+      "faturas_prescritas": 9,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SECT",
+        "SECTI-EXTINTA"
+      ],
+      "faturas_qtd": 8,
+      "faturas_total": "38747.149999999994",
+      "empenhos_qtd": 220,
+      "empenhos_total": "3231567.490000001"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 8,
+      "consolidado_faturas_total": "38747.15",
+      "cobrancas_qtd": 8,
+      "cobrancas_total": "38747.15",
+      "empenhos_qtd": 224,
+      "empenhos_total": "3462076.58",
+      "contratos_qtd": 3,
+      "pasta": "SECT"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 63,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 5,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 5,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SECT",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 44,
+        "db": 8,
+        "diff": 36,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "222910.14",
+        "db_total_bruto": "38747.149999999994",
+        "diff_pct": 82.6,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "ADS": {
+    "sigla": "ADS",
+    "profiles": {
+      "val_exig": "211657.47",
+      "val_orig": "211657.47",
+      "val_atualizado": "211657.47",
+      "faturas_total": 119,
+      "faturas_exigiveis": 119,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "ADS"
+      ],
+      "faturas_qtd": 6,
+      "faturas_total": "10230.6",
+      "empenhos_qtd": 256,
+      "empenhos_total": "1191974.6099999999"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 6,
+      "consolidado_faturas_total": "8249.83",
+      "cobrancas_qtd": 6,
+      "cobrancas_total": "8249.83",
+      "empenhos_qtd": 262,
+      "empenhos_total": "1215355.01",
+      "contratos_qtd": 3,
+      "pasta": "ADS"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 49,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 33,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 33,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "ADS",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 119,
+        "db": 6,
+        "diff": 113,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "211657.47",
+        "db_total_bruto": "10230.6",
+        "diff_pct": 95.2,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SEFAZ": {
+    "sigla": "SEFAZ",
+    "profiles": {
+      "val_exig": "198980.4851109561",
+      "val_orig": "188362.64",
+      "val_atualizado": "283622.8288313362",
+      "faturas_total": 5,
+      "faturas_exigiveis": 4,
+      "faturas_prescritas": 1,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEFAZ"
+      ],
+      "faturas_qtd": 5,
+      "faturas_total": "39025.32",
+      "empenhos_qtd": 206,
+      "empenhos_total": "246421222.30000025"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 5,
+      "consolidado_faturas_total": "39025.32",
+      "cobrancas_qtd": 5,
+      "cobrancas_total": "39025.32",
+      "empenhos_qtd": 209,
+      "empenhos_total": "259636073.70",
+      "contratos_qtd": 2,
+      "pasta": "SEFAZ"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 31,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 24,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 24,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEFAZ",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "188362.64",
+        "db_total_bruto": "39025.32",
+        "diff_pct": 79.3,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "CPA": {
+    "sigla": "CPA",
+    "profiles": {
+      "val_exig": "165830.96",
+      "val_orig": "165830.96",
+      "val_atualizado": "165830.96",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "CPA"
+      ],
+      "faturas_qtd": 6,
+      "faturas_total": "165830.96",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 6,
+      "consolidado_faturas_total": "165830.96",
+      "cobrancas_qtd": 6,
+      "cobrancas_total": "165830.96",
+      "pasta": "CPA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 11,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "CPA",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "ADAF": {
+    "sigla": "ADAF",
+    "profiles": {
+      "val_exig": "149600.91",
+      "val_orig": "149600.91",
+      "val_atualizado": "149600.91",
+      "faturas_total": 44,
+      "faturas_exigiveis": 44,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "ADAF"
+      ],
+      "faturas_qtd": 27,
+      "faturas_total": "122182.04",
+      "empenhos_qtd": 275,
+      "empenhos_total": "2425272.3599999985"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 27,
+      "consolidado_faturas_total": "122182.04",
+      "cobrancas_qtd": 27,
+      "cobrancas_total": "122182.04",
+      "empenhos_qtd": 283,
+      "empenhos_total": "2546178.16",
+      "contratos_qtd": 4,
+      "pasta": "ADAF"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 59,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 7,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 7,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "ADAF",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 44,
+        "db": 27,
+        "diff": 17,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "149600.91",
+        "db_total_bruto": "122182.04",
+        "diff_pct": 18.3,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "AADESAM": {
+    "sigla": "AADESAM",
+    "profiles": {
+      "val_exig": "125682.90",
+      "val_orig": "125682.90",
+      "val_atualizado": "125682.90",
+      "faturas_total": 34,
+      "faturas_exigiveis": 34,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "AADESAM"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 4,
+      "empenhos_total": "208074.78000000003"
+    },
+    "spcf_json": {
+      "empenhos_qtd": 4,
+      "empenhos_total": "208074.78",
+      "contratos_qtd": 4,
+      "pasta": "AADESAM"
+    },
+    "dossie": {
+      "encontrado": false
+    },
+    "divergencias": [
+      {
+        "tipo": "SEM_DOSSIE",
+        "fontes": "PRODAM_DOCS",
+        "nota": "Nenhuma pasta *_DOSSIE encontrada para AADESAM"
+      }
+    ]
+  },
+  "IKM DE": {
+    "sigla": "IKM DE",
+    "profiles": {
+      "val_exig": "116263.6",
+      "val_orig": "116263.6",
+      "val_atualizado": "116263.6",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "IKM DE LIMA-ME",
+        "IKM DE"
+      ],
+      "faturas_qtd": 12,
+      "faturas_total": "116263.59999999999",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 12,
+      "consolidado_faturas_total": "116263.60",
+      "cobrancas_qtd": 12,
+      "cobrancas_total": "116263.60",
+      "pasta": "IKM DE"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 20,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "IKM",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "ANOREG": {
+    "sigla": "ANOREG",
+    "profiles": {
+      "val_exig": "102267.91",
+      "val_orig": "102267.91",
+      "val_atualizado": "102267.91",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "ANOREG/AM",
+        "ANOREG"
+      ],
+      "faturas_qtd": 12,
+      "faturas_total": "102286.07999999999",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 12,
+      "consolidado_faturas_total": "102267.91",
+      "cobrancas_qtd": 12,
+      "cobrancas_total": "102267.91",
+      "pasta": "ANOREG"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 19,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "ANOREG",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "SEC": {
+    "sigla": "SEC",
+    "profiles": {
+      "val_exig": "99050.70706237933",
+      "val_orig": "152126.16",
+      "val_atualizado": "248155.4238784024",
+      "faturas_total": 23,
+      "faturas_exigiveis": 11,
+      "faturas_prescritas": 12,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEC"
+      ],
+      "faturas_qtd": 7,
+      "faturas_total": "182178.56",
+      "empenhos_qtd": 271,
+      "empenhos_total": "7709640.650000005"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 7,
+      "consolidado_faturas_total": "134631.36",
+      "cobrancas_qtd": 7,
+      "cobrancas_total": "134631.36",
+      "empenhos_qtd": 280,
+      "empenhos_total": "7915362.68",
+      "contratos_qtd": 3,
+      "pasta": "SEC"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 94,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 20,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 20,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEC",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 23,
+        "db": 7,
+        "diff": 16,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "152126.16",
+        "db_total_bruto": "182178.56",
+        "diff_pct": 19.8,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SEPROR": {
+    "sigla": "SEPROR",
+    "profiles": {
+      "val_exig": "77960.49143925689",
+      "val_orig": "103810.4",
+      "val_atualizado": "170884.0956059437",
+      "faturas_total": 25,
+      "faturas_exigiveis": 15,
+      "faturas_prescritas": 10,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEPROR"
+      ],
+      "faturas_qtd": 3,
+      "faturas_total": "38581.46000000001",
+      "empenhos_qtd": 298,
+      "empenhos_total": "3296503.190000003"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 3,
+      "consolidado_faturas_total": "38124.60",
+      "cobrancas_qtd": 3,
+      "cobrancas_total": "38124.60",
+      "empenhos_qtd": 315,
+      "empenhos_total": "3557846.97",
+      "contratos_qtd": 4,
+      "pasta": "SEPROR"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 34,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 8,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 8,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEPROR",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 25,
+        "db": 3,
+        "diff": 22,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "103810.4",
+        "db_total_bruto": "38581.46000000001",
+        "diff_pct": 62.8,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "BMC": {
+    "sigla": "BMC",
+    "profiles": {
+      "val_exig": "58142.0",
+      "val_orig": "58142.0",
+      "val_atualizado": "58142.0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "BMC"
+      ],
+      "faturas_qtd": 6,
+      "faturas_total": "58142.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 6,
+      "consolidado_faturas_total": "58142.00",
+      "cobrancas_qtd": 6,
+      "cobrancas_total": "58142.00",
+      "pasta": "BMC"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 7,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "BMC",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "ARSEPAM": {
+    "sigla": "ARSEPAM",
+    "profiles": {
+      "val_exig": "49618.85205354253",
+      "val_orig": "35923.02",
+      "val_atualizado": "49618.85205354253",
+      "faturas_total": 23,
+      "faturas_exigiveis": 23,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "ARSEPAM"
+      ],
+      "faturas_qtd": 20,
+      "faturas_total": "30809.93",
+      "empenhos_qtd": 166,
+      "empenhos_total": "1276314.1400000004"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 20,
+      "consolidado_faturas_total": "30809.93",
+      "cobrancas_qtd": 20,
+      "cobrancas_total": "30809.93",
+      "empenhos_qtd": 167,
+      "empenhos_total": "1277930.28",
+      "contratos_qtd": 2,
+      "pasta": "ARSEPAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 66,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "ARSEPAM",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 23,
+        "db": 20,
+        "diff": 3,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "35923.02",
+        "db_total_bruto": "30809.93",
+        "diff_pct": 14.2,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "FUAM/FUHAM": {
+    "sigla": "FUAM/FUHAM",
+    "profiles": {
+      "val_exig": "44020.01",
+      "val_orig": "368561.6299999997",
+      "val_atualizado": "356355.07",
+      "faturas_total": 75,
+      "faturas_exigiveis": 22,
+      "faturas_prescritas": 53,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "PROTOCOLAR_PETICAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FUHAM",
+        "FUAM"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 349,
+      "empenhos_total": "1609904.7700000005"
+    },
+    "spcf_json": {
+      "empenhos_qtd": 354,
+      "empenhos_total": "1626569.35",
+      "contratos_qtd": 4,
+      "pasta": "FUAM_FUHAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 21,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FUAM",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "BANCO BMG": {
+    "sigla": "BANCO BMG",
+    "profiles": {
+      "val_exig": "39242.0",
+      "val_orig": "39242.0",
+      "val_atualizado": "39242.0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "BANCO BMG"
+      ],
+      "faturas_qtd": 10,
+      "faturas_total": "48574.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 10,
+      "consolidado_faturas_total": "48574.00",
+      "cobrancas_qtd": 10,
+      "cobrancas_total": "48574.00",
+      "contratos_qtd": 3,
+      "pasta": "BANCO BMG"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 11,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "BANCO_BMG",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "39242.0",
+        "db_total_bruto": "48574.0",
+        "diff_pct": 23.8,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SEMA": {
+    "sigla": "SEMA",
+    "profiles": {
+      "val_exig": "38541.1088668302",
+      "val_orig": "35326.64",
+      "val_atualizado": "49842.06985580978",
+      "faturas_total": 10,
+      "faturas_exigiveis": 5,
+      "faturas_prescritas": 5,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEMA"
+      ],
+      "faturas_qtd": 2,
+      "faturas_total": "14934.449999999999",
+      "empenhos_qtd": 220,
+      "empenhos_total": "2093648.6799999995"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 2,
+      "consolidado_faturas_total": "14934.45",
+      "cobrancas_qtd": 2,
+      "cobrancas_total": "14934.45",
+      "empenhos_qtd": 222,
+      "empenhos_total": "2099712.64",
+      "contratos_qtd": 3,
+      "pasta": "SEMA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 46,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 2,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 2,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEMA",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 10,
+        "db": 2,
+        "diff": 8,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "35326.64",
+        "db_total_bruto": "14934.449999999999",
+        "diff_pct": 57.7,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "ITRANSITO": {
+    "sigla": "ITRANSITO",
+    "profiles": {
+      "val_exig": "38360.67",
+      "val_orig": "38360.67",
+      "val_atualizado": "38360.67",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "ITRANSITO"
+      ],
+      "faturas_qtd": 12,
+      "faturas_total": "46954.4",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 12,
+      "consolidado_faturas_total": "45287.15",
+      "cobrancas_qtd": 12,
+      "cobrancas_total": "45287.15",
+      "pasta": "ITRANSITO"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 13,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "ITRANSITO",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "38360.67",
+        "db_total_bruto": "46954.4",
+        "diff_pct": 22.4,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE": {
+    "sigla": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+    "profiles": {
+      "val_exig": "34760.79",
+      "val_orig": "34760.79",
+      "val_atualizado": "34760.79",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "ASSOCIAÇÃO DE GESTÃO INOVAÇÃO E RESULTADOS EM SAUDE",
+        "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE"
+      ],
+      "faturas_qtd": 6,
+      "faturas_total": "34760.79",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "pasta": null
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 7,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "ASSOC_SAUDE",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "FUNTEA": {
+    "sigla": "FUNTEA",
+    "profiles": {
+      "val_exig": "34186.18707715725",
+      "val_orig": "23998.67000000001",
+      "val_atualizado": "34186.18707715725",
+      "faturas_total": 11,
+      "faturas_exigiveis": 11,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FUNTEA"
+      ],
+      "faturas_qtd": 3,
+      "faturas_total": "6346.65",
+      "empenhos_qtd": 224,
+      "empenhos_total": "947095.9899999995"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 3,
+      "consolidado_faturas_total": "6346.65",
+      "cobrancas_qtd": 3,
+      "cobrancas_total": "6346.65",
+      "empenhos_qtd": 225,
+      "empenhos_total": "961909.63",
+      "contratos_qtd": 3,
+      "pasta": "FUNTEA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 22,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FUNTEA",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 11,
+        "db": 3,
+        "diff": 8,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "23998.67000000001",
+        "db_total_bruto": "6346.65",
+        "diff_pct": 73.6,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "BANCO SICOOB": {
+    "sigla": "BANCO SICOOB",
+    "profiles": {
+      "val_exig": "30290.0",
+      "val_orig": "30290.0",
+      "val_atualizado": "30290.0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "BANCO SICOOB"
+      ],
+      "faturas_qtd": 21,
+      "faturas_total": "32618.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 21,
+      "consolidado_faturas_total": "32618.00",
+      "cobrancas_qtd": 21,
+      "cobrancas_total": "32618.00",
+      "contratos_qtd": 1,
+      "pasta": "BANCO SICOOB"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 20,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "BANCO_SICOOB",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "30290.0",
+        "db_total_bruto": "32618.0",
+        "diff_pct": 7.7,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "DPE": {
+    "sigla": "DPE",
+    "profiles": {
+      "val_exig": "28060.05",
+      "val_orig": "28060.05",
+      "val_atualizado": "28060.05",
+      "faturas_total": 7,
+      "faturas_exigiveis": 7,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "DPE"
+      ],
+      "faturas_qtd": 1,
+      "faturas_total": "4662.12",
+      "empenhos_qtd": 79,
+      "empenhos_total": "2912569.120000001"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 1,
+      "consolidado_faturas_total": "4662.12",
+      "cobrancas_qtd": 1,
+      "cobrancas_total": "4662.12",
+      "empenhos_qtd": 79,
+      "empenhos_total": "2912569.12",
+      "contratos_qtd": 4,
+      "pasta": "DPE"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 17,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "DPE",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 7,
+        "db": 1,
+        "diff": 6,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "28060.05",
+        "db_total_bruto": "4662.12",
+        "diff_pct": 83.4,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "FMPES": {
+    "sigla": "FMPES",
+    "profiles": {
+      "val_exig": "27264.57",
+      "val_orig": "27264.57",
+      "val_atualizado": "27264.57",
+      "faturas_total": 3,
+      "faturas_exigiveis": 3,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FMPES"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "pasta": null
+    },
+    "dossie": {
+      "encontrado": false
+    },
+    "divergencias": [
+      {
+        "tipo": "SEM_DOSSIE",
+        "fontes": "PRODAM_DOCS",
+        "nota": "Nenhuma pasta *_DOSSIE encontrada para FMPES"
+      }
+    ]
+  },
+  "PMAM": {
+    "sigla": "PMAM",
+    "profiles": {
+      "val_exig": "27020.90058524942",
+      "val_orig": "24351.49",
+      "val_atualizado": "38951.91005342395",
+      "faturas_total": 13,
+      "faturas_exigiveis": 8,
+      "faturas_prescritas": 5,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "PMAM"
+      ],
+      "faturas_qtd": 2,
+      "faturas_total": "15075.8",
+      "empenhos_qtd": 95,
+      "empenhos_total": "2536803.94"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 2,
+      "consolidado_faturas_total": "9701.02",
+      "cobrancas_qtd": 2,
+      "cobrancas_total": "9701.02",
+      "empenhos_qtd": 179,
+      "empenhos_total": "6963950.92",
+      "contratos_qtd": 1,
+      "pasta": "PMAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 37,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "PMAM",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 13,
+        "db": 2,
+        "diff": 11,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "24351.49",
+        "db_total_bruto": "15075.8",
+        "diff_pct": 38.1,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "CGE": {
+    "sigla": "CGE",
+    "profiles": {
+      "val_exig": "25693.37",
+      "val_orig": "25693.37",
+      "val_atualizado": "25693.37",
+      "faturas_total": 9,
+      "faturas_exigiveis": 9,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "CGE"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 174,
+      "empenhos_total": "6272270.140000002"
+    },
+    "spcf_json": {
+      "empenhos_qtd": 176,
+      "empenhos_total": "6292216.08",
+      "contratos_qtd": 2,
+      "pasta": "CGE"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 16,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 2,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 2,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "CGE",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "SNPH": {
+    "sigla": "SNPH",
+    "profiles": {
+      "val_exig": "25117.34434577535",
+      "val_orig": "17526.63",
+      "val_atualizado": "25117.34434577535",
+      "faturas_total": 8,
+      "faturas_exigiveis": 8,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SNPH"
+      ],
+      "faturas_qtd": 13,
+      "faturas_total": "19802.66",
+      "empenhos_qtd": 224,
+      "empenhos_total": "1075170.8499999994"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 13,
+      "consolidado_faturas_total": "19802.66",
+      "cobrancas_qtd": 13,
+      "cobrancas_total": "19802.66",
+      "empenhos_qtd": 227,
+      "empenhos_total": "1088008.96",
+      "contratos_qtd": 3,
+      "pasta": "SNPH"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 54,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 4,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 4,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SNPH",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 8,
+        "db": 13,
+        "diff": 5,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "17526.63",
+        "db_total_bruto": "19802.66",
+        "diff_pct": 13.0,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "PSA TECHNOLOGY": {
+    "sigla": "PSA TECHNOLOGY",
+    "profiles": {
+      "val_exig": "21007.21",
+      "val_orig": "21007.21",
+      "val_atualizado": "21007.21",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "PSA TECHNOLOGY"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "pasta": "PSA TECHNOLOGY"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 2,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "PSA",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "FJJA": {
+    "sigla": "FJJA",
+    "profiles": {
+      "val_exig": "20596.36",
+      "val_orig": "20596.36",
+      "val_atualizado": "20596.36",
+      "faturas_total": 5,
+      "faturas_exigiveis": 5,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FJJA"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "pasta": null
+    },
+    "dossie": {
+      "encontrado": false
+    },
+    "divergencias": [
+      {
+        "tipo": "SEM_DOSSIE",
+        "fontes": "PRODAM_DOCS",
+        "nota": "Nenhuma pasta *_DOSSIE encontrada para FJJA"
+      }
+    ]
+  },
+  "SUL AMERICA": {
+    "sigla": "SUL AMERICA",
+    "profiles": {
+      "val_exig": "18196.0",
+      "val_orig": "18196.0",
+      "val_atualizado": "18196.0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SUL AMERICA"
+      ],
+      "faturas_qtd": 20,
+      "faturas_total": "18998.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 20,
+      "consolidado_faturas_total": "18998.00",
+      "cobrancas_qtd": 20,
+      "cobrancas_total": "18998.00",
+      "contratos_qtd": 2,
+      "pasta": "SUL AMERICA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 20,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SUL_AMERICA",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "B23 TECNOLOGIA": {
+    "sigla": "B23 TECNOLOGIA",
+    "profiles": {
+      "val_exig": "11892.24",
+      "val_orig": "11892.24",
+      "val_atualizado": "11892.24",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "B23 TECNOLOGIA E PAGAMENTOS LTDA",
+        "B23 TECNOLOGIA"
+      ],
+      "faturas_qtd": 3,
+      "faturas_total": "12039.08",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 3,
+      "consolidado_faturas_total": "12039.08",
+      "cobrancas_qtd": 3,
+      "cobrancas_total": "12039.08",
+      "pasta": "B23 TECNOLOGIA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 4,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "B23",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "BANCO SAFRA": {
+    "sigla": "BANCO SAFRA",
+    "profiles": {
+      "val_exig": "9310.0",
+      "val_orig": "9310.0",
+      "val_atualizado": "9310.0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "BANCO SAFRA"
+      ],
+      "faturas_qtd": 6,
+      "faturas_total": "12102.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "contratos_qtd": 3,
+      "pasta": "BANCO SAFRA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 6,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "BANCO_SAFRA",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "9310.0",
+        "db_total_bruto": "12102.0",
+        "diff_pct": 30.0,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "ODONTOMED": {
+    "sigla": "ODONTOMED",
+    "profiles": {
+      "val_exig": "7541.1",
+      "val_orig": "7541.1",
+      "val_atualizado": "7541.1",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "ODONTOMED"
+      ],
+      "faturas_qtd": 14,
+      "faturas_total": "7350.0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 14,
+      "consolidado_faturas_total": "7350.00",
+      "cobrancas_qtd": 14,
+      "cobrancas_total": "7350.00",
+      "contratos_qtd": 2,
+      "pasta": "ODONTOMED"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 16,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "ODONTOMED",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "EASYTECH": {
+    "sigla": "EASYTECH",
+    "profiles": {
+      "val_exig": "6927.16",
+      "val_orig": "6927.16",
+      "val_atualizado": "6927.16",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "EASYTECH"
+      ],
+      "faturas_qtd": 10,
+      "faturas_total": "7804.2199999999975",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 10,
+      "consolidado_faturas_total": "7804.22",
+      "cobrancas_qtd": 10,
+      "cobrancas_total": "7804.22",
+      "contratos_qtd": 1,
+      "pasta": "EASYTECH"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 12,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "EASYTECH",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "6927.16",
+        "db_total_bruto": "7804.2199999999975",
+        "diff_pct": 12.7,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "FHEMOAM": {
+    "sigla": "FHEMOAM",
+    "profiles": {
+      "val_exig": "6886.906967936138",
+      "val_orig": "7743.769999999999",
+      "val_atualizado": "13276.74747993334",
+      "faturas_total": 8,
+      "faturas_exigiveis": 7,
+      "faturas_prescritas": 1,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "FHEMOAM"
+      ],
+      "faturas_qtd": 3,
+      "faturas_total": "1688.6100000000001",
+      "empenhos_qtd": 44,
+      "empenhos_total": "90818.30000000002"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 3,
+      "consolidado_faturas_total": "1688.61",
+      "cobrancas_qtd": 3,
+      "cobrancas_total": "1688.61",
+      "empenhos_qtd": 44,
+      "empenhos_total": "90818.30",
+      "contratos_qtd": 1,
+      "pasta": "FHEMOAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 37,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "FHEMOAM",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 8,
+        "db": 3,
+        "diff": 5,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "7743.769999999999",
+        "db_total_bruto": "1688.6100000000001",
+        "diff_pct": 78.2,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "CBMAM": {
+    "sigla": "CBMAM",
+    "profiles": {
+      "val_exig": "3134.027944080676",
+      "val_orig": "27570.74",
+      "val_atualizado": "71483.15783491402",
+      "faturas_total": 24,
+      "faturas_exigiveis": 4,
+      "faturas_prescritas": 20,
+      "forca_probatoria": "FORTE",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ENVIAR_TRD"
+    },
+    "db": {
+      "siglas_usadas": [
+        "CBMAM"
+      ],
+      "faturas_qtd": 2,
+      "faturas_total": "1398.6",
+      "empenhos_qtd": 150,
+      "empenhos_total": "682868.1400000004"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 2,
+      "consolidado_faturas_total": "447.04",
+      "cobrancas_qtd": 2,
+      "cobrancas_total": "447.04",
+      "empenhos_qtd": 151,
+      "empenhos_total": "683889.64",
+      "contratos_qtd": 1,
+      "pasta": "CBMAM"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 40,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 4,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 4,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "CBMAM",
+      "encontrado": true
+    },
+    "divergencias": [
+      {
+        "tipo": "QTD_FATURAS",
+        "fontes": "profiles.json vs prodam.db",
+        "profiles": 24,
+        "db": 2,
+        "diff": 22,
+        "nota": "DB pode incluir faturas de outros status"
+      },
+      {
+        "tipo": "VALOR_ORIGINAL",
+        "fontes": "profiles.json(val_orig) vs prodam.db(valor_bruto)",
+        "profiles_val_orig": "27570.74",
+        "db_total_bruto": "1398.6",
+        "diff_pct": 94.9,
+        "nota": "Diferença > 5% — verificar filtros de prescrição"
+      }
+    ]
+  },
+  "SEMIG": {
+    "sigla": "SEMIG",
+    "profiles": {
+      "val_exig": "0",
+      "val_orig": "0",
+      "val_atualizado": "0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "MÉDIA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "ANALISAR_DOCUMENTACAO"
+    },
+    "db": {
+      "siglas_usadas": [
+        "SEMIG"
+      ],
+      "faturas_qtd": 30,
+      "faturas_total": "235353.14999999994",
+      "empenhos_qtd": 22,
+      "empenhos_total": "2025827.2700000003"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 30,
+      "consolidado_faturas_total": "206993.30",
+      "cobrancas_qtd": 23,
+      "cobrancas_total": "206993.30",
+      "empenhos_qtd": 22,
+      "empenhos_total": "2025827.27",
+      "contratos_qtd": 1,
+      "pasta": "SEMIG"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 15,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "SEMIG",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "CASA CIVIL": {
+    "sigla": "CASA CIVIL",
+    "profiles": {
+      "val_exig": "0",
+      "val_orig": "0",
+      "val_atualizado": "0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "CASA CIVIL"
+      ],
+      "faturas_qtd": 4,
+      "faturas_total": "20927.09",
+      "empenhos_qtd": 194,
+      "empenhos_total": "18186385.12"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 4,
+      "consolidado_faturas_total": "16142.49",
+      "cobrancas_qtd": 1,
+      "cobrancas_total": "16142.49",
+      "empenhos_qtd": 197,
+      "empenhos_total": "18502216.90",
+      "contratos_qtd": 1,
+      "pasta": "CASA CIVIL"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 36,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 3,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 3,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "CASA_CIVIL",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "COSAMA": {
+    "sigla": "COSAMA",
+    "profiles": {
+      "val_exig": "0",
+      "val_orig": "0",
+      "val_atualizado": "0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_INDIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "COSAMA"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "contratos_qtd": 2,
+      "pasta": "COSAMA"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 26,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "COSAMA",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "CASA MILITAR": {
+    "sigla": "CASA MILITAR",
+    "profiles": {
+      "val_exig": "0",
+      "val_orig": "0",
+      "val_atualizado": "0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "GOV_DIRETA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "CASA MILITAR"
+      ],
+      "faturas_qtd": 0,
+      "faturas_total": "0",
+      "empenhos_qtd": 28,
+      "empenhos_total": "180627.64"
+    },
+    "spcf_json": {
+      "empenhos_qtd": 30,
+      "empenhos_total": "198567.76",
+      "contratos_qtd": 1,
+      "pasta": "CASA MILITAR"
+    },
+    "dossie": {
+      "dossie_existe": true,
+      "inventario_existe": true,
+      "sheet_Inventario_linhas": 3,
+      "sheet_Inventario_colunas": [
+        "arquivo",
+        "tipo",
+        "páginas",
+        "caracteres",
+        "método",
+        "ocr_score",
+        "precisou_ocr"
+      ],
+      "sheet_Cadeia_linhas": 1,
+      "sheet_Cadeia_colunas": [
+        "ne",
+        "nls",
+        "nfs",
+        "contratos",
+        "arquivos",
+        "classificação"
+      ],
+      "sheet_Prescricao_linhas": 1,
+      "sheet_Prescricao_colunas": [
+        "ne",
+        "ano",
+        "anos_desde",
+        "status",
+        "dias_ate_prescricao"
+      ],
+      "sigla_dossie": "CASA_MILITAR",
+      "encontrado": true
+    },
+    "divergencias": []
+  },
+  "BANCO DAYCOVAL": {
+    "sigla": "BANCO DAYCOVAL",
+    "profiles": {
+      "val_exig": "0",
+      "val_orig": "0",
+      "val_atualizado": "0",
+      "faturas_total": 0,
+      "faturas_exigiveis": 0,
+      "faturas_prescritas": 0,
+      "forca_probatoria": "FRACA",
+      "categoria": "EMPRESA_PRIVADA",
+      "proximo_passo": "CLASSIFICAR"
+    },
+    "db": {
+      "siglas_usadas": [
+        "BANCO DAYCOVAL"
+      ],
+      "faturas_qtd": 4,
+      "faturas_total": "99481.64000000001",
+      "empenhos_qtd": 0,
+      "empenhos_total": "0"
+    },
+    "spcf_json": {
+      "consolidado_faturas_qtd": 4,
+      "consolidado_faturas_total": "0",
+      "contratos_qtd": 4,
+      "pasta": "BANCO DAYCOVAL"
+    },
+    "dossie": {
+      "encontrado": false
+    },
+    "divergencias": [
+      {
+        "tipo": "SEM_DOSSIE",
+        "fontes": "PRODAM_DOCS",
+        "nota": "Nenhuma pasta *_DOSSIE encontrada para BANCO DAYCOVAL"
+      }
+    ]
+  }
+}
