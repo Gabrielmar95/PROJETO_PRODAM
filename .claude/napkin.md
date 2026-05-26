@@ -52,9 +52,7 @@
 2. **[2026-04-23] Comando mestre: `py -3.12 sincronizar_prodam.py`**
    Do instead: roda rebuild DB + auditoria + dossiês + skills. Executar após mudanças estruturais em profiles.json ou ingestão de novos PDFs.
 3. **[2026-04-23] Score composto: 12 dimensões com pesos fixos**
-   Do instead: ver `CLAUDE.md` seção "SCORE COMPOSTO"; classificação A+ ≥90 (DETRAN = 94,0 A+ benchmark).
-4. **[2026-04-23] Gate documental obrigatório antes de gerar .docx jurídico**
-   Do instead: invocar skill `decisao-documental-prodam` + `guardrails-anti-alucinacao` antes de TRD/Notificação/Dossiê.
+   Do instead: ver `PLAYBOOK_ORGAOS_V2.md` seção "SCORE COMPOSTO"; classificação A+ ≥90 (DETRAN = 94,0 A+ benchmark).
 
 ## Execução Técnica (Shell & Dados)
 1. **[2026-04-23] Python é `py -3.12`, NÃO `python` nem `python3`**
