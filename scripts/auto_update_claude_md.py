@@ -328,7 +328,7 @@ def generate_claude_md(m):
     lines.append("12. Tema 1.109/STJ: gestor público **NÃO** renuncia tacitamente a prescrição")
     lines.append("13. Composição documental (Contrato+NE+NF+Atesto) = título executivo (REsp 793.969/RJ, Min. **José Delgado** — Teori Zavascki foi vencido; nunca citar Teori como relator) <!-- auditado 2026-05-12: cascata propagada em 7 arquivos (11 ocorrências); regra #13 sem citações errôneas remanescentes em .md/.py do projeto -->")
     lines.append("14. Fee: **20%** sobre créditos recuperados (não 30%). RPV AM estadual = 20 × SM vigente (Lei AM 2.748/2002)")
-    lines.append("15. `profiles.json` é a SSOT — NUNCA usar Demonstrativo Excel antigo")
+    lines.append("15. **SSOT**: `PRODAM_DOCS/profiles.json` é a fonte autoritativa privada (100+ campos por devedor). `profiles_resumo.csv` é snapshot público versionado (subset de 11 colunas) — mantido em sincronia via pipeline. NUNCA usar Demonstrativo Excel antigo")
     lines.append("16. Valores monetários: **Decimal**, nunca float. Formato BRL: `R$ 1.234,56`")
     lines.append("17. `PRECEDENTES_VERIFICADOS.md` é a única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos listados em references/)")
     lines.append("18. NUNCA emita opinião jurídica sem consultar `REFERENCIA_JURIDICA/` antes")

@@ -31,7 +31,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest unidecode openpyxl
+          pip install -r requirements.txt
+          pip install pytest unidecode  # dev/runtime adicionais
 
       - name: Run unit tests (prodam_utils)
         run: |
@@ -41,22 +42,27 @@ jobs:
         run: |
           python -m compileall -q .
 
-      - name: Validate profiles.json structure
+      - name: Validate profiles_resumo.csv structure
         run: |
           python -c "
-          import json
-          p = json.load(open('PRODAM_DOCS/profiles.json'))
-          devs = {k:v for k,v in p.items() if not k.startswith('_')}
+          import csv
+          esperado = {'sigla','categoria','forca','val_exig','val_atualizado',
+                      'proximo_passo','fat_exig','fat_presc','urg_presc','d_plus','p_rec'}
+          rows = list(csv.DictReader(open('profiles_resumo.csv')))
+          assert set(rows[0].keys()) == esperado, f'Colunas inesperadas: {set(rows[0].keys())^esperado}'
+          devs = [r for r in rows if not r['sigla'].startswith('_')]
           assert len(devs) > 50, f'Menos devedores que esperado: {len(devs)}'
-          sem_cnpj = [s for s,pr in devs.items() if not pr.get('cnpj')]
-          assert len(sem_cnpj) == 0, f'Devedores sem CNPJ: {sem_cnpj}'
-          assert '_metadata' in p, 'Falta _metadata em profiles.json'
-          print(f'OK: {len(devs)} devedores, todos com CNPJ, _metadata presente')
+          siglas = [r['sigla'] for r in devs]
+          assert len(siglas) == len(set(siglas)), 'Siglas duplicadas no CSV'
+          urgs_validas = {'CRITICA_IMINENTE','URGENTE','MEDIA','NORMAL','PRESCRITA','PROTEGIDA_ART202_VI',''}
+          invalidas = {r['urg_presc'] for r in devs} - urgs_validas
+          assert not invalidas, f'urg_presc inválido(s): {invalidas}'
+          print(f'OK: {len(devs)} devedores, 11 colunas, siglas únicas, urg_presc válida')
           "
 
       - name: Smoke test sincronizar_prodam.py
         run: |
           # Se houver prodam.db, valida que --so-audit roda sem erro fatal
           if [ -f prodam.db ]; then
-            python sincronizar_prodam.py --so-audit || echo "audit requires full data"
+            python scripts/sincronizar_prodam.py --so-audit || echo "audit requires full data"
           fi
