@@ -1,8 +1,14 @@
 # Cascata REsp 793.969/RJ — Teori Zavascki → José Delgado
 
-**Data:** 2026-05-12
+**Status:** ✅ CONCLUÍDA — auditado em 27/05/2026 (Janela 1, item 1.8)
+**Data abertura:** 2026-05-12
+**Data fechamento:** 2026-05-27
 **Origem:** Plano `C:\Users\gabri\.claude\plans\que-correcoes-voce-acha-adaptive-liskov.md`
 **Modo:** read-only nesta etapa (classificação). Edits aguardam OK literal do advogado.
+
+> **Auditoria 27/05/2026**: validação por `grep -n "Teori\|Zavasc"` em cada um dos 8 arquivos TROCAR confirma que TODAS as 11 ocorrências foram migradas para o padrão canônico (`Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido`). Os edits foram aplicados em sessão não-versionada entre 12/05 e 27/05 (provavelmente cassação local sem changelog em HISTORICO_SESSOES.md). Fechamento documental nesta data.
+>
+> **Resíduo identificado (não-bloqueante)**: `PRODAM_DOCS/_SKILLS/dossie-juridico-prodam/SKILL.md` linhas 464 e 684 — citadas em `relatorios/AUDITORIA_ECOSSISTEMA_20260512.md` linha 56. Pasta gitignored; correção exige máquina local. **Ação local do Gabriel**: rodar `Select-String -Path PRODAM_DOCS\_SKILLS\dossie-juridico-prodam\SKILL.md -Pattern "Teori\|Zavasc"` e aplicar substituição manual.
 
 ---
 
@@ -61,8 +67,26 @@
 
 ---
 
-## Próximo passo
+## Status final (auditoria 2026-05-27)
 
-Aguardando OK literal do advogado para iniciar Etapa 3 (edição dirigida com diff por arquivo).
+✅ **Todas as 11 ocorrências TROCAR confirmadas no formato canônico**:
 
-**Padrão de citação canônica adotado:** `Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido` (alinhado com `CHANGELOG_SESSAO_2026-05-11_kb_juridico_3edits.md`).
+| # | Arquivo | Linha esperada | Linha real | Status |
+|---|---------|----------------|------------|--------|
+| T1 | `DETRAN_AUDITORIA/RELATORIO_DETRAN.md` | 95 | 95 | ✅ |
+| T2 | `_SKILLS_NOVAS_20260423/renomeador-pdfs-prodam/SKILL.md` | 326 | 326 | ✅ |
+| T3a | `relatorios/DOSSIE_DETRAN_PIPELINE_COMPLETO.md` | 124 | 124 | ✅ |
+| T3b | `relatorios/DOSSIE_DETRAN_PIPELINE_COMPLETO.md` | 192 | 192 | ✅ |
+| T3c | `relatorios/DOSSIE_DETRAN_PIPELINE_COMPLETO.md` | 313 | 313 | ✅ |
+| T3d | `relatorios/DOSSIE_DETRAN_PIPELINE_COMPLETO.md` | 348 | 348 | ✅ |
+| T4a | `relatorios/BRIEFING_JURIDICO_PRODAM_v2.md` | 110 | 110 | ✅ |
+| T4b | `relatorios/BRIEFING_JURIDICO_PRODAM_v2.md` | 224 | 224 | ✅ |
+| T5 | `relatorios/PROJECT_INSTRUCTIONS_PARA_COLAR.md` | 30 | 30 | ✅ |
+| T6 | `scripts/notificacao_simples.py` | 165 | 168 (linha mudou) | ✅ (typo `Zavascski` corrigido) |
+| T7 | `scripts/gera_notificacao_ses_script.py` | 240 | 242 (linha mudou) | ✅ (typo `Zavascski` corrigido) |
+
+**Padrão de citação canônica em uso:** `Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido` (alinhado com `CHANGELOG_SESSAO_2026-05-11_kb_juridico_3edits.md`).
+
+**Pendência local (não bloqueante)**: `PRODAM_DOCS/_SKILLS/dossie-juridico-prodam/SKILL.md` linhas 464 e 684 — gitignored. Aplicar correção localmente conforme nota no topo do arquivo.
+
+**Próxima ação automática**: nenhuma. CLAUDE.md raiz (regra #13) e `scripts/auto_update_claude_md.py:329` já têm a citação correta + tag de auditoria.
