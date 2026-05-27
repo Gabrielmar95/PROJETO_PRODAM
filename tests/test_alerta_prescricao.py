@@ -8,7 +8,6 @@ from __future__ import annotations
 import json
 import sys
 import csv
-from decimal import Decimal
 from pathlib import Path
 
 import pytest
@@ -149,6 +148,18 @@ class TestGerarJson:
         j = ap.gerar_json(b)
         s = json.dumps(j)  # não deve levantar
         assert "1234567.89" in s
+
+    def test_gerado_em_formato_RFC3339_Z(self):
+        # Garante que migração de datetime.utcnow() → datetime.now(timezone.utc)
+        # preservou o sufixo Z (RFC 3339), sem introduzir "+00:00".
+        rows = [{"sigla": "X", "d_plus": "-1",
+                 "val_exig": "100.00", "val_atualizado": "100.00"}]
+        b = ap.classificar(rows)
+        j = ap.gerar_json(b)
+        assert j["gerado_em"].endswith("Z"), f"esperado terminar com Z: {j['gerado_em']}"
+        assert "+00:00" not in j["gerado_em"], "não deve ter offset numérico"
+        # Formato: YYYY-MM-DDTHH:MM:SSZ (20 chars)
+        assert len(j["gerado_em"]) == 20
 
 
 # ============================================================
