@@ -173,7 +173,7 @@ def load_profiles(path: Any = None, include_metadata: bool = False) -> dict:
     Se path é None, usa o caminho padrão do projeto.
     """
     if path is None:
-        path = Path(__file__).parent / "PRODAM_DOCS" / "profiles.json"
+        path = Path(__file__).parent.parent / "PRODAM_DOCS" / "profiles.json"
     with open(path, encoding="utf-8") as fh:
         data = json.load(fh)
     if include_metadata:
