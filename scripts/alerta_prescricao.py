@@ -30,7 +30,7 @@ import csv
 import json
 import sys
 import argparse
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from typing import Any
@@ -130,7 +130,7 @@ def gerar_json(buckets: dict) -> dict:
                  + len(buckets["urgentes_flag"]))
 
     return {
-        "gerado_em": datetime.utcnow().isoformat() + "Z",
+        "gerado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "data_base": date.today().isoformat(),
         "tem_alertas": n_alertas > 0,
         "n_alertas": n_alertas,
@@ -163,7 +163,7 @@ def gerar_markdown(buckets: dict) -> str:
     L.append(f"# Alerta de Prescrição — {date.today().isoformat()}")
     L.append("")
     L.append(f"> Gerado por `.github/workflows/alerta_prescricao.yml` em "
-             f"{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC")
+             f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
     L.append("")
 
     if n_alertas == 0:
