@@ -1,0 +1,98 @@
+name: Alerta diário de prescrição
+
+# Roda diariamente às 06:00 (AMT = UTC-4) ⇒ 10:00 UTC
+# Lê profiles_resumo.csv e cria/atualiza issue se houver devedor em risco.
+# Idempotência: 1 issue por dia (label prescricao-alerta). Múltiplas execuções
+# no mesmo dia atualizam a issue existente em vez de duplicar.
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # 10:00 UTC = 06:00 AMT (BRT-Amazonas)
+  workflow_dispatch:        # permite trigger manual via GitHub UI
+  push:                     # também executa em mudanças do próprio script/workflow
+    paths:
+      - 'scripts/alerta_prescricao.py'
+      - '.github/workflows/alerta_prescricao.yml'
+      - 'profiles_resumo.csv'
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: alerta-prescricao
+  cancel-in-progress: false
+
+jobs:
+  alerta:
+    name: Detecta devedores em risco prescricional
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Gera corpo do alerta
+        id: gera
+        run: |
+          # Saída humana em alerta.md
+          python scripts/alerta_prescricao.py --md > alerta.md || ALERTA_EXIT=$?
+          ALERTA_EXIT=${ALERTA_EXIT:-0}
+
+          if [ "$ALERTA_EXIT" = "2" ]; then
+            echo "::error::Erro ao gerar alerta (exit 2)"
+            exit 2
+          fi
+
+          if [ "$ALERTA_EXIT" = "1" ]; then
+            echo "has_alerts=true" >> "$GITHUB_OUTPUT"
+            echo "Alertas detectados — issue será criada/atualizada"
+          else
+            echo "has_alerts=false" >> "$GITHUB_OUTPUT"
+            echo "Sem alertas hoje — nenhuma issue será criada"
+          fi
+
+          # Sempre mostra o corpo no log (útil para auditoria histórica)
+          echo "==== CORPO DO ALERTA ===="
+          cat alerta.md
+          echo "==== FIM DO ALERTA ===="
+
+      - name: Garante existência da label prescricao-alerta
+        if: steps.gera.outputs.has_alerts == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create prescricao-alerta \
+            --color "FF0000" \
+            --description "Alerta automático de devedores em risco prescricional" \
+            2>/dev/null || echo "Label já existe — OK"
+
+      - name: Cria ou atualiza issue do dia
+        if: steps.gera.outputs.has_alerts == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DATA=$(date -u '+%Y-%m-%d')
+          TITULO="[Alerta Prescrição] $DATA"
+
+          # Procura issue aberta com mesmo título de hoje
+          ISSUE_NUM=$(gh issue list \
+            --label prescricao-alerta \
+            --state open \
+            --search "\"$TITULO\" in:title" \
+            --json number \
+            --jq '.[0].number // empty')
+
+          if [ -n "$ISSUE_NUM" ]; then
+            echo "Atualizando issue existente #$ISSUE_NUM"
+            gh issue edit "$ISSUE_NUM" --body-file alerta.md
+          else
+            echo "Criando nova issue do dia"
+            gh issue create \
+              --title "$TITULO" \
+              --body-file alerta.md \
+              --label prescricao-alerta
+          fi
