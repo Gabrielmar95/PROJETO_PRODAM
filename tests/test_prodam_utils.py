@@ -19,7 +19,7 @@ from prodam_utils import (
     brl, fmt_brl, pct_diff,
     norm, norm_variants, match_flex,
     parse_br_date, parse_comp, vencimento_30, esta_prescrita,
-    is_metadata_key, norm_id, norm_contrato,
+    is_metadata_key, norm_id, norm_contrato, load_profiles,
 )
 
 # ============================================================
@@ -61,6 +61,15 @@ class TestBrl:
         # por test_none/test_numero_simples. auditoria_completude_devedor.py:250,252 alimenta brl()
         # com resultado de SUM pós-fix do bug D1 (float → Decimal).
         assert brl(1234567) == Decimal("1234567")
+
+    def test_decimal_passthrough(self):
+        # brl(Decimal) deve preservar o valor (via str(), sem round-trip por float).
+        assert brl(Decimal("1.50")) == Decimal("1.50")
+        assert brl(Decimal("9999999999999999.99")) == Decimal("9999999999999999.99")
+
+    def test_negativo(self):
+        # Valores negativos (créditos/estornos) no formato BR.
+        assert brl("-1.234,56") == Decimal("-1234.56")
 
 class TestFmtBrl:
     def test_inteiro(self):
@@ -151,6 +160,10 @@ class TestNormVariants:
         vs = norm_variants("FUAM/FUHAM")
         assert vs == {"FUAM/FUHAM", "FUAM", "FUHAM"}
 
+    def test_none_vazio(self):
+        assert norm_variants(None) == set()
+        assert norm_variants("") == set()
+
 class TestMatchFlex:
     def test_match_exato(self):
         assert match_flex("SEDUC", ["SEDUC", "SES"]) == "SEDUC"
@@ -160,6 +173,18 @@ class TestMatchFlex:
 
     def test_sem_match(self):
         assert match_flex("XPTO", ["SEDUC", "SES"]) is None
+
+    def test_fuzzy_acima_limiar(self):
+        # "SEDUCC" vs "SEDUC": ratio ~0.909 >= 0.8 (default) → casa.
+        assert match_flex("SEDUCC", ["SEDUC"]) == "SEDUC"
+
+    def test_limiar_alto_rejeita(self):
+        # Mesmo par (~0.909) com limiar 0.95 → abaixo do corte → None.
+        assert match_flex("SEDUCC", ["SEDUC"], limiar=0.95) is None
+
+    def test_candidato_vazio(self):
+        # Candidato "" deve ser pulado (branch `if not c_n: continue`).
+        assert match_flex("SEDUC", ["", "SEDUC"]) == "SEDUC"
 
 # ============================================================
 # DATAS
@@ -185,6 +210,10 @@ class TestParseComp:
     def test_invalido(self):
         assert parse_comp(None) is None
         assert parse_comp("2021") is None
+
+    def test_mes_invalido(self):
+        # Mês fora de 1-12 → date() lança ValueError → None.
+        assert parse_comp("13/2021") is None
 
 class TestVencimento30:
     def test_basico(self):
@@ -261,6 +290,38 @@ class TestNormContrato:
     def test_vazio(self):
         assert norm_contrato(None) == ""
         assert norm_contrato("") == ""
+
+    def test_numerador_nao_numerico(self):
+        # int("ABC") lança ValueError → retorna a string original.
+        assert norm_contrato("ABC/2021") == "ABC/2021"
+
+
+class TestLoadProfiles:
+    @staticmethod
+    def _tmp_json(data):
+        import json as _json, os, tempfile
+        fd, path = tempfile.mkstemp(suffix=".json")
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            _json.dump(data, fh)
+        return path
+
+    def test_filtra_metadata(self):
+        import os
+        path = self._tmp_json({"_metadata": {"v": 1}, "SEDUC": {"x": 1}, "SSP": {}})
+        try:
+            d = load_profiles(path)
+            assert set(d.keys()) == {"SEDUC", "SSP"}
+        finally:
+            os.remove(path)
+
+    def test_include_metadata(self):
+        import os
+        path = self._tmp_json({"_metadata": {"v": 1}, "SEDUC": {}})
+        try:
+            d = load_profiles(path, include_metadata=True)
+            assert "_metadata" in d and "SEDUC" in d
+        finally:
+            os.remove(path)
 
 
 if __name__ == "__main__":
