@@ -55,6 +55,8 @@
    Do instead: ver `CLAUDE.md` seção "SCORE COMPOSTO"; classificação A+ ≥90 (DETRAN = 94,0 A+ benchmark).
 4. **[2026-04-23] Gate documental obrigatório antes de gerar .docx jurídico**
    Do instead: invocar skill `decisao-documental-prodam` + `guardrails-anti-alucinacao` antes de TRD/Notificação/Dossiê.
+5. **[2026-05-28] Checkout limpo/cloud roda só o que NÃO depende de PRODAM_DOCS/prodam.db**
+   Do instead: em cloud (Linux, sem dataset; usa `python3`, não `py -3.12`) rodar só `pytest tests/`, `python3 scripts/validar_citacoes.py`, `python3 scripts/alerta_prescricao.py --check` (lê `profiles_resumo.csv` commitado; exit 0/1=ok, 2=CSV faltando), `compileall`/`ruff`. Scripts com `sqlite3.connect("prodam.db")` no topo (`auditoria_completude_devedor.py:25`, `dossie_multiformato_devedor.py:37`, `consultas.py:16`) crasham no import; pipeline real (`sincronizar_prodam.py`) só na máquina local. Deps de teste: `pip install -r requirements-dev.txt`. NUNCA rodar `auto_update_claude_md.py` como smoke sem DB (regenera CLAUDE.md como placeholder).
 
 ## Execução Técnica (Shell & Dados)
 1. **[2026-04-23] Python é `py -3.12`, NÃO `python` nem `python3`**
