@@ -288,7 +288,7 @@ def gerar_xlsx(consolidado, faturas, sem_match, clientes_orfaos):
     wb = Workbook()
 
     # Aba 1: CONSOLIDADO
-
+    ws = wb.active
     ws.title = "CONSOLIDADO"
     headers = [
         "Sigla",
