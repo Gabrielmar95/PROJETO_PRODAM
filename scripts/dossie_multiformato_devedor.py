@@ -22,7 +22,6 @@ from __future__ import annotations
 import json, sys, sqlite3, csv, re, argparse
 from pathlib import Path
 from datetime import date
-from decimal import Decimal
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -30,7 +29,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
-from prodam_utils import norm, norm_variants
+# brl/fmt_brl: usar SSOT em prodam_utils (Decimal-aware, Regra #16)
+from prodam_utils import norm, norm_variants, brl, fmt_brl
 import os
 if os.environ.get("PRODAM_FREEZE_EMISSAO"):
     sys.exit("[FREEZE] Emissão de peças bloqueada durante auditoria DE. Remover PRODAM_FREEZE_EMISSAO para destravar.")
@@ -42,22 +42,6 @@ OUT = ROOT / "DOSSIES_MULTIFORMATO"
 OUT.mkdir(exist_ok=True)
 
 HOJE = date.today()
-
-
-def brl(s) -> Decimal:
-    if s is None or s == "":
-        return Decimal(0)
-    s = str(s).replace("R$", "").replace("\xa0", "").strip()
-    if "," in s:
-        s = s.replace(".", "").replace(",", ".")
-    try:
-        return Decimal(s)
-    except:
-        return Decimal(0)
-
-
-def fmt_brl(v) -> str:
-    return f"R$ {float(v):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
 def sigla_to_folder(sigla: str) -> str:

@@ -56,6 +56,15 @@ class TestBrl:
         # NBSP (\xa0) aparece no SPCF
         assert brl("R$\xa01.234,56") == Decimal("1234.56")
 
+    def test_aceita_resultado_sql_sum(self):
+        # SQLite SUM() retorna int, float ou None.
+        # auditoria_completude_devedor.py:250,252 alimenta brl() com isso pós-fix
+        # do bug D1 (float → Decimal). brl() precisa lidar com os 3.
+        assert brl(None) == Decimal(0)
+        assert brl(0) == Decimal(0)
+        assert brl(1234567) == Decimal("1234567")
+        assert brl(1234.56) == Decimal("1234.56")
+
 class TestFmtBrl:
     def test_inteiro(self):
         assert fmt_brl(1234) == "R$ 1.234,00"
@@ -72,6 +81,13 @@ class TestFmtBrl:
     def test_invalido(self):
         assert fmt_brl("abc") == "R$ 0,00"
         assert fmt_brl(None) == "R$ 0,00"
+
+    def test_aceita_decimal(self):
+        # Pós-fix D1, auditoria_completude_devedor.py passa Decimal a fmt_brl
+        # (via "empenhos_valor": brl(...)). fmt_brl precisa formatá-lo sem erro.
+        assert fmt_brl(Decimal("1234.56")) == "R$ 1.234,56"
+        assert fmt_brl(Decimal("0")) == "R$ 0,00"
+        assert fmt_brl(Decimal("10463698.62")) == "R$ 10.463.698,62"
 
 class TestPctDiff:
     def test_iguais(self):

@@ -247,9 +247,9 @@ def auditar_devedor(sigla: str, profile: dict) -> dict:
         "contratos_spcf": len(contratos_spcf),
         "contratos_db": len(contratos_db),
         "empenhos_db": empenhos_info.get("n", 0) or 0,
-        "empenhos_valor": float(empenhos_info.get("total", 0) or 0),
+        "empenhos_valor": brl(empenhos_info.get("total", 0) or 0),
         "faturas_db": fat_db_info.get("COUNT(*)", 0) or 0,
-        "faturas_valor": float(fat_db_info.get("SUM(valor_bruto)", 0) or 0),
+        "faturas_valor": brl(fat_db_info.get("SUM(valor_bruto)", 0) or 0),
         "cobrancas": len(cobr_dev),
     }
     result["contagens"] = contagens
