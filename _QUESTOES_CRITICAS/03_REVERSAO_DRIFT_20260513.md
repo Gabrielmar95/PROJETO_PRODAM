@@ -66,7 +66,7 @@ O valor monetário não muda, mas **15 faturas adicionais foram classificadas co
 | Sigla | Δ fat_exig (CSV - backup) | Δ fat_presc | Δ val_exig | Status |
 |---|---:|---:|---:|---|
 | SEJUSC | -4 | -7 | ~0 | Análise pendente / ANALISAR_DOCUMENTACAO |
-| FENIXSOFT | -5 (5 prescritas viraram exigíveis?) | -5 | 0 | Backup: 2 exig + 5 presc = 7 total; CSV: 7 exig + 0 presc = 7 total |
+| FENIXSOFT | +5 (5 prescritas viraram exigíveis?) | -5 | 0 | Backup: 2 exig + 5 presc = 7 total; CSV: 7 exig + 0 presc = 7 total |
 
 **FENIXSOFT é particularmente confuso**: backup tem 2 exigíveis + 5 prescritas; CSV tem **7 exigíveis e 0 prescritas**. Significa que **5 faturas prescritas no backup foram reclassificadas como exigíveis no CSV** — sem justificativa documental. Combinado com a Issue `06_FENIXSOFT2_INVESTIGACAO.md` (R$ 1,07M na Rota B 12/05 versus R$ 888.250 no CSV), o FENIXSOFT é uma **bagunça de 3 versões diferentes** que precisa ser fechada antes de qualquer notificação extrajudicial.
 
@@ -80,7 +80,7 @@ O JSON do backup tem **128 campos por devedor** (exemplo SSP: 128 campos); o CSV
 - `modelo_notificacao` (A/B/C — qual template usar)
 - `regime_execucao` (precatório/penhora direta)
 - `indice_correcao`, `juros_mora`, `multa`
-- `score_composto`, `p_recuperacao`, `ev_valor_esperado`, `ev_honorarios`, `esforco_estimado` (toda a modelagem de priorização)
+- `score_composto`, `ev_valor_esperado`, `ev_honorarios`, `esforco_estimado` (toda a modelagem de priorização — `p_recuperacao` foi preservado como coluna `p_rec` no CSV)
 - `val_orig`, `val_servicos_spcf_mar2026` (baselines)
 - `*_anterior` e `*_metodologia` (rastros de mudanças)
 - `observacoes_*`, `ultima_interacao`, `classificacao_reconhecimento`
@@ -167,9 +167,3 @@ Mas **a falha real foi de governança**: a reconciliação 12/05 não foi commit
 - [ ] `HISTORICO_SESSOES.md` ganha entrada explicando a auditoria de 28/05 e a decisão
 - [ ] Item 1.6 do roadmap pode prosseguir
 
-## Anexos
-
-- `_BACKUPS/profiles_PRE-REVERSAO-DRIFT-20260513-155115.json` — 334 KB, 70 keys (69 devedores + _metadata)
-- `profiles_resumo.csv` — 71 linhas (70 devedores + _metadata + header)
-- `DOCUMENTOS_GERADOS/SES_SUSAM/TRD_SES_SUSAM_2026-05-12.docx` — peça pronta usando valores R$ 4,78M (reconciliados)
-- `_QUESTOES_CRITICAS/06_FENIXSOFT2_INVESTIGACAO.md` — issue relacionada, bloqueada por PRODAM_DOCS

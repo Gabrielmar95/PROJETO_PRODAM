@@ -29,7 +29,6 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
-# brl/fmt_brl: usar SSOT em prodam_utils (Decimal-aware, Regra #16)
 from prodam_utils import norm, norm_variants, brl, fmt_brl
 import os
 if os.environ.get("PRODAM_FREEZE_EMISSAO"):

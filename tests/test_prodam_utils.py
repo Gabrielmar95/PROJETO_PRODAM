@@ -14,6 +14,8 @@ from pathlib import Path
 from decimal import Decimal
 from datetime import date
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 from prodam_utils import (
     brl, fmt_brl, pct_diff,
@@ -56,14 +58,11 @@ class TestBrl:
         # NBSP (\xa0) aparece no SPCF
         assert brl("R$\xa01.234,56") == Decimal("1234.56")
 
-    def test_aceita_resultado_sql_sum(self):
-        # SQLite SUM() retorna int, float ou None.
-        # auditoria_completude_devedor.py:250,252 alimenta brl() com isso pós-fix
-        # do bug D1 (float → Decimal). brl() precisa lidar com os 3.
-        assert brl(None) == Decimal(0)
-        assert brl(0) == Decimal(0)
+    def test_aceita_sql_sum_int_grande(self):
+        # SQLite SUM() retorna int/float/None — int grande é o único caso não coberto
+        # por test_none/test_numero_simples. auditoria_completude_devedor.py:250,252 alimenta brl()
+        # com resultado de SUM pós-fix do bug D1 (float → Decimal).
         assert brl(1234567) == Decimal("1234567")
-        assert brl(1234.56) == Decimal("1234.56")
 
 class TestFmtBrl:
     def test_inteiro(self):
@@ -88,6 +87,15 @@ class TestFmtBrl:
         assert fmt_brl(Decimal("1234.56")) == "R$ 1.234,56"
         assert fmt_brl(Decimal("0")) == "R$ 0,00"
         assert fmt_brl(Decimal("10463698.62")) == "R$ 10.463.698,62"
+
+    @pytest.mark.xfail(
+        strict=False,
+        reason="Issue 10: prodam_utils.fmt_brl ainda usa float(); perde precisão >15 dígitos.",
+    )
+    def test_aceita_decimal_grande_precisao(self):
+        # Fronteira da Regra #16: quando Issue 10 (refactor strict-Decimal de fmt_brl) land,
+        # este teste passa de XFAIL para XPASS — sinal de que o critério de aceite foi atingido.
+        assert fmt_brl(Decimal("9999999999999999.99")) == "R$ 9.999.999.999.999.999,99"
 
 class TestPctDiff:
     def test_iguais(self):
