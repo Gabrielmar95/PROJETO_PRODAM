@@ -373,7 +373,7 @@ def main():
         "Diferença B-A (%)",
     ]
     ws.append(headers)
-    for cell in ws[1]:/
+    for cell in ws[1]:
         cell.font = Font(bold=True, color="FFFFFF")
         cell.fill = PatternFill(
             start_color="1F4E78", end_color="1F4E78", fill_type="solid"
