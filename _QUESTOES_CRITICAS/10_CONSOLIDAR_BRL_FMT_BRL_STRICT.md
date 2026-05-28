@@ -1,9 +1,18 @@
 # 10 — Consolidar brl/fmt_brl: tornar prodam_utils strict-Decimal (Regra #16)
 
-> Status: needs-triage
+> Status: resolved
 > Aberta em: 2026-05-28 (derivada da Janela 2 item 2.4)
+> Fechada em: 2026-05-28 (core refactor + DRY de `auditoria_completude_devedor.py`)
 > Tipo: refactor + DRY incompleto
 > Severidade: 🟡 atenção (sem urgência prescricional, mas é dívida técnica que contradiz a Regra #16)
+
+## Resolução (28/05/2026)
+
+- `prodam_utils.fmt_brl` agora é **strict-Decimal** (sem `float()`) — preserva precisão exata acima de 15 dígitos.
+- `auditoria_completude_devedor.py` importa `brl, fmt_brl` de `prodam_utils` (helpers locais removidos; `InvalidOperation` órfão também removido do import).
+- Testes: `test_aceita_decimal_grande_precisao` deixou de ser `xfail` e passa; novo `test_aceita_string_brl` trava o ganho de parsear strings BRL. Suite: **115 passed**.
+- Bônus: `import pytest` órfão removido do test → runner standalone (`python3 tests/test_prodam_utils.py`) agora funciona sem pytest, como já prometia o docstring.
+- Os **8 scripts restantes** com helpers locais (4 divergem ou são jurídicos) foram triados na sub-issue **`11_DRY_HELPERS_BRL_RESTANTES.md`** — não consolidados aqui por exigirem smoke-test com PRODAM_DOCS local + decisão caso a caso.
 
 ## Resumo
 
@@ -74,7 +83,7 @@ Depois do refactor:
 
 ## Critério de aceite
 
-- `prodam_utils.fmt_brl` não contém a string `float(`.
-- `tests/test_prodam_utils.py::TestFmtBrl::test_aceita_decimal_grande_precisao` passa (novo teste, valida Decimal >15 dígitos).
-- `auditoria_completude_devedor.py` importa `brl, fmt_brl` de `prodam_utils` e não define helpers locais.
-- `grep -rn "^def fmt_brl\|^def brl" scripts/` retorna apenas `prodam_utils.py` **OU** uma sub-issue separada documenta os scripts ainda pendentes. Verificação inicial (28/05/2026) encontrou 7 outros scripts com helpers locais (`auto_update_claude_md.py`, `gerar_relatorio_docx.py`, `consultas.py`, `ad_hoc/gerar_memorial_preliminar_ses.py`, `reconciliacao_4_fontes.py`, `detran/gerar_dossie_detran_v2.py`, `ses_reconciliacao_completa.py`) — escopo total maior do que o body desta issue assume; se Gabriel optar por consolidar apenas `auditoria_completude_devedor.py`, abrir sub-issue `_QUESTOES_CRITICAS/11_*` para os 7 restantes.
+- [x] `prodam_utils.fmt_brl` não contém a string `float(`.
+- [x] `tests/test_prodam_utils.py::TestFmtBrl::test_aceita_decimal_grande_precisao` passa (deixou de ser `xfail`; valida Decimal >15 dígitos).
+- [x] `auditoria_completude_devedor.py` importa `brl, fmt_brl` de `prodam_utils` e não define helpers locais.
+- [x] `grep -rn "^def fmt_brl\|^def brl" scripts/` ainda retorna 8 scripts além de `prodam_utils.py` — documentados na sub-issue `_QUESTOES_CRITICAS/11_DRY_HELPERS_BRL_RESTANTES.md`. Verificação inicial (28/05/2026) encontrou esses helpers locais (`auto_update_claude_md.py`, `gerar_relatorio_docx.py`, `consultas.py`, `ad_hoc/gerar_memorial_preliminar_ses.py`, `reconciliacao_4_fontes.py`, `detran/gerar_dossie_detran_v2.py`, `ses_reconciliacao_completa.py`, `detalhamento_faturas.py`) — 4 divergem em comportamento ou são juridicamente sensíveis, por isso não foram consolidados em massa.

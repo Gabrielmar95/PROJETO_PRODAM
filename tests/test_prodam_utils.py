@@ -14,8 +14,6 @@ from pathlib import Path
 from decimal import Decimal
 from datetime import date
 
-import pytest
-
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 from prodam_utils import (
     brl, fmt_brl, pct_diff,
@@ -88,14 +86,16 @@ class TestFmtBrl:
         assert fmt_brl(Decimal("0")) == "R$ 0,00"
         assert fmt_brl(Decimal("10463698.62")) == "R$ 10.463.698,62"
 
-    @pytest.mark.xfail(
-        strict=False,
-        reason="Issue 10: prodam_utils.fmt_brl ainda usa float(); perde precisão >15 dígitos.",
-    )
     def test_aceita_decimal_grande_precisao(self):
-        # Fronteira da Regra #16: quando Issue 10 (refactor strict-Decimal de fmt_brl) land,
-        # este teste passa de XFAIL para XPASS — sinal de que o critério de aceite foi atingido.
+        # Regra #16 / Issue 10: strict-Decimal preserva precisão exata acima de
+        # 15 dígitos significativos — caso que float() (IEEE 754 double) quebraria.
         assert fmt_brl(Decimal("9999999999999999.99")) == "R$ 9.999.999.999.999.999,99"
+
+    def test_aceita_string_brl(self):
+        # Issue 10: com strict-Decimal via brl(), strings já formatadas parseiam
+        # corretamente (a versão float() anterior as transformava em "R$ 0,00").
+        assert fmt_brl("1.234,56") == "R$ 1.234,56"
+        assert fmt_brl("R$ 1.234,56") == "R$ 1.234,56"
 
 class TestPctDiff:
     def test_iguais(self):

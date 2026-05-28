@@ -53,12 +53,14 @@ def brl(s: Any) -> Decimal:
         return Decimal(0)
 
 def fmt_brl(v: Any) -> str:
-    """Formata valor como 'R$ 1.234,56' (formato brasileiro)."""
-    try:
-        n = float(v)
-    except (ValueError, TypeError):
-        n = 0.0
-    return f"R$ {n:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    """Formata valor como 'R$ 1.234,56' (formato brasileiro).
+
+    Strict-Decimal (Regra #16): nunca usa float(). Valores Decimal acima de
+    15 dígitos significativos preservam precisão exata. Entradas None/inválidas
+    viram Decimal(0) via brl().
+    """
+    d = v if isinstance(v, Decimal) else brl(v)
+    return f"R$ {d:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def pct_diff(a: Any, b: Any) -> Decimal:
     """Percent difference entre dois valores: abs(a-b)/max(a,b) * 100."""
