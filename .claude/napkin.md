@@ -52,9 +52,7 @@
 2. **[2026-04-23] Comando mestre: `py -3.12 sincronizar_prodam.py`**
    Do instead: roda rebuild DB + auditoria + dossiês + skills. Executar após mudanças estruturais em profiles.json ou ingestão de novos PDFs.
 3. **[2026-04-23] Score composto: 12 dimensões com pesos fixos**
-   Do instead: ver `CLAUDE.md` seção "SCORE COMPOSTO"; classificação A+ ≥90 (DETRAN = 94,0 A+ benchmark).
-4. **[2026-05-28] Checkout limpo/cloud roda só o que NÃO depende de PRODAM_DOCS/prodam.db**
-   Do instead: em cloud (Linux, sem dataset; usa `python3`, não `py -3.12`) rodar só `pytest tests/`, `python3 scripts/validar_citacoes.py`, `python3 scripts/alerta_prescricao.py --check` (lê `profiles_resumo.csv` commitado; exit 0/1=ok, 2=CSV faltando), `compileall`/`ruff`. Scripts com `sqlite3.connect("prodam.db")` no topo (`auditoria_completude_devedor.py:25`, `dossie_multiformato_devedor.py:37`, `consultas.py:16`) crasham no import; pipeline real (`sincronizar_prodam.py`) só na máquina local. Deps de teste: `pip install -r requirements-dev.txt`. NUNCA rodar `auto_update_claude_md.py` como smoke sem DB (regenera CLAUDE.md como placeholder).
+   Do instead: ver `PLAYBOOK_ORGAOS_V2.md` seção "SCORE COMPOSTO"; classificação A+ ≥90 (DETRAN = 94,0 A+ benchmark).
 
 ## Execução Técnica (Shell & Dados)
 1. **[2026-04-23] Python é `py -3.12`, NÃO `python` nem `python3`**
@@ -75,5 +73,3 @@
    Do instead: explicar erros como para não-programador; comandos sempre em PowerShell.
 2. **[2026-04-23] Um bloco único de código por vez**
    Do instead: agrupar em um bloco pronto pra colar; se der erro, devolver correção completa, não patch parcial.
-3. **[2026-05-30] SEMPRE validar e testar o código ANTES de qualquer ação definitiva (commit, push, ação externa)**
-   Do instead: rodar pytest/validadores e **ver o verde** antes de commit/push/ação irreversível. Se a saída do shell estiver bufferando, **esperar o flush e confirmar** — nunca disparar push "às cegas", mesmo com script auto-guardado. Validação proporcional: mudança de código → testes; mudança só-docs → read-back + escopo (`git status`).

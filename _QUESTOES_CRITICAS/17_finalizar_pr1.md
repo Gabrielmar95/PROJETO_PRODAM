@@ -1,12 +1,45 @@
-# 17 — Handoff: finalizar PR #1 (rebase plan)
+# 17 — Finalizar PR #1 → ✅ RESOLVIDA via caminho B (PR #11)
 
-> Status: 🟡 needs-action / continuação
+> Status: ✅ RESOLVIDA via caminho B — falta só o "OK, merge" do PR #11
 > Aberta em: 2026-05-30 (sessão cloud encerrada antes de executar o rebase)
+> Resolvida em: 2026-05-30 (sessão local — caminho B executado: PR #11 aberto, #1 fechado)
 > Tipo: handoff de sessão / plano de execução
-> Severidade: 🟡 média (missão final declarada do PR #1 ainda pendente)
+> Severidade: 🟢 baixa (desfecho aplicado; resta 1 OK de merge)
 > Predecessor: `16_handoff_proxima_sessao.md` (parte das recomendações já tratadas: hook PreCompact em PR #10)
 
-## TL;DR
+## DESFECHO (2026-05-30) — caminho B, NÃO o rebase
+
+O plano de rebase abaixo (caminho A) **não foi executado**. O advogado optou pelo
+**caminho B**: em vez de rebasar o PR #1 sujo e force-pushar, partir do `main` atual
+(pós-#10, `487d569`) numa **branch limpa** e abrir um **PR novo**.
+
+| Item | Resultado |
+|---|---|
+| Branch nova | `claude/reorg-claude-md-enxuto-20260530` (a partir de `487d569`) |
+| Commit | `a3979c5` — gerador com `from prodam_utils import fmt_brl` (DRY/SSOT restaurado) + 4 `.md` regenerados do `profiles.json` vivo |
+| **PR #11** | **OPEN**, `mergeStateStatus: CLEAN`, **2/2 required checks verdes** (`Run tests + validate scripts (3.12)` + `Bloqueia Teori como relator do REsp 793.969`) |
+| **PR #1** | **CLOSED** (comentário referenciando #11 como substituto) |
+| Regressão Issue 11 | **NÃO herdada** — o caminho B nasceu do gerador do `main` (que já importava `fmt_brl`), corrigindo a regressão que o PR #1 tinha |
+
+**Por que caminho B venceu o A:** o rebase (A) herdaria a regressão DRY do PR #1 (cópia
+local de `def fmt_brl`) e exigiria `git push --force-with-lease` numa branch publicada
+(operação destrutiva). O caminho B é aditivo (branch nova, sem force), e regenera os `.md`
+do `profiles.json` vivo — métricas atuais, sem o drift de 24/05 do PR #1.
+
+**Decisões pendentes da seção homônima abaixo — como ficaram:**
+1. Regressão Issue 11 → **resolvida na origem** (caminho B partiu do gerador correto do `main`); não há followup a abrir.
+2. Anotações `napkin.md` ("diretriz #3" / "nota cloud vs local") → **preservadas** (estavam no `main`; caminho B não as toca, só traz o diff de 6 linhas do PR #1 via `git checkout`).
+3. Quando mergear PR #10 → **já mergeado** (`487d569`), foi a base do caminho B.
+
+**Único pendente:** mergear o PR #11 — trava no "OK, merge" explícito do advogado
+(`merge_method=merge`, convenção). Sem isso, #11 permanece OPEN.
+
+> ⚠️ O plano de rebase a seguir é **histórico** (caminho A preterido). Mantido como
+> registro da deliberação. NÃO executar.
+
+---
+
+## TL;DR (histórico — caminho A, NÃO executado)
 
 - Sessão cloud anterior encerrou **com o PR #1 ainda aberto** (missão final pendente).
 - **PR #10** (hook PreCompact, branch `claude/precompact-hook`) está **VERDE / clean / 3-3 CI success**, aberto, esperando OK pra merge. Decidido NÃO mergear na sessão anterior.

@@ -103,7 +103,7 @@ O scanner `C:\Users\gabri\AppData\Local\Temp\perm_scan.py` foi escrito mas **nun
 
 ## §4 — Constraints carregadas (ainda valem)
 
-- **PR #1** open por decisão; não tocar.
+- **PR #1** ✅ FECHADO (2026-05-30) — substituído pelo PR #11 (caminho B). Ver `17_finalizar_pr1.md`.
 - Branch `claude/serene-hawking-nX853` TTL 2026-06-29.
 - Git destrutivo confirmar antes (push força, reset hard, branch -D, rebase publicado).
 - PDFs = prova: nunca apagar originais.
@@ -120,7 +120,8 @@ O scanner `C:\Users\gabri\AppData\Local\Temp\perm_scan.py` foi escrito mas **nun
 - Commit `aded4b6` — merge commit do PR #4 em main
 - Issue 15: [`15_retomar_merge_pr4.md`](15_retomar_merge_pr4.md) (✅ RESOLVIDA)
 - PR #8: https://github.com/Gabrielmar95/PROJETO_PRODAM/pull/8 (open, verde pra merge)
-- PR #1: https://github.com/Gabrielmar95/PROJETO_PRODAM/pull/1 (open intencional, NÃO tocar)
+- PR #1: https://github.com/Gabrielmar95/PROJETO_PRODAM/pull/1 (✅ CLOSED — substituído por #11)
+- PR #11: https://github.com/Gabrielmar95/PROJETO_PRODAM/pull/11 (open, 2/2 verde, aguarda "OK, merge")
 - Sessão de origem local: `988964a6-9955-47b9-adde-a7ee422d90b3`
 - Sessão cloud sucessora: registrou este arquivo no remoto
 
