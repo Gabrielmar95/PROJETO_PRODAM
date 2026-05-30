@@ -20,7 +20,7 @@ import json, sys, csv
 from pathlib import Path
 from datetime import date, datetime
 from collections import defaultdict, Counter
-from decimal import Decimal, InvalidOperation
+from decimal import Decimal
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -28,7 +28,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
-from prodam_utils import norm, norm_variants
+from prodam_utils import norm, norm_variants, brl, fmt_brl
 
 DL = ROOT / "SPCF_EXTRACAO" / "downloads"
 DADOS = ROOT / "SPCF_EXTRACAO" / "dados"
@@ -39,21 +39,7 @@ from datetime import timedelta
 HOJE = date.today()
 PRESCRICAO_CUTOFF = HOJE - timedelta(days=365*5)   # 5 anos antes de hoje
 
-def brl(s) -> Decimal:
-    if s is None or s == "":
-        return Decimal(0)
-    s = str(s).replace("R$", "").replace("\xa0", "").strip()
-    if not s or s == "-":
-        return Decimal(0)
-    if "," in s:
-        s = s.replace(".", "").replace(",", ".")
-    try:
-        return Decimal(s)
-    except (InvalidOperation, ValueError):
-        return Decimal(0)
-
-def fmt_brl(v) -> str:
-    return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+# brl()/fmt_brl(): SSOT em prodam_utils (importados acima) — Regra #16 (Issue 11 Cat A).
 
 def parse_comp(s: str) -> date | None:
     """'05/2021' → 2021-05-01 (primeiro dia do mês)"""

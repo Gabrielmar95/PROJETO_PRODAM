@@ -20,6 +20,10 @@ PROFILES = BASE / "PRODAM_DOCS" / "profiles.json"
 DB = BASE / "prodam.db"
 OUTPUT = BASE / "CLAUDE.md"
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from prodam_utils import fmt_brl  # SSOT (Regra #16, Issue 11 Cat A)
+
 def load_profiles():
     with open(PROFILES, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -232,9 +236,6 @@ def compute_metrics(data):
     m["top10"] = items[:10]
     m["prescricao_urgente"].sort(key=lambda x: x[2])
     return m
-
-def fmt_brl(v):
-    return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def generate_claude_md(m):
     now = datetime.now().strftime("%d/%m/%Y %H:%M")

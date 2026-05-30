@@ -14,6 +14,10 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.shared import Cm, Pt, RGBColor
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from prodam_utils import fmt_brl as brl  # helper local 'brl' formatava (R$ ...) -> fmt_brl
+
 OUT = Path("/sessions/gallant-focused-brahmagupta/mnt/PROJETO_PRODAM/DIAGNOSTICO_PASTA_MAE.docx")
 PROFILE = Path("/sessions/gallant-focused-brahmagupta/mnt/outputs/profile_pasta_mae.json")
 INSIGHTS = Path("/sessions/gallant-focused-brahmagupta/mnt/outputs/insights_consolidados.json")
@@ -25,10 +29,6 @@ CINZA = RGBColor(0x77, 0x77, 0x77)
 
 data = json.loads(PROFILE.read_text(encoding="utf-8"))
 insights = json.loads(INSIGHTS.read_text(encoding="utf-8"))
-
-
-def brl(v):
-    return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
 def _shade(cell, color_hex):

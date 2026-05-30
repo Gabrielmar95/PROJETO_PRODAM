@@ -88,6 +88,45 @@ class TestDossieMultiformatoUsaProdamUtils:
                 )
 
 
+class TestIssue11CatADRY:
+    """Issue 11 Cat A: 4 scripts consolidam os helpers brl/fmt_brl locais → prodam_utils.
+
+    AST-based (não roda os scripts — todos carregam profiles.json/prodam.db ou
+    regeneram CLAUDE.md no import). `alias.name` ignora o `as` (ex.: `fmt_brl as brl`
+    conta como import de fmt_brl).
+    """
+
+    CAT_A = [
+        "ses_reconciliacao_completa.py",
+        "auto_update_claude_md.py",
+        "gerar_relatorio_docx.py",
+        "detalhamento_faturas.py",
+    ]
+
+    @pytest.mark.parametrize("script", CAT_A)
+    def test_nao_tem_helper_brl_local(self, script):
+        # AST: pega def em qualquer nível (top-level OU aninhada em função).
+        tree = _parse(script)
+        for node in ast.walk(tree):
+            if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)) and node.name in ("brl", "fmt_brl"):
+                pytest.fail(
+                    f"{script}: helper {node.name}() local na linha {node.lineno} "
+                    f"(DRY Issue 11 Cat A: usar prodam_utils)."
+                )
+
+    @pytest.mark.parametrize("script", CAT_A)
+    def test_importa_helper_de_prodam_utils(self, script):
+        tree = _parse(script)
+        importados: set[str] = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ImportFrom) and node.module == "prodam_utils":
+                importados.update(a.name for a in node.names)  # nome ORIGINAL (ignora 'as')
+        assert importados & {"brl", "fmt_brl"}, (
+            f"{script}: deve importar brl e/ou fmt_brl de prodam_utils (DRY). "
+            f"Importados de prodam_utils: {sorted(importados)}"
+        )
+
+
 if __name__ == "__main__":
     # Paridade com tests/test_prodam_utils.py: permite rodar standalone.
     sys.exit(pytest.main([__file__, "-v"]))

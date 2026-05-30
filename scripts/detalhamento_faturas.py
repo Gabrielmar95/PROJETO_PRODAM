@@ -25,6 +25,8 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from prodam_utils import fmt_brl as brl  # helper local 'brl' formatava (R$ ...) -> fmt_brl
 DB = ROOT / "prodam.db"
 PROFILES = ROOT / "PRODAM_DOCS" / "profiles.json"
 OUT = ROOT / "DETALHAMENTO_FATURAS"
@@ -718,9 +720,6 @@ def gerar_md(consolidado, sem_match, clientes_orfaos):
             sum(c["exig_fraca_val"] for c in consolidado),
         ),
     }
-
-    def brl(v):
-        return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
     md = f"""# Detalhamento de Faturas — Projeto PRODAM
 
