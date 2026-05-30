@@ -25,6 +25,9 @@ env/
 credentials.json
 token.json
 
+# Config local do Claude Code (especifica da maquina; nunca versionar)
+.claude/settings.local.json
+
 # Lixo temporario de sistema
 .fuse_hidden*
 nul
