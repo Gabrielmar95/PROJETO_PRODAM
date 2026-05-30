@@ -75,3 +75,5 @@
    Do instead: explicar erros como para não-programador; comandos sempre em PowerShell.
 2. **[2026-04-23] Um bloco único de código por vez**
    Do instead: agrupar em um bloco pronto pra colar; se der erro, devolver correção completa, não patch parcial.
+3. **[2026-05-30] SEMPRE validar e testar o código ANTES de qualquer ação definitiva (commit, push, ação externa)**
+   Do instead: rodar pytest/validadores e **ver o verde** antes de commit/push/ação irreversível. Se a saída do shell estiver bufferando, **esperar o flush e confirmar** — nunca disparar push "às cegas", mesmo com script auto-guardado. Validação proporcional: mudança de código → testes; mudança só-docs → read-back + escopo (`git status`).
