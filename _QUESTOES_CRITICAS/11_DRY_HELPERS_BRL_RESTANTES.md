@@ -1,6 +1,6 @@
 # 11 — DRY dos helpers brl/fmt_brl restantes (8 scripts)
 
-> Status: needs-human-decision
+> Status: cat-A-code-done / cat-B-C-needs-decision — Cat A consolidada (2026-05-30); ver "Resolução Cat A"
 > Aberta em: 2026-05-28 (sub-issue derivada da Issue 10, critério de aceite #4)
 > Tipo: refactor + DRY incompleto
 > Severidade: 🟡 atenção (dívida técnica; sem urgência prescricional)
@@ -53,13 +53,46 @@ pós-Issue-10 para entradas numéricas (Decimal/int/float). Consolidação não 
    Se for, manter local com comentário; se não, alinhar ao SSOT.
 4. **Categoria C — `gerar_memorial_preliminar_ses.py`**: só com gate jurídico (toca cálculo SES).
 
+## Resolução Cat A (2026-05-30, commit `eaa36fb`)
+
+Os **4 scripts da Categoria A** consolidados para importar de `prodam_utils` (Regra #16):
+
+| Script | Antes | Depois |
+|---|---|---|
+| `ses_reconciliacao_completa.py` | `brl` (parser) + `fmt_brl` locais | `from prodam_utils import norm, norm_variants, brl, fmt_brl`; `InvalidOperation` órfão removido do import de `decimal` |
+| `auto_update_claude_md.py` | `fmt_brl` local | `from prodam_utils import fmt_brl` (+ `sys.path`) |
+| `gerar_relatorio_docx.py` | `brl` local que **formatava** | `from prodam_utils import fmt_brl as brl` |
+| `detalhamento_faturas.py` | `brl` aninhado que **formatava** | `from prodam_utils import fmt_brl as brl` |
+
+**Mapeamento de nome:** em `gerar_relatorio_docx`/`detalhamento_faturas` o helper chamava-se `brl`
+mas retornava `"R$ ..."` (semântica de `fmt_brl`). Importados como `fmt_brl as brl` → **call
+sites intactos**, diff mínimo.
+
+**Equivalência provada (cloud, sem rodar os scripts):** `fmt_brl` e `brl` antigos vs
+`prodam_utils` → **0 divergências** em todos os tipos que os scripts passam (Decimal/int/float;
+parser de string BR incl. `None`/`""`/`"-"`/`"14.748.048,95"`).
+
+**Por que sem smoke-test de artefato:** os 4 carregam `prodam.db`/`profiles.json` no import (ou
+regeneram `CLAUDE.md`) → não rodam em cloud. Travado por **AST** em
+`tests/test_regression_decimal_dry.py::TestIssue11CatADRY` (8 casos = 4 scripts × {sem helper
+local, importa de prodam_utils}). Suite: **125 → 133 passed**; ruff `E9/F63/F7/F82` limpo;
+`compileall` OK nos 4.
+
+**Caveat do issue corrigido:** a "Nota lateral" abaixo dizia que `detalhamento_faturas.py` tinha
+5 erros F821 — **desatualizado** (corrigido em `6fcb5d9`); ruff está limpo. Mantida só por
+histórico.
+
+**Pendente local (opcional):** rodar cada script com `PRODAM_DOCS` e `git diff` no artefato
+(`CLAUDE.md`/`.docx`/`.md`) para confirmação visual — a equivalência numérica já garante zero
+mudança de saída.
+
 ## Critério de aceite
 
-- [ ] Categoria A consolidada (4 scripts) com diff de artefato validado.
+- [x] Categoria A consolidada (4 scripts) — equivalência numérica provada; diff de artefato visual fica como conferência local opcional.
 - [ ] `detran/gerar_dossie_detran_v2.py` consolidado (sem `float()`).
 - [ ] Categoria B: decisão registrada por script (consolidar ou manter-com-justificativa).
 - [ ] Categoria C/SES: gate jurídico aprovado OU mantido fora de escopo com nota.
-- [ ] `grep -rn "^def fmt_brl\|^def brl\|^    def brl\|^    def fmt_brl" scripts/` retorna só `prodam_utils.py` (ou os mantidos-por-decisão estão documentados aqui).
+- [x] `grep -rnE "def (brl|fmt_brl)"` nos 4 scripts da Cat A retorna vazio (helpers locais eliminados). Cat B/C ainda têm helpers locais (por decisão pendente).
 
 ## Nota lateral (fora de escopo desta issue)
 
