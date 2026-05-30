@@ -21,8 +21,13 @@ set -uo pipefail
 cd "${CLAUDE_PROJECT_DIR:-.}" || exit 0
 
 # --- Acao critica: instalar deps de teste (best-effort, nunca aborta) ---
-python3 -m pip install -q -r requirements-dev.txt >/tmp/prodam_pip.log 2>&1 \
-  || echo "[session-start] pip install com avisos (ver /tmp/prodam_pip.log)" >&2
+# Pula se pytest ja importavel (resume/clear ficam instantaneos); so instala em
+# container novo. --timeout limita espera sob politica de rede restrita.
+if ! python3 -c "import pytest" >/dev/null 2>&1; then
+  python3 -m pip install -q --disable-pip-version-check --timeout 60 -r requirements-dev.txt \
+    >/tmp/prodam_pip.log 2>&1 \
+    || echo "[session-start] pip install com avisos (ver /tmp/prodam_pip.log)" >&2
+fi
 
 # --- Banner best-effort (cada sub-comando guardado) ---
 BRANCH="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo '?')"
