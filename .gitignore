@@ -28,6 +28,9 @@ token.json
 # Config local do Claude Code (especifica da maquina; nunca versionar)
 .claude/settings.local.json
 
+# Snapshot automatico do hook PreCompact (regenerado a cada /compact; local-only)
+.remember/
+
 # Lixo temporario de sistema
 .fuse_hidden*
 nul

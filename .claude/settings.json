@@ -20,6 +20,26 @@
           }
         ]
       }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "command -v python3 >/dev/null 2>&1 && python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/precompact-handoff.py\" || true",
+            "timeout": 30,
+            "statusMessage": "Snapshot pre-compact (.remember/)"
+          },
+          {
+            "type": "command",
+            "shell": "powershell",
+            "command": "if (Get-Command py -ErrorAction SilentlyContinue) { py -3.12 \"$env:CLAUDE_PROJECT_DIR/.claude/hooks/precompact-handoff.py\" }",
+            "timeout": 30,
+            "statusMessage": "Snapshot pre-compact (.remember/)"
+          }
+        ]
+      }
     ]
   }
 }
