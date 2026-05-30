@@ -127,6 +127,59 @@ class TestIssue11CatADRY:
         )
 
 
+class TestReconciliarOrfaosReversosDecimal:
+    """Issue 12 Tier 1: `reconciliar_orfaos_reversos.py` escrevia `float(val_fat)` no
+    profiles.json (SSOT) — causa-raiz plausível da deriva da Issue 03. Fix: `str(val_fat)`
+    preserva precisão Decimal; consumidores (auto_update/dossie/notificacao/reconciliacao_4f/
+    alerta_prescricao) já toleram string. Trava por AST porque o script tem top-level
+    DB/JSON connect e muta SSOT (não roda em cloud sem PRODAM_DOCS)."""
+
+    SCRIPT = "reconciliar_orfaos_reversos.py"
+
+    def test_grava_val_exig_sem_float(self):
+        # AST: para todo Assign cujo target é Subscript(pr, "val_exig"),
+        # o valor NÃO pode ser uma Call de float() (Regra #16: nunca float em moeda).
+        tree = _parse(self.SCRIPT)
+        for node in ast.walk(tree):
+            if not isinstance(node, ast.Assign):
+                continue
+            for tgt in node.targets:
+                if not isinstance(tgt, ast.Subscript):
+                    continue
+                slc = tgt.slice
+                key = slc.value if isinstance(slc, ast.Constant) else None
+                if key != "val_exig":
+                    continue
+                val = node.value
+                if isinstance(val, ast.Call) and isinstance(val.func, ast.Name) and val.func.id == "float":
+                    pytest.fail(
+                        f"{self.SCRIPT}: linha {node.lineno} escreve pr['val_exig'] via "
+                        f"float() — viola Regra #16 (Issue 12 Tier 1). Use str(val_fat)."
+                    )
+
+    def test_nao_tem_except_nu(self):
+        # Bug D3 também ocorria aqui (linha 67 original). Fix consolidou via brl().
+        tree = _parse(self.SCRIPT)
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ExceptHandler) and node.type is None:
+                pytest.fail(
+                    f"{self.SCRIPT}: `except:` nu na linha {node.lineno} (bug D3). "
+                    f"Use brl() para parse Decimal-aware ou `except Exception as e:`."
+                )
+
+    def test_importa_brl_de_prodam_utils(self):
+        # brl() é o helper Decimal-aware que substituiu o bloco isinstance/float/except nu.
+        tree = _parse(self.SCRIPT)
+        importados: set[str] = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ImportFrom) and node.module == "prodam_utils":
+                importados.update(a.name for a in node.names)
+        assert "brl" in importados, (
+            f"{self.SCRIPT}: deve importar brl de prodam_utils (Issue 12 Tier 1). "
+            f"Importados: {sorted(importados)}"
+        )
+
+
 if __name__ == "__main__":
     # Paridade com tests/test_prodam_utils.py: permite rodar standalone.
     sys.exit(pytest.main([__file__, "-v"]))

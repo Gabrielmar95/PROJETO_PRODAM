@@ -17,7 +17,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
-from prodam_utils import norm, norm_variants, fmt_brl, load_profiles
+from prodam_utils import norm, norm_variants, brl, fmt_brl, load_profiles
 
 PROFILES_PATH = ROOT / "PRODAM_DOCS" / "profiles.json"
 DB = sqlite3.connect(str(ROOT / "prodam.db"))
@@ -61,10 +61,7 @@ for sigla, pr in devedores.items():
 
     # Se já tem valores corretos, pula (a menos que divergente)
     fat_exig_atual = pr.get("faturas_exigiveis") or 0
-    val_exig_atual = pr.get("val_exig") or 0
-    if isinstance(val_exig_atual, str):
-        try: val_exig_atual = float(val_exig_atual.replace(",","."))
-        except: val_exig_atual = 0
+    val_exig_atual = brl(pr.get("val_exig"))
 
     # Conta faturas via clientes matched
     qtd_fat = 0
@@ -100,7 +97,7 @@ for sigla, pr in devedores.items():
             pr["faturas_total"] = pr.get("faturas_total") or qtd_fat
             pr["faturas_exigiveis"] = qtd_fat
         if val_exig_atual == 0 and val_fat > 0:
-            pr["val_exig"] = float(val_fat)
+            pr["val_exig"] = str(val_fat)
         pr["ultima_reconciliacao_orfao"] = "2026-04-14"
         pr["matches_db_fatura"] = matches_fat
         pr["matches_db_empenho"] = matches_emp
