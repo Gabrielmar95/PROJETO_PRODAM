@@ -1,10 +1,37 @@
 # 15 — Retomar merge do PR #4 (branch protection misconfig)
 
-> Status: ready-for-human / needs-admin
+> Status: ✅ RESOLVIDA (2026-05-30)
 > Aberta em: 2026-05-30 (handoff cloud → local)
+> Resolvida em: 2026-05-30 (sessão local)
 > Tipo: GitHub branch protection / merge bloqueado
 > Severidade: 🟡 baixa (não bloqueia código novo; atrasa consolidação de 20 commits em `main`)
 > Executor: Gabriel Mar (admin do repo Gabrielmar95/PROJETO_PRODAM)
+
+## ✅ RESOLUÇÃO (2026-05-30) — divergiu do plano abaixo em 3 pontos
+
+O plano original (Passos 1–5) assumia **branch protection clássica** + **squash merge** +
+fechamento manual do PR #3. A execução real foi diferente e está concluída:
+
+1. **Não era branch protection clássica, era um _ruleset_** (modelo novo): "Proteção main",
+   id `16958653`. O check-fantasma `feat(janela-3.3)` estava no campo
+   `required_status_checks` do ruleset (título do commit `442c91c` colado por engano).
+   Corrigido **na raiz** via `PUT /rulesets/16958653`, trocando o fantasma pelos 2 checks
+   reais (`Run tests + validate scripts (3.12)` + `Bloqueia Teori como relator do REsp
+   793.969`). Detalhes em `memory/reference_ruleset_main_check_fantasma.md`. Isso destrava
+   **todo PR futuro**, não só o #4.
+2. **Merge foi _merge commit_, não squash** (`gh pr merge 4 --merge`) — convenção real do
+   projeto. PR #4 **MERGED** em `aded4b6cf8a7ee7d76cc9cbb4fa8822983a6ee41` (14:19 UTC).
+3. **PR #3 não precisou ser fechado manualmente** — o GitHub auto-marcou #3 como **MERGED**
+   (mesmo `mergeCommit` `aded4b6`, `closedAt` 2s depois) porque os commits da branch
+   `claude/jolly-heisenberg-mK6VU` ficaram acessíveis a partir de `main` após o merge do #4.
+   O Passo 3 abaixo ficou obsoleto.
+
+**PR #1** (`reorg-claude-md-20260526`): permanece **OPEN / DIRTY** por decisão consciente.
+**Branch `claude/serene-hawking-nX853`**: manter viva até o TTL **2026-06-29** (não deletar).
+
+---
+
+> ⬇️ Plano original preservado abaixo para rastreabilidade (já executado/superado).
 
 ## TL;DR
 
