@@ -19,7 +19,7 @@ from prodam_utils import (
     brl, fmt_brl, pct_diff,
     norm, norm_variants, match_flex,
     parse_br_date, parse_comp, vencimento_30, esta_prescrita,
-    is_metadata_key, norm_id, norm_contrato,
+    is_metadata_key, norm_id, norm_contrato, load_profiles,
 )
 
 # ============================================================
@@ -56,6 +56,21 @@ class TestBrl:
         # NBSP (\xa0) aparece no SPCF
         assert brl("R$\xa01.234,56") == Decimal("1234.56")
 
+    def test_aceita_sql_sum_int_grande(self):
+        # SQLite SUM() retorna int/float/None — int grande é o único caso não coberto
+        # por test_none/test_numero_simples. auditoria_completude_devedor.py:250,252 alimenta brl()
+        # com resultado de SUM pós-fix do bug D1 (float → Decimal).
+        assert brl(1234567) == Decimal("1234567")
+
+    def test_decimal_passthrough(self):
+        # brl(Decimal) deve preservar o valor (via str(), sem round-trip por float).
+        assert brl(Decimal("1.50")) == Decimal("1.50")
+        assert brl(Decimal("9999999999999999.99")) == Decimal("9999999999999999.99")
+
+    def test_negativo(self):
+        # Valores negativos (créditos/estornos) no formato BR.
+        assert brl("-1.234,56") == Decimal("-1234.56")
+
 class TestFmtBrl:
     def test_inteiro(self):
         assert fmt_brl(1234) == "R$ 1.234,00"
@@ -72,6 +87,24 @@ class TestFmtBrl:
     def test_invalido(self):
         assert fmt_brl("abc") == "R$ 0,00"
         assert fmt_brl(None) == "R$ 0,00"
+
+    def test_aceita_decimal(self):
+        # Pós-fix D1, auditoria_completude_devedor.py passa Decimal a fmt_brl
+        # (via "empenhos_valor": brl(...)). fmt_brl precisa formatá-lo sem erro.
+        assert fmt_brl(Decimal("1234.56")) == "R$ 1.234,56"
+        assert fmt_brl(Decimal("0")) == "R$ 0,00"
+        assert fmt_brl(Decimal("10463698.62")) == "R$ 10.463.698,62"
+
+    def test_aceita_decimal_grande_precisao(self):
+        # Regra #16 / Issue 10: strict-Decimal preserva precisão exata acima de
+        # 15 dígitos significativos — caso que float() (IEEE 754 double) quebraria.
+        assert fmt_brl(Decimal("9999999999999999.99")) == "R$ 9.999.999.999.999.999,99"
+
+    def test_aceita_string_brl(self):
+        # Issue 10: com strict-Decimal via brl(), strings já formatadas parseiam
+        # corretamente (a versão float() anterior as transformava em "R$ 0,00").
+        assert fmt_brl("1.234,56") == "R$ 1.234,56"
+        assert fmt_brl("R$ 1.234,56") == "R$ 1.234,56"
 
 class TestPctDiff:
     def test_iguais(self):
@@ -127,6 +160,10 @@ class TestNormVariants:
         vs = norm_variants("FUAM/FUHAM")
         assert vs == {"FUAM/FUHAM", "FUAM", "FUHAM"}
 
+    def test_none_vazio(self):
+        assert norm_variants(None) == set()
+        assert norm_variants("") == set()
+
 class TestMatchFlex:
     def test_match_exato(self):
         assert match_flex("SEDUC", ["SEDUC", "SES"]) == "SEDUC"
@@ -136,6 +173,18 @@ class TestMatchFlex:
 
     def test_sem_match(self):
         assert match_flex("XPTO", ["SEDUC", "SES"]) is None
+
+    def test_fuzzy_acima_limiar(self):
+        # "SEDUCC" vs "SEDUC": ratio ~0.909 >= 0.8 (default) → casa.
+        assert match_flex("SEDUCC", ["SEDUC"]) == "SEDUC"
+
+    def test_limiar_alto_rejeita(self):
+        # Mesmo par (~0.909) com limiar 0.95 → abaixo do corte → None.
+        assert match_flex("SEDUCC", ["SEDUC"], limiar=0.95) is None
+
+    def test_candidato_vazio(self):
+        # Candidato "" deve ser pulado (branch `if not c_n: continue`).
+        assert match_flex("SEDUC", ["", "SEDUC"]) == "SEDUC"
 
 # ============================================================
 # DATAS
@@ -161,6 +210,10 @@ class TestParseComp:
     def test_invalido(self):
         assert parse_comp(None) is None
         assert parse_comp("2021") is None
+
+    def test_mes_invalido(self):
+        # Mês fora de 1-12 → date() lança ValueError → None.
+        assert parse_comp("13/2021") is None
 
 class TestVencimento30:
     def test_basico(self):
@@ -237,6 +290,38 @@ class TestNormContrato:
     def test_vazio(self):
         assert norm_contrato(None) == ""
         assert norm_contrato("") == ""
+
+    def test_numerador_nao_numerico(self):
+        # int("ABC") lança ValueError → retorna a string original.
+        assert norm_contrato("ABC/2021") == "ABC/2021"
+
+
+class TestLoadProfiles:
+    @staticmethod
+    def _tmp_json(data):
+        import json as _json, os, tempfile
+        fd, path = tempfile.mkstemp(suffix=".json")
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            _json.dump(data, fh)
+        return path
+
+    def test_filtra_metadata(self):
+        import os
+        path = self._tmp_json({"_metadata": {"v": 1}, "SEDUC": {"x": 1}, "SSP": {}})
+        try:
+            d = load_profiles(path)
+            assert set(d.keys()) == {"SEDUC", "SSP"}
+        finally:
+            os.remove(path)
+
+    def test_include_metadata(self):
+        import os
+        path = self._tmp_json({"_metadata": {"v": 1}, "SEDUC": {}})
+        try:
+            d = load_profiles(path, include_metadata=True)
+            assert "_metadata" in d and "SEDUC" in d
+        finally:
+            os.remove(path)
 
 
 if __name__ == "__main__":

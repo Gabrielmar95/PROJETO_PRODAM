@@ -1,5 +1,95 @@
 # Histórico de Sessões — PROJETO PRODAM
 
+## 2026-05-28 — Sessão Janela 2.4 + 1.2 + /simplify (cloud, branch `claude/jolly-heisenberg-mK6VU`)
+
+**Trabalho fechado em 3 commits**: bugs D1 (float→Decimal) + DRY de helpers + auditoria forense da reversão de drift 13/05 + review max-effort com 13 fixes aplicados. Working tree limpo, 113 testes verdes + 1 xfailed.
+
+### Commit `f8290de` — Janela 2.4 (D1 float→Decimal cirúrgico + DRY brl/fmt_brl)
+
+- `scripts/auditoria_completude_devedor.py:250,252`: `float()` → `brl()` em `empenhos_valor` e `faturas_valor` (Regra #16 do CLAUDE.md: "Decimal, nunca float").
+- `scripts/dossie_multiformato_devedor.py:25-60`: removidos helpers locais `brl()` e `fmt_brl()` (16 linhas) — agora importa de `prodam_utils` (DRY).
+- Bug D3 colateralmente resolvido: o `brl()` local removido tinha `except:` nu (engole erros silenciosos).
+- `tests/test_prodam_utils.py`: +2 testes funcionais (`brl` aceita resultado SQL SUM; `fmt_brl` aceita Decimal).
+- `tests/test_regression_decimal_dry.py` (NOVO, 94 linhas): 6 lints estruturais que travam regressão.
+- `_QUESTOES_CRITICAS/10_CONSOLIDAR_BRL_FMT_BRL_STRICT.md` (NOVO, 80 linhas): follow-up — refatorar `prodam_utils.fmt_brl` para não usar `float()` internamente; depois aplicar DRY nos 7 outros scripts com helpers locais (`auto_update_claude_md.py`, `gerar_relatorio_docx.py`, `consultas.py`, `ad_hoc/gerar_memorial_preliminar_ses.py`, `reconciliacao_4_fontes.py`, `detran/gerar_dossie_detran_v2.py`, `ses_reconciliacao_completa.py`).
+
+Escopo cirúrgico: 3 dos 26 `float()` totais em valores monetários. Os 23 restantes (serialização JSON para Chart.js em `dossie_multiformato_devedor.py` linhas 145-185 + `scripts/detalhamento_faturas.py`) ficam para audit downstream antes de mexer — Chart.js consumidor precisa de número, não string Decimal.
+
+### Commit `11d0c40` — Janela 1.2 (Auditoria forense reversão drift 13/05)
+
+`_QUESTOES_CRITICAS/03_REVERSAO_DRIFT_20260513.md` (NOVO, 175 linhas inicialmente; ajustado para 168 após `/simplify`).
+
+**Achado central**: a "reversão de drift" de 13/05 NÃO foi bug aleatório — desfez silenciosamente a reconciliação metodológica validada na Sessão TRD SES/SUSAM (12/05). O backup `_BACKUPS/profiles_PRE-REVERSAO-DRIFT-20260513-155115.json` (334 KB) preserva 12 campos `*_anterior` para SES/SUSAM documentando exatamente o que foi revertido.
+
+**4 siglas materialmente divergentes** (backup 12/05 vs CSV atual):
+
+| Sigla | Δ val_exig | Δ val_atualizado | Δ fat_exig | Bloqueio |
+|---|---:|---:|---:|---|
+| **SES/SUSAM** | +R$ 9.964.692,44 | +R$ 35.691.557,77 | +62 | Item 1.6 (TRD em disco usa R$ 4,78M, CSV diz R$ 14,75M) |
+| **SSP** | 0 | 0 | +15 | Perdeu campo `evidencias_reconhecimento: 125` (Art. 202 VI CC) |
+| **SEJUSC** | ~0 | 0 | -4 | Sutil |
+| **FENIXSOFT** | 0 | 0 | +5 (sign correto após /simplify) | 5 prescritas viraram exigíveis sem justificativa |
+
+**Perda informacional massiva**: JSON tinha 128 campos por devedor; CSV tem 11 colunas. Perdidos: `cnpj` (identificador fiscal!), `evidencias_reconhecimento`, `reconhecimento_revisado`, `modelo_notificacao`, `regime_execucao`, `indice_correcao`, `juros_mora`, `multa`, `score_composto`, `ev_valor_esperado`, `ev_honorarios`, `val_*_anterior` (rastros), etc.
+
+**Conclusão estrutural**: o CSV **não é SSOT real** — é índice resumido. JSON era a fonte verdadeira, hoje só preservado em `_BACKUPS/`. A causa raiz provável é o `auto_update_claude_md.py` all-or-nothing (bug D4 do plano) regenerando o JSON a partir do CSV/SPCF entre 12/05 e 13/05.
+
+**Decisões pendentes (gate humano)**:
+1. SES/SUSAM val_exig real = A (R$ 4,78M backup, reconciliado fatura-a-fatura, defensável adversarialmente) OU B (R$ 14,75M CSV, soma bruta SPCF)?
+2. Restaurar `PRODAM_DOCS/profiles.json` a partir do backup? R1 (total) / R2 (seletivo) / R3 (migrar CSV permanente).
+3. Validar 125 evidências SSP (sustentáveis adversarialmente?).
+
+### Commit `cb61891` — `/simplify` (13 findings aplicados)
+
+Code review max-effort com 9 angles paralelos + sweep:
+
+- **4 bugs de regex no `tests/test_regression_decimal_dry.py`** (substituídos por AST walk):
+  - `[^,\n]+` truncava no `,` interno do `.get()` → `[^\n]+` (linha inteira)
+  - `from prodam_utils import` falhava em imports multi-linha PEP8 parentetizados → `ast.ImportFrom`
+  - `^\s*except\s*:\s*$` MULTILINE não pegava `except: # comment` → `ast.ExceptHandler.type is None`
+  - `^def brl` MULTILINE só top-level → `ast.FunctionDef` qualquer nível
+- **6 testes redundantes** parametrizados via `@pytest.mark.parametrize` em 4 métodos-base.
+- **`test_aceita_resultado_sql_sum`** duplicava `test_none` e `test_numero_simples` — reduzido a 1 assert único (int grande).
+- **Novo teste de fronteira**: `test_aceita_decimal_grande_precisao` com `@pytest.mark.xfail(reason="Issue 10")` — vira XPASS quando Issue 10 land.
+- **3 erros factuais na Issue 03**: sign FENIXSOFT `-5` → `+5`, `p_recuperacao` marcado como preservado em `p_rec`, seção "Anexos" removida (duplicava links).
+- **Issue 10 critério #4 ajustado**: disclaim sobre os 7 outros scripts com helpers locais.
+- **Comentário "Regra #16" redundante removido** do `dossie_multiformato_devedor.py:32` (CLAUDE.md default: no comments).
+- **Standalone runner adicionado** ao `test_regression_decimal_dry.py` (paridade com `test_prodam_utils.py`).
+
+**Skipped com justificativa** (15 categorias documentadas no resumo do `/simplify`):
+- Já em Issue 10: `fmt_brl` float() em prodam_utils, Decimal→float round-trip
+- Fora do escopo declarado: 8+ float() restantes em dossie, top-level DB connect, norm_cliente_nome duplicação
+- Defensivo/prematuro: re-adicionar Decimal import "pra defesa", `sys.path broad`
+- Refutado pelos próprios angles: `_MONEY_STRIP_RX` edge, file I/O caching em tests
+
+### Roadmap após esta sessão
+
+| Janela | Estado em 28/05 |
+|---|---|
+| 0 — Imediata 72h | ✅ Fechada |
+| 1 — Primeira semana | 1.4 ✅, 1.7 ✅, 1.8 ✅, **1.2 ✅**; 1.1/1.3/1.5/1.6 ⏸ aguardando gate humano ou PRODAM_DOCS |
+| 2 — Protocolar + bugs | **2.4 ✅**; 2.0/2.2/2.6/2.7/2.8 ⏸ |
+| 3 — Automação | 3.1 ✅, 3.3 ✅; 3.2/3.4-3.10 ⏸ |
+| 4 — Higiene contínua | Não iniciada |
+
+### Métricas da sessão
+
+- 3 commits adicionais no branch `claude/jolly-heisenberg-mK6VU`
+- 6 arquivos novos/modificados no commit f8290de; 1 no 11d0c40; 5 no cb61891 (alguns repetidos)
+- ~640 linhas adicionadas, ~88 removidas (net +552)
+- Testes: 105 → 113 passed + 1 xfailed
+- 1 nova issue aberta (`03_REVERSAO_DRIFT_20260513.md`), 1 follow-up aberta (`10_CONSOLIDAR_BRL_FMT_BRL_STRICT.md`)
+
+### Aprendizados / decisões duráveis
+
+1. **CSV ≠ SSOT** — é índice resumido com perda de 117 campos por devedor. Decisões jurídicas finais não podem ser tomadas só do CSV.
+2. **Regex em testes estruturais é fonte recorrente de falsos negativos** — AST resolve 4 classes de bugs simultaneamente.
+3. **Surgical fix + Issue follow-up funciona bem** — mantém commits coerentes em escopo, força documentação explícita do que ficou de fora.
+4. **Adversarial-meta-auditor era pré-requisito de TRDs** — mas auditoria de drift e refactor de testes não exigem (boa divisão de gates).
+5. **Próxima sessão**: começar por Decisões 1/2/3 da Issue 03 (gate humano) OU item 2.2 (triagem 18 SEM_d_plus, sem gate).
+
+---
+
 ## 2026-05-11 — Ciclo de 3 edits no KNOWLEDGE_BASE_JURIDICO.md (errata jurídica + RPV auto-atualizável + config_prodam.py fantasma)
 
 ### Resumo

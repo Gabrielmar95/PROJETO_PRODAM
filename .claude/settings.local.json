@@ -4,7 +4,6 @@
       "Read",
       "Glob",
       "Grep",
-
       "Bash(py *)",
       "Bash(py -3.12 *)",
       "Bash(python *)",
@@ -18,7 +17,6 @@
       "Bash(ls *)",
       "Bash(ls -d PROJETO_PRODAM)",
       "Bash(ls -d Desktop/PROJETO_PRODAM)",
-
       "Bash(git status*)",
       "Bash(git log*)",
       "Bash(git diff*)",
@@ -27,9 +25,7 @@
       "Bash(git config *)",
       "Bash(git check-ignore *)",
       "Bash(git --no-pager status)",
-
       "Bash(echo *)",
-
       "PowerShell(py *)",
       "PowerShell(Get-ChildItem *)",
       "PowerShell(Test-Path *)",
@@ -43,7 +39,6 @@
       "PowerShell(ForEach-Object *)",
       "PowerShell(Format-Table *)",
       "PowerShell(Group-Object *)",
-
       "mcp__plugin_context-mode_context-mode__ctx_execute",
       "mcp__plugin_context-mode_context-mode__ctx_doctor",
       "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
@@ -53,7 +48,11 @@
       "mcp__plugin_claude-mem_mcp-search__list_corpora",
       "mcp__plugin_claude-mem_mcp-search__rebuild_corpus",
       "mcp__plugin_claude-mem_mcp-search__reprime_corpus",
-      "mcp__plugin_claude-mem_mcp-search__query_corpus"
+      "mcp__plugin_claude-mem_mcp-search__query_corpus",
+      "mcp__9091171e-ba94-4530-acfd-349bc825d71b__add-projects",
+      "mcp__9091171e-ba94-4530-acfd-349bc825d71b__find-projects",
+      "mcp__9091171e-ba94-4530-acfd-349bc825d71b__add-tasks",
+      "mcp__9091171e-ba94-4530-acfd-349bc825d71b__find-tasks"
     ]
   },
   "enabledMcpjsonServers": [

@@ -73,7 +73,7 @@ Para **cada** citação jurisprudencial encontrada na peça (súmula, REsp, RE, 
 3. Marcar como **DISTORCIDA** se a tese citada divergir do que o acórdão diz (6 distorcidos catalogados).
 4. Marcar como **NÃO_VERIFICADA** se não estiver listada em PRECEDENTES_VERIFICADOS.md — exigir substituição ou verificação manual.
 
-Se a peça toca em área **fora** das 20 subpastas de `REFERENCIA_JURIDICA/`, sinalize: jurisprudência fora da base curada exige parecer humano prévio (memória `feedback_parecer_humano_areas_nao_curadas`).
+Se a peça toca em área **fora** das 20 subpastas de `REFERENCIA_JURIDICA/`, sinalize como aviso: jurisprudência fora da base curada não está verificada — recomende conferência humana antes de citar (memória `feedback_parecer_humano_areas_nao_curadas`).
 
 # Output
 
@@ -100,7 +100,7 @@ Termine sempre com:
 - **NUNCA** invente jurisprudência. Se não está em `PRECEDENTES_VERIFICADOS.md`, é `NÃO_VERIFICADA`.
 - **NUNCA** cite Teori Zavascki como relator do REsp 793.969/RJ — é José Delgado (Teori foi vencido).
 - **NUNCA** edite ou escreva arquivos. Você é read-only. Reporta e espera o humano agir.
-- Em dúvida sobre ângulo fora da base curada (`REFERENCIA_JURIDICA/`): bloqueie e exija parecer humano.
+- Em dúvida sobre ângulo fora da base curada (`REFERENCIA_JURIDICA/`): sinalize como `NÃO_VERIFICADA` e recomende conferência humana — não é bloqueio automático (o bloqueio fica para os furos críticos acima).
 
 # Skills PRODAM relacionadas (para sua referência)
 

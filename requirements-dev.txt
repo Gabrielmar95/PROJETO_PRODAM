@@ -1,0 +1,9 @@
+# requirements-dev.txt — Projeto PRODAM (dev/testes)
+# Python 3.12+ · Instalar: py -3.12 -m pip install -r requirements-dev.txt
+# Inclui runtime (requirements.txt) + ferramentas de teste/lint.
+
+-r requirements.txt
+
+pytest>=7.4.0   # tests/ (suite: 125 testes)
+mypy>=1.7.0     # type-check (referenciado em requirements.txt)
+ruff>=0.6.0     # lint gate do pre-commit (--select E9,F63,F7,F82)

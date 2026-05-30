@@ -20,6 +20,10 @@ PROFILES = BASE / "PRODAM_DOCS" / "profiles.json"
 DB = BASE / "prodam.db"
 OUTPUT = BASE / "CLAUDE.md"
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from prodam_utils import fmt_brl  # SSOT (Regra #16, Issue 11 Cat A)
+
 def load_profiles():
     with open(PROFILES, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -232,9 +236,6 @@ def compute_metrics(data):
     m["top10"] = items[:10]
     m["prescricao_urgente"].sort(key=lambda x: x[2])
     return m
-
-def fmt_brl(v):
-    return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def generate_claude_md(m):
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
@@ -454,7 +455,6 @@ def generate_claude_md(m):
     lines.append("- **Pre-commit hook** (`.pre-commit-config.yaml`): `ruff-check` + validador `profiles.json`. Instalar local com `pre-commit install`.")
     lines.append("- **`.gitignore`**: `PRODAM_DOCS/` inteiro fora do repo (25,4 GB de PDFs + `profiles.json` privado, não versionado).")
     lines.append("- **Hook anti-delete PDF** (`.claude\\hooks\\block_pdf_delete.ps1`): bloqueia `rm`/`Remove-Item` em arquivos `*.pdf` (PDFs = prova jurídica).")
-    lines.append("- **Gate jurídico manual**: ver `~\\.claude\\CLAUDE.md` (regras pessoais) — aguardar 'OK aplicar' explícito antes de Edit/Write em TRDs, notificações, `profiles.json`, `PRECEDENTES_VERIFICADOS.md` e diretórios sensíveis.")
     lines.append("")
 
     # === PLUGINS / SKILLS / HOOKS EXTERNOS ===
@@ -468,24 +468,6 @@ def generate_claude_md(m):
     lines.append("- `get-shit-done-cc` (GSD) v1.41.0 — 66 skills `gsd-*`, 33 agents `gsd-*`, 12 hooks, statusline override, bundle CommonJS em `~\\.claude\\get-shit-done\\bin\\`.")
     lines.append("- `context-mode@context-mode` v1.0.111 — ~11 skills `context-mode:*` + MCP server `mcp__plugin_context-mode_*` (ctx_execute, ctx_batch_execute, ctx_doctor) + 2 hooks (PreToolUse + SessionStart).")
     lines.append("- 5 plugins user-scope habilitados em `enabledPlugins`: `commit-commands`, `claude-md-management`, `claude-code-setup`, `context7`, `pyright-lsp`.")
-    lines.append("")
-    lines.append("### ⚠️ Modo manual obrigatório em arquivos jurídicos")
-    lines.append("Regra agnóstica de plugin — vale para **qualquer skill, atual ou futura**, independente de qual marketplace ou plugin a tenha instalado.")
-    lines.append("")
-    lines.append("**Não auto-acionar skill** quando o trabalho tocar em:")
-    lines.append("- TRDs, notificações extrajudiciais, memoriais, ofícios, petições, dossiês")
-    lines.append("- `profiles.json`, `KNOWLEDGE_BASE_JURIDICO.md`, `PRECEDENTES_VERIFICADOS.md`")
-    lines.append("- Qualquer arquivo em `DOCUMENTOS_GERADOS/`, `PRODAM_DOCS/REFERENCIA_JURIDICA/`, `DETRAN_AUDITORIA_COMPLETA/`, `DOSSIES/`")
-    lines.append("")
-    lines.append("**Padrão exigido**: mostrar diff antes de salvar; aguardar 'aplicar' explícito; respeitar `protocolo-juridico-prodam` quando aplicável.")
-    lines.append("")
-    lines.append("**Sinais de gatilho amplo** que exigem cautela (independente do plugin de origem): descrições contendo 'use whenever', 'use before any response', 'requires Skill tool invocation before', 'automatically', 'autonomous', 'use SEMPRE', 'must use'. Esses verbetes **não** dão licença para pular o gate manual no escopo jurídico.")
-    lines.append("")
-    lines.append("**Exceção**: skills em `~/.claude/skills/` curadas pelo advogado e que seguem `protocolo-juridico-prodam` — essas são o próprio gate manual, não o objeto da cautela.")
-    lines.append("")
-    lines.append("Fundamento: memórias persistentes `feedback_modo_manual_juridico` + `feedback_parecer_humano_areas_nao_curadas`.")
-    lines.append("")
-    lines.append("**Arquivo destino**: `PROJETO_PRODAM/CLAUDE.md` (tracked no git; gerado por `scripts/auto_update_claude_md.py` — ver seção SAFEGUARDS acima).")
     lines.append("")
 
     # === ABRIR O DB ===

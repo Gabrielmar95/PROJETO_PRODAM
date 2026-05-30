@@ -17,7 +17,7 @@ from __future__ import annotations
 import json, sys, sqlite3, re
 from pathlib import Path
 from datetime import date
-from decimal import Decimal, InvalidOperation
+from decimal import Decimal
 from collections import defaultdict, Counter
 
 sys.stdout.reconfigure(encoding='utf-8')
@@ -26,7 +26,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
-from prodam_utils import norm, norm_variants
+from prodam_utils import norm, norm_variants, brl, fmt_brl
 
 DB = sqlite3.connect(str(ROOT / "prodam.db"))
 DOCS = ROOT / "PRODAM_DOCS"
@@ -38,17 +38,6 @@ OUT = ROOT / "AUDITORIA_COMPLETUDE"
 OUT.mkdir(exist_ok=True)
 
 HOJE = date.today()
-
-def brl(s) -> Decimal:
-    if s is None or s == "": return Decimal(0)
-    s = str(s).replace("R$", "").replace("\xa0", "").strip()
-    if not s or s == "-": return Decimal(0)
-    if "," in s: s = s.replace(".", "").replace(",", ".")
-    try: return Decimal(s)
-    except (InvalidOperation, ValueError): return Decimal(0)
-
-def fmt_brl(v) -> str:
-    return f"R$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def norm_cliente_nome(nome: str) -> list[str]:
     """Gera variações do nome do cliente para casamento em diferentes fontes."""
@@ -247,9 +236,9 @@ def auditar_devedor(sigla: str, profile: dict) -> dict:
         "contratos_spcf": len(contratos_spcf),
         "contratos_db": len(contratos_db),
         "empenhos_db": empenhos_info.get("n", 0) or 0,
-        "empenhos_valor": float(empenhos_info.get("total", 0) or 0),
+        "empenhos_valor": brl(empenhos_info.get("total", 0) or 0),
         "faturas_db": fat_db_info.get("COUNT(*)", 0) or 0,
-        "faturas_valor": float(fat_db_info.get("SUM(valor_bruto)", 0) or 0),
+        "faturas_valor": brl(fat_db_info.get("SUM(valor_bruto)", 0) or 0),
         "cobrancas": len(cobr_dev),
     }
     result["contagens"] = contagens
