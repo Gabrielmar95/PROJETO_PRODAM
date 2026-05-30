@@ -9,5 +9,17 @@
       "WebFetch(domain:sapl.al.am.leg.br)",
       "WebFetch(domain:www.pge.am.gov.br)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh"
+          }
+        ]
+      }
+    ]
   }
 }
