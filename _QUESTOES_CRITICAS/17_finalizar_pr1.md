@@ -1,10 +1,11 @@
 # 17 — Finalizar PR #1 → ✅ RESOLVIDA via caminho B (PR #11)
 
-> Status: ✅ RESOLVIDA via caminho B — falta só o "OK, merge" do PR #11
+> Status: ✅ RESOLVIDA — PR #11 mergeado (merged:true; merge-commit cdaa7b5 = tip de main). Nada pendente.
 > Aberta em: 2026-05-30 (sessão cloud encerrada antes de executar o rebase)
 > Resolvida em: 2026-05-30 (sessão local — caminho B executado: PR #11 aberto, #1 fechado)
+> Mergeada em: 2026-05-30T21:17 (PR #11 mergeado por Gabrielmar95; `main` avançou para cdaa7b5)
 > Tipo: handoff de sessão / plano de execução
-> Severidade: 🟢 baixa (desfecho aplicado; resta 1 OK de merge)
+> Severidade: 🟢 baixa (desfecho aplicado e mergeado em `main`)
 > Predecessor: `16_handoff_proxima_sessao.md` (parte das recomendações já tratadas: hook PreCompact em PR #10)
 
 ## DESFECHO (2026-05-30) — caminho B, NÃO o rebase
