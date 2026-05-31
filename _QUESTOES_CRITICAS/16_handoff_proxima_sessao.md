@@ -1,6 +1,6 @@
 # 16 — Handoff para próxima sessão (recomendações pendentes + sync com main)
 
-> Status: 🟡 needs-human (decisão de prioridade do advogado)
+> Status: 🟡 opt-in pendente — §1 (sync com main) ✅ CONCLUÍDO (main = cdaa7b5); restam §2/§3 (automação opt-in)
 > Aberta em: 2026-05-30 (sessão `988964a6`, branch `claude/serene-hawking-nX853`)
 > Reaberta em: 2026-05-30 (sessão cloud sucessora — `_metadata` atualizado abaixo)
 > Tipo: handoff de sessão / continuidade
@@ -14,12 +14,17 @@ letra B + issue 15 marcada resolvida) **e abriu PR #8** com essa correção. Ses
 sucessora confirmou: **PR #8 já está VERDE pra merge** (`mergeable_state: clean`, 3/3
 checks success). Restaram **3 grupos de pendências**:
 
-1. **Sync com main**: PR #8 aberto e verde, aguardando OK para `--merge`.
+1. **Sync com main**: ✅ CONCLUÍDO — o commit do PR #8 (`15a2161`) está na `main` (`main = cdaa7b5`); nenhum PR de sync pendente.
 2. **Recomendações de automação** geradas pelo `claude-automation-recommender`
    (subagentes / MCP / hooks) — todas opt-in.
 3. **Allowlist de permissões** do `fewer-permission-prompts` — nada aplicado ainda.
 
 ## §1 — Sync com `origin/main` (decisão imediata)
+
+> ✅ **CONCLUÍDO (2026-05-31).** `main = cdaa7b5` (= esta branch). O commit do PR #8 (`15a2161`)
+> está na `main`; **não há PR de sync pendente**. A cadeia #8→#11 já chegou em `main` (PR #11
+> mergeado, `cdaa7b5`). A tabela e os comandos abaixo são **registro histórico** do estado de
+> 2026-05-30 (quando #8 ainda estava aberto) — **não executar**.
 
 ### Estado verificado em 2026-05-30 (cloud sucessora)
 
