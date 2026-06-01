@@ -1,0 +1,100 @@
+HOJE = 2026-05-31  |  devedores no SSOT = 69
+
+SIGLA           SSOT dpp     dias(vivo)  CSV d_plus fat_presc  FLAG
+--------------------------------------------------------------------------------
+DETRAN          2026-03-20          -72         730        54  <<< DIVERGE SSOT x CSV
+SEDUC           2026-03-20          -72         -20         8  <<< DIVERGE SSOT x CSV
+SEAD            2026-03-20          -72         -20        44  <<< DIVERGE SSOT x CSV
+FUAM/FUHAM      2026-03-20          -72         -20        53  <<< DIVERGE SSOT x CSV
+POLÍCIA CIVIL   2026-03-20          -72         -20        24  <<< DIVERGE SSOT x CSV
+SEC             2026-03-20          -72         -20        12  <<< DIVERGE SSOT x CSV
+FAAR/SEDEL      2026-03-20          -72         -20       108  <<< DIVERGE SSOT x CSV
+FMT             2026-03-20          -72         -20        42  <<< DIVERGE SSOT x CSV
+SEDECTI         2026-03-20          -72         -20       176  <<< DIVERGE SSOT x CSV
+CBMAM           2026-03-20          -72         -20        20  <<< DIVERGE SSOT x CSV
+FHAJ            2026-03-20          -72         -20        41  <<< DIVERGE SSOT x CSV
+FHEMOAM         2026-03-20          -72         -20         1  <<< DIVERGE SSOT x CSV
+SEFAZ           2026-03-20          -72         -20         1  <<< DIVERGE SSOT x CSV
+SEPROR          2026-03-20          -72         -20        10  <<< DIVERGE SSOT x CSV
+SUHAB           2026-03-20          -72         -20        36  <<< DIVERGE SSOT x CSV
+FCECON          2026-03-20          -72         -20        28  <<< DIVERGE SSOT x CSV
+AMAZONPREV      2026-03-20          -72         -20         2  <<< DIVERGE SSOT x CSV
+SEMA            2026-03-20          -72         -20         5  <<< DIVERGE SSOT x CSV
+PGE             2026-03-20          -72         -20         6  <<< DIVERGE SSOT x CSV
+SECT            2026-03-20          -72         -20         9  <<< DIVERGE SSOT x CSV
+IDAM            2026-03-20          -72         -20         5  <<< DIVERGE SSOT x CSV
+PMAM            2026-03-20          -72         -20         5  <<< DIVERGE SSOT x CSV
+ADS             2026-04-12          -49           3         0  <<< DIVERGE SSOT x CSV
+SSP             2026-06-30           30         -39       114  <<< DIVERGE SSOT x CSV
+SEJUSC          2026-08-31           92         -20        93  <<< DIVERGE SSOT x CSV
+SES/SUSAM       2026-09-30          122          34       180  <<< DIVERGE SSOT x CSV
+SEINFRA         2027-01-01          215         267         0  <<< DIVERGE SSOT x CSV
+IPAAM           2027-01-01          215         267         0  <<< DIVERGE SSOT x CSV
+SEAS            2027-01-01          215         267         0  <<< DIVERGE SSOT x CSV
+ARSEPAM         2027-01-01          215         267         0  <<< DIVERGE SSOT x CSV
+SNPH            2027-01-01          215         267         0  <<< DIVERGE SSOT x CSV
+FVS             2027-01-01          215         267         0  <<< DIVERGE SSOT x CSV
+FUNTEA          2027-01-01          215         267         0  <<< DIVERGE SSOT x CSV
+FENIXSOFT       2027-02-28          273        1271         5  <<< DIVERGE SSOT x CSV
+CAIXA           2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+BANCO MASTER    2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+PROVER          2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+BANCO SICOOB    2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+IKM DE          2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+SUL AMERICA     2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+ANOREG          2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+ODONTOMED       2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+BANCO BMG       2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+ITRANSITO       2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+EASYTECH        2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+BMC             2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+CPA             2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+BANCO SAFRA     2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+B23 TECNOLOGIA  2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+PSA TECHNOLOGY  2029-10-01         1219        1271         0  <<< DIVERGE SSOT x CSV
+SEMIG           N/A                                         0  
+CETAM           (sem data)                                  0  
+UGPI            (sem data)                                  0  
+ADAF            (sem data)                                  0  
+CGE             (sem data)                                  0  
+FMPES           (sem data)                                  0  
+DPE             (sem data)                                  0  
+SEJEL           (sem data)                                  0  
+SETRAB          (sem data)                                  0  
+AADESAM         (sem data)                                  0  
+FJJA            (sem data)                                  0  
+CASA CIVIL      (sem data)                                  0  
+COSAMA          (sem data)                                  0  
+CASA MILITAR    (sem data)                                  0  
+BANCO DAYCOVAL  (sem data)                                  0  
+BRADESCO        (sem data)                                  0  
+SALUX           (sem data)                                  0  
+BRADESCO FINANCIAMENTO(sem data)                                  0  
+
+=== SSOT ao vivo: prescricao em <=90 dias (inclui ja vencidas) ===
+  DETRAN: 2026-03-20  (JA VENCIDA)  ve=R$ 0.00
+  SEDUC: 2026-03-20  (JA VENCIDA)  ve=R$ 49,215,512.48
+  SEAD: 2026-03-20  (JA VENCIDA)  ve=R$ 2,339,702.20
+  FUAM/FUHAM: 2026-03-20  (JA VENCIDA)  ve=R$ 44,020.01
+  POLÍCIA CIVIL: 2026-03-20  (JA VENCIDA)  ve=R$ 960,481.71
+  SEC: 2026-03-20  (JA VENCIDA)  ve=R$ 99,050.71
+  FAAR/SEDEL: 2026-03-20  (JA VENCIDA)  ve=R$ 734,498.94
+  FMT: 2026-03-20  (JA VENCIDA)  ve=R$ 272,130.68
+  SEDECTI: 2026-03-20  (JA VENCIDA)  ve=R$ 1,249,203.13
+  CBMAM: 2026-03-20  (JA VENCIDA)  ve=R$ 3,134.03
+  FHAJ: 2026-03-20  (JA VENCIDA)  ve=R$ 259,910.78
+  FHEMOAM: 2026-03-20  (JA VENCIDA)  ve=R$ 6,886.91
+  SEFAZ: 2026-03-20  (JA VENCIDA)  ve=R$ 198,980.49
+  SEPROR: 2026-03-20  (JA VENCIDA)  ve=R$ 77,960.49
+  SUHAB: 2026-03-20  (JA VENCIDA)  ve=R$ 840,061.15
+  FCECON: 2026-03-20  (JA VENCIDA)  ve=R$ 637,106.68
+  AMAZONPREV: 2026-03-20  (JA VENCIDA)  ve=R$ 736,219.79
+  SEMA: 2026-03-20  (JA VENCIDA)  ve=R$ 38,541.11
+  PGE: 2026-03-20  (JA VENCIDA)  ve=R$ 680,239.77
+  SECT: 2026-03-20  (JA VENCIDA)  ve=R$ 258,328.58
+  IDAM: 2026-03-20  (JA VENCIDA)  ve=R$ 328,735.51
+  PMAM: 2026-03-20  (JA VENCIDA)  ve=R$ 27,020.90
+  ADS: 2026-04-12  (JA VENCIDA)  ve=R$ 211,657.47
+  SSP: 2026-06-30  (30d)  ve=R$ 4,553,230.80
+
