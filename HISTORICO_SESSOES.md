@@ -1,5 +1,34 @@
 # Histórico de Sessões — PROJETO PRODAM
 
+## 2026-06-08 — Setup Semgrep no Windows + isolamento pipx (erros e acertos)
+
+Sessão de tooling, não jurídica. Objetivo: ativar o plugin Semgrep do Claude Code (mínimo `semgrep >= 1.146.0`). A skill `setup-semgrep-plugin` é só-macOS (`brew`, `which`) — precisou ser traduzida para Windows + PowerShell.
+
+### ✅ Acertos
+
+1. **Semgrep tem suporte nativo Windows (GA desde verão/2025)** — sem WSL, sem Docker. PyPI publica wheel `win_amd64`. Versão final instalada: **1.165.0** (mínimo do plugin 1.146.0 — satisfeito). Fontes: <https://semgrep.dev/resources/whats-new/summer-25/>, <https://pypi.org/project/semgrep/>.
+2. **Isolamento via `pipx`** — CLI fica em venv próprio, não polui o site-packages global compartilhado pelo pipeline forense. `py -3.12 -m pipx install semgrep` põe o `semgrep.exe` em `C:\Users\gabri\.local\bin` (já no PATH). O próprio `pipx` ficou em `C:\Users\gabri\AppData\Roaming\Python\Python312\Scripts` (fora do PATH — invocar via `py -3.12 -m pipx`).
+3. **Commit seletivo limpo** (`170e89a`) — staged só os 2 arquivos pretendidos (`.vscode/extensions.json` + `_QUESTOES_CRITICAS/CLAUDE.md.preview-20260511`), deixando backups/vendored (`_BACKUPS/`, `awesome-design-md-main/`, `impeccable-main/`, `CLAUDE.md.bak.*`, `_legado/.sql`) fora. Usado o padrão arquivo-temp + `git commit -F` (sem heredoc bash).
+
+### ❌ Erros (não repetir)
+
+1. **`pip install semgrep` GLOBAL quebrou o pipeline forense.** O `py -3.12 -m pip install --upgrade semgrep` fez downgrade silencioso de deps compartilhadas: `click` 8.3.2→8.1.8, `mcp` 1.27.0→1.23.3, `wrapt` 2.1.2→1.17.3 (+ tomli, ruamel.yaml.clib), gerando conflito para `marker-pdf`, `unstructured`, `sqlite-utils`, `fastmcp` (ferramentas de PDF/OCR/DB do projeto).
+   - **Correção:** desinstalar o semgrep global → `py -3.12 -m pip install "click==8.3.2" "mcp==1.27.0" "wrapt==2.1.2"` (pin-restore) → `py -3.12 -m pipx install semgrep` (isolado). Verificado que o ambiente voltou ao estado anterior; conflitos residuais (pypdf/pdfminer/pydantic/pillow/pandas/opentelemetry+wrapt) são **pré-existentes**, não introduzidos.
+   - **Lição durável:** ferramenta CLI em ambiente forense compartilhado → **sempre `pipx`, nunca `pip` global**. Antes de instalar CLI Python, perguntar: "isso é biblioteca (import) ou ferramenta (executável)?" — executável vai em pipx.
+2. **`py -3.12 -m semgrep` está deprecado** desde 1.38.0 ("Please simply run `semgrep`"). **Correção:** usar o comando `semgrep` puro / caminho completo do `.exe`, nunca `python -m semgrep`.
+3. **`semgrep install-semgrep-pro` pode falhar no Windows** — baixa binário nativo historicamente só-Linux/macOS. O engine OSS/Community funciona sem isso e sem login. `semgrep login` é interativo (browser) e só serve para Pro/cloud. **Não bloquear o setup** se o Pro falhar.
+4. **`npx skills find <termo-chutado>` foi rejeitado pelo usuário.** Não rodar busca de skills num termo adivinhado sem query explícita do usuário. `/find-skills` sem args = não quer Q&A guiado naquele momento.
+5. **`python-executor` roda em sandbox REMOTO (inference.sh)** — **não enviar dado sensível do PRODAM** (profiles.json, valores, CNPJs) para esse skill.
+
+### Estado final verificado
+
+- `semgrep` → `C:\Users\gabri\.local\bin\semgrep.exe`, v1.165.0, mínimo do plugin satisfeito.
+- Pacotes do pipeline forense restaurados (click 8.3.2 / mcp 1.27.0 / wrapt 2.1.2).
+- Tools MCP do Semgrep disponíveis (`semgrep_scan`, `semgrep_scan_with_custom_rule`, `semgrep_findings`, etc.).
+- Commit `170e89a` no `main`, pronto para push.
+
+---
+
 ## 2026-05-28 — Sessão Janela 2.4 + 1.2 + /simplify (cloud, branch `claude/jolly-heisenberg-mK6VU`)
 
 **Trabalho fechado em 3 commits**: bugs D1 (float→Decimal) + DRY de helpers + auditoria forense da reversão de drift 13/05 + review max-effort com 13 fixes aplicados. Working tree limpo, 113 testes verdes + 1 xfailed.
