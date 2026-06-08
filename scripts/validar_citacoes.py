@@ -32,7 +32,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-EXTENSOES = (".md", ".py")
+EXTENSOES = (".md", ".py", ".js")
 
 # Diretórios excluídos da varredura (são fixtures, backups, ou pastas históricas
 # onde o erro é intencional ou meta-discurso)

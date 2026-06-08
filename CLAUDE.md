@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-_Atualizado em 30/05/2026 16:47 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 08/06/2026 12:24 via `scripts/auto_update_claude_md.py`._
 
 > Conteúdo regenerado a cada `/sincronizar-prodam`. Para regras fixas → editar o gerador. Para métricas → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\auto_update_claude_md.py`.
 
@@ -10,12 +10,12 @@ _Atualizado em 30/05/2026 16:47 via `scripts/auto_update_claude_md.py`._
 - **Fee**: 20% sobre créditos recuperados | **Obrigações**: relatórios quinzenais (R$500/dia atraso | 10% do crédito por prescrição perdida)
 
 ## 2. STATUS DO PORTFÓLIO
-- **70 devedores** (26 Gov Direta, 21 Gov Indireta, 22 Privadas)
+- **69 devedores** (26 Gov Direta, 21 Gov Indireta, 22 Privadas)
 - **R$ 83.668.078,44 exigível** | R$ 125.245.390,64 atualizado
 - **3477 faturas** (2326 exigíveis, 1082 prescritas)
 - **Força**: 12 FORTE · 15 MÉDIA · 42 FRACA
 
-**Pipeline (próximo passo)**: ANALISAR_DOCUMENTACAO=36 · CLASSIFICAR=17 · ENVIAR_TRD=9 · PROTOCOLAR_PETICAO=5 · HABILITAÇÃO DE CRÉDITO=1 · N/A=1 · AVALIAR_SUCESSAO=1
+**Pipeline (próximo passo)**: ANALISAR_DOCUMENTACAO=36 · CLASSIFICAR=17 · ENVIAR_TRD=9 · PROTOCOLAR_PETICAO=5 · HABILITAÇÃO DE CRÉDITO=1 · AVALIAR_SUCESSAO=1
 
 **Top 10 devedores** (por valor exigível):
 - SEDUC: R$ 49.215.512,48 | FORTE | ANALISAR_DOCUMENTACAO
@@ -32,7 +32,8 @@ _Atualizado em 30/05/2026 16:47 via `scripts/auto_update_claude_md.py`._
 → Lista completa em [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).
 
 ## 3. ALERTAS DE PRESCRIÇÃO (<90 dias)
-- 🟠 **SSP**: 2026-06-30 (31 dias) — R$ 4.553.230,80
+- 🔴 **SSP**: 2026-06-30 (22 dias) — R$ 4.553.230,80
+- 🟡 **SEJUSC**: 2026-08-31 (84 dias) — R$ 2.589.660,12
 
 ## 4. WORKFLOW DE COBRANÇA
 Pipeline end-to-end F0→F6 (skills, gates documentais, prazos): [`WORKFLOW_COBRANCA.md`](WORKFLOW_COBRANCA.md).
@@ -41,7 +42,7 @@ Pipeline end-to-end F0→F6 (skills, gates documentais, prazos): [`WORKFLOW_COBR
 1. **Decreto Estadual AM nº 53.464/2026** (substitui 51.084/2025) — verificar 4 exceções antes de qualquer ação contra Gov AM.
 2. Silêncio do devedor **não** interrompe prescrição — exige ato inequívoco (Art. 202 CC, rol taxativo).
 3. Juros pós-**Lei 14.905/2024** — não presumir 1% a.m.; verificar arts. 404-406 CC.
-4. **Índices por contrato**: consultar `scripts/normalizador.py` (mapa contrato/ano → regime, SSOT real). Valores absolutos (SM vigente, teto RPV, custas) hoje inline em scripts de cálculo — não criar `config_prodam.py` sem auditoria prévia.
+4. **Índices por contrato**: não há arquivo-SSOT de índices — `config_prodam.py` e `scripts/normalizador.py` **não existem** em código ativo (verificado 2026-06-08). Regime/índice (SELIC/IGPM/IPCA) é confirmado por contrato na cláusula econômica; correção SELIC via BCB live (série SGS 4390) em `scripts/ad_hoc/gerar_memorial_preliminar_ses.py`. Valores absolutos (SM vigente, teto RPV, custas) inline em scripts de cálculo — não criar `config_prodam.py`/`normalizador.py` sem auditoria prévia.
 5. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF).
 6. NFs do credor **não** são marcos interruptivos (exige ato do devedor).
 7. Prescrição é por **fatura individual** (Art. 189 + 206 §5º I CC), contada do **vencimento**.
@@ -82,14 +83,14 @@ Pipeline end-to-end F0→F6 (skills, gates documentais, prazos): [`WORKFLOW_COBR
 ## 8. MAPAS DO PROJETO
 | Caminho | O que cobre |
 |---------|-------------|
-| `PRODAM_DOCS/profiles.json` | **SSOT** dos 70 devedores (privado, fora do repo) |
+| `PRODAM_DOCS/profiles.json` | **SSOT** dos 69 devedores (privado, fora do repo) |
 | `PRODAM_DOCS/_ANALISE/prodam.db` | DB canônico (gerado por `PRODAM_DOCS/build_sqlite.py`) |
 | `prodam.db` (raiz) | Cópia derivada usada por `scripts/consultas.py` |
 | `PRODAM_DOCS/REFERENCIA_JURIDICA/` | Base jurídica (20 subpastas; consultar antes de parecer) |
 | `PRODAM_DOCS/_SKILLS/` | Skills jurídicas curadas |
 | `SPCF_EXTRACAO/` | Web scraping SPCF (rate-limit obrigatório) |
 | `scripts/` | Pipelines, consultas, dossiês, sincronização |
-| `STATUS_DEVEDORES.md` | Lista completa dos 70 devedores |
+| `STATUS_DEVEDORES.md` | Lista completa dos 69 devedores |
 | `WORKFLOW_COBRANCA.md` | Pipeline end-to-end F0→F6 |
 | `PLAYBOOK_ORGAOS_V2.md` | 13 passos validados no DETRAN A+ 94/100 |
 | `.claude/skills/INDEX.md` | Índice das skills do projeto (versionado) |

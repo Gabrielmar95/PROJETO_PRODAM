@@ -11,6 +11,19 @@
     ]
   },
   "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pwsh -NoProfile -File \"$CLAUDE_PROJECT_DIR\\.claude\\hooks\\block_pdf_delete.ps1\"",
+            "timeout": 5,
+            "statusMessage": "Verificando remoção de PDF..."
+          }
+        ]
+      }
+    ],
     "SessionStart": [
       {
         "hooks": [

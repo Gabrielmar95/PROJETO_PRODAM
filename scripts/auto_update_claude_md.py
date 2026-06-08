@@ -200,6 +200,9 @@ def _parse_skill(skill_md, name):
 
 
 def compute_metrics(data):
+    # _metadata (e qualquer chave _*) não é devedor — excluir da contagem e dos
+    # agregados (senão `total` vira 69+1=70 e injeta um fantasma "N/A" nas categorias).
+    data = {k: v for k, v in data.items() if not k.startswith("_")}
     m = {
         "total": len(data),
         "val_exig": 0, "val_orig": 0, "val_atualizado": 0,
@@ -316,7 +319,7 @@ def generate_claude_md(m):
     L.append("1. **Decreto Estadual AM nº 53.464/2026** (substitui 51.084/2025) — verificar 4 exceções antes de qualquer ação contra Gov AM.")
     L.append("2. Silêncio do devedor **não** interrompe prescrição — exige ato inequívoco (Art. 202 CC, rol taxativo).")
     L.append("3. Juros pós-**Lei 14.905/2024** — não presumir 1% a.m.; verificar arts. 404-406 CC.")
-    L.append("4. **Índices por contrato**: consultar `scripts/normalizador.py` (mapa contrato/ano → regime, SSOT real). Valores absolutos (SM vigente, teto RPV, custas) hoje inline em scripts de cálculo — não criar `config_prodam.py` sem auditoria prévia.")
+    L.append("4. **Índices por contrato**: não há arquivo-SSOT de índices — `config_prodam.py` e `scripts/normalizador.py` **não existem** em código ativo (verificado 2026-06-08). Regime/índice (SELIC/IGPM/IPCA) é confirmado por contrato na cláusula econômica; correção SELIC via BCB live (série SGS 4390) em `scripts/ad_hoc/gerar_memorial_preliminar_ses.py`. Valores absolutos (SM vigente, teto RPV, custas) inline em scripts de cálculo — não criar `config_prodam.py`/`normalizador.py` sem auditoria prévia.")
     L.append("5. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF).")
     L.append("6. NFs do credor **não** são marcos interruptivos (exige ato do devedor).")
     L.append("7. Prescrição é por **fatura individual** (Art. 189 + 206 §5º I CC), contada do **vencimento**.")
@@ -363,14 +366,14 @@ def generate_claude_md(m):
     L.append("## 8. MAPAS DO PROJETO")
     L.append("| Caminho | O que cobre |")
     L.append("|---------|-------------|")
-    L.append("| `PRODAM_DOCS/profiles.json` | **SSOT** dos 70 devedores (privado, fora do repo) |")
+    L.append(f"| `PRODAM_DOCS/profiles.json` | **SSOT** dos {m['total']} devedores (privado, fora do repo) |")
     L.append("| `PRODAM_DOCS/_ANALISE/prodam.db` | DB canônico (gerado por `PRODAM_DOCS/build_sqlite.py`) |")
     L.append("| `prodam.db` (raiz) | Cópia derivada usada por `scripts/consultas.py` |")
     L.append("| `PRODAM_DOCS/REFERENCIA_JURIDICA/` | Base jurídica (20 subpastas; consultar antes de parecer) |")
     L.append("| `PRODAM_DOCS/_SKILLS/` | Skills jurídicas curadas |")
     L.append("| `SPCF_EXTRACAO/` | Web scraping SPCF (rate-limit obrigatório) |")
     L.append("| `scripts/` | Pipelines, consultas, dossiês, sincronização |")
-    L.append("| `STATUS_DEVEDORES.md` | Lista completa dos 70 devedores |")
+    L.append(f"| `STATUS_DEVEDORES.md` | Lista completa dos {m['total']} devedores |")
     L.append("| `WORKFLOW_COBRANCA.md` | Pipeline end-to-end F0→F6 |")
     L.append("| `PLAYBOOK_ORGAOS_V2.md` | 13 passos validados no DETRAN A+ 94/100 |")
     L.append("| `.claude/skills/INDEX.md` | Índice das skills do projeto (versionado) |")

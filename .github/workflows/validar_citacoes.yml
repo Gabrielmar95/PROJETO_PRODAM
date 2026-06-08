@@ -9,12 +9,14 @@ on:
     paths:
       - '**.md'
       - '**.py'
+      - '**.js'
       - 'scripts/validar_citacoes.py'
       - '.github/workflows/validar_citacoes.yml'
   pull_request:
     paths:
       - '**.md'
       - '**.py'
+      - '**.js'
 
 permissions:
   contents: read

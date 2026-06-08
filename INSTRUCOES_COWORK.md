@@ -3,7 +3,7 @@
 > Texto para o campo de instruções do projeto no Cowork. As regras detalhadas vivem no `CLAUDE.md` (autoridade máxima); aqui ficam só o objeto, as fontes da verdade, a higiene de pastas e as travas de segurança.
 
 ## OBJETO
-Recuperação de créditos da PRODAM (Processamento de Dados Amazonas S.A.) contra órgãos e entes do Estado do Amazonas e devedores privados. A lista canônica de devedores e o estágio de cada um estão em `PRODAM_DOCS/profiles.json` (autoritativo), resumidos em `STATUS_DEVEDORES.md`.
+Recuperação de créditos da PRODAM (Processamento de Dados Amazonas S.A.) contra órgãos e entes do Estado do Amazonas e devedores privados.
 
 **Frente atual: administrativa.** Priorize a cobrança extrajudicial — TRD, notificações, compensação administrativa, protesto, certidões. A via judicial (execução, monitória, habilitação de crédito) entra nos casos já maduros para isso ou quando a administrativa se esgota; antes de mudar de via, avise.
 

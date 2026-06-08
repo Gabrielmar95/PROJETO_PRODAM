@@ -162,7 +162,7 @@ const paragrafos = [
   new Paragraph({
     children: [
       new TextRun({ text: "III. ", bold: true }),
-      new TextRun("A composição documental (contrato + empenho + nota de liquidação + aceite) constitui título executivo extrajudicial, conforme jurisprudência consolidada (REsp 793.969/RJ, Min. Teori Zavascski).")
+      new TextRun("A composição documental (contrato + empenho + nota de liquidação + aceite) constitui título executivo extrajudicial, conforme jurisprudência consolidada (REsp 793.969/RJ, Rel. p/ acórdão Min. José Delgado; Teori Zavascki vencido).")
     ],
     spacing: { after: 300 },
     alignment: AlignmentType.JUSTIFIED,
