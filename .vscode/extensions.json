@@ -8,6 +8,7 @@
         "anthropic.claude-code",
         "ms-python.black-formatter",
         "streetsidesoftware.code-spell-checker-portuguese-brazilian",
-        "formulahendry.auto-rename-tag"
+        "formulahendry.auto-rename-tag",
+        "gruntfuggly.todo-tree"
     ]
 }
