@@ -47,3 +47,27 @@ node_modules/
 
 # Pastas de saida de sessoes antigas (pesadas)
 _ARQUIVO_SESSAO_*/_OUT_*/
+
+# Certificados digitais (ICP-Brasil — NUNCA versionar)
+*.pem
+*.pfx
+*.p12
+*.crt
+*.cer
+*.pkcs12
+
+# Documentos Office (geralmente contêm dados de caso)
+# Para versionar um modelo SEM dados reais, use: git add -f caminho/do/modelo.docx
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.csv
+
+# Índice vetorial (ChromaDB)
+chroma/
+chromadb/
+
+# Pastas de saída genéricas
+outputs/
+output/
