@@ -33,6 +33,7 @@ _Skills moram em `PRODAM_DOCS/_SKILLS/` (não versionado). Este índice é versi
 | `normalizador-valores-brl` | Normalizador robusto de valores monetários brasileiros (BRL) para o Projeto PRODAM. |
 | `nota-empenho-classificador` | Classificação de Notas de Empenho (NE) dos PDFs do Projeto PRODAM. |
 | `nota-liquidacao-extrator` | Extração e cruzamento de Notas de Liquidação (NL) dos PDFs do Projeto PRODAM. |
+| `organizador-arquivos-prodam` | Organiza e separa arquivos do Projeto PRODAM POR DEVEDOR, detecta duplicatas por hash MD5 e renomeia no padrao PRODAM, em modo copia nao-destrutivo. |
 | `orgao-auditoria-completa` | Executa auditoria completa de qualquer órgão devedor do PRODAM — converte todos os documentos (PDFs, docx, xlsx, html, md, png) em JSON estruturado, ingere contratos no DB, calcula score composto em 1 |
 | `pipeline-devedor-completo` | Pipeline e workflow completo por devedor do Projeto PRODAM. |
 | `precatorios-rpv-fragmentacao` | Simulação de fragmentação entre RPV (< 60 SM ≈ R$ 97.260) e Precatório para maximizar velocidade de recebimento no Projeto PRODAM. |

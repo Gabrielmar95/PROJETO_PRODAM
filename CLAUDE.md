@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-_Atualizado em 08/06/2026 12:24 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 09/06/2026 15:13 via `scripts/auto_update_claude_md.py`._
 
 > Conteúdo regenerado a cada `/sincronizar-prodam`. Para regras fixas → editar o gerador. Para métricas → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\auto_update_claude_md.py`.
 
@@ -32,8 +32,8 @@ _Atualizado em 08/06/2026 12:24 via `scripts/auto_update_claude_md.py`._
 → Lista completa em [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).
 
 ## 3. ALERTAS DE PRESCRIÇÃO (<90 dias)
-- 🔴 **SSP**: 2026-06-30 (22 dias) — R$ 4.553.230,80
-- 🟡 **SEJUSC**: 2026-08-31 (84 dias) — R$ 2.589.660,12
+- 🔴 **SSP**: 2026-06-30 (21 dias) — R$ 4.553.230,80
+- 🟡 **SEJUSC**: 2026-08-31 (83 dias) — R$ 2.589.660,12
 
 ## 4. WORKFLOW DE COBRANÇA
 Pipeline end-to-end F0→F6 (skills, gates documentais, prazos): [`WORKFLOW_COBRANCA.md`](WORKFLOW_COBRANCA.md).
