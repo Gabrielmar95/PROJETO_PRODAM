@@ -260,7 +260,10 @@ def compute_metrics(data):
         "top10": [],
         "prescricao_urgente": [],   # 0 < dias <= 90 (futuras)
         "prescricao_vencida": [],   # dias <= 0 — data no passado/stale: EXPOR, nunca esconder
+        "prescricao_vencida_protegida": [],  # idem, mas urgencia=PROTEGIDA_ART202_VI (marcos prevalecem)
         "prescricao_sem_data": [],  # campo ausente/null ou não parseável (ex.: 'N/A')
+        "faturas_gap": [],          # conciliação: devedores com total ≠ exigíveis + prescritas
+        "faturas_gap_total": 0,
         "fase_counts": {},
         "all_items": [],
     }
@@ -276,9 +279,18 @@ def compute_metrics(data):
         m["val_exig"] += ve
         m["val_orig"] += vo
         m["val_atualizado"] += va
-        m["faturas_total"] += int(d.get("faturas_total", 0) or 0)
-        m["faturas_exig"] += int(d.get("faturas_exigiveis", 0) or 0)
-        m["faturas_presc"] += int(d.get("faturas_prescritas", 0) or 0)
+        ft = int(d.get("faturas_total", 0) or 0)
+        fe = int(d.get("faturas_exigiveis", 0) or 0)
+        fp_n = int(d.get("faturas_prescritas", 0) or 0)
+        m["faturas_total"] += ft
+        m["faturas_exig"] += fe
+        m["faturas_presc"] += fp_n
+        # Conciliação (2026-06-09): gap = faturas nem exigíveis nem prescritas
+        # (canceladas/excluídas do universo) — era invisível e fazia 3477≠2326+1082.
+        gap = ft - fe - fp_n
+        if gap > 0:
+            m["faturas_gap"].append((sigla, ft, fe, fp_n, gap))
+            m["faturas_gap_total"] += gap
 
         cat = d.get("categoria", "N/A")
         m["categorias"][cat] = m["categorias"].get(cat, 0) + 1
@@ -307,7 +319,12 @@ def compute_metrics(data):
                 if 0 < dias_presc <= 90:
                     m["prescricao_urgente"].append((sigla, dp, dias_presc, ve))
                 elif dias_presc <= 0:
-                    m["prescricao_vencida"].append((sigla, dp, dias_presc, ve))
+                    # PROTEGIDA_ART202_VI: marco interruptivo registrado prevalece —
+                    # não é risco 🔥, é data a reconfirmar (linha 🛡️ própria).
+                    if (d.get("urgencia_prescricao") or "") == "PROTEGIDA_ART202_VI":
+                        m["prescricao_vencida_protegida"].append((sigla, dp, dias_presc, ve))
+                    else:
+                        m["prescricao_vencida"].append((sigla, dp, dias_presc, ve))
             except (ValueError, TypeError):
                 m["prescricao_sem_data"].append((sigla, str(dp)))
         else:
@@ -321,7 +338,9 @@ def compute_metrics(data):
     m["all_items"] = items
     m["prescricao_urgente"].sort(key=lambda x: (x[2], x[0]))
     m["prescricao_vencida"].sort(key=lambda x: (-x[3], x[0]))  # maior exigível primeiro
+    m["prescricao_vencida_protegida"].sort(key=lambda x: (-x[3], x[0]))
     m["prescricao_sem_data"].sort(key=lambda x: x[0])
+    m["faturas_gap"].sort(key=lambda x: (-x[4], x[0]))
     return m
 
 
@@ -373,7 +392,9 @@ def generate_claude_md(m):
     L.append("## 2. STATUS DO PORTFÓLIO")
     L.append(f"- **{m['total']} devedores** ({m['categorias'].get('GOV_DIRETA',0)} Gov Direta, {m['categorias'].get('GOV_INDIRETA',0)} Gov Indireta, {m['categorias'].get('EMPRESA_PRIVADA',0)} Privadas)")
     L.append(f"- **{fmt_brl(m['val_exig'])} exigível** | {fmt_brl(m['val_atualizado'])} atualizado ({m['n_val_atualizado']}/{m['total']} com valor atualizado)")
-    L.append(f"- **{m['faturas_total']} faturas** ({m['faturas_exig']} exigíveis, {m['faturas_presc']} prescritas)")
+    gap_txt = (f", {m['faturas_gap_total']} fora do universo exig./presc. — canceladas/excluídas, ver STATUS"
+               if m["faturas_gap_total"] else "")
+    L.append(f"- **{m['faturas_total']} faturas** ({m['faturas_exig']} exigíveis, {m['faturas_presc']} prescritas{gap_txt})")
     L.append(f"- **Força**: {m['forcas'].get('FORTE',0)} FORTE · {m['forcas'].get('MÉDIA',0)} MÉDIA · {m['forcas'].get('FRACA',0)} FRACA")
     L.append("")
     # tie-break por nome garante output idêntico entre execuções (idempotência)
@@ -402,6 +423,9 @@ def generate_claude_md(m):
         tot_venc = sum((ve for _s, _dp, _di, ve in m["prescricao_vencida"]), Decimal(0))
         pior_sigla, _dp, _di, pior_ve = m["prescricao_vencida"][0]
         L.append(f"- 🔥 **{len(m['prescricao_vencida'])} devedores com data de prescrição no PASSADO/stale** (Σ exigível {fmt_brl(tot_venc)}; maior: {pior_sigla} {fmt_brl(pior_ve)}) — recalcular a data e conferir marcos interruptivos (Art. 202 VI CC) antes de tratar como perdida. Lista nominal: [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).")
+    if m["prescricao_vencida_protegida"]:
+        sig_p = " · ".join(s for s, _dp, _di, _ve in m["prescricao_vencida_protegida"])
+        L.append(f"- 🛡️ **{len(m['prescricao_vencida_protegida'])} protegido(s) por marco interruptivo (Art. 202 VI CC)** com data registrada no passado — marco prevalece; reconfirmar e atualizar a data: {sig_p}.")
     if m["prescricao_sem_data"]:
         L.append(f"- _({len(m['prescricao_sem_data'])} devedores sem data de prescrição registrada — nomes no [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md))_")
     L.append("")
@@ -429,7 +453,10 @@ def generate_claude_md(m):
     #   ex-17 + ex-18 → R13, com path CORRIGIDO: o catálogo fica em
     #     REFERENCIA_JURIDICA/11_PESQUISAS_ORIGINAIS/ (a ex-17 apontava para a raiz).
     L.append("## 5. REGRAS JURÍDICAS")
-    L.append("1. **Decreto Estadual AM nº 53.464/2026** (revogou o 51.084/2025) — verificar as 4 exceções antes de qualquer ação contra Gov AM.")
+    # 2026-06-09: "revogou"→"sucedeu" — o teor oficial (REFERENCIA_JURIDICA/16_AUXILIAR/
+    # DECRETO_53464_2026_TEOR_LEGISLA_AM.md) não tem cláusula revogatória expressa; o
+    # 51.084/2025 teve efeitos exauridos em 2025 e o §5º do 53.464 preserva suas reduções.
+    L.append("1. **Decreto Estadual AM nº 53.464/2026** (sucedeu o 51.084/2025, de efeitos exauridos em 2025) — verificar as 4 exceções (art. 1º §§1º-4º) antes de qualquer ação contra Gov AM; teor em `REFERENCIA_JURIDICA/16_AUXILIAR/`.")
     L.append("2. Prescrição é por **fatura individual** (Art. 189 + 206 §5º I CC), contada do **vencimento**.")
     L.append("3. Silêncio do devedor **não** interrompe prescrição — exige ato inequívoco (Art. 202 CC, rol taxativo).")
     L.append("4. Marcos interruptivos: **empenho (NE) = reconhecimento tácito** (Art. 202 VI CC) e interrompe; **NF emitida pelo credor não interrompe** (exige ato do devedor).")
@@ -562,11 +589,37 @@ def generate_status_devedores(m):
             L.append(f"| {sigla.replace('|', chr(92) + '|')} | {dp} | {dias} | {fmt_brl(ve)} |")
         L.append("")
 
+    if m["prescricao_vencida_protegida"]:
+        L.append("## 🛡️ Protegidos por marco interruptivo (Art. 202 VI CC) — data a reconfirmar")
+        L.append("")
+        L.append("Marco registrado prevalece sobre a data abaixo (não é risco 🔥); atualizar `data_prescricao_proxima` quando o marco for revisado.")
+        L.append("")
+        L.append("| Sigla | Data registrada | Dias | Exigível |")
+        L.append("|-------|-----------------|-----:|---------:|")
+        for sigla, dp, dias, ve in m["prescricao_vencida_protegida"]:
+            L.append(f"| {sigla} | {dp} | {dias} | {fmt_brl(ve)} |")
+        L.append("")
+
     if m["prescricao_sem_data"]:
         L.append("## Devedores sem data de prescrição registrada")
         L.append("")
         nomes = " · ".join(f"{s}" + (f" (`{raw}`)" if raw != "—" else "") for s, raw in m["prescricao_sem_data"])
         L.append(f"{len(m['prescricao_sem_data'])} devedores: {nomes}.")
+        L.append("")
+
+    # ====== Conciliação de faturas (2026-06-09): explica o gap 3477 ≠ 2326+1082 ======
+    if m["faturas_gap"]:
+        L.append("## Conciliação de faturas (total ≠ exigíveis + prescritas)")
+        L.append("")
+        L.append(f"{m['faturas_gap_total']} faturas fora do universo exigível/prescrito — canceladas/excluídas "
+                 "do universo de cobrança (ex.: SES/SUSAM tem 29 exclusões documentadas em "
+                 "`faturas_exigiveis_breakdown` + canceladas SPCF). Itemização fatura a fatura pendente "
+                 "(fonte: CSVs cruzados por devedor).")
+        L.append("")
+        L.append("| Sigla | Total | Exigíveis | Prescritas | Fora do universo |")
+        L.append("|-------|------:|----------:|-----------:|-----------------:|")
+        for sigla, ft, fe, fp_n, gap in m["faturas_gap"]:
+            L.append(f"| {sigla} | {ft} | {fe} | {fp_n} | {gap} |")
         L.append("")
 
     # ====== Contagens vivas do prodam.db (migradas do CLAUDE.md §10 em 2026-06-09) ======

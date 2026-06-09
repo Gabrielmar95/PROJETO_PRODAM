@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-_Atualizado em 09/06/2026 17:50 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 09/06/2026 19:28 via `scripts/auto_update_claude_md.py`._
 
 > Conteúdo regenerado a cada `/sincronizar-prodam`. Para regras fixas → editar o gerador. Para métricas → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\auto_update_claude_md.py`.
 
@@ -22,7 +22,7 @@ _Atualizado em 09/06/2026 17:50 via `scripts/auto_update_claude_md.py`._
 ## 2. STATUS DO PORTFÓLIO
 - **69 devedores** (26 Gov Direta, 21 Gov Indireta, 22 Privadas)
 - **R$ 83.668.078,44 exigível** | R$ 125.245.390,64 atualizado (65/69 com valor atualizado)
-- **3477 faturas** (2326 exigíveis, 1082 prescritas)
+- **3477 faturas** (2326 exigíveis, 1082 prescritas, 69 fora do universo exig./presc. — canceladas/excluídas, ver STATUS)
 - **Força**: 12 FORTE · 15 MÉDIA · 42 FRACA
 
 **Pipeline (próximo passo)**: ANALISAR_DOCUMENTACAO=36 · CLASSIFICAR=17 · ENVIAR_TRD=9 · PROTOCOLAR_PETICAO=5 · AVALIAR_SUCESSAO=1 · HABILITAÇÃO DE CRÉDITO=1
@@ -38,15 +38,16 @@ _Atualizado em 09/06/2026 17:50 via `scripts/auto_update_claude_md.py`._
 
 ## 3. ALERTAS DE PRESCRIÇÃO
 - 🔴 **SSP**: 2026-06-30 (21 dias) — R$ 4.553.230,80
+- 🔴 **SUHAB**: 2026-06-30 (21 dias) — R$ 840.061,15
 - 🟡 **SEJUSC**: 2026-08-31 (83 dias) — R$ 2.589.660,12
-- 🔥 **23 devedores com data de prescrição no PASSADO/stale** (Σ exigível R$ 59.219.383,52; maior: SEDUC R$ 49.215.512,48) — recalcular a data e conferir marcos interruptivos (Art. 202 VI CC) antes de tratar como perdida. Lista nominal: [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).
-- _(18 devedores sem data de prescrição registrada — nomes no [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md))_
+- 🛡️ **1 protegido(s) por marco interruptivo (Art. 202 VI CC)** com data registrada no passado — marco prevalece; reconfirmar e atualizar a data: DETRAN.
+- _(9 devedores sem data de prescrição registrada — nomes no [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md))_
 
 ## 4. WORKFLOW DE COBRANÇA
 Pipeline end-to-end F0→F6 (skills, gates documentais, prazos): [`WORKFLOW_COBRANCA.md`](WORKFLOW_COBRANCA.md).
 
 ## 5. REGRAS JURÍDICAS
-1. **Decreto Estadual AM nº 53.464/2026** (revogou o 51.084/2025) — verificar as 4 exceções antes de qualquer ação contra Gov AM.
+1. **Decreto Estadual AM nº 53.464/2026** (sucedeu o 51.084/2025, de efeitos exauridos em 2025) — verificar as 4 exceções (art. 1º §§1º-4º) antes de qualquer ação contra Gov AM; teor em `REFERENCIA_JURIDICA/16_AUXILIAR/`.
 2. Prescrição é por **fatura individual** (Art. 189 + 206 §5º I CC), contada do **vencimento**.
 3. Silêncio do devedor **não** interrompe prescrição — exige ato inequívoco (Art. 202 CC, rol taxativo).
 4. Marcos interruptivos: **empenho (NE) = reconhecimento tácito** (Art. 202 VI CC) e interrompe; **NF emitida pelo credor não interrompe** (exige ato do devedor).

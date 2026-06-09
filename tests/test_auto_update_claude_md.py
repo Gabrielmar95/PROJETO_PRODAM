@@ -165,12 +165,30 @@ class TestGenerateClaudeMd:
         out = g.generate_claude_md(self._m())
         assert "_ARQUIVO_DRIFT" not in out
 
-    def test_decreto_vigente_e_revogado(self):
+    def test_decreto_vigente_e_sucessao(self):
         out = g.generate_claude_md(self._m())
         assert "53.464/2026" in out
-        assert "revogou o 51.084/2025" in out
+        assert "sucedeu o 51.084/2025" in out
 
     def test_rpv_lei_correta(self):
         out = g.generate_claude_md(self._m())
         assert "Lei AM 2.748/2002" in out
         assert "teto **federal**" in out
+
+    def test_gap_de_conciliacao_exposto(self):
+        # devedor com total ≠ exig + presc (a origem do 3477 ≠ 2326+1082)
+        m = self._m(XGAP=_dev(fat=(10, 5, 4)))  # gap = 1
+        assert m["faturas_gap_total"] == 1
+        out = g.generate_claude_md(m)
+        assert "fora do universo exig./presc." in out
+
+    def test_protegida_art202_fora_do_fogo(self):
+        dp = (date.today() - timedelta(days=30)).isoformat()
+        prot = _dev(val="500000.00", dp=dp)
+        prot["urgencia_prescricao"] = "PROTEGIDA_ART202_VI"
+        m = self._m(XPROT=prot)
+        assert [x[0] for x in m["prescricao_vencida_protegida"]] == ["XPROT"]
+        assert all(x[0] != "XPROT" for x in m["prescricao_vencida"])
+        out = g.generate_claude_md(m)
+        assert "🛡️" in out and "XPROT" in out
+        assert "PASSADO/stale" not in out  # nenhuma vencida não-protegida no cenário

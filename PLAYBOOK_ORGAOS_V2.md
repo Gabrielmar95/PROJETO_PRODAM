@@ -1,5 +1,5 @@
 # Playbook Replicável — Auditoria de Órgão (V2)
-_13 passos validados no DETRAN/AM A+ 94/100. Atualizado em 09/06/2026 17:50._
+_13 passos validados no DETRAN/AM A+ 94/100. Atualizado em 09/06/2026 19:28._
 
 Use este playbook para auditar **qualquer novo órgão** do portfólio. Cada passo tem entrada, ferramenta e saída esperada. Score-alvo: A (≥85) — DETRAN atingiu 94 (A+).
 
