@@ -1,5 +1,5 @@
 # Playbook Replicável — Auditoria de Órgão (V2)
-_13 passos validados no DETRAN/AM A+ 94/100. Atualizado em 09/06/2026 15:13._
+_13 passos validados no DETRAN/AM A+ 94/100. Atualizado em 09/06/2026 17:50._
 
 Use este playbook para auditar **qualquer novo órgão** do portfólio. Cada passo tem entrada, ferramenta e saída esperada. Score-alvo: A (≥85) — DETRAN atingiu 94 (A+).
 
@@ -13,15 +13,15 @@ Esse script executa F1→F11 automaticamente. Os passos abaixo descrevem o que e
 
 ### Passo 1 — Localizar PDFs e organizar pastas
 - **Entrada**: pasta `PRODAM_DOCS/<ORGAO>/` com PDFs originais.
-- **Ferramenta**: organização manual ou `scripts/organizar_pdfs_orgao.py`.
+- **Ferramenta**: skill `organizador-arquivos-prodam` (modo cópia não-destrutivo) ou organização manual.
 - **Saída**: subpastas por tipo (CONTRATOS/, NES/, FATURAS/, NFs/, COBRANCAS/).
 - **Critério**: nenhum PDF apagado; backup em `_BACKUPS/`.
 
 ### Passo 2 — OCR completo dos PDFs
 - **Entrada**: PDFs do passo 1.
-- **Ferramenta**: `scripts/ocr_v4.py` (Tesseract + correção de layout).
-- **Saída**: `.json` por PDF com texto + bounding boxes.
-- **Critério**: ≥95% de páginas com texto extraído (verificar via `ocr_audit.py`).
+- **Ferramenta**: `scripts/ocr_lote_sem_texto_externo.py` + skill `ocr-pdfs-prodam` (pytesseract/pdf2image, 200 DPI, pt-BR).
+- **Saída**: texto pesquisável por PDF (originais preservados como prova).
+- **Critério**: ≥95% de páginas com texto extraído (relatório do próprio script).
 
 ### Passo 3 — Ingestão no `prodam.db`
 - **Entrada**: JSONs do passo 2.
@@ -31,13 +31,13 @@ Esse script executa F1→F11 automaticamente. Os passos abaixo descrevem o que e
 
 ### Passo 4 — Normalização de contratos
 - **Entrada**: 3 formatos coexistindo (`006/2021`, `6/2021`, `2021/006`).
-- **Ferramenta**: `scripts/normalizador.py` (mapa contrato/ano → regime).
+- **Ferramenta**: normalização inline nos scripts de reconciliação (`scripts/reconciliacao_4_fontes.py`) — **não** criar `normalizador.py` (NUNCA-4).
 - **Saída**: coluna `contrato_normalizado` em todas as tabelas.
 - **Critério**: zero contratos órfãos após reconciliação.
 
 ### Passo 5 — Extração contratual cláusula-a-cláusula
 - **Entrada**: contratos do passo 1.
-- **Ferramenta**: `scripts/extracao_contratual.py`.
+- **Ferramenta**: skill `extracao-clausulas-contratuais` + confirmação manual da cláusula econômica (Regra 10).
 - **Saída**: JSON por contrato com cláusulas econômicas (índice, juros, multa, foro, prazos).
 - **Critério**: índice de correção identificado (IGPM/IPCA/SELIC) por contrato.
 
@@ -49,19 +49,19 @@ Esse script executa F1→F11 automaticamente. Os passos abaixo descrevem o que e
 
 ### Passo 7 — Cálculo de prescrição por fatura
 - **Entrada**: `spcf_faturas` + vencimentos + marcos interruptivos.
-- **Ferramenta**: `scripts/prescricao_por_fatura.py`.
+- **Ferramenta**: `scripts/alerta_prescricao.py` (buckets/alertas) + skill `analise-prescricao-creditos`.
 - **Saída**: classificação `EXIGIVEL`/`PRESCRITA` por fatura + `data_prescricao_proxima` por devedor.
 - **Critério**: regra Art. 202 VI CC aplicada (empenho interrompe; silêncio não).
 
 ### Passo 8 — Atualização monetária
 - **Entrada**: faturas exigíveis do passo 7.
-- **Ferramenta**: `scripts/atualizacao_monetaria_bcb.py` (BCB live + Decimal).
+- **Ferramenta**: `scripts/ad_hoc/gerar_memorial_preliminar_ses.py` (BCB live SGS 4390 + Decimal; adaptar por órgão) + skill `atualizacao-monetaria-sob-demanda`.
 - **Saída**: `val_atualizado` por devedor; índice aplicado (IGPM/IPCA/SELIC) conforme contrato.
 - **Critério**: SELIC já inclui juros (não somar separado); IGPM = só correção.
 
 ### Passo 9 — Score composto 12 dimensões
 - **Entrada**: dados completos do devedor.
-- **Ferramenta**: `scripts/score_composto.py`.
+- **Ferramenta**: skill `classificacao-forca-probatoria` (score gravado em `profiles.json`).
 - **Saída**: `score_composto` (0-100) + classificação A+/A/A-/B+/B.
 - **Critério**: cadeia documental 5 elos (15%), prescrição (15%), blindagem (10%), compliance (10%).
 
@@ -79,13 +79,13 @@ Esse script executa F1→F11 automaticamente. Os passos abaixo descrevem o que e
 
 ### Passo 12 — Blindagem pré-execução (22 itens)
 - **Entrada**: peça do passo 11.
-- **Ferramenta**: `scripts/blindagem_pre_execucao.py`.
-- **Saída**: checklist 22 itens (legitimidade, competência, prescrição, título, índice, juros, multa, etc).
-- **Critério**: 22/22 itens validados antes de protocolar.
+- **Ferramenta**: skill `blindagem-pre-execucao` (checklist pré-protocolo + 6 teses de embargos antecipadas).
+- **Saída**: checklist completo (legitimidade, competência, prescrição, título, índice, juros, multa, etc).
+- **Critério**: todos os itens do checklist validados antes de protocolar.
 
 ### Passo 13 — Atualização de `profiles.json` e commit
 - **Entrada**: tudo dos passos anteriores.
-- **Ferramenta**: edit manual ou `scripts/atualizar_profile.py --orgao <NOME>`.
+- **Ferramenta**: `scripts/atualizar_profiles_pos_acao.py` ou edição auditada (backup antes: `profiles_BACKUP_ANTES_<motivo>.json`).
 - **Saída**: `profiles.json` atualizado + commit auditado.
 - **Critério**: `_metadata.last_updated` atualizado; campos obrigatórios preenchidos; CI passa.
 

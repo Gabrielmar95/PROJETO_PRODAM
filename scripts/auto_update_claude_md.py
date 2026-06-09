@@ -3,10 +3,18 @@
 Auto-update CLAUDE.md (raiz) + 3 satélites + índice de skills a partir de profiles.json + prodam.db.
 
 Gera 4 arquivos .md (+ INDEX.md quando há skills em _SKILLS/):
-  1. CLAUDE.md                — root enxuto (~120 linhas), regras + métricas vivas
-  2. STATUS_DEVEDORES.md      — todos os 70 devedores (além do Top 10)
+  1. CLAUDE.md                — root enxuto: NUNCA + regras (13) + métricas vivas
+  2. STATUS_DEVEDORES.md      — todos os 69 devedores + prescrições vencidas + DB vivo
   3. WORKFLOW_COBRANCA.md     — pipeline end-to-end F0→F6
   4. PLAYBOOK_ORGAOS_V2.md    — 13 passos validados no DETRAN A+ 94/100
+
+Refatorado em 2026-06-09 (auditoria de engenharia de contexto):
+  - validate_profiles() fail-fast: nada é escrito se a fonte estiver quebrada (exit 1)
+  - Decimal em todas as somas (NUNCA-2 / ex-Regra 16) via prodam_utils.brl
+  - Alertas passam a EXPOR datas de prescrição vencidas/stale (antes o filtro
+    0<dias<=90 as escondia em silêncio — risco de multa contratual de 10%)
+  - 18 regras → bloco NUNCA (8) + 13 regras renumeradas, sem perda nominal
+    (rastreabilidade: _AUDITORIA_CLAUDE_MD/FASE3_DIAGNOSTICO_2026-06-09.md)
 
 Rodar:
   py -3.12 scripts\\auto_update_claude_md.py
@@ -15,6 +23,7 @@ import json
 import re
 import sqlite3
 from datetime import datetime, date
+from decimal import Decimal
 from pathlib import Path
 
 # fix 2026-04-22: script movido para scripts/, BASE precisa subir 1 nivel se necessario
@@ -30,12 +39,51 @@ OUTPUT_PLAYBOOK = BASE / "PLAYBOOK_ORGAOS_V2.md"
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from prodam_utils import fmt_brl  # SSOT (Regra #16, Issue 11 Cat A)
+from prodam_utils import fmt_brl, brl  # SSOT (NUNCA-2 / ex-Regra 16, Issue 11 Cat A)
 
 
 def load_profiles():
     with open(PROFILES, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+class ProfilesInvalidos(ValueError):
+    """profiles.json estruturalmente quebrado — nada deve ser escrito."""
+
+
+def validate_profiles(data):
+    """Fail-fast ANTES de escrever qualquer .md (espelha a validação do CI).
+
+    Sem isto, um profiles.json truncado/corrompido geraria CLAUDE.md lixo em
+    silêncio e o /sincronizar-prodam reportaria sucesso.
+    """
+    if not isinstance(data, dict):
+        raise ProfilesInvalidos("profiles.json não é um objeto JSON (dict)")
+    if "_metadata" not in data:
+        raise ProfilesInvalidos("chave _metadata ausente")
+    devedores = {k: v for k, v in data.items() if not k.startswith("_")}
+    if len(devedores) < 50:
+        raise ProfilesInvalidos(
+            f"apenas {len(devedores)} devedores (<50) — fonte truncada?")
+    nao_dict = [k for k, v in devedores.items() if not isinstance(v, dict)][:5]
+    if nao_dict:
+        raise ProfilesInvalidos(f"perfis que não são dict: {nao_dict}")
+    soma = sum((brl(d.get("val_exig")) for d in devedores.values()), Decimal(0))
+    if soma <= 0:
+        raise ProfilesInvalidos("soma de val_exig <= 0 — fonte corrompida?")
+    return True
+
+
+def _count_ref_juridica_dirs():
+    """Conta subpastas de REFERENCIA_JURIDICA no disco (ex-'20 subpastas'
+    hardcoded — em 2026-06-09 o disco tinha 18; contagem agora é dinâmica)."""
+    ref = BASE / "PRODAM_DOCS" / "REFERENCIA_JURIDICA"
+    if not ref.exists():
+        return None
+    try:
+        return sum(1 for p in ref.iterdir() if p.is_dir())
+    except OSError:
+        return None
 
 
 def query_db(sql):
@@ -205,17 +253,26 @@ def compute_metrics(data):
     data = {k: v for k, v in data.items() if not k.startswith("_")}
     m = {
         "total": len(data),
-        "val_exig": 0, "val_orig": 0, "val_atualizado": 0,
+        "val_exig": Decimal(0), "val_orig": Decimal(0), "val_atualizado": Decimal(0),
+        "n_val_atualizado": 0,  # quantos devedores têm val_atualizado preenchido
         "faturas_total": 0, "faturas_exig": 0, "faturas_presc": 0,
         "categorias": {}, "forcas": {}, "proximos": {},
-        "top10": [], "prescricao_urgente": [], "fase_counts": {},
+        "top10": [],
+        "prescricao_urgente": [],   # 0 < dias <= 90 (futuras)
+        "prescricao_vencida": [],   # dias <= 0 — data no passado/stale: EXPOR, nunca esconder
+        "prescricao_sem_data": [],  # campo ausente/null ou não parseável (ex.: 'N/A')
+        "fase_counts": {},
         "all_items": [],
     }
     items = []
     for sigla, d in data.items():
-        ve = float(d.get("val_exig", 0) or 0)
-        vo = float(d.get("val_orig", 0) or 0)
-        va = float(d.get("val_atualizado", 0) or 0)
+        # Somas em Decimal (NUNCA-2): brl() aceita None/str/num e devolve Decimal.
+        ve = brl(d.get("val_exig"))
+        vo = brl(d.get("val_orig"))
+        va_raw = d.get("val_atualizado")
+        va = brl(va_raw)
+        if va_raw not in (None, ""):
+            m["n_val_atualizado"] += 1
         m["val_exig"] += ve
         m["val_orig"] += vo
         m["val_atualizado"] += va
@@ -237,7 +294,10 @@ def compute_metrics(data):
         fase = d.get("fase_atual", "N/A") or "N/A"
         m["fase_counts"][fase] = m["fase_counts"].get(fase, 0) + 1
 
-        # Dias até prescrição (pode ser None)
+        # Dias até prescrição. Três destinos possíveis — nenhum é descartado:
+        # urgente (futura <90d), vencida (passado/stale) ou sem_data.
+        # Antes de 2026-06-09 o filtro era `0 < dias <= 90` e datas vencidas
+        # sumiam em silêncio (22 devedores com 2026-03-20, incl. SEDUC R$49M).
         dias_presc = None
         dp = d.get("data_prescricao_proxima")
         if dp:
@@ -246,25 +306,36 @@ def compute_metrics(data):
                 dias_presc = (dt - date.today()).days
                 if 0 < dias_presc <= 90:
                     m["prescricao_urgente"].append((sigla, dp, dias_presc, ve))
+                elif dias_presc <= 0:
+                    m["prescricao_vencida"].append((sigla, dp, dias_presc, ve))
             except (ValueError, TypeError):
-                pass
+                m["prescricao_sem_data"].append((sigla, str(dp)))
+        else:
+            m["prescricao_sem_data"].append((sigla, "—"))
 
         items.append((sigla, ve, fp, pp_short, d, dias_presc, fase))
 
-    items.sort(key=lambda x: x[1], reverse=True)
+    # sort estável e determinístico (idempotência): valor desc, sigla como desempate
+    items.sort(key=lambda x: (-x[1], x[0]))
     m["top10"] = items[:10]
     m["all_items"] = items
-    m["prescricao_urgente"].sort(key=lambda x: x[2])
+    m["prescricao_urgente"].sort(key=lambda x: (x[2], x[0]))
+    m["prescricao_vencida"].sort(key=lambda x: (-x[3], x[0]))  # maior exigível primeiro
+    m["prescricao_sem_data"].sort(key=lambda x: x[0])
     return m
 
 
-def generate_claude_md(m):
-    """CLAUDE.md raiz enxuto (~120 linhas).
+TOP_N = 5  # top-N do CLAUDE.md (lista completa fica no STATUS_DEVEDORES.md)
 
-    10 seções: identidade, status portfolio, alertas prescrição <90d, link workflow,
-    regras jurídicas, hierarquia de fontes, convenções técnicas, mapas, comandos, skills/MCP.
-    Fatos jurídicos verdadeiros (REsp 793.969/José Delgado, RPV/AM Lei 2.748/2002, FUHAM≠FHAJ,
-    fee 20%) migrados como conhecimento neutro nas Regras Jurídicas — sem camada de safeguard."""
+
+def generate_claude_md(m):
+    """CLAUDE.md raiz enxuto.
+
+    Seções 0-10: NUNCA (vedações), identidade, status, alertas de prescrição
+    (futuras <90d + vencidas/stale + sem data), link workflow, 13 regras jurídicas,
+    hierarquia de fontes, convenções técnicas, mapas, comandos, skills/DB.
+    Fatos jurídicos verdadeiros (REsp 793.969/José Delgado, RPV/AM Lei 2.748/2002,
+    FUHAM≠FHAJ, fee 20%) como conhecimento neutro — sem camada de safeguard."""
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
     L = []
 
@@ -274,6 +345,21 @@ def generate_claude_md(m):
     L.append(f"_Atualizado em {now} via `scripts/auto_update_claude_md.py`._")
     L.append("")
     L.append("> Conteúdo regenerado a cada `/sincronizar-prodam`. Para regras fixas → editar o gerador. Para métricas → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\\auto_update_claude_md.py`.")
+    L.append("")
+
+    # ============ 0. NUNCA (vedações de maior dano) ============
+    # Consolidação 2026-06-09: vedações antes diluídas nas ex-Regras 4/8/15/16 e §7.
+    # Item 8 (ANTHROPIC_API_KEY): env var ativa faz o Claude Code cobrar na API do
+    # Console em vez do plano de assinatura — prejuízo real de ~US$100 já ocorrido.
+    L.append("## 0. NUNCA (vedações — maior dano primeiro)")
+    L.append("1. **Nunca apagar/mover/sobrescrever PDF** — prova jurídica (hook `block_pdf_delete.ps1` ativo; backups em `_BACKUPS/`).")
+    L.append("2. **Nunca `float` em valores BRL** — `Decimal` sempre; formatar via `prodam_utils.fmt_brl` (`R$ 1.234,56`).")
+    L.append("3. **Nunca citar lei/jurisprudência fora do catálogo verificado** (Regra 13).")
+    L.append("4. **Nunca criar `config_prodam.py`/`normalizador.py`** sem auditoria prévia — não existem em código ativo.")
+    L.append("5. **Nunca executar comandos de dentro de `_LIXO_NAO_USAR\\_ARCHIVE`** — antes de qualquer prompt no terminal: `cd C:\\Users\\gabri`.")
+    L.append("6. **Nunca usar o Demonstrativo Excel como fonte de valores** — a SSOT é `PRODAM_DOCS/profiles.json`.")
+    L.append("7. **Nunca inverter FUHAM × FHAJ** — FUHAM = Fundação Alfredo da Matta; FHAJ = Fundação Hospital Adriano Jorge.")
+    L.append("8. **Antes de rodar Claude Code no terminal**: `Test-Path Env:ANTHROPIC_API_KEY` deve retornar `False` — a env var ativa cobra a API do Console em vez do plano.")
     L.append("")
 
     # ============ 1. IDENTIDADE ============
@@ -286,27 +372,38 @@ def generate_claude_md(m):
     # ============ 2. STATUS DO PORTFÓLIO ============
     L.append("## 2. STATUS DO PORTFÓLIO")
     L.append(f"- **{m['total']} devedores** ({m['categorias'].get('GOV_DIRETA',0)} Gov Direta, {m['categorias'].get('GOV_INDIRETA',0)} Gov Indireta, {m['categorias'].get('EMPRESA_PRIVADA',0)} Privadas)")
-    L.append(f"- **{fmt_brl(m['val_exig'])} exigível** | {fmt_brl(m['val_atualizado'])} atualizado")
+    L.append(f"- **{fmt_brl(m['val_exig'])} exigível** | {fmt_brl(m['val_atualizado'])} atualizado ({m['n_val_atualizado']}/{m['total']} com valor atualizado)")
     L.append(f"- **{m['faturas_total']} faturas** ({m['faturas_exig']} exigíveis, {m['faturas_presc']} prescritas)")
     L.append(f"- **Força**: {m['forcas'].get('FORTE',0)} FORTE · {m['forcas'].get('MÉDIA',0)} MÉDIA · {m['forcas'].get('FRACA',0)} FRACA")
     L.append("")
-    L.append("**Pipeline (próximo passo)**: " + " · ".join(f"{pp}={c}" for pp, c in sorted(m["proximos"].items(), key=lambda x: -x[1])))
+    # tie-break por nome garante output idêntico entre execuções (idempotência)
+    L.append("**Pipeline (próximo passo)**: " + " · ".join(f"{pp}={c}" for pp, c in sorted(m["proximos"].items(), key=lambda x: (-x[1], x[0]))))
     L.append("")
-    L.append("**Top 10 devedores** (por valor exigível):")
-    for sigla, ve, fp, pp, d, _dias, _fase in m["top10"]:
+    L.append(f"**Top {TOP_N} devedores** (por valor exigível):")
+    for sigla, ve, fp, pp, d, _dias, _fase in m["top10"][:TOP_N]:
         L.append(f"- {sigla}: {fmt_brl(ve)} | {fp} | {pp}")
     L.append("")
-    L.append("→ Lista completa em [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).")
+    L.append(f"→ Lista completa dos {m['total']} devedores: [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).")
     L.append("")
 
-    # ============ 3. ALERTAS DE PRESCRIÇÃO <90 dias ============
-    L.append("## 3. ALERTAS DE PRESCRIÇÃO (<90 dias)")
+    # ============ 3. ALERTAS DE PRESCRIÇÃO ============
+    # Três grupos, nenhum oculto (correção 2026-06-09 — antes datas vencidas sumiam):
+    #   🔴🟠🟡 futuras <90d · 🔥 vencidas/stale (agregado; nominal no STATUS) · sem data.
+    # Cautela jurídica: data no passado NÃO significa prescrição consumada — pode haver
+    # marco interruptivo não registrado (Art. 202 VI CC) ou data stale por recalcular.
+    L.append("## 3. ALERTAS DE PRESCRIÇÃO")
     if m["prescricao_urgente"]:
         for sigla, dp, dias, ve in m["prescricao_urgente"]:
             emoji = "🔴" if dias <= 30 else "🟠" if dias <= 60 else "🟡"
             L.append(f"- {emoji} **{sigla}**: {dp} ({dias} dias) — {fmt_brl(ve)}")
     else:
-        L.append("- _(nenhum devedor com prescrição em até 90 dias na varredura atual)_")
+        L.append("- _(nenhuma prescrição futura em até 90 dias na varredura atual)_")
+    if m["prescricao_vencida"]:
+        tot_venc = sum((ve for _s, _dp, _di, ve in m["prescricao_vencida"]), Decimal(0))
+        pior_sigla, _dp, _di, pior_ve = m["prescricao_vencida"][0]
+        L.append(f"- 🔥 **{len(m['prescricao_vencida'])} devedores com data de prescrição no PASSADO/stale** (Σ exigível {fmt_brl(tot_venc)}; maior: {pior_sigla} {fmt_brl(pior_ve)}) — recalcular a data e conferir marcos interruptivos (Art. 202 VI CC) antes de tratar como perdida. Lista nominal: [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).")
+    if m["prescricao_sem_data"]:
+        L.append(f"- _({len(m['prescricao_sem_data'])} devedores sem data de prescrição registrada — nomes no [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md))_")
     L.append("")
 
     # ============ 4. WORKFLOW (link) ============
@@ -315,25 +412,36 @@ def generate_claude_md(m):
     L.append("")
 
     # ============ 5. REGRAS JURÍDICAS (fatos neutros — sem camada de safeguard) ============
+    # Renumeração 2026-06-09 (18 → 13; rastreabilidade completa em
+    # _AUDITORIA_CLAUDE_MD/FASE3_DIAGNOSTICO_2026-06-09.md):
+    #   ex-4 → R10 enxuta + NUNCA-4. Histórico da ex-4 preservado AQUI (fora do output):
+    #     config_prodam.py e scripts/normalizador.py NÃO existem em código ativo
+    #     (verificado 2026-06-08/09); correção SELIC live (BCB SGS 4390) implementada em
+    #     scripts/ad_hoc/gerar_memorial_preliminar_ses.py; valores absolutos (SM vigente,
+    #     teto RPV, custas) ficam inline nos scripts de cálculo, nunca no CLAUDE.md.
+    #   ex-6 + ex-9 → R4 (marcos interruptivos, um assunto só).
+    #   ex-8 → NUNCA-7 · ex-15 → NUNCA-6 · ex-16 → NUNCA-2.
+    #   ex-14 dividida: fee 20% vive só na Seção 1; RPV vira R12.
+    #     Lei AM 2.748/2002 CONFIRMADA em fonte oficial (ALEAM/SAPL + Legisla.AM,
+    #     2026-06-09): pequeno valor = 20 SM perante a Fazenda ESTADUAL
+    #     (15 SM Manaus; 10 SM demais municípios). A citação "Lei 3.683/2012" é
+    #     armadilha conhecida (errada) — por isso a ressalva na R12.
+    #   ex-17 + ex-18 → R13, com path CORRIGIDO: o catálogo fica em
+    #     REFERENCIA_JURIDICA/11_PESQUISAS_ORIGINAIS/ (a ex-17 apontava para a raiz).
     L.append("## 5. REGRAS JURÍDICAS")
-    L.append("1. **Decreto Estadual AM nº 53.464/2026** (substitui 51.084/2025) — verificar 4 exceções antes de qualquer ação contra Gov AM.")
-    L.append("2. Silêncio do devedor **não** interrompe prescrição — exige ato inequívoco (Art. 202 CC, rol taxativo).")
-    L.append("3. Juros pós-**Lei 14.905/2024** — não presumir 1% a.m.; verificar arts. 404-406 CC.")
-    L.append("4. **Índices por contrato**: não há arquivo-SSOT de índices — `config_prodam.py` e `scripts/normalizador.py` **não existem** em código ativo (verificado 2026-06-08). Regime/índice (SELIC/IGPM/IPCA) é confirmado por contrato na cláusula econômica; correção SELIC via BCB live (série SGS 4390) em `scripts/ad_hoc/gerar_memorial_preliminar_ses.py`. Valores absolutos (SM vigente, teto RPV, custas) inline em scripts de cálculo — não criar `config_prodam.py`/`normalizador.py` sem auditoria prévia.")
-    L.append("5. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF).")
-    L.append("6. NFs do credor **não** são marcos interruptivos (exige ato do devedor).")
-    L.append("7. Prescrição é por **fatura individual** (Art. 189 + 206 §5º I CC), contada do **vencimento**.")
-    L.append("8. **FUHAM** = Fundação Alfredo da Matta · **FHAJ** = Fundação Hospital Adriano Jorge — nomes distintos, nunca inverter.")
-    L.append("9. Empenho (NE) = reconhecimento tácito (Art. 202 VI CC) — interrompe prescrição.")
-    L.append("10. SELIC já inclui correção + juros — não somar separado. IGPM = só correção (juros à parte).")
-    L.append("11. Art. 202 CC: interrupção ocorre **uma vez** (unicidade — REsp 1.963.067/MS). Fazenda Pública reinicia por metade (Decreto 20.910/1932 = 2,5 anos).")
-    L.append("12. **Tema 1.109/STJ**: gestor público não renuncia tacitamente a prescrição.")
-    L.append("13. Composição documental (Contrato + NE + NF + Atesto) = título executivo (**REsp 793.969/RJ**, Rel. p/ acórdão **Min. José Delgado**; Min. Teori Zavascki foi vencido).")
-    L.append("14. **Fee = 20%** sobre créditos recuperados. **RPV/AM estadual = 20 × SM vigente**, fundamento **Lei AM 2.748/2002** (não Lei 3.683/2012).")
-    L.append("15. `PRODAM_DOCS/profiles.json` é a **SSOT** dos devedores — nunca usar Demonstrativo Excel antigo.")
-    L.append("16. Valores monetários: **Decimal**, nunca float. Formato BRL: `R$ 1.234,56`.")
-    L.append("17. `PRODAM_DOCS/REFERENCIA_JURIDICA/PRECEDENTES_VERIFICADOS.md` é a única fonte de jurisprudência verificada (3 fabricados + 6 distorcidos catalogados).")
-    L.append("18. Consultar `PRODAM_DOCS/REFERENCIA_JURIDICA/` antes de emitir opinião jurídica.")
+    L.append("1. **Decreto Estadual AM nº 53.464/2026** (revogou o 51.084/2025) — verificar as 4 exceções antes de qualquer ação contra Gov AM.")
+    L.append("2. Prescrição é por **fatura individual** (Art. 189 + 206 §5º I CC), contada do **vencimento**.")
+    L.append("3. Silêncio do devedor **não** interrompe prescrição — exige ato inequívoco (Art. 202 CC, rol taxativo).")
+    L.append("4. Marcos interruptivos: **empenho (NE) = reconhecimento tácito** (Art. 202 VI CC) e interrompe; **NF emitida pelo credor não interrompe** (exige ato do devedor).")
+    L.append("5. Interrupção ocorre **uma vez** (unicidade — REsp 1.963.067/MS); contra a Fazenda Pública o prazo reinicia **pela metade** (Decreto 20.910/1932 = 2,5 anos).")
+    L.append("6. **Tema 1.109/STJ**: gestor público não renuncia tacitamente a prescrição.")
+    L.append("7. Composição documental (Contrato + NE + NF + Atesto) = título executivo (**REsp 793.969/RJ**, Rel. p/ acórdão **Min. José Delgado**; Min. Teori Zavascki foi vencido).")
+    L.append("8. Juros pós-**Lei 14.905/2024** — não presumir 1% a.m.; verificar arts. 404-406 CC.")
+    L.append("9. SELIC já inclui correção + juros — não somar separado. IGPM = só correção (juros à parte).")
+    L.append("10. **Índice de correção**: confirmar na **cláusula econômica do contrato** do devedor (SELIC/IGPM/IPCA); SELIC live via BCB (série SGS 4390). Não há arquivo-SSOT de índices (ver NUNCA-4).")
+    L.append("11. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF).")
+    L.append("12. **RPV/AM = 20 × SM vigente** (Lei AM 2.748/2002; a Lei 3.683/2012 é citação errada) — 60 SM é o teto **federal**, não aplicar contra o Estado.")
+    L.append("13. Jurisprudência: citar **só** o catálogo `PRODAM_DOCS/REFERENCIA_JURIDICA/11_PESQUISAS_ORIGINAIS/PRECEDENTES_VERIFICADOS.md` (3 fabricados + 6 distorcidos catalogados); antes de emitir opinião jurídica, consultar `REFERENCIA_JURIDICA/` na ordem da Seção 6.")
     L.append("")
 
     # ============ 6. HIERARQUIA DE FONTES JURÍDICAS ============
@@ -343,23 +451,24 @@ def generate_claude_md(m):
     L.append("3. **Estudo Exaustivo** — matriz genérica com minutas.")
     L.append("4. **Pesquisa Jurisprudencial** — STJ/STF/TJAM (só precedentes verificados).")
     L.append("5. **Extração Contratual** — cláusula a cláusula dos contratos dos devedores.")
-    L.append("6. `PRODAM_DOCS/REFERENCIA_JURIDICA/` (20 subpastas) — SSOT jurídica do projeto.")
+    n_ref = _count_ref_juridica_dirs()
+    ref_txt = f"({n_ref} subpastas)" if n_ref else "(subpastas numeradas)"
+    L.append(f"6. `PRODAM_DOCS/REFERENCIA_JURIDICA/` {ref_txt} — SSOT jurídica do projeto.")
     L.append("")
 
     # ============ 7. CONVENÇÕES TÉCNICAS ============
+    # 2026-06-09: removida a referência a `_ARQUIVO_DRIFT/` (pasta NÃO existe no disco;
+    # única canônica é `_BACKUPS/`). Vedações de PDF/float migraram para NUNCA-1/2.
     L.append("## 7. CONVENÇÕES TÉCNICAS")
     L.append("- **Plataforma**: Windows + PowerShell. Python via `py -3.12` (sem venv). Bash não é usado.")
-    L.append("- **Valores monetários**: `Decimal`, nunca `float`. Formato BRL via `prodam_utils.fmt_brl`.")
+    L.append("- **BRL**: formatar via `prodam_utils.fmt_brl`; parse via `prodam_utils.brl` (vedação de float: NUNCA-2).")
     L.append("- **CSV**: separador `;` + encoding `utf-8-sig` (BOM) — abre direto no Excel.")
     L.append("- **Salvar extrações** em **JSON + XLSX + CSV** no mesmo script. JSON é SSOT; XLSX/CSV são derivados.")
-    L.append("- **PDFs** são prova jurídica — nunca apagar originais; backup em `_BACKUPS/` ou `_ARQUIVO_DRIFT/`.")
+    L.append("- **Arquivamento**: backups e quarentenas do projeto em `_BACKUPS/` (única pasta canônica). Acervo morto fica em `Desktop\\_LIXO_NAO_USAR\\_ARCHIVE` — só listar, nunca operar lá (NUNCA-5).")
     L.append("- **SPCF**: `time.sleep(1.5)` entre requisições (rate limit obrigatório).")
     L.append("- **Contratos** têm 3 formatos coexistindo (`006/2021` em `spcf_contratos`, `6/2021` em `profiles.json`, `2021/006` em outras fontes) — normalizar antes de JOIN.")
-    L.append("- **Testes**: `py -3.12 -m pytest tests\\ -v` cobre `prodam_utils` (BRL, normalização, datas, prescrição). CI em `.github/workflows/tests.yml` valida `profiles.json`.")
-    L.append("- **Proteções do repo** (não desativar sem motivo):")
-    L.append("  - `.claude/hooks/block_pdf_delete.ps1` — hook que impede o **Claude Code** de remover `*.pdf` (provas) via Bash/PowerShell. Não cobre exclusão manual no Explorer.")
-    L.append("  - `.pre-commit-config.yaml` — `ruff-check` (E9/F63/F7/F82) em `scripts/`. A validação de `profiles.json` (≥50 devedores/CNPJ/`_metadata`) é no **CI**, não aqui.")
-    L.append("  - `.gitignore` — fora do repo: `PRODAM_DOCS/` (com `profiles.json`), `*.pdf`, `*.db`, segredos.")
+    L.append("- **Testes**: `py -3.12 -m pytest tests\\ -v`. CI (`.github/workflows/tests.yml`) valida `profiles.json` (≥50 devedores/CNPJ/`_metadata`).")
+    L.append("- **Proteções do repo** (não desativar sem motivo): hook `.claude/hooks/block_pdf_delete.ps1` (bloqueia remoção de `*.pdf` via shell; não cobre o Explorer) · `.pre-commit-config.yaml` (`ruff-check` E9/F63/F7/F82 em `scripts/`) · `.gitignore` (mantém `PRODAM_DOCS/`, `*.pdf`, `*.db` e segredos fora do repo).")
     L.append("")
 
     # ============ 8. MAPAS DO PROJETO ============
@@ -369,7 +478,7 @@ def generate_claude_md(m):
     L.append(f"| `PRODAM_DOCS/profiles.json` | **SSOT** dos {m['total']} devedores (privado, fora do repo) |")
     L.append("| `PRODAM_DOCS/_ANALISE/prodam.db` | DB canônico (gerado por `PRODAM_DOCS/build_sqlite.py`) |")
     L.append("| `prodam.db` (raiz) | Cópia derivada usada por `scripts/consultas.py` |")
-    L.append("| `PRODAM_DOCS/REFERENCIA_JURIDICA/` | Base jurídica (20 subpastas; consultar antes de parecer) |")
+    L.append("| `PRODAM_DOCS/REFERENCIA_JURIDICA/` | Base jurídica — consultar antes de qualquer parecer (Regra 13) |")
     L.append("| `PRODAM_DOCS/_SKILLS/` | Skills jurídicas curadas |")
     L.append("| `SPCF_EXTRACAO/` | Web scraping SPCF (rate-limit obrigatório) |")
     L.append("| `scripts/` | Pipelines, consultas, dossiês, sincronização |")
@@ -396,33 +505,32 @@ def generate_claude_md(m):
     L.append("## 10. AGENT SKILLS + DB")
     L.append("- **Skills do projeto**: [`.claude/skills/INDEX.md`](.claude/skills/INDEX.md) — índice versionado (nome + descrição curta).")
     L.append("- **Agent skills (engenharia)**: `to-issues`, `triage`, `to-prd`, `tdd`, `diagnose`, `grill-with-docs`. Issue tracker → `_QUESTOES_CRITICAS/` (`NN_TITULO.md`). Triage labels → 5 canônicos (`needs-triage`/`needs-info`/`ready-for-agent`/`ready-for-human`/`wontfix`).")
-    db_counts = _query_db_counts()
-    if db_counts["ok"]:
-        L.append(f"- **`prodam.db`**: {db_counts['tables']}. Views: {db_counts['views']}.")
-    else:
-        L.append("- **`prodam.db`**: 8 tabelas (`spcf_contratos`, `spcf_empenhos`, `spcf_faturas`, `spcf_nfs`, `pendrive_docs`, `devedores`, `reclassificacao`, `cruzamento_spcf_pendrive`) + 5 views. Abrir sem código: `datasette serve PRODAM_DOCS\\_ANALISE\\prodam.db --open` ou Beekeeper Studio.")
+    # 2026-06-09: contagens vivas do DB saíram daqui (métrica, não instrução) e
+    # moram no STATUS_DEVEDORES.md — economiza contexto em TODA conversa.
+    L.append("- **`prodam.db`**: 8 tabelas + 5 views — contagens vivas em [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md). Abrir sem código: `datasette serve PRODAM_DOCS\\_ANALISE\\prodam.db --open` ou Beekeeper Studio.")
     L.append("")
 
     return "\n".join(L) + "\n"
 
 
 def generate_status_devedores(m):
-    """STATUS_DEVEDORES.md — todos os 70 devedores ordenados por valor exigível.
+    """STATUS_DEVEDORES.md — todos os 69 devedores ordenados por valor exigível,
+    + prescrições vencidas/stale (nominal), devedores sem data, contagens vivas do DB.
     Colunas: sigla, exigível, atualizado, força, próximo_passo, dias_prescrição, fase."""
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
     L = []
     L.append("# Status dos Devedores — PROJETO PRODAM")
     L.append(f"_Atualizado em {now} via `scripts/auto_update_claude_md.py`._")
     L.append("")
-    L.append(f"**Total**: {m['total']} devedores · {fmt_brl(m['val_exig'])} exigível · {fmt_brl(m['val_atualizado'])} atualizado.")
+    L.append(f"**Total**: {m['total']} devedores · {fmt_brl(m['val_exig'])} exigível · {fmt_brl(m['val_atualizado'])} atualizado ({m['n_val_atualizado']}/{m['total']} com valor atualizado).")
     L.append("")
-    L.append("Ordenação: valor exigível (descendente). Coluna **dias_presc** = dias até a próxima prescrição (vazio = sem data).")
+    L.append("Ordenação: valor exigível (descendente). Coluna **dias_presc** = dias até a próxima prescrição (🔥 = data no passado/stale; — = sem data).")
     L.append("")
     L.append("| # | Sigla | Exigível | Atualizado | Força | Próximo passo | Dias presc. | Fase |")
     L.append("|---|-------|---------:|-----------:|-------|---------------|------------:|------|")
     for idx, (sigla, ve, fp, pp, d, dias, fase) in enumerate(m["all_items"], start=1):
-        va = float(d.get("val_atualizado", 0) or 0)
-        dias_txt = "—" if dias is None else (f"🔴 {dias}" if dias <= 30 else f"🟠 {dias}" if dias <= 60 else f"🟡 {dias}" if dias <= 90 else str(dias))
+        va = brl(d.get("val_atualizado"))
+        dias_txt = "—" if dias is None else (f"🔥 {dias}" if dias <= 0 else f"🔴 {dias}" if dias <= 30 else f"🟠 {dias}" if dias <= 60 else f"🟡 {dias}" if dias <= 90 else str(dias))
         # sanitiza pipes em texto (rara, mas defensivo)
         sigla_s = sigla.replace("|", "\\|")
         pp_s = (pp or "—").replace("|", "\\|")
@@ -435,15 +543,54 @@ def generate_status_devedores(m):
     L.append("")
     L.append("| Fase | Devedores |")
     L.append("|------|----------:|")
-    for fase, count in sorted(m["fase_counts"].items(), key=lambda x: -x[1]):
+    for fase, count in sorted(m["fase_counts"].items(), key=lambda x: (-x[1], x[0])):
         L.append(f"| {fase} | {count} |")
+    L.append("")
+
+    # ====== Prescrições vencidas/stale — lista nominal (CLAUDE.md §3 traz o agregado) ======
+    if m["prescricao_vencida"]:
+        tot_venc = sum((ve for _s, _dp, _di, ve in m["prescricao_vencida"]), Decimal(0))
+        L.append("## 🔥 Prescrições com data no PASSADO/stale — recalcular")
+        L.append("")
+        L.append(f"{len(m['prescricao_vencida'])} devedores · Σ exigível {fmt_brl(tot_venc)}. "
+                 "Data vencida **não** significa prescrição consumada: pode haver marco interruptivo "
+                 "não registrado (Art. 202 VI CC) ou data stale. Recalcular e atualizar `profiles.json`.")
+        L.append("")
+        L.append("| Sigla | Data registrada | Dias | Exigível |")
+        L.append("|-------|-----------------|-----:|---------:|")
+        for sigla, dp, dias, ve in m["prescricao_vencida"]:
+            L.append(f"| {sigla.replace('|', chr(92) + '|')} | {dp} | {dias} | {fmt_brl(ve)} |")
+        L.append("")
+
+    if m["prescricao_sem_data"]:
+        L.append("## Devedores sem data de prescrição registrada")
+        L.append("")
+        nomes = " · ".join(f"{s}" + (f" (`{raw}`)" if raw != "—" else "") for s, raw in m["prescricao_sem_data"])
+        L.append(f"{len(m['prescricao_sem_data'])} devedores: {nomes}.")
+        L.append("")
+
+    # ====== Contagens vivas do prodam.db (migradas do CLAUDE.md §10 em 2026-06-09) ======
+    db_counts = _query_db_counts()
+    L.append("## prodam.db — contagens vivas")
+    L.append("")
+    if db_counts["ok"]:
+        L.append(f"Tabelas: {db_counts['tables']}.")
+        L.append("")
+        L.append(f"Views: {db_counts['views']}.")
+    else:
+        L.append(f"_(DB indisponível nesta geração: {db_counts['reason']})_")
     L.append("")
 
     return "\n".join(L) + "\n"
 
 
 def generate_workflow_cobranca():
-    """WORKFLOW_COBRANCA.md — pipeline end-to-end F0→F6. Hardcoded (não muda com dados)."""
+    """WORKFLOW_COBRANCA.md — pipeline end-to-end F0→F6. Hardcoded (não muda com dados).
+
+    2026-06-09: skills citadas passaram a ser SÓ as que existem em PRODAM_DOCS/_SKILLS/
+    (antes citava trd-gerador-prodam, negociacao-prodam, peticao-inicial-prodam,
+    habilitacao-credito-prodam, controle-recebimento-prodam, classificacao-prodam e
+    decisao-documental-prodam — nenhuma existia). Refs de regra renumeradas (18→13)."""
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
     L = []
     L.append("# Workflow de Cobrança — PROJETO PRODAM")
@@ -454,7 +601,7 @@ def generate_workflow_cobranca():
 
     L.append("## F0 — Triagem inicial")
     L.append("- **Objetivo**: identificar se o devedor está no portfólio e mapear documentação básica.")
-    L.append("- **Skills**: `triage`, `decisao-documental-prodam` (cadeia 5 elos).")
+    L.append("- **Skills**: `triage` (agent skill) · `classificacao-forca-probatoria` · `validador-cadeia-documental-fatura` (cadeia 5 elos).")
     L.append("- **Gates documentais**: contrato vigente, CNPJ confirmado, categoria (Gov Direta/Indireta/Privada).")
     L.append("- **Prazo típico**: 1-3 dias.")
     L.append("- **Saída**: entrada em `profiles.json` com `categoria`, `forca_probatoria`, `score_composto` preliminar.")
@@ -462,7 +609,7 @@ def generate_workflow_cobranca():
 
     L.append("## F1 — Análise documental")
     L.append("- **Objetivo**: validar cadeia Contrato + NE + NF + Atesto (REsp 793.969/RJ).")
-    L.append("- **Skills**: `auditoria_completude_devedor`, `dossie_multiformato_devedor`.")
+    L.append("- **Ferramentas**: `scripts/auditoria_completude_devedor.py`, `scripts/dossie_multiformato_devedor.py` + skill `auditoria-completude-devedor`.")
     L.append("- **Gates**: 11 itens do checklist; identificação de marcos interruptivos (empenhos = Art. 202 VI CC).")
     L.append("- **Prazo típico**: 5-10 dias por devedor.")
     L.append("- **Saída**: dossiê multi-formato (JSON + XLSX + CSV + MD + PDF).")
@@ -470,7 +617,7 @@ def generate_workflow_cobranca():
 
     L.append("## F2 — Classificação e priorização")
     L.append("- **Objetivo**: definir `proximo_passo` e `prioridade_rank`.")
-    L.append("- **Skills**: `classificacao-prodam`, score composto 12 dimensões.")
+    L.append("- **Skills**: `classificacao-forca-probatoria` (score composto 12 dimensões) · `proximo-passo-advisor`.")
     L.append("- **Gates**: aprovação humana antes de mover devedor para F3+ (gate documental jurídico).")
     L.append("- **Prazo típico**: 1-2 dias.")
     L.append("- **Saída**: rank atualizado em `profiles.json`.")
@@ -478,7 +625,7 @@ def generate_workflow_cobranca():
 
     L.append("## F3 — Notificação extrajudicial (TRD)")
     L.append("- **Objetivo**: emitir Termo de Reconhecimento de Dívida ou notificação extrajudicial.")
-    L.append("- **Skills**: `protocolo-juridico-prodam`, `trd-gerador-prodam`.")
+    L.append("- **Skills**: `protocolo-juridico-prodam` · `geracao-documentos-juridicos` (TRD/notificações) · `revisar-reconhecimento-divida` (gate antes do TRD).")
     L.append("- **Gates**: mostrar diff antes de salvar; revisão humana; envio com AR ou e-mail certificado.")
     L.append("- **Prazo típico**: 15-30 dias entre emissão e resposta esperada.")
     L.append("- **Saída**: documento `.docx` em `DOCUMENTOS_GERADOS/`, registro em `historico_fases`.")
@@ -486,15 +633,15 @@ def generate_workflow_cobranca():
 
     L.append("## F4 — Negociação / Resposta")
     L.append("- **Objetivo**: acompanhar resposta do devedor (aceite, contraproposta, silêncio).")
-    L.append("- **Skills**: `negociacao-prodam`.")
-    L.append("- **Gates**: silêncio não interrompe prescrição (regra #2); registrar ato inequívoco se houver.")
+    L.append("- **Skills**: `registro-interacoes-devedor` · `arvore-decisao-contestacao` (réplicas a contestações).")
+    L.append("- **Gates**: silêncio não interrompe prescrição (Regra 3 do CLAUDE.md); registrar ato inequívoco se houver.")
     L.append("- **Prazo típico**: 30-60 dias.")
     L.append("- **Saída**: atualização de `ultima_interacao` e `evidencias_reconhecimento`.")
     L.append("")
 
     L.append("## F5 — Protocolo judicial / Execução")
     L.append("- **Objetivo**: ajuizar ação ou pedir habilitação de crédito.")
-    L.append("- **Skills**: `peticao-inicial-prodam`, `habilitacao-credito-prodam`.")
+    L.append("- **Skills**: `blindagem-pre-execucao` (checklist pré-protocolo) · `montagem-dossie-comprobatorio` · `precatorios-rpv-fragmentacao` (Adm. Direta).")
     L.append("- **Gates**: Adm. Direta → precatório/RPV (Art. 100 CF); Adm. Indireta concorrencial → penhora direta (Tema 253/STF).")
     L.append("- **Prazo típico**: 60-180 dias para distribuição inicial.")
     L.append("- **Saída**: `data_protocolo` preenchida; `via_processual_recomendada` definida.")
@@ -502,24 +649,30 @@ def generate_workflow_cobranca():
 
     L.append("## F6 — Recebimento / Encerramento")
     L.append("- **Objetivo**: confirmar pagamento, baixar do portfólio, calcular fee 20%.")
-    L.append("- **Skills**: `controle-recebimento-prodam`.")
+    L.append("- **Skills**: `registro-interacoes-devedor` (baixa e histórico) · `gerador-relatorio-quinzenal` (prestação de contas).")
     L.append("- **Gates**: comprovante de depósito; cálculo de SELIC pós-trânsito; nota de honorários.")
     L.append("- **Prazo típico**: variável (precatório AM tem fila própria).")
     L.append("- **Saída**: `valor_recuperado` registrado; devedor marcado como encerrado.")
     L.append("")
 
     L.append("## Princípios transversais")
-    L.append("- **Prescrição é por fatura individual** (regra #7). Cada fase recalcula faturas em risco.")
-    L.append("- **PDFs nunca são apagados** — prova jurídica. Backup em `_BACKUPS/`.")
-    L.append("- **`profiles.json` é SSOT** — qualquer fase atualiza apenas via PR ou edit auditado.")
-    L.append("- **Fee 20% recuperado**, RPV/AM = 20 SM (Lei AM 2.748/2002).")
+    L.append("- **Prescrição é por fatura individual** (Regra 2 do CLAUDE.md). Cada fase recalcula faturas em risco.")
+    L.append("- **PDFs nunca são apagados** — prova jurídica (NUNCA-1). Backup em `_BACKUPS/`.")
+    L.append("- **`profiles.json` é SSOT** (NUNCA-6) — qualquer fase atualiza apenas via PR ou edit auditado.")
+    L.append("- **Fee 20% recuperado**; RPV/AM = 20 × SM vigente (Lei AM 2.748/2002 — Regra 12).")
     L.append("")
 
     return "\n".join(L) + "\n"
 
 
 def generate_playbook_orgaos():
-    """PLAYBOOK_ORGAOS_V2.md — 13 passos validados no DETRAN A+ 94/100. Hardcoded."""
+    """PLAYBOOK_ORGAOS_V2.md — 13 passos validados no DETRAN A+ 94/100. Hardcoded.
+
+    2026-06-09: ferramentas dos passos passaram a citar SÓ scripts/skills que existem
+    no disco (antes citava ocr_v4.py, normalizador.py, extracao_contratual.py,
+    prescricao_por_fatura.py, atualizacao_monetaria_bcb.py, score_composto.py,
+    blindagem_pre_execucao.py, atualizar_profile.py, organizar_pdfs_orgao.py e
+    ocr_audit.py — nenhum existia em scripts/, e normalizador.py contradizia a NUNCA-4)."""
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
     L = []
     L.append("# Playbook Replicável — Auditoria de Órgão (V2)")
@@ -538,15 +691,15 @@ def generate_playbook_orgaos():
     L.append("")
     L.append("### Passo 1 — Localizar PDFs e organizar pastas")
     L.append("- **Entrada**: pasta `PRODAM_DOCS/<ORGAO>/` com PDFs originais.")
-    L.append("- **Ferramenta**: organização manual ou `scripts/organizar_pdfs_orgao.py`.")
+    L.append("- **Ferramenta**: skill `organizador-arquivos-prodam` (modo cópia não-destrutivo) ou organização manual.")
     L.append("- **Saída**: subpastas por tipo (CONTRATOS/, NES/, FATURAS/, NFs/, COBRANCAS/).")
     L.append("- **Critério**: nenhum PDF apagado; backup em `_BACKUPS/`.")
     L.append("")
     L.append("### Passo 2 — OCR completo dos PDFs")
     L.append("- **Entrada**: PDFs do passo 1.")
-    L.append("- **Ferramenta**: `scripts/ocr_v4.py` (Tesseract + correção de layout).")
-    L.append("- **Saída**: `.json` por PDF com texto + bounding boxes.")
-    L.append("- **Critério**: ≥95% de páginas com texto extraído (verificar via `ocr_audit.py`).")
+    L.append("- **Ferramenta**: `scripts/ocr_lote_sem_texto_externo.py` + skill `ocr-pdfs-prodam` (pytesseract/pdf2image, 200 DPI, pt-BR).")
+    L.append("- **Saída**: texto pesquisável por PDF (originais preservados como prova).")
+    L.append("- **Critério**: ≥95% de páginas com texto extraído (relatório do próprio script).")
     L.append("")
     L.append("### Passo 3 — Ingestão no `prodam.db`")
     L.append("- **Entrada**: JSONs do passo 2.")
@@ -556,13 +709,13 @@ def generate_playbook_orgaos():
     L.append("")
     L.append("### Passo 4 — Normalização de contratos")
     L.append("- **Entrada**: 3 formatos coexistindo (`006/2021`, `6/2021`, `2021/006`).")
-    L.append("- **Ferramenta**: `scripts/normalizador.py` (mapa contrato/ano → regime).")
+    L.append("- **Ferramenta**: normalização inline nos scripts de reconciliação (`scripts/reconciliacao_4_fontes.py`) — **não** criar `normalizador.py` (NUNCA-4).")
     L.append("- **Saída**: coluna `contrato_normalizado` em todas as tabelas.")
     L.append("- **Critério**: zero contratos órfãos após reconciliação.")
     L.append("")
     L.append("### Passo 5 — Extração contratual cláusula-a-cláusula")
     L.append("- **Entrada**: contratos do passo 1.")
-    L.append("- **Ferramenta**: `scripts/extracao_contratual.py`.")
+    L.append("- **Ferramenta**: skill `extracao-clausulas-contratuais` + confirmação manual da cláusula econômica (Regra 10).")
     L.append("- **Saída**: JSON por contrato com cláusulas econômicas (índice, juros, multa, foro, prazos).")
     L.append("- **Critério**: índice de correção identificado (IGPM/IPCA/SELIC) por contrato.")
     L.append("")
@@ -574,19 +727,19 @@ def generate_playbook_orgaos():
     L.append("")
     L.append("### Passo 7 — Cálculo de prescrição por fatura")
     L.append("- **Entrada**: `spcf_faturas` + vencimentos + marcos interruptivos.")
-    L.append("- **Ferramenta**: `scripts/prescricao_por_fatura.py`.")
+    L.append("- **Ferramenta**: `scripts/alerta_prescricao.py` (buckets/alertas) + skill `analise-prescricao-creditos`.")
     L.append("- **Saída**: classificação `EXIGIVEL`/`PRESCRITA` por fatura + `data_prescricao_proxima` por devedor.")
     L.append("- **Critério**: regra Art. 202 VI CC aplicada (empenho interrompe; silêncio não).")
     L.append("")
     L.append("### Passo 8 — Atualização monetária")
     L.append("- **Entrada**: faturas exigíveis do passo 7.")
-    L.append("- **Ferramenta**: `scripts/atualizacao_monetaria_bcb.py` (BCB live + Decimal).")
+    L.append("- **Ferramenta**: `scripts/ad_hoc/gerar_memorial_preliminar_ses.py` (BCB live SGS 4390 + Decimal; adaptar por órgão) + skill `atualizacao-monetaria-sob-demanda`.")
     L.append("- **Saída**: `val_atualizado` por devedor; índice aplicado (IGPM/IPCA/SELIC) conforme contrato.")
     L.append("- **Critério**: SELIC já inclui juros (não somar separado); IGPM = só correção.")
     L.append("")
     L.append("### Passo 9 — Score composto 12 dimensões")
     L.append("- **Entrada**: dados completos do devedor.")
-    L.append("- **Ferramenta**: `scripts/score_composto.py`.")
+    L.append("- **Ferramenta**: skill `classificacao-forca-probatoria` (score gravado em `profiles.json`).")
     L.append("- **Saída**: `score_composto` (0-100) + classificação A+/A/A-/B+/B.")
     L.append("- **Critério**: cadeia documental 5 elos (15%), prescrição (15%), blindagem (10%), compliance (10%).")
     L.append("")
@@ -604,13 +757,13 @@ def generate_playbook_orgaos():
     L.append("")
     L.append("### Passo 12 — Blindagem pré-execução (22 itens)")
     L.append("- **Entrada**: peça do passo 11.")
-    L.append("- **Ferramenta**: `scripts/blindagem_pre_execucao.py`.")
-    L.append("- **Saída**: checklist 22 itens (legitimidade, competência, prescrição, título, índice, juros, multa, etc).")
-    L.append("- **Critério**: 22/22 itens validados antes de protocolar.")
+    L.append("- **Ferramenta**: skill `blindagem-pre-execucao` (checklist pré-protocolo + 6 teses de embargos antecipadas).")
+    L.append("- **Saída**: checklist completo (legitimidade, competência, prescrição, título, índice, juros, multa, etc).")
+    L.append("- **Critério**: todos os itens do checklist validados antes de protocolar.")
     L.append("")
     L.append("### Passo 13 — Atualização de `profiles.json` e commit")
     L.append("- **Entrada**: tudo dos passos anteriores.")
-    L.append("- **Ferramenta**: edit manual ou `scripts/atualizar_profile.py --orgao <NOME>`.")
+    L.append("- **Ferramenta**: `scripts/atualizar_profiles_pos_acao.py` ou edição auditada (backup antes: `profiles_BACKUP_ANTES_<motivo>.json`).")
     L.append("- **Saída**: `profiles.json` atualizado + commit auditado.")
     L.append("- **Critério**: `_metadata.last_updated` atualizado; campos obrigatórios preenchidos; CI passa.")
     L.append("")
@@ -659,15 +812,23 @@ def generate_playbook_orgaos():
 
 
 def main():
+    # Fail-fast (2026-06-09): antes, profiles.json ausente retornava exit 0 (sucesso
+    # falso p/ /sincronizar-prodam) e fonte corrompida gerava CLAUDE.md lixo.
     if not PROFILES.exists():
-        print(f"ERRO: {PROFILES} nao encontrado")
-        return
+        print(f"ERRO: {PROFILES} nao encontrado — nada foi escrito.")
+        sys.exit(1)
+
+    data = load_profiles()
+    try:
+        validate_profiles(data)
+    except ProfilesInvalidos as e:
+        print(f"ERRO: profiles.json invalido — nada foi escrito. Motivo: {e}")
+        sys.exit(1)
 
     n_skills = generate_skills_index()
     if n_skills:
         print(f"INDEX.md atualizado: {SKILLS_INDEX} ({n_skills} skills)")
 
-    data = load_profiles()
     m = compute_metrics(data)
 
     # 4 .md (INDEX.md ja escrito acima por generate_skills_index, se houver skills)
@@ -685,6 +846,10 @@ def main():
 
     if m["prescricao_urgente"]:
         print(f"  [ALERTA] {len(m['prescricao_urgente'])} devedor(es) com prescricao urgente (<90 dias)")
+    if m["prescricao_vencida"]:
+        print(f"  [ALERTA] {len(m['prescricao_vencida'])} devedor(es) com data de prescricao no PASSADO/stale — ver STATUS_DEVEDORES.md")
+    if m["prescricao_sem_data"]:
+        print(f"  [INFO] {len(m['prescricao_sem_data'])} devedor(es) sem data de prescricao registrada")
 
 
 if __name__ == "__main__":
