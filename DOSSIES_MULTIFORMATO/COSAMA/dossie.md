@@ -1,6 +1,6 @@
 # Dossiê Completo — COSAMA
 **** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 04.406.195/0001-25
+Data: 2026-06-10 | CNPJ: 04.406.195/0001-25
 
 ## Visão Executiva
 
@@ -50,9 +50,9 @@ Distribuição por ano:
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **—**
+- Data próxima prescrição: **2031-04-30**
 - Reconhecimento revisado: ❌
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

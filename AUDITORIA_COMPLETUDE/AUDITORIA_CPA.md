@@ -1,5 +1,5 @@
 # Auditoria de Completude — CPA
-**CPA** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
+**CPA** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-10
 
 ## Score de Completude: **36.4%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CPA_DOSSIE |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CPA_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/CPA |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/CPA_DOSSIE |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/CPA_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/CPA |
 
 ## Documentos Faltantes (7)
 

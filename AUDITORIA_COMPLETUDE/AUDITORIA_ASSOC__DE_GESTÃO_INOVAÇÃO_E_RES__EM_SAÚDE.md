@@ -1,5 +1,5 @@
 # Auditoria de Completude — ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE
-**Associação de Gestão Inovação e Resultados em Saúde** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
+**Associação de Gestão Inovação e Resultados em Saúde** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-10
 
 ## Score de Completude: **0.0%**
 

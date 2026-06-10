@@ -1,6 +1,6 @@
 # Dossiê Completo — AADESAM
 **Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-10 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -61,4 +61,4 @@ Incluido via SPCF Mar/2026. 0 fat aberto. R$177K em perdas. Todas possivelmente 
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

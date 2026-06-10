@@ -1,5 +1,5 @@
 # Auditoria de Completude — SUL AMERICA
-**Sul América Seguros** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
+**Sul América Seguros** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-10
 
 ## Score de Completude: **36.4%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUL_AMERICA_DOSSIE |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUL_AMERICA_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SUL AMERICA |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUL_AMERICA_DOSSIE |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUL_AMERICA_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SUL AMERICA |
 
 ## Documentos Faltantes (7)
 

@@ -63,7 +63,15 @@
     "reconciliacao_status": "MATCH",
     "reconciliacao_data": "2026-04-01",
     "reconciliacao_divergencia_pct": 0.0,
-    "tem_csv_faturas": true
+    "tem_csv_faturas": true,
+    "data_prescricao_proxima_anterior_recalc20260609": null,
+    "data_prescricao_proxima": "2031-03-31",
+    "data_prescricao_metodologia_recalc20260609": "Recalculado 2026-06-09 via scripts/recalcular_prescricao_proxima.py: menor prescrição entre faturas EM ABERTO (rel_faturas_aberto.csv@2026-04-12); prescrição por fatura = fim do mês (competência+1) + 5 anos (Art. 189 + 206 §5º I CC). Cenário conservador: NÃO considera marcos interruptivos não registrados (Art. 202 CC).",
+    "faturas_abertas_presc_estourada_recalc20260609": {
+      "n": 0,
+      "primeira": "—",
+      "fonte": "rel_faturas_aberto.csv@2026-04-12"
+    }
   },
   "empenhos": [
     {

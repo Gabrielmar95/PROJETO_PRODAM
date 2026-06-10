@@ -1,5 +1,5 @@
 # Auditoria de Completude — SALUX
-**Salux Informatização em Saúde S/A** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
+**Salux Informatização em Saúde S/A** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-10
 
 ## Score de Completude: **27.3%**
 
@@ -35,7 +35,7 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SALUX_CONSOLIDADO |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SALUX_CONSOLIDADO |
 | SPCF por_devedor | *(AUSENTE)* |
 
 ## Documentos Faltantes (8)

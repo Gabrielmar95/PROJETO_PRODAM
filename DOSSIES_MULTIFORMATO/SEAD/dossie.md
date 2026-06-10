@@ -1,6 +1,6 @@
 # Dossiê Completo — SEAD
 **Secretaria de Administração** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 02.287.757/0001-33
+Data: 2026-06-10 | CNPJ: 02.287.757/0001-33
 
 ## Visão Executiva
 
@@ -83,9 +83,9 @@ Distribuição por ano:
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2027-09-30**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

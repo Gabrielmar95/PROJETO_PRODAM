@@ -1,5 +1,5 @@
 # Auditoria de Completude — CASA MILITAR
-**** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
+**** | Categoria: **GOV_DIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **27.3%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CASA_MILITAR_DOSSIE |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CASA_MILITAR_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/CASA MILITAR |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/CASA_MILITAR_DOSSIE |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/CASA_MILITAR_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/CASA MILITAR |
 
 ## Documentos Faltantes (8)
 

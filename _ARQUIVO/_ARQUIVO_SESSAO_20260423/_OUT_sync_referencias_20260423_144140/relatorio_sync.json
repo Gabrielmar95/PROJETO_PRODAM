@@ -1,0 +1,55 @@
+{
+  "data": "2026-04-23T14:41:40.926957",
+  "modo": "APPLY",
+  "mapa_size": 1858,
+  "json": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\profiles.json",
+      "exists": true,
+      "refs": 0,
+      "detalhe": {},
+      "tamanho_bytes": 338473
+    }
+  ],
+  "db": [
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\prodam.db",
+      "exists": true,
+      "refs": 1892,
+      "tabelas": {
+        "spcf_empenhos": 228,
+        "pendrive_docs": 1510,
+        "cruzamento_spcf_pendrive": 174
+      },
+      "status": "OK",
+      "substituicoes": 1912,
+      "backup": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_sync_referencias_20260423_144140\\backups\\prodam.db.BAK"
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\PRODAM_DOCS\\_ANALISE\\prodam.db",
+      "exists": true,
+      "refs": 1892,
+      "tabelas": {
+        "spcf_empenhos": 228,
+        "pendrive_docs": 1510,
+        "cruzamento_spcf_pendrive": 174
+      },
+      "status": "OK",
+      "substituicoes": 1912,
+      "backup": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_sync_referencias_20260423_144140\\backups\\prodam.db.BAK"
+    },
+    {
+      "path": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\detran_dashboard\\data-real\\prodam.db",
+      "exists": true,
+      "refs": 1892,
+      "tabelas": {
+        "spcf_empenhos": 228,
+        "pendrive_docs": 1510,
+        "cruzamento_spcf_pendrive": 174
+      },
+      "status": "OK",
+      "substituicoes": 1912,
+      "backup": "C:\\Users\\gabri\\Desktop\\PROJETO_PRODAM\\_OUT_sync_referencias_20260423_144140\\backups\\prodam.db.BAK"
+    }
+  ]
+}

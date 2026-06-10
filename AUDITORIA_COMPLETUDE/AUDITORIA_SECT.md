@@ -1,5 +1,5 @@
 # Auditoria de Completude — SECT
-**Secretaria de Ciência e Tecnologia** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
+**Secretaria de Ciência e Tecnologia** | Categoria: **GOV_DIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SECT_DOSSIE |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SECT_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SECT |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SECT_DOSSIE |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SECT_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SECT |
 
 ## Documentos Faltantes (5)
 

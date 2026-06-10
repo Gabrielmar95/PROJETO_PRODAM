@@ -1,6 +1,6 @@
 # Dossiê Completo — SSP
 **Secretaria de Segurança Pública** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 01.804.019/0001-53
+Data: 2026-06-10 | CNPJ: 01.804.019/0001-53
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Distribuição por ano:
 - Título executivo: ✅
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

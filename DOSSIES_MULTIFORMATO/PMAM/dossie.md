@@ -1,6 +1,6 @@
 # Dossiê Completo — PMAM
 **Polícia Militar do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 63.656.292/0001-35
+Data: 2026-06-10 | CNPJ: 63.656.292/0001-35
 
 ## Visão Executiva
 
@@ -72,9 +72,9 @@ Documentação fraca
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2028-12-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

@@ -1,6 +1,6 @@
 # Dossiê Completo — ADS
 **Agência de Desenvolvimento Sustentável do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-10 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -79,9 +79,9 @@ Incluido via SPCF Mar/2026. So 8 fat aberto (B2-05 R$13.278,28). R$342K em perda
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-04-12**
+- Data próxima prescrição: **2030-11-30**
 - Reconhecimento revisado: ❌
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

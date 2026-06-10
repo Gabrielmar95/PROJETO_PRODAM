@@ -1,5 +1,5 @@
 # Auditoria de Completude — CBMAM
-**Corpo de Bombeiros Militar do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
+**Corpo de Bombeiros Militar do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CBMAM_DOSSIE |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CBMAM_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/CBMAM |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/CBMAM_DOSSIE |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/CBMAM_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/CBMAM |
 
 ## Documentos Faltantes (5)
 

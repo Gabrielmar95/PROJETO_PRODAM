@@ -1,6 +1,6 @@
 # Dossiê Completo — BMC
 **BMC** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 07.207.996/0001-50
+Data: 2026-06-10 | CNPJ: 07.207.996/0001-50
 
 ## Visão Executiva
 
@@ -61,4 +61,4 @@ Valor original R$ 58,142.00 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

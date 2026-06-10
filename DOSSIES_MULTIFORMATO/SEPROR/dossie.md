@@ -1,6 +1,6 @@
 # Dossiê Completo — SEPROR
 **Secretaria de Produção Rural** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 05.560.185/0001-02
+Data: 2026-06-10 | CNPJ: 05.560.185/0001-02
 
 ## Visão Executiva
 
@@ -76,9 +76,9 @@ Documentação fraca
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2028-08-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

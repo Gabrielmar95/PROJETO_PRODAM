@@ -1,6 +1,6 @@
 # Dossiê Completo — FUAM/FUHAM
 **Fundação Universidade Aberta do Amazonas / Fundação Hospitalar de Hematologia e Hemoterapia do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 02.006.782/0001-00
+Data: 2026-06-10 | CNPJ: 02.006.782/0001-00
 
 ## Visão Executiva
 
@@ -73,9 +73,9 @@ Cláusula Décima contratual — Reconhecida no AF (SISTEMA AF)
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2031-03-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

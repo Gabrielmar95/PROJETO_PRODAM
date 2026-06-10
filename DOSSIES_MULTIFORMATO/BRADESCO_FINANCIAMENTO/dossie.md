@@ -1,6 +1,6 @@
 # Dossiê Completo — BRADESCO FINANCIAMENTO
 **Banco Bradesco Financiamentos S.A.** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 07.207.996/0001-50
+Data: 2026-06-10 | CNPJ: 07.207.996/0001-50
 
 ## Visão Executiva
 
@@ -60,9 +60,9 @@ Cadastrado em 14/04/2026 — 72 faturas com R$ 195K. Subsidiária Bradesco (dife
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **—**
+- Data próxima prescrição: **2028-09-30**
 - Reconhecimento revisado: ❌
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

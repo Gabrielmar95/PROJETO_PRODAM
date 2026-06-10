@@ -1,5 +1,5 @@
 # Auditoria de Completude — BANCO DAYCOVAL
-**** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
+**** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-10
 
 ## Score de Completude: **9.1%**
 
@@ -36,7 +36,7 @@
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
 | Pasta Consolidado | *(AUSENTE)* |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/BANCO DAYCOVAL |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/BANCO DAYCOVAL |
 
 ## Documentos Faltantes (10)
 

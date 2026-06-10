@@ -1,5 +1,18 @@
 # Histórico de Sessões — PROJETO PRODAM
 
+## 2026-06-09 (noite) → 2026-06-10 — Notion: hub PRODAM, organização do workspace e conexões Google
+
+Sessão de infraestrutura (não jurídica; nenhum dado local alterado). Detalhes completos em [`SESSAO_2026-06-10_notion-hub-conexoes.md`](SESSAO_2026-06-10_notion-hub-conexoes.md).
+
+- **Hub criado no Notion**: página "Projeto PRODAM — Recuperação de Créditos" (`37b3dbf2-f380-815d-9a6f-ea316dc00e46`) + database "Devedores PRODAM" com os 69 devedores em BRL (data source `628bfbe3-8272-43a8-9096-869098f5e893`) + 3 views (pipeline, alertas de prescrição, fases) + páginas Workflow F0→F6, Regras Jurídicas e Fontes/Conciliação. Dados de 09/06 (`STATUS_DEVEDORES.md`); categorias extraídas do `profiles.json` (26 GD · 21 GI · 22 EP, conferido).
+- **Workspace organizado**: 2 notas reais (DETRAN Lacuna B1 + Lote E06) movidas para "📝 Notas de Trabalho" no hub; lixo de template arquivado em "🗄️ Arquivo" (reversível); "Página inicial" é sistema, API não move.
+- **Sync diária agendada** (~08h, tarefa Cowork `sync-prodam-notion`): espelha `STATUS_DEVEDORES.md`/`CLAUDE.md` → Notion só quando a data de corte mudar; nunca exclui registros. ⚠️ Pendente clicar "Run now" 1× para pré-aprovar permissões.
+- **Conexões Notion × Google** (admin `admin-gabriel@gabrielmar.adv.br`): Drive 2/2 · Gmail 2/2 · Calendar IA — busca do Notion AI agora cobre e-mail/arquivos/agenda do Workspace. Conta `gabrielmardasilva@gmail.com` fora dos conectores de IA (exigem Workspace pago); pendente: Drive pessoal via embed + agenda no Notion Calendar.
+- **Lições/erros**: `profiles.json` trunca via mount do sandbox (ler pelo caminho Windows); relógio do agendador (host) diverge ~1h do sandbox (conferir o "in X hours" devolvido); conectores de IA exigem instalação no Workspace Marketplace como admin; mover páginas Notion em lote falha inteiro se houver página de sistema (mover um-a-um); hook `check-sql-files.py` segue quebrado disparando erro cosmético a cada Write.
+- **Reconfirmado**: DETRAN R$ 0,00 no master × R$ 28.196.572,22 canônico — anotado na página Fontes/Conciliação do hub (reconciliação segue pendente).
+
+---
+
 ## 2026-06-09 (tarde) — Diagnóstico do portfólio (projeto-mãe × subprojetos): pronto vs. pendente, gaps e priorização
 
 Sessão de diagnóstico, **somente leitura** (nenhum arquivo de dado alterado). Objetivo: a partir do estado real do projeto-mãe e dos subprojetos por devedor, (1) mapear pronto vs. pendente por devedor (fase F0–F9, próximo passo, prescrição), (2) achar gaps/divergências entre fontes, (3) propor próximos passos priorizados (prescrição > valor > força > impacto) e (4) indicar skill + entregável por passo.

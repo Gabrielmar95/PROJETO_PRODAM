@@ -1,6 +1,6 @@
 # Dossiê Completo — FENIXSOFT
 **Fenixsoft** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 07.093.895/0001-03
+Data: 2026-06-10 | CNPJ: 07.093.895/0001-03
 
 ## Visão Executiva
 
@@ -62,4 +62,4 @@ Valor original R$ 888,250.00 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

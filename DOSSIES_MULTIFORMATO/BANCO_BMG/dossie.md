@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO BMG
 **Banco BMG** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 61.186.680/0001-74
+Data: 2026-06-10 | CNPJ: 61.186.680/0001-74
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 39,242.00 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

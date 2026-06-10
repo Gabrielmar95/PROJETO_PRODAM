@@ -1,6 +1,6 @@
 # Dossiê Completo — PGE
 **Procuradoria-Geral do Estado** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 19.477.848/0001-34
+Data: 2026-06-10 | CNPJ: 19.477.848/0001-34
 
 ## Visão Executiva
 
@@ -83,9 +83,9 @@ Documentação fraca
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2028-01-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

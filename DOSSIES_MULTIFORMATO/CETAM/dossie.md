@@ -1,6 +1,6 @@
 # Dossiê Completo — CETAM
 **Centro de Educação Tecnológica do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-10 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -73,9 +73,9 @@ Incluido via SPCF Mar/2026. 15 fat em aberto (B2-05 R$1.256.564,27). Perdas R$1.
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **—**
+- Data próxima prescrição: **2031-03-31**
 - Reconhecimento revisado: ❌
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

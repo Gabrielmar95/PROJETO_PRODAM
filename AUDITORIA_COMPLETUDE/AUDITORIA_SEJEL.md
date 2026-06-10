@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEJEL
-**Secretaria de Estado de Juventude, Esporte e Lazer** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
+**Secretaria de Estado de Juventude, Esporte e Lazer** | Categoria: **GOV_DIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **18.2%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEJEL_DOSSIE |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEJEL_DOSSIE |
 | Pasta Consolidado | *(AUSENTE)* |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SEJEL |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SEJEL |
 
 ## Documentos Faltantes (9)
 

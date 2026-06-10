@@ -1,6 +1,6 @@
 # Dossiê Completo — SUHAB
 **Superintendência da Zona Franca de Manaus - Habitação** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 04.355.863/0001-32
+Data: 2026-06-10 | CNPJ: 04.355.863/0001-32
 
 ## Visão Executiva
 
@@ -83,9 +83,9 @@ Documentação fraca
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2026-06-30**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

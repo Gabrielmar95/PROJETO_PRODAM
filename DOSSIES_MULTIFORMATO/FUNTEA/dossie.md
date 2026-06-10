@@ -1,6 +1,6 @@
 # Dossiê Completo — FUNTEA
 **Fundação de Tecnologia do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 84.664.796/0001-77
+Data: 2026-06-10 | CNPJ: 84.664.796/0001-77
 
 ## Visão Executiva
 
@@ -81,4 +81,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

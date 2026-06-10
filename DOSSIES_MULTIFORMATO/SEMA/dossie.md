@@ -1,6 +1,6 @@
 # Dossiê Completo — SEMA
 **Secretaria de Meio Ambiente** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 05.562.326/0001-26
+Data: 2026-06-10 | CNPJ: 05.562.326/0001-26
 
 ## Visão Executiva
 
@@ -83,9 +83,9 @@ Documentação fraca
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2029-01-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

@@ -1,6 +1,6 @@
 # Dossiê Completo — SES/SUSAM
 **Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 00.697.295/0001-05
+Data: 2026-06-10 | CNPJ: 00.697.295/0001-05
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

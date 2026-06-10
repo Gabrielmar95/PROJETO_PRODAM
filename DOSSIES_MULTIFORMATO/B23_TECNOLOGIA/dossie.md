@@ -1,6 +1,6 @@
 # Dossiê Completo — B23 TECNOLOGIA
 **B23 Tecnologia** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 40.402.740/0001-79
+Data: 2026-06-10 | CNPJ: 40.402.740/0001-79
 
 ## Visão Executiva
 
@@ -58,4 +58,4 @@ Valor original R$ 11,892.24 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

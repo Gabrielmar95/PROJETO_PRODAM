@@ -1,5 +1,5 @@
 # Auditoria de Completude — ARSEPAM
-**Agência Reguladora de Serviços Públicos do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
+**Agência Reguladora de Serviços Públicos do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **45.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/ARSEPAM_DOSSIE |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/ARSEPAM_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/ARSEPAM |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/ARSEPAM_DOSSIE |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/ARSEPAM_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/ARSEPAM |
 
 ## Documentos Faltantes (6)
 

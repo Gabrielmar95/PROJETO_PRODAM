@@ -1,5 +1,5 @@
 # Auditoria de Completude — SUHAB
-**Superintendência da Zona Franca de Manaus - Habitação** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
+**Superintendência da Zona Franca de Manaus - Habitação** | Categoria: **GOV_INDIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUHAB_DOSSIE |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUHAB_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SUHAB |
+| Pasta Dossiê | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUHAB_DOSSIE |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SUHAB_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SUHAB |
 
 ## Documentos Faltantes (5)
 

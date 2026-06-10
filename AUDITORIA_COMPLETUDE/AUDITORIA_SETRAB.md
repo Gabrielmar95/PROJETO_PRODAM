@@ -1,5 +1,5 @@
 # Auditoria de Completude — SETRAB
-**Secretaria de Estado do Trabalho (extinta, incorporada SEAS/SEJUSC)** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
+**Secretaria de Estado do Trabalho (extinta, incorporada SEAS/SEJUSC)** | Categoria: **GOV_DIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **18.2%**
 
@@ -35,8 +35,8 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SETRAB_CONSOLIDADO |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SETRAB |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/SETRAB_CONSOLIDADO |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SETRAB |
 
 ## Documentos Faltantes (9)
 

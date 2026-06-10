@@ -1835,6 +1835,12 @@
       "git_baseline_commit": "8599fc8",
       "git_baseline_date": "2026-04-20",
       "nota_junction": "Junction DETRAN_AUDITORIA_COMPLETA/PRODAM_DOCS recriada em 20/04/2026 via PowerShell (fsutil reparsepoint query OK) - sync write-through restaurado."
+    },
+    "faturas_abertas_presc_estourada_recalc20260609": {
+      "n": 24,
+      "primeira": "2026-02-28",
+      "fonte": "rel_faturas_aberto.csv@2026-04-12",
+      "nota": "PROTEGIDA_ART202_VI — marcos prevalecem; data_prescricao_proxima NÃO alterada"
     }
   },
   "empenhos": [

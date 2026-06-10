@@ -1,6 +1,6 @@
 # Dossiê Completo — CGE
 **Controladoria Geral do Estado do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-10 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -78,4 +78,4 @@ Incluido via SPCF Mar/2026. 7 fat aberto (B2-05 R$24.917,06). Emp 2026 R$130K (5
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

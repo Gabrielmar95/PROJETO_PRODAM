@@ -1,6 +1,6 @@
 # Dossiê Completo — SEMIG
 **Secretaria de Mineração** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 51.999.904/0001-03
+Data: 2026-06-10 | CNPJ: 51.999.904/0001-03
 
 ## Visão Executiva
 
@@ -73,9 +73,9 @@ Sem dados no demonstrativo (S/D)
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **N/A**
+- Data próxima prescrição: **2029-06-30**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

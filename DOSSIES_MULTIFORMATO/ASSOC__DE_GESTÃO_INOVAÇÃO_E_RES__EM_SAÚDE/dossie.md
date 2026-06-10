@@ -1,6 +1,6 @@
 # Dossiê Completo — ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE
 **Associação de Gestão Inovação e Resultados em Saúde** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 05.029.600/0002-87
+Data: 2026-06-10 | CNPJ: 05.029.600/0002-87
 
 ## Visão Executiva
 
@@ -55,4 +55,4 @@ Valor original R$ 34,760.79 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

@@ -1,6 +1,6 @@
 # Dossiê Completo — CASA MILITAR
 **** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 04.312.369/0001-90
+Data: 2026-06-10 | CNPJ: 04.312.369/0001-90
 
 ## Visão Executiva
 
@@ -73,4 +73,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

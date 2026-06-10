@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO MASTER
 **Banco Master** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 33.884.941/0001-94
+Data: 2026-06-10 | CNPJ: 33.884.941/0001-94
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 889,270.87 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

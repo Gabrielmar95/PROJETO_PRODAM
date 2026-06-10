@@ -1,6 +1,6 @@
 # Dossiê Completo — ODONTOMED
 **Odontomed** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 05.287.585/0001-96
+Data: 2026-06-10 | CNPJ: 05.287.585/0001-96
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 7,541.10 — fonte: relatorio_devedores.xls. Análise massiva 
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

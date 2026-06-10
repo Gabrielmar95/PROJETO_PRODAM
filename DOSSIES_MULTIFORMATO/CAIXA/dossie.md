@@ -1,6 +1,6 @@
 # Dossiê Completo — CAIXA
 **Caixa Econômica Federal** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 00.360.305/0001-04
+Data: 2026-06-10 | CNPJ: 00.360.305/0001-04
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 844,328.88 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

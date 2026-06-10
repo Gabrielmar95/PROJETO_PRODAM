@@ -1,5 +1,5 @@
 # Auditoria de Completude — FJJA
-**Fundação Juiz de Fora Jorge Almeida (ex-FUNJEAM)** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
+**Fundação Juiz de Fora Jorge Almeida (ex-FUNJEAM)** | Categoria: **GOV_INDIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **9.1%**
 
@@ -35,7 +35,7 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/FJJA_CONSOLIDADO |
+| Pasta Consolidado | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/PRODAM_DOCS/FJJA_CONSOLIDADO |
 | SPCF por_devedor | *(AUSENTE)* |
 
 ## Documentos Faltantes (10)

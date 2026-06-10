@@ -1,5 +1,5 @@
 # Auditoria de Completude — SES/SUSAM
-**Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
+**Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical** | Categoria: **GOV_DIRETA** | Data: 2026-06-10
 
 ## Score de Completude: **36.4%**
 
@@ -36,7 +36,7 @@
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
 | Pasta Consolidado | *(AUSENTE)* |
-| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SES_SUSAM |
+| SPCF por_devedor | /sessions/fervent-serene-hawking/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SES_SUSAM |
 
 ## Documentos Faltantes (7)
 

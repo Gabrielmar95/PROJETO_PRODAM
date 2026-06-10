@@ -1,6 +1,6 @@
 # Dossiê Completo — ANOREG
 **ANOREG** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 03.123.477/0001-52
+Data: 2026-06-10 | CNPJ: 03.123.477/0001-52
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 102,267.91 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

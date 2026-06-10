@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO SAFRA
 **Banco Safra** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 58.160.789/0001-28
+Data: 2026-06-10 | CNPJ: 58.160.789/0001-28
 
 ## Visão Executiva
 
@@ -61,4 +61,4 @@ Valor original R$ 9,310.00 — fonte: relatorio_devedores.xls. Análise massiva 
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

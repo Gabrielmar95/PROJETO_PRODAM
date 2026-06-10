@@ -1,6 +1,6 @@
 # Dossiê Completo — DETRAN
 **Departamento Estadual de Trânsito do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 04.224.028/0001-63
+Data: 2026-06-10 | CNPJ: 04.224.028/0001-63
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Regime jurídico heterogêneo — ver DETRAN.contratos.<num>.regime_aplicavel. S
 - Título executivo: ✅
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

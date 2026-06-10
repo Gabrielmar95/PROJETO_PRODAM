@@ -1,6 +1,6 @@
 # Dossiê Completo — ADAF
 **Agência de Defesa Agropecuária e Florestal do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-10 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -83,9 +83,9 @@ Incluido via SPCF Mar/2026. 39 fat aberto (B2-05 R$150.294,16). Emp 2026 R$115K 
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **—**
+- Data próxima prescrição: **2028-04-30**
 - Reconhecimento revisado: ❌
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

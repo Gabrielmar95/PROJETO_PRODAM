@@ -50,7 +50,7 @@
     "prioridade_rank": 14,
     "fase_atual": "F0",
     "data_fase_atual": "2026-03-27",
-    "data_prescricao_proxima": "2026-03-20",
+    "data_prescricao_proxima": "2027-12-31",
     "historico_fases": {
       "F0": "2026-03-01"
     },
@@ -99,7 +99,14 @@
     "reconciliacao_divergencia_pct": 30.42,
     "urgencia_prescricao": "PRESCRITA",
     "d_plus_prescricao": -20,
-    "tem_csv_faturas": false
+    "tem_csv_faturas": false,
+    "data_prescricao_proxima_anterior_recalc20260609": "2026-03-20",
+    "data_prescricao_metodologia_recalc20260609": "Recalculado 2026-06-09 via scripts/recalcular_prescricao_proxima.py: menor prescrição entre faturas EM ABERTO (rel_faturas_aberto.csv@2026-04-12); prescrição por fatura = fim do mês (competência+1) + 5 anos (Art. 189 + 206 §5º I CC). Cenário conservador: NÃO considera marcos interruptivos não registrados (Art. 202 CC).",
+    "faturas_abertas_presc_estourada_recalc20260609": {
+      "n": 2,
+      "primeira": "2023-12-31",
+      "fonte": "rel_faturas_aberto.csv@2026-04-12"
+    }
   },
   "empenhos": [
     {

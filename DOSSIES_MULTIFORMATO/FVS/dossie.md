@@ -1,6 +1,6 @@
 # Dossiê Completo — FVS
 **Fundação de Vigilância em Saúde** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 07.141.411/0001-46
+Data: 2026-06-10 | CNPJ: 07.141.411/0001-46
 
 ## Visão Executiva
 
@@ -79,4 +79,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

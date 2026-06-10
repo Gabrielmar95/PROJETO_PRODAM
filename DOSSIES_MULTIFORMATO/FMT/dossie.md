@@ -1,6 +1,6 @@
 # Dossiê Completo — FMT
 **Fundação de Medicina Tropical do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 04.534.053/0001-43
+Data: 2026-06-10 | CNPJ: 04.534.053/0001-43
 
 ## Visão Executiva
 
@@ -76,9 +76,9 @@ Distribuição por ano:
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2028-04-30**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

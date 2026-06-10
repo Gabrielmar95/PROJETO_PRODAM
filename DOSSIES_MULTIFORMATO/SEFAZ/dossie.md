@@ -1,6 +1,6 @@
 # Dossiê Completo — SEFAZ
 **Secretaria de Fazenda** | Categoria: **GOV_DIRETA**
-Data: 2026-06-09 | CNPJ: 04.312.377/0001-37
+Data: 2026-06-10 | CNPJ: 04.312.377/0001-37
 
 ## Visão Executiva
 
@@ -78,9 +78,9 @@ Documentação fraca
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2028-10-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

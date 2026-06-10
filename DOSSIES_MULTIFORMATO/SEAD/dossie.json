@@ -83,7 +83,7 @@
     "ultima_interacao": "2026-03-25",
     "fase_atual": "F3",
     "data_fase_atual": "2026-03-27",
-    "data_prescricao_proxima": "2026-03-20",
+    "data_prescricao_proxima": "2027-09-30",
     "historico_fases": {
       "F0": "2026-03-01",
       "F1": "2026-03-03",
@@ -755,7 +755,14 @@
       "via": "TRD_PRIMEIRO",
       "fundamentacao": "Força FORTE, TRD pronto, 88.7% com empenho"
     },
-    "tem_csv_faturas": true
+    "tem_csv_faturas": true,
+    "data_prescricao_proxima_anterior_recalc20260609": "2026-03-20",
+    "data_prescricao_metodologia_recalc20260609": "Recalculado 2026-06-09 via scripts/recalcular_prescricao_proxima.py: menor prescrição entre faturas EM ABERTO (rel_faturas_aberto.csv@2026-04-12); prescrição por fatura = fim do mês (competência+1) + 5 anos (Art. 189 + 206 §5º I CC). Cenário conservador: NÃO considera marcos interruptivos não registrados (Art. 202 CC).",
+    "faturas_abertas_presc_estourada_recalc20260609": {
+      "n": 14,
+      "primeira": "2021-07-31",
+      "fonte": "rel_faturas_aberto.csv@2026-04-12"
+    }
   },
   "empenhos": [
     {

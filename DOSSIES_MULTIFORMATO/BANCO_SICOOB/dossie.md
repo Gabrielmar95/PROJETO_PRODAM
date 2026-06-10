@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO SICOOB
 **Banco Sicoob** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-06-09 | CNPJ: 02.038.232/0001-64
+Data: 2026-06-10 | CNPJ: 02.038.232/0001-64
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 30,290.00 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_

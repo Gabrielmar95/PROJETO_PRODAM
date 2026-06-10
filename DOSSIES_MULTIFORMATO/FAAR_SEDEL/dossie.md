@@ -1,6 +1,6 @@
 # Dossiê Completo — FAAR/SEDEL
 **Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico** | Categoria: **GOV_INDIRETA**
-Data: 2026-06-09 | CNPJ: 35.933.557/0001-60
+Data: 2026-06-10 | CNPJ: 35.933.557/0001-60
 
 ## Visão Executiva
 
@@ -77,9 +77,9 @@ Documentação fraca
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2028-03-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-10_
