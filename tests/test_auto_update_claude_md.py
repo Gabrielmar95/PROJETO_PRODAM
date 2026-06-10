@@ -145,11 +145,12 @@ class TestGenerateClaudeMd:
         assert "ANTHROPIC_API_KEY" in out
         assert "FUHAM" in out and "FHAJ" in out
 
-    def test_exatamente_13_regras(self):
+    def test_exatamente_14_regras(self):
         out = g.generate_claude_md(self._m())
         sec5 = out.split("## 5. REGRAS JURÍDICAS")[1].split("## 6.")[0]
         assert "\n13. Jurisprudência" in sec5
-        assert "\n14. " not in sec5  # "Lei 14.905" não conta — exige nº de regra
+        assert "\n14. " in sec5 and "Correção DETRAN é por contrato" in sec5
+        assert "\n15. " not in sec5  # regra nova exige atualizar este teste
 
     def test_alerta_vencida_aparece_no_claude_md(self):
         dp = (date.today() - timedelta(days=10)).isoformat()
