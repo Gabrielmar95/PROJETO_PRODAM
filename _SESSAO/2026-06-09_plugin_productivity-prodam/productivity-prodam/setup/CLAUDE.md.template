@@ -1,0 +1,47 @@
+# PROJETO PRODAM — Memória de Trabalho
+## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
+> Gerado por `/start` a partir de profiles.json em {{DATA_GERACAO}}.
+> Não editar à mão os blocos marcados {{...}} — eles são regenerados por `/update`.
+
+## IDENTIDADE
+- Advogado: Gabriel Mar (OAB/AM 15.697)
+- Contratante: Brandão Ozores Advogados | Cliente: PRODAM S.A. (economia mista, Lei 13.303/2016)
+- Fee: 20% sobre créditos recuperados | Obrigação: relatórios quinzenais
+
+## PORTFÓLIO
+- {{TOTAL_DEVEDORES}} devedores | R$ {{VALOR_EXIGIVEL_TOTAL}} exigível
+- Força: {{N_FORTE}} FORTE · {{N_MEDIA}} MÉDIA · {{N_FRACA}} FRACA
+
+## TOP 12 DEVEDORES (por valor exigível)
+{{TOP_12_DEVEDORES}}
+<!-- sigla | nome | valor exigível | fase | prescrição | força -->
+
+## ALERTAS ATIVOS
+{{ALERTAS_PRESCRICAO}}
+<!-- prescrições <90 dias e prazos de resposta vencidos -->
+
+## PESSOAS-CHAVE
+- Gabriel Mar — advogado responsável (OAB/AM 15.697)
+- PRODAM S.A. — cliente
+- Brandão Ozores Advogados — contratante
+
+## FASES DO WORKFLOW (F0-F9)
+F0 inventário documental · F1 OCR · F2 cruzamento SPCF×PDF · F3 dossiê ·
+F4 notificação extrajudicial · F5 resposta · F6 escalação (protesto/monitória/execução) ·
+F7 petição judicial · F8 execução · F9 concluído
+
+## ÍNDICES DE CORREÇÃO (confirmar sempre por contrato)
+- Regra geral: SELIC (já inclui correção + juros — não somar à parte)
+- FUHAM: IGPM · DETRAN: IGPM + 1% a.m. + 2% CDC
+- Pós Lei 14.905/2024 (30/08/2024): contratos silentes → SELIC pura
+
+## GLOSSÁRIO RÁPIDO
+{{GLOSSARIO_TOP30}}
+
+## REGRAS DE OURO
+1. profiles.json é a SSOT — nunca o Demonstrativo Excel.
+2. Nunca fabricar lei, jurisprudência, prazo, índice ou valor. Sem fonte, dizer e apontar o que verificar.
+3. Prescrição é por fatura, contada do vencimento (Art. 189 + 206 §5º I CC).
+4. Marcos interruptivos: só os do Art. 202 CC (NE, NL, pagamento parcial, reconhecimento, proposta de acordo). NF do credor não interrompe.
+5. Valores em BRL com Decimal; datas em dd/mm/aaaa.
+6. Consultar REFERENCIA_JURIDICA/ antes de qualquer parecer.

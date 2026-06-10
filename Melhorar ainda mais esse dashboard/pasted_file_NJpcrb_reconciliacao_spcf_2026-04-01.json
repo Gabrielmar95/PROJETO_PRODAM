@@ -1,0 +1,2716 @@
+{
+  "data": "2026-04-01 06:09",
+  "fonte_spcf": "Relação Faturas Devidas por Cliente (Mar/2026)",
+  "total_clientes_spcf": 333,
+  "total_devedores_profiles": 71,
+  "devedores": [
+    {
+      "nome_spcf": "AADESAM",
+      "nome_profiles": "AADESAM",
+      "faturas_spcf": 25,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "51626.68",
+      "val_liquido_spcf": "49045.38",
+      "val_orig_profiles": "125682.90",
+      "val_exig_profiles": "125682.90",
+      "divergencia_pct": 60.98,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "ADAF",
+      "nome_profiles": "ADAF",
+      "faturas_spcf": 40,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "153395.75",
+      "val_liquido_spcf": "149600.91",
+      "val_orig_profiles": "149600.91",
+      "val_exig_profiles": "149600.91",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "ADS",
+      "nome_profiles": "ADS",
+      "faturas_spcf": 108,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "228773.93",
+      "val_liquido_spcf": "211657.45",
+      "val_orig_profiles": "211657.47",
+      "val_exig_profiles": "211657.47",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "AFEAM",
+      "nome_profiles": "AFEAM",
+      "faturas_spcf": 1,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "2973.25",
+      "val_liquido_spcf": "2973.25",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "AMAZONPREV",
+      "nome_profiles": "AMAZONPREV",
+      "faturas_spcf": 9,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "595076.70",
+      "val_liquido_spcf": "366572.61",
+      "val_orig_profiles": "777884.59",
+      "val_exig_profiles": "736219.7938469165",
+      "divergencia_pct": 52.88,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "ANOREG/AM",
+      "nome_profiles": "ANOREG",
+      "faturas_spcf": 18,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "153519.07",
+      "val_liquido_spcf": "153232.43",
+      "val_orig_profiles": "102267.91",
+      "val_exig_profiles": "102267.91",
+      "divergencia_pct": 49.83,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "ARSEPAM",
+      "nome_profiles": "ARSEPAM",
+      "faturas_spcf": 26,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "40976.47",
+      "val_liquido_spcf": "39082.71",
+      "val_orig_profiles": "35923.02",
+      "val_exig_profiles": "49618.85205354253",
+      "divergencia_pct": 8.8,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "ASSOCIAÇÃO DE GESTÃO INOVAÇÃO E RESULTADOS EM SAUDE",
+      "nome_profiles": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE",
+      "faturas_spcf": 6,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "34760.79",
+      "val_liquido_spcf": "34760.79",
+      "val_orig_profiles": "34760.79",
+      "val_exig_profiles": "34760.79",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "B23 TECNOLOGIA E PAGAMENTOS LTDA",
+      "nome_profiles": "B23 TECNOLOGIA",
+      "faturas_spcf": 3,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "12039.08",
+      "val_liquido_spcf": "11892.24",
+      "val_orig_profiles": "11892.24",
+      "val_exig_profiles": "11892.24",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "BANCO BMG",
+      "nome_profiles": "BANCO BMG",
+      "faturas_spcf": 16,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "69731.50",
+      "val_liquido_spcf": "69731.50",
+      "val_orig_profiles": "39242.0",
+      "val_exig_profiles": "39242.0",
+      "divergencia_pct": 77.7,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "BANCO MASTER S/A",
+      "nome_profiles": "BANCO MASTER",
+      "faturas_spcf": 57,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "967386.73",
+      "val_liquido_spcf": "967386.73",
+      "val_orig_profiles": "889270.87",
+      "val_exig_profiles": "889270.87",
+      "divergencia_pct": 8.78,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "BANCO SAFRA",
+      "nome_profiles": "BANCO SAFRA",
+      "faturas_spcf": 11,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "20994.00",
+      "val_liquido_spcf": "20994.00",
+      "val_orig_profiles": "9310.0",
+      "val_exig_profiles": "9310.0",
+      "divergencia_pct": 125.5,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "BANCO SICOOB",
+      "nome_profiles": "BANCO SICOOB",
+      "faturas_spcf": 22,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "33732.00",
+      "val_liquido_spcf": "33732.00",
+      "val_orig_profiles": "30290.0",
+      "val_exig_profiles": "30290.0",
+      "divergencia_pct": 11.36,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "BMC",
+      "nome_profiles": "BMC",
+      "faturas_spcf": 6,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "58142.00",
+      "val_liquido_spcf": "58142.00",
+      "val_orig_profiles": "58142.0",
+      "val_exig_profiles": "58142.0",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CAIXA",
+      "nome_profiles": "CAIXA",
+      "faturas_spcf": 71,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "1041848.10",
+      "val_liquido_spcf": "988460.57",
+      "val_orig_profiles": "844328.88",
+      "val_exig_profiles": "844328.88",
+      "divergencia_pct": 17.07,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CASA CIVIL",
+      "nome_profiles": "CASA CIVIL",
+      "faturas_spcf": 28,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "98547.69",
+      "val_liquido_spcf": "93859.53",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CASA MILITAR",
+      "nome_profiles": "CASA MILITAR",
+      "faturas_spcf": 1,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "2784.24",
+      "val_liquido_spcf": "2784.24",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CBMAM",
+      "nome_profiles": "CBMAM",
+      "faturas_spcf": 23,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "27103.81",
+      "val_liquido_spcf": "24824.72",
+      "val_orig_profiles": "27570.74",
+      "val_exig_profiles": "3134.027944080676",
+      "divergencia_pct": 9.96,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CETAM",
+      "nome_profiles": "CETAM",
+      "faturas_spcf": 15,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "1256564.27",
+      "val_liquido_spcf": "1256564.27",
+      "val_orig_profiles": "1256564.28",
+      "val_exig_profiles": "1256564.28",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CGE",
+      "nome_profiles": "CGE",
+      "faturas_spcf": 8,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "25734.20",
+      "val_liquido_spcf": "25693.34",
+      "val_orig_profiles": "25693.37",
+      "val_exig_profiles": "25693.37",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CIAMA",
+      "nome_profiles": "CIAMA",
+      "faturas_spcf": 1,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "2784.24",
+      "val_liquido_spcf": "2784.24",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "COSAMA",
+      "nome_profiles": "COSAMA",
+      "faturas_spcf": 5,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "9243.41",
+      "val_liquido_spcf": "9172.72",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "CPA",
+      "nome_profiles": "CPA",
+      "faturas_spcf": 6,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "165830.96",
+      "val_liquido_spcf": "165830.96",
+      "val_orig_profiles": "165830.96",
+      "val_exig_profiles": "165830.96",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "DETRAN",
+      "nome_profiles": "DETRAN",
+      "faturas_spcf": 202,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "22697929.21",
+      "val_liquido_spcf": "20848440.34",
+      "val_orig_profiles": "22745276.48",
+      "val_exig_profiles": "31684739.01023886",
+      "divergencia_pct": 8.34,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "DPE",
+      "nome_profiles": "DPE",
+      "faturas_spcf": 6,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "28293.15",
+      "val_liquido_spcf": "28060.04",
+      "val_orig_profiles": "28060.05",
+      "val_exig_profiles": "28060.05",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "EASYTECH",
+      "nome_profiles": "EASYTECH",
+      "faturas_spcf": 12,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "9558.34",
+      "val_liquido_spcf": "9558.34",
+      "val_orig_profiles": "6927.16",
+      "val_exig_profiles": "6927.16",
+      "divergencia_pct": 37.98,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "FAAR - EXTINTA LEI 6.225 INCP PELA SEDEL + SEDEL",
+      "nome_profiles": "FAAR/SEDEL",
+      "faturas_spcf": 118,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "553049.44",
+      "val_liquido_spcf": "525860.25",
+      "val_orig_profiles": "877764.1999999997",
+      "val_exig_profiles": "734498.9430028957",
+      "divergencia_pct": 40.09,
+      "status": "CRITICAL",
+      "merged_from": 2
+    },
+    {
+      "nome_spcf": "FCECON",
+      "nome_profiles": "FCECON",
+      "faturas_spcf": 33,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "225907.60",
+      "val_liquido_spcf": "220905.77",
+      "val_orig_profiles": "581141.44",
+      "val_exig_profiles": "637106.6794919234",
+      "divergencia_pct": 61.99,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "FENIXSOFT + FENIXSOFT2",
+      "nome_profiles": "FENIXSOFT",
+      "faturas_spcf": 14,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "1454000.00",
+      "val_liquido_spcf": "934800.00",
+      "val_orig_profiles": "888250.0",
+      "val_exig_profiles": "888250.0",
+      "divergencia_pct": 5.24,
+      "status": "MAJOR",
+      "merged_from": 2
+    },
+    {
+      "nome_spcf": "FHAJ",
+      "nome_profiles": "FHAJ",
+      "faturas_spcf": 65,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "241931.61",
+      "val_liquido_spcf": "221017.27",
+      "val_orig_profiles": "304898.4199999998",
+      "val_exig_profiles": "259910.7790577516",
+      "divergencia_pct": 27.51,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "FHEMOAM",
+      "nome_profiles": "FHEMOAM",
+      "faturas_spcf": 8,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "3805.89",
+      "val_liquido_spcf": "3726.51",
+      "val_orig_profiles": "7743.769999999999",
+      "val_exig_profiles": "6886.906967936138",
+      "divergencia_pct": 51.88,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "FUHAM",
+      "nome_profiles": "FUAM/FUHAM",
+      "faturas_spcf": 9,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "66001.29",
+      "val_liquido_spcf": "63306.61",
+      "val_orig_profiles": "368561.6299999997",
+      "val_exig_profiles": "44020.01",
+      "divergencia_pct": 82.82,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "FUNTEA",
+      "nome_profiles": "FUNTEA",
+      "faturas_spcf": 17,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "37092.32",
+      "val_liquido_spcf": "36302.38",
+      "val_orig_profiles": "23998.67000000001",
+      "val_exig_profiles": "34186.18707715725",
+      "divergencia_pct": 51.27,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "FVS",
+      "nome_profiles": "FVS",
+      "faturas_spcf": 11,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "92703.66",
+      "val_liquido_spcf": "78304.05",
+      "val_orig_profiles": "253753.07",
+      "val_exig_profiles": "321372.9594133031",
+      "divergencia_pct": 69.14,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "IDAM",
+      "nome_profiles": "IDAM",
+      "faturas_spcf": 17,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "329645.61",
+      "val_liquido_spcf": "315872.02",
+      "val_orig_profiles": "505375.1699999998",
+      "val_exig_profiles": "328735.506557344",
+      "divergencia_pct": 37.5,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "IKM DE LIMA-ME",
+      "nome_profiles": "IKM DE",
+      "faturas_spcf": 19,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "183622.37",
+      "val_liquido_spcf": "183622.37",
+      "val_orig_profiles": "116263.6",
+      "val_exig_profiles": "116263.6",
+      "divergencia_pct": 57.94,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "IMPRENSA OFICIAL",
+      "nome_profiles": "IMPRENSA OFICIAL",
+      "faturas_spcf": 1,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "3104.96",
+      "val_liquido_spcf": "3104.96",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "IPAAM",
+      "nome_profiles": "IPAAM",
+      "faturas_spcf": 27,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "311802.35",
+      "val_liquido_spcf": "273039.16",
+      "val_orig_profiles": "465482.7199999997",
+      "val_exig_profiles": "652339.8873389428",
+      "divergencia_pct": 41.34,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "ITRANSITO",
+      "nome_profiles": "ITRANSITO",
+      "faturas_spcf": 13,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "50417.64",
+      "val_liquido_spcf": "48750.39",
+      "val_orig_profiles": "38360.67",
+      "val_exig_profiles": "38360.67",
+      "divergencia_pct": 27.08,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "JUCEA",
+      "nome_profiles": "JUCEA",
+      "faturas_spcf": 6,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "16154.45",
+      "val_liquido_spcf": "16154.45",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "ODONTOMED",
+      "nome_profiles": "ODONTOMED",
+      "faturas_spcf": 18,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "9520.00",
+      "val_liquido_spcf": "9044.00",
+      "val_orig_profiles": "7541.1",
+      "val_exig_profiles": "7541.1",
+      "divergencia_pct": 19.93,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "PGE + PGE-EXTINTA CONF.DECRETO 34220/2013",
+      "nome_profiles": "PGE",
+      "faturas_spcf": 55,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "1427291.38",
+      "val_liquido_spcf": "1396512.22",
+      "val_orig_profiles": "849643.14",
+      "val_exig_profiles": "680239.7715611592",
+      "divergencia_pct": 64.36,
+      "status": "CRITICAL",
+      "merged_from": 2
+    },
+    {
+      "nome_spcf": "PGJ",
+      "nome_profiles": "FMPES",
+      "faturas_spcf": 2,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "27264.57",
+      "val_liquido_spcf": "27264.57",
+      "val_orig_profiles": "27264.57",
+      "val_exig_profiles": "27264.57",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "PMAM",
+      "nome_profiles": "PMAM",
+      "faturas_spcf": 13,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "24351.49",
+      "val_liquido_spcf": "17759.11",
+      "val_orig_profiles": "24351.49",
+      "val_exig_profiles": "27020.90058524942",
+      "divergencia_pct": 27.07,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "POLICIA CIVIL",
+      "nome_profiles": "POLÍCIA CIVIL",
+      "faturas_spcf": 50,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "780184.27",
+      "val_liquido_spcf": "742177.44",
+      "val_orig_profiles": "1066717.79",
+      "val_exig_profiles": "960481.713334285",
+      "divergencia_pct": 30.42,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "PROVER PROMOÇÃO DE VENDAS LTDA.",
+      "nome_profiles": "PROVER",
+      "faturas_spcf": 52,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "646342.00",
+      "val_liquido_spcf": "614024.90",
+      "val_orig_profiles": "549105.7",
+      "val_exig_profiles": "549105.7",
+      "divergencia_pct": 11.82,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "PSA TECHNOLOGY LTDA",
+      "nome_profiles": "PSA TECHNOLOGY",
+      "faturas_spcf": 1,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "21327.12",
+      "val_liquido_spcf": "21007.21",
+      "val_orig_profiles": "21007.21",
+      "val_exig_profiles": "21007.21",
+      "divergencia_pct": 0.0,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEAD",
+      "nome_profiles": "SEAD",
+      "faturas_spcf": 97,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "5606671.49",
+      "val_liquido_spcf": "5293077.30",
+      "val_orig_profiles": "2772731.09",
+      "val_exig_profiles": "2339702.19897373",
+      "divergencia_pct": 90.9,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEAS",
+      "nome_profiles": "SEAS",
+      "faturas_spcf": 47,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "461983.44",
+      "val_liquido_spcf": "391239.28",
+      "val_orig_profiles": "474659.7699999997",
+      "val_exig_profiles": "651041.089737987",
+      "divergencia_pct": 17.57,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEC",
+      "nome_profiles": "SEC",
+      "faturas_spcf": 20,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "247067.67",
+      "val_liquido_spcf": "189021.90",
+      "val_orig_profiles": "152126.16",
+      "val_exig_profiles": "99050.70706237933",
+      "divergencia_pct": 24.25,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SECT + SECTI-EXTINTA",
+      "nome_profiles": "SECT",
+      "faturas_spcf": 21,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "82997.22",
+      "val_liquido_spcf": "80571.09",
+      "val_orig_profiles": "222910.14",
+      "val_exig_profiles": "258328.5777689927",
+      "divergencia_pct": 63.85,
+      "status": "CRITICAL",
+      "merged_from": 2
+    },
+    {
+      "nome_spcf": "SEDECTI",
+      "nome_profiles": "SEDECTI",
+      "faturas_spcf": 145,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "2016410.83",
+      "val_liquido_spcf": "1931906.33",
+      "val_orig_profiles": "2012035.99",
+      "val_exig_profiles": "1249203.13232546",
+      "divergencia_pct": 3.98,
+      "status": "MINOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEDUC",
+      "nome_profiles": "SEDUC",
+      "faturas_spcf": 128,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "60408763.88",
+      "val_liquido_spcf": "56040239.62",
+      "val_orig_profiles": "38705633.18000001",
+      "val_exig_profiles": "49215512.48334964",
+      "divergencia_pct": 44.79,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEFAZ",
+      "nome_profiles": "SEFAZ",
+      "faturas_spcf": 8,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "41011.78",
+      "val_liquido_spcf": "39087.87",
+      "val_orig_profiles": "188362.64",
+      "val_exig_profiles": "198980.4851109561",
+      "divergencia_pct": 79.25,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEINFRA",
+      "nome_profiles": "SEINFRA",
+      "faturas_spcf": 20,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "143771.09",
+      "val_liquido_spcf": "140474.81",
+      "val_orig_profiles": "294139.13",
+      "val_exig_profiles": "379631.5477448804",
+      "divergencia_pct": 52.24,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEJUSC",
+      "nome_profiles": "SEJUSC",
+      "faturas_spcf": 158,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "2808304.05",
+      "val_liquido_spcf": "2671397.51",
+      "val_orig_profiles": "3025777.730000001",
+      "val_exig_profiles": "2589660.118313503",
+      "divergencia_pct": 11.71,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEMA",
+      "nome_profiles": "SEMA",
+      "faturas_spcf": 14,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "33740.07",
+      "val_liquido_spcf": "32656.40",
+      "val_orig_profiles": "35326.64",
+      "val_exig_profiles": "38541.1088668302",
+      "divergencia_pct": 7.56,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEMIG",
+      "nome_profiles": "SEMIG",
+      "faturas_spcf": 37,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "349707.18",
+      "val_liquido_spcf": "337858.93",
+      "val_orig_profiles": "0",
+      "val_exig_profiles": "0",
+      "divergencia_pct": 100.0,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SEPROR",
+      "nome_profiles": "SEPROR",
+      "faturas_spcf": 21,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "91836.04",
+      "val_liquido_spcf": "87687.72",
+      "val_orig_profiles": "103810.4",
+      "val_exig_profiles": "77960.49143925689",
+      "divergencia_pct": 15.53,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SES",
+      "nome_profiles": "SES/SUSAM",
+      "faturas_spcf": 215,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "12598842.19",
+      "val_liquido_spcf": "11877761.92",
+      "val_orig_profiles": "22406424.64000001",
+      "val_exig_profiles": "14748048.9572181",
+      "divergencia_pct": 46.99,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SETRAB EXTINTA - LEI D. 122/19 - INC PELA SEDECTI",
+      "nome_profiles": "SETRAB",
+      "faturas_spcf": 75,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "532267.64",
+      "val_liquido_spcf": "505899.62",
+      "val_orig_profiles": "505961.79",
+      "val_exig_profiles": "505961.79",
+      "divergencia_pct": 0.01,
+      "status": "MATCH",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SNPH",
+      "nome_profiles": "SNPH",
+      "faturas_spcf": 29,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "47660.47",
+      "val_liquido_spcf": "46521.21",
+      "val_orig_profiles": "17526.63",
+      "val_exig_profiles": "25117.34434577535",
+      "divergencia_pct": 165.43,
+      "status": "CRITICAL",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SSP",
+      "nome_profiles": "SSP",
+      "faturas_spcf": 181,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "11251189.18",
+      "val_liquido_spcf": "10725242.83",
+      "val_orig_profiles": "12532319.37999999",
+      "val_exig_profiles": "4553230.799761455",
+      "divergencia_pct": 14.42,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SUHAB",
+      "nome_profiles": "SUHAB",
+      "faturas_spcf": 107,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "669577.36",
+      "val_liquido_spcf": "636026.33",
+      "val_orig_profiles": "710644.0000000003",
+      "val_exig_profiles": "840061.1525043402",
+      "divergencia_pct": 10.5,
+      "status": "MAJOR",
+      "merged_from": 1
+    },
+    {
+      "nome_spcf": "SUL AMERICA",
+      "nome_profiles": "SUL AMERICA",
+      "faturas_spcf": 21,
+      "faturas_profiles": 0,
+      "val_servicos_spcf": "19758.00",
+      "val_liquido_spcf": "19758.00",
+      "val_orig_profiles": "18196.0",
+      "val_exig_profiles": "18196.0",
+      "divergencia_pct": 8.58,
+      "status": "MAJOR",
+      "merged_from": 1
+    }
+  ],
+  "nao_mapeados": [
+    {
+      "nome_spcf": "AAMP",
+      "nome_normalizado": "AAMP",
+      "faturas": 1,
+      "val_servicos": "463.40",
+      "val_liquido": "463.40"
+    },
+    {
+      "nome_spcf": "ABRH-AM",
+      "nome_normalizado": "ABRH-AM",
+      "faturas": 1,
+      "val_servicos": "2728.20",
+      "val_liquido": "2728.20"
+    },
+    {
+      "nome_spcf": "AC DESPACHOS DE VEICULOS",
+      "nome_normalizado": "AC DESPACHOS DE VEICULOS",
+      "faturas": 1,
+      "val_servicos": "210.97",
+      "val_liquido": "210.97"
+    },
+    {
+      "nome_spcf": "ADEPAM",
+      "nome_normalizado": "ADEPAM",
+      "faturas": 1,
+      "val_servicos": "143.95",
+      "val_liquido": "143.95"
+    },
+    {
+      "nome_spcf": "ADERSON DA SILVA",
+      "nome_normalizado": "ADERSON DA SILVA",
+      "faturas": 1,
+      "val_servicos": "172.34",
+      "val_liquido": "172.34"
+    },
+    {
+      "nome_spcf": "ADNELSON DOS SANTOS SILVA",
+      "nome_normalizado": "ADNELSON DOS SANTOS SILVA",
+      "faturas": 4,
+      "val_servicos": "650.40",
+      "val_liquido": "650.40"
+    },
+    {
+      "nome_spcf": "AEBAM",
+      "nome_normalizado": "AEBAM",
+      "faturas": 1,
+      "val_servicos": "472.62",
+      "val_liquido": "472.62"
+    },
+    {
+      "nome_spcf": "AEDESPAM",
+      "nome_normalizado": "AEDESPAM",
+      "faturas": 11,
+      "val_servicos": "1478.35",
+      "val_liquido": "1404.45"
+    },
+    {
+      "nome_spcf": "AILTON DESPACHANTE",
+      "nome_normalizado": "AILTON DESPACHANTE",
+      "faturas": 1,
+      "val_servicos": "189.80",
+      "val_liquido": "189.80"
+    },
+    {
+      "nome_spcf": "AJA SERVIÇOS E COMERCIO DE MOTOS E VEICULOS LTDA",
+      "nome_normalizado": "AJA SERVIÇOS E COMERCIO DE MOTOS E VEICULOS LTDA",
+      "faturas": 5,
+      "val_servicos": "1040.15",
+      "val_liquido": "1040.15"
+    },
+    {
+      "nome_spcf": "ALEAM - ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS",
+      "nome_normalizado": "ALEAM - ASSEMBLEIA LEGISLATIVA DO ESTADO DO AMAZONAS",
+      "faturas": 1,
+      "val_servicos": "28959.30",
+      "val_liquido": "27511.33"
+    },
+    {
+      "nome_spcf": "ALICE SUELEN OLIVEIRA DE LIMA",
+      "nome_normalizado": "ALICE SUELEN OLIVEIRA DE LIMA",
+      "faturas": 1,
+      "val_servicos": "216.03",
+      "val_liquido": "216.03"
+    },
+    {
+      "nome_spcf": "AM CARD - ADMINISTRADORA DE CARTÕES S/S LTDA",
+      "nome_normalizado": "AM CARD - ADMINISTRADORA DE CARTÕES S/S LTDA",
+      "faturas": 1,
+      "val_servicos": "26.32",
+      "val_liquido": "25.00"
+    },
+    {
+      "nome_spcf": "AMAZON+",
+      "nome_normalizado": "AMAZON+",
+      "faturas": 1,
+      "val_servicos": "655.88",
+      "val_liquido": "655.88"
+    },
+    {
+      "nome_spcf": "AMAZONASTUR",
+      "nome_normalizado": "AMAZONASTUR",
+      "faturas": 13,
+      "val_servicos": "20094.99",
+      "val_liquido": "19709.30"
+    },
+    {
+      "nome_spcf": "AMAZONET",
+      "nome_normalizado": "AMAZONET TELECOMUNICACOES LTDA",
+      "faturas": 1,
+      "val_servicos": "1940.43",
+      "val_liquido": "1940.43"
+    },
+    {
+      "nome_spcf": "AMETRAN",
+      "nome_normalizado": "AMETRAN",
+      "faturas": 2,
+      "val_servicos": "531.18",
+      "val_liquido": "531.18"
+    },
+    {
+      "nome_spcf": "ANGELIM DESPACHANTES",
+      "nome_normalizado": "ANGELIM DESPACHANTES",
+      "faturas": 1,
+      "val_servicos": "173.08",
+      "val_liquido": "173.08"
+    },
+    {
+      "nome_spcf": "ASASB",
+      "nome_normalizado": "ASASB",
+      "faturas": 2,
+      "val_servicos": "218.00",
+      "val_liquido": "218.00"
+    },
+    {
+      "nome_spcf": "ASPBRAS",
+      "nome_normalizado": "ASPBRAS",
+      "faturas": 2,
+      "val_servicos": "6346.00",
+      "val_liquido": "6346.00"
+    },
+    {
+      "nome_spcf": "ASSALE",
+      "nome_normalizado": "ASSALE",
+      "faturas": 3,
+      "val_servicos": "420.00",
+      "val_liquido": "420.00"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA  ALFA E OMEGA",
+      "nome_normalizado": "AUTO ESCOLA  ALFA E OMEGA",
+      "faturas": 9,
+      "val_servicos": "1602.54",
+      "val_liquido": "1589.17"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA AMA-RIO EIRELI",
+      "nome_normalizado": "AUTO ESCOLA AMA-RIO EIRELI",
+      "faturas": 1,
+      "val_servicos": "133.97",
+      "val_liquido": "133.97"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA AMAZONAS",
+      "nome_normalizado": "AUTO ESCOLA AMAZONAS",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA APROVAR",
+      "nome_normalizado": "AUTO ESCOLA APROVAR",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA B. B.",
+      "nome_normalizado": "AUTO ESCOLA B. B.",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA CARAUARI",
+      "nome_normalizado": "AUTO ESCOLA CARAUARI",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA COARI",
+      "nome_normalizado": "AUTO ESCOLA COARI",
+      "faturas": 4,
+      "val_servicos": "1678.56",
+      "val_liquido": "1678.56"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA COMPENSA",
+      "nome_normalizado": "AUTO ESCOLA COMPENSA",
+      "faturas": 5,
+      "val_servicos": "905.75",
+      "val_liquido": "905.75"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA CONFIANCA",
+      "nome_normalizado": "AUTO ESCOLA CONFIANCA",
+      "faturas": 3,
+      "val_servicos": "629.46",
+      "val_liquido": "629.46"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA CRISTAL LTDA",
+      "nome_normalizado": "AUTO ESCOLA CRISTAL LTDA",
+      "faturas": 2,
+      "val_servicos": "435.76",
+      "val_liquido": "435.76"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA IMPÉRIO",
+      "nome_normalizado": "AUTO ESCOLA IMPÉRIO",
+      "faturas": 10,
+      "val_servicos": "3140.58",
+      "val_liquido": "3140.58"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA JACK",
+      "nome_normalizado": "AUTO ESCOLA JACK",
+      "faturas": 3,
+      "val_servicos": "629.46",
+      "val_liquido": "629.46"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA KARIME",
+      "nome_normalizado": "AUTO ESCOLA KARIME",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA LENE",
+      "nome_normalizado": "AUTO ESCOLA LENE",
+      "faturas": 18,
+      "val_servicos": "2231.98",
+      "val_liquido": "2231.98"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA LUNA",
+      "nome_normalizado": "AUTO ESCOLA LUNA",
+      "faturas": 3,
+      "val_servicos": "1054.74",
+      "val_liquido": "1054.74"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA LÍDER",
+      "nome_normalizado": "AUTO ESCOLA LÍDER",
+      "faturas": 1,
+      "val_servicos": "419.64",
+      "val_liquido": "419.64"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA MAMORI",
+      "nome_normalizado": "AUTO ESCOLA MAMORI",
+      "faturas": 4,
+      "val_servicos": "618.72",
+      "val_liquido": "618.72"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA MANAQUIRI",
+      "nome_normalizado": "AUTO ESCOLA MANAQUIRI",
+      "faturas": 7,
+      "val_servicos": "1153.80",
+      "val_liquido": "1153.80"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA MARESIA",
+      "nome_normalizado": "AUTO ESCOLA MARESIA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA MAS PRA DIRIGIR HABILITAÇÃO",
+      "nome_normalizado": "AUTO ESCOLA MAS PRA DIRIGIR HABILITAÇÃO",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA MESQUITA",
+      "nome_normalizado": "AUTO ESCOLA MESQUITA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA MOTO IDEAL",
+      "nome_normalizado": "AUTO ESCOLA MOTO IDEAL",
+      "faturas": 10,
+      "val_servicos": "1516.50",
+      "val_liquido": "1516.50"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA NEVES LTDA",
+      "nome_normalizado": "AUTO ESCOLA NEVES LTDA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA NOBRE",
+      "nome_normalizado": "AUTO ESCOLA NOBRE",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA NOVA  ALIANÇA",
+      "nome_normalizado": "AUTO ESCOLA NOVA  ALIANÇA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA NOVO PILOTO",
+      "nome_normalizado": "AUTO ESCOLA NOVO PILOTO",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA PEDROSA",
+      "nome_normalizado": "AUTO ESCOLA PEDROSA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA PRESID FIGUEIREDO",
+      "nome_normalizado": "AUTO ESCOLA PRESID FIGUEIREDO",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA REIS LTDA",
+      "nome_normalizado": "AUTO ESCOLA REIS LTDA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA SAMAUMA",
+      "nome_normalizado": "AUTO ESCOLA SAMAUMA",
+      "faturas": 2,
+      "val_servicos": "419.64",
+      "val_liquido": "419.64"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA SILVA",
+      "nome_normalizado": "AUTO ESCOLA SILVA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA TEFE",
+      "nome_normalizado": "AUTO ESCOLA TEFE",
+      "faturas": 5,
+      "val_servicos": "1020.38",
+      "val_liquido": "1016.16"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA THOME",
+      "nome_normalizado": "AUTO ESCOLA THOME",
+      "faturas": 12,
+      "val_servicos": "5259.52",
+      "val_liquido": "5004.05"
+    },
+    {
+      "nome_spcf": "AUTO ESCOLA TJ",
+      "nome_normalizado": "AUTO ESCOLA TJ",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AUTO FAST LTDA",
+      "nome_normalizado": "AUTO FAST LTDA",
+      "faturas": 7,
+      "val_servicos": "911.68",
+      "val_liquido": "911.68"
+    },
+    {
+      "nome_spcf": "AUTOESCOLA MENDONÇA LTDA",
+      "nome_normalizado": "AUTOESCOLA MENDONÇA LTDA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "AXES",
+      "nome_normalizado": "AXES",
+      "faturas": 5,
+      "val_servicos": "50147.62",
+      "val_liquido": "50147.62"
+    },
+    {
+      "nome_spcf": "BANCO BRADESCO S. A.",
+      "nome_normalizado": "BANCO BRADESCO S. A.",
+      "faturas": 50,
+      "val_servicos": "2487193.20",
+      "val_liquido": "2487193.20"
+    },
+    {
+      "nome_spcf": "BANCO DO BRASIL - SETOR PUBL.",
+      "nome_normalizado": "BANCO DO BRASIL - SETOR PUBL.",
+      "faturas": 3,
+      "val_servicos": "11219.76",
+      "val_liquido": "11219.76"
+    },
+    {
+      "nome_spcf": "BANCO PAN",
+      "nome_normalizado": "BANCO PAN",
+      "faturas": 2,
+      "val_servicos": "47420.00",
+      "val_liquido": "47420.00"
+    },
+    {
+      "nome_spcf": "BANCO SANTANDER BRASIL S.A.",
+      "nome_normalizado": "BANCO SANTANDER BRASIL S.A.",
+      "faturas": 5,
+      "val_servicos": "38047.62",
+      "val_liquido": "38047.62"
+    },
+    {
+      "nome_spcf": "BEATUS CLINITRAN",
+      "nome_normalizado": "BEATUS CLINITRAN",
+      "faturas": 14,
+      "val_servicos": "1927.88",
+      "val_liquido": "1927.88"
+    },
+    {
+      "nome_spcf": "BIB",
+      "nome_normalizado": "BIB",
+      "faturas": 3,
+      "val_servicos": "46914.50",
+      "val_liquido": "46914.50"
+    },
+    {
+      "nome_spcf": "BRADESCO FINANCIAMENTO",
+      "nome_normalizado": "BRADESCO FINANCIAMENTO",
+      "faturas": 76,
+      "val_servicos": "204594.50",
+      "val_liquido": "204594.50"
+    },
+    {
+      "nome_spcf": "BRADESCO VIDA E PREVIDENCIA",
+      "nome_normalizado": "BRADESCO VIDA E PREVIDENCIA",
+      "faturas": 1,
+      "val_servicos": "1038.00",
+      "val_liquido": "1038.00"
+    },
+    {
+      "nome_spcf": "C S CLINICA DE TRANSITO DE MANAUS LTDA",
+      "nome_normalizado": "C S CLINICA DE TRANSITO DE MANAUS LTDA",
+      "faturas": 4,
+      "val_servicos": "627.95",
+      "val_liquido": "627.95"
+    },
+    {
+      "nome_spcf": "CADA",
+      "nome_normalizado": "CADA",
+      "faturas": 2,
+      "val_servicos": "4029.69",
+      "val_liquido": "4029.69"
+    },
+    {
+      "nome_spcf": "CADEIA PUBLICA",
+      "nome_normalizado": "CADEIA PUBLICA",
+      "faturas": 2,
+      "val_servicos": "8443.69",
+      "val_liquido": "8021.50"
+    },
+    {
+      "nome_spcf": "CAPEMISA",
+      "nome_normalizado": "CAPEMISA",
+      "faturas": 9,
+      "val_servicos": "2390.78",
+      "val_liquido": "2271.24"
+    },
+    {
+      "nome_spcf": "CARDOSO DESPACHANTE DE VEICULOS",
+      "nome_normalizado": "CARDOSO DESPACHANTE DE VEICULOS",
+      "faturas": 1,
+      "val_servicos": "438.56",
+      "val_liquido": "438.56"
+    },
+    {
+      "nome_spcf": "CARLLOS MAGNO RABELO BEZERRA",
+      "nome_normalizado": "CARLLOS MAGNO RABELO BEZERRA",
+      "faturas": 1,
+      "val_servicos": "173.08",
+      "val_liquido": "173.08"
+    },
+    {
+      "nome_spcf": "CASA DO ALBERGADO DE MANAUS",
+      "nome_normalizado": "CASA DO ALBERGADO DE MANAUS",
+      "faturas": 6,
+      "val_servicos": "12556.09",
+      "val_liquido": "11928.28"
+    },
+    {
+      "nome_spcf": "CASPEB",
+      "nome_normalizado": "CASPEB",
+      "faturas": 14,
+      "val_servicos": "3488.00",
+      "val_liquido": "3488.00"
+    },
+    {
+      "nome_spcf": "CENTRO DE FORMAÇÃO DE CONDUTORES DE VEICULO CIDADE MANAUS LT",
+      "nome_normalizado": "CENTRO DE FORMAÇÃO DE CONDUTORES DE VEICULO CIDADE MANAUS LT",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "CENTRO DE FORMAÇÃO DE CONDUTORES LEGALIZE EIRELI",
+      "nome_normalizado": "CENTRO DE FORMAÇÃO DE CONDUTORES LEGALIZE EIRELI",
+      "faturas": 2,
+      "val_servicos": "419.64",
+      "val_liquido": "419.64"
+    },
+    {
+      "nome_spcf": "CEPSITRAN",
+      "nome_normalizado": "CEPSITRAN",
+      "faturas": 4,
+      "val_servicos": "319.68",
+      "val_liquido": "319.68"
+    },
+    {
+      "nome_spcf": "CEVAM",
+      "nome_normalizado": "CEVAM",
+      "faturas": 1,
+      "val_servicos": "21918.40",
+      "val_liquido": "21918.40"
+    },
+    {
+      "nome_spcf": "CFC ATALAIA",
+      "nome_normalizado": "CFC ATALAIA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "CFC AUTO ESCOLA MENDES LTDA.",
+      "nome_normalizado": "CFC AUTO ESCOLA MENDES LTDA.",
+      "faturas": 6,
+      "val_servicos": "911.10",
+      "val_liquido": "911.10"
+    },
+    {
+      "nome_spcf": "CFC COOPIAUTO",
+      "nome_normalizado": "CFC COOPIAUTO",
+      "faturas": 1,
+      "val_servicos": "629.46",
+      "val_liquido": "629.46"
+    },
+    {
+      "nome_spcf": "CFC DINAMICA",
+      "nome_normalizado": "CFC DINAMICA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "CFC DIREÇÃO",
+      "nome_normalizado": "CFC DIREÇÃO",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "CFC EBS",
+      "nome_normalizado": "CFC EBS",
+      "faturas": 3,
+      "val_servicos": "629.46",
+      "val_liquido": "629.46"
+    },
+    {
+      "nome_spcf": "CFC EFICIENTE",
+      "nome_normalizado": "CFC EFICIENTE",
+      "faturas": 8,
+      "val_servicos": "1037.50",
+      "val_liquido": "1037.50"
+    },
+    {
+      "nome_spcf": "CFC GENESIS",
+      "nome_normalizado": "CFC GENESIS",
+      "faturas": 6,
+      "val_servicos": "803.82",
+      "val_liquido": "803.82"
+    },
+    {
+      "nome_spcf": "CFC GRANDE VITORIA LTDA.",
+      "nome_normalizado": "CFC GRANDE VITORIA LTDA.",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "CFC HABILITE-SE",
+      "nome_normalizado": "CFC HABILITE-SE",
+      "faturas": 2,
+      "val_servicos": "419.64",
+      "val_liquido": "419.64"
+    },
+    {
+      "nome_spcf": "CFC MONZA",
+      "nome_normalizado": "CFC MONZA",
+      "faturas": 5,
+      "val_servicos": "2597.84",
+      "val_liquido": "2597.84"
+    },
+    {
+      "nome_spcf": "CFC MOTO VAL",
+      "nome_normalizado": "CFC MOTO VAL",
+      "faturas": 7,
+      "val_servicos": "1875.58",
+      "val_liquido": "1875.58"
+    },
+    {
+      "nome_spcf": "CFC PADRÃO",
+      "nome_normalizado": "CFC PADRÃO",
+      "faturas": 16,
+      "val_servicos": "1838.60",
+      "val_liquido": "1838.60"
+    },
+    {
+      "nome_spcf": "CFC PATTY",
+      "nome_normalizado": "CFC PATTY",
+      "faturas": 10,
+      "val_servicos": "5895.74",
+      "val_liquido": "5711.97"
+    },
+    {
+      "nome_spcf": "CFC TRANSITO LIVRE",
+      "nome_normalizado": "CFC TRANSITO LIVRE",
+      "faturas": 3,
+      "val_servicos": "429.99",
+      "val_liquido": "429.99"
+    },
+    {
+      "nome_spcf": "CFC YARA",
+      "nome_normalizado": "CFC YARA",
+      "faturas": 3,
+      "val_servicos": "629.46",
+      "val_liquido": "629.46"
+    },
+    {
+      "nome_spcf": "CFC YESHUA",
+      "nome_normalizado": "CFC YESHUA",
+      "faturas": 1,
+      "val_servicos": "213.80",
+      "val_liquido": "213.80"
+    },
+    {
+      "nome_spcf": "CLIMEP",
+      "nome_normalizado": "CLIMEP",
+      "faturas": 2,
+      "val_servicos": "451.08",
+      "val_liquido": "451.08"
+    },
+    {
+      "nome_spcf": "CLIMETRAN",
+      "nome_normalizado": "CLIMETRAN",
+      "faturas": 2,
+      "val_servicos": "351.70",
+      "val_liquido": "351.70"
+    },
+    {
+      "nome_spcf": "CLIMETT",
+      "nome_normalizado": "CLIMETT",
+      "faturas": 4,
+      "val_servicos": "1233.48",
+      "val_liquido": "1233.48"
+    },
+    {
+      "nome_spcf": "CLINICA DE TRANSITO COARI LTDA",
+      "nome_normalizado": "CLINICA DE TRANSITO COARI LTDA",
+      "faturas": 2,
+      "val_servicos": "183.59",
+      "val_liquido": "183.59"
+    },
+    {
+      "nome_spcf": "CLINICA DE TRANSITO MANAUS",
+      "nome_normalizado": "CLINICA DE TRANSITO MANAUS",
+      "faturas": 2,
+      "val_servicos": "404.81",
+      "val_liquido": "404.81"
+    },
+    {
+      "nome_spcf": "CLINICA DE TRANSITO PRESIDENTE FIGUEREDO EIRELI",
+      "nome_normalizado": "CLINICA DE TRANSITO PRESIDENTE FIGUEREDO EIRELI",
+      "faturas": 2,
+      "val_servicos": "209.35",
+      "val_liquido": "209.35"
+    },
+    {
+      "nome_spcf": "CLINICA DE TRANSITO TABATINGA",
+      "nome_normalizado": "CLINICA DE TRANSITO TABATINGA",
+      "faturas": 5,
+      "val_servicos": "740.80",
+      "val_liquido": "740.80"
+    },
+    {
+      "nome_spcf": "CLINICMED",
+      "nome_normalizado": "CLINICMED",
+      "faturas": 2,
+      "val_servicos": "253.27",
+      "val_liquido": "253.27"
+    },
+    {
+      "nome_spcf": "CLINILESTE",
+      "nome_normalizado": "CLINILESTE",
+      "faturas": 1,
+      "val_servicos": "179.67",
+      "val_liquido": "179.67"
+    },
+    {
+      "nome_spcf": "CLINPRAT",
+      "nome_normalizado": "CLINPRAT",
+      "faturas": 2,
+      "val_servicos": "277.34",
+      "val_liquido": "277.34"
+    },
+    {
+      "nome_spcf": "CLINTOP",
+      "nome_normalizado": "CLINTOP",
+      "faturas": 2,
+      "val_servicos": "286.05",
+      "val_liquido": "286.05"
+    },
+    {
+      "nome_spcf": "CLUBE MUNICIPAL",
+      "nome_normalizado": "CLUBE MUNICIPAL",
+      "faturas": 1,
+      "val_servicos": "1992.00",
+      "val_liquido": "1992.00"
+    },
+    {
+      "nome_spcf": "CLÍNICA MEDICA DE TRÁFEGO",
+      "nome_normalizado": "CLÍNICA MEDICA DE TRÁFEGO",
+      "faturas": 2,
+      "val_servicos": "238.68",
+      "val_liquido": "238.68"
+    },
+    {
+      "nome_spcf": "CM DE AMATURA",
+      "nome_normalizado": "CM DE AMATURA",
+      "faturas": 1,
+      "val_servicos": "294.01",
+      "val_liquido": "294.01"
+    },
+    {
+      "nome_spcf": "CM DE MANAUS",
+      "nome_normalizado": "CM DE MANAUS",
+      "faturas": 1,
+      "val_servicos": "14472.99",
+      "val_liquido": "14472.99"
+    },
+    {
+      "nome_spcf": "CMP CLÍNICA DE TRÂNSITO",
+      "nome_normalizado": "CMP CLÍNICA DE TRÂNSITO",
+      "faturas": 2,
+      "val_servicos": "317.03",
+      "val_liquido": "317.03"
+    },
+    {
+      "nome_spcf": "CNB - SEÇÃO AMAZONAS",
+      "nome_normalizado": "CNB - SEÇÃO AMAZONAS",
+      "faturas": 2,
+      "val_servicos": "9170.73",
+      "val_liquido": "9170.73"
+    },
+    {
+      "nome_spcf": "COMPAJ",
+      "nome_normalizado": "COMPAJ",
+      "faturas": 12,
+      "val_servicos": "47778.96",
+      "val_liquido": "45390.03"
+    },
+    {
+      "nome_spcf": "CREA",
+      "nome_normalizado": "CREA",
+      "faturas": 1,
+      "val_servicos": "1554.43",
+      "val_liquido": "1554.43"
+    },
+    {
+      "nome_spcf": "CSC",
+      "nome_normalizado": "CSC",
+      "faturas": 9,
+      "val_servicos": "30992.19",
+      "val_liquido": "30926.05"
+    },
+    {
+      "nome_spcf": "CTL CLINICA DE TRANSITO LEAL",
+      "nome_normalizado": "CTL CLINICA DE TRANSITO LEAL",
+      "faturas": 2,
+      "val_servicos": "230.25",
+      "val_liquido": "230.25"
+    },
+    {
+      "nome_spcf": "DEFESA CIVIL",
+      "nome_normalizado": "DEFESA CIVIL",
+      "faturas": 5,
+      "val_servicos": "17417.07",
+      "val_liquido": "17417.07"
+    },
+    {
+      "nome_spcf": "DESCONT-DESPACHOS E CONTABILIDADE",
+      "nome_normalizado": "DESCONT-DESPACHOS E CONTABILIDADE",
+      "faturas": 4,
+      "val_servicos": "741.76",
+      "val_liquido": "741.76"
+    },
+    {
+      "nome_spcf": "DESPACHANTE SOLUTION",
+      "nome_normalizado": "DESPACHANTE SOLUTION",
+      "faturas": 1,
+      "val_servicos": "1993.41",
+      "val_liquido": "1993.41"
+    },
+    {
+      "nome_spcf": "DESPACHOS FRAN",
+      "nome_normalizado": "DESPACHOS FRAN",
+      "faturas": 1,
+      "val_servicos": "194.62",
+      "val_liquido": "194.62"
+    },
+    {
+      "nome_spcf": "DESPAM DESPACHO PARA AMAZONIA",
+      "nome_normalizado": "DESPAM DESPACHO PARA AMAZONIA",
+      "faturas": 1,
+      "val_servicos": "173.08",
+      "val_liquido": "173.08"
+    },
+    {
+      "nome_spcf": "DSL LICENCIAMENTOS",
+      "nome_normalizado": "DSL LICENCIAMENTOS",
+      "faturas": 13,
+      "val_servicos": "2440.96",
+      "val_liquido": "2410.56"
+    },
+    {
+      "nome_spcf": "E G FRAZAO",
+      "nome_normalizado": "E G FRAZAO",
+      "faturas": 5,
+      "val_servicos": "16776.00",
+      "val_liquido": "16776.00"
+    },
+    {
+      "nome_spcf": "ELISANGELA A. SILVA",
+      "nome_normalizado": "ELISANGELA A. SILVA",
+      "faturas": 1,
+      "val_servicos": "208.03",
+      "val_liquido": "208.03"
+    },
+    {
+      "nome_spcf": "ERGSP",
+      "nome_normalizado": "ERGSP",
+      "faturas": 4,
+      "val_servicos": "4569.36",
+      "val_liquido": "4495.67"
+    },
+    {
+      "nome_spcf": "ERNANI DAS NEVES RODRIGUES JUNIOR",
+      "nome_normalizado": "ERNANI DAS NEVES RODRIGUES JUNIOR",
+      "faturas": 8,
+      "val_servicos": "1041.92",
+      "val_liquido": "1041.92"
+    },
+    {
+      "nome_spcf": "ESCEL SERVIÇOS DE DESPACHOS CONTÁBEIS LTDA",
+      "nome_normalizado": "ESCEL SERVIÇOS DE DESPACHOS CONTÁBEIS LTDA",
+      "faturas": 1,
+      "val_servicos": "153.40",
+      "val_liquido": "153.40"
+    },
+    {
+      "nome_spcf": "EVANDRO NOGUEIRA CRUZ LTDA",
+      "nome_normalizado": "EVANDRO NOGUEIRA CRUZ LTDA",
+      "faturas": 1,
+      "val_servicos": "143.86",
+      "val_liquido": "143.86"
+    },
+    {
+      "nome_spcf": "EYES NWHERE SISTEMAS INTELIGENTES DE IMAGEM LTDA",
+      "nome_normalizado": "EYES NWHERE SISTEMAS INTELIGENTES DE IMAGEM LTDA",
+      "faturas": 5,
+      "val_servicos": "4191.60",
+      "val_liquido": "3982.00"
+    },
+    {
+      "nome_spcf": "FAPEAM",
+      "nome_normalizado": "FAPEAM",
+      "faturas": 9,
+      "val_servicos": "138476.33",
+      "val_liquido": "138476.33"
+    },
+    {
+      "nome_spcf": "FB DESPACHANTE",
+      "nome_normalizado": "FB DESPACHANTE",
+      "faturas": 1,
+      "val_servicos": "292.64",
+      "val_liquido": "292.64"
+    },
+    {
+      "nome_spcf": "FEPIAM - ALTERADA PELA LEI 6522-2023",
+      "nome_normalizado": "FEPIAM - ALTERADA PELA LEI 6522-2023",
+      "faturas": 15,
+      "val_servicos": "33263.65",
+      "val_liquido": "32373.22"
+    },
+    {
+      "nome_spcf": "FERF",
+      "nome_normalizado": "FERF",
+      "faturas": 8,
+      "val_servicos": "19191.14",
+      "val_liquido": "19191.14"
+    },
+    {
+      "nome_spcf": "FIOS",
+      "nome_normalizado": "FIOS",
+      "faturas": 1,
+      "val_servicos": "946.51",
+      "val_liquido": "946.51"
+    },
+    {
+      "nome_spcf": "FKJ DESPACHANTE",
+      "nome_normalizado": "FKJ DESPACHANTE",
+      "faturas": 1,
+      "val_servicos": "2185.86",
+      "val_liquido": "2185.86"
+    },
+    {
+      "nome_spcf": "FMT-HVD",
+      "nome_normalizado": "FMT-HVD",
+      "faturas": 17,
+      "val_servicos": "110810.62",
+      "val_liquido": "102291.31"
+    },
+    {
+      "nome_spcf": "FREDERICO G DA SILVA",
+      "nome_normalizado": "FREDERICO G DA SILVA",
+      "faturas": 1,
+      "val_servicos": "172.34",
+      "val_liquido": "172.34"
+    },
+    {
+      "nome_spcf": "FUNATI",
+      "nome_normalizado": "FUNATI",
+      "faturas": 6,
+      "val_servicos": "11105.72",
+      "val_liquido": "10114.46"
+    },
+    {
+      "nome_spcf": "FUNDECON",
+      "nome_normalizado": "FUNDECON",
+      "faturas": 10,
+      "val_servicos": "35916.59",
+      "val_liquido": "35916.59"
+    },
+    {
+      "nome_spcf": "FUNJEAM-TJ",
+      "nome_normalizado": "FUNJEAM-TJ",
+      "faturas": 4,
+      "val_servicos": "20736.92",
+      "val_liquido": "20596.35"
+    },
+    {
+      "nome_spcf": "FVO",
+      "nome_normalizado": "FVO",
+      "faturas": 16,
+      "val_servicos": "57527.92",
+      "val_liquido": "54651.53"
+    },
+    {
+      "nome_spcf": "GEAP SAÚDE",
+      "nome_normalizado": "GEAP SAÚDE",
+      "faturas": 1,
+      "val_servicos": "557.10",
+      "val_liquido": "557.10"
+    },
+    {
+      "nome_spcf": "GSP",
+      "nome_normalizado": "GSP",
+      "faturas": 1,
+      "val_servicos": "452.00",
+      "val_liquido": "452.00"
+    },
+    {
+      "nome_spcf": "HABILITA AMAZON",
+      "nome_normalizado": "HABILITA AMAZON",
+      "faturas": 2,
+      "val_servicos": "367.49",
+      "val_liquido": "367.49"
+    },
+    {
+      "nome_spcf": "HABILITA MAUES",
+      "nome_normalizado": "HABILITA MAUES",
+      "faturas": 1,
+      "val_servicos": "194.00",
+      "val_liquido": "194.00"
+    },
+    {
+      "nome_spcf": "HABILITA RIO PRETO",
+      "nome_normalizado": "HABILITA RIO PRETO",
+      "faturas": 2,
+      "val_servicos": "208.35",
+      "val_liquido": "208.35"
+    },
+    {
+      "nome_spcf": "HABILITARE PSICOMED",
+      "nome_normalizado": "HABILITARE PSICOMED",
+      "faturas": 2,
+      "val_servicos": "281.88",
+      "val_liquido": "281.88"
+    },
+    {
+      "nome_spcf": "HELDON EUDES DE MENEZES FRANCA",
+      "nome_normalizado": "HELDON EUDES DE MENEZES FRANCA",
+      "faturas": 1,
+      "val_servicos": "172.34",
+      "val_liquido": "172.34"
+    },
+    {
+      "nome_spcf": "IMMU",
+      "nome_normalizado": "IMMU",
+      "faturas": 6,
+      "val_servicos": "2231103.36",
+      "val_liquido": "507029.03"
+    },
+    {
+      "nome_spcf": "IMPERIO DESPACHOS ME",
+      "nome_normalizado": "IMPERIO DESPACHOS ME",
+      "faturas": 2,
+      "val_servicos": "416.06",
+      "val_liquido": "414.04"
+    },
+    {
+      "nome_spcf": "IPEM",
+      "nome_normalizado": "IPEM",
+      "faturas": 2,
+      "val_servicos": "9023.45",
+      "val_liquido": "9023.45"
+    },
+    {
+      "nome_spcf": "IPER",
+      "nome_normalizado": "IPER",
+      "faturas": 2,
+      "val_servicos": "6568.48",
+      "val_liquido": "6568.48"
+    },
+    {
+      "nome_spcf": "ITAVIDA SEGUROS",
+      "nome_normalizado": "ITAVIDA SEGUROS",
+      "faturas": 1,
+      "val_servicos": "264.00",
+      "val_liquido": "264.00"
+    },
+    {
+      "nome_spcf": "J&S DESPACHANTE DE VEICULOS",
+      "nome_normalizado": "J&S DESPACHANTE DE VEICULOS",
+      "faturas": 1,
+      "val_servicos": "216.29",
+      "val_liquido": "216.29"
+    },
+    {
+      "nome_spcf": "JB DESPACHANTE",
+      "nome_normalizado": "JB DESPACHANTE",
+      "faturas": 2,
+      "val_servicos": "357.16",
+      "val_liquido": "357.16"
+    },
+    {
+      "nome_spcf": "JKN DESPACHANTE",
+      "nome_normalizado": "JKN DESPACHANTE",
+      "faturas": 5,
+      "val_servicos": "696.91",
+      "val_liquido": "696.91"
+    },
+    {
+      "nome_spcf": "JOSÉ DIVAL ESTEVÃO DA SILVA",
+      "nome_normalizado": "JOSÉ DIVAL ESTEVÃO DA SILVA",
+      "faturas": 29,
+      "val_servicos": "6792.15",
+      "val_liquido": "6787.93"
+    },
+    {
+      "nome_spcf": "JOSÉ IOMAR SILVA DOS SANTOS",
+      "nome_normalizado": "JOSÉ IOMAR SILVA DOS SANTOS",
+      "faturas": 6,
+      "val_servicos": "781.44",
+      "val_liquido": "781.44"
+    },
+    {
+      "nome_spcf": "JRB DESPACHOS",
+      "nome_normalizado": "JRB DESPACHOS",
+      "faturas": 1,
+      "val_servicos": "208.03",
+      "val_liquido": "208.03"
+    },
+    {
+      "nome_spcf": "JUCEL AUTO ESCOLA",
+      "nome_normalizado": "JUCEL AUTO ESCOLA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "JULIO CESAR M BARBOSA",
+      "nome_normalizado": "JULIO CESAR M BARBOSA",
+      "faturas": 1,
+      "val_servicos": "421.94",
+      "val_liquido": "421.94"
+    },
+    {
+      "nome_spcf": "K E DESPACHANTES",
+      "nome_normalizado": "K E DESPACHANTES",
+      "faturas": 2,
+      "val_servicos": "438.56",
+      "val_liquido": "438.56"
+    },
+    {
+      "nome_spcf": "K&S DESPACHANTES",
+      "nome_normalizado": "K&S DESPACHANTES",
+      "faturas": 1,
+      "val_servicos": "434.44",
+      "val_liquido": "434.44"
+    },
+    {
+      "nome_spcf": "KOVR PREVIDENCIA S. A.",
+      "nome_normalizado": "KOVR PREVIDENCIA S. A.",
+      "faturas": 1,
+      "val_servicos": "582.00",
+      "val_liquido": "582.00"
+    },
+    {
+      "nome_spcf": "L M DIAS DESPACHANTES",
+      "nome_normalizado": "L M DIAS DESPACHANTES",
+      "faturas": 1,
+      "val_servicos": "199.20",
+      "val_liquido": "199.20"
+    },
+    {
+      "nome_spcf": "LL FORMAÇÃO DE CONDUTORES LTDA",
+      "nome_normalizado": "LL FORMAÇÃO DE CONDUTORES LTDA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "LOGICPRO",
+      "nome_normalizado": "LOGICPRO",
+      "faturas": 1,
+      "val_servicos": "884.06",
+      "val_liquido": "839.86"
+    },
+    {
+      "nome_spcf": "MANACAPURU.COM",
+      "nome_normalizado": "MANACAPURU.COM",
+      "faturas": 5,
+      "val_servicos": "10931.25",
+      "val_liquido": "10931.25"
+    },
+    {
+      "nome_spcf": "MANAUSPREV",
+      "nome_normalizado": "MANAUSPREV",
+      "faturas": 10,
+      "val_servicos": "340108.18",
+      "val_liquido": "340108.18"
+    },
+    {
+      "nome_spcf": "MANAUSTRANS",
+      "nome_normalizado": "MANAUSTRANS",
+      "faturas": 1,
+      "val_servicos": "11045.60",
+      "val_liquido": "10493.32"
+    },
+    {
+      "nome_spcf": "MEDCLIN TRANSITO",
+      "nome_normalizado": "MEDCLIN TRANSITO",
+      "faturas": 2,
+      "val_servicos": "208.04",
+      "val_liquido": "208.04"
+    },
+    {
+      "nome_spcf": "MEDCLINIC",
+      "nome_normalizado": "MEDCLINIC",
+      "faturas": 2,
+      "val_servicos": "300.08",
+      "val_liquido": "300.08"
+    },
+    {
+      "nome_spcf": "MEGA DESPACHANTE E ASSESSORIA EMPRESARIAL",
+      "nome_normalizado": "MEGA DESPACHANTE E ASSESSORIA EMPRESARIAL",
+      "faturas": 1,
+      "val_servicos": "215.15",
+      "val_liquido": "215.15"
+    },
+    {
+      "nome_spcf": "MELK DESPACHO",
+      "nome_normalizado": "MELK DESPACHO",
+      "faturas": 1,
+      "val_servicos": "173.08",
+      "val_liquido": "173.08"
+    },
+    {
+      "nome_spcf": "MILLECLIN",
+      "nome_normalizado": "MILLECLIN",
+      "faturas": 1,
+      "val_servicos": "365.54",
+      "val_liquido": "365.54"
+    },
+    {
+      "nome_spcf": "MUNDIAL",
+      "nome_normalizado": "MUNDIAL",
+      "faturas": 1,
+      "val_servicos": "130.24",
+      "val_liquido": "130.24"
+    },
+    {
+      "nome_spcf": "Moraes e Almeida Ltda",
+      "nome_normalizado": "MORAES E ALMEIDA LTDA",
+      "faturas": 2,
+      "val_servicos": "241.59",
+      "val_liquido": "241.59"
+    },
+    {
+      "nome_spcf": "NALDÃO DESPACHANTE",
+      "nome_normalizado": "NALDÃO DESPACHANTE",
+      "faturas": 21,
+      "val_servicos": "3180.87",
+      "val_liquido": "3180.87"
+    },
+    {
+      "nome_spcf": "NBTRAN",
+      "nome_normalizado": "NBTRAN",
+      "faturas": 1,
+      "val_servicos": "193.66",
+      "val_liquido": "180.70"
+    },
+    {
+      "nome_spcf": "NERITRAN",
+      "nome_normalizado": "NERITRAN",
+      "faturas": 1,
+      "val_servicos": "402.83",
+      "val_liquido": "402.83"
+    },
+    {
+      "nome_spcf": "NOSSA CLINICA SERVIÇO MEDICO ESPECIALIZADO",
+      "nome_normalizado": "NOSSA CLINICA SERVIÇO MEDICO ESPECIALIZADO",
+      "faturas": 3,
+      "val_servicos": "468.82",
+      "val_liquido": "468.82"
+    },
+    {
+      "nome_spcf": "NOVA SOLUÇÕES",
+      "nome_normalizado": "NOVA SOLUÇÕES",
+      "faturas": 4,
+      "val_servicos": "36000.00",
+      "val_liquido": "36000.00"
+    },
+    {
+      "nome_spcf": "ODONTO MAIS BRASIL",
+      "nome_normalizado": "ODONTO MAIS BRASIL",
+      "faturas": 2,
+      "val_servicos": "3378.00",
+      "val_liquido": "3209.10"
+    },
+    {
+      "nome_spcf": "OSB",
+      "nome_normalizado": "OSB",
+      "faturas": 1,
+      "val_servicos": "796.00",
+      "val_liquido": "756.20"
+    },
+    {
+      "nome_spcf": "OZÔNIO LTDA",
+      "nome_normalizado": "OZÔNIO LTDA",
+      "faturas": 1,
+      "val_servicos": "675.77",
+      "val_liquido": "641.98"
+    },
+    {
+      "nome_spcf": "PADRAO SYSTEM",
+      "nome_normalizado": "PADRAO SYSTEM",
+      "faturas": 18,
+      "val_servicos": "10380.10",
+      "val_liquido": "10380.10"
+    },
+    {
+      "nome_spcf": "PARCELAMOS TUDO PONTOCOM SOLUÇÕES EM PAGAMENTO LTDA",
+      "nome_normalizado": "PARCELAMOS TUDO PONTOCOM SOLUÇÕES EM PAGAMENTO LTDA",
+      "faturas": 1,
+      "val_servicos": "16.40",
+      "val_liquido": "16.40"
+    },
+    {
+      "nome_spcf": "PARINTINS AUTO ESCOLA",
+      "nome_normalizado": "PARINTINS AUTO ESCOLA",
+      "faturas": 1,
+      "val_servicos": "209.82",
+      "val_liquido": "209.82"
+    },
+    {
+      "nome_spcf": "PAULO DE TARSO",
+      "nome_normalizado": "PAULO DE TARSO",
+      "faturas": 1,
+      "val_servicos": "202.10",
+      "val_liquido": "202.10"
+    },
+    {
+      "nome_spcf": "PAULO VICTOR COELHO DA SILVA 52556778253",
+      "nome_normalizado": "PAULO VICTOR COELHO DA SILVA 52556778253",
+      "faturas": 2,
+      "val_servicos": "759.20",
+      "val_liquido": "390.02"
+    },
+    {
+      "nome_spcf": "PERSONAL CAR",
+      "nome_normalizado": "PERSONAL CAR",
+      "faturas": 1,
+      "val_servicos": "421.94",
+      "val_liquido": "421.94"
+    },
+    {
+      "nome_spcf": "PERSONAL CAR DESPACHOS",
+      "nome_normalizado": "PERSONAL CAR DESPACHOS",
+      "faturas": 1,
+      "val_servicos": "169.98",
+      "val_liquido": "169.98"
+    },
+    {
+      "nome_spcf": "PGGM",
+      "nome_normalizado": "PGGM",
+      "faturas": 9,
+      "val_servicos": "7861.41",
+      "val_liquido": "7468.36"
+    },
+    {
+      "nome_spcf": "PLANODONT",
+      "nome_normalizado": "PLANODONT",
+      "faturas": 24,
+      "val_servicos": "5600.00",
+      "val_liquido": "5320.00"
+    },
+    {
+      "nome_spcf": "POLICLINICA CODAJAS",
+      "nome_normalizado": "POLICLINICA CODAJAS",
+      "faturas": 37,
+      "val_servicos": "109303.11",
+      "val_liquido": "103837.98"
+    },
+    {
+      "nome_spcf": "PREF DE AMATURA",
+      "nome_normalizado": "PREF DE AMATURA",
+      "faturas": 2,
+      "val_servicos": "1303.24",
+      "val_liquido": "1303.24"
+    },
+    {
+      "nome_spcf": "PREF DE BARCELOS",
+      "nome_normalizado": "PREF DE BARCELOS",
+      "faturas": 2,
+      "val_servicos": "4028.39",
+      "val_liquido": "4028.39"
+    },
+    {
+      "nome_spcf": "PREF DE BORBA",
+      "nome_normalizado": "PREF DE BORBA",
+      "faturas": 3,
+      "val_servicos": "525.42",
+      "val_liquido": "525.42"
+    },
+    {
+      "nome_spcf": "PREF DE COARI",
+      "nome_normalizado": "PREF DE COARI",
+      "faturas": 53,
+      "val_servicos": "548637.42",
+      "val_liquido": "547702.89"
+    },
+    {
+      "nome_spcf": "PREF DE CODAJAS",
+      "nome_normalizado": "PREF DE CODAJAS",
+      "faturas": 2,
+      "val_servicos": "12426.32",
+      "val_liquido": "12426.32"
+    },
+    {
+      "nome_spcf": "PREF DE EIRUNEPE",
+      "nome_normalizado": "PREF DE EIRUNEPE",
+      "faturas": 1,
+      "val_servicos": "248.13",
+      "val_liquido": "248.13"
+    },
+    {
+      "nome_spcf": "PREF DE IRANDUBA",
+      "nome_normalizado": "PREF DE IRANDUBA",
+      "faturas": 17,
+      "val_servicos": "178610.70",
+      "val_liquido": "178610.70"
+    },
+    {
+      "nome_spcf": "PREF DE JURUA",
+      "nome_normalizado": "PREF DE JURUA",
+      "faturas": 1,
+      "val_servicos": "233.52",
+      "val_liquido": "233.52"
+    },
+    {
+      "nome_spcf": "PREF DE MANACAPURU",
+      "nome_normalizado": "PREF DE MANACAPURU",
+      "faturas": 21,
+      "val_servicos": "255039.32",
+      "val_liquido": "254880.87"
+    },
+    {
+      "nome_spcf": "PREF DE MANAQUIRI",
+      "nome_normalizado": "PREF DE MANAQUIRI",
+      "faturas": 1,
+      "val_servicos": "346.13",
+      "val_liquido": "346.13"
+    },
+    {
+      "nome_spcf": "PREF DE MAUES",
+      "nome_normalizado": "PREF DE MAUES",
+      "faturas": 11,
+      "val_servicos": "68127.58",
+      "val_liquido": "68127.58"
+    },
+    {
+      "nome_spcf": "PREF DE PRESI FIGUEIREDO",
+      "nome_normalizado": "PREF DE PRESI FIGUEIREDO",
+      "faturas": 1,
+      "val_servicos": "184.00",
+      "val_liquido": "184.00"
+    },
+    {
+      "nome_spcf": "PREF DE S G  DA CACHOEIRA",
+      "nome_normalizado": "PREF DE S G  DA CACHOEIRA",
+      "faturas": 2,
+      "val_servicos": "1288.59",
+      "val_liquido": "1288.59"
+    },
+    {
+      "nome_spcf": "PREF DO CAREIRO",
+      "nome_normalizado": "PREF DO CAREIRO",
+      "faturas": 1,
+      "val_servicos": "1212.00",
+      "val_liquido": "1212.00"
+    },
+    {
+      "nome_spcf": "PROCON",
+      "nome_normalizado": "PROCON",
+      "faturas": 8,
+      "val_servicos": "11497.56",
+      "val_liquido": "10922.66"
+    },
+    {
+      "nome_spcf": "PRONTO PAGUEI GESTÃO FINANCEIRA LTDA",
+      "nome_normalizado": "PRONTO PAGUEI GESTÃO FINANCEIRA LTDA",
+      "faturas": 2,
+      "val_servicos": "9792.73",
+      "val_liquido": "9792.73"
+    },
+    {
+      "nome_spcf": "PSITRAN",
+      "nome_normalizado": "PSITRAN",
+      "faturas": 2,
+      "val_servicos": "322.48",
+      "val_liquido": "322.48"
+    },
+    {
+      "nome_spcf": "R A DESPACHANTE DE VEICULOS LTDA",
+      "nome_normalizado": "R A DESPACHANTE DE VEICULOS LTDA",
+      "faturas": 1,
+      "val_servicos": "199.20",
+      "val_liquido": "199.20"
+    },
+    {
+      "nome_spcf": "RABELO DESPACHANTE LTDA",
+      "nome_normalizado": "RABELO DESPACHANTE LTDA",
+      "faturas": 22,
+      "val_servicos": "3692.10",
+      "val_liquido": "3692.10"
+    },
+    {
+      "nome_spcf": "RD SANTOS DESPACHANTE DE VEICULOS",
+      "nome_normalizado": "RD SANTOS DESPACHANTE DE VEICULOS",
+      "faturas": 2,
+      "val_servicos": "416.06",
+      "val_liquido": "416.06"
+    },
+    {
+      "nome_spcf": "RH MULTI",
+      "nome_normalizado": "RH MULTI",
+      "faturas": 6,
+      "val_servicos": "17169.03",
+      "val_liquido": "858.45"
+    },
+    {
+      "nome_spcf": "RIO NEGRO NET",
+      "nome_normalizado": "RIO NEGRO NET",
+      "faturas": 2,
+      "val_servicos": "7800.00",
+      "val_liquido": "7530.00"
+    },
+    {
+      "nome_spcf": "RM DA SILVA EIRELI",
+      "nome_normalizado": "RM DA SILVA EIRELI",
+      "faturas": 32,
+      "val_servicos": "15632.56",
+      "val_liquido": "14850.93"
+    },
+    {
+      "nome_spcf": "ROCHA E ROCHA SERVICOS DE CORRETAGEM DE IMOVEIS LTDA",
+      "nome_normalizado": "ROCHA E ROCHA SERVICOS DE CORRETAGEM DE IMOVEIS LTDA",
+      "faturas": 2,
+      "val_servicos": "416.06",
+      "val_liquido": "416.06"
+    },
+    {
+      "nome_spcf": "ROSA MARIA FEITOSA DA FONSECA",
+      "nome_normalizado": "ROSA MARIA FEITOSA DA FONSECA",
+      "faturas": 2,
+      "val_servicos": "339.96",
+      "val_liquido": "339.96"
+    },
+    {
+      "nome_spcf": "RP DESPACHANTE DE VEÍCULOS",
+      "nome_normalizado": "RP DESPACHANTE DE VEÍCULOS",
+      "faturas": 1,
+      "val_servicos": "130.24",
+      "val_liquido": "130.24"
+    },
+    {
+      "nome_spcf": "RPETRANSITO",
+      "nome_normalizado": "RPETRANSITO",
+      "faturas": 2,
+      "val_servicos": "393.80",
+      "val_liquido": "393.80"
+    },
+    {
+      "nome_spcf": "SABEMI SEGURADORA S. A.",
+      "nome_normalizado": "SABEMI SEGURADORA S. A.",
+      "faturas": 2,
+      "val_servicos": "473.27",
+      "val_liquido": "473.27"
+    },
+    {
+      "nome_spcf": "SALUX INFORMATIZAÇÃO EM SAUDE S/A",
+      "nome_normalizado": "SALUX INFORMATIZAÇÃO EM SAUDE S/A",
+      "faturas": 22,
+      "val_servicos": "1283347.62",
+      "val_liquido": "1283347.62"
+    },
+    {
+      "nome_spcf": "SAMUEL ALMEIDA DE CARVALHO",
+      "nome_normalizado": "SAMUEL ALMEIDA DE CARVALHO",
+      "faturas": 1,
+      "val_servicos": "189.80",
+      "val_liquido": "189.80"
+    },
+    {
+      "nome_spcf": "SAPCE - CENTRO MEDICO E PSICOLOGICO DO TRAFEGO",
+      "nome_normalizado": "SAPCE - CENTRO MEDICO E PSICOLOGICO DO TRAFEGO",
+      "faturas": 2,
+      "val_servicos": "311.33",
+      "val_liquido": "311.33"
+    },
+    {
+      "nome_spcf": "SASBRAS",
+      "nome_normalizado": "SASBRAS",
+      "faturas": 2,
+      "val_servicos": "2128.00",
+      "val_liquido": "2128.00"
+    },
+    {
+      "nome_spcf": "SEAP",
+      "nome_normalizado": "SEAP",
+      "faturas": 10,
+      "val_servicos": "448388.18",
+      "val_liquido": "426645.25"
+    },
+    {
+      "nome_spcf": "SEBASTIÃO COELHO DA SILVA JUNIOR",
+      "nome_normalizado": "SEBASTIÃO COELHO DA SILVA JUNIOR",
+      "faturas": 1,
+      "val_servicos": "189.80",
+      "val_liquido": "189.80"
+    },
+    {
+      "nome_spcf": "SECOM",
+      "nome_normalizado": "SECOM",
+      "faturas": 6,
+      "val_servicos": "38102.97",
+      "val_liquido": "38102.97"
+    },
+    {
+      "nome_spcf": "SEDURB",
+      "nome_normalizado": "SEDURB",
+      "faturas": 7,
+      "val_servicos": "20754.69",
+      "val_liquido": "20754.69"
+    },
+    {
+      "nome_spcf": "SEIND - SUBST PELA FEI - LEI 4213",
+      "nome_normalizado": "SEIND - SUBST PELA FEI - LEI 4213",
+      "faturas": 6,
+      "val_servicos": "11425.50",
+      "val_liquido": "10854.21"
+    },
+    {
+      "nome_spcf": "SEJEL - EXTINTA LEI 122/2019",
+      "nome_normalizado": "SEJEL - EXTINTA LEI 122/2019",
+      "faturas": 88,
+      "val_servicos": "294991.77",
+      "val_liquido": "280242.25"
+    },
+    {
+      "nome_spcf": "SEMAD-MANAUS",
+      "nome_normalizado": "SEMAD-MANAUS",
+      "faturas": 22,
+      "val_servicos": "5725373.70",
+      "val_liquido": "5468191.92"
+    },
+    {
+      "nome_spcf": "SEMED-CANUTAMA",
+      "nome_normalizado": "SEMED-CANUTAMA",
+      "faturas": 2,
+      "val_servicos": "1275.92",
+      "val_liquido": "1275.92"
+    },
+    {
+      "nome_spcf": "SEMED-MANAUS",
+      "nome_normalizado": "SEMED-MANAUS",
+      "faturas": 15,
+      "val_servicos": "3924118.27",
+      "val_liquido": "3240138.71"
+    },
+    {
+      "nome_spcf": "SEMGRH - EXT. LEI 4163/2015 - INC. SEPLANCTI",
+      "nome_normalizado": "SEMGRH - EXT. LEI 4163/2015 - INC. SEPLANCTI",
+      "faturas": 6,
+      "val_servicos": "24054.93",
+      "val_liquido": "22852.17"
+    },
+    {
+      "nome_spcf": "SEMSA-MANAUS",
+      "nome_normalizado": "SEMSA-MANAUS",
+      "faturas": 5,
+      "val_servicos": "9475.42",
+      "val_liquido": "9318.62"
+    },
+    {
+      "nome_spcf": "SEPA",
+      "nome_normalizado": "SEPA",
+      "faturas": 18,
+      "val_servicos": "135108.85",
+      "val_liquido": "135108.85"
+    },
+    {
+      "nome_spcf": "SEPCD",
+      "nome_normalizado": "SEPCD",
+      "faturas": 3,
+      "val_servicos": "8352.72",
+      "val_liquido": "8352.72"
+    },
+    {
+      "nome_spcf": "SEPED - EXT. LEI D. 122/2019 - INC. SEJUSC",
+      "nome_normalizado": "SEPED - EXT. LEI D. 122/2019 - INC. SEJUSC",
+      "faturas": 4,
+      "val_servicos": "3466.42",
+      "val_liquido": "3293.09"
+    },
+    {
+      "nome_spcf": "SEPET",
+      "nome_normalizado": "SEPET",
+      "faturas": 8,
+      "val_servicos": "38900.87",
+      "val_liquido": "38900.87"
+    },
+    {
+      "nome_spcf": "SERFI",
+      "nome_normalizado": "SERFI",
+      "faturas": 2,
+      "val_servicos": "5282.00",
+      "val_liquido": "5282.00"
+    },
+    {
+      "nome_spcf": "SGVG",
+      "nome_normalizado": "SGVG",
+      "faturas": 1,
+      "val_servicos": "2798.10",
+      "val_liquido": "2798.10"
+    },
+    {
+      "nome_spcf": "SIDI SERVIÇOS DE COMUNICAÇÃO LTDA",
+      "nome_normalizado": "SIDI SERVIÇOS DE COMUNICAÇÃO LTDA",
+      "faturas": 1,
+      "val_servicos": "1752.26",
+      "val_liquido": "1752.26"
+    },
+    {
+      "nome_spcf": "SIMEAM",
+      "nome_normalizado": "SIMEAM",
+      "faturas": 1,
+      "val_servicos": "526.00",
+      "val_liquido": "526.00"
+    },
+    {
+      "nome_spcf": "SIMONE M. DOS SANTOS",
+      "nome_normalizado": "SIMONE M. DOS SANTOS",
+      "faturas": 1,
+      "val_servicos": "172.34",
+      "val_liquido": "172.34"
+    },
+    {
+      "nome_spcf": "SINCODIV",
+      "nome_normalizado": "SINCODIV",
+      "faturas": 1,
+      "val_servicos": "583.74",
+      "val_liquido": "583.74"
+    },
+    {
+      "nome_spcf": "SINDILEGISAM",
+      "nome_normalizado": "SINDILEGISAM",
+      "faturas": 1,
+      "val_servicos": "140.00",
+      "val_liquido": "140.00"
+    },
+    {
+      "nome_spcf": "SINDOJUS",
+      "nome_normalizado": "SINDOJUS",
+      "faturas": 2,
+      "val_servicos": "280.00",
+      "val_liquido": "280.00"
+    },
+    {
+      "nome_spcf": "SINTEAM",
+      "nome_normalizado": "SINTEAM",
+      "faturas": 9,
+      "val_servicos": "5456.00",
+      "val_liquido": "5456.00"
+    },
+    {
+      "nome_spcf": "STAR BOLSA DE VEICULOS LTDA",
+      "nome_normalizado": "STAR BOLSA DE VEICULOS LTDA",
+      "faturas": 3,
+      "val_servicos": "436.43",
+      "val_liquido": "436.43"
+    },
+    {
+      "nome_spcf": "SUPERINTENDÊNCIA DA POLÍCIA RODOVIÁRIA FEDERAL NO AMAZONAS",
+      "nome_normalizado": "SUPERINTENDÊNCIA DA POLÍCIA RODOVIÁRIA FEDERAL NO AMAZONAS",
+      "faturas": 1,
+      "val_servicos": "592.84",
+      "val_liquido": "592.84"
+    },
+    {
+      "nome_spcf": "TEXAS DOCUMENTALISTA LTDA",
+      "nome_normalizado": "TEXAS DOCUMENTALISTA LTDA",
+      "faturas": 1,
+      "val_servicos": "459.78",
+      "val_liquido": "459.78"
+    },
+    {
+      "nome_spcf": "THOMAS GREG E SONS",
+      "nome_normalizado": "THOMAS GREG E SONS",
+      "faturas": 9,
+      "val_servicos": "8881.83",
+      "val_liquido": "1442.79"
+    },
+    {
+      "nome_spcf": "TV LAR",
+      "nome_normalizado": "TV LAR",
+      "faturas": 1,
+      "val_servicos": "45446.94",
+      "val_liquido": "43174.59"
+    },
+    {
+      "nome_spcf": "UEA",
+      "nome_normalizado": "UEA",
+      "faturas": 40,
+      "val_servicos": "617341.91",
+      "val_liquido": "608925.98"
+    },
+    {
+      "nome_spcf": "UGP COPA - EXT. LEI 4084/2017 - INC. FVO",
+      "nome_normalizado": "UGP COPA - EXT. LEI 4084/2017 - INC. FVO",
+      "faturas": 3,
+      "val_servicos": "1285.08",
+      "val_liquido": "1285.08"
+    },
+    {
+      "nome_spcf": "UGPADEAM",
+      "nome_normalizado": "UGPADEAM",
+      "faturas": 3,
+      "val_servicos": "7154.10",
+      "val_liquido": "7154.10"
+    },
+    {
+      "nome_spcf": "UGPE - UNIDADE GESTORA DE PROJETOS ESPECIAIS",
+      "nome_normalizado": "UGPE - UNIDADE GESTORA DE PROJETOS ESPECIAIS",
+      "faturas": 16,
+      "val_servicos": "422687.66",
+      "val_liquido": "353473.42"
+    },
+    {
+      "nome_spcf": "UNIODONTO",
+      "nome_normalizado": "UNIODONTO",
+      "faturas": 1,
+      "val_servicos": "2628.00",
+      "val_liquido": "2496.60"
+    },
+    {
+      "nome_spcf": "VAMOS PARCELAR PAGAMENTOS E CORRESPONDENTE LTDA",
+      "nome_normalizado": "VAMOS PARCELAR PAGAMENTOS E CORRESPONDENTE LTDA",
+      "faturas": 1,
+      "val_servicos": "7038.00",
+      "val_liquido": "7038.00"
+    },
+    {
+      "nome_spcf": "VICTOR MATHEUS BATALHA FERNANDES",
+      "nome_normalizado": "VICTOR MATHEUS BATALHA FERNANDES",
+      "faturas": 1,
+      "val_servicos": "219.16",
+      "val_liquido": "219.16"
+    },
+    {
+      "nome_spcf": "ZEQUIEL ALVES RODRIGUES JUNIOR",
+      "nome_normalizado": "ZEQUIEL ALVES RODRIGUES JUNIOR",
+      "faturas": 1,
+      "val_servicos": "219.16",
+      "val_liquido": "219.16"
+    }
+  ],
+  "resumo": {
+    "grand_total_spcf_servicos": "152403256.44",
+    "grand_total_spcf_liquido": "140283226.04",
+    "grand_total_spcf_faturas": 4040,
+    "total_spcf_val_servicos": "131706429.17",
+    "total_spcf_val_liquido": "122423821.62",
+    "total_profiles_val_orig": "118731986.290000009709",
+    "total_profiles_val_exig": "120586054.552994633484",
+    "matches": 12,
+    "divergentes": 53,
+    "nao_mapeados": 264,
+    "devedores_agregados": 65
+  }
+}

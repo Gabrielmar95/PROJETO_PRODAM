@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Dashboard PRODAM — Recuperacao de Creditos v5.3</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f8f9fc; --bg2: #ffffff; --bg3: #f0f2f8; --text: #1a1d29; --text2: #5a5f7a;
+  --accent: #0f1b3d; --accent2: #c8a84e; --accent3: #1e3a6e; --border: #e2e5f0;
+  --green: #10b981; --red: #ef4444; --orange: #f59e0b; --blue: #3b82f6;
+  --purple: #8b5cf6; --teal: #14b8a6; --pink: #ec4899;
+  --shadow: 0 2px 12px rgba(15,27,61,.08); --shadow2: 0 8px 32px rgba(15,27,61,.12);
+  --radius: 12px; --radius2: 16px;
+}
+[data-theme="dark"] {
+  --bg: #0d1117; --bg2: #161b22; --bg3: #1c2333; --text: #e6edf3; --text2: #8b949e;
+  --accent: #1e3a6e; --accent2: #c8a84e; --accent3: #2d5aa0; --border: #30363d;
+  --shadow: 0 2px 12px rgba(0,0,0,.3); --shadow2: 0 8px 32px rgba(0,0,0,.4);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; }
+
+/* SIDEBAR */
+.sidebar { position:fixed; left:0; top:0; bottom:0; width:220px; background:var(--accent); color:#fff;
+  overflow-y:auto; z-index:100; padding:16px 0; transition:transform .3s; }
+.sidebar h2 { font-size:14px; font-weight:800; text-transform:uppercase; letter-spacing:1.5px;
+  padding:8px 16px; color:var(--accent2); margin-bottom:4px; }
+.sidebar .brand { padding:12px 16px 16px; border-bottom:1px solid rgba(255,255,255,.1); margin-bottom:8px; }
+.sidebar .brand h1 { font-size:15px; font-weight:800; color:#fff; letter-spacing:1px; }
+.sidebar .brand p { font-size:10px; color:rgba(255,255,255,.5); margin-top:2px; }
+.sidebar a { display:block; padding:6px 16px; color:rgba(255,255,255,.7); text-decoration:none;
+  font-size:11px; transition:all .2s; border-left:3px solid transparent; }
+.sidebar a:hover,.sidebar a.active { color:#fff; background:rgba(255,255,255,.08); border-left-color:var(--accent2); }
+.sidebar .cat { font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px;
+  color:rgba(255,255,255,.35); padding:12px 16px 4px; }
+
+/* MAIN */
+.main { margin-left:220px; padding:20px 28px 60px; max-width:1400px; }
+
+/* HEADER */
+.header { display:flex; align-items:center; justify-content:space-between; padding:10px 20px;
+  background:var(--bg2); border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:20px; flex-wrap:wrap; gap:8px; }
+.header .breadcrumb { font-size:12px; color:var(--text2); }
+.header .badges { display:flex; gap:8px; flex-wrap:wrap; }
+.header .badge { font-size:11px; padding:3px 10px; border-radius:20px; font-weight:600; }
+.badge-blue { background:#dbeafe; color:#1e40af; }
+.badge-red { background:#fecaca; color:#991b1b; }
+.badge-green { background:#d1fae5; color:#065f46; }
+.badge-gold { background:#fef3c7; color:#92400e; }
+[data-theme="dark"] .badge-blue { background:#1e3a5f; color:#93c5fd; }
+[data-theme="dark"] .badge-red { background:#5f1a1a; color:#fca5a5; }
+[data-theme="dark"] .badge-green { background:#064e3b; color:#6ee7b7; }
+[data-theme="dark"] .badge-gold { background:#78350f; color:#fcd34d; }
+.header .actions { display:flex; gap:8px; }
+.header .actions button { padding:6px 14px; border:none; border-radius:8px; font-size:12px; font-weight:600;
+  cursor:pointer; transition:all .2s; }
+#themeToggle { background:var(--bg3); color:var(--text); }
+#exportBtn { background:var(--accent2); color:#fff; }
+
+/* SECTIONS */
+section { margin-bottom:28px; animation:fadeIn .6s ease-out; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+.section-title { font-size:18px; font-weight:800; color:var(--text); margin-bottom:16px;
+  padding-bottom:8px; border-bottom:2px solid var(--accent2); display:flex; align-items:center; gap:8px; }
+.section-subtitle { font-size:13px; color:var(--text2); margin-left:auto; font-weight:400; }
+
+/* CARDS GRID */
+.kpi-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-bottom:20px; }
+.kpi { background:var(--bg2); border-radius:var(--radius); padding:16px; box-shadow:var(--shadow);
+  border-left:4px solid var(--accent2); transition:transform .2s; }
+.kpi:hover { transform:translateY(-2px); box-shadow:var(--shadow2); }
+.kpi .label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--text2); }
+.kpi .value { font-size:24px; font-weight:800; color:var(--accent2); margin:4px 0; }
+.kpi .sub { font-size:11px; color:var(--text2); }
+.kpi.red { border-left-color:var(--red); }
+.kpi.red .value { color:var(--red); }
+.kpi.green { border-left-color:var(--green); }
+.kpi.green .value { color:var(--green); }
+.kpi.blue { border-left-color:var(--blue); }
+.kpi.blue .value { color:var(--blue); }
+.kpi.purple { border-left-color:var(--purple); }
+.kpi.purple .value { color:var(--purple); }
+
+/* ALERT BOX */
+.alert-box { background:linear-gradient(135deg,#1a0a0a,#2d1515); color:#fca5a5; border-radius:var(--radius2);
+  padding:20px; margin-bottom:20px; border:1px solid rgba(239,68,68,.3); }
+[data-theme="dark"] .alert-box { background:linear-gradient(135deg,#1a0505,#2d0f0f); }
+.alert-box h3 { color:#f87171; font-size:16px; margin-bottom:10px; }
+.alert-box .alert-item { padding:6px 0; font-size:13px; border-bottom:1px solid rgba(255,255,255,.05); }
+.alert-box .alert-item:last-child { border:none; }
+.alert-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:10px; font-weight:700; margin:0 4px; }
+.alert-badge.bloq { background:#dc2626; color:#fff; }
+.alert-badge.urg { background:#f59e0b; color:#000; }
+.alert-badge.d { background:#6366f1; color:#fff; }
+
+/* CHARTS */
+.charts-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(420px,1fr)); gap:16px; margin-bottom:20px; }
+.chart-box { background:var(--bg2); border-radius:var(--radius); padding:16px; box-shadow:var(--shadow); }
+.chart-box h4 { font-size:13px; font-weight:700; margin-bottom:10px; color:var(--text); }
+.chart-wrap { position:relative; height:320px; }
+
+/* TIMELINE */
+.timeline { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:20px; }
+.tl-item { background:var(--bg2); border-radius:var(--radius); padding:12px 16px; box-shadow:var(--shadow);
+  border-left:4px solid var(--red); min-width:200px; flex:1; }
+.tl-item.warn { border-left-color:var(--orange); }
+.tl-item .tl-badge { font-size:10px; font-weight:700; padding:2px 6px; border-radius:4px;
+  background:var(--red); color:#fff; display:inline-block; margin-bottom:4px; }
+.tl-item.warn .tl-badge { background:var(--orange); color:#000; }
+.tl-item .tl-dev { font-size:13px; font-weight:700; }
+.tl-item .tl-val { font-size:15px; font-weight:800; color:var(--accent2); }
+
+/* HEATMAP */
+.heatmap { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:20px; }
+.hm-cell { padding:8px 10px; border-radius:8px; font-size:11px; font-weight:700; color:#fff;
+  text-align:center; min-width:80px; transition:transform .2s; cursor:default; }
+.hm-cell:hover { transform:scale(1.05); }
+.hm-cell .hm-score { font-size:14px; display:block; }
+
+/* FLOW */
+.flow-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; margin-bottom:20px; }
+.flow-card { background:var(--bg2); border-radius:var(--radius); padding:14px; text-align:center;
+  box-shadow:var(--shadow); position:relative; }
+.flow-card .flow-label { font-size:10px; font-weight:700; text-transform:uppercase; color:var(--text2); }
+.flow-card .flow-val { font-size:20px; font-weight:800; color:var(--accent2); margin:4px 0; }
+.flow-card .flow-sub { font-size:10px; color:var(--text2); }
+.flow-arrow { position:absolute; right:-14px; top:50%; transform:translateY(-50%); font-size:18px; color:var(--accent2); }
+
+/* INSIGHTS */
+.insights-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:14px; margin-bottom:20px; }
+.insight-card { background:var(--bg2); border-radius:var(--radius); padding:16px; box-shadow:var(--shadow);
+  border-top:3px solid var(--accent2); }
+.insight-card.critical { border-top-color:var(--red); }
+.insight-card h4 { font-size:14px; font-weight:700; color:var(--text); margin-bottom:6px; }
+.insight-card p { font-size:12px; color:var(--text2); line-height:1.6; }
+.insight-tags { display:flex; gap:6px; margin-top:8px; flex-wrap:wrap; }
+.insight-tag { font-size:10px; padding:2px 8px; border-radius:4px; background:var(--bg3); color:var(--text2); font-weight:600; }
+
+/* SPCF METRICS */
+.spcf-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-bottom:20px; }
+.spcf-card { background:var(--bg2); border-radius:var(--radius); padding:14px; box-shadow:var(--shadow); text-align:center; }
+.spcf-card .spcf-label { font-size:10px; font-weight:700; text-transform:uppercase; color:var(--text2); }
+.spcf-card .spcf-val { font-size:22px; font-weight:800; margin:4px 0; }
+.spcf-card .spcf-sub { font-size:10px; color:var(--text2); }
+
+/* TABLE */
+.table-container { background:var(--bg2); border-radius:var(--radius); box-shadow:var(--shadow);
+  overflow-x:auto; margin-bottom:20px; }
+.filters { display:flex; gap:10px; padding:12px 16px; flex-wrap:wrap; align-items:center; background:var(--bg3);
+  border-radius:var(--radius) var(--radius) 0 0; }
+.filters select,.filters input { padding:6px 10px; border:1px solid var(--border); border-radius:6px;
+  font-size:12px; background:var(--bg2); color:var(--text); }
+.filters button { padding:6px 12px; border:1px solid var(--border); border-radius:6px; background:var(--bg2);
+  color:var(--text); cursor:pointer; font-size:12px; }
+table { width:100%; border-collapse:collapse; font-size:11px; }
+th { background:var(--accent); color:#fff; padding:8px 6px; text-align:left; cursor:pointer;
+  font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.5px; white-space:nowrap; position:sticky; top:0; }
+th:hover { background:var(--accent3); }
+td { padding:6px; border-bottom:1px solid var(--border); white-space:nowrap; }
+tr:hover { background:var(--bg3); }
+.tag { display:inline-block; padding:1px 6px; border-radius:4px; font-size:9px; font-weight:700; }
+.tag-forte { background:#d1fae5; color:#065f46; }
+.tag-media { background:#fef3c7; color:#92400e; }
+.tag-fraca { background:#fecaca; color:#991b1b; }
+.tag-f0 { background:#e0e7ff; color:#3730a3; }
+.tag-f3 { background:#fef3c7; color:#92400e; }
+.tag-f5 { background:#d1fae5; color:#065f46; }
+[data-theme="dark"] .tag-forte { background:#064e3b; color:#6ee7b7; }
+[data-theme="dark"] .tag-media { background:#78350f; color:#fcd34d; }
+[data-theme="dark"] .tag-fraca { background:#7f1d1d; color:#fca5a5; }
+
+/* FOOTER */
+.footer { text-align:center; padding:20px; font-size:11px; color:var(--text2); border-top:1px solid var(--border); }
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+  .sidebar { transform:translateX(-100%); }
+  .main { margin-left:0; padding:12px; }
+  .charts-grid { grid-template-columns:1fr; }
+  .kpi-grid { grid-template-columns:repeat(2,1fr); }
+}
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav class="sidebar">
+  <div class="brand">
+    <h1>RECUPERACAO DE CREDITOS</h1>
+    <p>PRODAM S.A. &middot; Contrato 002/2026</p>
+  </div>
+  <div class="cat">VISAO GERAL</div>
+  <a href="#alertas">&#9888; Alertas Criticos</a>
+  <a href="#kpis">&#9632; Indicadores-Chave</a>
+  <a href="#timeline">&#9200; Timeline Prescricoes</a>
+  <div class="cat">ANALISE</div>
+  <a href="#ranking">&#9650; Ranking Top 15</a>
+  <a href="#forca">&#9673; Forca Probatoria</a>
+  <a href="#pipeline">&#9654; Pipeline Fases</a>
+  <a href="#prescricao">&#9675; Mapa Prescricao</a>
+  <div class="cat">FINANCEIRO</div>
+  <a href="#faturamento">&#9638; Faturamento</a>
+  <a href="#empenhos">&#9670; Empenhos 2026</a>
+  <a href="#cenarios">&#9733; Cenarios</a>
+  <div class="cat">SPCF MAR/2026</div>
+  <a href="#spcf-visao">&#8660; Visao SPCF</a>
+  <a href="#spcf-canceladas">&#9888; Canceladas &amp; Inconsist.</a>
+  <a href="#spcf-empenhos">&#9670; Empenhos Detalhados</a>
+  <a href="#spcf-serie">&#9632; Serie Historica</a>
+  <div class="cat">OPERACIONAL</div>
+  <a href="#vias">&#9656; Vias Processuais</a>
+  <a href="#heatmap">&#9618; Mapa de Risco</a>
+  <a href="#tabela">&#9776; Tabela Completa</a>
+  <div class="cat">DADOS REAIS</div>
+  <a href="#fat-cruzadas">&#9776; Faturas Cruzadas</a>
+  <a href="#fluxo">&#9654; Fluxo Portfolio</a>
+  <a href="#insights">&#9733; Insights &amp; Acoes</a>
+</nav>
+
+<!-- MAIN -->
+<div class="main">
+
+<!-- HEADER -->
+<div class="header">
+  <span class="breadcrumb">PRODAM &rsaquo; Recuperacao de Creditos &rsaquo; <strong>Dashboard v5.3</strong></span>
+  <div class="badges">
+    <span class="badge badge-blue">71 devedores</span>
+    <span class="badge badge-red">&bull; 25 com prescricao</span>
+    <span class="badge badge-green">&bull; SPCF Mar/2026</span>
+    <span class="badge badge-gold">&bull; 1764 faturas cruzadas</span>
+  </div>
+  <div class="actions">
+    <button id="themeToggle" title="Alternar tema">&#9790; Tema</button>
+    <button id="exportBtn" title="Exportar CSV">&#8681; Exportar</button>
+  </div>
+</div>
+
+<!-- ALERTAS -->
+<section id="alertas">
+<div class="alert-box">
+  <h3>&#9888; ALERTAS CRITICOS</h3>
+  <div class="alert-item">&bull; <strong>PROCURACAO PENDENTE</strong> — Bloqueador #1 para todas as notificacoes e atos formais. <span class="alert-badge bloq">BLOQUEADOR</span></div>
+  <div class="alert-item">&bull; <strong>0 devedores com prescricao VENCIDA</strong> (cutoff 20/03) — R$ 0.0M em risco</div>
+  <div class="alert-item">&bull; <strong>SES/SUSAM</strong> — Of.129/2021 prescreve ~13/05/2026 <span class="alert-badge d">D+42</span> — R$ 14,7M + 60 NEs sem cobertura contratual (R$ 14,9M)</div>
+  <div class="alert-item">&bull; <strong>Acordo SEFAZ/SES</strong> — deadline 15/04/2026 <span class="alert-badge d">D+14</span> — R$ 30M</div>
+  <div class="alert-item">&bull; <strong>Overlap PAGA&times;DEVIDAS</strong>: 1.643 faturas em ambas as listas — depuracao obrigatoria antes de notificacao</div>
+  <div class="alert-item">&bull; <strong>Dupla Baixa Contabil</strong>: 47 faturas canceladas &times; perdas = R$ 86.8M — auditoria necessaria</div>
+  <div class="alert-item">&bull; <strong>ADS</strong> — prescreve em 12/04/2026 <span class="alert-badge d">D+11</span> — 18 faturas, R$ 61K — NOTIFICAR 48H</div>
+</div>
+</section>
+
+<!-- KPIs -->
+<section id="kpis">
+<div class="section-title">&#9632; Indicadores-Chave de Performance <span class="section-subtitle">Atualizado 01/04/2026</span></div>
+<div class="kpi-grid">
+  <div class="kpi"><div class="label">Valor Exigivel Total</div><div class="value">R$ 121.5M</div><div class="sub">71 devedores ativos</div></div>
+  <div class="kpi blue"><div class="label">Valor Atualizado</div><div class="value">R$ 195.4M</div><div class="sub">Com correcao monetaria + juros</div></div>
+  <div class="kpi green"><div class="label">Fee Estimado (20%)</div><div class="value">R$ 9.6M</div><div class="sub">Cenario base (40% recuperacao)</div></div>
+  <div class="kpi red"><div class="label">Prescricao Vencida</div><div class="value">0</div><div class="sub">R$ 0.0M em risco imediato</div></div>
+  <div class="kpi"><div class="label">Forca Forte</div><div class="value">12</div><div class="sub">R$ 104.6M (86% do valor)</div></div>
+  <div class="kpi purple"><div class="label">NEs sem Cobertura</div><div class="value">32</div><div class="sub">R$ 6.3M expostos</div></div>
+  <div class="kpi blue"><div class="label">Total Faturas</div><div class="value">2,958</div><div class="sub">1873 exigiveis + 1085 prescritas</div></div>
+  <div class="kpi"><div class="label">SPCF Total a Receber</div><div class="value">R$ 127.6M</div><div class="sub">4620 faturas devidas</div></div>
+  <div class="kpi red"><div class="label">Perdas SPCF</div><div class="value">R$ 60.3M</div><div class="sub">Baixadas como perdas</div></div>
+  <div class="kpi green"><div class="label">Empenhos 2026</div><div class="value">R$ 41.1M</div><div class="sub">214 NEs — reconhecimento tacito</div></div>
+</div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline">
+<div class="section-title">&#9200; Timeline de Prescricoes Criticas</div>
+<div class="timeline">
+  <div class="tl-item">
+    <span class="tl-badge">D+11 (12/04/2026)</span>
+    <div class="tl-dev">ADS</div>
+    <div>18 faturas</div>
+    <div class="tl-val">R$ 0.1M</div>
+    <div style="font-size:10px;color:var(--text2)">NOTIFICAR_48H</div>
+  </div>
+  <div class="tl-item">
+    <span class="tl-badge">D+22 (22/04/2026)</span>
+    <div class="tl-dev">SUHAB</div>
+    <div>6 faturas</div>
+    <div class="tl-val">R$ 0.4M</div>
+    <div style="font-size:10px;color:var(--text2)">NOTIFICAR_PROTESTO</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+42 (13/05/2026)</span>
+    <div class="tl-dev">SES/SUSAM</div>
+    <div>216 faturas</div>
+    <div class="tl-val">R$ 18.2M</div>
+    <div style="font-size:10px;color:var(--text2)">NOTIFICAR_CPRAC</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+275 (2027-01-01)</span>
+    <div class="tl-dev">IPAAM</div>
+    <div>58 faturas exigiveis</div>
+    <div class="tl-val">R$ 0.7M</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+275 (2027-01-01)</span>
+    <div class="tl-dev">SEAS</div>
+    <div>63 faturas exigiveis</div>
+    <div class="tl-val">R$ 0.7M</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+275 (2027-01-01)</span>
+    <div class="tl-dev">SEINFRA</div>
+    <div>38 faturas exigiveis</div>
+    <div class="tl-val">R$ 0.4M</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+275 (2027-01-01)</span>
+    <div class="tl-dev">FVS</div>
+    <div>23 faturas exigiveis</div>
+    <div class="tl-val">R$ 0.3M</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+275 (2027-01-01)</span>
+    <div class="tl-dev">ARSEPAM</div>
+    <div>23 faturas exigiveis</div>
+    <div class="tl-val">R$ 0.0M</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+275 (2027-01-01)</span>
+    <div class="tl-dev">FUNTEA</div>
+    <div>11 faturas exigiveis</div>
+    <div class="tl-val">R$ 0.0M</div>
+  </div>
+  <div class="tl-item warn">
+    <span class="tl-badge">D+275 (2027-01-01)</span>
+    <div class="tl-dev">SNPH</div>
+    <div>8 faturas exigiveis</div>
+    <div class="tl-val">R$ 0.0M</div>
+  </div>
+</div>
+</section>
+
+<!-- RANKING & FORCA -->
+<section id="ranking">
+<div class="section-title">&#9650; Ranking &amp; Forca Probatoria</div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>Top 15 Devedores por Valor Exigivel</h4><div class="chart-wrap"><canvas id="chartRanking"></canvas></div></div>
+  <div class="chart-box"><h4>Distribuicao por Forca Probatoria</h4><div class="chart-wrap"><canvas id="chartForca"></canvas></div></div>
+</div>
+</section>
+
+<section id="forca"></section>
+
+<!-- PIPELINE -->
+<section id="pipeline">
+<div class="charts-grid">
+  <div class="chart-box"><h4>Pipeline de Fases</h4><div class="chart-wrap"><canvas id="chartPipeline"></canvas></div></div>
+  <div class="chart-box" id="prescricao"><h4>Mapa de Prescricao (Bubble)</h4><div class="chart-wrap"><canvas id="chartPresc"></canvas></div></div>
+</div>
+</section>
+
+<!-- FATURAMENTO -->
+<section id="faturamento">
+<div class="section-title">&#9638; Analise Financeira</div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>Faturamento vs Recebimento (Top 10)</h4><div class="chart-wrap"><canvas id="chartFatRec"></canvas></div></div>
+  <div class="chart-box" id="empenhos"><h4>Empenhos 2026 + NEs sem Cobertura</h4><div class="chart-wrap"><canvas id="chartEmp"></canvas></div></div>
+</div>
+</section>
+
+<!-- CENARIOS -->
+<section id="cenarios">
+<div class="charts-grid">
+  <div class="chart-box"><h4>Cenarios de Recuperacao &amp; Fee</h4><div class="chart-wrap"><canvas id="chartCenarios"></canvas></div></div>
+  <div class="chart-box"><h4>Padrao de Inadimplencia</h4><div class="chart-wrap"><canvas id="chartPadrao"></canvas></div></div>
+</div>
+</section>
+
+<!-- SPCF VISAO -->
+<section id="spcf-visao">
+<div class="section-title">&#8660; Visao Consolidada SPCF Mar/2026 <span class="section-subtitle">Snapshot 29/03/2026 — 6 Blocos + Extraido</span></div>
+<div class="spcf-grid">
+  <div class="spcf-card"><div class="spcf-label">Devedores Unicos</div><div class="spcf-val" style="color:var(--blue)">543</div><div class="spcf-sub">Todos no SPCF</div></div>
+  <div class="spcf-card"><div class="spcf-label">Portfolio Mapeado</div><div class="spcf-val" style="color:var(--green)">34</div><div class="spcf-sub">De 71 no profiles.json</div></div>
+  <div class="spcf-card"><div class="spcf-label">Fora do Portfolio</div><div class="spcf-val" style="color:var(--orange)">346</div><div class="spcf-sub">R$ 24,8M em dividas</div></div>
+  <div class="spcf-card"><div class="spcf-label">Total a Receber</div><div class="spcf-val" style="color:var(--accent2)">R$ 127,6M</div><div class="spcf-sub">B1-03 Geral</div></div>
+  <div class="spcf-card"><div class="spcf-label">Faturas Devidas</div><div class="spcf-val" style="color:var(--red)">4.620</div><div class="spcf-sub">R$ 140,4M (B1-05)</div></div>
+  <div class="spcf-card"><div class="spcf-label">Faturas em Aberto</div><div class="spcf-val" style="color:var(--blue)">2.414</div><div class="spcf-sub">R$ 135,8M (B2-05)</div></div>
+  <div class="spcf-card"><div class="spcf-label">Perdas Totais</div><div class="spcf-val" style="color:var(--red)">R$ 60,3M</div><div class="spcf-sub">B1-01 + B3-06</div></div>
+  <div class="spcf-card"><div class="spcf-label">Empenhos 2026</div><div class="spcf-val" style="color:var(--green)">R$ 41,1M</div><div class="spcf-sub">214 NEs</div></div>
+  <div class="spcf-card"><div class="spcf-label">A Empenhar 2026</div><div class="spcf-val" style="color:var(--purple)">R$ 65,8M</div><div class="spcf-sub">Obrigacao futura</div></div>
+  <div class="spcf-card"><div class="spcf-label">Bloco 0 NEs</div><div class="spcf-val" style="color:var(--teal)">9.870</div><div class="spcf-sub">R$ 1,07B operacional</div></div>
+</div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>SPCF: Portfolio vs Fora do Portfolio</h4><div class="chart-wrap"><canvas id="chartSpcfPortfolio"></canvas></div></div>
+  <div class="chart-box"><h4>SPCF: Faturas por Status</h4><div class="chart-wrap"><canvas id="chartSpcfFaturas"></canvas></div></div>
+</div>
+</section>
+
+<!-- SPCF CANCELADAS -->
+<section id="spcf-canceladas">
+<div class="section-title">&#9888; Canceladas &amp; Inconsistencias SPCF</div>
+<div class="kpi-grid">
+  <div class="kpi red"><div class="label">Faturas Canceladas</div><div class="value">2.097</div><div class="sub">Total no sistema</div></div>
+  <div class="kpi red"><div class="label">Cancel. x Devidas</div><div class="value">11</div><div class="sub">GRAVE — em cobranca mas cancelada</div></div>
+  <div class="kpi red"><div class="label">Cancel. x Perdas</div><div class="value">47</div><div class="sub">CRITICA — dupla baixa contabil</div></div>
+  <div class="kpi"><div class="label">Val. Cancelado (Portf.)</div><div class="value">R$ 57,6M</div><div class="sub">1.015 faturas do portfolio</div></div>
+  <div class="kpi red"><div class="label">Dupla Baixa</div><div class="value">R$ 86,8M</div><div class="sub">Cruzamento D impacto</div></div>
+  <div class="kpi"><div class="label">Overlap Paga x Devida</div><div class="value">1.643</div><div class="sub">Depuracao obrigatoria</div></div>
+</div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>Inconsistencias por Tipo de Cruzamento</h4><div class="chart-wrap"><canvas id="chartInconsist"></canvas></div></div>
+  <div class="chart-box"><h4>Top Devedores com Canceladas em Perdas</h4><div class="chart-wrap"><canvas id="chartCancelPerdas"></canvas></div></div>
+</div>
+</section>
+
+<!-- SPCF EMPENHOS -->
+<section id="spcf-empenhos">
+<div class="section-title">&#9670; Empenhos Detalhados — Bloco 0 vs Bloco 2</div>
+<div class="kpi-grid">
+  <div class="kpi"><div class="label">Bloco 2 Contratos</div><div class="value">248</div><div class="sub">96 clientes, R$ 259,7M global</div></div>
+  <div class="kpi blue"><div class="label">Bloco 0 NEs</div><div class="value">9.870</div><div class="sub">110 clientes, R$ 1,07B</div></div>
+  <div class="kpi green"><div class="label">Empenho 2026</div><div class="value">R$ 52,5M</div><div class="sub">Bloco 2 gerencial</div></div>
+  <div class="kpi purple"><div class="label">A Empenhar 2026</div><div class="value">R$ 65,8M</div><div class="sub">Reconhecimento futuro</div></div>
+  <div class="kpi red"><div class="label">NEs SEM COBERTURA</div><div class="value">60</div><div class="sub">R$ 14,9M — Art. 202 VI CC</div></div>
+</div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>Top 10 Devedores — Empenho Operacional (Bloco 0)</h4><div class="chart-wrap"><canvas id="chartEmpBloco0"></canvas></div></div>
+  <div class="chart-box"><h4>Top 10 Devedores — Empenho 2026 (NEs)</h4><div class="chart-wrap"><canvas id="chartEmp2026"></canvas></div></div>
+</div>
+</section>
+
+<!-- SERIE HISTORICA -->
+<section id="spcf-serie">
+<div class="section-title">&#9632; Serie Historica — Faturamento vs Recebimento (87 meses)</div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>Top 15 — Faturamento Total (Jan/2019 a Mar/2026)</h4><div class="chart-wrap"><canvas id="chartSerieHist"></canvas></div></div>
+  <div class="chart-box"><h4>Taxa de Pagamento por Devedor (%)</h4><div class="chart-wrap"><canvas id="chartTaxaPgto"></canvas></div></div>
+</div>
+</section>
+
+<!-- VIAS PROCESSUAIS -->
+<section id="vias">
+<div class="section-title">&#9656; Vias Processuais &amp; Padrao</div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>Vias Processuais Recomendadas</h4><div class="chart-wrap"><canvas id="chartVias"></canvas></div></div>
+  <div class="chart-box"><h4>NEs sem Cobertura Contratual</h4><div class="chart-wrap"><canvas id="chartNSC"></canvas></div></div>
+</div>
+</section>
+
+<!-- HEATMAP -->
+<section id="heatmap">
+<div class="section-title">&#9618; Mapa de Calor — Score de Risco</div>
+<div class="heatmap" id="heatmapContainer"></div>
+</section>
+
+<!-- TABELA -->
+<section id="tabela">
+<div class="section-title">&#9776; Tabela Completa — 71 Devedores <span class="section-subtitle" id="tableCount">71 registros</span></div>
+<div class="table-container">
+  <div class="filters">
+    <select id="fTipo"><option value="">Todos</option><option value="GOV">Governo</option><option value="PRIV">Privada</option></select>
+    <select id="fForca"><option value="">Todas</option><option value="FORTE">Forte</option><option value="MEDIA">Media</option><option value="FRACA">Fraca</option><option value="Sem evidencia">Sem evidencia</option></select>
+    <select id="fFase"><option value="">Todas</option><option value="F0">F0</option><option value="F0 Diagnostico">F0 Diagnostico</option><option value="F3">F3</option><option value="F5">F5</option></select>
+    <select id="fPresc"><option value="">Todas</option><option value="vencida">Vencida</option><option value="urgente">Urgente (&lt;90d)</option></select>
+    <select id="fCprac"><option value="">Todos</option><option value="Sim">Elegivel</option></select>
+    <input id="fBusca" type="text" placeholder="Nome ou sigla...">
+    <button id="filterReset">&#8634; Limpar</button>
+  </div>
+  <div style="max-height:600px;overflow-y:auto">
+  <table id="mainTable">
+    <thead><tr>
+      <th data-col="n"># &#9650;</th>
+      <th data-col="sigla">DEVEDOR &#9650;</th>
+      <th data-col="tipo">TIPO &#9650;</th>
+      <th data-col="val_exig">VAL.EXIGIVEL &#9660;</th>
+      <th data-col="val_atual">VAL.ATUALIZADO &#9650;</th>
+      <th data-col="forca">FORCA &#9650;</th>
+      <th data-col="fase">FASE &#9650;</th>
+      <th data-col="faturas">FATURAS &#9650;</th>
+      <th data-col="exig">EXIG. &#9650;</th>
+      <th data-col="presc">PRESC. &#9650;</th>
+      <th data-col="emp26">EMP.2026 &#9650;</th>
+      <th data-col="nes">NES S/COB &#9650;</th>
+      <th data-col="score">SCORE &#9650;</th>
+      <th data-col="cprac">CPRAC &#9650;</th>
+      <th data-col="spcf">SPCF RECEBER &#9650;</th>
+      <th data-col="perdas">PERDAS &#9650;</th>
+      <th data-col="padrao">PADRAO &#9650;</th>
+      <th data-col="taxa">TAXA% &#9650;</th>
+      <th data-col="prox">PROX.PASSO &#9650;</th>
+    </tr></thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  </div>
+</div>
+</section>
+
+<!-- FATURAS CRUZADAS -->
+<section id="fat-cruzadas">
+<div class="section-title">&#9776; Faturas Cruzadas — Dados Reais por Devedor <span class="section-subtitle">1764 faturas &middot; 19 devedores &middot; 58 colunas</span></div>
+<div class="charts-grid">
+  <div class="chart-box"><h4>Valor Vigente vs Prescrito por Devedor</h4><div class="chart-wrap"><canvas id="chartFatCruz1"></canvas></div></div>
+  <div class="chart-box"><h4>Valor Corrigido vs Original por Devedor</h4><div class="chart-wrap"><canvas id="chartFatCruz2"></canvas></div></div>
+</div>
+</section>
+
+<!-- FLUXO -->
+<section id="fluxo">
+<div class="section-title">&#9654; Fluxo do Portfolio — De Faturamento a Recuperacao</div>
+<div class="flow-grid">
+  <div class="flow-card"><div class="flow-label">Faturamento Total</div><div class="flow-val">R$ 762M</div><div class="flow-sub">2019-2026</div><span class="flow-arrow">&#10140;</span></div>
+  <div class="flow-card"><div class="flow-label">Recebido</div><div class="flow-val">R$ 610M</div><div class="flow-sub">80.1% taxa pgto</div><span class="flow-arrow">&#10140;</span></div>
+  <div class="flow-card"><div class="flow-label">Inadimplido</div><div class="flow-val">R$ 151M</div><div class="flow-sub">19.9% do total</div><span class="flow-arrow">&#10140;</span></div>
+  <div class="flow-card"><div class="flow-label">Val Exigivel</div><div class="flow-val">R$ 122M</div><div class="flow-sub">Nao prescrito</div><span class="flow-arrow">&#10140;</span></div>
+  <div class="flow-card"><div class="flow-label">Val Atualizado</div><div class="flow-val">R$ 195M</div><div class="flow-sub">SELIC + juros + multa</div><span class="flow-arrow">&#10140;</span></div>
+  <div class="flow-card"><div class="flow-label">Fee Estimado</div><div class="flow-val">R$ 9.6M</div><div class="flow-sub">Base 40% &times; 20%</div></div>
+</div>
+<div class="flow-grid">
+  <div class="flow-card"><div class="flow-label">Perdas SPCF</div><div class="flow-val" style="color:var(--red)">R$ 60.3M</div><div class="flow-sub">Baixadas</div></div>
+  <div class="flow-card"><div class="flow-label">Fat. Canceladas</div><div class="flow-val" style="color:var(--orange)">R$ 56.6M</div><div class="flow-sub">770 faturas</div></div>
+  <div class="flow-card"><div class="flow-label">Empenhos 2026</div><div class="flow-val" style="color:var(--green)">R$ 41.1M</div><div class="flow-sub">Obrigacao futura</div></div>
+  <div class="flow-card"><div class="flow-label">A Empenhar 2026</div><div class="flow-val" style="color:var(--purple)">R$ 65.8M</div><div class="flow-sub">Reconhecimento futuro</div></div>
+</div>
+</section>
+
+<!-- INSIGHTS -->
+<section id="insights">
+<div class="section-title">&#9733; Insights Estrategicos &amp; Acoes Recomendadas</div>
+<div class="insights-grid">
+  <div class="insight-card critical">
+    <h4>RISCO PRESCRICIONAL CRITICO</h4>
+    <p>ADS prescreve em 12/04/2026 (D+11). SES/SUSAM prescreve em 13/05/2026 (D+42) com R$ 14,7M + 60 NEs sem cobertura. Acao imediata necessaria para interromper prescricao.</p>
+    <div class="insight-tags"><span class="insight-tag">URGENTE</span><span class="insight-tag">R$ 18,2M</span><span class="insight-tag">NOTIFICAR 48H</span></div>
+  </div>
+  <div class="insight-card critical">
+    <h4>PROCURACAO — BLOQUEADOR PRINCIPAL</h4>
+    <p>A ausencia de procuracao impede qualquer ato formal. Este e o gargalo #1 do projeto. Recomenda-se obtencao imediata junto a PRODAM.</p>
+    <div class="insight-tags"><span class="insight-tag">BLOQUEADOR #1</span><span class="insight-tag">71 devedores afetados</span></div>
+  </div>
+  <div class="insight-card">
+    <h4>CONCENTRACAO DE VALOR</h4>
+    <p>Os 5 maiores devedores (SEDUC, DETRAN, SES/SUSAM, SSP, SEAD) concentram 85% do valor exigivel total. Estrategia de recuperacao deve priorizar estes orgaos.</p>
+    <div class="insight-tags"><span class="insight-tag">Top 5 = 85%</span><span class="insight-tag">R$ 103M</span></div>
+  </div>
+  <div class="insight-card">
+    <h4>DUPLA BAIXA CONTABIL</h4>
+    <p>47 faturas aparecem simultaneamente como canceladas E em perdas. Impacto financeiro de R$ 86,8M. Auditoria contabil obrigatoria antes de qualquer notificacao.</p>
+    <div class="insight-tags"><span class="insight-tag">AUDITORIA</span><span class="insight-tag">R$ 86,8M</span><span class="insight-tag">47 faturas</span></div>
+  </div>
+  <div class="insight-card">
+    <h4>OVERLAP PAGA x DEVIDAS</h4>
+    <p>1.643 faturas aparecem em ambas as listas de pagas e devidas. Depuracao obrigatoria antes de qualquer notificacao para evitar contestacao e dano reputacional.</p>
+    <div class="insight-tags"><span class="insight-tag">DEPURACAO</span><span class="insight-tag">1.643 faturas</span></div>
+  </div>
+  <div class="insight-card">
+    <h4>EMPENHOS SEM COBERTURA — ARMA JURIDICA</h4>
+    <p>60 NEs emitidas SEM COBERTURA CONTRATUAL (R$ 14,9M) constituem reconhecimento tacito de divida (Art. 202 VI CC). Argumento nuclear para SES/SUSAM.</p>
+    <div class="insight-tags"><span class="insight-tag">Art. 202 VI CC</span><span class="insight-tag">60 NEs</span><span class="insight-tag">R$ 14,9M</span></div>
+  </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+  <strong>Brandao Ozores Advogados</strong> &middot; Dashboard PRODAM v5.3 &middot; Gerado em 01/04/2026<br>
+  Dados: profiles.json (71 dev) + SPCF_MAR2026 (6 Blocos, 543 clientes) + 1764 faturas cruzadas (19 CSVs) + Serie Historica (87 meses)<br>
+  Confidencial — Uso exclusivo da equipe juridica
+</div>
+
+</div><!-- /main -->
+
+<script>
+// ============================================================
+// DATA
+// ============================================================
+const DEVS = [{"n": 1, "sigla": "SEDUC", "tipo": "GOV", "val_exig": 49215512.48334964, "val_atual": 50263263.55696253, "forca": "FORTE", "fase": "F0", "faturas": 84, "exig": 76, "presc": 8, "emp26": 24998189.56, "nes": 0, "evid": 1732, "score": 80, "cprac": "Sim", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 5, "total": 5}}, "total_ok": 20, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro", "Negativa expressa registrada"]}, "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 56053583.28, "perdas": 472990.31, "padrao": "INTERMITENTE", "taxa": 75.14}, {"n": 2, "sigla": "DETRAN", "tipo": "GOV", "val_exig": 31684739.01023886, "val_atual": 37960629.18957764, "forca": "FORTE", "fase": "F5", "faturas": 233, "exig": 179, "presc": 54, "emp26": 1551010.38, "nes": 0, "evid": 286, "score": 93, "cprac": "", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 6, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 5, "total": 5}}, "total_ok": 22, "total_items": 22, "recomendacao": "EXECUCAO", "ressalvas": []}, "prescricao": "2026-03-20", "prox": "PROTOCOLAR_PETICAO", "spcf": 21123486.62, "perdas": 3012042.04, "padrao": "INTERMITENTE", "taxa": 77.0}, {"n": 3, "sigla": "SES/SUSAM", "tipo": "GOV", "val_exig": 14748048.9572181, "val_atual": 43921619.17034938, "forca": "FORTE", "fase": "F3", "faturas": 324, "exig": 144, "presc": 180, "emp26": 9468164.22, "nes": 32, "evid": 330, "score": 77, "cprac": "Sim", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 5, "total": 5}}, "total_ok": 20, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro", "180 faturas prescritas > 144 exigíveis"]}, "prescricao": "2026-05-13", "prox": "ENVIAR_TRD", "spcf": 23380.35, "perdas": 13452646.89, "padrao": "PONTUAL", "taxa": 89.5}, {"n": 4, "sigla": "SSP", "tipo": "GOV", "val_exig": 4553230.799761455, "val_atual": 29034062.62695501, "forca": "FORTE", "fase": "F5", "faturas": 196, "exig": 81, "presc": 115, "emp26": 0.0, "nes": 0, "evid": 125, "score": 85, "cprac": "Sim", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 6, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 5, "total": 5}}, "total_ok": 22, "total_items": 22, "recomendacao": "EXECUCAO", "ressalvas": ["115 faturas prescritas > 81 exigíveis"]}, "prescricao": "2026-03-01", "prox": "PROTOCOLAR_PETICAO", "spcf": 10725242.83, "perdas": 10269852.48, "padrao": "INTERMITENTE", "taxa": 79.86}, {"n": 5, "sigla": "SEJUSC", "tipo": "GOV", "val_exig": 2589660.118313503, "val_atual": 5262537.822174589, "forca": "MÉDIA", "fase": "F0", "faturas": 165, "exig": 65, "presc": 100, "emp26": 61934.08, "nes": 0, "evid": 37, "score": 57, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 2671493.58, "perdas": 585171.89, "padrao": "INTERMITENTE", "taxa": 64.87}, {"n": 6, "sigla": "SEAD", "tipo": "GOV", "val_exig": 2339702.19897373, "val_atual": 4296278.763058392, "forca": "FORTE", "fase": "F3", "faturas": 69, "exig": 25, "presc": 44, "emp26": 254276.41, "nes": 0, "evid": 83, "score": 64, "cprac": "Sim", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 5, "total": 5}}, "total_ok": 20, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro", "44 faturas prescritas > 25 exigíveis"]}, "prescricao": "2026-03-20", "prox": "ENVIAR_TRD", "spcf": 5293077.46, "perdas": 254605.58, "padrao": "PONTUAL", "taxa": 83.83}, {"n": 7, "sigla": "CETAM", "tipo": "GOV", "val_exig": 1256564.28, "val_atual": 1256564.28, "forca": "FRACA", "fase": "F0", "faturas": 16, "exig": 16, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 1256564.28, "perdas": 1387.1, "padrao": "PONTUAL", "taxa": 92.64}, {"n": 8, "sigla": "SEDECTI", "tipo": "GOV", "val_exig": 1249203.13232546, "val_atual": 4007244.346947853, "forca": "MÉDIA", "fase": "F0", "faturas": 228, "exig": 52, "presc": 176, "emp26": 303126.38, "nes": 0, "evid": 19, "score": 51, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 1931968.6, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 9, "sigla": "POLÍCIA CIVIL", "tipo": "GOV", "val_exig": 960481.713334285, "val_atual": 1908089.754340274, "forca": "MÉDIA", "fase": "F0", "faturas": 56, "exig": 32, "presc": 24, "emp26": 179782.52, "nes": 0, "evid": 4, "score": 47, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 742177.45, "perdas": 533263.1, "padrao": "PONTUAL", "taxa": 89.18}, {"n": 10, "sigla": "BANCO MASTER", "tipo": "PRIV", "val_exig": 889270.87, "val_atual": 889270.87, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 27, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário.", "spcf": 967386.73, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 11, "sigla": "FENIXSOFT", "tipo": "PRIV", "val_exig": 888250.0, "val_atual": 888250.0, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 27, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 934800.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 12, "sigla": "CAIXA", "tipo": "PRIV", "val_exig": 844328.88, "val_atual": 844328.88, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 27, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 1006090.93, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 13, "sigla": "SUHAB", "tipo": "GOV", "val_exig": 840061.1525043402, "val_atual": 1210268.549392809, "forca": "MÉDIA", "fase": "F0", "faturas": 123, "exig": 87, "presc": 36, "emp26": 46114.96, "nes": 0, "evid": 7, "score": 53, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 636026.33, "perdas": 555356.27, "padrao": "PONTUAL", "taxa": 84.56}, {"n": 14, "sigla": "AMAZONPREV", "tipo": "GOV", "val_exig": 736219.7938469165, "val_atual": 1142951.735849928, "forca": "MÉDIA", "fase": "F0", "faturas": 23, "exig": 21, "presc": 2, "emp26": 192901.3, "nes": 0, "evid": 2, "score": 47, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 366572.61, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 87.27}, {"n": 15, "sigla": "FAAR/SEDEL", "tipo": "GOV", "val_exig": 734498.9430028957, "val_atual": 1472879.245464368, "forca": "FRACA", "fase": "F0", "faturas": 221, "exig": 113, "presc": 108, "emp26": 0.0, "nes": 0, "evid": 0, "score": 44, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 525860.25, "perdas": 0.0, "padrao": "RECENTE", "taxa": 38.06}, {"n": 16, "sigla": "PGE", "tipo": "GOV", "val_exig": 680239.7715611592, "val_atual": 1603066.411500305, "forca": "MÉDIA", "fase": "F0", "faturas": 47, "exig": 41, "presc": 6, "emp26": 0.0, "nes": 0, "evid": 6, "score": 48, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 170977.31, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 17, "sigla": "IPAAM", "tipo": "GOV", "val_exig": 652339.8873389428, "val_atual": 652339.8873389428, "forca": "MÉDIA", "fase": "F3", "faturas": 58, "exig": 58, "presc": 0, "emp26": 54259.5, "nes": 0, "evid": 5, "score": 52, "cprac": "", "blind": "", "prescricao": "2027-01-01", "prox": "ENVIAR_TRD", "spcf": 273039.23, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 18, "sigla": "SEAS", "tipo": "GOV", "val_exig": 651041.089737987, "val_atual": 651041.089737987, "forca": "FORTE", "fase": "F5", "faturas": 63, "exig": 63, "presc": 0, "emp26": 280460.71, "nes": 0, "evid": 190, "score": 68, "cprac": "Sim", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 5, "total": 5}}, "total_ok": 20, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro"]}, "prescricao": "2027-01-01", "prox": "PROTOCOLAR_PETICAO", "spcf": 391246.29, "perdas": 117576.8, "padrao": "PONTUAL", "taxa": 86.74}, {"n": 19, "sigla": "FCECON", "tipo": "GOV", "val_exig": 637106.6794919234, "val_atual": 828620.6325084443, "forca": "FORTE", "fase": "F3", "faturas": 113, "exig": 85, "presc": 28, "emp26": 211950.43, "nes": 0, "evid": 37, "score": 65, "cprac": "", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 4, "total": 5}}, "total_ok": 19, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro"]}, "prescricao": "2026-03-20", "prox": "ENVIAR_TRD", "spcf": 213510.37, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 20, "sigla": "PROVER", "tipo": "PRIV", "val_exig": 549105.7, "val_atual": 549105.7, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 26, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 614024.9, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 21, "sigla": "SETRAB", "tipo": "GOV", "val_exig": 505961.79, "val_atual": 505961.79, "forca": "FRACA", "fase": "F0", "faturas": 81, "exig": 81, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "AVALIAR_SUCESSAO", "spcf": 505961.79, "perdas": 931075.15, "padrao": "PONTUAL", "taxa": 95.0}, {"n": 22, "sigla": "SEINFRA", "tipo": "GOV", "val_exig": 379631.5477448804, "val_atual": 379631.5477448804, "forca": "MÉDIA", "fase": "F3", "faturas": 38, "exig": 38, "presc": 0, "emp26": 30341.38, "nes": 0, "evid": 96, "score": 56, "cprac": "Sim", "blind": "", "prescricao": "2027-01-01", "prox": "ENVIAR_TRD", "spcf": 140474.81, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 23, "sigla": "UGPI", "tipo": "GOV", "val_exig": 353473.42, "val_atual": 353473.42, "forca": "FRACA", "fase": "F0", "faturas": 18, "exig": 18, "presc": 0, "emp26": 302249.04, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 353473.42, "perdas": 6586.96, "padrao": "PONTUAL", "taxa": 89.97}, {"n": 24, "sigla": "IDAM", "tipo": "GOV", "val_exig": 328735.506557344, "val_atual": 892277.9349171629, "forca": "FRACA", "fase": "F3", "faturas": 35, "exig": 30, "presc": 5, "emp26": 0.0, "nes": 0, "evid": 0, "score": 40, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ENVIAR_TRD", "spcf": 315872.02, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 25, "sigla": "FVS", "tipo": "GOV", "val_exig": 321372.9594133031, "val_atual": 321372.9594133031, "forca": "FORTE", "fase": "F0", "faturas": 23, "exig": 23, "presc": 0, "emp26": 90673.09, "nes": 0, "evid": 45, "score": 60, "cprac": "", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 4, "total": 5}}, "total_ok": 19, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro"]}, "prescricao": "2027-01-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 78304.06, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 26, "sigla": "SEJEL", "tipo": "GOV", "val_exig": 280242.25, "val_atual": 280242.25, "forca": "FRACA", "fase": "F0", "faturas": 96, "exig": 96, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 280242.25, "perdas": 574447.02, "padrao": "PONTUAL", "taxa": 86.51}, {"n": 27, "sigla": "FMT", "tipo": "GOV", "val_exig": 272130.6793465254, "val_atual": 693107.3755040537, "forca": "MÉDIA", "fase": "F3", "faturas": 83, "exig": 41, "presc": 42, "emp26": 144858.55, "nes": 0, "evid": 49, "score": 56, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ENVIAR_TRD", "spcf": 102291.31, "perdas": 320525.13, "padrao": "PONTUAL", "taxa": 93.59}, {"n": 28, "sigla": "FHAJ", "tipo": "GOV", "val_exig": 259910.7790577516, "val_atual": 493519.1295001625, "forca": "FORTE", "fase": "F5", "faturas": 75, "exig": 34, "presc": 41, "emp26": 44073.96, "nes": 0, "evid": 29, "score": 61, "cprac": "", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 4, "total": 5}}, "total_ok": 19, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro", "41 faturas prescritas > 34 exigíveis"]}, "prescricao": "2026-03-20", "prox": "PROTOCOLAR_PETICAO", "spcf": 221018.07, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 29, "sigla": "SECT", "tipo": "GOV", "val_exig": 258328.5777689927, "val_atual": 296246.9739695273, "forca": "MÉDIA", "fase": "F0", "faturas": 44, "exig": 35, "presc": 9, "emp26": 0.0, "nes": 0, "evid": 17, "score": 48, "cprac": "Sim", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 64724.63, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 30, "sigla": "ADS", "tipo": "GOV", "val_exig": 211657.47, "val_atual": 211657.47, "forca": "FRACA", "fase": "F0", "faturas": 119, "exig": 119, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 211657.47, "perdas": 342709.23, "padrao": "PONTUAL", "taxa": 92.93}, {"n": 31, "sigla": "SEFAZ", "tipo": "GOV", "val_exig": 198980.4851109561, "val_atual": 283622.8288313362, "forca": "MÉDIA", "fase": "F0", "faturas": 5, "exig": 4, "presc": 1, "emp26": 0.0, "nes": 0, "evid": 29, "score": 44, "cprac": "Sim", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 32, "sigla": "CPA", "tipo": "PRIV", "val_exig": 165830.96, "val_atual": 165830.96, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 24, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 165831.16, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 33, "sigla": "ADAF", "tipo": "GOV", "val_exig": 149600.91, "val_atual": 149600.91, "forca": "FRACA", "fase": "F0", "faturas": 44, "exig": 44, "presc": 0, "emp26": 115550.22, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 149600.91, "perdas": 8427.89, "padrao": "PONTUAL", "taxa": 87.09}, {"n": 34, "sigla": "AADESAM", "tipo": "GOV", "val_exig": 125682.9, "val_atual": 125682.9, "forca": "FRACA", "fase": "F0", "faturas": 34, "exig": 34, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 125682.9, "perdas": 177309.58, "padrao": "PONTUAL", "taxa": 95.0}, {"n": 35, "sigla": "IKM DE", "tipo": "PRIV", "val_exig": 116263.6, "val_atual": 116263.6, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 24, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 183622.37, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 36, "sigla": "ANOREG", "tipo": "PRIV", "val_exig": 102267.91, "val_atual": 102267.91, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 23, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 153232.43, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 37, "sigla": "SEC", "tipo": "GOV", "val_exig": 99050.70706237933, "val_atual": 248155.4238784024, "forca": "FORTE", "fase": "F0", "faturas": 23, "exig": 11, "presc": 12, "emp26": 0.0, "nes": 0, "evid": 64, "score": 54, "cprac": "Sim", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 5, "total": 5}}, "total_ok": 20, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro", "12 faturas prescritas > 11 exigíveis"]}, "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 189217.81, "perdas": 60352.63, "padrao": "PONTUAL", "taxa": 92.38}, {"n": 38, "sigla": "SEPROR", "tipo": "GOV", "val_exig": 77960.49143925689, "val_atual": 170884.0956059437, "forca": "MÉDIA", "fase": "F0", "faturas": 25, "exig": 15, "presc": 10, "emp26": 0.0, "nes": 0, "evid": 31, "score": 46, "cprac": "Sim", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 87743.5, "perdas": 104713.36, "padrao": "PONTUAL", "taxa": 93.89}, {"n": 39, "sigla": "BMC", "tipo": "PRIV", "val_exig": 58142.0, "val_atual": 58142.0, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 22, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 58142.0, "perdas": 0.0, "padrao": "CRÔNICO", "taxa": 0.0}, {"n": 40, "sigla": "ARSEPAM", "tipo": "GOV", "val_exig": 49618.85205354253, "val_atual": 49618.85205354253, "forca": "FRACA", "fase": "F0", "faturas": 23, "exig": 23, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 35, "cprac": "", "blind": "", "prescricao": "2027-01-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 41, "sigla": "FUAM/FUHAM", "tipo": "GOV", "val_exig": 44020.01, "val_atual": 356355.07, "forca": "FORTE", "fase": "F5", "faturas": 75, "exig": 22, "presc": 53, "emp26": 7695.6, "nes": 0, "evid": 44, "score": 57, "cprac": "", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 6, "total": 6}, "D_defesas": {"ok": 4, "total": 5}}, "total_ok": 19, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro", "53 faturas prescritas > 22 exigíveis"]}, "prescricao": "2026-03-20", "prox": "PROTOCOLAR_PETICAO", "spcf": 55166.4, "perdas": 645932.36, "padrao": "PONTUAL", "taxa": 93.48}, {"n": 42, "sigla": "BANCO BMG", "tipo": "PRIV", "val_exig": 39242.0, "val_atual": 39242.0, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 22, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 69731.51, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 43, "sigla": "SEMA", "tipo": "GOV", "val_exig": 38541.1088668302, "val_atual": 49842.06985580978, "forca": "MÉDIA", "fase": "F0", "faturas": 10, "exig": 5, "presc": 5, "emp26": 26250.48, "nes": 0, "evid": 3, "score": 36, "cprac": "Sim", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 32741.72, "perdas": 13315.37, "padrao": "PONTUAL", "taxa": 81.23}, {"n": 44, "sigla": "ITRANSITO", "tipo": "PRIV", "val_exig": 38360.67, "val_atual": 38360.67, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 22, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 45, "sigla": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE", "tipo": "PRIV", "val_exig": 34760.79, "val_atual": 34760.79, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 21, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 46, "sigla": "FUNTEA", "tipo": "GOV", "val_exig": 34186.18707715725, "val_atual": 34186.18707715725, "forca": "FRACA", "fase": "F0", "faturas": 11, "exig": 11, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 32, "cprac": "", "blind": "", "prescricao": "2027-01-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 47, "sigla": "BANCO SICOOB", "tipo": "PRIV", "val_exig": 30290.0, "val_atual": 30290.0, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 21, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 48, "sigla": "DPE", "tipo": "GOV", "val_exig": 28060.05, "val_atual": 28060.05, "forca": "FRACA", "fase": "F0", "faturas": 7, "exig": 7, "presc": 0, "emp26": 54444.48, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 28060.05, "perdas": 4173.9, "padrao": "PONTUAL", "taxa": 86.59}, {"n": 49, "sigla": "FMPES", "tipo": "GOV", "val_exig": 27264.57, "val_atual": 27264.57, "forca": "FRACA", "fase": "F0", "faturas": 3, "exig": 3, "presc": 0, "emp26": 110486.6, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 27264.57, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 50, "sigla": "PMAM", "tipo": "GOV", "val_exig": 27020.90058524942, "val_atual": 38951.91005342395, "forca": "FRACA", "fase": "F0", "faturas": 13, "exig": 8, "presc": 5, "emp26": 0.0, "nes": 0, "evid": 0, "score": 29, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 51, "sigla": "CGE", "tipo": "GOV", "val_exig": 25693.37, "val_atual": 25693.37, "forca": "FRACA", "fase": "F0", "faturas": 9, "exig": 9, "presc": 0, "emp26": 130471.45, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 25693.37, "perdas": 23626.15, "padrao": "PONTUAL", "taxa": 93.97}, {"n": 52, "sigla": "SNPH", "tipo": "GOV", "val_exig": 25117.34434577535, "val_atual": 25117.34434577535, "forca": "MÉDIA", "fase": "F0", "faturas": 8, "exig": 8, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 4, "score": 37, "cprac": "", "blind": "", "prescricao": "2027-01-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 53, "sigla": "PSA TECHNOLOGY", "tipo": "PRIV", "val_exig": 21007.21, "val_atual": 21007.21, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 21, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 54, "sigla": "FJJA", "tipo": "GOV", "val_exig": 20596.36, "val_atual": 20596.36, "forca": "FRACA", "fase": "F0", "faturas": 5, "exig": 5, "presc": 0, "emp26": 24882.59, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "CLASSIFICAR", "spcf": 20596.36, "perdas": 3205.11, "padrao": "", "taxa": 0.0}, {"n": 55, "sigla": "SUL AMERICA", "tipo": "PRIV", "val_exig": 18196.0, "val_atual": 18196.0, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 20, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 56, "sigla": "B23 TECNOLOGIA", "tipo": "PRIV", "val_exig": 11892.24, "val_atual": 11892.24, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 20, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 57, "sigla": "BANCO SAFRA", "tipo": "PRIV", "val_exig": 9310.0, "val_atual": 9310.0, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 19, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 58, "sigla": "ODONTOMED", "tipo": "PRIV", "val_exig": 7541.1, "val_atual": 7541.1, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 19, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 59, "sigla": "EASYTECH", "tipo": "PRIV", "val_exig": 6927.16, "val_atual": 6927.16, "forca": "FRACA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 19, "cprac": "", "blind": "", "prescricao": "2029-10-01", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 60, "sigla": "FHEMOAM", "tipo": "GOV", "val_exig": 6886.906967936138, "val_atual": 13276.74747993334, "forca": "FRACA", "fase": "F3", "faturas": 8, "exig": 7, "presc": 1, "emp26": 0.0, "nes": 0, "evid": 0, "score": 30, "cprac": "", "blind": "", "prescricao": "2026-03-20", "prox": "ENVIAR_TRD", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 61, "sigla": "CBMAM", "tipo": "GOV", "val_exig": 3134.027944080676, "val_atual": 71483.15783491402, "forca": "FORTE", "fase": "F3", "faturas": 24, "exig": 4, "presc": 20, "emp26": 0.0, "nes": 0, "evid": 14, "score": 41, "cprac": "", "blind": {"data": "2026-03-27", "blocos": {"A_titulo": {"ok": 4, "total": 6}, "B_liquidez": {"ok": 5, "total": 5}, "C_cadeia": {"ok": 4, "total": 6}, "D_defesas": {"ok": 4, "total": 5}}, "total_ok": 17, "total_items": 22, "recomendacao": "MONITORIA", "ressalvas": ["Sem título executivo — monitória ou TRD primeiro", "20 faturas prescritas > 4 exigíveis"]}, "prescricao": "2026-03-20", "prox": "ENVIAR_TRD", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 62, "sigla": "SEMIG", "tipo": "GOV", "val_exig": 0.0, "val_atual": 0.0, "forca": "MÉDIA", "fase": "F0", "faturas": 0, "exig": 0, "presc": 0, "emp26": 277175.12, "nes": 0, "evid": 4, "score": 14, "cprac": "", "blind": "", "prescricao": "N/A", "prox": "ANALISAR_DOCUMENTACAO", "spcf": 337858.93, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 63, "sigla": "_metadata", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "", "taxa": 0.0}, {"n": 64, "sigla": "CASA CIVIL", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 93.14}, {"n": 65, "sigla": "COSAMA", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 92.27}, {"n": 66, "sigla": "CASA MILITAR", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 93.22}, {"n": 67, "sigla": "BANCO DAYCOVAL", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 100.0}, {"n": 68, "sigla": "IMPRENSA OFICIAL", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 95.3}, {"n": 69, "sigla": "JUCEA", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 94.16}, {"n": 70, "sigla": "AFEAM", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 96.35}, {"n": 71, "sigla": "CIAMA", "tipo": "PRIV", "val_exig": 0.0, "val_atual": 0.0, "forca": "", "fase": "F0_DIAGNOSTICO", "faturas": 0, "exig": 0, "presc": 0, "emp26": 0.0, "nes": 0, "evid": 0, "score": 0, "cprac": "", "blind": "", "prescricao": "", "prox": "", "spcf": 0.0, "perdas": 0.0, "padrao": "PONTUAL", "taxa": 93.1}];
+const SERIE = [{"dev": "metadata", "fat": 0, "rec": 0, "taxa": 0, "padrao": ""}, {"dev": "series", "fat": 0, "rec": 0, "taxa": 0, "padrao": ""}];
+const FAT_CRUZ = [{"devedor": "SEDUC", "total": 128, "vigentes": 121, "prescritas": 7, "val_vigente": 60117049.78000001, "val_prescrito": 291714.1, "val_corrigido": 0.0, "acoes": {"DESCARTAR": 3, "OBRIGACAO_NATURAL_INVESTIGAR": 4, "NOTIFICAR_TRD": 14, "EXECUTAR_TRD": 85, "EXECUTAR": 22}, "forcas": {"FRACA": 3, "MEDIA": 18, "FORTE": 85, "FORTISSIMA": 22}}, {"devedor": "DETRAN", "total": 203, "vigentes": 153, "prescritas": 45, "val_vigente": 18898348.7, "val_prescrito": 3799580.5100000007, "val_corrigido": 0.0, "acoes": {"DESCARTAR": 1, "OBRIGACAO_NATURAL": 24, "OBRIGACAO_NATURAL_INVESTIGAR": 20, "EXECUTAR_TRD": 81, "NOTIFICAR_TRD": 73, "MONITORAR": 4}, "forcas": {"FRACA": 5, "FORTE": 105, "MEDIA": 93}}, {"devedor": "SES", "total": 216, "vigentes": 166, "prescritas": 46, "val_vigente": 8965884.099999994, "val_prescrito": 3633173.24, "val_corrigido": 0.0, "acoes": {"EXECUTAR_TRD": 45, "EXECUTAR": 89, "OBRIGACAO_NATURAL_INVESTIGAR": 12, "DESCARTAR": 2, "OBRIGACAO_NATURAL": 32, "NOTIFICAR_TRD": 35, "MONITORAR": 1}, "forcas": {"FORTE": 50, "FORTISSIMA": 116, "MEDIA": 47, "FRACA": 3}}, {"devedor": "SEAD", "total": 98, "vigentes": 53, "prescritas": 39, "val_vigente": 4576911.129999999, "val_prescrito": 1029760.36, "val_corrigido": 0.0, "acoes": {"OBRIGACAO_NATURAL": 11, "OBRIGACAO_NATURAL_INVESTIGAR": 28, "NOTIFICAR_TRD": 21, "EXECUTAR_TRD": 33, "MONITORAR": 5}, "forcas": {"FORTE": 44, "MEDIA": 49, "FRACA": 5}}, {"devedor": "SSP", "total": 181, "vigentes": 58, "prescritas": 115, "val_vigente": 2176112.4399999995, "val_prescrito": 9075076.740000008, "val_corrigido": 0.0, "acoes": {"DESCARTAR": 18, "OBRIGACAO_NATURAL_INVESTIGAR": 73, "OBRIGACAO_NATURAL": 24, "MONITORAR": 8, "EXECUTAR_TRD": 55, "NOTIFICAR_TRD": 3}, "forcas": {"FRACA": 26, "MEDIA": 76, "FORTE": 79}}, {"devedor": "SEJUSC", "total": 164, "vigentes": 68, "prescritas": 87, "val_vigente": 1758052.0699999996, "val_prescrito": 1053718.4000000008, "val_corrigido": 0.0, "acoes": {"DESCARTAR": 8, "OBRIGACAO_NATURAL_INVESTIGAR": 63, "OBRIGACAO_NATURAL": 16, "NOTIFICAR_TRD": 38, "EXECUTAR_TRD": 37, "MONITORAR": 2}, "forcas": {"FRACA": 10, "MEDIA": 101, "FORTE": 53}}, {"devedor": "SEDEL", "total": 119, "vigentes": 119, "prescritas": 0, "val_vigente": 553049.4400000002, "val_prescrito": 0, "val_corrigido": 0.0, "acoes": {"NOTIFICAR_TRD": 65, "EXECUTAR_TRD": 54}, "forcas": {"MEDIA": 65, "FORTE": 54}}, {"devedor": "POLICIA CIVIL", "total": 51, "vigentes": 21, "prescritas": 9, "val_vigente": 469007.99000000005, "val_prescrito": 311176.28, "val_corrigido": 0.0, "acoes": {"DESCARTAR": 2, "OBRIGACAO_NATURAL_INVESTIGAR": 7, "EXECUTAR_TRD": 14, "NOTIFICAR_TRD": 21, "MONITORAR": 7}, "forcas": {"FRACA": 9, "MEDIA": 28, "FORTE": 14}}, {"devedor": "SEAS", "total": 47, "vigentes": 47, "prescritas": 0, "val_vigente": 461983.4399999999, "val_prescrito": 0, "val_corrigido": 0.0, "acoes": {"NOTIFICAR_TRD": 22, "EXECUTAR_TRD": 25}, "forcas": {"MEDIA": 22, "FORTE": 25}}, {"devedor": "UGPI", "total": 16, "vigentes": 16, "prescritas": 0, "val_vigente": 422687.6600000001, "val_prescrito": 0, "val_corrigido": 0.0, "acoes": {"EXECUTAR_TRD": 4, "NOTIFICAR_TRD": 12}, "forcas": {"FORTE": 4, "MEDIA": 12}}, {"devedor": "SEC", "total": 49, "vigentes": 29, "prescritas": 18, "val_vigente": 272188.99999999994, "val_prescrito": 96318.82, "val_corrigido": 0.0, "acoes": {"NOTIFICAR_TRD": 15, "DESCARTAR": 9, "OBRIGACAO_NATURAL_INVESTIGAR": 9, "EXECUTAR_TRD": 12, "MONITORAR": 4}, "forcas": {"MEDIA": 24, "FRACA": 13, "FORTE": 12}}, {"devedor": "ADAF", "total": 40, "vigentes": 40, "prescritas": 0, "val_vigente": 153395.75000000003, "val_prescrito": 0, "val_corrigido": 0.0, "acoes": {"NOTIFICAR_TRD": 22, "EXECUTAR_TRD": 18}, "forcas": {"MEDIA": 22, "FORTE": 18}}, {"devedor": "SUHAB", "total": 108, "vigentes": 27, "prescritas": 37, "val_vigente": 41078.07, "val_prescrito": 628499.2900000004, "val_corrigido": 0.0, "acoes": {"OBRIGACAO_NATURAL": 1, "DESCARTAR": 32, "OBRIGACAO_NATURAL_INVESTIGAR": 4, "MONITORAR": 43, "NOTIFICAR_IMEDIATO": 5, "NOTIFICAR_TRD": 21, "EXECUTAR_TRD": 2}, "forcas": {"FORTE": 3, "FRACA": 85, "MEDIA": 20}}, {"devedor": "FMT", "total": 17, "vigentes": 7, "prescritas": 10, "val_vigente": 37113.1, "val_prescrito": 73697.52, "val_corrigido": 0.0, "acoes": {"OBRIGACAO_NATURAL_INVESTIGAR": 10, "EXECUTAR_TRD": 2, "NOTIFICAR_TRD": 5}, "forcas": {"MEDIA": 15, "FORTE": 2}}, {"devedor": "SEPROR", "total": 21, "vigentes": 9, "prescritas": 8, "val_vigente": 31897.16, "val_prescrito": 59938.880000000005, "val_corrigido": 0.0, "acoes": {"OBRIGACAO_NATURAL": 2, "OBRIGACAO_NATURAL_INVESTIGAR": 4, "NOTIFICAR_TRD": 11, "DESCARTAR": 2, "NOTIFICAR_IMEDIATO": 1, "EXECUTAR_TRD": 1}, "forcas": {"FORTE": 3, "MEDIA": 13, "FRACA": 5}}, {"devedor": "ADS", "total": 111, "vigentes": 15, "prescritas": 70, "val_vigente": 20218.64, "val_prescrito": 208555.28999999998, "val_corrigido": 0.0, "acoes": {"OBRIGACAO_NATURAL_INVESTIGAR": 56, "DESCARTAR": 14, "NOTIFICAR_IMEDIATO": 18, "EXECUTAR_TRD": 7, "NOTIFICAR_TRD": 11, "MONITORAR": 5}, "forcas": {"MEDIA": 84, "FRACA": 19, "FORTE": 8}}, {"devedor": "AADESAM", "total": 31, "vigentes": 2, "prescritas": 29, "val_vigente": 9600.25, "val_prescrito": 122697.51000000002, "val_corrigido": 0, "acoes": {"HABILITACAO_LIQUIDACAO": 31}, "forcas": {"MEDIA": 8, "FRACA": 23}}, {"devedor": "SEJEL", "total": 89, "vigentes": 5, "prescritas": 84, "val_vigente": 4704.23, "val_prescrito": 290287.5400000002, "val_corrigido": 0, "acoes": {"HABILITACAO_LIQUIDACAO": 89}, "forcas": {"MEDIA": 62, "FRACA": 26, "FORTE": 1}}, {"devedor": "SETRAB", "total": 75, "vigentes": 0, "prescritas": 75, "val_vigente": 0, "val_prescrito": 532267.6400000002, "val_corrigido": 0, "acoes": {"HABILITACAO_LIQUIDACAO": 75}, "forcas": {"FRACA": 15, "MEDIA": 60}}];
+const FORCA = {"labels": ["FORTE", "MÉDIA", "FRACA", "Sem evidencia"], "counts": [12, 15, 35, 9], "vals": [104556869.7, 8958895.8, 7996731.76, 0.0]};
+const FASE = {"labels": ["F0", "F5", "F3", "N/A", "F0_DIAGNOSTICO"], "counts": [48, 5, 9, 1, 8]};
+const PADRAO = {"labels": ["INTERMITENTE", "PONTUAL", "N/A", "RECENTE", "CRÔNICO"], "counts": [4, 28, 37, 1, 1]};
+const SPCF = {"devedores_unicos": 543, "devedores_portfolio": 34, "devedores_fora": 346, "total_receber": 127571242.99, "fat_devidas": 4620, "fat_devidas_val": 140359863.56, "fat_aberto": 2414, "fat_aberto_val": 135790715.3, "perdas_total": 60281125.6, "empenhos_2026_nes": 214, "empenhos_2026_val": 41080121.61, "canceladas_total": 2097, "cancel_x_devidas": 11, "cancel_x_aberto": 6, "cancel_x_perdas": 47, "cancel_val_portfolio": 57553377.64, "dupla_baixa_val": 86770322.76, "cobranca_indevida": 2362094.52, "overlap_pagos_devidas": 1643, "empenho_bloco2_val": 52459964.77, "a_empenhar_2026": 65830919.47, "nes_sem_cobertura": 60, "nes_sem_cob_val": 14936371.7, "bloco0_nes": 9870, "bloco0_val": 1072470794.06};
+
+// ============================================================
+// THEME
+// ============================================================
+const themeBtn = document.getElementById('themeToggle');
+themeBtn.onclick = () => {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+  themeBtn.textContent = isDark ? '\u263E Tema' : '\u2600 Tema';
+  // Update chart colors
+  Chart.helpers.each(Chart.instances, c => {
+    c.options.plugins.legend.labels.color = isDark ? '#1a1d29' : '#e6edf3';
+    c.options.scales && Object.values(c.options.scales).forEach(s => {
+      if(s.ticks) s.ticks.color = isDark ? '#1a1d29' : '#8b949e';
+      if(s.grid) s.grid.color = isDark ? '#e2e5f0' : '#30363d';
+    });
+    c.update('none');
+  });
+};
+
+// ============================================================
+// EXPORT CSV
+// ============================================================
+document.getElementById('exportBtn').onclick = () => {
+  const headers = ['#','Devedor','Tipo','Val.Exigivel','Val.Atualizado','Forca','Fase','Faturas','Exig','Presc','Emp2026','NEs','Score','CPRAC','SPCF Receber','Perdas','Padrao','Taxa%','Prox.Passo'];
+  let csv = headers.join(';') + '\n';
+  DEVS.forEach(d => {
+    csv += [d.n,d.sigla,d.tipo,d.val_exig.toFixed(2),d.val_atual.toFixed(2),d.forca,d.fase,d.faturas,d.exig,d.presc,d.emp26.toFixed(2),d.nes,d.score,d.cprac,d.spcf.toFixed(2),d.perdas.toFixed(2),d.padrao,d.taxa,d.prox].join(';') + '\n';
+  });
+  const blob = new Blob([csv], {type:'text/csv;charset=utf-8;'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'PRODAM_v53_export.csv';
+  a.click();
+};
+
+// ============================================================
+// TABLE
+// ============================================================
+const tbody = document.getElementById('tableBody');
+let sortCol = 'val_exig', sortAsc = false;
+let filtered = [...DEVS];
+
+function fmtBR(v) { return v ? 'R$ ' + v.toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2}) : '—'; }
+function forcaTag(f) {
+  const cls = f === 'FORTE' ? 'tag-forte' : f === 'MEDIA' ? 'tag-media' : 'tag-fraca';
+  return '<span class="tag ' + cls + '">' + (f||'—') + '</span>';
+}
+function faseTag(f) {
+  const cls = f && f.includes('F5') ? 'tag-f5' : f && f.includes('F3') ? 'tag-f3' : 'tag-f0';
+  return '<span class="tag ' + cls + '">' + (f||'—') + '</span>';
+}
+
+function renderTable() {
+  tbody.innerHTML = '';
+  filtered.forEach((d,i) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${i+1}</td><td><strong>${d.sigla}</strong></td><td>${d.tipo}</td>
+      <td>${fmtBR(d.val_exig)}</td><td>${fmtBR(d.val_atual)}</td>
+      <td>${forcaTag(d.forca)}</td><td>${faseTag(d.fase)}</td>
+      <td>${d.faturas}</td><td>${d.exig}</td><td>${d.presc}</td>
+      <td>${fmtBR(d.emp26)}</td><td>${d.nes||'—'}</td><td>${d.score}%</td>
+      <td>${d.cprac||'—'}</td><td>${fmtBR(d.spcf)}</td><td>${fmtBR(d.perdas)}</td>
+      <td>${d.padrao||'—'}</td><td>${d.taxa ? d.taxa.toFixed(1)+'%' : '—'}</td>
+      <td style="max-width:120px;overflow:hidden;text-overflow:ellipsis">${d.prox||'—'}</td>`;
+    tbody.appendChild(tr);
+  });
+  document.getElementById('tableCount').textContent = filtered.length + ' registros';
+}
+
+// Sort
+document.querySelectorAll('#mainTable th').forEach(th => {
+  th.onclick = () => {
+    const col = th.dataset.col;
+    if(sortCol === col) sortAsc = !sortAsc; else { sortCol = col; sortAsc = true; }
+    filtered.sort((a,b) => {
+      let va = a[col], vb = b[col];
+      if(typeof va === 'string') return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+      return sortAsc ? va - vb : vb - va;
+    });
+    renderTable();
+  };
+});
+
+// Filters
+function applyFilters() {
+  const tipo = document.getElementById('fTipo').value;
+  const forca = document.getElementById('fForca').value;
+  const fase = document.getElementById('fFase').value;
+  const presc = document.getElementById('fPresc').value;
+  const cprac = document.getElementById('fCprac').value;
+  const busca = document.getElementById('fBusca').value.toLowerCase();
+  filtered = DEVS.filter(d => {
+    if(tipo && d.tipo !== tipo) return false;
+    if(forca && d.forca !== forca) return false;
+    if(fase && d.fase !== fase) return false;
+    if(presc === 'vencida' && d.exig > 0) return false;
+    if(presc === 'urgente' && d.presc === 0) return false;
+    if(cprac && d.cprac !== cprac) return false;
+    if(busca && !d.sigla.toLowerCase().includes(busca)) return false;
+    return true;
+  });
+  renderTable();
+}
+['fTipo','fForca','fFase','fPresc','fCprac'].forEach(id => document.getElementById(id).onchange = applyFilters);
+document.getElementById('fBusca').oninput = applyFilters;
+document.getElementById('filterReset').onclick = () => {
+  ['fTipo','fForca','fFase','fPresc','fCprac'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('fBusca').value = '';
+  filtered = [...DEVS];
+  renderTable();
+};
+renderTable();
+
+// ============================================================
+// HEATMAP
+// ============================================================
+const hmContainer = document.getElementById('heatmapContainer');
+DEVS.filter(d => d.score > 0).sort((a,b) => b.score - a.score).forEach(d => {
+  const pct = d.score;
+  const r = Math.round(220 * pct / 100 + 35);
+  const g = Math.round(220 * (100 - pct) / 100 + 35);
+  const cell = document.createElement('div');
+  cell.className = 'hm-cell';
+  cell.style.background = `rgb(${r},${g},60)`;
+  cell.innerHTML = `${d.sigla}<span class="hm-score">${pct}%</span>`;
+  cell.title = `${d.sigla}: Score ${pct}%, Val.Exig R$ ${(d.val_exig/1e6).toFixed(1)}M`;
+  hmContainer.appendChild(cell);
+});
+
+// ============================================================
+// CHARTS
+// ============================================================
+const COLORS = ['#c8a84e','#3b82f6','#10b981','#ef4444','#8b5cf6','#f59e0b','#ec4899','#14b8a6','#6366f1','#f97316','#06b6d4','#84cc16','#e11d48','#a855f7','#0ea5e9'];
+
+// Ranking Top 15
+new Chart(document.getElementById('chartRanking'), {
+  type: 'bar',
+  data: {
+    labels: DEVS.slice(0,15).map(d => d.sigla),
+    datasets: [{
+      label: 'Val. Exigivel (R$)',
+      data: DEVS.slice(0,15).map(d => d.val_exig),
+      backgroundColor: COLORS.slice(0,15),
+      borderRadius: 4
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false },
+      tooltip: { callbacks: { label: ctx => 'R$ ' + (ctx.raw/1e6).toFixed(2) + 'M' } } },
+    scales: { x: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } }
+  }
+});
+
+// Forca
+new Chart(document.getElementById('chartForca'), {
+  type: 'doughnut',
+  data: {
+    labels: FORCA.labels,
+    datasets: [{ data: FORCA.counts, backgroundColor: ['#10b981','#f59e0b','#ef4444','#6b7280','#8b5cf6'] }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom' } } }
+});
+
+// Pipeline
+new Chart(document.getElementById('chartPipeline'), {
+  type: 'bar',
+  data: {
+    labels: FASE.labels,
+    datasets: [{ label: 'Devedores', data: FASE.counts, backgroundColor: ['#3b82f6','#10b981','#f59e0b','#ef4444','#8b5cf6'] }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true } } }
+});
+
+// Prescricao Bubble
+new Chart(document.getElementById('chartPresc'), {
+  type: 'bubble',
+  data: {
+    datasets: DEVS.filter(d => d.presc > 0).slice(0,20).map((d,i) => ({
+      label: d.sigla,
+      data: [{ x: d.presc, y: d.val_exig/1e6, r: Math.max(4, Math.min(25, d.faturas/5)) }],
+      backgroundColor: COLORS[i % COLORS.length] + '80'
+    }))
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    scales: { x: { title: { display: true, text: 'Faturas Prescritas' } },
+              y: { title: { display: true, text: 'Val. Exigivel (R$ M)' } } },
+    plugins: { legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': R$ ' + ctx.raw.y.toFixed(1) + 'M, ' + ctx.raw.x + ' prescritas' } } }
+  }
+});
+
+// Faturamento vs Recebimento
+const fatTop = DEVS.filter(d => d.spcf > 0).slice(0,10);
+new Chart(document.getElementById('chartFatRec'), {
+  type: 'bar',
+  data: {
+    labels: fatTop.map(d => d.sigla),
+    datasets: [
+      { label: 'Val. Exigivel', data: fatTop.map(d => d.val_exig), backgroundColor: '#3b82f6', borderRadius: 4 },
+      { label: 'SPCF a Receber', data: fatTop.map(d => d.spcf), backgroundColor: '#10b981', borderRadius: 4 },
+      { label: 'Perdas', data: fatTop.map(d => d.perdas), backgroundColor: '#ef4444', borderRadius: 4 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': R$ ' + (ctx.raw/1e6).toFixed(2) + 'M' } } },
+    scales: { x: { stacked: false }, y: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } }
+  }
+});
+
+// Empenhos
+const empTop = DEVS.filter(d => d.emp26 > 0).sort((a,b) => b.emp26 - a.emp26).slice(0,10);
+new Chart(document.getElementById('chartEmp'), {
+  type: 'bar',
+  data: {
+    labels: empTop.map(d => d.sigla),
+    datasets: [
+      { label: 'Empenho 2026', data: empTop.map(d => d.emp26), backgroundColor: '#10b981', borderRadius: 4 },
+      { label: 'NEs s/ Cobertura', data: empTop.map(d => d.nes > 0 ? d.val_exig * 0.1 : 0), backgroundColor: '#ef4444', borderRadius: 4 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    scales: { y: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(1) + 'M' } } } }
+});
+
+// Cenarios
+new Chart(document.getElementById('chartCenarios'), {
+  type: 'bar',
+  data: {
+    labels: ['Conservador (20%)', 'Base (40%)', 'Otimista (70%)'],
+    datasets: [
+      { label: 'Recuperado', data: [24061621.92, 48123243.84, 84215676.72], backgroundColor: '#3b82f6', borderRadius: 4 },
+      { label: 'Fee 20%', data: [4812324.38, 9624648.77, 16843135.34], backgroundColor: '#c8a84e', borderRadius: 4 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    scales: { y: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } } }
+});
+
+// Padrao
+new Chart(document.getElementById('chartPadrao'), {
+  type: 'doughnut',
+  data: {
+    labels: PADRAO.labels,
+    datasets: [{ data: PADRAO.counts, backgroundColor: ['#ef4444','#f59e0b','#3b82f6','#10b981','#8b5cf6','#6b7280'] }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+});
+
+// SPCF Portfolio
+new Chart(document.getElementById('chartSpcfPortfolio'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Portfolio (34 dev)', 'Fora Portfolio (346 dev)', 'Sem divida (163)'],
+    datasets: [{ data: [101310196, 24821731, 1439315], backgroundColor: ['#3b82f6','#f59e0b','#6b7280'] }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom' },
+      tooltip: { callbacks: { label: ctx => ctx.label + ': R$ ' + (ctx.raw/1e6).toFixed(1) + 'M' } } } }
+});
+
+// SPCF Faturas
+new Chart(document.getElementById('chartSpcfFaturas'), {
+  type: 'bar',
+  data: {
+    labels: ['Devidas', 'Em Aberto', 'Canceladas', 'Perdas', 'Overlap'],
+    datasets: [
+      { label: 'Quantidade', data: [4620, 2414, 2097, 2442, 1643], backgroundColor: ['#ef4444','#f59e0b','#8b5cf6','#6b7280','#ec4899'] }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true } } }
+});
+
+// Inconsistencias
+new Chart(document.getElementById('chartInconsist'), {
+  type: 'bar',
+  data: {
+    labels: ['Cancel. x Devidas', 'Cancel. x Aberto', 'Cancel. x Pagas', 'Cancel. x Perdas'],
+    datasets: [{ label: 'Inconsistencias', data: [11, 6, 0, 47], backgroundColor: ['#ef4444','#f59e0b','#10b981','#8b5cf6'] }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true } } }
+});
+
+// Cancel x Perdas top devedores
+new Chart(document.getElementById('chartCancelPerdas'), {
+  type: 'bar',
+  data: {
+    labels: ['SEDUC','DETRAN','SES','SEAD','CETAM','PGE','POLICIA CIVIL','SEC','SEJUSC','UEA'],
+    datasets: [{ label: 'Val. Cancelado (R$)', data: [13227925,8995685,4814910,3132247,1245802,602066,590523,197818,246955,549808], backgroundColor: '#ef4444', borderRadius: 4 }]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false },
+      tooltip: { callbacks: { label: ctx => 'R$ ' + (ctx.raw/1e6).toFixed(2) + 'M' } } },
+    scales: { x: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } } }
+});
+
+// Empenhos Bloco 0
+new Chart(document.getElementById('chartEmpBloco0'), {
+  type: 'bar',
+  data: {
+    labels: ['SEDUC','DETRAN','SES','SSP','SEAD','CETAM','AMAZONPREV','POL.CIVIL','CASA CIVIL','SEAS'],
+    datasets: [{ label: 'Valor (R$)', data: [383664365,119600700,83257855,61905752,40924402,31749714,16563334,8205443,7648104,6642249], backgroundColor: '#3b82f6', borderRadius: 4 }]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false },
+      tooltip: { callbacks: { label: ctx => 'R$ ' + (ctx.raw/1e6).toFixed(1) + 'M' } } },
+    scales: { x: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } } }
+});
+
+// Empenhos 2026
+new Chart(document.getElementById('chartEmp2026'), {
+  type: 'bar',
+  data: {
+    labels: ['SEDUC','SUSAM','DETRAN','UEA','TCE','SEDECTI','UGPI','SEAS','SEMIG','SEAD'],
+    datasets: [
+      { label: 'Empenho 2026', data: [24998189,9468164,1551010,995466,552739,303126,302249,280460,277175,254276], backgroundColor: '#10b981', borderRadius: 4 },
+      { label: 'SEM COBERTURA', data: [0,964826,0,0,0,0,0,0,0,0], backgroundColor: '#ef4444', borderRadius: 4 }
+    ]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+    plugins: { tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': R$ ' + (ctx.raw/1e6).toFixed(2) + 'M' } } },
+    scales: { x: { stacked: true, ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } }, y: { stacked: true } } }
+});
+
+// Serie Historica
+new Chart(document.getElementById('chartSerieHist'), {
+  type: 'bar',
+  data: {
+    labels: SERIE.map(s => s.dev),
+    datasets: [
+      { label: 'Faturamento', data: SERIE.map(s => s.fat), backgroundColor: '#3b82f6', borderRadius: 4 },
+      { label: 'Recebimento', data: SERIE.map(s => s.rec), backgroundColor: '#10b981', borderRadius: 4 }
+    ]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+    plugins: { tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': R$ ' + (ctx.raw/1e6).toFixed(1) + 'M' } } },
+    scales: { x: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } } }
+});
+
+// Taxa Pagamento
+new Chart(document.getElementById('chartTaxaPgto'), {
+  type: 'bar',
+  data: {
+    labels: SERIE.map(s => s.dev),
+    datasets: [{ label: 'Taxa %', data: SERIE.map(s => s.taxa), backgroundColor: SERIE.map(s => s.taxa > 90 ? '#10b981' : s.taxa > 70 ? '#f59e0b' : '#ef4444'), borderRadius: 4 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { y: { max: 105, ticks: { callback: v => v + '%' } } } }
+});
+
+// Vias Processuais
+const viasData = {};
+DEVS.forEach(d => { const v = d.prox || 'Diagnostico'; viasData[v] = (viasData[v]||0) + 1; });
+new Chart(document.getElementById('chartVias'), {
+  type: 'doughnut',
+  data: {
+    labels: Object.keys(viasData).slice(0,8),
+    datasets: [{ data: Object.values(viasData).slice(0,8), backgroundColor: COLORS }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { font: { size: 10 } } } } }
+});
+
+// NEs sem Cobertura
+const nscDevs = DEVS.filter(d => d.nes > 0).sort((a,b) => b.nes - a.nes);
+new Chart(document.getElementById('chartNSC'), {
+  type: 'bar',
+  data: {
+    labels: nscDevs.map(d => d.sigla),
+    datasets: [{ label: 'NEs sem Cobertura', data: nscDevs.map(d => d.nes), backgroundColor: '#ef4444', borderRadius: 4 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
+});
+
+// Faturas Cruzadas 1 - Vigente vs Prescrito
+const fc = FAT_CRUZ.filter(f => f.val_vigente > 0 || f.val_prescrito > 0).slice(0,15);
+new Chart(document.getElementById('chartFatCruz1'), {
+  type: 'bar',
+  data: {
+    labels: fc.map(f => f.devedor),
+    datasets: [
+      { label: 'Vigente', data: fc.map(f => f.val_vigente), backgroundColor: '#10b981', borderRadius: 4 },
+      { label: 'Prescrito', data: fc.map(f => f.val_prescrito), backgroundColor: '#ef4444', borderRadius: 4 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': R$ ' + (ctx.raw/1e6).toFixed(2) + 'M' } } },
+    scales: { x: { stacked: true }, y: { stacked: true, ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } } }
+});
+
+// Faturas Cruzadas 2 - Corrigido vs Original
+new Chart(document.getElementById('chartFatCruz2'), {
+  type: 'bar',
+  data: {
+    labels: fc.map(f => f.devedor),
+    datasets: [
+      { label: 'Val. Original', data: fc.map(f => f.val_vigente + f.val_prescrito), backgroundColor: '#3b82f6', borderRadius: 4 },
+      { label: 'Val. Corrigido', data: fc.map(f => f.val_corrigido), backgroundColor: '#c8a84e', borderRadius: 4 }
+    ]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': R$ ' + (ctx.raw/1e6).toFixed(2) + 'M' } } },
+    scales: { y: { ticks: { callback: v => 'R$ ' + (v/1e6).toFixed(0) + 'M' } } } }
+});
+
+</script>
+</body>
+</html>

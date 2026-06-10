@@ -1,0 +1,493 @@
+      "a_empenhar": 117154.17000000001,
+      "sem_cobertura": 0,
+      "perdas": "8427.89",
+      "prioridade": "MEDIA",
+      "via_recomendada": "TRD"
+    },
+    {
+      "sigla": "SEC",
+      "razao_social": "SEC",
+      "cnpj": "01.801.623/0001-26",
+      "regime": "PRECATORIO",
+      "padrao": "PONTUAL",
+      "taxa_pagamento": 92.38,
+      "valor_original": 115935.73,
+      "valor_atualizado": 138021.02,
+      "faturas_total": 20,
+      "vigentes": 8,
+      "prescritas": 12,
+      "criticas": 0,
+      "forte_plus": 0,
+      "empenhos": 0,
+      "marcos": 0,
+      "inconsistencias": 20,
+      "em_aberto": 11,
+      "emp_2026": "0",
+      "a_empenhar": 221976.28,
+      "sem_cobertura": 0,
+      "perdas": "60352.63",
+      "prioridade": "MEDIA",
+      "via_recomendada": "TRD"
+    },
+    {
+      "sigla": "FMT",
+      "razao_social": "FUNDACAO DE MEDICINA TROPICAL DR. HEITOR V. DOURADO",
+      "cnpj": "04.534.053/0001-43",
+      "regime": "PRECATORIO",
+      "padrao": "PONTUAL",
+      "taxa_pagamento": 93.59,
+      "valor_original": 34354.4,
+      "valor_atualizado": 60391.53,
+      "faturas_total": 17,
+      "vigentes": 11,
+      "prescritas": 6,
+      "criticas": 4,
+      "forte_plus": 2,
+      "empenhos": 17,
+      "marcos": 17,
+      "inconsistencias": 17,
+      "em_aberto": 7,
+      "emp_2026": "144858.55",
+      "a_empenhar": 0.0,
+      "sem_cobertura": 0,
+      "perdas": "320525.13",
+      "prioridade": "ALTA",
+      "via_recomendada": "NOTIFICAR_15D"
+    },
+    {
+      "sigla": "ADS",
+      "razao_social": "ADS",
+      "cnpj": "CNPJ_PENDENTE",
+      "regime": "PRECATORIO",
+      "padrao": "N/A",
+      "taxa_pagamento": 0,
+      "valor_original": 39934.15,
+      "valor_atualizado": 59590.9,
+      "faturas_total": 110,
+      "vigentes": 27,
+      "prescritas": 81,
+      "criticas": 15,
+      "forte_plus": 0,
+      "empenhos": 0,
+      "marcos": 0,
+      "inconsistencias": 110,
+      "em_aberto": 7,
+      "emp_2026": 0,
+      "a_empenhar": 0,
+      "sem_cobertura": 0,
+      "perdas": 0,
+      "prioridade": "ALTA",
+      "via_recomendada": "NOTIFICAR_15D"
+    },
+    {
+      "sigla": "SEPROR",
+      "razao_social": "SEPROR",
+      "cnpj": "05.560.185/0001-02",
+      "regime": "PRECATORIO",
+      "padrao": "PONTUAL",
+      "taxa_pagamento": 93.89,
+      "valor_original": 39359.36,
+      "valor_atualizado": 54613.78,
+      "faturas_total": 21,
+      "vigentes": 11,
+      "prescritas": 10,
+      "criticas": 5,
+      "forte_plus": 0,
+      "empenhos": 0,
+      "marcos": 0,
+      "inconsistencias": 21,
+      "em_aberto": 8,
+      "emp_2026": "0",
+      "a_empenhar": 12570.52,
+      "sem_cobertura": 0,
+      "perdas": "104713.36",
+      "prioridade": "URGENTE",
+      "via_recomendada": "NOTIFICAR_5D"
+    },
+    {
+      "sigla": "AADESAM",
+      "razao_social": "AADESAM",
+      "cnpj": "CNPJ_PENDENTE",
+      "regime": "PRECATORIO",
+      "padrao": "N/A",
+      "taxa_pagamento": 0,
+      "valor_original": 0,
+      "valor_atualizado": 0,
+      "faturas_total": 25,
+      "vigentes": 0,
+      "prescritas": 25,
+      "criticas": 0,
+      "forte_plus": 0,
+      "empenhos": 0,
+      "marcos": 0,
+      "inconsistencias": 25,
+      "em_aberto": 0,
+      "emp_2026": 0,
+      "a_empenhar": 0,
+      "sem_cobertura": 0,
+      "perdas": 0,
+      "prioridade": "BAIXA",
+      "via_recomendada": "MONITORAR"
+    },
+    {
+      "sigla": "SETRAB",
+      "razao_social": "SETRAB",
+      "cnpj": "CNPJ_PENDENTE",
+      "regime": "PRECATORIO",
+      "padrao": "N/A",
+      "taxa_pagamento": 0,
+      "valor_original": 0,
+      "valor_atualizado": 0,
+      "faturas_total": 75,
+      "vigentes": 0,
+      "prescritas": 75,
+      "criticas": 0,
+      "forte_plus": 0,
+      "empenhos": 0,
+      "marcos": 0,
+      "inconsistencias": 75,
+      "em_aberto": 0,
+      "emp_2026": 0,
+      "a_empenhar": 0,
+      "sem_cobertura": 0,
+      "perdas": 0,
+      "prioridade": "BAIXA",
+      "via_recomendada": "MONITORAR"
+    }
+  ],
+  "urgencias": [
+    {
+      "devedor": "SUHAB",
+      "faturas": 47,
+      "valor": 578720.91,
+      "prescreve_em": "06/12/2026",
+      "dias": 22,
+      "acao": "NOTIFICAR_5D"
+    },
+    {
+      "devedor": "SEPROR",
+      "faturas": 5,
+      "valor": 36457.31,
+      "prescreve_em": "07/02/2027",
+      "dias": 29,
+      "acao": "NOTIFICAR_5D"
+    },
+    {
+      "devedor": "SEDEL",
+      "faturas": 25,
+      "valor": 121767.95,
+      "prescreve_em": "02/12/2026",
+      "dias": 40,
+      "acao": "NOTIFICAR_5D"
+    },
+    {
+      "devedor": "ADS",
+      "faturas": 15,
+      "valor": 37417.22,
+      "prescreve_em": "02/12/2026",
+      "dias": 76,
+      "acao": "NOTIFICAR_15D"
+    },
+    {
+      "devedor": "POLICIA CIVIL",
+      "faturas": 7,
+      "valor": 9268.3,
+      "prescreve_em": "26/10/2026",
+      "dias": 120,
+      "acao": "NOTIFICAR_15D"
+    },
+    {
+      "devedor": "SSP",
+      "faturas": 8,
+      "valor": 10723.47,
+      "prescreve_em": "25/10/2026",
+      "dias": 120,
+      "acao": "NOTIFICAR_15D"
+    },
+    {
+      "devedor": "SES",
+      "faturas": 5,
+      "valor": 487288.19,
+      "prescreve_em": "24/09/2026",
+      "dias": 152,
+      "acao": "NOTIFICAR_15D"
+    },
+    {
+      "devedor": "SEJUSC",
+      "faturas": 16,
+      "valor": 553617.93,
+      "prescreve_em": "02/12/2026",
+      "dias": 197,
+      "acao": "NOTIFICAR_15D"
+    },
+    {
+      "devedor": "DETRAN",
+      "faturas": 53,
+      "valor": 4557140.57,
+      "prescreve_em": "15/02/2027",
+      "dias": 209,
+      "acao": "NOTIFICAR_15D"
+    },
+    {
+      "devedor": "SEAS",
+      "faturas": 2,
+      "valor": 4371.6,
+      "prescreve_em": "24/11/2026",
+      "dias": 237,
+      "acao": "NOTIFICAR_15D"
+    },
+    {
+      "devedor": "FMT",
+      "faturas": 4,
+      "valor": 4509.89,
+      "prescreve_em": "22/02/2027",
+      "dias": 327,
+      "acao": "NOTIFICAR_15D"
+    }
+  ],
+  "prescricao_por_mes": [
+    {
+      "mes": "01/2027",
+      "faturas": 4,
+      "valor": 7574.1
+    },
+    {
+      "mes": "01/2028",
+      "faturas": 6,
+      "valor": 463463.51
+    },
+    {
+      "mes": "01/2029",
+      "faturas": 45,
+      "valor": 921742.92
+    },
+    {
+      "mes": "01/2030",
+      "faturas": 9,
+      "valor": 2060334.02
+    },
+    {
+      "mes": "01/2031",
+      "faturas": 23,
+      "valor": 5788231.43
+    },
+    {
+      "mes": "02/2027",
+      "faturas": 10,
+      "valor": 98030.22
+    },
+    {
+      "mes": "02/2030",
+      "faturas": 8,
+      "valor": 3036007.47
+    },
+    {
+      "mes": "02/2031",
+      "faturas": 66,
+      "valor": 6957778.49
+    },
+    {
+      "mes": "03/2027",
+      "faturas": 4,
+      "valor": 94153.77
+    },
+    {
+      "mes": "03/2028",
+      "faturas": 8,
+      "valor": 27088.05
+    },
+    {
+      "mes": "03/2029",
+      "faturas": 1,
+      "valor": 1033.64
+    },
+    {
+      "mes": "03/2030",
+      "faturas": 7,
+      "valor": 3017632.09
+    }
+  ],
+  "forca_por_devedor": [
+    {
+      "sigla": "UGPI",
+      "FORTISSIMA": 0,
+      "FORTE": 4,
+      "MEDIA": 12,
+      "FRACA": 0
+    },
+    {
+      "sigla": "FMT",
+      "FORTISSIMA": 0,
+      "FORTE": 2,
+      "MEDIA": 15,
+      "FRACA": 0
+    },
+    {
+      "sigla": "SEJEL",
+      "FORTISSIMA": 0,
+      "FORTE": 1,
+      "MEDIA": 62,
+      "FRACA": 26
+    },
+    {
+      "sigla": "AADESAM",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 25
+    },
+    {
+      "sigla": "ADAF",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 40
+    },
+    {
+      "sigla": "ADS",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 110
+    },
+    {
+      "sigla": "CETAM",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 15
+    },
+    {
+      "sigla": "DETRAN",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 202
+    },
+    {
+      "sigla": "POLICIA CIVIL",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 51
+    },
+    {
+      "sigla": "SEAD",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 97
+    },
+    {
+      "sigla": "SEAS",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 47
+    },
+    {
+      "sigla": "SEC",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 20
+    },
+    {
+      "sigla": "SEDEL",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 119
+    },
+    {
+      "sigla": "SEDUC",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 128
+    },
+    {
+      "sigla": "SEJUSC",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 160
+    },
+    {
+      "sigla": "SEPROR",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 21
+    },
+    {
+      "sigla": "SES",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 215
+    },
+    {
+      "sigla": "SETRAB",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 75
+    },
+    {
+      "sigla": "SSP",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 181
+    },
+    {
+      "sigla": "SUHAB",
+      "FORTISSIMA": 0,
+      "FORTE": 0,
+      "MEDIA": 0,
+      "FRACA": 107
+    }
+  ],
+  "acao_distribuicao": [
+    {
+      "acao": "DESCARTAR",
+      "faturas": 741,
+      "valor": 20891697.64
+    },
+    {
+      "acao": "EXECUTAR",
+      "faturas": 6,
+      "valor": 158360.75
+    },
+    {
+      "acao": "MONITORAR",
+      "faturas": 762,
+      "valor": 99767253.4
+    },
+    {
+      "acao": "NOTIFICAR_IMEDIATO",
+      "faturas": 187,
+      "valor": 6401283.34
+    },
+    {
+      "acao": "TRD",
+      "faturas": 39,
+      "valor": 810799.63
+    }
+  ],
+  "cenarios_fee": {
+    "otimista_70pct": {
+      "recuperado": 74996387.98,
+      "fee_20pct": 14999277.6
+    },
+    "base_40pct": {
+      "recuperado": 42855078.85,
+      "fee_20pct": 8571015.77
+    },
+    "conservador_20pct": {
+      "recuperado": 21427539.42,
+      "fee_20pct": 4285507.88
+    }
+  }
+}

@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard PRODAM — Recuperacao de Creditos v4.1</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+:root {
+  --primary: #1A1A1A;
+  --body: #000000;
+  --secondary: #333333;
+  --muted: #555555;
+  --light: #888888;
+  --accent: #C9A84C;
+  --danger: #8B0000;
+  --success: #4A6741;
+  --warn: #8B4513;
+  --bg: #F7F6F3;
+  --card: #FFFFFF;
+  --border: #D5D0C8;
+  --shadow: 0 2px 8px rgba(26,26,26,0.07);
+  --radius: 6px;
+  --font: 'EB Garamond', Garamond, 'Dupincel Text', Georgia, 'Times New Roman', serif;
+}
+
+* { margin:0; padding:0; box-sizing:border-box }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--body);
+  line-height: 1.5;
+  font-size: 11pt;
+}
+.container { max-width:1480px; margin:0 auto; padding:0 24px }
+
+/* ===== HEADER — Nível 1 + Nível 1.1 ===== */
+.header {
+  background: var(--primary);
+  color: #FFFFFF;
+  padding: 28px 0 20px;
+  margin-bottom: 0;
+  border-bottom: 3px solid var(--accent);
+}
+.header .container {
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;
+}
+.header h1 {
+  font-family: var(--font);
+  font-size: 20pt;
+  font-weight: 700;
+  letter-spacing: 4pt;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header .subtitle {
+  font-size: 10pt;
+  font-style: italic;
+  opacity: .85;
+  margin-top: 6px;
+  color: #D5D0C8;
+  letter-spacing: 0.5pt;
+}
+.badge {
+  display:inline-block; padding:4px 14px; border-radius:3px;
+  font-size: 9pt; font-weight: 600; margin:2px;
+  font-family: var(--font);
+  letter-spacing: 0.5pt;
+}
+.badge-live { background: var(--success); color:white }
+.badge-warn { background: var(--accent); color: var(--primary) }
+.badge-danger { background: var(--danger); color:white }
+.badge-info { background: var(--secondary); color:white }
+
+/* ===== GOLD SEPARATOR (Nível 2 style) ===== */
+.gold-sep {
+  height: 0;
+  border: none;
+  border-bottom: 1px solid var(--accent);
+  margin: 20px 0;
+}
+
+/* ===== FILTERS ===== */
+.filters {
+  background: white;
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin: 20px 0;
+  display:flex; flex-wrap:wrap; gap:12px; align-items:center;
+  border-bottom: 1px solid var(--accent);
+}
+.filters label {
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  color: var(--muted);
+  font-weight: 600;
+}
+.filters select, .filters input {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-size: 10pt;
+  font-family: var(--font);
+}
+.filters input[type=text] { width:200px }
+
+/* ===== KPI CARDS ===== */
+.kpi-row {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.kpi {
+  background: var(--card);
+  padding: 14px 12px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--primary);
+}
+.kpi.danger { border-left-color: var(--danger) }
+.kpi.success { border-left-color: var(--success) }
+.kpi.accent { border-left-color: var(--accent) }
+.kpi.warn { border-left-color: var(--warn) }
+.kpi.muted { border-left-color: var(--muted) }
+.kpi .label {
+  font-size: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  color: var(--muted);
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+.kpi .value {
+  font-family: var(--font);
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--primary);
+}
+.kpi.danger .value { color: var(--danger) }
+.kpi.success .value { color: var(--success) }
+.kpi.accent .value { color: var(--warn) }
+.kpi .detail {
+  font-size: 9pt;
+  color: var(--light);
+  margin-top: 2px;
+  font-style: italic;
+}
+
+/* ===== PANELS (Nível 2 headings) ===== */
+.panel {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.panel h2 {
+  font-family: var(--font);
+  font-size: 12pt;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--accent);
+  text-align: center;
+}
+.panel-grid {
+  display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:20px;
+}
+@media(max-width:900px) { .panel-grid { grid-template-columns:1fr } }
+
+.chart-box { position:relative; height:350px }
+.chart-box.short { height:280px }
+.chart-box.tall { height:420px }
+
+/* ===== TABLE — Nível 5 style ===== */
+.tbl-wrap { overflow-x:auto; max-height:700px }
+table { width:100%; border-collapse:collapse; font-size:10pt }
+th {
+  background: var(--primary);
+  color: white;
+  padding: 7px 5px;
+  text-align:left;
+  font-size: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  cursor:pointer;
+  white-space:nowrap;
+  position:sticky; top:0; z-index:2;
+  font-weight: 600;
+}
+th:hover { background: var(--secondary) }
+td {
+  padding: 5px;
+  border-bottom: 1px solid var(--border);
+  white-space:nowrap;
+  font-size: 9.5pt;
+}
+tr:hover { background: #F5F3ED }
+tr.total {
+  background: #E8E4DA;
+  font-weight: 700;
+  position:sticky; bottom:0;
+}
+
+/* ===== TAGS — monochrome ===== */
+.tag {
+  display:inline-block; padding:2px 7px; border-radius:3px;
+  font-size: 8.5pt; font-weight:600; letter-spacing:0.3pt;
+}
+.tag-forte { background: var(--primary); color:white }
+.tag-media { background: var(--muted); color:white }
+.tag-fraca { background: var(--light); color:white }
+.tag-sem { background: #D5D0C8; color: var(--muted) }
+.tag-f0 { background: #E8E4DA; color: var(--primary) }
+.tag-f0d { background: #DDD5C4; color: var(--warn) }
+.tag-f3 { background: var(--accent); color: var(--primary) }
+.tag-f5 { background: var(--primary); color: var(--accent) }
+
+.alerta { display:inline-block; width:10px; height:10px; border-radius:50% }
+.alerta-red { background: var(--danger) }
+.alerta-orange { background: var(--warn) }
+.alerta-yellow { background: var(--accent) }
+.alerta-green { background: var(--success) }
+
+/* ===== URGENCY BOX ===== */
+.urgency {
+  background: var(--danger);
+  color: white;
+  padding: 14px 24px;
+  border-radius: var(--radius);
+  margin: 20px 0 16px;
+  font-size: 10.5pt;
+  line-height: 1.8;
+  border-left: 4px solid var(--accent);
+}
+.urgency strong { font-size: 11pt }
+
+/* ===== INSIGHT BOXES — dark with gold accents ===== */
+.insight-box {
+  background: var(--primary);
+  color: #E8E4DA;
+  padding: 18px 24px;
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  border-left: 4px solid var(--accent);
+}
+.insight-box h3 {
+  font-family: var(--font);
+  font-size: 12pt;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+}
+.insight-box p { font-size: 10pt; opacity:.92; margin-bottom:4px }
+
+.novo-box {
+  background: var(--secondary);
+  color: #E8E4DA;
+  padding: 16px 24px;
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  border-left: 4px solid var(--accent);
+}
+.novo-box h3 {
+  font-family: var(--font);
+  font-size: 12pt;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+}
+.novo-box p { font-size: 10pt; opacity:.95; margin-bottom:3px }
+
+.cprac-box {
+  background: var(--muted);
+  color: #E8E4DA;
+  padding: 16px 24px;
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  border-left: 4px solid var(--accent);
+}
+.cprac-box h3 {
+  font-family: var(--font);
+  font-size: 12pt;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+}
+.cprac-box p { font-size: 10pt; opacity:.95; margin-bottom:3px }
+
+.mini-stat {
+  display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;
+}
+.mini-stat div {
+  font-size: 9.5pt;
+  padding: 3px 12px;
+  background: rgba(201,168,76,0.15);
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 3px;
+  color: #E8E4DA;
+}
+
+/* ===== FOOTER — Nível rodapé ===== */
+.footer {
+  background: var(--primary);
+  color: var(--light);
+  padding: 18px 0;
+  text-align:center;
+  font-size: 9pt;
+  margin-top: 30px;
+  border-top: 2px solid var(--accent);
+  letter-spacing: 0.3pt;
+}
+.footer strong { color: var(--accent) }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<div class="header">
+  <div class="container">
+    <div>
+      <h1>DASHBOARD DE RECUPERACAO DE CREDITOS</h1>
+      <div class="subtitle">Contrato 002/2026 &middot; PRODAM S.A. &middot; Brandao Ozores Advogados</div>
+    </div>
+    <div style="text-align:right">
+      <span class="badge badge-live">SPCF Mar/2026 + Analise Massiva</span>
+      <span class="badge badge-info">71 devedores</span>
+      <span class="badge badge-danger">Procuracao Pendente</span>
+      <span class="badge badge-warn">v4.1 Brandao Ozores</span>
+      <div style="font-size:9pt;margin-top:6px;opacity:.7;font-style:italic">01/04/2026 &middot; profiles.json v71 &middot; 122 Excels SPCF &middot; 4.097 arquivos pendrive &middot; 14 fontes cruzadas</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- ===== ALERTAS ===== -->
+<div class="urgency">
+  <strong>ALERTAS CRITICOS</strong><br>
+  &#x25CF; <strong>PROCURACAO PENDENTE</strong> &mdash; bloqueador #1 para todas as notificacoes e atos formais<br>
+  &#x25CF; 24 devedores com prescricao VENCIDA (cutoff 20/03) &mdash; R$ 97.8M em risco<br>
+  &#x25CF; SES/SUSAM &mdash; Of.129/2021 prescreve ~13/05/2026 (D+42) &mdash; R$ 14,7M + 60 NEs sem cobertura contratual (R$ 14.9M)<br>
+  &#x25CF; Acordo SEFAZ/SES &mdash; deadline 15/04/2026 (D+14) &mdash; R$ 30M<br>
+  &#x25CF; Overlap PAGA&times;DEVIDAS: 1.643 faturas em ambas as listas &mdash; auditar com PRODAM<br>
+  &#x25CF; 41 devedores divergentes SPCF vs profiles.json &mdash; reconciliacao pendente (Passo 4)
+</div>
+
+<!-- ===== ENRIQUECIMENTO v4.1 ===== -->
+<div class="novo-box">
+  <h3>Cruzamento SPCF &times; Analise Massiva &times; Profiles.json</h3>
+  <p>Dashboard enriquecido com 3 fontes cruzadas: profiles.json (51 devedores originais + 20 novos SPCF), 122 Excels SPCF (359K linhas), e analise massiva do pendrive (4.097 arquivos, 10.55 GB).</p>
+  <div class="mini-stat">
+    <div>122 Excels processados</div>
+    <div>359.122 linhas SPCF</div>
+    <div>4.097 arq. pendrive</div>
+    <div>9.870 NEs Bloco 0</div>
+    <div>60 NEs SEM COBERTURA</div>
+    <div>3,292 evidencias</div>
+    <div>11 elegiveis CPRAC</div>
+    <div>12 blindagens</div>
+  </div>
+</div>
+
+<!-- ===== FILTERS ===== -->
+<div class="filters" id="filters">
+  <div><label>Tipo</label><br><select id="fTipo"><option value="">Todos (71)</option><option value="gov">GOV (45)</option><option value="privad">Privado (26)</option></select></div>
+  <div><label>Forca</label><br><select id="fForca"><option value="">Todas</option><option value="FORTE">Forte (12)</option><option value="MEDIA">Media (15)</option><option value="FRACA">Fraca (35)</option><option value="SEM">Sem classif. (9)</option></select></div>
+  <div><label>Fase</label><br><select id="fFase"><option value="">Todas</option><option value="F0">F0 (49)</option><option value="F0_DIAGNOSTICO">F0_DIAGNOSTICO (8)</option><option value="F3">F3 (9)</option><option value="F5">F5 (5)</option></select></div>
+  <div><label>Prescricao</label><br><select id="fPresc"><option value="">Todos</option><option value="venc">Vencida (24)</option><option value="urg">Urgente 0-90d (1)</option></select></div>
+  <div><label>CPRAC</label><br><select id="fCprac"><option value="">Todos</option><option value="sim">Elegivel (11)</option></select></div>
+  <div><label>Busca</label><br><input type="text" id="fBusca" placeholder="Nome do devedor..."></div>
+</div>
+
+<!-- ===== KPIs Row 1: Financial ===== -->
+<div class="kpi-row">
+  <div class="kpi"><div class="label">Portfolio Exigivel</div><div class="value" id="kpiVE">&mdash;</div><div class="detail">1,873 faturas exigiveis</div></div>
+  <div class="kpi accent"><div class="label">Valor Atualizado</div><div class="value" id="kpiVA">&mdash;</div><div class="detail">Fator: 163% sobre original</div></div>
+  <div class="kpi"><div class="label">Devedores</div><div class="value">45+26</div><div class="detail">45 GOV &middot; 26 privados</div></div>
+  <div class="kpi muted"><div class="label">Faturas</div><div class="value">2,958</div><div class="detail">1,873 exig &middot; 1,085 presc</div></div>
+  <div class="kpi success"><div class="label">Fee Base (40%&times;20%)</div><div class="value" id="kpiFee" style="color:var(--success)">&mdash;</div><div class="detail">R$ 17.0M otimista</div></div>
+  <div class="kpi danger"><div class="label">Prescricoes Vencidas</div><div class="value">24</div><div class="detail">R$ 97.8M em risco</div></div>
+</div>
+
+<!-- ===== KPIs Row 2: SPCF + Analise Massiva ===== -->
+<div class="kpi-row">
+  <div class="kpi warn"><div class="label">NEs SEM COBERTURA</div><div class="value" style="color:var(--warn)">60</div><div class="detail">R$ 14.9M &mdash; arg. nuclear</div></div>
+  <div class="kpi"><div class="label">Empenho 2026 (B2)</div><div class="value">R$ 46.0M</div><div class="detail">Reconhec. tacito Art.202</div></div>
+  <div class="kpi muted"><div class="label">A Empenhar 2026</div><div class="value">R$ 38.5M</div><div class="detail">Obrigacao futura</div></div>
+  <div class="kpi"><div class="label">NEs Bloco 0</div><div class="value">3,530</div><div class="detail">R$ 779.8M em notas</div></div>
+  <div class="kpi success"><div class="label">Evidencias Reconhec.</div><div class="value" style="color:var(--success)">3,292</div><div class="detail">12 devs com blindagem</div></div>
+  <div class="kpi muted"><div class="label">Perdas Registradas</div><div class="value">R$ 24.4M</div><div class="detail">Faturas baixadas SPCF</div></div>
+</div>
+
+<!-- ===== KPIs Row 3: Strategic ===== -->
+<div class="kpi-row">
+  <div class="kpi accent"><div class="label">Elegiveis CPRAC</div><div class="value" style="color:var(--warn)">11</div><div class="detail">R$ 72.6M via conciliacao</div></div>
+  <div class="kpi"><div class="label">Via Transacao</div><div class="value">11</div><div class="detail">Titulo exec. por acordo</div></div>
+  <div class="kpi muted"><div class="label">Faturamento SPCF</div><div class="value">R$ 827M</div><div class="detail">7 anos (2019-2026)</div></div>
+  <div class="kpi success"><div class="label">Recebimento SPCF</div><div class="value" style="color:var(--success)">R$ 1307M</div><div class="detail">158% taxa global</div></div>
+  <div class="kpi warn"><div class="label">Overlap Pagos &times; Devidas</div><div class="value" style="color:var(--warn)">1.643</div><div class="detail">Faturas a auditar</div></div>
+  <div class="kpi danger"><div class="label">Divergencias SPCF</div><div class="value">41</div><div class="detail">Reconciliacao pendente</div></div>
+</div>
+
+<hr class="gold-sep">
+
+<!-- ===== CPRAC Box ===== -->
+<div class="cprac-box">
+  <h3>Vias Processuais Estrategicas</h3>
+  <p>11 devedores elegiveis CPRAC/PGE-AM (Lei 13.140/2015) &mdash; gera titulo executivo + suspende prescricao. 11 devedores com via de transacao referendada (Art. 784 IV CPC).</p>
+  <p>Escalonamento: TRD &rarr; &sect;4&ordm; eletronico &rarr; Monitoria &rarr; Execucao. RPV AM estadual = 20 SM (R$ 32.420). Fee = 20%.</p>
+  <div class="mini-stat">
+    <div>SES/SUSAM: CPRAC prioritario (D+42)</div>
+    <div>SEAD: R$14,3M proposta nova</div>
+    <div>DETRAN: peticao pronta F5</div>
+    <div>SSP: peticao pronta F5</div>
+  </div>
+</div>
+
+<!-- ===== SPCF Consolidation ===== -->
+<div class="insight-box">
+  <h3>SPCF Mar/2026 + Analise Massiva &mdash; Consolidacao</h3>
+  <p>122 Excels (359.122 linhas) + 72 PDFs (13.537 paginas) + 4.097 arquivos pendrive (10.55 GB). 14 fontes cruzadas por fatura. 8 enriquecimentos aplicados.</p>
+  <div class="mini-stat">
+    <div>Faturamento 7a: R$ 827M</div>
+    <div>Recebimento: R$ 1307M (158%)</div>
+    <div>3,292 evidencias</div>
+    <div>60 NEs s/ cobertura</div>
+    <div>11 CPRAC</div>
+    <div>1.643 overlap</div>
+  </div>
+</div>
+
+<hr class="gold-sep">
+
+<!-- ===== CHARTS ===== -->
+<div class="panel-grid">
+  <div class="panel">
+    <h2>Top 15 Devedores &mdash; Valor Exigivel vs Atualizado</h2>
+    <div class="chart-box tall"><canvas id="chartRanking"></canvas></div>
+  </div>
+  <div class="panel">
+    <h2>Forca Probatoria</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+      <div><div style="text-align:center;font-size:9pt;color:var(--muted);margin-bottom:2px;text-transform:uppercase;letter-spacing:0.5pt">Quantidade</div><div class="chart-box short"><canvas id="chartForcaQtd"></canvas></div></div>
+      <div><div style="text-align:center;font-size:9pt;color:var(--muted);margin-bottom:2px;text-transform:uppercase;letter-spacing:0.5pt">Valor Exigivel</div><div class="chart-box short"><canvas id="chartForcaVal"></canvas></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel-grid">
+  <div class="panel">
+    <h2>Pipeline por Fase</h2>
+    <div class="chart-box"><canvas id="chartPipeline"></canvas></div>
+  </div>
+  <div class="panel">
+    <h2>Timeline de Prescricao</h2>
+    <div class="chart-box"><canvas id="chartPresc"></canvas></div>
+  </div>
+</div>
+
+<div class="panel-grid">
+  <div class="panel">
+    <h2>Top 10 &mdash; Faturamento &times; Recebimento SPCF (2019-2026)</h2>
+    <div class="chart-box"><canvas id="chartFatRec"></canvas></div>
+  </div>
+  <div class="panel">
+    <h2>Empenhos 2026 &mdash; Reconhecimento Tacito por Devedor</h2>
+    <div class="chart-box"><canvas id="chartEmp26"></canvas></div>
+  </div>
+</div>
+
+<div class="panel-grid">
+  <div class="panel">
+    <h2>Cenarios de Recuperacao &times; Fee (20%)</h2>
+    <div class="chart-box"><canvas id="chartCenarios"></canvas></div>
+  </div>
+  <div class="panel">
+    <h2>NEs SEM COBERTURA CONTRATUAL por Devedor</h2>
+    <div class="chart-box"><canvas id="chartNSC"></canvas></div>
+  </div>
+</div>
+
+<div class="panel-grid">
+  <div class="panel">
+    <h2>Vias Processuais &mdash; Distribuicao</h2>
+    <div class="chart-box short"><canvas id="chartVias"></canvas></div>
+  </div>
+  <div class="panel">
+    <h2>Padrao de Inadimplencia (87 meses)</h2>
+    <div class="chart-box short"><canvas id="chartPadrao"></canvas></div>
+  </div>
+</div>
+
+<hr class="gold-sep">
+
+<!-- ===== TABLE ===== -->
+<div class="panel">
+  <h2>Tabela Completa &mdash; 71 Devedores</h2>
+  <div class="tbl-wrap">
+    <table id="tblDevedores">
+      <thead>
+        <tr>
+          <th data-col="0">#</th>
+          <th data-col="1">Devedor</th>
+          <th data-col="2">Tipo</th>
+          <th data-col="3">Val.Exigivel</th>
+          <th data-col="4">Val.Atualizado</th>
+          <th data-col="5">Forca</th>
+          <th data-col="6">Fase</th>
+          <th data-col="7">Faturas</th>
+          <th data-col="8">Exig.</th>
+          <th data-col="9">Presc.</th>
+          <th data-col="10">Emp.2026</th>
+          <th data-col="11">NEs s/Cob</th>
+          <th data-col="12">Evid.</th>
+          <th data-col="13">Score</th>
+          <th data-col="14">CPRAC</th>
+          <th data-col="15">Blindagem</th>
+          <th data-col="16">Prescricao</th>
+          <th data-col="17">Alerta</th>
+          <th data-col="18">Prox.Passo</th>
+        </tr>
+      </thead>
+      <tbody id="tblBody"></tbody>
+    </table>
+  </div>
+</div>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div class="footer">
+  <strong>Brandao Ozores Advogados</strong> &middot; Contrato 002/2026 &middot; Dashboard v4.1<br>
+  Gerado em 01/04/2026 &middot; profiles.json v71 + SPCF Mar/2026 (122 Excels, 359K linhas) + Analise Massiva (4.097 arq, 10.55 GB)<br>
+  <span style="font-style:italic">Fontes cruzadas: profiles.json | SPCF Blocos 0-6 | Bloco D Empenhos | Analise Massiva v3.6 | Pesquisas Mar/2026</span>
+</div>
+
+<script>
+/* ===== DATA ===== */
+const DEVS=[{"s": "SEDUC", "n": "Secretaria de Educação do Amazonas", "c": "04.312.419/0001-30", "t": "gov", "tr": "GOV", "ve": 49215512.48334964, "va": 50263263.55696253, "vo": 38705633.18000001, "f": "FORTE", "fs": "F0", "st": "Negativa expressa (Of. 316/2020-GS/SEDUC)", "ft": 84, "fe": 76, "fp": 8, "pd": "20/03/2026", "pdi": -12, "sc": 0.8005, "pp": 0.7, "tp": 164.1, "pi": "PONTUAL", "fat": 326100030.88, "rec": 535131085.28, "e26": 12325904.09, "nsc": 6, "nscv": 8641260.96, "b2e26": 12325904.09, "b2ae": 10802454.09, "b0n": 234, "b0nv": 383664365.88000053, "b2vg": 58330511.64, "evid": 1732, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "A", "titulo": false, "apagao": "ALTO", "nctr": 3, "fd": 256, "fl": 807, "prd": 443696.98, "pend": 56053583.28, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "DETRAN", "n": "Departamento Estadual de Trânsito do Amazonas", "c": "04.224.028/0001-63", "t": "gov", "tr": "GOV", "ve": 31684739.01023886, "va": 37960629.18957764, "vo": 22745276.48, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 233, "fe": 179, "fp": 54, "pd": "20/03/2026", "pdi": -12, "sc": 0.9318, "pp": 0.95, "tp": 124.7, "pi": "PONTUAL", "fat": 156992224.83, "rec": 195746103.75, "e26": 10792108.86, "nsc": 0, "nscv": 0, "b2e26": 10792108.860000001, "b2ae": 9331066.71, "b0n": 288, "b0nv": 119600700.63999993, "b2vg": 37134122.370000005, "evid": 286, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 22, "bltot": 22, "blrec": "EXECUCAO", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": true, "apagao": null, "nctr": 7, "fd": 404, "fl": 1630, "prd": 1148546.6, "pend": 21123486.62, "pr": "PROTOCOLAR_PETICAO"}, {"s": "SES/SUSAM", "n": "Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical", "c": "00.697.295/0001-05", "t": "gov", "tr": "GOV", "ve": 14748048.9572181, "va": 43921619.17034938, "vo": 22406424.64000001, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 324, "fe": 144, "fp": 180, "pd": "13/05/2026", "pdi": 42, "sc": 0.7664, "pp": 0.75, "tp": 191.7, "pi": "PONTUAL", "fat": 139380372.78, "rec": 267236411.84, "e26": 10664589.95, "nsc": 32, "nscv": 6280031.14, "b2e26": 1196425.73, "b2ae": 6711817.210000001, "b0n": 372, "b0nv": 83257855.31000015, "b2vg": 21172350.509999998, "evid": 330, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": "ALTO", "nctr": 5, "fd": 792, "fl": 1999, "prd": 12486778.6, "pend": 15700941.72, "pr": "ENVIAR_TRD"}, {"s": "SSP", "n": "Secretaria de Segurança Pública", "c": "01.804.019/0001-53", "t": "gov", "tr": "GOV", "ve": 4553230.799761455, "va": 29034062.62695501, "vo": 12532319.37999999, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 196, "fe": 81, "fp": 115, "pd": "01/03/2026", "pdi": -31, "sc": 0.8492, "pp": 0.93, "tp": 167.0, "pi": "PONTUAL", "fat": 70836992.0, "rec": 118265569.29, "e26": 14117523.84, "nsc": 0, "nscv": 0, "b2e26": 14117523.84, "b2ae": 3529380.96, "b0n": 134, "b0nv": 61905752.830000035, "b2vg": 42352571.519999996, "evid": 125, "recon": "CONFIRMADO — RD no AFI", "cprac": true, "transacao": true, "blok": 22, "bltot": 22, "blrec": "EXECUCAO", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": true, "apagao": "ALTO", "nctr": 3, "fd": 362, "fl": 886, "prd": 10010015.67, "pend": 10725242.83, "pr": "PROTOCOLAR_PETICAO"}, {"s": "SEJUSC", "n": "Secretaria de Estado da Justiça, Direitos Humanos e Cidadania", "c": "04.312.401/0001-38", "t": "gov", "tr": "GOV", "ve": 2589660.118313503, "va": 5262537.822174589, "vo": 3025777.730000001, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 165, "fe": 65, "fp": 100, "pd": "20/03/2026", "pdi": -12, "sc": 0.5687, "pp": 0.4, "tp": 121.2, "pi": "PONTUAL", "fat": 7598547.39, "rec": 9209790.32, "e26": 47605.39, "nsc": 0, "nscv": 0, "b2e26": 47605.39, "b2ae": -1059.6500000000005, "b0n": 156, "b0nv": 5290675.210000001, "b2vg": 119108.28, "evid": 37, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 2, "fd": 164, "fl": 0, "prd": 0, "pend": 2671493.58, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEAD", "n": "Secretaria de Administração", "c": "02.287.757/0001-33", "t": "gov", "tr": "GOV", "ve": 2339702.19897373, "va": 4296278.763058392, "vo": 2772731.09, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 69, "fe": 25, "fp": 44, "pd": "20/03/2026", "pdi": -12, "sc": 0.6363, "pp": 0.7, "tp": 175.9, "pi": "PONTUAL", "fat": 46749294.44, "rec": 82213685.55, "e26": 1505106.27, "nsc": 0, "nscv": 0, "b2e26": 1505106.27, "b2ae": 5061325.4, "b0n": 388, "b0nv": 40924402.97000005, "b2vg": 6880089.15, "evid": 83, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": "MEDIO", "nctr": 6, "fd": 194, "fl": 1210, "prd": 293096.92, "pend": 5293077.46, "pr": "ENVIAR_TRD"}, {"s": "CETAM", "n": "Centro de Educação Tecnológica do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 1256564.28, "va": 1256564.28, "vo": 1256564.28, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 16, "fe": 16, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 97.4, "pi": "PONTUAL", "fat": 52316782.05, "rec": 50975344.84, "e26": 4178030.14, "nsc": 0, "nscv": 0, "b2e26": 4178030.14, "b2ae": 503954.52000000014, "b0n": 170, "b0nv": 31749714.17000001, "b2vg": 7461752.67, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 1256564.28, "pr": "CLASSIFICAR"}, {"s": "SEDECTI", "n": "Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia", "c": "04.503.421/0001-96", "t": "gov", "tr": "GOV", "ve": 1249203.13232546, "va": 4007244.346947853, "vo": 2012035.99, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 228, "fe": 52, "fp": 176, "pd": "20/03/2026", "pdi": -12, "sc": 0.5128, "pp": 0.32, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 19, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "POLÍCIA CIVIL", "n": "Polícia Civil do Amazonas", "c": "03.072.388/0001-24", "t": "gov", "tr": "GOV", "ve": 960481.713334285, "va": 1908089.754340274, "vo": 1066717.79, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 56, "fe": 32, "fp": 24, "pd": "20/03/2026", "pdi": -12, "sc": 0.47, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 4, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BANCO MASTER", "n": "Banco Master", "c": "33.884.941/0001-94", "t": "privada", "tr": "PRIVADA", "ve": 889270.87, "va": 889270.87, "vo": 889270.87, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2695, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário.", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário."}, {"s": "FENIXSOFT", "n": "Fenixsoft", "c": "07.093.895/0001-03", "t": "privada", "tr": "PRIVADA", "ve": 888250.0, "va": 888250.0, "vo": 888250.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2695, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "CAIXA", "n": "Caixa Econômica Federal", "c": "00.360.305/0001-04", "t": "privada", "tr": "PRIVADA", "ve": 844328.88, "va": 844328.88, "vo": 844328.88, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2686, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SUHAB", "n": "Superintendência da Zona Franca de Manaus - Habitação", "c": "04.355.863/0001-32", "t": "gov", "tr": "GOV", "ve": 840061.1525043402, "va": 1210268.549392809, "vo": 710644.0000000003, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 123, "fe": 87, "fp": 36, "pd": "20/03/2026", "pdi": -12, "sc": 0.5337, "pp": 0.47, "tp": 266.2, "pi": "PONTUAL", "fat": 3964076.56, "rec": 10551327.21, "e26": 90917.32, "nsc": 0, "nscv": 0, "b2e26": 90917.32, "b2ae": 157531.32, "b0n": 179, "b0nv": 4295596.830000002, "b2vg": 273268.9, "evid": 7, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 5, "fd": 0, "fl": 0, "prd": 0, "pend": 636026.33, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "AMAZONPREV", "n": "Instituto de Previdência do Amazonas", "c": "04.986.163/0001-46", "t": "gov", "tr": "GOV", "ve": 736219.7938469165, "va": 1142951.735849928, "vo": 777884.59, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 21, "fp": 2, "pd": "20/03/2026", "pdi": -12, "sc": 0.4651, "pp": 0.47, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 231101.74, "b2ae": 467954.4, "b0n": 88, "b0nv": 16563334.389999993, "b2vg": 6737489.6, "evid": 2, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FAAR/SEDEL", "n": "Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico", "c": "35.933.557/0001-60", "t": "gov", "tr": "GOV", "ve": 734498.9430028957, "va": 1472879.245464368, "vo": 877764.1999999997, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 221, "fe": 113, "fp": 108, "pd": "20/03/2026", "pdi": -12, "sc": 0.4406, "pp": 0.3, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "PGE", "n": "Procuradoria-Geral do Estado", "c": "19.477.848/0001-34", "t": "gov", "tr": "GOV", "ve": 680239.7715611592, "va": 1603066.411500305, "vo": 849643.14, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 47, "fe": 41, "fp": 6, "pd": "20/03/2026", "pdi": -12, "sc": 0.4801, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 6, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "IPAAM", "n": "Instituto de Proteção Ambiental do Amazonas", "c": "04.624.888/0001-94", "t": "gov", "tr": "GOV", "ve": 652339.8873389428, "va": 652339.8873389428, "vo": 465482.7199999997, "f": "MÉDIA", "fs": "F3", "st": "TRD pronto", "ft": 58, "fe": 58, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.5226, "pp": 0.52, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 5, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "SEAS", "n": "Secretaria de Assuntos Estratégicos", "c": "01.742.414/0001-59", "t": "gov", "tr": "GOV", "ve": 651041.089737987, "va": 651041.089737987, "vo": 474659.7699999997, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 63, "fe": 63, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.6827, "pp": 0.78, "tp": 143.4, "pi": "PONTUAL", "fat": 4425022.71, "rec": 6344266.8, "e26": 402252.79, "nsc": 0, "nscv": 0, "b2e26": 402252.79000000004, "b2ae": 533468.0599999999, "b0n": 238, "b0nv": 6642249.050000006, "b2vg": 1425094.08, "evid": 190, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": false, "apagao": "MEDIO", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 391246.29, "pr": "PROTOCOLAR_PETICAO"}, {"s": "FCECON", "n": "Fundação Centro de Educação Tecnológica do Amazonas", "c": "34.570.820/0001-30", "t": "gov", "tr": "GOV", "ve": 637106.6794919234, "va": 828620.6325084443, "vo": 581141.44, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 113, "fe": 85, "fp": 28, "pd": "20/03/2026", "pdi": -12, "sc": 0.6526, "pp": 0.8, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 37, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "PROVER", "n": "Prover", "c": "20.308.187/0001-00", "t": "privada", "tr": "PRIVADA", "ve": 549105.7, "va": 549105.7, "vo": 549105.7, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2614, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SETRAB", "n": "Secretaria de Estado do Trabalho (extinta, incorporada SEAS/SEJUSC)", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 505961.79, "va": 505961.79, "vo": 505961.79, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 81, "fe": 81, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 754.9, "pi": "PONTUAL", "fat": 297757.5, "rec": 2247760.94, "e26": 2076190.08, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "AVALIAR_SUCESSAO", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 505961.79, "pr": "AVALIAR_SUCESSAO"}, {"s": "SEINFRA", "n": "Secretaria de Infraestrutura", "c": "03.852.880/0001-12", "t": "gov", "tr": "GOV", "ve": 379631.5477448804, "va": 379631.5477448804, "vo": 294139.13, "f": "MÉDIA", "fs": "F3", "st": "TRD recomendado", "ft": 38, "fe": 38, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.5586, "pp": 0.45, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 96, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "UGPI", "n": "Unidade Gestora de Projetos e Investimentos", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 353473.42, "va": 353473.42, "vo": 353473.42, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 18, "fe": 18, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 131.1, "pi": "PONTUAL", "fat": 8785844.29, "rec": 11520433.79, "e26": 411980.56, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 353473.42, "pr": "CLASSIFICAR"}, {"s": "IDAM", "n": "Instituto de Desenvolvimento Agropecuário do Amazonas", "c": "01.171.012/0001-41", "t": "gov", "tr": "GOV", "ve": 328735.506557344, "va": 892277.9349171629, "vo": 505375.1699999998, "f": "FRACA", "fs": "F3", "st": "TRD recomendado", "ft": 35, "fe": 30, "fp": 5, "pd": "20/03/2026", "pdi": -12, "sc": 0.4019, "pp": 0.35, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 2, "nscv": 2851.82, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "FVS", "n": "Fundação de Vigilância em Saúde", "c": "07.141.411/0001-46", "t": "gov", "tr": "GOV", "ve": 321372.9594133031, "va": 321372.9594133031, "vo": 253753.07, "f": "FORTE", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 23, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.5968, "pp": 0.75, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 45, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEJEL", "n": "Secretaria de Estado de Juventude, Esporte e Lazer", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 280242.25, "va": 280242.25, "vo": 280242.25, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 96, "fe": 96, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 362.4, "pi": "PONTUAL", "fat": 340593.93, "rec": 1234336.2, "e26": 1218094.75, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 280242.25, "pr": "CLASSIFICAR"}, {"s": "FMT", "n": "Fundação de Medicina Tropical do Amazonas", "c": "04.534.053/0001-43", "t": "gov", "tr": "GOV", "ve": 272130.6793465254, "va": 693107.3755040537, "vo": 390275.52, "f": "MÉDIA", "fs": "F3", "st": "TRD pronto", "ft": 83, "fe": 41, "fp": 42, "pd": "20/03/2026", "pdi": -12, "sc": 0.5623, "pp": 0.55, "tp": 202.0, "pi": "PONTUAL", "fat": 2011789.01, "rec": 4064378.7, "e26": 56999.97, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 49, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 102291.31, "pr": "ENVIAR_TRD"}, {"s": "FHAJ", "n": "Fundação Hospitalar Adriano Jorge", "c": "06.168.092/0001-08", "t": "gov", "tr": "GOV", "ve": 259910.7790577516, "va": 493519.1295001625, "vo": 304898.4199999998, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 75, "fe": 34, "fp": 41, "pd": "20/03/2026", "pdi": -12, "sc": 0.6126, "pp": 0.83, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 29, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "PROTOCOLAR_PETICAO"}, {"s": "SECT", "n": "Secretaria de Ciência e Tecnologia", "c": "05.558.639/0001-00", "t": "gov", "tr": "GOV", "ve": 258328.5777689927, "va": 296246.9739695273, "vo": 222910.14, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 44, "fe": 35, "fp": 9, "pd": "20/03/2026", "pdi": -12, "sc": 0.4846, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 17, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ADS", "n": "Agência de Desenvolvimento Sustentável do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 211657.47, "va": 211657.47, "vo": 211657.47, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 119, "fe": 119, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 194.4, "pi": "PONTUAL", "fat": 684285.89, "rec": 1330188.53, "e26": 43207.74, "nsc": 0, "nscv": 0, "b2e26": 43207.74, "b2ae": 3174.71, "b0n": 143, "b0nv": 509429.7100000001, "b2vg": 62118.020000000004, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 211657.47, "pr": "CLASSIFICAR"}, {"s": "SEFAZ", "n": "Secretaria de Fazenda", "c": "04.312.377/0001-37", "t": "gov", "tr": "GOV", "ve": 198980.4851109561, "va": 283622.8288313362, "vo": 188362.64, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 5, "fe": 4, "fp": 1, "pd": "20/03/2026", "pdi": -12, "sc": 0.4444, "pp": 0.4, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 29, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "CPA", "n": "CPA", "c": "18.206.900/0001-55", "t": "privada", "tr": "PRIVADA", "ve": 165830.96, "va": 165830.96, "vo": 165830.96, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2411, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ADAF", "n": "Agência de Defesa Agropecuária e Florestal do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 149600.91, "va": 149600.91, "vo": 149600.91, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 44, "fe": 44, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 95.2, "pi": "PONTUAL", "fat": 1663308.45, "rec": 1584231.4, "e26": 110145.14, "nsc": 0, "nscv": 0, "b2e26": 110145.14000000001, "b2ae": 117154.17000000001, "b0n": 163, "b0nv": 1132717.1999999997, "b2vg": 332098.10000000003, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 149600.91, "pr": "CLASSIFICAR"}, {"s": "AADESAM", "n": "Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 125682.9, "va": 125682.9, "vo": 125682.9, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 34, "fe": 34, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 912.7, "pi": "PONTUAL", "fat": 172548.41, "rec": 1574895.7, "e26": 208074.78, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 2, "b0nv": 181156.24000000002, "b2vg": 351043.32, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 125682.9, "pr": "CLASSIFICAR"}, {"s": "IKM DE", "n": "IKM DE", "c": "14.968.157/0001-10", "t": "privada", "tr": "PRIVADA", "ve": 116263.6, "va": 116263.6, "vo": 116263.6, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2351, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ANOREG", "n": "ANOREG", "c": "03.123.477/0001-52", "t": "privada", "tr": "PRIVADA", "ve": 102267.91, "va": 102267.91, "vo": 102267.91, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2329, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEC", "n": "Secretaria de Cultura", "c": "01.801.623/0001-26", "t": "gov", "tr": "GOV", "ve": 99050.70706237933, "va": 248155.4238784024, "vo": 152126.16, "f": "FORTE", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 11, "fp": 12, "pd": "20/03/2026", "pdi": -12, "sc": 0.5411, "pp": 0.65, "tp": 191.5, "pi": "PONTUAL", "fat": 2548890.35, "rec": 4881554.96, "e26": 157510.6, "nsc": 0, "nscv": 0, "b2e26": 157510.59999999998, "b2ae": 221976.28, "b0n": 130, "b0nv": 3897085.330000001, "b2vg": 472531.79000000004, "evid": 64, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "A", "titulo": false, "apagao": "MEDIO", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 189217.81, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEPROR", "n": "Secretaria de Produção Rural", "c": "05.560.185/0001-02", "t": "gov", "tr": "GOV", "ve": 77960.49143925689, "va": 170884.0956059437, "vo": 103810.4, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 25, "fe": 15, "fp": 10, "pd": "20/03/2026", "pdi": -12, "sc": 0.4638, "pp": 0.4, "tp": 132.2, "pi": "PONTUAL", "fat": 2049632.44, "rec": 2708934.59, "e26": 63943.28, "nsc": 0, "nscv": 0, "b2e26": 63943.28, "b2ae": 12570.52, "b0n": 148, "b0nv": 1379733.32, "b2vg": 200604.84, "evid": 31, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 87743.5, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BMC", "n": "BMC", "c": "07.207.996/0001-50", "t": "privada", "tr": "PRIVADA", "ve": 58142.0, "va": 58142.0, "vo": 58142.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2233, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ARSEPAM", "n": "Agência Reguladora de Serviços Públicos do Amazonas", "c": "04.272.727/0001-89", "t": "gov", "tr": "GOV", "ve": 49618.85205354253, "va": 49618.85205354253, "vo": 35923.02, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 23, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.3499, "pp": 0.3, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FUAM/FUHAM", "n": "Fundação Universidade Aberta do Amazonas / Fundação Hospitalar de Hematologia e Hemoterapia do Amazonas", "c": "02.006.782/0001-00", "t": "gov", "tr": "GOV", "ve": 44020.01, "va": 356355.07, "vo": 368561.6299999997, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 75, "fe": 22, "fp": 53, "pd": "20/03/2026", "pdi": -12, "sc": 0.5688, "pp": 0.78, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 44, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "PROTOCOLAR_PETICAO"}, {"s": "BANCO BMG", "n": "Banco BMG", "c": "61.186.680/0001-74", "t": "privada", "tr": "PRIVADA", "ve": 39242.0, "va": 39242.0, "vo": 39242.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2167, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEMA", "n": "Secretaria de Meio Ambiente", "c": "05.562.326/0001-26", "t": "gov", "tr": "GOV", "ve": 38541.1088668302, "va": 49842.06985580978, "vo": 35326.64, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 10, "fe": 5, "fp": 5, "pd": "20/03/2026", "pdi": -12, "sc": 0.3603, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 32426.44, "b2ae": 45938.34, "b0n": 132, "b0nv": 1299183.4900000002, "b2vg": 97279.37, "evid": 3, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ITRANSITO", "n": "iTransito", "c": "23.792.780/0001-55", "t": "privada", "tr": "PRIVADA", "ve": 38360.67, "va": 38360.67, "vo": 38360.67, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2163, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE", "n": "Associação de Gestão Inovação e Resultados em Saúde", "c": "05.029.600/0002-87", "t": "privada", "tr": "PRIVADA", "ve": 34760.79, "va": 34760.79, "vo": 34760.79, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2146, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FUNTEA", "n": "Fundação de Tecnologia do Amazonas", "c": "84.664.796/0001-77", "t": "gov", "tr": "GOV", "ve": 34186.18707715725, "va": 34186.18707715725, "vo": 23998.67000000001, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 11, "fe": 11, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.3236, "pp": 0.3, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BANCO SICOOB", "n": "Banco Sicoob", "c": "02.038.232/0001-64", "t": "privada", "tr": "PRIVADA", "ve": 30290.0, "va": 30290.0, "vo": 30290.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2123, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "DPE", "n": "Defensoria Pública do Estado do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 28060.05, "va": 28060.05, "vo": 28060.05, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 7, "fe": 7, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 255207.52, "b2ae": 884.0, "b0n": 51, "b0nv": 1815563.3699999999, "b2vg": 1039788.54, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "FMPES", "n": "Fundação Municipal de Planejamento e Ensino Superior", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 27264.57, "va": 27264.57, "vo": 27264.57, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 3, "fe": 3, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "PMAM", "n": "Polícia Militar do Amazonas", "c": "63.656.292/0001-35", "t": "gov", "tr": "GOV", "ve": 27020.90058524942, "va": 38951.91005342395, "vo": 24351.49, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 13, "fe": 8, "fp": 5, "pd": "20/03/2026", "pdi": -12, "sc": 0.2863, "pp": 0.2, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "CGE", "n": "Controladoria Geral do Estado do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 25693.37, "va": 25693.37, "vo": 25693.37, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 9, "fe": 9, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 213359.74, "b2ae": 428665.74, "b0n": 113, "b0nv": 3584640.729999998, "b2vg": 730517.76, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "SNPH", "n": "Secretaria de Navegação Portuária e Hidrovias", "c": "01.253.690/0001-53", "t": "gov", "tr": "GOV", "ve": 25117.34434577535, "va": 25117.34434577535, "vo": 17526.63, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 8, "fe": 8, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.3707, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 4, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "PSA TECHNOLOGY", "n": "PSA Technology", "c": "08.862.665/0001-16", "t": "privada", "tr": "PRIVADA", "ve": 21007.21, "va": 21007.21, "vo": 21007.21, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2061, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FJJA", "n": "Fundação Juiz de Fora Jorge Almeida (ex-FUNJEAM)", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 20596.36, "va": 20596.36, "vo": 20596.36, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 5, "fe": 5, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "SUL AMERICA", "n": "Sul América Seguros", "c": "01.685.053/0001-56", "t": "privada", "tr": "PRIVADA", "ve": 18196.0, "va": 18196.0, "vo": 18196.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2036, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "B23 TECNOLOGIA", "n": "B23 Tecnologia", "c": "40.402.740/0001-79", "t": "privada", "tr": "PRIVADA", "ve": 11892.24, "va": 11892.24, "vo": 11892.24, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1964, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BANCO SAFRA", "n": "Banco Safra", "c": "58.160.789/0001-28", "t": "privada", "tr": "PRIVADA", "ve": 9310.0, "va": 9310.0, "vo": 9310.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1923, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ODONTOMED", "n": "Odontomed", "c": "05.287.585/0001-96", "t": "privada", "tr": "PRIVADA", "ve": 7541.1, "va": 7541.1, "vo": 7541.1, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1887, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "EASYTECH", "n": "Easytech", "c": "14.379.210/0001-47", "t": "privada", "tr": "PRIVADA", "ve": 6927.16, "va": 6927.16, "vo": 6927.16, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1873, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FHEMOAM", "n": "Fundação de Hematologia e Hemoterapia do Amazonas", "c": "63.678.320/0001-15", "t": "gov", "tr": "GOV", "ve": 6886.906967936138, "va": 13276.74747993334, "vo": 7743.769999999999, "f": "FRACA", "fs": "F3", "st": "TRD recomendado", "ft": 8, "fe": 7, "fp": 1, "pd": "20/03/2026", "pdi": -12, "sc": 0.2973, "pp": 0.35, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 20, "nscv": 12227.78, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "CBMAM", "n": "Corpo de Bombeiros Militar do Amazonas", "c": "02.963.980/0001-53", "t": "gov", "tr": "GOV", "ve": 3134.027944080676, "va": 71483.15783491402, "vo": 27570.74, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 24, "fe": 4, "fp": 20, "pd": "20/03/2026", "pdi": -12, "sc": 0.4105, "pp": 0.62, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 14, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 17, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "SEMIG", "n": "Secretaria de Mineração", "c": "51.999.904/0001-03", "t": "gov", "tr": "GOV", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.1357, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 4, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "_metadata", "n": "_metadata", "c": "", "t": "gov", "tr": "GOV", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0", "st": "", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "CASA CIVIL", "n": "CASA CIVIL", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 19138.4, "b2ae": 12599.44, "b0n": 96, "b0nv": 7648104.869999999, "b2vg": 57415.2, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 1, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "COSAMA", "n": "COSAMA", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 27399.489999999998, "b0n": 0, "b0nv": 0.0, "b2vg": 74972.16, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "CASA MILITAR", "n": "CASA MILITAR", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 11136.96, "b2ae": 11136.96, "b0n": 14, "b0nv": 96374.8, "b2vg": 33410.88, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 1, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "BANCO DAYCOVAL", "n": "BANCO DAYCOVAL", "c": "", "t": "privado", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "IMPRENSA OFICIAL", "n": "IMPRENSA OFICIAL", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 163709.79999999996, "b2ae": 253073.87, "b0n": 99, "b0nv": 1974334.5500000003, "b2vg": 808146.8400000001, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 5, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "JUCEA", "n": "JUCEA", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 81283.2, "b2ae": 29693.81, "b0n": 192, "b0nv": 2406521.33, "b2vg": 243849.6, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "AFEAM", "n": "AFEAM", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 212263.33, "b0n": 0, "b0nv": 0.0, "b2vg": 226435.86, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "CIAMA", "n": "CIAMA", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 22552.29, "b0n": 0, "b0nv": 0.0, "b2vg": 33410.88, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 1, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}];
+const FASES={"F0": {"c": 49, "v": 64951839.18196166}, "F5": {"c": 5, "v": 37192941.68879605}, "F3": {"c": 9, "v": 19367716.391583465}, "F0_DIAGNOSTICO": {"c": 8, "v": 0.0}};
+const CENARIOS={"conservador":{"pct":20,"rec":24302499.45,"fee":4860499.89},"base":{"pct":40,"rec":48604998.90,"fee":9720999.78},"otimista":{"pct":70,"rec":85058748.08,"fee":17011749.62}};
+
+/* ===== BRANDÃO OZORES CHART PALETTE (zero blue) ===== */
+const P='#1A1A1A';   // preto quase-puro
+const S2='#333333';   // cinza escuro
+const M='#555555';    // cinza médio  
+const L='#888888';    // cinza claro
+const A='#C9A84C';    // dourado
+const D='#8B0000';    // vermelho escuro
+const G='#4A6741';    // verde escuro
+const W='#8B4513';    // sienna/marrom
+const C6=[P, S2, M, A, L, '#D5D0C8']; // 6-color set
+
+/* ===== Chart.js global defaults ===== */
+Chart.defaults.font.family="'EB Garamond',Garamond,Georgia,serif";
+Chart.defaults.font.size=11;
+Chart.defaults.color='#333333';
+
+/* ===== HELPERS ===== */
+function fmtBRL(v){return'R$ '+(v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}
+function fmtM(v){if(Math.abs(v)>=1e6)return'R$'+((v/1e6).toFixed(1))+'M';if(Math.abs(v)>=1e3)return'R$'+((v/1e3).toFixed(0))+'K';return'R$'+v.toFixed(0)}
+function fTag(f){
+  const cls=f==='FORTE'?'tag-forte':f==='MEDIA'||f==='MÉDIA'?'tag-media':f==='FRACA'?'tag-fraca':'tag-sem';
+  return'<span class="tag '+cls+'">'+f+'</span>';
+}
+function phTag(f){
+  const cls=f==='F0'?'tag-f0':f==='F0_DIAGNOSTICO'?'tag-f0d':f==='F3'?'tag-f3':f==='F5'?'tag-f5':'tag-f0';
+  const label=f==='F0_DIAGNOSTICO'?'F0D':f;
+  return'<span class="tag '+cls+'">'+label+'</span>';
+}
+
+/* ===== KPI VALUES ===== */
+const totalVE=DEVS.reduce((s,d)=>s+d.ve,0);
+const totalVA=DEVS.reduce((s,d)=>s+d.va,0);
+document.getElementById('kpiVE').textContent=fmtBRL(totalVE);
+document.getElementById('kpiVA').textContent=fmtBRL(totalVA);
+document.getElementById('kpiFee').textContent=fmtBRL(totalVE*0.40*0.20);
+
+/* ===== TABLE LOGIC ===== */
+let sortCol=3,sortAsc=false;
+function getFiltered(){
+  const fT=document.getElementById('fTipo').value;
+  const fF=document.getElementById('fForca').value;
+  const fFs=document.getElementById('fFase').value;
+  const fP=document.getElementById('fPresc').value;
+  const fC=document.getElementById('fCprac').value;
+  const fB=document.getElementById('fBusca').value.toLowerCase();
+  return DEVS.filter(d=>{
+    if(fT&&!d.t.includes(fT))return false;
+    if(fF==='FORTE'&&d.f!=='FORTE')return false;
+    if(fF==='MEDIA'&&d.f!=='MÉDIA')return false;
+    if(fF==='FRACA'&&d.f!=='FRACA')return false;
+    if(fF==='SEM'&&['FORTE','MÉDIA','FRACA'].includes(d.f))return false;
+    if(fFs&&d.fs!==fFs)return false;
+    if(fP==='venc'&&(d.pdi===null||d.pdi>=0))return false;
+    if(fP==='urg'&&(d.pdi===null||d.pdi<0||d.pdi>90))return false;
+    if(fC==='sim'&&!d.cprac)return false;
+    if(fB&&!d.s.toLowerCase().includes(fB)&&!d.n.toLowerCase().includes(fB))return false;
+    return true;
+  });
+}
+function sortData(){
+  const data=getFiltered();
+  data.sort((a,b)=>{
+    let va2,vb2;
+    switch(sortCol){
+      case 0:va2=DEVS.indexOf(a);vb2=DEVS.indexOf(b);break;
+      case 1:va2=a.s;vb2=b.s;break;
+      case 3:va2=a.ve;vb2=b.ve;break;
+      case 4:va2=a.va;vb2=b.va;break;
+      case 7:va2=a.ft;vb2=b.ft;break;
+      case 10:va2=a.b2e26;vb2=b.b2e26;break;
+      case 11:va2=a.nsc;vb2=b.nsc;break;
+      case 12:va2=a.evid;vb2=b.evid;break;
+      case 13:va2=a.sc;vb2=b.sc;break;
+      case 16:va2=a.pdi!==null?a.pdi:9999;vb2=b.pdi!==null?b.pdi:9999;break;
+      default:va2=a.ve;vb2=b.ve;
+    }
+    if(typeof va2==='string')return sortAsc?va2.localeCompare(vb2):vb2.localeCompare(va2);
+    return sortAsc?va2-vb2:vb2-va2;
+  });
+  return data;
+}
+function render(){
+  const data=sortData();
+  const tbody=document.getElementById('tblBody');
+  let html='',totVE=0,totVA=0;
+  data.forEach((d,i)=>{
+    const prescTxt=d.pdi!==null?(d.pdi<0?'D'+d.pdi:'D+'+d.pdi)+(d.pd?' ('+d.pd+')':''):'&mdash;';
+    const al=d.pdi===null?'':'<span class="alerta '+(d.pdi<0?'alerta-red':d.pdi<=90?'alerta-orange':d.pdi<=180?'alerta-yellow':'alerta-green')+'"></span>';
+    const blTxt=d.bltot>0?d.blok+'/'+d.bltot:'&mdash;';
+    totVE+=d.ve;totVA+=d.va;
+    html+='<tr>'
+      +'<td>'+(i+1)+'</td>'
+      +'<td title="'+d.n+'"><b>'+d.s+'</b></td>'
+      +'<td>'+d.tr+'</td>'
+      +'<td style="text-align:right">'+fmtBRL(d.ve)+'</td>'
+      +'<td style="text-align:right">'+fmtBRL(d.va)+'</td>'
+      +'<td>'+fTag(d.f)+'</td>'
+      +'<td>'+phTag(d.fs)+'</td>'
+      +'<td style="text-align:center">'+d.ft+'</td>'
+      +'<td style="text-align:center">'+d.fe+'</td>'
+      +'<td style="text-align:center">'+d.fp+'</td>'
+      +'<td style="text-align:right">'+(d.b2e26>0?fmtBRL(d.b2e26):'&mdash;')+'</td>'
+      +'<td style="text-align:center;color:'+(d.nsc>0?'var(--danger)':'inherit')+'">'+d.nsc+'</td>'
+      +'<td style="text-align:center">'+d.evid+'</td>'
+      +'<td style="text-align:center">'+(d.sc>0?(d.sc*100).toFixed(0)+'%':'&mdash;')+'</td>'
+      +'<td style="text-align:center">'+(d.cprac?'<span class="tag tag-f3">SIM</span>':'&mdash;')+'</td>'
+      +'<td style="text-align:center">'+blTxt+'</td>'
+      +'<td>'+prescTxt+'</td>'
+      +'<td>'+al+'</td>'
+      +'<td style="font-size:8.5pt;max-width:120px;overflow:hidden;text-overflow:ellipsis" title="'+d.pr+'">'+d.pr+'</td>'
+      +'</tr>';
+  });
+  html+='<tr class="total"><td></td><td>TOTAL ('+data.length+')</td><td></td>'
+    +'<td style="text-align:right">'+fmtBRL(totVE)+'</td>'
+    +'<td style="text-align:right">'+fmtBRL(totVA)+'</td>'
+    +'<td colspan="14"></td></tr>';
+  tbody.innerHTML=html;
+}
+document.querySelectorAll('#filters select, #filters input').forEach(el=>el.addEventListener(el.tagName==='INPUT'?'input':'change',render));
+document.querySelectorAll('th[data-col]').forEach(th=>th.addEventListener('click',()=>{
+  const col=parseInt(th.dataset.col);
+  if(col===sortCol)sortAsc=!sortAsc;else{sortCol=col;sortAsc=false;}
+  render();
+}));
+render();
+
+/* ===== CHARTS — All using Brandão Ozores palette ===== */
+
+// 1. Top 15 Ranking
+const top15=[...DEVS].sort((a,b)=>b.ve-a.ve).slice(0,15);
+new Chart(document.getElementById('chartRanking'),{
+  type:'bar',
+  data:{
+    labels:top15.map(d=>d.s),
+    datasets:[
+      {label:'Val.Exigivel',data:top15.map(d=>d.ve),backgroundColor:P+'dd',borderRadius:3},
+      {label:'Val.Atualizado',data:top15.map(d=>d.va),backgroundColor:A+'88',borderRadius:3}
+    ]
+  },
+  options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',
+    plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtBRL(ctx.raw)}}},
+    scales:{x:{ticks:{callback:v=>fmtM(v)}}}
+  }
+});
+
+// 2. Forca probatoria — monochrome
+const fqData=[12,15,35,9];
+const fqLabels=['FORTE (12)','MEDIA (15)','FRACA (35)','Sem (9)'];
+const fqCores=[P,M,L,'#D5D0C8'];
+const fvData=[104556870,8958896,7996732,0];
+new Chart(document.getElementById('chartForcaQtd'),{type:'doughnut',data:{labels:fqLabels,datasets:[{data:fqData,backgroundColor:fqCores,borderWidth:2,borderColor:'#fff'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:9}}}}}});
+new Chart(document.getElementById('chartForcaVal'),{type:'doughnut',data:{labels:fqLabels,datasets:[{data:fvData,backgroundColor:fqCores,borderWidth:2,borderColor:'#fff'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:9}}},tooltip:{callbacks:{label:ctx=>fmtBRL(ctx.raw)}}}}});
+
+// 3. Pipeline
+const fLabels=["F0", "F0_DIAGNOSTICO", "F3", "F5"];
+const fDescs={"F0": "(49 devs)", "F0_DIAGNOSTICO": "(8 devs)", "F3": "(9 devs)", "F5": "(5 devs)"};
+const fCores={'F0':'#D5D0C8','F0_DIAGNOSTICO':'#DDD5C4','F3':A,'F5':P};
+new Chart(document.getElementById('chartPipeline'),{
+  type:'bar',
+  data:{
+    labels:fLabels.map(f=>f+(fDescs[f]?' '+fDescs[f]:'')),
+    datasets:[
+      {label:'Devedores',data:fLabels.map(f=>FASES[f]?.c||0),backgroundColor:fLabels.map(f=>fCores[f]||'#ccc'),borderRadius:3,yAxisID:'y'},
+      {label:'Valor Exigivel',data:fLabels.map(f=>FASES[f]?.v||0),type:'line',borderColor:A,backgroundColor:A+'33',pointRadius:6,pointBackgroundColor:A,yAxisID:'y1',tension:0.3}
+    ]
+  },
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:ctx=>ctx.datasetIndex===1?fmtM(ctx.raw):ctx.raw+' devedores'}}},
+    scales:{y:{beginAtZero:true,position:'left',title:{display:true,text:'Devedores'}},y1:{beginAtZero:true,position:'right',grid:{drawOnChartArea:false},ticks:{callback:v=>fmtM(v)},title:{display:true,text:'Valor'}}}
+  }
+});
+
+// 4. Prescricao bubble — red/amber/gold/green
+const prescData=DEVS.filter(d=>d.pdi!==null&&d.pdi>-60&&d.pdi<1400&&d.ve>0).map(d=>({
+  x:d.pdi,y:d.ve,label:d.s,r:Math.max(4,Math.min(22,Math.sqrt(d.ve/80000)))
+}));
+new Chart(document.getElementById('chartPresc'),{
+  type:'bubble',
+  data:{datasets:[{
+    label:'Devedores',data:prescData,
+    backgroundColor:prescData.map(p=>p.x<0?D+'cc':p.x<=90?W+'aa':p.x<=180?A+'aa':G+'aa'),
+    borderColor:prescData.map(p=>p.x<0?D:p.x<=90?W:p.x<=180?A:G),
+    borderWidth:1
+  }]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{
+      label:ctx=>{const d=ctx.raw;return d.label+': '+fmtM(d.y)+' ('+(d.x<0?'VENCIDA D'+d.x:'D+'+d.x)+')'}
+    }}},
+    scales:{
+      x:{title:{display:true,text:'Dias ate prescricao (negativo=vencida)'},
+        grid:{color:ctx=>ctx.tick&&ctx.tick.value===0?D:'rgba(0,0,0,.06)',lineWidth:ctx=>ctx.tick&&ctx.tick.value===0?2:1}},
+      y:{title:{display:true,text:'Valor exigivel'},ticks:{callback:v=>fmtM(v)}}
+    }
+  }
+});
+
+// 5. Faturamento x Recebimento — monochrome
+const topFat=[...DEVS].filter(d=>d.fat>0).sort((a,b)=>b.fat-a.fat).slice(0,10);
+new Chart(document.getElementById('chartFatRec'),{
+  type:'bar',
+  data:{
+    labels:topFat.map(d=>d.s),
+    datasets:[
+      {label:'Faturamento',data:topFat.map(d=>d.fat),backgroundColor:P+'bb',borderRadius:3},
+      {label:'Recebimento',data:topFat.map(d=>d.rec),backgroundColor:G+'cc',borderRadius:3}
+    ]
+  },
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtM(ctx.raw)+' ('+topFat[ctx.dataIndex].tp+'%)'}}},
+    scales:{y:{ticks:{callback:v=>fmtM(v)}}}
+  }
+});
+
+// 6. Empenhos 2026
+const topEmp=[...DEVS].filter(d=>d.b2e26>0).sort((a,b)=>b.b2e26-a.b2e26).slice(0,12);
+new Chart(document.getElementById('chartEmp26'),{
+  type:'bar',
+  data:{
+    labels:topEmp.map(d=>d.s),
+    datasets:[
+      {label:'Empenhado 2026',data:topEmp.map(d=>d.b2e26),backgroundColor:M+'cc',borderRadius:3},
+      {label:'NE s/ Cobertura',data:topEmp.map(d=>d.nscv),backgroundColor:D+'cc',borderRadius:3}
+    ]
+  },
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtBRL(ctx.raw)}}},
+    scales:{y:{ticks:{callback:v=>fmtM(v)}}}
+  }
+});
+
+// 7. Cenarios — gold accent
+new Chart(document.getElementById('chartCenarios'),{
+  type:'bar',
+  data:{
+    labels:['Conservador (20%)','Base (40%)','Otimista (70%)'],
+    datasets:[
+      {label:'Recuperado',data:[CENARIOS.conservador.rec,CENARIOS.base.rec,CENARIOS.otimista.rec],backgroundColor:[L,M,P],borderRadius:3},
+      {label:'Fee (20%)',data:[CENARIOS.conservador.fee,CENARIOS.base.fee,CENARIOS.otimista.fee],backgroundColor:A,borderRadius:3}
+    ]
+  },
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtBRL(ctx.raw)}}},
+    scales:{y:{ticks:{callback:v=>fmtM(v)}}}
+  }
+});
+
+// 8. NEs sem cobertura
+const nscDevs=[...DEVS].filter(d=>d.nsc>0).sort((a,b)=>b.nscv-a.nscv);
+new Chart(document.getElementById('chartNSC'),{
+  type:'bar',
+  data:{
+    labels:nscDevs.map(d=>d.s+' ('+d.nsc+' NEs)'),
+    datasets:[{label:'Valor NEs s/ Cobertura',data:nscDevs.map(d=>d.nscv),backgroundColor:D+'cc',borderRadius:3}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:ctx=>'R$ '+ctx.raw.toLocaleString('pt-BR',{minimumFractionDigits:2})}}},
+    scales:{y:{ticks:{callback:v=>fmtM(v)}}}
+  }
+});
+
+// 9. Vias processuais
+const viasData={
+  'CPRAC Elegivel':DEVS.filter(d=>d.cprac).length,
+  'Transacao Referendada':DEVS.filter(d=>d.transacao).length,
+  'Peticao (F5)':DEVS.filter(d=>d.fs==='F5').length,
+  'TRD (F3)':DEVS.filter(d=>d.fs==='F3').length,
+  'Diagnostico':DEVS.filter(d=>d.fs==='F0_DIAGNOSTICO').length,
+  'Triagem (F0)':DEVS.filter(d=>d.fs==='F0').length,
+};
+new Chart(document.getElementById('chartVias'),{
+  type:'bar',
+  data:{
+    labels:Object.keys(viasData),
+    datasets:[{label:'Devedores',data:Object.values(viasData),backgroundColor:[A,W,P,M,'#DDD5C4','#D5D0C8'],borderRadius:3}]
+  },
+  options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',
+    plugins:{legend:{display:false}},
+    scales:{x:{beginAtZero:true}}
+  }
+});
+
+// 10. Padrao inadimplencia
+const padData=DEVS.reduce((acc,d)=>{
+  if(d.pi&&d.pi!=='—'){
+    if(!acc[d.pi])acc[d.pi]={count:0,val:0};
+    acc[d.pi].count++;acc[d.pi].val+=d.ve;
+  }
+  return acc;
+},{});
+const padLabels=Object.keys(padData);
+const padCores={'CRONICO':D,'INTERMITENTE':W,'RECENTE':A,'PONTUAL':G};
+new Chart(document.getElementById('chartPadrao'),{
+  type:'bar',
+  data:{
+    labels:padLabels.map(p=>p+' ('+padData[p].count+')'),
+    datasets:[
+      {label:'Devedores',data:padLabels.map(p=>padData[p].count),backgroundColor:padLabels.map(p=>padCores[p]||L),borderRadius:3,yAxisID:'y'},
+      {label:'Valor Exigivel',data:padLabels.map(p=>padData[p].val),type:'line',borderColor:P,pointRadius:6,pointBackgroundColor:P,yAxisID:'y1',tension:0.3}
+    ]
+  },
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:ctx=>ctx.datasetIndex===1?fmtM(ctx.raw):ctx.raw+' devedores'}}},
+    scales:{
+      y:{beginAtZero:true,position:'left',title:{display:true,text:'Devedores'}},
+      y1:{beginAtZero:true,position:'right',grid:{drawOnChartArea:false},ticks:{callback:v=>fmtM(v)},title:{display:true,text:'Valor'}}
+    }
+  }
+});
+</script>
+</body>
+</html>

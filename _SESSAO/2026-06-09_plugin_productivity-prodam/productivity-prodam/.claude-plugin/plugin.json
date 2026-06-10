@@ -1,0 +1,8 @@
+{
+  "name": "productivity-prodam",
+  "version": "1.1.0",
+  "description": "Gestão de portfólio de devedores, prazos de prescrição, fases processuais e entregas do Projeto PRODAM (Contrato 002/2026) — 69 devedores. Baseado no plugin Productivity da Anthropic, customizado para recuperação de créditos.",
+  "author": {
+    "name": "Gabriel Mar / Brandão Ozores"
+  }
+}

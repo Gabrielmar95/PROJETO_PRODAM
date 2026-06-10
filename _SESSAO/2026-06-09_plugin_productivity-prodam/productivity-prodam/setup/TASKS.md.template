@@ -1,0 +1,27 @@
+# Tarefas — Projeto PRODAM
+> Atualizado: {{DATA_GERACAO}} | Próximo relatório quinzenal: {{DATA_PROX_QUINZENAL}}
+
+## URGENTE — Prescrição Iminente (<30 dias)
+{{TAREFAS_URGENTE}}
+
+## EM ANDAMENTO — Ação em Curso
+{{TAREFAS_ANDAMENTO}}
+
+## AGUARDANDO — Resposta de Terceiro
+{{TAREFAS_AGUARDANDO}}
+
+## PRÓXIMO CICLO — Ações Planejadas
+{{TAREFAS_PROXIMO}}
+- [ ] **[Geral] Relatório quinzenal** — entrega {{DATA_PROX_QUINZENAL}}
+
+## LOTE — Ações em Massa
+{{TAREFAS_LOTE}}
+
+## CONCLUÍDO (últimos 30 dias)
+{{TAREFAS_CONCLUIDO}}
+
+<!--
+Formato de cada tarefa:
+- [ ] **[DEVEDOR] Descrição da ação** — contexto, prazo dd/mm/aaaa, valor R$ X,XX, fase FN
+Priorização em cascata: 1) prescrição iminente  2) maior valor  3) força (FORTE>MÉDIA>FRACA)
+-->

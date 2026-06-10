@@ -1,0 +1,75 @@
+Mapeamento dos índices dos elementos do body a REMOVER:
+
+SEÇÃO 5 (DA BLINDAGEM PRÉ-EXECUÇÃO) - índices 48 a 58:
+[48] PARA: '5 — Da Blindagem Pré-Execução'
+[49] PARA: texto introdutório
+[50] PARA: '5.1 — Resultado por bloco de verificação'
+[51] TABLE: bloco de verificação
+[52] PARA: (empty)
+[53] PARA: '5.2 — Teses de defesa antecipadas e blindadas'
+[54] PARA: texto
+[55] TABLE: teses
+[56] PARA: (empty)
+[57] PARA: texto conclusivo
+[58] PARA: (empty)
+
+SUBSEÇÃO 6.3 (Significado jurídico dos empenhos) - índices 67 a 71:
+[67] PARA: '6.3 — Significado jurídico dos empenhos'
+[68] PARA: texto 1
+[69] PARA: texto 2
+[70] PARA: texto 3
+[71] PARA: (empty)
+
+SUBSEÇÕES 7.3 e 7.4 - índices 81 a 85:
+[81] PARA: '7.3 — Venire contra factum proprium'
+[82] PARA: texto
+[83] PARA: '7.4 — Jurisprudência aplicável'
+[84] TABLE: jurisprudência
+[85] PARA: (empty)
+
+SEÇÃO 9 (DO REGIME DE EXECUÇÃO APLICÁVEL) - índices 97 a 105:
+[97] PARA: '9 — Do Regime de Execução Aplicável'
+[98] PARA: texto
+[99] PARA: '9.1 — Mecanismos de constrição patrimonial'
+[100] TABLE: mecanismos
+[101] PARA: (empty)
+[102] PARA: texto
+[103] PARA: '9.2 — Inaplicabilidade do regime de precatórios'
+[104] PARA: texto
+[105] PARA: (empty)
+
+SEÇÃO 10 (DA ANÁLISE DE VIABILIDADE DA EXECUÇÃO) - índices 106 a 120:
+[106] PARA: '10 — Da Análise de Viabilidade da Execução'
+[107] PARA: texto
+[108] PARA: '10.1 — Fatores favoráveis à recuperação'
+[109-115] PARA: itens a) a g)
+[116] PARA: '10.2 — Valor esperado da recuperação'
+[117] TABLE: valor esperado
+[118] PARA: (empty)
+[119] PARA: texto conclusivo
+[120] PARA: (empty)
+
+SEÇÃO 13 (DA FUNDAMENTAÇÃO LEGAL) - índices 138 a 151:
+[138] PARA: '13 — Da Fundamentação Legal'
+[139] PARA: '13.1 — Código de Processo Civil'
+[140] TABLE: CPC
+[141] PARA: (empty)
+[142] PARA: '13.2 — Código Civil'
+[143] TABLE: CC
+[144] PARA: (empty)
+[145] PARA: '13.3 — Legislação complementar'
+[146] TABLE: legislação
+[147] PARA: (empty)
+[148] PARA: '13.4 — Precedentes jurisprudenciais'
+[149] TABLE: precedentes
+[150] PARA: (empty)
+[151] PARA: (empty)
+
+RENUMERAÇÃO necessária nos textos:
+- Seção 6 → 5 (e sub: 6.1→5.1, 6.2→5.2)
+- Seção 7 → 6 (e sub: 7.1→6.1, 7.2→6.2)
+- Seção 8 → 7 (e sub: 8.1→7.1, 8.2→7.2)
+- Seção 11 → 8 (e sub: 11.1→8.1)
+- Seção 12 → 9
+- Seção 14 → 10
+- Seção 15 → 11

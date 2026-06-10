@@ -1,0 +1,3030 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard PRODAM — Recuperacao de Creditos v5.2</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ===== CSS CUSTOM PROPERTIES ===== */
+:root {
+  --primary: #0F172A;
+  --primary-light: #1E293B;
+  --secondary: #334155;
+  --muted: #64748B;
+  --light: #94A3B8;
+  --accent: #C9A84C;
+  --accent-light: #E2C97E;
+  --accent-glow: rgba(201,168,76,0.25);
+  --danger: #DC2626;
+  --danger-bg: rgba(220,38,38,0.08);
+  --success: #16A34A;
+  --success-bg: rgba(22,163,74,0.08);
+  --warn: #D97706;
+  --warn-bg: rgba(217,119,6,0.08);
+  --info: #2563EB;
+  --info-bg: rgba(37,99,235,0.08);
+  --bg: #F8FAFC;
+  --bg-alt: #F1F5F9;
+  --card: #FFFFFF;
+  --card-hover: #FAFBFC;
+  --border: #E2E8F0;
+  --border-light: #F1F5F9;
+  --text: #0F172A;
+  --text-secondary: #475569;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-xs: 6px;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===== DARK MODE ===== */
+[data-theme="dark"] {
+  --primary: #E2E8F0;
+  --primary-light: #CBD5E1;
+  --secondary: #94A3B8;
+  --muted: #64748B;
+  --light: #475569;
+  --bg: #0F172A;
+  --bg-alt: #1E293B;
+  --card: #1E293B;
+  --card-hover: #253348;
+  --border: #334155;
+  --border-light: #1E293B;
+  --text: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+  --shadow: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.3);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.3);
+  --shadow-xl: 0 20px 25px rgba(0,0,0,0.3);
+  --danger-bg: rgba(220,38,38,0.15);
+  --success-bg: rgba(22,163,74,0.15);
+  --warn-bg: rgba(217,119,6,0.15);
+  --info-bg: rgba(37,99,235,0.15);
+}
+
+/* ===== RESET & BASE ===== */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--light); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+/* ===== LAYOUT ===== */
+.app { display: flex; min-height: 100vh; }
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 260px;
+  background: #0F172A;
+  color: #E2E8F0;
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+.sidebar-brand {
+  padding: 24px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.sidebar-brand h1 {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  line-height: 1.3;
+}
+.sidebar-brand .brand-sub {
+  font-size: 11px;
+  color: #64748B;
+  margin-top: 4px;
+  font-weight: 400;
+}
+.sidebar-nav { padding: 16px 0; flex: 1; }
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 20px;
+  color: #94A3B8;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: var(--transition);
+  border-left: 3px solid transparent;
+}
+.sidebar-nav a:hover, .sidebar-nav a.active {
+  color: #F1F5F9;
+  background: rgba(255,255,255,0.05);
+  border-left-color: var(--accent);
+}
+.sidebar-nav a .nav-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.sidebar-nav .nav-section {
+  padding: 20px 20px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #475569;
+}
+.sidebar-footer {
+  padding: 16px 20px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  font-size: 11px;
+  color: #475569;
+}
+.sidebar-footer strong { color: var(--accent); }
+
+/* ===== MAIN CONTENT ===== */
+.main { margin-left: 260px; flex: 1; min-width: 0; }
+
+/* ===== TOP BAR ===== */
+.topbar {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.85);
+}
+[data-theme="dark"] .topbar {
+  background: rgba(30,41,59,0.85);
+}
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.topbar-left .breadcrumb {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.topbar-left .breadcrumb span { color: var(--text); font-weight: 600; }
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: var(--radius-xs);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+}
+.btn:hover { background: var(--bg-alt); box-shadow: var(--shadow-sm); }
+.btn-accent {
+  background: var(--accent);
+  color: #0F172A;
+  border-color: var(--accent);
+}
+.btn-accent:hover { background: var(--accent-light); }
+.btn-sm { padding: 6px 12px; font-size: 12px; }
+.btn-icon {
+  width: 36px; height: 36px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+}
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* ===== CONTENT AREA ===== */
+.content { padding: 24px 32px; max-width: 1600px; }
+
+/* ===== ALERT BANNER ===== */
+.alert-banner {
+  background: linear-gradient(135deg, #7F1D1D 0%, #991B1B 50%, #7F1D1D 100%);
+  color: white;
+  padding: 20px 24px;
+  border-radius: var(--radius);
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(153,27,27,0.3);
+}
+.alert-banner::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 4px; height: 100%;
+  background: var(--accent);
+}
+.alert-banner-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.alert-banner-header h3 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.alert-banner-toggle {
+  margin-left: auto;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: var(--font);
+  font-weight: 500;
+}
+.alert-banner-toggle:hover { background: rgba(255,255,255,0.25); }
+.alert-items { display: flex; flex-direction: column; gap: 8px; }
+.alert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 8px 12px;
+  background: rgba(255,255,255,0.06);
+  border-radius: var(--radius-xs);
+}
+.alert-item .alert-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-top: 5px;
+  flex-shrink: 0;
+  animation: pulse-dot 2s infinite;
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.alert-item strong { color: var(--accent); }
+.alert-item .alert-tag {
+  display: inline-block;
+  padding: 1px 8px;
+  background: rgba(201,168,76,0.2);
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-light);
+  white-space: nowrap;
+}
+
+/* ===== KPI CARDS ===== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.kpi-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition);
+  cursor: default;
+}
+.kpi-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+.kpi-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 3px;
+  background: var(--accent);
+  opacity: 0;
+  transition: var(--transition);
+}
+.kpi-card:hover::after { opacity: 1; }
+.kpi-card .kpi-icon {
+  width: 40px; height: 40px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.kpi-card .kpi-icon.icon-blue { background: var(--info-bg); }
+.kpi-card .kpi-icon.icon-red { background: var(--danger-bg); }
+.kpi-card .kpi-icon.icon-green { background: var(--success-bg); }
+.kpi-card .kpi-icon.icon-amber { background: var(--warn-bg); }
+.kpi-card .kpi-icon.icon-gold { background: rgba(201,168,76,0.12); }
+.kpi-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.kpi-value {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.2;
+}
+.kpi-value.text-danger { color: var(--danger); }
+.kpi-value.text-success { color: var(--success); }
+.kpi-value.text-warn { color: var(--warn); }
+.kpi-value.text-accent { color: var(--accent); }
+.kpi-detail {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.kpi-detail .trend-up { color: var(--success); }
+.kpi-detail .trend-down { color: var(--danger); }
+.kpi-sparkline {
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 80px; height: 40px;
+  opacity: 0.15;
+}
+
+/* ===== SECTION HEADERS ===== */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.section-header h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-header h2 .section-icon { color: var(--accent); font-size: 20px; }
+.section-header .section-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--muted);
+}
+
+/* ===== PANELS / CARDS ===== */
+.panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 20px;
+  transition: var(--transition);
+}
+.panel:hover { box-shadow: var(--shadow-md); }
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-light);
+}
+.panel-header h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.panel-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+@media(max-width:1200px) { .panel-grid-3 { grid-template-columns: 1fr 1fr; } }
+@media(max-width:900px) {
+  .panel-grid, .panel-grid-3 { grid-template-columns: 1fr; }
+}
+.chart-box { position: relative; height: 350px; }
+.chart-box.short { height: 280px; }
+.chart-box.tall { height: 420px; }
+
+/* ===== FILTERS BAR ===== */
+.filters-bar {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.filter-group label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted);
+}
+.filter-group select,
+.filter-group input {
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  font-size: 13px;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  transition: var(--transition);
+  outline: none;
+}
+.filter-group select:focus,
+.filter-group input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+.filter-group input[type=text] { width: 200px; }
+.filter-reset {
+  margin-left: auto;
+  padding: 7px 14px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: var(--font);
+  transition: var(--transition);
+}
+.filter-reset:hover { background: var(--border); color: var(--text); }
+
+/* ===== TABLE ===== */
+.tbl-wrap {
+  overflow-x: auto;
+  max-height: 700px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+thead { position: sticky; top: 0; z-index: 5; }
+th {
+  background: #0F172A;
+  color: #E2E8F0;
+  padding: 10px 8px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  transition: var(--transition);
+  border-bottom: 2px solid var(--accent);
+}
+th:hover { background: #1E293B; }
+th .sort-arrow {
+  display: inline-block;
+  margin-left: 4px;
+  opacity: 0.4;
+  font-size: 10px;
+}
+th.sorted .sort-arrow { opacity: 1; color: var(--accent); }
+td {
+  padding: 8px;
+  border-bottom: 1px solid var(--border-light);
+  white-space: nowrap;
+  font-size: 12px;
+  transition: var(--transition);
+}
+tr { transition: var(--transition); }
+tr:hover td { background: var(--bg-alt); }
+tr.total {
+  background: var(--bg-alt);
+  font-weight: 700;
+  position: sticky;
+  bottom: 0;
+}
+tr.total td { border-top: 2px solid var(--accent); }
+[data-theme="dark"] th { background: #0F172A; }
+
+/* ===== TAGS ===== */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.tag-forte { background: #0F172A; color: white; }
+.tag-media { background: #64748B; color: white; }
+.tag-fraca { background: #CBD5E1; color: #334155; }
+.tag-sem { background: #F1F5F9; color: #94A3B8; border: 1px solid #E2E8F0; }
+.tag-f0 { background: #F1F5F9; color: #334155; border: 1px solid #E2E8F0; }
+.tag-f0d { background: #FEF3C7; color: #92400E; }
+.tag-f3 { background: rgba(201,168,76,0.15); color: #92400E; border: 1px solid rgba(201,168,76,0.3); }
+.tag-f5 { background: #0F172A; color: var(--accent); }
+.tag-cprac { background: rgba(22,163,74,0.1); color: #16A34A; border: 1px solid rgba(22,163,74,0.2); }
+[data-theme="dark"] .tag-forte { background: #E2E8F0; color: #0F172A; }
+[data-theme="dark"] .tag-fraca { background: #334155; color: #94A3B8; }
+[data-theme="dark"] .tag-sem { background: #1E293B; color: #64748B; border-color: #334155; }
+[data-theme="dark"] .tag-f0 { background: #1E293B; color: #94A3B8; border-color: #334155; }
+
+/* ===== ALERT DOTS ===== */
+.alerta {
+  display: inline-block;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  position: relative;
+}
+.alerta-red { background: var(--danger); box-shadow: 0 0 6px rgba(220,38,38,0.4); }
+.alerta-orange { background: var(--warn); box-shadow: 0 0 6px rgba(217,119,6,0.4); }
+.alerta-yellow { background: var(--accent); box-shadow: 0 0 6px rgba(201,168,76,0.4); }
+.alerta-green { background: var(--success); box-shadow: 0 0 6px rgba(22,163,74,0.4); }
+
+/* ===== INSIGHT BOXES ===== */
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.insight-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.insight-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+.insight-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 4px; height: 100%;
+}
+.insight-card.type-critical::before { background: var(--danger); }
+.insight-card.type-action::before { background: var(--accent); }
+.insight-card.type-info::before { background: var(--info); }
+.insight-card.type-success::before { background: var(--success); }
+.insight-card h4 {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 8px;
+}
+.insight-card.type-critical h4 { color: var(--danger); }
+.insight-card.type-action h4 { color: var(--accent); }
+.insight-card.type-info h4 { color: var(--info); }
+.insight-card.type-success h4 { color: var(--success); }
+.insight-card p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.insight-card .insight-stats {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.insight-card .insight-stat {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+}
+
+/* ===== PROGRESS BAR ===== */
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: var(--bg-alt);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 1s ease;
+}
+.progress-fill.fill-danger { background: linear-gradient(90deg, var(--danger), #EF4444); }
+.progress-fill.fill-warn { background: linear-gradient(90deg, var(--warn), #F59E0B); }
+.progress-fill.fill-success { background: linear-gradient(90deg, var(--success), #22C55E); }
+.progress-fill.fill-accent { background: linear-gradient(90deg, var(--accent), var(--accent-light)); }
+
+/* ===== SUMMARY STATS ROW ===== */
+.stats-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.stat-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+.stat-chip:hover { border-color: var(--accent); }
+.stat-chip .stat-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #0F172A;
+  color: #64748B;
+  padding: 24px 32px;
+  font-size: 12px;
+  line-height: 1.8;
+  border-top: 2px solid var(--accent);
+}
+.footer strong { color: var(--accent); }
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes countUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-in {
+  animation: fadeInUp 0.5s ease forwards;
+  opacity: 0;
+}
+.animate-delay-1 { animation-delay: 0.1s; }
+.animate-delay-2 { animation-delay: 0.2s; }
+.animate-delay-3 { animation-delay: 0.3s; }
+.animate-delay-4 { animation-delay: 0.4s; }
+.animate-delay-5 { animation-delay: 0.5s; }
+.animate-delay-6 { animation-delay: 0.6s; }
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:1024px) {
+  .sidebar { transform: translateX(-100%); }
+  .sidebar.open { transform: translateX(0); }
+  .main { margin-left: 0; }
+  .menu-toggle { display: block; }
+  .content { padding: 16px; }
+  .kpi-grid { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+}
+@media(max-width:640px) {
+  .topbar { padding: 10px 16px; }
+  .content { padding: 12px; }
+  .kpi-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .kpi-card { padding: 14px; }
+  .kpi-value { font-size: 20px; }
+  .panel { padding: 16px; }
+}
+
+/* ===== OVERLAY ===== */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 90;
+}
+.sidebar-overlay.active { display: block; }
+
+/* ===== TOOLTIP CUSTOM ===== */
+.custom-tooltip {
+  position: absolute;
+  background: #0F172A;
+  color: #F1F5F9;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 200;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  white-space: nowrap;
+}
+
+/* ===== HEATMAP ===== */
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 4px;
+}
+.heatmap-cell {
+  padding: 8px 6px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: default;
+  transition: var(--transition);
+}
+.heatmap-cell:hover { transform: scale(1.05); box-shadow: var(--shadow-md); }
+.heatmap-cell .hm-name { font-weight: 700; margin-bottom: 2px; }
+.heatmap-cell .hm-val { font-family: var(--font-mono); font-size: 10px; }
+
+/* ===== TIMELINE ===== */
+.timeline {
+  position: relative;
+  padding-left: 24px;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px; top: 0; bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+.timeline-item {
+  position: relative;
+  padding: 8px 0 16px 16px;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -20px; top: 12px;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  background: var(--card);
+}
+.timeline-item.urgent::before { background: var(--danger); border-color: var(--danger); }
+.timeline-item .tl-date {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  font-family: var(--font-mono);
+}
+.timeline-item .tl-content {
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 2px;
+}
+.timeline-item .tl-value {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Print styles */
+@media print {
+  .sidebar, .topbar, .menu-toggle, .filter-reset, .btn { display: none !important; }
+  .main { margin-left: 0 !important; }
+  .content { padding: 0 !important; }
+  .panel, .kpi-card { break-inside: avoid; }
+}
+
+
+/* ===== V5.2 NEW STYLES ===== */
+.waterfall-container { position: relative; padding: 0 20px; }
+.waterfall-bar { display: flex; align-items: center; margin-bottom: 8px; }
+.waterfall-bar .wb-label { width: 100px; font-size: 11px; font-weight: 600; text-align: right; padding-right: 12px; flex-shrink: 0; }
+.waterfall-bar .wb-bar { height: 28px; border-radius: 4px; display: flex; align-items: center; padding: 0 8px; font-size: 11px; font-weight: 700; color: white; min-width: 40px; transition: width 0.8s ease; }
+.waterfall-bar .wb-bar.green { background: linear-gradient(90deg, #16A34A, #22C55E); }
+.waterfall-bar .wb-bar.red { background: linear-gradient(90deg, #DC2626, #EF4444); }
+.waterfall-bar .wb-bar.blue { background: linear-gradient(90deg, #2563EB, #3B82F6); }
+.waterfall-bar .wb-bar.orange { background: linear-gradient(90deg, #D97706, #F59E0B); }
+.waterfall-bar .wb-bar.purple { background: linear-gradient(90deg, #7C3AED, #8B5CF6); }
+.waterfall-bar .wb-bar.gold { background: linear-gradient(90deg, #B8860B, #C9A84C); }
+
+.correcao-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 16px; }
+.correcao-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 16px; text-align: center; }
+.correcao-card .cc-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); font-weight: 600; }
+.correcao-card .cc-value { font-size: 24px; font-weight: 800; font-family: var(--font-mono); margin: 4px 0; }
+.correcao-card .cc-sub { font-size: 11px; color: var(--text-secondary); }
+.correcao-card.positive .cc-value { color: var(--success); }
+.correcao-card.negative .cc-value { color: var(--danger); }
+.correcao-card.neutral .cc-value { color: var(--info); }
+
+.urgencia-row { display: flex; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--border-light); transition: var(--transition); }
+.urgencia-row:hover { background: var(--bg-alt); }
+.urgencia-row .urg-dias { width: 60px; text-align: center; font-family: var(--font-mono); font-weight: 800; font-size: 18px; flex-shrink: 0; }
+.urgencia-row .urg-dias.critico { color: var(--danger); }
+.urgencia-row .urg-dias.urgente { color: var(--warn); }
+.urgencia-row .urg-dias.normal { color: var(--info); }
+.urgencia-row .urg-info { flex: 1; padding: 0 12px; }
+.urgencia-row .urg-dev { font-weight: 700; font-size: 13px; }
+.urgencia-row .urg-detail { font-size: 11px; color: var(--text-secondary); }
+.urgencia-row .urg-valor { text-align: right; font-family: var(--font-mono); font-weight: 700; font-size: 13px; flex-shrink: 0; }
+.urgencia-row .urg-acao { width: 120px; text-align: center; flex-shrink: 0; }
+.urgencia-row .urg-badge { font-size: 10px; padding: 3px 8px; border-radius: 4px; font-weight: 700; }
+.urg-badge.not5 { background: var(--danger-bg); color: var(--danger); }
+.urg-badge.not15 { background: var(--warn-bg); color: var(--warn); }
+
+.portfolio-flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; align-items: center; margin: 20px 0; }
+.pf-box { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px; text-align: center; }
+.pf-box .pf-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); font-weight: 600; }
+.pf-box .pf-value { font-size: 18px; font-weight: 800; font-family: var(--font-mono); margin: 4px 0; }
+.pf-arrow { text-align: center; font-size: 20px; color: var(--accent); font-weight: 700; }
+
+/* ===== RECONCILIACAO STYLES ===== */
+.recon-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.recon-stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 20px;
+  text-align: center;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.recon-stat-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.recon-stat-card .stat-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); margin-bottom: 6px; font-weight: 600; }
+.recon-stat-card .stat-value { font-size: 28px; font-weight: 800; font-family: var(--font-mono); }
+.recon-stat-card .stat-sub { font-size: 11px; color: var(--text-secondary); margin-top: 4px; }
+.recon-stat-card.match .stat-value { color: var(--success); }
+.recon-stat-card.diverge .stat-value { color: var(--warn); }
+.recon-stat-card.critical .stat-value { color: var(--danger); }
+.recon-stat-card.info .stat-value { color: var(--info); }
+.recon-stat-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+.recon-stat-card.match::after { background: var(--success); }
+.recon-stat-card.diverge::after { background: var(--warn); }
+.recon-stat-card.critical::after { background: var(--danger); }
+.recon-stat-card.info::after { background: var(--info); }
+
+.recon-divergence-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 12px;
+}
+.recon-divergence-table th {
+  background: var(--bg-alt);
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--muted);
+  border-bottom: 2px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.recon-divergence-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border-light);
+  vertical-align: middle;
+}
+.recon-divergence-table tr:hover td { background: var(--bg-alt); }
+.recon-divergence-table .val-pos { color: var(--success); font-weight: 600; }
+.recon-divergence-table .val-neg { color: var(--danger); font-weight: 600; }
+.recon-divergence-table .status-ok { background: var(--success-bg); color: var(--success); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+.recon-divergence-table .status-minor { background: var(--info-bg); color: var(--info); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+.recon-divergence-table .status-major { background: var(--warn-bg); color: var(--warn); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+.recon-divergence-table .status-critical { background: var(--danger-bg); color: var(--danger); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; }
+
+.recon-charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.recon-chart-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  position: relative;
+}
+.recon-chart-panel canvas {
+  position: relative !important;
+  height: 300px !important;
+  max-height: 300px !important;
+  width: 100% !important;
+}
+.recon-chart-panel h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.inconsistency-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+.inconsistency-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 18px;
+  border-left: 4px solid var(--danger);
+}
+.inconsistency-card.warn { border-left-color: var(--warn); }
+.inconsistency-card.info { border-left-color: var(--info); }
+.inconsistency-card h5 { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+.inconsistency-card .inc-value { font-size: 22px; font-weight: 800; font-family: var(--font-mono); color: var(--danger); }
+.inconsistency-card.warn .inc-value { color: var(--warn); }
+.inconsistency-card.info .inc-value { color: var(--info); }
+.inconsistency-card .inc-desc { font-size: 11px; color: var(--text-secondary); margin-top: 4px; }
+
+.enrichment-timeline {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.enrichment-timeline::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+.enrichment-step {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.enrichment-step::before {
+  content: '';
+  position: absolute;
+  left: -24px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--card);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.enrichment-step .step-date { font-size: 11px; color: var(--muted); font-weight: 600; text-transform: uppercase; }
+.enrichment-step .step-title { font-size: 14px; font-weight: 700; margin: 4px 0; }
+.enrichment-step .step-detail { font-size: 12px; color: var(--text-secondary); }
+.enrichment-step .step-badges { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.enrichment-step .step-badge { font-size: 10px; padding: 2px 8px; border-radius: 4px; font-weight: 600; background: var(--accent-glow); color: var(--accent); }
+.enrichment-step .step-badge.green { background: var(--success-bg); color: var(--success); }
+.enrichment-step .step-badge.red { background: var(--danger-bg); color: var(--danger); }
+
+.faturas-cruzadas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+.fc-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  text-align: center;
+}
+.fc-card .fc-dev { font-size: 12px; font-weight: 700; margin-bottom: 4px; }
+.fc-card .fc-fat { font-size: 18px; font-weight: 800; font-family: var(--font-mono); color: var(--accent); }
+.fc-card .fc-sub { font-size: 10px; color: var(--text-secondary); margin-top: 2px; }
+.fc-card .fc-bar { height: 4px; border-radius: 2px; background: var(--border); margin-top: 8px; overflow: hidden; }
+.fc-card .fc-bar-fill { height: 100%; border-radius: 2px; }
+.fc-bar-fill.green { background: var(--success); }
+.fc-bar-fill.red { background: var(--danger); }
+.fc-bar-fill.orange { background: var(--warn); }
+
+</style>
+</head>
+<body>
+
+<!-- ===== SIDEBAR ===== -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-brand">
+    <h1>Recuperacao de Creditos</h1>
+    <div class="brand-sub">PRODAM S.A. &middot; Contrato 002/2026</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-section">Visao Geral</div>
+    <a href="#alertas" class="active"><span class="nav-icon">&#9888;</span> Alertas Criticos</a>
+    <a href="#kpis"><span class="nav-icon">&#9632;</span> Indicadores-Chave</a>
+    <a href="#timeline-section"><span class="nav-icon">&#9200;</span> Timeline Prescricoes</a>
+    <div class="nav-section">Analise</div>
+    <a href="#ranking"><span class="nav-icon">&#9650;</span> Ranking Top 15</a>
+    <a href="#forca"><span class="nav-icon">&#9673;</span> Forca Probatoria</a>
+    <a href="#pipeline"><span class="nav-icon">&#9654;</span> Pipeline Fases</a>
+    <a href="#prescricao"><span class="nav-icon">&#9711;</span> Mapa Prescricao</a>
+    <div class="nav-section">Financeiro</div>
+    <a href="#faturamento"><span class="nav-icon">&#9638;</span> Faturamento</a>
+    <a href="#empenhos"><span class="nav-icon">&#9670;</span> Empenhos 2026</a>
+    <a href="#cenarios"><span class="nav-icon">&#9733;</span> Cenarios</a>
+    <div class="nav-section">Operacional</div>
+    <a href="#vias"><span class="nav-icon">&#9656;</span> Vias Processuais</a>
+    <a href="#heatmap"><span class="nav-icon">&#9618;</span> Mapa de Risco</a>
+    <a href="#tabela"><span class="nav-icon">&#9776;</span> Tabela Completa</a>
+    <div class="nav-section">Dados Reais</div>
+    <a href="#correcao"><span class="nav-icon">&#9733;</span> Correcao Monetaria</a>
+    <a href="#faturas-det"><span class="nav-icon">&#9776;</span> Faturas Detalhadas</a>
+    <a href="#urgencias-real"><span class="nav-icon">&#9200;</span> Urgencias Reais</a>
+    <a href="#portfolio-flow"><span class="nav-icon">&#9654;</span> Fluxo Portfolio</a>
+    <div class="nav-section">Reconciliacao</div>
+    <a href="#recon-overview"><span class="nav-icon">&#8644;</span> Visao SPCF</a>
+    <a href="#recon-divergencias"><span class="nav-icon">&#9888;</span> Divergencias</a>
+    <a href="#recon-inconsistencias"><span class="nav-icon">&#9888;</span> Inconsistencias</a>
+    <a href="#recon-faturas"><span class="nav-icon">&#9776;</span> Faturas Cruzadas</a>
+    <a href="#recon-enriquecimento"><span class="nav-icon">&#9650;</span> Enriquecimento</a>
+    <div class="nav-section">Estrategia</div>
+    <a href="#insights"><span class="nav-icon">&#9733;</span> Insights &amp; Acoes</a>
+  </nav>
+  <div class="sidebar-footer">
+    <strong>Brandao Ozores Advogados</strong><br>
+    Dashboard v5.2 &middot; 01/04/2026
+  </div>
+</div>
+
+<!-- ===== OVERLAY ===== -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<!-- ===== MAIN ===== -->
+<div class="main">
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+      <div class="breadcrumb">
+        PRODAM &rsaquo; Recuperacao de Creditos &rsaquo; <span>Dashboard v5.2</span>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="stats-row" style="margin:0">
+        <span class="stat-chip"><span class="stat-dot" style="background:var(--accent)"></span> 71 devedores</span>
+        <span class="stat-chip"><span class="stat-dot" style="background:var(--danger)"></span> 24 prescritos</span>
+        <span class="stat-chip"><span class="stat-dot" style="background:var(--success)"></span> SPCF Mar/2026</span>
+      </div>
+      <button class="btn btn-sm" id="themeToggle" title="Alternar tema">&#9790; Tema</button>
+      <button class="btn btn-sm btn-accent" id="exportBtn" title="Exportar CSV">&#8681; Exportar</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <!-- ===== ALERTAS CRITICOS ===== -->
+    <section id="alertas" class="animate-in">
+      <div class="alert-banner">
+        <div class="alert-banner-header">
+          <span style="font-size:20px">&#9888;</span>
+          <h3>Alertas Criticos</h3>
+          <button class="alert-banner-toggle" id="alertToggle">Recolher</button>
+        </div>
+        <div class="alert-items" id="alertItems">
+          <div class="alert-item">
+            <span class="alert-dot"></span>
+            <div><strong>PROCURACAO PENDENTE</strong> &mdash; Bloqueador #1 para todas as notificacoes e atos formais. Sem procuracao, nenhuma acao judicial pode ser iniciada.</div>
+            <span class="alert-tag">BLOQUEADOR</span>
+          </div>
+          <div class="alert-item">
+            <span class="alert-dot"></span>
+            <div><strong>24 devedores com prescricao VENCIDA</strong> (cutoff 20/03) &mdash; <span class="alert-tag">R$ 97,8M em risco</span></div>
+          </div>
+          <div class="alert-item">
+            <span class="alert-dot"></span>
+            <div><strong>SES/SUSAM</strong> &mdash; Of.129/2021 prescreve ~13/05/2026 <span class="alert-tag">D+42</span> &mdash; R$ 14,7M + 60 NEs sem cobertura contratual (R$ 14,9M)</div>
+          </div>
+          <div class="alert-item">
+            <span class="alert-dot"></span>
+            <div><strong>Acordo SEFAZ/SES</strong> &mdash; deadline 15/04/2026 <span class="alert-tag">D+14</span> &mdash; R$ 30M</div>
+          </div>
+          <div class="alert-item">
+            <span class="alert-dot"></span>
+            <div><strong>Overlap PAGA&times;DEVIDAS</strong>: 1.643 faturas em ambas as listas &mdash; depuracao obrigatoria antes de notificacao</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KPIs ===== -->
+    <section id="kpis">
+      <div class="section-header animate-in animate-delay-1">
+        <h2><span class="section-icon">&#9632;</span> Indicadores-Chave de Performance</h2>
+        <span class="section-badge">Atualizado 01/04/2026</span>
+      </div>
+      <div class="kpi-grid">
+        <div class="kpi-card animate-in animate-delay-1">
+          <div class="kpi-icon icon-blue">&#128176;</div>
+          <div class="kpi-label">Valor Exigivel Total</div>
+          <div class="kpi-value" id="kpiVE">—</div>
+          <div class="kpi-detail">71 devedores ativos</div>
+        </div>
+        <div class="kpi-card animate-in animate-delay-2">
+          <div class="kpi-icon icon-amber">&#128200;</div>
+          <div class="kpi-label">Valor Atualizado</div>
+          <div class="kpi-value" id="kpiVA">—</div>
+          <div class="kpi-detail">Com correcao monetaria + juros</div>
+        </div>
+        <div class="kpi-card animate-in animate-delay-3">
+          <div class="kpi-icon icon-green">&#128181;</div>
+          <div class="kpi-label">Fee Estimado (20%)</div>
+          <div class="kpi-value text-success" id="kpiFee">—</div>
+          <div class="kpi-detail">Cenario base (40% recuperacao)</div>
+        </div>
+        <div class="kpi-card animate-in animate-delay-4">
+          <div class="kpi-icon icon-red">&#9888;</div>
+          <div class="kpi-label">Prescricao Vencida</div>
+          <div class="kpi-value text-danger" id="kpiPresc">24</div>
+          <div class="kpi-detail">R$ 97,8M em risco imediato</div>
+          <div class="progress-bar"><div class="progress-fill fill-danger" style="width:34%"></div></div>
+        </div>
+        <div class="kpi-card animate-in animate-delay-5">
+          <div class="kpi-icon icon-gold">&#9733;</div>
+          <div class="kpi-label">Forca Forte</div>
+          <div class="kpi-value text-accent">12</div>
+          <div class="kpi-detail">R$ 104,6M (86% do valor total)</div>
+          <div class="progress-bar"><div class="progress-fill fill-accent" style="width:86%"></div></div>
+        </div>
+        <div class="kpi-card animate-in animate-delay-6">
+          <div class="kpi-icon icon-amber">&#128203;</div>
+          <div class="kpi-label">NEs sem Cobertura</div>
+          <div class="kpi-value text-warn" id="kpiNSC">98</div>
+          <div class="kpi-detail" id="kpiNSCval">R$ 14,9M expostos</div>
+        </div>
+        <div class="kpi-card animate-in animate-delay-1">
+          <div class="kpi-icon icon-blue">&#128196;</div>
+          <div class="kpi-label">Total Faturas</div>
+          <div class="kpi-value" id="kpiFaturas">—</div>
+          <div class="kpi-detail" id="kpiFatDet">Exigiveis + Prescritas</div>
+        </div>
+        <div class="kpi-card animate-in animate-delay-2">
+          <div class="kpi-icon icon-green">&#128202;</div>
+          <div class="kpi-label">Evidencias Coletadas</div>
+          <div class="kpi-value" id="kpiEvid">—</div>
+          <div class="kpi-detail">Documentos + arquivos analisados</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TIMELINE PRESCRICOES ===== -->
+    <section id="timeline-section">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9200;</span> Timeline de Prescricoes Criticas</h2>
+      </div>
+      <div class="panel animate-in">
+        <div id="prescTimeline" class="timeline"></div>
+      </div>
+    </section>
+
+    <!-- ===== RANKING + FORCA ===== -->
+    <section id="ranking">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9650;</span> Ranking &amp; Forca Probatoria</h2>
+      </div>
+      <div class="panel-grid">
+        <div class="panel animate-in animate-delay-1">
+          <div class="panel-header">
+            <h3>Top 15 Devedores por Valor Exigivel</h3>
+          </div>
+          <div class="chart-box tall"><canvas id="chartRanking"></canvas></div>
+        </div>
+        <div class="panel animate-in animate-delay-2" id="forca">
+          <div class="panel-header">
+            <h3>Distribuicao por Forca Probatoria</h3>
+          </div>
+          <div class="panel-grid" style="margin-bottom:0">
+            <div class="chart-box short"><canvas id="chartForcaQtd"></canvas></div>
+            <div class="chart-box short"><canvas id="chartForcaVal"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PIPELINE + PRESCRICAO ===== -->
+    <section id="pipeline">
+      <div class="panel-grid">
+        <div class="panel animate-in">
+          <div class="panel-header">
+            <h3>Pipeline de Fases</h3>
+          </div>
+          <div class="chart-box"><canvas id="chartPipeline"></canvas></div>
+        </div>
+        <div class="panel animate-in" id="prescricao">
+          <div class="panel-header">
+            <h3>Mapa de Prescricao (Bubble)</h3>
+          </div>
+          <div class="chart-box"><canvas id="chartPresc"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FATURAMENTO + EMPENHOS ===== -->
+    <section id="faturamento">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9638;</span> Analise Financeira</h2>
+      </div>
+      <div class="panel-grid">
+        <div class="panel animate-in">
+          <div class="panel-header">
+            <h3>Faturamento vs Recebimento (Top 10)</h3>
+          </div>
+          <div class="chart-box"><canvas id="chartFatRec"></canvas></div>
+        </div>
+        <div class="panel animate-in" id="empenhos">
+          <div class="panel-header">
+            <h3>Empenhos 2026 + NEs sem Cobertura</h3>
+          </div>
+          <div class="chart-box"><canvas id="chartEmp26"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CENARIOS + VIAS ===== -->
+    <section id="cenarios">
+      <div class="panel-grid">
+        <div class="panel animate-in">
+          <div class="panel-header">
+            <h3>Cenarios de Recuperacao</h3>
+          </div>
+          <div class="chart-box short"><canvas id="chartCenarios"></canvas></div>
+        </div>
+        <div class="panel animate-in" id="vias">
+          <div class="panel-header">
+            <h3>Vias Processuais</h3>
+          </div>
+          <div class="chart-box short"><canvas id="chartVias"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NEs SEM COBERTURA + PADRAO ===== -->
+    <section>
+      <div class="panel-grid">
+        <div class="panel animate-in">
+          <div class="panel-header">
+            <h3>NEs sem Cobertura Contratual</h3>
+          </div>
+          <div class="chart-box short"><canvas id="chartNSC"></canvas></div>
+        </div>
+        <div class="panel animate-in">
+          <div class="panel-header">
+            <h3>Padrao de Inadimplencia (87 meses)</h3>
+          </div>
+          <div class="chart-box short"><canvas id="chartPadrao"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HEATMAP DE RISCO ===== -->
+    <section id="heatmap">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9618;</span> Mapa de Calor &mdash; Score de Risco</h2>
+      </div>
+      <div class="panel animate-in">
+        <div id="riskHeatmap" class="heatmap-grid"></div>
+      </div>
+    </section>
+
+
+
+    <!-- ===== CORREÇÃO MONETÁRIA ===== -->
+    <section id="correcao">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9733;</span> Correcao Monetaria &amp; Valores Atualizados</h2>
+        <span class="section-badge">SELIC + Juros + Multa</span>
+      </div>
+
+      <div class="correcao-grid animate-in">
+        <div class="correcao-card neutral">
+          <div class="cc-label">Val Original (Nominal)</div>
+          <div class="cc-value">R$ 119,8M</div>
+          <div class="cc-sub">Valor historico das faturas</div>
+        </div>
+        <div class="correcao-card neutral">
+          <div class="cc-label">Val Exigivel</div>
+          <div class="cc-value">R$ 121,5M</div>
+          <div class="cc-sub">Faturas nao prescritas</div>
+        </div>
+        <div class="correcao-card positive">
+          <div class="cc-label">Val Atualizado (SELIC)</div>
+          <div class="cc-value">R$ 195,4M</div>
+          <div class="cc-sub">Com correcao + juros + multa</div>
+        </div>
+        <div class="correcao-card positive">
+          <div class="cc-label">Ganho Correcao</div>
+          <div class="cc-value">+R$ 73,9M</div>
+          <div class="cc-sub">+61,7% sobre nominal</div>
+        </div>
+        <div class="correcao-card neutral">
+          <div class="cc-label">Val Corrigido (Cruzadas)</div>
+          <div class="cc-value">R$ 101,9M</div>
+          <div class="cc-sub">1.735 faturas com SELIC aplicada</div>
+        </div>
+        <div class="correcao-card negative">
+          <div class="cc-label">Perdas SPCF</div>
+          <div class="cc-value">R$ 32,5M</div>
+          <div class="cc-sub">Baixadas como perdas</div>
+        </div>
+      </div>
+
+      <div class="recon-charts-grid animate-in" style="margin-top:20px">
+        <div class="recon-chart-panel">
+          <h4>Composicao do Portfolio (R$ milhoes)</h4>
+          <canvas id="chartPortfolio" height="300"></canvas>
+        </div>
+        <div class="recon-chart-panel">
+          <h4>Faturamento vs Recebimento (Top 10)</h4>
+          <canvas id="chartFatRecReal" height="300"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FATURAS DETALHADAS ===== -->
+    <section id="faturas-det">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9776;</span> Faturas Cruzadas &mdash; Dados Reais por Devedor</h2>
+        <span class="section-badge">1.735 faturas &middot; 20 devedores &middot; 58 colunas</span>
+      </div>
+
+      <div class="recon-charts-grid animate-in">
+        <div class="recon-chart-panel">
+          <h4>Valor Vigente vs Prescrito por Devedor (R$)</h4>
+          <canvas id="chartFatDetalhadas" height="400"></canvas>
+        </div>
+        <div class="recon-chart-panel">
+          <h4>Valor Corrigido vs Original por Devedor (R$)</h4>
+          <canvas id="chartCorrecaoDev" height="400"></canvas>
+        </div>
+      </div>
+
+      <div class="panel animate-in" style="margin-top:20px;padding:0;overflow:hidden">
+        <div class="tbl-wrap">
+          <table class="recon-divergence-table" id="tblFatDet">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Devedor</th>
+                <th>Total Fat.</th>
+                <th>Vigentes</th>
+                <th>Prescritas</th>
+                <th>Val Vigentes</th>
+                <th>Val Prescritas</th>
+                <th>Val Corrigido</th>
+                <th>Val Atualizado</th>
+                <th>Ganho Correcao</th>
+              </tr>
+            </thead>
+            <tbody id="tblFatDetBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== URGÊNCIAS REAIS ===== -->
+    <section id="urgencias-real">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9200;</span> Urgencias Prescricao &mdash; Faturas Individuais</h2>
+        <span class="section-badge">Dados reais dos CSVs</span>
+      </div>
+
+      <div class="panel animate-in" style="padding:0;overflow:hidden">
+        <div id="urgenciasContainer"></div>
+      </div>
+
+      <div class="recon-charts-grid animate-in" style="margin-top:20px">
+        <div class="recon-chart-panel">
+          <h4>Prescricao por Mes &mdash; Faturas a Vencer</h4>
+          <canvas id="chartPrescMes" height="300"></canvas>
+        </div>
+        <div class="recon-chart-panel">
+          <h4>Acoes Recomendadas &mdash; Distribuicao Real</h4>
+          <canvas id="chartAcaoReal" height="300"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FLUXO PORTFOLIO ===== -->
+    <section id="portfolio-flow">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9654;</span> Fluxo do Portfolio &mdash; De Faturamento a Recuperacao</h2>
+        <span class="section-badge">2019-2026</span>
+      </div>
+
+      <div class="panel animate-in">
+        <div class="portfolio-flow">
+          <div class="pf-box">
+            <div class="pf-label">Faturamento Total</div>
+            <div class="pf-value" style="color:var(--info)">R$ 761,5M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">2019-2026</div>
+          </div>
+          <div class="pf-arrow">&#10140;</div>
+          <div class="pf-box">
+            <div class="pf-label">Recebido</div>
+            <div class="pf-value" style="color:var(--success)">R$ 610,1M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">80,1% taxa pgto</div>
+          </div>
+          <div class="pf-arrow">&#10140;</div>
+          <div class="pf-box">
+            <div class="pf-label">Inadimplido</div>
+            <div class="pf-value" style="color:var(--danger)">R$ 151,4M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">19,9% do total</div>
+          </div>
+        </div>
+        <div class="portfolio-flow" style="margin-top:8px">
+          <div class="pf-box">
+            <div class="pf-label">Val Exigivel</div>
+            <div class="pf-value" style="color:var(--warn)">R$ 121,5M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">Nao prescrito</div>
+          </div>
+          <div class="pf-arrow">&#10140;</div>
+          <div class="pf-box">
+            <div class="pf-label">Val Atualizado</div>
+            <div class="pf-value" style="color:var(--success)">R$ 195,4M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">SELIC + juros + multa</div>
+          </div>
+          <div class="pf-arrow">&#10140;</div>
+          <div class="pf-box">
+            <div class="pf-label">Fee Estimado (20%)</div>
+            <div class="pf-value" style="color:var(--accent)">R$ 8,6M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">Cenario base 40%</div>
+          </div>
+        </div>
+        <div class="portfolio-flow" style="margin-top:8px">
+          <div class="pf-box" style="border-color:var(--danger)">
+            <div class="pf-label">Perdas SPCF</div>
+            <div class="pf-value" style="color:var(--danger)">R$ 32,5M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">Baixadas</div>
+          </div>
+          <div class="pf-arrow" style="color:var(--danger)">&#10140;</div>
+          <div class="pf-box" style="border-color:var(--danger)">
+            <div class="pf-label">Fat Canceladas</div>
+            <div class="pf-value" style="color:var(--danger)">R$ 54,5M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">770 faturas</div>
+          </div>
+          <div class="pf-arrow" style="color:var(--success)">&#10140;</div>
+          <div class="pf-box" style="border-color:var(--success)">
+            <div class="pf-label">Empenhos 2026</div>
+            <div class="pf-value" style="color:var(--success)">R$ 39,0M</div>
+            <div style="font-size:10px;color:var(--text-secondary)">Obrigacao futura</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recon-charts-grid animate-in" style="margin-top:20px">
+        <div class="recon-chart-panel">
+          <h4>Cenarios de Recuperacao &amp; Fee (R$ milhoes)</h4>
+          <canvas id="chartCenariosReal" height="280"></canvas>
+        </div>
+        <div class="recon-chart-panel">
+          <h4>Composicao: Canceladas vs Perdas vs Empenhos</h4>
+          <canvas id="chartCancPerdas" height="280"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RECONCILIACAO SPCF ===== -->
+    <section id="recon-overview">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#8644;</span> Reconciliacao SPCF Mar/2026</h2>
+        <span class="section-badge">01/04/2026</span>
+      </div>
+
+      <!-- Summary Stats -->
+      <div class="recon-summary-grid animate-in">
+        <div class="recon-stat-card info">
+          <div class="stat-label">Clientes SPCF</div>
+          <div class="stat-value">333</div>
+          <div class="stat-sub">4.040 faturas no sistema</div>
+        </div>
+        <div class="recon-stat-card info">
+          <div class="stat-label">Devedores Mapeados</div>
+          <div class="stat-value">65</div>
+          <div class="stat-sub">de 71 no profiles.json</div>
+        </div>
+        <div class="recon-stat-card match">
+          <div class="stat-label">Matches (&lt;1%)</div>
+          <div class="stat-value">12</div>
+          <div class="stat-sub">Valores conferem</div>
+        </div>
+        <div class="recon-stat-card diverge">
+          <div class="stat-label">Divergentes (&gt;1%)</div>
+          <div class="stat-value">53</div>
+          <div class="stat-sub">Requerem analise</div>
+        </div>
+        <div class="recon-stat-card critical">
+          <div class="stat-label">Nao Mapeados</div>
+          <div class="stat-value">264</div>
+          <div class="stat-sub">Clientes SPCF sem match</div>
+        </div>
+      </div>
+
+      <!-- Totals comparison -->
+      <div class="panel animate-in" style="margin-bottom:20px">
+        <h4 style="margin-bottom:12px;font-size:14px;font-weight:700">Comparacao de Totais &mdash; SPCF vs profiles.json</h4>
+        <div class="recon-summary-grid">
+          <div class="recon-stat-card info">
+            <div class="stat-label">SPCF Val. Servicos (Todos)</div>
+            <div class="stat-value" style="font-size:20px">R$ 152,4M</div>
+            <div class="stat-sub">333 clientes</div>
+          </div>
+          <div class="recon-stat-card info">
+            <div class="stat-label">SPCF Val. Liquido (Mapeados)</div>
+            <div class="stat-value" style="font-size:20px">R$ 122,4M</div>
+            <div class="stat-sub">65 devedores mapeados</div>
+          </div>
+          <div class="recon-stat-card diverge">
+            <div class="stat-label">Profiles val_orig (Mapeados)</div>
+            <div class="stat-value" style="font-size:20px">R$ 118,7M</div>
+            <div class="stat-sub">Valor nominal original</div>
+          </div>
+          <div class="recon-stat-card match">
+            <div class="stat-label">Profiles val_exig (Mapeados)</div>
+            <div class="stat-value" style="font-size:20px">R$ 120,6M</div>
+            <div class="stat-sub">Com correcao monetaria</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts: Divergence distribution + Match status -->
+      <div class="recon-charts-grid animate-in">
+        <div class="recon-chart-panel">
+          <h4>Distribuicao de Status de Reconciliacao</h4>
+          <canvas id="chartReconStatus" height="280"></canvas>
+        </div>
+        <div class="recon-chart-panel">
+          <h4>Top 15 Divergencias por Valor Absoluto</h4>
+          <canvas id="chartReconDiverg" height="280"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DIVERGENCIAS DETALHADAS ===== -->
+    <section id="recon-divergencias">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9888;</span> Tabela de Divergencias SPCF vs profiles.json</h2>
+        <span class="section-badge">65 devedores comparados</span>
+      </div>
+      <div class="panel animate-in" style="padding:0;overflow:hidden">
+        <div class="tbl-wrap">
+          <table class="recon-divergence-table" id="tblRecon">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Devedor</th>
+                <th>Fat SPCF</th>
+                <th>Val Liq SPCF</th>
+                <th>Val Orig Profiles</th>
+                <th>Divergencia</th>
+                <th>%</th>
+                <th>Status</th>
+                <th>Nota</th>
+              </tr>
+            </thead>
+            <tbody id="tblReconBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INCONSISTENCIAS ===== -->
+    <section id="recon-inconsistencias">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9888;</span> Inconsistencias &amp; Achados Criticos</h2>
+        <span class="section-badge">938 inconsistencias</span>
+      </div>
+
+      <div class="inconsistency-grid animate-in">
+        <div class="inconsistency-card">
+          <h5>PAGA_EM_DEVIDAS</h5>
+          <div class="inc-value">874</div>
+          <div class="inc-desc">Faturas pagas mas constam como devidas no portfolio. SEJUSC (101), SSP (99), ADS (99), SUHAB (89) lideram.</div>
+        </div>
+        <div class="inconsistency-card warn">
+          <h5>Canceladas x Perdas</h5>
+          <div class="inc-value">47</div>
+          <div class="inc-desc">Dupla baixa contabil &mdash; faturas canceladas E em perdas. Superavaliacao potencial de ate R$ 34,7M.</div>
+        </div>
+        <div class="inconsistency-card">
+          <h5>Canceladas x Devidas</h5>
+          <div class="inc-value">11</div>
+          <div class="inc-desc">Cobranca indevida &mdash; faturas canceladas mas ainda em cobranca. Risco reputacional alto.</div>
+        </div>
+        <div class="inconsistency-card warn">
+          <h5>Canceladas x Aberto</h5>
+          <div class="inc-value">6</div>
+          <div class="inc-desc">Faturas canceladas mas em aberto no SPCF. Depuracao obrigatoria antes de notificacao.</div>
+        </div>
+        <div class="inconsistency-card info">
+          <h5>NEs SEM COBERTURA</h5>
+          <div class="inc-value">60</div>
+          <div class="inc-desc">SES (32 NEs, R$ 6,28M) + FHEMOAM (28 NEs, R$ 1,33M). Reconhecimento tacito atualissimo &mdash; argumento nuclear.</div>
+        </div>
+        <div class="inconsistency-card info">
+          <h5>BMC &mdash; Cronico</h5>
+          <div class="inc-value">0%</div>
+          <div class="inc-desc">Zero pagamento em 87 meses de faturamento. Unico devedor CRONICO. Candidato a execucao judicial direta.</div>
+        </div>
+      </div>
+
+      <div class="recon-charts-grid animate-in" style="margin-top:20px">
+        <div class="recon-chart-panel">
+          <h4>Inconsistencias por Devedor (Top 10)</h4>
+          <canvas id="chartInconsist" height="280"></canvas>
+        </div>
+        <div class="recon-chart-panel">
+          <h4>Padrao de Inadimplencia &mdash; Classificacao</h4>
+          <canvas id="chartPadraoRecon" height="280"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FATURAS CRUZADAS ===== -->
+    <section id="recon-faturas">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9776;</span> Faturas Cruzadas &mdash; Top 20 Devedores</h2>
+        <span class="section-badge">1.779 faturas &middot; 58 colunas &middot; 14 fontes</span>
+      </div>
+
+      <div class="recon-summary-grid animate-in">
+        <div class="recon-stat-card info">
+          <div class="stat-label">Total Faturas</div>
+          <div class="stat-value">1.779</div>
+          <div class="stat-sub">20 devedores processados</div>
+        </div>
+        <div class="recon-stat-card match">
+          <div class="stat-label">Vigentes</div>
+          <div class="stat-value">1.208</div>
+          <div class="stat-sub">67,9% do total</div>
+        </div>
+        <div class="recon-stat-card critical">
+          <div class="stat-label">Prescritas</div>
+          <div class="stat-value">571</div>
+          <div class="stat-sub">32,1% do total</div>
+        </div>
+        <div class="recon-stat-card diverge">
+          <div class="stat-label">Criticas &lt;90d</div>
+          <div class="stat-value">34</div>
+          <div class="stat-sub">24 com &lt;45 dias</div>
+        </div>
+        <div class="recon-stat-card match">
+          <div class="stat-label">Forca FORTE+</div>
+          <div class="stat-value">729</div>
+          <div class="stat-sub">40,9% &mdash; posicao processual excelente</div>
+        </div>
+        <div class="recon-stat-card info">
+          <div class="stat-label">Com Empenho</div>
+          <div class="stat-value">1.476</div>
+          <div class="stat-sub">83,0% &mdash; reconhecimento tacito</div>
+        </div>
+      </div>
+
+      <div class="recon-charts-grid animate-in">
+        <div class="recon-chart-panel">
+          <h4>Faturas por Devedor &mdash; Vigentes vs Prescritas</h4>
+          <canvas id="chartFatCruzadas" height="350"></canvas>
+        </div>
+        <div class="recon-chart-panel">
+          <h4>Acao Recomendada &mdash; Distribuicao</h4>
+          <canvas id="chartAcaoRecom" height="350"></canvas>
+        </div>
+      </div>
+
+      <div class="panel animate-in" style="margin-top:20px">
+        <h4 style="margin-bottom:12px;font-size:14px;font-weight:700">Faturas Criticas &lt;45 dias &mdash; NOTIFICAR IMEDIATO</h4>
+        <div class="tbl-wrap">
+          <table class="recon-divergence-table">
+            <thead>
+              <tr>
+                <th>Seq</th>
+                <th>Devedor</th>
+                <th>NF</th>
+                <th>Valor (R$)</th>
+                <th>Dias ate Prescr.</th>
+                <th>Data Limite</th>
+                <th>Acao</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1-18</td><td>ADS</td><td>18 faturas</td><td style="font-weight:700">R$ 30.427,70</td><td style="color:var(--danger);font-weight:700">11</td><td>12/04/2026</td><td><span class="status-critical">NOTIFICAR_IMEDIATO</span></td></tr>
+              <tr><td>19-21</td><td>SUHAB</td><td>3 faturas</td><td style="font-weight:700">R$ 3.597,97</td><td style="color:var(--danger);font-weight:700">22</td><td>23/04/2026</td><td><span class="status-critical">NOTIFICAR_IMEDIATO</span></td></tr>
+              <tr><td>22-23</td><td>SUHAB</td><td>2 faturas</td><td style="font-weight:700">R$ 40.925,56</td><td style="color:var(--warn);font-weight:700">26</td><td>27/04/2026</td><td><span class="status-critical">NOTIFICAR_IMEDIATO</span></td></tr>
+              <tr><td>24</td><td>SEPROR</td><td>123942</td><td style="font-weight:700">R$ 623,75</td><td style="color:var(--warn);font-weight:700">29</td><td>30/04/2026</td><td><span class="status-critical">NOTIFICAR_IMEDIATO</span></td></tr>
+              <tr style="background:var(--danger-bg);font-weight:700"><td colspan="2">SES/SUSAM</td><td>Of.129/2021</td><td>R$ 11.877.977,07</td><td style="color:var(--danger)">42</td><td>13/05/2026</td><td><span class="status-critical">CPRAC/PGE-AM IMEDIATO</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ENRIQUECIMENTO ===== -->
+    <section id="recon-enriquecimento">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9650;</span> Timeline de Enriquecimento de Dados</h2>
+        <span class="section-badge">900.537+ registros processados</span>
+      </div>
+
+      <div class="enrichment-timeline animate-in">
+        <div class="enrichment-step">
+          <div class="step-date">30/03/2026 &mdash; Snapshot Inicial</div>
+          <div class="step-title">Reconciliacao v0.1 &mdash; Primeira Comparacao</div>
+          <div class="step-detail">52 devedores em profiles.json vs 333 clientes SPCF. Apenas 4 matches (&lt;1%). Identificadas divergencias massivas em SEDUC (+55%), SES/SUSAM (-63%), SEAD (+97%).</div>
+          <div class="step-badges">
+            <span class="step-badge">52 devedores</span>
+            <span class="step-badge red">4 matches</span>
+            <span class="step-badge red">41 divergentes</span>
+          </div>
+        </div>
+        <div class="enrichment-step">
+          <div class="step-date">31/03/2026 &mdash; Integracao SPCF</div>
+          <div class="step-title">Changelog: 35 atualizados + 11 novos devedores</div>
+          <div class="step-detail">Adicionados 11 campos SPCF por devedor (spcf_total_receber, fat_devidas, fat_aberto, perdas, emp_2026, contratos_vigentes). Total: 62 devedores.</div>
+          <div class="step-badges">
+            <span class="step-badge green">+35 atualizados</span>
+            <span class="step-badge green">+11 novos</span>
+            <span class="step-badge">62 devedores</span>
+          </div>
+        </div>
+        <div class="enrichment-step">
+          <div class="step-date">01/04/2026 02:24 &mdash; Integracao Exaustiva</div>
+          <div class="step-title">715 campos em 41 devedores + 8 novos devedores</div>
+          <div class="step-detail">Processados 247 CSVs (900K+ linhas) dos 7 blocos SPCF. Novos: CASA CIVIL, COSAMA, CASA MILITAR, BANCO DAYCOVAL, IMPRENSA OFICIAL, JUCEA, AFEAM, CIAMA. Zero inconsistencias em val_orig/val_exig.</div>
+          <div class="step-badges">
+            <span class="step-badge green">+715 campos</span>
+            <span class="step-badge green">+8 novos</span>
+            <span class="step-badge">70 devedores</span>
+            <span class="step-badge green">0 inconsistencias</span>
+          </div>
+        </div>
+        <div class="enrichment-step">
+          <div class="step-date">01/04/2026 06:09 &mdash; Reconciliacao Final</div>
+          <div class="step-title">65 mapeados, 12 matches, 53 divergentes</div>
+          <div class="step-detail">Reconciliacao v1.0 completa com Val Liquido SPCF. Melhoria de 4 para 12 matches. Identificados merges (FENIXSOFT 2x, FAAR/SEDEL 2x, PGE 2x, SECT 2x). 71 devedores finais.</div>
+          <div class="step-badges">
+            <span class="step-badge green">12 matches</span>
+            <span class="step-badge">53 divergentes</span>
+            <span class="step-badge">71 devedores</span>
+            <span class="step-badge green">100% cobertura</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel animate-in" style="margin-top:20px">
+        <h4 style="margin-bottom:12px;font-size:14px;font-weight:700">Achados que Alteram o Portfolio</h4>
+        <div class="tbl-wrap">
+          <table class="recon-divergence-table">
+            <thead>
+              <tr>
+                <th>Fator</th>
+                <th>Impacto Potencial</th>
+                <th>Direcao</th>
+                <th>Validacao</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Faturas canceladas (R$ 55M liq. total)</td><td style="font-weight:700">Ate -R$ 55M</td><td class="val-neg">&#9660; REDUZ</td><td>Confirmar se sao baixa definitiva</td></tr>
+              <tr><td>Dupla-baixa canceladas x perdas</td><td style="font-weight:700">Ate -R$ 34,7M superavaliacao</td><td class="val-neg">&#9660; REDUZ</td><td>Auditoria contabil PRODAM</td></tr>
+              <tr><td>"A Empenhar 2026" R$ 65,8M</td><td style="font-weight:700">+R$ 65,8M obrigacao futura</td><td class="val-pos">&#9650; REFORCA</td><td>Confirmado no SPCF</td></tr>
+              <tr><td>NEs SEM COBERTURA R$ 6,28M</td><td style="font-weight:700">+R$ 6,28M reconhecimento tacito</td><td class="val-pos">&#9650; REFORCA</td><td>Confirmado: 60 NEs</td></tr>
+              <tr style="font-weight:700;background:var(--bg-alt)"><td>Saldo Liquido</td><td>Portfolio R$ 127,6M permanece, composicao muda</td><td>&mdash;</td><td>Validar com PRODAM</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSIGHTS ===== -->
+    <section id="insights">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9733;</span> Insights Estrategicos &amp; Acoes Recomendadas</h2>
+      </div>
+      <div class="insights-grid">
+        <div class="insight-card type-critical animate-in">
+          <h4>Risco Prescricional Critico</h4>
+          <p>24 devedores ja ultrapassaram o prazo prescricional (cutoff 20/03/2026), representando R$ 97,8M em creditos potencialmente irrecuperaveis. Acao imediata necessaria para interromper prescricao via protesto ou acao judicial.</p>
+          <div class="insight-stats">
+            <span class="insight-stat">24 devedores</span>
+            <span class="insight-stat">R$ 97,8M</span>
+            <span class="insight-stat">URGENTE</span>
+          </div>
+        </div>
+        <div class="insight-card type-action animate-in">
+          <h4>Procuracao &mdash; Bloqueador Principal</h4>
+          <p>A ausencia de procuracao impede qualquer ato formal (notificacao, protesto, acao judicial). Este e o gargalo #1 do projeto. Recomenda-se obtencao imediata junto a PRODAM.</p>
+          <div class="insight-stats">
+            <span class="insight-stat">BLOQUEADOR #1</span>
+            <span class="insight-stat">71 devedores afetados</span>
+          </div>
+        </div>
+        <div class="insight-card type-info animate-in">
+          <h4>Concentracao de Valor</h4>
+          <p>Os 5 maiores devedores (SEDUC, DETRAN, SES/SUSAM, SSP, SEFAZ) concentram 85% do valor exigivel total. Estrategia de recuperacao deve priorizar estes orgaos com abordagem diferenciada.</p>
+          <div class="insight-stats">
+            <span class="insight-stat">Top 5 = 85%</span>
+            <span class="insight-stat">R$ 103M</span>
+          </div>
+        </div>
+        <div class="insight-card type-success animate-in">
+          <h4>Oportunidade CPRAC</h4>
+          <p>12 devedores sao elegiveis para CPRAC (Camara de Prevencao e Resolucao de Conflitos), permitindo acordo administrativo sem necessidade de acao judicial, com menor custo e maior celeridade.</p>
+          <div class="insight-stats">
+            <span class="insight-stat">12 elegiveis</span>
+            <span class="insight-stat">Via administrativa</span>
+          </div>
+        </div>
+        <div class="insight-card type-critical animate-in">
+          <h4>SES/SUSAM &mdash; Prazo Iminente</h4>
+          <p>Of.129/2021 prescreve em ~13/05/2026 (D+42). Valor de R$ 14,7M mais 60 NEs sem cobertura (R$ 14,9M). TRD ja pronto &mdash; envio imediato necessario.</p>
+          <div class="insight-stats">
+            <span class="insight-stat">D+42</span>
+            <span class="insight-stat">R$ 14,7M</span>
+            <span class="insight-stat">TRD PRONTO</span>
+          </div>
+        </div>
+        <div class="insight-card type-action animate-in">
+          <h4>Overlap Faturas PAGA x DEVIDAS</h4>
+          <p>1.643 faturas aparecem simultaneamente nas listas de pagas e devidas. Depuracao obrigatoria antes de qualquer notificacao para evitar contestacao e dano reputacional.</p>
+          <div class="insight-stats">
+            <span class="insight-stat">1.643 faturas</span>
+            <span class="insight-stat">DEPURACAO</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TABELA COMPLETA ===== -->
+    <section id="tabela">
+      <div class="section-header animate-in">
+        <h2><span class="section-icon">&#9776;</span> Tabela Completa &mdash; 71 Devedores</h2>
+        <span class="section-badge" id="tblCount">71 registros</span>
+      </div>
+
+      <!-- FILTERS -->
+      <div class="filters-bar" id="filters">
+        <div class="filter-group">
+          <label>Tipo</label>
+          <select id="fTipo">
+            <option value="">Todos</option>
+            <option value="gov">Governo</option>
+            <option value="privada">Privada</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Forca</label>
+          <select id="fForca">
+            <option value="">Todas</option>
+            <option value="FORTE">Forte</option>
+            <option value="MEDIA">Media</option>
+            <option value="FRACA">Fraca</option>
+            <option value="SEM">Sem evidencia</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Fase</label>
+          <select id="fFase">
+            <option value="">Todas</option>
+            <option value="F0">F0</option>
+            <option value="F0_DIAGNOSTICO">F0 Diagnostico</option>
+            <option value="F3">F3</option>
+            <option value="F5">F5</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Prescricao</label>
+          <select id="fPresc">
+            <option value="">Todas</option>
+            <option value="venc">Vencida</option>
+            <option value="urg">Urgente (&lt;90d)</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>CPRAC</label>
+          <select id="fCprac">
+            <option value="">Todos</option>
+            <option value="sim">Elegivel</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Busca</label>
+          <input type="text" id="fBusca" placeholder="Nome ou sigla...">
+        </div>
+        <button class="filter-reset" id="filterReset">&#8634; Limpar</button>
+      </div>
+
+      <div class="panel animate-in" style="padding:0; overflow:hidden;">
+        <div class="tbl-wrap">
+          <table id="tblDevedores">
+            <thead>
+              <tr>
+                <th data-col="0"># <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="1">Devedor <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="2">Tipo <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="3">Val.Exigivel <span class="sort-arrow">&#9660;</span></th>
+                <th data-col="4">Val.Atualizado <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="5">Forca <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="6">Fase <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="7">Faturas <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="8">Exig. <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="9">Presc. <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="10">Emp.2026 <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="11">NEs s/Cob <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="12">Evid. <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="13">Score <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="14">CPRAC <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="15">Blindagem <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="16">Prescricao <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="17">Alerta <span class="sort-arrow">&#9650;</span></th>
+                <th data-col="18">Prox.Passo <span class="sort-arrow">&#9650;</span></th>
+              </tr>
+            </thead>
+            <tbody id="tblBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /content -->
+
+  <!-- ===== FOOTER ===== -->
+  <div class="footer">
+    <div class="footer-grid">
+      <div>
+        <strong>Brandao Ozores Advogados</strong> &middot; Contrato 002/2026 &middot; Dashboard v5.2<br>
+        Gerado em 01/04/2026 &middot; profiles.json v71 + SPCF Mar/2026 (247 CSVs, 900K+ linhas) + 1.735 faturas cruzadas + Correcao SELIC + Reconciliacao Exaustiva
+      </div>
+      <div style="text-align:right;font-style:italic;font-size:11px">
+        Fontes cruzadas: profiles.json | SPCF Blocos 0-6 | Bloco D Empenhos | Reconciliacao SPCF v1.0 | Faturas Cruzadas (14 fontes) | Analise Massiva v3.6
+      </div>
+    </div>
+  </div>
+
+</div><!-- /main -->
+
+<script>
+/* DASHBOARD PRODAM v5.0 */
+
+const DEVS=[{"s": "SEDUC", "n": "Secretaria de Educação do Amazonas", "c": "04.312.419/0001-30", "t": "gov", "tr": "GOV", "ve": 49215512.48334964, "va": 50263263.55696253, "vo": 38705633.18000001, "f": "FORTE", "fs": "F0", "st": "Negativa expressa (Of. 316/2020-GS/SEDUC)", "ft": 84, "fe": 76, "fp": 8, "pd": "20/03/2026", "pdi": -12, "sc": 0.8005, "pp": 0.7, "tp": 164.1, "pi": "PONTUAL", "fat": 326100030.88, "rec": 535131085.28, "e26": 12325904.09, "nsc": 6, "nscv": 8641260.96, "b2e26": 12325904.09, "b2ae": 10802454.09, "b0n": 234, "b0nv": 383664365.88000053, "b2vg": 58330511.64, "evid": 1732, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "A", "titulo": false, "apagao": "ALTO", "nctr": 3, "fd": 256, "fl": 807, "prd": 443696.98, "pend": 56053583.28, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "DETRAN", "n": "Departamento Estadual de Trânsito do Amazonas", "c": "04.224.028/0001-63", "t": "gov", "tr": "GOV", "ve": 31684739.01023886, "va": 37960629.18957764, "vo": 22745276.48, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 233, "fe": 179, "fp": 54, "pd": "20/03/2026", "pdi": -12, "sc": 0.9318, "pp": 0.95, "tp": 124.7, "pi": "PONTUAL", "fat": 156992224.83, "rec": 195746103.75, "e26": 10792108.86, "nsc": 0, "nscv": 0, "b2e26": 10792108.860000001, "b2ae": 9331066.71, "b0n": 288, "b0nv": 119600700.63999993, "b2vg": 37134122.370000005, "evid": 286, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 22, "bltot": 22, "blrec": "EXECUCAO", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": true, "apagao": null, "nctr": 7, "fd": 404, "fl": 1630, "prd": 1148546.6, "pend": 21123486.62, "pr": "PROTOCOLAR_PETICAO"}, {"s": "SES/SUSAM", "n": "Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical", "c": "00.697.295/0001-05", "t": "gov", "tr": "GOV", "ve": 14748048.9572181, "va": 43921619.17034938, "vo": 22406424.64000001, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 324, "fe": 144, "fp": 180, "pd": "13/05/2026", "pdi": 42, "sc": 0.7664, "pp": 0.75, "tp": 191.7, "pi": "PONTUAL", "fat": 139380372.78, "rec": 267236411.84, "e26": 10664589.95, "nsc": 32, "nscv": 6280031.14, "b2e26": 1196425.73, "b2ae": 6711817.210000001, "b0n": 372, "b0nv": 83257855.31000015, "b2vg": 21172350.509999998, "evid": 330, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": "ALTO", "nctr": 5, "fd": 792, "fl": 1999, "prd": 12486778.6, "pend": 15700941.72, "pr": "ENVIAR_TRD"}, {"s": "SSP", "n": "Secretaria de Segurança Pública", "c": "01.804.019/0001-53", "t": "gov", "tr": "GOV", "ve": 4553230.799761455, "va": 29034062.62695501, "vo": 12532319.37999999, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 196, "fe": 81, "fp": 115, "pd": "01/03/2026", "pdi": -31, "sc": 0.8492, "pp": 0.93, "tp": 167.0, "pi": "PONTUAL", "fat": 70836992.0, "rec": 118265569.29, "e26": 14117523.84, "nsc": 0, "nscv": 0, "b2e26": 14117523.84, "b2ae": 3529380.96, "b0n": 134, "b0nv": 61905752.830000035, "b2vg": 42352571.519999996, "evid": 125, "recon": "CONFIRMADO — RD no AFI", "cprac": true, "transacao": true, "blok": 22, "bltot": 22, "blrec": "EXECUCAO", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": true, "apagao": "ALTO", "nctr": 3, "fd": 362, "fl": 886, "prd": 10010015.67, "pend": 10725242.83, "pr": "PROTOCOLAR_PETICAO"}, {"s": "SEJUSC", "n": "Secretaria de Estado da Justiça, Direitos Humanos e Cidadania", "c": "04.312.401/0001-38", "t": "gov", "tr": "GOV", "ve": 2589660.118313503, "va": 5262537.822174589, "vo": 3025777.730000001, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 165, "fe": 65, "fp": 100, "pd": "20/03/2026", "pdi": -12, "sc": 0.5687, "pp": 0.4, "tp": 121.2, "pi": "PONTUAL", "fat": 7598547.39, "rec": 9209790.32, "e26": 47605.39, "nsc": 0, "nscv": 0, "b2e26": 47605.39, "b2ae": -1059.6500000000005, "b0n": 156, "b0nv": 5290675.210000001, "b2vg": 119108.28, "evid": 37, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 2, "fd": 164, "fl": 0, "prd": 0, "pend": 2671493.58, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEAD", "n": "Secretaria de Administração", "c": "02.287.757/0001-33", "t": "gov", "tr": "GOV", "ve": 2339702.19897373, "va": 4296278.763058392, "vo": 2772731.09, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 69, "fe": 25, "fp": 44, "pd": "20/03/2026", "pdi": -12, "sc": 0.6363, "pp": 0.7, "tp": 175.9, "pi": "PONTUAL", "fat": 46749294.44, "rec": 82213685.55, "e26": 1505106.27, "nsc": 0, "nscv": 0, "b2e26": 1505106.27, "b2ae": 5061325.4, "b0n": 388, "b0nv": 40924402.97000005, "b2vg": 6880089.15, "evid": 83, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": "MEDIO", "nctr": 6, "fd": 194, "fl": 1210, "prd": 293096.92, "pend": 5293077.46, "pr": "ENVIAR_TRD"}, {"s": "CETAM", "n": "Centro de Educação Tecnológica do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 1256564.28, "va": 1256564.28, "vo": 1256564.28, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 16, "fe": 16, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 97.4, "pi": "PONTUAL", "fat": 52316782.05, "rec": 50975344.84, "e26": 4178030.14, "nsc": 0, "nscv": 0, "b2e26": 4178030.14, "b2ae": 503954.52000000014, "b0n": 170, "b0nv": 31749714.17000001, "b2vg": 7461752.67, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 1256564.28, "pr": "CLASSIFICAR"}, {"s": "SEDECTI", "n": "Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia", "c": "04.503.421/0001-96", "t": "gov", "tr": "GOV", "ve": 1249203.13232546, "va": 4007244.346947853, "vo": 2012035.99, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 228, "fe": 52, "fp": 176, "pd": "20/03/2026", "pdi": -12, "sc": 0.5128, "pp": 0.32, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 19, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "POLÍCIA CIVIL", "n": "Polícia Civil do Amazonas", "c": "03.072.388/0001-24", "t": "gov", "tr": "GOV", "ve": 960481.713334285, "va": 1908089.754340274, "vo": 1066717.79, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 56, "fe": 32, "fp": 24, "pd": "20/03/2026", "pdi": -12, "sc": 0.47, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 4, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BANCO MASTER", "n": "Banco Master", "c": "33.884.941/0001-94", "t": "privada", "tr": "PRIVADA", "ve": 889270.87, "va": 889270.87, "vo": 889270.87, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2695, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário.", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "HABILITAÇÃO DE CRÉDITO — Liquidação extrajudicial (BCB Ato 1.369/2025). Monitorar edital no DOU. Prazo estimado: ago/2026. Crédito: quirografário."}, {"s": "FENIXSOFT", "n": "Fenixsoft", "c": "07.093.895/0001-03", "t": "privada", "tr": "PRIVADA", "ve": 888250.0, "va": 888250.0, "vo": 888250.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2695, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "CAIXA", "n": "Caixa Econômica Federal", "c": "00.360.305/0001-04", "t": "privada", "tr": "PRIVADA", "ve": 844328.88, "va": 844328.88, "vo": 844328.88, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2686, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SUHAB", "n": "Superintendência da Zona Franca de Manaus - Habitação", "c": "04.355.863/0001-32", "t": "gov", "tr": "GOV", "ve": 840061.1525043402, "va": 1210268.549392809, "vo": 710644.0000000003, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 123, "fe": 87, "fp": 36, "pd": "20/03/2026", "pdi": -12, "sc": 0.5337, "pp": 0.47, "tp": 266.2, "pi": "PONTUAL", "fat": 3964076.56, "rec": 10551327.21, "e26": 90917.32, "nsc": 0, "nscv": 0, "b2e26": 90917.32, "b2ae": 157531.32, "b0n": 179, "b0nv": 4295596.830000002, "b2vg": 273268.9, "evid": 7, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 5, "fd": 0, "fl": 0, "prd": 0, "pend": 636026.33, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "AMAZONPREV", "n": "Instituto de Previdência do Amazonas", "c": "04.986.163/0001-46", "t": "gov", "tr": "GOV", "ve": 736219.7938469165, "va": 1142951.735849928, "vo": 777884.59, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 21, "fp": 2, "pd": "20/03/2026", "pdi": -12, "sc": 0.4651, "pp": 0.47, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 231101.74, "b2ae": 467954.4, "b0n": 88, "b0nv": 16563334.389999993, "b2vg": 6737489.6, "evid": 2, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FAAR/SEDEL", "n": "Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico", "c": "35.933.557/0001-60", "t": "gov", "tr": "GOV", "ve": 734498.9430028957, "va": 1472879.245464368, "vo": 877764.1999999997, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 221, "fe": 113, "fp": 108, "pd": "20/03/2026", "pdi": -12, "sc": 0.4406, "pp": 0.3, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "PGE", "n": "Procuradoria-Geral do Estado", "c": "19.477.848/0001-34", "t": "gov", "tr": "GOV", "ve": 680239.7715611592, "va": 1603066.411500305, "vo": 849643.14, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 47, "fe": 41, "fp": 6, "pd": "20/03/2026", "pdi": -12, "sc": 0.4801, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 6, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "IPAAM", "n": "Instituto de Proteção Ambiental do Amazonas", "c": "04.624.888/0001-94", "t": "gov", "tr": "GOV", "ve": 652339.8873389428, "va": 652339.8873389428, "vo": 465482.7199999997, "f": "MÉDIA", "fs": "F3", "st": "TRD pronto", "ft": 58, "fe": 58, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.5226, "pp": 0.52, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 5, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "SEAS", "n": "Secretaria de Assuntos Estratégicos", "c": "01.742.414/0001-59", "t": "gov", "tr": "GOV", "ve": 651041.089737987, "va": 651041.089737987, "vo": 474659.7699999997, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 63, "fe": 63, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.6827, "pp": 0.78, "tp": 143.4, "pi": "PONTUAL", "fat": 4425022.71, "rec": 6344266.8, "e26": 402252.79, "nsc": 0, "nscv": 0, "b2e26": 402252.79000000004, "b2ae": 533468.0599999999, "b0n": 238, "b0nv": 6642249.050000006, "b2vg": 1425094.08, "evid": 190, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": false, "apagao": "MEDIO", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 391246.29, "pr": "PROTOCOLAR_PETICAO"}, {"s": "FCECON", "n": "Fundação Centro de Educação Tecnológica do Amazonas", "c": "34.570.820/0001-30", "t": "gov", "tr": "GOV", "ve": 637106.6794919234, "va": 828620.6325084443, "vo": 581141.44, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 113, "fe": 85, "fp": 28, "pd": "20/03/2026", "pdi": -12, "sc": 0.6526, "pp": 0.8, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 37, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "PROVER", "n": "Prover", "c": "20.308.187/0001-00", "t": "privada", "tr": "PRIVADA", "ve": 549105.7, "va": 549105.7, "vo": 549105.7, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2614, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SETRAB", "n": "Secretaria de Estado do Trabalho (extinta, incorporada SEAS/SEJUSC)", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 505961.79, "va": 505961.79, "vo": 505961.79, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 81, "fe": 81, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 754.9, "pi": "PONTUAL", "fat": 297757.5, "rec": 2247760.94, "e26": 2076190.08, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "AVALIAR_SUCESSAO", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 505961.79, "pr": "AVALIAR_SUCESSAO"}, {"s": "SEINFRA", "n": "Secretaria de Infraestrutura", "c": "03.852.880/0001-12", "t": "gov", "tr": "GOV", "ve": 379631.5477448804, "va": 379631.5477448804, "vo": 294139.13, "f": "MÉDIA", "fs": "F3", "st": "TRD recomendado", "ft": 38, "fe": 38, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.5586, "pp": 0.45, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 96, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "UGPI", "n": "Unidade Gestora de Projetos e Investimentos", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 353473.42, "va": 353473.42, "vo": 353473.42, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 18, "fe": 18, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 131.1, "pi": "PONTUAL", "fat": 8785844.29, "rec": 11520433.79, "e26": 411980.56, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 353473.42, "pr": "CLASSIFICAR"}, {"s": "IDAM", "n": "Instituto de Desenvolvimento Agropecuário do Amazonas", "c": "01.171.012/0001-41", "t": "gov", "tr": "GOV", "ve": 328735.506557344, "va": 892277.9349171629, "vo": 505375.1699999998, "f": "FRACA", "fs": "F3", "st": "TRD recomendado", "ft": 35, "fe": 30, "fp": 5, "pd": "20/03/2026", "pdi": -12, "sc": 0.4019, "pp": 0.35, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 2, "nscv": 2851.82, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "FVS", "n": "Fundação de Vigilância em Saúde", "c": "07.141.411/0001-46", "t": "gov", "tr": "GOV", "ve": 321372.9594133031, "va": 321372.9594133031, "vo": 253753.07, "f": "FORTE", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 23, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.5968, "pp": 0.75, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 45, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEJEL", "n": "Secretaria de Estado de Juventude, Esporte e Lazer", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 280242.25, "va": 280242.25, "vo": 280242.25, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 96, "fe": 96, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 362.4, "pi": "PONTUAL", "fat": 340593.93, "rec": 1234336.2, "e26": 1218094.75, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 280242.25, "pr": "CLASSIFICAR"}, {"s": "FMT", "n": "Fundação de Medicina Tropical do Amazonas", "c": "04.534.053/0001-43", "t": "gov", "tr": "GOV", "ve": 272130.6793465254, "va": 693107.3755040537, "vo": 390275.52, "f": "MÉDIA", "fs": "F3", "st": "TRD pronto", "ft": 83, "fe": 41, "fp": 42, "pd": "20/03/2026", "pdi": -12, "sc": 0.5623, "pp": 0.55, "tp": 202.0, "pi": "PONTUAL", "fat": 2011789.01, "rec": 4064378.7, "e26": 56999.97, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 49, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 102291.31, "pr": "ENVIAR_TRD"}, {"s": "FHAJ", "n": "Fundação Hospitalar Adriano Jorge", "c": "06.168.092/0001-08", "t": "gov", "tr": "GOV", "ve": 259910.7790577516, "va": 493519.1295001625, "vo": 304898.4199999998, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 75, "fe": 34, "fp": 41, "pd": "20/03/2026", "pdi": -12, "sc": 0.6126, "pp": 0.83, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 29, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "PROTOCOLAR_PETICAO"}, {"s": "SECT", "n": "Secretaria de Ciência e Tecnologia", "c": "05.558.639/0001-00", "t": "gov", "tr": "GOV", "ve": 258328.5777689927, "va": 296246.9739695273, "vo": 222910.14, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 44, "fe": 35, "fp": 9, "pd": "20/03/2026", "pdi": -12, "sc": 0.4846, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 17, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ADS", "n": "Agência de Desenvolvimento Sustentável do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 211657.47, "va": 211657.47, "vo": 211657.47, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 119, "fe": 119, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 194.4, "pi": "PONTUAL", "fat": 684285.89, "rec": 1330188.53, "e26": 43207.74, "nsc": 0, "nscv": 0, "b2e26": 43207.74, "b2ae": 3174.71, "b0n": 143, "b0nv": 509429.7100000001, "b2vg": 62118.020000000004, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 211657.47, "pr": "CLASSIFICAR"}, {"s": "SEFAZ", "n": "Secretaria de Fazenda", "c": "04.312.377/0001-37", "t": "gov", "tr": "GOV", "ve": 198980.4851109561, "va": 283622.8288313362, "vo": 188362.64, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 5, "fe": 4, "fp": 1, "pd": "20/03/2026", "pdi": -12, "sc": 0.4444, "pp": 0.4, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 29, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "CPA", "n": "CPA", "c": "18.206.900/0001-55", "t": "privada", "tr": "PRIVADA", "ve": 165830.96, "va": 165830.96, "vo": 165830.96, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2411, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ADAF", "n": "Agência de Defesa Agropecuária e Florestal do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 149600.91, "va": 149600.91, "vo": 149600.91, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 44, "fe": 44, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 95.2, "pi": "PONTUAL", "fat": 1663308.45, "rec": 1584231.4, "e26": 110145.14, "nsc": 0, "nscv": 0, "b2e26": 110145.14000000001, "b2ae": 117154.17000000001, "b0n": 163, "b0nv": 1132717.1999999997, "b2vg": 332098.10000000003, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 149600.91, "pr": "CLASSIFICAR"}, {"s": "AADESAM", "n": "Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 125682.9, "va": 125682.9, "vo": 125682.9, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 34, "fe": 34, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 912.7, "pi": "PONTUAL", "fat": 172548.41, "rec": 1574895.7, "e26": 208074.78, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 2, "b0nv": 181156.24000000002, "b2vg": 351043.32, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 125682.9, "pr": "CLASSIFICAR"}, {"s": "IKM DE", "n": "IKM DE", "c": "14.968.157/0001-10", "t": "privada", "tr": "PRIVADA", "ve": 116263.6, "va": 116263.6, "vo": 116263.6, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2351, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ANOREG", "n": "ANOREG", "c": "03.123.477/0001-52", "t": "privada", "tr": "PRIVADA", "ve": 102267.91, "va": 102267.91, "vo": 102267.91, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2329, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEC", "n": "Secretaria de Cultura", "c": "01.801.623/0001-26", "t": "gov", "tr": "GOV", "ve": 99050.70706237933, "va": 248155.4238784024, "vo": 152126.16, "f": "FORTE", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 11, "fp": 12, "pd": "20/03/2026", "pdi": -12, "sc": 0.5411, "pp": 0.65, "tp": 191.5, "pi": "PONTUAL", "fat": 2548890.35, "rec": 4881554.96, "e26": 157510.6, "nsc": 0, "nscv": 0, "b2e26": 157510.59999999998, "b2ae": 221976.28, "b0n": 130, "b0nv": 3897085.330000001, "b2vg": 472531.79000000004, "evid": 64, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": true, "transacao": true, "blok": 20, "bltot": 22, "blrec": "MONITORIA", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "A", "titulo": false, "apagao": "MEDIO", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 189217.81, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEPROR", "n": "Secretaria de Produção Rural", "c": "05.560.185/0001-02", "t": "gov", "tr": "GOV", "ve": 77960.49143925689, "va": 170884.0956059437, "vo": 103810.4, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 25, "fe": 15, "fp": 10, "pd": "20/03/2026", "pdi": -12, "sc": 0.4638, "pp": 0.4, "tp": 132.2, "pi": "PONTUAL", "fat": 2049632.44, "rec": 2708934.59, "e26": 63943.28, "nsc": 0, "nscv": 0, "b2e26": 63943.28, "b2ae": 12570.52, "b0n": 148, "b0nv": 1379733.32, "b2vg": 200604.84, "evid": 31, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 87743.5, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BMC", "n": "BMC", "c": "07.207.996/0001-50", "t": "privada", "tr": "PRIVADA", "ve": 58142.0, "va": 58142.0, "vo": 58142.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2233, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ARSEPAM", "n": "Agência Reguladora de Serviços Públicos do Amazonas", "c": "04.272.727/0001-89", "t": "gov", "tr": "GOV", "ve": 49618.85205354253, "va": 49618.85205354253, "vo": 35923.02, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 23, "fe": 23, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.3499, "pp": 0.3, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FUAM/FUHAM", "n": "Fundação Universidade Aberta do Amazonas / Fundação Hospitalar de Hematologia e Hemoterapia do Amazonas", "c": "02.006.782/0001-00", "t": "gov", "tr": "GOV", "ve": 44020.01, "va": 356355.07, "vo": 368561.6299999997, "f": "FORTE", "fs": "F5", "st": "Petição pronta", "ft": 75, "fe": 22, "fp": 53, "pd": "20/03/2026", "pdi": -12, "sc": 0.5688, "pp": 0.78, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 44, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 19, "bltot": 22, "blrec": "MONITORIA", "prox": "PROTOCOLAR_PETICAO", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "PROTOCOLAR_PETICAO"}, {"s": "BANCO BMG", "n": "Banco BMG", "c": "61.186.680/0001-74", "t": "privada", "tr": "PRIVADA", "ve": 39242.0, "va": 39242.0, "vo": 39242.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2167, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "SEMA", "n": "Secretaria de Meio Ambiente", "c": "05.562.326/0001-26", "t": "gov", "tr": "GOV", "ve": 38541.1088668302, "va": 49842.06985580978, "vo": 35326.64, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 10, "fe": 5, "fp": 5, "pd": "20/03/2026", "pdi": -12, "sc": 0.3603, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 32426.44, "b2ae": 45938.34, "b0n": 132, "b0nv": 1299183.4900000002, "b2vg": 97279.37, "evid": 3, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": true, "transacao": true, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": "BAIXO", "nctr": 3, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ITRANSITO", "n": "iTransito", "c": "23.792.780/0001-55", "t": "privada", "tr": "PRIVADA", "ve": 38360.67, "va": 38360.67, "vo": 38360.67, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2163, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE", "n": "Associação de Gestão Inovação e Resultados em Saúde", "c": "05.029.600/0002-87", "t": "privada", "tr": "PRIVADA", "ve": 34760.79, "va": 34760.79, "vo": 34760.79, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2146, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FUNTEA", "n": "Fundação de Tecnologia do Amazonas", "c": "84.664.796/0001-77", "t": "gov", "tr": "GOV", "ve": 34186.18707715725, "va": 34186.18707715725, "vo": 23998.67000000001, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 11, "fe": 11, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.3236, "pp": 0.3, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BANCO SICOOB", "n": "Banco Sicoob", "c": "02.038.232/0001-64", "t": "privada", "tr": "PRIVADA", "ve": 30290.0, "va": 30290.0, "vo": 30290.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2123, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "DPE", "n": "Defensoria Pública do Estado do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 28060.05, "va": 28060.05, "vo": 28060.05, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 7, "fe": 7, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 255207.52, "b2ae": 884.0, "b0n": 51, "b0nv": 1815563.3699999999, "b2vg": 1039788.54, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "FMPES", "n": "Fundação Municipal de Planejamento e Ensino Superior", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 27264.57, "va": 27264.57, "vo": 27264.57, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 3, "fe": 3, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "PMAM", "n": "Polícia Militar do Amazonas", "c": "63.656.292/0001-35", "t": "gov", "tr": "GOV", "ve": 27020.90058524942, "va": 38951.91005342395, "vo": 24351.49, "f": "FRACA", "fs": "F0", "st": "Análise pendente", "ft": 13, "fe": 8, "fp": 5, "pd": "20/03/2026", "pdi": -12, "sc": 0.2863, "pp": 0.2, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "CGE", "n": "Controladoria Geral do Estado do Amazonas", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 25693.37, "va": 25693.37, "vo": 25693.37, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 9, "fe": 9, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 213359.74, "b2ae": 428665.74, "b0n": 113, "b0nv": 3584640.729999998, "b2vg": 730517.76, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "SNPH", "n": "Secretaria de Navegação Portuária e Hidrovias", "c": "01.253.690/0001-53", "t": "gov", "tr": "GOV", "ve": 25117.34434577535, "va": 25117.34434577535, "vo": 17526.63, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 8, "fe": 8, "fp": 0, "pd": "01/01/2027", "pdi": 275, "sc": 0.3707, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 4, "recon": "INDÍCIO — Empenho (reconhecime", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "PSA TECHNOLOGY", "n": "PSA Technology", "c": "08.862.665/0001-16", "t": "privada", "tr": "PRIVADA", "ve": 21007.21, "va": 21007.21, "vo": 21007.21, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2061, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FJJA", "n": "Fundação Juiz de Fora Jorge Almeida (ex-FUNJEAM)", "c": "CNPJ_PENDENTE", "t": "gov", "tr": "GOV", "ve": 20596.36, "va": 20596.36, "vo": 20596.36, "f": "FRACA", "fs": "F0", "st": "Pendente analise", "ft": 5, "fe": 5, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "CLASSIFICAR", "modelo": "C", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "CLASSIFICAR"}, {"s": "SUL AMERICA", "n": "Sul América Seguros", "c": "01.685.053/0001-56", "t": "privada", "tr": "PRIVADA", "ve": 18196.0, "va": 18196.0, "vo": 18196.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.2036, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "B23 TECNOLOGIA", "n": "B23 Tecnologia", "c": "40.402.740/0001-79", "t": "privada", "tr": "PRIVADA", "ve": 11892.24, "va": 11892.24, "vo": 11892.24, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1964, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "BANCO SAFRA", "n": "Banco Safra", "c": "58.160.789/0001-28", "t": "privada", "tr": "PRIVADA", "ve": 9310.0, "va": 9310.0, "vo": 9310.0, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1923, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "ODONTOMED", "n": "Odontomed", "c": "05.287.585/0001-96", "t": "privada", "tr": "PRIVADA", "ve": 7541.1, "va": 7541.1, "vo": 7541.1, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1887, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "EASYTECH", "n": "Easytech", "c": "14.379.210/0001-47", "t": "privada", "tr": "PRIVADA", "ve": 6927.16, "va": 6927.16, "vo": 6927.16, "f": "FRACA", "fs": "F0", "st": "Valores extraídos (SPCF)", "ft": 0, "fe": 0, "fp": 0, "pd": "01/10/2029", "pdi": 1279, "sc": 0.1873, "pp": 0.15, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "F", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "FHEMOAM", "n": "Fundação de Hematologia e Hemoterapia do Amazonas", "c": "63.678.320/0001-15", "t": "gov", "tr": "GOV", "ve": 6886.906967936138, "va": 13276.74747993334, "vo": 7743.769999999999, "f": "FRACA", "fs": "F3", "st": "TRD recomendado", "ft": 8, "fe": 7, "fp": 1, "pd": "20/03/2026", "pdi": -12, "sc": 0.2973, "pp": 0.35, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 20, "nscv": 12227.78, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "NÃO CONFIRMADO", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ENVIAR_TRD", "modelo": "C", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "CBMAM", "n": "Corpo de Bombeiros Militar do Amazonas", "c": "02.963.980/0001-53", "t": "gov", "tr": "GOV", "ve": 3134.027944080676, "va": 71483.15783491402, "vo": 27570.74, "f": "FORTE", "fs": "F3", "st": "TRD pronto", "ft": 24, "fe": 4, "fp": 20, "pd": "20/03/2026", "pdi": -12, "sc": 0.4105, "pp": 0.62, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 14, "recon": "CONFIRMADO — Reconhecimento fo", "cprac": false, "transacao": false, "blok": 17, "bltot": 22, "blrec": "MONITORIA", "prox": "ENVIAR_TRD", "modelo": "A", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ENVIAR_TRD"}, {"s": "SEMIG", "n": "Secretaria de Mineração", "c": "51.999.904/0001-03", "t": "gov", "tr": "GOV", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "MÉDIA", "fs": "F0", "st": "Análise pendente", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.1357, "pp": 0.37, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 4, "recon": "CONFIRMADO — Pagamento parcial", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "ANALISAR_DOCUMENTACAO", "modelo": "B", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": "ANALISAR_DOCUMENTACAO"}, {"s": "_metadata", "n": "_metadata", "c": "", "t": "gov", "tr": "GOV", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0", "st": "", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0, "b2ae": 0, "b0n": 0, "b0nv": 0, "b2vg": 0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": null, "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "CASA CIVIL", "n": "CASA CIVIL", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 19138.4, "b2ae": 12599.44, "b0n": 96, "b0nv": 7648104.869999999, "b2vg": 57415.2, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 1, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "COSAMA", "n": "COSAMA", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 27399.489999999998, "b0n": 0, "b0nv": 0.0, "b2vg": 74972.16, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "CASA MILITAR", "n": "CASA MILITAR", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 11136.96, "b2ae": 11136.96, "b0n": 14, "b0nv": 96374.8, "b2vg": 33410.88, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 1, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "BANCO DAYCOVAL", "n": "BANCO DAYCOVAL", "c": "", "t": "privado", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 0.0, "b0n": 0, "b0nv": 0.0, "b2vg": 0.0, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 0, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "IMPRENSA OFICIAL", "n": "IMPRENSA OFICIAL", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 163709.79999999996, "b2ae": 253073.87, "b0n": 99, "b0nv": 1974334.5500000003, "b2vg": 808146.8400000001, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 5, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "JUCEA", "n": "JUCEA", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 81283.2, "b2ae": 29693.81, "b0n": 192, "b0nv": 2406521.33, "b2vg": 243849.6, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 4, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "AFEAM", "n": "AFEAM", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 212263.33, "b0n": 0, "b0nv": 0.0, "b2vg": 226435.86, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 2, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}, {"s": "CIAMA", "n": "CIAMA", "c": "", "t": "estadual", "tr": "PRIVADA", "ve": 0.0, "va": 0.0, "vo": 0.0, "f": "—", "fs": "F0_DIAGNOSTICO", "st": "NOVO_SPCF", "ft": 0, "fe": 0, "fp": 0, "pd": null, "pdi": null, "sc": 0.0, "pp": 0.0, "tp": 0, "pi": "—", "fat": 0, "rec": 0, "e26": 0, "nsc": 0, "nscv": 0, "b2e26": 0.0, "b2ae": 22552.29, "b0n": 0, "b0nv": 0.0, "b2vg": 33410.88, "evid": 0, "recon": "", "cprac": false, "transacao": false, "blok": 0, "bltot": 0, "blrec": "", "prox": "", "modelo": "", "titulo": false, "apagao": "", "nctr": 1, "fd": 0, "fl": 0, "prd": 0, "pend": 0, "pr": ""}];
+const FASES={"F0": {"c": 49, "v": 64951839.18196166}, "F5": {"c": 5, "v": 37192941.68879605}, "F3": {"c": 9, "v": 19367716.391583465}, "F0_DIAGNOSTICO": {"c": 8, "v": 0.0}};
+const CENARIOS={"conservador":{"pct":20,"rec":24302499.45,"fee":4860499.89},"base":{"pct":40,"rec":48604998.90,"fee":9720999.78},"otimista":{"pct":70,"rec":85058748.08,"fee":17011749.62}};
+
+/* ===== CHART PALETTE ===== */
+const PAL = {
+  primary: '#0F172A', secondary: '#334155', muted: '#64748B', light: '#94A3B8',
+  accent: '#C9A84C', accentLight: '#E2C97E',
+  danger: '#DC2626', success: '#16A34A', warn: '#D97706', info: '#2563EB',
+};
+
+/* ===== Chart.js global defaults ===== */
+Chart.defaults.font.family = "'Inter', -apple-system, sans-serif";
+Chart.defaults.font.size = 12;
+Chart.defaults.color = '#64748B';
+Chart.defaults.plugins.legend.labels.usePointStyle = true;
+Chart.defaults.plugins.legend.labels.pointStyle = 'circle';
+Chart.defaults.plugins.legend.labels.padding = 16;
+Chart.defaults.plugins.tooltip.backgroundColor = '#0F172A';
+Chart.defaults.plugins.tooltip.titleFont = {weight:'700',size:13};
+Chart.defaults.plugins.tooltip.bodyFont = {size:12};
+Chart.defaults.plugins.tooltip.padding = 12;
+Chart.defaults.plugins.tooltip.cornerRadius = 8;
+Chart.defaults.plugins.tooltip.displayColors = true;
+Chart.defaults.plugins.tooltip.boxPadding = 4;
+Chart.defaults.elements.bar.borderRadius = 6;
+Chart.defaults.elements.bar.borderSkipped = false;
+
+/* ===== HELPERS ===== */
+function fmtBRL(v){return 'R$ '+(v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}
+function fmtM(v){if(Math.abs(v)>=1e6)return 'R$ '+(v/1e6).toFixed(1)+'M';if(Math.abs(v)>=1e3)return 'R$ '+(v/1e3).toFixed(0)+'K';return 'R$ '+v.toFixed(0)}
+function fTag(f){
+  const cls=f==='FORTE'?'tag-forte':f==='MEDIA'||f==='MÉDIA'?'tag-media':f==='FRACA'?'tag-fraca':'tag-sem';
+  return '<span class="tag '+cls+'">'+f+'</span>';
+}
+function phTag(f){
+  const cls=f==='F0'?'tag-f0':f==='F0_DIAGNOSTICO'?'tag-f0d':f==='F3'?'tag-f3':f==='F5'?'tag-f5':'tag-f0';
+  const label=f==='F0_DIAGNOSTICO'?'F0D':f;
+  return '<span class="tag '+cls+'">'+label+'</span>';
+}
+
+/* ===== ANIMATED COUNTER ===== */
+function animateValue(el,start,end,duration,formatter){
+  let startTs=null;
+  const step=(ts)=>{
+    if(!startTs)startTs=ts;
+    const p=Math.min((ts-startTs)/duration,1);
+    const e=1-Math.pow(1-p,3);
+    const cur=start+(end-start)*e;
+    el.textContent=formatter?formatter(cur):Math.floor(cur).toLocaleString('pt-BR');
+    if(p<1)window.requestAnimationFrame(step);
+  };
+  window.requestAnimationFrame(step);
+}
+
+/* ===== KPI VALUES ===== */
+const totalVE=DEVS.reduce((s,d)=>s+d.ve,0);
+const totalVA=DEVS.reduce((s,d)=>s+d.va,0);
+const totalFat=DEVS.reduce((s,d)=>s+d.ft,0);
+const totalEvid=DEVS.reduce((s,d)=>s+d.evid,0);
+const totalNSC=DEVS.reduce((s,d)=>s+d.nsc,0);
+const totalNSCv=DEVS.reduce((s,d)=>s+d.nscv,0);
+
+setTimeout(()=>{
+  animateValue(document.getElementById('kpiVE'),0,totalVE,1500,fmtBRL);
+  animateValue(document.getElementById('kpiVA'),0,totalVA,1500,fmtBRL);
+  animateValue(document.getElementById('kpiFee'),0,totalVE*0.40*0.20,1500,fmtBRL);
+  animateValue(document.getElementById('kpiFaturas'),0,totalFat,1200,v=>Math.floor(v).toLocaleString('pt-BR'));
+  animateValue(document.getElementById('kpiEvid'),0,totalEvid,1200,v=>Math.floor(v).toLocaleString('pt-BR'));
+},300);
+document.getElementById('kpiNSC').textContent=totalNSC;
+document.getElementById('kpiNSCval').textContent=fmtM(totalNSCv)+' expostos';
+document.getElementById('kpiFatDet').textContent=DEVS.reduce((s,d)=>s+d.fe,0)+' exigiveis + '+DEVS.reduce((s,d)=>s+d.fp,0)+' prescritas';
+
+/* ===== SIDEBAR NAVIGATION ===== */
+document.getElementById('menuToggle').addEventListener('click',()=>{
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebarOverlay').classList.toggle('active');
+});
+document.getElementById('sidebarOverlay').addEventListener('click',()=>{
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebarOverlay').classList.remove('active');
+});
+const sections=document.querySelectorAll('section[id]');
+const navLinks=document.querySelectorAll('.sidebar-nav a');
+window.addEventListener('scroll',()=>{
+  let current='';
+  sections.forEach(s=>{if(window.scrollY>=s.offsetTop-100)current=s.getAttribute('id')});
+  navLinks.forEach(l=>{l.classList.remove('active');if(l.getAttribute('href')==='#'+current)l.classList.add('active')});
+});
+
+/* ===== THEME TOGGLE ===== */
+document.getElementById('themeToggle').addEventListener('click',()=>{
+  const h=document.documentElement;
+  const isDark=h.getAttribute('data-theme')==='dark';
+  h.setAttribute('data-theme',isDark?'light':'dark');
+  document.getElementById('themeToggle').innerHTML=isDark?'&#9790; Tema':'&#9788; Tema';
+});
+
+/* ===== ALERT TOGGLE ===== */
+document.getElementById('alertToggle').addEventListener('click',()=>{
+  const items=document.getElementById('alertItems');
+  const btn=document.getElementById('alertToggle');
+  if(items.style.display==='none'){items.style.display='flex';btn.textContent='Recolher'}
+  else{items.style.display='none';btn.textContent='Expandir'}
+});
+
+/* ===== EXPORT CSV ===== */
+document.getElementById('exportBtn').addEventListener('click',()=>{
+  const headers=['Sigla','Nome','CNPJ','Tipo','Val.Exigivel','Val.Atualizado','Forca','Fase','Faturas','Exigiveis','Prescritas','Score','CPRAC','Prescricao','Prox.Passo'];
+  let csv=headers.join(';')+'\n';
+  DEVS.forEach(d=>{csv+=[d.s,d.n,d.c,d.tr,d.ve.toFixed(2),d.va.toFixed(2),d.f,d.fs,d.ft,d.fe,d.fp,(d.sc*100).toFixed(0)+'%',d.cprac?'SIM':'NAO',d.pd||'',d.pr].join(';')+'\n'});
+  const blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});
+  const link=document.createElement('a');
+  link.href=URL.createObjectURL(blob);
+  link.download='PRODAM_Devedores_v5.0.csv';
+  link.click();
+});
+
+/* ===== FILTER RESET ===== */
+document.getElementById('filterReset').addEventListener('click',()=>{
+  document.querySelectorAll('#filters select').forEach(s=>s.value='');
+  document.getElementById('fBusca').value='';
+  render();
+});
+
+/* ===== TIMELINE ===== */
+(function buildTimeline(){
+  const urgent=DEVS.filter(d=>d.pdi!==null&&d.pdi>-60&&d.pdi<200&&d.ve>0).sort((a,b)=>a.pdi-b.pdi).slice(0,12);
+  const container=document.getElementById('prescTimeline');
+  let html='';
+  urgent.forEach(d=>{
+    const isU=d.pdi<0||d.pdi<=45;
+    html+='<div class="timeline-item'+(isU?' urgent':'')+'">';
+    html+='<div class="tl-date">'+(d.pdi<0?'VENCIDA D'+d.pdi:'D+'+d.pdi)+(d.pd?' ('+d.pd+')':'')+'</div>';
+    html+='<div class="tl-content"><strong>'+d.s+'</strong> &mdash; '+d.n+'</div>';
+    html+='<div class="tl-value">'+fmtM(d.ve)+'</div>';
+    html+='</div>';
+  });
+  container.innerHTML=html;
+})();
+
+/* ===== HEATMAP ===== */
+(function buildHeatmap(){
+  const scored=DEVS.filter(d=>d.sc>0).sort((a,b)=>b.sc-a.sc);
+  const container=document.getElementById('riskHeatmap');
+  let html='';
+  scored.forEach(d=>{
+    const score=d.sc;
+    let bg,color;
+    if(score>=0.8){bg='#0F172A';color='#C9A84C'}
+    else if(score>=0.6){bg='#334155';color='#E2E8F0'}
+    else if(score>=0.4){bg='#64748B';color='#F1F5F9'}
+    else if(score>=0.2){bg='#CBD5E1';color='#334155'}
+    else{bg='#F1F5F9';color='#94A3B8'}
+    html+='<div class="heatmap-cell" style="background:'+bg+';color:'+color+'" title="'+d.n+' — Score: '+(score*100).toFixed(0)+'% — '+fmtM(d.ve)+'">';
+    html+='<div class="hm-name">'+d.s+'</div>';
+    html+='<div class="hm-val">'+(score*100).toFixed(0)+'%</div>';
+    html+='</div>';
+  });
+  container.innerHTML=html;
+})();
+
+/* ===== TABLE LOGIC ===== */
+let sortCol=3,sortAsc=false;
+function getFiltered(){
+  const fT=document.getElementById('fTipo').value;
+  const fF=document.getElementById('fForca').value;
+  const fFs=document.getElementById('fFase').value;
+  const fP=document.getElementById('fPresc').value;
+  const fC=document.getElementById('fCprac').value;
+  const fB=document.getElementById('fBusca').value.toLowerCase();
+  return DEVS.filter(d=>{
+    if(fT&&!d.t.includes(fT))return false;
+    if(fF==='FORTE'&&d.f!=='FORTE')return false;
+    if(fF==='MEDIA'&&d.f!=='MÉDIA')return false;
+    if(fF==='FRACA'&&d.f!=='FRACA')return false;
+    if(fF==='SEM'&&['FORTE','MÉDIA','FRACA'].includes(d.f))return false;
+    if(fFs&&d.fs!==fFs)return false;
+    if(fP==='venc'&&(d.pdi===null||d.pdi>=0))return false;
+    if(fP==='urg'&&(d.pdi===null||d.pdi<0||d.pdi>90))return false;
+    if(fC==='sim'&&!d.cprac)return false;
+    if(fB&&!d.s.toLowerCase().includes(fB)&&!d.n.toLowerCase().includes(fB))return false;
+    return true;
+  });
+}
+function sortData(){
+  const data=getFiltered();
+  data.sort((a,b)=>{
+    let va2,vb2;
+    switch(sortCol){
+      case 0:va2=DEVS.indexOf(a);vb2=DEVS.indexOf(b);break;
+      case 1:va2=a.s;vb2=b.s;break;
+      case 3:va2=a.ve;vb2=b.ve;break;
+      case 4:va2=a.va;vb2=b.va;break;
+      case 7:va2=a.ft;vb2=b.ft;break;
+      case 10:va2=a.b2e26;vb2=b.b2e26;break;
+      case 11:va2=a.nsc;vb2=b.nsc;break;
+      case 12:va2=a.evid;vb2=b.evid;break;
+      case 13:va2=a.sc;vb2=b.sc;break;
+      case 16:va2=a.pdi!==null?a.pdi:9999;vb2=b.pdi!==null?b.pdi:9999;break;
+      default:va2=a.ve;vb2=b.ve;
+    }
+    if(typeof va2==='string')return sortAsc?va2.localeCompare(vb2):vb2.localeCompare(va2);
+    return sortAsc?va2-vb2:vb2-va2;
+  });
+  return data;
+}
+function render(){
+  const data=sortData();
+  const tbody=document.getElementById('tblBody');
+  let html='',totVE=0,totVA=0;
+  data.forEach((d,i)=>{
+    const prescTxt=d.pdi!==null?(d.pdi<0?'D'+d.pdi:'D+'+d.pdi)+(d.pd?' ('+d.pd+')':''):'&mdash;';
+    const al=d.pdi===null?'':'<span class="alerta '+(d.pdi<0?'alerta-red':d.pdi<=90?'alerta-orange':d.pdi<=180?'alerta-yellow':'alerta-green')+'"></span>';
+    const blTxt=d.bltot>0?d.blok+'/'+d.bltot:'&mdash;';
+    totVE+=d.ve;totVA+=d.va;
+    html+='<tr>'
+      +'<td>'+(i+1)+'</td>'
+      +'<td title="'+d.n+'"><strong>'+d.s+'</strong></td>'
+      +'<td>'+d.tr+'</td>'
+      +'<td style="text-align:right;font-family:var(--font-mono);font-size:11px">'+fmtBRL(d.ve)+'</td>'
+      +'<td style="text-align:right;font-family:var(--font-mono);font-size:11px">'+fmtBRL(d.va)+'</td>'
+      +'<td>'+fTag(d.f)+'</td>'
+      +'<td>'+phTag(d.fs)+'</td>'
+      +'<td style="text-align:center">'+d.ft+'</td>'
+      +'<td style="text-align:center">'+d.fe+'</td>'
+      +'<td style="text-align:center">'+d.fp+'</td>'
+      +'<td style="text-align:right;font-family:var(--font-mono);font-size:11px">'+(d.b2e26>0?fmtBRL(d.b2e26):'&mdash;')+'</td>'
+      +'<td style="text-align:center;color:'+(d.nsc>0?'var(--danger)':'inherit')+';font-weight:'+(d.nsc>0?'700':'400')+'">'+d.nsc+'</td>'
+      +'<td style="text-align:center">'+d.evid+'</td>'
+      +'<td style="text-align:center">'+(d.sc>0?'<span style="font-family:var(--font-mono)">'+(d.sc*100).toFixed(0)+'%</span>':'&mdash;')+'</td>'
+      +'<td style="text-align:center">'+(d.cprac?'<span class="tag tag-cprac">SIM</span>':'&mdash;')+'</td>'
+      +'<td style="text-align:center">'+blTxt+'</td>'
+      +'<td style="font-family:var(--font-mono);font-size:11px">'+prescTxt+'</td>'
+      +'<td style="text-align:center">'+al+'</td>'
+      +'<td style="font-size:11px;max-width:140px;overflow:hidden;text-overflow:ellipsis" title="'+(d.pr||'')+'">'+(d.pr||'&mdash;')+'</td>'
+      +'</tr>';
+  });
+  html+='<tr class="total"><td></td><td><strong>TOTAL ('+data.length+')</strong></td><td></td>'
+    +'<td style="text-align:right;font-family:var(--font-mono)">'+fmtBRL(totVE)+'</td>'
+    +'<td style="text-align:right;font-family:var(--font-mono)">'+fmtBRL(totVA)+'</td>'
+    +'<td colspan="14"></td></tr>';
+  tbody.innerHTML=html;
+  document.getElementById('tblCount').textContent=data.length+' registros';
+}
+document.querySelectorAll('#filters select, #filters input').forEach(el=>el.addEventListener(el.tagName==='INPUT'?'input':'change',render));
+document.querySelectorAll('th[data-col]').forEach(th=>th.addEventListener('click',()=>{
+  const col=parseInt(th.dataset.col);
+  document.querySelectorAll('th').forEach(t=>t.classList.remove('sorted'));
+  th.classList.add('sorted');
+  if(col===sortCol)sortAsc=!sortAsc;else{sortCol=col;sortAsc=false}
+  th.querySelector('.sort-arrow').innerHTML=sortAsc?'&#9650;':'&#9660;';
+  render();
+}));
+render();
+
+/* ===== CHARTS ===== */
+
+// 1. Top 15 Ranking
+const top15=[...DEVS].sort((a,b)=>b.ve-a.ve).slice(0,15);
+new Chart(document.getElementById('chartRanking'),{
+  type:'bar',
+  data:{labels:top15.map(d=>d.s),datasets:[
+    {label:'Val. Exigivel',data:top15.map(d=>d.ve),backgroundColor:top15.map((d,i)=>`rgba(15,23,42,${1-i*0.04})`),borderRadius:6},
+    {label:'Val. Atualizado',data:top15.map(d=>d.va),backgroundColor:top15.map((d,i)=>`rgba(201,168,76,${0.6-i*0.02})`),borderRadius:6}
+  ]},
+  options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',
+    plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtBRL(ctx.raw)}},legend:{position:'top'}},
+    scales:{x:{ticks:{callback:v=>fmtM(v)},grid:{color:'rgba(0,0,0,0.04)'}},y:{grid:{display:false}}}
+  }
+});
+
+// 2. Forca probatoria
+const fqData=[12,15,35,9];
+const fqLabels=['FORTE (12)','MEDIA (15)','FRACA (35)','Sem (9)'];
+const fqCores=[PAL.primary,PAL.muted,PAL.light,'#E2E8F0'];
+const fvData=[104556870,8958896,7996732,0];
+new Chart(document.getElementById('chartForcaQtd'),{type:'doughnut',data:{labels:fqLabels,datasets:[{data:fqData,backgroundColor:fqCores,borderWidth:3,borderColor:'#fff',hoverOffset:8}]},options:{responsive:true,maintainAspectRatio:false,cutout:'65%',plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:12}},title:{display:true,text:'Por Quantidade',font:{size:13,weight:'600'},padding:{bottom:8}}}}});
+new Chart(document.getElementById('chartForcaVal'),{type:'doughnut',data:{labels:fqLabels,datasets:[{data:fvData,backgroundColor:fqCores,borderWidth:3,borderColor:'#fff',hoverOffset:8}]},options:{responsive:true,maintainAspectRatio:false,cutout:'65%',plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:12}},tooltip:{callbacks:{label:ctx=>fmtBRL(ctx.raw)}},title:{display:true,text:'Por Valor',font:{size:13,weight:'600'},padding:{bottom:8}}}}});
+
+// 3. Pipeline
+const fLabels=["F0","F0_DIAGNOSTICO","F3","F5"];
+const fDescs={"F0":"(49 devs)","F0_DIAGNOSTICO":"(8 devs)","F3":"(9 devs)","F5":"(5 devs)"};
+const fCores={'F0':'#CBD5E1','F0_DIAGNOSTICO':'#FCD34D','F3':PAL.accent,'F5':PAL.primary};
+new Chart(document.getElementById('chartPipeline'),{type:'bar',data:{labels:fLabels.map(f=>f+(fDescs[f]?' '+fDescs[f]:'')),datasets:[
+  {label:'Devedores',data:fLabels.map(f=>FASES[f]?.c||0),backgroundColor:fLabels.map(f=>fCores[f]||'#ccc'),borderRadius:6,yAxisID:'y'},
+  {label:'Valor Exigivel',data:fLabels.map(f=>FASES[f]?.v||0),type:'line',borderColor:PAL.accent,backgroundColor:PAL.accent+'22',pointRadius:7,pointBackgroundColor:PAL.accent,pointBorderColor:'#fff',pointBorderWidth:2,yAxisID:'y1',tension:0.4,fill:true}
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:ctx=>ctx.datasetIndex===1?fmtM(ctx.raw):ctx.raw+' devedores'}}},scales:{y:{beginAtZero:true,position:'left',title:{display:true,text:'Devedores'},grid:{color:'rgba(0,0,0,0.04)'}},y1:{beginAtZero:true,position:'right',grid:{drawOnChartArea:false},ticks:{callback:v=>fmtM(v)},title:{display:true,text:'Valor'}}}}});
+
+// 4. Prescricao bubble
+const prescData=DEVS.filter(d=>d.pdi!==null&&d.pdi>-60&&d.pdi<1400&&d.ve>0).map(d=>({x:d.pdi,y:d.ve,label:d.s,r:Math.max(5,Math.min(25,Math.sqrt(d.ve/60000)))}));
+new Chart(document.getElementById('chartPresc'),{type:'bubble',data:{datasets:[{label:'Devedores',data:prescData,backgroundColor:prescData.map(p=>p.x<0?'rgba(220,38,38,0.5)':p.x<=90?'rgba(217,119,6,0.5)':p.x<=180?'rgba(201,168,76,0.5)':'rgba(22,163,74,0.5)'),borderColor:prescData.map(p=>p.x<0?PAL.danger:p.x<=90?PAL.warn:p.x<=180?PAL.accent:PAL.success),borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{const d=ctx.raw;return d.label+': '+fmtM(d.y)+' ('+(d.x<0?'VENCIDA D'+d.x:'D+'+d.x)+')'}}}},scales:{x:{title:{display:true,text:'Dias ate prescricao (negativo = vencida)',font:{weight:'600'}},grid:{color:ctx=>ctx.tick&&ctx.tick.value===0?PAL.danger:'rgba(0,0,0,0.04)',lineWidth:ctx=>ctx.tick&&ctx.tick.value===0?2:1}},y:{title:{display:true,text:'Valor exigivel',font:{weight:'600'}},ticks:{callback:v=>fmtM(v)},grid:{color:'rgba(0,0,0,0.04)'}}}}});
+
+// 5. Faturamento x Recebimento
+const topFat=[...DEVS].filter(d=>d.fat>0).sort((a,b)=>b.fat-a.fat).slice(0,10);
+new Chart(document.getElementById('chartFatRec'),{type:'bar',data:{labels:topFat.map(d=>d.s),datasets:[
+  {label:'Faturamento',data:topFat.map(d=>d.fat),backgroundColor:PAL.primary+'cc',borderRadius:6},
+  {label:'Recebimento',data:topFat.map(d=>d.rec),backgroundColor:PAL.success+'aa',borderRadius:6}
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtM(ctx.raw)+' ('+topFat[ctx.dataIndex].tp+'%)'}}},scales:{y:{ticks:{callback:v=>fmtM(v)},grid:{color:'rgba(0,0,0,0.04)'}},x:{grid:{display:false}}}}});
+
+// 6. Empenhos 2026
+const topEmp=[...DEVS].filter(d=>d.b2e26>0).sort((a,b)=>b.b2e26-a.b2e26).slice(0,12);
+new Chart(document.getElementById('chartEmp26'),{type:'bar',data:{labels:topEmp.map(d=>d.s),datasets:[
+  {label:'Empenhado 2026',data:topEmp.map(d=>d.b2e26),backgroundColor:PAL.muted+'cc',borderRadius:6},
+  {label:'NE s/ Cobertura',data:topEmp.map(d=>d.nscv),backgroundColor:PAL.danger+'aa',borderRadius:6}
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtBRL(ctx.raw)}}},scales:{y:{ticks:{callback:v=>fmtM(v)},grid:{color:'rgba(0,0,0,0.04)'}},x:{grid:{display:false}}}}});
+
+// 7. Cenarios
+new Chart(document.getElementById('chartCenarios'),{type:'bar',data:{labels:['Conservador (20%)','Base (40%)','Otimista (70%)'],datasets:[
+  {label:'Recuperado',data:[CENARIOS.conservador.rec,CENARIOS.base.rec,CENARIOS.otimista.rec],backgroundColor:[PAL.light,PAL.muted,PAL.primary],borderRadius:6},
+  {label:'Fee (20%)',data:[CENARIOS.conservador.fee,CENARIOS.base.fee,CENARIOS.otimista.fee],backgroundColor:PAL.accent,borderRadius:6}
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': '+fmtBRL(ctx.raw)}}},scales:{y:{ticks:{callback:v=>fmtM(v)},grid:{color:'rgba(0,0,0,0.04)'}},x:{grid:{display:false}}}}});
+
+// 8. NEs sem cobertura
+const nscDevs=[...DEVS].filter(d=>d.nsc>0).sort((a,b)=>b.nscv-a.nscv);
+new Chart(document.getElementById('chartNSC'),{type:'bar',data:{labels:nscDevs.map(d=>d.s+' ('+d.nsc+' NEs)'),datasets:[{label:'Valor NEs s/ Cobertura',data:nscDevs.map(d=>d.nscv),backgroundColor:PAL.danger+'bb',borderRadius:6,borderColor:PAL.danger,borderWidth:1}]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:ctx=>fmtBRL(ctx.raw)}}},scales:{y:{ticks:{callback:v=>fmtM(v)},grid:{color:'rgba(0,0,0,0.04)'}},x:{grid:{display:false}}}}});
+
+// 9. Vias processuais
+const viasData={'CPRAC Elegivel':DEVS.filter(d=>d.cprac).length,'Transacao Referendada':DEVS.filter(d=>d.transacao).length,'Peticao (F5)':DEVS.filter(d=>d.fs==='F5').length,'TRD (F3)':DEVS.filter(d=>d.fs==='F3').length,'Diagnostico':DEVS.filter(d=>d.fs==='F0_DIAGNOSTICO').length,'Triagem (F0)':DEVS.filter(d=>d.fs==='F0').length};
+new Chart(document.getElementById('chartVias'),{type:'bar',data:{labels:Object.keys(viasData),datasets:[{label:'Devedores',data:Object.values(viasData),backgroundColor:[PAL.accent,'#92400E',PAL.primary,PAL.muted,'#FCD34D','#CBD5E1'],borderRadius:6}]},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,grid:{color:'rgba(0,0,0,0.04)'}},y:{grid:{display:false}}}}});
+
+// 10. Padrao inadimplencia
+const padData=DEVS.reduce((acc,d)=>{if(d.pi&&d.pi!=='—'){if(!acc[d.pi])acc[d.pi]={count:0,val:0};acc[d.pi].count++;acc[d.pi].val+=d.ve}return acc},{});
+const padLabels=Object.keys(padData);
+const padCores={'CRONICO':PAL.danger,'INTERMITENTE':PAL.warn,'RECENTE':PAL.accent,'PONTUAL':PAL.success};
+new Chart(document.getElementById('chartPadrao'),{type:'bar',data:{labels:padLabels.map(p=>p+' ('+padData[p].count+')'),datasets:[
+  {label:'Devedores',data:padLabels.map(p=>padData[p].count),backgroundColor:padLabels.map(p=>padCores[p]||PAL.light),borderRadius:6,yAxisID:'y'},
+  {label:'Valor Exigivel',data:padLabels.map(p=>padData[p].val),type:'line',borderColor:PAL.primary,pointRadius:7,pointBackgroundColor:PAL.primary,pointBorderColor:'#fff',pointBorderWidth:2,yAxisID:'y1',tension:0.4}
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:ctx=>ctx.datasetIndex===1?fmtM(ctx.raw):ctx.raw+' devedores'}}},scales:{y:{beginAtZero:true,position:'left',title:{display:true,text:'Devedores'},grid:{color:'rgba(0,0,0,0.04)'}},y1:{beginAtZero:true,position:'right',grid:{drawOnChartArea:false},ticks:{callback:v=>fmtM(v)},title:{display:true,text:'Valor'}}}}});
+
+/* ===== INTERSECTION OBSERVER ===== */
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}})},{threshold:0.1});
+document.querySelectorAll('.animate-in').forEach(el=>observer.observe(el));
+
+/* ===== SMOOTH SCROLL ===== */
+document.querySelectorAll('.sidebar-nav a').forEach(link=>{
+  link.addEventListener('click',e=>{
+    e.preventDefault();
+    const target=document.querySelector(link.getAttribute('href'));
+    if(target){target.scrollIntoView({behavior:'smooth',block:'start'});document.getElementById('sidebar').classList.remove('open');document.getElementById('sidebarOverlay').classList.remove('active')}
+  });
+});
+
+
+
+/* ===== RECONCILIACAO CHARTS ===== */
+
+// Reconciliation data
+const RECON_DATA = [
+  {dev:"SEDUC",fat:128,spcf:56040239.62,prof:38705633.18,div:44.8,st:"CRITICAL"},
+  {dev:"DETRAN",fat:202,spcf:20848440.34,prof:22745276.48,div:8.3,st:"MAJOR"},
+  {dev:"SES/SUSAM",fat:215,spcf:11877761.92,prof:22406424.64,div:47.0,st:"CRITICAL"},
+  {dev:"SSP",fat:181,spcf:10725242.83,prof:12532319.38,div:14.4,st:"MAJOR"},
+  {dev:"SEAD",fat:97,spcf:5293077.30,prof:2772731.09,div:90.9,st:"CRITICAL"},
+  {dev:"SEJUSC",fat:158,spcf:2671397.51,prof:3025777.73,div:11.7,st:"MAJOR"},
+  {dev:"SEDECTI",fat:145,spcf:1931906.33,prof:2012035.99,div:4.0,st:"MINOR"},
+  {dev:"PGE",fat:55,spcf:1396512.22,prof:849643.14,div:64.4,st:"CRITICAL"},
+  {dev:"CETAM",fat:15,spcf:1256564.27,prof:1256564.28,div:0.0,st:"MATCH"},
+  {dev:"CAIXA",fat:71,spcf:988460.57,prof:844328.88,div:17.1,st:"MAJOR"},
+  {dev:"BANCO MASTER",fat:57,spcf:967386.73,prof:889270.87,div:8.8,st:"MAJOR"},
+  {dev:"FENIXSOFT",fat:14,spcf:934800.00,prof:888250.00,div:5.2,st:"MAJOR"},
+  {dev:"POL.CIVIL",fat:50,spcf:742177.44,prof:1066717.79,div:30.4,st:"CRITICAL"},
+  {dev:"SUHAB",fat:107,spcf:636026.33,prof:710644.00,div:10.5,st:"MAJOR"},
+  {dev:"PROVER",fat:52,spcf:614024.90,prof:549105.70,div:11.8,st:"MAJOR"},
+  {dev:"FAAR/SEDEL",fat:118,spcf:525860.25,prof:877764.20,div:40.1,st:"CRITICAL"},
+  {dev:"SETRAB",fat:75,spcf:505899.62,prof:505961.79,div:0.0,st:"MATCH"},
+  {dev:"SEAS",fat:47,spcf:391239.28,prof:474659.77,div:17.6,st:"MAJOR"},
+  {dev:"AMAZONPREV",fat:9,spcf:366572.61,prof:777884.59,div:52.9,st:"CRITICAL"},
+  {dev:"SEMIG",fat:37,spcf:337858.93,prof:0,div:100.0,st:"CRITICAL"},
+  {dev:"IDAM",fat:17,spcf:315872.02,prof:505375.17,div:37.5,st:"CRITICAL"},
+  {dev:"IPAAM",fat:27,spcf:273039.16,prof:465482.72,div:41.3,st:"CRITICAL"},
+  {dev:"FHAJ",fat:65,spcf:221017.27,prof:304898.42,div:27.5,st:"CRITICAL"},
+  {dev:"FCECON",fat:33,spcf:220905.77,prof:581141.44,div:62.0,st:"CRITICAL"},
+  {dev:"ADS",fat:108,spcf:211657.45,prof:211657.47,div:0.0,st:"MATCH"},
+  {dev:"SEC",fat:20,spcf:189021.90,prof:152126.16,div:24.2,st:"CRITICAL"},
+  {dev:"IKM DE",fat:19,spcf:183622.37,prof:116263.60,div:57.9,st:"CRITICAL"},
+  {dev:"CPA",fat:6,spcf:165830.96,prof:165830.96,div:0.0,st:"MATCH"},
+  {dev:"ANOREG",fat:18,spcf:153232.43,prof:102267.91,div:49.8,st:"CRITICAL"},
+  {dev:"ADAF",fat:40,spcf:149600.91,prof:149600.91,div:0.0,st:"MATCH"},
+  {dev:"SEINFRA",fat:20,spcf:140474.81,prof:294139.13,div:52.2,st:"CRITICAL"},
+  {dev:"CASA CIVIL",fat:28,spcf:93859.53,prof:0,div:100.0,st:"CRITICAL"},
+  {dev:"SEPROR",fat:21,spcf:87687.72,prof:103810.40,div:15.5,st:"MAJOR"},
+  {dev:"SECT",fat:21,spcf:80571.09,prof:222910.14,div:63.9,st:"CRITICAL"},
+  {dev:"FVS",fat:11,spcf:78304.05,prof:253753.07,div:69.1,st:"CRITICAL"},
+  {dev:"BANCO BMG",fat:16,spcf:69731.50,prof:39242.00,div:77.7,st:"CRITICAL"},
+  {dev:"FUAM/FUHAM",fat:9,spcf:63306.61,prof:368561.63,div:82.8,st:"CRITICAL"},
+  {dev:"BMC",fat:6,spcf:58142.00,prof:58142.00,div:0.0,st:"MATCH"},
+  {dev:"AADESAM",fat:25,spcf:49045.38,prof:125682.90,div:61.0,st:"CRITICAL"},
+  {dev:"ITRANSITO",fat:13,spcf:48750.39,prof:38360.67,div:27.1,st:"CRITICAL"},
+  {dev:"SNPH",fat:29,spcf:46521.21,prof:17526.63,div:165.4,st:"CRITICAL"},
+  {dev:"SEFAZ",fat:8,spcf:39087.87,prof:188362.64,div:79.2,st:"CRITICAL"},
+  {dev:"ARSEPAM",fat:26,spcf:39082.71,prof:35923.02,div:8.8,st:"MAJOR"},
+  {dev:"FUNTEA",fat:17,spcf:36302.38,prof:23998.67,div:51.3,st:"CRITICAL"},
+  {dev:"ASSOC.GESTAO",fat:6,spcf:34760.79,prof:34760.79,div:0.0,st:"MATCH"},
+  {dev:"BANCO SICOOB",fat:22,spcf:33732.00,prof:30290.00,div:11.4,st:"MAJOR"},
+  {dev:"SEMA",fat:14,spcf:32656.40,prof:35326.64,div:7.6,st:"MAJOR"},
+  {dev:"DPE",fat:6,spcf:28060.04,prof:28060.05,div:0.0,st:"MATCH"},
+  {dev:"FMPES",fat:2,spcf:27264.57,prof:27264.57,div:0.0,st:"MATCH"},
+  {dev:"CGE",fat:8,spcf:25693.34,prof:25693.37,div:0.0,st:"MATCH"},
+  {dev:"CBMAM",fat:23,spcf:24824.72,prof:27570.74,div:10.0,st:"MAJOR"},
+  {dev:"PSA TECH",fat:1,spcf:21007.21,prof:21007.21,div:0.0,st:"MATCH"},
+  {dev:"BANCO SAFRA",fat:11,spcf:20994.00,prof:9310.00,div:125.5,st:"CRITICAL"},
+  {dev:"SUL AMERICA",fat:21,spcf:19758.00,prof:18196.00,div:8.6,st:"MAJOR"},
+  {dev:"PMAM",fat:13,spcf:17759.11,prof:24351.49,div:27.1,st:"CRITICAL"},
+  {dev:"JUCEA",fat:6,spcf:16154.45,prof:0,div:100.0,st:"CRITICAL"},
+  {dev:"B23 TECH",fat:3,spcf:11892.24,prof:11892.24,div:0.0,st:"MATCH"},
+  {dev:"EASYTECH",fat:12,spcf:9558.34,prof:6927.16,div:38.0,st:"CRITICAL"},
+  {dev:"COSAMA",fat:5,spcf:9172.72,prof:0,div:100.0,st:"CRITICAL"},
+  {dev:"ODONTOMED",fat:18,spcf:9044.00,prof:7541.10,div:19.9,st:"MAJOR"},
+  {dev:"FHEMOAM",fat:8,spcf:3726.51,prof:7743.77,div:51.9,st:"CRITICAL"},
+  {dev:"IMPR.OFICIAL",fat:1,spcf:3104.96,prof:0,div:100.0,st:"CRITICAL"},
+  {dev:"AFEAM",fat:1,spcf:2973.25,prof:0,div:100.0,st:"CRITICAL"},
+  {dev:"CASA MILITAR",fat:1,spcf:2784.24,prof:0,div:100.0,st:"CRITICAL"},
+  {dev:"CIAMA",fat:1,spcf:2784.24,prof:0,div:100.0,st:"CRITICAL"}
+];
+
+// Populate reconciliation table
+(function(){
+  const tbody=document.getElementById('tblReconBody');
+  if(!tbody) return;
+  RECON_DATA.forEach((r,i)=>{
+    const diff=r.spcf-r.prof;
+    const diffClass=diff>=0?'val-pos':'val-neg';
+    const arrow=diff>=0?'\u25B2':'\u25BC';
+    const stMap={MATCH:'status-ok',MINOR:'status-minor',MAJOR:'status-major',CRITICAL:'status-critical'};
+    const stLabel={MATCH:'OK',MINOR:'MINOR',MAJOR:'MAJOR',CRITICAL:'CRITICAL'};
+    const nota=r.st==='MATCH'?'Valores conferem':Math.abs(diff)>1000000?'Investigar divergencia':'Verificar';
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td>${i+1}</td><td style="font-weight:600">${r.dev}</td><td>${r.fat}</td><td style="font-family:var(--font-mono);font-size:11px">R$ ${r.spcf.toLocaleString('pt-BR',{minimumFractionDigits:2})}</td><td style="font-family:var(--font-mono);font-size:11px">R$ ${r.prof.toLocaleString('pt-BR',{minimumFractionDigits:2})}</td><td class="${diffClass}" style="font-family:var(--font-mono);font-size:11px">${arrow} R$ ${Math.abs(diff).toLocaleString('pt-BR',{minimumFractionDigits:2})}</td><td style="font-weight:600">${r.div.toFixed(1)}%</td><td><span class="${stMap[r.st]||'status-major'}">${stLabel[r.st]||r.st}</span></td><td style="font-size:11px;color:var(--text-secondary)">${nota}</td>`;
+    tbody.appendChild(tr);
+  });
+})();
+
+// Chart: Reconciliation Status (Doughnut)
+(function(){
+  const ctx=document.getElementById('chartReconStatus');
+  if(!ctx) return;
+  const counts={MATCH:0,MINOR:0,MAJOR:0,CRITICAL:0};
+  RECON_DATA.forEach(r=>counts[r.st]=(counts[r.st]||0)+1);
+  new Chart(ctx,{
+    type:'doughnut',
+    data:{
+      labels:['Match (<1%)','Minor (1-5%)','Major (5-20%)','Critical (>20%)'],
+      datasets:[{
+        data:[counts.MATCH,counts.MINOR,counts.MAJOR,counts.CRITICAL],
+        backgroundColor:['#16A34A','#2563EB','#D97706','#DC2626'],
+        borderWidth:0,
+        hoverOffset:8
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'bottom',labels:{font:{size:11,family:'Inter'},padding:12,usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.label+': '+c.raw+' devedores ('+((c.raw/RECON_DATA.length)*100).toFixed(0)+'%)'}}}
+      },
+      cutout:'65%'
+    }
+  });
+})();
+
+// Chart: Top 15 Divergences (Horizontal Bar)
+(function(){
+  const ctx=document.getElementById('chartReconDiverg');
+  if(!ctx) return;
+  const sorted=[...RECON_DATA].sort((a,b)=>Math.abs(b.spcf-b.prof)-Math.abs(a.spcf-a.prof)).slice(0,15);
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:sorted.map(r=>r.dev),
+      datasets:[{
+        label:'SPCF > Profiles',
+        data:sorted.map(r=>r.spcf>r.prof?(r.spcf-r.prof)/1e6:0),
+        backgroundColor:'rgba(22,163,74,0.7)',
+        borderRadius:4
+      },{
+        label:'Profiles > SPCF',
+        data:sorted.map(r=>r.prof>r.spcf?(r.prof-r.spcf)/1e6:0),
+        backgroundColor:'rgba(220,38,38,0.7)',
+        borderRadius:4
+      }]
+    },
+    options:{
+      indexAxis:'y',
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{font:{size:11,family:'Inter'},usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.dataset.label+': R$ '+c.raw.toFixed(2)+'M'}}}
+      },
+      scales:{
+        x:{title:{display:true,text:'Divergencia (R$ milhoes)',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}},
+        y:{ticks:{font:{size:10,weight:'600'}},grid:{display:false}}
+      }
+    }
+  });
+})();
+
+// Chart: Inconsistencies by Debtor
+(function(){
+  const ctx=document.getElementById('chartInconsist');
+  if(!ctx) return;
+  const data=[
+    {dev:'SEJUSC',val:101},{dev:'SSP',val:99},{dev:'ADS',val:99},{dev:'SUHAB',val:89},
+    {dev:'SEJEL',val:87},{dev:'SES',val:78},{dev:'SETRAB',val:75},{dev:'DETRAN',val:53},
+    {dev:'POL.CIVIL',val:36},{dev:'SEAD',val:35}
+  ];
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:data.map(d=>d.dev),
+      datasets:[{
+        label:'PAGA_EM_DEVIDAS',
+        data:data.map(d=>d.val),
+        backgroundColor:data.map(d=>d.val>90?'rgba(220,38,38,0.7)':d.val>60?'rgba(217,119,6,0.7)':'rgba(37,99,235,0.7)'),
+        borderRadius:4
+      }]
+    },
+    options:{
+      indexAxis:'y',
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:function(c){return c.raw+' faturas inconsistentes'}}}
+      },
+      scales:{
+        x:{title:{display:true,text:'Faturas PAGA_EM_DEVIDAS',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}},
+        y:{ticks:{font:{size:10,weight:'600'}},grid:{display:false}}
+      }
+    }
+  });
+})();
+
+// Chart: Inadimplência Pattern
+(function(){
+  const ctx=document.getElementById('chartPadraoRecon');
+  if(!ctx) return;
+  new Chart(ctx,{
+    type:'doughnut',
+    data:{
+      labels:['PONTUAL (>80%)','INTERMITENTE (<80%)','RECENTE (<50%)','CRONICO (0%)'],
+      datasets:[{
+        data:[31,4,1,1],
+        backgroundColor:['#16A34A','#D97706','#DC2626','#7C3AED'],
+        borderWidth:0,
+        hoverOffset:8
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'bottom',labels:{font:{size:11,family:'Inter'},padding:12,usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.label+': '+c.raw+' devedores'}}}
+      },
+      cutout:'60%'
+    }
+  });
+})();
+
+// Chart: Faturas Cruzadas (Stacked Bar)
+(function(){
+  const ctx=document.getElementById('chartFatCruzadas');
+  if(!ctx) return;
+  const data=[
+    {dev:'SEDUC',vig:121,presc:7,crit:0},
+    {dev:'DETRAN',vig:158,presc:45,crit:0},
+    {dev:'SES',vig:170,presc:46,crit:0},
+    {dev:'SSP',vig:66,presc:115,crit:0},
+    {dev:'SEAD',vig:85,presc:13,crit:0},
+    {dev:'SEJUSC',vig:81,presc:83,crit:0},
+    {dev:'CETAM',vig:15,presc:0,crit:0},
+    {dev:'POL.CIVIL',vig:42,presc:9,crit:0},
+    {dev:'SUHAB',vig:71,presc:37,crit:13},
+    {dev:'SEDEL',vig:119,presc:0,crit:0},
+    {dev:'SETRAB',vig:27,presc:48,crit:0},
+    {dev:'SEAS',vig:47,presc:0,crit:0},
+    {dev:'UGPI',vig:16,presc:0,crit:0},
+    {dev:'SEC',vig:43,presc:6,crit:0},
+    {dev:'SEJEL',vig:22,presc:67,crit:0},
+    {dev:'ADS',vig:50,presc:61,crit:18},
+    {dev:'ADAF',vig:40,presc:0,crit:0},
+    {dev:'AADESAM',vig:8,presc:23,crit:0},
+    {dev:'FMT',vig:11,presc:6,crit:0},
+    {dev:'SEPROR',vig:16,presc:5,crit:3}
+  ];
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:data.map(d=>d.dev),
+      datasets:[
+        {label:'Vigentes',data:data.map(d=>d.vig),backgroundColor:'rgba(22,163,74,0.7)',borderRadius:2},
+        {label:'Prescritas',data:data.map(d=>d.presc),backgroundColor:'rgba(220,38,38,0.5)',borderRadius:2},
+        {label:'Criticas <90d',data:data.map(d=>d.crit),backgroundColor:'rgba(217,119,6,0.8)',borderRadius:2}
+      ]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{font:{size:11,family:'Inter'},usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{mode:'index',intersect:false}
+      },
+      scales:{
+        x:{stacked:true,ticks:{font:{size:9},maxRotation:45},grid:{display:false}},
+        y:{stacked:true,title:{display:true,text:'Faturas',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}}
+      }
+    }
+  });
+})();
+
+// Chart: Acao Recomendada
+(function(){
+  const ctx=document.getElementById('chartAcaoRecom');
+  if(!ctx) return;
+  const data=[
+    {acao:'EXECUTAR_TRD',qtd:442,pct:24.8},
+    {acao:'NOTIFICAR_TRD',qtd:427,pct:24.0},
+    {acao:'OBRIG.NAT.INVEST.',qtd:250,pct:14.1},
+    {acao:'HABILITACAO_LIQ.',qtd:195,pct:11.0},
+    {acao:'EXECUTAR',qtd:184,pct:10.3},
+    {acao:'OBRIG.NATURAL',qtd:101,pct:5.7},
+    {acao:'DESCARTAR',qtd:82,pct:4.6},
+    {acao:'MONITORAR',qtd:74,pct:4.2},
+    {acao:'NOTIF.IMEDIATO',qtd:24,pct:1.3}
+  ];
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:data.map(d=>d.acao),
+      datasets:[{
+        label:'Faturas',
+        data:data.map(d=>d.qtd),
+        backgroundColor:['#16A34A','#059669','#2563EB','#7C3AED','#0EA5E9','#6366F1','#94A3B8','#D97706','#DC2626'],
+        borderRadius:4
+      }]
+    },
+    options:{
+      indexAxis:'y',
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:function(c){return c.raw+' faturas ('+data[c.dataIndex].pct+'%)'}}}
+      },
+      scales:{
+        x:{title:{display:true,text:'Quantidade de Faturas',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}},
+        y:{ticks:{font:{size:10,weight:'600'}},grid:{display:false}}
+      }
+    }
+  });
+})();
+
+
+
+/* ===== V5.2 NEW CHARTS WITH REAL DATA ===== */
+
+const FC_DATA = [{"s": "SEDUC", "t": 128, "v": 120, "p": 8, "vv": 55763251.6, "vp": 276988.02, "vc": 61669985.86, "va": 61669985.86}, {"s": "DETRAN", "t": 202, "v": 201, "p": 1, "vv": 20845514.74, "vp": 2925.6, "vc": 21172257.68, "va": 26378697.98}, {"s": "SEAD", "t": 97, "v": 53, "p": 44, "vv": 4324421.32, "vp": 968655.98, "vc": 4943270.81, "va": 4943270.81}, {"s": "SES", "t": 215, "v": 74, "p": 141, "vv": 3657536.97, "vp": 8220224.95, "vc": 4082393.37, "va": 4082393.37}, {"s": "SSP", "t": 181, "v": 66, "p": 115, "vv": 2109084.3, "vp": 8616158.53, "vc": 2737496.05, "va": 2737496.05}, {"s": "SEJUSC", "t": 160, "v": 63, "p": 97, "vv": 1465553.64, "vp": 1205843.87, "vc": 2198786.7, "va": 2198786.7}, {"s": "CETAM", "t": 15, "v": 15, "p": 0, "vv": 1256564.27, "vp": 0, "vc": 1265568.76, "va": 1265568.76}, {"s": "SEDEL", "t": 119, "v": 119, "p": 0, "vv": 525860.25, "vp": 0, "vc": 711464.96, "va": 711464.96}, {"s": "POLICIA CIVIL", "t": 51, "v": 28, "p": 23, "vv": 452040.61, "vp": 290136.83, "vc": 619266.81, "va": 619266.81}, {"s": "SEAS", "t": 47, "v": 47, "p": 0, "vv": 391239.28, "vp": 0, "vc": 493420.13, "va": 493420.13}, {"s": "SUHAB", "t": 107, "v": 71, "p": 36, "vv": 373341.58, "vp": 262684.75, "vc": 623576.3, "va": 623576.3}, {"s": "UGPI", "t": 16, "v": 16, "p": 0, "vv": 353473.42, "vp": 0, "vc": 613734.03, "va": 613734.03}, {"s": "ADAF", "t": 40, "v": 40, "p": 0, "vv": 149600.91, "vp": 0, "vc": 187873.42, "va": 187873.42}, {"s": "SEJEL", "t": 89, "v": 22, "p": 67, "vv": 148182.88, "vp": 132059.37, "vc": 299544.71, "va": 299544.71}, {"s": "SEC", "t": 20, "v": 8, "p": 12, "vv": 115935.73, "vp": 73086.17, "vc": 138021.02, "va": 138021.02}, {"s": "ADS", "t": 110, "v": 29, "p": 81, "vv": 39934.15, "vp": 171723.3, "vc": 59590.9, "va": 59590.9}, {"s": "SEPROR", "t": 21, "v": 11, "p": 10, "vv": 39359.36, "vp": 48328.36, "vc": 54613.78, "va": 54613.78}, {"s": "FMT", "t": 17, "v": 11, "p": 6, "vv": 34354.4, "vp": 67936.91, "vc": 60391.53, "va": 60391.53}, {"s": "AADESAM", "t": 25, "v": 0, "p": 25, "vv": 0, "vp": 49045.38, "vc": 0, "va": 0}, {"s": "SETRAB", "t": 75, "v": 0, "p": 75, "vv": 0, "vp": 505899.62, "vc": 0, "va": 0}];
+
+const URGENCIAS_REAL = [{"devedor": "SUHAB", "faturas": 47, "valor": 578720.91, "prescreve_em": "06/12/2026", "dias": 22, "acao": "NOTIFICAR_5D"}, {"devedor": "SEPROR", "faturas": 5, "valor": 36457.31, "prescreve_em": "07/02/2027", "dias": 29, "acao": "NOTIFICAR_5D"}, {"devedor": "SEDEL", "faturas": 25, "valor": 121767.95, "prescreve_em": "02/12/2026", "dias": 40, "acao": "NOTIFICAR_5D"}, {"devedor": "ADS", "faturas": 15, "valor": 37417.22, "prescreve_em": "02/12/2026", "dias": 76, "acao": "NOTIFICAR_15D"}, {"devedor": "POLICIA CIVIL", "faturas": 7, "valor": 9268.3, "prescreve_em": "26/10/2026", "dias": 120, "acao": "NOTIFICAR_15D"}, {"devedor": "SSP", "faturas": 8, "valor": 10723.47, "prescreve_em": "25/10/2026", "dias": 120, "acao": "NOTIFICAR_15D"}, {"devedor": "SES", "faturas": 5, "valor": 487288.19, "prescreve_em": "24/09/2026", "dias": 152, "acao": "NOTIFICAR_15D"}, {"devedor": "SEJUSC", "faturas": 16, "valor": 553617.93, "prescreve_em": "02/12/2026", "dias": 197, "acao": "NOTIFICAR_15D"}, {"devedor": "DETRAN", "faturas": 53, "valor": 4557140.57, "prescreve_em": "15/02/2027", "dias": 209, "acao": "NOTIFICAR_15D"}, {"devedor": "SEAS", "faturas": 2, "valor": 4371.6, "prescreve_em": "24/11/2026", "dias": 237, "acao": "NOTIFICAR_15D"}, {"devedor": "FMT", "faturas": 4, "valor": 4509.89, "prescreve_em": "22/02/2027", "dias": 327, "acao": "NOTIFICAR_15D"}];
+
+const PRESC_MES = [{"mes": "01/2027", "faturas": 4, "valor": 7574.1}, {"mes": "01/2028", "faturas": 6, "valor": 463463.51}, {"mes": "01/2029", "faturas": 45, "valor": 921742.92}, {"mes": "01/2030", "faturas": 9, "valor": 2060334.02}, {"mes": "01/2031", "faturas": 23, "valor": 5788231.43}, {"mes": "02/2027", "faturas": 10, "valor": 98030.22}, {"mes": "02/2030", "faturas": 8, "valor": 3036007.47}, {"mes": "02/2031", "faturas": 66, "valor": 6957778.49}, {"mes": "03/2027", "faturas": 4, "valor": 94153.77}, {"mes": "03/2028", "faturas": 8, "valor": 27088.05}, {"mes": "03/2029", "faturas": 1, "valor": 1033.64}, {"mes": "03/2030", "faturas": 7, "valor": 3017632.09}];
+
+const CENARIOS_REAL = {"otimista_70pct": {"recuperado": 74996387.98, "fee_20pct": 14999277.6}, "base_40pct": {"recuperado": 42855078.85, "fee_20pct": 8571015.77}, "conservador_20pct": {"recuperado": 21427539.42, "fee_20pct": 4285507.88}};
+
+const ACAO_DIST = [{"acao": "DESCARTAR", "faturas": 741, "valor": 20891697.64}, {"acao": "EXECUTAR", "faturas": 6, "valor": 158360.75}, {"acao": "MONITORAR", "faturas": 762, "valor": 99767253.4}, {"acao": "NOTIFICAR_IMEDIATO", "faturas": 187, "valor": 6401283.34}, {"acao": "TRD", "faturas": 39, "valor": 810799.63}];
+
+// Chart: Portfolio Composition (Doughnut)
+(function(){
+  const ctx=document.getElementById('chartPortfolio');
+  if(!ctx) return;
+  new Chart(ctx,{
+    type:'doughnut',
+    data:{
+      labels:['Val Exigivel (R$ 121,5M)','Perdas SPCF (R$ 32,5M)','Fat Canceladas (R$ 54,5M)','NEs s/Cob (R$ 6,3M)'],
+      datasets:[{
+        data:[121.5,32.5,54.5,6.3],
+        backgroundColor:['#2563EB','#DC2626','#D97706','#16A34A'],
+        borderWidth:0,
+        hoverOffset:8
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'bottom',labels:{font:{size:11,family:'Inter'},padding:12,usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.label+' ('+((c.raw/214.8)*100).toFixed(1)+'%)'}}}
+      },
+      cutout:'60%'
+    }
+  });
+})();
+
+// Chart: Faturamento vs Recebimento Real
+(function(){
+  const ctx=document.getElementById('chartFatRecReal');
+  if(!ctx) return;
+  const devs=['SEDUC','DETRAN','SES','SSP','SEAD','SEJUSC','CETAM','SEDEL','SUHAB','SEAS'];
+  const fat=[326.1,157.0,139.4,70.8,46.7,7.6,52.3,0,4.0,4.4];
+  const rec=[535.1,195.7,267.2,118.3,82.2,9.2,51.0,0,10.6,6.3];
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:devs,
+      datasets:[
+        {label:'Faturamento (R$ M)',data:fat.map(v=>v),backgroundColor:'rgba(37,99,235,0.6)',borderRadius:3},
+        {label:'Recebimento (R$ M)',data:rec.map(v=>v),backgroundColor:'rgba(22,163,74,0.6)',borderRadius:3}
+      ]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{font:{size:11,family:'Inter'},usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.dataset.label+': R$ '+c.raw.toFixed(1)+'M'}}}
+      },
+      scales:{
+        x:{ticks:{font:{size:10},maxRotation:45},grid:{display:false}},
+        y:{title:{display:true,text:'R$ Milhoes',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}}
+      }
+    }
+  });
+})();
+
+// Chart: Faturas Detalhadas (Stacked Bar - Vigentes vs Prescritas)
+(function(){
+  const ctx=document.getElementById('chartFatDetalhadas');
+  if(!ctx) return;
+  const sorted=[...FC_DATA].sort((a,b)=>b.vv-a.vv);
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:sorted.map(d=>d.s),
+      datasets:[
+        {label:'Vigentes (R$)',data:sorted.map(d=>d.vv/1e6),backgroundColor:'rgba(22,163,74,0.7)',borderRadius:2},
+        {label:'Prescritas (R$)',data:sorted.map(d=>d.vp/1e6),backgroundColor:'rgba(220,38,38,0.5)',borderRadius:2}
+      ]
+    },
+    options:{
+      indexAxis:'y',
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{font:{size:11,family:'Inter'},usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.dataset.label+': R$ '+(c.raw).toFixed(2)+'M'}}}
+      },
+      scales:{
+        x:{stacked:true,title:{display:true,text:'R$ Milhoes',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}},
+        y:{stacked:true,ticks:{font:{size:10,weight:'600'}},grid:{display:false}}
+      }
+    }
+  });
+})();
+
+// Chart: Correção por Devedor
+(function(){
+  const ctx=document.getElementById('chartCorrecaoDev');
+  if(!ctx) return;
+  const sorted=[...FC_DATA].filter(d=>d.vc>0).sort((a,b)=>b.va-a.va);
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:sorted.map(d=>d.s),
+      datasets:[
+        {label:'Val Original (R$)',data:sorted.map(d=>d.vv/1e6),backgroundColor:'rgba(37,99,235,0.5)',borderRadius:2},
+        {label:'Val Corrigido SELIC (R$)',data:sorted.map(d=>d.vc/1e6),backgroundColor:'rgba(22,163,74,0.7)',borderRadius:2}
+      ]
+    },
+    options:{
+      indexAxis:'y',
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{font:{size:11,family:'Inter'},usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.dataset.label+': R$ '+(c.raw).toFixed(2)+'M'}}}
+      },
+      scales:{
+        x:{title:{display:true,text:'R$ Milhoes',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}},
+        y:{ticks:{font:{size:10,weight:'600'}},grid:{display:false}}
+      }
+    }
+  });
+})();
+
+// Populate faturas detalhadas table
+(function(){
+  const tbody=document.getElementById('tblFatDetBody');
+  if(!tbody) return;
+  const sorted=[...FC_DATA].sort((a,b)=>b.vv-a.vv);
+  sorted.forEach((d,i)=>{
+    const ganho=d.vc>0?((d.vc-d.vv)/d.vv*100):0;
+    const ganhoClass=ganho>0?'val-pos':'val-neg';
+    const tr=document.createElement('tr');
+    tr.innerHTML='<td>'+(i+1)+'</td><td style="font-weight:600">'+d.s+'</td><td>'+d.t+'</td><td style="color:var(--success);font-weight:600">'+d.v+'</td><td style="color:var(--danger)">'+d.p+'</td><td style="font-family:var(--font-mono);font-size:11px">R$ '+(d.vv/1e6).toFixed(2)+'M</td><td style="font-family:var(--font-mono);font-size:11px;color:var(--danger)">R$ '+(d.vp/1e6).toFixed(2)+'M</td><td style="font-family:var(--font-mono);font-size:11px">R$ '+(d.vc/1e6).toFixed(2)+'M</td><td style="font-family:var(--font-mono);font-size:11px;font-weight:700">R$ '+(d.va/1e6).toFixed(2)+'M</td><td class="'+ganhoClass+'" style="font-weight:600">'+(ganho>0?'+':'')+ganho.toFixed(1)+'%</td>';
+    tbody.appendChild(tr);
+  });
+})();
+
+// Populate urgencias container
+(function(){
+  const container=document.getElementById('urgenciasContainer');
+  if(!container) return;
+  URGENCIAS_REAL.sort((a,b)=>a.dias-b.dias).forEach(u=>{
+    const diasClass=u.dias<=30?'critico':u.dias<=90?'urgente':'normal';
+    const badgeClass=u.acao.includes('5D')?'not5':'not15';
+    const div=document.createElement('div');
+    div.className='urgencia-row';
+    div.innerHTML='<div class="urg-dias '+diasClass+'">D+'+u.dias+'</div><div class="urg-info"><div class="urg-dev">'+u.devedor+'</div><div class="urg-detail">'+u.faturas+' faturas &middot; Prescreve em '+u.prescreve_em+'</div></div><div class="urg-valor">R$ '+(u.valor/1e3).toFixed(1)+'K</div><div class="urg-acao"><span class="urg-badge '+badgeClass+'">'+u.acao+'</span></div>';
+    container.appendChild(div);
+  });
+})();
+
+// Chart: Prescrição por Mês
+(function(){
+  const ctx=document.getElementById('chartPrescMes');
+  if(!ctx) return;
+  const sorted=[...PRESC_MES].sort((a,b)=>{
+    const [ma,ya]=a.mes.split('/');const [mb,yb]=b.mes.split('/');
+    return (parseInt(ya)*100+parseInt(ma))-(parseInt(yb)*100+parseInt(mb));
+  });
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:sorted.map(d=>d.mes),
+      datasets:[{
+        label:'Faturas',
+        data:sorted.map(d=>d.faturas),
+        backgroundColor:sorted.map(d=>d.faturas>30?'rgba(220,38,38,0.7)':d.faturas>10?'rgba(217,119,6,0.7)':'rgba(37,99,235,0.7)'),
+        borderRadius:4,
+        yAxisID:'y'
+      },{
+        label:'Valor (R$ M)',
+        data:sorted.map(d=>d.valor/1e6),
+        type:'line',
+        borderColor:'#C9A84C',
+        backgroundColor:'rgba(201,168,76,0.1)',
+        pointBackgroundColor:'#C9A84C',
+        pointRadius:4,
+        borderWidth:2,
+        fill:true,
+        yAxisID:'y1'
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{font:{size:11,family:'Inter'},usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{mode:'index',intersect:false}
+      },
+      scales:{
+        x:{ticks:{font:{size:10}},grid:{display:false}},
+        y:{position:'left',title:{display:true,text:'Faturas',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}},
+        y1:{position:'right',title:{display:true,text:'R$ Milhoes',font:{size:11}},ticks:{font:{size:10}},grid:{display:false}}
+      }
+    }
+  });
+})();
+
+// Chart: Ações Recomendadas Real
+(function(){
+  const ctx=document.getElementById('chartAcaoReal');
+  if(!ctx) return;
+  const colors={'DESCARTAR':'#94A3B8','EXECUTAR':'#16A34A','MONITORAR':'#2563EB','NOTIFICAR_IMEDIATO':'#DC2626','TRD':'#D97706'};
+  new Chart(ctx,{
+    type:'doughnut',
+    data:{
+      labels:ACAO_DIST.map(a=>a.acao+' ('+a.faturas+')'),
+      datasets:[{
+        data:ACAO_DIST.map(a=>a.faturas),
+        backgroundColor:ACAO_DIST.map(a=>colors[a.acao]||'#64748B'),
+        borderWidth:0,
+        hoverOffset:8
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'bottom',labels:{font:{size:11,family:'Inter'},padding:12,usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){const a=ACAO_DIST[c.dataIndex];return a.acao+': '+a.faturas+' faturas (R$ '+(a.valor/1e6).toFixed(1)+'M)'}}}
+      },
+      cutout:'60%'
+    }
+  });
+})();
+
+// Chart: Cenários de Recuperação Real
+(function(){
+  const ctx=document.getElementById('chartCenariosReal');
+  if(!ctx) return;
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:['Conservador (20%)','Base (40%)','Otimista (70%)'],
+      datasets:[
+        {label:'Recuperado',data:[CENARIOS_REAL.conservador_20pct.recuperado/1e6,CENARIOS_REAL.base_40pct.recuperado/1e6,CENARIOS_REAL.otimista_70pct.recuperado/1e6],backgroundColor:['rgba(37,99,235,0.5)','rgba(37,99,235,0.7)','rgba(37,99,235,0.9)'],borderRadius:4},
+        {label:'Fee 20%',data:[CENARIOS_REAL.conservador_20pct.fee_20pct/1e6,CENARIOS_REAL.base_40pct.fee_20pct/1e6,CENARIOS_REAL.otimista_70pct.fee_20pct/1e6],backgroundColor:['rgba(201,168,76,0.5)','rgba(201,168,76,0.7)','rgba(201,168,76,0.9)'],borderRadius:4}
+      ]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{font:{size:11,family:'Inter'},usePointStyle:true,pointStyleWidth:8}},
+        tooltip:{callbacks:{label:function(c){return c.dataset.label+': R$ '+c.raw.toFixed(1)+'M'}}}
+      },
+      scales:{
+        x:{ticks:{font:{size:11}},grid:{display:false}},
+        y:{title:{display:true,text:'R$ Milhoes',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}}
+      }
+    }
+  });
+})();
+
+// Chart: Canceladas vs Perdas vs Empenhos
+(function(){
+  const ctx=document.getElementById('chartCancPerdas');
+  if(!ctx) return;
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:['Fat Canceladas','Perdas SPCF','Empenhos 2026','NEs s/Cobertura','SPCF Devidas','SPCF Aberto'],
+      datasets:[{
+        label:'R$ Milhoes',
+        data:[54.5,32.5,39.0,6.3,112.8,108.8],
+        backgroundColor:['#DC2626','#EF4444','#16A34A','#22C55E','#2563EB','#3B82F6'],
+        borderRadius:4
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:function(c){return 'R$ '+c.raw.toFixed(1)+'M'}}}
+      },
+      scales:{
+        x:{ticks:{font:{size:10},maxRotation:45},grid:{display:false}},
+        y:{title:{display:true,text:'R$ Milhoes',font:{size:11}},ticks:{font:{size:10}},grid:{color:'rgba(0,0,0,0.05)'}}
+      }
+    }
+  });
+})();
+
+</script>
+</body>
+</html>

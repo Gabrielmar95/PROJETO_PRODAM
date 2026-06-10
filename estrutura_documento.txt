@@ -1,0 +1,88 @@
+Estrutura do documento original:
+1 — DO OBJETO
+2 — DOS FATOS E DO HISTÓRICO CONTRATUAL
+  2.1 — Contratos celebrados entre as partes
+  2.2 — Volume da relação contratual
+3 — DO CRÉDITO CONSOLIDADO
+  3.1 — Demonstrativo de cálculo
+  3.2 — Detalhamento das faturas
+  3.3 — Distribuição por faixa de vencimento
+4 — DO TÍTULO EXECUTIVO
+  4.1 — Componentes do título executivo
+  4.2 — Condições de executividade
+5 — DA BLINDAGEM PRÉ-EXECUÇÃO
+  5.1 — Resultado por bloco de verificação
+  5.2 — Teses de defesa antecipadas e blindadas
+6 — DAS NOTAS DE EMPENHO E DO RECONHECIMENTO ORÇAMENTÁRIO
+  6.1 — Resumo das Notas de Empenho
+  6.2 — Principais Notas de Empenho
+  6.3 — Significado jurídico dos empenhos
+7 — DO RECONHECIMENTO TÁCITO DA DÍVIDA
+  7.1 — Indícios documentados de reconhecimento
+  7.2 — Evidências documentais
+  7.3 — Venire contra factum proprium
+  7.4 — Jurisprudência aplicável
+8 — DA CORREÇÃO MONETÁRIA E DOS ENCARGOS MORATÓRIOS
+  8.1 — Composição da atualização
+  8.2 — Demonstrativo de atualização
+9 — DO REGIME DE EXECUÇÃO APLICÁVEL
+  9.1 — Mecanismos de constrição patrimonial
+  9.2 — Inaplicabilidade do regime de precatórios
+10 — DA ANÁLISE DE VIABILIDADE DA EXECUÇÃO
+  10.1 — Fatores favoráveis à recuperação
+  10.2 — Valor esperado da recuperação
+11 — DA CONSTITUIÇÃO EM MORA E PRAZO PARA PAGAMENTO
+  11.1 — Opções disponíveis ao devedor
+12 — DAS CONSEQUÊNCIAS DO INADIMPLEMENTO
+13 — DA FUNDAMENTAÇÃO LEGAL
+  13.1 — Código de Processo Civil
+  13.2 — Código Civil
+  13.3 — Legislação complementar
+  13.4 — Precedentes jurisprudenciais
+14 — DO DOSSIÊ COMPROBATÓRIO
+15 — DO ENCERRAMENTO
+
+Itens a REMOVER:
+- 5 (inteiro) — DA BLINDAGEM PRÉ-EXECUÇÃO
+  - 5.1 — Resultado por bloco de verificação
+  - 5.2 — Teses de defesa antecipadas e blindadas
+- 6.3 — Significado jurídico dos empenhos
+- 7.3 — Venire contra factum proprium
+- 7.4 — Jurisprudência aplicável
+- 9 (inteiro) — DO REGIME DE EXECUÇÃO APLICÁVEL
+  - 9.1 — Mecanismos de constrição patrimonial
+  - 9.2 — Inaplicabilidade do regime de precatórios
+- 10 (inteiro) — DA ANÁLISE DE VIABILIDADE DA EXECUÇÃO
+  - 10.1 — Fatores favoráveis à recuperação
+  - 10.2 — Valor esperado da recuperação
+- 13 (inteiro) — DA FUNDAMENTAÇÃO LEGAL
+  - 13.1 — Código de Processo Civil
+  - 13.2 — Código Civil
+  (nota: 13.3 e 13.4 também devem ser removidos pois o item 13 inteiro sai)
+
+Nova numeração após remoção:
+1 — DO OBJETO (era 1)
+2 — DOS FATOS E DO HISTÓRICO CONTRATUAL (era 2)
+  2.1 — Contratos celebrados entre as partes
+  2.2 — Volume da relação contratual
+3 — DO CRÉDITO CONSOLIDADO (era 3)
+  3.1 — Demonstrativo de cálculo
+  3.2 — Detalhamento das faturas
+  3.3 — Distribuição por faixa de vencimento
+4 — DO TÍTULO EXECUTIVO (era 4)
+  4.1 — Componentes do título executivo
+  4.2 — Condições de executividade
+5 — DAS NOTAS DE EMPENHO E DO RECONHECIMENTO ORÇAMENTÁRIO (era 6)
+  5.1 — Resumo das Notas de Empenho (era 6.1)
+  5.2 — Principais Notas de Empenho (era 6.2)
+6 — DO RECONHECIMENTO TÁCITO DA DÍVIDA (era 7)
+  6.1 — Indícios documentados de reconhecimento (era 7.1)
+  6.2 — Evidências documentais (era 7.2)
+7 — DA CORREÇÃO MONETÁRIA E DOS ENCARGOS MORATÓRIOS (era 8)
+  7.1 — Composição da atualização (era 8.1)
+  7.2 — Demonstrativo de atualização (era 8.2)
+8 — DA CONSTITUIÇÃO EM MORA E PRAZO PARA PAGAMENTO (era 11)
+  8.1 — Opções disponíveis ao devedor (era 11.1)
+9 — DAS CONSEQUÊNCIAS DO INADIMPLEMENTO (era 12)
+10 — DO DOSSIÊ COMPROBATÓRIO (era 14)
+11 — DO ENCERRAMENTO (era 15)

@@ -1,0 +1,79 @@
+  "data_analise": "2026-04-01",
+  "periodo": "Até 31/03/2026",
+  "resumo_executivo": {
+    "titulo": "Análise Comparativa BLOCO 2 (Controle de Empenho) vs BLOCO 0 (Operacional)",
+    "fontes": {
+      "bloco2_empenhos": {
+        "nome": "Controle de Empenho (Gerencial)",
+        "registros": 248,
+        "clientes": 96
+      },
+      "bloco0_empenhos": {
+        "nome": "Empenhos (Tela Operacional)",
+        "registros": 9870,
+        "clientes": 110
+      },
+      "bloco2_orcamento": {
+        "nome": "Gerencial Orçamentário (Série 2018-2026)",
+        "anos": [
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "clientes": 179
+      }
+    }
+  },
+  "valores_consolidados": {
+    "bloco2_empenhos": {
+      "valor_global_contratos": 259680078.39,
+      "empenho_2025": 98722531.00000003,
+      "empenho_2026": 52459964.769999996,
+      "a_empenhar_2026": 65830919.470000006
+    },
+    "bloco0_empenhos": {
+      "valor_total_empenhado": 1072470794.0600008,
+      "nes_sem_cobertura_contratual_count": 60,
+      "nes_sem_cobertura_valor": 14936371.700000001
+    },
+    "bloco2_orcamento": {
+      "empenhado_total": 129967337161.0,
+      "liquidado_total": 115221772698.0,
+      "pago_total": 106695961845.0
+    }
+  },
+  "achados_criticos": [
+    {
+      "titulo": "SES/SUSAM - Empenhos SEM COBERTURA CONTRATUAL",
+      "severidade": "CRÍTICA",
+      "quantidade_nes": 32,
+      "valor_afetado": 6280031.139999997,
+      "implicacao": "Reconhecimento tácito de dívida pelo uso continuado de serviços",
+      "data_limite_resposta": "15/04/2026",
+      "data_prescricao_iminente": "13/05/2026"
+    },
+    {
+      "titulo": "Desincronização BLOCO 0 vs BLOCO 2",
+      "severidade": "ALTA",
+      "detalhes": "BLOCO 0 capta 9.870 NEs vs 248 linhas em BLOCO 2. BLOCO 0 inclui NEs SEM COBERTURA não visíveis em BLOCO 2.",
+      "recomendacao": "Priorizar BLOCO 0 para validação de reconhecimento"
+    }
+  ],
+  "campos_por_fonte": {
+    "bloco2_empenhos": [
+      "Cliente/Órgão",
+      "Contrato",
+      "Objeto",
+      "Assinatura",
+      "Vencimento",
+      "Valor Global",
+      "Valor 2025",
+      "Empenho 2025",
+      "Valor 2026",
+      "Empenho 2026",

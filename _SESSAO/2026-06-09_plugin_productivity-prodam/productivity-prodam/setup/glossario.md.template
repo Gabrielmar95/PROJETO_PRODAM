@@ -1,0 +1,29 @@
+# Glossário — Projeto PRODAM
+> Camada 2 da memória (armazenamento profundo). Gerado por `/start` e mantido por `/update`.
+
+## Siglas de Devedores
+{{DEVEDORES_SIGLAS}}
+<!-- preenchido de profiles.json: sigla → nome completo -->
+
+## Termos Jurídicos
+- Prescrição — perda da pretensão pelo decurso do prazo (5 anos, Art. 206 §5º I CC), contada do vencimento de cada fatura
+- Marco interruptivo — ato que reinicia a prescrição (rol taxativo do Art. 202 CC)
+- TRD — Termo de Reconhecimento de Dívida
+- Título executivo — composição documental Contrato + NE + NF + Atesto (REsp 793.969/RJ)
+- RPV — Requisição de Pequeno Valor
+- Precatório — requisição de pagamento contra a Fazenda Pública (Art. 100 CF)
+- Desconsideração da PJ — Art. 50 CC (empresas privadas devedoras)
+
+## Termos Técnicos / Dados
+- SPCF — sistema de origem dos dados financeiros (contratos, empenhos, faturas, NFs)
+- NE — Nota de Empenho (reconhecimento tácito, Art. 202 VI CC)
+- NL — Nota de Liquidação (Lei 4.320/64, arts. 63-65)
+- NF — Nota Fiscal
+- Procedência — P1 documento original · P2 parcial · P3 só registro SPCF
+
+## Próximo passo (estados do pipeline)
+{{PROXIMO_PASSO_ESTADOS}}
+<!-- ex.: ANALISAR_DOCUMENTACAO, CLASSIFICAR, ENVIAR_TRD, PROTOCOLAR_PETICAO ... -->
+
+## Fases
+F0-F9 — ver CLAUDE.md (workflow de cobrança).

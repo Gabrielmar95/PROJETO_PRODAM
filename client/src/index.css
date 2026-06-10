@@ -1,0 +1,2127 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ========================================================================
+   DESIGN SYSTEM — "Noturno Forense" (Dossier Luxury)
+   Brandão Ozores Advogados — DETRAN/AM Dashboard
+   Fonts: Cormorant Garamond (display) + Inter (body) + Fira Code (mono)
+   Palette: Preto absoluto + Dourado envelhecido + Marfim
+   ======================================================================== */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Domínio: cores forenses */
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-l);
+  --color-gold-dark: var(--gold-d);
+  --color-ivory: var(--t1);
+  --color-stone: var(--t2);
+  --color-slate: var(--t3);
+  --color-dust: var(--t4);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-err: var(--err);
+  --color-info: var(--info);
+  --color-purple: var(--purple);
+  --color-cyan: var(--cyan);
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "Fira Code", "SF Mono", Monaco, Consolas, monospace;
+
+  /* ========================================================================
+     S1 · TOKENS SEMÂNTICOS POR INTENÇÃO
+     Mapeie uma intenção para "o que aparece" em vez de referenciar uma cor bruta.
+     Intents: surface (fundos), line (bordas), ink (textos), signal (semânticas).
+     ======================================================================== */
+  /* Surfaces */
+  --color-surface-base: var(--bg-1);
+  --color-surface-raised: var(--bg-2);
+  --color-surface-overlay: var(--bg-3);
+  --color-surface-inset: var(--bg-4);
+  --color-surface-brand: color-mix(in oklch, var(--gold) 10%, var(--bg-2));
+  --color-surface-critical: color-mix(in oklch, var(--err) 18%, var(--bg-2));
+  --color-surface-success: color-mix(in oklch, var(--ok) 18%, var(--bg-2));
+  --color-surface-warning: color-mix(in oklch, var(--warn) 18%, var(--bg-2));
+  --color-surface-info: color-mix(in oklch, var(--info) 18%, var(--bg-2));
+
+  /* Lines */
+  --color-line-subtle: color-mix(in oklch, var(--gold) 18%, transparent);
+  --color-line-default: color-mix(in oklch, var(--gold) 28%, var(--border));
+  --color-line-strong: color-mix(in oklch, var(--gold) 55%, var(--border));
+  --color-line-critical: var(--err);
+  --color-line-success: var(--ok);
+
+  /* Ink (texto) por contraste */
+  --color-ink-primary: var(--t1);
+  --color-ink-secondary: var(--t2);
+  --color-ink-tertiary: var(--neutral-warm);
+  --color-ink-disabled: var(--t4);
+  --color-ink-brand: var(--gold);
+  --color-ink-onbrand: oklch(0.15 0 0);
+  --color-ink-critical: var(--err);
+  --color-ink-success: var(--ok);
+  --color-ink-warning: var(--warn);
+
+  /* Sombras institucionais (stacked com duas camadas para profundidade editorial) */
+  --shadow-xs: 0 1px 1px rgb(0 0 0 / 0.28);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.24), 0 1px 4px rgb(0 0 0 / 0.16);
+  --shadow-md: 0 4px 10px rgb(0 0 0 / 0.30), 0 2px 4px rgb(0 0 0 / 0.18);
+  --shadow-lg: 0 12px 30px rgb(0 0 0 / 0.38), 0 4px 8px rgb(0 0 0 / 0.24);
+  --shadow-xl: 0 24px 60px rgb(0 0 0 / 0.50), 0 8px 16px rgb(0 0 0 / 0.26);
+  --shadow-gold-halo: 0 0 0 1px color-mix(in oklch, var(--gold) 42%, transparent), 0 12px 30px color-mix(in oklch, var(--gold) 14%, transparent);
+
+  /* Escala de espaçamento (múltiplo de 4px; nomes por intenção) */
+  --space-micro: 2px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Escala de tipografia numérica (display) em rem; cada step ~1.125 */
+  --text-caption: 0.6875rem;   /* 11 */
+  --text-meta: 0.75rem;        /* 12 */
+  --text-body: 0.8125rem;      /* 13 */
+  --text-body-lg: 0.9375rem;   /* 15 */
+  --text-lead: 1.0625rem;      /* 17 */
+  --text-title-sm: 1.25rem;    /* 20 */
+  --text-title: 1.5rem;        /* 24 */
+  --text-title-lg: 1.875rem;   /* 30 */
+  --text-display-sm: 2.25rem;  /* 36 */
+  --text-display: 2.875rem;    /* 46 */
+
+  /* Escala de arredondamento */
+  --radius-pill: 9999px;
+
+  /* Tokens de densidade (definidos em :root e sobrescritos por [data-density]) */
+  --d-card-pad: 18px;
+  --d-card-gap: 18px;
+  --d-kpi-pad-y: 16px;
+  --d-row-pad-y: 8px;
+  --d-font-scale: 1;
+}
+
+:root {
+  --radius: 0.25rem;
+
+  /* Núcleo de fundo em preto com subtis variações */
+  --background: oklch(0.09 0.007 280);         /* #0A0A0F */
+  --foreground: oklch(0.94 0.012 75);          /* #F5F0E8 marfim */
+  --bg-1: oklch(0.09 0.007 280);               /* base */
+  --bg-2: oklch(0.12 0.008 280);               /* #12121A */
+  --bg-3: oklch(0.15 0.009 280);               /* #1A1A26 */
+  --bg-4: oklch(0.18 0.010 280);               /* #222230 */
+  --bg-sb: oklch(0.10 0.008 280);              /* sidebar */
+
+  /* Dourado envelhecido */
+  --gold: oklch(0.74 0.088 77);                /* #C5A55A */
+  --gold-l: oklch(0.80 0.095 78);              /* #D4B96E */
+  --gold-d: oklch(0.62 0.080 76);              /* #A08840 */
+  --gold-dd: oklch(0.50 0.070 75);             /* #7A6830 */
+
+  /* Texto tonal — calibrado para WCAG AA (4.5:1 sobre --bg-2) */
+  --t1: oklch(0.94 0.012 75);                  /* #F5F0E8 marfim */
+  --t2: oklch(0.78 0.015 80);                  /* #BDB59F pedra elevada */
+  --t3: oklch(0.65 0.018 78);                  /* #998E7A ardósia AA */
+  --t4: oklch(0.55 0.014 78);                  /* #7C7466 pó AA-borderline */
+  /* Cinza-quente neutro para meta-textos sem competir com o gold */
+  --neutral-warm: oklch(0.68 0.013 75);        /* #A39A8A */
+
+  /* Semânticas (sóbrias, não saturadas) */
+  --ok: oklch(0.68 0.115 140);                 /* #6BAF5E musgo */
+  --ok2: oklch(0.77 0.130 142);
+  --err: oklch(0.58 0.155 25);                 /* #D45555 bordô */
+  --warn: oklch(0.72 0.115 72);                /* #D4A03C âmbar */
+  --info: oklch(0.62 0.040 235);               /* #6B8FA8 azul-aço */
+  --purple: oklch(0.62 0.075 310);
+  --cyan: oklch(0.65 0.060 210);
+
+  /* Mapeamento shadcn/ui → Noturno Forense */
+  --card: var(--bg-2);
+  --card-foreground: var(--t1);
+  --popover: var(--bg-3);
+  --popover-foreground: var(--t1);
+  --primary: var(--gold);
+  --primary-foreground: oklch(0.15 0 0);
+  --secondary: var(--bg-3);
+  --secondary-foreground: var(--t1);
+  --muted: var(--bg-3);
+  --muted-foreground: var(--neutral-warm);
+  --accent: var(--bg-4);
+  --accent-foreground: var(--gold);
+  --destructive: var(--err);
+  --destructive-foreground: var(--t1);
+  --border: oklch(0.22 0.009 280);             /* #252535 */
+  --input: oklch(0.16 0.009 280);
+  --ring: var(--gold);
+
+  /* Charts (paleta dourada + acentos sóbrios) */
+  --chart-1: var(--gold);
+  --chart-2: var(--info);
+  --chart-3: var(--ok);
+  --chart-4: var(--warn);
+  --chart-5: var(--purple);
+
+  /* Sidebar */
+  --sidebar: var(--bg-sb);
+  --sidebar-foreground: var(--t2);
+  --sidebar-primary: var(--gold);
+  --sidebar-primary-foreground: var(--bg-1);
+  --sidebar-accent: var(--bg-3);
+  --sidebar-accent-foreground: var(--gold);
+  --sidebar-border: oklch(0.22 0.009 280);
+  --sidebar-ring: var(--gold);
+}
+
+/* ========================================================================
+   S2 · DENSIDADE ADAPTÁVEL (Compacto / Conforto / Detalhado)
+   Aplicada via atributo data-density no <html>. Persistida em localStorage.
+   ======================================================================== */
+:root[data-density="compact"] {
+  --d-card-pad: 12px;
+  --d-card-gap: 12px;
+  --d-kpi-pad-y: 12px;
+  --d-row-pad-y: 5px;
+  --d-font-scale: 0.94;
+}
+:root[data-density="comfort"] {
+  --d-card-pad: 18px;
+  --d-card-gap: 18px;
+  --d-kpi-pad-y: 16px;
+  --d-row-pad-y: 8px;
+  --d-font-scale: 1;
+}
+:root[data-density="detailed"] {
+  --d-card-pad: 26px;
+  --d-card-gap: 24px;
+  --d-kpi-pad-y: 22px;
+  --d-row-pad-y: 11px;
+  --d-font-scale: 1.06;
+}
+
+/* Aplica o font-scale globalmente em textos principais */
+body {
+  font-size: calc(13px * var(--d-font-scale, 1));
+}
+
+/* Modo escuro é o padrão — preserve as mesmas variáveis */
+.dark {
+  --background: oklch(0.09 0.007 280);
+  --foreground: oklch(0.94 0.012 75);
+  --card: var(--bg-2);
+  --card-foreground: var(--t1);
+  --popover: var(--bg-3);
+  --popover-foreground: var(--t1);
+  --primary: var(--gold);
+  --primary-foreground: oklch(0.15 0 0);
+  --secondary: var(--bg-3);
+  --secondary-foreground: var(--t1);
+  --muted: var(--bg-3);
+  --muted-foreground: var(--neutral-warm);
+  --accent: var(--bg-4);
+  --accent-foreground: var(--gold);
+  --destructive: var(--err);
+  --destructive-foreground: var(--t1);
+  --border: oklch(0.22 0.009 280);
+  --input: oklch(0.16 0.009 280);
+  --ring: var(--gold);
+  --sidebar: var(--bg-sb);
+  --sidebar-foreground: var(--t2);
+  --sidebar-primary: var(--gold);
+  --sidebar-primary-foreground: var(--bg-1);
+  --sidebar-accent: var(--bg-3);
+  --sidebar-accent-foreground: var(--gold);
+  --sidebar-border: oklch(0.22 0.009 280);
+  --sidebar-ring: var(--gold);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html, body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    font-size: 13px;
+    line-height: 1.6;
+    font-feature-settings: "ss01", "cv01", "cv02";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    background:
+      radial-gradient(1200px 600px at 80% -10%, color-mix(in oklch, var(--gold) 6%, transparent), transparent 60%),
+      radial-gradient(900px 500px at 10% 110%, color-mix(in oklch, var(--gold) 4%, transparent), transparent 60%),
+      radial-gradient(600px 400px at 50% 40%, color-mix(in oklch, var(--gold) 2%, transparent), transparent 70%),
+      var(--background);
+    min-height: 100vh;
+    position: relative;
+  }
+  /* Grain overlay sutil (noise texture) para atmosfera de dossiê impresso */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.035;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95  0 0 0 0 0.87  0 0 0 0 0.68  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  /* Vinheta fina nas bordas */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.35) 100%);
+  }
+  #root { position: relative; z-index: 2; }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+    font-feature-settings: "liga", "dlig", "onum";
+  }
+  .small-caps {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.12em;
+  }
+  /* Drop cap editorial para parágrafos jurídicos */
+  .drop-cap::first-letter {
+    font-family: var(--font-display);
+    font-size: 3.4em;
+    float: left;
+    line-height: 0.88;
+    padding-right: 0.08em;
+    padding-top: 0.08em;
+    color: var(--gold);
+    font-weight: 500;
+  }
+
+  code, .font-mono, .mono {
+    font-family: var(--font-mono);
+    font-feature-settings: "tnum", "zero";
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in oklch, var(--gold) 35%, var(--bg-3));
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--gold-d);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+
+  /* Seleção dourada */
+  ::selection {
+    background: color-mix(in oklch, var(--gold) 30%, transparent);
+    color: var(--t1);
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .flex { min-height: 0; min-width: 0; }
+  @media (min-width: 640px) {
+    .container { padding-left: 1.5rem; padding-right: 1.5rem; }
+  }
+  @media (min-width: 1024px) {
+    .container { padding-left: 2rem; padding-right: 2rem; max-width: 1400px; }
+  }
+
+  /* Linha dourada ornamental */
+  .gold-line {
+    width: 60px; height: 2px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    display: block;
+  }
+  .gold-line-full {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-d), transparent);
+  }
+
+  /* Badge forense */
+  .badge-forense {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+  }
+
+  /* Números tabulares em mono */
+  .num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 11px;
+  }
+
+  /* KPI card — estilo dossier */
+  .kpi-card {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    transition: all 0.25s ease;
+    position: relative;
+  }
+  .kpi-card:hover {
+    border-color: var(--gold-d);
+    background: var(--bg-3);
+    transform: translateY(-1px);
+  }
+  .kpi-card.kpi-big {
+    padding: 22px 24px 20px;
+    box-shadow:
+      inset 0 1px 0 color-mix(in oklch, var(--gold) 14%, transparent),
+      0 6px 18px -10px rgba(0, 0, 0, 0.5);
+    border-color: var(--gold-d);
+    background: linear-gradient(135deg,
+      color-mix(in oklch, var(--gold) 10%, var(--bg-2)),
+      var(--bg-2) 80%);
+  }
+  .kpi-card.kpi-green {
+    border-color: var(--ok);
+  }
+
+  /* Card genérico de seção (padding controlado por --d-card-pad via S2 density) */
+  .forensic-card {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: border-color 0.2s ease;
+  }
+  .forensic-card:hover {
+    border-color: color-mix(in oklch, var(--gold) 30%, transparent);
+  }
+  .forensic-card.highlight {
+    border-color: var(--gold-d);
+    background: linear-gradient(135deg,
+      color-mix(in oklch, var(--gold) 6%, var(--bg-2)),
+      var(--bg-2) 75%);
+  }
+  .forensic-card.alert {
+    border-color: var(--warn);
+    background: linear-gradient(135deg,
+      color-mix(in oklch, var(--warn) 10%, var(--bg-2)),
+      var(--bg-2) 75%);
+  }
+
+  /* Animações */
+  @keyframes fadein-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .anim-fadein {
+    animation: fadein-up 0.35s ease-out;
+  }
+  @keyframes goldshimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  /* Stagger reveal */
+  @keyframes stagger-reveal {
+    from { opacity: 0; transform: translateY(12px); filter: blur(4px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+  .stagger > * {
+    opacity: 0;
+    animation: stagger-reveal 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    /* O delay agora vem por inline style do componente (KpiCard idx prop)
+       para permitir orquestração contínua acima de 10 itens */
+  }
+  /* Fallback: se o componente não passar style, usa nth-child para 8 primeiros */
+  .stagger > *:not([style*="animation-delay"]):nth-child(1) { animation-delay: 60ms; }
+  .stagger > *:not([style*="animation-delay"]):nth-child(2) { animation-delay: 120ms; }
+  .stagger > *:not([style*="animation-delay"]):nth-child(3) { animation-delay: 180ms; }
+  .stagger > *:not([style*="animation-delay"]):nth-child(4) { animation-delay: 240ms; }
+  .stagger > *:not([style*="animation-delay"]):nth-child(5) { animation-delay: 300ms; }
+  .stagger > *:not([style*="animation-delay"]):nth-child(6) { animation-delay: 360ms; }
+  .stagger > *:not([style*="animation-delay"]):nth-child(7) { animation-delay: 420ms; }
+  .stagger > *:not([style*="animation-delay"]):nth-child(8) { animation-delay: 480ms; }
+
+  /* Ornamento geométrico dourado */
+  .ornament {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: color-mix(in oklch, var(--gold) 70%, transparent);
+  }
+  .ornament::before,
+  .ornament::after {
+    content: "";
+    width: 28px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, currentColor, transparent);
+  }
+  .ornament-diamond {
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    background: currentColor;
+    flex-shrink: 0;
+  }
+
+  /* Selo de auditoria — com idle pulse "respira" para confirmar auditoria viva */
+  .audit-seal {
+    width: 84px; height: 84px;
+    border: 1px solid var(--gold-d);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold);
+    font-family: var(--font-display);
+    animation: seal-breathe 8s ease-in-out infinite;
+    will-change: transform, box-shadow;
+    background:
+      radial-gradient(circle, transparent 50%, color-mix(in oklch, var(--gold) 8%, transparent) 52%, transparent 54%),
+      color-mix(in oklch, var(--gold) 4%, var(--bg-2));
+    box-shadow: inset 0 0 0 3px color-mix(in oklch, var(--gold) 10%, transparent);
+    transform: rotate(-4deg);
+    position: relative;
+  }
+  .audit-seal::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border: 1px dashed color-mix(in oklch, var(--gold) 40%, transparent);
+    border-radius: 50%;
+  }
+
+  /* Lift sutil nos cards */
+  .lift-on-hover {
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+  }
+  .lift-on-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px -12px color-mix(in oklch, var(--gold) 25%, black);
+  }
+
+  /* Divisor caligráfico */
+  .caligraphic-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 2rem 0;
+    color: color-mix(in oklch, var(--gold) 60%, transparent);
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-style: italic;
+  }
+  .caligraphic-divider::before,
+  .caligraphic-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, currentColor, transparent);
+    max-width: 120px;
+  }
+  .gold-shimmer {
+    background: linear-gradient(90deg,
+      var(--gold-d) 0%,
+      var(--gold-l) 50%,
+      var(--gold-d) 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: goldshimmer 3s ease-in-out infinite;
+  }
+}
+
+
+/* ========================================================================
+   PRINT STYLES — versão formal para impressão / PDF
+   ======================================================================== */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 12mm 10mm;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Esconder navegação */
+  aside, nav, .no-print, header button, header .print\:hidden,
+  [class*="Sidebar"], [data-sonner-toaster], footer {
+    display: none !important;
+  }
+
+  /* Remover margem do conteúdo principal */
+  main, .lg\:ml-\[260px\] {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Cards forenses para modo impressão */
+  .forensic-card {
+    background: #ffffff !important;
+    border: 1px solid #c5a55a !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    color: #1a1a1a !important;
+  }
+
+  .forensic-card h2, .forensic-card h3, .forensic-card .font-display {
+    color: #8b7632 !important;
+  }
+
+  /* Tabelas em impressão */
+  table {
+    page-break-inside: auto !important;
+    color: #1a1a1a !important;
+  }
+
+  table th {
+    background: #f5ecd6 !important;
+    color: #8b7632 !important;
+    border-bottom: 2px solid #c5a55a !important;
+  }
+
+  table td {
+    color: #1a1a1a !important;
+    border-bottom: 1px solid #e5dcc0 !important;
+  }
+
+  /* Cada seção quebra de página */
+  section, .anim-fadein > div > div {
+    page-break-before: auto;
+    page-break-inside: avoid;
+  }
+
+  /* Remover animações */
+  *, *::before, *::after {
+    animation-duration: 0s !important;
+    transition: none !important;
+  }
+}
+
+/* ========================================================================
+   CUSTOM SCROLLBAR — tema dourado sutil
+   ======================================================================== */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(197, 165, 90, 0.25);
+  border-radius: 5px;
+  border: 2px solid var(--bg-2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 165, 90, 0.5);
+}
+
+/* Responsividade adicional */
+@media (max-width: 640px) {
+  /* em mobile reduz padding token base sem hard-overrides */
+  :root { --d-card-pad: 14px; --d-card-gap: 14px; }
+  table { font-size: 10px !important; }
+}
+
+/* ========================================================================
+   PRINT-ALL MODE — dossiê completo (todas as seções renderizadas)
+   ======================================================================== */
+.print-all-mode #pdf-full-dossie {
+  display: block !important;
+}
+
+.print-all-mode .pdf-section-break {
+  page-break-after: always;
+  padding: 20mm 0;
+}
+
+.print-all-mode .pdf-section-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  color: var(--gold);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+@media print {
+  .print-all-mode main:not(#pdf-full-dossie main) {
+    display: none !important;
+  }
+  .print-all-mode #pdf-full-dossie {
+    display: block !important;
+    background: #fff !important;
+  }
+  .print-all-mode #pdf-full-dossie .pdf-section-break {
+    page-break-after: always;
+    display: block !important;
+  }
+  .print-all-mode #pdf-full-dossie .pdf-section-title {
+    color: #8b7632 !important;
+    border-bottom-color: #c5a55a !important;
+  }
+  /* ocultar sticky filter bar em modo print */
+  .print-all-mode [class*="ActiveFilters"] {
+    display: none !important;
+  }
+}
+
+/* ========================================================================
+   MOBILE REFINEMENT — touch targets, overflow, legibilidade
+   ======================================================================== */
+@media (max-width: 768px) {
+  /* Tabelas sempre com scroll horizontal */
+  .forensic-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* KPI grids mais compactos */
+  .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 8px !important;
+  }
+
+  /* Títulos reduzidos sem perder hierarquia */
+  .font-display {
+    letter-spacing: -0.005em;
+  }
+
+  /* Botões touch-friendly */
+  button, a {
+    min-height: 36px;
+  }
+
+  button.h-7, a.h-7 {
+    min-height: 28px;
+  }
+
+  /* Cards padding reduzido */
+  .forensic-card {
+    padding: 14px !important;
+  }
+
+  /* Tabelas com fonte levemente menor */
+  .forensic-table {
+    font-size: 10.5px;
+  }
+
+  /* Impede quebras desnecessárias em KPIs */
+  .kpi-value {
+    word-break: break-word;
+  }
+}
+
+/* ========================================================================
+   DESIGN POLISH — micro-interações, gradientes, depth
+   ======================================================================== */
+
+/* Smooth hover lift para cards */
+.forensic-card {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.forensic-card:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 12px 32px -16px rgba(0, 0, 0, 0.45),
+    0 0 0 1px color-mix(in oklch, var(--gold) 20%, transparent);
+}
+
+/* Gradiente editorial suave em headers de seção */
+.section-header {
+  position: relative;
+  isolation: isolate;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
+  inset: -12px -20px;
+  background: radial-gradient(
+    ellipse 400px 120px at 0% 50%,
+    color-mix(in oklch, var(--gold) 5%, transparent),
+    transparent 70%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Scrollbar refinada para dark */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: color-mix(in oklch, var(--bg) 50%, transparent);
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in oklch, var(--gold) 20%, transparent);
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in oklch, var(--gold) 35%, transparent);
+  background-clip: padding-box;
+}
+
+/* Seleção refinada */
+::selection {
+  background: color-mix(in oklch, var(--gold) 45%, transparent);
+  color: var(--bg);
+}
+
+/* Focus ring premium institucional — dourado com offset triplo, transição suave */
+*:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 4px color-mix(in oklch, var(--gold) 18%, transparent);
+  transition: outline-offset 120ms ease, box-shadow 120ms ease;
+}
+/* Botões e inputs ganham anel mais sofístico no foco */
+button:focus-visible,
+[role="button"]:focus-visible,
+menuitem:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline-offset: 3px;
+  box-shadow:
+    0 0 0 4px color-mix(in oklch, var(--gold) 22%, transparent),
+    0 0 0 1px color-mix(in oklch, var(--gold) 60%, transparent) inset;
+}
+
+/* Idle pulse do selo (respiração sutil ±2% a cada 8s) */
+@keyframes seal-breathe {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow:
+      inset 0 0 12px color-mix(in oklch, var(--gold) 6%, transparent),
+      0 0 0 0 color-mix(in oklch, var(--gold) 0%, transparent);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow:
+      inset 0 0 16px color-mix(in oklch, var(--gold) 10%, transparent),
+      0 0 0 6px color-mix(in oklch, var(--gold) 4%, transparent);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .audit-seal { animation: none !important; }
+}
+
+/* Anim refinada para entrada de conteúdo */
+.anim-fadein {
+  animation: forensicFadeIn 420ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes forensicFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ripple de ouro sutil em botões primary */
+button.bg-primary, .bg-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Sticky headers mais polidos */
+thead.forensic-sticky th {
+  background: linear-gradient(
+    180deg,
+    var(--bg-3),
+    color-mix(in oklch, var(--bg-3) 85%, var(--bg-2))
+  );
+  backdrop-filter: blur(4px);
+}
+
+/* KPI Card com depth + border gold sutil */
+.kpi-card-enhanced {
+  background:
+    linear-gradient(135deg,
+      color-mix(in oklch, var(--bg-2) 92%, var(--gold) 0%),
+      color-mix(in oklch, var(--bg-3) 96%, var(--gold) 2%)
+    );
+  border: 1px solid color-mix(in oklch, var(--gold) 12%, var(--border));
+  box-shadow:
+    inset 0 1px 0 color-mix(in oklch, var(--gold) 8%, transparent),
+    0 4px 12px -6px rgba(0, 0, 0, 0.3);
+}
+
+/* Print improvements */
+@media print {
+  .no-print, .sidebar, header button, [role="complementary"] {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .forensic-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #c5a55a !important;
+    box-shadow: none !important;
+  }
+}
+
+
+/* QW6 — Scroll shadows laterais nas tabelas largas (técnica Lea Verou) */
+/* Mostra fade dourado nas bordas quando há conteúdo escondido por overflow */
+.scroll-shadows-x {
+  background:
+    /* Sombra esquerda (revela quando scroll > 0) */
+    linear-gradient(to right,
+      color-mix(in oklch, var(--gold) 22%, transparent) 0%,
+      transparent 24px) left center / 32px 100% no-repeat,
+    /* Sombra direita (revela quando ainda há conteúdo) */
+    linear-gradient(to left,
+      color-mix(in oklch, var(--gold) 22%, transparent) 0%,
+      transparent 24px) right center / 32px 100% no-repeat,
+    /* Mascara linear-gradient permite que as sombras sumam quando scroll está nas bordas */
+    linear-gradient(to right, var(--bg-2) 30%, transparent),
+    linear-gradient(to left, var(--bg-2) 30%, transparent) right;
+  background-attachment: local, local, scroll, scroll;
+}
+
+/* QW7 — Selo compacto mobile: pill A+ inline ao lado do título */
+.audit-seal-mobile {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* Esconde o selo grande circular */
+  .audit-seal { display: none !important; }
+  /* Mostra a versão pill compacta */
+  .audit-seal-mobile {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 10px;
+    border: 1px solid var(--gold-d);
+    border-radius: 999px;
+    color: var(--gold);
+    font-family: var(--font-display);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background: color-mix(in oklch, var(--gold) 6%, var(--bg-2));
+    box-shadow: inset 0 0 0 2px color-mix(in oklch, var(--gold) 8%, transparent);
+    animation: seal-breathe 8s ease-in-out infinite;
+  }
+  .audit-seal-mobile::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--gold);
+    box-shadow: 0 0 6px var(--gold);
+  }
+}
+
+
+/* ========================================================================
+   S1/S2 · UTILITÁRIOS SEMÂNTICOS + DENSIDADE
+   Classes de baixo-acoplamento para aplicar intents e reagir à densidade.
+   ======================================================================== */
+.surface-raised    { background-color: var(--color-surface-raised); }
+.surface-overlay   { background-color: var(--color-surface-overlay); }
+.surface-brand     { background-color: var(--color-surface-brand); }
+.surface-critical  { background-color: var(--color-surface-critical); }
+.surface-success   { background-color: var(--color-surface-success); }
+.surface-warning   { background-color: var(--color-surface-warning); }
+.surface-info      { background-color: var(--color-surface-info); }
+
+.line-subtle   { border-color: var(--color-line-subtle); }
+.line-default  { border-color: var(--color-line-default); }
+.line-strong   { border-color: var(--color-line-strong); }
+
+.ink-primary   { color: var(--color-ink-primary); }
+.ink-secondary { color: var(--color-ink-secondary); }
+.ink-tertiary  { color: var(--color-ink-tertiary); }
+.ink-brand     { color: var(--color-ink-brand); }
+.ink-critical  { color: var(--color-ink-critical); }
+.ink-success   { color: var(--color-ink-success); }
+
+.shadow-institutional   { box-shadow: var(--shadow-md); }
+.shadow-institutional-lg{ box-shadow: var(--shadow-lg); }
+.shadow-gold-halo       { box-shadow: var(--shadow-gold-halo); }
+
+/* Density-aware helpers */
+.pad-card { padding: var(--d-card-pad); }
+.gap-card { gap: var(--d-card-gap); }
+.py-kpi   { padding-block: var(--d-kpi-pad-y); }
+.py-row   { padding-block: var(--d-row-pad-y); }
+
+/* Cards e tabelas herdam padding/gap via tokens; sobrescrições só quando necessário */
+.forensic-card {
+  padding: var(--d-card-pad);
+}
+.forensic-grid {
+  gap: var(--d-card-gap);
+}
+.forensic-table td,
+.forensic-table th {
+  padding-block: var(--d-row-pad-y);
+}
+
+/* Print: força densidade confortável */
+@media print {
+  :root { --d-card-pad: 16px; --d-card-gap: 14px; --d-row-pad-y: 6px; --d-font-scale: 1; }
+}
+
+
+/* ========================================================================
+   S5 SPRINT 2 — PRINT INSTITUCIONAL (capa, sumário, índice, ficha técnica)
+   ======================================================================== */
+
+@media print {
+  /* Metadados de página A4 retrato + margens editoriais + paginação */
+  @page {
+    size: A4 portrait;
+    margin: 18mm 16mm 20mm 16mm;
+    @bottom-center {
+      content: "Dossiê DETRAN/AM — Auditoria Forense v10 · Brandão Ozores Advogados";
+      font-family: "JetBrains Mono", monospace;
+      font-size: 8pt;
+      color: #8b7632;
+      letter-spacing: 0.1em;
+    }
+    @bottom-right {
+      content: counter(page) " / " counter(pages);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 8pt;
+      color: #8b7632;
+    }
+    @top-right {
+      content: "CONFIDENCIAL";
+      font-family: "JetBrains Mono", monospace;
+      font-size: 7pt;
+      color: #c5a55a;
+      letter-spacing: 0.25em;
+    }
+  }
+  @page :first {
+    @bottom-center { content: none; }
+    @bottom-right { content: none; }
+    @top-right { content: none; }
+  }
+
+  /* Watermark diagonal discreto (só no body em pseudo-elemento fixo) */
+  body::before {
+    content: "AUDITORIA FORENSE · CONFIDENCIAL";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-26deg);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 72pt;
+    color: rgba(197, 165, 90, 0.065);
+    letter-spacing: 0.2em;
+    z-index: 0;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  /* Força que cada <section class=print-page> seja uma folha */
+  .print-cover-wrapper { display: block !important; }
+  .print-page {
+    page-break-after: always;
+    break-after: page;
+    min-height: 250mm;
+    position: relative;
+    z-index: 1;
+  }
+  .print-page:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  /* ===== PÁGINA 1 — FRONTISPÍCIO ===== */
+  .print-frontispiece {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 12mm;
+  }
+  .print-cover-header {
+    text-align: center;
+    padding-bottom: 8mm;
+  }
+  .print-ornament {
+    font-family: "Cormorant Garamond", serif;
+    color: #c5a55a;
+    font-size: 12pt;
+    letter-spacing: 0.6em;
+    margin-bottom: 4mm;
+  }
+  .print-firm {
+    font-size: 9pt;
+    color: #5c4e2a;
+    letter-spacing: 0.2em;
+  }
+  .print-hero {
+    text-align: center;
+    padding: 14mm 0 10mm;
+  }
+  .print-eyebrow {
+    font-size: 9pt;
+    color: #8b7632;
+    letter-spacing: 0.32em;
+    margin-bottom: 5mm;
+  }
+  .print-title {
+    font-size: 48pt !important;
+    font-weight: 600;
+    line-height: 1;
+    color: #1a1a1a;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .print-title em {
+    font-style: italic;
+    color: #8b7632;
+    font-weight: 500;
+  }
+  .print-title-divider {
+    color: #c5a55a;
+    font-weight: 300;
+  }
+  .print-subtitle {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 12pt;
+    font-style: italic;
+    color: #3d3528;
+    max-width: 140mm;
+    margin: 6mm auto 0;
+    line-height: 1.5;
+  }
+  .print-goldrule {
+    width: 60mm;
+    height: 1.5px;
+    background: linear-gradient(90deg, transparent, #c5a55a, transparent);
+    margin: 8mm auto;
+  }
+  .print-goldline {
+    width: 100%;
+    height: 0.8px;
+    background: linear-gradient(90deg, transparent, #c5a55a 20%, #c5a55a 80%, transparent);
+    margin: 4mm 0;
+  }
+
+  .print-meta-grid {
+    display: grid;
+    grid-template-columns: 55mm 1fr;
+    column-gap: 6mm;
+    row-gap: 2.5mm;
+    padding: 10mm 4mm;
+  }
+  .print-meta-label {
+    font-size: 8pt;
+    color: #8b7632;
+    letter-spacing: 0.16em;
+    padding-top: 1pt;
+  }
+  .print-meta-value {
+    font-size: 10pt;
+    color: #1a1a1a;
+    font-family: "Inter", sans-serif;
+  }
+  .print-meta-strong {
+    color: #8b7632;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 12pt;
+  }
+
+  .print-cover-footer {
+    padding-top: 6mm;
+    text-align: center;
+  }
+  .print-signature {
+    margin: 4mm 0;
+  }
+  .print-signature-label {
+    font-size: 8pt;
+    color: #8b7632;
+    letter-spacing: 0.2em;
+  }
+  .print-signature-name {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 11pt;
+    font-style: italic;
+    color: #3d3528;
+    margin-top: 2mm;
+  }
+  .print-confidential {
+    font-size: 7pt;
+    color: #a37f3f;
+    letter-spacing: 0.3em;
+    margin-top: 6mm;
+  }
+
+  /* ===== PÁGINAS 2+ — Títulos de seção ===== */
+  .print-section-title {
+    font-size: 24pt;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 3mm;
+    letter-spacing: -0.01em;
+  }
+
+  /* ===== PÁGINA 2 — Narrativa + drop-cap ===== */
+  .print-narrative {
+    margin-top: 6mm;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 11.5pt;
+    line-height: 1.6;
+    color: #2d2820;
+  }
+  .print-narrative p {
+    margin: 0 0 3.5mm;
+    text-align: justify;
+    text-indent: 0;
+  }
+  .print-narrative p + p { text-indent: 4mm; }
+  .print-dropcap {
+    float: left;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 36pt;
+    line-height: 0.9;
+    color: #8b7632;
+    padding: 1mm 2mm 0 0;
+    font-style: italic;
+  }
+  .print-narrative strong {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+  .print-takeaways {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4mm;
+    margin: 8mm 0 5mm;
+    padding: 5mm 0;
+    border-top: 0.5px solid #d6c99f;
+    border-bottom: 0.5px solid #d6c99f;
+  }
+  .print-takeaway { padding: 0 3mm; border-left: 1pt solid #c5a55a; }
+  .print-takeaway:first-child { border-left: none; }
+  .print-takeaway-label {
+    font-size: 7.5pt;
+    color: #8b7632;
+    letter-spacing: 0.2em;
+  }
+  .print-takeaway-value {
+    font-size: 22pt;
+    font-weight: 600;
+    color: #3d3528;
+    line-height: 1;
+    margin: 1mm 0;
+  }
+  .print-takeaway-note {
+    font-size: 8.5pt;
+    color: #5c4e2a;
+    line-height: 1.3;
+  }
+  .print-callout {
+    background: #faf7ec;
+    border-left: 2pt solid #c5a55a;
+    padding: 4mm 5mm;
+    margin-top: 6mm;
+    break-inside: avoid;
+  }
+  .print-callout-label {
+    font-size: 8pt;
+    color: #8b7632;
+    letter-spacing: 0.22em;
+    margin-bottom: 2mm;
+  }
+  .print-callout p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 11pt;
+    line-height: 1.55;
+    color: #2d2820;
+    margin: 0;
+  }
+
+  /* ===== PÁGINA 3 — Índice ===== */
+  .print-toc-note {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    color: #5c4e2a;
+    font-size: 10pt;
+    margin: 4mm 0 6mm;
+  }
+  .print-toc {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 2;
+    column-gap: 8mm;
+  }
+  .print-toc-group {
+    break-inside: avoid;
+    break-after: avoid;
+    padding: 3mm 0 1mm;
+    border-bottom: 0.5px solid #d6c99f;
+    margin-bottom: 1mm;
+  }
+  .print-toc-group span {
+    font-size: 7.5pt;
+    color: #8b7632;
+    letter-spacing: 0.24em;
+  }
+  .print-toc-item {
+    display: flex;
+    align-items: baseline;
+    gap: 2mm;
+    padding: 0.8mm 0;
+    font-size: 9.5pt;
+    color: #2d2820;
+    break-inside: avoid;
+  }
+  .print-toc-num {
+    color: #c5a55a;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 8pt;
+    width: 10mm;
+    flex-shrink: 0;
+  }
+  .print-toc-label {
+    flex-shrink: 0;
+    font-family: "Inter", sans-serif;
+  }
+  .print-toc-dots {
+    flex: 1;
+    border-bottom: 1px dotted #c5a55a;
+    opacity: 0.5;
+    transform: translateY(-2px);
+  }
+  .print-toc-ref {
+    font-size: 8pt;
+    color: #8b7632;
+    flex-shrink: 0;
+  }
+
+  /* ===== PÁGINA 4 — Ficha técnica + assinatura ===== */
+  .print-sign-block {
+    margin-top: 20mm;
+    text-align: center;
+    break-inside: avoid;
+  }
+  .print-sign-line {
+    width: 90mm;
+    height: 0.6pt;
+    background: #1a1a1a;
+    margin: 0 auto 3mm;
+  }
+  .print-sign-who {
+    font-size: 14pt;
+    color: #1a1a1a;
+    font-weight: 500;
+  }
+  .print-sign-role {
+    font-size: 8pt;
+    color: #5c4e2a;
+    letter-spacing: 0.2em;
+    margin-top: 1mm;
+  }
+
+  /* Esconde componentes não-print fora das seções print-page */
+  aside, header.app-header, .sidebar, .back-to-top, .density-toggle,
+  .active-filters-bar, button.print-hide {
+    display: none !important;
+  }
+}
+
+/* Modo preview na tela (opt-in): permite inspecionar a capa sem imprimir */
+html[data-print-preview="true"] .print-cover-wrapper {
+  display: block !important;
+  max-width: 210mm;
+  margin: 24px auto;
+  background: #f7f3e6;
+  color: #1a1a1a;
+  padding: 24px;
+  box-shadow: var(--shadow-xl);
+  border: 1px solid #d6c99f;
+}
+
+
+/* ========================================================================
+   SPRINT 3 A1 — TEMAS DAY / PRINT (dossier permanece como :root default)
+   ======================================================================== */
+
+/* -------- DAY: editorial claro para leitura prolongada/apresentações ----- */
+:root[data-dossier-theme="day"] {
+  /* Paleta: papel pergaminho + dourado escuro + tinta sépia */
+  --bg-1: oklch(0.97 0.012 85);      /* #F7F3E8 papel */
+  --bg-2: oklch(0.99 0.008 85);      /* #FDFBF4 cartão */
+  --bg-3: oklch(0.95 0.014 83);      /* #F0EAD8 elevado */
+  --bg-4: oklch(0.92 0.016 82);      /* #E5DFCA inset */
+  --bg-sb: oklch(0.94 0.013 84);     /* sidebar off-white */
+
+  /* Tinta (escala escura → clara) */
+  --t1: oklch(0.22 0.018 60);        /* #3A2F1B tinta principal */
+  --t2: oklch(0.36 0.020 65);        /* #5C4E2A secundário */
+  --t3: oklch(0.50 0.022 70);        /* #7D6B43 terciário */
+  --t4: oklch(0.58 0.020 72);        /* #968259 desabilitado */
+
+  /* Dourado escuro para o modo claro */
+  --gold:   oklch(0.58 0.082 72);    /* #9A7E3C */
+  --gold-l: oklch(0.68 0.088 74);    /* #B69553 */
+  --gold-d: oklch(0.46 0.074 70);    /* #7A6330 */
+  --gold-dd: oklch(0.38 0.062 68);   /* #5F4D23 */
+
+  --border: oklch(0.86 0.015 80);
+  --muted: oklch(0.93 0.015 82);
+  --muted-foreground: var(--t3);
+  --card: var(--bg-2);
+  --card-foreground: var(--t1);
+  --popover: var(--bg-2);
+  --popover-foreground: var(--t1);
+
+  --background: var(--bg-1);
+  --foreground: var(--t1);
+  --input: oklch(0.94 0.010 85);
+  --ring: var(--gold);
+
+  --sidebar: var(--bg-sb);
+  --sidebar-foreground: var(--t2);
+  --sidebar-accent: var(--bg-4);
+  --sidebar-accent-foreground: var(--gold-d);
+  --sidebar-border: oklch(0.86 0.014 80);
+
+  --primary: var(--gold);
+  --accent: var(--bg-4);
+  --accent-foreground: var(--gold-dd);
+  --destructive: var(--err);
+
+  --surface-1: var(--bg-2);
+  --surface-2: var(--bg-3);
+  --surface-3: var(--bg-4);
+  --ink-1: var(--t1);
+  --ink-2: var(--t2);
+  --ink-3: var(--t3);
+  --ink-4: var(--t4);
+  --line-subtle: color-mix(in oklch, var(--gold) 22%, var(--border));
+  --line-default: color-mix(in oklch, var(--gold) 38%, var(--border));
+  --line-strong:  color-mix(in oklch, var(--gold) 55%, var(--border));
+
+  /* Atmosfera do body: papel com textura sutil */
+  color-scheme: light;
+}
+
+:root[data-dossier-theme="day"] body {
+  background:
+    radial-gradient(1400px 600px at 80% -10%, color-mix(in oklch, var(--gold) 6%, transparent), transparent 70%),
+    radial-gradient(1100px 500px at 10% 110%, color-mix(in oklch, var(--gold) 4%, transparent), transparent 65%),
+    linear-gradient(180deg, oklch(0.98 0.010 85) 0%, var(--bg-1) 100%) !important;
+}
+
+/* Atenua brilho do selo A+ no claro */
+:root[data-dossier-theme="day"] .audit-seal,
+:root[data-dossier-theme="day"] .audit-seal-mobile {
+  box-shadow: inset 0 0 0 2px color-mix(in oklch, var(--gold) 14%, transparent);
+}
+
+/* ------- PRINT: preview em tela do dossiê impresso ---------------------- */
+:root[data-dossier-theme="print"] {
+  --bg-1: oklch(0.985 0.006 85);     /* papel */
+  --bg-2: #ffffff;
+  --bg-3: oklch(0.96 0.008 85);
+  --bg-4: oklch(0.92 0.010 82);
+  --bg-sb: oklch(0.97 0.008 85);
+
+  --t1: oklch(0.18 0.010 55);
+  --t2: oklch(0.34 0.014 60);
+  --t3: oklch(0.48 0.016 65);
+  --t4: oklch(0.58 0.016 68);
+
+  --gold:   oklch(0.52 0.078 70);
+  --gold-l: oklch(0.62 0.084 72);
+  --gold-d: oklch(0.42 0.068 68);
+  --gold-dd: oklch(0.34 0.056 65);
+
+  --border: oklch(0.84 0.012 78);
+  --muted: oklch(0.94 0.010 82);
+  --muted-foreground: var(--t3);
+  --card: var(--bg-2);
+  --card-foreground: var(--t1);
+  --popover: var(--bg-2);
+  --popover-foreground: var(--t1);
+
+  --background: var(--bg-1);
+  --foreground: var(--t1);
+  --input: oklch(0.95 0.008 85);
+  --ring: var(--gold);
+
+  --sidebar: var(--bg-sb);
+  --sidebar-foreground: var(--t2);
+  --sidebar-border: oklch(0.86 0.010 78);
+
+  --primary: var(--gold);
+  --accent: var(--bg-4);
+  --accent-foreground: var(--gold-dd);
+
+  --surface-1: var(--bg-2);
+  --surface-2: var(--bg-3);
+  --surface-3: var(--bg-4);
+  --ink-1: var(--t1);
+  --ink-2: var(--t2);
+  --ink-3: var(--t3);
+  --ink-4: var(--t4);
+  --line-subtle: color-mix(in oklch, var(--gold) 20%, var(--border));
+  --line-default: color-mix(in oklch, var(--gold) 35%, var(--border));
+  --line-strong:  color-mix(in oklch, var(--gold) 52%, var(--border));
+
+  color-scheme: light;
+}
+
+:root[data-dossier-theme="print"] body {
+  background:
+    radial-gradient(900px 400px at 50% 0%, color-mix(in oklch, var(--gold) 4%, transparent), transparent 65%),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 12px,
+      color-mix(in oklch, var(--gold) 3%, transparent) 12px 13px
+    ),
+    var(--bg-1) !important;
+}
+/* No modo print preview, esconde gradient mesh nas cards pra lembrar papel */
+:root[data-dossier-theme="print"] .forensic-card,
+:root[data-dossier-theme="print"] .kpi-card {
+  background: #ffffff;
+  border-color: color-mix(in oklch, var(--gold) 18%, var(--border));
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.04);
+}
+:root[data-dossier-theme="print"] .forensic-card:hover,
+:root[data-dossier-theme="print"] .kpi-card:hover {
+  transform: none;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.06);
+}
+:root[data-dossier-theme="print"] .audit-seal,
+:root[data-dossier-theme="print"] .audit-seal-mobile {
+  background: #ffffff;
+  color: var(--gold-dd);
+}
+
+/* Transição suave entre temas — 200ms */
+html { transition: background-color 240ms ease, color 240ms ease; }
+body { transition: background 240ms ease, color 240ms ease; }
+
+/* Acessibilidade: respeitar reduced-motion (sem transição de tema) */
+@media (prefers-reduced-motion: reduce) {
+  html, body { transition: none; }
+}
+
+
+/* ========================================================================
+   SPRINT 3 A2 — EDITORIAL HERO (capa de revista)
+   ======================================================================== */
+.editorial-hero {
+  position: relative;
+  padding: clamp(48px, 8vh, 120px) clamp(20px, 5vw, 64px);
+  min-height: min(92vh, 880px);
+  display: grid;
+  grid-template-rows: auto 1fr auto auto auto auto auto;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid var(--line-subtle);
+  margin: 0 calc(-1 * var(--d-card-pad, 24px)) 28px;
+  isolation: isolate;
+}
+
+.editorial-hero-bg {
+  position: absolute; inset: 0; z-index: -2;
+  background:
+    radial-gradient(1200px 500px at 50% 0%, color-mix(in oklch, var(--gold) 12%, transparent), transparent 65%),
+    radial-gradient(900px 400px at 20% 100%, color-mix(in oklch, var(--gold) 6%, transparent), transparent 70%),
+    linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 50%, var(--bg-2) 100%);
+  opacity: 0.98;
+}
+.editorial-hero-vignette {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(0,0,0,0.25) 100%),
+    repeating-linear-gradient(
+      135deg, transparent 0 3px,
+      color-mix(in oklch, var(--gold) 1.5%, transparent) 3px 4px
+    );
+  pointer-events: none;
+}
+
+.editorial-hero-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: color-mix(in oklch, var(--gold) 70%, transparent);
+  justify-self: center;
+  animation: hero-fade-up 900ms 100ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+
+.editorial-hero-title {
+  justify-self: center;
+  animation: hero-fade-up 1100ms 280ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+.editorial-hero-kicker {
+  color: color-mix(in oklch, var(--gold) 60%, var(--t3));
+  font-size: 11px;
+  margin-bottom: 18px;
+}
+.editorial-hero-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: clamp(8px, 2vw, 28px);
+  font-size: clamp(56px, 11vw, 156px);
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+  color: var(--t1);
+  font-feature-settings: "liga", "dlig", "onum";
+  max-width: 100%;
+  padding: 0 12px;
+}
+.editorial-hero-marca {
+  background: linear-gradient(180deg,
+    var(--t1) 0%,
+    color-mix(in oklch, var(--gold) 55%, var(--t1)) 80%,
+    var(--gold-d) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.editorial-hero-slash {
+  color: var(--gold);
+  font-style: italic;
+  font-weight: 200;
+  font-size: 0.88em;
+  opacity: 0.75;
+}
+.editorial-hero-tagline {
+  margin-top: clamp(12px, 2vw, 24px);
+  font-size: clamp(18px, 2.4vw, 28px);
+  color: var(--t2);
+  letter-spacing: -0.005em;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.editorial-hero-acento {
+  color: var(--gold);
+  font-style: normal;
+  border-bottom: 1px solid color-mix(in oklch, var(--gold) 60%, transparent);
+  padding-bottom: 1px;
+}
+
+.editorial-hero-divider {
+  justify-self: center;
+  color: color-mix(in oklch, var(--gold) 55%, transparent);
+  font-family: var(--font-display);
+  font-size: 22px;
+  margin: clamp(14px, 3vh, 32px) auto;
+  position: relative;
+  animation: hero-fade-up 1000ms 500ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+.editorial-hero-divider::before,
+.editorial-hero-divider::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: clamp(40px, 8vw, 120px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, color-mix(in oklch, var(--gold) 65%, transparent));
+  margin: 0 18px;
+}
+.editorial-hero-divider::after {
+  background: linear-gradient(90deg, color-mix(in oklch, var(--gold) 65%, transparent), transparent);
+}
+
+.editorial-hero-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(16px, 4vw, 48px);
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid var(--line-subtle);
+  border-bottom: 1px solid var(--line-subtle);
+  padding: clamp(16px, 3vh, 28px) 0;
+  animation: hero-fade-up 1000ms 680ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+.editorial-hero-meta-col {
+  text-align: center;
+  font-feature-settings: "onum", "tnum";
+}
+@media (max-width: 720px) {
+  .editorial-hero-meta { grid-template-columns: 1fr; gap: 12px; }
+  .editorial-hero-meta-col { border-bottom: 1px dashed var(--line-subtle); padding-bottom: 10px; }
+  .editorial-hero-meta-col:last-child { border-bottom: none; padding-bottom: 0; }
+}
+
+.editorial-hero-quote {
+  max-width: 720px;
+  margin: clamp(20px, 4vh, 42px) auto;
+  font-size: clamp(15px, 1.6vw, 19px);
+  color: var(--t2);
+  line-height: 1.55;
+  letter-spacing: -0.003em;
+  position: relative;
+  padding: 0 clamp(16px, 4vw, 40px);
+  animation: hero-fade-up 1000ms 860ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+.editorial-hero-quote::before,
+.editorial-hero-quote::after {
+  position: absolute;
+  font-family: var(--font-display);
+  font-size: clamp(42px, 6vw, 64px);
+  color: color-mix(in oklch, var(--gold) 45%, transparent);
+  line-height: 1;
+  font-style: normal;
+}
+.editorial-hero-quote::before { content: "“"; top: -16px; left: 0; }
+.editorial-hero-quote::after { content: "”"; bottom: -28px; right: 0; }
+
+.editorial-hero-sig {
+  margin-top: clamp(14px, 3vh, 28px);
+  animation: hero-fade-up 1000ms 1040ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+.editorial-hero-sig-line {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-d), transparent);
+  margin: 0 auto 8px;
+}
+
+.editorial-hero-cta {
+  margin: clamp(20px, 4vh, 36px) auto 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  color: var(--gold);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: color 180ms ease, background-color 180ms ease;
+  animation: hero-fade-up 1000ms 1200ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+.editorial-hero-cta:hover {
+  color: var(--gold-l);
+  background: color-mix(in oklch, var(--gold) 8%, transparent);
+}
+.editorial-hero-cta:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 6px;
+  box-shadow: 0 0 0 6px color-mix(in oklch, var(--gold) 14%, transparent);
+}
+
+@keyframes hero-fade-up {
+  0% { opacity: 0; transform: translateY(16px); filter: blur(4px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); opacity: 0.7; }
+  50% { transform: translateY(6px); opacity: 1; }
+}
+.animate-bounce-slow { animation: bounce-slow 2.4s ease-in-out infinite; }
+
+/* No modo print: não renderiza o hero (já tem PrintCover próprio) */
+@media print {
+  .editorial-hero { display: none !important; }
+}
+
+/* Reduced-motion: sem animação, sem parallax */
+@media (prefers-reduced-motion: reduce) {
+  .editorial-hero-top,
+  .editorial-hero-title,
+  .editorial-hero-divider,
+  .editorial-hero-meta,
+  .editorial-hero-quote,
+  .editorial-hero-sig,
+  .editorial-hero-cta { animation: none !important; }
+  .animate-bounce-slow { animation: none !important; }
+}
+
+
+/* ========================================================================
+   SPRINT 3 A3 — SCENARIO REVEAL (storytelling animation)
+   ======================================================================== */
+.scenario-reveal-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(32px, 6vh, 72px);
+  margin: clamp(24px, 5vh, 48px) 0;
+}
+
+.scenario-card {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: clamp(16px, 3vw, 32px);
+  padding: clamp(24px, 4vh, 40px) clamp(18px, 3vw, 32px);
+  background: var(--surface-1);
+  border: 1px solid var(--line-subtle);
+  border-radius: 6px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(28px);
+  filter: blur(4px);
+  transition:
+    opacity 900ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    transform 900ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    filter 700ms ease,
+    border-color 220ms ease;
+  overflow: hidden;
+}
+.scenario-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+.scenario-card[data-scenario="C1"] { border-left: 3px solid var(--gold); }
+.scenario-card[data-scenario="C2"] { border-left: 3px solid oklch(0.62 0.06 230); }
+.scenario-card[data-scenario="C3"] { border-left: 3px solid oklch(0.60 0.10 150); }
+
+.scenario-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(400px 200px at 90% 0%, color-mix(in oklch, var(--gold) 8%, transparent), transparent 65%);
+  opacity: 0;
+  transition: opacity 280ms ease;
+  pointer-events: none;
+}
+.scenario-card.is-visible::before { opacity: 1; }
+
+.scenario-rule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.scenario-rule-top,
+.scenario-rule-bottom {
+  flex: 1;
+  width: 1px;
+  background: linear-gradient(180deg, transparent, color-mix(in oklch, var(--gold) 45%, transparent));
+  min-height: 28px;
+}
+.scenario-rule-bottom {
+  background: linear-gradient(0deg, transparent, color-mix(in oklch, var(--gold) 45%, transparent));
+}
+.scenario-rule-code {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: -0.02em;
+  font-feature-settings: "onum";
+  line-height: 1;
+}
+
+.scenario-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+
+.scenario-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  border-bottom: 1px dashed var(--line-subtle);
+  padding-bottom: 10px;
+}
+.scenario-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  background: color-mix(in oklch, var(--gold) 10%, transparent);
+  border: 1px solid color-mix(in oklch, var(--gold) 35%, var(--border));
+  color: var(--gold);
+  border-radius: 999px;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+}
+.scenario-basis {
+  color: var(--t3);
+  font-size: 10px;
+  letter-spacing: 0.02em;
+}
+
+.scenario-value-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 18px;
+  padding: 4px 0;
+}
+.scenario-value {
+  font-size: clamp(34px, 5vw, 64px);
+  font-weight: 500;
+  color: var(--ink-1);
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-feature-settings: "onum", "tnum";
+}
+.scenario-card[data-scenario="C1"] .scenario-value { color: var(--gold); }
+.scenario-delta {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--t2);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+.scenario-delta-arrow {
+  color: color-mix(in oklch, var(--ok) 80%, var(--t1));
+  font-size: 9px;
+}
+.scenario-delta-pct {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: color-mix(in oklch, var(--ok) 65%, var(--ink-1));
+  font-size: 12px;
+}
+.scenario-delta-ref {
+  font-family: var(--font-mono);
+  color: var(--t3);
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.scenario-narrative {
+  font-size: clamp(14px, 1.4vw, 17px);
+  line-height: 1.6;
+  color: var(--t2);
+  max-width: 60ch;
+  letter-spacing: -0.003em;
+  margin: 4px 0 8px;
+}
+
+.scenario-marker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--t3);
+  padding-top: 6px;
+  border-top: 1px solid var(--line-subtle);
+}
+.scenario-marker-dot {
+  width: 6px; height: 6px;
+  background: var(--gold);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px color-mix(in oklch, var(--gold) 20%, transparent);
+}
+
+/* Stagger interno dos elementos do card */
+.scenario-card.is-visible .scenario-head       { animation: sc-slide-up 720ms 120ms both cubic-bezier(0.2, 0.8, 0.2, 1); }
+.scenario-card.is-visible .scenario-value-wrap { animation: sc-slide-up 800ms 280ms both cubic-bezier(0.2, 0.8, 0.2, 1); }
+.scenario-card.is-visible .scenario-narrative  { animation: sc-slide-up 720ms 480ms both cubic-bezier(0.2, 0.8, 0.2, 1); }
+.scenario-card.is-visible .scenario-marker     { animation: sc-slide-up 600ms 680ms both cubic-bezier(0.2, 0.8, 0.2, 1); }
+
+@keyframes sc-slide-up {
+  0%   { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Pull-quote entre cartões */
+.scenario-pullquote {
+  position: relative;
+  max-width: 640px;
+  margin: clamp(16px, 3vh, 32px) auto;
+  padding: clamp(12px, 2vh, 20px) clamp(20px, 4vw, 48px);
+  text-align: center;
+  opacity: 0;
+  transform: translateY(12px) scale(0.98);
+  transition: opacity 1100ms ease, transform 1100ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.scenario-pullquote.is-visible { opacity: 1; transform: translateY(0) scale(1); }
+.scenario-pullquote-mark {
+  display: block;
+  color: color-mix(in oklch, var(--gold) 55%, transparent);
+  font-family: var(--font-display);
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.scenario-pullquote p {
+  font-size: clamp(15px, 1.6vw, 19px);
+  color: var(--t2);
+  line-height: 1.55;
+  letter-spacing: -0.003em;
+}
+
+/* Print: flatten tudo (sem animação) */
+@media print {
+  .scenario-card,
+  .scenario-pullquote { opacity: 1 !important; transform: none !important; filter: none !important; }
+  .scenario-card.is-visible .scenario-head,
+  .scenario-card.is-visible .scenario-value-wrap,
+  .scenario-card.is-visible .scenario-narrative,
+  .scenario-card.is-visible .scenario-marker { animation: none !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scenario-card {
+    opacity: 1; transform: none; filter: none; transition: none;
+  }
+  .scenario-pullquote { opacity: 1; transform: none; transition: none; }
+  .scenario-card.is-visible .scenario-head,
+  .scenario-card.is-visible .scenario-value-wrap,
+  .scenario-card.is-visible .scenario-narrative,
+  .scenario-card.is-visible .scenario-marker { animation: none !important; }
+}
+
+
+/* ========================================================================
+   SPRINT 3 A4 — LIVE AUDIT (canal ao vivo)
+   ======================================================================== */
+.live-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  flex-shrink: 0;
+}
+.live-indicator.live-on {
+  background: var(--gold);
+  box-shadow: 0 0 0 0 color-mix(in oklch, var(--gold) 60%, transparent);
+  animation: live-pulse 2s ease-out infinite;
+}
+.live-indicator.live-off {
+  background: var(--t4);
+  opacity: 0.5;
+}
+.live-indicator.is-fetching::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 1px solid color-mix(in oklch, var(--gold) 60%, transparent);
+  animation: live-fetch-ring 900ms ease-out;
+}
+
+@keyframes live-pulse {
+  0%   { box-shadow: 0 0 0 0 color-mix(in oklch, var(--gold) 70%, transparent); }
+  70%  { box-shadow: 0 0 0 10px color-mix(in oklch, var(--gold) 0%, transparent); }
+  100% { box-shadow: 0 0 0 0 color-mix(in oklch, var(--gold) 0%, transparent); }
+}
+@keyframes live-fetch-ring {
+  0%   { opacity: 1; transform: scale(0.8); }
+  100% { opacity: 0; transform: scale(2.6); }
+}
+
+.live-banner {
+  /* Paper texture discreta */
+  background-image:
+    linear-gradient(var(--surface-1), var(--surface-1)),
+    repeating-linear-gradient(-45deg, transparent 0 2px, color-mix(in oklch, var(--gold) 2%, transparent) 2px 3px);
+  background-blend-mode: normal, overlay;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-indicator.live-on { animation: none; }
+  .live-indicator.is-fetching::after { animation: none; opacity: 0; }
+}
