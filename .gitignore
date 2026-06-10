@@ -33,6 +33,15 @@ token.json
 # Arquivo morto da consolidacao .claude (so local; contem settings.local antigos)
 _ARCHIVE_CLAUDE/
 
+# Pacotes de terceiros baixados (vendored) e artefatos de teste — nao versionar
+impeccable-main/
+awesome-design-md-main/
+coverage/
+
+# Backups locais de arquivos regenerados
+*.bak.*
+*.bak-*
+
 # Snapshot automatico do hook PreCompact (regenerado a cada /compact; local-only)
 .remember/
 
