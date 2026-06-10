@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-_Atualizado em 09/06/2026 19:28 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 09/06/2026 20:46 via `scripts/auto_update_claude_md.py`._
 
 > Conteúdo regenerado a cada `/sincronizar-prodam`. Para regras fixas → editar o gerador. Para métricas → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\auto_update_claude_md.py`.
 
@@ -60,6 +60,7 @@ Pipeline end-to-end F0→F6 (skills, gates documentais, prazos): [`WORKFLOW_COBR
 11. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF).
 12. **RPV/AM = 20 × SM vigente** (Lei AM 2.748/2002; a Lei 3.683/2012 é citação errada) — 60 SM é o teto **federal**, não aplicar contra o Estado.
 13. Jurisprudência: citar **só** o catálogo `PRODAM_DOCS/REFERENCIA_JURIDICA/11_PESQUISAS_ORIGINAIS/PRECEDENTES_VERIFICADOS.md` (3 fabricados + 6 distorcidos catalogados); antes de emitir opinião jurídica, consultar `REFERENCIA_JURIDICA/` na ordem da Seção 6.
+14. **Correção DETRAN é por contrato** (`profiles.json → DETRAN.contratos[*].regime_aplicavel`): CT 022/2014 (e 025/027 de 2014) = **IGPM + 1% a.m. + 2% (CDC, cláusula 11.1)**; contratos **silentes** (CT 10/2021, 17/2015, 60/2022, 71/2022) = **Tema 810/STF + SELIC** (Lei 14.905/2024). **Nunca usar a multa de 1%/dia da Cláusula 12.3.2** — ela protege o DETRAN (contratante), não a PRODAM.
 
 ## 6. HIERARQUIA DE FONTES JURÍDICAS (consultar nessa ordem)
 1. **Nota Metodológica** (`PRODAM_DOCS/REFERENCIA_JURIDICA/01_NOTA_METODOLOGICA/`) — corrige todos os demais.

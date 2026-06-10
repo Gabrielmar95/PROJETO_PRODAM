@@ -8,6 +8,16 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:sapl.al.am.leg.br)",
       "WebFetch(domain:www.pge.am.gov.br)"
+    ],
+    "ask": [
+      "Edit(**/profiles.json)",
+      "Write(**/profiles.json)"
+    ],
+    "deny": [
+      "Edit(**/*.pdf)",
+      "Write(**/*.pdf)",
+      "Edit(**/*.db)",
+      "Write(**/*.db)"
     ]
   },
   "hooks": {
@@ -20,6 +30,23 @@
             "command": "pwsh -NoProfile -File \"$CLAUDE_PROJECT_DIR\\.claude\\hooks\\block_pdf_delete.ps1\"",
             "timeout": 5,
             "statusMessage": "Verificando remoção de PDF..."
+          },
+          {
+            "type": "command",
+            "command": "pwsh -NoProfile -File \"$CLAUDE_PROJECT_DIR\\.claude\\hooks\\bloqueia-destrutivos.ps1\"",
+            "timeout": 5,
+            "statusMessage": "Verificando comando destrutivo (SSOT/devedores)..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pwsh -NoProfile -File \"$CLAUDE_PROJECT_DIR\\.claude\\hooks\\protege-fontes.ps1\"",
+            "timeout": 5,
+            "statusMessage": "Protegendo fontes autoritativas..."
           }
         ]
       }
@@ -30,6 +57,13 @@
           {
             "type": "command",
             "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh"
+          },
+          {
+            "type": "command",
+            "shell": "powershell",
+            "command": "& \"$env:CLAUDE_PROJECT_DIR/.claude/hooks/lembrete-sessao.ps1\"",
+            "timeout": 10,
+            "statusMessage": "Regras críticas PRODAM..."
           }
         ]
       }

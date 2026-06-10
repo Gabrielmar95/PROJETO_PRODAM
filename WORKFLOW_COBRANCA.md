@@ -1,5 +1,5 @@
 # Workflow de Cobrança — PROJETO PRODAM
-_Pipeline end-to-end F0→F6. Atualizado em 09/06/2026 19:28._
+_Pipeline end-to-end F0→F6. Atualizado em 09/06/2026 20:46._
 
 Cada devedor avança pelas fases abaixo. O campo `fase_atual` em `profiles.json` rastreia o ponto vigente; `historico_fases` registra a trajetória.
 

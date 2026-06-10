@@ -469,6 +469,11 @@ def generate_claude_md(m):
     L.append("11. Adm. Direta → precatório/RPV (Art. 100 CF) | Adm. Indireta concorrencial → penhora direta (Tema 253/STF).")
     L.append("12. **RPV/AM = 20 × SM vigente** (Lei AM 2.748/2002; a Lei 3.683/2012 é citação errada) — 60 SM é o teto **federal**, não aplicar contra o Estado.")
     L.append("13. Jurisprudência: citar **só** o catálogo `PRODAM_DOCS/REFERENCIA_JURIDICA/11_PESQUISAS_ORIGINAIS/PRECEDENTES_VERIFICADOS.md` (3 fabricados + 6 distorcidos catalogados); antes de emitir opinião jurídica, consultar `REFERENCIA_JURIDICA/` na ordem da Seção 6.")
+    # 2026-06-09 (consolidação .claude): R14 nova — regime de correção DETRAN por
+    # contrato + vedação à multa de 1%/dia da Cláusula 12.3.2 (cláusula a favor do
+    # DETRAN-contratante, não da PRODAM-credora). Fontes: DETRAN_AUDITORIA_COMPLETA/
+    # CLAUDE.md §1.2 (6 regimes) e profiles.json → DETRAN.contratos[*].regime_aplicavel.
+    L.append("14. **Correção DETRAN é por contrato** (`profiles.json → DETRAN.contratos[*].regime_aplicavel`): CT 022/2014 (e 025/027 de 2014) = **IGPM + 1% a.m. + 2% (CDC, cláusula 11.1)**; contratos **silentes** (CT 10/2021, 17/2015, 60/2022, 71/2022) = **Tema 810/STF + SELIC** (Lei 14.905/2024). **Nunca usar a multa de 1%/dia da Cláusula 12.3.2** — ela protege o DETRAN (contratante), não a PRODAM.")
     L.append("")
 
     # ============ 6. HIERARQUIA DE FONTES JURÍDICAS ============

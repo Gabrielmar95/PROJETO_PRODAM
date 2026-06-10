@@ -1,5 +1,5 @@
 # Status dos Devedores — PROJETO PRODAM
-_Atualizado em 09/06/2026 19:28 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 09/06/2026 20:46 via `scripts/auto_update_claude_md.py`._
 
 **Total**: 69 devedores · R$ 83.668.078,44 exigível · R$ 125.245.390,64 atualizado (65/69 com valor atualizado).
 

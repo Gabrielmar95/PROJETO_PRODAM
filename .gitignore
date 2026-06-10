@@ -27,6 +27,11 @@ token.json
 
 # Config local do Claude Code (especifica da maquina; nunca versionar)
 .claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/worktrees/
+
+# Arquivo morto da consolidacao .claude (so local; contem settings.local antigos)
+_ARCHIVE_CLAUDE/
 
 # Snapshot automatico do hook PreCompact (regenerado a cada /compact; local-only)
 .remember/
