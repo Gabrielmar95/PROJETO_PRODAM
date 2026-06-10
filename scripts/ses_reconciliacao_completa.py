@@ -33,7 +33,7 @@ from prodam_utils import norm, norm_variants, brl, fmt_brl
 DL = ROOT / "SPCF_EXTRACAO" / "downloads"
 DADOS = ROOT / "SPCF_EXTRACAO" / "dados"
 POR_DEV = ROOT / "SPCF_EXTRACAO" / "por_devedor" / "SES_SUSAM"
-OUT = ROOT
+OUT = ROOT / "dados"  # 2026-06-10: outputs saíram da raiz (organização Sessão 1)
 
 from datetime import timedelta
 HOJE = date.today()

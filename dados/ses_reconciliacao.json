@@ -1,10 +1,10 @@
 {
   "meta": {
-    "data": "2026-04-14",
-    "cutoff_prescricao": "2021-04-14",
+    "data": "2026-05-12",
+    "cutoff_prescricao": "2021-05-13",
     "universo_total": 1016,
     "stats": {
-      "prescrita": 176,
+      "prescrita": 179,
       "exigivel": 73,
       "paga": 860,
       "cancelada": 19
@@ -1164,7 +1164,7 @@
     }
   ],
   "prescritas_resumo": {
-    "quantidade": 176,
+    "quantidade": 179,
     "valor_se_cobraveis": "4567134.92"
   }
 }

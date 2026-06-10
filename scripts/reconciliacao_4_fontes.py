@@ -642,14 +642,14 @@ def main():
 
     # Relatório MD
     md = gerar_relatorio_md(resultados, alertas)
-    md_path = OUTPUT_DIR / "reconciliacao_4_fontes_RELATORIO.md"
+    md_path = OUTPUT_DIR / "relatorios" / "reconciliacao_4_fontes_RELATORIO.md"
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(md)
     print(f"\n✓ Relatório MD: {md_path}")
 
     # JSON
     json_data = serializar_resultado(resultados)
-    json_path = OUTPUT_DIR / "reconciliacao_4_fontes_DADOS.json"
+    json_path = OUTPUT_DIR / "dados" / "reconciliacao_4_fontes_DADOS.json"
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)
     print(f"✓ Dados JSON: {json_path}")

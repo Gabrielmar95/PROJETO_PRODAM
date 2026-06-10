@@ -1,0 +1,1149 @@
+{
+ "_metadata": {
+  "sessao": "Organizacao da raiz do PROJETO_PRODAM (Sessao 1 de 2)",
+  "data": "2026-06-10",
+  "operador": "Claude Code sob aprovacao de Gabriel Mar (OAB/AM 15.697)",
+  "md5_calculado": "ANTES de cada delecao/movimento/edicao (trilha de auditoria)",
+  "acoes": 112,
+  "fases": "A=delecoes (commit 677f7b8) | B=moves/edits | adiados=2 relatorios quinzenais + 2 BAKs .db bloqueados"
+ },
+ "acoes": [
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000002",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000003",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000004",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000005",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000006",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000007",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000008",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000400000009",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000600000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000600000002",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000700000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000000900000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000001300000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000001800000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000001800000002",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "nao",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000003200000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "nao",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000003f00000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "nao",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden000000d600000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden000000d600000002",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000011200000003",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "nao",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000013800000002",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "nao",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000042400000004",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "nao",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000042500000003",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "nao",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": ".fuse_hidden0000065700000001",
+   "caminho_novo": "",
+   "categoria": "artefato_filesystem",
+   "tracked": "sim",
+   "md5": "b7c14ec6110fa820ca6b65f5aec85911",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_sejusc_db.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "51395241e7417144cd2fca4fde350eb0",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_sejusc_db2.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "7ab45e32998dc43499edaea4962ad49f",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_sejusc_db3.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "2cd9b585be4d75c53f571eba08eb56b7",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_sejusc_evid.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "facef80cbb0e45e9d375a7b18a479b8f",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_sejusc_orfaos.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "05b51ae386d6fd6c394c6c55bca77d90",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_sejusc_prescricao.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "344fa6e32374b5974b3275d6550ef79d",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_sejusc_sumula383.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "bb9b9318666d244fc99eef1631009e60",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_tmp_ssp_prescricao.py",
+   "caminho_novo": "",
+   "categoria": "debug_temporario",
+   "tracked": "sim",
+   "md5": "694e1e3d344e4cabc26b74eb288cb98b",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_out_presc.txt",
+   "caminho_novo": "",
+   "categoria": "output_teste",
+   "tracked": "sim",
+   "md5": "e6c5b5a1d6a247f110bfb8697d69c009",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "_notificacao_texto_extraido.txt",
+   "caminho_novo": "",
+   "categoria": "output_teste",
+   "tracked": "sim",
+   "md5": "364d68087d5c3e2c00de02b596a26c1e",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "verificacao.txt",
+   "caminho_novo": "",
+   "categoria": "output_teste",
+   "tracked": "sim",
+   "md5": "ef8b51872082c9577dbaa2ae25dac969",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "verificacao_final.txt",
+   "caminho_novo": "",
+   "categoria": "output_teste",
+   "tracked": "sim",
+   "md5": "9d13f1c02a025fd34c337ae729db2f20",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260510_200305",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "61732cec17edc74febfc8b1d75c8fc4c",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260511_114530",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "d4f75c2826e20d5a5b8ad924130af6e8",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260512_022729",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "d25d84e533feb11a2a729b2c6d190edb",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260512_190535",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "8e6b8a2ccb154a26f3286517ad6f61eb",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260512_190546",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "88975d525a5f905f4d65047fe48dbd9a",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260512_190556",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "fb1bc571f428b57643ce567b1450f6c2",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260512_190610",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "98f0f518be729ff9c1d7cbab225ca0cb",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260512_193319",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "76d68a64bfcf80d3d33504829bcf72be",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE.md.bak.20260608_125259",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "nao",
+   "md5": "66c8a420af4de01e21f523799a6e4132",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "CLAUDE_BACKUP_ANTES_ATUALIZACAO_20_04_2026_NOITE.md",
+   "caminho_novo": "",
+   "categoria": "backup_claude_md",
+   "tracked": "sim",
+   "md5": "45f585708b7b5049ebe32e574cb85e20",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "HISTORICO_SESSOES.md.bak-20260511",
+   "caminho_novo": "",
+   "categoria": "backup_historico",
+   "tracked": "sim",
+   "md5": "8620327f58189e890621f2a59d3c08f8",
+   "observacao": ""
+  },
+  {
+   "acao": "deletar",
+   "caminho_antigo": "HISTORICO_SESSOES.md.bak-20260609",
+   "caminho_novo": "",
+   "categoria": "backup_historico",
+   "tracked": "nao",
+   "md5": "61c6cc17c4b8163a3452a49988fdda75",
+   "observacao": ""
+  },
+  {
+   "acao": "adiado",
+   "caminho_antigo": "prodam_BAK_ANTES_SYNC_20260420_164054.db",
+   "caminho_novo": "",
+   "categoria": "backup_db",
+   "tracked": "nao",
+   "md5": "862b92a28b37267ab6259d16442b6fe9",
+   "observacao": "gate integrity_check=ok em 2026-06-10; BAK mais antigo, retido o de 20260507 | BLOQUEADO em 2026-06-10 pelo deny Write(**/*.db) de .claude/settings.json (camada de permissão trata Move-Item/Remove-Item de .db como escrita) — acao manual pendente do usuario"
+  },
+  {
+   "acao": "adiado",
+   "caminho_antigo": "prodam_BAK_REGRESSAO_20260507_163309.db",
+   "caminho_novo": "_ARQUIVO\\prodam_BAK_REGRESSAO_20260507_163309.db",
+   "categoria": "backup_db",
+   "tracked": "nao",
+   "md5": "befcfdc92a86758f31ca38b80bd64339",
+   "observacao": "retido como ultimo backup do prodam.db | BLOQUEADO em 2026-06-10 pelo deny Write(**/*.db) de .claude/settings.json (camada de permissão trata Move-Item/Remove-Item de .db como escrita) — acao manual pendente do usuario"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "_ARCHIVE_CLAUDE",
+   "caminho_novo": "_ARQUIVO\\_ARCHIVE_CLAUDE",
+   "categoria": "pasta_legada",
+   "tracked": "nao",
+   "md5": "(pasta)",
+   "observacao": "gate: nao estava vazia (configs antigas) — movida em vez de deletada; 6 arquivos internos; hashes: 2026-06-09\\INDEX.md.bak-20260609=15b1ad1b441d913cc5590257e030364c; 2026-06-09\\PRODAM_DOCS_claude\\CLAUDE.md=d7da0698661335a66dd58b0701a789b4; 2026-06-09\\PRODAM_DOCS_claude\\scheduled_tasks.lock=2bc69bd3c7260fbf3ff29a2e8e898e7d; 2026-06-09\\PRODAM_DOCS_claude\\settings.local.json=5dde352b7b77415f6f186fbe18f07509; 2026-06-09\\SPCF_EXTRACAO_claude\\scheduled_tasks.lock=349572cdf5346cf137b8c92a2fc31274; 2026-06-09\\SPCF_EXTRACAO_claude\\settings.local.json=0871e4a42da959218b7bace966a18fdf"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "00_RESUMO_GERAL_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\00_RESUMO_GERAL_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "8f089d3fb0bd9d2a68ba8425387d83c4",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "BLINDAGEM_PRE_EXECUCAO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\BLINDAGEM_PRE_EXECUCAO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "259bfbe8851c674e17dbb3990597b1c2",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "CONTRATOS_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\CONTRATOS_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "2cc6c174a4304db2855410b51a743abc",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "CORRECAO_MONETARIA_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\CORRECAO_MONETARIA_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "38c9b218c2d99c01a2a636ce10e04d1f",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "DIVIDA_CONSOLIDADA_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\DIVIDA_CONSOLIDADA_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "5ec995ea57058608f72210af161c9a16",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "DOSSIE_COMPROBATORIO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\DOSSIE_COMPROBATORIO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "6876cfe9593ef39d4bc7cd0f2fcd5d52",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "EVIDENCIAS_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\EVIDENCIAS_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "9187ca8a1f7a00867cf6745d2da714b6",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "FATURAS_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\FATURAS_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "82af48ff6189288bffb8c05a5d9f4568",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "FORCA_PROBATORIA_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\FORCA_PROBATORIA_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "956d608317885c323b4b1fec677b80da",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "FUNDAMENTACAO_LEGAL_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\FUNDAMENTACAO_LEGAL_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "beef34cff8c57050b046ee9332a0bb0b",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "MATRIZ_DE_RISCO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\MATRIZ_DE_RISCO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "db60ca8c2a3f33ae95ef1f487ba6b93c",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "NOTAS_DE_EMPENHO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\NOTAS_DE_EMPENHO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "d9caeee551fb1bb8bf1441092bec6bf7",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "PAINEL_GERAL_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\PAINEL_GERAL_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "b743ec5b9d33a39a383a02b7e42693e8",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "PRIORIZACAO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\PRIORIZACAO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "5309b6ebf28dd54e9c65550328b7ba70",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "RECEBIMENTOS_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\RECEBIMENTOS_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "2583a04d17e21d415ae87ea9620856cf",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "RECONHECIMENTO_TACITO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\RECONHECIMENTO_TACITO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "14a589f0811960e50c0c9b36dd8aaab1",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "REGIME_DE_EXECUCAO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\REGIME_DE_EXECUCAO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "12cb2d528e5d4696983598a2faa7862f",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "RPV_PENHORA_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\RPV_PENHORA_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "e476ef644be700de6bcd5078f037a76a",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "SCORE_COMPOSTO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\SCORE_COMPOSTO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "f09e44275b86fea12f4de9aeab5726d6",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "STATUS_PROXIMOS_PASSOS_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\STATUS_PROXIMOS_PASSOS_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "01d504dbf00518834119ab9a6adcd1c9",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "TITULO_EXECUTIVO_DETRAN-AM.md",
+   "caminho_novo": "docs\\DETRAN_TEMATICOS\\TITULO_EXECUTIVO_DETRAN-AM.md",
+   "categoria": "ficha_tematica_detran",
+   "tracked": "sim",
+   "md5": "f973a12429714a5f1146999347658dd6",
+   "observacao": "git mv; pre-cheque: nenhum gerador escreve na raiz, sem duplicata em docs\\"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "gera_notificacao_ses.js",
+   "caminho_novo": "scripts\\gera_notificacao_ses.js",
+   "categoria": "script_solto",
+   "tracked": "sim",
+   "md5": "7987969bfcf62131d34f50e4ae885acf",
+   "observacao": "caminhos absolutos Windows hardcoded — funciona de qualquer cwd, sem ajuste"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "RECONCILIADOR.py",
+   "caminho_novo": "scripts\\RECONCILIADOR.py",
+   "categoria": "script_solto",
+   "tracked": "sim",
+   "md5": "0d9172b5b7c9fbf8459960c6b0e3b5e9",
+   "observacao": "md5 = pre-edit; paths relativos ao CWD ajustados apos o move para ancorar na raiz via Path(__file__).resolve().parents[1]"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "reconciliar_prescricao.py",
+   "caminho_novo": "scripts\\reconciliar_prescricao.py",
+   "categoria": "script_solto",
+   "tracked": "sim",
+   "md5": "f8f0018c43046ba3b0e3ba51c428d315",
+   "observacao": "md5 = pre-edit; paths relativos ao CWD ajustados apos o move para ancorar na raiz via Path(__file__).resolve().parents[1]"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "inspect_doc.py",
+   "caminho_novo": "scripts\\inspect_doc.py",
+   "categoria": "script_solto",
+   "tracked": "sim",
+   "md5": "83ef76fe6e7dc86b67f88987362c11c5",
+   "observacao": "caminho morto /home/ubuntu/upload/... (artefato Linux importado) — ja quebrado antes do move, movido sem ajuste"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "inspect_body.py",
+   "caminho_novo": "scripts\\inspect_body.py",
+   "categoria": "script_solto",
+   "tracked": "sim",
+   "md5": "fdb9532e6f6f618aac703cd0bc14c868",
+   "observacao": "caminho morto /home/ubuntu/upload/... (artefato Linux importado) — ja quebrado antes do move, movido sem ajuste"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "process_doc.py",
+   "caminho_novo": "scripts\\process_doc.py",
+   "categoria": "script_solto",
+   "tracked": "sim",
+   "md5": "bc3ac83807b2191e97494fc6aaaf4fb9",
+   "observacao": "caminho morto /home/ubuntu/upload/... (artefato Linux importado) — ja quebrado antes do move, movido sem ajuste"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "SESSAO_2026-06-09_organizador-arquivos-prodam.md",
+   "caminho_novo": "relatorios\\sessoes\\SESSAO_2026-06-09_organizador-arquivos-prodam.md",
+   "categoria": "doc_sessao",
+   "tracked": "sim",
+   "md5": "68f22a0e82fdf68a49aaaad5e7155a11",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "SESSAO_2026-06-10_notion-hub-conexoes.md",
+   "caminho_novo": "relatorios\\sessoes\\SESSAO_2026-06-10_notion-hub-conexoes.md",
+   "categoria": "doc_sessao",
+   "tracked": "nao",
+   "md5": "f77d26c4cb8163d3aab66cf72542e050",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "REGISTRO_SESSAO_2026-06-10_panorama_dashboard_relatorio.md",
+   "caminho_novo": "relatorios\\sessoes\\REGISTRO_SESSAO_2026-06-10_panorama_dashboard_relatorio.md",
+   "categoria": "doc_sessao",
+   "tracked": "nao",
+   "md5": "3620442c300197f068c75e3f2da38c8e",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "RELATORIO_ORGANIZACAO_2026-06-10.md",
+   "caminho_novo": "relatorios\\sessoes\\RELATORIO_ORGANIZACAO_2026-06-10.md",
+   "categoria": "doc_sessao",
+   "tracked": "nao",
+   "md5": "d433dc6cbab43c2952d8814ee64a85b2",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "MAPA_INVENTARIO_CONSOLIDADO_2026-06-09.html",
+   "caminho_novo": "relatorios\\MAPA_INVENTARIO_CONSOLIDADO_2026-06-09.html",
+   "categoria": "relatorio",
+   "tracked": "sim",
+   "md5": "9959b4c58bbfc124ec58d6efbbe94e14",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "DIAGNOSTICO_PASTA_MAE.html",
+   "caminho_novo": "relatorios\\DIAGNOSTICO_PASTA_MAE.html",
+   "categoria": "relatorio",
+   "tracked": "sim",
+   "md5": "5e6ac6c67ed3e15f24cd903021ecca6f",
+   "observacao": "gerador scripts/gerar_dashboard.py tem OUT com caminho morto /sessions/ — nao regenera aqui"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "DIAGNOSTICO_PASTA_MAE.docx",
+   "caminho_novo": "relatorios\\DIAGNOSTICO_PASTA_MAE.docx",
+   "categoria": "relatorio",
+   "tracked": "sim",
+   "md5": "346ed9b2f9ab95b5e487724f5ae0876e",
+   "observacao": "gerador scripts/gerar_relatorio_docx.py tem OUT com caminho morto /sessions/ — nao regenera aqui"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "_DIAGNOSTICO_REORGANIZACAO_20260507_1232.md",
+   "caminho_novo": "relatorios\\_DIAGNOSTICO_REORGANIZACAO_20260507_1232.md",
+   "categoria": "relatorio",
+   "tracked": "sim",
+   "md5": "d27bc030d74ac6e0ecb6354527ee8287",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "reconciliacao_4_fontes_RELATORIO.md",
+   "caminho_novo": "relatorios\\reconciliacao_4_fontes_RELATORIO.md",
+   "categoria": "relatorio",
+   "tracked": "sim",
+   "md5": "8c13b0886b48a17fe1cbefc8f1416f5c",
+   "observacao": "git mv -f SOBRESCREVE versao antiga do destino (2026-04-14, 22586 bytes, md5=AA97A25A84F6843B6AF0BFED0F7A8F14); raiz mais nova (2026-04-20, 23640 bytes). Derivado regeneravel por scripts/reconciliacao_4_fontes.py"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "Rastreabilidade Forense Completa — Dashboards PRODAM.md",
+   "caminho_novo": "relatorios\\Rastreabilidade Forense Completa — Dashboards PRODAM.md",
+   "categoria": "relatorio",
+   "tracked": "nao",
+   "md5": "b8dfb8c22daa444a1d09d0f7c06c4b20",
+   "observacao": ""
+  },
+  {
+   "acao": "adiado",
+   "caminho_antigo": "Relatorio_Quinzenal_PRODAM_2026-06-10.docx",
+   "caminho_novo": "",
+   "categoria": "relatorio_quinzenal",
+   "tracked": "nao",
+   "md5": "76362bee06b3da51408b044b6d011479",
+   "observacao": "decisao do usuario 10/06: fica na raiz ate confirmacao de envio a PRODAM"
+  },
+  {
+   "acao": "adiado",
+   "caminho_antigo": "Dashboard_PRODAM_Relatorio_Quinzenal_2026-06-10.html",
+   "caminho_novo": "",
+   "categoria": "relatorio_quinzenal",
+   "tracked": "nao",
+   "md5": "064670253b73fcecdfe600faf6d10bc8",
+   "observacao": "decisao do usuario 10/06: fica na raiz ate confirmacao de envio a PRODAM"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "ses_reconciliacao.csv",
+   "caminho_novo": "dados\\ses_reconciliacao.csv",
+   "categoria": "dado_derivado",
+   "tracked": "sim",
+   "md5": "c9f3b053cd62069a32bca408aeaa33cd",
+   "observacao": "git mv -f SOBRESCREVE versao antiga do destino (2026-04-14, md5=2611F4AFD90C712CB1C5F70DE8F0C3CA); raiz mais nova (2026-05-12)"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "ses_reconciliacao.json",
+   "caminho_novo": "dados\\ses_reconciliacao.json",
+   "categoria": "dado_derivado",
+   "tracked": "sim",
+   "md5": "ad321c3e7222ffb17d9cd1ede816aa80",
+   "observacao": "git mv -f SOBRESCREVE versao antiga do destino (2026-04-14, md5=1AC6CFC91F8E3E65250E6252D6D8AE22); raiz mais nova (2026-05-12)"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "ses_reconciliacao_summary.md",
+   "caminho_novo": "dados\\ses_reconciliacao_summary.md",
+   "categoria": "dado_derivado",
+   "tracked": "sim",
+   "md5": "bdbbfd6e56c413664cf720a4bdaf6be7",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "detran_faturas_painel_2026-06-09.csv",
+   "caminho_novo": "dados\\detran_faturas_painel_2026-06-09.csv",
+   "categoria": "dado_derivado",
+   "tracked": "nao",
+   "md5": "a71bd4b6d3e20a6c77b45a4a050e28b0",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "profile_pasta_mae.json",
+   "caminho_novo": "dados\\profile_pasta_mae.json",
+   "categoria": "dado_derivado",
+   "tracked": "sim",
+   "md5": "13f1f45935b22264d83d3014eb2855a6",
+   "observacao": "consumidor scripts/insights_pasta_mae.py le de caminho morto /sessions/ — nao quebra"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "LEIAME.md",
+   "caminho_novo": "docs\\LEIAME.md",
+   "categoria": "doc_apoio",
+   "tracked": "sim",
+   "md5": "1b981c8a8d8cdf61da3f39cdb29fe558",
+   "observacao": "conteudo DESATUALIZADO — mantido apenas por valor historico"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "INSTRUCOES_COWORK.md",
+   "caminho_novo": "docs\\INSTRUCOES_COWORK.md",
+   "categoria": "doc_apoio",
+   "tracked": "sim",
+   "md5": "6bbf9e827d38e6938b45b398236acee4",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "knowledge-agents.md",
+   "caminho_novo": "docs\\knowledge-agents.md",
+   "categoria": "doc_apoio",
+   "tracked": "sim",
+   "md5": "e0c3ee901a33578ea33900c404dbddb9",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "01_CONTEXTO.md",
+   "caminho_novo": "docs\\KIT_SETUP\\01_CONTEXTO.md",
+   "categoria": "kit_setup",
+   "tracked": "sim",
+   "md5": "d3dee371cf6dc0def0de692c9e80eb33",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "02_INSTRUCOES.md",
+   "caminho_novo": "docs\\KIT_SETUP\\02_INSTRUCOES.md",
+   "categoria": "kit_setup",
+   "tracked": "sim",
+   "md5": "f6f4062749c6f63967bffcf36b7eba48",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "03_GLOSSARIO.md",
+   "caminho_novo": "docs\\KIT_SETUP\\03_GLOSSARIO.md",
+   "categoria": "kit_setup",
+   "tracked": "sim",
+   "md5": "c9f1c91bf725a88270afc1c07c1a4c77",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "04_GUIA_RAPIDO_JURIDICO.md",
+   "caminho_novo": "docs\\KIT_SETUP\\04_GUIA_RAPIDO_JURIDICO.md",
+   "categoria": "kit_setup",
+   "tracked": "sim",
+   "md5": "eac0aaf714b4bc658d8c2e397c5c6cf9",
+   "observacao": ""
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "mapeamento.txt",
+   "caminho_novo": "_ARQUIVO\\Remover e Renumerar Tópicos do Documento Anexo (2)\\mapeamento.txt",
+   "categoria": "artefato_tarefa_antiga",
+   "tracked": "sim",
+   "md5": "08c1ce24e9e7c4d58074fc978563a2e3",
+   "observacao": "reunido com a pasta de origem antes do arquivamento dela"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "estrutura_documento.txt",
+   "caminho_novo": "_ARQUIVO\\Remover e Renumerar Tópicos do Documento Anexo (2)\\estrutura_documento.txt",
+   "categoria": "artefato_tarefa_antiga",
+   "tracked": "sim",
+   "md5": "2578164ef07a77cc7b58acee2f460e0d",
+   "observacao": "reunido com a pasta de origem antes do arquivamento dela"
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "_ARQUIVO_DRIFT",
+   "caminho_novo": "_ARQUIVO\\_ARQUIVO_DRIFT",
+   "categoria": "pasta_legada",
+   "tracked": "parcial",
+   "md5": "(pasta)",
+   "observacao": "git mv da pasta inteira; 4 tracked / 4 total; 0 PDFs confirmado em pre-cheque",
+   "hashes_internos": [
+    "PRODAM_DOCS__consultas.py=4fd153c695471e1be7e0d025397dc708",
+    "PRODAM_DOCS__orgao_pipeline_completa.py=a528c48a9842206cffa0a8872abd492a",
+    "PRODAM_DOCS__prodam_utils.py=5d40a7fad3f4feafe451b635f6cbd160",
+    "README.md=e8abca023a2edba614c5615093ab9ed2"
+   ]
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "_ARQUIVO_SESSAO_20260423",
+   "caminho_novo": "_ARQUIVO\\_ARQUIVO_SESSAO_20260423",
+   "categoria": "pasta_legada",
+   "tracked": "parcial",
+   "md5": "(pasta)",
+   "observacao": "git mv da pasta inteira; 53 tracked / 88 total; 0 PDFs confirmado em pre-cheque",
+   "hashes_internos": [
+    "_OUT_analise_indefinidos_20260423_143645\\indefinidos_detalhado.csv=887bd1c6c51e09ee42a3475f73b8bec7",
+    "_OUT_analise_indefinidos_20260423_143645\\relatorio_indefinidos.md=460cf43eae698086855dc3925790b732",
+    "_OUT_conteudo_20260423_115328\\progresso.log=7ea8d02f11739e8733bda07805c329d3",
+    "_OUT_conteudo_20260423_115328\\relatorio.md=86663afaaebafbfb433baf81fe83804b",
+    "_OUT_conteudo_20260423_115328\\renomear_proposto_conteudo.csv=0e57bfa734749c40e281768b5d1afdc6",
+    "_OUT_conteudo_20260423_122828\\progresso.log=cea9c5665a7bdc995833a52f47264224",
+    "_OUT_conteudo_20260423_122828\\relatorio.md=de56560e8106922ff0091f84c7c3af24",
+    "_OUT_conteudo_20260423_122828\\renomear_proposto_conteudo.csv=1a14e10223f99f083b930d3225cea2db",
+    "_OUT_conteudo_20260423_124925\\progresso.log=d2e82fffe2482aeb2bdf337c0c9f2e42",
+    "_OUT_conteudo_20260423_124925\\relatorio.md=09cb727508324eee6d05ab1a688bf339",
+    "_OUT_conteudo_20260423_124925\\renomear_proposto_conteudo.csv=8cd6e344a496a2ce3ce8fa0c866be2f6",
+    "_OUT_conteudo_20260423_131754\\progresso.log=2ac56578ff417e91a7a56c11ff78ec1b",
+    "_OUT_conteudo_20260423_131754\\relatorio.md=c3fdd0ef1ca4476cc7158034afe6d658",
+    "_OUT_conteudo_20260423_131754\\renomear_proposto_conteudo.csv=9df086fd80e5a7a5cc5c1e5e29a0cff4",
+    "_OUT_conteudo_20260423_133722\\progresso.log=9d5bfea24fbf854513454745959d00e3",
+    "_OUT_conteudo_20260423_133722\\relatorio.md=a4a4d0fe5d366457fe07bd4ae8a20994",
+    "_OUT_conteudo_20260423_133722\\renomear_proposto_conteudo.csv=5a8e15ee2b101f9ea931e11e49950835",
+    "_OUT_inventario_detran_externo_20260423_110633\\classificados.csv=248bf12b69be0e6efdca752a8fa07e09",
+    "_OUT_inventario_detran_externo_20260423_110633\\progresso.log=b2b0bb8d6545f618843ab14b948428e8",
+    "_OUT_inventario_detran_externo_20260423_110633\\relatorio.md=af61645a359a151c0a112dbdbbfa90f3",
+    "_OUT_inventario_detran_externo_20260423_110633\\renomear_proposto.csv=7830d5ffd57aaac90115a373590d0488",
+    "_OUT_inventario_detran_externo_20260423_110633\\universo.csv=7c338ef8bc7f635071749a05723e285f",
+    "_OUT_limpar_suspeitos_20260423_150603\\log_limpar_suspeitos.csv=8eb7a277a87238345b33e192a7e1f4c6",
+    "_OUT_limpar_suspeitos_20260423_150603\\progresso.log=005dbda093a5e1b5ac4c44f6d29e327d",
+    "_OUT_limpar_suspeitos_20260423_150603\\relatorio.md=28b4a7c9a4f8784ca7375be320c08049",
+    "_OUT_limpar_suspeitos_20260423_155901\\log_limpar_suspeitos.csv=8eb7a277a87238345b33e192a7e1f4c6",
+    "_OUT_limpar_suspeitos_20260423_155901\\progresso.log=4e22796f40503ce2ff746c7b5ab840f9",
+    "_OUT_limpar_suspeitos_20260423_155901\\relatorio.md=19b35286c3d78603e830c19a26a889f1",
+    "_OUT_limpar_suspeitos_20260423_155914\\log_limpar_suspeitos.csv=5b31202270157e1423175332bb9db4db",
+    "_OUT_limpar_suspeitos_20260423_155914\\progresso.log=80462437c4efb05be03950bd011ef2c8",
+    "_OUT_limpar_suspeitos_20260423_155914\\relatorio.md=e8bad18225622fe07924cd3c559764dd",
+    "_OUT_ocr_lote_externo_20260423_113957\\progresso.log=114f8f8fb5084b82870739be24e5cc70",
+    "_OUT_ocr_lote_externo_20260423_113957\\resultado_ocr.csv=dbb1e3d3e9c76b0f333ea59b53129598",
+    "_OUT_patch_corrupcao_20260423_170609\\backups\\prodam.db_analise.BAK=1aba26583d8c7f3b925c6166f77e5753",
+    "_OUT_patch_corrupcao_20260423_170609\\backups\\prodam.db_dashboard.BAK=7dc8b38578b657739f52624184a24e77",
+    "_OUT_patch_corrupcao_20260423_170609\\backups\\prodam.db_raiz.BAK=7dc8b38578b657739f52624184a24e77",
+    "_OUT_reclassificacao_path_20260423_114123\\classificados_reclass.csv=3df273dab7d57445dfac81c2867e3818",
+    "_OUT_reclassificacao_path_20260423_114123\\progresso.log=cab35e7d31657648e97a66d44e7c4007",
+    "_OUT_reclassificacao_path_20260423_114123\\relatorio_reclass.md=8fe98f0ff509f53a78589dd29923f6c8",
+    "_OUT_reclassificacao_path_20260423_114123\\renomear_proposto_reclass.csv=02341b73c76f598be8835600930bc63e",
+    "_OUT_reclassificacao_path_20260423_114408\\classificados_reclass.csv=393f1553b58aba5c26bf5464879d8645",
+    "_OUT_reclassificacao_path_20260423_114408\\progresso.log=9e1a957369abb17a9334227b32b3687a",
+    "_OUT_reclassificacao_path_20260423_114408\\relatorio_reclass.md=ebc2268885fcec93cb6f93b461dd47cf",
+    "_OUT_reclassificacao_path_20260423_114408\\renomear_proposto_reclass.csv=2080dc86c5441245ee79182f62e7d07e",
+    "_OUT_rename_inplace_20260423_141612\\log_renomeacao.csv=cc79765b3a746f9871eeeb804e6a60d0",
+    "_OUT_rename_inplace_20260423_141612\\progresso.log=bbbea64e68da5f41442f7d3f8e34e1bf",
+    "_OUT_rename_inplace_20260423_141648\\log_renomeacao.csv=cbff43ad9a912759467c4b246a92e235",
+    "_OUT_rename_inplace_20260423_141648\\progresso.log=224124868e5035b6f152cad8b858dc13",
+    "_OUT_sync_referencias_20260423_143859\\progresso.log=1cb7e667597242e1da4f0ae5e8dc5e9e",
+    "_OUT_sync_referencias_20260423_143859\\relatorio_sync.json=f2ef986c0be808fc89949e2cec664dd2",
+    "_OUT_sync_referencias_20260423_143859\\relatorio_sync.md=1331aa25d07ae489f44821c8281eaff2",
+    "_OUT_sync_referencias_20260423_144140\\backups\\prodam.db.BAK=a597d2ba34faec9290e0cf81b3354e7b",
+    "_OUT_sync_referencias_20260423_144140\\progresso.log=5d2c26eeeba29a50047d534073330d86",
+    "_OUT_sync_referencias_20260423_144140\\relatorio_sync.json=cbaadf2d132d334888449b046bccf920",
+    "_OUT_sync_referencias_20260423_144140\\relatorio_sync.md=ec2bc73aa48415469e4f1037395e767d",
+    "_OUT_sync_referencias_20260423_155926\\progresso.log=42dad8e1c5a39de6050111783feda665",
+    "_OUT_sync_referencias_20260423_155926\\relatorio_sync.json=e107571ef40101d5f5cf0a3ccfcd99a5",
+    "_OUT_sync_referencias_20260423_155926\\relatorio_sync.md=0828fa2f01ecef68c4bbb27ba04545ac",
+    "_OUT_sync_referencias_20260423_160801\\backups\\prodam.db.BAK=1f45a5300d9f1a6f048361dd43118e7c",
+    "_OUT_sync_referencias_20260423_160801\\progresso.log=a01eede2bcb2995c60f5da1848a47d46",
+    "_OUT_sync_referencias_v2_20260423_163224\\progresso.log=dfa4e2957bb1f03487ab122437a8f926",
+    "_OUT_sync_referencias_v2_20260423_163224\\relatorio_sync.json=a7716e7d1ee4b4871d2736a9cecccef8",
+    "_OUT_sync_referencias_v2_20260423_163224\\relatorio_sync.md=3d8bd1aaad9978d20d5ff9bc04db561b",
+    "_OUT_sync_referencias_v2_20260423_164206\\progresso.log=4f78744e27aff9051844e5732a5d2381",
+    "_OUT_sync_referencias_v2_20260423_164206\\relatorio_sync.json=f68c6815df0464247782b794329c7b0d",
+    "_OUT_sync_referencias_v2_20260423_164206\\relatorio_sync.md=3615492f01db2689bd01b9116c7b6939",
+    "_OUT_sync_referencias_v2_20260423_165325\\progresso.log=104271825c614a0ce31d85fd056ab758",
+    "_OUT_sync_referencias_v2_20260423_165325\\relatorio_sync.json=e5413030cc8ecae2bfd92dee1bfd2e6c",
+    "_OUT_sync_referencias_v2_20260423_165325\\relatorio_sync.md=5d71876a3aad7c56f8fb08e2982df2a3",
+    "_OUT_sync_referencias_v2_20260423_165544\\backups\\prodam.db.BAK=1f45a5300d9f1a6f048361dd43118e7c",
+    "_OUT_sync_referencias_v2_20260423_165544\\progresso.log=4c8942652c00ba7addba667a9a13886f",
+    "_OUT_sync_referencias_v2_20260423_165544\\relatorio_sync.json=863d4f3e812fa8203c06f3e9b15a12c5",
+    "_OUT_sync_referencias_v2_20260423_165544\\relatorio_sync.md=f97cb4114aec811f45f5d90268e70085",
+    "_OUT_sync_referencias_v2_20260423_165807\\progresso.log=b596f7f53bbbdcd692ff1f992eb1abb7",
+    "_OUT_sync_referencias_v2_20260423_165807\\relatorio_sync.json=bfb9d71fd3dd685b292ab89ff84d4097",
+    "_OUT_sync_referencias_v2_20260423_165807\\relatorio_sync.md=b3c91c51e237c503bb8cc4da5b997e49",
+    "_OUT_sync_referencias_v2_20260423_170714\\progresso.log=e5207c73dd032ba579bdd549f34e20cc",
+    "_OUT_sync_referencias_v2_20260423_170714\\relatorio_sync.json=e855a7a9cbfa36552dff5dda78060af2",
+    "_OUT_sync_referencias_v2_20260423_170714\\relatorio_sync.md=5f949c80b98bbad2a55e7a0bb759b4e8",
+    "_OUT_sync_referencias_v2_20260423_171133\\progresso.log=0d60a831570dcde4f3b64399ff1529b1",
+    "_OUT_sync_referencias_v2_20260423_171133\\relatorio_sync.json=c511cc4ecedb3acdbbdc600c3f640da1",
+    "_OUT_sync_referencias_v2_20260423_171133\\relatorio_sync.md=65c419bfdb0c841e7e3778733e6ca524",
+    "_OUT_triagem_suspeitos_20260423_143643\\relatorio_suspeitos.md=0ceda23fa4d221874896a0d3f968c0e8",
+    "_OUT_triagem_suspeitos_20260423_143643\\suspeitos_por_contrato.csv=b2577908ac05ae7fd25ed7640c67f9a9",
+    "scripts_archive\\_append_municao_19_04_2026.py=03bb54a4d5af36a18ae649f533afcdea",
+    "scripts_archive\\_gap_analysis_19_04_2026.py=0e2ae511a314581052bb51b2cdc7d7fc",
+    "scripts_archive\\_inventario_downloads_19_04_2026.py=373a94b43434132cfa0d942199c44afd",
+    "scripts_archive\\_validacao_detran_19_04_2026.py=a495984457ef0e9650f015cb8b7aa7a0"
+   ]
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "_legado",
+   "caminho_novo": "_ARQUIVO\\_legado",
+   "categoria": "pasta_legada",
+   "tracked": "parcial",
+   "md5": "(pasta)",
+   "observacao": "git mv da pasta inteira; 3 tracked / 4 total; 0 PDFs confirmado em pre-cheque",
+   "hashes_internos": [
+    ".sql=82bc63fd7573090288d6007e4aaeb938",
+    "CLAUDE.md.bak=c2dee03913b63e08599bfe82b5edfe13",
+    "__pycache__\\prodam_utils.cpython-312.pyc=17a0536302ea177821770a3ff7128ee8",
+    "briefing-juridico-prodam.plugin=d8aa4197236d4b464e4c3018d8441a98"
+   ]
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "Melhorar ainda mais esse dashboard",
+   "caminho_novo": "_ARQUIVO\\Melhorar ainda mais esse dashboard",
+   "categoria": "pasta_legada",
+   "tracked": "parcial",
+   "md5": "(pasta)",
+   "observacao": "git mv da pasta inteira; 20 tracked / 20 total; 0 PDFs confirmado em pre-cheque",
+   "hashes_internos": [
+    "BLOCO_D_CONSOLIDACAO.json=9734da58f9a82a3acca9a3303ed80092",
+    "DADOS_NOVOS_POR_DEVEDOR.json=0ec943da1448329da50bf08f707a7a66",
+    "DASHBOARD_DADOS_FINAIS.json=724eca5ebeece88d1e9cd60cfbc4c21d",
+    "DASHBOARD_PRODAM_v5.0_BRANDAO_OZORES.html=387ab8ea99200bccd1460fa2c8402bce",
+    "DASHBOARD_PRODAM_v5.1_BRANDAO_OZORES.html=be48d229446a8001ba69c92c9bd3a094",
+    "DASHBOARD_PRODAM_v5.2_BRANDAO_OZORES.html=5080b6d90a2930a5da269e7163edcb31",
+    "DASHBOARD_PRODAM_v5.3_BRANDAO_OZORES.html=a5673d08fd245ec8011a1521794a5583",
+    "analyze_all_dashboards.py=2d6d5ebb28e319992c2349071e1789f6",
+    "analyze_prodam_data.py=8c62ac4f64d45d8d7bfcd2cee6fb11c6",
+    "analyze_spcf_complete.py=51c15479b0b031c01d930d9400673d24",
+    "build_dashboard.py=743ed829158f963a820ebe978e89f021",
+    "build_dashboard_v52.py=83535976218c78340f7b93729bfb6ca8",
+    "build_dashboard_v53.py=bcdfad2068d3db2969e0c8dc842bff6b",
+    "build_organized_structure.py=761019039bd9a3b8d5c21f445b0c5f12",
+    "dashboard_script.js=197bf9e95dd0c67ed026c390bac51ab5",
+    "inject_reconciliacao.py=1949ec84097211f1265d1c2abbcec977",
+    "pasted_file_98c8R1_reconciliacao_spcf_2026-03-30.json=78ad6bfe7b5039b02b5bf9465652ac91",
+    "pasted_file_NJpcrb_reconciliacao_spcf_2026-04-01.json=9b9372ae692a916b5c39de51a126315f",
+    "pasted_file_nudVmu_DASHBOARD_PRODAM_v4.1_BRANDAO_OZORES.html=989e7ee6e784f16cd620f08bd6ce1688",
+    "profiles.json=d8b16024ce0313a54dd8b82516466276"
+   ]
+  },
+  {
+   "acao": "mover",
+   "caminho_antigo": "Remover e Renumerar Tópicos do Documento Anexo (2)",
+   "caminho_novo": "_ARQUIVO\\Remover e Renumerar Tópicos do Documento Anexo (2)",
+   "categoria": "pasta_legada",
+   "tracked": "parcial",
+   "md5": "(pasta)",
+   "observacao": "git mv da pasta inteira; 3 tracked / 3 total (+2 txt reunidos); 0 PDFs confirmado em pre-cheque",
+   "hashes_internos": [
+    "inspect_body.py=fdb9532e6f6f618aac703cd0bc14c868",
+    "inspect_doc.py=83ef76fe6e7dc86b67f88987362c11c5",
+    "process_doc.py=bc3ac83807b2191e97494fc6aaaf4fb9"
+   ]
+  },
+  {
+   "acao": "editar",
+   "caminho_antigo": "scripts\\ses_reconciliacao_completa.py",
+   "caminho_novo": "scripts\\ses_reconciliacao_completa.py",
+   "categoria": "ajuste_output",
+   "tracked": "sim",
+   "md5": "c43f4c057e0fb0912b63327611d76898",
+   "observacao": "md5 = pre-edit; OUT = ROOT -> ROOT/'dados' (outputs ses_reconciliacao.* deixam de nascer na raiz)"
+  },
+  {
+   "acao": "editar",
+   "caminho_antigo": "scripts\\reconciliacao_4_fontes.py",
+   "caminho_novo": "scripts\\reconciliacao_4_fontes.py",
+   "categoria": "ajuste_output",
+   "tracked": "sim",
+   "md5": "b057666251f1570e6ac8f8295fb01a2c",
+   "observacao": "md5 = pre-edit; OUTPUT_DIR raiz -> RELATORIO.md em relatorios\\ e DADOS.json em dados\\ (alinha com destino dos derivados)"
+  }
+ ]
+}
