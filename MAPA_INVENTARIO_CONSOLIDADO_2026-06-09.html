@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Consolidado — Projeto PRODAM | Brandão Ozores</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --azul:#1F3864; --azul2:#2E4F8F; --dourado:#B8963E; --dourado2:#D4B45F;
+  --carvao:#2D2D2D; --bg:#F4F5F7; --card:#FFFFFF; --txt:#222; --txt2:#6B7280;
+  --linha:#E5E7EB; --ok:#1E7E34; --med:#B8860B; --fraca:#9AA0A6;
+  --vermelho:#C0392B; --amarelo:#D4A017; --verde:#2E7D32;
+  --gap:16px; --r:10px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',-apple-system,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt);line-height:1.5}
+.wrap{max-width:1320px;margin:0 auto;padding:var(--gap)}
+header.top{background:linear-gradient(135deg,var(--azul) 0%,var(--carvao) 100%);color:#fff;border-radius:var(--r);padding:22px 26px;margin-bottom:var(--gap);border-bottom:4px solid var(--dourado)}
+header.top h1{font-size:21px;font-weight:700;letter-spacing:.3px}
+header.top .sub{color:#CBD5E1;font-size:13px;margin-top:4px}
+header.top .badge{display:inline-block;background:var(--dourado);color:#1a1a1a;font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;margin-top:10px;letter-spacing:.5px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:var(--gap)}
+.tab{background:var(--card);border:1px solid var(--linha);border-bottom:3px solid transparent;padding:10px 18px;border-radius:8px 8px 0 0;cursor:pointer;font-size:13.5px;font-weight:600;color:var(--txt2);transition:.15s}
+.tab:hover{color:var(--azul)}
+.tab.active{color:var(--azul);border-bottom-color:var(--dourado);background:#fff}
+.panel{display:none;animation:fade .25s}
+.panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:var(--gap);margin-bottom:var(--gap)}
+.kpi{background:var(--card);border-radius:var(--r);padding:16px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07);border-left:4px solid var(--dourado)}
+.kpi .l{font-size:11.5px;color:var(--txt2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.kpi .v{font-size:25px;font-weight:800;color:var(--azul)}
+.kpi .d{font-size:11.5px;color:var(--txt2);margin-top:3px}
+.kpi.alt{border-left-color:var(--azul)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap);margin-bottom:var(--gap)}
+.card{background:var(--card);border-radius:var(--r);padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.card h3{font-size:14px;font-weight:700;color:var(--azul);margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid var(--linha)}
+.card h3 .sm{font-weight:400;color:var(--txt2);font-size:12px}
+canvas{max-height:300px}
+.chart-box{position:relative;height:300px}
+table{width:100%;border-collapse:collapse;font-size:12.8px}
+thead th{text-align:left;padding:9px 10px;border-bottom:2px solid var(--azul);color:var(--azul);font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;white-space:nowrap;cursor:pointer;user-select:none;background:#FAFBFC;position:sticky;top:0}
+thead th:hover{background:#EEF1F6}
+tbody td{padding:8px 10px;border-bottom:1px solid var(--linha);vertical-align:top}
+tbody tr:hover{background:#F7F9FC}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tag{display:inline-block;padding:2px 8px;border-radius:12px;font-size:10.5px;font-weight:700;letter-spacing:.3px;white-space:nowrap}
+.t-forte{background:#E3F1E6;color:var(--ok)} .t-media{background:#FBF1D9;color:var(--med)} .t-fraca{background:#EEF0F2;color:#5F6368}
+.t-f0{background:#EEF2F9;color:var(--azul)} .t-f3{background:#FBF1D9;color:var(--med)} .t-f5{background:#E3F1E6;color:var(--ok)} .t-diag{background:#F3E8E6;color:var(--vermelho)}
+.cat{display:inline-block;padding:2px 9px;border-radius:6px;font-size:11px;font-weight:700;background:var(--azul);color:#fff}
+.scrollx{overflow-x:auto}
+.tablewrap{background:var(--card);border-radius:var(--r);box-shadow:0 1px 3px rgba(0,0,0,.07);padding:6px 10px 14px;max-height:640px;overflow:auto}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.toolbar input,.toolbar select{padding:7px 11px;border:1px solid var(--linha);border-radius:7px;font-size:13px;background:#fff}
+.toolbar input[type=search]{min-width:230px}
+.toolbar label{font-size:12px;color:var(--txt2);font-weight:600}
+.pill{font-size:11px;color:var(--txt2);background:#fff;border:1px solid var(--linha);padding:5px 10px;border-radius:20px}
+.pos{color:var(--verde);font-weight:700} .neg{color:var(--vermelho);font-weight:700} .warn{color:var(--amarelo);font-weight:700}
+.muted{color:var(--txt2)}
+.note{background:#FFFDF5;border:1px solid #EBDCA8;border-left:4px solid var(--dourado);border-radius:8px;padding:12px 16px;margin-bottom:12px;font-size:13px}
+.note b{color:var(--azul)}
+.tree{font-family:'Consolas','Courier New',monospace;font-size:12.5px;line-height:1.7;background:#FAFBFC;border:1px solid var(--linha);border-radius:8px;padding:16px 18px;overflow-x:auto;white-space:pre}
+.tree .dir{color:var(--azul);font-weight:700}
+.tree .mnt{color:var(--dourado);font-weight:700}
+.tree .meta{color:var(--txt2)}
+.obs li{margin:0 0 11px 18px;font-size:13px}
+.obs li b{color:var(--azul)}
+.sev{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:middle}
+.sev.r{background:var(--vermelho)} .sev.y{background:var(--amarelo)} .sev.g{background:var(--verde)} .sev.b{background:var(--azul)}
+footer{text-align:center;color:var(--txt2);font-size:11.5px;padding:18px 0 8px}
+.legend{font-size:11px;color:var(--txt2);margin-top:8px}
+@media print{.tabs{display:none}.panel{display:block!important}.tab{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <h1>Mapa Consolidado do Acervo — Projeto PRODAM</h1>
+  <div class="sub">Inventário das 8 pastas conectadas · Contrato 002/2026 · Brandão Ozores Advogados × PRODAM S.A.</div>
+  <span class="badge">SNAPSHOT 09/06/2026 · USO INTERNO · SIGILOSO (LGPD)</span>
+</header>
+
+<div class="tabs">
+  <div class="tab active" data-p="p1">Visão Geral</div>
+  <div class="tab" data-p="p2">Mapa de Arquivos-Chave</div>
+  <div class="tab" data-p="p3">Portfólio · 69 Devedores</div>
+  <div class="tab" data-p="p4">Topologia &amp; Observações</div>
+</div>
+
+<!-- ============ PAINEL 1 ============ -->
+<section class="panel active" id="p1">
+  <div class="kpi-row">
+    <div class="kpi"><div class="l">Pastas conectadas</div><div class="v">8</div><div class="d">Desktop + Downloads</div></div>
+    <div class="kpi alt"><div class="l">Arquivos indexados</div><div class="v">~156 mil</div><div class="d">inclui provas, OCR e node_modules</div></div>
+    <div class="kpi"><div class="l">Volume aprox.</div><div class="v">~48 GB</div><div class="d">PROJETO_PRODAM + DETRAN</div></div>
+    <div class="kpi alt"><div class="l">PDFs (provas)</div><div class="v">~36 mil</div><div class="d">contratos, NE, NF, aceites</div></div>
+    <div class="kpi"><div class="l">Devedores</div><div class="v">69</div><div class="d">26 gov. direta · 21 indireta · 22 priv.</div></div>
+    <div class="kpi alt"><div class="l">Exigível</div><div class="v">R$ 83,67 mi</div><div class="d">atualizado: R$ 125,25 mi</div></div>
+    <div class="kpi"><div class="l">Bancos de dados</div><div class="v">8 (.db)</div><div class="d">prodam.db + OCR + backups</div></div>
+    <div class="kpi alt"><div class="l">Peças jurídicas</div><div class="v">50+</div><div class="d">notificações · TRD · dossiês · ofícios</div></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card"><h3>Composição do acervo por tipo de arquivo <span class="sm">(PROJETO_PRODAM + DETRAN)</span></h3><div class="chart-box"><canvas id="cTipos"></canvas></div></div>
+    <div class="card"><h3>Arquivos por pasta <span class="sm">(escala logarítmica)</span></h3><div class="chart-box"><canvas id="cPastas"></canvas></div></div>
+  </div>
+
+  <div class="tablewrap">
+    <h3 style="color:var(--azul);font-size:14px;margin:8px 4px 12px;padding-bottom:8px;border-bottom:2px solid var(--linha)">As 8 pastas conectadas <span class="sm muted" style="font-weight:400">(clique no cabeçalho para ordenar)</span></h3>
+    <div class="scrollx">
+    <table id="tPastas">
+      <thead><tr>
+        <th data-k="nome">Pasta</th><th data-k="local">Local</th><th data-k="tipo">Natureza</th>
+        <th data-k="arquivos" class="num">Arquivos</th><th data-k="tamanho">Tamanho</th>
+        <th data-k="atividade">Últ. atividade</th><th data-k="conteudo">Conteúdo principal</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    </div>
+    <div class="legend">* Tamanho de <b>PROJETO_PRODAM</b> e <b>detran_dashboard</b> são estimativas (varredura completa excedeu o tempo limite); demais medidos. PROJETO_PRODAM é a pasta-guarda-chuva — contém várias das outras (ver aba Topologia).</div>
+  </div>
+</section>
+
+<!-- ============ PAINEL 2 ============ -->
+<section class="panel" id="p2">
+  <div class="note"><b>Mapa de arquivos-chave.</b> Catálogo dos documentos juridicamente relevantes e ativos do projeto, por categoria. Use a busca e o filtro para localizar. Não inclui as ~36 mil provas brutas (PDFs em PRODAM_DOCS) nem arquivos de código.</div>
+  <div class="toolbar">
+    <input type="search" id="qArq" placeholder="🔎 buscar arquivo, contrato, devedor...">
+    <label>Categoria</label>
+    <select id="fCat"><option value="">Todas</option></select>
+    <label>Pasta</label>
+    <select id="fPasta"><option value="">Todas</option></select>
+    <span class="pill" id="cntArq"></span>
+  </div>
+  <div class="tablewrap">
+    <div class="scrollx">
+    <table id="tArq">
+      <thead><tr>
+        <th data-k="cat">Categoria</th><th data-k="nome">Arquivo</th><th data-k="pasta">Pasta</th>
+        <th data-k="tam">Tam.</th><th data-k="data">Data</th><th data-k="obs">Observação</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAINEL 3 ============ -->
+<section class="panel" id="p3">
+  <div class="kpi-row">
+    <div class="kpi"><div class="l">Total exigível</div><div class="v">R$ 83,67 mi</div><div class="d">soma dos 69 devedores</div></div>
+    <div class="kpi alt"><div class="l">Total atualizado</div><div class="v">R$ 125,25 mi</div><div class="d">com correção/juros</div></div>
+    <div class="kpi"><div class="l">Força FORTE</div><div class="v" id="kForte">–</div><div class="d">título executivo robusto</div></div>
+    <div class="kpi alt"><div class="l">Prescrição crítica</div><div class="v" id="kPresc">–</div><div class="d">≤ 90 dias ou vencida</div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>Distribuição por força probatória</h3><div class="chart-box"><canvas id="cForca"></canvas></div></div>
+    <div class="card"><h3>Devedores por fase do workflow</h3><div class="chart-box"><canvas id="cFase"></canvas></div></div>
+  </div>
+  <div class="card" style="margin-bottom:16px"><h3>Top 10 devedores por valor exigível</h3><div class="chart-box" style="height:320px"><canvas id="cTop10"></canvas></div></div>
+
+  <div class="toolbar">
+    <input type="search" id="qDev" placeholder="🔎 buscar devedor...">
+    <label>Força</label>
+    <select id="fForca"><option value="">Todas</option><option>FORTE</option><option>MÉDIA</option><option>FRACA</option></select>
+    <label>Fase</label>
+    <select id="fFase"><option value="">Todas</option><option>F0</option><option>F3</option><option>F5</option><option>F0_DIAGNOSTICO</option></select>
+    <label>Próx. passo</label>
+    <select id="fPasso"><option value="">Todos</option></select>
+    <span class="pill" id="cntDev"></span>
+  </div>
+  <div class="tablewrap">
+    <div class="scrollx">
+    <table id="tDev">
+      <thead><tr>
+        <th data-k="rank" class="num">#</th><th data-k="sigla">Sigla</th>
+        <th data-k="exig" class="num">Exigível</th><th data-k="atual" class="num">Atualizado</th>
+        <th data-k="forca">Força</th><th data-k="fase">Fase</th>
+        <th data-k="passo">Próximo passo</th><th data-k="presc" class="num">Dias presc.</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    </div>
+    <div class="legend">Fonte: <b>STATUS_DEVEDORES.md</b> (gerado 09/06/2026 15:13). Valores em BRL. "Dias presc." negativo = janela de prescrição já vencida no registro — verificar marco interruptivo antes de agir.</div>
+  </div>
+</section>
+
+<!-- ============ PAINEL 4 ============ -->
+<section class="panel" id="p4">
+  <div class="grid2" style="grid-template-columns:1fr">
+    <div class="card">
+      <h3>Topologia das pastas conectadas <span class="sm">(aninhamentos e duplicações)</span></h3>
+      <div class="tree"><span class="mnt">C:\Users\gabri\Desktop\</span>
+├── <span class="dir">PROJETO_PRODAM\</span>                          <span class="meta">⟵ pasta-mãe (~140k arq · ~38 GB est.)</span>
+│   ├── <span class="dir">PRODAM_DOCS\</span>                         <span class="meta">provas brutas por devedor (~25 GB · SIGILOSO)</span>
+│   ├── <span class="dir">SPCF_EXTRACAO\</span>                      <span class="meta">scraping SPCF + OCR (~6,7 GB)</span>
+│   ├── <span class="dir">OCR_PESQUISAVEL_CONSOLIDADO\</span>        <span class="meta">PDFs pesquisáveis (6,4 GB)</span>
+│   ├── <span class="dir">DETRAN_AUDITORIA_COMPLETA\</span>          <span class="meta">⚠ cópia mínima (60 KB) — a real está no Desktop</span>
+│   ├── <span class="mnt">detran_dashboard\</span>                  <span class="meta">⟵ TAMBÉM conectada à parte (#7)</span>
+│   ├── <span class="mnt">Arquivos Principais Projeto PRODAM\</span> <span class="meta">⟵ mesmo nome do item do Desktop (#8)</span>
+│   ├── <span class="mnt">Remover e Renumerar ... (2)\</span>       <span class="meta">⟵ mesmo nome do item de Downloads (#3)</span>
+│   ├── prodam.db (+3 backups)                <span class="meta">SSOT estruturada</span>
+│   └── 21 relatórios *_DETRAN-AM.md, CLAUDE.md (+11 bak), STATUS_DEVEDORES.md ...
+│
+├── <span class="dir">DETRAN_AUDITORIA_COMPLETA\</span>              <span class="meta">⟵ sub-projeto ATIVO (15.281 arq · 9,5 GB)</span>
+│   ├── 00_VISAO_GERAL ... 20_OCR_OUTPUT       <span class="meta">20 categorias numeradas</span>
+│   ├── 13_PECAS_JURIDICAS\                    <span class="meta">notificação v5, dossiês, TRD, ofícios, anexos DPCON</span>
+│   ├── 16_BANCOS_DADOS\                       <span class="meta">prodam.db + OCR_CONSOLIDADO.db (579 MB) + backups</span>
+│   └── detran_dashboard\                      <span class="meta">cópia do app (96 MB)</span>
+│
+└── <span class="mnt">Arquivos Principais Projeto PRODAM\</span>     <span class="meta">⟵ 19 docs oficiais (11 MB) — #8</span>
+
+<span class="mnt">C:\Users\gabri\Downloads\</span>
+├── <span class="mnt">detran_dashboard (1)\</span>                  <span class="meta">app web enxuto p/ revisão (162 arq · 916 KB)</span>
+├── <span class="mnt">Organização ... por Devedores (1)\</span>     <span class="meta">21 relatórios DETRAN (snapshot 09/04 — ⚠ desatualizado)</span>
+├── <span class="mnt">Remover e Renumerar ... Anexo\</span>         <span class="meta">dossiê v4/v5 .docx + scripts (#4)</span>
+└── <span class="mnt">Remover e Renumerar ... Anexo (2)\</span>     <span class="meta">só 3 scripts Python (#3)</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Observações de inventário <span class="sm">(o que merece atenção)</span></h3>
+    <ul class="obs">
+      <li><span class="sev r"></span><b>Snapshot desatualizado.</b> A pasta <b>"Organização ... por Devedores (1)"</b> (21 relatórios) é de <b>09/04/2026</b> e traz o DETRAN como "#2, R$ 31,68 mi exigível". O status vigente (09/06) já reclassificou o DETRAN (exigível R$ 0,00 / valor canônico R$ 28,19 mi) e o portfólio tem 69 devedores. Tratar essa pasta como histórico, não como fonte atual.</li>
+      <li><span class="sev y"></span><b>Pastas com nomes duplicados em locais diferentes.</b> "Arquivos Principais", "Remover e Renumerar (2)" e "DETRAN_AUDITORIA_COMPLETA" aparecem tanto soltas quanto dentro de <b>PROJETO_PRODAM</b>. A cópia de DETRAN dentro da pasta-mãe tem apenas 60 KB (a real, 9,5 GB, está no Desktop). Risco de editar a versão errada.</li>
+      <li><span class="sev y"></span><b>Aninhamento de montagens.</b> <b>detran_dashboard</b> está conectado isoladamente (#7) e também vive dentro de PROJETO_PRODAM — por isso o total de arquivos não deve ser somado de forma simples (há sobreposição).</li>
+      <li><span class="sev g"></span><b>node_modules domina o dashboard.</b> Dos 49.359 arquivos de <b>detran_dashboard</b>, 49.056 são <b>node_modules</b> (dependências). O código real são ~300 arquivos (client/server/shared). A versão "(1)" em Downloads é a enxuta, com testes (coverage).</li>
+      <li><span class="sev b"></span><b>Redundância de bancos.</b> Há ~8 arquivos <b>.db</b>: o <b>prodam.db</b> de 92 MB aparece replicado em 5+ locais (DETRAN/16_BANCOS_DADOS, backups, data-real do dashboard) além do <b>OCR_CONSOLIDADO.db</b> de 579 MB. Confirmar qual é a SSOT antes de consultar.</li>
+      <li><span class="sev b"></span><b>Versões de dashboard convivendo.</b> Existem PAINEL_PRODAM.html, DASHBOARD_AUDITORIA_v10 (DETRAN) e DASHBOARD_PRODAM v5.0→v5.3 (pasta "Melhorar ainda mais esse dashboard"). Definir o vigente evita divergência de números.</li>
+      <li><span class="sev r"></span><b>Confidencialidade.</b> <b>PRODAM_DOCS</b> (~25 GB) são provas e dados sigilosos de terceiros (LGPD + sigilo profissional). Este mapa lista apenas estrutura/nomes — não extrair dados pessoais/financeiros para arquivos que saiam do computador.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  Gerado em 09/06/2026 · Mapa de inventário (estrutura e nomes, sem dados sigilosos de terceiros) · Brandão Ozores Advogados — Projeto PRODAM<br>
+  Fontes: varredura das 8 pastas conectadas · STATUS_DEVEDORES.md · CLAUDE.md do projeto.
+</footer>
+</div>
+
+<script>
+/* ===================== DADOS ===================== */
+const PASTAS=[
+ {nome:"PROJETO_PRODAM",local:"Desktop",tipo:"Projeto-mãe (SSOT)",arquivos:140662,tamanho:"~38 GB*",tbytes:38e9,atividade:"2026-06-09",conteudo:"PRODAM_DOCS (provas), SPCF_EXTRACAO, OCR, bancos, 21 relatórios DETRAN, scripts, dashboards"},
+ {nome:"DETRAN_AUDITORIA_COMPLETA",local:"Desktop",tipo:"Sub-projeto ativo",arquivos:15281,tamanho:"9,5 GB",tbytes:9.5e9,atividade:"2026-05-07",conteudo:"20 categorias (contratos, NE, NF, aceites), peças jurídicas, OCR, bancos, data.plugin"},
+ {nome:"detran_dashboard",local:"Desktop\\PROJETO_PRODAM",tipo:"Aplicação web",arquivos:49359,tamanho:"~600 MB*",tbytes:6e8,atividade:"2026-04-23",conteudo:"App (client/server/drizzle) + data-real (prodam.db, detran_dashboard.db). 49k = node_modules"},
+ {nome:"Arquivos Principais Projeto PRODAM",local:"Desktop",tipo:"Documentos oficiais",arquivos:19,tamanho:"11 MB",tbytes:11e6,atividade:"2026-05-04",conteudo:"Contrato 002/2026, procuração, portaria, notificações DETRAN, relatórios quinzenais 001–004"},
+ {nome:"Organização ... por Devedores (1)",local:"Downloads",tipo:"Relatórios (snapshot)",arquivos:21,tamanho:"84 KB",tbytes:84e3,atividade:"2026-04-09",conteudo:"Dossiê DETRAN-AM em 21 relatórios temáticos — versão histórica (09/04/2026)"},
+ {nome:"detran_dashboard (1)",local:"Downloads",tipo:"App web (enxuto)",arquivos:162,tamanho:"916 KB",tbytes:916e3,atividade:"2026-04-23",conteudo:"Versão limpa do dashboard, com cobertura de testes (coverage)"},
+ {nome:"Remover e Renumerar Tópicos ... Anexo",local:"Downloads",tipo:"Processamento .docx",arquivos:9,tamanho:"136 KB",tbytes:136e3,atividade:"2026-04",conteudo:"DOSSIE_COBRANCA_DETRAN v4/v5 (.docx) + scripts Python de inspeção/edição"},
+ {nome:"Remover e Renumerar Tópicos ... Anexo (2)",local:"Downloads",tipo:"Scripts",arquivos:3,tamanho:"20 KB",tbytes:20e3,atividade:"2026-04",conteudo:"3 scripts Python (inspect_body, inspect_doc, process_doc)"}
+];
+
+const TIPOS={"PDF":36162,"HTML":21631,"JSON":19849,"TXT":15930,"MD":3840,"CSV":2957,"XLS/XLSX":1517,"PY":705,"DOCX":557,"Outros":900};
+
+const ARQ=[
+ // Contrato & habilitação
+ {cat:"Contrato & poderes",nome:"Contrato 002.2026 BOA.PRODAM assinado.pdf",pasta:"Arquivos Principais",tam:"1,3 MB",data:"2026-03-09",obs:"Contrato-matriz assinado"},
+ {cat:"Contrato & poderes",nome:"Procuração BOA.PRODAM.pdf",pasta:"Arquivos Principais",tam:"2,8 MB",data:"2026-04-08",obs:"Procuração do escritório"},
+ {cat:"Contrato & poderes",nome:"Portaria Gestor e Fiscal do Contrato.pdf",pasta:"Arquivos Principais",tam:"914 KB",data:"2026-04-08",obs:"Designação gestor/fiscal"},
+ {cat:"Contrato & poderes",nome:"Oficio_e_Justificativa_Aditamento_Contrato_002_2026.pdf",pasta:"Arquivos Principais",tam:"230 KB",data:"2026-04-28",obs:"Aditamento contratual"},
+ {cat:"Contrato & poderes",nome:"Canal Comunicação Oficial.pdf",pasta:"Arquivos Principais",tam:"814 KB",data:"2026-04-08",obs:"Canal oficial PRODAM↔BOA"},
+ {cat:"Contrato & poderes",nome:"Oficio PRODAM, resposta ao ofício 001.2026 - BOA.pdf",pasta:"Arquivos Principais",tam:"814 KB",data:"2026-04-08",obs:"Resposta da PRODAM"},
+ // Relatórios quinzenais
+ {cat:"Relatórios quinzenais",nome:"Relatorio_Quinzenal_001_2026ass.pdf",pasta:"Arquivos Principais",tam:"141 KB",data:"2026-04-08",obs:"Obrigação contratual"},
+ {cat:"Relatórios quinzenais",nome:"Relatorio_Quinzenal_002_2026ass.pdf",pasta:"Arquivos Principais",tam:"145 KB",data:"2026-04-28",obs:"Assinado"},
+ {cat:"Relatórios quinzenais",nome:"Relatorio_Quinzenal_003_2026ass.pdf",pasta:"Arquivos Principais",tam:"214 KB",data:"2026-05-04",obs:"2 versões assinadas + 1 sem assin."},
+ {cat:"Relatórios quinzenais",nome:"Relatorio_Quinzenal_004_2026ass.pdf",pasta:"Arquivos Principais",tam:"236 KB",data:"2026-05-04",obs:"Mais recente"},
+ // Notificações DETRAN
+ {cat:"Notificações DETRAN",nome:"NOTIFICACAO_EXTRAJUDICIAL_001_2026_DETRAN_ass.pdf",pasta:"Arquivos Principais",tam:"204 KB",data:"2026-04-28",obs:"Notificação 001 assinada"},
+ {cat:"Notificações DETRAN",nome:"NOTIFICAÇÃO EXTRAJUDICIAL Nº 001.2026 - PROCURAÇÃO PROTOCOLO VIRTUAL.pdf",pasta:"Arquivos Principais",tam:"1,1 MB",data:"2026-04-28",obs:"Protocolo virtual"},
+ {cat:"Notificações DETRAN",nome:"NOTIFICACAO_EXTRAJUDICIAL_v5_DETRAN.docx",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"40 KB",data:"2026-04-20",obs:"v5 vigente — aguarda revisão Dr. Fábio"},
+ {cat:"Notificações DETRAN",nome:"NOTIFICACAO_EXTRAJUDICIAL_PRODAM_DETRANass (1).pdf",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"208 KB",data:"2026-04-20",obs:"v4 assinada (histórica)"},
+ {cat:"Notificações DETRAN",nome:"CHANGELOG_v4_para_v5.md",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"12 KB",data:"2026-04-20",obs:"Diferenças v4→v5"},
+ // Peças jurídicas DETRAN
+ {cat:"Peças jurídicas DETRAN",nome:"DOSSIE_COMPROBATORIO_PRODAM_DETRAN_2026-04-16_v0507.pdf",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"300 KB",data:"2026-04-16",obs:"Dossiê comprobatório"},
+ {cat:"Peças jurídicas DETRAN",nome:"MEMORIAL_ANEXO1_DETRAN.xlsx / .docx / .md",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"76 KB",data:"2026-04-17",obs:"Memorial de cálculo fatura-a-fatura"},
+ {cat:"Peças jurídicas DETRAN",nome:"TRD_v2_DETRAN_AM_PRODAM_2026-04-20.docx",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"44 KB",data:"2026-04-20",obs:"Termo de Reconhecimento de Dívida (10 cláusulas)"},
+ {cat:"Peças jurídicas DETRAN",nome:"ANEXO_II_CERTIDAO_TECNICA_CALCULO.docx",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"40 KB",data:"2026-04-20",obs:"Certidão técnica BCB"},
+ {cat:"Peças jurídicas DETRAN",nome:"ANEXO_III_CADEIA_DOCUMENTAL.xlsx / .pdf",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"44 KB",data:"2026-04-20",obs:"Cadeia 5 elos · 202 NFs"},
+ {cat:"Peças jurídicas DETRAN",nome:"ANEXOS_v5_DPCON/ (17 PDFs resgatados)",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"~14 MB",data:"2026-04-23",obs:"Contratos-base CT 008/2021 e CT 014/2019 + NEs CT 023/2014"},
+ {cat:"Peças jurídicas DETRAN",nome:"OFICIO_LAI_003_2026_CONTRATOS_FALTANTES.docx",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"40 KB",data:"2026-04-22",obs:"Reduzir de 4 p/ 2 contratos (pendência)"},
+ {cat:"Peças jurídicas DETRAN",nome:"OFICIO_DETRAN_P296_2025.docx / OFICIO_DETRAN_ACEITES_CT8_2021.docx",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"44 KB",data:"2026-04-17",obs:"Ofícios prontos (sem protocolo)"},
+ {cat:"Peças jurídicas DETRAN",nome:"AUDITORIA_NOTIFICACAO_v4_2026-04-20.md",pasta:"DETRAN/13_PECAS_JURIDICAS",tam:"32 KB",data:"2026-04-20",obs:"Auditoria forense 5 camadas"},
+ // Dossiês de cobrança
+ {cat:"Dossiês de cobrança",nome:"DOSSIE_COBRANCA_DETRAN_v5.docx",pasta:"Remover e Renumerar (1)",tam:"~70 KB",data:"2026-04",obs:"Versão mais recente do dossiê"},
+ {cat:"Dossiês de cobrança",nome:"DOSSIE_COBRANCA_DETRAN_v4.docx",pasta:"Remover e Renumerar (1)",tam:"~70 KB",data:"2026-04",obs:"Versão anterior"},
+ {cat:"Dossiês de cobrança",nome:"DOSSIE_COBRANCA_DETRAN_v4 / v5.docx",pasta:"PROJETO_PRODAM (raiz)",tam:"~70 KB",data:"2026-04",obs:"Cópias na pasta-mãe"},
+ // Relatórios temáticos
+ {cat:"Relatórios temáticos DETRAN",nome:"00_RESUMO_GERAL + 20 relatórios *_DETRAN-AM.md",pasta:"Organização (1)",tam:"84 KB",data:"2026-04-09",obs:"Snapshot histórico (força, blindagem, RPV, score...)"},
+ {cat:"Relatórios temáticos DETRAN",nome:"21 relatórios *_DETRAN-AM.md (cópia)",pasta:"PROJETO_PRODAM (raiz)",tam:"—",data:"2026-04",obs:"Mesma família de relatórios na pasta-mãe"},
+ // Documentos de contexto
+ {cat:"Contexto & governança",nome:"CLAUDE.md (+ 11 backups)",pasta:"PROJETO_PRODAM (raiz)",tam:"—",data:"2026-06-08",obs:"Mapa permanente do projeto"},
+ {cat:"Contexto & governança",nome:"STATUS_DEVEDORES.md",pasta:"PROJETO_PRODAM (raiz)",tam:"—",data:"2026-06-09",obs:"Lista dos 69 devedores (fonte deste painel)"},
+ {cat:"Contexto & governança",nome:"WORKFLOW_COBRANCA.md / PLAYBOOK_ORGAOS_V2.md",pasta:"PROJETO_PRODAM (raiz)",tam:"—",data:"2026",obs:"Pipeline F0→F6 e playbook validado"},
+ {cat:"Contexto & governança",nome:"CLAUDE.md (DETRAN)",pasta:"DETRAN_AUDITORIA_COMPLETA",tam:"—",data:"2026-05-07",obs:"Mapa do sub-projeto DETRAN"},
+ // Bancos de dados
+ {cat:"Bancos de dados",nome:"OCR_CONSOLIDADO.db",pasta:"DETRAN/16_BANCOS_DADOS",tam:"579 MB",data:"2026-04-22",obs:"Texto OCR consolidado"},
+ {cat:"Bancos de dados",nome:"prodam.db",pasta:"DETRAN/16_BANCOS_DADOS",tam:"92 MB",data:"2026-05-02",obs:"DB de trabalho (SRC)"},
+ {cat:"Bancos de dados",nome:"prodam.db (+ backups)",pasta:"PROJETO_PRODAM (raiz)",tam:"92 MB",data:"2026",obs:"SSOT de leitura (DST)"},
+ {cat:"Bancos de dados",nome:"prodam.db + detran_dashboard.db",pasta:"detran_dashboard/data-real",tam:"92 + 1,5 MB",data:"2026-04-23",obs:"Dados que alimentam o app web"},
+ {cat:"Bancos de dados",nome:"3 backups prodam_BAK_*.db",pasta:"DETRAN/16_BANCOS_DADOS",tam:"92 MB cada",data:"2026-04/05",obs:"Snapshots de segurança"},
+ // Dashboards
+ {cat:"Dashboards",nome:"PAINEL_PRODAM.html",pasta:"PROJETO_PRODAM (raiz)",tam:"36 KB",data:"2026-04-22",obs:"Painel do portfólio"},
+ {cat:"Dashboards",nome:"DASHBOARD_PRODAM_v5.0→v5.3_BRANDAO_OZORES.html",pasta:"Melhorar ainda mais esse dashboard",tam:"até 181 KB",data:"2026-06-09",obs:"4 versões coexistindo"},
+ {cat:"Dashboards",nome:"DASHBOARD_AUDITORIA_v10.html",pasta:"DETRAN/14_DASHBOARDS",tam:"590 KB",data:"2026-04-15",obs:"Dashboard vigente do DETRAN"},
+ {cat:"Dashboards",nome:"DIAGNOSTICO_PASTA_MAE.html / .docx",pasta:"PROJETO_PRODAM (raiz)",tam:"54 KB",data:"2026-06-09",obs:"Diagnóstico da organização"}
+];
+
+const DEV=[
+ [1,"SEDUC",49215512.48,50263263.56,"FORTE","F0","ANALISAR_DOCUMENTACAO",-81],
+ [2,"SES/SUSAM",4783356.52,8230061.40,"FORTE","F3","ENVIAR_TRD",113],
+ [3,"SSP",4553230.80,29034062.63,"FORTE","F5","PROTOCOLAR_PETICAO",21],
+ [4,"SEJUSC",2589660.12,5262537.82,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",83],
+ [5,"SEAD",2339702.20,4296278.76,"FORTE","F3","ENVIAR_TRD",-81],
+ [6,"BRADESCO",2226517.80,2226517.80,"FRACA","F0","CLASSIFICAR",null],
+ [7,"CETAM",1256564.28,1256564.28,"FRACA","F0","CLASSIFICAR",null],
+ [8,"SEDECTI",1249203.13,4007244.35,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [9,"SALUX",1027949.15,1027949.15,"FRACA","F0","CLASSIFICAR",null],
+ [10,"POLÍCIA CIVIL",960481.71,1908089.75,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [11,"BANCO MASTER",889270.87,889270.87,"FRACA","F0","HABILITAÇÃO DE CRÉDITO",1210],
+ [12,"FENIXSOFT",888250.00,888250.00,"FRACA","F0","ANALISAR_DOCUMENTACAO",264],
+ [13,"CAIXA",844328.88,844328.88,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [14,"SUHAB",840061.15,1210268.55,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [15,"AMAZONPREV",736219.79,1142951.74,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [16,"FAAR/SEDEL",734498.94,1472879.25,"FRACA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [17,"PGE",680239.77,1603066.41,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [18,"IPAAM",652339.89,652339.89,"MÉDIA","F3","ENVIAR_TRD",206],
+ [19,"SEAS",651041.09,651041.09,"FORTE","F5","PROTOCOLAR_PETICAO",206],
+ [20,"FCECON",637106.68,828620.63,"FORTE","F3","ENVIAR_TRD",-81],
+ [21,"PROVER",549105.70,549105.70,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [22,"SETRAB",505961.79,505961.79,"FRACA","F0","AVALIAR_SUCESSAO",null],
+ [23,"SEINFRA",379631.55,379631.55,"MÉDIA","F3","ENVIAR_TRD",206],
+ [24,"UGPI",353473.42,353473.42,"FRACA","F0","CLASSIFICAR",null],
+ [25,"IDAM",328735.51,892277.93,"FRACA","F3","ENVIAR_TRD",-81],
+ [26,"FVS",321372.96,321372.96,"FORTE","F0","ANALISAR_DOCUMENTACAO",206],
+ [27,"SEJEL",280242.25,280242.25,"FRACA","F0","CLASSIFICAR",null],
+ [28,"FMT",272130.68,693107.38,"MÉDIA","F3","ENVIAR_TRD",-81],
+ [29,"FHAJ",259910.78,493519.13,"FORTE","F5","PROTOCOLAR_PETICAO",-81],
+ [30,"SECT",258328.58,296246.97,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [31,"SEMIG",235353.15,0.00,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",null],
+ [32,"ADS",211657.47,211657.47,"FRACA","F0","CLASSIFICAR",-58],
+ [33,"SEFAZ",198980.49,283622.83,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [34,"BRADESCO FINANCIAMENTO",194783.80,194783.80,"FRACA","F0","CLASSIFICAR",null],
+ [35,"CPA",165830.96,165830.96,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [36,"ADAF",149600.91,149600.91,"FRACA","F0","CLASSIFICAR",null],
+ [37,"AADESAM",125682.90,125682.90,"FRACA","F0","CLASSIFICAR",null],
+ [38,"IKM DE",116263.60,116263.60,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [39,"ANOREG",102267.91,102267.91,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [40,"BANCO DAYCOVAL",99481.64,0.00,"FRACA","F0_DIAGNOSTICO","CLASSIFICAR",null],
+ [41,"SEC",99050.71,248155.42,"FORTE","F0","ANALISAR_DOCUMENTACAO",-81],
+ [42,"SEPROR",77960.49,170884.10,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [43,"BMC",58142.00,58142.00,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [44,"ARSEPAM",49618.85,49618.85,"FRACA","F0","ANALISAR_DOCUMENTACAO",206],
+ [45,"FUAM/FUHAM",44020.01,356355.07,"FORTE","F5","PROTOCOLAR_PETICAO",-81],
+ [46,"BANCO BMG",39242.00,39242.00,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [47,"SEMA",38541.11,49842.07,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [48,"ITRANSITO",38360.67,38360.67,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [49,"ASSOC. GESTÃO INOV. E RES. SAÚDE",34760.79,34760.79,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [50,"FUNTEA",34186.19,34186.19,"FRACA","F0","ANALISAR_DOCUMENTACAO",206],
+ [51,"BANCO SICOOB",30290.00,30290.00,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [52,"DPE",28060.05,28060.05,"FRACA","F0","CLASSIFICAR",null],
+ [53,"FMPES",27264.57,27264.57,"FRACA","F0","CLASSIFICAR",null],
+ [54,"PMAM",27020.90,38951.91,"FRACA","F0","ANALISAR_DOCUMENTACAO",-81],
+ [55,"CGE",25693.37,25693.37,"FRACA","F0","CLASSIFICAR",null],
+ [56,"SNPH",25117.34,25117.34,"MÉDIA","F0","ANALISAR_DOCUMENTACAO",206],
+ [57,"PSA TECHNOLOGY",21007.21,21007.21,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [58,"CASA CIVIL",20927.09,0.00,"FRACA","F0_DIAGNOSTICO","CLASSIFICAR",null],
+ [59,"FJJA",20596.36,20596.36,"FRACA","F0","CLASSIFICAR",null],
+ [60,"SUL AMERICA",18196.00,18196.00,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [61,"B23 TECNOLOGIA",11892.24,11892.24,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [62,"BANCO SAFRA",9310.00,9310.00,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [63,"ODONTOMED",7541.10,7541.10,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [64,"EASYTECH",6927.16,6927.16,"FRACA","F0","ANALISAR_DOCUMENTACAO",1210],
+ [65,"FHEMOAM",6886.91,13276.75,"FRACA","F3","ENVIAR_TRD",-81],
+ [66,"CBMAM",3134.03,71483.16,"FORTE","F3","ENVIAR_TRD",-81],
+ [67,"DETRAN",0.00,0.00,"FORTE","F5","PROTOCOLAR_PETICAO",-81],
+ [68,"COSAMA",0.00,0.00,"FRACA","F0_DIAGNOSTICO","CLASSIFICAR",null],
+ [69,"CASA MILITAR",0.00,0.00,"FRACA","F0_DIAGNOSTICO","CLASSIFICAR",null]
+];
+
+/* ===================== HELPERS ===================== */
+const BRL=n=>"R$ "+n.toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
+const BRLk=n=>{if(n>=1e6)return"R$ "+(n/1e6).toFixed(2)+" mi";if(n>=1e3)return"R$ "+(n/1e3).toFixed(0)+" mil";return"R$ "+n.toFixed(0)};
+const C={azul:"#1F3864",azul2:"#2E4F8F",dourado:"#B8963E",dourado2:"#D4B45F",carvao:"#4A4A4A",verde:"#2E7D32",med:"#B8860B",fraca:"#9AA0A6",vermelho:"#C0392B",cinza:"#8593A8"};
+const PAL=[C.azul,C.dourado,C.azul2,C.dourado2,C.carvao,C.verde,C.med,C.vermelho,C.cinza,"#7B8FB0"];
+function tagForca(f){const m={"FORTE":"t-forte","MÉDIA":"t-media","FRACA":"t-fraca"};return`<span class="tag ${m[f]||''}">${f}</span>`}
+function tagFase(f){const m={"F0":"t-f0","F3":"t-f3","F5":"t-f5","F0_DIAGNOSTICO":"t-diag"};return`<span class="tag ${m[f]||'t-f0'}">${f}</span>`}
+function presc(d){if(d===null)return'<span class="muted">—</span>';if(d<0)return`<span class="neg">${d} (vencida)</span>`;if(d<=90)return`<span class="warn">${d}</span>`;return`<span class="pos">${d}</span>`}
+
+/* ===================== TABS ===================== */
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');document.getElementById(t.dataset.p).classList.add('active');
+});
+
+/* ===================== TABELA PASTAS ===================== */
+function fillPastas(rows){
+  const tb=document.querySelector('#tPastas tbody');
+  tb.innerHTML=rows.map(p=>`<tr>
+    <td><b>${p.nome}</b></td><td>${p.local}</td><td>${p.tipo}</td>
+    <td class="num">${p.arquivos.toLocaleString('pt-BR')}</td><td class="num">${p.tamanho}</td>
+    <td>${p.atividade}</td><td class="muted">${p.conteudo}</td></tr>`).join('');
+}
+let pSort={k:'arquivos',dir:-1};
+fillPastas(PASTAS);
+document.querySelectorAll('#tPastas thead th').forEach(th=>th.onclick=()=>{
+  const k=th.dataset.k;pSort.dir=(pSort.k===k)?-pSort.dir:1;pSort.k=k;
+  const s=[...PASTAS].sort((a,b)=>{let x=a[k],y=b[k];if(k==='arquivos')return (x-y)*pSort.dir;
+    return (''+x).localeCompare(''+y,'pt-BR')*pSort.dir;});
+  fillPastas(s);
+});
+
+/* ===================== TABELA ARQUIVOS ===================== */
+const cats=[...new Set(ARQ.map(a=>a.cat))];
+const pastasA=[...new Set(ARQ.map(a=>a.pasta))].sort();
+const selCat=document.getElementById('fCat'),selPa=document.getElementById('fPasta');
+cats.forEach(c=>selCat.add(new Option(c,c)));
+pastasA.forEach(p=>selPa.add(new Option(p,p)));
+function fillArq(){
+  const q=document.getElementById('qArq').value.toLowerCase(),fc=selCat.value,fp=selPa.value;
+  const rows=ARQ.filter(a=>(!fc||a.cat===fc)&&(!fp||a.pasta===fp)&&(!q||(a.nome+a.obs+a.cat).toLowerCase().includes(q)));
+  document.querySelector('#tArq tbody').innerHTML=rows.map(a=>`<tr>
+    <td><span class="cat">${a.cat}</span></td><td><b>${a.nome}</b></td><td>${a.pasta}</td>
+    <td class="num">${a.tam}</td><td>${a.data}</td><td class="muted">${a.obs}</td></tr>`).join('');
+  document.getElementById('cntArq').textContent=rows.length+' de '+ARQ.length+' arquivos';
+}
+['qArq'].forEach(id=>document.getElementById(id).oninput=fillArq);
+[selCat,selPa].forEach(s=>s.onchange=fillArq);
+fillArq();
+
+/* ===================== TABELA DEVEDORES ===================== */
+const passos=[...new Set(DEV.map(d=>d[6]))].sort();
+const selPasso=document.getElementById('fPasso');
+passos.forEach(p=>selPasso.add(new Option(p,p)));
+let dSort={k:2,dir:-1};
+function fillDev(){
+  const q=document.getElementById('qDev').value.toLowerCase();
+  const ff=document.getElementById('fForca').value,fp=document.getElementById('fFase').value,fs=selPasso.value;
+  let rows=DEV.filter(d=>(!q||d[1].toLowerCase().includes(q))&&(!ff||d[4]===ff)&&(!fp||d[5]===fp)&&(!fs||d[6]===fs));
+  rows=[...rows].sort((a,b)=>{const x=a[dSort.k],y=b[dSort.k];
+    if(typeof x==='number'||x===null){return ((x??-1)-(y??-1))*dSort.dir;}
+    return (''+x).localeCompare(''+y,'pt-BR')*dSort.dir;});
+  document.querySelector('#tDev tbody').innerHTML=rows.map(d=>`<tr>
+    <td class="num">${d[0]}</td><td><b>${d[1]}</b></td>
+    <td class="num">${BRL(d[2])}</td><td class="num">${BRL(d[3])}</td>
+    <td>${tagForca(d[4])}</td><td>${tagFase(d[5])}</td>
+    <td class="muted">${d[6]}</td><td class="num">${presc(d[7])}</td></tr>`).join('');
+  document.getElementById('cntDev').textContent=rows.length+' de 69 devedores · exigível '+BRLk(rows.reduce((s,d)=>s+d[2],0));
+}
+document.getElementById('qDev').oninput=fillDev;
+['fForca','fFase'].forEach(id=>document.getElementById(id).onchange=fillDev);
+selPasso.onchange=fillDev;
+document.querySelectorAll('#tDev thead th').forEach((th,i)=>th.onclick=()=>{
+  const map=['rank',1,2,3,4,5,6,7];const k=[0,1,2,3,4,5,6,7][i];
+  dSort.dir=(dSort.k===k)?-dSort.dir:-1;dSort.k=k;fillDev();
+});
+fillDev();
+
+/* KPIs portfólio */
+document.getElementById('kForte').textContent=DEV.filter(d=>d[4]==='FORTE').length;
+document.getElementById('kPresc').textContent=DEV.filter(d=>d[7]!==null&&d[7]<=90).length;
+
+/* ===================== GRÁFICOS ===================== */
+Chart.defaults.font.family="'Segoe UI',sans-serif";Chart.defaults.font.size=11.5;
+new Chart(cTipos,{type:'doughnut',data:{labels:Object.keys(TIPOS),datasets:[{data:Object.values(TIPOS),backgroundColor:PAL,borderColor:'#fff',borderWidth:2}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{position:'right',labels:{usePointStyle:true,padding:11,font:{size:11}}},
+  tooltip:{callbacks:{label:c=>{const t=c.dataset.data.reduce((a,b)=>a+b,0);return ` ${c.label}: ${c.parsed.toLocaleString('pt-BR')} (${(c.parsed/t*100).toFixed(1)}%)`}}}}}});
+
+new Chart(cPastas,{type:'bar',data:{labels:PASTAS.map(p=>p.nome.length>26?p.nome.slice(0,24)+'…':p.nome),
+  datasets:[{data:PASTAS.map(p=>p.arquivos),backgroundColor:PAL.map(c=>c+'CC'),borderColor:PAL,borderWidth:1,borderRadius:4}]},
+  options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},
+  tooltip:{callbacks:{label:c=>' '+c.parsed.x.toLocaleString('pt-BR')+' arquivos'}}},
+  scales:{x:{type:'logarithmic',title:{display:true,text:'nº de arquivos (log)'}},y:{ticks:{font:{size:10}}}}}});
+
+const forcas={FORTE:0,MÉDIA:0,FRACA:0};DEV.forEach(d=>forcas[d[4]]++);
+new Chart(cForca,{type:'doughnut',data:{labels:Object.keys(forcas).map(k=>k+' ('+forcas[k]+')'),
+  datasets:[{data:Object.values(forcas),backgroundColor:[C.verde,C.med,C.fraca],borderColor:'#fff',borderWidth:2}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'58%',plugins:{legend:{position:'right',labels:{usePointStyle:true,padding:14}}}}});
+
+const fases={};DEV.forEach(d=>fases[d[5]]=(fases[d[5]]||0)+1);
+new Chart(cFase,{type:'bar',data:{labels:Object.keys(fases),datasets:[{data:Object.values(fases),
+  backgroundColor:[C.azul,C.dourado,C.verde,C.vermelho].map(c=>c+'CC'),borderColor:[C.azul,C.dourado,C.verde,C.vermelho],borderWidth:1,borderRadius:5}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.parsed.y+' devedores'}}},
+  scales:{y:{beginAtZero:true,ticks:{precision:0}}}}});
+
+const top10=[...DEV].sort((a,b)=>b[2]-a[2]).slice(0,10);
+new Chart(cTop10,{type:'bar',data:{labels:top10.map(d=>d[1]),datasets:[{data:top10.map(d=>d[2]),
+  backgroundColor:C.azul+'CC',borderColor:C.dourado,borderWidth:1,borderRadius:4}]},
+  options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false},
+  tooltip:{callbacks:{label:c=>' '+BRL(c.parsed.x)}}},scales:{x:{ticks:{callback:v=>BRLk(v)}},y:{ticks:{font:{size:11}}}}}});
+</script>
+</body>
+</html>
