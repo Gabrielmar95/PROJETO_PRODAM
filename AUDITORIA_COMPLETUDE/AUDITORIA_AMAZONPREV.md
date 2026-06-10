@@ -1,5 +1,5 @@
 # Auditoria de Completude — AMAZONPREV
-**Instituto de Previdência do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Instituto de Previdência do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\AMAZONPREV_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\AMAZONPREV_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\AMAZONPREV |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/AMAZONPREV_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/AMAZONPREV_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/AMAZONPREV |
 
 ## Documentos Faltantes (5)
 

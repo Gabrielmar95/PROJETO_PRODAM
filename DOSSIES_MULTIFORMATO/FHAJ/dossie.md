@@ -1,6 +1,6 @@
 # Dossiê Completo — FHAJ
 **Fundação Hospitalar Adriano Jorge** | Categoria: **GOV_INDIRETA**
-Data: 2026-05-07 | CNPJ: 06.168.092/0001-08
+Data: 2026-06-09 | CNPJ: 06.168.092/0001-08
 
 ## Visão Executiva
 
@@ -84,4 +84,4 @@ Informes de RD efetuados, aguardando liberação
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

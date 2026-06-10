@@ -1,6 +1,6 @@
 # Dossiê Completo — SEINFRA
 **Secretaria de Infraestrutura** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 03.852.880/0001-12
+Data: 2026-06-09 | CNPJ: 03.852.880/0001-12
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Evidências de reconhecimento
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

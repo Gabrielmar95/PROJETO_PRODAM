@@ -1,6 +1,6 @@
 # Dossiê Completo — SALUX
 **Salux Informatização em Saúde S/A** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-05-07 | CNPJ: 05.113.942/0001-08
+Data: 2026-06-09 | CNPJ: 05.113.942/0001-08
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Cadastrado em 14/04/2026 — 16 faturas com R$ 1M. CNPJ precisa ser buscado
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEAD
-**Secretaria de Administração** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**Secretaria de Administração** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEAD_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEAD_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\SEAD |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEAD_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEAD_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SEAD |
 
 ## Documentos Faltantes (5)
 

@@ -1,6 +1,6 @@
 # Dossiê Completo — ITRANSITO
 **iTransito** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-05-07 | CNPJ: 23.792.780/0001-55
+Data: 2026-06-09 | CNPJ: 23.792.780/0001-55
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 38,360.67 — fonte: relatorio_devedores.xls. Análise massiva
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

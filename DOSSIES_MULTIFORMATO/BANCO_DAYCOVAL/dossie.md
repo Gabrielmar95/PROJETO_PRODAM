@@ -1,6 +1,6 @@
 # Dossiê Completo — BANCO DAYCOVAL
 **** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-05-07 | CNPJ: 62.232.889/0001-90
+Data: 2026-06-09 | CNPJ: 62.232.889/0001-90
 
 ## Visão Executiva
 
@@ -59,4 +59,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

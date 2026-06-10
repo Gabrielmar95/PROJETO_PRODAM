@@ -1,6 +1,6 @@
 # Dossiê Completo — SEDUC
 **Secretaria de Educação do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 04.312.419/0001-30
+Data: 2026-06-09 | CNPJ: 04.312.419/0001-30
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Requer prova documental robusta. Negativa expressa para cobrança.
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

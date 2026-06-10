@@ -1,5 +1,5 @@
 # Auditoria de Completude — COSAMA
-**** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **18.2%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\COSAMA_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\COSAMA_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\COSAMA |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/COSAMA_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/COSAMA_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/COSAMA |
 
 ## Documentos Faltantes (9)
 

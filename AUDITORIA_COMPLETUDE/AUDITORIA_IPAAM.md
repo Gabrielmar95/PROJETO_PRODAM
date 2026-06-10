@@ -1,5 +1,5 @@
 # Auditoria de Completude — IPAAM
-**Instituto de Proteção Ambiental do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Instituto de Proteção Ambiental do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\IPAAM_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\IPAAM_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\IPAAM |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/IPAAM_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/IPAAM_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/IPAAM |
 
 ## Documentos Faltantes (5)
 

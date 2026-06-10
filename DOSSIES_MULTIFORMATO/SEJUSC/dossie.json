@@ -8,9 +8,9 @@
     "val_exig": "2589660.118313503",
     "val_orig": "3025777.730000001",
     "val_atualizado": "5262537.822174589",
-    "faturas_total": 165,
-    "faturas_prescritas": 100,
-    "faturas_exigiveis": 65,
+    "faturas_total": 160,
+    "faturas_prescritas": 93,
+    "faturas_exigiveis": 61,
     "indice_correcao": "SELIC",
     "juros_mora": "Conforme SELIC",
     "multa": "1%",
@@ -18,7 +18,7 @@
     "regime_execucao": "precatorio_rpv",
     "titulo_executivo": false,
     "status": "Análise pendente",
-    "observacoes": "Documentação fraca (5,15% da carteira)",
+    "observacoes": "Recalculo 2026-05-12 com Sumula 383/STF e criterio estrito de evidencias. CSV cruzado 160 linhas: 93 prescritas, 61 exigiveis R$1.465.553,64 (todas vivas pos-S383). Achado: 8 fat CT C.7/2020 comp 06-07/2020 ja prescritas R$210.494,68 (marco NE 30/05/2023 caiu na 2a metade do quinquenio). Grosso vivo CT C.7/2020 (R$1,45M=99%): 1a metade preserva quinq natural 2026-11-30 minimo (S383). Risco curto: 3 mini-CTs P.252/P.287/P.322 (R$2.390) D+111-172. 17 NEs orfas 2021-26 candidatas fuzzy nao-discriminadas (3 NEs out/2021 batem com 3 mini-CTs simultaneamente). Evidencias estritas: 126 NEs (vs 37 do profile anterior, total bruto DB 434).",
     "forca_probatoria": "MÉDIA",
     "modelo_notificacao": "B",
     "reconhecimento_revisado": {
@@ -30,10 +30,12 @@
       "data_revisao": "2026-03-23"
     },
     "cnpj": "04.312.401/0001-38",
-    "evidencias_reconhecimento": 37,
+    "evidencias_reconhecimento": 126,
     "evidencias_por_tipo": {
-      "E": 37
+      "E": 126
     },
+    "val_prescrito_2020_pos_S383": "210494.68",
+    "fat_prescritas_pos_S383": 8,
     "classificacao_reconhecimento": "INDÍCIO — Empenho (reconhecimento orçamentário)",
     "tipo": "GOV",
     "score_composto": 0.5687,
@@ -48,7 +50,7 @@
     "prioridade_rank": 6,
     "fase_atual": "F0",
     "data_fase_atual": "2026-03-27",
-    "data_prescricao_proxima": "2026-03-20",
+    "data_prescricao_proxima": "2026-08-31",
     "historico_fases": {
       "F0": "2026-03-01"
     },
@@ -97,8 +99,9 @@
     "reconciliacao_divergencia_pct": 11.71,
     "pipeline_ultima_execucao": "2026-04-08 12:23",
     "pipeline_versao": "3.2.0",
-    "urgencia_prescricao": "PRESCRITA",
-    "d_plus_prescricao": -20,
+    "urgencia_prescricao": "MODERADA",
+    "d_plus_prescricao": 111,
+    "ultima_revisao_prescricao": "2026-05-12",
     "tem_csv_faturas": true
   },
   "empenhos": [
@@ -4974,7 +4977,7 @@
     },
     "faturas": {
       "qtd": 58,
-      "valor_total": 2434441.61
+      "valor_total": 2434441.609999999
     },
     "cobrancas": {
       "qtd": 58,

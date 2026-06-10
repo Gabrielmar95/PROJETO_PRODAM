@@ -1,6 +1,6 @@
 # Dossiê Completo — SNPH
 **Secretaria de Navegação Portuária e Hidrovias** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 01.253.690/0001-53
+Data: 2026-06-09 | CNPJ: 01.253.690/0001-53
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

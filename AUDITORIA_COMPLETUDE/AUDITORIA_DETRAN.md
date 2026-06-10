@@ -1,5 +1,5 @@
 # Auditoria de Completude — DETRAN
-**Departamento Estadual de Trânsito do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Departamento Estadual de Trânsito do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\DETRAN_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\DETRAN_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\DETRAN |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/DETRAN_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/DETRAN_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/DETRAN |
 
 ## Documentos Faltantes (5)
 
@@ -50,8 +50,8 @@
 
 ### Tipo: `valor_aberto_vs_db_faturas`
 - **profile:** 22448434.53
-- **db_faturas:** 17802420.55
-- **delta:** 4646013.98
+- **db_faturas:** 17802420.549999997
+- **delta:** 4646013.980000003
 - **pct:** 20.7%
 
 ### Tipo: `faturas_aberto_qtd_profile_vs_db`

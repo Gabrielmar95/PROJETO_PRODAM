@@ -1,6 +1,6 @@
 # Dossiê Completo — DPE
 **Defensoria Pública do Estado do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -74,4 +74,4 @@ Incluido via SPCF Mar/2026. Alias: DEFENSOR/DPE. 6 fat aberto (B2-05 R$28.293,15
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

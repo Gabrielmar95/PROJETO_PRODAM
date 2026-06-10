@@ -1,5 +1,5 @@
 # Auditoria de Completude — CASA CIVIL
-**** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **45.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\CASA_CIVIL_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\CASA_CIVIL_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\CASA CIVIL |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CASA_CIVIL_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/CASA_CIVIL_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/CASA CIVIL |
 
 ## Documentos Faltantes (6)
 

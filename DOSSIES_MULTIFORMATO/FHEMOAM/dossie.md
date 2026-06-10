@@ -1,6 +1,6 @@
 # Dossiê Completo — FHEMOAM
 **Fundação de Hematologia e Hemoterapia do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-05-07 | CNPJ: 63.678.320/0001-15
+Data: 2026-06-09 | CNPJ: 63.678.320/0001-15
 
 ## Visão Executiva
 
@@ -74,4 +74,4 @@ Evidências de reconhecimento
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

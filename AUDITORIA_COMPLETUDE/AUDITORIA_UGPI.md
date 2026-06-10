@@ -1,5 +1,5 @@
 # Auditoria de Completude — UGPI
-**Unidade Gestora de Projetos e Investimentos** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**Unidade Gestora de Projetos e Investimentos** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **9.1%**
 
@@ -35,8 +35,8 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\UGPI_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\UGPI |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/UGPI_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/UGPI |
 
 ## Documentos Faltantes (10)
 

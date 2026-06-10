@@ -1,6 +1,6 @@
 # Dossiê Completo — SSP
 **Secretaria de Segurança Pública** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 01.804.019/0001-53
+Data: 2026-06-09 | CNPJ: 01.804.019/0001-53
 
 ## Visão Executiva
 
@@ -14,9 +14,9 @@ Data: 2026-05-07 | CNPJ: 01.804.019/0001-53
 | Juros mora | Conforme SELIC |
 | Valor exigível (profile) | R$ 4.553.230,80 |
 | Valor atualizado (profile) | R$ 29.034.062,63 |
-| Faturas total | 196 |
-| Faturas exigíveis | 81 |
-| Faturas prescritas | 115 |
+| Faturas total | 181 |
+| Faturas exigíveis | 66 |
+| Faturas prescritas | 114 |
 | Probabilidade recuperação | 93% |
 | Valor esperado (E[V]) | R$ 4.234.504,64 |
 | Honorários esperados | R$ 846.900,93 |
@@ -79,13 +79,13 @@ Distribuição por ano:
 
 ## Observações do Profile
 
-Marcos interruptivos expiram jul-nov/2026
+8 faturas D+49-172 (mini-CTs 190-319/2021, R$6.653, zero NEs). 58 faturas CT 48/2021 seguras até 2028+. Petição em _DOCUMENTOS_JURIDICOS/.
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-01**
+- Data próxima prescrição: **2026-06-30**
 - Reconhecimento revisado: ✅
 - Título executivo: ✅
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEJUSC
-**Secretaria de Estado da Justiça, Direitos Humanos e Cidadania** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**Secretaria de Estado da Justiça, Direitos Humanos e Cidadania** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEJUSC_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEJUSC_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\SEJUSC |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEJUSC_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEJUSC_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SEJUSC |
 
 ## Documentos Faltantes (5)
 

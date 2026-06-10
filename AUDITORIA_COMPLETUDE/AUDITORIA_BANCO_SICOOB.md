@@ -1,5 +1,5 @@
 # Auditoria de Completude — BANCO SICOOB
-**Banco Sicoob** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
+**Banco Sicoob** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
 
 ## Score de Completude: **36.4%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\BANCO_SICOOB_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\BANCO_SICOOB_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\BANCO SICOOB |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/BANCO_SICOOB_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/BANCO_SICOOB_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/BANCO SICOOB |
 
 ## Documentos Faltantes (7)
 

@@ -1,5 +1,5 @@
 # Auditoria de Completude — POLÍCIA CIVIL
-**Polícia Civil do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**Polícia Civil do Amazonas** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **27.3%**
 
@@ -36,7 +36,7 @@
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
 | Pasta Consolidado | *(AUSENTE)* |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\POLÍCIA CIVIL |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/POLÍCIA CIVIL |
 
 ## Documentos Faltantes (8)
 

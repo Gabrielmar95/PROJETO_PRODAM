@@ -1,5 +1,5 @@
 # Auditoria de Completude — FAAR/SEDEL
-**Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Fundação de Amparo à Pesquisa do Amazonas / Secretaria de Desenvolvimento Econômico** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **27.3%**
 
@@ -36,7 +36,7 @@
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
 | Pasta Consolidado | *(AUSENTE)* |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\FAAR_SEDEL |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/FAAR_SEDEL |
 
 ## Documentos Faltantes (8)
 
@@ -53,8 +53,8 @@
 
 ### Tipo: `valor_aberto_vs_db_faturas`
 - **profile:** 104811.74
-- **db_faturas:** 364632.44
-- **delta:** 259820.70
+- **db_faturas:** 364632.4399999999
+- **delta:** 259820.6999999999
 - **pct:** 247.9%
 
 ### Tipo: `faturas_aberto_qtd_profile_vs_db`

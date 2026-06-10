@@ -1,6 +1,6 @@
 # Dossiê Completo — IKM DE
 **IKM DE** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-05-07 | CNPJ: 14.968.157/0001-10
+Data: 2026-06-09 | CNPJ: 14.968.157/0001-10
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Valor original R$ 116,263.60 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

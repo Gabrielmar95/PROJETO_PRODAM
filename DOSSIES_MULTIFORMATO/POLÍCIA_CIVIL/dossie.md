@@ -1,6 +1,6 @@
 # Dossiê Completo — POLÍCIA CIVIL
 **Polícia Civil do Amazonas** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 03.072.388/0001-24
+Data: 2026-06-09 | CNPJ: 03.072.388/0001-24
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

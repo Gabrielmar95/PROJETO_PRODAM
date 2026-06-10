@@ -1,6 +1,6 @@
 # Dossiê Completo — CPA
 **CPA** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-05-07 | CNPJ: 18.206.900/0001-55
+Data: 2026-06-09 | CNPJ: 18.206.900/0001-55
 
 ## Visão Executiva
 
@@ -61,4 +61,4 @@ Valor original R$ 165,830.96 — fonte: relatorio_devedores.xls. Análise massiv
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

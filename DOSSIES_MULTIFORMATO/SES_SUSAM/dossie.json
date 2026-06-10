@@ -8,19 +8,30 @@
     "val_exig": "4783356.52",
     "val_exig_anterior": "14748048.9572181",
     "val_orig": "22406424.64000001",
-    "val_atualizado": "8135935.19",
-    "val_atualizado_anterior": "43921619.17034938",
-    "val_atualizado_metodologia": "SELIC serie BCB 4390 acumulada mensal, fator 1.7009x, data-base 2026-05-12. Substitui valor anterior calculado por metodologia nao auditavel (fator 2.98x implicito incompativel com regime SELIC).",
+    "val_atualizado": "8230061.40",
+    "val_atualizado_v1_anterior": "43921619.17034938",
+    "val_atualizado_v2_anterior": "8135935.19",
+    "val_atualizado_metodologia": "SELIC serie BCB 4390 acumulada mensal, fator medio ponderado 1.720562x, data-base 2026-05-12, CALCULO FATURA-A-FATURA via scripts/ad_hoc/gerar_memorial_preliminar_ses.py. Fonte autoritativa: DOCUMENTOS_GERADOS/SES_SUSAM/MEMORIAL_PRELIMINAR_SES_SUSAM_2026-05-12.{md,xlsx}. v2 anterior (R$ 8.135.935,19) usava fator agregado simples 1.7009x sobre o principal total, sub-representando faturas antigas (fator >2x). v1 anterior (R$ 43,92M) usava fator implicito 2,98x nao auditavel.",
     "faturas_total": 324,
     "faturas_prescritas": 180,
     "faturas_exigiveis": 82,
     "faturas_exigiveis_anterior": 144,
     "faturas_exigiveis_breakdown": {
-      "tier1_vencimento_dentro_5a": 47,
-      "tier2_ressuscitadas_por_NE_2026": 35,
+      "tier1_vencimento_dentro_5a_sem_NE_protetora": 3,
+      "tier1_contratos": [
+        "74/2021"
+      ],
+      "tier1_prazo_critico": "D+141 (2026-09-30) — Art. 206 §5º I CC, prazo natural 5a",
+      "tier2_ressuscitadas_por_NE_2026": 79,
+      "tier2_prazo_folgado": "D+851 a D+878 (2028-09-09 a 2028-10-06) — Decreto 20.910/1932 NE+2,5a",
+      "excluida_prescrita_D_menos_71": {
+        "fatura_id": 122703,
+        "valor_bruto": "29001.42",
+        "motivo": "Vencimento + 5a já transcorrido (D-71); fora da TRD"
+      },
       "excluidas_NE_antiga_ou_consumada": 28,
-      "fonte_analise": "scripts/ses_reconciliacao_completa.py + cruzamento NE 2026-05-12",
-      "metodologia": "Tier1: vencimento_fatura + 5a > hoje. Tier2: ultima_NE_contrato > vencimento_fatura AND ultima_NE >= cutoff (2021-05-13). Universo: 110 faturas SES com cadeia em prodam.db; nao inclui 26 faturas em rel_faturas_aberto sem DB ainda."
+      "fonte_analise": "scripts/ses_reconciliacao_completa.py + cruzamento NE 2026-05-12 + parsing DD/MM/YYYY corrigido (Etapa 3)",
+      "metodologia": "Bug corrigido 2026-05-12: ORDER BY data_emissao DESC em prodam.db ordenava lexicograficamente (TEXT DD/MM/YYYY), causando misclassification. Parsing via datetime.strptime revelou que Tier 1 estrito tem apenas 3 faturas (todas 74/2021), e 79 estão ressuscitadas por NE 2026. Universo final TRD: 82 (id 122703 excluída por prescrição consumada)."
     },
     "indice_correcao": "SELIC",
     "juros_mora": "Conforme SELIC",
@@ -57,18 +68,22 @@
     "score_composto": 0.7664,
     "proximo_passo": "ENVIAR_TRD",
     "p_recuperacao": 0.75,
-    "ev_valor_esperado": "6101951.39",
-    "ev_valor_esperado_anterior": "11061036.72",
-    "ev_honorarios": "1220390.28",
-    "ev_honorarios_anterior": "2212207.34",
+    "ev_valor_esperado": "6172546.05",
+    "ev_valor_esperado_v1_anterior": "11061036.72",
+    "ev_valor_esperado_v2_anterior": "6101951.39",
+    "ev_honorarios": "1234509.21",
+    "ev_honorarios_v1_anterior": "2212207.34",
+    "ev_honorarios_v2_anterior": "1220390.28",
     "esforco_estimado": 4,
-    "cenario_monte_carlo_p50": "1443543.27",
-    "cenario_monte_carlo_p50_anterior": "7796515.65",
+    "cenario_monte_carlo_p50": "1460244.36",
+    "cenario_monte_carlo_p50_v1_anterior": "7796515.65",
+    "cenario_monte_carlo_p50_v2_anterior": "1443543.27",
     "valor_recuperado": "0",
     "data_protocolo": null,
-    "data_prescricao_proxima": "2028-09-30",
-    "data_prescricao_proxima_anterior": "2026-08-31",
-    "data_prescricao_proxima_metodologia": "Estimativa: Decreto 20.910/1932 (Fazenda Publica reinicia pela metade, 2.5a) sobre NE 2026NE0001322 do contrato 18/2021 (emitida 31/03/2026). Revalidar fatura-a-fatura na Etapa 2 do plano TRD-SES-SUSAM. Data anterior (2026-08-31) era baseada em cutoff cego 2021-04-14+5a sem considerar marcos interruptivos (Art. 202 VI CC).",
+    "data_prescricao_proxima": "2026-09-30",
+    "data_prescricao_proxima_v1_anterior": "2026-08-31",
+    "data_prescricao_proxima_v2_anterior": "2028-09-30",
+    "data_prescricao_proxima_metodologia": "Recalculado 2026-05-12 (Etapa 3 do plano TRD-SES-SUSAM, com fix de parsing DD/MM/YYYY): 3 faturas do contrato 74/2021 (R$ 220.019,73, competência 08/2021) NÃO têm NE pós-vencimento — NE 2021NE0002261 é de 13/07/2021, anterior ao vencimento de 09/2021, logo não interrompe nos termos do Art. 202 VI CC. Prazo natural 5a (Art. 206 §5º I CC) expira em 30/09/2026 = D+141. Demais 79 faturas estão ressuscitadas por NEs 2026 (Decreto 20.910/1932 reinicia pela metade, 2,5a), prazo entre 2028-09-09 e 2028-10-06. Fatura id 122703 (R$ 29.001,42) já prescreveu (D-71) e foi excluída da TRD. Versões anteriores: v1=2026-08-31 (cutoff cego sem marcos interruptivos); v2=2028-09-30 (base NE 2026 cega ao 74/2021 sem proteção).",
     "prioridade_rank": 3,
     "blindagem_resultado": {
       "data": "2026-03-27",
@@ -670,7 +685,8 @@
       "via": "TRD_PRIMEIRO",
       "fundamentacao": "Força FORTE, TRD pronto, acordo SEFAZ R$30M em negociação"
     },
-    "tem_csv_faturas": false
+    "tem_csv_faturas": false,
+    "evidencia_protocolo": "PRODAM_DOCS/SES_SUSAM/TRD_protocolo_20260513.pdf"
   },
   "empenhos": [
     {
@@ -7034,7 +7050,7 @@
   "stats": {
     "empenhos": {
       "qtd": 475,
-      "valor_total": 107076806.49,
+      "valor_total": 107076806.49000011,
       "por_ano": {
         "2025": {
           "qtd": 72,
@@ -7092,7 +7108,7 @@
     },
     "faturas": {
       "qtd": 111,
-      "valor_total": 6752583.41
+      "valor_total": 6752583.4099999955
     },
     "cobrancas": {
       "qtd": 111,

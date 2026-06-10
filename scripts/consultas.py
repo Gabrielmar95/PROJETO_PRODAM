@@ -32,6 +32,14 @@ PRIVADO_LIKE = (
 
 # ============================== format helpers =============================
 
+def _swap_br(s: str) -> str:
+    """Troca separadores en-US → pt-BR: '1,234.56' → '1.234,56'."""
+    return s.replace(",", "_").replace(".", ",").replace("_", ".")
+
+def _int_br(n) -> str:
+    """Inteiro com separador de milhar pt-BR: 16789 → '16.789'."""
+    return f"{n:,}".replace(",", ".")
+
 def brl(v) -> str:
     if v is None:
         return ""
@@ -39,8 +47,7 @@ def brl(v) -> str:
         d = Decimal(str(v))
     except Exception:
         return str(v)
-    s = f"{d:,.2f}".replace(",", "_").replace(".", ",").replace("_", ".")
-    return f"R$ {s}"
+    return f"R$ {_swap_br(f'{d:,.2f}')}"
 
 def is_brl_col(name: str) -> bool:
     n = str(name).lower()
@@ -52,9 +59,9 @@ def format_cell(col: str, value) -> str:
     if is_brl_col(col) and isinstance(value, (int, float, Decimal)):
         return brl(value)
     if isinstance(value, float):
-        return f"{value:,.2f}".replace(",", "_").replace(".", ",").replace("_", ".")
+        return _swap_br(f"{value:,.2f}")
     if isinstance(value, int):
-        return f"{value:,}".replace(",", ".")
+        return _int_br(value)
     return str(value)
 
 def print_table(cols, rows, max_rows=50):
@@ -117,12 +124,12 @@ def q_resumo_geral(conn):
     pct_pg = com / (com + sem) * 100 if (com + sem) else 0
 
     rows_m = [
-        ("NFs com pagamento",           f"{com:,}".replace(",", ".")),
-        ("NFs sem pagamento",           f"{sem:,}".replace(",", ".")),
+        ("NFs com pagamento",           _int_br(com)),
+        ("NFs sem pagamento",           _int_br(sem)),
         ("% NFs pagas",                 f"{pct_pg:.1f}%"),
         ("Valor total faturas",         brl(vt)),
         ("Valor em aberto (NF s/ pg)",  brl(va)),
-        ("Faturas sem empenho",         f"{vse[1]:,}".replace(",", ".")),
+        ("Faturas sem empenho",         _int_br(vse[1])),
         ("Valor sem empenho",           brl(vse[0])),
     ]
 

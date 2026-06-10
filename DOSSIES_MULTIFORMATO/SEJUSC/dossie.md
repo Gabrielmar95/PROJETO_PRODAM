@@ -1,6 +1,6 @@
 # Dossiê Completo — SEJUSC
 **Secretaria de Estado da Justiça, Direitos Humanos e Cidadania** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 04.312.401/0001-38
+Data: 2026-06-09 | CNPJ: 04.312.401/0001-38
 
 ## Visão Executiva
 
@@ -14,9 +14,9 @@ Data: 2026-05-07 | CNPJ: 04.312.401/0001-38
 | Juros mora | Conforme SELIC |
 | Valor exigível (profile) | R$ 2.589.660,12 |
 | Valor atualizado (profile) | R$ 5.262.537,82 |
-| Faturas total | 165 |
-| Faturas exigíveis | 65 |
-| Faturas prescritas | 100 |
+| Faturas total | 160 |
+| Faturas exigíveis | 61 |
+| Faturas prescritas | 93 |
 | Probabilidade recuperação | 40% |
 | Valor esperado (E[V]) | R$ 1.035.864,05 |
 | Honorários esperados | R$ 207.172,81 |
@@ -79,13 +79,13 @@ Distribuição por ano:
 
 ## Observações do Profile
 
-Documentação fraca (5,15% da carteira)
+Recalculo 2026-05-12 com Sumula 383/STF e criterio estrito de evidencias. CSV cruzado 160 linhas: 93 prescritas, 61 exigiveis R$1.465.553,64 (todas vivas pos-S383). Achado: 8 fat CT C.7/2020 comp 06-07/2020 ja prescritas R$210.494,68 (marco NE 30/05/2023 caiu na 2a metade do quinquenio). Grosso vivo CT C.7/2020 (R$1,45M=99%): 1a metade preserva quinq natural 2026-11-30 minimo (S383). Risco curto: 3 mini-CTs P.252/P.287/P.322 (R$2.390) D+111-172. 17 NEs orfas 2021-26 candidatas fuzzy nao-discriminadas (3 NEs out/2021 batem com 3 mini-CTs simultaneamente). Evidencias estritas: 126 NEs (vs 37 do profile anterior, total bruto DB 434).
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2026-03-20**
+- Data próxima prescrição: **2026-08-31**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

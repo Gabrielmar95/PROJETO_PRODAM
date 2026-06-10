@@ -1,6 +1,6 @@
 # Dossiê Completo — BRADESCO
 **Banco Bradesco S.A.** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-05-07 | CNPJ: 60.746.948/0001-12
+Data: 2026-06-09 | CNPJ: 60.746.948/0001-12
 
 ## Visão Executiva
 
@@ -65,4 +65,4 @@ Cadastrado em 14/04/2026 após auditoria — 43 faturas com R$ 2M em cobrancas.j
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

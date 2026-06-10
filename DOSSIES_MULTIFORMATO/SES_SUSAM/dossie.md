@@ -1,6 +1,6 @@
 # Dossiê Completo — SES/SUSAM
 **Secretaria de Saúde do Amazonas / Fundação de Medicina Tropical** | Categoria: **GOV_DIRETA**
-Data: 2026-05-12 | CNPJ: 00.697.295/0001-05
+Data: 2026-06-09 | CNPJ: 00.697.295/0001-05
 
 ## Visão Executiva
 
@@ -13,13 +13,13 @@ Data: 2026-05-12 | CNPJ: 00.697.295/0001-05
 | Índice correção | SELIC |
 | Juros mora | Conforme SELIC |
 | Valor exigível (profile) | R$ 4.783.356,52 |
-| Valor atualizado (profile) | R$ 8.135.935,19 |
+| Valor atualizado (profile) | R$ 8.230.061,40 |
 | Faturas total | 324 |
 | Faturas exigíveis | 82 |
 | Faturas prescritas | 180 |
 | Probabilidade recuperação | 75% |
-| Valor esperado (E[V]) | R$ 6.101.951,39 |
-| Honorários esperados | R$ 1.220.390,28 |
+| Valor esperado (E[V]) | R$ 6.172.546,05 |
+| Honorários esperados | R$ 1.234.509,21 |
 
 ## Dados SPCF (prodam.db)
 
@@ -83,9 +83,9 @@ Distribuição por ano:
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2028-09-30**
+- Data próxima prescrição: **2026-09-30**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-12_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

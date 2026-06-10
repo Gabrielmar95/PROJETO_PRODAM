@@ -1,6 +1,6 @@
 # Dossiê Completo — FENIXSOFT
 **Fenixsoft** | Categoria: **EMPRESA_PRIVADA**
-Data: 2026-05-07 | CNPJ: 07.093.895/0001-03
+Data: 2026-06-09 | CNPJ: 07.093.895/0001-03
 
 ## Visão Executiva
 
@@ -15,8 +15,8 @@ Data: 2026-05-07 | CNPJ: 07.093.895/0001-03
 | Valor exigível (profile) | R$ 888.250,00 |
 | Valor atualizado (profile) | R$ 888.250,00 |
 | Faturas total | 7 |
-| Faturas exigíveis | 7 |
-| Faturas prescritas | 0 |
+| Faturas exigíveis | 2 |
+| Faturas prescritas | 5 |
 | Probabilidade recuperação | 15% |
 | Valor esperado (E[V]) | R$ 133.237,50 |
 | Honorários esperados | R$ 26.647,50 |
@@ -57,9 +57,9 @@ Valor original R$ 888,250.00 — fonte: relatorio_devedores.xls. Análise massiv
 
 ## Alertas de Prescrição
 
-- Data próxima prescrição: **2029-10-01**
+- Data próxima prescrição: **2027-02-28**
 - Reconhecimento revisado: ✅
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

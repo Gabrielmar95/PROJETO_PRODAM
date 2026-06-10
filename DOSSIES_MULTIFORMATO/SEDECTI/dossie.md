@@ -1,6 +1,6 @@
 # Dossiê Completo — SEDECTI
 **Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 04.503.421/0001-96
+Data: 2026-06-09 | CNPJ: 04.503.421/0001-96
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

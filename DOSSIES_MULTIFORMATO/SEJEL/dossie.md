@@ -1,6 +1,6 @@
 # Dossiê Completo — SEJEL
 **Secretaria de Estado de Juventude, Esporte e Lazer** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -72,4 +72,4 @@ Incluido via SPCF Mar/2026. 0 fat aberto (B2-05). R$574K em perdas. 96 fat devid
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

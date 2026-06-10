@@ -1,6 +1,6 @@
 # Dossiê Completo — IDAM
 **Instituto de Desenvolvimento Agropecuário do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-05-07 | CNPJ: 01.171.012/0001-41
+Data: 2026-06-09 | CNPJ: 01.171.012/0001-41
 
 ## Visão Executiva
 
@@ -85,4 +85,4 @@ Tramitado para Diretoria Adm-Financeira
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

@@ -1,5 +1,5 @@
 # Auditoria de Completude — FMT
-**Fundação de Medicina Tropical do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Fundação de Medicina Tropical do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\FMT_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\FMT_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\FMT |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/FMT_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/FMT_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/FMT |
 
 ## Documentos Faltantes (5)
 
@@ -50,7 +50,7 @@
 
 ### Tipo: `valor_aberto_vs_db_faturas`
 - **profile:** 37113.10
-- **db_faturas:** 23228.19
-- **delta:** 13884.91
+- **db_faturas:** 23228.190000000002
+- **delta:** 13884.909999999998
 - **pct:** 37.4%
 

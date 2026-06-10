@@ -2175,7 +2175,7 @@
   "stats": {
     "empenhos": {
       "qtd": 224,
-      "valor_total": 1075170.85,
+      "valor_total": 1075170.8499999992,
       "por_ano": {
         "2020": {
           "qtd": 27,
@@ -2233,7 +2233,7 @@
     },
     "faturas": {
       "qtd": 13,
-      "valor_total": 19802.66
+      "valor_total": 19802.659999999996
     },
     "cobrancas": {
       "qtd": 13,

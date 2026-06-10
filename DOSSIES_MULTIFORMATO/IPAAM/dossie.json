@@ -2412,7 +2412,7 @@
   "stats": {
     "empenhos": {
       "qtd": 235,
-      "valor_total": 9934556.14,
+      "valor_total": 9934556.139999995,
       "por_ano": {
         "2024": {
           "qtd": 35,
@@ -2470,7 +2470,7 @@
     },
     "faturas": {
       "qtd": 19,
-      "valor_total": 233596.95
+      "valor_total": 233596.94999999998
     },
     "cobrancas": {
       "qtd": 19,

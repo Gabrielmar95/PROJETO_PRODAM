@@ -2566,7 +2566,7 @@
   "stats": {
     "empenhos": {
       "qtd": 298,
-      "valor_total": 3296503.19,
+      "valor_total": 3296503.1900000037,
       "por_ano": {
         "2016": {
           "qtd": 29,
@@ -2624,7 +2624,7 @@
     },
     "faturas": {
       "qtd": 3,
-      "valor_total": 38581.46
+      "valor_total": 38581.46000000001
     },
     "cobrancas": {
       "qtd": 3,

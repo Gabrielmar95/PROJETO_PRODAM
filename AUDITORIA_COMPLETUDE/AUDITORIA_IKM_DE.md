@@ -1,5 +1,5 @@
 # Auditoria de Completude — IKM DE
-**IKM DE** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
+**IKM DE** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
 
 ## Score de Completude: **18.2%**
 
@@ -36,7 +36,7 @@
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
 | Pasta Consolidado | *(AUSENTE)* |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\IKM DE |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/IKM DE |
 
 ## Documentos Faltantes (9)
 

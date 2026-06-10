@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEAS
-**Secretaria de Assuntos Estratégicos** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**Secretaria de Assuntos Estratégicos** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEAS_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEAS_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\SEAS |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEAS_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEAS_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SEAS |
 
 ## Documentos Faltantes (5)
 
@@ -50,8 +50,8 @@
 
 ### Tipo: `valor_aberto_vs_db_faturas`
 - **profile:** 362026.30
-- **db_faturas:** 219783.61000000002
-- **delta:** 142242.68999999998
+- **db_faturas:** 219783.61000000004
+- **delta:** 142242.68999999996
 - **pct:** 39.3%
 
 ### Tipo: `faturas_aberto_qtd_profile_vs_db`

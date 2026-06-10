@@ -1,5 +1,5 @@
 # Auditoria de Completude — ADS
-**Agência de Desenvolvimento Sustentável do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Agência de Desenvolvimento Sustentável do Amazonas** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **45.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\ADS_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\ADS_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\ADS |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/ADS_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/ADS_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/ADS |
 
 ## Documentos Faltantes (6)
 

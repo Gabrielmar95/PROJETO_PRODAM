@@ -8,9 +8,9 @@
     "val_exig": "4553230.799761455",
     "val_orig": "12532319.37999999",
     "val_atualizado": "29034062.62695501",
-    "faturas_total": 196,
-    "faturas_prescritas": 115,
-    "faturas_exigiveis": 81,
+    "faturas_total": 181,
+    "faturas_prescritas": 114,
+    "faturas_exigiveis": 66,
     "indice_correcao": "SELIC",
     "juros_mora": "Conforme SELIC",
     "multa": "1%",
@@ -18,7 +18,7 @@
     "regime_execucao": "precatorio_rpv",
     "titulo_executivo": true,
     "status": "Petição pronta",
-    "observacoes": "Marcos interruptivos expiram jul-nov/2026",
+    "observacoes": "8 faturas D+49-172 (mini-CTs 190-319/2021, R$6.653, zero NEs). 58 faturas CT 48/2021 seguras até 2028+. Petição em _DOCUMENTOS_JURIDICOS/.",
     "forca_probatoria": "FORTE",
     "modelo_notificacao": "A",
     "reconhecimento_revisado": {
@@ -56,7 +56,7 @@
     "cenario_monte_carlo_p50": "2842732.92",
     "valor_recuperado": "0",
     "data_protocolo": null,
-    "data_prescricao_proxima": "2026-03-01",
+    "data_prescricao_proxima": "2026-06-30",
     "prioridade_rank": 4,
     "blindagem_resultado": {
       "data": "2026-03-27",
@@ -677,8 +677,9 @@
       "cobertura_juridica": "COMPLETA",
       "pronto_para_passo9": true
     },
-    "urgencia_prescricao": "PRESCRITA",
-    "d_plus_prescricao": -39,
+    "urgencia_prescricao": "CRITICA",
+    "d_plus_prescricao": 49,
+    "ultima_revisao_prescricao": "2026-05-12",
     "reconciliacao_alerta": {
       "tipo": "DIVERGENCIA_VALOR",
       "csv_val": 10725242.83,
@@ -4293,7 +4294,7 @@
   "stats": {
     "empenhos": {
       "qtd": 218,
-      "valor_total": 136963244.94,
+      "valor_total": 136963244.94000006,
       "por_ano": {
         "2020": {
           "qtd": 14,

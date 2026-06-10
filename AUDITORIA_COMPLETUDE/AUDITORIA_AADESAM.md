@@ -1,5 +1,5 @@
 # Auditoria de Completude — AADESAM
-**Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Agência Amazonense de Desenvolvimento Econômico, Social e Ambiental** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **18.2%**
 
@@ -35,8 +35,8 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\AADESAM_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\AADESAM |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/AADESAM_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/AADESAM |
 
 ## Documentos Faltantes (9)
 

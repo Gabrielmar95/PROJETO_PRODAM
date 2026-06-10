@@ -1,6 +1,6 @@
 # Dossiê Completo — AMAZONPREV
 **Instituto de Previdência do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-05-07 | CNPJ: 04.986.163/0001-46
+Data: 2026-06-09 | CNPJ: 04.986.163/0001-46
 
 ## Visão Executiva
 
@@ -83,4 +83,4 @@ Documentação fraca
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

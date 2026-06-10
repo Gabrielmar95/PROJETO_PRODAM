@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEMA
-**Secretaria de Meio Ambiente** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**Secretaria de Meio Ambiente** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEMA_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEMA_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\SEMA |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEMA_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEMA_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SEMA |
 
 ## Documentos Faltantes (5)
 
@@ -50,7 +50,7 @@
 
 ### Tipo: `valor_aberto_vs_db_faturas`
 - **profile:** 27001.48
-- **db_faturas:** 3919674.15
-- **delta:** 3892672.67
+- **db_faturas:** 3919674.1499999994
+- **delta:** 3892672.6699999994
 - **pct:** 14416.5%
 

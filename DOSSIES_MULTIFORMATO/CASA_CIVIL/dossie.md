@@ -1,6 +1,6 @@
 # Dossiê Completo — CASA CIVIL
 **** | Categoria: **GOV_DIRETA**
-Data: 2026-05-07 | CNPJ: 19.371.471/0001-34
+Data: 2026-06-09 | CNPJ: 19.371.471/0001-34
 
 ## Visão Executiva
 
@@ -82,4 +82,4 @@ Distribuição por ano:
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

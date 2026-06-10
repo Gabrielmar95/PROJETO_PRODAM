@@ -1,6 +1,6 @@
 # Dossiê Completo — FCECON
 **Fundação Centro de Educação Tecnológica do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-05-07 | CNPJ: 34.570.820/0001-30
+Data: 2026-06-09 | CNPJ: 34.570.820/0001-30
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Evidências de reconhecimento
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

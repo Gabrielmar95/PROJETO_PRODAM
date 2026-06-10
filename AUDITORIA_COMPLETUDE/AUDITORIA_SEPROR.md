@@ -1,5 +1,5 @@
 # Auditoria de Completude — SEPROR
-**Secretaria de Produção Rural** | Categoria: **GOV_DIRETA** | Data: 2026-05-07
+**Secretaria de Produção Rural** | Categoria: **GOV_DIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **54.5%**
 
@@ -34,9 +34,9 @@
 
 | Recurso | Caminho |
 |---------|---------|
-| Pasta Dossiê | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEPROR_DOSSIE |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\SEPROR_CONSOLIDADO |
-| SPCF por_devedor | C:\Users\gabri\Desktop\PROJETO_PRODAM\SPCF_EXTRACAO\por_devedor\SEPROR |
+| Pasta Dossiê | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEPROR_DOSSIE |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/SEPROR_CONSOLIDADO |
+| SPCF por_devedor | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/SPCF_EXTRACAO/por_devedor/SEPROR |
 
 ## Documentos Faltantes (5)
 
@@ -50,7 +50,7 @@
 
 ### Tipo: `valor_aberto_vs_db_faturas`
 - **profile:** 56588.49
-- **db_faturas:** 38581.46
-- **delta:** 18007.03
+- **db_faturas:** 38581.46000000001
+- **delta:** 18007.02999999999
 - **pct:** 31.8%
 

@@ -1,6 +1,6 @@
 # Dossiê Completo — FJJA
 **Fundação Juiz de Fora Jorge Almeida (ex-FUNJEAM)** | Categoria: **GOV_INDIRETA**
-Data: 2026-05-07 | CNPJ: CNPJ_PENDENTE
+Data: 2026-06-09 | CNPJ: CNPJ_PENDENTE
 
 ## Visão Executiva
 
@@ -55,4 +55,4 @@ Incluido via SPCF Mar/2026. Alias: FUNJEAM. 4 fat aberto (B2-05 R$20.736,92). Em
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

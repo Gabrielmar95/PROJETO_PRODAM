@@ -1,6 +1,6 @@
 # Dossiê Completo — IPAAM
 **Instituto de Proteção Ambiental do Amazonas** | Categoria: **GOV_INDIRETA**
-Data: 2026-05-07 | CNPJ: 04.624.888/0001-94
+Data: 2026-06-09 | CNPJ: 04.624.888/0001-94
 
 ## Visão Executiva
 
@@ -88,4 +88,4 @@ Evidências de reconhecimento
 - Título executivo: ❌
 
 ---
-_Gerado por `dossie_multiformato_devedor.py` em 2026-05-07_
+_Gerado por `dossie_multiformato_devedor.py` em 2026-06-09_

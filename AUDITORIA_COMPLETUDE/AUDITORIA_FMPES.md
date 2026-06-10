@@ -1,5 +1,5 @@
 # Auditoria de Completude — FMPES
-**Fundação Municipal de Planejamento e Ensino Superior** | Categoria: **GOV_INDIRETA** | Data: 2026-05-07
+**Fundação Municipal de Planejamento e Ensino Superior** | Categoria: **GOV_INDIRETA** | Data: 2026-06-09
 
 ## Score de Completude: **9.1%**
 
@@ -35,7 +35,7 @@
 | Recurso | Caminho |
 |---------|---------|
 | Pasta Dossiê | *(AUSENTE)* |
-| Pasta Consolidado | C:\Users\gabri\Desktop\PROJETO_PRODAM\PRODAM_DOCS\FMPES_CONSOLIDADO |
+| Pasta Consolidado | /sessions/wizardly-affectionate-babbage/mnt/PROJETO_PRODAM/PRODAM_DOCS/FMPES_CONSOLIDADO |
 | SPCF por_devedor | *(AUSENTE)* |
 
 ## Documentos Faltantes (10)

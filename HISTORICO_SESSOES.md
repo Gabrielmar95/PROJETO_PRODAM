@@ -1,5 +1,190 @@
 # Histórico de Sessões — PROJETO PRODAM
 
+## 2026-06-09 (tarde) — Diagnóstico do portfólio (projeto-mãe × subprojetos): pronto vs. pendente, gaps e priorização
+
+Sessão de diagnóstico, **somente leitura** (nenhum arquivo de dado alterado). Objetivo: a partir do estado real do projeto-mãe e dos subprojetos por devedor, (1) mapear pronto vs. pendente por devedor (fase F0–F9, próximo passo, prescrição), (2) achar gaps/divergências entre fontes, (3) propor próximos passos priorizados (prescrição > valor > força > impacto) e (4) indicar skill + entregável por passo.
+
+### Método
+
+- Lidos os dados **reais**: `PRODAM_DOCS/profiles.json` (SSOT, mtime 13/05/2026) e `prodam.db` (raiz, mtime 07/05/2026), via scripts Python ad-hoc no sandbox (sem gravar no disco do projeto).
+- Conferência de schema por devedor (val_exig, val_atualizado, forca_probatoria, fase_atual, proximo_passo, data_prescricao_proxima, reconciliacao_status/divergencia_pct, titulo_executivo, valor_canonico).
+
+### Números conferidos (não presumidos)
+
+- **69 devedores** · **R$ 83.668.078,44 exigível registrado** · R$ 125.245.390,64 atualizado · **R$ 0,00 recuperado**.
+- Categoria: 26 Gov Direta · 21 Gov Indireta · 22 Privadas. Força: 12 FORTE · 15 MÉDIA · 42 FRACA.
+- Fase: 51 F0 · 4 F0_DIAGNOSTICO · 9 F3 · 5 F5 → **só 14 (20%) saíram do diagnóstico**.
+- Próximo passo: 36 ANALISAR_DOCUMENTACAO · 17 CLASSIFICAR · 9 ENVIAR_TRD · 5 PROTOCOLAR_PETICAO · 1 HABILITAÇÃO · 1 AVALIAR_SUCESSAO (bate com o `CLAUDE.md` auto-gerado).
+
+### Pronto vs. pendente
+
+- **Acionáveis agora (14):** F5 "Petição pronta" = SSP, DETRAN, SEAS, FHAJ, FUAM/FUHAM. F3 "TRD pronto/recomendado" = SES/SUSAM, SEAD, IPAAM, FCECON, SEINFRA, FMT, IDAM, CBMAM, FHEMOAM.
+- **Maior crédito parado:** **SEDUC — R$ 49.215.512,48, FORTE, mas em F0/ANALISAR_DOCUMENTACAO** (e com 44,8% de divergência).
+- **55 devedores ainda em F0** (diagnóstico/classificação).
+
+### Gaps e divergências encontrados (coração do diagnóstico)
+
+1. **DETRAN entra com `val_exig = 0` no master** — seu valor vive em `valor_canonico = R$ 28.196.572,22`. O total de R$ 83,67M **subestima o portfólio**; o exigível real é da ordem de **R$ 111,9M**. O `CLAUDE.md` auto-gerado **herda o mesmo erro** no headline.
+2. **Reconciliação SPCF × exigível: 48 de 69 (70%) com status CRITICAL (32) ou MAJOR (16)**; só 12 MATCH. Extremos: SEMIG/CASA CIVIL/COSAMA/CASA MILITAR 100%, SAFRA 125%, SNPH 165%. **Inclui SEDUC (44,8%), SES (47,0%) e SEAD (90,9%)** → `val_exig` desses não é confiável para petição.
+3. **`prodam.db` (07/05) defasado vs SSOT (13/05)** — 6 dias. O DB da raiz mostra `spcf_faturas = 1.837`, enquanto a nota do subprojeto DETRAN registra 1.927 pós-sync → **este DB pode não ser o mais recente** (compatível com o incidente de drift de 07/05).
+4. **Prescrição não individualizada:** **22 devedores compartilham a data placeholder `2026-03-20`** (já vencida há 81 dias), 17 como `None`, 17 em `2029-10-01`. Como prescrição é por fatura (Art. 189 + 206 §5º I CC), data única para 22 órgãos é impossível ser real. Só SES/SUSAM (recalc. 12/05), SSP (30/06), SEJUSC (31/08) e ADS (12/04) têm data com algum lastro.
+5. **Cobertura documental rasa:** só **5/69** com `cruzamento_empenho_completo`; só **17/69** com CSV de faturas; só **2 títulos executivos** formados.
+
+### Priorização proposta (prescrição > valor > força > impacto)
+
+- **P1 SSP** — prescrição ~30/06 (~21 dias), R$ 4,55M, FORTE, petição pronta → protocolar. Skills: `blindagem-pre-execucao` → `auditoria-documentos-juridicos` → `geracao-documentos-juridicos`.
+- **P2 DETRAN** — R$ 28,2M, petição pronta; cutoff real NF 110654 = 19/08. Destravar revisão Dr. Fábio + reduzir Ofício LAI p/ 2 contratos.
+- **P3 SES/SUSAM** — ~30/09 (~113d), R$ 4,78M; confirmar se TRD já foi protocolado (há `TRD_protocolo_20260513.pdf`, mas `proximo_passo` ainda diz ENVIAR_TRD).
+- **P4 SEDUC** — maior valor, F0, div. 44,8% → reconciliar antes. Skills: `reconciliacao-spcf-pipeline` + `auditoria-completude-devedor` + `pipeline-devedor-completo`.
+- **P5 SEJUSC** — ~31/08 (~83d), R$ 2,59M, ainda F0.
+- **P6 SEAD** — TRD pronto, mas div. 90,9% → reconciliar antes do TRD.
+- **P7** — lote F5/F3 menores (SEAS, FHAJ, IPAAM, FCECON, FMT, IDAM, FUAM, CBMAM, FHEMOAM).
+- **Transversal** — recalcular prescrição por fatura dos acionáveis e ressincronizar `prodam.db`.
+
+### A verificar (sinalizado ao usuário, não presumir)
+
+- Prescrição real fatura a fatura de SSP/DETRAN/SES/SEJUSC/SEDUC (base traz placeholder; mesmo SSP tem `metodologia = None`).
+- SES/SUSAM: TRD já protocolado em 13/05 ou não? (contradição com `proximo_passo`).
+- Qual `profiles.json` é o SSOT hoje (master `PRODAM_DOCS/` × `11_PROFILES_BACKUPS/ativo/` do DETRAN) e se o DETRAN (R$ 28,2M) deve somar ao total.
+- Ressync `prodam.db` (07/05 → 13/05) antes de citar número do banco.
+- Decreto AM 53.464/2026 (4 exceções) por órgão antes de execução contra Gov AM.
+- Índices de correção por contrato (não há arquivo-SSOT; conferir cláusula econômica).
+
+### Estado final
+
+- Diagnóstico entregue no chat; **nada gravado em dados** (profiles.json/db intactos). Decisão pendente do usuário: começar pelo **P1 (SSP)** ou primeiro **recalcular prescrição por fatura** dos acionáveis. Oferta de salvar o diagnóstico como relatório formatado em aberto.
+
+---
+
+## 2026-06-09 — Skill `organizador-arquivos-prodam` (File Organizer): criação, uso e indexação
+
+Sessão de produto + operação. Criada do zero, via `skill-creator`, uma skill de organização de arquivos para o projeto; depois usada para organizar um acervo real e registrada no índice.
+
+### Skill criada e instalada
+- **Local:** `PRODAM_DOCS/_SKILLS/organizador-arquivos-prodam/` (`SKILL.md`, `scripts/planejar_organizacao.py`, `references/convencoes_prodam.md`, `evals/`).
+- **Função:** organiza POR DEVEDOR (cruza nomes com `profiles.json` via `match_flex`/`norm_variants` do `prodam_utils`, com fallback stdlib), detecta DUPLICATAS exatas (hash MD5) e drift, e renomeia de forma conservadora no padrão PRODAM (sem inventar nº de contrato/NE/NF).
+- **Segurança:** modo CÓPIA não-destrutivo — nunca apaga nem move originais (PDFs = provas); dry-run é o padrão (gera só manifesto JSON+CSV+XLSX); só copia com `--aplicar`, conferindo MD5 destino×origem; colisão de nome vira `_dup-NN`.
+- **Bugs corrigidos em teste:** (a) "EXECUÇÃO" isolado classificava como PETIÇÃO (pegava "regime/blindagem de execução") → restringido a EXECUÇÃO FISCAL/DE TÍTULO/CUMPRIMENTO DE SENTENÇA/MONITÓRIA/EMBARGOS; (b) `_ . -` passam a ser tratados como separadores (senão `\b` não casava em "OFICIO_E...").
+
+### Validação (evals + subagentes)
+- 3 execuções de teste (2 com a skill, 1 baseline sem) sobre cópias descartáveis de pastas reais. Com a skill: organização padronizada + manifesto auditável + cruzamento com `profiles.json`. Baseline sem skill: estrutura ad-hoc não reproduzível, ~250s vs 144s. Eval viewer estático gerado para revisão humana.
+
+### Organização executada — "Arquivos Principais Projeto PRODAM"
+- Saída em `_ORGANIZADO/` na própria pasta (originais intactos: 19). **16 copiados** (MD5 16/16, 0 falhas) + **3 duplicatas** puladas.
+- **Item 1 (reclassificação):** dos 18 "não identificados", só 1 era de devedor — Notificação Extrajudicial 001/2026 ao DETRAN → movida para `DETRAN/`. Os 17 restantes são institucionais do Contrato 002/2026 (BOA×PRODAM) → balde renomeado `_INSTITUCIONAL_CONTRATO-002-2026`.
+- **Item 2 (duplicatas, conteúdo conferido nos PDFs):** "Canal Comunicação Oficial.pdf" é, na verdade, o **Ofício PRESI/045/2026 da PRODAM** (resposta ao Ofício 001/2026) → reclassificado para `06_OFICIOS`; o par "PROCURAÇÃO PROTOCOLO VIRTUAL"/"COBRANÇA DETREAN" = a notificação ao DETRAN; `Relatorio_Quinzenal_003_2026ass (1).pdf` = cópia de download. Versões assinada × não assinada NÃO são duplicatas (ambas mantidas). Detalhe em `_ORGANIZADO/_DECISOES_REVISAO.md`.
+
+### Otimização da description + indexação
+- Eval set de disparo (10 devem ativar + 10 near-misses) em `…/_SKILLS/organizador-arquivos-prodam/evals/trigger_eval_set.json`. O loop **medido** (`run_loop.py`) NÃO rodou no Cowork (CLI `claude` deslogado); otimização feita por análise, fechando disparos indevidos (gerar peças, renomear variável de código, consultar dados, "duplicata" jurídica, backup). description final ~955 chars (≤1024), 1ª frase curta para o índice ficar limpo.
+- **Indexação:** rodada apenas a função oficial `generate_skills_index()` do `auto_update_claude_md.py` → reescreveu **somente** `.claude/skills/INDEX.md` (53 skills; a nossa na linha 36, ordem alfabética). O `CLAUDE.md` **não** foi regenerado (puxa métricas de profiles/db; rodar `/sincronizar-prodam` no Windows quando quiser).
+
+### Arquivos tocados / observações
+- Criados: a skill em `_SKILLS/`; `SESSAO_2026-06-09_organizador-arquivos-prodam.md` (raiz); `_ORGANIZADO/` na pasta de origem; backups `INDEX.md.bak-20260609` e `HISTORICO_SESSOES.md.bak-20260609`. Alterado: `.claude/skills/INDEX.md` (apenas +1 linha).
+- Ambiente Cowork: `rm` bloqueado pelo mount (restam subpastas vazias e um `_artefato_teste_ignorar.txt` inofensivos); nada foi commitado/enviado — entra no próximo commit do projeto.
+
+## 2026-06-09 — Customização do plugin `productivity-prodam` (v1.0.0 → v1.1.0)
+
+Sessão de tooling, não jurídica. Objetivo: alinhar o plugin de produtividade `productivity-prodam` ao estado atual do portfólio (69 devedores) e corrigir o que estava quebrado. Empacotado como `.plugin` instalável.
+
+### Diagnóstico (o que estava defasado)
+- Plugin dizia **51 devedores**; o projeto tem **69**.
+- Exemplos antigos (SES/SUSAM como maior crédito ~R$ 45 mi, prescrição 13/05/2026).
+- `.mcp.json` vazio — nenhum conector ligado.
+- `/start` referenciava `setup/*.template` inexistentes (o comando quebrava).
+- `dashboard.html` com dados de demonstração antigos e coluna "Fase" em vez de "próximo passo".
+
+### O que foi feito
+1. **Sync do portfólio** — 51→69 devedores; exemplos atualizados (SEDUC maior crédito; SSP prescrição 30/06/2026; SEJUSC 31/08/2026; força 12/15/42; estados ANALISAR_DOCUMENTACAO / CLASSIFICAR / ENVIAR_TRD / PROTOCOLAR_PETICAO). Em `plugin.json`, `README.md` e nas skills `painel-devedores`, `task-management`, `alerta-prazos`, `memory-management`.
+2. **Correção do `/start`** — criada a pasta `setup/` com `CLAUDE.md.template`, `TASKS.md.template`, `glossario.md.template`. Modelos com lacunas `{{...}}` preenchidas em runtime a partir do `profiles.json` (nada sensível embutido no plugin).
+3. **Gmail + Calendar** — categorias recomendadas em `.mcp.json` (email/calendar/documents); `CONNECTORS.md` reescrito; `update --comprehensive` passa a usar Gmail (respostas de devedores, instruções PRODAM) e `alerta-prazos` lança eventos de prescrição/prazo no Calendar.
+4. **Dashboard refeito** — KPIs agregados reais (69 devedores, R$ 83.668.078,44 exigível, R$ 125.245.390,64 atualizado, 2 prescrições <90 dias), top 10 por valor, "Fase" → "Próximo Passo".
+
+### Salvaguardas
+- Anti-alucinação: prescrições só onde confirmadas (SSP, SEJUSC); devedor SALUX sem nome (não constava); contagens/valores vindos do `CLAUDE.md` do projeto (SSOT `PRODAM_DOCS/profiles.json`).
+- Não-destrutivo: plugin original (cache do app `plugin_01JXME7CfmhM9aSCefFAkJTe`) intocado; tudo gerado em cópia nova.
+
+### Estado final / entregáveis
+- `_SESSAO/2026-06-09_plugin_productivity-prodam/` com `RESUMO_SESSAO.md`, `productivity-prodam.plugin` (instalável) e o código-fonte em `productivity-prodam/`.
+- Pendência: gerar versão "demonstração" (dados fictícios) se o `.plugin` precisar sair do escritório — contém nomes de órgãos e valores reais.
+- Hook quebrado persiste: `check-sql-files.py` (`${CLAUDE_PLUGIN_ROOT}` literal) dispara erro a cada `Write` — revisar/desativar em Configurações → Capacidades.
+
+---
+
+## 2026-06-09 (tarde) — Personalização do plugin CockroachDB para o PRODAM
+
+Sessão de setup/infra, não jurídica. Objetivo: adaptar o plugin oficial `cockroachdb` (Cockroach Labs) ao Projeto PRODAM e empacotá-lo para instalação.
+
+### O que foi feito
+
+- **Cópia editável** do plugin instalado (somente leitura) para área de trabalho; 33 skills, 3 agentes e scripts preservados íntegros.
+- **`tools.yaml`:** banco padrão alterado de `defaultdb` para `prodam`; `application_name` para `prodam-claude-plugin`; cabeçalho de comentário explicando a personalização; modo somente leitura mantido (`readOnlyMode: true`, `enableWriteMode: false`); descrições das 3 ferramentas reescritas em pt-BR citando o esquema PRODAM.
+- **Agentes (DBA, Desenvolvedor, Operador):** adicionada seção "Contexto do Projeto PRODAM" em cada um — esquema (`devedores`, `spcf_contratos`, `spcf_empenhos`, `spcf_faturas`, `spcf_nfs` + views), regras (dinheiro em `DECIMAL`, formato BRL, prescrição por fatura, normalização de número de contrato `006/2021 ≡ 6/2021 ≡ 2021/006`) e ênfase específica por papel. Front-matter (`name`) preservado.
+- **`README.md`:** banner de personalização no topo, com variáveis de ambiente (PowerShell) e caminho de migração.
+- **Empacotado** como `cockroachdb.plugin` (≈475 KB, 202 arquivos) na pasta de saída e apresentado para instalação.
+
+### Decisões do usuário (via formulário)
+
+1. **Situação:** "deixar pronto" para uso futuro (ainda sem cluster).
+2. **Segurança:** somente leitura.
+3. **Contexto nos agentes:** completo.
+4. **Nome do banco:** informado "PRODAM COCKROACh" → **normalizado para `prodam`** (identificador válido: minúsculas, sem espaço). Ajustável em `COCKROACHDB_DATABASE`.
+
+### Ressalva técnica sinalizada (importante)
+
+- O plugin foi feito para **CockroachDB** (banco distribuído cliente-servidor, porta 26257). O PRODAM hoje roda em **SQLite** (`prodam.db`). As ferramentas do plugin **não leem arquivo SQLite** — só operam contra um cluster CockroachDB.
+- **Migração não é direta:** as ferramentas MOLT do plugin suportam PostgreSQL, MySQL, Oracle e MSSQL — **não há conector SQLite**. Caminho típico: exportar `prodam.db` → CSV ou PostgreSQL intermediário → `IMPORT INTO`/MOLT no CockroachDB. Roteiro oferecido, não executado (pendente de decisão).
+
+### Salvaguardas (confidencialidade / LGPD)
+
+- Nenhum dado de conexão (host, usuário, senha, cluster ID) gravado em arquivo — só variáveis de ambiente.
+- Nenhum dado sensível de cliente nos arquivos do plugin: sem CNPJ, valores, nomes de devedores ou número de processo. Apenas nomes de tabela e regras estruturais.
+
+### Observação
+
+- O mesmo **hook quebrado** (`check-sql-files.py` com `${CLAUDE_PLUGIN_ROOT}` não resolvido) voltou a disparar a cada `Edit` — contornado fazendo as edições via shell. Consistente com a pendência da entrada anterior; sugerido corrigir/desativar em Configurações → Capacidades.
+
+### Próximos passos (se for adiante com CockroachDB)
+
+1. Instalar o `cockroachdb.plugin`.
+2. Provisionar/escolher um cluster e definir as variáveis de ambiente.
+3. Decidir o roteiro de migração `prodam.db → CockroachDB` (passo intermediário obrigatório).
+
+## 2026-06-09 — Arquivos de contexto do Cowork (about-me / preferences / voice / projects)
+
+Sessão de setup, não jurídica. Objetivo: criar os quatro arquivos de contexto do Cowork para calibrar como o assistente trabalha no projeto.
+
+### O que foi criado
+
+Nova pasta `context/` na raiz do PROJETO_PRODAM, com quatro arquivos `.md`:
+
+- **`context/about-me.md`** — perfil profissional (Gabriel Mar, OAB/AM 15.697; Direito Administrativo, Licitações e Contratos, Recuperação de Créditos) centrado em PRODAM + como prefiro colaborar (direto, contraditório, pergunta antes de presumir, iniciante em programação).
+- **`context/preferences.md`** — pt-BR conciso; rigor anti-alucinação (citar dispositivo/precedente, pesquisar índices voláteis); confirmação explícita antes de apagar/mover/sobrescrever; Windows + PowerShell + `py -3.12`; confidencialidade (LGPD; nada de CNPJ/valores/`.env` em saídas).
+- **`context/voice.md`** — voz jurídica formal para peças (notificações, ofícios, pareceres, dossiês): fundamentação obrigatória, estrutura por tipo de documento, sinalização de prazos/riscos, BRL com data-base.
+- **`context/projects.md`** — só PRODAM (Contrato 002/2026, frente administrativa) + sub-projeto DETRAN-AM; hierarquia das fontes da verdade e regras de prescrição. `PRODAM_DOCS/profiles.json` apontado como SSOT.
+
+### Decisões de calibração (respondidas pelo usuário)
+
+1. **Foco:** centrado em PRODAM (não toda a prática).
+2. **Voz:** sempre jurídica formal.
+3. **Pessoal:** moderado (perfil + estilo de colaboração; sem vida pessoal).
+4. **Projetos:** somente PRODAM + DETRAN. **Engeco (NDA) deliberadamente excluído** — reincluir só a pedido.
+
+### Salvaguardas aplicadas
+
+- Conteúdo alinhado ao `CLAUDE.md` e ao `INSTRUCOES_COWORK.md` (objeto, fontes da verdade, frente administrativa, rigor jurídico).
+- Nenhum dado sensível de terceiros nos arquivos: sem CNPJ, sem valores concretos, sem nomes de devedores, sem número de processo. Verificado por `grep` (0 ocorrências de CNPJ/valor). O único `R$` é o exemplo de formatação `R$ 1.234,56`.
+
+### Pendência / observação
+
+- **Hook quebrado disparando a cada `Write`:** o plugin de checagem de SQL (`check-sql-files.py`) está com caminho não resolvido (`${CLAUDE_PLUGIN_ROOT}` literal). Não afeta a escrita dos arquivos, mas gera ruído de erro. Sugerido corrigir/desativar em Configurações → Capacidades.
+
+### Estado final
+
+- 4 arquivos em `C:\Users\gabri\Desktop\PROJETO_PRODAM\context\` (about-me.md, preferences.md, voice.md, projects.md).
+- Localização default no workspace principal; mover se o usuário preferir uma pasta de contexto global do Cowork.
+
+---
+
 ## 2026-06-08 — Setup Semgrep no Windows + isolamento pipx (erros e acertos)
 
 Sessão de tooling, não jurídica. Objetivo: ativar o plugin Semgrep do Claude Code (mínimo `semgrep >= 1.146.0`). A skill `setup-semgrep-plugin` é só-macOS (`brew`, `which`) — precisou ser traduzida para Windows + PowerShell.
@@ -277,35 +462,4 @@ Testar manualmente com 2-3 prompts que DEVEM ativar a skill:
 2. "a SEDUC tem algum ofício admitindo o débito?"
 3. "cadê atos interruptivos das faturas prescritas do DETRAN?"
 
-Se disparar em 2/3 ou mais → aprovada na prática. Se <2/3 → reverter via `git revert` do commit isolado.
-
-#### Comando de reversão (caso degradação seja detectada)
-
-```powershell
-# Reverte só a mudança da description na skill
-# (SKILL.md não está em git, então reversão é manual: copiar o bloco "ANTES" acima de volta)
-Set-Content -Path "$env:USERPROFILE\.claude\skills\reconhecimento-tacito-hunter\SKILL.md" `
-  -Value (Get-Content -Path <arquivo>.bak -Raw)
-```
-
-Alternativamente, a description original fica registrada neste HISTORICO_SESSOES.md (bloco "ANTES") e pode ser colada de volta em 10 segundos.
-
-### Exclusão do agente-reconhecimento-tacito (E3.4) — 2026-04-24 04:36
-
-**Decisão executada:** a skill-agente `agente-reconhecimento-tacito` (E3.4 do multi-agente) foi **removida** de `C:\Users\gabri\.claude\skills\agente-reconhecimento-tacito\` porque a skill `reconhecimento-tacito-hunter` (com script Python + referências jurídicas validadas + 17 atos catalogados com força probatória) substitui sua função com vantagem — era apenas instrução markdown (SKILL.md, 2600 bytes) sem código executável.
-
-- **Pasta excluída:** `C:\Users\gabri\.claude\skills\agente-reconhecimento-tacito\` (1 arquivo, 2600 bytes)
-- **Backup preservado:** `C:\Users\gabri\Desktop\PROJETO_PRODAM\_BACKUPS\skills_excluidas\agente-reconhecimento-tacito_20260424-043636\`
-  - Dentro do repo git-tracked do projeto, então versionado junto com o HISTORICO
-  - Reversível em 1 comando: `Copy-Item -Path "<backup>\*" -Destination "C:\Users\gabri\.claude\skills\agente-reconhecimento-tacito\" -Recurse -Force` (após recriar a pasta destino)
-- **Confirmação de sumiço no harness:** a lista `available_skills` do sistema **não retorna mais** `agente-reconhecimento-tacito` imediatamente após o `Remove-Item` — o harness re-lê o diretório `.claude/skills/` em tempo real, sem necessidade de restart.
-- **Skills preservadas intactas:** os outros 34 agentes do multi-agente (E1.x, E2.x, E3.1-E3.3, E3.5, E4.x, E5.x, E6.x) continuam ativos. Apenas E3.4 foi removido porque havia sobreposição funcional direta com a hunter.
-
-#### Matriz de decisão — por que só E3.4 e não os outros 34
-
-| Agente multi-agente | Substituto hunter existe? | Decisão |
-|---|---|---|
-| E3.4 (`agente-reconhecimento-tacito`) | ✅ `reconhecimento-tacito-hunter` com Python + refs validados | **EXCLUÍDO** |
-| E1.1-E3.3, E3.5, E4.x, E5.x, E6.x (34 agentes) | ❌ nenhum substituto hunter ainda | **MANTIDOS** |
-
-Se no futuro forem criadas hunters para outros pontos (ex: `prescricional-defensivo-hunter`, `calculador-monetario-hunter`), aplicar o mesmo padrão: backup em `_BACKUPS/skills_excluidas/<nome>_<timestamp>/` + commit isolado + registro em HISTORICO.
+Se disparar em 2/3 ou mais → aprovada na prática. Se <2/

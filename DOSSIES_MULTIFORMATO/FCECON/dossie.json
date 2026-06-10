@@ -3469,7 +3469,7 @@
   "stats": {
     "empenhos": {
       "qtd": 386,
-      "valor_total": 2844079.07,
+      "valor_total": 2844079.0699999994,
       "por_ano": {
         "2022": {
           "qtd": 22,
@@ -3527,7 +3527,7 @@
     },
     "faturas": {
       "qtd": 11,
-      "valor_total": 68362.95
+      "valor_total": 68362.94999999998
     },
     "cobrancas": {
       "qtd": 11,

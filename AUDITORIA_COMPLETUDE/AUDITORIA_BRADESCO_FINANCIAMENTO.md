@@ -1,5 +1,5 @@
 # Auditoria de Completude — BRADESCO FINANCIAMENTO
-**Banco Bradesco Financiamentos S.A.** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-05-07
+**Banco Bradesco Financiamentos S.A.** | Categoria: **EMPRESA_PRIVADA** | Data: 2026-06-09
 
 ## Score de Completude: **9.1%**
 
