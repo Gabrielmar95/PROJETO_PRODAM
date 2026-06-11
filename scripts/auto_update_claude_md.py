@@ -114,7 +114,10 @@ def _query_db_counts():
             parts = []
             for (name,) in tables:
                 try:
-                    n = conn.execute(f'SELECT COUNT(*) FROM "{name}"').fetchone()[0]
+                    # FP SQL-injection: `name` vem do próprio sqlite_master local
+                    # (filtrado por NOT LIKE 'sqlite_%'), não de input externo.
+                    # SQLite não permite parametrizar identificador de tabela.
+                    n = conn.execute(f'SELECT COUNT(*) FROM "{name}"').fetchone()[0]  # nosemgrep
                     parts.append(f"{name} ({n:,})".replace(",", "."))
                 except sqlite3.Error:
                     parts.append(f"{name} (?)")
@@ -347,6 +350,21 @@ def compute_metrics(data):
 TOP_N = 5  # top-N do CLAUDE.md (lista completa fica no STATUS_DEVEDORES.md)
 
 
+def _sobra_chaves(contagem: dict, conhecidas: set) -> str:
+    """Aviso p/ chaves fora do conjunto esperado (categoria/força nova ou 'N/A').
+
+    Sem isto, um devedor com categoria/força inesperada some do agregado da
+    Seção 2 (a linha só somava GOV_DIRETA/GOV_INDIRETA/EMPRESA_PRIVADA e
+    FORTE/MÉDIA/FRACA via .get() — qualquer outra chave era descartada em
+    silêncio e a soma não batia com o total). Achado de auditoria 2026-06-09."""
+    resto = {k: v for k, v in contagem.items() if k not in conhecidas}
+    n = sum(resto.values())
+    if not n:
+        return ""
+    det = ", ".join(f"{k}={v}" for k, v in sorted(resto.items(), key=lambda x: (-x[1], x[0])))
+    return f" ⚠️ +{n} em chave inesperada ({det}) — revisar `profiles.json`"
+
+
 def generate_claude_md(m):
     """CLAUDE.md raiz enxuto.
 
@@ -390,12 +408,14 @@ def generate_claude_md(m):
 
     # ============ 2. STATUS DO PORTFÓLIO ============
     L.append("## 2. STATUS DO PORTFÓLIO")
-    L.append(f"- **{m['total']} devedores** ({m['categorias'].get('GOV_DIRETA',0)} Gov Direta, {m['categorias'].get('GOV_INDIRETA',0)} Gov Indireta, {m['categorias'].get('EMPRESA_PRIVADA',0)} Privadas)")
+    cat_sobra = _sobra_chaves(m["categorias"], {"GOV_DIRETA", "GOV_INDIRETA", "EMPRESA_PRIVADA"})
+    L.append(f"- **{m['total']} devedores** ({m['categorias'].get('GOV_DIRETA',0)} Gov Direta, {m['categorias'].get('GOV_INDIRETA',0)} Gov Indireta, {m['categorias'].get('EMPRESA_PRIVADA',0)} Privadas){cat_sobra}")
     L.append(f"- **{fmt_brl(m['val_exig'])} exigível** | {fmt_brl(m['val_atualizado'])} atualizado ({m['n_val_atualizado']}/{m['total']} com valor atualizado)")
     gap_txt = (f", {m['faturas_gap_total']} fora do universo exig./presc. — canceladas/excluídas, ver STATUS"
                if m["faturas_gap_total"] else "")
     L.append(f"- **{m['faturas_total']} faturas** ({m['faturas_exig']} exigíveis, {m['faturas_presc']} prescritas{gap_txt})")
-    L.append(f"- **Força**: {m['forcas'].get('FORTE',0)} FORTE · {m['forcas'].get('MÉDIA',0)} MÉDIA · {m['forcas'].get('FRACA',0)} FRACA")
+    forca_sobra = _sobra_chaves(m["forcas"], {"FORTE", "MÉDIA", "FRACA"})
+    L.append(f"- **Força**: {m['forcas'].get('FORTE',0)} FORTE · {m['forcas'].get('MÉDIA',0)} MÉDIA · {m['forcas'].get('FRACA',0)} FRACA{forca_sobra}")
     L.append("")
     # tie-break por nome garante output idêntico entre execuções (idempotência)
     L.append("**Pipeline (próximo passo)**: " + " · ".join(f"{pp}={c}" for pp, c in sorted(m["proximos"].items(), key=lambda x: (-x[1], x[0]))))
@@ -547,8 +567,12 @@ def generate_claude_md(m):
 
 def generate_status_devedores(m):
     """STATUS_DEVEDORES.md — todos os 69 devedores ordenados por valor exigível,
-    + prescrições vencidas/stale (nominal), devedores sem data, contagens vivas do DB.
-    Colunas: sigla, exigível, atualizado, força, próximo_passo, dias_prescrição, fase."""
+    + priorização analítica (score/E[V]/P.rec), prescrições vencidas/stale (nominal),
+    devedores sem data, contagens vivas do DB.
+    Colunas tabela principal: sigla, exigível, atualizado, força, próximo_passo,
+    dias_prescrição, fase. Seção analítica expõe campos ricos do profiles.json
+    (score_composto, prioridade_rank, ev_valor_esperado, p_recuperacao) antes
+    nunca espelhados em nenhum .md — achado de auditoria 2026-06-09."""
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
     L = []
     L.append("# Status dos Devedores — PROJETO PRODAM")
@@ -578,6 +602,34 @@ def generate_status_devedores(m):
     for fase, count in sorted(m["fase_counts"].items(), key=lambda x: (-x[1], x[0])):
         L.append(f"| {fase} | {count} |")
     L.append("")
+
+    # ====== Priorização analítica (achado 2026-06-09): expõe campos ricos do
+    # profiles.json que NENHUM .md espelhava — score_composto (62/69),
+    # prioridade_rank/ev_valor_esperado/p_recuperacao (51/69). Só devedores com
+    # prioridade_rank preenchido entram (evita 18 linhas de "—"). ======
+    rankeados = [it for it in m["all_items"] if it[4].get("prioridade_rank") is not None]
+    if rankeados:
+        rankeados.sort(key=lambda it: (it[4].get("prioridade_rank"), it[0]))
+        L.append("## Priorização analítica (score · E[V] · P.recuperação)")
+        L.append("")
+        L.append(f"{len(rankeados)} devedores com priorização calculada (campos "
+                 "`prioridade_rank`, `score_composto`, `ev_valor_esperado`, `p_recuperacao` "
+                 "do `profiles.json`). Score 0–100 (cadeia documental, prescrição, blindagem, "
+                 "compliance); E[V] = valor esperado ponderado por P(recuperação).")
+        L.append("")
+        L.append("| Rank | Sigla | Score | P.rec | E[V] | Exigível | Urgência |")
+        L.append("|-----:|-------|------:|------:|-----:|---------:|----------|")
+        for sigla, ve, _fp, _pp, d, _dias, _fase in rankeados:
+            sc = d.get("score_composto")
+            sc_txt = "—" if sc is None else f"{float(sc) * 100:.1f}".replace(".", ",")
+            p = d.get("p_recuperacao")
+            p_txt = "—" if p is None else f"{float(p) * 100:.0f}%"
+            ev = d.get("ev_valor_esperado")
+            ev_txt = fmt_brl(brl(ev)) if ev not in (None, "") else "—"
+            urg = (d.get("urgencia_prescricao") or "—").replace("|", "\\|")
+            sigla_s = sigla.replace("|", "\\|")
+            L.append(f"| {d.get('prioridade_rank')} | {sigla_s} | {sc_txt} | {p_txt} | {ev_txt} | {fmt_brl(ve)} | {urg} |")
+        L.append("")
 
     # ====== Prescrições vencidas/stale — lista nominal (CLAUDE.md §3 traz o agregado) ======
     if m["prescricao_vencida"]:

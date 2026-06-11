@@ -43,7 +43,10 @@ EXCLUIR_DIRS = {
     "PRODAM_DOCS",
     "node_modules",
 }
-EXCLUIR_PREFIXOS = ("_ARQUIVO_SESSAO_",)
+# "_ORGANIZADO*": saída da skill organizador-arquivos-prodam (cópias do acervo
+# com manifesto; originais intactos). Docs legados pré-cascata Teori→José Delgado
+# vivem ali como cópias — erro já rastreado em _QUESTOES_CRITICAS, não re-lintar.
+EXCLUIR_PREFIXOS = ("_ARQUIVO_SESSAO_", "_ORGANIZADO")
 EXCLUIR_PATHS = {
     # Pasta com peças sintéticas para o adversarial-meta-auditor — contém
     # furos intencionais (incluindo citação errônea de Teori como relator)

@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-_Atualizado em 10/06/2026 17:45 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 10/06/2026 21:32 via `scripts/auto_update_claude_md.py`._
 
 > Conteúdo regenerado a cada `/sincronizar-prodam`. Para regras fixas → editar o gerador. Para métricas → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\auto_update_claude_md.py`.
 

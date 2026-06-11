@@ -1,5 +1,5 @@
 # Status dos Devedores — PROJETO PRODAM
-_Atualizado em 10/06/2026 17:45 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 10/06/2026 21:32 via `scripts/auto_update_claude_md.py`._
 
 **Total**: 69 devedores · R$ 83.668.078,44 exigível · R$ 125.245.390,64 atualizado (65/69 com valor atualizado).
 
@@ -85,6 +85,64 @@ Ordenação: valor exigível (descendente). Coluna **dias_presc** = dias até a 
 | F3 | 9 |
 | F5 | 5 |
 | F0_DIAGNOSTICO | 4 |
+
+## Priorização analítica (score · E[V] · P.recuperação)
+
+51 devedores com priorização calculada (campos `prioridade_rank`, `score_composto`, `ev_valor_esperado`, `p_recuperacao` do `profiles.json`). Score 0–100 (cadeia documental, prescrição, blindagem, compliance); E[V] = valor esperado ponderado por P(recuperação).
+
+| Rank | Sigla | Score | P.rec | E[V] | Exigível | Urgência |
+|-----:|-------|------:|------:|-----:|---------:|----------|
+| 1 | DETRAN | 93,2 | 95% | R$ 26.786.743,61 | R$ 0,00 | PROTEGIDA_ART202_VI |
+| 2 | SEDUC | 80,0 | 70% | R$ 34.450.858,74 | R$ 49.215.512,48 | PRESCRITA |
+| 3 | SES/SUSAM | 76,6 | 75% | R$ 6.172.546,05 | R$ 4.783.356,52 | MEDIA |
+| 4 | SSP | 84,9 | 93% | R$ 4.234.504,64 | R$ 4.553.230,80 | CRITICA |
+| 5 | SEAD | 63,6 | 70% | R$ 1.637.791,54 | R$ 2.339.702,20 | PRESCRITA |
+| 6 | SEJUSC | 56,9 | 40% | R$ 1.035.864,05 | R$ 2.589.660,12 | MODERADA |
+| 7 | FCECON | 65,3 | 80% | R$ 509.685,34 | R$ 637.106,68 | PRESCRITA |
+| 8 | SEAS | 68,3 | 78% | R$ 507.812,05 | R$ 651.041,09 | NORMAL |
+| 9 | SUHAB | 53,4 | 47% | R$ 394.828,74 | R$ 840.061,15 | PRESCRITA |
+| 10 | AMAZONPREV | 46,5 | 47% | R$ 346.023,30 | R$ 736.219,79 | PRESCRITA |
+| 11 | IPAAM | 52,3 | 52% | R$ 339.216,74 | R$ 652.339,89 | NORMAL |
+| 12 | SEDECTI | 51,3 | 32% | R$ 399.745,00 | R$ 1.249.203,13 | PRESCRITA |
+| 13 | FVS | 59,7 | 75% | R$ 241.029,72 | R$ 321.372,96 | NORMAL |
+| 14 | POLÍCIA CIVIL | 47,0 | 37% | R$ 355.378,23 | R$ 960.481,71 | PRESCRITA |
+| 15 | FHAJ | 61,3 | 83% | R$ 215.725,95 | R$ 259.910,78 | PRESCRITA |
+| 16 | PGE | 48,0 | 37% | R$ 251.688,72 | R$ 680.239,77 | PRESCRITA |
+| 17 | SEINFRA | 55,9 | 45% | R$ 170.834,20 | R$ 379.631,55 | NORMAL |
+| 18 | FAAR/SEDEL | 44,1 | 30% | R$ 220.349,68 | R$ 734.498,94 | PRESCRITA |
+| 19 | FMT | 56,2 | 55% | R$ 149.671,87 | R$ 272.130,68 | PRESCRITA |
+| 20 | BANCO MASTER | 27,0 | 15% | R$ 133.390,63 | R$ 889.270,87 | NORMAL |
+| 21 | FENIXSOFT | 27,0 | 15% | R$ 133.237,50 | R$ 888.250,00 | ATENCAO |
+| 22 | IDAM | 40,2 | 35% | R$ 115.057,43 | R$ 328.735,51 | PRESCRITA |
+| 23 | SEC | 54,1 | 65% | R$ 64.382,96 | R$ 99.050,71 | PRESCRITA |
+| 24 | SECT | 48,5 | 37% | R$ 95.581,57 | R$ 258.328,58 | PRESCRITA |
+| 25 | CAIXA | 26,9 | 15% | R$ 126.649,33 | R$ 844.328,88 | NORMAL |
+| 26 | SEFAZ | 44,4 | 40% | R$ 79.592,19 | R$ 198.980,49 | PRESCRITA |
+| 27 | FUAM/FUHAM | 56,9 | 78% | R$ 34.335,61 | R$ 44.020,01 | PRESCRITA |
+| 28 | PROVER | 26,1 | 15% | R$ 82.365,85 | R$ 549.105,70 | NORMAL |
+| 29 | SEPROR | 46,4 | 40% | R$ 31.184,20 | R$ 77.960,49 | PRESCRITA |
+| 30 | CPA | 24,1 | 15% | R$ 24.874,64 | R$ 165.830,96 | NORMAL |
+| 31 | SEMA | 36,0 | 37% | R$ 14.260,21 | R$ 38.541,11 | PRESCRITA |
+| 32 | ARSEPAM | 35,0 | 30% | R$ 14.885,66 | R$ 49.618,85 | NORMAL |
+| 33 | IKM DE | 23,5 | 15% | R$ 17.439,54 | R$ 116.263,60 | NORMAL |
+| 34 | ANOREG | 23,3 | 15% | R$ 15.340,19 | R$ 102.267,91 | NORMAL |
+| 35 | SNPH | 37,1 | 37% | R$ 9.293,42 | R$ 25.117,34 | NORMAL |
+| 36 | FUNTEA | 32,4 | 30% | R$ 10.255,86 | R$ 34.186,19 | NORMAL |
+| 37 | BMC | 22,3 | 15% | R$ 8.721,30 | R$ 58.142,00 | NORMAL |
+| 38 | BANCO BMG | 21,7 | 15% | R$ 5.886,30 | R$ 39.242,00 | NORMAL |
+| 39 | ITRANSITO | 21,6 | 15% | R$ 5.754,10 | R$ 38.360,67 | NORMAL |
+| 40 | PMAM | 28,6 | 20% | R$ 5.404,18 | R$ 27.020,90 | PRESCRITA |
+| 41 | ASSOC. DE GESTÃO INOVAÇÃO E RES. EM SAÚDE | 21,5 | 15% | R$ 5.214,12 | R$ 34.760,79 | NORMAL |
+| 42 | BANCO SICOOB | 21,2 | 15% | R$ 4.543,50 | R$ 30.290,00 | NORMAL |
+| 43 | CBMAM | 41,0 | 62% | R$ 1.943,10 | R$ 3.134,03 | PRESCRITA |
+| 44 | PSA TECHNOLOGY | 20,6 | 15% | R$ 3.151,08 | R$ 21.007,21 | NORMAL |
+| 45 | FHEMOAM | 29,7 | 35% | R$ 2.410,42 | R$ 6.886,91 | PRESCRITA |
+| 46 | SUL AMERICA | 20,4 | 15% | R$ 2.729,40 | R$ 18.196,00 | NORMAL |
+| 47 | B23 TECNOLOGIA | 19,6 | 15% | R$ 1.783,84 | R$ 11.892,24 | NORMAL |
+| 48 | BANCO SAFRA | 19,2 | 15% | R$ 1.396,50 | R$ 9.310,00 | NORMAL |
+| 49 | ODONTOMED | 18,9 | 15% | R$ 1.131,16 | R$ 7.541,10 | NORMAL |
+| 50 | EASYTECH | 18,7 | 15% | R$ 1.039,07 | R$ 6.927,16 | NORMAL |
+| 51 | SEMIG | 13,6 | 37% | R$ 0,00 | R$ 235.353,15 | — |
 
 ## 🛡️ Protegidos por marco interruptivo (Art. 202 VI CC) — data a reconfirmar
 
