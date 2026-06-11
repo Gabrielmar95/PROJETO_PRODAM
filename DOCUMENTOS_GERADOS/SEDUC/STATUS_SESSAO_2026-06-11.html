@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Status da Sessão — SEDUC · 11/06/2026</title>
+<style>
+  :root{--azul:#1F3864;--dourado:#B8963E;--ok:#1e7e34;--warn:#b45309;--crit:#b91c1c;--cinza:#6b7280;--fundo:#f7f6f2}
+  *{box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;background:var(--fundo);color:#1f2937;margin:0;line-height:1.55}
+  .wrap{max-width:1000px;margin:0 auto;padding:24px 20px 60px}
+  header{border-bottom:4px solid var(--dourado);padding:18px 0 14px;margin-bottom:22px}
+  header h1{font-size:26px;color:var(--azul);margin:0 0 4px}
+  header .sub{color:var(--cinza);font-size:14px}
+  .badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:12px;font-weight:bold;font-family:Arial,sans-serif;vertical-align:middle}
+  .b-ok{background:#e7f5ec;color:var(--ok);border:1px solid var(--ok)}
+  .b-warn{background:#fef3e2;color:var(--warn);border:1px solid var(--warn)}
+  .b-crit{background:#fde8e8;color:var(--crit);border:1px solid var(--crit)}
+  .b-run{background:#e8eefb;color:var(--azul);border:1px solid var(--azul)}
+  h2{color:var(--azul);font-size:19px;border-left:5px solid var(--dourado);padding-left:10px;margin:34px 0 12px}
+  table{width:100%;border-collapse:collapse;font-size:14px;background:#fff}
+  th{background:var(--azul);color:#fff;text-align:left;padding:7px 10px;font-family:Arial,sans-serif;font-size:12.5px}
+  td{padding:7px 10px;border-bottom:1px solid #e5e7eb;vertical-align:top}
+  tr:nth-child(even) td{background:#fafaf7}
+  .num{font-variant-numeric:tabular-nums;white-space:nowrap}
+  .hero{display:flex;gap:14px;flex-wrap:wrap;margin:14px 0}
+  .card{flex:1 1 210px;background:#fff;border:1px solid #e5e7eb;border-top:4px solid var(--dourado);padding:12px 14px}
+  .card .v{font-size:21px;color:var(--azul);font-weight:bold}
+  .card .l{font-size:12px;color:var(--cinza);font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.4px}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch;margin:14px 0}
+  .step{flex:1 1 150px;background:#fff;border:1px solid #d1d5db;border-radius:8px;padding:10px;font-size:13px;position:relative}
+  .step b{display:block;color:var(--azul);font-family:Arial,sans-serif;font-size:12.5px;margin-bottom:4px}
+  .step.done{border-color:var(--ok);background:#f4faf6}
+  .step.todo{border-color:var(--warn);background:#fffaf2}
+  .step.run{border-color:var(--azul);background:#f3f6fc}
+  .arrow{align-self:center;color:var(--dourado);font-size:18px;font-weight:bold}
+  ul.check{list-style:none;padding-left:0;font-size:14.5px}
+  ul.check li{padding:5px 0 5px 30px;position:relative;border-bottom:1px dotted #e5e7eb}
+  ul.check li::before{position:absolute;left:0;font-family:Arial}
+  li.done::before{content:"✅"}
+  li.todo::before{content:"🔲"}
+  li.warn::before{content:"⚠️"}
+  li.crit::before{content:"🔴"}
+  li.run::before{content:"⏳"}
+  .nota{background:#fff8e6;border-left:4px solid var(--dourado);padding:10px 14px;font-size:13.5px;margin:12px 0}
+  code{background:#eef0f4;padding:1px 5px;border-radius:4px;font-size:12.5px}
+  footer{margin-top:40px;border-top:2px solid var(--dourado);padding-top:10px;color:var(--cinza);font-size:12px}
+</style>
+</head>
+<body><div class="wrap">
+
+<header>
+  <h1>Status da Sessão — Apresentação SEDUC 12/06</h1>
+  <div class="sub">Projeto PRODAM · Contrato 002/2026 · Gabriel Mar OAB/AM 15.697 · sessão remota de 11/06/2026
+  &nbsp;<span class="badge b-ok">ENTREGÁVEIS PRONTOS</span>
+  <span class="badge b-run">1 revisão técnica em andamento</span></div>
+</header>
+
+<h2>O número para amanhã</h2>
+<div class="hero">
+  <div class="card"><div class="v num">R$ 54.535.717,29</div><div class="l">Principal — 106 faturas em aberto (SPCF jun/2026)</div></div>
+  <div class="card"><div class="v num">R$ 61.484.720,69</div><div class="l">Atualizado até 04/2026 (SELIC, conservador)</div></div>
+  <div class="card"><div class="v num">R$ 12.296.944,14</div><div class="l">Honorários 20% (cenário Base)</div></div>
+  <div class="card"><div class="v num">30/06/2028</div><div class="l">Primeira prescrição do universo atual</div></div>
+</div>
+<div class="nota"><b>Como apresentar:</b> universo recente SPCF = 106 faturas / R$ 54,5M (todas ≥ 05/2023, zero prescritas, 6 contratos). O snapshot histórico (84 faturas / R$ 49,2M exigível) é corte anterior — a conciliação está pronta na Seção 2 do memorial e na auditoria de bases. Cenário conservador (só "Emitida", 104 fat.): <b class="num">R$ 57.863.602,47</b>.</div>
+
+<h2>Pipeline da sessão — o que foi feito</h2>
+<div class="flow">
+  <div class="step done"><b>Passo 0 · Fundações</b>Cache BCB oficial (SELIC→04/26) · config de regimes (JSON) · auditoria profile×dossiê</div>
+  <div class="arrow">→</div>
+  <div class="step done"><b>Memorial SEDUC</b>Gerador genérico + 4 formatos (JSON/XLSX/CSV/MD) · fator validado independente</div>
+  <div class="arrow">→</div>
+  <div class="step done"><b>3 worktrees paralelos</b>Quinzenal [005/2026] · Dashboard HTML · 7 scripts de acervo + RUNBOOK</div>
+  <div class="arrow">→</div>
+  <div class="step done"><b>Gates jurídicos</b>revisor-juridico ×2 (memorial 9/9 · quinzenal 6 itens aplicados)</div>
+  <div class="arrow">→</div>
+  <div class="step done"><b>Revisão tripla final</b>Citações verificadas (web) · adversarial PGE · <span class="badge b-run">técnico rodando</span></div>
+</div>
+
+<table>
+<tr><th>Entregável</th><th>Status</th><th>Onde</th></tr>
+<tr><td><b>Memorial preliminar SEDUC</b> (Tier 1/2, cenários, 10 ressalvas, fundamentação corrigida pós-verificação)</td><td><span class="badge b-ok">PRONTO · uso interno</span></td><td><code>DOCUMENTOS_GERADOS/SEDUC/MEMORIAL_PRELIMINAR_SEDUC_2026-06-11.*</code></td></tr>
+<tr><td><b>Ficha executiva 1 página</b> (com riscos auditados adversarialmente)</td><td><span class="badge b-ok">PRONTA</span></td><td><code>FICHA_SEDUC_2026-06-11.md</code></td></tr>
+<tr><td><b>Dashboard HTML SEDUC</b> (memorial injetado)</td><td><span class="badge b-ok">PRONTO</span></td><td><code>DASHBOARD_SEDUC_v1.html</code></td></tr>
+<tr><td><b>Relatório Quinzenal nº [005/2026]</b> MD+DOCX</td><td><span class="badge b-warn">PRONTO · resolver colchetes</span></td><td><code>DOCUMENTOS_GERADOS/RELATORIOS_QUINZENAIS/</code></td></tr>
+<tr><td><b>Pipeline de acervo</b> (7 scripts genéricos) + <b>RUNBOOK</b> noturno</td><td><span class="badge b-ok">PRONTO p/ rodar local</span></td><td><code>scripts/acervo/</code> · <code>RUNBOOK_SEDUC_ACERVO.md</code></td></tr>
+<tr><td><b>5 pareceres arquivados</b> (auditor de dados · revisor memorial · revisor quinzenal · verificação de citações · adversarial)</td><td><span class="badge b-ok">ARQUIVADOS</span></td><td><code>DOCUMENTOS_GERADOS/SEDUC/</code> + <code>RELATORIOS_QUINZENAIS/</code></td></tr>
+<tr><td><b>Revisão técnica do código</b> (recálculo de fatores, casos de borda, 11 scripts)</td><td><span class="badge b-run">EM ANDAMENTO</span></td><td>resultado entra no PR quando concluir</td></tr>
+<tr><td><b>Branch + PR</b> — 159 testes verdes</td><td><span class="badge b-ok">PUSHED</span></td><td>PR #26 · branch <code>claude/seduc-debt-automation-8sabcb</code></td></tr>
+</table>
+
+<h2>O que FALTA — você (antes da apresentação, ~15 min)</h2>
+<ul class="check">
+  <li class="todo"><b>Quinzenal:</b> confirmar numeração <b>[005/2026]</b> e período <b>[28/05–11/06]</b> contra os enviados; resolver os 2 "[a confirmar]" (envio do doc de 10/06; reuniões externas); decidir signatário (004 saiu pelo Dr. Fábio) — depois protocolar.</li>
+  <li class="todo"><b>Decidir o número-manchete da fala:</b> recomendo abrir com R$ 54,5M principal / R$ 61,5M atualizado e a folga prescricional (2028), citando R$ 49,2M como snapshot anterior conciliado.</li>
+  <li class="todo"><b>Conferir o Decreto AM 53.464/2026</b> (nº, data e as 4 exceções) no PDF de <code>REFERENCIA_JURIDICA/16_AUXILIAR/</code> — inverificável online.</li>
+  <li class="warn"><b>Reautorizar Gmail e Google Drive</b> (claude.ai → Settings → Connectors) — com eles eu localizo os quinzenais enviados e deixo o e-mail do 005 em rascunho.</li>
+</ul>
+
+<h2>O que FALTA — rodar LOCALMENTE (hoje à noite · RUNBOOK · ordem adversarial)</h2>
+<ul class="check">
+  <li class="todo"><b>0.</b> <code>cd C:\Users\gabri</code> · <code>git fetch origin claude/seduc-debt-automation-8sabcb</code> + checkout no PROJETO_PRODAM.</li>
+  <li class="crit"><b>1. Memorial FINAL</b> — <code>baixar_indices_bcb.py</code> (pega SELIC de maio) + <code>py -3.12 scripts\gerar_memorial_devedor.py --orgao SEDUC --fonte db</code> → vencimentos reais (mata o furo C1 — dies a quo da mora).</li>
+  <li class="crit"><b>2-3. DPCON + pendrive</b> — copiar <code>\\10.10.2.15\...\CLIENTES\SEDUC\</code> p/ pasta local ASCII-safe; inventário → OCR → classificação v2. Caçar <b>contratos-base e TAs de prorrogação do CT 14/2018</b> (mata C2 e C5 — R$ 19,8M expostos).</li>
+  <li class="crit"><b>4. Extrato SPCF das faturas 141565 e 156790</b> ("Parcialmente Pagas", R$ 2,83M) — abater o pago / checar se é retenção tributária (mata C4).</li>
+  <li class="warn"><b>5. Localizar e LER o Of. 316/2020-GS/SEDUC</b> (negativa expressa — citado, nunca lido; desarma A2).</li>
+  <li class="warn"><b>6. Ofício interno de atestos</b> à PRODAM (modelo CT 8/2021) — ataca C3.</li>
+  <li class="todo"><b>7.</b> Lacunas SPCF (<code>spcf_baixar_nes.py --cliente SEDUC --limit 5</code> antes do lote) · <code>sync-prodam-dbs</code> se houver <code>--apply</code> · extração de cláusulas → tirar o "presumido" do regime.</li>
+</ul>
+<div class="nota"><b>Veredito adversarial:</b> o material é <b>apto para a apresentação interna de amanhã</b>; <b>bloqueado para uso externo</b> (TRD/peça) até cumprir os itens 1-6 acima. "Sem esses cinco, nem TRD."</div>
+
+<h2>Fora da SEDUC — não esquecer</h2>
+<ul class="check">
+  <li class="crit"><b>SSP prescreve em 30/06 (19 dias)</b> — petição pronta (F5): protocolar, com blindagem + exceções do Decreto 53.464/2026. R$ 4.553.230,80 em risco.</li>
+  <li class="crit"><b>SUHAB prescreve em 30/06</b> — medida interruptiva. R$ 840.061,15 em risco.</li>
+  <li class="warn">No SSOT vivo (máquina local): corrigir <code>n_contratos: 1→6</code> da SEDUC, registrar as 38 NEs 2025-26 e limpar artefatos de float / <code>multa: "1%"</code>.</li>
+</ul>
+
+<footer>Gerado em 11/06/2026 · sessão remota Claude Code · branch <code>claude/seduc-debt-automation-8sabcb</code> · PR #26 · 159 testes ✓ · documento standalone (sem requisições externas)</footer>
+</div></body></html>
