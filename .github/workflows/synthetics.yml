@@ -1,0 +1,33 @@
+# Testes Synthetic (E2E) do Datadog rodando no CI do GitHub
+
+name: E2E Synthetic Tests
+
+on:
+  push:
+    branches: [main]          # roda ao mergear na main
+  pull_request:
+    branches: [main]          # roda em cada PR aberto contra a main
+  schedule:
+    - cron: '0 6 * * *'       # monitoramento diário: 06:00 UTC = 02:00 em Manaus
+
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Datadog Synthetic tests
+        uses: DataDog/synthetics-ci-github-action@v4.0.0
+        with:
+          api-key: ${{ secrets.DD_API_KEY }}
+          app-key: ${{ secrets.DD_APP_KEY }}
+          test-search-query: 'tag:e2e-tests'
+          tunnel: false
+        env:
+          # Região da sua conta Datadog. Troque pelo domínio que aparece
+          # na URL quando você acessa o Datadog no navegador:
+          #   US1 -> datadoghq.com        US3 -> us3.datadoghq.com
+          #   US5 -> us5.datadoghq.com    EU  -> datadoghq.eu
+          #   AP1 -> ap1.datadoghq.com
+          DATADOG_SITE: datadoghq.com
