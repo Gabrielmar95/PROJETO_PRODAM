@@ -1,6 +1,6 @@
 # PROJETO PRODAM — Recuperação de Créditos
 ## Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados
-_Atualizado em 10/06/2026 17:45 via `scripts/auto_update_claude_md.py`._
+_Atualizado em 11/06/2026 07:16 via `scripts/auto_update_claude_md.py`._
 
 > Conteúdo regenerado a cada `/sincronizar-prodam`. Para regras fixas → editar o gerador. Para métricas → editar `PRODAM_DOCS/profiles.json` e rodar `py -3.12 scripts\auto_update_claude_md.py`.
 
@@ -37,9 +37,9 @@ _Atualizado em 10/06/2026 17:45 via `scripts/auto_update_claude_md.py`._
 → Lista completa dos 69 devedores: [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md).
 
 ## 3. ALERTAS DE PRESCRIÇÃO
-- 🔴 **SSP**: 2026-06-30 (20 dias) — R$ 4.553.230,80
-- 🔴 **SUHAB**: 2026-06-30 (20 dias) — R$ 840.061,15
-- 🟡 **SEJUSC**: 2026-08-31 (82 dias) — R$ 2.589.660,12
+- 🔴 **SSP**: 2026-06-30 (19 dias) — R$ 4.553.230,80
+- 🔴 **SUHAB**: 2026-06-30 (19 dias) — R$ 840.061,15
+- 🟡 **SEJUSC**: 2026-08-31 (81 dias) — R$ 2.589.660,12
 - 🛡️ **1 protegido(s) por marco interruptivo (Art. 202 VI CC)** com data registrada no passado — marco prevalece; reconfirmar e atualizar a data: DETRAN.
 - _(9 devedores sem data de prescrição registrada — nomes no [`STATUS_DEVEDORES.md`](STATUS_DEVEDORES.md))_
 

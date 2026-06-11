@@ -71,4 +71,4 @@ BRADESCO · CETAM · SALUX · UGPI · SEJEL · ADS · BRADESCO FINANCIAMENTO · 
 - [ ] **Decisão**: estender renomeação aos ~1.282 não-CSV do mesmo padrão em `DETRAN_AUDITORIA_COMPLETA` (HTML/JSON/XLSX/MD)? Script `10_SCRIPTS_PYTHON\rename_csvs_sessao2_20260610.py` generaliza trivialmente
 - [ ] Confirmar envio do Relatório Quinzenal 10/06 à PRODAM → depois decidir destino do docx+html adiados na raiz
 - [ ] Sanear 79 violações de citação em `_ORGANIZADO_2026-06-10\` antes de trackear a pasta (CI `test_projeto_inteiro_passa` quebraria)
-- [ ] Atualizar `test_exatamente_13_regras` (gerador emite 14 regras desde a Regra 14 DETRAN — teste desatualizado)
+- [x] Atualizar `test_exatamente_13_regras` — concluído no commit `96be876d` (suíte completa: 159 passed em 11/06)
