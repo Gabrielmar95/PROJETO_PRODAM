@@ -13,11 +13,11 @@
 
 A SEDUC é órgão da **administração direta estadual** do Amazonas. Para débitos da Fazenda Pública estadual, a atualização monetária e os juros de mora seguem regime estabelecido em **norma legal** — não em cláusula contratual — conforme:
 
-- **EC 113/2021, Art. 3º** — incidência única da **taxa SELIC** acumulada mensalmente, englobando correção monetária e juros de mora.
-- **Art. 406 do Código Civil** (redação da Lei nº 14.905/2024) — SELIC como taxa legal quando inexistente cláusula contratual específica.
-- **REsp 793.969/RJ** (1ª Turma STJ, Rel. p/ acórdão Min. José Delgado, j. 21/02/2006) — composição documental (Contrato + NE + NF + Atesto) como título executivo.
+- **Arts. 389, parágrafo único, e 406, §1º, do Código Civil** (redação da Lei nº 14.905/2024) — correção monetária pelo **IPCA** e juros pela **taxa legal (SELIC deduzido o IPCA)**, cuja incidência conjunta equivale, em termos práticos, à aplicação da **SELIC acumulada**, quando inexistente cláusula contratual específica.
+- **EC 113/2021, Art. 3º** — por convergência material: nas discussões e condenações que envolvam a Fazenda Pública, incidência única da taxa SELIC acumulada mensalmente. A extensão à fase pré-judicial é adotada por convergência com o regime civil acima, sem prejuízo de rediscussão em juízo.
+- **REsp 793.969/RJ** (1ª Turma STJ, Rel. p/ acórdão Min. José Delgado, j. 21/02/2006) — admite a composição documental (Contrato + NE + NF + Atesto) como lastro de título executivo.
 
-Como a SELIC já embute correção + juros (Art. 406 CC), não há juros separados nem multa.
+Como a metodologia equivale à SELIC acumulada (EC 113/2021, art. 3º), **não se somam** correção e juros em separado, nem multa.
 
 **Série:** BCB/SGS **4390** (SELIC % a.m.). **Arredondamento:** ROUND_HALF_UP, 2 casas.
 
@@ -36,7 +36,7 @@ O presente memorial adota como universo de cobrança as **106 faturas em aberto*
 ## 3. Universo, Prescrição e Marcos (Tier 1 / Tier 2)
 
 - **Tier 1** — vencimento dentro do quinquênio (Art. 206 §5º I CC).
-- **Tier 2** — quinquênio vencido, porém interrompido tempestivamente por NE (Art. 202 VI CC; unicidade — REsp 1.963.067/MS), reiniciando **pela metade** (Dec. 20.910/1932 = 2,5 anos).
+- **Tier 2** — quinquênio vencido, porém interrompido tempestivamente por NE (Art. 202 VI CC; unicidade — REsp 1.963.067/MS), reiniciando **pela metade** (Dec. 20.910/1932, art. 9º = 2,5 anos); observado que, interrompida a prescrição na primeira metade do quinquênio, o prazo total não fica reduzido aquém de cinco anos (Súmula 383/STF — *conferir inclusão no catálogo PRECEDENTES_VERIFICADOS.md antes de uso em peça externa*). O cálculo deste memorial usa a regra seca de 2,5 anos — **conservadora contra o credor**.
 - **Excluídas por prescrição consumada:** 0.
 
 NEs-marco (mais recente por contrato, anos 2025-2026):
@@ -196,6 +196,9 @@ NEs-marco (mais recente por contrato, anos 2025-2026):
 5. **Decreto Estadual AM 53.464/2026** — verificar as 4 exceções (art. 1º §§1º-4º) antes de qualquer ação contra o Estado.
 6. Faturas **Parcialmente Pagas** computadas pelo bruto no cenário Base; abater pagamentos parciais com extrato SPCF antes de qualquer peça.
 7. Valores **atualizados até 04/2026** (última SELIC fechada no cache local). A SELIC de mai/2026 possivelmente já está disponível na série SGS 4390 — atualizar o cache (`baixar_indices_bcb.py`) e regerar antes do protocolo; os valores presentes são, portanto, **conservadores (a menor)**.
+8. **Termo inicial da mora (dies a quo)** — com vencimentos estimados e sem cláusula contratual de prazo de pagamento em mãos, a defesa sustentará mora *ex persona* (Art. 397, parágrafo único, CC) com juros só da citação (Art. 405 CC). Antes de qualquer peça: obter vencimentos reais do SPCF e a cláusula de prazo de cada contrato; se necessário, estruturar cálculo bifásico (correção desde a exigibilidade / juros conforme cláusula ou citação).
+9. **Vigência contratual dos CTs antigos** — CT 14/2018 é cobrado até a competência 12/2025 (8º ano) e CT 54/2017 até 07/2023 (7º ano) **sem termos aditivos de prorrogação mapeados nesta data**. Mapear a cadeia de vigência (TAs) no acervo DPCON/pendrive antes de qualquer peça; inexistindo prorrogação válida, a causa de pedir dessas faturas muda (vedação ao enriquecimento sem causa), com outro regime de encargos. Exposição: R$ 19.853.061,12 (CT 14/2018).
+10. As NEs 2025-2026 são, nesta data, **elemento corroborativo** da relação contratual — o universo deste memorial não depende de marco interruptivo (Tier 2 = 0; primeira prescrição 30/06/2028). Como a interrupção é única (REsp 1.963.067/MS), não invocar marco sem vinculação NE↔fatura comprovada.
 
 ---
 

@@ -33,12 +33,16 @@
 | 23/2021 | 8 | R$ 11.646.894,20 | ❌ |
 | 2/2021 · 54/2017 · 21/2026 | 2 · 2 · 1 | R$ 0,53M | ❌ |
 
-## Riscos (por que MONITORIA e não execução)
-1. **Sem título executivo** (blindagem 20/22) — cadeia REsp 793.969 (Contrato+NE+NF+Atesto) incompleta: **0 contratos PDF, sem atestos/NLs** (completude documental 54,5%).
-2. **Negativa expressa** exige prova documental robusta.
-3. **Regime SELIC presumido** — confirmar na cláusula econômica de cada contrato (Regra 10).
-4. **Decreto AM 53.464/2026** — verificar as 4 exceções antes de qualquer ação contra o Estado.
-5. 2 faturas "Parcialmente Paga" (R$ 2,83M) computadas pelo bruto — abater pagamentos com extrato SPCF.
+## Riscos (por que MONITORIA e não execução) — auditados adversarialmente em 11/06
+1. **Sem título executivo** (blindagem 20/22) — cadeia REsp 793.969 (Contrato+NE+NF+Atesto) incompleta: **0 contratos PDF, sem atestos/NLs** (completude documental 54,5%). Sem atesto, a defesa nega o próprio fato gerador.
+2. 🔴 **Vigência contratual dos CTs antigos (furo C5)** — CT 14/2018 cobrado até a competência 12/2025 (8º ano) e CT 54/2017 até 07/2023 **sem TAs de prorrogação mapeados**; se não existirem, a causa de pedir de R$ 19,8M muda (enriquecimento sem causa). Mapear TAs no DPCON antes de qualquer peça.
+3. 🔴 **Dies a quo da mora (furo C1)** — vencimentos estimados + sem cláusula de prazo: defesa pedirá juros só da citação (Art. 397 § ún. + Art. 405 CC), atacando os R$ 6,9M de acréscimo. Mata-se com vencimentos reais do SPCF + cláusulas.
+4. **Regime SELIC presumido** — confirmar na cláusula econômica de cada contrato (Regra 10). Fundamentação corrigida em 11/06: arts. 389 p.u. + 406 §1º CC (Lei 14.905/2024) com EC 113 por convergência.
+5. **Negativa expressa (Of. 316/2020)** — citada mas **não lida** (PDF não localizado); se contiver glosa técnica fundamentada, o caso muda de inadimplência para disputa de mérito. Localizar e ler antes de qualquer peça.
+6. **Decreto AM 53.464/2026** — verificar as 4 exceções antes de qualquer ação contra o Estado.
+7. 2 faturas "Parcialmente Paga" (R$ 2,83M) computadas pelo bruto no cenário Base — abater com extrato SPCF (checar se o "parcial" não é retenção tributária na fonte); risco Art. 940 CC se cobrado em juízo.
+
+> Veredito adversarial (11/06): material **apto para a apresentação interna**; **BLOQUEADO para uso externo** (TRD/peça) até resolver: vencimentos reais (C1), contratos+TAs (C2/C5), extrato das 2 parciais (C4), Of. 316/2020 (A2) e atestos (C3) — todos cobertos pelo RUNBOOK.
 
 ## Próximos passos (esta semana)
 1. **Hoje à noite** — `RUNBOOK_SEDUC_ACERVO.md` na máquina local: memorial FINAL contra o `prodam.db` real + ingestão DPCON/pendrive + lacunas SPCF.
