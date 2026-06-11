@@ -133,9 +133,13 @@ def faturas_do_dossie(dossie: dict) -> list[dict]:
     return out
 
 
-def faturas_do_db(db_path: Path, orgao: str) -> list[dict]:
+def faturas_do_db(db_path: Path, orgao: str, situacoes: tuple[str, ...]) -> list[dict]:
     """Carrega faturas do prodam.db (máquina local). Introspecta colunas para
-    achar vencimento/valor; falha alto se não achar."""
+    achar vencimento/valor; falha alto se não achar.
+
+    `situacoes` restringe o universo às faturas em aberto (mesma semântica do
+    dossiê: 'Emitida' + 'Parcialmente Paga') — sem o filtro, o DB local traria
+    também quitadas/canceladas e inflaria o memorial silenciosamente."""
     con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
     cols = {r[1].lower() for r in con.execute("PRAGMA table_info(spcf_faturas)")}
     col_venc = next((c for c in ("data_vencimento", "vencimento", "dt_vencimento") if c in cols), None)
@@ -143,13 +147,24 @@ def faturas_do_db(db_path: Path, orgao: str) -> list[dict]:
     col_cli = next((c for c in ("cliente", "devedor", "orgao") if c in cols), None)
     if not (col_venc and col_val and col_cli):
         raise SystemExit(f"ERRO: spcf_faturas sem colunas esperadas (venc/valor/cliente). Colunas: {sorted(cols)}")
+    marcadores = ",".join("?" for _ in situacoes)
     rows = con.execute(
         f"SELECT id, nf, contrato, competencia, {col_venc}, situacao, {col_val} "
-        f"FROM spcf_faturas WHERE upper({col_cli}) LIKE ?", (f"%{orgao.upper()}%",)
+        f"FROM spcf_faturas WHERE upper({col_cli}) LIKE ? AND situacao IN ({marcadores})",
+        (f"%{orgao.upper()}%", *situacoes),
+    ).fetchall()
+    descartadas = con.execute(
+        f"SELECT situacao, COUNT(*) FROM spcf_faturas "
+        f"WHERE upper({col_cli}) LIKE ? AND situacao NOT IN ({marcadores}) GROUP BY situacao",
+        (f"%{orgao.upper()}%", *situacoes),
     ).fetchall()
     con.close()
+    if descartadas:
+        resumo = " · ".join(f"{s or '(vazia)'}={n}" for s, n in descartadas)
+        print(f"  AVISO: faturas fora do universo em aberto descartadas: {resumo}")
     if not rows:
-        raise SystemExit(f"ERRO: nenhuma fatura de {orgao} em {db_path} (LIKE em {col_cli}).")
+        raise SystemExit(f"ERRO: nenhuma fatura de {orgao} em {db_path} "
+                         f"(LIKE em {col_cli}, situacao IN {situacoes}).")
     out = []
     for (fid, nf, ct, comp, venc_s, sit, val) in rows:
         venc = parse_br_date(venc_s) or (date.fromisoformat(str(venc_s)[:10]) if venc_s else None)
@@ -238,8 +253,8 @@ def gravar_saidas(out_dir, base_nome, payload, linhas, md_texto):
     ws.title = "Memorial"
     ws.append(campos)
     for ln in linhas:
-        ws.append([float(ln[k]) if isinstance(ln[k], Decimal) and k != "fator_selic"
-                   else (float(ln[k]) if k == "fator_selic" else str(ln[k])) for k in campos])
+        # openpyxl aceita Decimal nativamente — nunca converter dinheiro p/ float (NUNCA-2)
+        ws.append([ln[k] if isinstance(ln[k], Decimal) else str(ln[k]) for k in campos])
     ws2 = wb.create_sheet("Totais")
     for k, v in payload["totais"].items():
         ws2.append([k, str(v)])
@@ -266,6 +281,9 @@ def main() -> int:
     ap.add_argument("--profiles", default=None)
     ap.add_argument("--anos-marco", default="2025,2026",
                     help="anos de NE considerados marco Art. 202 VI (default 2025,2026)")
+    ap.add_argument("--situacoes", default="Emitida,Parcialmente Paga",
+                    help="situações SPCF que compõem o universo em aberto na fonte db "
+                         "(default 'Emitida,Parcialmente Paga' — mesma semântica do dossiê)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -294,15 +312,21 @@ def main() -> int:
     usar_db = args.fonte == "db" or (args.fonte == "auto" and db_path.exists() and db_path.stat().st_size > 0)
     dossie = carregar_dossie(orgao)
     if usar_db:
-        faturas, fonte_nome = faturas_do_db(db_path, orgao), f"prodam.db ({db_path})"
+        situacoes = tuple(s.strip() for s in args.situacoes.split(",") if s.strip())
+        faturas, fonte_nome = faturas_do_db(db_path, orgao, situacoes), f"prodam.db ({db_path})"
     else:
         faturas, fonte_nome = faturas_do_dossie(dossie), "dossie.json (vencimentos ESTIMADOS)"
 
-    # assert de integridade da fonte dossiê (falha alto, nunca silencioso)
+    # integridade da fonte (falha alto, nunca silencioso)
     soma_bruta = somar(faturas, "valor_bruto")
     stats_total = brl(str(dossie.get("stats", {}).get("faturas", {}).get("valor_total", "0")))
+    n_dossie = len(dossie.get("faturas", []))
     if not usar_db and q2(soma_bruta) != q2(stats_total):
         raise SystemExit(f"ERRO: soma valor_bruto {soma_bruta} != stats.faturas.valor_total {stats_total}")
+    if usar_db and (len(faturas) != n_dossie or q2(soma_bruta) != q2(stats_total)):
+        # DB pode estar mais fresco que o dossiê — divergência não é fatal, mas nunca silenciosa
+        print(f"  AVISO: universo db ({len(faturas)} fat · {fmt_brl(q2(soma_bruta))}) difere do dossiê "
+              f"({n_dossie} fat · {fmt_brl(q2(stats_total))}) — conciliar id-a-id antes de qualquer peça.")
 
     serie_selic = carregar_serie(Path(args.cache), "selic")
     marcos = marcos_por_contrato(dossie, tuple(int(a) for a in args.anos_marco.split(",")))
@@ -412,7 +436,7 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
              "executivo.\n")
     L.append("Como a metodologia equivale à SELIC acumulada (EC 113/2021, art. 3º), **não se somam** "
              "correção e juros em separado, nem multa.")
-    L.append(f"\n**Série:** BCB/SGS **4390** (SELIC % a.m.). **Arredondamento:** ROUND_HALF_UP, 2 casas.")
+    L.append("\n**Série:** BCB/SGS **4390** (SELIC % a.m.). **Arredondamento:** ROUND_HALF_UP, 2 casas.")
     if m["regime_presumido"]:
         L.append("\n> ⚠️ **REGIME PRESUMIDO** — 0 contratos em PDF disponíveis nesta data; o índice "
                  "definitivo confirma-se na cláusula econômica de cada contrato (Regra 10). Havendo "
@@ -484,10 +508,14 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
         L.append(f"| {c['nome']} | {c['faturas']} | {fmt_brl(c['principal_bruto'])} | "
                  f"{fmt_brl(c['valor_atualizado'])} | {fmt_brl(c['honorarios_20pct'])} |")
     r = payload["referencia_ssot"]
+
+    def ref_brl(v: str) -> str:
+        # profile ausente => 'n/d' literal (fmt_brl('n/d') viraria 'R$ 0,00' — enganoso)
+        return fmt_brl(v) if v not in ("n/d", "None", "") else "n/d"
     L.append(f"| _Referência SSOT (universo histórico 84 fat.)_ | 84 | "
-             f"{fmt_brl(r['val_exig_profile'])}¹ | {fmt_brl(r['val_atualizado_profile'])} | — |")
+             f"{ref_brl(r['val_exig_profile'])}¹ | {ref_brl(r['val_atualizado_profile'])} | — |")
     L.append("\n¹ exigível do profile (mar/2026). Referências de expectativa: EV "
-             f"{fmt_brl(r['ev_valor_esperado'])} · Monte Carlo p50 {fmt_brl(r['cenario_monte_carlo_p50'])}.\n")
+             f"{ref_brl(r['ev_valor_esperado'])} · Monte Carlo p50 {ref_brl(r['cenario_monte_carlo_p50'])}.\n")
     L.append("---\n")
     L.append("## 6. Caráter Preliminar e Ressalvas\n")
     L.append("1. **Memorial preliminar** para fins de apresentação interna/TRD; não substitui memorial "

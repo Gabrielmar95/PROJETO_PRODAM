@@ -41,7 +41,11 @@ py -3.12 C:\Users\gabri\Desktop\DETRAN_AUDITORIA_COMPLETA\10_SCRIPTS_PYTHON\baix
 py -3.12 scripts\gerar_memorial_devedor.py --orgao SEDUC --fonte db --data-base 2026-04-30
 ```
 
-**Sucesso:** cache BCB atualizado até a competência corrente; memorial gerado sem fatura com índice ausente. Se `gerar_memorial_devedor.py` ainda não estiver na branch, pule e registre como pendência — o restante da noite NÃO depende dele.
+**Sucesso:** cache BCB atualizado até a competência corrente; memorial gerado sem fatura com índice ausente.
+
+⚠️ **Confira o universo na saída**: na fonte `db` o script filtra `situacao IN ('Emitida','Parcialmente Paga')` (mesma semântica do dossiê; ajustável via `--situacoes`) e imprime `AVISO:` com (a) faturas descartadas por situação e (b) divergência de contagem/total contra o dossiê (esperado: 106 fat · R$ 54.535.717,29). Divergência não aborta — DB pode estar mais fresco — mas exige conciliação id-a-id antes de qualquer peça. Se o cache BCB trouxe a SELIC de mai/2026, suba a `--data-base 2026-05-31` (valores ficam menos conservadores, a maior).
+
+Se `gerar_memorial_devedor.py` ainda não estiver na branch, pule e registre como pendência — o restante da noite NÃO depende dele.
 
 ---
 
