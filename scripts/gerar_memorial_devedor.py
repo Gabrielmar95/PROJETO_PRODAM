@@ -41,8 +41,16 @@ from prodam_utils import brl, fmt_brl, parse_br_date, parse_comp  # noqa: E402
 
 getcontext().prec = 28
 CENT = Decimal("0.01")
-QUINQUENIO_DIAS = 365 * 5          # Art. 206 §5º I CC + Dec. 20.910/1932
-METADE_DIAS = int(365 * 2.5)       # reinício pela metade (Dec. 20.910/1932)
+QUINQUENIO_MESES = 60              # Art. 206 §5º I CC + Dec. 20.910/1932
+METADE_MESES = 30                  # reinício pela metade (Dec. 20.910/1932)
+
+
+def add_meses(d: date, n: int) -> date:
+    """Soma calendário (Art. 132 §3º CC): 30/06/2023 + 60 meses = 30/06/2028.
+    Dia estoura o mês de destino -> clampa no último dia (31/01 + 1m = 28/02)."""
+    y, m = divmod((d.year * 12 + d.month - 1) + n, 12)
+    m += 1
+    return date(y, m, min(d.day, calendar.monthrange(y, m)[1]))
 
 PROFILES_CANDIDATOS = [
     REPO / "PRODAM_DOCS" / "profiles.json",
@@ -174,11 +182,11 @@ def classificar_tier(venc: date, data_base: date, marco: date | None) -> tuple[s
     interrompido tempestivamente por NE (Art. 202 VI CC; unicidade REsp
     1.963.067/MS; reinício pela metade Dec. 20.910/1932 = 2,5 anos).
     EXCLUIDA = prescrição consumada antes de marco válido."""
-    prazo_natural = venc + timedelta(days=QUINQUENIO_DIAS)
+    prazo_natural = add_meses(venc, QUINQUENIO_MESES)
     if data_base <= prazo_natural:
         return "1", prazo_natural
     if marco and venc < marco <= prazo_natural:
-        novo_prazo = marco + timedelta(days=METADE_DIAS)
+        novo_prazo = add_meses(marco, METADE_MESES)
         if data_base <= novo_prazo:
             return "2", novo_prazo
     return "EXCLUIDA", prazo_natural
@@ -344,12 +352,14 @@ def main() -> int:
             "fonte_faturas": fonte_nome,
             "serie_indice": "BCB/SGS 4390 (SELIC % a.m.)",
             "arredondamento": "ROUND_HALF_UP, 2 casas",
+            "classificacao": "USO INTERNO — PRODAM/Brandão Ozores. NÃO ANEXAR À TRD NEM A PEÇA PROCESSUAL.",
         },
         "totais": totais, "cenarios": cen, "referencia_ssot": ref_ssot,
         "marcos_ne_por_contrato": {k: v.isoformat() for k, v in sorted(marcos.items())},
         "excluidas": excluidas,
-        "faturas": [{k: (v if not isinstance(v, (Decimal, date)) else str(v)) for k, v in ln.items()}
-                    for ln in linhas],
+        "faturas": [{k: (str(q2(v)) if isinstance(v, Decimal) and k != "fator_selic"
+                         else (str(v) if isinstance(v, (Decimal, date)) else v))
+                     for k, v in ln.items()} for ln in linhas],
     }
 
     md = montar_md(orgao, profile, payload, linhas, marcos, dossie)
@@ -375,6 +385,10 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
     m = payload["meta"]
     db_br = date.fromisoformat(t["data_base"]).strftime("%d/%m/%Y")
     L = []
+    L.append("> 🔒 **USO INTERNO — PRODAM / BRANDÃO OZORES ADVOGADOS.** Este documento contém "
+             "expectativas de recuperação, score e estratégia. **NÃO anexar à TRD nem a peça "
+             "processual.** Versão externável exige supressão da linha 'Referência SSOT', das "
+             "expectativas (EV/Monte Carlo), da recomendação de via e dos honorários.\n")
     L.append(f"# Memorial Preliminar de Cálculo — {orgao}\n")
     L.append("**Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados**")
     L.append(f"**Data-base:** {db_br} (último mês com SELIC fechada no cache BCB)  ")
@@ -389,8 +403,8 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
              "englobando correção monetária e juros de mora.")
     L.append("- **Art. 406 do Código Civil** (redação da Lei nº 14.905/2024) — SELIC como taxa legal "
              "quando inexistente cláusula contratual específica.")
-    L.append("- **REsp 793.969/RJ** (1ª Turma STJ, Rel. p/ acórdão Min. José Delgado) — composição "
-             "documental (Contrato + NE + NF + Atesto) como título executivo.\n")
+    L.append("- **REsp 793.969/RJ** (1ª Turma STJ, Rel. p/ acórdão Min. José Delgado, j. 21/02/2006) — "
+             "composição documental (Contrato + NE + NF + Atesto) como título executivo.\n")
     L.append("Como a SELIC já embute correção + juros (Art. 406 CC), não há juros separados nem multa.")
     L.append(f"\n**Série:** BCB/SGS **4390** (SELIC % a.m.). **Arredondamento:** ROUND_HALF_UP, 2 casas.")
     if m["regime_presumido"]:
@@ -405,10 +419,13 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
              "quinquenal (primeira prescrição: **30/06/2028**). Os valores do perfil consolidado de "
              "mar/2026 (84 faturas; R$ 38.705.633,18 original; **R$ 49.215.512,48 exigível**; "
              "R$ 50.263.263,56 atualizado) refletem snapshot anterior, com critérios de corte distintos e "
-             "8 faturas então tidas por prescritas que **não integram** o universo atual em aberto. "
-             "Reforça a exigibilidade a existência de **38 notas de empenho ativas emitidas em 2025-2026 "
-             "(R$ 62.120.412,29)** sobre os mesmos contratos — reconhecimento tácito (Art. 202, VI, CC), "
-             "pendente de vinculação fatura a fatura.\n")
+             "8 faturas então tidas por prescritas que **foram excluídas do universo de cobrança** "
+             "deste memorial. A **conciliação id-a-id** entre os dois universos será produzida contra o "
+             "`prodam.db` na máquina principal e apresentada em anexo; até lá, os critérios do corte de "
+             "mar/2026 permanecem pendentes de validação. Reforça a exigibilidade a existência de "
+             "**38 notas de empenho ativas emitidas em 2025-2026 (R$ 62.120.412,29)** sobre 4 dos 6 "
+             "contratos do universo — reconhecimento tácito (Art. 202, VI, CC), pendente de vinculação "
+             "fatura a fatura.\n")
     if any(ln["vencimento_estimado"] for ln in linhas):
         L.append("> ⚠️ **VENCIMENTOS ESTIMADOS** — a fonte preliminar (dossiê) não traz a data de "
                  "vencimento; adotou-se *último dia do mês de competência + 30 dias*. A versão final "
@@ -420,12 +437,16 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
              "(Art. 202 VI CC; unicidade — REsp 1.963.067/MS), reiniciando **pela metade** "
              "(Dec. 20.910/1932 = 2,5 anos).")
     L.append(f"- **Excluídas por prescrição consumada:** {t['excluidas_prescritas']}.\n")
-    if marcos:
+    contratos_universo = sorted({ln["contrato"] for ln in linhas})
+    if contratos_universo:
         L.append("NEs-marco (mais recente por contrato, anos 2025-2026):\n")
         L.append("| Contrato | NE mais recente |")
         L.append("|---|---|")
-        for ct, d in sorted(marcos.items()):
-            L.append(f"| {ct} | {date.fromisoformat(d.isoformat()).strftime('%d/%m/%Y')} |")
+        for ct in contratos_universo:
+            if ct in marcos:
+                L.append(f"| {ct} | {marcos[ct].strftime('%d/%m/%Y')} |")
+            else:
+                L.append(f"| {ct} | — (NE 2025-2026 não localizada no dossiê; vinculação pendente) |")
         L.append("")
     L.append("---\n")
     L.append("## 4. Memorial Fatura-a-Fatura\n")
@@ -436,7 +457,9 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
                  f"{ln['vencimento'].strftime('%d/%m/%Y')} | {ln['tier']} | {ln['situacao']} | "
                  f"{fmt_brl(ln['valor_bruto'])} | {ln['meses_selic']} | "
                  f"{ln['fator_selic']:.6f} | {fmt_brl(ln['valor_atualizado'])} |")
-    L.append("\n\\* Venc. estimado = fim do mês de competência + 30 dias (fonte preliminar).\n")
+    L.append("\n\\* Venc. estimado = fim do mês de competência + 30 dias (fonte preliminar).")
+    L.append("\\** A coluna *Situação/Cadeia* reflete a classificação **registral no SPCF** "
+             "(vínculos NE/NF no sistema), e **não** a posse dos documentos físicos — ver Ressalva 3.\n")
     L.append("---\n")
     L.append("## 5. Totais e Cenários\n")
     L.append("| Métrica | Valor |")
@@ -461,16 +484,21 @@ def montar_md(orgao, profile, payload, linhas, marcos, dossie) -> str:
              "pericial de execução.")
     L.append("2. **Regime presumido** (SELIC/EC 113) — confirmar na cláusula econômica dos 6 contratos "
              "(14/2018, 20/2022, 23/2021, 2/2021, 54/2017, 21/2026) via `extracao-clausulas-contratuais`.")
-    L.append("3. **Sem título executivo nesta data** (blindagem 20/22 → recomendação **MONITORIA**); "
-             "cadeia REsp 793.969 incompleta (0 contratos PDF, sem atestos).")
+    L.append("3. **Sem título executivo nesta data** (blindagem 20/22 → recomendação **MONITORIA**). "
+             "A classificação 'COMPLETA/FORTE' do anexo refere-se à cadeia **registral no SPCF**; os "
+             "**documentos físicos** (contratos em PDF e atestos) ainda não foram reunidos — o REsp "
+             "793.969/RJ exige a composição documental material (Contrato + NE + NF + Atesto).")
     L.append("4. **Negativa expressa** (Of. 316/2020-GS/SEDUC) não constitui renúncia nem interrompe "
-             "prescrição (Tema 1.109/STJ) — exige prova documental robusta.")
+             "prescrição (Tema 1.109/STJ) — deverá ser enfrentada com a cadeia documental completa "
+             "(Contrato + NE + NF + Atesto) de cada fatura.")
     L.append("5. **Decreto Estadual AM 53.464/2026** — verificar as 4 exceções (art. 1º §§1º-4º) antes "
              "de qualquer ação contra o Estado.")
     L.append("6. Faturas **Parcialmente Pagas** computadas pelo bruto no cenário Base; abater pagamentos "
              "parciais com extrato SPCF antes de qualquer peça.")
-    L.append("7. Valores **atualizados até 04/2026** (última SELIC fechada no cache); atualizar a série "
-             "antes do protocolo.\n")
+    L.append("7. Valores **atualizados até 04/2026** (última SELIC fechada no cache local). A SELIC de "
+             "mai/2026 possivelmente já está disponível na série SGS 4390 — atualizar o cache "
+             "(`baixar_indices_bcb.py`) e regerar antes do protocolo; os valores presentes são, "
+             "portanto, **conservadores (a menor)**.\n")
     L.append("---\n")
     L.append(f"Manaus/AM, {date.today().strftime('%d/%m/%Y')}.\n")
     L.append("**Gabriel Mar** — OAB/AM 15.697  ")

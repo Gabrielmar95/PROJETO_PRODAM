@@ -1,3 +1,5 @@
+> 🔒 **USO INTERNO — PRODAM / BRANDÃO OZORES ADVOGADOS.** Este documento contém expectativas de recuperação, score e estratégia. **NÃO anexar à TRD nem a peça processual.** Versão externável exige supressão da linha 'Referência SSOT', das expectativas (EV/Monte Carlo), da recomendação de via e dos honorários.
+
 # Memorial Preliminar de Cálculo — SEDUC
 
 **Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados**
@@ -13,7 +15,7 @@ A SEDUC é órgão da **administração direta estadual** do Amazonas. Para déb
 
 - **EC 113/2021, Art. 3º** — incidência única da **taxa SELIC** acumulada mensalmente, englobando correção monetária e juros de mora.
 - **Art. 406 do Código Civil** (redação da Lei nº 14.905/2024) — SELIC como taxa legal quando inexistente cláusula contratual específica.
-- **REsp 793.969/RJ** (1ª Turma STJ, Rel. p/ acórdão Min. José Delgado) — composição documental (Contrato + NE + NF + Atesto) como título executivo.
+- **REsp 793.969/RJ** (1ª Turma STJ, Rel. p/ acórdão Min. José Delgado, j. 21/02/2006) — composição documental (Contrato + NE + NF + Atesto) como título executivo.
 
 Como a SELIC já embute correção + juros (Art. 406 CC), não há juros separados nem multa.
 
@@ -25,7 +27,7 @@ Como a SELIC já embute correção + juros (Art. 406 CC), não há juros separad
 
 ## 2. Nota sobre as bases (universos de dados)
 
-O presente memorial adota como universo de cobrança as **106 faturas em aberto** extraídas do SPCF (dossiê de 10/06/2026), no valor bruto nominal de **R$ 54.535.717,29**, distribuídas por 6 contratos e competências de 05/2023 a 03/2026 — integralmente dentro do prazo quinquenal (primeira prescrição: **30/06/2028**). Os valores do perfil consolidado de mar/2026 (84 faturas; R$ 38.705.633,18 original; **R$ 49.215.512,48 exigível**; R$ 50.263.263,56 atualizado) refletem snapshot anterior, com critérios de corte distintos e 8 faturas então tidas por prescritas que **não integram** o universo atual em aberto. Reforça a exigibilidade a existência de **38 notas de empenho ativas emitidas em 2025-2026 (R$ 62.120.412,29)** sobre os mesmos contratos — reconhecimento tácito (Art. 202, VI, CC), pendente de vinculação fatura a fatura.
+O presente memorial adota como universo de cobrança as **106 faturas em aberto** extraídas do SPCF (dossiê de 10/06/2026), no valor bruto nominal de **R$ 54.535.717,29**, distribuídas por 6 contratos e competências de 05/2023 a 03/2026 — integralmente dentro do prazo quinquenal (primeira prescrição: **30/06/2028**). Os valores do perfil consolidado de mar/2026 (84 faturas; R$ 38.705.633,18 original; **R$ 49.215.512,48 exigível**; R$ 50.263.263,56 atualizado) refletem snapshot anterior, com critérios de corte distintos e 8 faturas então tidas por prescritas que **foram excluídas do universo de cobrança** deste memorial. A **conciliação id-a-id** entre os dois universos será produzida contra o `prodam.db` na máquina principal e apresentada em anexo; até lá, os critérios do corte de mar/2026 permanecem pendentes de validação. Reforça a exigibilidade a existência de **38 notas de empenho ativas emitidas em 2025-2026 (R$ 62.120.412,29)** sobre 4 dos 6 contratos do universo — reconhecimento tácito (Art. 202, VI, CC), pendente de vinculação fatura a fatura.
 
 > ⚠️ **VENCIMENTOS ESTIMADOS** — a fonte preliminar (dossiê) não traz a data de vencimento; adotou-se *último dia do mês de competência + 30 dias*. A versão final (prodam.db local) usa vencimentos reais do SPCF.
 
@@ -41,10 +43,12 @@ NEs-marco (mais recente por contrato, anos 2025-2026):
 
 | Contrato | NE mais recente |
 |---|---|
+| 14/2018 | — (NE 2025-2026 não localizada no dossiê; vinculação pendente) |
 | 2/2021 | 05/01/2026 |
 | 20/2022 | 04/07/2025 |
 | 21/2026 | 23/03/2026 |
 | 23/2021 | 28/01/2026 |
+| 54/2017 | — (NE 2025-2026 não localizada no dossiê; vinculação pendente) |
 
 ---
 
@@ -160,6 +164,7 @@ NEs-marco (mais recente por contrato, anos 2025-2026):
 | 106 | 142846 | 39136 | 54/2017 | 07/2023 | 30/08/2023 | 1 | Emitida | R$ 1.953,43 | 32 | 1.370131 | R$ 2.676,46 |
 
 \* Venc. estimado = fim do mês de competência + 30 dias (fonte preliminar).
+\** A coluna *Situação/Cadeia* reflete a classificação **registral no SPCF** (vínculos NE/NF no sistema), e **não** a posse dos documentos físicos — ver Ressalva 3.
 
 ---
 
@@ -186,11 +191,11 @@ NEs-marco (mais recente por contrato, anos 2025-2026):
 
 1. **Memorial preliminar** para fins de apresentação interna/TRD; não substitui memorial pericial de execução.
 2. **Regime presumido** (SELIC/EC 113) — confirmar na cláusula econômica dos 6 contratos (14/2018, 20/2022, 23/2021, 2/2021, 54/2017, 21/2026) via `extracao-clausulas-contratuais`.
-3. **Sem título executivo nesta data** (blindagem 20/22 → recomendação **MONITORIA**); cadeia REsp 793.969 incompleta (0 contratos PDF, sem atestos).
-4. **Negativa expressa** (Of. 316/2020-GS/SEDUC) não constitui renúncia nem interrompe prescrição (Tema 1.109/STJ) — exige prova documental robusta.
+3. **Sem título executivo nesta data** (blindagem 20/22 → recomendação **MONITORIA**). A classificação 'COMPLETA/FORTE' do anexo refere-se à cadeia **registral no SPCF**; os **documentos físicos** (contratos em PDF e atestos) ainda não foram reunidos — o REsp 793.969/RJ exige a composição documental material (Contrato + NE + NF + Atesto).
+4. **Negativa expressa** (Of. 316/2020-GS/SEDUC) não constitui renúncia nem interrompe prescrição (Tema 1.109/STJ) — deverá ser enfrentada com a cadeia documental completa (Contrato + NE + NF + Atesto) de cada fatura.
 5. **Decreto Estadual AM 53.464/2026** — verificar as 4 exceções (art. 1º §§1º-4º) antes de qualquer ação contra o Estado.
 6. Faturas **Parcialmente Pagas** computadas pelo bruto no cenário Base; abater pagamentos parciais com extrato SPCF antes de qualquer peça.
-7. Valores **atualizados até 04/2026** (última SELIC fechada no cache); atualizar a série antes do protocolo.
+7. Valores **atualizados até 04/2026** (última SELIC fechada no cache local). A SELIC de mai/2026 possivelmente já está disponível na série SGS 4390 — atualizar o cache (`baixar_indices_bcb.py`) e regerar antes do protocolo; os valores presentes são, portanto, **conservadores (a menor)**.
 
 ---
 

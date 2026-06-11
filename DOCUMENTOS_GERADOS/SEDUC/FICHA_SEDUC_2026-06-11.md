@@ -1,3 +1,5 @@
+> 🔒 **USO INTERNO — PRODAM / BRANDÃO OZORES ADVOGADOS.** Contém expectativas de recuperação, score e estratégia — não entregar à SEDUC nem anexar a peça.
+
 # FICHA EXECUTIVA — SEDUC · Secretaria de Educação do Amazonas
 **Contrato 002/2026 — PRODAM S.A. × Brandão Ozores Advogados** · Gabriel Mar, OAB/AM 15.697 · 11/06/2026
 
