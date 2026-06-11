@@ -43,7 +43,7 @@ HTML = r'''<!DOCTYPE html>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --ink:#0C0C0E; --ink-2:#161618; --ink-3:#1E1E22; --ink-4:#28282D;
-  --paper:#F5F1E8; --paper-dim:#E8E4D7; --paper-mute:#8A8578; --paper-faint:rgba(232,228,215,0.38);
+  --paper:#F5F1E8; --paper-dim:#E8E4D7; --paper-mute:#9C9786; --paper-faint:rgba(232,228,215,0.55);
   --rule:rgba(232,228,215,0.14); --rule-hi:rgba(232,228,215,0.28); --rule-max:rgba(232,228,215,0.5);
   --stamp:#D94F2E; --stamp-ink:#A83616; --amber:#C89B3C; --ok:#6B8E5A; --warn:#D9A44E;
   --inst-azul:#1F3864; --inst-azul-hi:#3A5A94; --inst-ouro:#B8963E;
@@ -59,6 +59,25 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;o
 .container{max-width:1480px;margin:0 auto;padding:56px 64px 120px;position:relative}
 .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 .serif{font-family:var(--serif)}
+
+/* ===== A11Y / MOTION / PRINT (skill ui-ux-pro-max) ===== */
+.skip{position:absolute;left:-9999px;z-index:1000;background:var(--inst-ouro);color:var(--ink);padding:10px 16px;font-family:var(--mono);font-size:12px;letter-spacing:.08em}
+.skip:focus{left:0;top:0}
+:focus-visible{outline:2px solid var(--inst-ouro);outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+@media print{
+  :root{--ink:#fff;--ink-2:#f7f7f4;--ink-3:#efefec;--ink-4:#e7e7e2;
+        --paper:#111;--paper-dim:#222;--paper-mute:#555;--paper-faint:rgba(17,17,17,0.6);
+        --rule:rgba(17,17,17,0.18);--rule-hi:rgba(17,17,17,0.3);--rule-max:rgba(17,17,17,0.5)}
+  body::before,.toc,.tbl-ctrl,.tbl-pager,.chart,.chart-tall,.skip{display:none!important}
+  body{background:#fff}
+  .section,.hero{break-inside:avoid-page;margin-bottom:40px}
+  .chart-wrap .cap::after{content:" (gráfico omitido na impressão — dados na tabela)"}
+}
 
 /* ===== MASTHEAD ===== */
 .masthead{border-bottom:2px solid var(--paper-dim);padding-bottom:28px;margin-bottom:32px;display:grid;grid-template-columns:auto 1fr auto;align-items:end;gap:40px}
@@ -142,10 +161,10 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;o
 /* ===== TABLE ===== */
 .tbl-ctrl{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:16px;flex-wrap:wrap}
 .tbl-search{flex:1;max-width:420px;background:var(--ink-2);border:1px solid var(--rule);padding:11px 16px;font-family:var(--mono);font-size:12px;color:var(--paper);letter-spacing:0.04em}
-.tbl-search:focus{outline:none;border-color:var(--inst-ouro)}
+.tbl-search:focus{border-color:var(--inst-ouro);outline:2px solid var(--inst-ouro);outline-offset:1px}
 .tbl-search::placeholder{color:var(--paper-mute);font-style:italic;font-family:var(--serif)}
 .tbl-filter{display:flex;gap:8px;flex-wrap:wrap}
-.chip-filter{font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;padding:7px 12px;border:1px solid var(--rule-hi);color:var(--paper-mute);cursor:pointer;transition:all .2s;user-select:none}
+.chip-filter{font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;padding:10px 14px;border:1px solid var(--rule-hi);color:var(--paper-mute);cursor:pointer;transition:all .2s;user-select:none;background:transparent}
 .chip-filter.active,.chip-filter:hover{color:var(--paper);border-color:var(--inst-ouro);background:var(--ink-3)}
 .tbl-wrap{overflow-x:auto;border:1px solid var(--rule)}
 .tbl{width:100%;border-collapse:collapse;font-size:13px;min-width:780px}
@@ -230,7 +249,8 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;o
 </style>
 </head>
 <body>
-<div class="container">
+<a class="skip" href="#s1">Pular para o conteúdo</a>
+<main class="container">
 
   <header class="masthead">
     <div class="mast-left">
@@ -355,22 +375,22 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;o
       <div class="chart-wrap">
         <h3>Fig. 1 — Faturas por competência</h3>
         <div class="cap">Universo SPCF recente. Barras = valor bruto (R$ Mi); linha = quantidade de faturas.</div>
-        <div id="chart-competencia" class="chart"></div>
+        <div id="chart-competencia" class="chart" role="img" aria-label="Gráfico de barras e linha: valor bruto (R$ milhões) e quantidade de faturas por competência, de 05/2023 a 03/2026 — 2025 concentra 90 das 106 faturas. Valores exatos na Tabela II abaixo."></div>
       </div>
       <div class="chart-wrap">
         <h3>Fig. 2 — Faturas por contrato</h3>
         <div class="cap">CT 14/2018 concentra a maior parte do universo SPCF recente.</div>
-        <div id="chart-contrato" class="chart"></div>
+        <div id="chart-contrato" class="chart" role="img" aria-label="Gráfico de barras horizontais: valor bruto por contrato — CT 20/2022 (R$ 22,5 milhões), CT 14/2018 (R$ 19,9 milhões, 73 faturas), CT 23/2021 (R$ 11,6 milhões) e demais. Valores exatos na Tabela I."></div>
       </div>
     </div>
     <div class="tbl-ctrl">
-      <input type="search" class="tbl-search" id="fat-search" placeholder="Buscar fatura, NF, contrato, competência...">
-      <div class="tbl-filter" id="fat-filters">
-        <span class="chip-filter active" data-filter="all">Todas</span>
-        <span class="chip-filter" data-filter="Emitida">Emitidas</span>
-        <span class="chip-filter" data-filter="Parcialmente Paga">Parc. pagas</span>
-        <span class="chip-filter" data-filter="COMPLETA">Cadeia completa</span>
-        <span class="chip-filter" data-filter="FORTE">Cadeia forte</span>
+      <input type="search" class="tbl-search" id="fat-search" aria-label="Buscar fatura por ID, NF, contrato, competência, situação ou cadeia" placeholder="Buscar fatura, NF, contrato, competência...">
+      <div class="tbl-filter" id="fat-filters" role="group" aria-label="Filtrar faturas">
+        <button type="button" class="chip-filter active" aria-pressed="true" data-filter="all">Todas</button>
+        <button type="button" class="chip-filter" aria-pressed="false" data-filter="Emitida">Emitidas</button>
+        <button type="button" class="chip-filter" aria-pressed="false" data-filter="Parcialmente Paga">Parc. pagas</button>
+        <button type="button" class="chip-filter" aria-pressed="false" data-filter="COMPLETA">Cadeia completa</button>
+        <button type="button" class="chip-filter" aria-pressed="false" data-filter="FORTE">Cadeia forte</button>
       </div>
     </div>
     <div class="tbl-wrap">
@@ -402,7 +422,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;o
       <h3>Fig. 3 — Notas de Empenho SEDUC por ano de emissão</h3>
       <div class="cap">Barras douradas: <b style="color:var(--inst-ouro)">2025 e 2026</b> — empenhos recentes são potenciais marcos interruptivos
         (NE = reconhecimento tácito, Art. 202 VI CC). Linha = quantidade de NEs.</div>
-      <div id="chart-empenhos" class="chart chart-tall"></div>
+      <div id="chart-empenhos" class="chart chart-tall" role="img" aria-label="Gráfico de barras: valor empenhado por ano, 2014 a 2026 — 286 notas de empenho ativas somando R$ 482,7 milhões; destaque para 38 NEs em 2025-2026 (R$ 62,1 milhões), potenciais marcos do Art. 202 VI do Código Civil."></div>
     </div>
   </section>
 
@@ -453,7 +473,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;o
       <span class="src" id="ft-fontes">Fontes: —</span>
     </div>
   </footer>
-</div>
+</main>
 
 <script id="dataset" type="application/json">__DATA__</script>
 <script>
@@ -505,8 +525,10 @@ document.getElementById('riscos-meta').textContent = D.riscos.length+' riscos ·
 }
 
 // ===== ECHARTS theme (Editorial Noir + acentos institucionais) =====
-const NC = {paper:'#E8E4D7',mute:'#8A8578',rule:'rgba(232,228,215,0.14)',stamp:'#D94F2E',amber:'#C89B3C',ok:'#6B8E5A',azul:'#3A5A94',azulFundo:'#1F3864',ouro:'#B8963E'};
+const NC = {paper:'#E8E4D7',mute:'#9C9786',rule:'rgba(232,228,215,0.14)',stamp:'#D94F2E',amber:'#C89B3C',ok:'#6B8E5A',azul:'#3A5A94',azulFundo:'#1F3864',ouro:'#B8963E'};
+const REDUZ_MOTION = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const theme = {
+  animation: !REDUZ_MOTION,
   textStyle:{color:NC.paper,fontFamily:'Instrument Sans',fontSize:12},
   tooltip:{backgroundColor:'#0C0C0E',borderColor:'#E8E4D7',borderWidth:1,textStyle:{color:NC.paper,fontFamily:'JetBrains Mono',fontSize:11},padding:[10,14]},
   grid:{left:'4%',right:'4%',bottom:'10%',top:'14%',containLabel:true},
@@ -607,20 +629,27 @@ function makeTable({tbodySel,data,render,pagerSel,searchInputId,filterChipSel,pe
   }
   const table = tbody.closest('table');
   table.querySelectorAll('thead th[data-sort]').forEach(th=>{
-    th.addEventListener('click',()=>{
+    th.setAttribute('tabindex','0');
+    th.setAttribute('role','columnheader');
+    th.setAttribute('aria-sort','none');
+    const ordenar = ()=>{
       const k=th.dataset.sort;
       if(state.sort===k) state.dir=-state.dir; else {state.sort=k;state.dir=1;}
-      table.querySelectorAll('thead th').forEach(x=>x.classList.remove('sort-asc','sort-desc'));
+      table.querySelectorAll('thead th').forEach(x=>{x.classList.remove('sort-asc','sort-desc');x.setAttribute('aria-sort','none');});
       th.classList.add(state.dir>0?'sort-asc':'sort-desc');
+      th.setAttribute('aria-sort',state.dir>0?'ascending':'descending');
       apply();
-    });
+    };
+    th.addEventListener('click',ordenar);
+    th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();ordenar();}});
   });
   if(searchInputId) document.getElementById(searchInputId).addEventListener('input',e=>{state.q=e.target.value;state.page=1;apply();});
   if(filterChipSel){
     document.querySelectorAll(filterChipSel+' .chip-filter').forEach(c=>{
       c.addEventListener('click',()=>{
-        document.querySelectorAll(filterChipSel+' .chip-filter').forEach(x=>x.classList.remove('active'));
+        document.querySelectorAll(filterChipSel+' .chip-filter').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false');});
         c.classList.add('active');
+        c.setAttribute('aria-pressed','true');
         state.filter=c.dataset.filter; state.page=1; apply();
       });
     });
