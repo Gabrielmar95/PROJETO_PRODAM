@@ -96,62 +96,52 @@ ACOES_QUINZENA = {
         "09/06 — Diagnóstico integral do portfólio (somente leitura): mapeamento pronto × pendente por devedor, "
         "identificação de 14 devedores acionáveis (5 com petição pronta, 9 com TRD pronto/recomendado), gaps de "
         "reconciliação SPCF × exigível e priorização P1–P7 com a SSP em primeiro lugar "
-        "(fonte: HISTORICO_SESSOES.md, sessão 09/06 tarde).",
+        "(fonte: registros internos de trabalho, sessão de 09/06).",
         "09/06 — Recálculo das datas de prescrição no profiles.json: cerca de 30 devedores saíram da data-placeholder "
         "2026-03-20 para datas individualizadas, com backup pré-recálculo preservado; a metodologia do recálculo segue "
-        "em conferência (fonte: relatorios/sessoes/REGISTRO_SESSAO_2026-06-10_panorama_dashboard_relatorio.md).",
+        "em conferência (fonte: registros internos de trabalho, sessão de 10/06).",
         "10/06 — Panorama do portfólio com números conferidos entre profiles.json, TASKS.md e STATUS_DEVEDORES.md; "
         "geração de dashboard HTML autocontido e de minuta de relatório quinzenal em .docx (documento de gestão, "
         "datado de 10/06); o envio desse documento à PRODAM está [a confirmar com o advogado] "
-        "(fontes: REGISTRO_SESSAO_2026-06-10_panorama_dashboard_relatorio.md; TASKS.md, pendências de sessão).",
+        "(fonte: registros internos de trabalho, sessão de 10/06).",
         "10/06 — Programação de 3 alertas pontuais de prazo: 24/06 (prescrição SSP + SUHAB em 30/06), 01/08 (SEJUSC "
         "em 31/08) e 05/08 (DETRAN — marco interruptivo e cutoff NF 110654 em 19/08) "
-        "(fonte: REGISTRO_SESSAO_2026-06-10_panorama_dashboard_relatorio.md, seção 4).",
+        "(fonte: registros internos de trabalho, sessão de 10/06).",
     ],
     "4.2 Integridade de dados e acervo documental": [
         "28/05 — Saneamento de qualidade de código e dados (3 commits): eliminação de usos de float em valores "
         "monetários (regra Decimal), consolidação dos helpers de formatação BRL e auditoria forense da reversão de "
         "drift de 13/05 no profiles.json, com 113 testes automatizados aprovados "
-        "(fonte: HISTORICO_SESSOES.md, sessão 28/05).",
+        "(fonte: registros internos de trabalho, sessão de 28/05).",
         "10/06 — Detecção e restauração do profiles.json (SSOT) corrompido/truncado: restaurado a partir de snapshot "
         "íntegro de 09/06, com backup do arquivo corrompido preservado e validação pós-restauração (69 devedores; "
         "soma R$ 83.668.078,44); satélites do projeto (CLAUDE.md, STATUS_DEVEDORES.md) regenerados às 17:45 "
-        "(fontes: REGISTRO_SESSAO_2026-06-10_panorama_dashboard_relatorio.md; cabeçalho do CLAUDE.md).",
+        "(fonte: registros internos de trabalho, sessão de 10/06).",
         "10/06 — Organização não-destrutiva do acervo completo do projeto: 91.256 arquivos inventariados (32,4 GB), "
         "70.298 cópias organizadas por devedor/tipo com verificação de integridade MD5 em 100% das cópias, 20.958 "
         "duplicatas exatas identificadas (não recopiadas) e manifesto auditável de 91.256 linhas; originais intactos "
-        "(fonte: relatorios/sessoes/RELATORIO_ORGANIZACAO_2026-06-10.md).",
+        "(fonte: registros internos de trabalho, relatório de organização de 10/06).",
         "10/06 — DETRAN (Sessão 2): renomeação forense de 229 CSVs do subprojeto DETRAN_AUDITORIA_COMPLETA com hash "
         "MD5 pré-ação, índice de auditoria (CSV+JSON) e rollback integral possível; nenhum PDF tocado; alterações "
         "sincronizadas com o GitHub (commit 031b20a0) "
-        "(fonte: relatorios/sessoes/SESSAO_2026-06-10_sessao2-detran-renomeacao-csvs.md).",
+        "(fonte: registros internos de trabalho, sessão de 10/06).",
         "09/06 — Organização da pasta \"Arquivos Principais Projeto PRODAM\" em modo cópia (16 arquivos copiados com "
         "conferência MD5; 3 duplicatas detectadas), com identificação documental relevante: o PDF \"Canal Comunicação "
         "Oficial\" é, na verdade, o Ofício PRESI/045/2026 da PRODAM (resposta ao Ofício 001/2026), reclassificado "
-        "para a pasta de ofícios (fonte: HISTORICO_SESSOES.md, sessão 09/06 — organizador-arquivos-prodam).",
+        "para a pasta de ofícios (fonte: registros internos de trabalho, sessão de 09/06).",
     ],
-    "4.3 Ferramentas e governança interna": [
-        "09/06 — Auditoria de leitura das 106 skills ativas do ecossistema do projeto, com veredito individual "
-        "(61 manter · 12 consolidar · 2 aposentar · 31 revisar), checagem de que nenhuma skill cita os precedentes "
-        "catalogados como fabricados e mapeamento das cópias legadas que geram drift "
-        "(fonte: AUDITORIA_SKILLS_2026-06-09.md).",
-        "09/06 — Criação, validação (evals) e indexação da skill organizador-arquivos-prodam (organização por devedor "
-        "com cruzamento no profiles.json, detecção de duplicatas por MD5 e modo cópia não-destrutivo) "
-        "(fontes: HISTORICO_SESSOES.md; relatorios/sessoes/SESSAO_2026-06-09_organizador-arquivos-prodam.md).",
-        "09–10/06 — Hub do projeto no Notion: página central, database com os 69 devedores (valores em BRL), 3 "
-        "visões (pipeline, alertas de prescrição, fases) e sincronização diária agendada a partir dos satélites "
-        "do projeto (fonte: relatorios/sessoes/SESSAO_2026-06-10_notion-hub-conexoes.md).",
-        "09/06 — Atualização do plugin de produtividade do projeto (v1.0.0 → v1.1.0): sincronizado de 51 para 69 "
-        "devedores, dashboard refeito com KPIs reais e correções de comandos quebrados "
-        "(fonte: HISTORICO_SESSOES.md, sessão 09/06 — productivity-prodam).",
-        "08/06 — Instalação isolada (pipx) da ferramenta de análise estática Semgrep no ambiente Windows e "
-        "restauração do pipeline forense de dependências Python afetado por instalação global anterior "
-        "(fonte: HISTORICO_SESSOES.md, sessão 08/06).",
+    "4.3 Governança e controles internos": [
+        "08–10/06 — Aprimoramento contínuo das ferramentas internas de auditoria, organização documental e controle "
+        "de prazos do escritório aplicadas ao portfólio (auditoria do ferramental, automação de painéis de "
+        "acompanhamento e rotinas de verificação de integridade de dados) "
+        "(fonte: registros internos de trabalho, sessões de 08 a 10/06).",
     ],
     "4.4 Em andamento nesta data (11/06/2026)": [
         "SEDUC — Memorial preliminar de cálculo em elaboração sobre o universo recente do SPCF (106 faturas; base "
         "R$ 54.535.717,29), com atualização monetária pela SELIC/EC 113 até a competência 04/2026 e ressalvas "
-        "expressas de regime presumido (índice contratual por contrato ainda em confirmação).",
+        "expressas de regime presumido (índice contratual por contrato ainda em confirmação). O universo SPCF "
+        "recente supera o snapshot consolidado de mar/2026 (84 faturas; R$ 49.215.512,48 exigíveis) por critérios "
+        "de corte distintos — conciliação detalhada na Seção 2 do memorial.",
         "SEDUC — Plano de auditoria documental do acervo (DPCON, pendrive e SPCF) em elaboração, para suprir a "
         "cadeia probatória (Contrato + NE + NF + Atesto) do maior crédito do portfólio.",
     ],
@@ -174,9 +164,8 @@ PROXIMOS_PASSOS = [
      "auditoria documental do acervo (DPCON/pendrive/SPCF), inclusive reconciliação da divergência SPCF × exigível "
      "apontada no diagnóstico de 09/06."),
     ("DETRAN — destravar protocolo",
-     "Obter a revisão da Notificação v5 e do briefing pelo Dr. Fábio; reduzir o Ofício LAI 003/2026 de 4 para 2 "
-     "contratos; reconciliar o exigível R$ 0,00 do perfil-mãe com o valor canônico R$ 28.196.572,22 do subprojeto; "
-     "monitorar o cutoff prescricional da NF 110654 (19/08/2026)."),
+     "Concluir a revisão interna da notificação extrajudicial (crédito apurado de R$ 28.196.572,22) e requisitar à "
+     "PRODAM, via LAI/ofício, os contratos-base faltantes; monitorar o marco de 19/08/2026."),
     ("SES/SUSAM e SEAD — TRDs",
      "Emitir e enviar os Termos de Reconhecimento de Dívida (SES/SUSAM: R$ 4.783.356,52, prescrição em ~112 dias; "
      "SEAD: R$ 2.339.702,20)."),
@@ -190,23 +179,21 @@ PROXIMOS_PASSOS = [
 ]
 
 REFERENCIAS = [
-    "PRODAM_DOCS/profiles.json — SSOT dos devedores (restaurado em 10/06/2026; fora deste repositório).",
-    "CLAUDE.md e STATUS_DEVEDORES.md — satélites regenerados em 10/06/2026 17:45 (KPIs, alertas e pipeline).",
-    "TASKS.md — prazos críticos e fila por próximo passo (gerado em 09/06/2026).",
-    "HISTORICO_SESSOES.md — registro das sessões de 28/05 a 10/06/2026.",
-    "relatorios/sessoes/REGISTRO_SESSAO_2026-06-10_panorama_dashboard_relatorio.md — panorama, dashboard e restauração do SSOT.",
-    "relatorios/sessoes/SESSAO_2026-06-10_sessao2-detran-renomeacao-csvs.md — renomeação forense de 229 CSVs DETRAN.",
-    "relatorios/sessoes/RELATORIO_ORGANIZACAO_2026-06-10.md — organização não-destrutiva do acervo (70.298 cópias).",
-    "relatorios/sessoes/SESSAO_2026-06-10_notion-hub-conexoes.md — hub Notion e sincronização diária.",
-    "relatorios/sessoes/SESSAO_2026-06-09_organizador-arquivos-prodam.md — skill de organização de arquivos.",
-    "AUDITORIA_SKILLS_2026-06-09.md — auditoria das 106 skills ativas.",
-    "relatorios/CHANGELOG_SESSAO_2026-04-29_design_brandao_ozores.md — decisão institucional sobre assinaturas (29/04/2026).",
+    "Base consolidada de devedores do projeto (SSOT), restaurada e validada em 10/06/2026.",
+    "Painéis consolidados do portfólio regenerados em 10/06/2026 17:45 (KPIs, alertas de prescrição e pipeline).",
+    "Registros internos de trabalho do período 28/05–11/06/2026 — disponíveis para auditoria da PRODAM mediante solicitação.",
+    "Memorial preliminar de cálculo SEDUC (em elaboração, 11/06/2026).",
 ]
 
 
 # ============================================================
 # Datas
 # ============================================================
+def mil(n) -> str:
+    """3477 -> '3.477' (milhar pt-BR)."""
+    return f"{int(n):,}".replace(",", ".")
+
+
 def iso_para_br(s: str) -> str:
     """'2026-05-28' → '28/05/2026'."""
     return datetime.strptime(s, "%Y-%m-%d").strftime("%d/%m/%Y")
@@ -272,8 +259,8 @@ def montar_blocos(numero: str, ini_iso: str, fim_iso: str, data_emissao_iso: str
               f"O portfólio sob gestão compreende {REF['n_devedores']} devedores, com crédito exigível de "
               f"{fmt_brl(REF['val_exig'])} e valor atualizado de {fmt_brl(REF['val_atualizado'])} "
               f"({REF['n_com_atualizado']}/{REF['n_devedores']} devedores com atualização monetária calculada). "
-              f"O universo de faturas soma {REF['faturas_total']} documentos: {REF['faturas_exigiveis']} exigíveis, "
-              f"{REF['faturas_prescritas']} prescritas e {REF['faturas_fora_universo']} fora do universo de cobrança "
+              f"O universo de faturas soma {mil(REF['faturas_total'])} documentos: {mil(REF['faturas_exigiveis'])} exigíveis, "
+              f"{mil(REF['faturas_prescritas'])} prescritas e {REF['faturas_fora_universo']} fora do universo de cobrança "
               f"(canceladas/excluídas). (*)"))
     B.append(("p",
               "Destaques da quinzena: (i) restauração do arquivo-mestre de dados do portfólio (profiles.json), "
@@ -348,10 +335,12 @@ def nota_divergencia(kpis: dict, profiles_path: str) -> str:
         "Conferência de KPIs: o único profiles.json disponível neste clone do repositório "
         f"({profiles_path}) é um snapshot antigo e diverge da SSOT viva — soma {kpis['n_devedores']} registros, "
         f"{fmt_brl(kpis['val_exig'])} exigível, {fmt_brl(kpis['val_atualizado'])} atualizado e "
-        f"{kpis['faturas_total']} faturas ({kpis['faturas_exigiveis']} exigíveis / {kpis['faturas_prescritas']} "
-        "prescritas). Os números do corpo deste relatório seguem os satélites oficiais regenerados em 10/06/2026 "
-        "17:45 a partir do SSOT restaurado (CLAUDE.md / STATUS_DEVEDORES.md). Antes do envio, revalidar os KPIs "
-        "contra o PRODAM_DOCS/profiles.json vivo [a confirmar com o advogado]."
+        f"{mil(kpis['faturas_total'])} faturas ({mil(kpis['faturas_exigiveis'])} exigíveis / {mil(kpis['faturas_prescritas'])} "
+        "prescritas). Os números do corpo deste relatório seguem os painéis oficiais regenerados em 10/06/2026 "
+        "17:45 a partir da base consolidada restaurada. O exigível consolidado não inclui o crédito do DETRAN "
+        "(R$ 28.196.572,22, apurado em notificação extrajudicial em revisão final), registrado por R$ 0,00 no "
+        "consolidado-mãe; com sua inclusão, o portfólio exigível é da ordem de R$ 111,9 milhões. "
+        "Reconciliação em curso."
     )
 
 
