@@ -67,7 +67,7 @@ BRADESCO · CETAM · SALUX · UGPI · SEJEL · ADS · BRADESCO FINANCIAMENTO · 
 ### Sessão 2 DETRAN — 10/06/2026 (registro: `relatorios/sessoes/SESSAO_2026-06-10_sessao2-detran-renomeacao-csvs.md`)
 - [ ] **Explorer (~2 min)**: levar `.gitignore.backup-20260423-153153` e `CLAUDE.md.bak.20260507_163710` da raiz de `DETRAN_AUDITORIA_COMPLETA` para `_BACKUPS_EMERGENCIA\` — hook `bloqueia-destrutivos.ps1` impede via shell (não contornado, por decisão)
 - [ ] **Explorer**: apagar `RENOMEACOES_20260610_DRYRUN.csv` + `.json` (redundantes com índice final `RENOMEACOES_20260610.csv/.json`)
-- [ ] **Quando API GitHub voltar**: `gh pr view 24` — confirmar se PR #24 ficou merged ou precisa fechar manualmente (conteúdo já está na main via push direto)
+- [x] ~~Quando API GitHub voltar: `gh pr view 24`~~ — confirmado em 11/06: API voltou e **PR #24 está MERGED** (nada a fechar manualmente)
 - [ ] **Decisão**: estender renomeação aos ~1.282 não-CSV do mesmo padrão em `DETRAN_AUDITORIA_COMPLETA` (HTML/JSON/XLSX/MD)? Script `10_SCRIPTS_PYTHON\rename_csvs_sessao2_20260610.py` generaliza trivialmente
 - [ ] Confirmar envio do Relatório Quinzenal 10/06 à PRODAM → depois decidir destino do docx+html adiados na raiz
 - [ ] Sanear 79 violações de citação em `_ORGANIZADO_2026-06-10\` antes de trackear a pasta (CI `test_projeto_inteiro_passa` quebraria)
