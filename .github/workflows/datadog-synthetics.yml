@@ -26,9 +26,27 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    # Sem DD_API_KEY/DD_APP_KEY nos secrets do repo, a action aborta com
+    # "Missing API or APP keys" e derruba o CI de todos os PRs. O passo abaixo
+    # pula os testes sintéticos quando os secrets não existem; configurados os
+    # secrets, voltam a rodar sem mudar nada aqui.
+    - name: Verificar se os secrets do Datadog estão configurados
+      id: dd-secrets
+      env:
+        DD_API_KEY: ${{ secrets.DD_API_KEY }}
+        DD_APP_KEY: ${{ secrets.DD_APP_KEY }}
+      run: |
+        if [ -n "$DD_API_KEY" ] && [ -n "$DD_APP_KEY" ]; then
+          echo "configurados=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "configurados=false" >> "$GITHUB_OUTPUT"
+          echo "::notice::Secrets DD_API_KEY/DD_APP_KEY ausentes — testes sintéticos Datadog pulados."
+        fi
+
     # Run Synthetic tests within your GitHub workflow.
     # For additional configuration options visit the action within the marketplace: https://github.com/marketplace/actions/datadog-synthetics-ci
     - name: Run Datadog Synthetic tests
+      if: steps.dd-secrets.outputs.configurados == 'true'
       uses: DataDog/synthetics-ci-github-action@87b505388a22005bb8013481e3f73a367b9a53eb # v1.4.0
       with:
         api_key: ${{secrets.DD_API_KEY}}
