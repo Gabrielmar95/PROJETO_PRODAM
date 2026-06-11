@@ -61,3 +61,14 @@ BRADESCO · CETAM · SALUX · UGPI · SEJEL · ADS · BRADESCO FINANCIAMENTO · 
 - [ ] 9 devedores sem data de prescrição registrada: AADESAM · BRADESCO · CASA MILITAR · CGE · FJJA · FMPES · SEJEL · SETRAB · UGPI — levantar vencimentos e preencher no profile
 - [ ] Itemizar as 69 faturas "fora do universo" (canceladas/excluídas) fatura a fatura (SES/SUSAM 62 · SEJUSC 6 · SSP 1)
 - [ ] Rodar `py -3.12 scripts\auto_update_claude_md.py` no Windows para regenerar CLAUDE.md com a nova Regra 14
+
+## 📌 PENDÊNCIAS DE SESSÃO (manuais — seção preservar em regenerações)
+
+### Sessão 2 DETRAN — 10/06/2026 (registro: `relatorios/sessoes/SESSAO_2026-06-10_sessao2-detran-renomeacao-csvs.md`)
+- [ ] **Explorer (~2 min)**: levar `.gitignore.backup-20260423-153153` e `CLAUDE.md.bak.20260507_163710` da raiz de `DETRAN_AUDITORIA_COMPLETA` para `_BACKUPS_EMERGENCIA\` — hook `bloqueia-destrutivos.ps1` impede via shell (não contornado, por decisão)
+- [ ] **Explorer**: apagar `RENOMEACOES_20260610_DRYRUN.csv` + `.json` (redundantes com índice final `RENOMEACOES_20260610.csv/.json`)
+- [ ] **Quando API GitHub voltar**: `gh pr view 24` — confirmar se PR #24 ficou merged ou precisa fechar manualmente (conteúdo já está na main via push direto)
+- [ ] **Decisão**: estender renomeação aos ~1.282 não-CSV do mesmo padrão em `DETRAN_AUDITORIA_COMPLETA` (HTML/JSON/XLSX/MD)? Script `10_SCRIPTS_PYTHON\rename_csvs_sessao2_20260610.py` generaliza trivialmente
+- [ ] Confirmar envio do Relatório Quinzenal 10/06 à PRODAM → depois decidir destino do docx+html adiados na raiz
+- [ ] Sanear 79 violações de citação em `_ORGANIZADO_2026-06-10\` antes de trackear a pasta (CI `test_projeto_inteiro_passa` quebraria)
+- [ ] Atualizar `test_exatamente_13_regras` (gerador emite 14 regras desde a Regra 14 DETRAN — teste desatualizado)
