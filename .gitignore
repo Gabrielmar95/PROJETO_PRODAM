@@ -12,9 +12,6 @@ PRODAM_DOCS/
 SPCF_EXTRACAO/
 detran_dashboard/
 
-# Saida do organizador de acervo (copias + manifesto, dezenas de GB — so local)
-_ORGANIZADO_*/
-
 # Python
 __pycache__/
 *.pyc
