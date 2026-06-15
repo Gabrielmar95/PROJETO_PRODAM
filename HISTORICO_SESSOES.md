@@ -1,5 +1,45 @@
 # Histórico de Sessões — PROJETO PRODAM
 
+## 2026-06-11 — SEDUC: memorial de cálculo, quinzenal nº [005/2026], pipeline de acervo e tripla revisão (preparação da apresentação de 12/06)
+
+Sessão de produção intensiva (sandbox remoto, branch `claude/seduc-debt-automation-8sabcb`, **PR #26 draft, CI 5/5 verde**). Objetivo: tudo o que a apresentação de 12/06 à PRODAM exige — quanto a SEDUC deve (defensável), relatório quinzenal contratual e o plano de organização do acervo (DPCON + pendrive + lacunas SPCF). 3 subagentes em git worktrees paralelos (quinzenal/dashboard/acervo) + auditor de dados + 2 gates `revisor-juridico` + auditoria adversarial + verificação de citações + revisão técnica de código.
+
+### Entregáveis (todos em `DOCUMENTOS_GERADOS/` + `scripts/`, commitados no PR #26)
+
+- **Memorial preliminar SEDUC** (`SEDUC/MEMORIAL_PRELIMINAR_SEDUC_2026-06-11.{json,xlsx,csv,md}`): **106 faturas em aberto** (SPCF, dossiê 10/06), principal **R$ 54.535.717,29** → atualizado **R$ 61.484.720,69** (SELIC/EC 113, data-base 30/04/2026, conservador a menor) · honorários 20% **R$ 12.296.944,14** · cenário conservador (104 "Emitida") R$ 57.863.602,47. Tier 1 = 106 / Tier 2 = 0 (primeira prescrição **30/06/2028** — universo não depende de marco interruptivo). Gerador genérico `scripts/gerar_memorial_devedor.py` + `scripts/config/regimes_por_devedor.json` (reusável p/ os 69) + cache BCB oficial copiado do DETRAN (`scripts/_cache_indices/`, SELIC até 04/2026; API BCB bloqueada no sandbox).
+- **Dois universos reconciliados narrativamente** (auditor-dados → `SEDUC/AUDITORIA_BASES_SEDUC_2026-06-11.md`): dossiê 106 fat/R$ 54,5M (competências ≥ 05/2023) × profile 84 fat/R$ 49,2M exigível (snapshot mar/2026). Conciliação id-a-id pendente contra o `prodam.db` real. 38 NEs 2025-26 (R$ 62,1M) = reforço Art. 202 VI CC, vinculação NE↔fatura pendente.
+- **Ficha executiva** (`SEDUC/FICHA_SEDUC_2026-06-11.md`, 1 página) com 7 riscos auditados adversarialmente — #2 é o achado novo **C5**: CT 14/2018 faturado até 12/2025 (8º ano) e CT 54/2017 até 07/2023 **sem TAs de prorrogação mapeados** (exposição R$ 19.853.061,12).
+- **Relatório Quinzenal nº [005/2026]** (`RELATORIOS_QUINZENAIS/Relatorio_Quinzenal_PRODAM_2026-06-11.{md,docx}`, design Brandão Ozores, 6 seções, anti-alucinação). Pós-revisor: ferramental interno suprimido, nota DETRAN (R$ 28,19M → portfólio ~R$ 111,9M), conciliação SEDUC no corpo. **Pendências do advogado**: preencher [colchetes] de nº/período, 2 "[a confirmar]", signatário.
+- **Pipeline de acervo** (`scripts/acervo/` — 7 scripts portados do DETRAN: inventário pymupdf, OCR cascata, classificador v2, fase2 SPCF Playwright, cruzamento pendrive×SPCF; argparse, `--dry-run`, PDFs intocados) + **`RUNBOOK_SEDUC_ACERVO.md`** (Passos 0-7 PowerShell p/ execução noturna local: memorial final contra DB real, DPCON `\\10.10.2.15\...\CLIENTES\SEDUC\`, pendrive, lacunas SPCF, cláusulas dos 6 contratos).
+- **Dashboard HTML standalone** (`SEDUC/DASHBOARD_SEDUC_v1.html`, Editorial Noir, ECharts, memorial injetado) + **painel de status da sessão** (`SEDUC/STATUS_SESSAO_2026-06-11.html`) — ambos com passe da skill `ui-ux-pro-max` (a11y, focus-visible, aria-sort, reduced-motion, print).
+
+### Tripla revisão (pareceres arquivados junto aos documentos)
+
+1. **Jurídica** (`revisor-juridico` ×2): memorial APROVADO COM RESSALVAS — 9/9 apontamentos aplicados (tarja USO INTERNO, prescrição por aniversário, cadeia registral × documentos físicos, conciliação 84→106); quinzenal — 6/6 aplicados.
+2. **Citações** (`SEDUC/VERIFICACAO_CITACOES_2026-06-11.md`): nenhuma fabricada; 2 erros críticos corrigidos — (a) Art. 406 CC reescrito como **arts. 389 p.u. + 406 §1º CC (Lei 14.905/2024)** com EC 113/2021 por convergência; (b) Tema 1.109/STJ reposicionado (negativa expressa não interrompe — Art. 202 a contrario). Pendente: registrar Súmula 383/STF e 279/STJ no `PRECEDENTES_VERIFICADOS.md` antes de uso externo.
+3. **Adversarial** (`SEDUC/AUDITORIA_ADVERSARIAL_SEDUC_2026-06-11.md`): veredicto **BLOQUEADA p/ uso externo** (ok p/ interno) — ordem de ataque do RUNBOOK: C1 vencimentos reais · C2/C5 contratos+TAs CT 14/2018 · C4 extratos parciais · A2 Of. 316/2020 · C3 atestos.
+4. **Técnica** (`SEDUC/REVISAO_TECNICA_CODIGO_2026-06-11.md`): APTO — 3 achados **corrigidos na sessão**: filtro `situacao` + cross-check na fonte db (ALTO — evitava universo inflado no Passo 1 local), Decimal nativo no XLSX (NUNCA-2), guard "n/d" no fmt_brl. Memorial regenerado com totais idênticos; 159 testes verdes.
+
+### Infra/CI
+
+- `.github/workflows/datadog-synthetics.yml`: check `build` quebrava todo PR sem secrets DD — passo condicional adicionado, 5/5 checks verdes.
+- `scripts/validar_citacoes.py`: `.claude` adicionado a `EXCLUIR_DIRS` (worktrees duplicavam fixture adversarial no scan).
+- Skill `ui-ux-pro-max` trazida do main (push do usuário) e aplicada inline (99 regras do SKILL.md; CSVs de data/ não subiram).
+
+### Pendências para o usuário (antes/depois da apresentação)
+
+1. **Hoje à noite (máquina local)**: rodar o RUNBOOK — em especial Passo 1 (memorial final `--fonte db`, conferir AVISO de universo: esperado 106 fat · R$ 54.535.717,29) e busca dos TAs do CT 14/2018 (risco C5).
+2. Preencher colchetes do quinzenal + confirmar signatário e enviar.
+3. Mergear o **PR #26** (draft) quando satisfeito.
+4. Re-autorizar conectores Gmail/Drive (token expirado) p/ localizar quinzenais enviados e numerar com certeza.
+5. Registrar Súmula 383/STF e 279/STJ no catálogo antes de qualquer peça externa.
+
+### Encerramento
+
+Sessão encerrada em 11/06 com working tree limpa e branch sincronizada (`b6c0a25`). Pós-commit: corpo do **PR #26** atualizado com a seção "Qualidade — tripla revisão completa"; **CI final 6/6 verde** no `b6c0a25` (tests, Teori guard ×2, build condicional, Socket ×2); monitoramento de atividade do PR desligado (`unsubscribe_pr_activity`). PR permanece **draft** aguardando merge pelo advogado.
+
+---
+
 ## 2026-06-09 (noite) → 2026-06-10 — Notion: hub PRODAM, organização do workspace e conexões Google
 
 Sessão de infraestrutura (não jurídica; nenhum dado local alterado). Detalhes completos em [`SESSAO_2026-06-10_notion-hub-conexoes.md`](SESSAO_2026-06-10_notion-hub-conexoes.md).

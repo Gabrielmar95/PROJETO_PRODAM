@@ -1,0 +1,45 @@
+{
+  "_metadata": {
+    "descricao": "Regime de atualização monetária por devedor/contrato. Dados versionados (não é módulo de código). O regime só deixa de ser 'presumido' após extração da cláusula econômica do contrato (Regra 10 do CLAUDE.md, skill extracao-clausulas-contratuais).",
+    "regimes_validos": [
+      "selic_pura_ec113",
+      "contratual_igpm",
+      "contratual_ipca",
+      "igpm_aditivo",
+      "ipca_aditivo",
+      "silente_administrativo"
+    ],
+    "fundamentacao": {
+      "selic_pura_ec113": "EC 113/2021 art. 3º + Art. 406 CC (Lei 14.905/2024) — SELIC engloba correção + juros; sem multa. Aplicável a débitos da Fazenda Pública estadual sem cláusula contratual específica.",
+      "silente_administrativo": "Contrato silente contra a Fazenda: correção IPCA-E (Tema 810/STF) até 08/12/2021 → SELIC única (EC 113/2021, art. 3º) a partir de 09/12/2021 → regime dos arts. 389 p.u./406 §1º CC (Lei 14.905/2024) a partir de 30/08/2024. Nunca citar 'Tema 810 + SELIC' como par — o Tema 810 fundamenta IPCA-E, não SELIC (verificação de 11/06/2026)."
+    },
+    "criado_em": "2026-06-11",
+    "ultima_atualizacao": "2026-06-11"
+  },
+  "SEDUC": {
+    "default": "selic_pura_ec113",
+    "presumido": true,
+    "motivo_presuncao": "0 contratos PDF disponíveis (completude 54,5% em 2026-06-10); administração direta estadual; regime a confirmar na cláusula econômica de cada contrato.",
+    "por_contrato": {
+      "14/2018": "selic_pura_ec113",
+      "20/2022": "selic_pura_ec113",
+      "23/2021": "selic_pura_ec113",
+      "2/2021": "selic_pura_ec113",
+      "54/2017": "selic_pura_ec113",
+      "21/2026": "selic_pura_ec113"
+    }
+  },
+  "SES_SUSAM": {
+    "default": "selic_pura_ec113",
+    "presumido": true,
+    "motivo_presuncao": "Memorial preliminar 2026-05-12 adotou SELIC pura (EC 113/2021) para administração direta; extração de cláusulas dos 13 contratos pendente.",
+    "por_contrato": {}
+  },
+  "DETRAN": {
+    "default": null,
+    "presumido": false,
+    "motivo_presuncao": null,
+    "fonte_autoritativa": "profiles.json → DETRAN.contratos[*].regime_aplicavel (6 regimes por contrato — Regra 14 do CLAUDE.md). Este arquivo não duplica o DETRAN para evitar dupla fonte.",
+    "por_contrato": {}
+  }
+}

@@ -42,6 +42,9 @@ EXCLUIR_DIRS = {
     ".git",
     "PRODAM_DOCS",
     "node_modules",
+    # worktrees de subagentes (.claude/worktrees/agent-*) são cópias transientes
+    # do repo inteiro — sem excluir, cada fixture aparece N vezes na varredura
+    ".claude",
 }
 # "_ORGANIZADO*": saída da skill organizador-arquivos-prodam (cópias do acervo
 # com manifesto; originais intactos). Docs legados pré-cascata Teori→José Delgado
