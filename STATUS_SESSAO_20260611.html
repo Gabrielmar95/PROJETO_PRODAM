@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Status da Sessão — SEDUC · 11/06/2026</title>
+<style>
+  /* ===== Design tokens (ui-ux-pro-max: color-semantic, z-index-management, spacing-scale 8pt) ===== */
+  :root{
+    --color-primary:#1F3864;        /* azul institucional Brandão Ozores */
+    --color-primary-strong:#16294a;
+    --color-accent:#B8963E;         /* dourado institucional */
+    --color-background:#F7F6F2;
+    --color-surface:#FFFFFF;
+    --color-on-surface:#1E293B;     /* contraste 13.9:1 sobre surface */
+    --color-muted:#52606D;          /* 7.0:1 sobre surface (AA/AAA) */
+    --color-border:#E2E0D8;
+    --color-success:#166534; --color-success-bg:#EBF7EF;
+    --color-warning:#92400E; --color-warning-bg:#FDF3E3;
+    --color-danger:#991B1B;  --color-danger-bg:#FBEAEA;
+    --color-info:#1E40AF;    --color-info-bg:#E8EEFB;
+    --radius:10px;
+    --shadow-1:0 1px 2px rgba(31,56,100,.07);
+    --shadow-2:0 4px 14px rgba(31,56,100,.10);
+    --space-1:4px;--space-2:8px;--space-3:16px;--space-4:24px;--space-5:32px;--space-6:48px;
+    --z-nav:100;--z-skip:1000;
+    --font-serif:Georgia,'Times New Roman',serif;
+    --font-sans:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation:none!important;transition:none!important}
+  }
+  body{margin:0;background:var(--color-background);color:var(--color-on-surface);
+       font-family:var(--font-sans);font-size:16px;line-height:1.6}
+  /* skip-link (a11y) */
+  .skip{position:absolute;left:-9999px;z-index:var(--z-skip);background:var(--color-primary);
+        color:#fff;padding:10px 16px;border-radius:0 0 8px 0}
+  .skip:focus{left:0;top:0}
+  a{color:var(--color-info)}
+  :focus-visible{outline:3px solid var(--color-accent);outline-offset:2px;border-radius:4px}
+
+  /* ===== Nav sticky com estado ativo (nav-state-active, persistent-nav) ===== */
+  nav{position:sticky;top:0;z-index:var(--z-nav);background:var(--color-primary);
+      box-shadow:var(--shadow-2)}
+  nav .in{max-width:1040px;margin:0 auto;display:flex;gap:var(--space-1);overflow-x:auto;
+          padding:0 var(--space-3)}
+  nav a{color:#E8EAF0;text-decoration:none;font-family:var(--font-sans);font-size:13.5px;
+        font-weight:500;padding:12px 14px;white-space:nowrap;border-bottom:3px solid transparent;
+        transition:background .2s ease-out,border-color .2s ease-out;cursor:pointer}
+  nav a:hover{background:rgba(255,255,255,.08)}
+  nav a.on{border-color:var(--color-accent);color:#fff}
+
+  .wrap{max-width:1040px;margin:0 auto;padding:var(--space-4) var(--space-3) var(--space-6)}
+
+  header.mast{border-bottom:4px solid var(--color-accent);padding:var(--space-4) 0 var(--space-3);
+              margin-bottom:var(--space-4)}
+  h1{font-family:var(--font-serif);font-size:clamp(22px,4vw,30px);color:var(--color-primary);
+     margin:0 0 6px;line-height:1.25}
+  .sub{color:var(--color-muted);font-size:14px}
+  h2{font-family:var(--font-serif);font-size:21px;color:var(--color-primary);
+     margin:var(--space-6) 0 var(--space-3);padding-left:12px;border-left:5px solid var(--color-accent);
+     scroll-margin-top:64px}
+  h2:first-of-type{margin-top:var(--space-4)}
+
+  /* ===== Badges: ícone + texto, nunca cor sozinha (color-not-only) ===== */
+  .badge{display:inline-flex;align-items:center;gap:6px;padding:3px 12px;border-radius:999px;
+         font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.2px;
+         border:1px solid currentColor}
+  .badge svg{flex:none}
+  .b-ok{background:var(--color-success-bg);color:var(--color-success)}
+  .b-warn{background:var(--color-warning-bg);color:var(--color-warning)}
+  .b-crit{background:var(--color-danger-bg);color:var(--color-danger)}
+  .b-run{background:var(--color-info-bg);color:var(--color-info)}
+
+  /* ===== Hero cards (elevation-consistent, number-tabular) ===== */
+  .hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:var(--space-3);
+        margin:var(--space-3) 0}
+  .card{background:var(--color-surface);border:1px solid var(--color-border);
+        border-top:4px solid var(--color-accent);border-radius:var(--radius);
+        padding:var(--space-3) var(--space-3);box-shadow:var(--shadow-1);
+        transition:box-shadow .2s ease-out,transform .2s ease-out}
+  .card:hover{box-shadow:var(--shadow-2);transform:translateY(-2px)}
+  .card .v{font-size:clamp(19px,2.6vw,23px);font-weight:700;color:var(--color-primary);
+           font-variant-numeric:tabular-nums;letter-spacing:-.3px}
+  .card .l{font-family:var(--font-sans);font-size:11.5px;color:var(--color-muted);
+           text-transform:uppercase;letter-spacing:.6px;margin-top:4px;line-height:1.45}
+
+  /* ===== Progresso da sessão ===== */
+  .prog{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius);
+        padding:var(--space-3);box-shadow:var(--shadow-1);margin:var(--space-3) 0}
+  .prog .bar{height:14px;border-radius:999px;background:var(--color-border);overflow:hidden;
+             display:flex}
+  .prog .bar>span{display:block;height:100%}
+  .prog .leg{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:10px;font-size:13px;
+             font-family:var(--font-sans);color:var(--color-muted)}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+  /* ===== Fluxo da pipeline ===== */
+  .flow{display:flex;flex-wrap:wrap;gap:var(--space-2);margin:var(--space-3) 0}
+  .step{flex:1 1 165px;background:var(--color-surface);border:1px solid var(--color-border);
+        border-radius:var(--radius);padding:12px;font-size:13px;box-shadow:var(--shadow-1)}
+  .step b{display:flex;align-items:center;gap:6px;font-family:var(--font-sans);font-size:12.5px;
+          color:var(--color-primary);margin-bottom:5px}
+  .step.done{border-left:4px solid var(--color-success)}
+  .step.run{border-left:4px solid var(--color-info)}
+  .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+  /* ===== Tabelas (responsive-chart/data: wrapper rolável, zebra, th escuro) ===== */
+  .tblwrap{overflow-x:auto;border-radius:var(--radius);box-shadow:var(--shadow-1);
+           border:1px solid var(--color-border)}
+  table{width:100%;border-collapse:collapse;font-size:14px;background:var(--color-surface);min-width:560px}
+  caption{text-align:left;font-family:var(--font-sans);font-size:12.5px;color:var(--color-muted);
+          padding:8px 2px}
+  th{background:var(--color-primary);color:#fff;text-align:left;padding:9px 12px;
+     font-family:var(--font-sans);font-size:12.5px;letter-spacing:.3px}
+  td{padding:9px 12px;border-bottom:1px solid var(--color-border);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  tbody tr:nth-child(even){background:#FBFAF7}
+  tbody tr{transition:background .15s ease-out}
+  tbody tr:hover{background:var(--color-info-bg)}
+  .num{font-variant-numeric:tabular-nums;white-space:nowrap}
+
+  /* ===== Checklists com ícones SVG (no-emoji-icons) ===== */
+  ul.check{list-style:none;padding:0;margin:var(--space-2) 0}
+  ul.check li{display:flex;gap:10px;align-items:flex-start;background:var(--color-surface);
+              border:1px solid var(--color-border);border-radius:var(--radius);
+              padding:11px 14px;margin-bottom:var(--space-2);font-size:14.5px;
+              box-shadow:var(--shadow-1)}
+  ul.check li svg{flex:none;margin-top:2px}
+  li.i-done{border-left:4px solid var(--color-success)}
+  li.i-todo{border-left:4px solid var(--color-muted)}
+  li.i-warn{border-left:4px solid var(--color-warning)}
+  li.i-crit{border-left:4px solid var(--color-danger);background:var(--color-danger-bg)}
+  li.i-run{border-left:4px solid var(--color-info)}
+
+  .nota{background:var(--color-warning-bg);border-left:4px solid var(--color-accent);
+        border-radius:0 var(--radius) var(--radius) 0;padding:12px 16px;font-size:14px;
+        margin:var(--space-3) 0}
+  code{background:#EEF0F4;padding:1px 6px;border-radius:5px;font-size:13px;
+       font-family:'Cascadia Code','SF Mono',Consolas,monospace}
+  footer{margin-top:var(--space-6);border-top:2px solid var(--color-accent);
+         padding-top:var(--space-2);color:var(--color-muted);font-size:12.5px;
+         font-family:var(--font-sans)}
+
+  /* ===== Impressão (para levar à reunião) ===== */
+  @media print{
+    nav,.skip{display:none}
+    body{background:#fff;font-size:12px}
+    .card,.step,ul.check li,.tblwrap,.prog{box-shadow:none;break-inside:avoid}
+    h2{break-after:avoid}
+    a{color:inherit;text-decoration:none}
+  }
+  @media (max-width:480px){
+    .hero{grid-template-columns:1fr 1fr}
+    td,th{padding:8px 9px}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<nav aria-label="Seções do relatório"><div class="in">
+  <a href="#numero" class="on">O número</a>
+  <a href="#feito">O que foi feito</a>
+  <a href="#voce">Falta você fazer</a>
+  <a href="#local">Rodar localmente</a>
+  <a href="#fora">Fora da SEDUC</a>
+</div></nav>
+
+<main id="conteudo" class="wrap">
+
+<header class="mast">
+  <h1>Status da Sessão — Apresentação SEDUC 12/06</h1>
+  <p class="sub">Projeto PRODAM · Contrato 002/2026 · Gabriel Mar OAB/AM 15.697 · sessão remota de 11/06/2026</p>
+  <p>
+    <span class="badge b-ok"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>ENTREGÁVEIS PRONTOS</span>
+    <span class="badge b-run"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>1 revisão técnica em andamento</span>
+  </p>
+</header>
+
+<section class="prog" aria-label="Progresso geral da sessão">
+  <div class="bar" role="img" aria-label="Progresso: 8 entregáveis prontos, 1 em andamento, 7 pendências suas">
+    <span style="width:50%;background:var(--color-success)"></span>
+    <span style="width:6%;background:var(--color-info)"></span>
+    <span style="width:44%;background:var(--color-accent)"></span>
+  </div>
+  <div class="leg">
+    <span><span class="dot" style="background:var(--color-success)"></span>8 entregáveis prontos</span>
+    <span><span class="dot" style="background:var(--color-info)"></span>1 revisão em andamento</span>
+    <span><span class="dot" style="background:var(--color-accent)"></span>7 ações suas (4 rápidas + runbook noturno)</span>
+  </div>
+</section>
+
+<h2 id="numero">O número para amanhã</h2>
+<div class="hero">
+  <div class="card"><div class="v num">R$ 54.535.717,29</div><div class="l">Principal — 106 faturas em aberto (SPCF jun/2026)</div></div>
+  <div class="card"><div class="v num">R$ 61.484.720,69</div><div class="l">Atualizado até 04/2026 (SELIC · conservador)</div></div>
+  <div class="card"><div class="v num">R$ 12.296.944,14</div><div class="l">Honorários 20% (cenário Base)</div></div>
+  <div class="card"><div class="v num">30/06/2028</div><div class="l">Primeira prescrição do universo atual</div></div>
+</div>
+<div class="nota"><b>Como apresentar:</b> universo recente SPCF = 106 faturas / R$&nbsp;54,5M (todas ≥ 05/2023, zero prescritas, 6 contratos). O snapshot histórico (84 faturas / R$&nbsp;49,2M exigível) é corte anterior — conciliação pronta na Seção 2 do memorial e na auditoria de bases. Cenário conservador (só "Emitida", 104 fat.): <b class="num">R$&nbsp;57.863.602,47</b>.</div>
+
+<h2 id="feito">Pipeline da sessão — o que foi feito</h2>
+<div class="flow">
+  <div class="step done"><b><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>0 · Fundações</b>Cache BCB (SELIC→04/26) · config de regimes · auditoria profile×dossiê</div>
+  <div class="step done"><b><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>1 · Memorial SEDUC</b>Gerador genérico · 4 formatos · fator validado de forma independente</div>
+  <div class="step done"><b><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>2 · 3 worktrees paralelos</b>Quinzenal [005/2026] · Dashboard HTML · 7 scripts de acervo + RUNBOOK</div>
+  <div class="step done"><b><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="3" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>3 · Gates jurídicos</b>revisor-juridico ×2 — memorial 9/9 · quinzenal 6 itens aplicados</div>
+  <div class="step run"><b><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-info)" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>4 · Revisão tripla</b>Citações verificadas (web) · adversarial PGE · técnico <em>rodando</em></div>
+</div>
+
+<div class="tblwrap"><table>
+  <caption>Entregáveis da sessão e localização no repositório (branch claude/seduc-debt-automation-8sabcb · PR #26)</caption>
+  <thead><tr><th scope="col">Entregável</th><th scope="col">Status</th><th scope="col">Onde</th></tr></thead>
+  <tbody>
+  <tr><td><b>Memorial preliminar SEDUC</b> — Tier 1/2, cenários, 10 ressalvas, fundamentação corrigida pós-verificação</td><td><span class="badge b-ok">PRONTO · uso interno</span></td><td><code>DOCUMENTOS_GERADOS/SEDUC/MEMORIAL_PRELIMINAR_SEDUC_2026-06-11.*</code></td></tr>
+  <tr><td><b>Ficha executiva 1 página</b> — riscos auditados adversarialmente</td><td><span class="badge b-ok">PRONTA</span></td><td><code>FICHA_SEDUC_2026-06-11.md</code></td></tr>
+  <tr><td><b>Dashboard HTML SEDUC</b> — memorial injetado</td><td><span class="badge b-ok">PRONTO</span></td><td><code>DASHBOARD_SEDUC_v1.html</code></td></tr>
+  <tr><td><b>Relatório Quinzenal nº [005/2026]</b> — MD + DOCX</td><td><span class="badge b-warn">RESOLVER COLCHETES</span></td><td><code>DOCUMENTOS_GERADOS/RELATORIOS_QUINZENAIS/</code></td></tr>
+  <tr><td><b>Pipeline de acervo</b> (7 scripts) + <b>RUNBOOK</b> noturno</td><td><span class="badge b-ok">PRONTO p/ rodar local</span></td><td><code>scripts/acervo/</code> · <code>RUNBOOK_SEDUC_ACERVO.md</code></td></tr>
+  <tr><td><b>5 pareceres arquivados</b> — auditor de dados · revisor ×2 · citações · adversarial</td><td><span class="badge b-ok">ARQUIVADOS</span></td><td><code>DOCUMENTOS_GERADOS/SEDUC/</code></td></tr>
+  <tr><td><b>Revisão técnica do código</b> — fatores, casos de borda, 11 scripts</td><td><span class="badge b-run">EM ANDAMENTO</span></td><td>resultado entra no PR ao concluir</td></tr>
+  <tr><td><b>Branch + PR</b> — 159 testes verdes</td><td><span class="badge b-ok">PUSHED</span></td><td>PR #26</td></tr>
+  </tbody>
+</table></div>
+
+<h2 id="voce">O que falta — você (antes da apresentação, ±15 min)</h2>
+<ul class="check">
+  <li class="i-todo"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-muted)" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/></svg><span><b>Quinzenal:</b> confirmar numeração <b>[005/2026]</b> e período <b>[28/05–11/06]</b>; resolver os 2 "[a confirmar]"; decidir signatário (o 004 saiu pelo Dr. Fábio) — e protocolar.</span></li>
+  <li class="i-todo"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-muted)" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/></svg><span><b>Número-manchete da fala:</b> abrir com R$&nbsp;54,5M principal / R$&nbsp;61,5M atualizado + folga prescricional (2028), citando R$&nbsp;49,2M como snapshot conciliado.</span></li>
+  <li class="i-todo"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-muted)" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/></svg><span><b>Decreto AM 53.464/2026:</b> conferir nº, data e as 4 exceções no PDF de <code>REFERENCIA_JURIDICA/16_AUXILIAR/</code> — inverificável online.</span></li>
+  <li class="i-warn"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-warning)" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".5" fill="currentColor"/></svg><span><b>Reautorizar Gmail e Google Drive</b> (claude.ai → Settings → Connectors): eu localizo os quinzenais enviados e deixo o e-mail do 005 em rascunho.</span></li>
+</ul>
+
+<h2 id="local">O que falta — rodar localmente (hoje à noite · ordem adversarial)</h2>
+<ul class="check">
+  <li class="i-todo"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-muted)" stroke-width="2" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg><span><b>0.</b> <code>cd C:\Users\gabri</code> · <code>git fetch origin claude/seduc-debt-automation-8sabcb</code> + checkout no PROJETO_PRODAM.</span></li>
+  <li class="i-crit"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-danger)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><circle cx="12" cy="16.5" r=".5" fill="currentColor"/></svg><span><b>1. Memorial FINAL</b> — <code>baixar_indices_bcb.py</code> (SELIC de maio) + <code>py -3.12 scripts\gerar_memorial_devedor.py --orgao SEDUC --fonte db</code> → vencimentos reais (mata o furo C1, dies a quo da mora).</span></li>
+  <li class="i-crit"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-danger)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><circle cx="12" cy="16.5" r=".5" fill="currentColor"/></svg><span><b>2-3. DPCON + pendrive</b> — copiar <code>\\10.10.2.15\...\CLIENTES\SEDUC\</code> p/ pasta local ASCII-safe; inventário → OCR → classificação. Caçar <b>contratos-base e TAs do CT 14/2018</b> (mata C2 e C5 — R$&nbsp;19,8M expostos).</span></li>
+  <li class="i-crit"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-danger)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><circle cx="12" cy="16.5" r=".5" fill="currentColor"/></svg><span><b>4. Extrato SPCF das faturas 141565 e 156790</b> ("Parcialmente Pagas", R$&nbsp;2,83M) — abater o pago / checar retenção tributária (mata C4).</span></li>
+  <li class="i-warn"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-warning)" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".5" fill="currentColor"/></svg><span><b>5. Localizar e LER o Of. 316/2020-GS/SEDUC</b> (negativa expressa — citado, nunca lido; desarma A2).</span></li>
+  <li class="i-warn"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-warning)" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".5" fill="currentColor"/></svg><span><b>6. Ofício interno de atestos</b> à PRODAM (modelo CT 8/2021) — ataca C3.</span></li>
+  <li class="i-todo"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-muted)" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/></svg><span><b>7.</b> Lacunas SPCF (<code>spcf_baixar_nes.py --cliente SEDUC --limit 5</code> antes do lote) · <code>sync-prodam-dbs</code> após <code>--apply</code> · extração de cláusulas → remover o "presumido".</span></li>
+</ul>
+<div class="nota"><b>Veredito adversarial:</b> material <b>apto para a apresentação interna</b>; <b>bloqueado para uso externo</b> (TRD/peça) até cumprir os itens 1-6. "Sem esses cinco, nem TRD."</div>
+
+<h2 id="fora">Fora da SEDUC — não esquecer</h2>
+<ul class="check">
+  <li class="i-crit"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-danger)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span><b>SSP prescreve em 30/06 (19 dias)</b> — petição pronta (F5): protocolar com blindagem + exceções do Decreto 53.464/2026. <span class="num">R$&nbsp;4.553.230,80</span> em risco.</span></li>
+  <li class="i-crit"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-danger)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span><b>SUHAB prescreve em 30/06</b> — medida interruptiva. <span class="num">R$&nbsp;840.061,15</span> em risco.</span></li>
+  <li class="i-warn"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--color-warning)" stroke-width="2" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".5" fill="currentColor"/></svg><span>No SSOT vivo: corrigir <code>n_contratos: 1→6</code> da SEDUC, registrar as 38 NEs 2025-26 e limpar artefatos de float / <code>multa: "1%"</code>.</span></li>
+</ul>
+
+<footer>Gerado em 11/06/2026 · sessão remota Claude Code · branch <code>claude/seduc-debt-automation-8sabcb</code> · PR #26 · 159 testes ✓ · standalone, sem requisições externas · design: skill <code>ui-ux-pro-max</code> + identidade Brandão Ozores</footer>
+</main>
+
+<script>
+/* Realce da seção ativa na navegação (nav-state-active); inócuo sem JS */
+(function(){
+  var links=document.querySelectorAll('nav a');
+  var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
+  if(!('IntersectionObserver' in window))return;
+  var obs=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        links.forEach(function(a){a.classList.remove('on')});
+        var a=map[e.target.id];if(a)a.classList.add('on');
+      }
+    });
+  },{rootMargin:'-40% 0px -55% 0px'});
+  Object.keys(map).forEach(function(id){var el=document.getElementById(id);if(el)obs.observe(el)});
+})();
+</script>
+</body>
+</html>

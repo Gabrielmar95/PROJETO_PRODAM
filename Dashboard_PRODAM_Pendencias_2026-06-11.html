@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRODAM — Pendências e Retomada — 11/06/2026</title>
+<style>
+  :root{
+    --bg:#f4f5f8; --card:#ffffff; --ink:#1c2030; --muted:#5d6475; --line:#e3e6ee;
+    --red:#c93f38; --red-bg:#fdf0ef; --red-line:#f2c7c4;
+    --amber:#b96e00; --amber-bg:#fdf6ea; --amber-line:#f0dcb4;
+    --green:#2c7a4b; --green-bg:#eef7f1; --green-line:#c4e2cf;
+    --blue:#2f5fc4; --blue-bg:#eff3fc; --blue-line:#c8d6f2;
+    --purple:#6353b8; --purple-bg:#f2f0fb; --purple-line:#d6d0ee;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;padding:28px 16px 64px}
+  .wrap{max-width:980px;margin:0 auto}
+  a{color:var(--blue)}
+  code{font-family:Consolas,"Cascadia Mono",monospace;font-size:.88em;background:#eef0f5;border:1px solid var(--line);border-radius:4px;padding:1px 5px;word-break:break-all}
+
+  header.top{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 26px;margin-bottom:18px}
+  header.top h1{font-size:21px;font-weight:700}
+  header.top .sub{color:var(--muted);font-size:13px;margin-top:4px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-top:16px}
+  .kpi{border:1px solid var(--line);border-radius:9px;padding:12px 14px;background:#fafbfd}
+  .kpi .v{font-size:19px;font-weight:700}
+  .kpi .l{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-top:2px}
+  .kpi.risk{background:var(--red-bg);border-color:var(--red-line)}
+  .kpi.risk .v{color:var(--red)}
+
+  section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 24px;margin-bottom:18px}
+  section>h2{font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px}
+  section>p.desc{color:var(--muted);font-size:13px;margin-bottom:14px}
+  .tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:20px;padding:2px 9px;vertical-align:2px;margin-left:8px}
+  .tag.red{background:var(--red-bg);color:var(--red);border:1px solid var(--red-line)}
+  .tag.amber{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-line)}
+  .tag.green{background:var(--green-bg);color:var(--green);border:1px solid var(--green-line)}
+  .tag.blue{background:var(--blue-bg);color:var(--blue);border:1px solid var(--blue-line)}
+  .tag.purple{background:var(--purple-bg);color:var(--purple);border:1px solid var(--purple-line)}
+
+  /* prazos */
+  .prazo{display:grid;grid-template-columns:130px 1fr 190px;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+  .prazo:last-child{border-bottom:none}
+  .prazo .who{font-weight:700;font-size:14px}
+  .prazo .who small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
+  .bar{height:10px;border-radius:6px;background:#edeff4;overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:6px}
+  .prazo .meta{text-align:right;font-size:12.5px;color:var(--muted)}
+  .prazo .meta b{display:block;font-size:14px;color:var(--ink)}
+  .dleft{font-weight:700}
+  .dleft.red{color:var(--red)} .dleft.amber{color:var(--amber)} .dleft.green{color:var(--green)}
+
+  /* checklists */
+  ul.check{list-style:none}
+  ul.check li{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;border-radius:8px;margin-bottom:4px}
+  ul.check li:hover{background:#f7f8fb}
+  ul.check input[type=checkbox]{width:17px;height:17px;margin-top:3px;accent-color:var(--green);cursor:pointer;flex-shrink:0}
+  ul.check label{cursor:pointer;font-size:13.5px}
+  ul.check label small{display:block;color:var(--muted);font-size:12px}
+  ul.check li.done label{text-decoration:line-through;color:var(--muted)}
+  .group-h{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:16px 0 6px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+  .group-h:first-of-type{margin-top:6px}
+
+  /* decisões */
+  .dec-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:720px){.dec-grid{grid-template-columns:1fr}.prazo{grid-template-columns:1fr;gap:6px}.prazo .meta{text-align:left}}
+  .dec{border:1px solid var(--purple-line);background:var(--purple-bg);border-radius:10px;padding:14px 16px}
+  .dec h3{font-size:13.5px;font-weight:700;color:var(--purple);margin-bottom:6px}
+  .dec p{font-size:12.8px;margin-bottom:4px}
+  .dec p.opt{color:var(--muted)}
+  .dec .unlock{font-size:12px;color:var(--green);font-weight:600;margin-top:6px}
+
+  /* timeline */
+  .tl{border-left:3px solid var(--line);margin-left:8px;padding-left:22px}
+  .tl-item{position:relative;padding-bottom:20px}
+  .tl-item:last-child{padding-bottom:4px}
+  .tl-item::before{content:"";position:absolute;left:-31px;top:5px;width:13px;height:13px;border-radius:50%;background:var(--green);border:3px solid var(--card)}
+  .tl-item h3{font-size:14px;font-weight:700}
+  .tl-item .when{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+  .tl-item ul{margin:6px 0 0 18px;font-size:13px}
+  .tl-item ul li{margin-bottom:3px}
+  .tl-item .probs{margin-top:6px;font-size:12.5px;color:var(--amber);background:var(--amber-bg);border:1px solid var(--amber-line);border-radius:8px;padding:8px 12px}
+  .tl-item .probs b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+
+  /* fila + tabela */
+  .fila{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .fchip{border:1px solid var(--line);border-radius:8px;padding:8px 14px;background:#fafbfd;font-size:12.5px}
+  .fchip b{display:block;font-size:17px}
+  table{width:100%;border-collapse:collapse;font-size:12.8px;margin-top:8px}
+  th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:6px 8px;border-bottom:2px solid var(--line)}
+  td{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+
+  .note{font-size:12.5px;color:var(--muted);background:#f7f8fb;border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-top:12px}
+  footer{color:var(--muted);font-size:11.5px;text-align:center;margin-top:8px;line-height:1.7}
+
+  @media print{
+    body{background:#fff;padding:0}
+    section,header.top{border:none;border-bottom:1px solid #ccc;border-radius:0;break-inside:avoid}
+    ul.check input[type=checkbox]{accent-color:#444}
+    .hint-storage{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <h1>Pendências e Retomada — Projeto PRODAM</h1>
+  <div class="sub">Contrato 002/2026 · PRODAM S.A. × Brandão Ozores Advogados · Gerado em 11/06/2026 · Cobre as sessões de 09–10/06/2026</div>
+  <div class="kpis">
+    <div class="kpi risk"><div class="v">R$ 5.393.291,95</div><div class="l">Em risco até 30/06 (SSP + SUHAB)</div></div>
+    <div class="kpi"><div class="v">19 dias</div><div class="l">Para a prescrição mais próxima</div></div>
+    <div class="kpi"><div class="v">69 devedores</div><div class="l">R$ 83,67M exigível no portfólio</div></div>
+    <div class="kpi"><div class="v">5 sessões</div><div class="l">Registradas em 09–10/06</div></div>
+  </div>
+</header>
+
+<!-- ================= PRAZOS ================= -->
+<section>
+  <h2>1 · Prazos correndo <span class="tag red">prescrição</span></h2>
+  <p class="desc">Dias contados a partir de 11/06/2026. Barra = proporção do prazo já consumida (escala de 90 dias).</p>
+
+  <div class="prazo">
+    <div class="who">SSP <small>F5 · protocolar petição</small></div>
+    <div class="bar"><i style="width:79%;background:var(--red)"></i></div>
+    <div class="meta"><b>R$ 4.553.230,80</b>30/06/2026 — <span class="dleft red">19 dias</span></div>
+  </div>
+  <div class="prazo">
+    <div class="who">SUHAB <small>F0 · acelerar análise → medida interruptiva</small></div>
+    <div class="bar"><i style="width:79%;background:var(--red)"></i></div>
+    <div class="meta"><b>R$ 840.061,15</b>30/06/2026 — <span class="dleft red">19 dias</span></div>
+  </div>
+  <div class="prazo">
+    <div class="who">DETRAN <small>cutoff NF 110654 (CT 179/2018)</small></div>
+    <div class="bar"><i style="width:23%;background:var(--amber)"></i></div>
+    <div class="meta"><b>monitorar</b>19/08/2026 — <span class="dleft amber">69 dias</span></div>
+  </div>
+  <div class="prazo">
+    <div class="who">SEJUSC <small>F0 · concluir análise documental</small></div>
+    <div class="bar"><i style="width:10%;background:var(--amber)"></i></div>
+    <div class="meta"><b>R$ 2.589.660,12</b>31/08/2026 — <span class="dleft amber">81 dias</span></div>
+  </div>
+  <div class="prazo">
+    <div class="who">SES/SUSAM <small>F3 · TRD pronto, bloqueado pela decisão D1</small></div>
+    <div class="bar"><i style="width:0%;background:var(--green)"></i></div>
+    <div class="meta"><b>R$ 4.783.356,52</b>~30/09/2026 — <span class="dleft green">~111 dias</span></div>
+  </div>
+
+  <div class="note">⚠️ Contínuo: <b>relatório quinzenal PRODAM</b> — multa de R$ 500/dia de atraso. O de 10/06 está pronto (docx + dashboard na raiz), aguardando sua confirmação de envio. 🛡️ DETRAN tem marco interruptivo (Art. 202 VI CC) registrado com data no passado (20/03/2026) — reconfirmar e atualizar <code>data_prescricao_proxima</code>.</div>
+</section>
+
+<!-- ================= LOCAIS / MANUAIS ================= -->
+<section>
+  <h2>2 · O que só você pode fazer <span class="tag amber">manual / local</span></h2>
+  <p class="desc hint-storage">Marque o que concluir — os checks ficam salvos neste navegador (localStorage).</p>
+
+  <div class="group-h">Explorer — ~5 minutos (o hook anti-destrutivo bloqueia via shell, por decisão sua)</div>
+  <ul class="check">
+    <li><input type="checkbox" id="c1"><label for="c1">Mover <code>.gitignore.backup-20260423-153153</code> e <code>CLAUDE.md.bak.20260507_163710</code> da raiz de <code>DETRAN_AUDITORIA_COMPLETA</code> para <code>_BACKUPS_EMERGENCIA\</code></label></li>
+    <li><input type="checkbox" id="c2"><label for="c2">Apagar <code>RENOMEACOES_20260610_DRYRUN.csv</code> + <code>.json</code> <small>Redundantes — o índice final <code>RENOMEACOES_20260610.csv/.json</code> (com MD5) permanece.</small></label></li>
+  </ul>
+
+  <div class="group-h">Envios e confirmações</div>
+  <ul class="check">
+    <li><input type="checkbox" id="c3"><label for="c3"><b>Confirmar envio do Relatório Quinzenal 10/06 à PRODAM</b> <small>Antes: preencher a Seção 4 (Ações Realizadas) do .docx — foi deixada em branco de propósito para não inventar atos. Depois do envio: decidir destino do docx + dashboard HTML adiados na raiz.</small></label></li>
+    <li><input type="checkbox" id="c4"><label for="c4">Enviar ao Dr. Fábio: Notificação DETRAN v5 + briefing <code>_ATUALIZACAO_v5_PARA_DR_FABIO.md</code> <small>6 decisões pendentes no briefing.</small></label></li>
+    <li><input type="checkbox" id="c5"><label for="c5">Quando a API do GitHub voltar: <code>gh pr view 24</code> <small>Conteúdo já está na main via push direto — só confirmar se o PR ficou merged ou fechar manualmente.</small></label></li>
+  </ul>
+
+  <div class="group-h">Notion — uma vez só (sessão de 10/06)</div>
+  <ul class="check">
+    <li><input type="checkbox" id="c6"><label for="c6">Clicar <b>Run now</b> na tarefa agendada <code>sync-prodam-notion</code> para gravar as permissões</label></li>
+    <li><input type="checkbox" id="c7"><label for="c7">Desativar/excluir o lembrete obsoleto <code>lembrete-conexoes-notion-google</code> na seção Scheduled</label></li>
+    <li><input type="checkbox" id="c8"><label for="c8">Vincular Drive pessoal (gmail) via embed no Notion + agenda no Notion Calendar</label></li>
+  </ul>
+
+  <div class="group-h">Revisão de acervo — sem prazo, em lotes quando der</div>
+  <ul class="check">
+    <li><input type="checkbox" id="c9"><label for="c9">Validar conteúdo de <code>_ORGANIZADO_2026-06-10\</code> antes de qualquer descarte <small>9.476 grupos de quase-duplicatas (33.590 arquivos) exigem julgamento humano · 54.360 em _NAO_IDENTIFICADO · 1.094 DEVEDOR_AMBIGUO · 105 TIPO_DIVERGENTE.</small></label></li>
+    <li><input type="checkbox" id="c10"><label for="c10">Descartar via Explorer as cópias de nome enganoso e a cópia "(1)" do acervo "Arquivos Principais" (sessão 09/06)</label></li>
+  </ul>
+</section>
+
+<!-- ================= DECISÕES ================= -->
+<section>
+  <h2>3 · Decisões aguardando você <span class="tag purple">destravam trabalho</span></h2>
+  <p class="desc">Cada uma bloqueia uma frente. Detalhes completos em <code>.continue-here.md</code> e <code>_QUESTOES_CRITICAS\</code>.</p>
+  <div class="dec-grid">
+    <div class="dec">
+      <h3>D1 — SES/SUSAM: qual é o exigível real?</h3>
+      <p class="opt"><b>A</b> (recomendada): R$ 4.783.356,52 — reconciliação fatura a fatura de 12/05, base do TRD já pronto.</p>
+      <p class="opt"><b>B</b>: R$ 14.748.048,96 — soma bruta SPCF do CSV atual, sem metodologia.</p>
+      <p class="unlock">→ Destrava o envio do TRD (item 1.6 do roadmap)</p>
+    </div>
+    <div class="dec">
+      <h3>D2 — Restaurar profiles.json pós-drift de 13/05</h3>
+      <p class="opt"><b>R1</b> (recomendada): restauração total do backup <code>profiles_PRE-REVERSAO-DRIFT-20260513</code>.</p>
+      <p class="opt"><b>R2</b>: seletiva (SES/SUSAM, SSP, SEJUSC, FENIXSOFT) · <b>R3</b>: migrar CSV p/ esquema completo.</p>
+    </div>
+    <div class="dec">
+      <h3>D3 — SSP: 125 evidências de reconhecimento</h3>
+      <p>Validar se são adversarialmente sustentáveis nos PDFs originais (Art. 202 VI CC). Critério de aceite: ≥60% tipo E ou B.</p>
+      <p class="unlock">→ Relevante para o protocolo de 30/06</p>
+    </div>
+    <div class="dec">
+      <h3>DETRAN — alinhar valor no profiles.json</h3>
+      <p>Perfil-mãe registra exigível <b>R$ 0,00</b>; o valor canônico do sub-projeto é <b>R$ 28.196.572,22</b>. Alinhar campos antes de qualquer peça.</p>
+    </div>
+    <div class="dec">
+      <h3>Estender renomeação DETRAN aos não-CSV?</h3>
+      <p>Sessão 2 cobriu 229 CSVs; restam ~1.282 arquivos do mesmo padrão (HTML/JSON/XLSX/MD). O script <code>rename_csvs_sessao2_20260610.py</code> generaliza trivialmente.</p>
+    </div>
+    <div class="dec">
+      <h3>Issues opt-in aguardando OK por item</h3>
+      <p>Issue 16 §2/§3 (hooks/MCP/subagentes) · Issue 13 (skill run-prodam) · Issue 10 (refactor <code>fmt_brl</code> strict-Decimal, needs-triage).</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REALIZADO ================= -->
+<section>
+  <h2>4 · Realizado nas últimas sessões <span class="tag green">09–10/06</span></h2>
+  <div class="tl">
+
+    <div class="tl-item">
+      <div class="when">09/06 · Cowork</div>
+      <h3>Skill organizador-arquivos-prodam criada + acervo "Arquivos Principais" organizado</h3>
+      <ul>
+        <li>Skill em <code>PRODAM_DOCS/_SKILLS</code> — modo cópia não-destrutivo, dry-run padrão, MD5, manifesto JSON+CSV+XLSX</li>
+        <li>16 arquivos copiados (MD5 16/16), 3 duplicatas puladas; Ofício PRESI/045/2026 desmascarado de nome enganoso</li>
+        <li>17 itens reclassificados como <code>_INSTITUCIONAL_CONTRATO-002-2026</code></li>
+      </ul>
+      <div class="probs"><b>Problemas</b>Loop medido de disparo não rodou (CLI sem login no Cowork); rm bloqueado deixou subpastas vazias + artefato de teste no _MANIFESTO.</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="when">10/06 · manhã/tarde</div>
+      <h3>Hub PRODAM no Notion + conexões Google</h3>
+      <ul>
+        <li>Hub com KPIs/alertas/pipeline; database com os 69 devedores e 3 views (kanban/alertas)</li>
+        <li>Sync diária agendada (~08h) lendo <code>STATUS_DEVEDORES.md</code>; conexões Drive 2/2, Gmail 2/2, Calendar</li>
+      </ul>
+      <div class="probs"><b>Problemas</b>profiles.json truncado pelo mount do sandbox (workaround via caminho Windows); lembrete com 1h de erro de relógio.</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="when">10/06 · tarde</div>
+      <h3>Panorama do portfólio + dashboard quinzenal + profiles.json restaurado</h3>
+      <ul>
+        <li><b>profiles.json corrompido detectado e restaurado</b> do snapshot de 09/06, validado (69 devedores)</li>
+        <li>Dashboard HTML autocontido (6 seções, tabela com filtros) + Relatório quinzenal .docx no padrão PRODAM, soma validada</li>
+        <li>3 agendamentos pontuais: SSP/SUHAB 24/06 · SEJUSC 01/08 · DETRAN 05/08</li>
+      </ul>
+      <div class="probs"><b>Problemas</b>Truncamento aconteceu na gravação do recálculo de 09/06 (meio de SETRAB) — investigar e implementar escrita atômica.</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="when">10/06 · tarde</div>
+      <h3>Organização não-destrutiva do acervo completo (91.256 arquivos, 32,4 GB)</h3>
+      <ul>
+        <li>70.298 cópias únicas em <code>_ORGANIZADO_2026-06-10</code> (19,3 GB), árvore devedor→tipo, origem intocada</li>
+        <li>MD5 100% origem==destino + spot-check independente 300/300; 20.958 duplicatas exatas não recopiadas (~13,4 GB poupados)</li>
+        <li>70.250 renomeados no padrão <code>DEVEDOR_TAG</code>; auditoria final: 0 faltantes, 0 erros</li>
+      </ul>
+      <div class="probs"><b>Problemas</b>140 zero-bytes flagados (possíveis downloads falhos); 4 resíduos técnicos a remover; 105 TIPO_DIVERGENTE p/ revisão.</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="when">10/06 · noite</div>
+      <h3>Sessão 2 DETRAN: renomeação forense de 229 CSVs + sync GitHub</h3>
+      <ul>
+        <li>Grep prévio: nenhum script ativo quebra; script forense com MD5, dry-run, detecção de colisão, exclusão de junctions</li>
+        <li>224 strip de prefixo redundante + 5 desambiguados com <code>_V1</code>; índice CSV+JSON com MD5 — rollback integral possível</li>
+        <li>Verificação em 3 categorias: 100%; 40 PDFs intactos por invariante; commits <code>031b20a0</code> → <code>2cd32afb</code> pushed</li>
+      </ul>
+      <div class="probs"><b>Problemas</b>Hook anti-destrutivo disparou 3× (B1–B3) — nenhum contornado, por sua decisão; moves/removes viraram as pendências Explorer da seção 2.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PRÓXIMA SESSÃO ================= -->
+<section>
+  <h2>5 · Para pedir ao Claude na próxima sessão <span class="tag blue">automatizável</span></h2>
+  <ul class="check">
+    <li><input type="checkbox" id="s1"><label for="s1"><b>Sanear 79 violações de citação</b> em <code>_ORGANIZADO_2026-06-10\</code> <small>Pré-requisito para trackear a pasta — hoje o CI (<code>test_projeto_inteiro_passa</code>) quebraria.</small></label></li>
+    <li><input type="checkbox" id="s2"><label for="s2"><b>Triagem dos 18 devedores SEM_d_plus</b> (R$ 6,58M no limbo) <small>Item 2.2 do roadmap — 100% acionável, sem gate.</small></label></li>
+    <li><input type="checkbox" id="s3"><label for="s3">Levantar vencimentos dos <b>9 devedores sem data de prescrição</b> <small>AADESAM · BRADESCO · CASA MILITAR · CGE · FJJA · FMPES · SEJEL · SETRAB · UGPI.</small></label></li>
+    <li><input type="checkbox" id="s4"><label for="s4">Conferir metodologia do recálculo de prescrição de 09/06 (~30 devedores com datas novas) + implementar escrita atômica do profiles.json</label></li>
+    <li><input type="checkbox" id="s5"><label for="s5">Itemizar as 69 faturas "fora do universo" (SES/SUSAM 62 · SEJUSC 6 · SSP 1)</label></li>
+    <li><input type="checkbox" id="s6"><label for="s6">Pipelines pendentes: <b>ADS</b> (crítico de prescrição, R$ 211,7K) · FENIXSOFT · SEDUC (R$ 49,2M, <code>orgao_pipeline_completa.py --orgao SEDUC</code>)</label></li>
+    <li><input type="checkbox" id="s7"><label for="s7">Reduzir Ofício LAI 003/2026 de 4 → 2 contratos (CT 023/2014 + CT 179/2018) antes da assinatura</label></li>
+    <li><input type="checkbox" id="s8"><label for="s8">Pendência B1 DETRAN: 89 faturas em <code>88_FATURAS_RECONCILIAR.csv</code> (decisão jurídica fatura a fatura — preparar análise)</label></li>
+    <li class="done"><input type="checkbox" id="s9" checked disabled><label for="s9">Atualizar <code>test_exatamente_13_regras</code> <small>✅ Já corrigido no commit <code>96be876d</code> — o item 7 do TASKS.md está obsoleto; pode marcar lá.</small></label></li>
+  </ul>
+</section>
+
+<!-- ================= ESTADO TÉCNICO ================= -->
+<section>
+  <h2>6 · Estado técnico do repositório <span class="tag blue">main = 68bea75f</span></h2>
+  <p class="desc">5 arquivos modificados por outra sessão ficaram <b>de propósito fora dos commits</b> — a decisão de commitar é sua.</p>
+  <table>
+    <thead><tr><th>Arquivo</th><th>Estado</th><th>O que mudou</th></tr></thead>
+    <tbody>
+      <tr><td><code>CLAUDE.md</code></td><td>M</td><td>Só timestamp da regeneração (21:32)</td></tr>
+      <tr><td><code>PLAYBOOK_ORGAOS_V2.md</code></td><td>M</td><td>Só timestamp</td></tr>
+      <tr><td><code>WORKFLOW_COBRANCA.md</code></td><td>M</td><td>Só timestamp</td></tr>
+      <tr><td><code>STATUS_DEVEDORES.md</code></td><td>M</td><td>+60 linhas: seção "Priorização analítica" (ranking de 51 devedores, score composto, E[V])</td></tr>
+      <tr><td><code>scripts/auto_update_claude_md.py</code></td><td>M</td><td>+62/−9: helper <code>_sobra_chaves</code>, gerador da priorização, nosemgrep em falso-positivo</td></tr>
+      <tr><td><code>Dashboard_..._Quinzenal_2026-06-10.html</code></td><td>??</td><td>Untracked até confirmação de envio do quinzenal (item 6)</td></tr>
+      <tr><td><code>_ORGANIZADO_2026-06-10/</code></td><td>??</td><td>Untracked até sanear as 79 violações (item 7)</td></tr>
+    </tbody>
+  </table>
+
+  <div class="group-h" style="margin-top:20px">Fila do pipeline (próximo passo · 69 devedores)</div>
+  <div class="fila">
+    <div class="fchip"><b>36</b>Analisar documentação</div>
+    <div class="fchip"><b>17</b>Classificar</div>
+    <div class="fchip"><b>9</b>Enviar TRD</div>
+    <div class="fchip"><b>5</b>Protocolar petição</div>
+    <div class="fchip"><b>1</b>Avaliar sucessão (SETRAB)</div>
+    <div class="fchip"><b>1</b>Habilitação (BANCO MASTER · R$ 889.270,87)</div>
+  </div>
+</section>
+
+<footer>
+  Fontes: <code>TASKS.md</code> · <code>.continue-here.md</code> · 5 registros em <code>relatorios\sessoes\</code> · <code>STATUS_DEVEDORES.md</code>.<br>
+  Valores monetários conforme SSOT (<code>PRODAM_DOCS/profiles.json</code>). Documento de trabalho interno — conferir números antes de uso com PRODAM ou juízo.<br>
+  Gerado em 11/06/2026 · Dias restantes calculados a partir desta data.
+</footer>
+
+</div>
+<script>
+// Persistência dos checkboxes no localStorage do navegador
+(function(){
+  var KEY='prodam_pend_20260611_';
+  document.querySelectorAll('ul.check input[type=checkbox]:not([disabled])').forEach(function(cb){
+    if(localStorage.getItem(KEY+cb.id)==='1'){cb.checked=true;cb.closest('li').classList.add('done');}
+    cb.addEventListener('change',function(){
+      localStorage.setItem(KEY+cb.id,cb.checked?'1':'0');
+      cb.closest('li').classList.toggle('done',cb.checked);
+    });
+  });
+})();
+</script>
+</body>
+</html>

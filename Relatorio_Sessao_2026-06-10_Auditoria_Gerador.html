@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relatório de Sessão — Auditoria do Gerador (10/06/2026)</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --ok: #15803d;
+    --ok-bg: #dcfce7;
+    --warn: #b45309;
+    --warn-bg: #fef3c7;
+    --bad: #b91c1c;
+    --bad-bg: #fee2e2;
+    --info: #1d4ed8;
+    --info-bg: #dbeafe;
+    --accent: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.55;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 28px 20px 60px; }
+  header {
+    background: linear-gradient(135deg, #0f766e, #134e4a);
+    color: #fff;
+    border-radius: 14px;
+    padding: 26px 28px;
+    margin-bottom: 24px;
+  }
+  header h1 { margin: 0 0 6px; font-size: 1.45rem; }
+  header p { margin: 0; opacity: .85; font-size: .95rem; }
+  .badges { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .badge {
+    background: rgba(255,255,255,.15);
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: .82rem;
+    font-weight: 600;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-bottom: 18px;
+  }
+  h2 {
+    margin: 0 0 14px;
+    font-size: 1.12rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  h2 .tag {
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+  .tag-ok   { background: var(--ok-bg);   color: var(--ok); }
+  .tag-warn { background: var(--warn-bg); color: var(--warn); }
+  .tag-bad  { background: var(--bad-bg);  color: var(--bad); }
+  .tag-info { background: var(--info-bg); color: var(--info); }
+  ul { margin: 0; padding-left: 22px; }
+  li { margin-bottom: 9px; }
+  li:last-child { margin-bottom: 0; }
+  code {
+    background: #f3f4f6;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 1px 6px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: .85em;
+  }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: .9rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #f9fafb; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
+  .pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: .78rem; font-weight: 700; white-space: nowrap; }
+  .pill-ok   { background: var(--ok-bg);   color: var(--ok); }
+  .pill-warn { background: var(--warn-bg); color: var(--warn); }
+  .pill-bad  { background: var(--bad-bg);  color: var(--bad); }
+  .pill-info { background: var(--info-bg); color: var(--info); }
+  .note {
+    background: var(--info-bg);
+    border-left: 4px solid var(--info);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    margin-top: 14px;
+    font-size: .92rem;
+  }
+  .note.warn { background: var(--warn-bg); border-left-color: var(--warn); }
+  .cmd {
+    background: #111827;
+    color: #d1d5db;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: .84rem;
+    overflow-x: auto;
+    white-space: pre;
+    margin-top: 10px;
+  }
+  footer { text-align: center; color: var(--muted); font-size: .82rem; margin-top: 26px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
+  .mini {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .mini h3 { margin: 0 0 8px; font-size: .95rem; }
+  .num { font-size: 1.6rem; font-weight: 800; color: var(--accent); }
+  .num small { font-size: .8rem; font-weight: 600; color: var(--muted); display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Relatório de Sessão — Auditoria do Gerador <code style="background:rgba(255,255,255,.15);border:none;color:#fff">auto_update_claude_md.py</code></h1>
+  <p>PROJETO PRODAM · Contrato 002/2026 · Sessão de 10/06/2026 (madrugada de 11/06)</p>
+  <div class="badges">
+    <span class="badge">✅ 159/159 testes verdes</span>
+    <span class="badge">🔧 2 fixes aplicados (#1 e #7)</span>
+    <span class="badge">📋 5/7 achados já estavam resolvidos</span>
+    <span class="badge">✅ Commit 68474f65 feito (6 arquivos)</span>
+  </div>
+</header>
+
+<!-- ============ RESUMO EM NÚMEROS ============ -->
+<section>
+  <h2>Resumo em números</h2>
+  <div class="grid2">
+    <div class="mini"><div class="num">7 → 2<small>achados da auditoria → genuinamente abertos (5 já corrigidos no refactor de 09/06)</small></div></div>
+    <div class="mini"><div class="num">159/159<small>testes pytest passando (antes: 158 + 1 falha)</small></div></div>
+    <div class="mini"><div class="num">51/69<small>devedores agora com priorização analítica visível no STATUS_DEVEDORES.md</small></div></div>
+    <div class="mini"><div class="num">20 GB<small>de cópias em <code>_ORGANIZADO_2026-06-10/</code> aguardando sua decisão</small></div></div>
+  </div>
+</section>
+
+<!-- ============ O QUE FOI FEITO ============ -->
+<section>
+  <h2>1. O que foi feito <span class="tag tag-ok">concluído</span></h2>
+  <ul>
+    <li><strong>Reavaliação dos 7 achados da auditoria:</strong> 5 deles (float→Decimal, <code>normalizador.py</code>, scripts-fantasma, skills-fantasma, contagem 70→69) <strong>já tinham sido corrigidos</strong> no refactor de 09/06. Evitou-se "re-consertar" código já correto — só os achados #1 e #7 precisavam de ação real.</li>
+    <li><strong>Fix #1 — Priorização analítica no STATUS_DEVEDORES.md:</strong> o gerador agora expõe os campos ricos do <code>profiles.json</code> (score composto, probabilidade de recuperação, valor esperado E[V], urgência de prescrição) numa tabela ordenada por rank. Exemplo renderizado: DETRAN em 1º (score 93,2 · P.rec 95% · E[V] R$ 26,79 mi · PROTEGIDA_ART202_VI); SEDUC em 2º (score 80,0 · E[V] R$ 34,45 mi · PRESCRITA). 51 dos 69 devedores têm rank.</li>
+    <li><strong>Fix #7 — Blindagem da Seção 2 do CLAUDE.md:</strong> novo helper <code>_sobra_chaves()</code> no gerador detecta se aparecer uma categoria ou força fora do conjunto esperado (ex.: um devedor classificado com chave nova) e anexa um ⚠️ visível. Hoje está silencioso porque as somas batem: 26+21+22 = 69 e 12+15+42 = 69.</li>
+    <li><strong>Falso positivo do Semgrep suprimido:</strong> o aviso de SQL-injection em <code>_query_db_counts</code> era falso (o nome da tabela vem do próprio <code>sqlite_master</code> local; SQLite não permite parametrizar identificador). Suprimido com <code># nosemgrep</code> inline — edits no gerador não são mais bloqueados pelo hook.</li>
+    <li><strong>Teste vermelho diagnosticado e corrigido na raiz:</strong> a única falha da suíte (79 violações do lint anti-Teori) vinha 100% de <code>_ORGANIZADO_2026-06-10/</code>. Investigação provou que essa pasta é <strong>cópia</strong> (manifesto com <code>acao=COPIAR</code> + MD5 por arquivo; originais intactos — nenhum PDF foi movido). Solução: <code>"_ORGANIZADO"</code> adicionado a <code>EXCLUIR_PREFIXOS</code> do <code>validar_citacoes.py</code>, mesma categoria de exclusão de <code>_BACKUPS</code> e <code>_ARQUIVO_DRIFT</code>. Re-execução: <strong>159 passed</strong>.</li>
+    <li><strong>Identidade de <code>_ORGANIZADO_2026-06-10/</code> esclarecida:</strong> saída da skill organizador-arquivos-prodam v2 rodada em 10/06 — 70.292 arquivos / 20 GB copiados (15.430 PDFs duplicados), com 77% caindo em <code>_NAO_IDENTIFICADO</code> (classificação fraca dessa rodada).</li>
+    <li><strong>Limpeza:</strong> script temporário <code>_diag_campos_profiles.py</code> removido.</li>
+  </ul>
+</section>
+
+<!-- ============ O QUE FALTA FAZER ============ -->
+<section>
+  <h2>2. O que falta você fazer <span class="tag tag-warn">pendente</span></h2>
+  <table>
+    <thead><tr><th>Pendência</th><th>Detalhe</th><th>Urgência</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Commit das mudanças locais</strong></td>
+        <td><strong>✅ Feito</strong> — commit <code>68474f65</code> (11/06 07:02): <code>scripts/auto_update_claude_md.py</code> (fixes #1/#7 + nosemgrep), <code>scripts/validar_citacoes.py</code> (exclusão _ORGANIZADO) e 4 .md regenerados (CLAUDE.md, STATUS_DEVEDORES.md, WORKFLOW_COBRANCA.md, PLAYBOOK_ORGAOS_V2.md).</td>
+        <td><span class="pill pill-ok">Concluída</span></td>
+      </tr>
+      <tr>
+        <td><strong>Decidir destino dos 20 GB</strong></td>
+        <td><code>_ORGANIZADO_2026-06-10/</code> é cópia derivada (originais seguros). Opções: (a) manter como está; (b) re-rodar o organizador com classificação melhor — 77% caiu em _NAO_IDENTIFICADO; (c) apagar a cópia pra recuperar espaço (com validação MD5 origem=destino por amostra antes — só com seu OK explícito).</td>
+        <td><span class="pill pill-info">Média</span></td>
+      </tr>
+      <tr>
+        <td><strong>Originais dos ~21 docs legados com citação Teori errada</strong></td>
+        <td>Notificações/dossiês antigos (ADS, DETRAN, SEAD, SEDUC, SES/SUSAM, SSP) que citam "Rel. Min. Teori Zavascki" sem ressalva — pré-cascata de 12/05, já rastreados em <code>_QUESTOES_CRITICAS\cascata_teori_jose_delgado_2026-05-12.md</code>. Só relevante se algum for reusado como modelo.</td>
+        <td><span class="pill pill-info">Baixa</span></td>
+      </tr>
+      <tr>
+        <td><strong>Prescrições do portfólio</strong> (contexto, não desta sessão)</td>
+        <td>🔴 SSP (R$ 4,55 mi) e SUHAB (R$ 840 mil) prescrevem em <strong>30/06/2026</strong>; 🟡 SEJUSC (R$ 2,59 mi) em 31/08/2026.</td>
+        <td><span class="pill pill-bad">Crítica</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <strong>Comando de commit:</strong> já executado — virou o commit <code>68474f65</code> em 11/06 às 07:02. Nada a fazer aqui.
+  </div>
+</section>
+
+<!-- ============ O QUE MELHOROU ============ -->
+<section>
+  <h2>3. O que melhorou <span class="tag tag-ok">ganhos</span></h2>
+  <ul>
+    <li><strong>Visibilidade analítica:</strong> score, E[V] e probabilidade de recuperação de 51 devedores saíram do JSON cru e agora aparecem prontos no <code>STATUS_DEVEDORES.md</code> a cada sincronização — base direta pra decidir ordem de ataque do portfólio.</li>
+    <li><strong>Gerador à prova de chave nova:</strong> se um devedor for cadastrado com categoria/força fora do padrão, a Seção 2 do CLAUDE.md passa a gritar (⚠️) em vez de somar errado em silêncio.</li>
+    <li><strong>Suíte 100% verde:</strong> CI volta a ser sinal confiável — antes a falha conhecida em <code>test_projeto_inteiro_passa</code> mascararia qualquer regressão nova no mesmo teste.</li>
+    <li><strong>Lint anti-alucinação mais preciso:</strong> escaneia só o que importa (repo vivo), sem ruído de 79 falsos alarmes vindos de cópias históricas. Confirmado: as 82 ocorrências de "Teori Zavascki" fora de _ORGANIZADO estão todas com salvaguarda correta.</li>
+    <li><strong>Fluxo de edição desbloqueado:</strong> o falso positivo do Semgrep não trava mais edits no gerador.</li>
+  </ul>
+</section>
+
+<!-- ============ O QUE PIOROU ============ -->
+<section>
+  <h2>4. O que piorou / riscos <span class="tag tag-bad">atenção</span></h2>
+  <ul>
+    <li><strong>20 GB duplicados no disco:</strong> a rodada do organizador copiou o acervo inteiro (15.430 PDFs duplicados) pra <code>_ORGANIZADO_2026-06-10/</code>. Não é dano — originais intactos — mas é espaço ocupado e uma segunda "versão" do acervo que pode confundir.</li>
+    <li><strong>Docs com citação errada fora do radar do lint:</strong> as ~21 cópias legadas que citam Teori como relator do REsp 793.969/RJ agora estão <em>excluídas</em> do scan (por design — são cópias de erro já rastreado). Risco: alguém abrir um doc de <code>_ORGANIZADO</code> e usá-lo como modelo de petição/notificação. <strong>Regra prática: nunca usar documento de _ORGANIZADO como modelo — sempre partir de DOCUMENTOS_GERADOS/ ou das skills.</strong></li>
+    <li><strong>77% não-identificado:</strong> 54.357 arquivos caíram em <code>_NAO_IDENTIFICADO</code> nessa rodada do organizador — a classificação por devedor ficou fraca, então a pasta organizada tem pouco valor de navegação no estado atual.</li>
+  </ul>
+  <div class="note warn">
+    <strong>Lembrete (regra do projeto):</strong> citar o REsp 793.969/RJ sempre como <em>"Rel. p/ acórdão Min. José Delgado (Min. Teori Zavascki vencido)"</em>. O lint <code>validar_citacoes.py</code> continua guardando o repo vivo contra esse erro.
+  </div>
+</section>
+
+<!-- ============ PRÓXIMOS PASSOS ============ -->
+<section>
+  <h2>5. Próximos passos <span class="tag tag-info">roteiro</span></h2>
+  <table>
+    <thead><tr><th>#</th><th>Passo</th><th>Quem</th><th>Quando</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>✅ Commit dos 6 arquivos — feito (<code>68474f65</code>)</td><td>Você</td><td>Concluído</td></tr>
+      <tr><td>2</td><td>Tratar SSP e SUHAB (prescrição 30/06) — SSP está em PROTOCOLAR_PETICAO</td><td>Você + Claude</td><td>≤ 19 dias</td></tr>
+      <tr><td>3</td><td>Decidir destino de <code>_ORGANIZADO_2026-06-10/</code> (manter / re-rodar / apagar cópia)</td><td>Você (decisão)</td><td>Esta semana</td></tr>
+      <tr><td>4</td><td>Se decidir re-rodar o organizador: melhorar a taxa de identificação antes (77% caiu em _NAO_IDENTIFICADO)</td><td>Claude</td><td>Após o passo 3</td></tr>
+      <tr><td>5</td><td>Conferir os originais dos ~21 docs legados da issue cascata Teori→José Delgado, se forem reaproveitados</td><td>Claude (sob demanda)</td><td>Quando necessário</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  Relatório gerado em 10/06/2026 · PROJETO PRODAM — Contrato 002/2026 · Arquivo standalone (sem dependências externas)
+</footer>
+
+</div>
+</body>
+</html>
