@@ -45,7 +45,6 @@ _ARCHIVE_CLAUDE/
 # Pacotes de terceiros baixados (vendored) e artefatos de teste — nao versionar
 impeccable-main/
 awesome-design-md-main/
-datadog-agent/
 coverage/
 
 # Backups locais de arquivos regenerados
