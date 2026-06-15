@@ -133,24 +133,70 @@ def faturas_do_dossie(dossie: dict) -> list[dict]:
     return out
 
 
+def _coalesce_data(*candidatos) -> date | None:
+    """Primeira string que parseia como data (BR dd/mm/aaaa ou ISO)."""
+    for v in candidatos:
+        if not v:
+            continue
+        d = parse_br_date(str(v))
+        if d is None:
+            try:
+                d = date.fromisoformat(str(v)[:10])
+            except ValueError:
+                d = None
+        if d is not None:
+            return d
+    return None
+
+
+def _venc_de_parsed(parsed) -> date | None:
+    """Tenta extrair vencimento real do JSON `fatura_parsed`: pega o primeiro
+    campo cuja chave contém 'venc' e cujo valor parseia como data."""
+    if not parsed:
+        return None
+    try:
+        d = json.loads(parsed) if isinstance(parsed, (str, bytes)) else parsed
+    except (json.JSONDecodeError, TypeError, ValueError):
+        return None
+    if not isinstance(d, dict):
+        return None
+    for k, v in d.items():
+        if "venc" in str(k).lower():
+            dt = _coalesce_data(v)
+            if dt is not None:
+                return dt
+    return None
+
+
 def faturas_do_db(db_path: Path, orgao: str, situacoes: tuple[str, ...]) -> list[dict]:
     """Carrega faturas do prodam.db (máquina local). Introspecta colunas para
-    achar vencimento/valor; falha alto se não achar.
+    achar valor/cliente/contrato e o vencimento — que pode vir (em ordem) de
+    coluna dedicada, do JSON `fatura_parsed`, ou ESTIMADO da competência
+    (fim do mês + 30d, igual ao dossiê). Falha alto só na ausência de valor,
+    cliente ou de qualquer base de data.
 
     `situacoes` restringe o universo às faturas em aberto (mesma semântica do
     dossiê: 'Emitida' + 'Parcialmente Paga') — sem o filtro, o DB local traria
     também quitadas/canceladas e inflaria o memorial silenciosamente."""
     con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
     cols = {r[1].lower() for r in con.execute("PRAGMA table_info(spcf_faturas)")}
-    col_venc = next((c for c in ("data_vencimento", "vencimento", "dt_vencimento") if c in cols), None)
     col_val = next((c for c in ("valor_bruto", "valor", "val_bruto") if c in cols), None)
     col_cli = next((c for c in ("cliente", "devedor", "orgao") if c in cols), None)
-    if not (col_venc and col_val and col_cli):
-        raise SystemExit(f"ERRO: spcf_faturas sem colunas esperadas (venc/valor/cliente). Colunas: {sorted(cols)}")
+    col_ct = next((c for c in ("contrato_num", "contrato", "contrato_id") if c in cols), None)
+    col_venc = next((c for c in ("data_vencimento", "vencimento", "dt_vencimento") if c in cols), None)
+    col_comp = "competencia" if "competencia" in cols else None
+    col_parsed = "fatura_parsed" if "fatura_parsed" in cols else None
+    if not (col_val and col_cli):
+        raise SystemExit(f"ERRO: spcf_faturas sem coluna de valor/cliente. Colunas: {sorted(cols)}")
+    if not (col_venc or col_comp or col_parsed):
+        raise SystemExit("ERRO: spcf_faturas sem vencimento, competência ou fatura_parsed "
+                         f"para derivar a data. Colunas: {sorted(cols)}")
+    sel = ["id", "nf", col_ct or "NULL", col_comp or "NULL",
+           col_venc or "NULL", "situacao", col_val, col_parsed or "NULL"]
     marcadores = ",".join("?" for _ in situacoes)
     rows = con.execute(
-        f"SELECT id, nf, contrato, competencia, {col_venc}, situacao, {col_val} "
-        f"FROM spcf_faturas WHERE upper({col_cli}) LIKE ? AND situacao IN ({marcadores})",
+        f"SELECT {', '.join(sel)} FROM spcf_faturas "
+        f"WHERE upper({col_cli}) LIKE ? AND situacao IN ({marcadores})",
         (f"%{orgao.upper()}%", *situacoes),
     ).fetchall()
     descartadas = con.execute(
@@ -165,16 +211,26 @@ def faturas_do_db(db_path: Path, orgao: str, situacoes: tuple[str, ...]) -> list
     if not rows:
         raise SystemExit(f"ERRO: nenhuma fatura de {orgao} em {db_path} "
                          f"(LIKE em {col_cli}, situacao IN {situacoes}).")
-    out = []
-    for (fid, nf, ct, comp, venc_s, sit, val) in rows:
-        venc = parse_br_date(venc_s) or (date.fromisoformat(str(venc_s)[:10]) if venc_s else None)
+    out, n_estimados = [], 0
+    for (fid, nf, ct, comp, venc_s, sit, val, parsed) in rows:
+        venc = _coalesce_data(venc_s) or _venc_de_parsed(parsed)
+        estimado = False
         if venc is None:
-            raise SystemExit(f"ERRO: fatura {fid} sem vencimento parseável: {venc_s!r}")
+            c = parse_comp(comp)
+            if c is None:
+                raise SystemExit(f"ERRO: fatura {fid} sem vencimento/competência parseável "
+                                 f"(venc={venc_s!r} comp={comp!r}).")
+            venc = fim_do_mes(c) + timedelta(days=30)
+            estimado = True
+            n_estimados += 1
         out.append({
             "id": str(fid), "nf": str(nf or ""), "contrato": str(ct or ""),
-            "competencia": comp, "vencimento": venc, "vencimento_estimado": False,
+            "competencia": comp, "vencimento": venc, "vencimento_estimado": estimado,
             "situacao": sit or "", "cadeia": "", "valor_bruto": brl(str(val)),
         })
+    if n_estimados:
+        print(f"  AVISO: {n_estimados}/{len(out)} faturas sem vencimento real no DB — "
+              f"estimado pela competência (fim do mês + 30d). Confirmar venc. real antes de peça externa.")
     return out
 
 
