@@ -1,5 +1,7 @@
 # Banco de dados (fica so local)
 *.db
+*.db-wal
+*.db-shm
 *.sqlite
 *.sqlite3
 
@@ -11,6 +13,13 @@
 PRODAM_DOCS/
 SPCF_EXTRACAO/
 detran_dashboard/
+
+# Saida do organizador de acervo (copias + manifesto, dezenas de GB — so local)
+_ORGANIZADO_*/
+
+# Ferramentas/configs locais (nao versionar)
+datadog-agent/
+*.code-workspace
 
 # Python
 __pycache__/
