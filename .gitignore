@@ -94,3 +94,8 @@ chromadb/
 # Pastas de saída genéricas
 outputs/
 output/
+
+# claude-mem litter: ignora CLAUDE.md de subpasta; mantém só o canônico da raiz
+# (gerado por scripts/auto_update_claude_md.py). Para versionar um sub-CLAUDE real: git add -f caminho
+**/CLAUDE.md
+!/CLAUDE.md
